@@ -15,10 +15,11 @@ from dataclasses import dataclass, field
 SEUIL_LONG = 2400        # caracteres de synthese a partir desquels l'article tient une demi-page
 PLAFOND_LONG = 2800
 PLAFOND_COURT = 1100
-PLANCHER_COURT = 700
+PLANCHER_COURT = 1000    # un quart de page doit etre plein
 RATIO = 0.40
 SCORE_ESSENTIEL = 9
-TEXTE_MINIMUM = 1000     # en dessous, l'article ne peut faire qu'une breve
+TEXTE_MINIMUM = 2500     # en dessous (article payant, extrait partiel), seulement une breve :
+                         # 40 % de 2500 = 1000 caracteres, de quoi remplir un quart de page
 
 
 def quarts_de_contenu(pages: int) -> int:

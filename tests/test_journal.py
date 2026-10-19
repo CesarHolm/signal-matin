@@ -249,7 +249,7 @@ def test_gabarit_long_ou_court():
     assert mep.gabarit(16000) == ("long", 2800)
     assert mep.gabarit(6500)[0] == "long"
     assert mep.gabarit(4400) == ("court", 1100)   # 40 % = 1760 : trop court pour une demi-page
-    assert mep.gabarit(2300) == ("court", 920)
+    assert mep.gabarit(2500) == ("court", 1000)   # minimum pour un quart plein
     assert mep.gabarit(600)[1] <= 420            # jamais plus de 70 % d'un texte bref
 
 
