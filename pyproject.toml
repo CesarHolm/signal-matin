@@ -22,6 +22,9 @@ dependencies = [
   "pypdf>=5.0",
   "python-dotenv>=1.0",
   "PyYAML>=6.0",
+  "anthropic>=0.70",
+  "trafilatura>=2.0",
+  "pypdfium2>=4.30",
 ]
 
 [project.optional-dependencies]
@@ -46,6 +49,8 @@ packages = ["src/signal_matin"]
 [tool.hatch.build.targets.wheel.force-include]
 "src/signal_matin/assets/signal_matin.css" = "signal_matin/assets/signal_matin.css"
 "src/signal_matin/assets/signal_matin_pagination.js" = "signal_matin/assets/signal_matin_pagination.js"
+"src/signal_matin/journal/journal.css" = "signal_matin/journal/journal.css"
+"src/signal_matin/journal/vocabulaire_base.json" = "signal_matin/journal/vocabulaire_base.json"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

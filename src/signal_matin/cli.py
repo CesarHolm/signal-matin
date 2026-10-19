@@ -141,14 +141,46 @@ def build_parser() -> argparse.ArgumentParser:
         "--show-url-only", action="store_true",
         help="affiche le favori privé sans démarrer un second serveur",
     )
+    journal = sub.add_parser("journal", help="édition personnalisée : génère le PDF du jour")
+    journal.add_argument("--config", default="config.yaml", help="fichier YAML local")
+    journal.add_argument("--sans-ia", action="store_true", help="force le mode secours (aucun appel IA)")
+    journal.add_argument("--essai", action="store_true",
+                         help="n'enregistre pas l'édition (mots et solutions non mémorisés)")
+    journal.add_argument("--imprimer", action="store_true", help="imprime le PDF une fois généré")
+    imprimer = sub.add_parser("journal-imprimer", help="imprime l'édition personnalisée du jour")
+    imprimer.add_argument("--config", default="config.yaml", help="fichier YAML local")
+    imprimer.add_argument("--date", type=_date, default=dt.date.today())
     auth = sub.add_parser("auth-google", help="connecte Google Calendar en lecture seule")
     auth.add_argument("--config", default="config.yaml")
     return parser
 
 
+def _imprimer_journal(config: dict, pdf_path: Path) -> int:
+    printer = str(setting(config, "printing.printer", "") or "")
+    duplex = bool(setting(config, "printing.duplex", True))
+    result = print_pdf(pdf_path, printer=printer, duplex=duplex, execute=True)
+    print(f"{result.pages} pages envoyées à {result.printer}" + (" en recto verso." if duplex else "."))
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     config = load_config(args.config)
+    if args.command == "journal":
+        from .journal.edition import produire, publier
+        resultat = produire(config, avec_ia=not args.sans_ia)
+        for avertissement in resultat["edition"]["avertissements"]:
+            print(f"! {avertissement}")
+        pdf_path = publier(resultat, memoriser=not args.essai)
+        if args.imprimer:
+            return _imprimer_journal(config, pdf_path)
+        return 0
+    if args.command == "journal-imprimer":
+        pdf_path = ROOT / "output" / "pdf" / f"{args.date.isoformat()}-signal-matin.pdf"
+        if not pdf_path.is_file():
+            print(f"Aucun journal pour le {args.date:%d/%m/%Y} : {pdf_path}")
+            return 1
+        return _imprimer_journal(config, pdf_path)
     if args.command == "auth-google":
         token = authorize_google(setting(config, "calendar.google", {}) or {}, ROOT)
         print(f"Jeton OAuth enregistre localement: {token}")

@@ -56,6 +56,25 @@ def _choose(name: str) -> str:
     return physical[0]
 
 
+def _pdf_en_images(path: Path, dossier: Path, dpi: int = 180) -> None:
+    """Convertit chaque page en PNG (pdftoppm s'il est installe, sinon pypdfium2)."""
+    pdftoppm = shutil.which("pdftoppm")
+    if pdftoppm:
+        subprocess.run([pdftoppm, "-png", "-r", str(dpi), str(path), str(dossier / "page")], check=True)
+        return
+    try:
+        import pypdfium2 as pdfium
+    except ImportError as error:
+        raise RuntimeError("Installe pypdfium2 (ou pdftoppm) pour l'impression Windows.") from error
+    document = pdfium.PdfDocument(str(path))
+    try:
+        for index in range(len(document)):
+            image = document[index].render(scale=dpi / 72).to_pil()
+            image.save(dossier / f"page-{index + 1:02d}.png")
+    finally:
+        document.close()
+
+
 def print_pdf(
     path: Path, *, printer: str = "", duplex: bool = False, execute: bool = False,
 ) -> PrintResult:
@@ -77,13 +96,9 @@ def print_pdf(
         subprocess.run(command, check=True)
         return PrintResult(selected, pages, True)
 
-    pdftoppm = shutil.which("pdftoppm")
-    if not pdftoppm:
-        raise RuntimeError("pdftoppm est requis pour l'impression Windows.")
     script = ROOT / "scripts" / "imprimer_image_windows.ps1"
     with tempfile.TemporaryDirectory(prefix="signal-matin-") as tmp:
-        prefix = str(Path(tmp) / "page")
-        subprocess.run([pdftoppm, "-png", "-r", "180", str(path), prefix], check=True)
+        _pdf_en_images(path, Path(tmp))
         command = [
             "powershell.exe", "-NoProfile", "-ExecutionPolicy", "Bypass",
             "-File", str(script), "-DossierImages", tmp, "-Imprimante", selected,

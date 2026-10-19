@@ -1,0 +1,76 @@
+# Configuration de l'édition personnalisée.
+# Copie ce fichier vers config.yaml (non publié) : `copy config.cesar.example.yaml config.yaml`
+demo: false
+
+printing:
+  printer: ""        # nom exact de l'imprimante Windows, ex. "Brother MFC-L2750DW series"
+  duplex: true       # recto verso
+
+journal:
+  heure_limite: "06:40"        # au-delà, le traitement différé est abandonné au profit d'appels directs
+  fenetre_heures: 24           # du mardi au vendredi
+  fenetre_lundi_heures: 72     # le lundi couvre vendredi, samedi et dimanche
+  longueur_max: 2800           # caractères par article développé (une demi-page)
+  ratio_article_court: 0.40    # plafond à 40 % de l'article d'origine
+
+  ia:
+    modele_tri: claude-haiku-5-5
+    modele_synthese: claude-sonnet-5-5
+    traitement_differe: true   # Batch API, -50 %
+    intervalle_sondage_s: 30
+
+  meteo:
+    lieu: Issy-les-Moulineaux
+    meteociel_url: https://www.meteociel.fr/previsions/33205/issy_les_moulineaux.htm
+    latitude: 48.8236          # pour le repli Open-Meteo
+    longitude: 2.2700
+
+  blocs:
+    - id: ia
+      titre: "IA & recherche"
+      sources:
+        - {nom: MIT Technology Review, rubrique: IA, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"}
+        - {nom: ActuIA, rubrique: IA, url: "https://www.actuia.com/feed/"}
+        - {nom: TechCrunch, rubrique: IA, url: "https://techcrunch.com/category/artificial-intelligence/feed/"}
+        - {nom: OpenAI, rubrique: IA, url: "https://openai.com/news/rss.xml"}
+        - {nom: Quanta Magazine, rubrique: Recherche, url: "https://www.quantamagazine.org/feed/"}
+        - {nom: The Conversation, rubrique: Recherche, url: "https://theconversation.com/fr/articles.atom"}
+        - {nom: CNRS Le journal, rubrique: Recherche, url: "https://lejournal.cnrs.fr/rss"}
+        - {nom: VoxEU, rubrique: Recherche, url: "https://cepr.org/rss/vox-content"}
+        - {nom: Aeon, rubrique: Recherche, url: "https://aeon.co/feed.rss"}
+        - {nom: Our World in Data, rubrique: Recherche, url: "https://ourworldindata.org/atom.xml"}
+
+    - id: actualite
+      titre: "Actualité"
+      sources:
+        - {nom: Le Monde, rubrique: France, url: "https://www.lemonde.fr/rss/une.xml"}
+        - {nom: franceinfo, rubrique: France, url: "https://www.francetvinfo.fr/titres.rss"}
+        - {nom: Public Sénat, rubrique: France, url: "https://www.publicsenat.fr/feed"}
+        - {nom: NPR, rubrique: États-Unis, url: "https://feeds.npr.org/1001/rss.xml"}
+        - {nom: Politico, rubrique: États-Unis, url: "https://rss.politico.com/politics-news.xml"}
+        - {nom: South China Morning Post, rubrique: Chine, url: "https://www.scmp.com/rss/4/feed"}
+        - {nom: The Diplomat, rubrique: Chine, url: "https://thediplomat.com/feed/"}
+        - {nom: Al Jazeera, rubrique: Monde, url: "https://www.aljazeera.com/xml/rss/all.xml"}
+        - {nom: Le Grand Continent, rubrique: Géopolitique, url: "https://legrandcontinent.eu/fr/feed/"}
+        - {nom: Diploweb, rubrique: Géopolitique, url: "https://www.diploweb.com/spip.php?page=backend"}
+
+    - id: veille
+      titre: "Veille"
+      sources:
+        - {nom: CNIL, rubrique: Conformité, url: "https://www.cnil.fr/fr/rss.xml"}
+        - {nom: EDPB, rubrique: Conformité, url: "https://www.edpb.europa.eu/feed/news_en"}
+        - {nom: AMF, rubrique: Conformité, url: "https://www.amf-france.org/fr/flux-rss/display/21"}
+        - {nom: ESMA, rubrique: Conformité, url: "https://www.esma.europa.eu/rss.xml"}
+        - {nom: EBA, rubrique: Conformité, url: "https://www.eba.europa.eu/rss.xml"}
+        # ACPR : adresse de flux à confirmer depuis le PC (site inaccessible depuis le cloud)
+        - {nom: Carbon Brief, rubrique: Climat, url: "https://www.carbonbrief.org/feed/"}
+        - {nom: Inside Climate News, rubrique: Climat, url: "https://insideclimatenews.org/feed/"}
+
+    - id: curiosites
+      titre: "Curiosités"
+      sources:
+        - {nom: NASA, rubrique: Science, url: "https://www.nasa.gov/feed/"}
+        - {nom: Sciences et Avenir, rubrique: Science, url: "https://www.sciencesetavenir.fr/rss.xml"}
+        - {nom: franceinfo Sports, rubrique: Sport, url: "https://www.francetvinfo.fr/sports.rss"}
+        - {nom: TrainingPeaks, rubrique: Sport, nature: methode, url: "https://www.trainingpeaks.com/feed/", max: 4}
+        - {nom: Stronger by Science, rubrique: Sport, nature: methode, url: "https://www.strongerbyscience.com/feed/", max: 4}

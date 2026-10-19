@@ -1,0 +1,1130 @@
+[
+ {
+  "mot": "Pérenne",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui dure longtemps ou indéfiniment ; durable.",
+  "exemple": "Trouver un financement pérenne pour le projet."
+ },
+ {
+  "mot": "Anodin",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Sans importance ni danger ; insignifiant.",
+  "exemple": "Une remarque en apparence anodine."
+ },
+ {
+  "mot": "Éphémère",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui ne dure que très peu de temps.",
+  "exemple": "Une mode éphémère, oubliée l'été suivant."
+ },
+ {
+  "mot": "Limpide",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "D'une clarté parfaite, sans ambiguïté.",
+  "exemple": "Son raisonnement était limpide."
+ },
+ {
+  "mot": "Fugace",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui disparaît très vite, difficile à saisir.",
+  "exemple": "Une impression fugace de déjà-vu."
+ },
+ {
+  "mot": "Prolixe",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui s'exprime trop longuement ; bavard.",
+  "exemple": "Un rapport prolixe de deux cents pages."
+ },
+ {
+  "mot": "Laconique",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui s'exprime en peu de mots.",
+  "exemple": "Il répondit d'un ton laconique : « Non. »"
+ },
+ {
+  "mot": "Désuet",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui n'est plus en usage, démodé, avec un certain charme.",
+  "exemple": "Une formule de politesse désuète."
+ },
+ {
+  "mot": "Pragmatique",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui privilégie l'action et les résultats concrets.",
+  "exemple": "Une approche pragmatique du problème."
+ },
+ {
+  "mot": "Fortuit",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui arrive par hasard, sans avoir été prévu.",
+  "exemple": "Une rencontre fortuite dans le train."
+ },
+ {
+  "mot": "Inéluctable",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qu'on ne peut empêcher ni éviter.",
+  "exemple": "Le déclin de cette technologie semble inéluctable."
+ },
+ {
+  "mot": "Exhaustif",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui traite un sujet dans sa totalité.",
+  "exemple": "Une liste exhaustive des risques."
+ },
+ {
+  "mot": "Ambivalent",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui présente deux aspects, deux sentiments opposés.",
+  "exemple": "Il a un rapport ambivalent à la ville."
+ },
+ {
+  "mot": "Véhément",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui s'exprime avec force et passion.",
+  "exemple": "Une protestation véhémente."
+ },
+ {
+  "mot": "Candide",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "D'une innocence naïve, sans malice.",
+  "exemple": "Une question candide qui embarrassa tout le monde."
+ },
+ {
+  "mot": "Sagace",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Doué d'une grande finesse d'esprit.",
+  "exemple": "Une observatrice sagace des comportements."
+ },
+ {
+  "mot": "Assidu",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui est régulier et appliqué dans ce qu'il fait.",
+  "exemple": "Un lecteur assidu de la presse étrangère."
+ },
+ {
+  "mot": "Opiniâtre",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Tenace, obstiné dans ses efforts.",
+  "exemple": "Un travail opiniâtre de plusieurs années."
+ },
+ {
+  "mot": "Indolent",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui évite l'effort ; nonchalant.",
+  "exemple": "Un après-midi indolent au soleil."
+ },
+ {
+  "mot": "Intrépide",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui ne craint pas le danger ; audacieux.",
+  "exemple": "Une alpiniste intrépide."
+ },
+ {
+  "mot": "Sibyllin",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Dont le sens est obscur, énigmatique.",
+  "exemple": "Un message sibyllin laissé sur le bureau."
+ },
+ {
+  "mot": "Péremptoire",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui n'admet pas de réplique ; tranchant.",
+  "exemple": "Il conclut d'un ton péremptoire."
+ },
+ {
+  "mot": "Velléité",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Intention faible, qui ne se concrétise pas.",
+  "exemple": "Des velléités de réforme vite abandonnées."
+ },
+ {
+  "mot": "Nuance",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Différence fine entre des choses proches.",
+  "exemple": "Toute la nuance entre prudence et frilosité."
+ },
+ {
+  "mot": "Parcimonie",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Grande économie dans l'usage de quelque chose.",
+  "exemple": "Il distribue les compliments avec parcimonie."
+ },
+ {
+  "mot": "Aplomb",
+  "nature": "n. m.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Assurance, confiance en soi, parfois excessive.",
+  "exemple": "Elle répondit avec un aplomb remarquable."
+ },
+ {
+  "mot": "Ubiquité",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Capacité d'être présent en plusieurs lieux à la fois.",
+  "exemple": "L'ubiquité du smartphone dans nos vies."
+ },
+ {
+  "mot": "Dilemme",
+  "nature": "n. m.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Choix difficile entre deux options insatisfaisantes.",
+  "exemple": "Le dilemme entre sécurité et liberté."
+ },
+ {
+  "mot": "Panacée",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Remède supposé universel à tous les maux.",
+  "exemple": "L'IA n'est pas une panacée."
+ },
+ {
+  "mot": "Paradigme",
+  "nature": "n. m.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Modèle de pensée dominant à une époque donnée.",
+  "exemple": "Un changement de paradigme dans la médecine."
+ },
+ {
+  "mot": "Euphémisme",
+  "nature": "n. m.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Expression adoucie d'une réalité déplaisante.",
+  "exemple": "« Plan social » est un euphémisme pour licenciements."
+ },
+ {
+  "mot": "Pléthore",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Abondance excessive.",
+  "exemple": "Une pléthore d'applications pour le même usage."
+ },
+ {
+  "mot": "Aléatoire",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui dépend du hasard ; incertain.",
+  "exemple": "Un résultat très aléatoire d'une année sur l'autre."
+ },
+ {
+  "mot": "Probant",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui démontre, qui emporte la conviction.",
+  "exemple": "Les essais ne sont pas encore probants."
+ },
+ {
+  "mot": "Tributaire",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui dépend de quelque chose ou de quelqu'un.",
+  "exemple": "La récolte reste tributaire de la météo."
+ },
+ {
+  "mot": "Insidieux",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui agit de façon sournoise, sans qu'on s'en aperçoive.",
+  "exemple": "Une fatigue insidieuse."
+ },
+ {
+  "mot": "Lucide",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Qui voit les choses avec clarté, sans illusion.",
+  "exemple": "Un regard lucide sur ses propres erreurs."
+ },
+ {
+  "mot": "Futile",
+  "nature": "adj.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Sans intérêt, sans valeur, frivole.",
+  "exemple": "Une dispute futile."
+ },
+ {
+  "mot": "Exacerber",
+  "nature": "v. tr.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Rendre plus intense, plus aigu.",
+  "exemple": "La crise a exacerbé les tensions."
+ },
+ {
+  "mot": "Pallier",
+  "nature": "v. tr.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Remédier provisoirement à un manque (se construit sans « à »).",
+  "exemple": "Pallier l'absence d'un collègue."
+ },
+ {
+  "mot": "Entériner",
+  "nature": "v. tr.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Rendre définitif en approuvant officiellement.",
+  "exemple": "Le conseil a entériné la décision."
+ },
+ {
+  "mot": "Corroborer",
+  "nature": "v. tr.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Confirmer par de nouveaux éléments.",
+  "exemple": "Les témoignages corroborent sa version."
+ },
+ {
+  "mot": "Fustiger",
+  "nature": "v. tr.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Critiquer violemment.",
+  "exemple": "L'éditorial fustige l'inaction du gouvernement."
+ },
+ {
+  "mot": "Atermoyer",
+  "nature": "v. intr.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Remettre à plus tard pour gagner du temps.",
+  "exemple": "À force d'atermoyer, le projet a pris un an de retard."
+ },
+ {
+  "mot": "Galvauder",
+  "nature": "v. tr.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Dégrader en faisant un mauvais usage.",
+  "exemple": "Un mot galvaudé à force d'être répété."
+ },
+ {
+  "mot": "Juguler",
+  "nature": "v. tr.",
+  "niveau": "facile",
+  "domaine": "soutenu",
+  "definition": "Arrêter le développement de quelque chose.",
+  "exemple": "Juguler l'inflation."
+ },
+ {
+  "mot": "Arbitrage",
+  "nature": "n. m.",
+  "niveau": "facile",
+  "domaine": "pro",
+  "definition": "Choix entre plusieurs options concurrentes après comparaison.",
+  "exemple": "Un arbitrage entre coût et délai."
+ },
+ {
+  "mot": "Conformité",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "pro",
+  "definition": "Fait de respecter des règles, normes ou obligations.",
+  "exemple": "Un audit de conformité au RGPD."
+ },
+ {
+  "mot": "Gouvernance",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "pro",
+  "definition": "Ensemble des règles et instances qui encadrent les décisions d'une organisation.",
+  "exemple": "Revoir la gouvernance des données."
+ },
+ {
+  "mot": "Levier",
+  "nature": "n. m.",
+  "niveau": "facile",
+  "domaine": "pro",
+  "definition": "Moyen d'action permettant d'obtenir un effet important.",
+  "exemple": "La formation est un levier de performance."
+ },
+ {
+  "mot": "Inflation",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "pro",
+  "definition": "Hausse générale et durable des prix.",
+  "exemple": "L'inflation a ralenti ce trimestre."
+ },
+ {
+  "mot": "Liquidité",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "pro",
+  "definition": "Capacité à disposer rapidement d'argent disponible.",
+  "exemple": "La banque surveille ses ratios de liquidité."
+ },
+ {
+  "mot": "Jurisprudence",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "pro",
+  "definition": "Ensemble des décisions de justice qui font référence.",
+  "exemple": "Une jurisprudence constante de la Cour."
+ },
+ {
+  "mot": "Algorithme",
+  "nature": "n. m.",
+  "niveau": "facile",
+  "domaine": "pro",
+  "definition": "Suite finie d'instructions permettant de résoudre un problème.",
+  "exemple": "Un algorithme de recommandation."
+ },
+ {
+  "mot": "Latence",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "pro",
+  "definition": "Délai entre une action et sa réponse.",
+  "exemple": "Réduire la latence du service."
+ },
+ {
+  "mot": "Diligence",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "pro",
+  "definition": "Soin et rapidité dans l'exécution ; en droit, vérifications préalables.",
+  "exemple": "Les diligences menées avant l'acquisition."
+ },
+ {
+  "mot": "Externalité",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "pro",
+  "definition": "Effet d'une activité sur des tiers, non pris en compte par le marché.",
+  "exemple": "La pollution est une externalité négative."
+ },
+ {
+  "mot": "Résilience",
+  "nature": "n. f.",
+  "niveau": "facile",
+  "domaine": "pro",
+  "definition": "Capacité à résister à un choc et à s'en remettre.",
+  "exemple": "La résilience opérationnelle des banques (DORA)."
+ },
+ {
+  "mot": "Abscons",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Difficile à comprendre ; obscur.",
+  "exemple": "Un jargon réglementaire abscons."
+ },
+ {
+  "mot": "Acrimonie",
+  "nature": "n. f.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Mauvaise humeur qui s'exprime avec aigreur.",
+  "exemple": "Il évoqua son ancien patron avec acrimonie."
+ },
+ {
+  "mot": "Atavisme",
+  "nature": "n. m.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Réapparition de caractères hérités d'ancêtres lointains.",
+  "exemple": "Un goût de la terre qui relevait presque de l'atavisme."
+ },
+ {
+  "mot": "Captieux",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Qui cherche à tromper par une apparence de vérité.",
+  "exemple": "Un argument captieux."
+ },
+ {
+  "mot": "Circonspect",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Qui agit avec prudence et réserve.",
+  "exemple": "La direction reste circonspecte sur ce projet."
+ },
+ {
+  "mot": "Délétère",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Nuisible, qui détruit peu à peu.",
+  "exemple": "Un climat de travail délétère."
+ },
+ {
+  "mot": "Dithyrambique",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "D'un éloge très enthousiaste, souvent exagéré.",
+  "exemple": "Une critique dithyrambique du roman."
+ },
+ {
+  "mot": "Évanescent",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Qui s'efface peu à peu, insaisissable.",
+  "exemple": "Un souvenir évanescent."
+ },
+ {
+  "mot": "Fallacieux",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Destiné à tromper ; trompeur.",
+  "exemple": "Un prétexte fallacieux."
+ },
+ {
+  "mot": "Gageure",
+  "nature": "n. f.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Entreprise qui semble presque impossible (se prononce « gajure »).",
+  "exemple": "Tenir ce délai relevait de la gageure."
+ },
+ {
+  "mot": "Hiératique",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "D'une raideur solennelle, majestueuse.",
+  "exemple": "Une posture hiératique."
+ },
+ {
+  "mot": "Inextricable",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Qu'on ne peut démêler ; très embrouillé.",
+  "exemple": "Une situation juridique inextricable."
+ },
+ {
+  "mot": "Lénifiant",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Qui apaise, mais endort la vigilance.",
+  "exemple": "Un discours lénifiant."
+ },
+ {
+  "mot": "Obséquieux",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Poli et empressé à l'excès, servile.",
+  "exemple": "Un serveur obséquieux."
+ },
+ {
+  "mot": "Ostracisme",
+  "nature": "n. m.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Exclusion d'une personne par un groupe.",
+  "exemple": "Il a subi l'ostracisme de ses collègues."
+ },
+ {
+  "mot": "Palinodie",
+  "nature": "n. f.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Changement brusque et complet d'opinion.",
+  "exemple": "Les palinodies du ministre."
+ },
+ {
+  "mot": "Pusillanime",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Qui manque de courage, d'audace ; timoré.",
+  "exemple": "Une décision pusillanime."
+ },
+ {
+  "mot": "Rédhibitoire",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Qui constitue un obstacle décisif.",
+  "exemple": "Un prix rédhibitoire."
+ },
+ {
+  "mot": "Sempiternel",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Qui se répète sans cesse, de façon lassante.",
+  "exemple": "Ses sempiternelles plaintes."
+ },
+ {
+  "mot": "Spécieux",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Qui n'a que l'apparence de la vérité.",
+  "exemple": "Un raisonnement spécieux."
+ },
+ {
+  "mot": "Truculent",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Haut en couleur, d'une verve savoureuse.",
+  "exemple": "Un personnage truculent."
+ },
+ {
+  "mot": "Vindicatif",
+  "nature": "adj.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Porté à la vengeance.",
+  "exemple": "Un ton vindicatif."
+ },
+ {
+  "mot": "Vilipender",
+  "nature": "v. tr.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Dénoncer comme méprisable.",
+  "exemple": "Vilipendé par la presse."
+ },
+ {
+  "mot": "Subodorer",
+  "nature": "v. tr.",
+  "niveau": "intermediaire",
+  "domaine": "soutenu",
+  "definition": "Pressentir, deviner quelque chose.",
+  "exemple": "Il subodorait un piège."
+ },
+ {
+  "mot": "Asymétrie d'information",
+  "nature": "n. f.",
+  "niveau": "intermediaire",
+  "domaine": "pro",
+  "definition": "Situation où une partie dispose de plus d'informations que l'autre.",
+  "exemple": "L'asymétrie d'information entre assureur et assuré."
+ },
+ {
+  "mot": "Aléa moral",
+  "nature": "n. m.",
+  "niveau": "intermediaire",
+  "domaine": "pro",
+  "definition": "Tendance à prendre plus de risques quand on n'en supporte pas les conséquences.",
+  "exemple": "La garantie publique crée un aléa moral."
+ },
+ {
+  "mot": "Subsidiarité",
+  "nature": "n. f.",
+  "niveau": "intermediaire",
+  "domaine": "pro",
+  "definition": "Principe confiant une décision au niveau le plus proche des personnes concernées.",
+  "exemple": "Le principe de subsidiarité dans l'Union européenne."
+ },
+ {
+  "mot": "Proportionnalité",
+  "nature": "n. f.",
+  "niveau": "intermediaire",
+  "domaine": "pro",
+  "definition": "Principe exigeant que les moyens soient adaptés au but poursuivi.",
+  "exemple": "Le contrôle de proportionnalité du juge."
+ },
+ {
+  "mot": "Opposabilité",
+  "nature": "n. f.",
+  "niveau": "intermediaire",
+  "domaine": "pro",
+  "definition": "Qualité d'un acte qui peut être invoqué à l'égard des tiers.",
+  "exemple": "L'opposabilité d'un contrat aux créanciers."
+ },
+ {
+  "mot": "Inférence",
+  "nature": "n. f.",
+  "niveau": "intermediaire",
+  "domaine": "pro",
+  "definition": "Opération qui tire une conclusion à partir de données ; en IA, production d'un résultat par un modèle.",
+  "exemple": "Le coût d'inférence des grands modèles."
+ },
+ {
+  "mot": "Thuriféraire",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Flatteur zélé, admirateur inconditionnel ; au propre, porte-encensoir.",
+  "exemple": "Les thuriféraires du dirigeant ont applaudi."
+ },
+ {
+  "mot": "Apophtegme",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Parole mémorable, sentence brève exprimant une vérité.",
+  "exemple": "Il ponctuait ses discours d'apophtegmes."
+ },
+ {
+  "mot": "Amphigouri",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Discours ou écrit embrouillé, incompréhensible.",
+  "exemple": "Un amphigouri de concepts à la mode."
+ },
+ {
+  "mot": "Anacoluthe",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Rupture dans la construction d'une phrase.",
+  "exemple": "« Le nez de Cléopâtre, s'il eût été plus court… » est une anacoluthe."
+ },
+ {
+  "mot": "Antienne",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Propos répété sans cesse ; refrain.",
+  "exemple": "La même antienne sur la baisse des coûts."
+ },
+ {
+  "mot": "Apodictique",
+  "nature": "adj.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "D'une évidence logique indiscutable.",
+  "exemple": "Une démonstration apodictique."
+ },
+ {
+  "mot": "Atrabilaire",
+  "nature": "adj.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "D'humeur sombre et irritable.",
+  "exemple": "Un vieil oncle atrabilaire."
+ },
+ {
+  "mot": "Billevesée",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Idée creuse, propos frivole.",
+  "exemple": "Des billevesées sans fondement."
+ },
+ {
+  "mot": "Captation",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Fait de s'approprier quelque chose, souvent de façon détournée.",
+  "exemple": "La captation d'un héritage."
+ },
+ {
+  "mot": "Chafouin",
+  "nature": "adj.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Qui a une mine sournoise, rusée.",
+  "exemple": "Un air chafouin."
+ },
+ {
+  "mot": "Concupiscence",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Désir ardent des biens matériels ou des plaisirs.",
+  "exemple": "La concupiscence des collectionneurs."
+ },
+ {
+  "mot": "Déliquescence",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Décadence complète, décomposition.",
+  "exemple": "Un parti en pleine déliquescence."
+ },
+ {
+  "mot": "Épigone",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Disciple sans originalité d'un maître.",
+  "exemple": "Les épigones de Proust."
+ },
+ {
+  "mot": "Faconde",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Grande facilité de parole, souvent excessive.",
+  "exemple": "Sa faconde séduisait les jurés."
+ },
+ {
+  "mot": "Gongorisme",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Style précieux et recherché à l'excès.",
+  "exemple": "Une prose qui frôle le gongorisme."
+ },
+ {
+  "mot": "Hapax",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Mot ou forme dont on ne connaît qu'une seule occurrence.",
+  "exemple": "Ce terme est un hapax dans l'œuvre de Rabelais."
+ },
+ {
+  "mot": "Hétéroclite",
+  "nature": "adj.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Composé d'éléments disparates.",
+  "exemple": "Une collection hétéroclite."
+ },
+ {
+  "mot": "Incoercible",
+  "nature": "adj.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Qu'on ne peut contenir ou réprimer.",
+  "exemple": "Un fou rire incoercible."
+ },
+ {
+  "mot": "Logorrhée",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Flot de paroles abondant et désordonné.",
+  "exemple": "Une logorrhée de promesses."
+ },
+ {
+  "mot": "Mithridatiser",
+  "nature": "v. tr.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Immuniser contre un poison par l'absorption de doses croissantes.",
+  "exemple": "Il s'était comme mithridatisé contre les critiques."
+ },
+ {
+  "mot": "Nyctalope",
+  "nature": "adj.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Qui voit dans l'obscurité.",
+  "exemple": "Le chat est nyctalope."
+ },
+ {
+  "mot": "Obvier",
+  "nature": "v. tr. ind.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Prendre des mesures pour prévenir un mal (obvier à).",
+  "exemple": "Obvier à un inconvénient."
+ },
+ {
+  "mot": "Parangon",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Modèle, type accompli.",
+  "exemple": "Un parangon de vertu."
+ },
+ {
+  "mot": "Pétrichor",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Odeur de la terre sèche après la pluie.",
+  "exemple": "Le pétrichor annonçait la fin de l'orage."
+ },
+ {
+  "mot": "Prosopopée",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Figure qui fait parler un absent, un mort ou une chose.",
+  "exemple": "La prosopopée de Fabricius chez Rousseau."
+ },
+ {
+  "mot": "Psittacisme",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Répétition mécanique de mots sans les comprendre.",
+  "exemple": "Un apprentissage par psittacisme."
+ },
+ {
+  "mot": "Rodomontade",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Vantardise, fanfaronnade.",
+  "exemple": "Des rodomontades avant le match."
+ },
+ {
+  "mot": "Sérendipité",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Fait de trouver par hasard ce que l'on ne cherchait pas.",
+  "exemple": "La pénicilline, exemple célèbre de sérendipité."
+ },
+ {
+  "mot": "Stochastique",
+  "nature": "adj.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Qui relève du hasard, des probabilités.",
+  "exemple": "Un modèle stochastique."
+ },
+ {
+  "mot": "Thaumaturge",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Personne qui fait ou prétend faire des miracles.",
+  "exemple": "Les thaumaturges de la croissance."
+ },
+ {
+  "mot": "Uchronie",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Récit imaginant ce qui serait advenu si l'histoire avait pris un autre cours.",
+  "exemple": "Une uchronie où Napoléon gagne Waterloo."
+ },
+ {
+  "mot": "Vaticiner",
+  "nature": "v. intr.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Prophétiser, prédire l'avenir de façon pompeuse.",
+  "exemple": "Les experts vaticinent sur la fin du travail."
+ },
+ {
+  "mot": "Zélote",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Partisan fanatique d'une cause.",
+  "exemple": "Les zélotes de la décroissance."
+ },
+ {
+  "mot": "Acribie",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Extrême exactitude, minutie scrupuleuse.",
+  "exemple": "Une édition critique d'une grande acribie."
+ },
+ {
+  "mot": "Alacrité",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Vivacité gaie et entrain.",
+  "exemple": "Il se mit au travail avec alacrité."
+ },
+ {
+  "mot": "Byzantin",
+  "nature": "adj.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Se dit d'une discussion d'une subtilité excessive et oiseuse.",
+  "exemple": "Une querelle byzantine sur une virgule."
+ },
+ {
+  "mot": "Contumace",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Situation d'un accusé qui ne se présente pas à son procès.",
+  "exemple": "Condamné par contumace."
+ },
+ {
+  "mot": "Cuistre",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Pédant vaniteux qui étale un savoir mal assimilé.",
+  "exemple": "Un cuistre qui cite Kant à tout propos."
+ },
+ {
+  "mot": "Dirimant",
+  "nature": "adj.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Qui fait obstacle de façon absolue, qui annule.",
+  "exemple": "Un argument dirimant."
+ },
+ {
+  "mot": "Fat",
+  "nature": "adj. et n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Vaniteux, satisfait de lui-même de façon ridicule.",
+  "exemple": "Un fat qui ne parle que de lui."
+ },
+ {
+  "mot": "Impétrant",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "soutenu",
+  "definition": "Personne qui obtient un titre, un diplôme.",
+  "exemple": "La signature de l'impétrant au bas du diplôme."
+ },
+ {
+  "mot": "Anatocisme",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "pro",
+  "definition": "Capitalisation des intérêts échus, qui produisent à leur tour des intérêts.",
+  "exemple": "Le contrat prévoit l'anatocisme annuel."
+ },
+ {
+  "mot": "Usufruit",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "pro",
+  "definition": "Droit d'utiliser un bien et d'en percevoir les revenus sans en être propriétaire.",
+  "exemple": "Le démembrement entre usufruit et nue-propriété."
+ },
+ {
+  "mot": "Synallagmatique",
+  "nature": "adj.",
+  "niveau": "difficile",
+  "domaine": "pro",
+  "definition": "Se dit d'un contrat créant des obligations réciproques.",
+  "exemple": "La vente est un contrat synallagmatique."
+ },
+ {
+  "mot": "Forclusion",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "pro",
+  "definition": "Perte d'un droit faute de l'avoir exercé dans le délai légal.",
+  "exemple": "Le recours est frappé de forclusion."
+ },
+ {
+  "mot": "Subrogation",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "pro",
+  "definition": "Substitution d'une personne ou d'une chose à une autre dans un rapport juridique.",
+  "exemple": "L'assureur agit par subrogation contre le responsable."
+ },
+ {
+  "mot": "Nantissement",
+  "nature": "n. m.",
+  "niveau": "difficile",
+  "domaine": "pro",
+  "definition": "Garantie donnée à un créancier sur un bien meuble incorporel.",
+  "exemple": "Un nantissement sur le compte-titres."
+ },
+ {
+  "mot": "Contracyclique",
+  "nature": "adj.",
+  "niveau": "difficile",
+  "domaine": "pro",
+  "definition": "Qui va à l'inverse du cycle économique pour l'atténuer.",
+  "exemple": "Le coussin de fonds propres contracyclique."
+ },
+ {
+  "mot": "Procyclicité",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "pro",
+  "definition": "Tendance d'un mécanisme à amplifier les fluctuations du cycle économique.",
+  "exemple": "La procyclicité des règles comptables."
+ },
+ {
+  "mot": "Hétéroscédasticité",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "pro",
+  "definition": "En statistique, variance des erreurs qui n'est pas constante.",
+  "exemple": "Corriger l'hétéroscédasticité du modèle."
+ },
+ {
+  "mot": "Idempotent",
+  "nature": "adj.",
+  "niveau": "difficile",
+  "domaine": "pro",
+  "definition": "Se dit d'une opération qui donne le même résultat qu'on l'applique une ou plusieurs fois.",
+  "exemple": "Une requête d'API idempotente."
+ },
+ {
+  "mot": "Pseudonymisation",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "pro",
+  "definition": "Traitement rendant des données non attribuables à une personne sans informations supplémentaires conservées à part.",
+  "exemple": "La pseudonymisation ne fait pas sortir les données du RGPD."
+ },
+ {
+  "mot": "Novation",
+  "nature": "n. f.",
+  "niveau": "difficile",
+  "domaine": "pro",
+  "definition": "Remplacement d'une obligation par une nouvelle, qui éteint la première.",
+  "exemple": "La novation par changement de débiteur."
+ }
+]

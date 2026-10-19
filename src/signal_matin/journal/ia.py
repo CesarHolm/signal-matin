@@ -1,0 +1,251 @@
+"""Appels a l'API Anthropic : tri (Haiku), syntheses (Sonnet), quiz et mots (Haiku).
+
+- Traitement differe (Batch API, -50 %) avec bascule en appels directs si le
+  lot n'est pas termine a l'heure limite (par defaut 6 h 40).
+- Consignes systeme marquees pour la mise en cache (identiques chaque jour).
+- Aucune cle API : le module signale l'indisponibilite et le journal sort en
+  mode secours (titres et chapos bruts des flux).
+"""
+from __future__ import annotations
+
+import datetime as dt
+import json
+import os
+import re
+import time
+from dataclasses import dataclass
+
+MODELE_TRI = "claude-haiku-5-5"
+MODELE_SYNTHESE = "claude-sonnet-5-5"
+
+# --------------------------------------------------------------------------- Consignes
+
+SYSTEME_TRI = """Tu es le secrétaire de rédaction d'un journal personnel imprimé chaque matin pour un lecteur francophone exigeant (consultant en conformité réglementaire et gestion des risques).
+
+Pour un bloc du journal, tu reçois une liste d'articles candidats (identifiant, rubrique, source, nature, titre, date, résumé du flux RSS). Tu dois :
+1. Choisir EXACTEMENT 2 articles à développer (s'il y a au moins 2 candidats valables), qui feront l'objet d'une synthèse d'une demi-page.
+2. Choisir 2 ou 3 autres articles pour des brèves, et rédiger chaque brève.
+
+Critères de sélection, par ordre de priorité :
+- Importance : portée réelle de l'information, conséquences concrètes, intérêt durable.
+- Nouveauté : un fait nouveau prime sur un commentaire ; écarte les republications d'articles anciens, les contenus promotionnels, les cas clients publicitaires et les annonces de numéros de magazine.
+- Diversité : évite deux articles sur le même sujet (garde le meilleur) et équilibre les rubriques du bloc.
+- Le FOOTBALL est TOTALEMENT EXCLU, dans tous les blocs (ni brève ni développé), y compris les transferts, les clubs et les sélections.
+- Bloc avec rubrique sport : L'actualité sportive n'est traitée qu'en brèves (savoir ce qui s'est passé). Les articles de nature « methode » (méthodes d'entraînement) sont prioritaires pour les articles développés s'ils sont intéressants ; à défaut, développe des articles de science grand public.
+
+Règles des brèves :
+- « titre » : en français, factuel, 90 caractères maximum.
+- « texte » : 1 à 2 phrases en français, environ 250 caractères, uniquement d'après le titre et le résumé fournis. N'ajoute aucune information extérieure. Si le résumé est trop pauvre pour une brève fiable, choisis un autre article.
+
+Réponds UNIQUEMENT par un objet JSON valide, sans texte autour :
+{"developpes": [{"id": "a12", "raison": "…"}, …], "breves": [{"id": "a7", "titre": "…", "texte": "…"}, …]}"""
+
+SYSTEME_SYNTHESE = """Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).
+
+Objectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.
+
+Règles impératives :
+- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.
+- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite.
+- Structure :
+  • « titre » : titre français informatif, 80 caractères maximum.
+  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.
+  • « sections » : 3 à 5 sections, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :
+      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments
+      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites
+      étude ou recherche : La question · La méthode · Les résultats · Les réserves
+      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions
+      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance
+  • « synthese » : exactement 2 phrases qui résument l'ensemble.
+- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.
+- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.
+
+Réponds UNIQUEMENT par un objet JSON valide, sans texte autour :
+{"titre": "…", "chapo": "…", "sections": [{"intertitre": "…", "texte": "…"}], "synthese": "…", "republication": ""}"""
+
+SYSTEME_QUIZ = """Tu rédiges le quiz du jour d'un journal personnel imprimé, en français.
+
+À partir des textes publiés dans le numéro (articles développés et brèves), écris 5 questions à choix multiples :
+- chaque question porte sur un fait explicitement présent dans les textes fournis ;
+- 3 propositions courtes (60 caractères maximum), une seule correcte, les deux autres plausibles ;
+- varie les articles (pas plus de 2 questions sur le même texte) ;
+- question de 110 caractères maximum.
+
+Réponds UNIQUEMENT par un objet JSON valide :
+{"questions": [{"question": "…", "options": ["…", "…", "…"], "reponse": 0, "article": "titre de l'article"}]}"""
+
+SYSTEME_MOTS = """Tu enrichis la base de vocabulaire d'un lecteur francophone cultivé qui apprend chaque jour de nouveaux mots.
+
+Propose des mots français RÉELS, attestés dans les dictionnaires de référence (TLFi, Académie française), jamais inventés.
+- Niveaux : « facile » (mot soutenu connu mais peu employé), « intermediaire » (mot littéraire ou rare), « difficile » (mot rare, savant ou technique).
+- Domaines : environ 80 % « soutenu » (langue littéraire et soutenue) et 20 % « pro » (économie, finance, droit, technologie).
+- Pour chaque mot : nature grammaticale abrégée (adj., n. m., n. f., v. tr., v. intr.…), définition exacte et concise (150 caractères maximum), exemple d'usage naturel (100 caractères maximum).
+- N'utilise aucun mot de la liste des mots déjà connus.
+
+Réponds UNIQUEMENT par un objet JSON valide :
+{"mots": [{"mot": "…", "nature": "…", "niveau": "facile", "domaine": "soutenu", "definition": "…", "exemple": "…"}]}"""
+
+
+# --------------------------------------------------------------------------- Requetes
+
+
+@dataclass
+class Requete:
+    id: str
+    modele: str
+    systeme: str
+    contenu: str
+    max_tokens: int = 2000
+
+    def params(self) -> dict:
+        return {
+            "model": self.modele,
+            "max_tokens": self.max_tokens,
+            "system": [{"type": "text", "text": self.systeme,
+                        "cache_control": {"type": "ephemeral"}}],
+            "messages": [{"role": "user", "content": self.contenu}],
+        }
+
+
+class IAIndisponible(RuntimeError):
+    pass
+
+
+def extraire_json(texte: str) -> dict:
+    """Recupere le premier objet JSON d'une reponse (tolere un bloc ```json)."""
+    texte = re.sub(r"^```(?:json)?|```$", "", texte.strip(), flags=re.M).strip()
+    debut = texte.find("{")
+    fin = texte.rfind("}")
+    if debut < 0 or fin <= debut:
+        raise ValueError("aucun JSON dans la réponse")
+    return json.loads(texte[debut: fin + 1])
+
+
+class ClientIA:
+    def __init__(self, config: dict, journal=print):
+        self.config = config
+        self.journal = journal
+        cle = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+        if not cle:
+            raise IAIndisponible("ANTHROPIC_API_KEY absente du fichier .env")
+        try:
+            import anthropic
+        except ImportError as erreur:
+            raise IAIndisponible("paquet 'anthropic' non installé") from erreur
+        self.client = anthropic.Anthropic(api_key=cle, max_retries=3)
+        self.modele_tri = config.get("modele_tri", MODELE_TRI)
+        self.modele_synthese = config.get("modele_synthese", MODELE_SYNTHESE)
+
+    # ------------------------------------------------------------------ direct
+    def _direct(self, requete: Requete) -> str:
+        reponse = self.client.messages.create(**requete.params())
+        return "".join(bloc.text for bloc in reponse.content if getattr(bloc, "type", "") == "text")
+
+    def direct(self, requetes: list[Requete]) -> dict[str, str]:
+        resultats = {}
+        for requete in requetes:
+            try:
+                resultats[requete.id] = self._direct(requete)
+            except Exception as erreur:  # une requete en echec ne bloque pas les autres
+                self.journal(f"  ! {requete.id} : {type(erreur).__name__}: {erreur}")
+        return resultats
+
+    # ------------------------------------------------------------------- batch
+    def lot(self, requetes: list[Requete], echeance: dt.datetime) -> dict[str, str]:
+        if not requetes:
+            return {}
+        if not self.config.get("traitement_differe", True):
+            return self.direct(requetes)
+        try:
+            lot = self.client.messages.batches.create(requests=[
+                {"custom_id": r.id, "params": r.params()} for r in requetes])
+        except Exception as erreur:
+            self.journal(f"  ! lot refusé ({type(erreur).__name__}), passage en direct")
+            return self.direct(requetes)
+        self.journal(f"  lot {lot.id} soumis ({len(requetes)} requêtes)")
+        while lot.processing_status != "ended":
+            if dt.datetime.now().astimezone() >= echeance:
+                self.journal("  ! heure limite atteinte : annulation du lot et passage en direct")
+                try:
+                    self.client.messages.batches.cancel(lot.id)
+                except Exception:
+                    pass
+                break
+            time.sleep(int(self.config.get("intervalle_sondage_s", 30)))
+            lot = self.client.messages.batches.retrieve(lot.id)
+        resultats: dict[str, str] = {}
+        try:
+            for ligne in self.client.messages.batches.results(lot.id):
+                if ligne.result.type == "succeeded":
+                    message = ligne.result.message
+                    resultats[ligne.custom_id] = "".join(
+                        b.text for b in message.content if getattr(b, "type", "") == "text")
+        except Exception as erreur:
+            self.journal(f"  ! lecture du lot impossible ({type(erreur).__name__})")
+        manquantes = [r for r in requetes if r.id not in resultats]
+        if manquantes:
+            self.journal(f"  {len(manquantes)} requête(s) relancée(s) en direct")
+            resultats.update(self.direct(manquantes))
+        return resultats
+
+
+# --------------------------------------------------------------------------- Contenus
+
+
+def requete_tri(client: ClientIA, bloc, deja: list[str]) -> Requete:
+    contenu = {
+        "bloc": bloc.titre,
+        "rubriques": sorted({c.rubrique for c in bloc.candidats}),
+        "candidats": [c.pour_tri() for c in bloc.candidats],
+    }
+    if deja:
+        contenu["sujets_deja_publies_recemment"] = deja[:40]
+    return Requete(id=f"tri-{bloc.id}", modele=client.modele_tri, systeme=SYSTEME_TRI,
+                   contenu=json.dumps(contenu, ensure_ascii=False), max_tokens=2500)
+
+
+def limite_caracteres(texte: str, plafond: int = 2800, ratio: float = 0.40) -> int:
+    return max(900, min(plafond, int(len(texte) * ratio)))
+
+
+def requete_synthese(client: ClientIA, candidat, limite: int) -> Requete:
+    lignes = [
+        f"Limite de longueur : {limite} caractères au total.",
+        f"Source : {candidat.source}",
+        f"Rubrique : {candidat.rubrique}",
+    ]
+    if candidat.publie_le:
+        lignes.append(f"Date du flux : {candidat.publie_le:%d/%m/%Y}")
+    if candidat.auteur:
+        lignes.append(f"Auteur : {candidat.auteur}")
+    lignes += [f"Titre d'origine : {candidat.titre}", "", "ARTICLE :", candidat.texte]
+    contenu = "\n".join(lignes)
+    return Requete(id=f"syn-{candidat.id}", modele=client.modele_synthese,
+                   systeme=SYSTEME_SYNTHESE, contenu=contenu, max_tokens=2500)
+
+
+def requete_mots(client: ClientIA, besoins: dict[str, int], connus: list[str]) -> Requete:
+    demande = ", ".join(f"{n} mots de niveau « {niveau} »" for niveau, n in besoins.items())
+    contenu = f"Propose {demande}.\n\nMots déjà connus (à ne pas reprendre) :\n" + ", ".join(connus)
+    return Requete(id="mots", modele=client.modele_tri, systeme=SYSTEME_MOTS,
+                   contenu=contenu, max_tokens=8000)
+
+
+def requete_quiz(client: ClientIA, textes: list[dict]) -> Requete:
+    return Requete(id="quiz", modele=client.modele_tri, systeme=SYSTEME_QUIZ,
+                   contenu=json.dumps(textes, ensure_ascii=False), max_tokens=1500)
+
+
+def longueur(article: dict) -> int:
+    return (len(article.get("chapo", "")) + len(article.get("synthese", ""))
+            + sum(len(s.get("intertitre", "")) + len(s.get("texte", ""))
+                  for s in article.get("sections", [])))
+
+
+def ajuster_longueur(article: dict, limite: int) -> dict:
+    """Retire des sections en fin d'article si la synthese depasse nettement la limite."""
+    sections = list(article.get("sections", []))
+    while longueur({**article, "sections": sections}) > limite * 1.08 and len(sections) > 2:
+        sections.pop()
+    article["sections"] = sections
+    return article

@@ -2,12 +2,12 @@
 
 *Dernière mise à jour : 18 octobre 2026 · maquette de référence : `signal-matin-demo.html`*
 
-## 1. Structure du journal (environ 8 pages A4)
+## 1. Structure du journal (7 pages A4, recto verso)
 
 | Bloc | Contenu | Volume | Statut |
 |---|---|---|---|
 | 0. Une | Titre + météo + mots du jour | ~1/2 page (115 mm) | ✅ Validé |
-| 1. IA & recherche | 2 articles développés + 2 à 4 brèves | ~1,5 page | ✅ Validé |
+| 1. IA & recherche | 2 articles développés + 2 à 3 brèves | ~1,25 page | ✅ Validé |
 | 2. Actualité | France, États-Unis, Chine, Monde, géopolitique & défense | ~1,5 page | Sources à définir |
 | 3. Veille | Réglementation & conformité, climat | ~1,5 page | Sources à définir |
 | 4. Curiosités | Science grand public, sport | ~1,5 page | Sources à définir |
@@ -94,7 +94,8 @@ Test réel du 19/10/2026 : 29 flux sur 29 lus par le programme.
 ### Sélection
 - Classement par **importance et nouveauté** ; les republications ne comptent pas comme nouvelles
 - Fraîcheur : articles des **dernières 24 h** du mardi au vendredi ; l'édition du **lundi** couvre vendredi, samedi et dimanche
-- Par bloc : **2 articles développés + 2 à 4 brèves** ; le reste est ignoré
+- Par bloc : **2 articles développés + 2 à 3 brèves** ; le reste est ignoré (une demi-page « En bref » contient au plus 6 brèves : elle est partagée par deux blocs consécutifs)
+- **Football exclu dans tous les blocs** (filtre par mots-clés avant l'IA, puis consigne à l'IA)
 
 ## 5. Jeux (dernière page)
 
@@ -121,6 +122,9 @@ Test réel du 19/10/2026 : 29 flux sur 29 lus par le programme.
 - Budget estimé : environ 1,5 à 2 $ par mois ; plafond conseillé sur la clé : 15 $ par mois
 
 ## 7. Mise en page
+
+- Enchaînement : une + 1er article · puis 2 demi-pages par bloc · une demi-page « En bref » après chaque paire de blocs · solutions d'hier dans la demi-page libre · page Jeux en dernier
+- Ajustement automatique : un texte trop long voit sa taille réduite légèrement (jusqu'à 7,6 pt) ; une brève en trop est retirée
 
 - Typographie et style du projet d'origine (journal monochrome A4)
 - Pas de libellé « article développé » dans les en-têtes de section

@@ -47,9 +47,15 @@ def main() -> int:
     run([python, "-m", "playwright", "install", "chromium"], "Installation du navigateur PDF")
 
     config = ROOT / "config.yaml"
+    personnalisee = ROOT / "config.cesar.example.yaml"
     if not config.exists():
-        shutil.copyfile(ROOT / "config.example.yaml", config)
-        print("\nConfiguration de demonstration creee : config.yaml")
+        modele = personnalisee if personnalisee.exists() else ROOT / "config.example.yaml"
+        shutil.copyfile(modele, config)
+        print(f"\nConfiguration creee a partir de {modele.name} : config.yaml")
+    env = ROOT / ".env"
+    if not env.exists() and (ROOT / ".env.example").exists():
+        shutil.copyfile(ROOT / ".env.example", env)
+        print("Fichier .env cree : ajoute-y ta cle ANTHROPIC_API_KEY.")
     else:
         print("\nConfiguration existante conservee : config.yaml")
 
