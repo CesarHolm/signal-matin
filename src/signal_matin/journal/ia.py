@@ -37,7 +37,7 @@ Règles des brèves :
 - « titre » : en français, factuel, 90 caractères maximum.
 - « texte » : 1 à 2 phrases en français, environ 250 caractères, uniquement d'après le titre et le résumé fournis. N'ajoute aucune information extérieure. Si le résumé est trop pauvre pour une brève fiable, choisis un autre article.
 
-Réponds UNIQUEMENT par un objet JSON valide, sans texte autour :
+Réponds avec l'outil « repondre », selon cette structure :
 {"developpes": [{"id": "a12", "score": 8, "raison": "…"}, …], "breves": [{"id": "a7", "titre": "…", "texte": "…"}, …]}"""
 
 SYSTEME_SYNTHESE = """Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).
@@ -63,7 +63,7 @@ Règles impératives :
 - Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.
 - « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.
 
-Réponds UNIQUEMENT par un objet JSON valide, sans texte autour :
+Réponds avec l'outil « repondre », selon cette structure :
 {"titre": "…", "chapo": "…", "sections": [{"intertitre": "…", "texte": "…"}], "synthese": "…", "republication": ""}"""
 
 SYSTEME_QUIZ = """Tu rédiges le quiz du jour d'un journal personnel imprimé, en français.
@@ -74,7 +74,7 @@ SYSTEME_QUIZ = """Tu rédiges le quiz du jour d'un journal personnel imprimé, e
 - varie les articles (pas plus de 2 questions sur le même texte) ;
 - question de 110 caractères maximum.
 
-Réponds UNIQUEMENT par un objet JSON valide :
+Réponds avec l'outil « repondre », selon cette structure :
 {"questions": [{"question": "…", "options": ["…", "…", "…"], "reponse": 0, "article": "titre de l'article"}]}"""
 
 SYSTEME_MOTS = """Tu enrichis la base de vocabulaire d'un lecteur francophone cultivé qui apprend chaque jour de nouveaux mots.
@@ -85,8 +85,41 @@ Propose des mots français RÉELS, attestés dans les dictionnaires de référen
 - Pour chaque mot : nature grammaticale abrégée (adj., n. m., n. f., v. tr., v. intr.…), définition exacte et concise (150 caractères maximum), exemple d'usage naturel (100 caractères maximum).
 - N'utilise aucun mot de la liste des mots déjà connus.
 
-Réponds UNIQUEMENT par un objet JSON valide :
+Réponds avec l'outil « repondre », selon cette structure :
 {"mots": [{"mot": "…", "nature": "…", "niveau": "facile", "domaine": "soutenu", "definition": "…", "exemple": "…"}]}"""
+
+
+# --------------------------------------------------------------------------- Schemas
+# L'IA repond via un outil impose : l'API garantit alors un JSON valide et conforme.
+
+_TEXTE = {"type": "string"}
+_SECTIONS = {"type": "array", "items": {"type": "object", "properties": {
+    "intertitre": _TEXTE, "texte": _TEXTE}, "required": ["intertitre", "texte"]}}
+SCHEMA_TRI = {"type": "object", "properties": {
+    "developpes": {"type": "array", "items": {"type": "object", "properties": {
+        "id": _TEXTE, "score": {"type": "integer"}, "raison": _TEXTE}, "required": ["id", "score"]}},
+    "breves": {"type": "array", "items": {"type": "object", "properties": {
+        "id": _TEXTE, "titre": _TEXTE, "texte": _TEXTE}, "required": ["id", "titre", "texte"]}},
+}, "required": ["developpes", "breves"]}
+SCHEMA_SYNTHESE = {"type": "object", "properties": {
+    "titre": _TEXTE, "chapo": _TEXTE, "sections": _SECTIONS, "synthese": _TEXTE, "republication": _TEXTE,
+}, "required": ["titre", "chapo", "sections", "synthese"]}
+SCHEMA_QUIZ = {"type": "object", "properties": {"questions": {"type": "array", "items": {
+    "type": "object", "properties": {"question": _TEXTE, "options": {"type": "array", "items": _TEXTE},
+                                     "reponse": {"type": "integer"}, "article": _TEXTE},
+    "required": ["question", "options", "reponse"]}}}, "required": ["questions"]}
+SCHEMA_MOTS = {"type": "object", "properties": {"mots": {"type": "array", "items": {
+    "type": "object", "properties": {k: _TEXTE for k in
+                                     ("mot", "nature", "niveau", "domaine", "definition", "exemple")},
+    "required": ["mot", "nature", "niveau", "domaine", "definition", "exemple"]}}}, "required": ["mots"]}
+
+
+def _texte_reponse(contenu) -> str:
+    """Texte exploitable d'une reponse : l'entree de l'outil si presente, sinon le texte."""
+    for bloc in contenu:
+        if getattr(bloc, "type", "") == "tool_use":
+            return json.dumps(bloc.input, ensure_ascii=False)
+    return "".join(getattr(b, "text", "") for b in contenu if getattr(b, "type", "") == "text")
 
 
 # --------------------------------------------------------------------------- Requetes
@@ -99,15 +132,21 @@ class Requete:
     systeme: str
     contenu: str
     max_tokens: int = 2000
+    schema: dict | None = None
 
     def params(self) -> dict:
-        return {
+        params = {
             "model": self.modele,
             "max_tokens": self.max_tokens,
             "system": [{"type": "text", "text": self.systeme,
                         "cache_control": {"type": "ephemeral"}}],
             "messages": [{"role": "user", "content": self.contenu}],
         }
+        if self.schema:
+            params["tools"] = [{"name": "repondre", "description": "Transmet la réponse structurée.",
+                                "input_schema": self.schema}]
+            params["tool_choice"] = {"type": "tool", "name": "repondre"}
+        return params
 
 
 class IAIndisponible(RuntimeError):
@@ -142,7 +181,7 @@ class ClientIA:
     # ------------------------------------------------------------------ direct
     def _direct(self, requete: Requete) -> str:
         reponse = self.client.messages.create(**requete.params())
-        return "".join(bloc.text for bloc in reponse.content if getattr(bloc, "type", "") == "text")
+        return _texte_reponse(reponse.content)
 
     def direct(self, requetes: list[Requete]) -> dict[str, str]:
         resultats = {}
@@ -181,8 +220,7 @@ class ClientIA:
             for ligne in self.client.messages.batches.results(lot.id):
                 if ligne.result.type == "succeeded":
                     message = ligne.result.message
-                    resultats[ligne.custom_id] = "".join(
-                        b.text for b in message.content if getattr(b, "type", "") == "text")
+                    resultats[ligne.custom_id] = _texte_reponse(message.content)
         except Exception as erreur:
             self.journal(f"  ! lecture du lot impossible ({type(erreur).__name__})")
         manquantes = [r for r in requetes if r.id not in resultats]
@@ -204,7 +242,8 @@ def requete_tri(client: ClientIA, bloc, deja: list[str]) -> Requete:
     if deja:
         contenu["sujets_deja_publies_recemment"] = deja[:40]
     return Requete(id=f"tri-{bloc.id}", modele=client.modele_tri, systeme=SYSTEME_TRI,
-                   contenu=json.dumps(contenu, ensure_ascii=False), max_tokens=2500)
+                   contenu=json.dumps(contenu, ensure_ascii=False), max_tokens=4000,
+                   schema=SCHEMA_TRI)
 
 
 def limite_caracteres(texte: str, plafond: int = 2800, ratio: float = 0.40) -> int:
@@ -225,19 +264,20 @@ def requete_synthese(client: ClientIA, candidat, limite: int, format_: str = "lo
     lignes += [f"Titre d'origine : {candidat.titre}", "", "ARTICLE :", candidat.texte]
     contenu = "\n".join(lignes)
     return Requete(id=f"syn-{candidat.id}", modele=client.modele_synthese,
-                   systeme=SYSTEME_SYNTHESE, contenu=contenu, max_tokens=2500 if format_ == "long" else 1200)
+                   systeme=SYSTEME_SYNTHESE, contenu=contenu, max_tokens=3000 if format_ == "long" else 1500,
+                   schema=SCHEMA_SYNTHESE)
 
 
 def requete_mots(client: ClientIA, besoins: dict[str, int], connus: list[str]) -> Requete:
     demande = ", ".join(f"{n} mots de niveau « {niveau} »" for niveau, n in besoins.items())
     contenu = f"Propose {demande}.\n\nMots déjà connus (à ne pas reprendre) :\n" + ", ".join(connus)
     return Requete(id="mots", modele=client.modele_tri, systeme=SYSTEME_MOTS,
-                   contenu=contenu, max_tokens=8000)
+                   contenu=contenu, max_tokens=8000, schema=SCHEMA_MOTS)
 
 
 def requete_quiz(client: ClientIA, textes: list[dict]) -> Requete:
     return Requete(id="quiz", modele=client.modele_tri, systeme=SYSTEME_QUIZ,
-                   contenu=json.dumps(textes, ensure_ascii=False), max_tokens=1500)
+                   contenu=json.dumps(textes, ensure_ascii=False), max_tokens=2000, schema=SCHEMA_QUIZ)
 
 
 def longueur(article: dict) -> int:

@@ -301,3 +301,11 @@ def test_pas_de_breve_sur_un_article_developpe(tmp_path, monkeypatch):
     edition = ed.produire({"journal": {}}, dt.datetime(2026, 10, 20, 4, tzinfo=dt.timezone.utc),
                           racine=tmp_path, journal=lambda *a: None)["edition"]
     assert "Doublon" not in [b["titre"] for b in edition["blocs"][0]["breves"]]
+
+
+def test_reponse_par_outil_impose():
+    r = ia.Requete(id="x", modele="m", systeme="s", contenu="c", schema=ia.SCHEMA_TRI)
+    p = r.params()
+    assert p["tool_choice"] == {"type": "tool", "name": "repondre"}
+    bloc = SimpleNamespace(type="tool_use", input={"developpes": [], "breves": []})
+    assert ia.extraire_json(ia._texte_reponse([bloc])) == {"developpes": [], "breves": []}
