@@ -10,8 +10,9 @@ journal:
   heure_limite: "06:40"        # au-delà, le traitement différé est abandonné au profit d'appels directs
   fenetre_heures: 24           # du mardi au vendredi
   fenetre_lundi_heures: 72     # le lundi couvre vendredi, samedi et dimanche
-  longueur_max: 2800           # caractères par article développé (une demi-page)
-  ratio_article_court: 0.40    # plafond à 40 % de l'article d'origine
+  pages: 8                     # nombre de pages visé (recto verso)
+  pages_possibles: [6, 8, 10]  # 6 si l'actualité est maigre, 10 si beaucoup de sujets essentiels
+  ratio_article_court: 0.40    # synthèse plafonnée à 40 % de l'article d'origine
 
   ia:
     modele_tri: claude-haiku-5-5

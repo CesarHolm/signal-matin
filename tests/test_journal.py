@@ -182,7 +182,7 @@ def test_edition_complete_avec_ia_simulee(tmp_path, monkeypatch):
             assert "PSG" not in texte  # filtre football avant l'IA
             return json.dumps({"developpes": [{"id": "a12"}, {"id": "a13"}],
                                "breves": [{"id": "a11", "titre": "Tennis", "texte": "Texte."}]})
-        if texte.startswith("Limite"):
+        if texte.startswith("Format"):
             return json.dumps({"titre": "Titre FR", "chapo": "Chapô.", "synthese": "Deux phrases. Fin.",
                                "sections": [{"intertitre": "Le principe", "texte": "Paragraphe."}]})
         if texte.startswith("["):
@@ -213,7 +213,7 @@ def test_edition_de_secours_sans_cle(tmp_path, monkeypatch):
     resultat = ed.produire({"journal": {}}, dt.datetime(2026, 10, 20, 4, tzinfo=dt.timezone.utc),
                            racine=tmp_path, journal=lambda *a: None)
     edition = resultat["edition"]
-    assert edition["secours"] and len(edition["blocs"][0]["developpes"]) == 2
+    assert edition["secours"] and len(edition["blocs"][0]["developpes"]) >= 2
     assert any("IA indisponible" in a for a in edition["avertissements"])
     assert "Édition de secours".upper() in rendre(edition)
 
@@ -238,3 +238,66 @@ def test_auteur_nettoye():
     assert ed._auteur(c) == "John Pavlus"
     c.source, c.auteur = "franceinfo", "Franceinfo"
     assert ed._auteur(c) == ""
+
+
+# ------------------------------------------------------------ Mise en page
+
+from signal_matin.journal import mise_en_page as mep
+
+
+def test_gabarit_long_ou_court():
+    assert mep.gabarit(16000) == ("long", 2800)
+    assert mep.gabarit(6500)[0] == "long"
+    assert mep.gabarit(4400) == ("court", 1100)   # 40 % = 1760 : trop court pour une demi-page
+    assert mep.gabarit(2300) == ("court", 920)
+    assert mep.gabarit(600)[1] <= 420            # jamais plus de 70 % d'un texte bref
+
+
+def _classement(bloc, formats, score=5):
+    return [mep.Choix(f"{bloc}{i}", bloc, score - i % 3, f, 2800 if f == "long" else 1100)
+            for i, f in enumerate(formats)]
+
+
+def test_plan_remplit_exactement_8_pages():
+    cl = {b: _classement(b, ["long", "court", "court", "long", "court", "court"]) for b in "ABCD"}
+    plan = mep.planifier(cl, {b: 6 for b in "ABCD"}, avec_solutions=True)
+    assert plan.pages == 8
+    total = sum(c.taille for c in plan.articles) + sum(plan.quarts_breves.values()) + 1
+    assert total == mep.quarts_de_contenu(8) and plan.quarts_libres == 0
+    for b in "ABCD":
+        assert sum(1 for c in plan.articles if c.bloc == b) >= 2
+
+
+def test_plan_passe_a_6_ou_10_pages():
+    maigre = {b: _classement(b, ["court", "court"]) for b in "AB"}
+    assert mep.planifier(maigre, {"A": 3, "B": 3}, avec_solutions=False).pages == 6
+    riche = {b: [mep.Choix(f"{b}{i}", b, 10, "long", 2800) for i in range(6)] for b in "ABCD"}
+    assert mep.planifier(riche, {b: 3 for b in "ABCD"}, avec_solutions=True).pages == 10
+
+
+def test_assembler_apparie_les_quarts():
+    u = lambda n, t: {"id": n, "taille": t}
+    demis = mep.assembler([u("L1", 2), u("c1", 1), u("L2", 2), u("c2", 1), u("c3", 1), u("c4", 1)])
+    assert [[x["id"] for x in d] for d in demis] == [["L1"], ["L2"], ["c1", "c2"], ["c3", "c4"]]
+
+
+def test_pas_de_breve_sur_un_article_developpe(tmp_path, monkeypatch):
+    blocs = [Bloc(id="ia", titre="IA", rubriques=["IA"], candidats=[_candidat(i, "ia") for i in range(1, 6)])]
+    monkeypatch.setattr(ed.art, "collecter", lambda *a, **k: (blocs, []))
+    monkeypatch.setattr(ed.art, "texte_integral", lambda url, repli: ("Texte. " * 400, ""))
+    monkeypatch.setattr(ed, "meteo_du_jour", lambda *a: None)
+
+    def reponse(texte):
+        if texte.startswith("{\"bloc\""):
+            return json.dumps({"developpes": [{"id": "a1"}, {"id": "a2"}],
+                               "breves": [{"id": "a1", "titre": "Doublon", "texte": "T."},
+                                          {"id": "a4", "titre": "B4", "texte": "T."}]})
+        if texte.startswith("Format"):
+            return json.dumps({"titre": "T", "chapo": "C.", "synthese": "S.",
+                               "sections": [{"intertitre": "I", "texte": "P."}]})
+        return "{}"
+    client = _client(None, direct=reponse, config={"traitement_differe": False})
+    monkeypatch.setattr(ed.ia, "ClientIA", lambda conf, journal=print: client)
+    edition = ed.produire({"journal": {}}, dt.datetime(2026, 10, 20, 4, tzinfo=dt.timezone.utc),
+                          racine=tmp_path, journal=lambda *a: None)["edition"]
+    assert "Doublon" not in [b["titre"] for b in edition["blocs"][0]["breves"]]

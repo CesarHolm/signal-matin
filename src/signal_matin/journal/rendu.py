@@ -118,6 +118,19 @@ def _developpe(article: dict) -> str:
 <p class="lead">{E(article.get('chapo', ''))}</p>{sections}{synthese}{secours}<p class="src">{E(pied)}</p></article>"""
 
 
+def _court(article: dict) -> str:
+    sections = "".join(
+        f"<h4>{E(s.get('intertitre', ''))}</h4><p>{E(s.get('texte', ''))}</p>"
+        for s in article.get("sections", []))
+    synthese = ""
+    if article.get("synthese"):
+        synthese = f"<div class='synth'><span>Synthèse</span><p>{E(article['synthese'])}</p></div>"
+    secours = "<p class='secours'>Synthèse indisponible : chapô du flux.</p>" if article.get("secours") else ""
+    pied = f"Par {article['auteur']}, {article['source']}" if article.get("auteur") else article.get("source", "")
+    return f"""<article class="dev court"><p class="kicker">{E(_kicker(article))}</p><h3>{E(article.get('titre', ''))}</h3>
+<p class="lead">{E(article.get('chapo', ''))}</p>{sections}{synthese}{secours}<p class="src">{E(pied)}</p></article>"""
+
+
 def _breves(breves: list[dict]) -> str:
     return "<div class='breves'>" + "".join(
         f"<div class='breve'><p class='kicker'>{E(_kicker(b))}</p><h5>{E(b.get('titre', ''))}</h5>"
@@ -252,7 +265,7 @@ def solutions_hier(sol: dict | None) -> str:
 
 AJUSTEMENT = """<script>
 // Reduit legerement le corps d'un article qui deborderait de sa demi-page.
-document.querySelectorAll('.corps').forEach(function (zone) {
+document.querySelectorAll('.quart, .corps:not(:has(.quarts))').forEach(function (zone) {
   var taille = 8.85;
   var deborde = function () { return zone.scrollHeight > zone.clientHeight + 1 || zone.scrollWidth > zone.clientWidth + 1; };
   while (deborde() && taille > 7.6) { taille -= 0.15; zone.style.fontSize = taille + 'pt'; }
@@ -274,46 +287,59 @@ def _slot(entete: str, corps: str, fixe: str = "") -> str:
     return f"<div class='slot'{style}>{entete}<div class='corps'>{corps}</div></div>"
 
 
-def demi_pages(edition: dict) -> list[tuple[str, str]]:
-    """Decoupe le journal en demi-pages (entete, corps).
+def _unite(unite: dict, edition: dict, deja_vus: set[str]) -> tuple[str, str]:
+    """Retourne (bloc, html) d'une unite de contenu."""
+    if unite["type"] == "article":
+        article = unite["article"]
+        corps = _developpe(article) if unite["taille"] == 2 else _court(article)
+        return unite["bloc"], corps
+    if unite["type"] == "breves":
+        titre = edition.get("titres_blocs", {}).get(unite["bloc"], "")
+        return unite["bloc"], f"<p class='breves-bloc'>En bref · {E(titre)}</p>{_breves(unite['breves'])}"
+    return "", solutions_hier(edition.get("solutions_hier"))
 
-    Chaque bloc occupe 2 demi-pages (ses 2 articles developpes) ; les breves de
-    deux blocs consecutifs partagent une demi-page « En bref », placee apres eux.
-    """
+
+def demi_pages(edition: dict) -> list[tuple[str, str]]:
+    """Demi-pages (entete, corps) a partir de la sequence d'unites planifiee."""
+    from .mise_en_page import assembler
+
+    titres = edition.get("titres_blocs", {})
+    deja_vus: set[str] = set()
     demis: list[tuple[str, str]] = []
-    blocs = edition.get("blocs", [])
-    for debut in range(0, len(blocs), 2):
-        paire = blocs[debut: debut + 2]
-        for bloc in paire:
-            premier = True
-            for article in bloc.get("developpes", []):
-                demis.append((_entete(bloc["titre"], premier), _developpe(article)))
-                premier = False
-        groupes = [b for b in paire if b.get("breves")]
-        if groupes:
-            corps = "".join(f"<p class='breves-bloc'>{E(b['titre'])}</p>{_breves(b['breves'])}" for b in groupes)
-            titres = " · ".join(b["titre"] for b in groupes)
-            demis.append((f"<div class='slot-head'><h2>En bref</h2><span>{E(titres)}</span></div>", corps))
+    for groupe in assembler(edition.get("sequence", [])):
+        rendus = [_unite(u, edition, deja_vus) for u in groupe]
+        blocs = [b for b, _ in rendus if b]
+        entete = ""
+        if blocs:
+            bloc = blocs[0]
+            nouveaux = [b for b in dict.fromkeys(blocs) if b not in deja_vus]
+            if bloc not in deja_vus:
+                entete = _entete(titres.get(bloc, ""), True,
+                                 " · ".join(titres.get(b, "") for b in nouveaux[1:]))
+            else:
+                autres = [titres.get(b, "") for b in dict.fromkeys(blocs)]
+                entete = _entete(" · ".join(autres), False)
+            deja_vus.update(blocs)
+        if len(rendus) == 1:
+            corps = rendus[0][1]
+        else:
+            corps = "<div class='quarts'>" + "".join(f"<div class='quart'>{h}</div>" for _, h in rendus) + "</div>"
+        demis.append((entete, corps))
     return demis
 
 
 def rendre(edition: dict) -> str:
     css = (ASSETS / "signal_matin.css").read_text(encoding="utf-8") + "\n" + CSS_JOURNAL.read_text(encoding="utf-8")
     demis = demi_pages(edition)
-    solutions = solutions_hier(edition.get("solutions_hier"))
     pages = []
-    # Page 1 : la une (demi-page) puis le premier article.
+    # Page 1 : la une (demi-page) puis la premiere demi-page de contenu.
     premier = demis.pop(0) if demis else ("", "")
     pages.append(_feuille(f"<div class='slot' style='flex:0 0 115mm'>{_une(edition)}</div>" + _slot(*premier), 1))
     if len(demis) % 2 == 1:
-        # Demi-page libre en fin de journal : on y loge les solutions d'hier.
-        demis.append(("", solutions))
-        solutions = ""
+        demis.append(("", ""))
     for i in range(0, len(demis), 2):
         pages.append(_feuille(_slot(*demis[i]) + _slot(*demis[i + 1]), len(pages) + 1))
     jeux = page_jeux(edition)
-    if solutions:
-        jeux += f"<div style='margin-top:4mm'>{solutions}</div>"
     pages.append(_feuille(jeux, len(pages) + 1))
     jour = dt.date.fromisoformat(edition["date"])
     return f"""<!doctype html><html lang="fr"><head><meta charset="utf-8">

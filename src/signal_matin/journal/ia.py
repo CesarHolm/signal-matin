@@ -23,8 +23,8 @@ MODELE_SYNTHESE = "claude-sonnet-5-5"
 SYSTEME_TRI = """Tu es le secrétaire de rédaction d'un journal personnel imprimé chaque matin pour un lecteur francophone exigeant (consultant en conformité réglementaire et gestion des risques).
 
 Pour un bloc du journal, tu reçois une liste d'articles candidats (identifiant, rubrique, source, nature, titre, date, résumé du flux RSS). Tu dois :
-1. Choisir EXACTEMENT 2 articles à développer (s'il y a au moins 2 candidats valables), qui feront l'objet d'une synthèse d'une demi-page.
-2. Choisir 2 ou 3 autres articles pour des brèves, et rédiger chaque brève.
+1. Classer, par ordre de priorité décroissante, jusqu'à 6 articles à développer (synthèse d'un quart ou d'une demi-page selon leur longueur). Le journal en publiera au moins 2 par bloc, et davantage selon la place disponible ; attribue à chacun un « score » de 1 à 10 (9 ou 10 : sujet essentiel du jour, à ne pas manquer).
+2. Choisir jusqu'à 6 autres articles pour des brèves, classés par priorité, et rédiger chaque brève (le journal en publie 3 par bloc, davantage s'il reste de la place).
 
 Critères de sélection, par ordre de priorité :
 - Importance : portée réelle de l'information, conséquences concrètes, intérêt durable.
@@ -38,7 +38,7 @@ Règles des brèves :
 - « texte » : 1 à 2 phrases en français, environ 250 caractères, uniquement d'après le titre et le résumé fournis. N'ajoute aucune information extérieure. Si le résumé est trop pauvre pour une brève fiable, choisis un autre article.
 
 Réponds UNIQUEMENT par un objet JSON valide, sans texte autour :
-{"developpes": [{"id": "a12", "raison": "…"}, …], "breves": [{"id": "a7", "titre": "…", "texte": "…"}, …]}"""
+{"developpes": [{"id": "a12", "score": 8, "raison": "…"}, …], "breves": [{"id": "a7", "titre": "…", "texte": "…"}, …]}"""
 
 SYSTEME_SYNTHESE = """Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).
 
@@ -47,16 +47,19 @@ Objectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, s
 Règles impératives :
 - Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.
 - Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite.
+- Format indiqué dans la demande :
+  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;
+  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.
 - Structure :
   • « titre » : titre français informatif, 80 caractères maximum.
   • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.
-  • « sections » : 3 à 5 sections, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :
+  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :
       débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments
       annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites
       étude ou recherche : La question · La méthode · Les résultats · Les réserves
       méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions
       réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance
-  • « synthese » : exactement 2 phrases qui résument l'ensemble.
+  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.
 - Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.
 - « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.
 
@@ -208,8 +211,9 @@ def limite_caracteres(texte: str, plafond: int = 2800, ratio: float = 0.40) -> i
     return max(900, min(plafond, int(len(texte) * ratio)))
 
 
-def requete_synthese(client: ClientIA, candidat, limite: int) -> Requete:
+def requete_synthese(client: ClientIA, candidat, limite: int, format_: str = "long") -> Requete:
     lignes = [
+        f"Format : {format_}",
         f"Limite de longueur : {limite} caractères au total.",
         f"Source : {candidat.source}",
         f"Rubrique : {candidat.rubrique}",
@@ -221,7 +225,7 @@ def requete_synthese(client: ClientIA, candidat, limite: int) -> Requete:
     lignes += [f"Titre d'origine : {candidat.titre}", "", "ARTICLE :", candidat.texte]
     contenu = "\n".join(lignes)
     return Requete(id=f"syn-{candidat.id}", modele=client.modele_synthese,
-                   systeme=SYSTEME_SYNTHESE, contenu=contenu, max_tokens=2500)
+                   systeme=SYSTEME_SYNTHESE, contenu=contenu, max_tokens=2500 if format_ == "long" else 1200)
 
 
 def requete_mots(client: ClientIA, besoins: dict[str, int], connus: list[str]) -> Requete:
@@ -245,7 +249,8 @@ def longueur(article: dict) -> int:
 def ajuster_longueur(article: dict, limite: int) -> dict:
     """Retire des sections en fin d'article si la synthese depasse nettement la limite."""
     sections = list(article.get("sections", []))
-    while longueur({**article, "sections": sections}) > limite * 1.08 and len(sections) > 2:
+    minimum = 1 if limite <= 1200 else 2
+    while longueur({**article, "sections": sections}) > limite * 1.08 and len(sections) > minimum:
         sections.pop()
     article["sections"] = sections
     return article

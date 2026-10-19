@@ -1,13 +1,13 @@
 # Signal Matin — spécifications
 
-*Dernière mise à jour : 18 octobre 2026 · maquette de référence : `signal-matin-demo.html`*
+*Dernière mise à jour : 19 octobre 2026 · maquette de référence : `signal-matin-demo.html`*
 
-## 1. Structure du journal (7 pages A4, recto verso)
+## 1. Structure du journal (8 pages A4 par défaut, recto verso)
 
 | Bloc | Contenu | Volume | Statut |
 |---|---|---|---|
 | 0. Une | Titre + météo + mots du jour | ~1/2 page (115 mm) | ✅ Validé |
-| 1. IA & recherche | 2 articles développés + 2 à 3 brèves | ~1,25 page | ✅ Validé |
+| 1. IA & recherche | au moins 2 articles + 3 brèves | variable | ✅ Validé |
 | 2. Actualité | France, États-Unis, Chine, Monde, géopolitique & défense | ~1,5 page | Sources à définir |
 | 3. Veille | Réglementation & conformité, climat | ~1,5 page | Sources à définir |
 | 4. Curiosités | Science grand public, sport | ~1,5 page | Sources à définir |
@@ -80,22 +80,22 @@ Test réel du 19/10/2026 : 29 flux sur 29 lus par le programme.
 
 ## 4. Formats rédactionnels (s'appliquent à tous les blocs)
 
-### Article développé
-- Synthèse rédigée en français par Claude (API Anthropic), à partir de l'article complet
-- Longueur : **2 800 caractères maximum** (une demi-page), plafonnée à **40 % de l'article d'origine** pour les articles courts
-- Structure : rubrique · source · date → titre → chapô en italique → intertitres en gras adaptés au type d'article (ex. *Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments*) → encadré **« Synthèse »** de 2 phrases → « Par [auteur], [média] »
-- Aucun ajout d'information extérieure à l'article
-- Republication signalée dans la ligne de source (ex. « paru initialement en mai 2025 »)
-- Mise en page : 2 colonnes, 2 articles par page
+### Deux gabarits d'article, choisis selon la longueur du texte source
+- **Long** (une demi-page) : si 40 % du texte source atteint au moins 2 400 caractères ; synthèse de **2 800 caractères maximum**. Structure : rubrique · source · date → titre → chapô en italique → 3 à 5 intertitres en gras adaptés au type d'article → encadré **« Synthèse »** de 2 phrases → « Par [auteur], [média] ».
+- **Court** (un quart de page) : tous les autres ; environ **1 100 caractères maximum** (700 au minimum, jamais plus de 70 % d'un texte bref). Structure : titre → chapô → 1 ou 2 intertitres donnant les **informations clés** (faits, chiffres, acteurs, enjeu) → **« Synthèse »** d'une ou deux phrases maximum.
+- Un article dont on ne récupère pas au moins 1 000 caractères de texte ne peut faire qu'une brève.
+- Aucune information extérieure à l'article ; republication signalée dans la ligne de source.
 
 ### Brève
-- Rubrique · source · date → titre traduit en français → 1 à 2 phrases (environ 250 caractères)
+- Rubrique · source · date → titre traduit en français → 1 à 2 phrases (environ 250 caractères) ; 3 brèves par quart de page. Un article développé n'apparaît jamais aussi en brève.
 
-### Sélection
-- Classement par **importance et nouveauté** ; les republications ne comptent pas comme nouvelles
-- Fraîcheur : articles des **dernières 24 h** du mardi au vendredi ; l'édition du **lundi** couvre vendredi, samedi et dimanche
-- Par bloc : **2 articles développés + 2 à 3 brèves** ; le reste est ignoré (une demi-page « En bref » contient au plus 6 brèves : elle est partagée par deux blocs consécutifs)
-- **Football exclu dans tous les blocs** (filtre par mots-clés avant l'IA, puis consigne à l'IA)
+### Sélection et remplissage
+- L'IA classe jusqu'à 6 articles par bloc (score de 1 à 10, 9-10 = essentiel) et jusqu'à 6 brèves, par **importance et nouveauté** ; les republications ne comptent pas comme nouvelles.
+- **8 pages par défaut** ; **6** si l'actualité ne suffit pas à remplir, **10** si les sujets essentiels dépassent 8 pages.
+- Remplissage exact en quarts de page : chaque bloc garde **au moins 2 articles**, puis les meilleurs scores tous blocs confondus ; un quart orphelin est comblé par un article court ou des brèves supplémentaires.
+- L'ordre des articles peut varier pour que chaque demi-page soit pleine (deux articles courts, éventuellement de blocs différents, partagent une demi-page).
+- Fraîcheur : articles des **dernières 24 h** du mardi au vendredi ; l'édition du **lundi** couvre vendredi, samedi et dimanche.
+- **Football exclu dans tous les blocs** (filtre par mots-clés avant l'IA, puis consigne à l'IA).
 
 ## 5. Jeux (dernière page)
 
@@ -123,7 +123,7 @@ Test réel du 19/10/2026 : 29 flux sur 29 lus par le programme.
 
 ## 7. Mise en page
 
-- Enchaînement : une + 1er article · puis 2 demi-pages par bloc · une demi-page « En bref » après chaque paire de blocs · solutions d'hier dans la demi-page libre · page Jeux en dernier
+- Enchaînement : une + 1re demi-page · puis les blocs dans l'ordre, chaque demi-page contenant un article long ou deux quarts (article court, brèves d'un bloc, solutions d'hier) · page Jeux en dernier
 - Ajustement automatique : un texte trop long voit sa taille réduite légèrement (jusqu'à 7,6 pt) ; une brève en trop est retirée
 
 - Typographie et style du projet d'origine (journal monochrome A4)

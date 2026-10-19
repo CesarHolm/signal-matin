@@ -33,7 +33,8 @@ def _link(element: ET.Element) -> str | None:
 
 
 def _plain(value: str) -> str:
-    return " ".join(re.sub(r"<[^>]+>", " ", html.unescape(value or "")).split())
+    # Double déséchappement : certains flux (CNIL) encodent deux fois les entités.
+    return " ".join(re.sub(r"<[^>]+>", " ", html.unescape(html.unescape(value or ""))).split())
 
 
 def _clip(value: str, limit: int) -> str:
