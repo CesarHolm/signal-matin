@@ -70,9 +70,11 @@ Rubriques retirées : agenda, priorités, à ne pas oublier.
 | Curiosités | Science | NASA — https://www.nasa.gov/feed/ | EN | ✅ |
 | Curiosités | Science | Sciences et Avenir — https://www.sciencesetavenir.fr/rss.xml | FR | ✅ |
 | Veille | Conformité | ACPR | FR | ⏳ site inaccessible depuis le cloud, à tester depuis le PC |
-| Curiosités | Sport | sources en cours de choix — tous sports **sauf football** | — | — |
+| Curiosités | Sport (actualité) | franceinfo Sports — https://www.francetvinfo.fr/sports.rss | FR | ✅ |
+| Curiosités | Sport (méthodes) | TrainingPeaks — https://www.trainingpeaks.com/feed/ | EN | ✅ |
+| Curiosités | Sport (méthodes) | Stronger by Science — https://www.strongerbyscience.com/feed/ | EN | ✅ |
 
-**Règle sport** : actualité en **brèves uniquement** (savoir ce qui s'est passé), football exclu ; les articles sur les **méthodes d'entraînement** sont traités en **article développé**.
+**Règle sport** : actualité en **brèves uniquement** (savoir ce qui s'est passé), **football exclu systématiquement** ; les articles sur les **méthodes d'entraînement** sont traités en **article développé**.
 
 Test réel du 19/10/2026 : 29 flux sur 29 lus par le programme.
 
