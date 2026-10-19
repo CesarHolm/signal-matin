@@ -147,6 +147,8 @@ def build_parser() -> argparse.ArgumentParser:
     journal.add_argument("--essai", action="store_true",
                          help="n'enregistre pas l'édition (mots et solutions non mémorisés)")
     journal.add_argument("--imprimer", action="store_true", help="imprime le PDF une fois généré")
+    journal.add_argument("--direct", action="store_true",
+                         help="appels IA immédiats, sans traitement de nuit (pour un essai)")
     imprimer = sub.add_parser("journal-imprimer", help="imprime l'édition personnalisée du jour")
     imprimer.add_argument("--config", default="config.yaml", help="fichier YAML local")
     imprimer.add_argument("--date", type=_date, default=dt.date.today())
@@ -168,6 +170,8 @@ def main(argv: list[str] | None = None) -> int:
     config = load_config(args.config)
     if args.command == "journal":
         from .journal.edition import produire, publier
+        if args.direct:
+            config.setdefault("journal", {}).setdefault("ia", {})["traitement_differe"] = False
         resultat = produire(config, avec_ia=not args.sans_ia)
         for avertissement in resultat["edition"]["avertissements"]:
             print(f"! {avertissement}")

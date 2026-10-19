@@ -57,8 +57,10 @@ Recopier le nom exact de la Brother dans `printing: printer: "…"`.
 ## 6. Premier essai
 
 ```powershell
-.\.venv\Scripts\python.exe main.py journal --essai
+.\.venv\Scripts\python.exe main.py journal --essai --direct
 ```
+
+`--direct` fait les appels IA immédiatement (quelques minutes) au lieu du traitement de nuit.
 
 Le PDF est créé dans `output\pdf\`. L'option `--essai` évite de mémoriser les
 mots du jour et les solutions : on peut relancer autant de fois que nécessaire.
