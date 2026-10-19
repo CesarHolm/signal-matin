@@ -156,8 +156,9 @@ class Requete:
     contenu: str
     max_tokens: int = 2000
     schema: dict | None = None
+    effort: str | None = None   # "low" limite la reflexion interne (comptee dans max_tokens et facturee)
 
-    def params(self, mode: str | None = None) -> dict:
+    def params(self, mode: str | None = None, effort: bool = True) -> dict:
         mode = mode or mode_initial(self.modele)
         params = {
             "model": self.modele,
@@ -172,6 +173,8 @@ class Requete:
             params["tool_choice"] = {"type": "tool", "name": "repondre"}
         elif self.schema and mode == "format":
             params["output_config"] = {"format": {"type": "json_schema", "schema": _strict(self.schema)}}
+        if self.effort and effort:
+            params.setdefault("output_config", {})["effort"] = self.effort
         return params
 
 
@@ -180,6 +183,8 @@ def _mode_refuse(erreur: Exception) -> bool:
     if getattr(erreur, "status_code", None) != 400:
         return False
     message = str(erreur).lower()
+    if "effort" in message:
+        return False
     return any(m in message for m in ("tool_choice", "tools", "output_config", "format", "schema"))
 
 
@@ -228,14 +233,20 @@ class ClientIA:
         self.journal(f"  … {modele} : mode « {mode} » refusé, passage en mode « {suivant} »")
         return True
 
+    def _effort(self, modele: str) -> bool:
+        return modele not in getattr(self, "_sans_effort", set())
+
     def _direct(self, requete: Requete) -> str:
-        params = requete.params(self._mode(requete.modele))
+        params = requete.params(self._mode(requete.modele), self._effort(requete.modele))
         # output_config passe par extra_body : compatible avec toutes les versions du SDK.
         extra = {"output_config": params.pop("output_config")} if "output_config" in params else None
         if extra:
             reponse = self.client.messages.create(**params, extra_body=extra)
         else:
             reponse = self.client.messages.create(**params)
+        fin = getattr(reponse, "stop_reason", None)
+        if fin not in (None, "end_turn", "tool_use"):
+            self.journal(f"  ! {requete.id} : réponse interrompue ({fin})")
         return _texte_reponse(reponse.content)
 
     def direct(self, requetes: list[Requete]) -> dict[str, str]:
@@ -246,6 +257,13 @@ class ClientIA:
                     resultats[requete.id] = self._direct(requete)
                     break
                 except Exception as erreur:  # une requete en echec ne bloque pas les autres
+                    if (getattr(erreur, "status_code", None) == 400 and "effort" in str(erreur).lower()
+                            and self._effort(requete.modele)):
+                        if not hasattr(self, "_sans_effort"):
+                            self._sans_effort = set()
+                        self._sans_effort.add(requete.modele)
+                        self.journal(f"  … {requete.modele} : réglage d'effort refusé, retiré")
+                        continue
                     if _mode_refuse(erreur) and self._degrader(requete.modele, self._mode(requete.modele)):
                         continue
                     if isinstance(erreur, getattr(self, "_limite_debit", ())) and tentative < 6:
@@ -270,7 +288,7 @@ class ClientIA:
             return self.direct(requetes)
         try:
             lot = self.client.messages.batches.create(requests=[
-                {"custom_id": r.id, "params": r.params(self._mode(r.modele))} for r in requetes])
+                {"custom_id": r.id, "params": r.params(self._mode(r.modele), self._effort(r.modele))} for r in requetes])
         except Exception as erreur:
             self.journal(f"  ! lot refusé ({type(erreur).__name__}), passage en direct")
             return self.direct(requetes)
@@ -287,15 +305,20 @@ class ClientIA:
             lot = self.client.messages.batches.retrieve(lot.id)
         resultats: dict[str, str] = {}
         erreurs_lot: list[str] = []
+        tronquees: list[str] = []
         try:
             for ligne in self.client.messages.batches.results(lot.id):
                 if ligne.result.type == "succeeded":
                     message = ligne.result.message
                     resultats[ligne.custom_id] = _texte_reponse(message.content)
+                    if getattr(message, "stop_reason", None) == "max_tokens":
+                        tronquees.append(ligne.custom_id)
                 elif ligne.result.type == "errored" and not erreurs_lot:
                     erreurs_lot.append(str(getattr(ligne.result, "error", ""))[:300])
         except Exception as erreur:
             self.journal(f"  ! lecture du lot impossible ({type(erreur).__name__})")
+        for ident in tronquees:   # reponse coupee : on la refait en direct
+            del resultats[ident]
         if erreurs_lot:
             self.journal(f"  ! erreur dans le lot : {erreurs_lot[0]}")
         manquantes = [r for r in requetes if r.id not in resultats]
@@ -339,7 +362,7 @@ def requete_synthese(client: ClientIA, candidat, limite: int, format_: str = "lo
     lignes += [f"Titre d'origine : {candidat.titre}", "", "ARTICLE :", candidat.texte]
     contenu = "\n".join(lignes)
     return Requete(id=f"syn-{candidat.id}", modele=client.modele_synthese,
-                   systeme=SYSTEME_SYNTHESE, contenu=contenu, max_tokens=3000 if format_ == "long" else 1500,
+                   systeme=SYSTEME_SYNTHESE, contenu=contenu, max_tokens=8000 if format_ == "long" else 5000, effort="low",
                    schema=SCHEMA_SYNTHESE)
 
 

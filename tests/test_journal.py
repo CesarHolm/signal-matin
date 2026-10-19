@@ -336,3 +336,29 @@ def test_sonnet_sorties_structurees_puis_repli():
     assert ia.extraire_json(client.direct([r])["syn"]) == {"titre": "T"}
     assert len(appels) == 2 and "extra_body" not in appels[1]
     assert client._mode("claude-sonnet-5-5") == "texte"
+
+
+def test_synthese_effort_faible_et_repli():
+    req = ia.Requete(id="syn", modele="claude-sonnet-5-5", systeme="s", contenu="c",
+                     schema=ia.SCHEMA_SYNTHESE, effort="low")
+    assert req.params()["output_config"]["effort"] == "low"
+    assert "effort" not in req.params(effort=False)["output_config"]
+
+    class Refus(Exception):
+        status_code = 400
+
+    appels = []
+
+    def create(**kw):
+        appels.append(kw)
+        if "effort" in kw.get("extra_body", {}).get("output_config", {}):
+            raise Refus("output_config.effort: not supported")
+        return SimpleNamespace(stop_reason="end_turn",
+                               content=[SimpleNamespace(type="text", text='{"titre": "T"}')])
+
+    client = ia.ClientIA.__new__(ia.ClientIA)
+    client.journal = lambda *a: None
+    client.client = SimpleNamespace(messages=SimpleNamespace(create=create))
+    assert client.direct([req])["syn"] == '{"titre": "T"}'
+    assert len(appels) == 2 and "format" in appels[1]["extra_body"]["output_config"]
+    assert client._mode("claude-sonnet-5-5") == "format"
