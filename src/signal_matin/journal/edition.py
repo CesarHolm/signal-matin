@@ -184,7 +184,8 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
         choix_par_bloc[bloc_id] = []
         for candidat, score in classe:
             candidat.texte, candidat.auteur = art.texte_integral(candidat.url, candidat.resume)
-            if len(candidat.texte) < mep.TEXTE_MINIMUM:
+            if client and len(candidat.texte) < mep.TEXTE_MINIMUM:
+                # Sans IA, le chapô du flux est affiché tel quel : pas de seuil.
                 journal(f"  {candidat.id} écarté des développés : texte trop court ({len(candidat.texte)} car.)")
                 continue
             format_, limite_car = mep.gabarit(len(candidat.texte), ratio)
