@@ -29,7 +29,7 @@ Pour un bloc du journal, tu reçois une liste d'articles candidats (identifiant,
 Critères de sélection, par ordre de priorité :
 - Importance : portée réelle de l'information, conséquences concrètes, intérêt durable.
 - Nouveauté : un fait nouveau prime sur un commentaire ; écarte les republications d'articles anciens, les contenus promotionnels, les cas clients publicitaires et les annonces de numéros de magazine.
-- Diversité : évite deux articles sur le même sujet (garde le meilleur) et équilibre les rubriques du bloc.
+- Diversité : un même événement ou sujet ne donne qu'UN seul article développé (garde le meilleur) et au plus une brève complémentaire ; plusieurs articles sur un même fait d'actualité (ex. réactions, enquête, suites judiciaires) comptent comme un seul sujet. Équilibre les rubriques du bloc.
 - Le FOOTBALL est TOTALEMENT EXCLU, dans tous les blocs (ni brève ni développé), y compris les transferts, les clubs et les sélections.
 - Bloc avec rubrique sport : L'actualité sportive n'est traitée qu'en brèves (savoir ce qui s'est passé). Les articles de nature « methode » (méthodes d'entraînement) sont prioritaires pour les articles développés s'ils sont intéressants ; à défaut, développe des articles de science grand public.
 
