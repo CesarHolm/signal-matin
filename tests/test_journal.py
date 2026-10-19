@@ -304,8 +304,35 @@ def test_pas_de_breve_sur_un_article_developpe(tmp_path, monkeypatch):
 
 
 def test_reponse_par_outil_impose():
-    r = ia.Requete(id="x", modele="m", systeme="s", contenu="c", schema=ia.SCHEMA_TRI)
+    r = ia.Requete(id="x", modele="claude-haiku-5-5", systeme="s", contenu="c", schema=ia.SCHEMA_TRI)
     p = r.params()
     assert p["tool_choice"] == {"type": "tool", "name": "repondre"}
     bloc = SimpleNamespace(type="tool_use", input={"developpes": [], "breves": []})
     assert ia.extraire_json(ia._texte_reponse([bloc])) == {"developpes": [], "breves": []}
+
+
+def test_sonnet_sorties_structurees_puis_repli():
+    """Sonnet refuse l'outil impose : format JSON, puis repli texte si le format est refuse."""
+    r = ia.Requete(id="syn", modele="claude-sonnet-5-5", systeme="s", contenu="c",
+                   schema=ia.SCHEMA_SYNTHESE)
+    p = r.params()
+    assert "tool_choice" not in p
+    assert p["output_config"]["format"]["schema"]["additionalProperties"] is False
+
+    class Refus(Exception):
+        status_code = 400
+
+    appels = []
+
+    def create(**kw):
+        appels.append(kw)
+        if "extra_body" in kw:
+            raise Refus("output_config.format: not supported for this model")
+        return SimpleNamespace(content=[SimpleNamespace(type="text", text='{"titre": "T"}')])
+
+    client = ia.ClientIA.__new__(ia.ClientIA)
+    client.journal = lambda *a: None
+    client.client = SimpleNamespace(messages=SimpleNamespace(create=create))
+    assert ia.extraire_json(client.direct([r])["syn"]) == {"titre": "T"}
+    assert len(appels) == 2 and "extra_body" not in appels[1]
+    assert client._mode("claude-sonnet-5-5") == "texte"

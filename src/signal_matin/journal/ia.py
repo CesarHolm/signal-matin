@@ -37,7 +37,7 @@ Règles des brèves :
 - « titre » : en français, factuel, 90 caractères maximum.
 - « texte » : 1 à 2 phrases en français, environ 250 caractères, uniquement d'après le titre et le résumé fournis. N'ajoute aucune information extérieure. Si le résumé est trop pauvre pour une brève fiable, choisis un autre article.
 
-Réponds avec l'outil « repondre », selon cette structure :
+Réponds uniquement en JSON, selon cette structure :
 {"developpes": [{"id": "a12", "score": 8, "raison": "…"}, …], "breves": [{"id": "a7", "titre": "…", "texte": "…"}, …]}"""
 
 SYSTEME_SYNTHESE = """Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).
@@ -63,7 +63,7 @@ Règles impératives :
 - Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.
 - « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.
 
-Réponds avec l'outil « repondre », selon cette structure :
+Réponds uniquement en JSON, selon cette structure :
 {"titre": "…", "chapo": "…", "sections": [{"intertitre": "…", "texte": "…"}], "synthese": "…", "republication": ""}"""
 
 SYSTEME_QUIZ = """Tu rédiges le quiz du jour d'un journal personnel imprimé, en français.
@@ -74,7 +74,7 @@ SYSTEME_QUIZ = """Tu rédiges le quiz du jour d'un journal personnel imprimé, e
 - varie les articles (pas plus de 2 questions sur le même texte) ;
 - question de 110 caractères maximum.
 
-Réponds avec l'outil « repondre », selon cette structure :
+Réponds uniquement en JSON, selon cette structure :
 {"questions": [{"question": "…", "options": ["…", "…", "…"], "reponse": 0, "article": "titre de l'article"}]}"""
 
 SYSTEME_MOTS = """Tu enrichis la base de vocabulaire d'un lecteur francophone cultivé qui apprend chaque jour de nouveaux mots.
@@ -85,7 +85,7 @@ Propose des mots français RÉELS, attestés dans les dictionnaires de référen
 - Pour chaque mot : nature grammaticale abrégée (adj., n. m., n. f., v. tr., v. intr.…), définition exacte et concise (150 caractères maximum), exemple d'usage naturel (100 caractères maximum).
 - N'utilise aucun mot de la liste des mots déjà connus.
 
-Réponds avec l'outil « repondre », selon cette structure :
+Réponds uniquement en JSON, selon cette structure :
 {"mots": [{"mot": "…", "nature": "…", "niveau": "facile", "domaine": "soutenu", "definition": "…", "exemple": "…"}]}"""
 
 
@@ -125,6 +125,29 @@ def _texte_reponse(contenu) -> str:
 # --------------------------------------------------------------------------- Requetes
 
 
+def _strict(schema):
+    """Copie du schema avec additionalProperties: false (exige par les sorties structurees)."""
+    if isinstance(schema, dict):
+        copie = {k: _strict(v) for k, v in schema.items()}
+        if copie.get("type") == "object":
+            copie.setdefault("additionalProperties", False)
+        return copie
+    if isinstance(schema, list):
+        return [_strict(v) for v in schema]
+    return schema
+
+
+# Modes de reponse, du plus contraint au plus tolerant :
+#   outil  : outil impose (JSON garanti) - refuse par certains modeles (ex. Sonnet 5.5)
+#   format : sorties structurees (output_config json_schema)
+#   texte  : consigne seule, JSON extrait du texte
+MODES = ("outil", "format", "texte")
+
+
+def mode_initial(modele: str) -> str:
+    return "outil" if "haiku" in modele else "format"
+
+
 @dataclass
 class Requete:
     id: str
@@ -134,7 +157,8 @@ class Requete:
     max_tokens: int = 2000
     schema: dict | None = None
 
-    def params(self) -> dict:
+    def params(self, mode: str | None = None) -> dict:
+        mode = mode or mode_initial(self.modele)
         params = {
             "model": self.modele,
             "max_tokens": self.max_tokens,
@@ -142,11 +166,21 @@ class Requete:
                         "cache_control": {"type": "ephemeral"}}],
             "messages": [{"role": "user", "content": self.contenu}],
         }
-        if self.schema:
+        if self.schema and mode == "outil":
             params["tools"] = [{"name": "repondre", "description": "Transmet la réponse structurée.",
                                 "input_schema": self.schema}]
             params["tool_choice"] = {"type": "tool", "name": "repondre"}
+        elif self.schema and mode == "format":
+            params["output_config"] = {"format": {"type": "json_schema", "schema": _strict(self.schema)}}
         return params
+
+
+def _mode_refuse(erreur: Exception) -> bool:
+    """Erreur 400 liee au mode de reponse (outil impose ou format non pris en charge)."""
+    if getattr(erreur, "status_code", None) != 400:
+        return False
+    message = str(erreur).lower()
+    return any(m in message for m in ("tool_choice", "tools", "output_config", "format", "schema"))
 
 
 class IAIndisponible(RuntimeError):
@@ -180,19 +214,41 @@ class ClientIA:
         self.modele_synthese = config.get("modele_synthese", MODELE_SYNTHESE)
 
     # ------------------------------------------------------------------ direct
+    def _mode(self, modele: str) -> str:
+        if not hasattr(self, "_modes"):
+            self._modes = {}
+        return self._modes.get(modele, mode_initial(modele))
+
+    def _degrader(self, modele: str, mode: str) -> bool:
+        """Passe au mode suivant, plus tolerant ; False s'il n'y en a plus."""
+        if mode == MODES[-1]:
+            return False
+        suivant = MODES[MODES.index(mode) + 1]
+        self._modes[modele] = suivant
+        self.journal(f"  … {modele} : mode « {mode} » refusé, passage en mode « {suivant} »")
+        return True
+
     def _direct(self, requete: Requete) -> str:
-        reponse = self.client.messages.create(**requete.params())
+        params = requete.params(self._mode(requete.modele))
+        # output_config passe par extra_body : compatible avec toutes les versions du SDK.
+        extra = {"output_config": params.pop("output_config")} if "output_config" in params else None
+        if extra:
+            reponse = self.client.messages.create(**params, extra_body=extra)
+        else:
+            reponse = self.client.messages.create(**params)
         return _texte_reponse(reponse.content)
 
     def direct(self, requetes: list[Requete]) -> dict[str, str]:
         resultats = {}
         for requete in requetes:
-            for tentative in range(4):
+            for tentative in range(7):
                 try:
                     resultats[requete.id] = self._direct(requete)
                     break
                 except Exception as erreur:  # une requete en echec ne bloque pas les autres
-                    if isinstance(erreur, getattr(self, "_limite_debit", ())) and tentative < 3:
+                    if _mode_refuse(erreur) and self._degrader(requete.modele, self._mode(requete.modele)):
+                        continue
+                    if isinstance(erreur, getattr(self, "_limite_debit", ())) and tentative < 6:
                         # Limite de debit du compte : on patiente avant de reessayer.
                         attente = 65
                         try:
@@ -214,7 +270,7 @@ class ClientIA:
             return self.direct(requetes)
         try:
             lot = self.client.messages.batches.create(requests=[
-                {"custom_id": r.id, "params": r.params()} for r in requetes])
+                {"custom_id": r.id, "params": r.params(self._mode(r.modele))} for r in requetes])
         except Exception as erreur:
             self.journal(f"  ! lot refusé ({type(erreur).__name__}), passage en direct")
             return self.direct(requetes)
@@ -230,13 +286,18 @@ class ClientIA:
             time.sleep(int(self.config.get("intervalle_sondage_s", 30)))
             lot = self.client.messages.batches.retrieve(lot.id)
         resultats: dict[str, str] = {}
+        erreurs_lot: list[str] = []
         try:
             for ligne in self.client.messages.batches.results(lot.id):
                 if ligne.result.type == "succeeded":
                     message = ligne.result.message
                     resultats[ligne.custom_id] = _texte_reponse(message.content)
+                elif ligne.result.type == "errored" and not erreurs_lot:
+                    erreurs_lot.append(str(getattr(ligne.result, "error", ""))[:300])
         except Exception as erreur:
             self.journal(f"  ! lecture du lot impossible ({type(erreur).__name__})")
+        if erreurs_lot:
+            self.journal(f"  ! erreur dans le lot : {erreurs_lot[0]}")
         manquantes = [r for r in requetes if r.id not in resultats]
         if manquantes:
             self.journal(f"  {len(manquantes)} requête(s) relancée(s) en direct")
