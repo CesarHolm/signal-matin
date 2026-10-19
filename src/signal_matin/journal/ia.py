@@ -174,7 +174,8 @@ class ClientIA:
             import anthropic
         except ImportError as erreur:
             raise IAIndisponible("paquet 'anthropic' non installé") from erreur
-        self.client = anthropic.Anthropic(api_key=cle, max_retries=3)
+        self.client = anthropic.Anthropic(api_key=cle, max_retries=6)
+        self._limite_debit = anthropic.RateLimitError
         self.modele_tri = config.get("modele_tri", MODELE_TRI)
         self.modele_synthese = config.get("modele_synthese", MODELE_SYNTHESE)
 
@@ -186,10 +187,23 @@ class ClientIA:
     def direct(self, requetes: list[Requete]) -> dict[str, str]:
         resultats = {}
         for requete in requetes:
-            try:
-                resultats[requete.id] = self._direct(requete)
-            except Exception as erreur:  # une requete en echec ne bloque pas les autres
-                self.journal(f"  ! {requete.id} : {type(erreur).__name__}: {erreur}")
+            for tentative in range(4):
+                try:
+                    resultats[requete.id] = self._direct(requete)
+                    break
+                except Exception as erreur:  # une requete en echec ne bloque pas les autres
+                    if isinstance(erreur, getattr(self, "_limite_debit", ())) and tentative < 3:
+                        # Limite de debit du compte : on patiente avant de reessayer.
+                        attente = 65
+                        try:
+                            attente = int(float(erreur.response.headers.get("retry-after", 65))) + 5
+                        except Exception:
+                            pass
+                        self.journal(f"  … limite de débit atteinte, pause de {attente} s ({requete.id})")
+                        time.sleep(attente)
+                        continue
+                    self.journal(f"  ! {requete.id} : {type(erreur).__name__}: {str(erreur)[:300]}")
+                    break
         return resultats
 
     # ------------------------------------------------------------------- batch

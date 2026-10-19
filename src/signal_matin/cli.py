@@ -149,12 +149,29 @@ def build_parser() -> argparse.ArgumentParser:
     journal.add_argument("--imprimer", action="store_true", help="imprime le PDF une fois généré")
     journal.add_argument("--direct", action="store_true",
                          help="appels IA immédiats, sans traitement de nuit (pour un essai)")
+    diag = sub.add_parser("journal-diagnostic", help="teste les sources, l'extraction des articles et l'API")
+    diag.add_argument("--config", default="config.yaml", help="fichier YAML local")
     imprimer = sub.add_parser("journal-imprimer", help="imprime l'édition personnalisée du jour")
     imprimer.add_argument("--config", default="config.yaml", help="fichier YAML local")
     imprimer.add_argument("--date", type=_date, default=dt.date.today())
     auth = sub.add_parser("auth-google", help="connecte Google Calendar en lecture seule")
     auth.add_argument("--config", default="config.yaml")
     return parser
+
+
+def _journal_fichier(etape: str):
+    """Affiche chaque message et le recopie dans output/logs/AAAA-MM-JJ-<etape>.log."""
+    dossier = ROOT / "output" / "logs"
+    dossier.mkdir(parents=True, exist_ok=True)
+    chemin = dossier / f"{dt.date.today().isoformat()}-{etape}.log"
+
+    def trace(*morceaux) -> None:
+        ligne = " ".join(str(m) for m in morceaux)
+        print(ligne, flush=True)
+        with chemin.open("a", encoding="utf-8") as fichier:
+            fichier.write(f"{dt.datetime.now():%H:%M:%S} {ligne}\n")
+    trace(f"=== {etape} ===")
+    return trace
 
 
 def _imprimer_journal(config: dict, pdf_path: Path) -> int:
@@ -168,14 +185,18 @@ def _imprimer_journal(config: dict, pdf_path: Path) -> int:
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     config = load_config(args.config)
+    if args.command == "journal-diagnostic":
+        from .journal.diagnostic import diagnostiquer
+        return diagnostiquer(config, _journal_fichier("diagnostic"))
     if args.command == "journal":
         from .journal.edition import produire, publier
+        trace = _journal_fichier("essai" if args.essai else "generation")
         if args.direct:
             config.setdefault("journal", {}).setdefault("ia", {})["traitement_differe"] = False
-        resultat = produire(config, avec_ia=not args.sans_ia)
+        resultat = produire(config, avec_ia=not args.sans_ia, journal=trace)
         for avertissement in resultat["edition"]["avertissements"]:
-            print(f"! {avertissement}")
-        pdf_path = publier(resultat, memoriser=not args.essai)
+            trace(f"! {avertissement}")
+        pdf_path = publier(resultat, memoriser=not args.essai, journal=trace)
         if args.imprimer:
             return _imprimer_journal(config, pdf_path)
         return 0

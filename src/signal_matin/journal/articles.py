@@ -79,22 +79,33 @@ def collecter(config: dict, maintenant: dt.datetime, deja_publies: set[str]) -> 
     return blocs, erreurs
 
 
+DERNIERE_ERREUR: dict[str, str] = {}
+
+
 def texte_integral(url: str, repli: str = "") -> tuple[str, str]:
     """Retourne (texte, auteur). Repli sur le resume du flux si l'extraction echoue."""
     try:
         import trafilatura
     except ImportError:  # dependance optionnelle
+        DERNIERE_ERREUR[url] = "trafilatura non installé"
         return repli, ""
     try:
-        requete = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        requete = urllib.request.Request(url, headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+        })
         with urllib.request.urlopen(requete, timeout=20) as reponse:
             page = reponse.read(3_000_000).decode("utf-8", errors="replace")
         texte = trafilatura.extract(page, include_comments=False, include_tables=False,
                                     favor_precision=True) or ""
         meta = trafilatura.extract_metadata(page)
         auteur = (meta.author or "") if meta else ""
-    except Exception:
+    except Exception as erreur:
+        DERNIERE_ERREUR[url] = f"{type(erreur).__name__}: {str(erreur)[:160]}"
         return repli, ""
+    if not texte:
+        DERNIERE_ERREUR[url] = f"page reçue ({len(page)} car.) mais aucun texte extrait"
     texte = re.sub(r"\n{3,}", "\n\n", texte).strip()
     if len(texte) < max(400, len(repli)):
         return repli, auteur
