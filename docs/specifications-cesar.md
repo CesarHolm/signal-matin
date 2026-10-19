@@ -38,7 +38,7 @@ Rubriques retirées : agenda, priorités, à ne pas oublier.
 | TechCrunch – IA | EN | https://techcrunch.com/category/artificial-intelligence/feed/ |
 | OpenAI (officiel) | EN | https://openai.com/news/rss.xml |
 | Quanta Magazine | EN | https://www.quantamagazine.org/feed/ |
-| The Conversation France | FR | à confirmer au premier test |
+| The Conversation France | FR | https://theconversation.com/fr/articles.atom |
 | CNRS Le journal | FR | https://lejournal.cnrs.fr/rss |
 | VoxEU (CEPR) | EN | https://cepr.org/rss/vox-content |
 | Aeon | EN | https://aeon.co/feed.rss |
@@ -50,13 +50,13 @@ Rubriques retirées : agenda, priorités, à ne pas oublier.
 
 | Bloc | Rubrique | Source | Langue | Statut |
 |---|---|---|---|---|
-| Actualité | France | Le Monde | FR | ⏳ |
-| Actualité | France | franceinfo | FR | ⏳ |
-| Actualité | France | Public Sénat | FR | ⏳ |
+| Actualité | France | Le Monde — https://www.lemonde.fr/rss/une.xml | FR | ✅ |
+| Actualité | France | franceinfo — https://www.francetvinfo.fr/titres.rss | FR | ✅ |
+| Actualité | France | Public Sénat — https://www.publicsenat.fr/feed | FR | ✅ |
 | Actualité | États-Unis | NPR — https://feeds.npr.org/1001/rss.xml | EN | ✅ |
-| Actualité | États-Unis | Politico | EN | ⏳ |
-| Actualité | Chine | South China Morning Post | EN | ⚠️ flux Chine figé depuis avril 2026, trouver un autre flux |
-| Actualité | Chine | The Diplomat | EN | ⚠️ flux en erreur |
+| Actualité | États-Unis | Politico — https://rss.politico.com/politics-news.xml | EN | ✅ |
+| Actualité | Chine | South China Morning Post — https://www.scmp.com/rss/4/feed | EN | ✅ |
+| Actualité | Chine | The Diplomat — https://thediplomat.com/feed/ | EN | ✅ |
 | Actualité | Monde | Al Jazeera — https://www.aljazeera.com/xml/rss/all.xml | EN | ✅ |
 | Actualité | Géopolitique | Le Grand Continent — https://legrandcontinent.eu/fr/feed/ | FR | ✅ |
 | Actualité | Géopolitique | Diploweb — https://www.diploweb.com/spip.php?page=backend | FR | ✅ |
@@ -64,15 +64,15 @@ Rubriques retirées : agenda, priorités, à ne pas oublier.
 | Veille | Conformité | EDPB — https://www.edpb.europa.eu/feed/news_en | EN | ✅ |
 | Veille | Conformité | AMF — https://www.amf-france.org/fr/flux-rss/display/21 | FR | ✅ |
 | Veille | Conformité | ESMA — https://www.esma.europa.eu/rss.xml | EN | ✅ |
-| Veille | Conformité | EBA | EN | ⚠️ flux RSS arrêté depuis août 2026 |
+| Veille | Conformité | EBA — https://www.eba.europa.eu/rss.xml | EN | ✅ |
 | Veille | Climat | Carbon Brief — https://www.carbonbrief.org/feed/ | EN | ✅ |
 | Veille | Climat | Inside Climate News — https://insideclimatenews.org/feed/ | EN | ✅ |
 | Curiosités | Science | NASA — https://www.nasa.gov/feed/ | EN | ✅ |
-| Curiosités | Science | Sciences et Avenir | FR | ⏳ |
-| Veille | Conformité | ACPR | FR | à tester |
+| Curiosités | Science | Sciences et Avenir — https://www.sciencesetavenir.fr/rss.xml | FR | ✅ |
+| Veille | Conformité | ACPR | FR | ⏳ site inaccessible depuis le cloud, à tester depuis le PC |
 | Curiosités | Sport | à définir — tous sports **sauf football** | — | — |
 
-Note : Sixth Tone (seule source Chine vérifiée) n'a pas été retenu ; la rubrique Chine dépend de deux flux à réparer.
+Test réel du 19/10/2026 : 29 flux sur 29 lus par le programme.
 
 ## 4. Formats rédactionnels (s'appliquent à tous les blocs)
 
