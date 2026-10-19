@@ -50,6 +50,10 @@ def _filtrer(blocs: list[art.Bloc]) -> None:
 
 def _auteur(candidat: art.Candidat) -> str:
     auteur = (candidat.auteur or "").strip()
+    # Nettoie les restes de date que l'extraction colle parfois au nom.
+    auteur = re.sub(r"\s+(january|february|march|april|may|june|july|august|september|october|"
+                    r"november|december|janvier|février|mars|avril|mai|juin|juillet|août|"
+                    r"septembre|octobre|novembre|décembre)\b.*$", "", auteur, flags=re.I).strip()
     simple = re.sub(r"[^a-z]", "", auteur.casefold())
     source = re.sub(r"[^a-z]", "", candidat.source.casefold())
     if not simple or simple in source or source in simple or len(auteur) > 80:

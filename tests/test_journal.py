@@ -216,3 +216,25 @@ def test_edition_de_secours_sans_cle(tmp_path, monkeypatch):
     assert edition["secours"] and len(edition["blocs"][0]["developpes"]) == 2
     assert any("IA indisponible" in a for a in edition["avertissements"])
     assert "Édition de secours".upper() in rendre(edition)
+
+
+def test_collecte_produit_des_url_texte(monkeypatch):
+    from signal_matin.journal import articles
+    from signal_matin.models import NewsItem, SourceRef, DataSourceStatus, DataState
+    item = NewsItem(title="T", summary="R", source=SourceRef(name="S", url="https://exemple.org/a"))
+    monkeypatch.setattr(articles, "collect_rss", lambda *a, **k: (
+        [item], DataSourceStatus(name="S", state=DataState.LIVE, detail="1/1 flux lus")))
+    conf = {"blocs": [{"id": "b", "titre": "B", "sources": [{"nom": "S", "url": "https://exemple.org/rss"}]}]}
+    blocs, _ = articles.collecter(conf, dt.datetime(2026, 10, 20, 4, tzinfo=dt.timezone.utc), set())
+    assert isinstance(blocs[0].candidats[0].url, str)
+    blocs, _ = articles.collecter(conf, dt.datetime(2026, 10, 20, 4, tzinfo=dt.timezone.utc),
+                                  {"https://exemple.org/a"})
+    assert blocs[0].candidats == []  # deja publie : ecarte
+
+
+def test_auteur_nettoye():
+    c = _candidat(1, "ia")
+    c.source, c.auteur = "Quanta Magazine", "John Pavlus October"
+    assert ed._auteur(c) == "John Pavlus"
+    c.source, c.auteur = "franceinfo", "Franceinfo"
+    assert ed._auteur(c) == ""

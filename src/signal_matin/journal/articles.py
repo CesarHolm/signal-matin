@@ -66,7 +66,7 @@ def collecter(config: dict, maintenant: dt.datetime, deja_publies: set[str]) -> 
             if not statut.detail.startswith("1/1"):
                 erreurs.append(source["nom"])
             for item in items:
-                url = item.source.url or ""
+                url = str(item.source.url or "")
                 if url in deja_publies:
                     continue
                 compteur += 1
