@@ -36,24 +36,86 @@ def _plain(value: str) -> str:
     return " ".join(re.sub(r"<[^>]+>", " ", html.unescape(value or "")).split())
 
 
-def _date(element: ET.Element) -> dt.datetime | None:
-    value = _text(element, {"pubdate", "published", "updated", "date"})
+def _clip(value: str, limit: int) -> str:
+    """Coupe proprement un texte trop long (sur un mot), avec points de suspension."""
+    if len(value) <= limit:
+        return value
+    cut = value[: limit - 1].rsplit(" ", 1)[0].rstrip(" ,;:")
+    return cut + "…"
+
+
+_TZ_ABBREVIATIONS = {
+    "UTC": 0, "GMT": 0, "CET": 1, "CEST": 2,
+    "EST": -5, "EDT": -4, "CST": -6, "CDT": -5,
+    "MST": -7, "MDT": -6, "PST": -8, "PDT": -7,
+}
+_DATETIME_ATTR = re.compile(r'datetime\s*=\s*["\']([^"\']+)["\']', re.IGNORECASE)
+
+
+def _parse_date(value: str) -> dt.datetime | None:
+    value = " ".join((value or "").split())
     if not value:
         return None
     try:
-        parsed = parsedate_to_datetime(value)
-    except (TypeError, ValueError):
+        return parsedate_to_datetime(value)
+    except (TypeError, ValueError, IndexError):
+        pass
+    try:
+        return dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        pass
+    # Formats non standard rencontres (ex. Sixth Tone) :
+    # "2026 Oct 16 04:17:33 PDT" et "Oct 16, 2026".
+    parts = value.rsplit(" ", 1)
+    if len(parts) == 2 and parts[1].upper() in _TZ_ABBREVIATIONS:
+        offset = dt.timezone(dt.timedelta(hours=_TZ_ABBREVIATIONS[parts[1].upper()]))
+        for fmt in ("%Y %b %d %H:%M:%S", "%b %d, %Y %H:%M:%S", "%d %b %Y %H:%M:%S"):
+            try:
+                return dt.datetime.strptime(parts[0], fmt).replace(tzinfo=offset)
+            except ValueError:
+                continue
+    for fmt in ("%b %d, %Y", "%B %d, %Y", "%d %B %Y", "%d %b %Y", "%Y-%m-%d"):
         try:
-            parsed = dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+            return dt.datetime.strptime(value, fmt).replace(tzinfo=dt.timezone.utc)
         except ValueError:
-            return None
-    return parsed.astimezone() if parsed.tzinfo else parsed.astimezone()
+            continue
+    return None
+
+
+def _date(element: ET.Element) -> dt.datetime | None:
+    parsed = _parse_date(_text(element, {"pubdate", "published", "updated", "date"}))
+    if parsed is None:
+        # Certains flux (ex. ESMA) n'ont pas de date d'item : la date figure
+        # seulement dans une balise <time datetime="..."> de la description.
+        for child in element:
+            if _tag(child) in {"description", "summary", "content", "encoded"}:
+                match = _DATETIME_ATTR.search(html.unescape("".join(child.itertext())))
+                if match:
+                    parsed = _parse_date(match.group(1))
+                    if parsed:
+                        break
+    if parsed is None:
+        return None
+    return parsed.astimezone() if parsed.tzinfo else parsed.replace(tzinfo=dt.timezone.utc).astimezone()
 
 
 def _payload(url: str) -> bytes:
-    request = urllib.request.Request(url, headers={"User-Agent": "Signal-Matin/1.0"})
+    # L'en-tete Accept est requis par certains serveurs (ex. NPR repond 403 sans).
+    request = urllib.request.Request(url, headers={
+        "User-Agent": "Signal-Matin/1.0",
+        "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+    })
     with urllib.request.urlopen(request, timeout=12) as response:
         return response.read(2_000_000)
+
+
+_ROOT_END = re.compile(rb"</(?:rss|feed|rdf:RDF)\s*>", re.IGNORECASE)
+
+
+def _trim_trailing_junk(payload: bytes) -> bytes:
+    """Retire ce qu'un CDN injecte apres la balise racine (ex. script Cloudflare)."""
+    ends = list(_ROOT_END.finditer(payload))
+    return payload[: ends[-1].end()] if ends else payload
 
 
 def collect_rss(
@@ -83,7 +145,7 @@ def collect_rss(
         if not url:
             continue
         try:
-            payload = _payload(url)
+            payload = _trim_trailing_junk(_payload(url))
             try:
                 root = ET.fromstring(payload)
             except ET.ParseError:
@@ -104,15 +166,20 @@ def collect_rss(
                     continue
                 if published and (published < cutoff or published > future_limit):
                     continue
-                seen.add(key)
                 summary = _plain(_text(node, {"description", "summary", "content"}))
-                bucket.append(NewsItem(
-                    title=title,
-                    category=category,
-                    summary=summary or "Resume non fourni par le flux.",
-                    expanded_summary=summary,
-                    source=SourceRef(name=name, url=link, published_at=published),
-                ))
+                try:
+                    item = NewsItem(
+                        title=_clip(title, 240),
+                        category=category,
+                        summary=_clip(summary, 1600) or "Resume non fourni par le flux.",
+                        expanded_summary=_clip(summary, 3200),
+                        source=SourceRef(name=name, url=link, published_at=published),
+                    )
+                except ValueError:
+                    # Un article mal forme ne doit pas faire tomber tout le flux.
+                    continue
+                seen.add(key)
+                bucket.append(item)
                 if len(bucket) >= per_feed:
                     break
             if bucket:
