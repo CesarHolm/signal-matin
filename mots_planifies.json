@@ -1,0 +1,464 @@
+{
+ "2026-10-28": [
+  {
+   "mot": "Ténu",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Très mince, très fin ; par extension, faible, à peine perceptible.",
+   "exemple": "Un espoir ténu subsistait encore."
+  },
+  {
+   "mot": "Décote",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Écart négatif entre la valeur d'un actif et sa valeur de référence ; réduction appliquée à cette valeur.",
+   "exemple": "Le titre s'échange avec une décote de 15 % sur son actif net."
+  },
+  {
+   "mot": "Mièvre",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "D'une gentillesse, d'une grâce affectée et fade.",
+   "exemple": "Une romance mièvre, sans aspérité."
+  },
+  {
+   "mot": "Palimpseste",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Manuscrit dont on a effacé le premier texte pour en écrire un nouveau ; par extension, ce qui garde la trace de couches successives.",
+   "exemple": "La ville est un palimpseste où chaque époque a laissé sa marque."
+  },
+  {
+   "mot": "Ataraxie",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Tranquillité de l'âme que rien ne trouble, idéal des philosophes antiques.",
+   "exemple": "Il visait une ataraxie que les événements démentaient chaque jour."
+  }
+ ],
+ "2026-10-29": [
+  {
+   "mot": "Frugal",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui se contente de peu, notamment pour la nourriture ; simple et peu abondant.",
+   "exemple": "Un déjeuner frugal avant de reprendre la route."
+  },
+  {
+   "mot": "Obsolescence",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Fait de devenir périmé, dépassé, en particulier pour un équipement ou une technique.",
+   "exemple": "L'obsolescence du système impose sa refonte."
+  },
+  {
+   "mot": "Sporadique",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qui se produit de façon irrégulière, isolée, par intervalles.",
+   "exemple": "Des averses sporadiques sont attendues dans la soirée."
+  },
+  {
+   "mot": "Thébaïde",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Lieu isolé et paisible propice à la retraite et à la méditation.",
+   "exemple": "Cette île hors saison était devenue sa thébaïde."
+  },
+  {
+   "mot": "Coruscant",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Qui brille d'un vif éclat ; au figuré, brillant, éclatant.",
+   "exemple": "Une prose coruscante, saturée d'images."
+  }
+ ],
+ "2026-10-30": [
+  {
+   "mot": "Placide",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Calme, paisible, que rien ne semble troubler.",
+   "exemple": "Il resta placide face aux critiques."
+  },
+  {
+   "mot": "Solvabilité",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Capacité d'une personne ou d'une entreprise à honorer ses dettes.",
+   "exemple": "Le régulateur surveille de près la solvabilité des assureurs."
+  },
+  {
+   "mot": "Ineffable",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qui ne peut être exprimé par des mots, tant il est intense ou subtil.",
+   "exemple": "Une joie ineffable l'envahit au sommet."
+  },
+  {
+   "mot": "Fuligineux",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Qui a la couleur ou l'aspect de la suie ; au figuré, obscur, confus.",
+   "exemple": "Un ciel fuligineux annonçait l'orage."
+  },
+  {
+   "mot": "Acédie",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Torpeur de l'âme, dégoût mélancolique pour l'effort et la vie spirituelle.",
+   "exemple": "Une acédie de fin d'automne le gagnait."
+  }
+ ],
+ "2026-11-02": [
+  {
+   "mot": "Austère",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Sévère et dépouillé, sans ornement ni agrément.",
+   "exemple": "Une façade austère dissimulait un jardin luxuriant."
+  },
+  {
+   "mot": "Prodigue",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui dépense sans compter ; qui donne largement.",
+   "exemple": "Prodigue de conseils, avare d'explications."
+  },
+  {
+   "mot": "Titrisation",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "pro",
+   "definition": "Technique financière qui transforme des créances peu liquides en titres négociables sur un marché.",
+   "exemple": "La titrisation permet à la banque d'alléger son bilan."
+  },
+  {
+   "mot": "Philippique",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Discours violent et polémique dirigé contre quelqu'un.",
+   "exemple": "Le député prononça une philippique contre le gouvernement."
+  },
+  {
+   "mot": "Sycophante",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Délateur, dénonciateur ; par extension, flatteur hypocrite.",
+   "exemple": "Entouré de sycophantes, le dirigeant n'entendait plus aucune critique."
+  }
+ ],
+ "2026-11-03": [
+  {
+   "mot": "Volubile",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui parle avec abondance et rapidité.",
+   "exemple": "Un guide volubile nous raconta l'histoire du port."
+  },
+  {
+   "mot": "Enclin",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Porté naturellement à quelque chose, disposé à.",
+   "exemple": "Peu enclin à la confidence, il se tut."
+  },
+  {
+   "mot": "Désintermédiation",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "pro",
+   "definition": "Recul du rôle des intermédiaires (banques, distributeurs) au profit de relations directes.",
+   "exemple": "Les plateformes accélèrent la désintermédiation du crédit."
+  },
+  {
+   "mot": "Prébende",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Revenu attaché à une charge ; par extension, avantage lucratif obtenu sans grand effort.",
+   "exemple": "Il défendait ses prébendes avec acharnement."
+  },
+  {
+   "mot": "Tropisme",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Réaction d'orientation d'un organisme vers un stimulus ; au figuré, attirance instinctive.",
+   "exemple": "Le tropisme méditerranéen de la diplomatie française."
+  }
+ ],
+ "2026-11-04": [
+  {
+   "mot": "Équivoque",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui peut s'interpréter de plusieurs façons ; ambigu, douteux.",
+   "exemple": "Sa réponse équivoque ne rassura personne."
+  },
+  {
+   "mot": "Fébrile",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui manifeste une agitation nerveuse, une excitation inquiète.",
+   "exemple": "Une attente fébrile précéda l'annonce des résultats."
+  },
+  {
+   "mot": "Préemption",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "pro",
+   "definition": "Droit d'acquérir un bien par priorité sur tout autre acheteur.",
+   "exemple": "La commune a exercé son droit de préemption sur la parcelle."
+  },
+  {
+   "mot": "Ergastule",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Dans l'Antiquité romaine, prison souterraine pour esclaves ; par extension, lieu d'enfermement pénible.",
+   "exemple": "Ce bureau sans fenêtre tenait de l'ergastule."
+  },
+  {
+   "mot": "Sybarite",
+   "nature": "n.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Personne qui recherche les plaisirs raffinés et une vie de luxe indolente.",
+   "exemple": "En sybarite, il prolongeait chaque repas."
+  }
+ ],
+ "2026-11-05": [
+  {
+   "mot": "Saugrenu",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Inattendu au point d'en être absurde ou bizarre.",
+   "exemple": "Une idée saugrenue qui finit par convaincre."
+  },
+  {
+   "mot": "Narquois",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Moqueur avec une pointe de malice.",
+   "exemple": "Il lui lança un sourire narquois."
+  },
+  {
+   "mot": "Interopérabilité",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "pro",
+   "definition": "Capacité de systèmes différents à fonctionner ensemble et à échanger des données.",
+   "exemple": "L'interopérabilité des systèmes de paiement reste un chantier européen."
+  },
+  {
+   "mot": "Cacochyme",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "D'une santé faible et chancelante ; décrépit (souvent ironique).",
+   "exemple": "Un vieillard cacochyme, mais l'esprit toujours vif."
+  },
+  {
+   "mot": "Anachorète",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Religieux vivant dans la solitude ; par extension, personne retirée du monde.",
+   "exemple": "Il mène une vie d'anachorète dans sa maison de montagne."
+  }
+ ],
+ "2026-11-06": [
+  {
+   "mot": "Tenace",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui ne cède pas, persévère ; qui adhère ou persiste fortement.",
+   "exemple": "Une rumeur tenace circulait depuis des semaines."
+  },
+  {
+   "mot": "Morose",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Triste et maussade ; sans entrain.",
+   "exemple": "Le marché reste morose depuis la rentrée."
+  },
+  {
+   "mot": "Ergoter",
+   "nature": "v. intr.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Chicaner sur des détails, contester pour des riens.",
+   "exemple": "Inutile d'ergoter sur une virgule."
+  },
+  {
+   "mot": "Astreinte",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Condamnation à payer une somme par jour de retard dans l'exécution d'une obligation.",
+   "exemple": "Le juge a assorti l'injonction d'une astreinte de 500 euros par jour."
+  },
+  {
+   "mot": "Pantagruélique",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Digne de Pantagruel : énorme, gargantuesque (surtout pour un repas).",
+   "exemple": "Un festin pantagruélique clôtura la fête."
+  }
+ ],
+ "2026-11-09": [
+  {
+   "mot": "Fastidieux",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui ennuie par sa monotonie ou sa longueur.",
+   "exemple": "Un travail de saisie fastidieux."
+  },
+  {
+   "mot": "Loquace",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui parle volontiers et beaucoup.",
+   "exemple": "Peu loquace d'habitude, il se montra intarissable."
+  },
+  {
+   "mot": "Inopiné",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qui arrive sans qu'on s'y attende ; imprévu.",
+   "exemple": "Une visite inopinée de l'inspection."
+  },
+  {
+   "mot": "Fongible",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Se dit de biens interchangeables, qui peuvent être remplacés par d'autres de même nature et quantité.",
+   "exemple": "L'argent est le bien fongible par excellence."
+  },
+  {
+   "mot": "Gnomique",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Qui exprime des vérités morales sous forme de sentences ou de maximes.",
+   "exemple": "La poésie gnomique d'Hésiode."
+  }
+ ],
+ "2026-11-10": [
+  {
+   "mot": "Désinvolte",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui fait preuve d'une liberté d'allure excessive, d'un manque de sérieux ou d'égards.",
+   "exemple": "Une réponse désinvolte qui froissa l'assistance."
+  },
+  {
+   "mot": "Opportun",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui convient au moment, aux circonstances.",
+   "exemple": "Il jugea opportun de reporter la réunion."
+  },
+  {
+   "mot": "Ostentatoire",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qui est fait avec ostentation, pour être remarqué.",
+   "exemple": "Un luxe ostentatoire, sans goût."
+  },
+  {
+   "mot": "Clause léonine",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Clause qui attribue à une partie la totalité des profits ou l'exonère de toute perte, réputée non écrite en droit des sociétés.",
+   "exemple": "Le pacte d'associés contenait une clause léonine."
+  },
+  {
+   "mot": "Hypallage",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Figure qui attribue à un mot ce qui convient logiquement à un autre mot de la phrase.",
+   "exemple": "« Ce marchand accoudé sur son comptoir avide » est une hypallage célèbre."
+  }
+ ],
+ "2026-11-11": [
+  {
+   "mot": "Plausible",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui peut être admis comme vrai ou possible ; vraisemblable.",
+   "exemple": "Une explication plausible, mais non démontrée."
+  },
+  {
+   "mot": "Indulgent",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Porté à excuser les fautes, à pardonner.",
+   "exemple": "Le jury s'est montré indulgent."
+  },
+  {
+   "mot": "Sinécure",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Emploi rémunéré qui demande peu ou pas de travail.",
+   "exemple": "Ce poste n'a rien d'une sinécure."
+  },
+  {
+   "mot": "Dation en paiement",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Remise d'un bien, avec l'accord du créancier, en paiement d'une dette à la place de la somme due.",
+   "exemple": "L'héritier a réglé les droits par dation en paiement d'un tableau."
+  },
+  {
+   "mot": "Lustral",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Qui sert à purifier, notamment par l'eau dans les rites.",
+   "exemple": "L'eau lustrale du baptistère."
+  }
+ ]
+}
