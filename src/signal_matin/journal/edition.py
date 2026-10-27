@@ -115,8 +115,12 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
         echeance = maintenant + dt.timedelta(minutes=20)
 
     precedente = edition_precedente(jour, racine)
-    journal("· Météo")
-    meteo = meteo_du_jour(conf.get("meteo", {}), jour)
+    # Version numerique (voyage) : ni meteo ni jeux, donc pas de quiz a generer.
+    numerique = bool(conf.get("numerique"))
+    meteo = None
+    if not numerique:
+        journal("· Météo")
+        meteo = meteo_du_jour(conf.get("meteo", {}), jour)
     journal("· Mots du jour")
     nouveaux_mots, revisions = selection_du_jour(jour, racine)
     journal("· Jeux")
@@ -258,7 +262,7 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
         sequence.append({"type": "solutions", "bloc": "", "taille": 1})
 
     quiz = []
-    if client and syntheses:
+    if client and syntheses and not numerique:
         journal("· Quiz (Haiku)")
         textes = []
         for b in vue_blocs:
@@ -285,6 +289,7 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
         "date": jour.isoformat(),
         "numero": len(editions_passees(jour, racine)) + 1,
         "secours": secours,
+        "numerique": numerique,
         "meteo": asdict(meteo) if meteo else None,
         "nouveaux_mots": nouveaux_mots,
         "revisions": [{"mot": m["mot"]} for m in revisions],

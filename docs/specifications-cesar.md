@@ -116,7 +116,8 @@ Test réel du 19/10/2026 : 29 flux sur 29 lus par le programme.
 
 ### Mode numérique (voyage, validé le 27/10/2026)
 - Génération dans le cloud **GitHub Actions** à 4 h 07 (Paris), lundi-vendredi, sans PC
-- Envoi **par e-mail** : version HTML une colonne pour téléphone dans le corps du message, PDF A4 et page HTML en pièces jointes
+- Envoi **par e-mail** : version HTML une colonne pour téléphone dans le corps du message, page HTML en pièce jointe
+- Version voyage **sans météo ni jeux** (ni quiz, ni solutions) ; mots du jour planifiés à l'avance pour les 11 éditions du 28/10 au 11/11
 - Bascule en appels directs à 5 h 20 (Paris) pour une réception avant 7 h, heure grecque
 - Mémoire du journal sur la branche `journal-etat` ; procédure : `docs/MODE-NUMERIQUE.md`
 

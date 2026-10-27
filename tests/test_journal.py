@@ -409,3 +409,32 @@ def test_message_e_mail_html_et_pieces_jointes(tmp_path, monkeypatch):
         assert "SMTP_SERVEUR" in str(erreur)
     else:
         raise AssertionError("l'envoi aurait dû échouer sans paramètres")
+
+
+def test_mots_planifies_prioritaires_puis_revises(tmp_path):
+    from signal_matin.journal.vocabulaire import selection_du_jour
+    plan = [{"mot": f"Mot{i}", "nature": "n.", "niveau": "facile", "domaine": "soutenu",
+             "definition": "Déf.", "exemple": "Ex."} for i in range(5)]
+    (tmp_path / "mots_planifies.json").write_text(json.dumps({"2026-10-28": plan}), encoding="utf-8")
+    nouveaux, revisions = selection_du_jour(dt.date(2026, 10, 28), tmp_path)
+    assert [m["mot"] for m in nouveaux] == [f"Mot{i}" for i in range(5)] and revisions == []
+    enregistrer_edition(dt.date(2026, 10, 28), {"date": "2026-10-28", "nouveaux_mots": nouveaux}, tmp_path)
+    nouveaux2, revisions2 = selection_du_jour(dt.date(2026, 10, 29), tmp_path)
+    assert len(nouveaux2) == 5 and {m["mot"] for m in revisions2} <= {f"Mot{i}" for i in range(5)}
+
+
+def test_version_numerique_sans_meteo_ni_jeux(tmp_path, monkeypatch):
+    from signal_matin.journal.rendu_mobile import rendre_mobile
+    blocs = [Bloc(id="ia", titre="IA & recherche", rubriques=["IA"],
+                  candidats=[_candidat(i, "ia") for i in range(1, 6)])]
+    monkeypatch.setattr(ed.art, "collecter", lambda *a, **k: (blocs, []))
+    monkeypatch.setattr(ed.art, "texte_integral", lambda url, repli: (repli, ""))
+    def interdit(*a):
+        raise AssertionError("la météo ne doit pas être récupérée")
+    monkeypatch.setattr(ed, "meteo_du_jour", interdit)
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    edition = ed.produire({"journal": {"numerique": True}}, dt.datetime(2026, 10, 28, 4, tzinfo=dt.timezone.utc),
+                          racine=tmp_path, journal=lambda *a: None)["edition"]
+    html = rendre_mobile(edition)
+    assert "Sudoku" not in html and "Météo" not in html and "Quiz" not in html
+    assert "Nouveaux mots" in html and "IA &amp; recherche" in html

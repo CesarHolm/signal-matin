@@ -1,8 +1,13 @@
 # Recevoir le journal par e-mail, sans le PC
 
 Le journal est généré chaque matin dans le cloud GitHub (GitHub Actions), puis
-envoyé par e-mail : version lisible sur téléphone dans le corps du message,
-PDF A4 et page HTML en pièces jointes. Le PC peut rester éteint.
+envoyé par e-mail : version lisible sur téléphone dans le corps du message
+(articles, brèves, mots du jour ; ni météo ni jeux), avec la même page HTML en
+pièce jointe. Le PC peut rester éteint.
+
+Les mots du jour du voyage (28/10 → 11/11/2026) sont choisis à l'avance dans
+`mots_planifies.json`, sur la branche `journal-etat` ; ensuite, le tirage
+habituel dans la base reprend.
 
 | Étape | Heure de Paris | Heure grecque |
 |---|---|---|

@@ -71,17 +71,29 @@ def niveaux_a_realimenter(jour: dt.date, racine: Path = DOSSIER) -> dict[str, in
     return besoin
 
 
+def mots_planifies(jour: dt.date, racine: Path = DOSSIER) -> list[dict]:
+    """Mots choisis a l'avance pour une date (data/mots_planifies.json), s'il y en a."""
+    fichier = racine / "mots_planifies.json"
+    if not fichier.exists():
+        return []
+    try:
+        return list(json.loads(fichier.read_text(encoding="utf-8")).get(jour.isoformat(), []))
+    except (OSError, json.JSONDecodeError, AttributeError):
+        return []
+
+
 def selection_du_jour(jour: dt.date, racine: Path = DOSSIER) -> tuple[list[dict], list[dict]]:
     """Retourne (5 nouveaux mots, 5 mots a reviser)."""
     rng = random.Random(int(jour.strftime("%Y%m%d")))
     appris = mots_appris(jour, racine)
+    planifies = mots_planifies(jour, racine)
     deja = {m["mot"].casefold() for m in appris}
     disponibles = [m for m in charger_base(racine) if m["mot"].casefold() not in deja]
     rng.shuffle(disponibles)
 
-    nouveaux: list[dict] = []
+    nouveaux: list[dict] = list(planifies)
     slot_pro = rng.randrange(len(ORDRE))
-    for index, niveau in enumerate(ORDRE):
+    for index, niveau in enumerate(ORDRE if not planifies else ()):
         domaine_voulu = "pro" if index == slot_pro else "soutenu"
         candidats = [m for m in disponibles if m["niveau"] == niveau and m not in nouveaux]
         prefere = [m for m in candidats if m.get("domaine") == domaine_voulu]

@@ -76,7 +76,7 @@ jobs:
         run: |
           # 05:20 à Paris = 6 h 20 en Grèce : au-delà, le traitement de nuit est
           # abandonné au profit d'appels directs, pour un envoi avant 7 h (heure grecque).
-          args="--envoyer --heure-limite 05:20"
+          args="--numerique --envoyer --heure-limite 05:20"
           if [ "$ESSAI" = "true" ]; then args="$args --essai"; fi
           if [ "$DIRECT" = "true" ]; then args="$args --direct"; fi
           python main.py journal $args

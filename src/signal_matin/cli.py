@@ -151,6 +151,8 @@ def build_parser() -> argparse.ArgumentParser:
                          help="appels IA immédiats, sans traitement de nuit (pour un essai)")
     journal.add_argument("--envoyer", action="store_true",
                          help="envoie la version numérique par e-mail (paramètres SMTP dans l'environnement)")
+    journal.add_argument("--numerique", action="store_true",
+                         help="version téléphone : sans météo ni jeux ; l'e-mail ne joint pas le PDF")
     journal.add_argument("--heure-limite", metavar="HH:MM",
                          help="remplace journal.heure_limite (bascule du traitement de nuit vers l'appel direct)")
     diag = sub.add_parser("journal-diagnostic", help="teste les sources, l'extraction des articles et l'API")
@@ -197,6 +199,8 @@ def main(argv: list[str] | None = None) -> int:
         trace = _journal_fichier("essai" if args.essai else "generation")
         if args.direct:
             config.setdefault("journal", {}).setdefault("ia", {})["traitement_differe"] = False
+        if args.numerique:
+            config.setdefault("journal", {})["numerique"] = True
         if args.heure_limite:
             config.setdefault("journal", {})["heure_limite"] = args.heure_limite
         resultat = produire(config, avec_ia=not args.sans_ia, journal=trace)
@@ -208,7 +212,8 @@ def main(argv: list[str] | None = None) -> int:
             mobile_path = pdf_path.parents[1] / "mobile" / pdf_path.with_suffix(".html").name
             try:
                 envoyer(resultat["edition"], mobile_path.read_text(encoding="utf-8"),
-                        [pdf_path, mobile_path], essai=args.essai, journal=trace)
+                        [mobile_path] if args.numerique else [pdf_path, mobile_path],
+                        essai=args.essai, journal=trace)
             except EnvoiImpossible as erreur:
                 trace(f"! E-mail non envoyé : {erreur}")
                 return 2

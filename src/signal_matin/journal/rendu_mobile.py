@@ -156,7 +156,8 @@ def _blocs(edition: dict) -> tuple[str, str]:
         corps.append(f"<h2 class='bloc' id='{ancre}'>{E(bloc['titre'])} <span>· {detail}</span></h2>"
                      + "".join(_article(a) for a in bloc.get("developpes", []))
                      + _breves(bloc.get("breves", [])))
-    sommaire.append("<li><a href='#jeux'>Jeux</a></li>")
+    if not edition.get("numerique"):
+        sommaire.append("<li><a href='#jeux'>Jeux</a></li>")
     return "<ul class='sommaire'>" + "".join(sommaire) + "</ul>", "".join(corps)
 
 
@@ -225,6 +226,13 @@ def rendre_mobile(edition: dict) -> str:
     jour = dt.date.fromisoformat(edition["date"])
     statut = "Édition de secours" if edition.get("secours") else "Édition numérique"
     sommaire, blocs = _blocs(edition)
+    if edition.get("numerique"):
+        # Lecture sur telephone : ni meteo, ni jeux, ni solutions.
+        haut, bas, pied = _mots(edition), "", "Signal Matin · Le journal anti-scroll"
+    else:
+        haut = _meteo(edition.get("meteo")) + _mots(edition)
+        bas = _jeux(edition) + _solutions(edition.get("solutions_hier"))
+        pied = "Signal Matin · Le journal anti-scroll · PDF A4 en pièce jointe"
     return f"""<!doctype html><html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Signal Matin · {E(date_longue(jour))}</title><style>{CSS}</style></head>
@@ -232,6 +240,6 @@ def rendre_mobile(edition: dict) -> str:
 <div class="mast"><div class="over">Le quotidien personnel · Le journal anti-scroll</div>
 <h1>Signal <em>Matin</em></h1><p class="motto">Voir clair avant de voir l'écran.</p></div>
 <div class="meta">N° {edition.get('numero', 1):03d} · {E(date_longue(jour))} · {E(statut)}</div>
-{sommaire}{_meteo(edition.get('meteo'))}{_mots(edition)}{blocs}{_jeux(edition)}{_solutions(edition.get('solutions_hier'))}
-<div class="pied">Signal Matin · Le journal anti-scroll · PDF A4 en pièce jointe</div>
+{sommaire}{haut}{blocs}{bas}
+<div class="pied">{pied}</div>
 </div></body></html>"""
