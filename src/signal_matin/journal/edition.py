@@ -26,6 +26,7 @@ from .etat import DOSSIER, articles_deja_publies, edition_precedente, enregistre
 from .jeux import jeux_du_jour
 from .meteo import meteo_du_jour
 from .rendu import rendre
+from .rendu_mobile import rendre_mobile
 from .vocabulaire import ajouter_mots, charger_base, niveaux_a_realimenter, selection_du_jour
 
 FOOTBALL = re.compile(
@@ -325,9 +326,11 @@ def publier(resultat: dict, *, racine: Path = DOSSIER, sortie: Path = ROOT / "ou
     html_path = sortie / "preview" / f"{nom}.html"
     pdf_path = sortie / "pdf" / f"{nom}.pdf"
     json_path = sortie / "data" / f"{nom}.json"
-    for chemin in (html_path, pdf_path, json_path):
+    mobile_path = sortie / "mobile" / f"{nom}.html"
+    for chemin in (html_path, pdf_path, json_path, mobile_path):
         chemin.parent.mkdir(parents=True, exist_ok=True)
     html_path.write_text(rendre(edition), encoding="utf-8")
+    mobile_path.write_text(rendre_mobile(edition), encoding="utf-8")
     json_path.write_text(json.dumps(edition, ensure_ascii=False, indent=1, default=str), encoding="utf-8")
 
     from ..pdf import _launch_browser

@@ -362,3 +362,50 @@ def test_synthese_effort_faible_et_repli():
     assert client.direct([req])["syn"] == '{"titre": "T"}'
     assert len(appels) == 2 and "format" in appels[1]["extra_body"]["output_config"]
     assert client._mode("claude-sonnet-5-5") == "format"
+
+
+# ------------------------------------------------- Version numérique et e-mail
+
+def _edition_simulee(tmp_path, monkeypatch):
+    blocs = [Bloc(id="ia", titre="IA & recherche", rubriques=["IA"],
+                  candidats=[_candidat(i, "ia") for i in range(1, 6)])]
+    monkeypatch.setattr(ed.art, "collecter", lambda *a, **k: (blocs, []))
+    monkeypatch.setattr(ed.art, "texte_integral", lambda url, repli: (repli, ""))
+    monkeypatch.setattr(ed, "meteo_du_jour", lambda *a: None)
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    return ed.produire({"journal": {}}, dt.datetime(2026, 10, 20, 4, tzinfo=dt.timezone.utc),
+                       racine=tmp_path, journal=lambda *a: None)
+
+
+def test_version_mobile_contient_toute_l_edition(tmp_path, monkeypatch):
+    from signal_matin.journal.rendu_mobile import rendre_mobile
+    edition = _edition_simulee(tmp_path, monkeypatch)["edition"]
+    edition["solutions_hier"] = {"compte": ["25 × 4 = 100"], "quiz": ["a) oui"]}
+    html = rendre_mobile(edition)
+    assert "width=device-width" in html and "<script" not in html
+    assert "IA &amp; recherche" in html and "Sudoku" in html and "Solutions d'hier" in html
+    assert "https://exemple.org/1" in html  # lien vers l'article d'origine
+
+
+def test_message_e_mail_html_et_pieces_jointes(tmp_path, monkeypatch):
+    from signal_matin.journal.envoi import construire_message, envoyer, EnvoiImpossible
+    from signal_matin.journal.rendu_mobile import rendre_mobile
+    edition = _edition_simulee(tmp_path, monkeypatch)["edition"]
+    html = rendre_mobile(edition)
+    pdf = tmp_path / "j.pdf"
+    pdf.write_bytes(b"%PDF-1.4")
+    page = tmp_path / "j.html"
+    page.write_text(html, encoding="utf-8")
+    message = construire_message(edition, html, [pdf, page], expediteur="a@b.fr",
+                                 destinataire="c@d.fr", essai=True)
+    assert message["Subject"].startswith("[Essai] Signal Matin · mardi 20 octobre 2026")
+    types = [p.get_content_type() for p in message.walk()]
+    assert "text/html" in types and "text/plain" in types and "application/pdf" in types
+    for variable in ("SMTP_SERVEUR", "SMTP_UTILISATEUR", "SMTP_MOT_DE_PASSE", "MAIL_DESTINATAIRE"):
+        monkeypatch.delenv(variable, raising=False)
+    try:
+        envoyer(edition, html, [pdf])
+    except EnvoiImpossible as erreur:
+        assert "SMTP_SERVEUR" in str(erreur)
+    else:
+        raise AssertionError("l'envoi aurait dû échouer sans paramètres")

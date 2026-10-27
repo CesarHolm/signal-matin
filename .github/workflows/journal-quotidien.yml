@@ -1,0 +1,93 @@
+# Édition numérique quotidienne de Signal Matin, générée dans le cloud GitHub
+# et envoyée par e-mail (aucun PC allumé nécessaire).
+#
+# - Les tâches planifiées ne s'exécutent que depuis la branche par défaut (main) :
+#   ce fichier doit donc être présent sur main ; il récupère le code de
+#   cesar/personnalisation.
+# - La mémoire du journal (mots appris, solutions de la veille, articles déjà
+#   publiés) est conservée sur la branche « journal-etat ».
+# - Secrets à créer dans Settings → Secrets and variables → Actions :
+#   ANTHROPIC_API_KEY, SMTP_SERVEUR, SMTP_PORT, SMTP_UTILISATEUR,
+#   SMTP_MOT_DE_PASSE, MAIL_DESTINATAIRE (et facultativement MAIL_EXPEDITEUR).
+name: journal quotidien
+
+on:
+  schedule:
+    # 3 h 07 UTC = 4 h 07 à Paris (heure d'hiver) = 5 h 07 en Grèce, du lundi au vendredi.
+    - cron: "7 3 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      essai:
+        description: "Essai : n'enregistre pas l'édition (mots et solutions non mémorisés)"
+        type: boolean
+        default: true
+      direct:
+        description: "Appels IA immédiats, sans traitement de nuit (quelques minutes)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: journal-quotidien
+  cancel-in-progress: false
+
+jobs:
+  edition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      TZ: Europe/Paris
+    steps:
+      - name: Code du journal
+        uses: actions/checkout@v7
+        with:
+          ref: cesar/personnalisation
+
+      - name: Mémoire du journal
+        uses: actions/checkout@v7
+        with:
+          ref: journal-etat
+          path: data
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installation
+        run: |
+          pip install -e .
+          playwright install --with-deps chromium
+          cp config.cesar.example.yaml config.yaml
+
+      - name: Génération et envoi
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_SERVEUR: ${{ secrets.SMTP_SERVEUR }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_UTILISATEUR: ${{ secrets.SMTP_UTILISATEUR }}
+          SMTP_MOT_DE_PASSE: ${{ secrets.SMTP_MOT_DE_PASSE }}
+          MAIL_DESTINATAIRE: ${{ secrets.MAIL_DESTINATAIRE }}
+          MAIL_EXPEDITEUR: ${{ secrets.MAIL_EXPEDITEUR }}
+          ESSAI: ${{ inputs.essai }}
+          DIRECT: ${{ inputs.direct }}
+        run: |
+          # 05:20 à Paris = 6 h 20 en Grèce : au-delà, le traitement de nuit est
+          # abandonné au profit d'appels directs, pour un envoi avant 7 h (heure grecque).
+          args="--envoyer --heure-limite 05:20"
+          if [ "$ESSAI" = "true" ]; then args="$args --essai"; fi
+          if [ "$DIRECT" = "true" ]; then args="$args --direct"; fi
+          python main.py journal $args
+
+      - name: Enregistrer la mémoire du journal
+        if: always() && inputs.essai != true
+        working-directory: data
+        run: |
+          git config user.name "signal-matin"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Rien à enregistrer"; exit 0; fi
+          git commit -m "Édition du $(date +%F)"
+          git push origin HEAD:journal-etat

@@ -114,6 +114,12 @@ Test réel du 19/10/2026 : 29 flux sur 29 lus par le programme.
 - Code : **fork GitHub** sur le compte de Cesar
 - Exécution : **PC Windows** de Cesar
 
+### Mode numérique (voyage, validé le 27/10/2026)
+- Génération dans le cloud **GitHub Actions** à 4 h 07 (Paris), lundi-vendredi, sans PC
+- Envoi **par e-mail** : version HTML une colonne pour téléphone dans le corps du message, PDF A4 et page HTML en pièces jointes
+- Bascule en appels directs à 5 h 20 (Paris) pour une réception avant 7 h, heure grecque
+- Mémoire du journal sur la branche `journal-etat` ; procédure : `docs/MODE-NUMERIQUE.md`
+
 ### Répartition IA (API Anthropic)
 - Récupération des flux et des articles complets : programme Python, sans coût d'API
 - **Claude Haiku 5.5** : tri et classement des articles, brèves, quiz, mots du jour
