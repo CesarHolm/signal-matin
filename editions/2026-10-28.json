@@ -1,0 +1,310 @@
+{
+ "date": "2026-10-28",
+ "nouveaux_mots": [
+  {
+   "mot": "Ténu",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Très mince, très fin ; par extension, faible, à peine perceptible.",
+   "exemple": "Un espoir ténu subsistait encore."
+  },
+  {
+   "mot": "Décote",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Écart négatif entre la valeur d'un actif et sa valeur de référence ; réduction appliquée à cette valeur.",
+   "exemple": "Le titre s'échange avec une décote de 15 % sur son actif net."
+  },
+  {
+   "mot": "Mièvre",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "D'une gentillesse, d'une grâce affectée et fade.",
+   "exemple": "Une romance mièvre, sans aspérité."
+  },
+  {
+   "mot": "Palimpseste",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Manuscrit dont on a effacé le premier texte pour en écrire un nouveau ; par extension, ce qui garde la trace de couches successives.",
+   "exemple": "La ville est un palimpseste où chaque époque a laissé sa marque."
+  },
+  {
+   "mot": "Ataraxie",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Tranquillité de l'âme que rien ne trouble, idéal des philosophes antiques.",
+   "exemple": "Il visait une ataraxie que les événements démentaient chaque jour."
+  }
+ ],
+ "revisions": [],
+ "articles": [
+  "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+  "https://theconversation.com/bresil-la-victoire-de-lula-a-la-presidentielle-freine-la-montee-de-lextreme-droite-en-amerique-latine-295267",
+  "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+  "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+  "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+  "https://theconversation.com/comment-moodys-sandp-et-fitch-les-big-three-ont-ils-construit-leur-legitimite-285724",
+  "https://www.lemonde.fr/international/live/2026/10/28/en-direct-legislatives-en-israel-le-camp-de-benyamin-netanyahou-en-tete-apres-50-des-bulletins-depouilles_6801217_3210.html",
+  "https://www.franceinfo.fr/politique/prestations-sociales-saisies-nouvelles-interdictions-de-manifester-le-projet-de-loi-casseurs-payeurs-adopte-et-elargi-au-senat-en-plein-c-ur-de-la-contestation_8256748.html#xtor=RSS-3-[lestitres]",
+  "https://www.publicsenat.fr/actualites/economie/liberation-de-stocks-strategiques-de-carburant-lintegralite-de-lavantage-sera-repercutee-jusquau-client-final-insiste-maud-bregeon",
+  "https://www.politico.com/news/2026/10/27/marco-rubio-texas-trump-midterms-01137437",
+  "https://www.npr.org/2026/10/28/g-s1-150299/trump-methane-restrictions",
+  "https://insideclimatenews.org/news/27102026/lagging-global-climate-action-health-harms/",
+  "https://www.carbonbrief.org/revealed-uk-relied-on-2bn-of-questionable-accounting-to-hit-its-climate-aid-goal",
+  "https://insideclimatenews.org/news/28102026/texas-could-privatize-water-supply-with-israeli-company/",
+  "https://www.carbonbrief.org/guest-post-greenland-ice-sheet-shrinks-for-30th-year-in-a-row",
+  "https://www.carbonbrief.org/qa-why-are-uk-energy-bills-so-high-and-how-could-they-be-lowered",
+  "https://insideclimatenews.org/news/28102026/in-maines-senate-race-its-heating-oil-vs-electricity/",
+  "https://www.sciencesetavenir.fr/archeo-paleo/paleontologie/le-plus-ancien-homo-erectus-vivait-en-afrique-du-sud-il-y-a-deux-millions-d-annees_195501?xtor=RSS-4",
+  "https://www.nasa.gov/news-release/nasa-invites-media-to-crew-completion-of-yearlong-mars-simulation/",
+  "https://www.franceinfo.fr/sports/tennis/fin-de-carriere-pour-l-ex-numero-3-mondial-de-tennis-stan-wawrinka-battu-au-1er-tour-a-bale_8256823.html#xtor=RSS-3-%5Bgeneral%5D"
+ ],
+ "titres": [
+  "Des parents poursuivent OpenAI : GPT-4o aurait poussé leur fille à arrêter son traitement",
+  "Brésil : la victoire de Lula freine l'extrême droite, mais celle-ci reste forte",
+  "Introduction en Bourse d'Anthropic : Amazon, premier bénéficiaire, devant les fonds",
+  "Législatives en Israël : Nétanyahou en tête, aucun camp n'atteint 61 sièges",
+  "« Casseurs-payeurs » : le Sénat adopte et durcit le projet de loi",
+  "Climat et santé : dix ans après Paris, les dégâts sanitaires s'aggravent plus vite",
+  "Aide climatique du Royaume-Uni : 2,1 milliards de livres issus de requalifications",
+  "Texas : une usine de dessalement géante aux mains d'un groupe israélien"
+ ],
+ "solutions": {
+  "sudoku": [
+   4,
+   3,
+   9,
+   5,
+   6,
+   7,
+   2,
+   8,
+   1,
+   7,
+   6,
+   5,
+   1,
+   8,
+   2,
+   9,
+   3,
+   4,
+   1,
+   8,
+   2,
+   9,
+   3,
+   4,
+   7,
+   5,
+   6,
+   9,
+   2,
+   1,
+   8,
+   5,
+   3,
+   4,
+   6,
+   7,
+   3,
+   5,
+   4,
+   2,
+   7,
+   6,
+   8,
+   1,
+   9,
+   8,
+   7,
+   6,
+   4,
+   1,
+   9,
+   3,
+   2,
+   5,
+   5,
+   9,
+   3,
+   7,
+   2,
+   1,
+   6,
+   4,
+   8,
+   6,
+   1,
+   7,
+   3,
+   4,
+   8,
+   5,
+   9,
+   2,
+   2,
+   4,
+   8,
+   6,
+   9,
+   5,
+   1,
+   7,
+   3
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     4,
+     3
+    ],
+    [
+     0,
+     3,
+     2,
+     4
+    ],
+    [
+     0,
+     7,
+     4,
+     3
+    ],
+    [
+     2,
+     3,
+     2,
+     4
+    ],
+    [
+     4,
+     0,
+     1,
+     8
+    ],
+    [
+     4,
+     8,
+     6,
+     1
+    ],
+    [
+     4,
+     9,
+     6,
+     1
+    ],
+    [
+     5,
+     0,
+     2,
+     6
+    ],
+    [
+     5,
+     6,
+     2,
+     1
+    ],
+    [
+     5,
+     7,
+     4,
+     1
+    ],
+    [
+     7,
+     0,
+     1,
+     4
+    ],
+    [
+     7,
+     4,
+     3,
+     3
+    ],
+    [
+     8,
+     0,
+     2,
+     4
+    ],
+    [
+     9,
+     7,
+     1,
+     1
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    3,
+    6,
+    4,
+    5,
+    1,
+    2
+   ],
+   [
+    4,
+    1,
+    5,
+    3,
+    2,
+    6
+   ],
+   [
+    5,
+    2,
+    3,
+    4,
+    6,
+    1
+   ],
+   [
+    6,
+    3,
+    1,
+    2,
+    4,
+    5
+   ],
+   [
+    1,
+    4,
+    2,
+    6,
+    5,
+    3
+   ],
+   [
+    2,
+    5,
+    6,
+    1,
+    3,
+    4
+   ]
+  ],
+  "compte": [
+   "7 × 3 = 21",
+   "21 × 10 = 210",
+   "210 + 3 = 213",
+   "213 − 2 = 211"
+  ]
+ },
+ "reponses_quiz": []
+}
