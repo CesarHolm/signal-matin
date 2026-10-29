@@ -7,8 +7,8 @@
 # - La mémoire du journal (mots appris, solutions de la veille, articles déjà
 #   publiés) est conservée sur la branche « journal-etat ».
 # - Secrets à créer dans Settings → Secrets and variables → Actions :
-#   ANTHROPIC_API_KEY, SMTP_SERVEUR, SMTP_PORT, SMTP_UTILISATEUR,
-#   SMTP_MOT_DE_PASSE, MAIL_DESTINATAIRE (et facultativement MAIL_EXPEDITEUR).
+#   ANTHROPIC_API_KEY, RESEND_API_KEY (ou à défaut SMTP_SERVEUR, SMTP_PORT, SMTP_UTILISATEUR,
+#   SMTP_MOT_DE_PASSE), MAIL_DESTINATAIRE (et facultativement MAIL_EXPEDITEUR).
 name: journal quotidien
 
 on:
@@ -74,12 +74,14 @@ jobs:
           SMTP_UTILISATEUR: ${{ secrets.SMTP_UTILISATEUR }}
           SMTP_MOT_DE_PASSE: ${{ secrets.SMTP_MOT_DE_PASSE }}
           MAIL_DESTINATAIRE: ${{ secrets.MAIL_DESTINATAIRE }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         run: python main.py journal-test-envoi
 
       - name: Génération et envoi
         if: inputs.test_envoi != true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           SMTP_SERVEUR: ${{ secrets.SMTP_SERVEUR }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_UTILISATEUR: ${{ secrets.SMTP_UTILISATEUR }}
