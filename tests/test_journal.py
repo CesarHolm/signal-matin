@@ -444,6 +444,28 @@ def test_envoi_nettoie_les_secrets_et_bascule_de_port(monkeypatch):
         raise AssertionError("un refus d'identifiants doit arrêter l'envoi")
 
 
+def test_envoi_resend_prioritaire(tmp_path, monkeypatch):
+    from signal_matin.journal.envoi import envoyer_resend
+    monkeypatch.setenv("RESEND_API_KEY", " re_test ")
+    monkeypatch.setenv("MAIL_DESTINATAIRE", "moi@proton.me")
+    monkeypatch.delenv("MAIL_EXPEDITEUR", raising=False)
+    page = tmp_path / "j.html"
+    page.write_text("<p>x</p>", encoding="utf-8")
+    recu = {}
+
+    def requete(cle, corps):
+        recu.update(cle=cle, corps=corps)
+        return {"id": "1"}
+
+    envoyer_resend({"date": "2026-10-20"}, "<p>Bonjour</p>", [page], essai=True,
+                   journal=lambda *_: None, _requete=requete)
+    assert recu["cle"] == "re_test"
+    assert recu["corps"]["from"] == "Signal Matin <onboarding@resend.dev>"
+    assert recu["corps"]["to"] == ["moi@proton.me"]
+    assert recu["corps"]["subject"].startswith("[Essai] Signal Matin")
+    assert recu["corps"]["attachments"][0]["filename"] == "j.html"
+
+
 def test_mots_planifies_prioritaires_puis_revises(tmp_path):
     from signal_matin.journal.vocabulaire import selection_du_jour
     plan = [{"mot": f"Mot{i}", "nature": "n.", "niveau": "facile", "domaine": "soutenu",

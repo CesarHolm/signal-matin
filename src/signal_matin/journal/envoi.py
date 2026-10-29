@@ -95,8 +95,55 @@ def _envoyer_via(serveur: str, port: int, ssl_direct: bool, utilisateur: str, mo
             smtp.send_message(message)
 
 
+RESEND_URL = "https://api.resend.com/emails"
+
+
+def _requete_resend(cle: str, corps: dict) -> dict:
+    import json
+    import urllib.error
+    import urllib.request
+    requete = urllib.request.Request(
+        RESEND_URL, data=json.dumps(corps).encode("utf-8"), method="POST",
+        headers={"Authorization": f"Bearer {cle}", "Content-Type": "application/json",
+                 "User-Agent": "signal-matin/1.0"})
+    try:
+        with urllib.request.urlopen(requete, timeout=60) as reponse:
+            return json.loads(reponse.read().decode("utf-8") or "{}")
+    except urllib.error.HTTPError as erreur:
+        detail = erreur.read().decode("utf-8", "replace")[:300]
+        # La reponse de Resend ne contient jamais la cle.
+        raise EnvoiImpossible(f"Resend a refusé l'envoi ({erreur.code}) : {detail}") from None
+    except OSError as erreur:
+        raise EnvoiImpossible(f"Resend injoignable : {type(erreur).__name__} : {erreur}") from None
+
+
+def envoyer_resend(edition: dict, html: str, pieces: list[Path], *, essai: bool = False, journal=print,
+                   _requete=_requete_resend) -> None:
+    """Envoi par l'API HTTPS de Resend (secret RESEND_API_KEY), sans SMTP."""
+    import base64
+    destinataires = [a.strip() for a in _parametre("MAIL_DESTINATAIRE").split(",") if a.strip()]
+    if not destinataires:
+        raise EnvoiImpossible("paramètres d'envoi absents : MAIL_DESTINATAIRE")
+    # Sans domaine verifie, Resend n'accepte que cet expediteur, vers l'adresse du compte.
+    expediteur = _parametre("MAIL_EXPEDITEUR") or "onboarding@resend.dev"
+    message = construire_message(edition, html, [], expediteur=expediteur,
+                                 destinataire=", ".join(destinataires), essai=essai)
+    corps = {"from": f"Signal Matin <{expediteur}>", "to": destinataires,
+             "subject": str(message["Subject"]), "html": html, "text": _texte_brut(html)}
+    jointes = [{"filename": p.name, "content": base64.b64encode(p.read_bytes()).decode("ascii")}
+               for p in pieces if p.is_file()]
+    if jointes:
+        corps["attachments"] = jointes
+    journal("· Envoi via Resend (HTTPS)")
+    _requete(_parametre("RESEND_API_KEY"), corps)
+    journal(f"✓ E-mail envoyé ({len(destinataires)} destinataire(s))")
+
+
 def envoyer(edition: dict, html: str, pieces: list[Path], *, essai: bool = False, journal=print,
             _transport=_envoyer_via) -> None:
+    if _parametre("RESEND_API_KEY"):
+        envoyer_resend(edition, html, pieces, essai=essai, journal=journal)
+        return
     manquantes = [v for v in VARIABLES if not _parametre(v)]
     if manquantes:
         raise EnvoiImpossible("paramètres d'envoi absents : " + ", ".join(manquantes))
@@ -151,6 +198,10 @@ def tester_connexion(journal=print) -> int:
         if os.environ.get("GITHUB_ACTIONS"):
             print(f"::notice title=Test e-mail::{texte}", flush=True)
 
+    if _parametre("RESEND_API_KEY"):
+        note(f"mode Resend · clé de {len(_parametre('RESEND_API_KEY'))} caractères · "
+             f"destinataire {'présent' if _parametre('MAIL_DESTINATAIRE') else 'ABSENT'}")
+        return 0 if _parametre("MAIL_DESTINATAIRE") else 2
     manquantes = [v for v in VARIABLES if not _parametre(v)]
     if manquantes:
         note("paramètres absents : " + ", ".join(manquantes))
