@@ -157,6 +157,8 @@ def build_parser() -> argparse.ArgumentParser:
                          help="remplace journal.heure_limite (bascule du traitement de nuit vers l'appel direct)")
     diag = sub.add_parser("journal-diagnostic", help="teste les sources, l'extraction des articles et l'API")
     diag.add_argument("--config", default="config.yaml", help="fichier YAML local")
+    test_envoi = sub.add_parser("journal-test-envoi", help="teste la connexion SMTP sans rien envoyer")
+    test_envoi.add_argument("--config", default="config.yaml", help="fichier YAML local")
     imprimer = sub.add_parser("journal-imprimer", help="imprime l'édition personnalisée du jour")
     imprimer.add_argument("--config", default="config.yaml", help="fichier YAML local")
     imprimer.add_argument("--date", type=_date, default=dt.date.today())
@@ -194,6 +196,9 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "journal-diagnostic":
         from .journal.diagnostic import diagnostiquer
         return diagnostiquer(config, _journal_fichier("diagnostic"))
+    if args.command == "journal-test-envoi":
+        from .journal.envoi import tester_connexion
+        return tester_connexion()
     if args.command == "journal":
         from .journal.edition import produire, publier
         trace = _journal_fichier("essai" if args.essai else "generation")

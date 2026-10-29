@@ -136,3 +136,64 @@ def envoyer(edition: dict, html: str, pieces: list[Path], *, essai: bool = False
         journal(f"✓ E-mail envoyé ({len(destinataires)} destinataire(s))")
         return
     raise EnvoiImpossible(f"{serveur} injoignable · " + " ; ".join(erreurs))
+
+
+def tester_connexion(journal=print) -> int:
+    """Diagnostic SMTP sans rien envoyer : resolution DNS, accueil du serveur, identification.
+
+    Chaque ligne est aussi emise en annotation GitHub Actions (visible dans le resume du run).
+    Le serveur est decrit par son adresse IP et son nom inverse, que GitHub ne masque pas.
+    """
+    import socket
+
+    def note(texte: str) -> None:
+        journal(texte)
+        if os.environ.get("GITHUB_ACTIONS"):
+            print(f"::notice title=Test e-mail::{texte}", flush=True)
+
+    manquantes = [v for v in VARIABLES if not _parametre(v)]
+    if manquantes:
+        note("paramètres absents : " + ", ".join(manquantes))
+        return 2
+    serveur = _parametre("SMTP_SERVEUR")
+    for prefixe in ("https://", "http://", "smtp://", "smtps://"):
+        if serveur.lower().startswith(prefixe):
+            serveur = serveur[len(prefixe):]
+    serveur = serveur.rstrip("/")
+    connus = {"smtp.gmail.com": "Gmail", "smtp.protonmail.ch": "Proton"}
+    note(f"serveur : {connus.get(serveur.lower(), 'NON STANDARD')} · {len(serveur)} caractères")
+    utilisateur = _parametre("SMTP_UTILISATEUR")
+    note(f"identifiant : {'adresse e-mail' if '@' in utilisateur else 'SANS @'} · "
+         f"mot de passe : {len(_parametre('SMTP_MOT_DE_PASSE').replace(' ', ''))} caractères")
+    try:
+        ip = socket.getaddrinfo(serveur, None, socket.AF_INET)[0][4][0]
+        try:
+            inverse = socket.gethostbyaddr(ip)[0]
+        except OSError:
+            inverse = "sans nom inverse"
+        note(f"résolution : {ip} ({inverse})")
+    except OSError as erreur:
+        note(f"résolution impossible : {erreur}")
+        return 2
+    contexte = ssl.create_default_context()
+    reussi = False
+    for port, ssl_direct in ((465, True), (587, False)):
+        mode = "SSL" if ssl_direct else "STARTTLS"
+        try:
+            if ssl_direct:
+                smtp = smtplib.SMTP_SSL(serveur, port, context=contexte, timeout=30)
+            else:
+                smtp = smtplib.SMTP(serveur, port, timeout=30)
+            with smtp:
+                accueil = smtp.ehlo()[0]
+                if not ssl_direct:
+                    smtp.starttls(context=contexte)
+                    smtp.ehlo()
+                smtp.login(utilisateur, _parametre("SMTP_MOT_DE_PASSE").replace(" ", ""))
+            note(f"{port}/{mode} : accueil {accueil}, identification acceptée ✓")
+            reussi = True
+        except smtplib.SMTPAuthenticationError as erreur:
+            note(f"{port}/{mode} : connexion OK mais identifiants refusés ({erreur.smtp_code})")
+        except (smtplib.SMTPException, OSError) as erreur:
+            note(f"{port}/{mode} : {type(erreur).__name__} : {erreur}")
+    return 0 if reussi else 2
