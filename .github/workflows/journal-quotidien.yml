@@ -13,7 +13,8 @@ name: journal quotidien
 
 on:
   schedule:
-    # 3 h 07 UTC = 4 h 07 à Paris (heure d'hiver) = 5 h 07 en Grèce, du lundi au vendredi.
+    # 3 h 07 UTC = 4 h 07 à Paris (heure d'hiver). Secours seulement : le lancement à
+    # l'heure vient de cron-job.org (appel de l'API workflow_dispatch, essai et direct à false).
     - cron: "7 3 * * 1-5"
   workflow_dispatch:
     inputs:
@@ -55,12 +56,27 @@ jobs:
           ref: journal-etat
           path: data
 
+      # Un seul envoi par jour : le déclencheur externe (cron-job.org, 4 h 07) part à
+      # l'heure ; la planification GitHub, souvent en retard de plusieurs heures,
+      # reste en secours et s'arrête si l'édition du jour est déjà enregistrée.
+      # Les essais manuels ne sont jamais bloqués.
+      - name: Édition du jour déjà envoyée ?
+        id: deja
+        if: inputs.essai != true && inputs.test_envoi != true
+        run: |
+          if [ -f "data/editions/$(date +%F).json" ]; then
+            echo "oui=true" >> "$GITHUB_OUTPUT"
+            echo "::notice title=Rien à faire::Édition du $(date +%d/%m) déjà envoyée."
+          fi
+
       - uses: actions/setup-python@v7
+        if: steps.deja.outputs.oui != 'true'
         with:
           python-version: "3.12"
           cache: pip
 
       - name: Installation
+        if: steps.deja.outputs.oui != 'true'
         run: |
           pip install -e .
           if [ "${{ inputs.test_envoi }}" != "true" ]; then playwright install --with-deps chromium; fi
@@ -78,7 +94,7 @@ jobs:
         run: python main.py journal-test-envoi
 
       - name: Génération et envoi
-        if: inputs.test_envoi != true
+        if: inputs.test_envoi != true && steps.deja.outputs.oui != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
@@ -99,7 +115,7 @@ jobs:
           python main.py journal $args
 
       - name: Enregistrer la mémoire du journal
-        if: always() && inputs.essai != true && inputs.test_envoi != true
+        if: always() && inputs.essai != true && inputs.test_envoi != true && steps.deja.outputs.oui != 'true'
         working-directory: data
         run: |
           git config user.name "signal-matin"
