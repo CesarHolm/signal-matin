@@ -411,6 +411,39 @@ def test_message_e_mail_html_et_pieces_jointes(tmp_path, monkeypatch):
         raise AssertionError("l'envoi aurait dû échouer sans paramètres")
 
 
+def test_envoi_nettoie_les_secrets_et_bascule_de_port(monkeypatch):
+    import smtplib
+    from signal_matin.journal.envoi import envoyer, EnvoiImpossible
+    edition = {"date": "2026-10-20"}
+    monkeypatch.setenv("SMTP_SERVEUR", " https://smtp.gmail.com/ \n")
+    monkeypatch.setenv("SMTP_PORT", " 465 ")
+    monkeypatch.setenv("SMTP_UTILISATEUR", "envoi@exemple.fr ")
+    monkeypatch.setenv("SMTP_MOT_DE_PASSE", "abcd efgh ijkl mnop")
+    monkeypatch.setenv("MAIL_DESTINATAIRE", "moi@exemple.fr")
+    appels, lignes = [], []
+
+    def transport(serveur, port, ssl_direct, utilisateur, mot_de_passe, message):
+        appels.append((serveur, port, ssl_direct, utilisateur, mot_de_passe))
+        if port == 465:
+            raise smtplib.SMTPServerDisconnected("Connection unexpectedly closed")
+
+    envoyer(edition, "<p>x</p>", [], journal=lignes.append, _transport=transport)
+    assert appels == [("smtp.gmail.com", 465, True, "envoi@exemple.fr", "abcdefghijklmnop"),
+                      ("smtp.gmail.com", 587, False, "envoi@exemple.fr", "abcdefghijklmnop")]
+    assert any("smtp.gmail.com:587 (STARTTLS)" in l for l in lignes)
+    assert not any("abcd" in l for l in lignes)
+
+    def refus(*_):
+        raise smtplib.SMTPAuthenticationError(535, b"refus")
+
+    try:
+        envoyer(edition, "<p>x</p>", [], journal=lignes.append, _transport=refus)
+    except EnvoiImpossible as erreur:
+        assert "identifiants refusés" in str(erreur)
+    else:
+        raise AssertionError("un refus d'identifiants doit arrêter l'envoi")
+
+
 def test_mots_planifies_prioritaires_puis_revises(tmp_path):
     from signal_matin.journal.vocabulaire import selection_du_jour
     plan = [{"mot": f"Mot{i}", "nature": "n.", "niveau": "facile", "domaine": "soutenu",

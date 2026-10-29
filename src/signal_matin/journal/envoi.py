@@ -67,29 +67,72 @@ def construire_message(edition: dict, html: str, pieces: list[Path], *, expedite
     return message
 
 
-def envoyer(edition: dict, html: str, pieces: list[Path], *, essai: bool = False, journal=print) -> None:
-    manquantes = [v for v in VARIABLES if not os.environ.get(v)]
+def _parametre(nom: str) -> str:
+    """Valeur d'une variable d'environnement, sans espaces ni retours a la ligne parasites."""
+    return (os.environ.get(nom) or "").strip()
+
+
+def _modes(port: int) -> list[tuple[int, bool]]:
+    """Tentatives (port, SSL direct) : le port demande, puis l'autre mode standard en secours."""
+    principal = (port, port == 465)
+    secours = (587, False) if port == 465 else (465, True)
+    return [principal] if principal == secours else [principal, secours]
+
+
+def _envoyer_via(serveur: str, port: int, ssl_direct: bool, utilisateur: str, mot_de_passe: str,
+                 message: EmailMessage) -> None:
+    contexte = ssl.create_default_context()
+    if ssl_direct:
+        with smtplib.SMTP_SSL(serveur, port, context=contexte, timeout=60) as smtp:
+            smtp.login(utilisateur, mot_de_passe)
+            smtp.send_message(message)
+    else:
+        with smtplib.SMTP(serveur, port, timeout=60) as smtp:
+            smtp.ehlo()
+            smtp.starttls(context=contexte)
+            smtp.ehlo()
+            smtp.login(utilisateur, mot_de_passe)
+            smtp.send_message(message)
+
+
+def envoyer(edition: dict, html: str, pieces: list[Path], *, essai: bool = False, journal=print,
+            _transport=_envoyer_via) -> None:
+    manquantes = [v for v in VARIABLES if not _parametre(v)]
     if manquantes:
         raise EnvoiImpossible("paramètres d'envoi absents : " + ", ".join(manquantes))
-    serveur = os.environ["SMTP_SERVEUR"]
-    port = int(os.environ.get("SMTP_PORT") or 465)
-    utilisateur = os.environ["SMTP_UTILISATEUR"]
-    expediteur = os.environ.get("MAIL_EXPEDITEUR") or utilisateur
-    destinataires = [a.strip() for a in os.environ["MAIL_DESTINATAIRE"].split(",") if a.strip()]
+    serveur = _parametre("SMTP_SERVEUR")
+    for prefixe in ("https://", "http://", "smtp://", "smtps://"):
+        if serveur.lower().startswith(prefixe):
+            serveur = serveur[len(prefixe):]
+    serveur = serveur.rstrip("/")
+    port_brut = _parametre("SMTP_PORT") or "465"
+    try:
+        port = int(port_brut)
+    except ValueError:
+        raise EnvoiImpossible(f"SMTP_PORT invalide : « {port_brut} » (attendu 465 ou 587)") from None
+    utilisateur = _parametre("SMTP_UTILISATEUR")
+    mot_de_passe = _parametre("SMTP_MOT_DE_PASSE").replace(" ", "")
+    expediteur = _parametre("MAIL_EXPEDITEUR") or utilisateur
+    destinataires = [a.strip() for a in _parametre("MAIL_DESTINATAIRE").split(",") if a.strip()]
     message = construire_message(edition, html, pieces, expediteur=expediteur,
                                  destinataire=", ".join(destinataires), essai=essai)
-    contexte = ssl.create_default_context()
-    try:
-        if port == 465:
-            with smtplib.SMTP_SSL(serveur, port, context=contexte, timeout=60) as smtp:
-                smtp.login(utilisateur, os.environ["SMTP_MOT_DE_PASSE"])
-                smtp.send_message(message)
-        else:
-            with smtplib.SMTP(serveur, port, timeout=60) as smtp:
-                smtp.starttls(context=contexte)
-                smtp.login(utilisateur, os.environ["SMTP_MOT_DE_PASSE"])
-                smtp.send_message(message)
-    except (smtplib.SMTPException, OSError) as erreur:
-        # Le message d'erreur SMTP ne contient jamais le mot de passe.
-        raise EnvoiImpossible(f"{type(erreur).__name__} : {erreur}") from erreur
-    journal(f"✓ E-mail envoyé ({len(destinataires)} destinataire(s))")
+    erreurs = []
+    for port_essai, ssl_direct in _modes(port):
+        mode = "SSL" if ssl_direct else "STARTTLS"
+        # Ni le mot de passe ni l'identifiant ne sont ecrits dans le journal.
+        journal(f"· Envoi via {serveur}:{port_essai} ({mode})")
+        try:
+            _transport(serveur, port_essai, ssl_direct, utilisateur, mot_de_passe, message)
+        except smtplib.SMTPAuthenticationError as erreur:
+            # Identifiants refuses : changer de port n'y changera rien.
+            raise EnvoiImpossible(
+                f"identifiants refusés par {serveur} ({erreur.smtp_code}) : vérifier SMTP_UTILISATEUR "
+                "et SMTP_MOT_DE_PASSE (mot de passe d'application)") from erreur
+        except (smtplib.SMTPException, OSError) as erreur:
+            # Le message d'erreur SMTP ne contient jamais le mot de passe.
+            erreurs.append(f"{port_essai}/{mode} → {type(erreur).__name__} : {erreur}")
+            journal(f"  échec : {type(erreur).__name__} : {erreur}")
+            continue
+        journal(f"✓ E-mail envoyé ({len(destinataires)} destinataire(s))")
+        return
+    raise EnvoiImpossible(f"{serveur} injoignable · " + " ; ".join(erreurs))
