@@ -75,6 +75,13 @@ table.futo td.fs{width:16px;height:16px;text-align:center;font-size:14px}
 .plaques span{display:inline-block;border:1px solid #151515;min-width:32px;text-align:center;padding:3px 4px;margin:0 4px 4px 0;font-weight:700}
 .quiz li{margin-bottom:10px}
 .opts{font-size:15px;color:#333}
+.toc h3{font-family:Arial,Helvetica,sans-serif;font-size:13px;letter-spacing:.1em;text-transform:uppercase;margin:12px 0 4px}
+.toc h3:first-of-type{margin-top:4px}
+.toc ol{margin:0 0 4px;padding-left:22px;font-size:16px}
+.toc li{margin-bottom:4px}
+.toc a{color:#151515}
+.toc .bref{font-size:14px;color:#444;margin:2px 0 0}
+.toc .bref a{color:#444}
 .pied{font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#777;text-align:center;border-top:1px solid #151515;padding-top:8px;margin-top:30px}
 """
 
@@ -129,16 +136,44 @@ def _article(article: dict) -> str:
                 if article.get("synthese") else "")
     secours = ("<p class='secours'>Synthèse indisponible ce matin : chapô du flux d'origine.</p>"
                if article.get("secours") else "")
-    return (f"<article class='{classe}'><p class='kicker'>{E(_kicker(article))}</p>"
+    ancre = f" id='art-{E(article['id'], quote=True)}'" if article.get("id") else ""
+    return (f"<article class='{classe}'{ancre}><p class='kicker'>{E(_kicker(article))}</p>"
             f"<h3>{E(article.get('titre', ''))}</h3><p class='lead'>{E(article.get('chapo', ''))}</p>"
             f"{sections}{synthese}{secours}{_pied(article)}</article>")
+
+
+def _ancre_breve(breve: dict) -> str:
+    return f" id='br-{E(breve['id'], quote=True)}'" if breve.get("id") else ""
+
+
+def _lien(prefixe: str, element: dict) -> str:
+    titre = E(element.get("titre", ""))
+    return f"<a href='#{prefixe}-{E(element['id'], quote=True)}'>{titre}</a>" if element.get("id") else titre
+
+
+def _sommaire_detaille(edition: dict) -> str:
+    """Au sommaire : par categorie, le titre de chaque article (lien direct), puis les breves."""
+    parties = []
+    for bloc in edition.get("blocs", []):
+        if not bloc.get("developpes") and not bloc.get("breves"):
+            continue
+        partie = f"<h3><a href='#bloc-{E(bloc['id'], quote=True)}'>{E(bloc['titre'])}</a></h3>"
+        if bloc.get("developpes"):
+            partie += "<ol>" + "".join(f"<li>{_lien('art', a)}</li>" for a in bloc["developpes"]) + "</ol>"
+        if bloc.get("breves"):
+            partie += ("<p class='bref'>En bref : "
+                       + " · ".join(_lien("br", b) for b in bloc["breves"]) + "</p>")
+        parties.append(partie)
+    if not parties:
+        return ""
+    return "<div class='encadre toc'><p class='kicker'>Au sommaire</p>" + "".join(parties) + "</div>"
 
 
 def _breves(breves: list[dict]) -> str:
     if not breves:
         return ""
     return "<p class='kicker' style='margin-top:6px'>En bref</p>" + "".join(
-        f"<div class='breve'><p class='kicker'>{E(_kicker(b))}</p><h5>{E(b.get('titre', ''))}</h5>"
+        f"<div class='breve'{_ancre_breve(b)}><p class='kicker'>{E(_kicker(b))}</p><h5>{E(b.get('titre', ''))}</h5>"
         f"<p>{E(b.get('texte', ''))}</p></div>" for b in breves)
 
 
@@ -228,7 +263,7 @@ def rendre_mobile(edition: dict) -> str:
     sommaire, blocs = _blocs(edition)
     if edition.get("numerique"):
         # Lecture sur telephone : ni meteo, ni jeux, ni solutions.
-        haut, bas, pied = _mots(edition), "", "Signal Matin · Le journal anti-scroll"
+        haut, bas, pied = _mots(edition) + _sommaire_detaille(edition), "", "Signal Matin · Le journal anti-scroll"
     else:
         haut = _meteo(edition.get("meteo")) + _mots(edition)
         bas = _jeux(edition) + _solutions(edition.get("solutions_hier"))

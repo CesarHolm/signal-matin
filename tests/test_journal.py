@@ -493,3 +493,19 @@ def test_version_numerique_sans_meteo_ni_jeux(tmp_path, monkeypatch):
     html = rendre_mobile(edition)
     assert "Sudoku" not in html and "Météo" not in html and "Quiz" not in html
     assert "Nouveaux mots" in html and "IA &amp; recherche" in html
+    # Sommaire detaille : chaque article est relie a son ancre.
+    assert "Au sommaire" in html
+    for article in edition["blocs"][0]["developpes"]:
+        assert f"href='#art-{article['id']}'" in html and f"id='art-{article['id']}'" in html
+
+
+def test_plan_numerique_plus_long_et_sans_pages():
+    from signal_matin.journal import mise_en_page as mep
+    assert mep.gabarit_numerique(20000) == ("long", 4500)
+    assert mep.gabarit_numerique(3000) == ("court", 1500)
+    assert mep.gabarit(20000) == ("long", 2800)  # version imprimée inchangée
+    choix = {"ia": [mep.Choix(f"a{i}", "ia", 9 - i, "long", 4500) for i in range(8)]}
+    plan = mep.planifier_numerique(choix, {"ia": 6, "veille": 0})
+    assert len(plan.articles) == 6
+    assert [c.format for c in plan.articles] == ["long"] * 4 + ["court"] * 2
+    assert plan.quarts_breves == {"ia": 2}

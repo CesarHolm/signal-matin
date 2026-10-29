@@ -17,17 +17,20 @@ habituel dans la base reprend.
 
 GitHub peut retarder une tâche planifiée de quelques minutes à une demi-heure.
 
-## 1. Choisir le compte qui envoie
+## 1. Envoi par Resend (retenu le 29/10/2026)
 
-L'adresse qui **reçoit** peut être n'importe laquelle (Proton compris).
-L'adresse qui **envoie** doit accepter l'envoi SMTP :
+Gmail refuse les connexions SMTP venant des serveurs GitHub (connexion coupée
+avant toute identification, constaté le 29/10/2026 sur les ports 465 et 587).
+L'envoi passe donc par **Resend**, un service d'envoi qui fonctionne en HTTPS.
 
-- **Gmail** (recommandé) : activer la validation en deux étapes, puis créer un
-  « mot de passe d'application » (myaccount.google.com → Sécurité → Mots de passe
-  des applications). Serveur `smtp.gmail.com`, port `465`.
-- **Proton Mail** : SMTP réservé aux offres payantes **et** à une adresse sur
-  domaine personnalisé ; une adresse @proton.me ne peut pas envoyer par SMTP.
-  Serveur `smtp.protonmail.ch`, port `587`.
+1. Compte sur resend.com créé avec **l'adresse Proton** qui reçoit le journal
+   (mot de passe propre à Resend). Sans domaine vérifié, Resend n'envoie qu'à
+   l'adresse du compte, depuis `onboarding@resend.dev`.
+2. Resend → **API Keys → Create API Key** (« Sending access »).
+3. Resend ne voit que le journal qu'il envoie : aucun accès à la boîte Proton.
+
+Le code choisit Resend dès que le secret `RESEND_API_KEY` existe ; sinon il
+retombe sur le SMTP (secrets `SMTP_…`, bascule automatique 465 ↔ 587).
 
 ## 2. Créer les secrets (depuis le téléphone ou un navigateur)
 
@@ -37,12 +40,12 @@ les journaux d'exécution.
 
 | Nom | Valeur |
 |---|---|
-| `ANTHROPIC_API_KEY` | la clé API (la même que dans `.env`) |
-| `SMTP_SERVEUR` | ex. `smtp.gmail.com` |
-| `SMTP_PORT` | `465` (Gmail) ou `587` (Proton) |
-| `SMTP_UTILISATEUR` | l'adresse du compte d'envoi |
-| `SMTP_MOT_DE_PASSE` | le mot de passe d'application |
-| `MAIL_DESTINATAIRE` | l'adresse qui reçoit le journal |
+| `ANTHROPIC_API_KEY` | la clé API Anthropic (la même que dans `.env`) |
+| `RESEND_API_KEY` | la clé Resend (`re_…`) |
+| `MAIL_DESTINATAIRE` | l'adresse Proton du compte Resend |
+
+Taper les valeurs à la main plutôt que les coller : le copier-coller sur
+téléphone ajoute parfois des espaces (le code les retire, par précaution).
 
 ## 3. Activer GitHub Actions sur le fork
 
@@ -54,6 +57,31 @@ them ». Les forks ont les tâches planifiées désactivées par défaut.
 Actions → **journal quotidien** → **Run workflow** (cases « Essai » et « Direct »
 cochées) → l'e-mail arrive en quelques minutes, marqué « [Essai] », sans rien
 mémoriser.
+
+Option « Tester seulement la connexion e-mail » : vérifie les secrets d'envoi
+en 30 secondes, sans génération ni appel IA ; le résultat s'affiche dans les
+annotations du run.
+
+## 4 bis. Contenu de la version numérique (validé le 29/10/2026)
+
+Sans contrainte de page, la version téléphone est plus complète que le journal
+imprimé, qui reste inchangé :
+
+- **Au sommaire**, sous les mots du jour : par catégorie, le titre de chaque
+  article avec un lien direct, puis les brèves.
+- Par catégorie : jusqu'à **6 articles développés**, dont **4 longs** (jusqu'à
+  4 500 caractères, 4 à 6 sections) ; les autres en format court enrichi
+  (jusqu'à 1 800 caractères, 2 ou 3 sections).
+- **Brèves** plus complètes (2 à 3 phrases, environ 450 caractères), jusqu'à 6
+  par catégorie.
+- Pas de PDF A4 généré ; pas de météo, de jeux ni de quiz.
+- Coût API estimé : environ 2 à 3 fois l'édition imprimée (plus de synthèses
+  Sonnet), soit de l'ordre de 4 à 6 $ par mois, sous le plafond conseillé de 15 $.
+
+Réglages : `src/signal_matin/journal/mise_en_page.py` (constantes `NUM_…`).
+
+GitHub peut retarder une tâche planifiée de plusieurs heures (constaté le 28 et
+le 29/10/2026 : lancement vers 10 h 30 au lieu de 4 h 07, heure de Paris).
 
 ## 5. Pendant le voyage
 

@@ -22,6 +22,15 @@ TEXTE_MINIMUM = 2500     # en dessous (article payant, extrait partiel), seuleme
                          # 40 % de 2500 = 1000 caracteres, de quoi remplir un quart de page
 
 
+# Version numerique (telephone) : pas de pagination, donc des articles plus complets.
+NUM_RATIO = 0.50
+NUM_PLAFOND_LONG = 4500
+NUM_PLAFOND_COURT = 1800
+NUM_LONGS_PAR_BLOC = 4
+NUM_ARTICLES_PAR_BLOC = 6
+NUM_BREVES_PAR_BLOC = 6
+
+
 def quarts_de_contenu(pages: int) -> int:
     return 4 * pages - 6
 
@@ -142,3 +151,29 @@ def assembler(unites: list[dict]) -> list[list[dict]]:
     if en_attente is not None:
         demis.append([en_attente])
     return demis
+
+
+def gabarit_numerique(longueur_source: int) -> tuple[str, int]:
+    """Gabarit de la version telephone : longs jusqu'a 4 500 caracteres, courts jusqu'a 1 800."""
+    possible = int(longueur_source * NUM_RATIO)
+    if possible >= SEUIL_LONG:
+        return "long", min(NUM_PLAFOND_LONG, possible)
+    limite = min(NUM_PLAFOND_COURT, max(PLANCHER_COURT, possible))
+    return "court", max(300, min(limite, int(longueur_source * 0.70)))
+
+
+def planifier_numerique(classements: dict[str, list[Choix]], breves_disponibles: dict[str, int]) -> Plan:
+    """Sans contrainte de page : par bloc, les mieux classes (4 longs au plus, 6 articles au plus)
+    et toutes les breves redigees (6 au plus)."""
+    articles: list[Choix] = []
+    for liste in classements.values():
+        longs = 0
+        for choix in liste[:NUM_ARTICLES_PAR_BLOC]:
+            if choix.format == "long":
+                if longs >= NUM_LONGS_PAR_BLOC:
+                    choix = Choix(choix.id, choix.bloc, choix.score, "court", NUM_PLAFOND_COURT)
+                else:
+                    longs += 1
+            articles.append(choix)
+    quarts = {b: -(-min(n, NUM_BREVES_PAR_BLOC) // 3) for b, n in breves_disponibles.items() if n}
+    return Plan(pages=0, articles=articles, quarts_breves=quarts)

@@ -148,7 +148,7 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
     if client:
         journal("· Lot 1 : tri des blocs (Haiku)")
         titres_recents = [t for e in editions_passees(jour, racine)[-5:] for t in e.get("titres", [])]
-        requetes = [ia.requete_tri(client, b, titres_recents) for b in blocs if b.candidats]
+        requetes = [ia.requete_tri(client, b, titres_recents, numerique) for b in blocs if b.candidats]
         if besoins_mots:
             connus = [m["mot"] for m in charger_base(racine)]
             requetes.append(ia.requete_mots(client, besoins_mots, connus))
@@ -166,7 +166,7 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
                         score = int(d.get("score", 0)) if str(d.get("score", "")).isdigit() else 6 - rang
                         classe.append((index[d["id"]], max(1, min(10, score))))
                 if classe:
-                    classements[bloc.id] = classe[:6]
+                    classements[bloc.id] = classe[:8 if numerique else 6]
                     breves_redigees[bloc.id] = [b for b in data.get("breves", []) if b.get("id") in index][:6]
             except (ValueError, KeyError, TypeError) as erreur:
                 journal(f"  ! tri {bloc.id} illisible : {erreur}")
@@ -193,14 +193,20 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
                 # Sans IA, le chapô du flux est affiché tel quel : pas de seuil.
                 journal(f"  {candidat.id} écarté des développés : texte trop court ({len(candidat.texte)} car.)")
                 continue
-            format_, limite_car = mep.gabarit(len(candidat.texte), ratio)
+            if numerique:
+                format_, limite_car = mep.gabarit_numerique(len(candidat.texte))
+            else:
+                format_, limite_car = mep.gabarit(len(candidat.texte), ratio)
             choix_par_bloc[bloc_id].append(mep.Choix(candidat.id, bloc_id, score, format_, limite_car))
-    plan = mep.planifier(
-        choix_par_bloc, {b: len(v) for b, v in breves_redigees.items()},
-        avec_solutions=precedente is not None,
-        pages_defaut=int(conf.get("pages", 8)),
-        pages_possibles=tuple(conf.get("pages_possibles", (6, 8, 10))))
-    journal(f"  plan : {plan.pages} pages, {len(plan.articles)} articles "
+    if numerique:
+        plan = mep.planifier_numerique(choix_par_bloc, {b: len(v) for b, v in breves_redigees.items()})
+    else:
+        plan = mep.planifier(
+            choix_par_bloc, {b: len(v) for b, v in breves_redigees.items()},
+            avec_solutions=precedente is not None,
+            pages_defaut=int(conf.get("pages", 8)),
+            pages_possibles=tuple(conf.get("pages_possibles", (6, 8, 10))))
+    journal(f"  plan : {plan.pages or 'sans'} pages, {len(plan.articles)} articles "
             f"({sum(1 for c in plan.articles if c.format == 'long')} longs)")
     if plan.quarts_libres:
         avertissements.append(f"{plan.quarts_libres} quart(s) de page sans contenu")
@@ -209,7 +215,8 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
     syntheses: dict[str, dict] = {}
     if client and plan.articles:
         journal("· Lot 2 : synthèses (Sonnet)")
-        requetes = [ia.requete_synthese(client, index_global[c.id], c.limite, c.format) for c in plan.articles]
+        requetes = [ia.requete_synthese(client, index_global[c.id], c.limite, c.format, numerique)
+                    for c in plan.articles]
         reponses = client.lot(requetes, echeance)
         for choix_ in plan.articles:
             texte = reponses.get(f"syn-{choix_.id}")
@@ -243,11 +250,13 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
             else:
                 vue = _developpe_secours(c, choix_.format)
             vue["format"] = choix_.format
+            vue["id"] = choix_.id
             vues_dev.append(vue)
             sequence.append({"type": "article", "bloc": bloc_id, "taille": choix_.taille, "article": vue})
         developpes_ids = {c.id for c in plan.articles}
-        toutes_breves = [{**_vue_article(index[b["id"]]), "titre": _couper(b.get("titre", ""), 110),
-                          "texte": _couper(b.get("texte", ""), 320)}
+        toutes_breves = [{**_vue_article(index[b["id"]]), "id": b["id"],
+                          "titre": _couper(b.get("titre", ""), 110),
+                          "texte": _couper(b.get("texte", ""), 600 if numerique else 320)}
                          for b in breves_redigees.get(bloc_id, [])
                          if b.get("id") in index and b["id"] not in developpes_ids]
         vues_breves = []
@@ -334,9 +343,15 @@ def publier(resultat: dict, *, racine: Path = DOSSIER, sortie: Path = ROOT / "ou
     mobile_path = sortie / "mobile" / f"{nom}.html"
     for chemin in (html_path, pdf_path, json_path, mobile_path):
         chemin.parent.mkdir(parents=True, exist_ok=True)
-    html_path.write_text(rendre(edition), encoding="utf-8")
     mobile_path.write_text(rendre_mobile(edition), encoding="utf-8")
     json_path.write_text(json.dumps(edition, ensure_ascii=False, indent=1, default=str), encoding="utf-8")
+    if edition.get("numerique"):
+        # Version telephone : articles sans gabarit A4, donc ni page imprimable ni PDF.
+        if memoriser:
+            enregistrer_edition(dt.date.fromisoformat(edition["date"]), resultat["memoire"], racine)
+        journal(f"✓ Version numérique : {mobile_path}")
+        return pdf_path
+    html_path.write_text(rendre(edition), encoding="utf-8")
 
     from ..pdf import _launch_browser
     with sync_playwright() as playwright:

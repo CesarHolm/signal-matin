@@ -331,12 +331,23 @@ class ClientIA:
 # --------------------------------------------------------------------------- Contenus
 
 
-def requete_tri(client: ClientIA, bloc, deja: list[str]) -> Requete:
+CONSIGNE_TRI_NUMERIQUE = (
+    "Édition numérique, lue sur téléphone, sans contrainte de place : classe jusqu'à 8 articles "
+    "à développer, et rédige des brèves plus complètes (2 à 3 phrases, environ 450 caractères), "
+    "toujours uniquement d'après le titre et le résumé fournis ; plus courtes si le résumé est pauvre.")
+CONSIGNE_SYNTHESE_NUMERIQUE = (
+    "Édition numérique, lue sur téléphone, sans contrainte de page : format « long » en 4 à 6 "
+    "sections, format « court » en 2 ou 3 sections ; même règle de longueur (90 à 100 % de la limite).")
+
+
+def requete_tri(client: ClientIA, bloc, deja: list[str], numerique: bool = False) -> Requete:
     contenu = {
         "bloc": bloc.titre,
         "rubriques": sorted({c.rubrique for c in bloc.candidats}),
         "candidats": [c.pour_tri() for c in bloc.candidats],
     }
+    if numerique:
+        contenu["consigne_edition"] = CONSIGNE_TRI_NUMERIQUE
     if deja:
         contenu["sujets_deja_publies_recemment"] = deja[:40]
     return Requete(id=f"tri-{bloc.id}", modele=client.modele_tri, systeme=SYSTEME_TRI,
@@ -348,10 +359,15 @@ def limite_caracteres(texte: str, plafond: int = 2800, ratio: float = 0.40) -> i
     return max(900, min(plafond, int(len(texte) * ratio)))
 
 
-def requete_synthese(client: ClientIA, candidat, limite: int, format_: str = "long") -> Requete:
+def requete_synthese(client: ClientIA, candidat, limite: int, format_: str = "long",
+                     numerique: bool = False) -> Requete:
     lignes = [
         f"Format : {format_}",
         f"Limite de longueur : {limite} caractères au total.",
+    ]
+    if numerique:
+        lignes.append(CONSIGNE_SYNTHESE_NUMERIQUE)
+    lignes += [
         f"Source : {candidat.source}",
         f"Rubrique : {candidat.rubrique}",
     ]
