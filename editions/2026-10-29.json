@@ -1,0 +1,345 @@
+{
+ "date": "2026-10-29",
+ "nouveaux_mots": [
+  {
+   "mot": "Frugal",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui se contente de peu, notamment pour la nourriture ; simple et peu abondant.",
+   "exemple": "Un déjeuner frugal avant de reprendre la route."
+  },
+  {
+   "mot": "Obsolescence",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Fait de devenir périmé, dépassé, en particulier pour un équipement ou une technique.",
+   "exemple": "L'obsolescence du système impose sa refonte."
+  },
+  {
+   "mot": "Sporadique",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qui se produit de façon irrégulière, isolée, par intervalles.",
+   "exemple": "Des averses sporadiques sont attendues dans la soirée."
+  },
+  {
+   "mot": "Thébaïde",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Lieu isolé et paisible propice à la retraite et à la méditation.",
+   "exemple": "Cette île hors saison était devenue sa thébaïde."
+  },
+  {
+   "mot": "Coruscant",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Qui brille d'un vif éclat ; au figuré, brillant, éclatant.",
+   "exemple": "Une prose coruscante, saturée d'images."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Mièvre",
+   "definition": "D'une gentillesse, d'une grâce affectée et fade."
+  },
+  {
+   "mot": "Ataraxie",
+   "definition": "Tranquillité de l'âme que rien ne trouble, idéal des philosophes antiques."
+  },
+  {
+   "mot": "Ténu",
+   "definition": "Très mince, très fin ; par extension, faible, à peine perceptible."
+  },
+  {
+   "mot": "Décote",
+   "definition": "Écart négatif entre la valeur d'un actif et sa valeur de référence ; réduction appliquée à cette valeur."
+  },
+  {
+   "mot": "Palimpseste",
+   "definition": "Manuscrit dont on a effacé le premier texte pour en écrire un nouveau ; par extension, ce qui garde la trace de couches successives."
+  }
+ ],
+ "articles": [
+  "https://www.actuia.com/actualite/openai-arrete-gpt-4o-et-gpt-41-le-14-janvier-trois-mois-avant-azure/",
+  "https://www.actuia.com/actualite/mistral-large-4-passe-de-38-a-25-points-sur-le-nouvel-indice-dartificial-analysis/",
+  "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+  "https://openai.com/index/openai-servicenow-partnership-expansion",
+  "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+  "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+  "https://www.franceinfo.fr/environnement/energie/energies-fossiles/totalenergies/totalenergies-engrange-un-benefice-net-record-au-3e-trimestre-plus-que-double-sur-un-an-en-raison-de-l-envolee-des-prix-des-hydrocarbures_8258201.html#xtor=RSS-3-[lestitres]",
+  "https://www.publicsenat.fr/actualites/parlementaire/protection-de-lenfance-le-senat-retablit-a-une-voix-pres-lordonnance-de-surete-de-lenfant",
+  "https://legrandcontinent.eu/fr/2026/10/28/aucun-gagnant-clair-en-israel-apres-les-elections-vers-de-longues-negociations/",
+  "https://www.publicsenat.fr/actualites/societe/attentat-raciste-de-trappes-lhommage-national-sera-preside-par-le-premier-ministre-annonce-aurore-berge",
+  "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/un-deuxieme-suspect-age-de-16-ans-mis-en-examen-dans-l-enquete-sur-la-cyberattaque-contre-la-direction-generale-des-finances-publiques_8258519.html#xtor=RSS-3-[lestitres]",
+  "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
+  "https://insideclimatenews.org/news/28102026/california-prop-45-aims-to-weaken-environmental-law/",
+  "https://www.cnil.fr/fr/sanction-cookies-app-fnac",
+  "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-la-synthese-de-ses-controles-spot-sur-les-communications-aux-clients-concernant-les-scpi#xts=607212&at_medium=RSS%20feeds&at_campaign=Toutes%20les%20actualit%C3%A9s%20et%20publications&type=RSS",
+  "https://insideclimatenews.org/news/29102026/new-york-gas-pipeline-gubernatorial-election/",
+  "https://insideclimatenews.org/news/28102026/antarctic-sea-ice-decline-triggers-ocean-changes/",
+  "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/",
+  "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
+  "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/",
+  "https://www.sciencesetavenir.fr/animaux/les-rats-aiment-le-chocolat-et-ils-le-disent_195248?xtor=RSS-26"
+ ],
+ "titres": [
+  "Retraits de modèles d'IA : des calendriers qui divergent selon les plateformes",
+  "Artificial Analysis v5 : les modèles ouverts perdent 12 à 16 points, Mistral Large 4 à 25",
+  "Jumeaux numériques vivants : l'IA industrielle entre autonomie et contrôle humain",
+  "TotalEnergies : bénéfice record de 8,3 milliards de dollars, le gouvernement exige une baisse",
+  "Le Sénat rétablit à une voix près l'ordonnance de sûreté de l'enfant",
+  "Israël : pas de majorité claire après les législatives, des négociations en vue",
+  "Californie : la proposition 45 veut alléger la grande loi environnementale CEQA",
+  "Traceurs dans l'application Fnac : la CNIL sanctionne de 7 millions d'euros",
+  "Le cyclone Arnab frappe la côte est de l'Inde, première tempête nommée de 2026"
+ ],
+ "solutions": {
+  "sudoku": [
+   5,
+   9,
+   2,
+   8,
+   6,
+   1,
+   3,
+   4,
+   7,
+   1,
+   6,
+   8,
+   4,
+   3,
+   7,
+   2,
+   9,
+   5,
+   3,
+   7,
+   4,
+   5,
+   9,
+   2,
+   1,
+   6,
+   8,
+   8,
+   4,
+   6,
+   2,
+   1,
+   9,
+   5,
+   7,
+   3,
+   7,
+   2,
+   3,
+   6,
+   8,
+   5,
+   9,
+   1,
+   4,
+   9,
+   1,
+   5,
+   7,
+   4,
+   3,
+   8,
+   2,
+   6,
+   2,
+   3,
+   7,
+   9,
+   5,
+   6,
+   4,
+   8,
+   1,
+   4,
+   5,
+   9,
+   1,
+   7,
+   8,
+   6,
+   3,
+   2,
+   6,
+   8,
+   1,
+   3,
+   2,
+   4,
+   7,
+   5,
+   9
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     1,
+     3
+    ],
+    [
+     0,
+     3,
+     3,
+     2
+    ],
+    [
+     0,
+     5,
+     3,
+     3
+    ],
+    [
+     0,
+     8,
+     9,
+     1
+    ],
+    [
+     0,
+     9,
+     9,
+     1
+    ],
+    [
+     1,
+     0,
+     4,
+     3
+    ],
+    [
+     3,
+     3,
+     2,
+     1
+    ],
+    [
+     3,
+     4,
+     6,
+     2
+    ],
+    [
+     3,
+     6,
+     6,
+     2
+    ],
+    [
+     5,
+     0,
+     2,
+     3
+    ],
+    [
+     5,
+     3,
+     3,
+     1
+    ],
+    [
+     7,
+     0,
+     3,
+     2
+    ],
+    [
+     7,
+     2,
+     3,
+     1
+    ],
+    [
+     8,
+     3,
+     2,
+     1
+    ],
+    [
+     9,
+     4,
+     1,
+     4
+    ],
+    [
+     9,
+     8,
+     1,
+     2
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    5,
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   [
+    6,
+    5,
+    3,
+    1,
+    2,
+    4
+   ],
+   [
+    4,
+    6,
+    1,
+    5,
+    3,
+    2
+   ],
+   [
+    3,
+    2,
+    6,
+    4,
+    5,
+    1
+   ],
+   [
+    2,
+    4,
+    5,
+    6,
+    1,
+    3
+   ],
+   [
+    1,
+    3,
+    4,
+    2,
+    6,
+    5
+   ]
+  ],
+  "compte": [
+   "100 − 9 = 91",
+   "91 + 4 = 95",
+   "95 × 2 = 190",
+   "190 + 9 = 199"
+  ]
+ },
+ "reponses_quiz": []
+}
