@@ -25,6 +25,10 @@ on:
         description: "Appels IA immédiats, sans traitement de nuit (quelques minutes)"
         type: boolean
         default: true
+      test_envoi:
+        description: "Tester seulement la connexion e-mail (aucune génération, aucun envoi)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -59,10 +63,21 @@ jobs:
       - name: Installation
         run: |
           pip install -e .
-          playwright install --with-deps chromium
+          if [ "${{ inputs.test_envoi }}" != "true" ]; then playwright install --with-deps chromium; fi
           cp config.cesar.example.yaml config.yaml
 
+      - name: Test de la connexion e-mail
+        if: inputs.test_envoi == true
+        env:
+          SMTP_SERVEUR: ${{ secrets.SMTP_SERVEUR }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_UTILISATEUR: ${{ secrets.SMTP_UTILISATEUR }}
+          SMTP_MOT_DE_PASSE: ${{ secrets.SMTP_MOT_DE_PASSE }}
+          MAIL_DESTINATAIRE: ${{ secrets.MAIL_DESTINATAIRE }}
+        run: python main.py journal-test-envoi
+
       - name: Génération et envoi
+        if: inputs.test_envoi != true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SMTP_SERVEUR: ${{ secrets.SMTP_SERVEUR }}
@@ -82,7 +97,7 @@ jobs:
           python main.py journal $args
 
       - name: Enregistrer la mémoire du journal
-        if: always() && inputs.essai != true
+        if: always() && inputs.essai != true && inputs.test_envoi != true
         working-directory: data
         run: |
           git config user.name "signal-matin"
