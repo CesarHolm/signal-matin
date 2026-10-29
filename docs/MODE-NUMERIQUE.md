@@ -83,6 +83,24 @@ Réglages : `src/signal_matin/journal/mise_en_page.py` (constantes `NUM_…`).
 GitHub peut retarder une tâche planifiée de plusieurs heures (constaté le 28 et
 le 29/10/2026 : lancement vers 10 h 30 au lieu de 4 h 07, heure de Paris).
 
+## 4 ter. Lancement à l'heure : cron-job.org (mis en place le 29/10/2026)
+
+Depuis fin août 2026, la planification GitHub part avec 3 à 10 h de retard.
+Le lancement est donc confié à **cron-job.org**, qui appelle chaque matin
+(lundi-vendredi, 4 h 07, Europe/Paris) l'API GitHub, comme le bouton « Run workflow » :
+
+- URL : `POST https://api.github.com/repos/CesarHolm/signal-matin/actions/workflows/journal-quotidien.yml/dispatches`
+- En-têtes : `Authorization: Bearer <jeton>`, `Accept: application/vnd.github+json`,
+  `X-GitHub-Api-Version: 2022-11-28`, `Content-Type: application/json`
+- Corps : `{"ref":"main","inputs":{"essai":"false","direct":"false"}}`
+- Réponse attendue : 204
+- Jeton : jeton GitHub « fine-grained » limité au dépôt `signal-matin`, permission
+  **Actions : Read and write** uniquement.
+
+La planification GitHub reste en secours : chaque lancement réel vérifie d'abord
+si l'édition du jour est déjà enregistrée sur `journal-etat` et s'arrête si oui.
+Un seul e-mail, une seule facture par jour.
+
 ## 5. Pendant le voyage
 
 - Désactiver les tâches du PC pour éviter une double édition (et une double
