@@ -1,0 +1,370 @@
+{
+ "date": "2026-10-30",
+ "nouveaux_mots": [
+  {
+   "mot": "Placide",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Calme, paisible, que rien ne semble troubler.",
+   "exemple": "Il resta placide face aux critiques."
+  },
+  {
+   "mot": "Solvabilité",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Capacité d'une personne ou d'une entreprise à honorer ses dettes.",
+   "exemple": "Le régulateur surveille de près la solvabilité des assureurs."
+  },
+  {
+   "mot": "Ineffable",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qui ne peut être exprimé par des mots, tant il est intense ou subtil.",
+   "exemple": "Une joie ineffable l'envahit au sommet."
+  },
+  {
+   "mot": "Fuligineux",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Qui a la couleur ou l'aspect de la suie ; au figuré, obscur, confus.",
+   "exemple": "Un ciel fuligineux annonçait l'orage."
+  },
+  {
+   "mot": "Acédie",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Torpeur de l'âme, dégoût mélancolique pour l'effort et la vie spirituelle.",
+   "exemple": "Une acédie de fin d'automne le gagnait."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Décote",
+   "definition": "Écart négatif entre la valeur d'un actif et sa valeur de référence ; réduction appliquée à cette valeur."
+  },
+  {
+   "mot": "Mièvre",
+   "definition": "D'une gentillesse, d'une grâce affectée et fade."
+  },
+  {
+   "mot": "Palimpseste",
+   "definition": "Manuscrit dont on a effacé le premier texte pour en écrire un nouveau ; par extension, ce qui garde la trace de couches successives."
+  },
+  {
+   "mot": "Thébaïde",
+   "definition": "Lieu isolé et paisible propice à la retraite et à la méditation."
+  },
+  {
+   "mot": "Ténu",
+   "definition": "Très mince, très fin ; par extension, faible, à peine perceptible."
+  }
+ ],
+ "articles": [
+  "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+  "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+  "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+  "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+  "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+  "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+  "https://www.lemonde.fr/politique/article/2026/10/29/mobilisations-du-31-octobre-laurent-nunez-prevoit-un-dispositif-de-70-000-policiers-et-gendarmes-et-confirme-l-interdiction-des-rassemblements-dans-les-centres-villes_6802369_823448.html",
+  "https://www.lemonde.fr/international/live/2026/10/30/en-direct-guerre-en-ukraine-kiev-visee-par-une-nouvelle-salve-de-missiles-balistiques-russes_6799896_3210.html",
+  "https://www.franceinfo.fr/enquetes-franceinfo/un-scandale-de-sante-publique-qui-emerge-apres-la-mort-du-comedien-arnaud-denis-enquete-sur-les-protheses-de-hernies_8259347.html#xtor=RSS-3-[lestitres]",
+  "https://www.publicsenat.fr/actualites/politique/taxe-emeutes-ce-quil-faut-savoir-sur-la-hausse-des-cotisations-dassurance-en-2027",
+  "https://www.franceinfo.fr/monde/israel/elections-legislatives-en-israel/la-coalition-de-droite-et-d-extreme-droite-de-benyamin-netanyahou-en-tete-des-elections-en-israel-mais-sans-majorite-une-percee-historique-confirmee-pour-les-listes-arabes_8259809.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/international/article/2026/10/30/flavio-bolsonaro-aurait-fui-le-bresil-a-bord-d-un-avion-paye-depuis-les-etats-unis_6802658_3210.html",
+  "https://www.scmp.com/news/china/politics/article/3372686/unwritten-rules-become-newest-target-communist-partys-war-corruption",
+  "https://www.scmp.com/news/china/military/article/3372591/china-promotes-general-zhang-shengmin-politburo",
+  "https://www.npr.org/2026/10/29/g-s1-150666/us-and-japan-agree-to-establish-a-japanese-facility-for-joint-missile-production",
+  "https://www.aljazeera.com/news/2026/10/30/machado-lauds-trump-for-freedom-floodgate-urges-2027-elections?traffic_source=rss",
+  "https://insideclimatenews.org/news/29102026/senate-debate-on-bipartisan-permitting-bill-approaches/",
+  "https://www.carbonbrief.org/experts-what-china-wants-from-the-cop31-climate-talks",
+  "https://www.carbonbrief.org/analysis-chinas-clean-tech-exports-in-2026-to-avoid-as-much-co2-as-brazil-emits-in-a-year",
+  "https://www.amf-france.org/fr/actualites-publications/publications/syntheses-des-controles-spot/synthese-des-controles-spot-sur-les-communications-aux-clients-concernant-les-scpi#xts=607212&at_medium=RSS%20feeds&at_campaign=Toutes%20les%20actualit%C3%A9s%20et%20publications&type=RSS",
+  "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-its-newsletter-45",
+  "https://insideclimatenews.org/news/29102026/inside-clean-energy-ev-ranges/",
+  "https://www.nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found/",
+  "https://www.franceinfo.fr/sports/voile/route-du-rhum/entretien-la-route-du-rhum-est-mon-objectif-numero-un-armel-le-cleac-h-a-la-conquete-du-rhum-seule-course-mythique-qui-manque-a-son-palmares-xxl_8206478.html#xtor=RSS-3-%5Bgeneral%5D",
+  "https://www.nasa.gov/news-release/nasa-names-troy-asher-armstrong-flight-research-center-director/",
+  "https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/",
+  "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
+  "https://www.franceinfo.fr/replay-radio/ca-dit-quoi/podcast-horreur-sur-les-rails-espagnols-benefices-de-total-et-influence-responsable-dans-le-sport-ca-dit-quoi-ce-29-octobre_8249695.html#xtor=RSS-3-%5Bgeneral%5D"
+ ],
+ "titres": [
+  "Agents d'IA : il devient urgent de surveiller leurs actions en temps réel",
+  "Mistral ouvre les poids de Large 4, son modèle d'un billion de paramètres",
+  "Un humaniste non croyant obtient une dispense d'IA au travail pour motif religieux",
+  "31 octobre : 70 000 policiers et gendarmes mobilisés, rassemblements exclus des centres-villes",
+  "Ukraine : nouvelle salve russe sur Kiev, 15 morts à la gare de Dnipro",
+  "Prothèses de hernies : après la mort d'Arnaud Denis, l'enquête sur un possible scandale",
+  "Taxe « émeutes » : pourquoi les cotisations d'assurance vont augmenter en 2027",
+  "Israël : Nétanyahou en tête sans majorité, les listes arabes font une percée",
+  "Flavio Bolsonaro a fui vers la Floride dans un jet payé depuis les Etats-Unis",
+  "Réforme des permis : le Sénat américain divisé avant un vote crucial le 9 novembre",
+  "COP31 : ce que la Chine attend des négociations, selon six experts",
+  "Les exportations chinoises de technologies propres éviteront 450 MtCO2 en 2026",
+  "Teghaza 001, l'une des plus anciennes météorites martiennes jamais trouvées",
+  "Route du Rhum : Armel Le Cléac'h veut enfin vaincre la course qui lui résiste"
+ ],
+ "solutions": {
+  "sudoku": [
+   7,
+   9,
+   5,
+   8,
+   6,
+   2,
+   4,
+   3,
+   1,
+   4,
+   3,
+   6,
+   5,
+   9,
+   1,
+   8,
+   7,
+   2,
+   8,
+   1,
+   2,
+   7,
+   3,
+   4,
+   5,
+   6,
+   9,
+   6,
+   2,
+   3,
+   9,
+   7,
+   8,
+   1,
+   5,
+   4,
+   5,
+   7,
+   8,
+   1,
+   4,
+   3,
+   9,
+   2,
+   6,
+   1,
+   4,
+   9,
+   6,
+   2,
+   5,
+   3,
+   8,
+   7,
+   3,
+   8,
+   7,
+   4,
+   1,
+   6,
+   2,
+   9,
+   5,
+   9,
+   5,
+   4,
+   2,
+   8,
+   7,
+   6,
+   1,
+   3,
+   2,
+   6,
+   1,
+   3,
+   5,
+   9,
+   7,
+   4,
+   8
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     1,
+     6
+    ],
+    [
+     0,
+     6,
+     8,
+     1
+    ],
+    [
+     0,
+     7,
+     3,
+     3
+    ],
+    [
+     1,
+     0,
+     4,
+     3
+    ],
+    [
+     1,
+     3,
+     7,
+     1
+    ],
+    [
+     1,
+     4,
+     3,
+     1
+    ],
+    [
+     1,
+     5,
+     8,
+     1
+    ],
+    [
+     3,
+     7,
+     3,
+     3
+    ],
+    [
+     4,
+     4,
+     4,
+     1
+    ],
+    [
+     5,
+     0,
+     3,
+     1
+    ],
+    [
+     5,
+     1,
+     5,
+     2
+    ],
+    [
+     6,
+     7,
+     4,
+     2
+    ],
+    [
+     6,
+     9,
+     4,
+     1
+    ],
+    [
+     8,
+     0,
+     2,
+     1
+    ],
+    [
+     8,
+     3,
+     2,
+     1
+    ],
+    [
+     8,
+     4,
+     2,
+     1
+    ],
+    [
+     8,
+     6,
+     2,
+     1
+    ],
+    [
+     9,
+     5,
+     1,
+     1
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    6,
+    5,
+    2,
+    3,
+    4,
+    1
+   ],
+   [
+    4,
+    2,
+    3,
+    5,
+    1,
+    6
+   ],
+   [
+    2,
+    4,
+    1,
+    6,
+    3,
+    5
+   ],
+   [
+    3,
+    1,
+    6,
+    4,
+    5,
+    2
+   ],
+   [
+    1,
+    3,
+    5,
+    2,
+    6,
+    4
+   ],
+   [
+    5,
+    6,
+    4,
+    1,
+    2,
+    3
+   ]
+  ],
+  "compte": [
+   "2 × 7 = 14",
+   "14 × 7 = 98",
+   "98 + 75 = 173",
+   "173 − 4 = 169",
+   "169 + 9 = 178"
+  ]
+ },
+ "reponses_quiz": []
+}
