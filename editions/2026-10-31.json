@@ -1,0 +1,362 @@
+{
+ "date": "2026-10-31",
+ "nouveaux_mots": [
+  {
+   "mot": "Tributaire",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui dépend de quelque chose ou de quelqu'un.",
+   "exemple": "La récolte reste tributaire de la météo."
+  },
+  {
+   "mot": "Jurisprudence",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Ensemble des décisions de justice qui font référence.",
+   "exemple": "Une jurisprudence constante de la Cour."
+  },
+  {
+   "mot": "Vindicatif",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Porté à la vengeance.",
+   "exemple": "Un ton vindicatif."
+  },
+  {
+   "mot": "Fat",
+   "nature": "adj. et n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Vaniteux, satisfait de lui-même de façon ridicule.",
+   "exemple": "Un fat qui ne parle que de lui."
+  },
+  {
+   "mot": "Prosopopée",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Figure qui fait parler un absent, un mort ou une chose.",
+   "exemple": "La prosopopée de Fabricius chez Rousseau."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Décote",
+   "definition": "Écart négatif entre la valeur d'un actif et sa valeur de référence ; réduction appliquée à cette valeur."
+  },
+  {
+   "mot": "Fuligineux",
+   "definition": "Qui a la couleur ou l'aspect de la suie ; au figuré, obscur, confus."
+  },
+  {
+   "mot": "Coruscant",
+   "definition": "Qui brille d'un vif éclat ; au figuré, brillant, éclatant."
+  },
+  {
+   "mot": "Ineffable",
+   "definition": "Qui ne peut être exprimé par des mots, tant il est intense ou subtil."
+  },
+  {
+   "mot": "Ataraxie",
+   "definition": "Tranquillité de l'âme que rien ne trouble, idéal des philosophes antiques."
+  }
+ ],
+ "articles": [
+  "https://www.actuia.com/actualite/openai-et-anthropic-disent-que-leurs-ia-ont-refute-une-conjecture-cle-de-linformatique-theorique/",
+  "https://www.actuia.com/actualite/cloud-au-troisieme-trimestre-seul-microsoft-a-paye-ses-investissements-avec-sa-tresorerie/",
+  "https://www.actuia.com/actualite/agents-dia-jusqua-huit-points-decart-pour-un-meme-modele-selon-le-harnais/",
+  "https://www.actuia.com/actualite/un-chercheur-danthropic-signe-une-faille-sur-dix-corrigee-par-chrome-en-octobre/",
+  "https://www.actuia.com/actualite/un-deuxieme-groupe-lie-a-pekin-mene-ses-intrusions-avec-les-agents-dartex/",
+  "https://www.actuia.com/actualite/openai-renonce-a-rogner-son-forfait-pro-a-200-dollars-la-veille-de-la-baisse/",
+  "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+  "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+  "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+  "https://www.franceinfo.fr/economie/greve/direct-mobilisation-du-31-octobre-suivez-cette-troisieme-journee-de-manifestations-pour-laquelle-le-gouvernement-prevoit-un-dispositif-de-securite-exceptionnel_8260562.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/vrai-ou-fake/vrai-ou-faux-la-france-est-elle-le-pays-le-moins-selectif-pour-acceder-a-l-enseignement-superieur-comme-l-affirme-le-ministre-philippe-baptiste_8260157.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/monde/europe/pourquoi-les-importations-de-gaz-naturel-liquefie-russe-n-ont-elles-jamais-ete-aussi-hautes-dans-l-union-europeenne-deux-mois-avant-leur-interdiction-complete_8255563.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/le-gouvernement-americain-approuve-la-vente-de-500-missiles-patriot-a-l-ukraine_8261099.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/politique/article/2026/10/31/mobilisation-sociale-six-semaines-d-un-mouvement-aussi-actif-sur-les-reseaux-sociaux-que-dans-la-rue_6803368_823448.html",
+  "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/la-france-c-est-nous-une-semaine-apres-l-attentat-raciste-a-trappes-un-rassemblement-pour-faire-face-aux-discours-xenophobes_8260991.html#xtor=RSS-3-[lestitres]",
+  "https://www.npr.org/2026/10/30/nx-s1-6023328/east-potomac-reyes-misconduct-inquiry-doj",
+  "https://insideclimatenews.org/news/30102026/wyoming-teams-with-trump-administration-to-expedite-energy-industrial-projects/",
+  "https://insideclimatenews.org/news/30102026/texas-data-center-pushback/",
+  "https://insideclimatenews.org/news/30102026/maryland-continues-to-press-for-answers-joint-base-andrews-fuel-spill/",
+  "https://insideclimatenews.org/news/30102026/florida-amendment-3-water-resources/",
+  "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-ses-recommandations-sur-la-liquidite-des-fonds-monetaires#xts=607212&at_medium=RSS%20feeds&at_campaign=Toutes%20les%20actualit%C3%A9s%20et%20publications&type=RSS",
+  "https://insideclimatenews.org/news/30102026/maui-prosecutor-to-hire-investigator-focused-on-post-wildfire-contractor-fraud/",
+  "https://insideclimatenews.org/news/30102026/pennsylvania-legislature-loses-climate-champion-greg-vitali/",
+  "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
+  "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+  "https://www.franceinfo.fr/dakar/force-de-quitter-le-desert-saoudien-le-dakar-2027-officialise-son-parcours-du-portugal-au-maroc_8260148.html#xtor=RSS-3-%5Bgeneral%5D"
+ ],
+ "titres": [
+  "OpenAI et Anthropic annoncent avoir réfuté l'hypothèse du temps exponentiel",
+  "Cloud : au troisième trimestre, seul Microsoft a financé ses investissements par sa trésorerie",
+  "Agents d'IA : le harnais fait varier le score d'un même modèle jusqu'à 8 points",
+  "Chrome : Anthropic et un chercheur signent 77 failles corrigées en sept semaines",
+  "VAPOR PANDA, lié à Pékin, mène des intrusions avec les agents d'IA d'ARTEX",
+  "OpenAI renonce à réduire son forfait Pro à 200 dollars la veille de l'échéance",
+  "Manifestation du 31 octobre : le Conseil d'Etat valide le parcours voulu par la préfecture",
+  "La France est-elle le pays le moins sélectif pour le supérieur ? Les nuances",
+  "GNL russe : des importations record dans l'UE avant l'interdiction du 1er janvier",
+  "Washington approuve la vente de 500 missiles Patriot à l'Ukraine",
+  "Le Wyoming s'associe à l'administration Trump pour accélérer les autorisations de projets",
+  "Au Texas, l'essor des centres de données se heurte à un revirement politique",
+  "Fuite de kérosène à Joint Base Andrews : élus et régulateurs pressent l'Air Force",
+  "Floride : l'amendement 3 sur les impôts fonciers menace la gestion de l'eau"
+ ],
+ "solutions": {
+  "sudoku": [
+   2,
+   5,
+   3,
+   9,
+   1,
+   7,
+   6,
+   4,
+   8,
+   1,
+   8,
+   4,
+   6,
+   3,
+   2,
+   9,
+   7,
+   5,
+   6,
+   9,
+   7,
+   8,
+   5,
+   4,
+   1,
+   3,
+   2,
+   5,
+   7,
+   6,
+   1,
+   9,
+   3,
+   8,
+   2,
+   4,
+   8,
+   4,
+   1,
+   5,
+   2,
+   6,
+   3,
+   9,
+   7,
+   3,
+   2,
+   9,
+   7,
+   4,
+   8,
+   5,
+   6,
+   1,
+   4,
+   1,
+   2,
+   3,
+   8,
+   9,
+   7,
+   5,
+   6,
+   7,
+   3,
+   5,
+   4,
+   6,
+   1,
+   2,
+   8,
+   9,
+   9,
+   6,
+   8,
+   2,
+   7,
+   5,
+   4,
+   1,
+   3
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     4,
+     3
+    ],
+    [
+     0,
+     3,
+     1,
+     6
+    ],
+    [
+     0,
+     9,
+     8,
+     1
+    ],
+    [
+     1,
+     3,
+     2,
+     3
+    ],
+    [
+     1,
+     6,
+     6,
+     1
+    ],
+    [
+     1,
+     7,
+     6,
+     2
+    ],
+    [
+     3,
+     3,
+     4,
+     2
+    ],
+    [
+     3,
+     5,
+     5,
+     1
+    ],
+    [
+     4,
+     0,
+     6,
+     1
+    ],
+    [
+     4,
+     1,
+     4,
+     1
+    ],
+    [
+     4,
+     2,
+     4,
+     1
+    ],
+    [
+     7,
+     3,
+     3,
+     2
+    ],
+    [
+     7,
+     6,
+     3,
+     3
+    ],
+    [
+     8,
+     1,
+     2,
+     1
+    ],
+    [
+     8,
+     2,
+     2,
+     1
+    ],
+    [
+     8,
+     5,
+     2,
+     1
+    ],
+    [
+     8,
+     9,
+     2,
+     1
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    6,
+    1,
+    3,
+    4,
+    5,
+    2
+   ],
+   [
+    4,
+    6,
+    2,
+    1,
+    3,
+    5
+   ],
+   [
+    5,
+    2,
+    1,
+    3,
+    4,
+    6
+   ],
+   [
+    3,
+    5,
+    6,
+    2,
+    1,
+    4
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    6,
+    1
+   ],
+   [
+    1,
+    4,
+    5,
+    6,
+    2,
+    3
+   ]
+  ],
+  "compte": [
+   "3 + 9 = 12",
+   "12 × 50 = 600",
+   "600 + 5 = 605",
+   "605 + 6 = 611",
+   "611 + 10 = 621"
+  ]
+ },
+ "reponses_quiz": []
+}
