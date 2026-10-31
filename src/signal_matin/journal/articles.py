@@ -43,8 +43,11 @@ class Bloc:
 
 
 def fenetre_heures(jour: dt.date, config: dict) -> int:
-    """24 h du mardi au vendredi ; le lundi couvre vendredi, samedi et dimanche."""
+    """24 h par defaut. Le lundi : 72 h pour le journal imprime (vendredi, samedi, dimanche) ;
+    48 h pour la version numerique, qui parait aussi le samedi (samedi et dimanche)."""
     if jour.weekday() == 0:
+        if config.get("numerique"):
+            return int(config.get("fenetre_lundi_heures_numerique", 48))
         return int(config.get("fenetre_lundi_heures", 72))
     return int(config.get("fenetre_heures", 24))
 

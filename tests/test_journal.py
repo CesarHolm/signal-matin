@@ -509,3 +509,11 @@ def test_plan_numerique_plus_long_et_sans_pages():
     assert len(plan.articles) == 6
     assert [c.format for c in plan.articles] == ["long"] * 4 + ["court"] * 2
     assert plan.quarts_breves == {"ia": 2}
+
+
+def test_fenetre_lundi_selon_version():
+    from signal_matin.journal.articles import fenetre_heures
+    lundi, samedi = dt.date(2026, 11, 2), dt.date(2026, 10, 31)
+    assert fenetre_heures(lundi, {}) == 72
+    assert fenetre_heures(lundi, {"numerique": True}) == 48
+    assert fenetre_heures(samedi, {"numerique": True}) == 24

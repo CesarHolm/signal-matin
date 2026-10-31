@@ -11,7 +11,7 @@ habituel dans la base reprend.
 
 | Étape | Heure de Paris | Heure grecque |
 |---|---|---|
-| Lancement (lundi-vendredi) | 4 h 07 | 5 h 07 |
+| Lancement (lundi-samedi) | 4 h 07 | 5 h 07 |
 | Bascule en appels directs si le traitement de nuit traîne | 5 h 20 | 6 h 20 |
 | E-mail reçu au plus tard | ≈ 5 h 45 | ≈ 6 h 45 |
 
@@ -75,6 +75,9 @@ imprimé, qui reste inchangé :
 - **Brèves** plus complètes (2 à 3 phrases, environ 450 caractères), jusqu'à 6
   par catégorie.
 - Pas de PDF A4 généré ; pas de météo, de jeux ni de quiz.
+- **Parution du lundi au samedi** (validé le 31/10/2026) : chaque édition couvre les
+  24 h précédentes ; le samedi = les infos du vendredi ; le lundi = 48 h (samedi et
+  dimanche). Les samedis n'ont pas de mots planifiés : tirage habituel dans la base.
 - Coût API estimé : environ 2 à 3 fois l'édition imprimée (plus de synthèses
   Sonnet), soit de l'ordre de 4 à 6 $ par mois, sous le plafond conseillé de 15 $.
 
@@ -87,7 +90,7 @@ le 29/10/2026 : lancement vers 10 h 30 au lieu de 4 h 07, heure de Paris).
 
 Depuis fin août 2026, la planification GitHub part avec 3 à 10 h de retard.
 Le lancement est donc confié à **cron-job.org**, qui appelle chaque matin
-(lundi-vendredi, 4 h 07, Europe/Paris) l'API GitHub, comme le bouton « Run workflow » :
+(lundi-samedi, 4 h 07, Europe/Paris) l'API GitHub, comme le bouton « Run workflow » :
 
 - URL : `POST https://api.github.com/repos/CesarHolm/signal-matin/actions/workflows/journal-quotidien.yml/dispatches`
 - En-têtes : `Authorization: Bearer <jeton>`, `Accept: application/vnd.github+json`,

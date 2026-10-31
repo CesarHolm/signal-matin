@@ -1,6 +1,6 @@
 # Signal Matin — spécifications
 
-*Dernière mise à jour : 29 octobre 2026 · maquette de référence : `signal-matin-demo.html`*
+*Dernière mise à jour : 31 octobre 2026 · maquette de référence : `signal-matin-demo.html`*
 
 ## 1. Structure du journal (8 pages A4 par défaut, recto verso)
 
@@ -115,7 +115,7 @@ Test réel du 19/10/2026 : 29 flux sur 29 lus par le programme.
 - Exécution : **PC Windows** de Cesar
 
 ### Mode numérique (voyage, validé le 27/10/2026)
-- Génération dans le cloud **GitHub Actions** à 4 h 07 (Paris), lundi-vendredi, sans PC
+- Génération dans le cloud **GitHub Actions** à 4 h 07 (Paris), **lundi-samedi** (samedi = infos du vendredi ; lundi = samedi et dimanche, fenêtre de 48 h), lancée par cron-job.org, sans PC
 - Envoi **par e-mail** via **Resend** (API HTTPS ; Gmail SMTP bloqué depuis GitHub) vers l'adresse Proton : version HTML une colonne pour téléphone dans le corps du message, page HTML en pièce jointe
 - Contenu (validé le 29/10/2026) : **sommaire détaillé** sous les mots du jour (par catégorie, titres des articles avec liens directs, puis brèves) ; par catégorie jusqu'à **6 articles dont 4 longs** (≤ 4 500 car.), courts enrichis (≤ 1 800 car.), brèves de ~450 car. ; pas de PDF
 - **Le journal imprimé (8 pages A4) reste inchangé** : ces règles ne s'appliquent qu'avec l'option `--numerique`
