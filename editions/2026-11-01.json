@@ -1,0 +1,360 @@
+{
+ "date": "2026-11-01",
+ "nouveaux_mots": [
+  {
+   "mot": "Algorithme",
+   "nature": "n. m.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Suite finie d'instructions permettant de résoudre un problème.",
+   "exemple": "Un algorithme de recommandation."
+  },
+  {
+   "mot": "Panacée",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Remède supposé universel à tous les maux.",
+   "exemple": "L'IA n'est pas une panacée."
+  },
+  {
+   "mot": "Pusillanime",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qui manque de courage, d'audace ; timoré.",
+   "exemple": "Une décision pusillanime."
+  },
+  {
+   "mot": "Billevesée",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Idée creuse, propos frivole.",
+   "exemple": "Des billevesées sans fondement."
+  },
+  {
+   "mot": "Faconde",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Grande facilité de parole, souvent excessive.",
+   "exemple": "Sa faconde séduisait les jurés."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Tributaire",
+   "definition": "Qui dépend de quelque chose ou de quelqu'un."
+  },
+  {
+   "mot": "Fat",
+   "definition": "Vaniteux, satisfait de lui-même de façon ridicule."
+  },
+  {
+   "mot": "Frugal",
+   "definition": "Qui se contente de peu, notamment pour la nourriture ; simple et peu abondant."
+  },
+  {
+   "mot": "Vindicatif",
+   "definition": "Porté à la vengeance."
+  },
+  {
+   "mot": "Ténu",
+   "definition": "Très mince, très fin ; par extension, faible, à peine perceptible."
+  }
+ ],
+ "articles": [
+  "https://theconversation.com/du-kenya-a-la-france-le-masque-signe-de-ralliement-de-la-generation-z-295564",
+  "https://theconversation.com/cinq-aliments-qui-pourraient-couter-encore-plus-cher-cet-hiver-au-royaume-uni-et-pourquoi-294523",
+  "https://theconversation.com/a-lecole-maternelle-pourquoi-la-joie-de-travailler-avec-les-enfants-ne-suffit-pas-a-tenir-293060",
+  "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+  "https://theconversation.com/de-rome-a-nos-jours-les-guerres-de-la-biere-ont-cree-et-defait-les-empires-277761",
+  "https://theconversation.com/clayface-comment-le-cinema-transforme-ses-mechants-en-antiheros-294745",
+  "https://www.lemonde.fr/international/article/2026/10/31/crise-politique-en-pologne-bruxelles-appelle-le-president-karol-nawrocki-a-valider-la-nomination-de-nouveaux-juges-au-tribunal-constitutionnel_6803801_3210.html",
+  "https://www.lemonde.fr/international/article/2026/11/01/donald-trump-menace-l-iran-de-nouvelles-frappes-sur-un-ou-deux-sites-dont-le-mont-kolang-pres-du-complexe-nucleaire-de-natanz_6804009_3210.html",
+  "https://www.lemonde.fr/pixels/article/2026/11/01/piratage-de-la-plateforme-de-cryptomonnaies-binance-le-fbi-accuse-la-coree-du-nord-du-casse-du-siecle_6803867_4408996.html",
+  "https://www.franceinfo.fr/societe/manifestations/mobilisation-importante-mais-en-baisse-heurts-en-marge-de-certains-corteges-centres-villes-sous-haute-protection-ce-qu-il-faut-retenir-de-la-journee-de-mobilisation-du-31-octobre_8262017.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/monde/iran/guerre-entre-les-etats-unis-israel-et-l-iran/le-guide-supreme-iranien-met-en-garde-les-etats-unis-contre-une-reprise-d-eventuelles-attaques_8261696.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/sport/article/2026/11/01/gabby-williams-brille-en-finale-de-la-wnba-et-offre-un-premier-titre-aux-golden-state-valkyries-j-espere-que-les-francais-sont-fiers_6804123_3242.html",
+  "https://www.scmp.com/news/china/politics/article/3372837/china-places-former-sinopec-cnooc-boss-fu-chengyu-75-under-corruption-probe",
+  "https://www.scmp.com/news/china/diplomacy/article/3372852/quad-diplomats-finalise-first-leaders-summit-two-years-trump-xi-meeting",
+  "https://www.franceinfo.fr/monde/europe/migrants/cinq-britanniques-interpelles-jeudi-dans-le-nord-pour-des-actions-anti-migrants_8262203.html#xtor=RSS-3-[lestitres]",
+  "https://www.carbonbrief.org/cop17-key-outcomes-agreed-at-the-un-biodiversity-conference-in-yerevan",
+  "https://insideclimatenews.org/news/31102026/pennsylvania-oil-gas-wastewater-disposal-loophole/",
+  "https://insideclimatenews.org/news/31102026/microplastics-human-health-dangers/",
+  "https://insideclimatenews.org/news/31102026/alaska-village-typhoon-halong-recovery/",
+  "https://insideclimatenews.org/news/31102026/colorado-river-basin-gubernatorial-water-politics/",
+  "https://www.franceinfo.fr/sports/voile/route-du-rhum/route-du-rhum-apprendre-a-reagir-sous-stress-quand-l-apnee-devient-un-outil-a-la-preparation-mentale-a-la-course-au-large_8206457.html#xtor=RSS-3-%5Bgeneral%5D",
+  "https://www.franceinfo.fr/sports/voile/route-du-rhum/le-sommeil-l-autre-defi-de-la-route-du-rhum_8262236.html#xtor=RSS-3-%5Bgeneral%5D",
+  "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+  "https://www.franceinfo.fr/sports/voile/route-du-rhum/avec-huit-bateaux-au-depart-de-la-route-du-rhum-la-classe-reine-des-ultim-fait-le-pari-de-l-ouverture_8221357.html#xtor=RSS-3-%5Bgeneral%5D",
+  "https://www.franceinfo.fr/sports/tennis/alexander-zverev/tennis-alexander-zverev-s-incline-en-demi-finales-face-a-alex-de-minaur-a-vienne-mais-va-devenir-officiellement-numero-un-mondial_8261912.html#xtor=RSS-3-%5Bgeneral%5D",
+  "https://www.franceinfo.fr/sports/cyclisme/tadej-pogacar/je-suis-juste-content-d-etre-en-vie-et-d-etre-debout-tadej-pogacar-revele-que-sa-blessure-etait-plus-severe-que-le-diagnostic-initial_8261822.html#xtor=RSS-3-%5Bgeneral%5D"
+ ],
+ "titres": [
+  "Du Covid aux manifestations : le masque, objet de ralliement de la génération Z",
+  "Royaume-Uni : cinq aliments dont les prix pourraient grimper cet hiver",
+  "Maternelle : la joie auprès des enfants ne suffit pas à compenser l'usure",
+  "Pologne : Bruxelles presse le président Nawrocki de valider les juges du Tribunal",
+  "Trump menace l'Iran de frappes sur « un ou deux sites », dont le mont Kolang",
+  "Piratage de Binance : le FBI accuse la Corée du Nord d'un vol de 6,3 milliards de dollars",
+  "COP17 d'Erevan : bilan mondial alarmant, finance et fonds de Cali en panne",
+  "Pennsylvanie : un nouveau permis ouvre une brèche pour les eaux usées pétrolières",
+  "Microplastiques : pourquoi ils ne sont pas chimiquement inertes pour la santé",
+  "Alaska : un an après le typhon Halong, Kwigillingok reste dans l'incertitude",
+  "Route du Rhum : l'apnée, outil de préparation mentale des skippeurs",
+  "Route du Rhum : comment les favoris gèrent le sommeil en mer"
+ ],
+ "solutions": {
+  "sudoku": [
+   8,
+   3,
+   5,
+   1,
+   9,
+   4,
+   7,
+   6,
+   2,
+   6,
+   2,
+   4,
+   5,
+   7,
+   3,
+   1,
+   8,
+   9,
+   9,
+   1,
+   7,
+   6,
+   8,
+   2,
+   4,
+   5,
+   3,
+   1,
+   5,
+   2,
+   4,
+   3,
+   6,
+   8,
+   9,
+   7,
+   7,
+   9,
+   6,
+   8,
+   5,
+   1,
+   2,
+   3,
+   4,
+   3,
+   4,
+   8,
+   7,
+   2,
+   9,
+   5,
+   1,
+   6,
+   5,
+   7,
+   9,
+   2,
+   6,
+   8,
+   3,
+   4,
+   1,
+   2,
+   6,
+   1,
+   3,
+   4,
+   5,
+   9,
+   7,
+   8,
+   4,
+   8,
+   3,
+   9,
+   1,
+   7,
+   6,
+   2,
+   5
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     6,
+     2
+    ],
+    [
+     0,
+     2,
+     4,
+     3
+    ],
+    [
+     0,
+     5,
+     8,
+     1
+    ],
+    [
+     0,
+     6,
+     6,
+     2
+    ],
+    [
+     0,
+     8,
+     7,
+     1
+    ],
+    [
+     0,
+     9,
+     4,
+     1
+    ],
+    [
+     4,
+     2,
+     3,
+     2
+    ],
+    [
+     4,
+     4,
+     6,
+     1
+    ],
+    [
+     4,
+     9,
+     6,
+     1
+    ],
+    [
+     6,
+     0,
+     3,
+     2
+    ],
+    [
+     6,
+     6,
+     3,
+     2
+    ],
+    [
+     7,
+     2,
+     2,
+     2
+    ],
+    [
+     7,
+     8,
+     3,
+     1
+    ],
+    [
+     8,
+     5,
+     2,
+     1
+    ],
+    [
+     9,
+     0,
+     1,
+     3
+    ],
+    [
+     9,
+     3,
+     1,
+     1
+    ],
+    [
+     9,
+     6,
+     1,
+     2
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    5,
+    3,
+    1,
+    6,
+    4,
+    2
+   ],
+   [
+    6,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   [
+    2,
+    4,
+    5,
+    3,
+    6,
+    1
+   ],
+   [
+    3,
+    2,
+    6,
+    5,
+    1,
+    4
+   ],
+   [
+    1,
+    6,
+    2,
+    4,
+    3,
+    5
+   ],
+   [
+    4,
+    1,
+    3,
+    2,
+    5,
+    6
+   ]
+  ],
+  "compte": [
+   "8 × 6 = 48",
+   "48 + 50 = 98",
+   "98 − 6 = 92",
+   "92 × 4 = 368",
+   "368 − 8 = 360"
+  ]
+ },
+ "reponses_quiz": []
+}
