@@ -1,60 +1,73 @@
-IA|Google DeepMind|https://deepmind.google/blog/rss.xml
-IA|Hugging Face|https://huggingface.co/blog/feed.xml
-IA|The Decoder|https://the-decoder.com/feed/
-IA|Ars Technica IA|https://arstechnica.com/ai/feed/
-IA|arXiv cs.AI|https://rss.arxiv.org/rss/cs.AI
-IA|Anthropic|https://www.anthropic.com/rss.xml
-REC|NBER working papers|https://www.nber.org/rss/new.xml
-REC|BCE working papers|https://www.ecb.europa.eu/rss/wppub.html
-REC|BCE blog|https://www.ecb.europa.eu/rss/blog.html
-REC|BRI working papers|https://www.bis.org/doclist/wppubls.rss
-REC|FMI working papers|https://www.imf.org/en/Publications/RSS?language=eng&series=IMF%20Working%20Papers
-REC|Fed FEDS Notes|https://www.federalreserve.gov/feeds/feds_notes.xml
-REC|Fed FEDS working papers|https://www.federalreserve.gov/feeds/feds.xml
-REC|Liberty Street Economics|https://libertystreeteconomics.newyorkfed.org/feed/
-REC|IZA discussion papers|https://www.iza.org/publications/dp/rss
-REC|Our World in Data|https://ourworldindata.org/atom.xml
-VEI|CNIL|https://www.cnil.fr/fr/rss.xml
-VEI|EDPB|https://www.edpb.europa.eu/feed/news_en
-VEI|Commission stratégie numérique (AI Act)|https://digital-strategy.ec.europa.eu/en/rss.xml
-VEI|ENISA|https://www.enisa.europa.eu/media/news-items/news-wires/RSS
-VEI|ANSSI (cyber.gouv.fr)|https://cyber.gouv.fr/actualites/feed
-VEI|AFA|https://www.agence-francaise-anticorruption.gouv.fr/fr/rss.xml
-VEI|Conseil de l'UE (communiqués)|https://www.consilium.europa.eu/en/rss/pressreleases.ashx
-VEI|OFAC recent actions|https://ofac.treasury.gov/recent-actions/rss.xml
-VEI|EBA|https://www.eba.europa.eu/rss.xml
-VEI|ESMA|https://www.esma.europa.eu/rss.xml
-VEI|FATF/GAFI|https://www.fatf-gafi.org/en/publications.rss
-VEI|EFRAG|https://www.efrag.org/en/rss
-VEI|FCPA Blog|https://fcpablog.com/feed/
-VEI|JD Supra conformité|https://www.jdsupra.com/resources/syndication/docsRSSfeed.aspx?ftype=Compliance&premium=1
-IA|Anthropic (alt)|https://www.anthropic.com/news/rss.xml
-IA|Google Research blog|https://research.google/blog/rss/
-IA|MIT Technology Review|https://www.technologyreview.com/topic/artificial-intelligence/feed
-IA|TechCrunch IA|https://techcrunch.com/category/artificial-intelligence/feed/
-IA|OpenAI|https://openai.com/news/rss.xml
-IA|ActuIA|https://www.actuia.com/feed/
-REC|NBER Digest|https://www.nber.org/rss/digest.xml
-REC|BCE Research Bulletin|https://www.ecb.europa.eu/rss/rbu.html
-REC|Banque de France publications|https://www.banque-france.fr/fr/rss/publications
-REC|Banque de France Bloc-notes Eco|https://blocnotesdeleco.banque-france.fr/rss.xml
-REC|FMI blog|https://www.imf.org/en/Blogs/rss
-REC|CEPR discussion papers|https://cepr.org/rss/discussion-papers
-REC|OCDE publications|https://www.oecd.org/en/publications.rss
-REC|CEPII|http://www.cepii.fr/CEPII/fr/rss/rss.asp
-REC|Banque mondiale Policy Research WP|https://openknowledge.worldbank.org/feeds/rss?collection=10986/9
-REC|Quanta Magazine|https://www.quantamagazine.org/feed/
-VEI|Commission AI Act (alt)|https://digital-strategy.ec.europa.eu/en/news/rss.xml
-VEI|ANSSI (alt)|https://cyber.gouv.fr/rss.xml
-VEI|AFA (alt)|https://www.agence-francaise-anticorruption.gouv.fr/fr/flux-rss
-VEI|Conseil UE (alt)|https://www.consilium.europa.eu/en/rss/press-releases/
-VEI|OFAC (alt)|https://ofac.treasury.gov/system/files/126/ofac.xml
-VEI|BIS Commerce export|https://www.bis.gov/rss.xml
-VEI|DG Trésor sanctions|https://www.tresor.economie.gouv.fr/rss
-VEI|AMLA|https://www.amla.europa.eu/rss.xml
-VEI|EIOPA|https://www.eiopa.europa.eu/rss.xml
-VEI|Commission UE presse|https://ec.europa.eu/commission/presscorner/api/rss?language=fr
-VEI|Le Monde du Droit|https://www.lemondedudroit.fr/rss.xml
-VEI|IAPP|https://iapp.org/rss/daily-dashboard/
-VEI|Global Investigations Review|https://globalinvestigationsreview.com/rss
-VEI|Sanctions (Steptoe blog)|https://www.steptoe.com/en/news-publications/rss.xml
+DIAG|OpenAI|https://openai.com/news/rss.xml
+DIAG|Conseil de l'UE|https://www.consilium.europa.eu/en/rss/pressreleases.ashx
+DIAG|Commission presse|https://ec.europa.eu/commission/presscorner/api/rss?language=fr
+DIAG|EBA ancien flux|https://www.eba.europa.eu/rss.xml
+DIAG|Google DeepMind|https://deepmind.google/blog/rss.xml
+VEI|EBA (news)|https://www.eba.europa.eu/rss/news.xml
+VEI|EBA (publications)|https://www.eba.europa.eu/publications-and-media/press-releases/rss.xml
+VEI|EBA (feed)|https://www.eba.europa.eu/rss
+VEI|ENISA news|https://www.enisa.europa.eu/news/rss
+VEI|ENISA (feed)|https://www.enisa.europa.eu/rss.xml
+VEI|CERT-FR (ANSSI)|https://www.cert.ssi.gouv.fr/feed/
+VEI|ANSSI actualites|https://cyber.gouv.fr/actualites.xml
+VEI|AFA actualites|https://www.agence-francaise-anticorruption.gouv.fr/fr/rss/actualites
+VEI|OFAC recent actions|https://ofac.treasury.gov/recent-actions.xml
+VEI|US Treasury press|https://home.treasury.gov/system/files/126/ofac.xml
+VEI|BIS Commerce press|https://www.bis.gov/press-releases/rss.xml
+VEI|AMLA news|https://www.amla.europa.eu/news/rss.xml
+VEI|EFRAG news|https://www.efrag.org/en/news/rss
+VEI|EIOPA news|https://www.eiopa.europa.eu/media/news/rss.xml
+VEI|Autorite de la concurrence|https://www.autoritedelaconcurrence.fr/fr/rss.xml
+VEI|Hunton Privacy blog|https://www.huntonprivacyblog.com/feed/
+VEI|Covington Inside Privacy|https://www.insideprivacy.com/feed/
+VEI|Covington Global Policy Watch|https://www.globalpolicywatch.com/feed/
+VEI|Steptoe International Compliance|https://www.steptoeinternationalcomplianceblog.com/feed/
+VEI|Village de la Justice|https://www.village-justice.com/articles/backend.php
+VEI|Dalloz actualite|https://www.dalloz-actualite.fr/rss.xml
+VEI|Euractiv tech|https://www.euractiv.com/sections/tech/feed/
+VEI|IAPP news|https://iapp.org/news/rss/
+VEI|JD Supra sanctions|https://www.jdsupra.com/resources/syndication/docsRSSfeed.aspx?ftype=International+Trade&premium=1
+VEI|Lexology free|https://www.lexology.com/rss
+GNEWS|Google News OFAC sanctions|https://news.google.com/rss/search?q=OFAC+sanctions+when:2d&hl=en-US&gl=US&ceid=US:en
+GNEWS|Google News sanctions UE|https://news.google.com/rss/search?q=%22sanctions%22+%22Union+europ%C3%A9enne%22+when:2d&hl=fr&gl=FR&ceid=FR:fr
+GNEWS|Google News NIS 2|https://news.google.com/rss/search?q=%22NIS+2%22+OR+NIS2+when:3d&hl=fr&gl=FR&ceid=FR:fr
+GNEWS|Google News AFA Sapin II|https://news.google.com/rss/search?q=%22Agence+fran%C3%A7aise+anticorruption%22+OR+%22Sapin+II%22+when:7d&hl=fr&gl=FR&ceid=FR:fr
+GNEWS|Google News export control|https://news.google.com/rss/search?q=%22export+controls%22+when:2d&hl=en-US&gl=US&ceid=US:en
+REC-SOC|Pew Research Center|https://www.pewresearch.org/feed/
+REC-SOC|INED|https://www.ined.fr/fr/rss.xml
+REC-SOC|OFCE blog|https://www.ofce.sciences-po.fr/blog/feed/
+REC-SOC|IZA (alt)|https://www.iza.org/en/publications/dp/rss
+REC-SOC|NBER (programmes)|https://www.nber.org/rss/new.xml
+REC-SOC|OpenEdition Sociologie|https://journals.openedition.org/sociologie/backend?format=rssdocuments
+REC-DROIT|Verfassungsblog|https://verfassungsblog.de/feed/
+REC-DROIT|European Law Blog|https://europeanlawblog.eu/feed/
+REC-DROIT|OpenEdition Revue des droits de l'homme|https://journals.openedition.org/revdh/backend?format=rssdocuments
+REC-DROIT|EJIL:Talk!|https://www.ejiltalk.org/feed/
+REC-SANTE|PLOS Medicine|https://journals.plos.org/plosmedicine/feed/atom
+REC-SANTE|The Lancet Public Health|https://www.thelancet.com/rssfeed/lanpub_current.xml
+REC-SANTE|BMJ|https://www.bmj.com/rss/research.xml
+REC-SANTE|medRxiv epidemiologie|https://connect.medrxiv.org/medrxiv_xml.php?subject=Epidemiology
+REC-SANTE|Eurosurveillance|https://www.eurosurveillance.org/rss/content/eurosurveillance/latestarticles
+REC-GEO|SIPRI|https://www.sipri.org/rss.xml
+REC-GEO|RAND|https://www.rand.org/pubs.xml
+REC-GEO|IFRI|https://www.ifri.org/fr/rss.xml
+REC-GEO|Chatham House|https://www.chathamhouse.org/rss.xml
+REC-GEO|Carnegie Endowment|https://carnegieendowment.org/rss/solr/?fa=publications
+REC-GEO|CSIS|https://www.csis.org/analysis/feed
+REC-GEO|IISS|https://www.iiss.org/rss/
+REC-GEO|FRS|https://www.frstrategie.org/rss.xml
+REC-ASTRO|AAS Nova|https://aasnova.org/feed/
+REC-ASTRO|Astrobites|https://astrobites.org/feed/
+REC-ASTRO|ESO science releases|https://www.eso.org/public/news/feed/
+REC-ASTRO|ESA science|https://www.esa.int/rssfeed/Our_Activities/Space_Science
+REC-MATHS|Terence Tao|https://terrytao.wordpress.com/feed/
+REC-MATHS|AMS Feature Column|https://mathvoices.ams.org/featurecolumn/feed/
+REC-MATHS|Images des mathematiques (CNRS)|https://images.math.cnrs.fr/spip.php?page=backend
+REC-CLIMAT|RealClimate|https://www.realclimate.org/index.php/feed/
+REC-CLIMAT|PLOS Climate|https://journals.plos.org/climate/feed/atom
+REC-CLIMAT|Nature Climate Change|https://www.nature.com/nclimate.rss
+REC-CLIMAT|Carbon Brief|https://www.carbonbrief.org/feed/
+REC-CLIMAT|Copernicus climat|https://climate.copernicus.eu/rss.xml
+REC-GEN|Nature Communications|https://www.nature.com/ncomms.rss
+REC-GEN|Science Advances|https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv
+REC-GEN|PNAS|https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas

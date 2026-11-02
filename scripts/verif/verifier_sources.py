@@ -1,5 +1,5 @@
 import sys, re, urllib.parse, urllib.request, xml.etree.ElementTree as ET, concurrent.futures as cf
-from signal_matin.journal.articles import texte_integral, USER_AGENT
+from signal_matin.journal.articles import texte_integral, USER_AGENT, DERNIERE_ERREUR
 def tag(e): return e.tag.rsplit("}",1)[-1].lower()
 def items(xml):
     root = ET.fromstring(xml); out=[]
@@ -42,6 +42,7 @@ def test(ligne):
     for t,l,d in its[:2]:
         txt,_ = texte_integral(l or "", "") if l else ("",None)
         longs.append(len(txt)); pdfs.append(pdf(l) if l and len(txt) < 2500 else "-")
+        if l and len(txt) < 400: longs.append("cause: " + DERNIERE_ERREUR.get(l, "?")[:90])
     return f"{cat}|{nom}|{len(its)} items | dernier {its[0][2][:16]} | texte {longs} | pdf {pdfs} | ex: {its[0][0][:70]}"
 lignes=[l.strip() for l in open(sys.argv[1]) if l.strip()]
 with cf.ThreadPoolExecutor(10) as ex:
