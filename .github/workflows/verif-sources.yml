@@ -1,4 +1,4 @@
-# Temporaire : vérifie des flux candidats depuis le réseau GitHub et enregistre le
+# Outil : vérifie des flux candidats depuis le réseau GitHub et enregistre le
 # résultat sur la branche « diagnostic » (verif-sources.txt).
 name: verification des sources
 on:
