@@ -1,0 +1,60 @@
+IA|Google DeepMind|https://deepmind.google/blog/rss.xml
+IA|Hugging Face|https://huggingface.co/blog/feed.xml
+IA|The Decoder|https://the-decoder.com/feed/
+IA|Ars Technica IA|https://arstechnica.com/ai/feed/
+IA|arXiv cs.AI|https://rss.arxiv.org/rss/cs.AI
+IA|Anthropic|https://www.anthropic.com/rss.xml
+REC|NBER working papers|https://www.nber.org/rss/new.xml
+REC|BCE working papers|https://www.ecb.europa.eu/rss/wppub.html
+REC|BCE blog|https://www.ecb.europa.eu/rss/blog.html
+REC|BRI working papers|https://www.bis.org/doclist/wppubls.rss
+REC|FMI working papers|https://www.imf.org/en/Publications/RSS?language=eng&series=IMF%20Working%20Papers
+REC|Fed FEDS Notes|https://www.federalreserve.gov/feeds/feds_notes.xml
+REC|Fed FEDS working papers|https://www.federalreserve.gov/feeds/feds.xml
+REC|Liberty Street Economics|https://libertystreeteconomics.newyorkfed.org/feed/
+REC|IZA discussion papers|https://www.iza.org/publications/dp/rss
+REC|Our World in Data|https://ourworldindata.org/atom.xml
+VEI|CNIL|https://www.cnil.fr/fr/rss.xml
+VEI|EDPB|https://www.edpb.europa.eu/feed/news_en
+VEI|Commission stratégie numérique (AI Act)|https://digital-strategy.ec.europa.eu/en/rss.xml
+VEI|ENISA|https://www.enisa.europa.eu/media/news-items/news-wires/RSS
+VEI|ANSSI (cyber.gouv.fr)|https://cyber.gouv.fr/actualites/feed
+VEI|AFA|https://www.agence-francaise-anticorruption.gouv.fr/fr/rss.xml
+VEI|Conseil de l'UE (communiqués)|https://www.consilium.europa.eu/en/rss/pressreleases.ashx
+VEI|OFAC recent actions|https://ofac.treasury.gov/recent-actions/rss.xml
+VEI|EBA|https://www.eba.europa.eu/rss.xml
+VEI|ESMA|https://www.esma.europa.eu/rss.xml
+VEI|FATF/GAFI|https://www.fatf-gafi.org/en/publications.rss
+VEI|EFRAG|https://www.efrag.org/en/rss
+VEI|FCPA Blog|https://fcpablog.com/feed/
+VEI|JD Supra conformité|https://www.jdsupra.com/resources/syndication/docsRSSfeed.aspx?ftype=Compliance&premium=1
+IA|Anthropic (alt)|https://www.anthropic.com/news/rss.xml
+IA|Google Research blog|https://research.google/blog/rss/
+IA|MIT Technology Review|https://www.technologyreview.com/topic/artificial-intelligence/feed
+IA|TechCrunch IA|https://techcrunch.com/category/artificial-intelligence/feed/
+IA|OpenAI|https://openai.com/news/rss.xml
+IA|ActuIA|https://www.actuia.com/feed/
+REC|NBER Digest|https://www.nber.org/rss/digest.xml
+REC|BCE Research Bulletin|https://www.ecb.europa.eu/rss/rbu.html
+REC|Banque de France publications|https://www.banque-france.fr/fr/rss/publications
+REC|Banque de France Bloc-notes Eco|https://blocnotesdeleco.banque-france.fr/rss.xml
+REC|FMI blog|https://www.imf.org/en/Blogs/rss
+REC|CEPR discussion papers|https://cepr.org/rss/discussion-papers
+REC|OCDE publications|https://www.oecd.org/en/publications.rss
+REC|CEPII|http://www.cepii.fr/CEPII/fr/rss/rss.asp
+REC|Banque mondiale Policy Research WP|https://openknowledge.worldbank.org/feeds/rss?collection=10986/9
+REC|Quanta Magazine|https://www.quantamagazine.org/feed/
+VEI|Commission AI Act (alt)|https://digital-strategy.ec.europa.eu/en/news/rss.xml
+VEI|ANSSI (alt)|https://cyber.gouv.fr/rss.xml
+VEI|AFA (alt)|https://www.agence-francaise-anticorruption.gouv.fr/fr/flux-rss
+VEI|Conseil UE (alt)|https://www.consilium.europa.eu/en/rss/press-releases/
+VEI|OFAC (alt)|https://ofac.treasury.gov/system/files/126/ofac.xml
+VEI|BIS Commerce export|https://www.bis.gov/rss.xml
+VEI|DG Trésor sanctions|https://www.tresor.economie.gouv.fr/rss
+VEI|AMLA|https://www.amla.europa.eu/rss.xml
+VEI|EIOPA|https://www.eiopa.europa.eu/rss.xml
+VEI|Commission UE presse|https://ec.europa.eu/commission/presscorner/api/rss?language=fr
+VEI|Le Monde du Droit|https://www.lemondedudroit.fr/rss.xml
+VEI|IAPP|https://iapp.org/rss/daily-dashboard/
+VEI|Global Investigations Review|https://globalinvestigationsreview.com/rss
+VEI|Sanctions (Steptoe blog)|https://www.steptoe.com/en/news-publications/rss.xml
