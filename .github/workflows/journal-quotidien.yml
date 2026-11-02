@@ -114,6 +114,17 @@ jobs:
           if [ "$DIRECT" = "true" ]; then args="$args --direct"; fi
           python main.py journal $args
 
+      - name: Copie de diagnostic de l'essai
+        if: always() && inputs.essai == true && inputs.test_envoi != true
+        run: |
+          mkdir -p /tmp/diag && cp -r output/logs output/data output/mobile /tmp/diag/ 2>/dev/null || true
+          git config user.name "signal-matin"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch -q origin diagnostic 2>/dev/null || true
+          git checkout -q --orphan diag-tmp && git rm -rfq --cached . >/dev/null
+          rm -rf essai && mkdir essai && cp -r /tmp/diag/* essai/ 2>/dev/null || true
+          git add -f essai && git commit -qm "Essai du $(date +%F %H:%M)" && git push -qf origin HEAD:diagnostic
+
       - name: Enregistrer la mémoire du journal
         if: always() && inputs.essai != true && inputs.test_envoi != true && steps.deja.outputs.oui != 'true'
         working-directory: data
