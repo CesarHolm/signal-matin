@@ -182,6 +182,8 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
     for bloc in blocs:
         if bloc.id not in classements:
             classements[bloc.id], breves_redigees[bloc.id] = _secours_tri(bloc)
+        journal(f"  {bloc.id} : {len(bloc.candidats)} candidats → {len(classements[bloc.id])} à développer, "
+                f"{len(breves_redigees.get(bloc.id, []))} brèves")
 
     # ------------------------------------------- Mesure des textes et plan
     journal("· Récupération des articles complets")

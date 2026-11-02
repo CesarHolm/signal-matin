@@ -85,6 +85,8 @@ def collecter(config: dict, maintenant: dt.datetime, deja_publies: set[str]) -> 
                 if source.get("google"):
                     # Flux Google Actualites : titre « Titre - Media », lien a resoudre.
                     titre, media = _separer_media(item.title)
+                    if _NON_LATIN.search(titre + media):
+                        continue  # medias en coreen, cyrillique… : hors perimetre
                     url = resoudre_google(url) or ""
                     if not url:
                         continue
@@ -135,6 +137,9 @@ def texte_integral(url: str, repli: str = "") -> tuple[str, str]:
 
 
 # ------------------------------------------------------------------ Google Actualites
+
+_NON_LATIN = re.compile(r"[\u0370-\u03ff\u0400-\u052f\u0590-\u06ff\u0900-\u0dff\u3000-\u9fff\uac00-\ud7af]")
+
 
 def _separer_media(titre: str) -> tuple[str, str]:
     if " - " in titre:
@@ -193,7 +198,10 @@ def texte_pdf(url: str, plafond: int = 40_000) -> str:
     """
     try:
         cible = url
-        if not url.lower().split("?")[0].endswith(".pdf"):
+        nber = re.search(r"nber\.org/papers/(w\d+)", url)
+        if nber:  # le lien du PDF n'apparait pas dans la page (chargee en JavaScript)
+            cible = f"https://www.nber.org/system/files/working_papers/{nber.group(1)}/{nber.group(1)}.pdf"
+        elif not url.lower().split("?")[0].endswith(".pdf"):
             page = _requete(url).decode("utf-8", "replace")
             lien = re.search(r'href=["\']([^"\']+?\.pdf[^"\']*)["\']', page, re.I)
             if not lien:

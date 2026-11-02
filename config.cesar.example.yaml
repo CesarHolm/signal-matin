@@ -103,7 +103,8 @@ journal:
       titre: "Actualité France"
       consigne: >-
         Actualité française (politique, société, économie). Surtout des faits : ce qui s'est passé,
-        avec un peu d'analyse (pourquoi, conséquences).
+        avec un peu d'analyse (pourquoi, conséquences). Écarte l'actualité internationale (elle a sa
+        propre catégorie), sauf si la France est directement concernée.
       sources:
         - {nom: Le Monde, rubrique: France, url: "https://www.lemonde.fr/rss/une.xml"}
         - {nom: franceinfo, rubrique: France, url: "https://www.francetvinfo.fr/titres.rss"}
@@ -156,7 +157,9 @@ journal:
       titre: "Veille réglementaire"
       consigne: >-
         Thèmes : RGPD, AI Act, NIS 2, anti-corruption, CSRD et CSDDD (devoir de vigilance), sanctions
-        économiques et contrôle des exportations ; en second rang LCB-FT et DORA. Priorité à l'Europe ;
+        économiques et contrôle des exportations ; en second rang LCB-FT et DORA. Attention aux
+        homonymes : « NIS » désigne aussi une compagnie pétrolière serbe ; la fraude fiscale et le droit
+        pénal général sont hors thème. Priorité à l'Europe ;
         à l'étranger, seulement les informations clés. Trois types d'articles : (a) évolutions de la
         réglementation ; (b) sanctions prononcées, avec leurs motifs ; (c) comment les entreprises
         se mettent en conformité. Écarte ce qui sort de ces thèmes.
@@ -169,7 +172,7 @@ journal:
         - {nom: Steptoe International Compliance, rubrique: Sanctions et export, url: "https://www.steptoeinternationalcomplianceblog.com/feed/"}
         - {nom: ESMA, rubrique: DORA, url: "https://www.esma.europa.eu/rss.xml", max: 6}
         - {nom: Village de la Justice, rubrique: Conformité, url: "https://www.village-justice.com/articles/backend.php"}
-        - {nom: NIS 2, rubrique: NIS 2, google: true, max: 6, url: "https://news.google.com/rss/search?q=%22NIS+2%22+OR+NIS2+directive+when:2d&hl=fr&gl=FR&ceid=FR:fr"}
+        - {nom: NIS 2, rubrique: NIS 2, google: true, max: 6, url: "https://news.google.com/rss/search?q=%22directive+NIS+2%22+OR+%22NIS2+directive%22+OR+%22NIS+2+directive%22+when:2d&hl=fr&gl=FR&ceid=FR:fr"}
         - {nom: Anti-corruption, rubrique: Anti-corruption, google: true, max: 6, url: "https://news.google.com/rss/search?q=%22Agence+fran%C3%A7aise+anticorruption%22+OR+%22Sapin+II%22+OR+%22Parquet+national+financier%22+when:2d&hl=fr&gl=FR&ceid=FR:fr"}
         - {nom: Sanctions UE, rubrique: Sanctions et export, google: true, max: 6, url: "https://news.google.com/rss/search?q=%22EU+sanctions%22+OR+%22sanctions+package%22+when:2d&hl=en-GB&gl=GB&ceid=GB:en"}
         - {nom: OFAC, rubrique: Sanctions et export, google: true, max: 6, url: "https://news.google.com/rss/search?q=OFAC+sanctions+when:2d&hl=en-US&gl=US&ceid=US:en"}

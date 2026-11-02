@@ -333,6 +333,9 @@ class ClientIA:
 
 
 CONSIGNE_TRI_NUMERIQUE = (
+    "Respecte STRICTEMENT la consigne du bloc : n'inclus aucun article hors sujet, ni en développé "
+    "ni en brève, même s'il en reste peu ; dans cette édition il n'y a pas de minimum et des listes "
+    "vides sont acceptables. Varie les sources (pas plus de 3 articles d'une même source). "
     "Édition numérique, lue sur téléphone, sans contrainte de place : classe jusqu'à 8 articles "
     "à développer, et rédige des brèves plus complètes (2 à 3 phrases, environ 450 caractères), "
     "toujours uniquement d'après le titre et le résumé fournis ; plus courtes si le résumé est pauvre.")
