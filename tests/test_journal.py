@@ -517,3 +517,38 @@ def test_fenetre_lundi_selon_version():
     assert fenetre_heures(lundi, {}) == 72
     assert fenetre_heures(lundi, {"numerique": True}) == 48
     assert fenetre_heures(samedi, {"numerique": True}) == 24
+
+
+def test_blocs_numerique_et_rien_de_notable(monkeypatch):
+    from signal_matin.journal import articles as art
+    from signal_matin.journal.rendu_mobile import rendre_mobile
+    vus = []
+    monkeypatch.setattr(art, "collect_rss", lambda feeds, *a, **k: (vus.append(feeds[0]["name"]) or [],
+                                                                    type("S", (), {"detail": "1/1"})()))
+    conf = {"numerique": True, "blocs": [{"id": "x", "titre": "X", "sources": [{"nom": "imprimé", "url": "u"}]}],
+            "blocs_numerique": [{"id": "veille", "titre": "Veille réglementaire", "consigne": "RGPD",
+                                 "sources": [{"nom": "CNIL", "url": "u"}]}]}
+    blocs, _ = art.collecter(conf, dt.datetime(2026, 11, 2, 4, tzinfo=dt.timezone.utc), set())
+    assert vus == ["CNIL"] and blocs[0].consigne == "RGPD"
+    html = rendre_mobile({"date": "2026-11-02", "numerique": True, "nouveaux_mots": [], "revisions": [],
+                          "blocs": [{"id": "veille", "titre": "Veille réglementaire", "developpes": [], "breves": []}]})
+    assert "Rien de notable aujourd'hui" in html
+
+
+def test_texte_court_complete_par_une_autre_source(monkeypatch):
+    from signal_matin.journal import articles as art
+    court = art.Candidat("a1", "ia", "IA", "OpenAI", "OpenAI lowers funding target for new round", "", "u1", None)
+    autre = art.Candidat("a2", "ia", "IA", "TechCrunch", "OpenAI reportedly lowers funding target", "", "u2", None)
+    monkeypatch.setattr(art, "texte_integral", lambda url, repli="": ("x" * 3000, ""))
+    monkeypatch.setattr(art, "recherche_google", lambda *a, **k: [])
+    assert art.completer_par_autres_sources(court, [autre], 2500, journal=lambda *a: None)
+    assert court.sources_complementaires == [{"source": "TechCrunch", "url": "u2"}]
+    assert "SOURCE 2 (TechCrunch)" in court.texte
+
+
+def test_consigne_recherche_dans_la_synthese():
+    from signal_matin.journal import ia, articles as art
+    client = type("C", (), {"modele_synthese": "m"})()
+    c = art.Candidat("a1", "recherche", "Économie", "BCE", "T", "", "u", None, texte="texte")
+    contenu = ia.requete_synthese(client, c, 4000, "long", True, recherche=True).contenu
+    assert "La question" in contenu and "Les limites" in contenu

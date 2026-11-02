@@ -103,6 +103,7 @@ SCHEMA_TRI = {"type": "object", "properties": {
 }, "required": ["developpes", "breves"]}
 SCHEMA_SYNTHESE = {"type": "object", "properties": {
     "titre": _TEXTE, "chapo": _TEXTE, "sections": _SECTIONS, "synthese": _TEXTE, "republication": _TEXTE,
+    "reference": _TEXTE,
 }, "required": ["titre", "chapo", "sections", "synthese"]}
 SCHEMA_QUIZ = {"type": "object", "properties": {"questions": {"type": "array", "items": {
     "type": "object", "properties": {"question": _TEXTE, "options": {"type": "array", "items": _TEXTE},
@@ -335,6 +336,18 @@ CONSIGNE_TRI_NUMERIQUE = (
     "Édition numérique, lue sur téléphone, sans contrainte de place : classe jusqu'à 8 articles "
     "à développer, et rédige des brèves plus complètes (2 à 3 phrases, environ 450 caractères), "
     "toujours uniquement d'après le titre et le résumé fournis ; plus courtes si le résumé est pauvre.")
+CONSIGNE_RECHERCHE = (
+    "Travail de recherche : utilise EXACTEMENT ces intertitres, dans cet ordre : "
+    "« La question » (pourquoi ce travail, d'après l'introduction) ; « Les conclusions » (principaux "
+    "résultats, avec les chiffres) ; « La méthode » (données et démarche, en quelques phrases) ; "
+    "« Ce que ça implique » (explication accessible des conséquences, telles que les auteurs les "
+    "présentent) ; « Les limites » (uniquement celles mentionnées par les auteurs ; omets cette "
+    "section s'ils n'en mentionnent aucune). Remplis « reference » : auteurs, institution ou revue, "
+    "date, et nature du document (document de travail non relu par des pairs, article de revue "
+    "à comité de lecture, billet de chercheur…), uniquement d'après le texte fourni.")
+CONSIGNE_SOURCES_MULTIPLES = (
+    "Le texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien "
+    "ajouter ; si elles divergent, dis-le en nommant la source.")
 CONSIGNE_SYNTHESE_NUMERIQUE = (
     "Édition numérique, lue sur téléphone, sans contrainte de page : format « long » en 4 à 6 "
     "sections, format « court » en 2 ou 3 sections ; même règle de longueur (90 à 100 % de la limite).")
@@ -348,6 +361,8 @@ def requete_tri(client: ClientIA, bloc, deja: list[str], numerique: bool = False
     }
     if numerique:
         contenu["consigne_edition"] = CONSIGNE_TRI_NUMERIQUE
+    if getattr(bloc, "consigne", ""):
+        contenu["consigne_du_bloc"] = bloc.consigne
     if deja:
         contenu["sujets_deja_publies_recemment"] = deja[:40]
     return Requete(id=f"tri-{bloc.id}", modele=client.modele_tri, systeme=SYSTEME_TRI,
@@ -360,13 +375,17 @@ def limite_caracteres(texte: str, plafond: int = 2800, ratio: float = 0.40) -> i
 
 
 def requete_synthese(client: ClientIA, candidat, limite: int, format_: str = "long",
-                     numerique: bool = False) -> Requete:
+                     numerique: bool = False, recherche: bool = False) -> Requete:
     lignes = [
         f"Format : {format_}",
         f"Limite de longueur : {limite} caractères au total.",
     ]
     if numerique:
         lignes.append(CONSIGNE_SYNTHESE_NUMERIQUE)
+    if recherche:
+        lignes.append(CONSIGNE_RECHERCHE)
+    if getattr(candidat, "sources_complementaires", None):
+        lignes.append(CONSIGNE_SOURCES_MULTIPLES)
     lignes += [
         f"Source : {candidat.source}",
         f"Rubrique : {candidat.rubrique}",
@@ -380,6 +399,25 @@ def requete_synthese(client: ClientIA, candidat, limite: int, format_: str = "lo
     return Requete(id=f"syn-{candidat.id}", modele=client.modele_synthese,
                    systeme=SYSTEME_SYNTHESE, contenu=contenu, max_tokens=8000 if format_ == "long" else 5000, effort="low",
                    schema=SCHEMA_SYNTHESE)
+
+
+SYSTEME_BREVES = """Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.
+
+Pour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :
+- « titre » : en français, factuel, 90 caractères maximum ;
+- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.
+Ignore un article dont le résumé est vide ou inexploitable.
+
+Réponds uniquement en JSON : {"breves": [{"id": "a7", "titre": "…", "texte": "…"}]}"""
+SCHEMA_BREVES = {"type": "object", "properties": {"breves": {"type": "array", "items": {
+    "type": "object", "properties": {"id": _TEXTE, "titre": _TEXTE, "texte": _TEXTE},
+    "required": ["id", "titre", "texte"]}}}, "required": ["breves"]}
+
+
+def requete_breves(client: ClientIA, candidats: list) -> Requete:
+    contenu = [{"id": c.id, "source": c.source, "titre": c.titre, "resume": c.resume[:800]} for c in candidats]
+    return Requete(id="breves", modele=client.modele_tri, systeme=SYSTEME_BREVES,
+                   contenu=json.dumps(contenu, ensure_ascii=False), max_tokens=4000, schema=SCHEMA_BREVES)
 
 
 def requete_mots(client: ClientIA, besoins: dict[str, int], connus: list[str]) -> Requete:

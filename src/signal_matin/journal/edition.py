@@ -101,6 +101,9 @@ def _developpe_secours(candidat: art.Candidat, format_: str = "long") -> dict:
             "sections": [], "synthese": "", "secours": True}
 
 
+SCORE_A_COMPLETER = 8  # en dessous, un article au texte trop court devient une breve
+
+
 def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bool = True,
              racine: Path = DOSSIER, journal=print) -> dict:
     maintenant = maintenant or dt.datetime.now().astimezone()
@@ -185,19 +188,47 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
     index_global = {c.id: c for b in blocs for c in b.candidats}
     choix_par_bloc: dict[str, list[mep.Choix]] = {}
     ratio = float(conf.get("ratio_article_court", mep.RATIO))
+    blocs_par_id = {b.id: b for b in blocs}
+    a_resumer_en_breve: dict[str, list[art.Candidat]] = {}
     for bloc_id, classe in classements.items():
         choix_par_bloc[bloc_id] = []
         for candidat, score in classe:
             candidat.texte, candidat.auteur = art.texte_integral(candidat.url, candidat.resume)
+            if numerique and client and len(candidat.texte) < mep.TEXTE_MINIMUM:
+                # Papier de recherche : le texte complet est souvent dans le PDF.
+                if blocs_par_id[bloc_id].recherche:
+                    pdf = art.texte_pdf(candidat.url)
+                    if len(pdf) > len(candidat.texte):
+                        candidat.texte = pdf
+                        journal(f"  {candidat.id} : papier lu en PDF ({len(pdf)} car.)")
+                # Sujet important mais texte court : meme sujet dans d'autres sources.
+                if len(candidat.texte) < mep.TEXTE_MINIMUM and score >= SCORE_A_COMPLETER:
+                    autres = [c for c in index_global.values() if c.id != candidat.id]
+                    art.completer_par_autres_sources(candidat, autres, mep.TEXTE_MINIMUM, journal)
             if client and len(candidat.texte) < mep.TEXTE_MINIMUM:
                 # Sans IA, le chapô du flux est affiché tel quel : pas de seuil.
                 journal(f"  {candidat.id} écarté des développés : texte trop court ({len(candidat.texte)} car.)")
+                if numerique:
+                    a_resumer_en_breve.setdefault(bloc_id, []).append(candidat)
                 continue
             if numerique:
                 format_, limite_car = mep.gabarit_numerique(len(candidat.texte))
             else:
                 format_, limite_car = mep.gabarit(len(candidat.texte), ratio)
             choix_par_bloc[bloc_id].append(mep.Choix(candidat.id, bloc_id, score, format_, limite_car))
+    if numerique and client and a_resumer_en_breve:
+        # Version numerique : les articles ecartes deviennent des breves (en tete du bloc).
+        deja = {b["id"] for v in breves_redigees.values() for b in v}
+        candidats_breves = [c for v in a_resumer_en_breve.values() for c in v if c.id not in deja]
+        if candidats_breves:
+            reponse = client.direct([ia.requete_breves(client, candidats_breves)]).get("breves")
+            try:
+                for b in ia.extraire_json(reponse or "{}").get("breves", []):
+                    c = index_global.get(b.get("id"))
+                    if c and b.get("titre") and b.get("texte"):
+                        breves_redigees.setdefault(c.bloc, []).insert(0, b)
+            except ValueError:
+                journal("  ! brèves complémentaires illisibles")
     if numerique:
         plan = mep.planifier_numerique(choix_par_bloc, {b: len(v) for b, v in breves_redigees.items()})
     else:
@@ -215,7 +246,8 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
     syntheses: dict[str, dict] = {}
     if client and plan.articles:
         journal("· Lot 2 : synthèses (Sonnet)")
-        requetes = [ia.requete_synthese(client, index_global[c.id], c.limite, c.format, numerique)
+        requetes = [ia.requete_synthese(client, index_global[c.id], c.limite, c.format, numerique,
+                                        recherche=numerique and blocs_par_id[c.bloc].recherche)
                     for c in plan.articles]
         reponses = client.lot(requetes, echeance)
         for choix_ in plan.articles:
@@ -246,7 +278,9 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
                 s_ = syntheses[choix_.id]
                 vue = {**_vue_article(c), "titre": s_["titre"], "chapo": s_.get("chapo", ""),
                        "sections": s_["sections"], "synthese": s_.get("synthese", ""),
-                       "republication": s_.get("republication", "")}
+                       "republication": s_.get("republication", ""),
+                       "reference": s_.get("reference", "") if blocs_par_id[bloc_id].recherche else "",
+                       "sources_complementaires": c.sources_complementaires}
             else:
                 vue = _developpe_secours(c, choix_.format)
             vue["format"] = choix_.format

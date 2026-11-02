@@ -76,3 +76,121 @@ journal:
         - {nom: franceinfo Sports, rubrique: Sport, url: "https://www.francetvinfo.fr/sports.rss"}
         - {nom: TrainingPeaks, rubrique: Sport, nature: methode, url: "https://www.trainingpeaks.com/feed/", max: 4}
         - {nom: Stronger by Science, rubrique: Sport, nature: methode, url: "https://www.strongerbyscience.com/feed/", max: 4}
+
+  # Version numérique (téléphone) — structure validée le 02/11/2026.
+  # Le journal imprimé garde « blocs » ci-dessus. Sources vérifiées depuis GitHub le 02/11/2026.
+  # « google: true » : flux Google Actualités (le lien est résolu vers l'article d'origine).
+  blocs_numerique:
+    - id: ia
+      titre: "IA"
+      consigne: >-
+        Bloc consacré EXCLUSIVEMENT à l'intelligence artificielle : modèles, produits, entreprises,
+        régulation de l'IA, papiers académiques sur l'IA. Écarte tout article qui ne porte pas
+        principalement sur l'IA. Pour arXiv, ne retiens que les papiers à portée large et compréhensible.
+      sources:
+        - {nom: MIT Technology Review, rubrique: IA, url: "https://www.technologyreview.com/topic/artificial-intelligence/feed"}
+        - {nom: ActuIA, rubrique: IA, url: "https://www.actuia.com/feed/"}
+        - {nom: The Decoder, rubrique: IA, url: "https://the-decoder.com/feed/"}
+        - {nom: Google DeepMind, rubrique: IA, url: "https://deepmind.google/blog/rss.xml", max: 6}
+        - {nom: Google Research, rubrique: IA, url: "https://research.google/blog/rss/", max: 6}
+        - {nom: Hugging Face, rubrique: IA, url: "https://huggingface.co/blog/feed.xml", max: 6}
+        - {nom: TechCrunch, rubrique: IA, url: "https://techcrunch.com/category/artificial-intelligence/feed/"}
+        - {nom: Ars Technica, rubrique: IA, url: "https://arstechnica.com/ai/feed/"}
+        - {nom: OpenAI, rubrique: IA, url: "https://openai.com/news/rss.xml", max: 6}
+        - {nom: arXiv cs.AI, rubrique: Recherche IA, url: "https://rss.arxiv.org/rss/cs.AI", max: 25}
+
+    - id: france
+      titre: "Actualité France"
+      consigne: >-
+        Actualité française (politique, société, économie). Surtout des faits : ce qui s'est passé,
+        avec un peu d'analyse (pourquoi, conséquences).
+      sources:
+        - {nom: Le Monde, rubrique: France, url: "https://www.lemonde.fr/rss/une.xml"}
+        - {nom: franceinfo, rubrique: France, url: "https://www.francetvinfo.fr/titres.rss"}
+        - {nom: Public Sénat, rubrique: France, url: "https://www.publicsenat.fr/feed"}
+
+    - id: monde
+      titre: "Actualité Monde"
+      consigne: >-
+        Actualité internationale (États-Unis, Chine, international, géopolitique et défense). Surtout
+        des faits, avec un peu d'analyse. Écarte l'actualité purement française.
+      sources:
+        - {nom: NPR, rubrique: États-Unis, url: "https://feeds.npr.org/1001/rss.xml"}
+        - {nom: Politico, rubrique: États-Unis, url: "https://rss.politico.com/politics-news.xml"}
+        - {nom: South China Morning Post, rubrique: Chine, url: "https://www.scmp.com/rss/4/feed"}
+        - {nom: The Diplomat, rubrique: Chine, url: "https://thediplomat.com/feed/"}
+        - {nom: Al Jazeera, rubrique: Monde, url: "https://www.aljazeera.com/xml/rss/all.xml"}
+        - {nom: Le Grand Continent, rubrique: Géopolitique, url: "https://legrandcontinent.eu/fr/feed/"}
+        - {nom: Diploweb, rubrique: Géopolitique, url: "https://www.diploweb.com/spip.php?page=backend"}
+
+    - id: recherche
+      titre: "Recherche & travaux d'experts"
+      recherche: true
+      consigne: >-
+        UNIQUEMENT des travaux de recherche (papiers, documents de travail, articles de revue) ou des
+        analyses de chercheurs fondées sur leurs travaux : économie, finance, social, droit, santé
+        publique, climat, astronomie, mathématiques. Écarte les actualités institutionnelles
+        (discours, nominations, agendas, newsletters, appels à contributions) et la vulgarisation
+        sans travail de recherche identifié.
+      sources:
+        - {nom: BCE (documents de travail), rubrique: Économie, url: "https://www.ecb.europa.eu/rss/wppub.html"}
+        - {nom: BCE (Research Bulletin), rubrique: Économie, url: "https://www.ecb.europa.eu/rss/rbu.html"}
+        - {nom: BRI (documents de travail), rubrique: Finance, url: "https://www.bis.org/doclist/wppubls.rss"}
+        - {nom: Réserve fédérale (FEDS Notes), rubrique: Économie, url: "https://www.federalreserve.gov/feeds/feds_notes.xml"}
+        - {nom: Réserve fédérale (documents de travail), rubrique: Économie, url: "https://www.federalreserve.gov/feeds/feds.xml"}
+        - {nom: Fed de New York (Liberty Street), rubrique: Économie, url: "https://libertystreeteconomics.newyorkfed.org/feed/"}
+        - {nom: NBER, rubrique: Économie et social, url: "https://www.nber.org/rss/new.xml"}
+        - {nom: Pew Research Center, rubrique: Social, url: "https://www.pewresearch.org/feed/"}
+        - {nom: Verfassungsblog, rubrique: Droit, url: "https://verfassungsblog.de/feed/"}
+        - {nom: European Law Blog, rubrique: Droit, url: "https://europeanlawblog.eu/feed/"}
+        - {nom: PLOS Medicine, rubrique: Santé publique, url: "https://journals.plos.org/plosmedicine/feed/atom"}
+        - {nom: PLOS Climate, rubrique: Climat, url: "https://journals.plos.org/climate/feed/atom"}
+        - {nom: Nature Climate Change, rubrique: Climat, url: "https://www.nature.com/nclimate.rss"}
+        - {nom: AAS Nova, rubrique: Astronomie, url: "https://aasnova.org/feed/"}
+        - {nom: ESO, rubrique: Astronomie, url: "https://www.eso.org/public/news/feed/"}
+        - {nom: Terence Tao, rubrique: Mathématiques, url: "https://terrytao.wordpress.com/feed/"}
+        - {nom: AMS Feature Column, rubrique: Mathématiques, url: "https://mathvoices.ams.org/featurecolumn/feed/"}
+        - {nom: Our World in Data, rubrique: Données, url: "https://ourworldindata.org/atom.xml"}
+
+    - id: veille
+      titre: "Veille réglementaire"
+      consigne: >-
+        Thèmes : RGPD, AI Act, NIS 2, anti-corruption, CSRD et CSDDD (devoir de vigilance), sanctions
+        économiques et contrôle des exportations ; en second rang LCB-FT et DORA. Priorité à l'Europe ;
+        à l'étranger, seulement les informations clés. Trois types d'articles : (a) évolutions de la
+        réglementation ; (b) sanctions prononcées, avec leurs motifs ; (c) comment les entreprises
+        se mettent en conformité. Écarte ce qui sort de ces thèmes.
+      sources:
+        - {nom: CNIL, rubrique: RGPD, url: "https://www.cnil.fr/fr/rss.xml"}
+        - {nom: EDPB, rubrique: RGPD, url: "https://www.edpb.europa.eu/feed/news_en"}
+        - {nom: Covington Inside Privacy, rubrique: RGPD et IA, url: "https://www.insideprivacy.com/feed/"}
+        - {nom: Covington Global Policy Watch, rubrique: Réglementation, url: "https://www.globalpolicywatch.com/feed/"}
+        - {nom: Commission européenne (numérique), rubrique: AI Act et NIS 2, url: "https://digital-strategy.ec.europa.eu/en/rss.xml"}
+        - {nom: Steptoe International Compliance, rubrique: Sanctions et export, url: "https://www.steptoeinternationalcomplianceblog.com/feed/"}
+        - {nom: ESMA, rubrique: DORA, url: "https://www.esma.europa.eu/rss.xml", max: 6}
+        - {nom: Village de la Justice, rubrique: Conformité, url: "https://www.village-justice.com/articles/backend.php"}
+        - {nom: NIS 2, rubrique: NIS 2, google: true, max: 6, url: "https://news.google.com/rss/search?q=%22NIS+2%22+OR+NIS2+directive+when:2d&hl=fr&gl=FR&ceid=FR:fr"}
+        - {nom: Anti-corruption, rubrique: Anti-corruption, google: true, max: 6, url: "https://news.google.com/rss/search?q=%22Agence+fran%C3%A7aise+anticorruption%22+OR+%22Sapin+II%22+OR+%22Parquet+national+financier%22+when:2d&hl=fr&gl=FR&ceid=FR:fr"}
+        - {nom: Sanctions UE, rubrique: Sanctions et export, google: true, max: 6, url: "https://news.google.com/rss/search?q=%22EU+sanctions%22+OR+%22sanctions+package%22+when:2d&hl=en-GB&gl=GB&ceid=GB:en"}
+        - {nom: OFAC, rubrique: Sanctions et export, google: true, max: 6, url: "https://news.google.com/rss/search?q=OFAC+sanctions+when:2d&hl=en-US&gl=US&ceid=US:en"}
+        - {nom: Contrôle des exportations, rubrique: Sanctions et export, google: true, max: 6, url: "https://news.google.com/rss/search?q=%22export+controls%22+when:2d&hl=en-US&gl=US&ceid=US:en"}
+        - {nom: LCB-FT, rubrique: LCB-FT, google: true, max: 6, url: "https://news.google.com/rss/search?q=AMLA+OR+%22anti-money+laundering%22+Europe+when:2d&hl=en-GB&gl=GB&ceid=GB:en"}
+        - {nom: CSRD et CSDDD, rubrique: CSRD et CSDDD, google: true, max: 6, url: "https://news.google.com/rss/search?q=CSRD+OR+CSDDD+OR+%22devoir+de+vigilance%22+when:2d&hl=fr&gl=FR&ceid=FR:fr"}
+
+    - id: curiosites
+      titre: "Curiosités"
+      consigne: >-
+        Tout le reste : science grand public, climat, espace, sport, idées. Le football est exclu.
+      sources:
+        - {nom: Quanta Magazine, rubrique: Science, url: "https://www.quantamagazine.org/feed/"}
+        - {nom: CNRS Le journal, rubrique: Science, url: "https://lejournal.cnrs.fr/rss"}
+        - {nom: Sciences et Avenir, rubrique: Science, url: "https://www.sciencesetavenir.fr/rss.xml"}
+        - {nom: The Conversation, rubrique: Idées, url: "https://theconversation.com/fr/articles.atom"}
+        - {nom: Aeon, rubrique: Idées, url: "https://aeon.co/feed.rss"}
+        - {nom: NASA, rubrique: Espace, url: "https://www.nasa.gov/feed/"}
+        - {nom: ESA, rubrique: Espace, url: "https://www.esa.int/rssfeed/Our_Activities/Space_Science"}
+        - {nom: Carbon Brief, rubrique: Climat, url: "https://www.carbonbrief.org/feed/"}
+        - {nom: Inside Climate News, rubrique: Climat, url: "https://insideclimatenews.org/feed/"}
+        - {nom: franceinfo Sports, rubrique: Sport, url: "https://www.francetvinfo.fr/sports.rss"}
+        - {nom: TrainingPeaks, rubrique: Sport, nature: methode, url: "https://www.trainingpeaks.com/feed/", max: 4}
+        - {nom: Stronger by Science, rubrique: Sport, nature: methode, url: "https://www.strongerbyscience.com/feed/", max: 4}

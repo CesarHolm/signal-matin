@@ -82,6 +82,8 @@ table.futo td.fs{width:16px;height:16px;text-align:center;font-size:14px}
 .toc a{color:#151515}
 .toc .bref{font-size:14px;color:#444;margin:2px 0 0}
 .toc .bref a{color:#444}
+.ref{font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#555;margin:-2px 0 8px}
+.vide{font-style:italic;color:#666}
 .pied{font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#777;text-align:center;border-top:1px solid #151515;padding-top:8px;margin-top:30px}
 """
 
@@ -124,8 +126,14 @@ def _mots(edition: dict) -> str:
 def _pied(article: dict) -> str:
     texte = f"Par {article['auteur']}, {article['source']}" if article.get("auteur") else article.get("source", "")
     if article.get("url"):
-        return f"<p class='src'>{E(texte)} · <a href='{E(article['url'], quote=True)}'>lire l'original</a></p>"
-    return f"<p class='src'>{E(texte)}</p>"
+        pied = f"{E(texte)} · <a href='{E(article['url'], quote=True)}'>lire l'original</a>"
+    else:
+        pied = E(texte)
+    autres = article.get("sources_complementaires") or []
+    if autres:
+        pied += " · complété avec " + ", ".join(
+            f"<a href='{E(a['url'], quote=True)}'>{E(a['source'])}</a>" for a in autres)
+    return f"<p class='src'>{pied}</p>"
 
 
 def _article(article: dict) -> str:
@@ -138,7 +146,9 @@ def _article(article: dict) -> str:
                if article.get("secours") else "")
     ancre = f" id='art-{E(article['id'], quote=True)}'" if article.get("id") else ""
     return (f"<article class='{classe}'{ancre}><p class='kicker'>{E(_kicker(article))}</p>"
-            f"<h3>{E(article.get('titre', ''))}</h3><p class='lead'>{E(article.get('chapo', ''))}</p>"
+            f"<h3>{E(article.get('titre', ''))}</h3>"
+            + (f"<p class='ref'>{E(article['reference'])}</p>" if article.get("reference") else "")
+            + f"<p class='lead'>{E(article.get('chapo', ''))}</p>"
             f"{sections}{synthese}{secours}{_pied(article)}</article>")
 
 
@@ -156,6 +166,8 @@ def _sommaire_detaille(edition: dict) -> str:
     parties = []
     for bloc in edition.get("blocs", []):
         if not bloc.get("developpes") and not bloc.get("breves"):
+            parties.append(f"<h3><a href='#bloc-{E(bloc['id'], quote=True)}'>{E(bloc['titre'])}</a></h3>"
+                           "<p class='bref'>Rien de notable aujourd'hui.</p>")
             continue
         partie = f"<h3><a href='#bloc-{E(bloc['id'], quote=True)}'>{E(bloc['titre'])}</a></h3>"
         if bloc.get("developpes"):
@@ -180,9 +192,13 @@ def _breves(breves: list[dict]) -> str:
 def _blocs(edition: dict) -> tuple[str, str]:
     sommaire, corps = [], []
     for bloc in edition.get("blocs", []):
-        if not bloc.get("developpes") and not bloc.get("breves"):
-            continue
         ancre = f"bloc-{bloc['id']}"
+        if not bloc.get("developpes") and not bloc.get("breves"):
+            if edition.get("numerique"):
+                sommaire.append(f"<li><a href='#{ancre}'>{E(bloc['titre'])}</a></li>")
+                corps.append(f"<h2 class='bloc' id='{ancre}'>{E(bloc['titre'])}</h2>"
+                             "<p class='vide'>Rien de notable aujourd'hui.</p>")
+            continue
         sommaire.append(f"<li><a href='#{ancre}'>{E(bloc['titre'])}</a></li>")
         nombre = len(bloc.get("developpes", []))
         detail = f"{nombre} article{'s' if nombre > 1 else ''}"
