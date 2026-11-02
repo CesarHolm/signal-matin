@@ -1,0 +1,346 @@
+{
+ "date": "2026-11-02",
+ "nouveaux_mots": [
+  {
+   "mot": "Austère",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Sévère et dépouillé, sans ornement ni agrément.",
+   "exemple": "Une façade austère dissimulait un jardin luxuriant."
+  },
+  {
+   "mot": "Prodigue",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui dépense sans compter ; qui donne largement.",
+   "exemple": "Prodigue de conseils, avare d'explications."
+  },
+  {
+   "mot": "Titrisation",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "pro",
+   "definition": "Technique financière qui transforme des créances peu liquides en titres négociables sur un marché.",
+   "exemple": "La titrisation permet à la banque d'alléger son bilan."
+  },
+  {
+   "mot": "Philippique",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Discours violent et polémique dirigé contre quelqu'un.",
+   "exemple": "Le député prononça une philippique contre le gouvernement."
+  },
+  {
+   "mot": "Sycophante",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Délateur, dénonciateur ; par extension, flatteur hypocrite.",
+   "exemple": "Entouré de sycophantes, le dirigeant n'entendait plus aucune critique."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Tributaire",
+   "definition": "Qui dépend de quelque chose ou de quelqu'un."
+  },
+  {
+   "mot": "Acédie",
+   "definition": "Torpeur de l'âme, dégoût mélancolique pour l'effort et la vie spirituelle."
+  },
+  {
+   "mot": "Décote",
+   "definition": "Écart négatif entre la valeur d'un actif et sa valeur de référence ; réduction appliquée à cette valeur."
+  },
+  {
+   "mot": "Billevesée",
+   "definition": "Idée creuse, propos frivole."
+  },
+  {
+   "mot": "Jurisprudence",
+   "definition": "Ensemble des décisions de justice qui font référence."
+  }
+ ],
+ "articles": [
+  "https://theconversation.com/ni-crecy-ni-azincourt-nevilles-cross-la-victoire-anglaise-decisive-que-lhistoire-a-oubliee-294694",
+  "https://theconversation.com/niveau-de-francais-exige-pour-les-etrangers-une-simple-question-de-langue-291610",
+  "https://theconversation.com/pour-proteger-les-ados-en-ligne-faut-il-leur-couper-lacces-aux-reseaux-sociaux-290451",
+  "https://theconversation.com/democratie-pourquoi-les-francais-sont-ils-plus-pessimistes-que-leurs-voisins-belges-ou-italiens-292630",
+  "https://theconversation.com/qui-se-cache-derriere-le-champignon-introduit-illegalement-il-y-a-40-ans-pour-combattre-les-ronces-australiennes-294254",
+  "https://www.actuia.com/actualite/lactualite-ia-du-mois-secteur-par-secteur-actuia-ouvre-sa-revue/",
+  "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+  "https://ourworldindata.org/around-half-of-people-will-experience-a-mental-health-issue-in-their-lifetime",
+  "https://www.lemonde.fr/sante/article/2026/11/02/marche-des-medicaments-antiobesite-le-wegovy-arrive-en-comprime-dans-les-pharmacies-francaises_6804738_1651302.html",
+  "https://www.franceinfo.fr/environnement/crise-climatique/la-planete-s-approche-du-seuil-de-1-5-c-de-rechauffement-un-niveau-critique-pour-les-banquises-et-les-glaciers_8263031.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/societe/education/blocage-des-lycees/direct-pour-la-reprise-des-cours-les-organisations-etudiantes-et-lyceennes-appellent-a-de-nouveaux-blocus_8263475.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/monde/usa/midterms-2018/circonscriptions-taillees-pour-les-republicains-riposte-democrate-avant-les-midterms-aux-etats-unis-la-carte-electorale-charcutee-sous-la-pression-de-donald-trump_8237242.html#xtor=RSS-3-[lestitres]",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/2/bulgaria-has-its-first-elected-female-president?traffic_source=rss",
+  "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
+  "https://www.npr.org/2026/11/02/g-s1-151211/south-florida-jet-crash",
+  "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
+  "https://insideclimatenews.org/news/01112026/how-sarayaku-people-beat-big-oil/",
+  "https://insideclimatenews.org/news/01112026/gov-josh-shapiro-data-center-history/",
+  "https://insideclimatenews.org/news/01112026/taylor-texas-data-center-development/",
+  "https://www.franceinfo.fr/sports/auto-moto/formule-1/kimi-antonelli-devient-le-plus-jeune-champion-du-monde-de-l-histoire-de-la-formule-1-a-l-issue-du-gp-du-mexique-remporte-par-max-verstappen_8253553.html#xtor=RSS-3-%5Bgeneral%5D"
+ ],
+ "titres": [
+  "Neville's Cross, 1346 : la victoire anglaise décisive que l'histoire a oubliée",
+  "Niveau de français exigé des étrangers : une question qui dépasse la langue",
+  "Réseaux sociaux : interdire aux ados ne suffit pas, selon ces chercheurs",
+  "Pourquoi les Français sont plus pessimistes sur la démocratie que Belges et Italiens",
+  "Rouille de la ronce : l'énigme d'un champignon introduit illégalement en Australie",
+  "Wegovy en comprimé : l'antiobésité arrive en pharmacie en France",
+  "Seuil de 1,5°C : l'ONU alerte sur la fonte des glaces avant la COP31",
+  "À Sarayaku, des peuples d'Amazonie viennent apprendre à résister au pétrole",
+  "Pennsylvanie : Josh Shapiro et les centres de données, un virage risqué",
+  "Kimi Antonelli, 20 ans, sacré plus jeune champion du monde de F1 au Mexique"
+ ],
+ "solutions": {
+  "sudoku": [
+   3,
+   6,
+   2,
+   8,
+   7,
+   1,
+   4,
+   5,
+   9,
+   1,
+   4,
+   8,
+   9,
+   3,
+   5,
+   2,
+   6,
+   7,
+   5,
+   7,
+   9,
+   6,
+   4,
+   2,
+   8,
+   1,
+   3,
+   6,
+   1,
+   4,
+   3,
+   5,
+   9,
+   7,
+   2,
+   8,
+   9,
+   2,
+   7,
+   1,
+   8,
+   4,
+   5,
+   3,
+   6,
+   8,
+   5,
+   3,
+   2,
+   6,
+   7,
+   9,
+   4,
+   1,
+   7,
+   9,
+   6,
+   5,
+   2,
+   3,
+   1,
+   8,
+   4,
+   4,
+   8,
+   5,
+   7,
+   1,
+   6,
+   3,
+   9,
+   2,
+   2,
+   3,
+   1,
+   4,
+   9,
+   8,
+   6,
+   7,
+   5
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     1,
+     7
+    ],
+    [
+     0,
+     7,
+     3,
+     2
+    ],
+    [
+     0,
+     9,
+     5,
+     1
+    ],
+    [
+     1,
+     0,
+     9,
+     1
+    ],
+    [
+     1,
+     1,
+     6,
+     2
+    ],
+    [
+     1,
+     3,
+     2,
+     1
+    ],
+    [
+     1,
+     4,
+     3,
+     3
+    ],
+    [
+     3,
+     3,
+     7,
+     1
+    ],
+    [
+     3,
+     7,
+     6,
+     2
+    ],
+    [
+     4,
+     4,
+     2,
+     3
+    ],
+    [
+     5,
+     9,
+     4,
+     1
+    ],
+    [
+     6,
+     4,
+     2,
+     3
+    ],
+    [
+     7,
+     1,
+     3,
+     2
+    ],
+    [
+     8,
+     4,
+     1,
+     3
+    ],
+    [
+     9,
+     4,
+     1,
+     4
+    ],
+    [
+     9,
+     8,
+     1,
+     2
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    3,
+    2,
+    5,
+    4,
+    1,
+    6
+   ],
+   [
+    6,
+    5,
+    2,
+    1,
+    4,
+    3
+   ],
+   [
+    1,
+    6,
+    3,
+    5,
+    2,
+    4
+   ],
+   [
+    2,
+    4,
+    1,
+    3,
+    6,
+    5
+   ],
+   [
+    4,
+    3,
+    6,
+    2,
+    5,
+    1
+   ],
+   [
+    5,
+    1,
+    4,
+    6,
+    3,
+    2
+   ]
+  ],
+  "compte": [
+   "100 × 5 = 500",
+   "500 − 4 = 496",
+   "496 + 10 = 506",
+   "506 + 50 = 556",
+   "556 + 4 = 560"
+  ]
+ },
+ "reponses_quiz": []
+}
