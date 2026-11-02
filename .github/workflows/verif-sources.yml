@@ -1,0 +1,28 @@
+# Temporaire : vérifie des flux candidats depuis le réseau GitHub et enregistre le
+# résultat sur la branche « diagnostic » (verif-sources.txt).
+name: verification des sources
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verif:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: cesar/personnalisation
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install -e . pypdf
+      - run: python -I -c "import sys; sys.path.insert(0,'src'); exec(open('scripts/verif/verifier_sources.py').read())" scripts/verif/candidats.txt > verif-sources.txt || true
+      - run: |
+          git config user.name "signal-matin"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan diagnostic
+          git rm -rfq --cached .
+          git add verif-sources.txt
+          git commit -qm "Vérification des sources $(date +%F)"
+          git push -f origin diagnostic
