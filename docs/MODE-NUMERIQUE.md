@@ -62,24 +62,54 @@ Option « Tester seulement la connexion e-mail » : vérifie les secrets d'envoi
 en 30 secondes, sans génération ni appel IA ; le résultat s'affiche dans les
 annotations du run.
 
-## 4 bis. Contenu de la version numérique (validé le 29/10/2026)
+## 4 bis. Contenu de la version numérique (validé le 29/10, structure du 02/11/2026)
 
 Sans contrainte de page, la version téléphone est plus complète que le journal
-imprimé, qui reste inchangé :
+imprimé, qui reste inchangé (8 pages, blocs d'origine).
+
+**Six catégories**, dans cet ordre (sources : `blocs_numerique` dans `config.cesar.example.yaml`) :
+
+| Catégorie | Contenu |
+|---|---|
+| IA | Uniquement l'IA, y compris les papiers académiques (arXiv) |
+| Actualité France | Surtout des faits, un peu d'analyse ; pas d'international sauf si la France est concernée |
+| Actualité Monde | Surtout des faits, un peu d'analyse |
+| Recherche & travaux d'experts | Papiers de recherche et analyses de chercheurs : économie, finance, social, droit, santé publique, climat, astronomie, mathématiques |
+| Veille réglementaire | RGPD, AI Act, NIS 2, anti-corruption, CSRD/CSDDD, sanctions et contrôle des exportations ; LCB-FT et DORA en second rang. Évolutions, sanctions et leurs motifs, mise en conformité. Priorité à l'Europe |
+| Curiosités | Tout le reste : science, climat, espace, sport, idées |
+
+Règles :
 
 - **Au sommaire**, sous les mots du jour : par catégorie, le titre de chaque
-  article avec un lien direct, puis les brèves.
-- Par catégorie : jusqu'à **6 articles développés**, dont **4 longs** (jusqu'à
-  4 500 caractères, 4 à 6 sections) ; les autres en format court enrichi
-  (jusqu'à 1 800 caractères, 2 ou 3 sections).
-- **Brèves** plus complètes (2 à 3 phrases, environ 450 caractères), jusqu'à 6
-  par catégorie.
+  article avec un lien direct, puis les brèves ; « Rien de notable aujourd'hui »
+  si une catégorie est vide.
+- Par catégorie : jusqu'à **6 articles développés, dont 4 longs** (≤ 4 500
+  caractères) ; brèves d'environ 450 caractères, jusqu'à 6. Au plus 3 articles et
+  3 brèves d'une même source. Tri strict : aucun article hors sujet, pas de minimum.
+- **Papiers de recherche** : lecture du PDF si la page ne donne qu'un résumé ;
+  trame « La question · Les conclusions · La méthode · Ce que ça implique · Les
+  limites » (limites seulement si les auteurs en citent), avec la référence
+  (auteurs, institution, date, nature du document).
+- **Texte trop court** (article payant, page fermée) : si le sujet est important
+  (score ≥ 8), le programme cherche le même sujet dans les autres sources du jour,
+  puis sur Google Actualités, et rédige à partir de ces textes en citant chaque
+  source ; sinon, l'article devient une brève.
+- **Google Actualités** couvre les thèmes de veille sans flux exploitable (NIS 2,
+  anti-corruption, sanctions UE, OFAC, contrôle des exportations, LCB-FT,
+  CSRD/CSDDD) ; les liens sont résolus vers l'article d'origine, les médias en
+  écriture non latine sont écartés.
+- Écartés le 02/11/2026 : VoxEU et The Conversation (catégorie Recherche),
+  medRxiv (prépublications non relues), recherche en géopolitique.
 - Pas de PDF A4 généré ; pas de météo, de jeux ni de quiz.
 - **Parution du lundi au samedi** (validé le 31/10/2026) : chaque édition couvre les
   24 h précédentes ; le samedi = les infos du vendredi ; le lundi = 48 h (samedi et
   dimanche). Les samedis n'ont pas de mots planifiés : tirage habituel dans la base.
-- Coût API estimé : environ 2 à 3 fois l'édition imprimée (plus de synthèses
-  Sonnet), soit de l'ordre de 4 à 6 $ par mois, sous le plafond conseillé de 15 $.
+
+Vérifier une source avant de l'ajouter : lister les flux dans
+`scripts/verif/candidats.txt`, lancer le workflow « verification des sources »,
+lire le résultat dans `verif-sources.txt` (branche `diagnostic`).
+Chaque essai manuel copie aussi son journal d'exécution et sa page sur la branche
+`diagnostic` (dossier `essai/`).
 
 Réglages : `src/signal_matin/journal/mise_en_page.py` (constantes `NUM_…`).
 

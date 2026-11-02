@@ -552,3 +552,8 @@ def test_consigne_recherche_dans_la_synthese():
     c = art.Candidat("a1", "recherche", "Économie", "BCE", "T", "", "u", None, texte="texte")
     contenu = ia.requete_synthese(client, c, 4000, "long", True, recherche=True).contenu
     assert "La question" in contenu and "Les limites" in contenu
+
+
+def test_plafond_par_source():
+    retenus = ed._plafonner(["A", "A", "B", "A", "A", "B"], lambda x: x)
+    assert retenus == ["A", "A", "B", "A", "B"]

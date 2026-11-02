@@ -101,6 +101,20 @@ def _developpe_secours(candidat: art.Candidat, format_: str = "long") -> dict:
             "sections": [], "synthese": "", "secours": True}
 
 
+MAX_PAR_SOURCE = 3  # version numerique : par categorie, au plus 3 developpes et 3 breves par source
+
+
+def _plafonner(elements: list, source_de, maximum: int = MAX_PAR_SOURCE) -> list:
+    comptes: dict[str, int] = {}
+    retenus = []
+    for element in elements:
+        source = source_de(element)
+        if comptes.get(source, 0) < maximum:
+            comptes[source] = comptes.get(source, 0) + 1
+            retenus.append(element)
+    return retenus
+
+
 SCORE_A_COMPLETER = 8  # en dessous, un article au texte trop court devient une breve
 
 
@@ -182,6 +196,12 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
     for bloc in blocs:
         if bloc.id not in classements:
             classements[bloc.id], breves_redigees[bloc.id] = _secours_tri(bloc)
+        if numerique:
+            index_bloc = {c.id: c for c in bloc.candidats}
+            classements[bloc.id] = _plafonner(classements[bloc.id], lambda e: e[0].source)
+            breves_redigees[bloc.id] = _plafonner(
+                breves_redigees.get(bloc.id, []),
+                lambda b: index_bloc[b["id"]].source if b.get("id") in index_bloc else "")
         journal(f"  {bloc.id} : {len(bloc.candidats)} candidats → {len(classements[bloc.id])} à développer, "
                 f"{len(breves_redigees.get(bloc.id, []))} brèves")
 
