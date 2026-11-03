@@ -1,0 +1,405 @@
+{
+ "date": "2026-11-03",
+ "nouveaux_mots": [
+  {
+   "mot": "Volubile",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui parle avec abondance et rapidité.",
+   "exemple": "Un guide volubile nous raconta l'histoire du port."
+  },
+  {
+   "mot": "Enclin",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Porté naturellement à quelque chose, disposé à.",
+   "exemple": "Peu enclin à la confidence, il se tut."
+  },
+  {
+   "mot": "Désintermédiation",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "pro",
+   "definition": "Recul du rôle des intermédiaires (banques, distributeurs) au profit de relations directes.",
+   "exemple": "Les plateformes accélèrent la désintermédiation du crédit."
+  },
+  {
+   "mot": "Prébende",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Revenu attaché à une charge ; par extension, avantage lucratif obtenu sans grand effort.",
+   "exemple": "Il défendait ses prébendes avec acharnement."
+  },
+  {
+   "mot": "Tropisme",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Réaction d'orientation d'un organisme vers un stimulus ; au figuré, attirance instinctive.",
+   "exemple": "Le tropisme méditerranéen de la diplomatie française."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Vindicatif",
+   "definition": "Porté à la vengeance."
+  },
+  {
+   "mot": "Solvabilité",
+   "definition": "Capacité d'une personne ou d'une entreprise à honorer ses dettes."
+  },
+  {
+   "mot": "Titrisation",
+   "definition": "Technique financière qui transforme des créances peu liquides en titres négociables sur un marché."
+  },
+  {
+   "mot": "Sporadique",
+   "definition": "Qui se produit de façon irrégulière, isolée, par intervalles."
+  },
+  {
+   "mot": "Sycophante",
+   "definition": "Délateur, dénonciateur ; par extension, flatteur hypocrite."
+  }
+ ],
+ "articles": [
+  "https://www.actuia.com/actualite/la-justice-coreenne-plaide-pour-une-amende-contre-les-faux-arrets-de-lia/",
+  "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+  "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+  "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+  "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+  "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+  "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+  "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+  "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
+  "https://www.publicsenat.fr/actualites/economie/coup-de-pouce-du-smic-la-piste-dune-revalorisation-superieure-a-la-formule-legale-divise-au-senat",
+  "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-le-debat-sur-lineligibilite-de-marine-le-pen-relance",
+  "https://www.franceinfo.fr/economie/pouvoir-achat/un-francais-sur-trois-a-eu-du-mal-a-payer-des-factures-de-gaz-ou-d-electricite-ces-12-derniers-mois-selon-le-barometre-du-mediateur-de-l-energie_8264756.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/sante/les-personnes-sans-emploi-ont-une-sante-physique-et-surtout-mentale-degradee-selon-une-etude-de-sante-publique-france_8265275.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/a-17ans-un-pirate-informatique-raconte-sa-double-vie_8264753.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/politique/article/2026/11/02/au-sein-du-service-d-ordre-du-rassemblement-national-les-methodes-du-groupe-de-choc-de-kaiser_6805308_823448.html",
+  "https://www.lemonde.fr/politique/article/2026/11/03/budget-2027-l-assemblee-nationale-se-prepare-a-rejeter-un-texte-devenu-caduc-et-incoherent_6805521_823448.html",
+  "https://www.lemonde.fr/sport/article/2026/11/03/proces-du-guet-apens-hooligan-a-brest-on-se-demande-comment-il-n-y-a-pas-eu-dix-morts_6805354_3242.html",
+  "https://www.lemonde.fr/societe/article/2026/11/03/au-premier-jour-du-proces-de-la-petite-inconnue-de-l-a10-monsieur-vous-m-entendez-madame-vous-etes-la_6805486_3224.html",
+  "https://www.lemonde.fr/societe/article/2026/11/02/aux-proces-du-triple-narchomicide-de-2020-face-a-la-douleur-des-meres-un-accuse-pointe-les-roles-cles-d-amine-oualane-et-karim-harrat_6805321_3224.html",
+  "https://www.franceinfo.fr/societe/education/blocage-des-lycees/direct-les-organisations-de-jeunesse-appellent-a-une-nouvelle-journee-de-blocages-massifs-des-facs-et-des-lycees-avant-la-greve-de-jeudi_8265284.html#xtor=RSS-3-[lestitres]",
+  "https://www.aljazeera.com/news/2026/11/3/when-will-we-know-the-us-midterm-election-results?traffic_source=rss",
+  "https://thediplomat.com/2026/11/6b-binance-heist-exposes-how-north-korea-turned-hacking-into-a-state-revenue-stream/",
+  "https://www.scmp.com/news/china/diplomacy/article/3373075/us-strikes-irans-qeshm-island-ahead-midterms-trump-says-deal-could-happen",
+  "https://www.npr.org/2026/11/02/g-s1-151242/judge-tosses-case-fbi-officials-hunter-biden",
+  "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump",
+  "https://legrandcontinent.eu/fr/2026/11/02/larmee-russe-recule-en-ukraine-et-subit-ses-pertes-les-plus-elevees-depuis-2022/",
+  "https://www.scmp.com/news/china/politics/article/3373028/speak-last-chinas-fifth-plenum-moves-rein-regional-leaders",
+  "https://www.scmp.com/news/us/article/3373052/openai-executive-urges-caution-china-us-ai-talks-warns-distillation-threats",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/3/two-helicopters-crash-near-everest-base-camp-killing-indian-tourist?traffic_source=rss",
+  "https://www.aljazeera.com/sports/2026/11/3/afc-reschedules-asian-cup-2027-in-saudi-arabia-amid-regional-conflict?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/11/3/palestine-weekly-election-deadlock-meets-west-bank-sieges-gaza-killings?traffic_source=rss",
+  "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3304~9082a5f181.en.pdf",
+  "https://www.federalreserve.gov/econres/feds/heterogeneity-in-service-fee-sensitivity-evidence-from-atm-surcharges.htm",
+  "https://www.nber.org/papers/w35962#fromrss",
+  "https://www.nber.org/papers/w35970#fromrss",
+  "https://www.nber.org/papers/w35969#fromrss",
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005288",
+  "https://www.nber.org/papers/w35963#fromrss",
+  "https://www.pewresearch.org/short-reads/2026/11/02/americans-trust-in-information-from-news-organizations-has-risen-in-the-past-year/",
+  "https://www.nber.org/papers/w35965#fromrss",
+  "https://www.wboc.com/online_features/press_releases/german-federal-court-of-justice-issues-landmark-ruling-in-case-brought-by-alisher-usmanov-against/article_22f6b589-93e3-59aa-abaf-8c0a99248fb8.html",
+  "https://daryo.uz/en/2026/11/02/german-court-clears-way-for-usmanovs-lawsuit-against-eu-council-over-sanctions/",
+  "https://www.china-briefing.com/news/china-technology-export-controls/",
+  "https://www.aoshearman.com/en/insights/germanys-new-money-laundering-combating-act",
+  "https://kyivindependent.com/ukraine-eu-split-over-us-backed-plan-to-bring-russian-gas-back-to-europe/",
+  "https://wccftech.com/smugglers-hbm-throwaway-server-chips-us-export-controls-loophole-china-south-korea/",
+  "https://www.intelligenceonline.com/americas/2026/11/03/chair-of-trump-s-trans-caspian-fund-linked-to-sanctions-busting-swiss-lawyer,110912541-art",
+  "https://www.aviacionline.com/english/commercial-aviation/europe/belavia-with-11-boeing-jets-in-its-fleet-secures-us-licence-to-buy-spare-parts_a6ae8df1175e8c10113e7db51",
+  "https://energynews.pro/en/washington-extends-serbian-oil-company-niss-license-until-december-11",
+  "https://insideclimatenews.org/news/02112026/beef-climate-impacts-accuracy/",
+  "https://insideclimatenews.org/news/02112026/florida-hurricane-damage-highlights-vulnerable-groups-climate-stress/",
+  "https://www.carbonbrief.org/interactive-who-wants-what-at-the-cop31-climate-change-summit",
+  "https://science.nasa.gov/earth/earth-observatory/the-pacifics-busy-storm-season/",
+  "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
+  "https://www.quantamagazine.org/is-there-anything-left-in-the-dream-of-cold-fusion-20261102/",
+  "https://lejournal.cnrs.fr/articles/mmx-ou-comment-ramener-un-peu-de-mars-a-la-maison",
+  "https://www.sciencesetavenir.fr/espace/exploration/l-astronaute-sophie-adenot-reve-d-aller-sur-la-lune_195795?xtor=RSS-9",
+  "https://www.sciencesetavenir.fr/sante/le-traitement-anti-obesite-wegovy-arrive-en-comprime-dans-les-pharmacies-francaises_195789?xtor=RSS-16"
+ ],
+ "titres": [
+  "Corée du Sud : la justice veut une amende contre les fausses citations de l'IA",
+  "« Super Intelligence » : le nouveau test de loyauté voulu par Donald Trump",
+  "Anthropic dit approcher de l'auto-amélioration récursive de l'IA",
+  "Coup de pouce du Smic : une hausse au-delà de la formule légale divise le Sénat",
+  "Inéligibilité de Marine Le Pen : le pourvoi en cassation relance le débat juridique",
+  "Un Français sur trois a eu du mal à payer ses factures d'énergie en un an",
+  "Chômage : une santé physique et surtout mentale dégradée, selon Santé publique France",
+  "Cyberattaques ANTS et SFR : un hacker de 17 ans raconte sa double vie",
+  "Élections de mi-mandat aux États-Unis : quand connaîtra-t-on les résultats ?",
+  "Vol de 6 milliards de dollars chez Binance : la Corée du Nord, hackers d'État",
+  "Frappes américaines sur l'île iranienne de Qeshm à la veille des élections de mi-mandat",
+  "Un juge fédéral rejette les poursuites contre deux anciens responsables du FBI",
+  "La Cour suprême refuse d'écarter des bulletins de vote en Californie",
+  "Comment la BCE perçoit les non-banques : un indice fondé sur ses discours",
+  "Frais de service : une sensibilité très inégale, l'exemple des distributeurs",
+  "Déséquilibres mondiaux : la finance pèse plus que le commerce",
+  "Fiscalité et appariement : des taux optimaux plus bas qu'à l'ordinaire",
+  "Surveillance de l'air en Chine : les analystes intègrent mieux le risque écologique",
+  "Diabète de type 1 de l'enfant en Finlande : le pic du confinement n'a pas duré",
+  "Usmanov c. Conseil de l'UE : la Cour fédérale allemande juge illégal le refus de notifier",
+  "Sanctions : la justice allemande autorise la plainte d'Ousmanov contre le Conseil de l'UE",
+  "China Proposes Export Curbs on AI, Biopharma, and Solar Tech – How Will It Impact China Sourcing?",
+  "Germany's new Money Laundering Combating Act: Key changes",
+  "Ukraine, EU split over US-backed plan to bring Russian gas back to Europe",
+  "Smugglers Reportedly Pair Top-Tier HBM With Throwaway Server Chips To Dodge U.S. Export Controls, Then Melt Them Apart In China",
+  "‘Bookkeeping Trick’ and Fuzzy Math Conceal the Climate Impacts of Beef, Researchers Say",
+  "Hurricane Damage to a Florida Domestic Violence Shelter Shows Climate’s Stress on Vulnerable Groups",
+  "Interactive: Who wants what at the COP31 climate change summit",
+  "The Pacific’s Busy Storm Season",
+  "NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies",
+  "Is There Anything Left in the Dream of Cold Fusion?"
+ ],
+ "solutions": {
+  "sudoku": [
+   8,
+   5,
+   2,
+   6,
+   7,
+   9,
+   3,
+   1,
+   4,
+   4,
+   6,
+   7,
+   1,
+   5,
+   3,
+   8,
+   2,
+   9,
+   3,
+   1,
+   9,
+   2,
+   4,
+   8,
+   7,
+   5,
+   6,
+   6,
+   9,
+   5,
+   3,
+   2,
+   1,
+   4,
+   7,
+   8,
+   2,
+   7,
+   4,
+   8,
+   9,
+   5,
+   1,
+   6,
+   3,
+   1,
+   3,
+   8,
+   4,
+   6,
+   7,
+   5,
+   9,
+   2,
+   7,
+   8,
+   3,
+   9,
+   1,
+   6,
+   2,
+   4,
+   5,
+   5,
+   4,
+   6,
+   7,
+   8,
+   2,
+   9,
+   3,
+   1,
+   9,
+   2,
+   1,
+   5,
+   3,
+   4,
+   6,
+   8,
+   7
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     3,
+     3
+    ],
+    [
+     0,
+     3,
+     3,
+     4
+    ],
+    [
+     0,
+     7,
+     4,
+     1
+    ],
+    [
+     0,
+     8,
+     7,
+     1
+    ],
+    [
+     0,
+     9,
+     10,
+     1
+    ],
+    [
+     3,
+     0,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     6,
+     1
+    ],
+    [
+     3,
+     5,
+     5,
+     2
+    ],
+    [
+     4,
+     7,
+     5,
+     1
+    ],
+    [
+     6,
+     0,
+     2,
+     4
+    ],
+    [
+     7,
+     8,
+     2,
+     1
+    ],
+    [
+     8,
+     0,
+     2,
+     3
+    ],
+    [
+     8,
+     3,
+     2,
+     1
+    ],
+    [
+     8,
+     5,
+     2,
+     2
+    ],
+    [
+     9,
+     4,
+     1,
+     1
+    ],
+    [
+     9,
+     7,
+     1,
+     2
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    1,
+    5,
+    2,
+    3,
+    4,
+    6
+   ],
+   [
+    6,
+    2,
+    3,
+    5,
+    1,
+    4
+   ],
+   [
+    2,
+    6,
+    4,
+    1,
+    5,
+    3
+   ],
+   [
+    3,
+    4,
+    1,
+    6,
+    2,
+    5
+   ],
+   [
+    5,
+    1,
+    6,
+    4,
+    3,
+    2
+   ],
+   [
+    4,
+    3,
+    5,
+    2,
+    6,
+    1
+   ]
+  ],
+  "compte": [
+   "50 + 25 = 75",
+   "75 − 2 = 73",
+   "73 − 10 = 63",
+   "63 × 5 = 315",
+   "315 + 5 = 320"
+  ]
+ },
+ "reponses_quiz": []
+}
