@@ -1,0 +1,666 @@
+<?xml version="1.0"?>
+<rss version="2.0" xml:base="link" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:media="http://www.rssboard.org/media-rss" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <channel>
+    <title>China - South China Morning Post</title>
+    <link>https://www.scmp.com/rss/4/feed</link>
+    <description>The latest breaking news from China.</description>
+    <language>en</language>
+    <image>
+      <url>https://assets-v2.i-scmp.com/production/static/img/icons/scmp-meta-1200x630.png</url>
+      <title>China - South China Morning Post</title>
+      <link>https://www.scmp.com</link>
+    </image>
+    <atom:link href="https://www.scmp.com/rss/4/feed" rel="self" type="application/rss+xml"/>
+    <item>
+      <author>Brian Rhoads,Raymond Ma</author>
+      <dc:creator>Brian Rhoads,Raymond Ma</dc:creator>
+      <description>Democrats won control of both houses of Congress in midterm elections as US voters punished President Donald Trump over inflation, corruption and rising healthcare costs.
+The party was on track for at least 54 Senate seats after upset wins in long-standing Republican strongholds including South Carolina, Texas and Kansas. In the House of Representatives, Democrats were set to pick up dozens of seats and gain a double-figure majority.
+A collapse in Trump’s approval ratings amid record petrol and...</description>
+      <guid isPermaLink="true">https://www.scmp.com/plus/news/us/us-elections/article/3373259/trump-suffers-midterms-trouncing-weeks-xi-meeting</guid>
+      <link>https://www.scmp.com/plus/news/us/us-elections/article/3373259/trump-suffers-midterms-trouncing-weeks-xi-meeting</link>
+      <pubDate>Wed, 04 Nov 2026 09:24:47 +0000</pubDate>
+      <title>Trump suffers midterms trouncing weeks before Xi meeting</title>
+      <enclosure length="3946" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/d6816518-c9c8-460b-983b-365bc4c5bac5_b2183c69.jpg?itok=7PqZfSNF&amp;v=1793784277"/>
+      <media:content height="2632" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/d6816518-c9c8-460b-983b-365bc4c5bac5_b2183c69.jpg?itok=7PqZfSNF&amp;v=1793784277" width="3946"/>
+    </item>
+    <item>
+      <author>Marco Vicenzino</author>
+      <dc:creator>Marco Vicenzino</dc:creator>
+      <description>China is becoming increasingly important to the Gulf’s economic future. Yet the Gulf remains capable of disrupting China’s own.
+That is the contradiction exposed by the US-Iran war. Beijing’s importance as an energy customer, investor and technology partner has grown, but its ability to guarantee the maritime routes connecting the Middle East to East Asia remains limited.
+The next contest in global energy will concern not only who produces and consumes it, but who can preserve access when...</description>
+      <guid isPermaLink="true">https://www.scmp.com/opinion/china-opinion/article/3372480/us-iran-war-shows-chinas-influence-cant-secure-its-line-gulf-oil</guid>
+      <link>https://www.scmp.com/opinion/china-opinion/article/3372480/us-iran-war-shows-chinas-influence-cant-secure-its-line-gulf-oil</link>
+      <pubDate>Wed, 04 Nov 2026 08:30:07 +0000</pubDate>
+      <title>As US-Iran war shows, China’s influence can’t secure its line to Gulf oil</title>
+      <enclosure length="3865" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/27484425-111e-4fd4-9553-76583a03db3f_db655eb0.jpg?itok=pzzl1syA&amp;v=1793199102"/>
+      <media:content height="2577" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/28/27484425-111e-4fd4-9553-76583a03db3f_db655eb0.jpg?itok=pzzl1syA&amp;v=1793199102" width="3865"/>
+    </item>
+    <item>
+      <author>Amber Wang</author>
+      <dc:creator>Amber Wang</dc:creator>
+      <description>Taiwan expressed concern on Tuesday over more than 100 People’s Liberation Army naval vessels and mainland Chinese coastguard ships sailing across the western Pacific, including the Liaoning strike group conducting drills in the Philippine Sea.
+The maritime deployment overlapped with a sharp spike in PLA aerial activity near the island. Taiwan’s defence ministry reported 49 sorties of PLA aircraft in the 24 hours to 6am on Tuesday, marking the highest single-day total this year. The number...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/military/article/3373249/taiwan-flags-massive-pla-naval-mobilisation-spike-air-sorties</guid>
+      <link>https://www.scmp.com/news/china/military/article/3373249/taiwan-flags-massive-pla-naval-mobilisation-spike-air-sorties</link>
+      <pubDate>Wed, 04 Nov 2026 08:26:37 +0000</pubDate>
+      <title>Taiwan flags massive PLA naval mobilisation, spike in air sorties</title>
+      <enclosure length="1200" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/432dd966-5263-450a-a88f-98c4d5b39498_9a01628e.jpg?itok=dyzkHkGr&amp;v=1793780795"/>
+      <media:content height="751" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/432dd966-5263-450a-a88f-98c4d5b39498_9a01628e.jpg?itok=dyzkHkGr&amp;v=1793780795" width="1200"/>
+    </item>
+    <item>
+      <author>Eve Qiao</author>
+      <dc:creator>Eve Qiao</dc:creator>
+      <description>Follow the SCMP’s live coverage here
+Chinese social media users have voiced mixed views on the US midterm elections, criticising American politics while debating the implications of President Donald Trump’s political future for China.
+Held on Tuesday, the midterm elections saw Democrats win control of both chambers of the US Congress, taking the House of Representatives and the Senate from the Republicans.
+Democrats reached the 218-seat threshold needed for a House majority and also secured...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3373236/fake-democracy-or-plus-beijing-chinese-internet-users-us-midterms</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3373236/fake-democracy-or-plus-beijing-chinese-internet-users-us-midterms</link>
+      <pubDate>Wed, 04 Nov 2026 07:11:12 +0000</pubDate>
+      <title>‘Fake democracy’ or a plus for Beijing? Chinese internet users on the US midterms</title>
+      <enclosure length="4096" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/af0af4f2-fdd0-43e7-8b5f-aaeb71d73a2e_765f000e.jpg?itok=_a4KH6Qr&amp;v=1793776262"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/af0af4f2-fdd0-43e7-8b5f-aaeb71d73a2e_765f000e.jpg?itok=_a4KH6Qr&amp;v=1793776262" width="4096"/>
+    </item>
+    <item>
+      <author>Dewey Sim</author>
+      <dc:creator>Dewey Sim</dc:creator>
+      <description>Follow the SCMP’s live coverage here
+A Democratic-controlled US Congress will ramp up pressure on Beijing over Taiwan, artificial intelligence (AI) and export controls, even if the US midterm results leave Washington’s overall strategy towards Beijing unchanged, according to a Chinese analyst.
+Zhao Minghao, a professor at Fudan University’s Institute of International Studies, called the results so far a “blue tsunami” and a “big win” for the Democrats that would turn US President Donald Trump...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3373232/democratic-led-us-congress-turn-heat-beijing-over-ai-taiwan-analyst</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3373232/democratic-led-us-congress-turn-heat-beijing-over-ai-taiwan-analyst</link>
+      <pubDate>Wed, 04 Nov 2026 06:49:33 +0000</pubDate>
+      <title>Democratic-led US Congress to turn up heat on Beijing over AI, Taiwan: analyst</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/792347b9-15b1-4140-9088-5f5a44f57527_e6e2c1de.jpg?itok=WyrPs29F&amp;v=1793774971"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/792347b9-15b1-4140-9088-5f5a44f57527_e6e2c1de.jpg?itok=WyrPs29F&amp;v=1793774971" width="4095"/>
+    </item>
+    <item>
+      <author>Khushboo Razdan</author>
+      <dc:creator>Khushboo Razdan</dc:creator>
+      <description>Follow the SCMP’s live coverage here
+In what appears to be an early attempt to distance himself from the Democrats’ historic gains, US President Donald Trump has sought to shift attention away from his party’s performance in the midterm elections, taking to social media to remind voters that he “wasn’t on the ballot”.
+“I wasn’t on the Ballot and if I was, we would have won IN A LANDSLIDE! Thank you for your attention to this matter,” Trump wrote as early results showed Democratic gains in places...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3373226/i-wasnt-ballot-trump-deflects-blame-democrats-track-control-congress</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3373226/i-wasnt-ballot-trump-deflects-blame-democrats-track-control-congress</link>
+      <pubDate>Wed, 04 Nov 2026 05:48:42 +0000</pubDate>
+      <title>‘I wasn’t on the ballot’: Trump deflects blame as Democrats on track to control Congress</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/f9a95298-d2e6-4d72-aef5-fd90a15345bc_5e171322.jpg?itok=vGuHc7rO&amp;v=1793771122"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/f9a95298-d2e6-4d72-aef5-fd90a15345bc_5e171322.jpg?itok=vGuHc7rO&amp;v=1793771122" width="4095"/>
+    </item>
+    <item>
+      <author>Mark Magnier</author>
+      <dc:creator>Mark Magnier</dc:creator>
+      <description>Follow the SCMP’s live coverage here
+After weeks of insults, fearmongering and eye-popping spending on advertising, Americans settled down to vote on Tuesday, unleashing a blue wave that saw Democrats projected to take the House and the Senate, in a sharp rebuke to US President Donald Trump and his controversial governing style.
+In a stunning development, Associated Press also projected that Democrat James Talarico won the Texas US Senate election, defeating Republican nominee Ken Paxton and...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/us/politics/article/3373224/us-voters-unleash-blue-wave-handing-congress-democrats-and-rebuking-trump</guid>
+      <link>https://www.scmp.com/news/us/politics/article/3373224/us-voters-unleash-blue-wave-handing-congress-democrats-and-rebuking-trump</link>
+      <pubDate>Wed, 04 Nov 2026 05:33:25 +0000</pubDate>
+      <title>US voters unleash blue wave, handing Congress to Democrats in rebuke to Trump</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/3a7f5446-5469-435e-9cfc-94bdaf57c1c7_d08808c8.jpg?itok=JgfsYWKD&amp;v=1793770394"/>
+      <media:content height="2925" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/3a7f5446-5469-435e-9cfc-94bdaf57c1c7_d08808c8.jpg?itok=JgfsYWKD&amp;v=1793770394" width="4095"/>
+    </item>
+    <item>
+      <author>Khushboo Razdan</author>
+      <dc:creator>Khushboo Razdan</dc:creator>
+      <description>Follow the SCMP’s live coverage here
+For years, the Democratic Socialists of America (DSA) had little influence over the machinery of the Democratic Party. That is beginning to change.
+The organisation has more than doubled its membership since 2024, reaching roughly 120,000, while growing numbers of DSA-backed candidates are positioning to expand its presence in Congress from two members to as many as seven.
+The breakthrough came in New York, where Zohran Mamdani’s victory in the 2025 mayoral...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3373209/frequently-labelled-communists-who-are-democratic-socialists-america</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3373209/frequently-labelled-communists-who-are-democratic-socialists-america</link>
+      <pubDate>Wed, 04 Nov 2026 03:41:25 +0000</pubDate>
+      <title>Frequently labelled as communists, who are the Democratic Socialists of America?</title>
+      <enclosure length="3000" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/7ff5a28b-45fc-40d1-ae14-484cdcaff508_da832cdb.jpg?itok=wg9PHkhy&amp;v=1793763314"/>
+      <media:content height="2000" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/7ff5a28b-45fc-40d1-ae14-484cdcaff508_da832cdb.jpg?itok=wg9PHkhy&amp;v=1793763314" width="3000"/>
+    </item>
+    <item>
+      <author>Dannie Peng</author>
+      <dc:creator>Dannie Peng</dc:creator>
+      <description>The Tibetan Plateau, home to the world’s largest expanse of alpine permafrost, is warming at about twice the global average but, counter-intuitively,researchers have found that ice in parts of the Tibet autonomous region is actually thickening.
+A team from Peking University found that shallow ground ice has unexpectedly increased over the past 20 years, affecting more than a third of the plateau’s permafrost, a phenomenon driven largely by natural climate factors.
+The authors noted that the...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/science/article/3373097/chinese-scientists-discover-thickening-ground-ice-parts-warming-tibet</guid>
+      <link>https://www.scmp.com/news/china/science/article/3373097/chinese-scientists-discover-thickening-ground-ice-parts-warming-tibet</link>
+      <pubDate>Wed, 04 Nov 2026 02:00:12 +0000</pubDate>
+      <title>Chinese scientists discover thickening ground ice in parts of warming Tibet</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/c0f6a8aa-4fc1-4ae9-82c3-290865610440_1d1e4c4a.jpg?itok=qP2tKJ13&amp;v=1793688346"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/c0f6a8aa-4fc1-4ae9-82c3-290865610440_1d1e4c4a.jpg?itok=qP2tKJ13&amp;v=1793688346" width="4095"/>
+    </item>
+    <item>
+      <author>Orange Wang</author>
+      <dc:creator>Orange Wang</dc:creator>
+      <description>Follow the SCMP’s live coverage here
+The United States’ midterm elections are unlikely to deliver a “disruptive” shock to relations between Beijing and Washington despite potential volatility over the issue of Taiwan, according to a prominent mainland Chinese expert in US studies.
+Chen Dongxiao, president of the Shanghai Institutes for International Studies, said any shift in the make-up of the US Congress would mainly complicate President Donald Trump’s domestic agenda.
+The impact on foreign...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3373194/will-us-midterm-results-lead-disruption-washingtons-ties-china</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3373194/will-us-midterm-results-lead-disruption-washingtons-ties-china</link>
+      <pubDate>Wed, 04 Nov 2026 01:35:14 +0000</pubDate>
+      <title>Will US midterm results lead to disruption in Washington’s ties with China?</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/29f4f09d-90c1-4baf-949f-36a9e6e5e76d_b18d3917.jpg?itok=cojUmIyl&amp;v=1793755379"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/29f4f09d-90c1-4baf-949f-36a9e6e5e76d_b18d3917.jpg?itok=cojUmIyl&amp;v=1793755379" width="4095"/>
+    </item>
+    <item>
+      <author>Albee Zhang</author>
+      <dc:creator>Albee Zhang</dc:creator>
+      <description>China is helping to train Solomon Islands police to use water cannons as part of an ongoing security partnership that is viewed with scepticism by the West.
+The Chinese embassy said on Tuesday that six officers from the Royal Solomon Islands Police Force took part in a week-long training exercise, without giving dates.
+The programme helped familiarise officers with the use of crowd control vehicles and different scenarios in which they may be used, the embassy said.
+The programme cultivated a...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3373153/china-training-solomon-islands-police-use-water-cannons-under-security-pact</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3373153/china-training-solomon-islands-police-use-water-cannons-under-security-pact</link>
+      <pubDate>Wed, 04 Nov 2026 00:00:19 +0000</pubDate>
+      <title>China training Solomon Islands police to use water cannons under security pact</title>
+      <enclosure length="2328" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/eddf3bd7-1458-493b-8393-c78604c72793_089eae0c.jpg?itok=DnPZiNVp&amp;v=1793702858"/>
+      <media:content height="1275" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/eddf3bd7-1458-493b-8393-c78604c72793_089eae0c.jpg?itok=DnPZiNVp&amp;v=1793702858" width="2328"/>
+    </item>
+    <item>
+      <author>Teresa Elena Frontado,Han Li,Zhang Tong</author>
+      <dc:creator>Teresa Elena Frontado,Han Li,Zhang Tong</dc:creator>
+      <description>Polls began closing across the United States on Tuesday evening in midterm elections that will decide whether US President Donald Trump’s Republicans keep control of Congress, after a day of voting disrupted by floods and machine glitches but largely free of the problems many had feared.
+The first polls closed at 6pm Eastern Time (7am Hong Kong time), with most states following over the next several hours. The last state to close polls will be Alaska, at 1am Eastern Time (2pm Hong Kong time)....</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/us/us-elections/article/3373191/us-midterms-what-happened-while-asia-slept-and-when-expect-results</guid>
+      <link>https://www.scmp.com/news/us/us-elections/article/3373191/us-midterms-what-happened-while-asia-slept-and-when-expect-results</link>
+      <pubDate>Tue, 03 Nov 2026 23:57:21 +0000</pubDate>
+      <title>US midterms: what happened while Asia slept, and when to expect results</title>
+      <enclosure length="4096" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/32e0679a-efcf-42b9-a185-fa1b8342ad04_d61661ec.jpg?itok=hn5a6JBU&amp;v=1793751042"/>
+      <media:content height="2781" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/32e0679a-efcf-42b9-a185-fa1b8342ad04_d61661ec.jpg?itok=hn5a6JBU&amp;v=1793751042" width="4096"/>
+    </item>
+    <item>
+      <author>Liu Zhen</author>
+      <dc:creator>Liu Zhen</dc:creator>
+      <description>Amid continuously escalating tensions, Chinese Foreign Minister Wang Yi on Tuesday accused a handful of Philippine politicians of “egregious, irrational and intolerable” conduct, urging Manila to rein in their anti-China rhetoric, state media reported.
+Wang made the remarks during a phone conversation with Philippine Foreign Minister Theresa Lazaro, as China-Philippines relations were currently facing what he described as “malicious interference”, according to Xinhua.
+“Some Philippine...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3373185/china-accuses-philippine-politicians-intolerable-conduct-tensions-escalate</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3373185/china-accuses-philippine-politicians-intolerable-conduct-tensions-escalate</link>
+      <pubDate>Tue, 03 Nov 2026 18:42:37 +0000</pubDate>
+      <title>China accuses Philippine politicians of ‘intolerable’ conduct as tensions rise</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/835c8ad1-67fd-442e-8793-4a5354ee5ed0_c444266e.jpg?itok=ed5osrO0&amp;v=1793731643"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/04/835c8ad1-67fd-442e-8793-4a5354ee5ed0_c444266e.jpg?itok=ed5osrO0&amp;v=1793731643" width="4095"/>
+    </item>
+    <item>
+      <author>Khushboo Razdan</author>
+      <dc:creator>Khushboo Razdan</dc:creator>
+      <description>Last week, Somaliland, a breakaway region that declared independence from Somalia in 1991, welcomed its first ambassador from Israel.
+Diplomat Michael Lotem presented his credentials in Hargeisa, while officials laid the cornerstone for an Israeli embassy. The ceremony, announced by Israel’s foreign ministry on Sunday, formalised a relationship that began with mutual recognition in December.
+Somalia, the African Union, Arab states and China strongly oppose the move, reaffirming Somaliland as...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3373170/israel-deepens-somaliland-ties-first-ambassador-testing-horn-africa-balance</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3373170/israel-deepens-somaliland-ties-first-ambassador-testing-horn-africa-balance</link>
+      <pubDate>Tue, 03 Nov 2026 14:00:23 +0000</pubDate>
+      <title>Israel deepens Somaliland ties with first ambassador, testing Horn of Africa balance</title>
+      <enclosure length="4096" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/c869fff5-0d71-492d-bc81-d23ff866fb52_e768f958.jpg?itok=GG0olt3Z&amp;v=1793710815"/>
+      <media:content height="2830" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/c869fff5-0d71-492d-bc81-d23ff866fb52_e768f958.jpg?itok=GG0olt3Z&amp;v=1793710815" width="4096"/>
+    </item>
+    <item>
+      <author>SCMP</author>
+      <dc:creator>SCMP</dc:creator>
+      <description>We have selected seven of the most interesting and important news stories covering global relations from the past few weeks. If you would like to see more of our reporting, please consider subscribing.
+1. China warns EU not to ‘fantasise’ on trade approach after ‘kill switch’ threat
+
+Beijing warned Brussels not to “fantasise” that taking a hard line will force it into concessions, as the bloc confirmed plans for a gung-ho new “kill switch” that would allow Brussels to “immediately” kick China...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3372797/chinas-ai-shock-eu-kill-switch-ukraine-hope-mbappe-fiasco-7-global-relations-reads</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3372797/chinas-ai-shock-eu-kill-switch-ukraine-hope-mbappe-fiasco-7-global-relations-reads</link>
+      <pubDate>Tue, 03 Nov 2026 14:00:16 +0000</pubDate>
+      <title>China’s AI ‘shock’, EU ‘kill switch’, Ukraine hope, Mbappe fiasco: 7 global relations reads</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/31/c14571ce-f2f3-4e98-a6ce-a8a88b1f8c38_721bb444.jpg?itok=PA7G-0sR&amp;v=1793391112"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/31/c14571ce-f2f3-4e98-a6ce-a8a88b1f8c38_721bb444.jpg?itok=PA7G-0sR&amp;v=1793391112" width="4095"/>
+    </item>
+    <item>
+      <author>SCMP</author>
+      <dc:creator>SCMP</dc:creator>
+      <description>We have selected seven of the most interesting and important news stories covering Latin American relations from the past few weeks. If you would like to see more of our reporting, please consider subscribing.
+1. Air China scrambles to fly stranded passengers out of fuel-starved Cuba
+
+As a US oil embargo deepened Cuba’s energy crisis, dozens of Air China passengers found themselves stranded on the island.
+Read the full story here.
+2. Paraguay tech minister defies Beijing sanctions, vows to...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3372642/cuba-flight-taiwan-trade-pushback-panama-probe-7-latin-america-relations-reads</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3372642/cuba-flight-taiwan-trade-pushback-panama-probe-7-latin-america-relations-reads</link>
+      <pubDate>Tue, 03 Nov 2026 14:00:08 +0000</pubDate>
+      <title>Cuba flight, Taiwan trade pushback, Panama probe: 7 Latin America relations reads</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/fdd4ceca-6220-4aa3-a342-4668abdfb2a4_a7102293.jpg?itok=KfV-mr4i&amp;v=1793310959"/>
+      <media:content height="2731" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/fdd4ceca-6220-4aa3-a342-4668abdfb2a4_a7102293.jpg?itok=KfV-mr4i&amp;v=1793310959" width="4095"/>
+    </item>
+    <item>
+      <author>Liu Zhen</author>
+      <dc:creator>Liu Zhen</dc:creator>
+      <description>Zhang Shengmin, China’s most senior uniformed general, met Russian Defence Minister Andrey Belousov in Beijing on Tuesday in his first publicly reported meeting with a foreign official since he became a member of the Politburo.
+Zhang, the vice-chairman of China’s Central Military Commission (CMC), pledged to deepen military cooperation and strategic coordination with Russia during the meeting at the Diaoyutai State Guesthouse.
+He was elected to the Politburo last week at a key Communist Party...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/military/article/3373176/top-chinese-general-meets-russian-defence-minister-days-after-politburo-appointment</guid>
+      <link>https://www.scmp.com/news/china/military/article/3373176/top-chinese-general-meets-russian-defence-minister-days-after-politburo-appointment</link>
+      <pubDate>Tue, 03 Nov 2026 13:35:27 +0000</pubDate>
+      <title>Top Chinese general meets Russian defence minister days after Politburo appointment</title>
+      <enclosure length="1324" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/e31f5d32-8f34-44e4-b74d-309ecb6b6196_46c8fae6.jpg?itok=iRTazNG7&amp;v=1793712924"/>
+      <media:content height="804" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/e31f5d32-8f34-44e4-b74d-309ecb6b6196_46c8fae6.jpg?itok=iRTazNG7&amp;v=1793712924" width="1324"/>
+    </item>
+    <item>
+      <author>Phoebe Zhang</author>
+      <dc:creator>Phoebe Zhang</dc:creator>
+      <description>A Chinese court has begun hearings in a defamation case filed by authorities and institutes in Beijing and Wuhan against the US state of Missouri over accusations tied to Covid-19.
+In a notice on Monday, the Wuhan Intermediate People’s Court said it held a hearing on Friday and legal proceedings were continuing.
+The case was jointly filed on April 30, 2025 by the Wuhan government in Hubei province, the Chinese Academy of Sciences and its subordinate entity, the Wuhan Institute of Virology (WIV),...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/politics/article/3373161/chinese-court-hears-us535-billion-covid-defamation-case-against-us-state-missouri</guid>
+      <link>https://www.scmp.com/news/china/politics/article/3373161/chinese-court-hears-us535-billion-covid-defamation-case-against-us-state-missouri</link>
+      <pubDate>Tue, 03 Nov 2026 13:00:09 +0000</pubDate>
+      <title>Chinese court hears US$53.5 billion Covid defamation case against US state of Missouri</title>
+      <enclosure length="3000" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/992b90c5-b59e-4aff-9ebc-0019398445fc_836fb86d.jpg?itok=oszPCgdi&amp;v=1793707224"/>
+      <media:content height="2000" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/992b90c5-b59e-4aff-9ebc-0019398445fc_836fb86d.jpg?itok=oszPCgdi&amp;v=1793707224" width="3000"/>
+    </item>
+    <item>
+      <author>Liu Zhen</author>
+      <dc:creator>Liu Zhen</dc:creator>
+      <description>China appears to be testing a stealthy new trimaran at sea, according to a photograph circulating on social media, in what could be a further effort to develop unconventional naval platforms.
+The image first emerged on Weibo on Sunday and appears to show a vessel featuring an inverted wave-piercing bow, three-hull design and angular superstructure surfaces that could be intended to reduce its radar signature.
+The vessel, which is fitted with a prominent antenna mast and multiple dome-shaped...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/military/article/3373134/china-tests-wave-piercing-stealth-trimaran-unconventional-naval-fleet-grows</guid>
+      <link>https://www.scmp.com/news/china/military/article/3373134/china-tests-wave-piercing-stealth-trimaran-unconventional-naval-fleet-grows</link>
+      <pubDate>Tue, 03 Nov 2026 12:00:12 +0000</pubDate>
+      <title>China tests wave-piercing stealth trimaran as unconventional naval fleet grows</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/67e25f38-4c8f-4c9c-96b7-d3e8b1866d6a_44c5b934.jpg?itok=9X4KCihU&amp;v=1793697793"/>
+      <media:content height="1346" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/67e25f38-4c8f-4c9c-96b7-d3e8b1866d6a_44c5b934.jpg?itok=9X4KCihU&amp;v=1793697793" width="4095"/>
+    </item>
+    <item>
+      <author>Orange Wang</author>
+      <dc:creator>Orange Wang</dc:creator>
+      <description>China has pledged to work with Pakistan to advance “high-level security cooperation” and ensure the safety of a joint flagship infrastructure project that has become a target for terrorists.
+That was the message Liu Haixing, head of the Communist Party’s International Department, conveyed in talks with Pakistan defence forces chief Asim Munir and Prime Minister Shehbaz Sharif on Monday, as part of his first official visit to the South Asian country since taking office just over a year ago.
+In...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3373147/beijing-offers-boost-china-pakistan-corridor-safety-terror-threat-grows</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3373147/beijing-offers-boost-china-pakistan-corridor-safety-terror-threat-grows</link>
+      <pubDate>Tue, 03 Nov 2026 11:00:14 +0000</pubDate>
+      <title>Beijing offers to boost China-Pakistan corridor safety as terror threat grows</title>
+      <enclosure length="1440" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/34c0de37-3535-45d5-aeeb-55570b522ebf_e87d9819.jpg?itok=6LbcowxM&amp;v=1793701071"/>
+      <media:content height="1020" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/34c0de37-3535-45d5-aeeb-55570b522ebf_e87d9819.jpg?itok=6LbcowxM&amp;v=1793701071" width="1440"/>
+    </item>
+    <item>
+      <author>Albee Zhang</author>
+      <dc:creator>Albee Zhang</dc:creator>
+      <description>A People’s Liberation Army air defence unit has for the first time intercepted two new types of missile simultaneously during a drill – including one that made a sudden change of direction, according to state television.
+The CCTV report on Monday said it was a rapid response operation by the ground-based Shenwei Missile Battalion – under the PLA Central Theatre Command Air Force – which is equipped with Hongqing surface-to-air missiles.
+It did not disclose the type of missiles intercepted or any...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/military/article/3373094/chinas-hq-series-intercepts-2-new-missile-types-pla-tests-weapon-platform</guid>
+      <link>https://www.scmp.com/news/china/military/article/3373094/chinas-hq-series-intercepts-2-new-missile-types-pla-tests-weapon-platform</link>
+      <pubDate>Tue, 03 Nov 2026 10:00:14 +0000</pubDate>
+      <title>China’s HQ series intercepts 2 new missile types as PLA tests weapon platform</title>
+      <enclosure length="2000" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/9b459596-d52c-476b-88e9-971dd862a77a_2e91f8e6.jpg?itok=q-CGGiwB&amp;v=1793687431"/>
+      <media:content height="1333" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/9b459596-d52c-476b-88e9-971dd862a77a_2e91f8e6.jpg?itok=q-CGGiwB&amp;v=1793687431" width="2000"/>
+    </item>
+    <item>
+      <author>Cao Jiaxuan</author>
+      <dc:creator>Cao Jiaxuan</dc:creator>
+      <description>China’s embassy in Papua New Guinea has disputed reports that a suspected Chinese-made artillery shell was found in a shipping container in Port Moresby, saying the object was instead a shell-shaped wine bottle.
+The embassy said in a social media post on Tuesday it was awaiting the official findings of an investigation by the Royal Papua New Guinea Constabulary (RPNGC).
+It cited an on-site verification by a company involved in the case, which said the object was a wine bottle. “It poses no...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3373143/china-rejects-png-artillery-claim-says-object-wine-bottle-poses-no-danger</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3373143/china-rejects-png-artillery-claim-says-object-wine-bottle-poses-no-danger</link>
+      <pubDate>Tue, 03 Nov 2026 09:59:32 +0000</pubDate>
+      <title>What is it? PNG says it’s an artillery shell. China says it’s a wine bottle</title>
+      <enclosure length="1200" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/ba39626c-70eb-4177-9bbd-4ff4351a06ca_c5d3a09a.jpg?itok=UTPSRfLq&amp;v=1793699892"/>
+      <media:content height="720" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/ba39626c-70eb-4177-9bbd-4ff4351a06ca_c5d3a09a.jpg?itok=UTPSRfLq&amp;v=1793699892" width="1200"/>
+    </item>
+    <item>
+      <author>SCMP</author>
+      <dc:creator>SCMP</dc:creator>
+      <description>This article was first published on November 4, 2011.
+China a step closer to building its own space station
+by Stephen Chen
+Encouraged by yesterday (November 3, 2011) morning’s historic rendezvous and docking of the Shenzhou VIII spacecraft, Chinese authorities said construction of a space station will begin as soon as 2013.
+“We will do two more rendezvous and docking flights next year,” said Wu Ping (武平), spokeswoman for the manned space programme, at a press conference in Beijing yesterday....</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/science/article/3373086/chinas-historic-first-space-docking-2011-scmp-archive</guid>
+      <link>https://www.scmp.com/news/china/science/article/3373086/chinas-historic-first-space-docking-2011-scmp-archive</link>
+      <pubDate>Tue, 03 Nov 2026 08:15:38 +0000</pubDate>
+      <title>China’s historic first space docking in 2011 – SCMP archive</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/12fbd8da-83ed-4aa4-af04-3692ababa714_a0f8b054.jpg?itok=YUvyWS1h&amp;v=1793685480"/>
+      <media:content height="2175" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/12fbd8da-83ed-4aa4-af04-3692ababa714_a0f8b054.jpg?itok=YUvyWS1h&amp;v=1793685480" width="4095"/>
+    </item>
+    <item>
+      <author>Shi Huang</author>
+      <dc:creator>Shi Huang</dc:creator>
+      <description>An anticancer drug developed by Sichuan Biokin Pharmaceutical took centre stage in a late-breaking oral presentation at the European Society for Medical Oncology (ESMO) Congress in Madrid last week.
+Researchers said the drug, iza-bren, showed a significant advantage over platinum-based chemotherapy in a phase 3 randomised, double-blind clinical trial conducted at 73 hospitals in China and involving 432 patients with advanced lung cancer.
+The median progression-free survival (PFS) – the length of...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/science/article/3373061/chinese-drug-iza-bren-doubles-lung-cancer-survival-window-phase-3-trial</guid>
+      <link>https://www.scmp.com/news/china/science/article/3373061/chinese-drug-iza-bren-doubles-lung-cancer-survival-window-phase-3-trial</link>
+      <pubDate>Tue, 03 Nov 2026 08:00:09 +0000</pubDate>
+      <title>Chinese drug iza-bren doubles lung cancer survival window in phase 3 trial</title>
+      <enclosure length="1067" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/75e561d1-1406-4ed8-a6f4-ee183ecf1040_64304ddd.jpg?itok=KXSYeHdZ&amp;v=1793673864"/>
+      <media:content height="800" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/75e561d1-1406-4ed8-a6f4-ee183ecf1040_64304ddd.jpg?itok=KXSYeHdZ&amp;v=1793673864" width="1067"/>
+    </item>
+    <item>
+      <author>Fan Chen</author>
+      <dc:creator>Fan Chen</dc:creator>
+      <description>The United States has attacked an Iranian island in the Strait of Hormuz, the latest in a series of covert, limited strikes ahead of the US midterm elections, as President Donald Trump signalled progress in talks with Tehran and mediators continue pushing for dialogue.
+A Chinese analyst said Washington faced no urgency to negotiate with an anxious Tehran, with the outcome of the midterms and Trump’s strategy still undecided.
+Iran’s Qeshm Island was struck on Monday, The Wall Street Journal...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3373075/us-strikes-irans-qeshm-island-ahead-midterms-trump-says-deal-could-happen</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3373075/us-strikes-irans-qeshm-island-ahead-midterms-trump-says-deal-could-happen</link>
+      <pubDate>Tue, 03 Nov 2026 04:39:38 +0000</pubDate>
+      <title>US strikes Iran’s Qeshm Island ahead of midterms as Trump says deal ‘could happen’</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/1b73dcee-971c-406e-8b32-e509821b5ea6_986361d0.jpg?itok=TpH3fJm7&amp;v=1793679288"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/1b73dcee-971c-406e-8b32-e509821b5ea6_986361d0.jpg?itok=TpH3fJm7&amp;v=1793679288" width="4095"/>
+    </item>
+    <item>
+      <author>Junjie Wang</author>
+      <dc:creator>Junjie Wang</dc:creator>
+      <description>Chinese President Xi Jinping met four foreign leaders in October – two each from Africa and Europe – with the month dominated by the Communist Party Central Committee’s fifth plenum.
+The pace will probably pick up in November. Xi has already met Oman’s Sultan Haitham bin Tariq, and he will host an Apec summit on November 18–19. The Shenzhen event will probably feature talks with US President Donald Trump, Russian President Vladimir Putin and other regional leaders.</description>
+      <guid isPermaLink="true">https://www.scmp.com/plus/news/china/diplomacy/article/3373073/xi-jinping-meets-foreign-leaders-tracker-october-2026</guid>
+      <link>https://www.scmp.com/plus/news/china/diplomacy/article/3373073/xi-jinping-meets-foreign-leaders-tracker-october-2026</link>
+      <pubDate>Tue, 03 Nov 2026 04:19:00 +0000</pubDate>
+      <title>Xi Jinping meets foreign leaders: tracker, October 2026</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/4875ceb7-b0fd-43d4-b34d-b67561ad238a_afa20b83.jpg?itok=2biFrqDx&amp;v=1793678473"/>
+      <media:content height="2945" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/4875ceb7-b0fd-43d4-b34d-b67561ad238a_afa20b83.jpg?itok=2biFrqDx&amp;v=1793678473" width="4095"/>
+    </item>
+    <item>
+      <author>Alcott Wei</author>
+      <dc:creator>Alcott Wei</dc:creator>
+      <description>A key document endorsed by the Communist Party proposes stronger oversight of principal leaders below the central level, barring them from demanding personal allegiance from their leadership teams – a demand that is only for the top leaders.
+The proposal is part of a 17,000-word resolution approved at the fifth plenum of the 20th Central Committee, the full text of which was published by state news agency Xinhua on Sunday.
+The four-day plenum held last week emphasised internal governance,...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/politics/article/3373028/speak-last-chinas-fifth-plenum-moves-rein-regional-leaders</guid>
+      <link>https://www.scmp.com/news/china/politics/article/3373028/speak-last-chinas-fifth-plenum-moves-rein-regional-leaders</link>
+      <pubDate>Tue, 03 Nov 2026 03:59:52 +0000</pubDate>
+      <title>‘Speak last’: China’s fifth plenum moves to rein in Communist Party leaders</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/195cae94-5776-48ab-a9b6-adfce215e26d_55462d5b.jpg?itok=8CaCsery&amp;v=1793678668"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/195cae94-5776-48ab-a9b6-adfce215e26d_55462d5b.jpg?itok=8CaCsery&amp;v=1793678668" width="4095"/>
+    </item>
+    <item>
+      <author>Josephine Ma</author>
+      <dc:creator>Josephine Ma</dc:creator>
+      <description>China’s ruling Communist Party has pledged to target “old nice persons” within its ranks as it steps up its anti-corruption drive ahead of a major leadership reshuffle next year.
+Rendered in Chinese as lao hao ren, the term refers to unprincipled, conflict-averse officials who turn a blind eye to misconduct to protect their own careers and social standing.
+A resolution adopted at the close of the party’s 20th Central Committee’s fifth plenum last week signalled a crackdown on this culture of...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/politics/article/3373017/chinas-communist-party-plenum-targets-passive-nice-guys-anti-corruption-push</guid>
+      <link>https://www.scmp.com/news/china/politics/article/3373017/chinas-communist-party-plenum-targets-passive-nice-guys-anti-corruption-push</link>
+      <pubDate>Tue, 03 Nov 2026 01:00:10 +0000</pubDate>
+      <title>China’s Communist Party plenum targets passive ‘nice’ guys in anti-corruption push</title>
+      <enclosure length="3400" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/0bd5e0b4-4891-46b0-91c7-2540cf89e8c5_3653f866.jpg?itok=MR-14_Yl&amp;v=1793622504"/>
+      <media:content height="1947" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/0bd5e0b4-4891-46b0-91c7-2540cf89e8c5_3653f866.jpg?itok=MR-14_Yl&amp;v=1793622504" width="3400"/>
+    </item>
+    <item>
+      <author>Nayan Seth,Lucy Quaggin</author>
+      <dc:creator>Nayan Seth,Lucy Quaggin</dc:creator>
+      <description>A top OpenAI executive said on Monday that Washington needs to be “clear-eyed” and “aware” about sharing information with Beijing during coming talks on artificial intelligence (AI), while also warning about the threat posed by alleged Chinese distillation attacks.
+“Be very clear-eyed. Be very aware of what information you are able to expect in return for what you are sharing, and start to build a foundation,” said Caroline Zier, OpenAI’s deputy lead for national security, during a discussion at...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/us/article/3373052/openai-executive-urges-caution-china-us-ai-talks-warns-distillation-threats</guid>
+      <link>https://www.scmp.com/news/us/article/3373052/openai-executive-urges-caution-china-us-ai-talks-warns-distillation-threats</link>
+      <pubDate>Tue, 03 Nov 2026 00:03:51 +0000</pubDate>
+      <title>OpenAI executive urges caution in China-US AI talks, warns of distillation threats</title>
+      <enclosure length="4096" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/09844467-2f02-48a5-9fae-25f1b1ae6d9d_c8983310.jpg?itok=RUfX6Rqc&amp;v=1793668607"/>
+      <media:content height="2304" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/09844467-2f02-48a5-9fae-25f1b1ae6d9d_c8983310.jpg?itok=RUfX6Rqc&amp;v=1793668607" width="4096"/>
+    </item>
+    <item>
+      <author>Teresa Elena Frontado</author>
+      <dc:creator>Teresa Elena Frontado</dc:creator>
+      <description>Americans go to the polls on Tuesday, November 3, in midterm elections that could reshape the final two years of Donald Trump’s second term as president.
+Control of both chambers of Congress is in play, along with 36 governorships. Polls suggest Democrats go into the vote with an advantage, but the outcome will hinge on a few dozen closely fought races.
+More than 100 million people are expected to vote if turnout matches the 2022 midterms. By October 12, a record US$3.8 billion had been spent on...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/us/politics/article/3372793/us-midterm-elections-2026-all-you-need-know</guid>
+      <link>https://www.scmp.com/news/us/politics/article/3372793/us-midterm-elections-2026-all-you-need-know</link>
+      <pubDate>Tue, 03 Nov 2026 00:00:14 +0000</pubDate>
+      <title>US midterm elections 2026: all you need to know</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/31/af9b57f2-bc3e-4382-8ef7-591c53b6f3bd_bb460c64.jpg?itok=aO3IfoNn&amp;v=1793380591"/>
+      <media:content height="2754" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/31/af9b57f2-bc3e-4382-8ef7-591c53b6f3bd_bb460c64.jpg?itok=aO3IfoNn&amp;v=1793380591" width="4095"/>
+    </item>
+    <item>
+      <author>Orange Wang</author>
+      <dc:creator>Orange Wang</dc:creator>
+      <description>US President Donald Trump is likely to continue on a path of trying to stabilise ties with Beijing – even if the Democrats flip the House of Representatives, according to analysts.
+But they said if the Republicans lost control of the House in this week’s midterm elections, the framework of “strategic stability” agreed to by Washington and Beijing could be put to the test.
+One Chinese academic warned that other Republicans could pose the biggest risk to Sino-American ties in Trump’s final two...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3372987/will-strategic-stability-china-go-out-window-if-trump-loses-midterms</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3372987/will-strategic-stability-china-go-out-window-if-trump-loses-midterms</link>
+      <pubDate>Mon, 02 Nov 2026 22:00:09 +0000</pubDate>
+      <title>Will ‘strategic stability’ with China go out the window if Trump loses the midterms?</title>
+      <enclosure length="2756" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/143a41bd-e683-4e81-9680-6ae479305ae8_deedf4e9.jpg?itok=8m_6yBNk&amp;v=1793610113"/>
+      <media:content height="1838" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/143a41bd-e683-4e81-9680-6ae479305ae8_deedf4e9.jpg?itok=8m_6yBNk&amp;v=1793610113" width="2756"/>
+    </item>
+    <item>
+      <author>Teresa Elena Frontado</author>
+      <dc:creator>Teresa Elena Frontado</dc:creator>
+      <description>US President Donald Trump ended the midterm campaign season on Monday by calling the Democratic Party’s candidates the “most extreme and dangerous” in American history, the day before voters decide which party controls Congress.
+Speaking at the Lincoln Memorial Reflecting Pool in Washington, which reopened after a renovation by his administration, Trump called the elections “the most important midterm, I believe, in our lifetime”.
+“These are the most dangerous candidates ever put up,” he...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/us/politics/article/3373047/trump-closes-midterm-campaign-calling-democratic-candidates-most-dangerous-ever</guid>
+      <link>https://www.scmp.com/news/us/politics/article/3373047/trump-closes-midterm-campaign-calling-democratic-candidates-most-dangerous-ever</link>
+      <pubDate>Mon, 02 Nov 2026 21:29:12 +0000</pubDate>
+      <title>US midterm elections: Trump ends campaign, calls Democrats ‘most dangerous ever’</title>
+      <enclosure length="4096" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/dbf148e3-0c7b-464c-b1cc-97f2a9aea947_5e0fc563.jpg?itok=ZV4ZEdye&amp;v=1793654943"/>
+      <media:content height="2732" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/dbf148e3-0c7b-464c-b1cc-97f2a9aea947_5e0fc563.jpg?itok=ZV4ZEdye&amp;v=1793654943" width="4096"/>
+    </item>
+    <item>
+      <author>Zhang Tong</author>
+      <dc:creator>Zhang Tong</dc:creator>
+      <description>Artificial intelligence (AI) is now solving maths puzzles that have long stumped humans, prompting mathematicians around the world, including in China, to ponder not only whether machines will replace them, but also what achievement and research in their field will mean in the future.
+In early October, OpenAI released manuscripts showing progress on 372 categories of mathematical problems, including many which have long defied solutions. This week, the American AI firm announced three further...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/us/science-technology/article/3373045/ai-solves-maths-puzzles-faster-humans-mathematicians-face-uncertain-future</guid>
+      <link>https://www.scmp.com/news/us/science-technology/article/3373045/ai-solves-maths-puzzles-faster-humans-mathematicians-face-uncertain-future</link>
+      <pubDate>Mon, 02 Nov 2026 20:31:27 +0000</pubDate>
+      <title>As AI solves maths puzzles faster than humans, mathematicians face uncertain future</title>
+      <enclosure length="4096" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/afea038d-a60a-4b62-903c-fead2fe81131_cf8a04db.jpg?itok=YqGHmXcn&amp;v=1793655264"/>
+      <media:content height="2160" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/03/afea038d-a60a-4b62-903c-fead2fe81131_cf8a04db.jpg?itok=YqGHmXcn&amp;v=1793655264" width="4096"/>
+    </item>
+    <item>
+      <author>William Zheng</author>
+      <dc:creator>William Zheng</dc:creator>
+      <description>Retired cadres were consulted during the eight-month drafting of a landmark document on building China’s Communist Party endorsed at a major political meeting in Beijing last week, according to state media.
+A detailed account published by Xinhua on Monday gave a behind-the-scenes look into how the 20th Central Committee finalised its resolution on “persevering with full and rigorous party self-governance”, adopted at the fifth plenum, which ended on Thursday.
+The 17,000-Chinese character,...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/politics/article/3373029/how-xi-jinping-and-communist-party-elders-shaped-key-plenum-document-addressing-wrongdoing</guid>
+      <link>https://www.scmp.com/news/china/politics/article/3373029/how-xi-jinping-and-communist-party-elders-shaped-key-plenum-document-addressing-wrongdoing</link>
+      <pubDate>Mon, 02 Nov 2026 15:00:08 +0000</pubDate>
+      <title>How Xi Jinping and Communist Party elders shaped key plenum document addressing wrongdoing</title>
+      <enclosure length="3619" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/aba7f1b1-efe9-4dd4-9265-d8e061dd8a7e_6edf859e.jpg?itok=L-Y8Py7R&amp;v=1793627321"/>
+      <media:content height="2413" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/aba7f1b1-efe9-4dd4-9265-d8e061dd8a7e_6edf859e.jpg?itok=L-Y8Py7R&amp;v=1793627321" width="3619"/>
+    </item>
+    <item>
+      <author>Eve Qiao</author>
+      <dc:creator>Eve Qiao</dc:creator>
+      <description>Three ancient wooden boats unearthed in Beijing and dating back about 1,800 years offer new evidence of shipbuilding technology and cultural exchanges between ancient China and the rest of the world, according to researchers.
+The researchers unveiled details of “the first physical evidence of ancient inland water transport” in the Chinese capital at the closing ceremony of the 2026 Beijing Public Archaeology Season on Saturday, according to an official social media account of the Beijing...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/politics/article/3373016/echoes-rome-ancient-china-what-beijings-1800-year-old-ship-find-reveals</guid>
+      <link>https://www.scmp.com/news/china/politics/article/3373016/echoes-rome-ancient-china-what-beijings-1800-year-old-ship-find-reveals</link>
+      <pubDate>Mon, 02 Nov 2026 14:00:40 +0000</pubDate>
+      <title>Echoes of Rome in ancient China? What Beijing’s 1,800-year-old ship find reveals</title>
+      <enclosure length="4000" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/349aeaa9-e03d-47dc-814b-8acbd91f4df1_35422b73.jpg?itok=vGsdn4t7&amp;v=1793621169"/>
+      <media:content height="2272" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/349aeaa9-e03d-47dc-814b-8acbd91f4df1_35422b73.jpg?itok=vGsdn4t7&amp;v=1793621169" width="4000"/>
+    </item>
+    <item>
+      <author>SCMP</author>
+      <dc:creator>SCMP</dc:creator>
+      <description>We have selected seven of the most interesting and important news stories covering US-China relations from the past few weeks. If you would like to see more of our reporting, please consider subscribing.
+1. The ‘Queen of the Chinese’ and a forgotten history on the US-Mexico border
+
+Interest in the history of the Chinese community in the Lone Star State is growing. “There’s a real resurrection in understanding the influence of the Chinese in Texas,” Linda Chew, a retired judge in the US state’s...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3372493/queen-chinese-drone-war-fears-cancer-drug-sale-7-us-china-relations-reads</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3372493/queen-chinese-drone-war-fears-cancer-drug-sale-7-us-china-relations-reads</link>
+      <pubDate>Mon, 02 Nov 2026 14:00:33 +0000</pubDate>
+      <title>‘Queen of the Chinese’, drone war fears, cancer drug on sale: 7 US-China relations reads</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/29/8e9149b3-457a-436f-898f-aa1fc6b4f718_2c7ae3c0.jpg?itok=LcoIroAM&amp;v=1793224235"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/29/8e9149b3-457a-436f-898f-aa1fc6b4f718_2c7ae3c0.jpg?itok=LcoIroAM&amp;v=1793224235" width="4095"/>
+    </item>
+    <item>
+      <author>Amber Wang</author>
+      <dc:creator>Amber Wang</dc:creator>
+      <description>Pakistan’s contract to buy Chinese Z-10ME attack helicopters covers 30 airframes, according to an image circulating on Chinese social media.
+The image was shared by a prominent military blogger on Sunday and marks the first time a concrete number for Pakistan’s fleet of the helicopters has surfaced since Islamabad officially inducted them into service in August last year.
+In the post, the blogger known as Sashoujian said that on July 11 China National Aero-Technology Import and Export...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/military/article/3373023/blogger-may-have-revealed-how-many-z-10me-helicopters-pakistan-bought-china</guid>
+      <link>https://www.scmp.com/news/china/military/article/3373023/blogger-may-have-revealed-how-many-z-10me-helicopters-pakistan-bought-china</link>
+      <pubDate>Mon, 02 Nov 2026 13:05:03 +0000</pubDate>
+      <title>Blogger may have revealed how many Z-10ME helicopters Pakistan bought from China</title>
+      <enclosure length="1594" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/b2bd319c-68a7-4173-8aed-212b0591a529_13a1bd7b.jpg?itok=fDqK_bTl&amp;v=1793624693"/>
+      <media:content height="1181" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/b2bd319c-68a7-4173-8aed-212b0591a529_13a1bd7b.jpg?itok=fDqK_bTl&amp;v=1793624693" width="1594"/>
+    </item>
+    <item>
+      <author>William Zheng</author>
+      <dc:creator>William Zheng</dc:creator>
+      <description>China’s ruling Communist Party has overhauled its personnel process in its search for clean and battle-tested cadres ahead of next year’s major leadership reshuffle.
+New rules were included in a resolution adopted at the 20th Central Committee’s fifth plenum last Thursday and published by state news agency Xinhua on Sunday.
+Analysts said that as provincial and ministerial reshuffles begin ahead of the 21st party congress, the fifth plenum sent a clear message: Beijing wants proven crisis...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/politics/article/3373013/chinas-fifth-plenum-cadre-promotion-rules-overhauled-focusing-problem-solving</guid>
+      <link>https://www.scmp.com/news/china/politics/article/3373013/chinas-fifth-plenum-cadre-promotion-rules-overhauled-focusing-problem-solving</link>
+      <pubDate>Mon, 02 Nov 2026 13:00:08 +0000</pubDate>
+      <title>China’s fifth plenum: cadre promotion rules overhauled, focusing on problem-solving</title>
+      <enclosure length="3400" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/aa1e81e2-74b1-4bfa-8869-5218a2809138_e6ad8e01.jpg?itok=bJiT_hwL&amp;v=1793620400"/>
+      <media:content height="2550" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/aa1e81e2-74b1-4bfa-8869-5218a2809138_e6ad8e01.jpg?itok=bJiT_hwL&amp;v=1793620400" width="3400"/>
+    </item>
+    <item>
+      <author>Lawrence Chung</author>
+      <dc:creator>Lawrence Chung</dc:creator>
+      <description>Taiwan is tightening its military service exemption rules in a sweeping overhaul expected to halve the exemption rate and add thousands of conscripts to the armed forces each year as the island grapples with persistent manpower shortages.
+Under the revised standards, which took effect last week, men will generally be exempt on weight grounds only if their body mass index (BMI) exceeds 45, while the height threshold for exemption has been lowered to 144cm (4.7 feet).
+Rules covering hypertension...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/military/article/3373011/raising-bar-taiwan-alters-draft-exemption-rules-add-thousands-armed-forces</guid>
+      <link>https://www.scmp.com/news/china/military/article/3373011/raising-bar-taiwan-alters-draft-exemption-rules-add-thousands-armed-forces</link>
+      <pubDate>Mon, 02 Nov 2026 12:19:44 +0000</pubDate>
+      <title>Raising the bar: Taiwan trims draft exemptions to add thousands to armed forces</title>
+      <enclosure length="4000" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/bd670634-1319-494d-987e-d48343ab216c_87ba741f.jpg?itok=3Uoeh4jJ&amp;v=1793620078"/>
+      <media:content height="2668" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/bd670634-1319-494d-987e-d48343ab216c_87ba741f.jpg?itok=3Uoeh4jJ&amp;v=1793620078" width="4000"/>
+    </item>
+    <item>
+      <author>Alyssa Chen</author>
+      <dc:creator>Alyssa Chen</dc:creator>
+      <description>China’s top diplomat has again stressed the need for a political settlement to strife in the Middle East, telling a senior Iranian official in Beijing on Monday that armed conflict was not the way out.
+“As conflicts in the Middle East drag on and risk further spillover, dialogue and negotiation remain the only viable path forward,” Wang Yi told Ali Bagheri Kani, deputy secretary of Iran’s Supreme National Security Council.
+“All parties should … focus on a political settlement in a rational and...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3373010/talks-are-only-way-out-china-tells-iran-us-threat-hangs-over-middle-east</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3373010/talks-are-only-way-out-china-tells-iran-us-threat-hangs-over-middle-east</link>
+      <pubDate>Mon, 02 Nov 2026 11:45:31 +0000</pubDate>
+      <title>Talks are the only way out, China tells Iran as US threat hangs over Middle East</title>
+      <enclosure length="4096" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/d9475732-e119-4ff4-932e-e74a4f12823d_697be5f4.jpg?itok=FMX9DEgt&amp;v=1793619930"/>
+      <media:content height="3145" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/d9475732-e119-4ff4-932e-e74a4f12823d_697be5f4.jpg?itok=FMX9DEgt&amp;v=1793619930" width="4096"/>
+    </item>
+    <item>
+      <author>Ling Xin</author>
+      <dc:creator>Ling Xin</dc:creator>
+      <description>Turkey has signed America’s rule book for the moon, but its first ride to the lunar south pole – the icy region both Washington and Beijing are racing to reach – will probably come from China.
+A team of more than 120 students and professors at Middle East Technical University (METU) in Ankara has built prototypes of two AI-powered rovers for Chang’e-8, a Chinese mission originally planned for 2028.
+Turkey is not part of the International Lunar Research Station, a base China plans to build on the...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/science/article/3372546/turkey-signed-us-led-artemis-accords-its-moon-rovers-will-hitch-ride-china</guid>
+      <link>https://www.scmp.com/news/china/science/article/3372546/turkey-signed-us-led-artemis-accords-its-moon-rovers-will-hitch-ride-china</link>
+      <pubDate>Mon, 02 Nov 2026 10:14:05 +0000</pubDate>
+      <title>Turkey signed US-led Artemis Accords. Its moon rovers will hitch a ride with China</title>
+      <enclosure length="4096" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/eebf389a-2b97-4751-8511-09167b3a821b_57ad4867.jpg?itok=jLuPCD1L&amp;v=1793614432"/>
+      <media:content height="3072" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/eebf389a-2b97-4751-8511-09167b3a821b_57ad4867.jpg?itok=jLuPCD1L&amp;v=1793614432" width="4096"/>
+    </item>
+    <item>
+      <author>Gabriel Dominguez</author>
+      <dc:creator>Gabriel Dominguez</dc:creator>
+      <description>Beijing is accelerating production of its Type 071 amphibious transport docks by expanding construction to a second shipyard, potentially strengthening its ability to move troops and military equipment across the Taiwan Strait in a conflict.
+The expansion comes amid long-standing United States assessments that Beijing lacks enough landing ships and logistical support for a large-scale assault on Taiwan, suggesting the People’s Liberation Army (PLA) may be moving to address a significant...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/military/article/3373001/beijing-doubles-down-type-071-amphibious-warships-signalling-taiwan-focus</guid>
+      <link>https://www.scmp.com/news/china/military/article/3373001/beijing-doubles-down-type-071-amphibious-warships-signalling-taiwan-focus</link>
+      <pubDate>Mon, 02 Nov 2026 10:06:23 +0000</pubDate>
+      <title>Beijing doubles down on Type 071 amphibious warships, signalling a Taiwan focus</title>
+      <enclosure length="4096" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/472e296a-dee4-4566-8dd8-22db2f3da016_a87c9f3f.jpg?itok=xo27Kafc&amp;v=1793613366"/>
+      <media:content height="3072" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/472e296a-dee4-4566-8dd8-22db2f3da016_a87c9f3f.jpg?itok=xo27Kafc&amp;v=1793613366" width="4096"/>
+    </item>
+    <item>
+      <author>Fan Chen,Carol Yang</author>
+      <dc:creator>Fan Chen,Carol Yang</dc:creator>
+      <description>China and Oman have called for a peaceful resolution and full ceasefire between the US and Iran, stressing that safe passage through the Strait of Hormuz must be restored.
+The call came during talks in Beijing on Monday between Chinese President Xi Jinping and Oman’s Sultan Haitham bin Tariq.
+In their joint statement, Beijing and Muscat encouraged the United States and Iran to resume dialogue and reach a “comprehensive agreement that includes the nuclear issue”.
+The two sides also affirmed that...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/diplomacy/article/3372994/china-and-oman-unite-mideast-peace-call-sultans-historic-beijing-visit</guid>
+      <link>https://www.scmp.com/news/china/diplomacy/article/3372994/china-and-oman-unite-mideast-peace-call-sultans-historic-beijing-visit</link>
+      <pubDate>Mon, 02 Nov 2026 09:20:42 +0000</pubDate>
+      <title>China and Oman unite in Mideast peace call on sultan’s ‘historic’ Beijing visit</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/d7dfdded-d04b-4b9f-a9b2-a7713d432a2e_8ef9a50a.jpg?itok=RDjMRvtO&amp;v=1793611806"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/d7dfdded-d04b-4b9f-a9b2-a7713d432a2e_8ef9a50a.jpg?itok=RDjMRvtO&amp;v=1793611806" width="4095"/>
+    </item>
+    <item>
+      <author>SCMP</author>
+      <dc:creator>SCMP</dc:creator>
+      <description>We have put together stories from our coverage of China’s fifth plenum. If you would like to see more of our reporting, please consider subscribing.
+1. ‘Unwritten rules’ become newest target in Communist Party’s war on corruption
+The Communist Party of China has pledged to vigorously crack down on the “unwritten rules” that enable corruption in the party, deepening its long-running campaign to keep officials in line.
+2. At China’s fifth plenum, Communist Party puts discipline and loyalty to Xi...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/article/3372950/chinas-fifth-plenum-everything-you-need-know-war-corruption-promotions</guid>
+      <link>https://www.scmp.com/news/china/article/3372950/chinas-fifth-plenum-everything-you-need-know-war-corruption-promotions</link>
+      <pubDate>Mon, 02 Nov 2026 06:52:44 +0000</pubDate>
+      <title>China’s fifth plenum: everything you need to know from the war on corruption to promotions</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/4ab0cd56-6779-4b1d-9458-f3d132fdd538_ae844896.jpg?itok=pho2J1zn&amp;v=1793599426"/>
+      <media:content height="2545" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/4ab0cd56-6779-4b1d-9458-f3d132fdd538_ae844896.jpg?itok=pho2J1zn&amp;v=1793599426" width="4095"/>
+    </item>
+    <item>
+      <author>Chao Kong</author>
+      <dc:creator>Chao Kong</dc:creator>
+      <description>Some high-pressure turbine blades in US-made GE Aerospace engines powering Boeing 787 aircraft have suffered unexpectedly early damage, leaving airlines with a difficult choice: replace the engines or continue flying under strict inspection requirements, according to a Chinese aviation specialist.
+The findings raise questions about the reliability of American aerospace products amid growing scrutiny of US manufacturing quality. According to the study, cracks can develop in some blades within...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/science/article/3372689/fly-or-not-fly-chinese-mechanic-reports-short-lived-ge-engine-blades-boeing-787</guid>
+      <link>https://www.scmp.com/news/china/science/article/3372689/fly-or-not-fly-chinese-mechanic-reports-short-lived-ge-engine-blades-boeing-787</link>
+      <pubDate>Mon, 02 Nov 2026 04:00:12 +0000</pubDate>
+      <title>Chinese mechanic reports short-lived GE engine blades in Boeing 787</title>
+      <enclosure length="4096" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/f29d704e-a105-4da5-8561-29a789f96168_92fe5ca4.jpg?itok=VVGesrcK&amp;v=1793601412"/>
+      <media:content height="2560" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/f29d704e-a105-4da5-8561-29a789f96168_92fe5ca4.jpg?itok=VVGesrcK&amp;v=1793601412" width="4096"/>
+    </item>
+    <item>
+      <author>SCMP Plus</author>
+      <dc:creator>SCMP Plus</dc:creator>
+      <description>This article is the official English translation of the original Chinese document released by Xinhua.</description>
+      <guid isPermaLink="true">https://www.scmp.com/plus/news/china/politics/article/3372928/chinas-fifth-plenum-readout</guid>
+      <link>https://www.scmp.com/plus/news/china/politics/article/3372928/chinas-fifth-plenum-readout</link>
+      <pubDate>Mon, 02 Nov 2026 03:29:22 +0000</pubDate>
+      <title>China’s fifth plenum readout</title>
+      <enclosure length="2484" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/19839b27-9f97-46ee-96c8-96a475701f20_01fdaf1c.jpg?itok=-CAGoguJ&amp;v=1793589696"/>
+      <media:content height="3509" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/19839b27-9f97-46ee-96c8-96a475701f20_01fdaf1c.jpg?itok=-CAGoguJ&amp;v=1793589696" width="2484"/>
+    </item>
+    <item>
+      <author>Holly Chik</author>
+      <dc:creator>Holly Chik</dc:creator>
+      <description>Chinese researchers have mapped how energy from surface wind surges thousands of metres into the seabed, revealing massive underwater conduits they called “inertial chimneys”.
+The discovery, based on data collected by a US-funded ocean sensor array off the east coast of Japan, coupled with future long-term underwater monitoring, can provide underwater acoustic environmental support for marine detection and communication, the team said.
+The scientists from the Institute of Oceanology of the...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/science/article/3372663/chinese-scientists-found-giant-chimneys-deep-water-could-alter-submarine-warfare</guid>
+      <link>https://www.scmp.com/news/china/science/article/3372663/chinese-scientists-found-giant-chimneys-deep-water-could-alter-submarine-warfare</link>
+      <pubDate>Mon, 02 Nov 2026 03:13:07 +0000</pubDate>
+      <title>Chinese scientists found giant ‘chimneys’ in deep water that could alter submarine warfare</title>
+      <enclosure length="3870" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/f26f5a24-832f-47f7-9389-545d21d4f496_0404b79d.jpg?itok=OUozStYh&amp;v=1793330447"/>
+      <media:content height="4096" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/30/f26f5a24-832f-47f7-9389-545d21d4f496_0404b79d.jpg?itok=OUozStYh&amp;v=1793330447" width="3870"/>
+    </item>
+    <item>
+      <author>Shi Jiangtao</author>
+      <dc:creator>Shi Jiangtao</dc:creator>
+      <description>Joshua Cooper Ramo is chairman and CEO of Sornay, an investment and advisory firm. Previously he was CEO of Kissinger Associates. Ramo is the author of the new book Darwin’s Lock: America, China and the Shared Future of Nations. His 2004 analysis of “the Beijing consensus” contrasted the Western and Chinese economic development models. He is the author of two New York Times bestselling books and now lives in Shanghai with his family.
+For other interviews in the Open Questions series, click...</description>
+      <guid isPermaLink="true">https://www.scmp.com/plus/news/china/diplomacy/article/3372921/ex-kissinger-partner-how-china-us-can-evolve-together-or-die-together</guid>
+      <link>https://www.scmp.com/plus/news/china/diplomacy/article/3372921/ex-kissinger-partner-how-china-us-can-evolve-together-or-die-together</link>
+      <pubDate>Mon, 02 Nov 2026 03:05:02 +0000</pubDate>
+      <title>Ex-Kissinger partner on how China, US can evolve together or die together</title>
+      <enclosure length="4096" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/b60005e5-87a6-42e1-af5f-ba4fe02abfa3_3749ad31.jpg?itok=w7n9KHQP&amp;v=1793588594"/>
+      <media:content height="3745" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/02/b60005e5-87a6-42e1-af5f-ba4fe02abfa3_3749ad31.jpg?itok=w7n9KHQP&amp;v=1793588594" width="4096"/>
+    </item>
+    <item>
+      <author>Phoebe Zhang,William Zheng</author>
+      <dc:creator>Phoebe Zhang,William Zheng</dc:creator>
+      <description>Construction workers have been working late into the night in downtown Shenzhen as the city makes its final preparations for the Asia-Pacific Economic Cooperation summit in two weeks’ time.
+On a weekday night, a South China Morning Post reporter saw at least 50 construction workers gathered at an intersection about 1km (just over half a mile) from the Apec venues in the central district of Futian, laying down pebbles and planting trees along the pavements.
+The main road that leads up to the...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/china/politics/article/3372880/apec-china-summit-traffic-curbs-tree-planting-shenzhens-plans-enter-final-phase</guid>
+      <link>https://www.scmp.com/news/china/politics/article/3372880/apec-china-summit-traffic-curbs-tree-planting-shenzhens-plans-enter-final-phase</link>
+      <pubDate>Mon, 02 Nov 2026 02:00:10 +0000</pubDate>
+      <title>Apec China summit: from traffic curbs to tree planting, Shenzhen’s plans enter final phase</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/08b213d1-995a-499f-9a1e-e2508e5a593a_f7fcd0c8.jpg?itok=udLzXCpU&amp;v=1793523558"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/01/08b213d1-995a-499f-9a1e-e2508e5a593a_f7fcd0c8.jpg?itok=udLzXCpU&amp;v=1793523558" width="4095"/>
+    </item>
+    <item>
+      <author>Mark Magnier</author>
+      <dc:creator>Mark Magnier</dc:creator>
+      <description>Tuesday’s US midterm election is both hugely consequential and not so consequential even as the world waits to see the American voters’ verdict on Donald Trump’s presidency – and the impact that verdict will have on his temperament, plans and possible petulant response, analysts and former government officials said.
+On the one hand, an expected strong showing by opposition Democrats could bring more Congressional scrutiny over some of the most unconventional, maximalist and disruptive policies...</description>
+      <guid isPermaLink="true">https://www.scmp.com/news/us/us-elections/article/3372795/will-losing-us-midterms-see-trump-double-down-or-signal-beginning-end</guid>
+      <link>https://www.scmp.com/news/us/us-elections/article/3372795/will-losing-us-midterms-see-trump-double-down-or-signal-beginning-end</link>
+      <pubDate>Mon, 02 Nov 2026 00:00:25 +0000</pubDate>
+      <title>Will a US midterm rout see Trump double down or acknowledge his clout is ebbing?</title>
+      <enclosure length="4095" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/31/34b7902e-d90f-48e9-b836-f054e4fbe1e7_57a4a6ff.jpg?itok=8Su0yolb&amp;v=1793387648"/>
+      <media:content height="2730" medium="image" type="image/jpeg" url="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/31/34b7902e-d90f-48e9-b836-f054e4fbe1e7_57a4a6ff.jpg?itok=8Su0yolb&amp;v=1793387648" width="4095"/>
+    </item>
+  </channel>
+</rss>

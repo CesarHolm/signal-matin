@@ -1,0 +1,274 @@
+{
+ "https://aasnova.org/feed/": {
+  "fichier": "7b41bb2fb8d0acfe",
+  "erreur": null
+ },
+ "https://aeon.co/feed.rss": {
+  "fichier": "65f8c29466ddfd96",
+  "erreur": null
+ },
+ "https://arstechnica.com/ai/feed/": {
+  "fichier": "58ee4f418bf7bb8b",
+  "erreur": null
+ },
+ "https://cepr.org/rss/vox-content": {
+  "fichier": "e3b0dde2f6ce6749",
+  "erreur": null
+ },
+ "https://deepmind.google/blog/rss.xml": {
+  "fichier": "0ea3c11e0b9290ef",
+  "erreur": null
+ },
+ "https://digital-strategy.ec.europa.eu/en/rss.xml": {
+  "fichier": "4602c502dd93706f",
+  "erreur": null
+ },
+ "https://europeanlawblog.eu/feed/": {
+  "fichier": "9bce1c9447dc08ec",
+  "erreur": null
+ },
+ "https://feeds.npr.org/1001/rss.xml": {
+  "fichier": "3e08837831996c1e",
+  "erreur": null
+ },
+ "https://huggingface.co/blog/feed.xml": {
+  "fichier": "33e649875b402bc3",
+  "erreur": null
+ },
+ "https://insideclimatenews.org/feed/": {
+  "fichier": "8afaa99360da6478",
+  "erreur": null
+ },
+ "https://journals.plos.org/climate/feed/atom": {
+  "fichier": "5d87b22551930cba",
+  "erreur": null
+ },
+ "https://journals.plos.org/plosmedicine/feed/atom": {
+  "fichier": "5be7289e70b44821",
+  "erreur": null
+ },
+ "https://legrandcontinent.eu/fr/feed/": {
+  "fichier": "09564e7c7d2676ac",
+  "erreur": null
+ },
+ "https://lejournal.cnrs.fr/rss": {
+  "fichier": "5dfea540cc0ed50a",
+  "erreur": null
+ },
+ "https://libertystreeteconomics.newyorkfed.org/feed/": {
+  "fichier": "f3fd1ffa246e3349",
+  "erreur": null
+ },
+ "https://mathvoices.ams.org/featurecolumn/feed/": {
+  "fichier": "5174821a7350dd79",
+  "erreur": null
+ },
+ "https://news.google.com/rss/search?q=%22Agence+fran%C3%A7aise+anticorruption%22+OR+%22Sapin+II%22+OR+%22Parquet+national+financier%22+when:2d&hl=fr&gl=FR&ceid=FR:fr": {
+  "fichier": "99acd12a50c4d4cd",
+  "erreur": null
+ },
+ "https://news.google.com/rss/search?q=%22EU+sanctions%22+OR+%22sanctions+package%22+when:2d&hl=en-GB&gl=GB&ceid=GB:en": {
+  "fichier": "5b5e64d332f63dbe",
+  "erreur": null
+ },
+ "https://news.google.com/rss/search?q=%22directive+NIS+2%22+OR+%22NIS2+directive%22+OR+%22NIS+2+directive%22+when:2d&hl=fr&gl=FR&ceid=FR:fr": {
+  "fichier": "3979dd79437e5378",
+  "erreur": null
+ },
+ "https://news.google.com/rss/search?q=%22export+controls%22+when:2d&hl=en-US&gl=US&ceid=US:en": {
+  "fichier": "6d8381b3a3644d0b",
+  "erreur": null
+ },
+ "https://news.google.com/rss/search?q=AMLA+OR+%22anti-money+laundering%22+Europe+when:2d&hl=en-GB&gl=GB&ceid=GB:en": {
+  "fichier": "26c6963cb7306b83",
+  "erreur": null
+ },
+ "https://news.google.com/rss/search?q=CSRD+OR+CSDDD+OR+%22devoir+de+vigilance%22+when:2d&hl=fr&gl=FR&ceid=FR:fr": {
+  "fichier": "8d438c1804ff5011",
+  "erreur": null
+ },
+ "https://news.google.com/rss/search?q=OFAC+sanctions+when:2d&hl=en-US&gl=US&ceid=US:en": {
+  "fichier": "625a2b8b8683eb33",
+  "erreur": null
+ },
+ "https://openai.com/news/rss.xml": {
+  "fichier": "3ae57466b59239e8",
+  "erreur": null
+ },
+ "https://ourworldindata.org/atom.xml": {
+  "fichier": "6478603ab412c9ef",
+  "erreur": null
+ },
+ "https://research.google/blog/rss/": {
+  "fichier": "fd424ac45a81ebce",
+  "erreur": null
+ },
+ "https://rss.arxiv.org/rss/cs.AI": {
+  "fichier": "b49eec5cb211b9c3",
+  "erreur": null
+ },
+ "https://rss.politico.com/politics-news.xml": {
+  "fichier": "bb220ee6e5da2499",
+  "erreur": null
+ },
+ "https://techcrunch.com/category/artificial-intelligence/feed/": {
+  "fichier": "84a591b7813e561e",
+  "erreur": null
+ },
+ "https://terrytao.wordpress.com/feed/": {
+  "fichier": "afdaa50461cf52a3",
+  "erreur": null
+ },
+ "https://the-decoder.com/feed/": {
+  "fichier": "b2cfd8ab93ded2c5",
+  "erreur": null
+ },
+ "https://theconversation.com/fr/articles.atom": {
+  "fichier": "2d78407571b858ee",
+  "erreur": null
+ },
+ "https://thediplomat.com/feed/": {
+  "fichier": "d2ee6a3be2fe15a8",
+  "erreur": null
+ },
+ "https://verfassungsblog.de/feed/": {
+  "fichier": "4f96c03d5db5f700",
+  "erreur": null
+ },
+ "https://www.actuia.com/feed/": {
+  "fichier": "eb3928db19294e6c",
+  "erreur": null
+ },
+ "https://www.aljazeera.com/xml/rss/all.xml": {
+  "fichier": "ecd16e1ec9b8a343",
+  "erreur": null
+ },
+ "https://www.amf-france.org/fr/flux-rss/display/21": {
+  "fichier": "6ea8423bd3bf6b10",
+  "erreur": null
+ },
+ "https://www.bis.org/doclist/wppubls.rss": {
+  "fichier": "87d99f1b0724d4b6",
+  "erreur": null
+ },
+ "https://www.carbonbrief.org/feed/": {
+  "fichier": "0a0b3b7d5174357b",
+  "erreur": null
+ },
+ "https://www.cnil.fr/fr/rss.xml": {
+  "fichier": "d87b8b4377bb7794",
+  "erreur": null
+ },
+ "https://www.diploweb.com/spip.php?page=backend": {
+  "fichier": "dff3694f552fcf83",
+  "erreur": null
+ },
+ "https://www.eba.europa.eu/rss.xml": {
+  "fichier": "52bceb72ab16a331",
+  "erreur": null
+ },
+ "https://www.ecb.europa.eu/rss/rbu.html": {
+  "fichier": "4a6bcfe53390941f",
+  "erreur": null
+ },
+ "https://www.ecb.europa.eu/rss/wppub.html": {
+  "fichier": "03589c60de6da5ed",
+  "erreur": null
+ },
+ "https://www.edpb.europa.eu/feed/news_en": {
+  "fichier": null,
+  "erreur": "<HTTPError 500: 'Internal Server Error'>"
+ },
+ "https://www.esa.int/rssfeed/Our_Activities/Space_Science": {
+  "fichier": "f9f809f0e3e3ac1e",
+  "erreur": null
+ },
+ "https://www.esma.europa.eu/rss.xml": {
+  "fichier": "0e9d8560196f7197",
+  "erreur": null
+ },
+ "https://www.eso.org/public/news/feed/": {
+  "fichier": "066b719fdfc7413e",
+  "erreur": null
+ },
+ "https://www.federalreserve.gov/feeds/feds.xml": {
+  "fichier": "b2d974ab775e590a",
+  "erreur": null
+ },
+ "https://www.federalreserve.gov/feeds/feds_notes.xml": {
+  "fichier": "a7c691a753554f85",
+  "erreur": null
+ },
+ "https://www.francetvinfo.fr/sports.rss": {
+  "fichier": "69eb9aa9887424ea",
+  "erreur": null
+ },
+ "https://www.francetvinfo.fr/titres.rss": {
+  "fichier": "f0bd26851230662e",
+  "erreur": null
+ },
+ "https://www.globalpolicywatch.com/feed/": {
+  "fichier": "6f4a71030c99ae4c",
+  "erreur": null
+ },
+ "https://www.insideprivacy.com/feed/": {
+  "fichier": "143fa8965bd8549b",
+  "erreur": null
+ },
+ "https://www.lemonde.fr/rss/une.xml": {
+  "fichier": "aa33d6a306d54df5",
+  "erreur": null
+ },
+ "https://www.nasa.gov/feed/": {
+  "fichier": "91cfba51cf594979",
+  "erreur": null
+ },
+ "https://www.nature.com/nclimate.rss": {
+  "fichier": "12fd6c0a02b6fe89",
+  "erreur": null
+ },
+ "https://www.nber.org/rss/new.xml": {
+  "fichier": null,
+  "erreur": "TimeoutError('The read operation timed out')"
+ },
+ "https://www.pewresearch.org/feed/": {
+  "fichier": "7f5859e267e5c339",
+  "erreur": null
+ },
+ "https://www.publicsenat.fr/feed": {
+  "fichier": "37142d3c7ac3d5a9",
+  "erreur": null
+ },
+ "https://www.quantamagazine.org/feed/": {
+  "fichier": "5eea3e832c63ac02",
+  "erreur": null
+ },
+ "https://www.sciencesetavenir.fr/rss.xml": {
+  "fichier": "9620271e3c21805a",
+  "erreur": null
+ },
+ "https://www.scmp.com/rss/4/feed": {
+  "fichier": "e55a65bc34365822",
+  "erreur": null
+ },
+ "https://www.steptoeinternationalcomplianceblog.com/feed/": {
+  "fichier": "00fc8a06b5c45f33",
+  "erreur": null
+ },
+ "https://www.strongerbyscience.com/feed/": {
+  "fichier": "a68a039033570257",
+  "erreur": null
+ },
+ "https://www.technologyreview.com/topic/artificial-intelligence/feed": {
+  "fichier": "e7313ed178476f1b",
+  "erreur": null
+ },
+ "https://www.trainingpeaks.com/feed/": {
+  "fichier": "542b0b081b212db2",
+  "erreur": null
+ },
+ "https://www.village-justice.com/articles/backend.php": {
+  "fichier": "e4c8297740044eae",
+  "erreur": null
+ }
+}

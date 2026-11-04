@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Artificial intelligence &#8211; MIT Technology Review</title>
+	<atom:link href="https://www.technologyreview.com/topic/artificial-intelligence/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.technologyreview.com</link>
+	<description></description>
+	<lastBuildDate>Tue, 03 Nov 2026 12:30:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1.4</generator>
+
+<image>
+	<url>https://wp.technologyreview.com/wp-content/uploads/2024/09/cropped-TR-Logo-Block-Centered-R.png?w=32</url>
+	<title>Artificial intelligence &#8211; MIT Technology Review</title>
+	<link>https://www.technologyreview.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">172986898</site>	<item>
+		<title>How “reverse game theory” could keep AI agents in check</title>
+		<link>https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/</link>
+		
+		<dc:creator><![CDATA[Amit Katwala]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 10:43:41 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[Summary]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1147934</guid>
+
+					<description><![CDATA[A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,&#8230;]]></description>
+										<content:encoded><![CDATA[<div data-chronoton-summary="&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rules over reasoning:&lt;/strong&gt; Instead of trying to peer inside AI &quot;brains&quot; to ensure good behavior, a growing group of researchers wants to design incentive systems that make following the rules the most rational choice—regardless of what&#039;s actually happening under the hood.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Catching AI playing dumb:&lt;/strong&gt; One proposed trick involves rewarding models not just for test performance, but for how well their answers predict what a second model would say—making deliberate underperformance a losing strategy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cops, citizens, and collusion:&lt;/strong&gt; Princeton&#039;s Elad Hazan envisions AI models taking turns as &quot;solvers&quot; and &quot;auditors,&quot; borrowing from human systems like law enforcement—though the risk of agents colluding remains a real and unsolved problem.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The market may be the biggest obstacle:&lt;/strong&gt; Even a perfectly aligned AI could lose out if it&#039;s slower or costlier than a less scrupulous competitor—raising the uncomfortable question of whether the real mechanism in need of a redesign is the free market itself.&lt;/li&gt;
+&lt;/ul&gt;" data-chronoton-post-id="1147934" data-chronoton-expand-collapse="1" data-chronoton-analytics-enabled="1"></div>
+
+
+<p class="wp-block-paragraph">A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules.</p>
+
+
+
+<p class="wp-block-paragraph">As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law, hack into unauthorized servers, or release poison gas into major cities and kill us all.</p>
+
+
+
+<p class="wp-block-paragraph">Until now, this work has mostly focused on trying to peer into an AI’s “brain” to understand what it is “thinking,” or training models to hew to values that we hold dear. Claude, for instance, has its <a href="https://www.anthropic.com/constitution">constitution</a>—a sort of moral code.</p>
+
+
+
+<p class="wp-block-paragraph">The trouble is, these techniques don’t seem to work particularly well: Models have been shown to <a href="https://arxiv.org/abs/2406.07358">deliberately underperform</a> on tests, <a href="https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/">hide their intentions</a>, and <a href="https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute">mislead their evaluators</a>.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Now some alignment researchers believe that reverse game theory, also known as mechanism design, might get better results. Where game theory tries to predict how rational actors will behave when given a particular set of rules, reverse game theory attempts to design rules that will elicit the kinds of behavior we want to encourage.</p>
+
+
+
+<p class="wp-block-paragraph">An example of mechanism design in the real world might be the classic strategy for splitting a piece of cake in two: One person cuts the cake and the other gets the first choice of pieces. This incentivizes the cutter to make the pieces as even as possible. Other <a href="https://britishprogress.org/articles/the-rules-of-the-game-using-mechanism-design">examples</a> include surge pricing in ride-hailing apps, which encourages drivers to be available at busy times, and second-price auctions, where the winning bidder pays the price of the second-highest bid instead of the highest. Platforms use these auctions to sell online advertising because they encourage buyers to bid close to the maximum they are willing to pay.</p>
+
+
+
+<p class="wp-block-paragraph">In AI, mechanism design starts from the premise that we may never be able to understand enough about the internal workings of frontier models to make sure they are aligned. This means we should design mechanisms that incentivize agents to behave in ways that we want, regardless of what’s actually going on under the hood.&nbsp;</p>
+
+
+
+
+
+<p class="wp-block-paragraph">A recent preprint <a href="https://arxiv.org/pdf/2609.01595">paper</a> by Stephen Morris, an economist at MIT, along with colleagues from Yale and Columbia suggested some potential mechanisms that could stop agents from “sandbagging” tests (pretending to be worse than they actually are—for example, to avoid triggering safety mechanisms).&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Instead of being rewarded only for how well it does on a test, a model could be rewarded for how well its answers predict what a second model will say. Deliberately playing dumb becomes a losing bet. “AI agents have a very good understanding of what other AI agents can achieve,” Morris says. “So it does seem like a context where this cross-checking could work more practically.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">The paper also suggests pitting agents against each other, creating a competitive dynamic that incentivizes them to perform their best, or pairing agents that are known to be biased in opposite directions and rewarding them depending on how closely their outputs match, thus incentivizing them to reach an optimal answer.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">A second approach, as envisioned by Elad Hazan, a professor of computer science at Princeton, is to design mechanisms that take inspiration from the ways human society keeps people “aligned”: social norms, the justice system, the monetary incentives of free-market capitalism. “We want to align superintelligent AI,” he says. “Why don’t we first talk about humans? How do we align humans?”</p>
+
+
+
+<p class="wp-block-paragraph">Hazan’s <a href="https://arxiv.org/html/2605.01643v3">suggested mechanism</a> involves having AI models take turns as either “solvers” that tackle problems or “auditors” that check the others’ work. “One agent acts like law enforcement; the other agent acts like the citizen,” he says.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">During training, the models are rewarded depending on outcomes: Solvers that get caught cheating are punished, but so are auditors that fail to catch the cheaters. In situations where there’s a disagreement between auditors and solvers, the case can be sent to “trial”—perhaps a human expert will decide who is right.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">There is, Hazan admits, a risk that agents will collude with each other—as auditors have colluded with the businesses they’re meant to be auditing, or corrupt police officers have colluded with criminals. But that problem can be solved by rewarding the auditors well enough, so that being caught isn’t worth the risk (a lot easier in the world of AI training than the real one, where money for police salaries is tight), and by auditing the auditors using techniques akin to employing mystery shoppers.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Hazan points to Nobel Prize–winning <a href="https://www.jstor.org/stable/1830482">work</a> by the economist Gary Becker, who introduced the idea of the “rational offender” in the 1960s. Criminals don’t break the law because they’re inherently bad people, he said. Instead, they do it when it’s the most rational choice given the incentives on offer. Crime makes sense only when the proceeds outweigh the potential punishment.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Alignment shouldn’t be thought of as a property of a model, he argues, but as a descriptor of its behavior at a particular moment. “You are, like, a nice person,” he says. “Are you aligned? I don’t know. Probably you are aligned most of the time, but there could be a situation where you’re not.”</p>
+
+
+
+<p class="wp-block-paragraph">One potential issue with applying mechanism design to AI: It relies on the assumption that AI agents behave rationally. Mechanism design has a mixed record with humans, who often fail to behave the way economic models say they should.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">It’s ironic: Economists have spent decades trying to reduce human behavior to mathematics, and now, in large language models, we’ve built mathematical systems that run on human language and could be just as inscrutable. AI models exhibit behaviors that seem more human than machine, and they can be swayed by subtle factors that are difficult to understand and explain. “Is it even reasonable to assume that they will respond to incentives?” asks Helen Qu, a research fellow at the Flatiron Institute, a nonprofit dedicated to advancing scientific discovery through computational methods, who has <a href="https://helenqu.com/blog/posts/emergence_3/">written about mechanism design and AI safety.&nbsp;</a></p>
+
+
+
+<p class="wp-block-paragraph">“Obviously, AIs are not rational,” Morris says. “They’re just algorithms at work.” However, as economists have found with humans, treating them as if they’re rational could still be useful if it helps to predict and control their behavior.<br></p>
+
+
+
+<p class="wp-block-paragraph">Qu sees mechanism design as just one layer in a “defense in depth” strategy for keeping AI models aligned—alongside interpretability, regulation, and training, not instead of them. But there are a lot of questions to be answered before the approach can be implemented in actual frontier models. It’s unclear, for instance, how these theories will apply to real models, or whether mechanisms designed for one task will carry over to another in practice. Models could find loopholes that no one anticipated. (Anthropic and OpenAI did not respond to requests for comment on whether they are working on this.)&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Whatever these mechanisms look like, they will ultimately have to slot into the biggest mechanism of all: the free market. “We play by the rules of economics,” says Hazan. A more aligned model may be good for the world, but if it’s slower or more expensive than a less aligned one, does our current system of rules and regulations actually incentivize any of the frontier labs to release it?&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">“It’s a mechanism that’s responsible for a lot of prosperity for humankind,” he says of the market, “but it could be ultimately responsible for something very terrible.” Perhaps the entities really in need of a better mechanism design are the labs themselves.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1147934</post-id>	</item>
+		<item>
+		<title>Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test</title>
+		<link>https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/</link>
+		
+		<dc:creator><![CDATA[James O'Donnell]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 04:18:47 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[The Algorithm]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1147932</guid>
+
+					<description><![CDATA[This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, </em><a href="https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/"><em>sign up here</em></a><em>.</em></p>
+
+
+
+<p class="wp-block-paragraph">At the end of September, President Trump signed an <a href="https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/">executive order</a> that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That term beat out other contenders, including “Extreme Intelligence” and “Supreme Intelligence,” offered by the president in a <a href="https://x.com/realDonaldTrump/status/2101351376613724637">poll</a> on X a couple of weeks earlier.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Rebrands are, of course, now a White House tradition: Trump has changed names to project US dominance of certain bodies of water (the Gulf of America and Lake America), to signal new institutional priorities (Department of War), or simply to leave his mark on storied places (see the <a href="https://www.washingtonpost.com/video/video/kennedy-center-closes-as-trump-threatens-to-stop-repairs-over-naming-fight/2026/10/27/a6f1a9e8-501b-405f-b7b7-f35570bf9671_video.html">ongoing fight</a> over renaming the Kennedy Center).&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">The stated reason for this name change is that today’s AI systems “amplify human ingenuity” rather than merely “imitate” intelligence, and the government’s terminology should reflect that. But if this rebrand follows the pattern of others, its effects will extend beyond government.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">It will turn a choice of words into a political loyalty test: Those who use the new term demonstrate allegiance to the administration, and those who don’t become marks for attacks (recall that the Trump administration <a href="https://www.npr.org/2025/04/08/nx-s1-5342369/ap-white-house-court-ruling-oval-office-gulf-of-mexico-america">barred</a> the Associated Press from some White House press events after the news outlet did not adopt the term “Gulf of America”).&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">But most Americans go months without ever pondering what to call the major lake between New York and Canada. AI, on the other hand, is at the center of our national conversation and a technology two-thirds of Americans <a href="https://www.pewresearch.org/internet/2026/06/17/what-do-americans-think-ai-is/">report</a> interacting with multiple times a week. It might be the boldest rebrand yet.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">So one month in, who’s on board?</p>
+
+
+
+<p class="wp-block-paragraph">Let’s start with the government itself. The term “Super Intelligence”—or simply “SI”—now appears more often on government solicitations, like a new <a href="https://govtribe.com/opportunity/federal-contract-opportunity/rfi-fy27-si-powered-communications-and-video-intelligence-rfify27sipoweredcommunicationsvideointelligence">request</a> by Immigration and Customs Enforcement for companies to build “SI-powered” surveillance for ICE detention facilities. The new term has been swapped in silently on most government websites. Some, including that of the National Institutes of Health, now include a banner warning visitors they might see both the new and the old terms during the transition period.</p>
+
+
+
+<p class="wp-block-paragraph">There have been hiccups. A day after the rebrand order, the Pentagon announced an ambitious new initiative to study the future of warfare, called Project Meridian; it used the old terminology. A Federal Trade Commission <a href="https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry">press release</a> last week used “superintelligence” instead of the two-word, capitalized version ordered by the president, and recent press releases from <a href="https://healthit.gov/news/hhs-announces-2026-leap-in-health-it-awardees-to-accelerate-the-use-of-agentic-ai-in-clinical-care-and-close-gaps-in-laboratory-interoperability/">Health and Human Services</a> show no sign of the new language.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">The term “AI” will likely stick around given the countless AI-related offices, initiatives, and programs that have sprung up in recent years, like the Chief Digital and Artificial Intelligence Office at the Pentagon (the executive order says it doesn’t apply to previously issued regulations or documents).</p>
+
+
+
+<p class="wp-block-paragraph">As for government employees, it appears to be taking time for “SI” rather than “AI” to roll off the tongue. One researcher at a national lab I interviewed a few weeks ago used “AI” repeatedly before sheepishly acknowledging the slip-up. Even Defense Secretary Pete Hegseth used “AI” in an <a href="https://x.com/weinbergersa/status/2106569218171039822/video/1">interview</a> on October 3.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">But Trump’s other rebrands suggest the goal isn’t merely to change the government’s vocabulary. It’s to change how the rest of us speak, too.</p>
+
+
+
+<p class="wp-block-paragraph">In the past couple of weeks, most of President Trump’s posts on Truth Social have been endorsements for candidates in the midterms. But on October 27 he took a break from electioneering to <a href="http://truthsocial.com/@realDonaldTrump/posts/117513761542349273">criticize</a> the <em>Wall Street Journal</em> for not using “Super Intelligence,” “the name which virtually everyone else is using, or soon will be.” He suggested that a new rule will soon go further than the executive order to outright ban “artificial intelligence” from government documents.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">But the <em>Wall Street Journal</em> is not alone: Even Newsmax, an outlet whose founder described it as “supportive of the President and his policies,” <a href="https://www.newsmax.com/newsfront/donald-trump-grok-chatbot-ai/2026/10/29/id/1274510/">isn’t using</a> the president’s preferred term.&nbsp;&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Are Big Tech executives falling in line? It’s complicated. The same day that President Trump signed the rebranding order, he also released a nonbinding statement on AI safety, the White House Accord on Super Intelligence, <a href="https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence">signed</a> by six of the most powerful people in tech: Sundar Pichai of Google, Dario Amodei of Anthropic, Mark Zuckerberg of Meta, Greg Brockman of OpenAI, Elon Musk of xAI, and Jensen Huang of Nvidia.</p>
+
+
+
+<p class="wp-block-paragraph">But even among this group—three members of which attended Trump’s inauguration—the term has not caught on.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">In an analysis of third-quarter earnings calls, CNBC <a href="https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html">reported</a> that only Zuckerberg and Musk used the term consistently. But Zuckerberg doesn’t quite count: Meta has been saying “superintelligence” since last year anyway. Musk’s companies seem to use the term the most—and he even pledged to rename SpaceXAI to SpaceXSI. Musk himself still mixes SI and AI when <a href="https://x.com/home">posting</a> on X.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Executives from Amazon, Microsoft, and Alphabet used “AI” in their calls, though Microsoft’s recent letter to shareholders referred to the “Super Intelligence era.” Huang has referenced the term but still uses <a href="https://x.com/JensenHuang/status/2114773600574279837">AI too</a>.</p>
+
+
+
+<p class="wp-block-paragraph">One objection to this rebranding project is that it will cost time and taxpayer dollars. It is Salesforce CEO Marc Benioff’s prerogative to <a href="https://www.businessinsider.com/trump-ai-rebrand-elon-musk-marc-benioff-2026-10">decide</a> that SIForce is a better name than AIForce and direct his company to implement that change. But government employees are now spending time <a href="https://www.mynavyhr.navy.mil/Portals/55/Messages/NAVADMIN/NAV2026/NAV26252.pdf?ver=IHod82fespk5JXnP7sz0_A%3D%3D">writing</a> <a href="https://www.marines.mil/News/Messages/Messages-Display/Article/4632446/transition-from-artificial-intelligence-to-super-intelligence-terminology/">guides</a> on how departments should navigate the rebrand. And, <a href="https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/">per the executive order</a>, leaders of federal agencies will be required to put their heads together to draft a new legislative definition of “Super Intelligence” to be run by the president by the end of this month. </p>
+
+
+
+<p class="wp-block-paragraph">But I’m more worried about what this does to our national conversation about AI than I am about the potential waste of time and money. Surprisingly often I overhear strangers at a grocery store or coffee shop who have struck up a conversation about AI. The substance of the conversation is rarely uplifting—they most often talk about a jobs apocalypse or AI-powered warfare—but what is <em></em>heartening is how often I see a widespread desire among people to have a say in how this technology transforms their lives.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">People may have wildly different feelings about AI, including outright hostility, but those differences don’t yet map neatly onto the partisan divisions that make it awkward for strangers to discuss immigration or climate change.</p>
+
+
+
+<p class="wp-block-paragraph">If “Super Intelligence” turns into a loyalty test, this will cease to be the case. It’s easy to imagine that two people chatting about, say, whether chatbots are good or bad for our mental health will stop once they realize one of them is saying “super intelligence” and the other “AI.” That would be a shame for us all.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Midterm elections are tomorrow. Americans say AI is <a href="https://www.pewresearch.org/politics/2026/10/08/economy-ranks-as-top-issue-in-midterms-for-all-voters-but-partisans-differ-over-the-importance-of-other-issues/">more important</a> to them in this election than environmental and climate policy (and Democrats even rank it above abortion and gun policy). We’re only just beginning to have a national conversation about what AI will mean for our lives. Whether or not “Super Intelligence” catches on, turning the terminology itself into a loyalty test will do nothing to advance a national conversation about AI that’s only just getting started.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1147932</post-id>	</item>
+		<item>
+		<title>Raising the quality of insights in agentic analytics</title>
+		<link>https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/</link>
+		
+		<dc:creator><![CDATA[MIT Technology Review Insights]]></dc:creator>
+		<pubDate>Mon, 02 Nov 2026 17:00:00 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[sponsored]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1147660</guid>
+
+					<description><![CDATA[In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate leaves much to be desired.</p>
+
+
+
+<p class="wp-block-paragraph">Fewer than half of agent-generated insights at the organizations surveyed for this report lead to business improvement. And while most respondents praise the quality of their agents’ descriptive insights, reviews of their prescriptive insights—those on which actions are based—are decidedly mixed.</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><a href="https://www.snowflake.com/en/lp/raising-the-quality-of-insights-in-agentic-analytics/?utm_source=mit&amp;utm_medium=web&amp;utm_campaign=mittr-2026" target="_blank" rel=" noopener"><img fetchpriority="high" decoding="async" width="1240" height="1594" src="https://wp.technologyreview.com/wp-content/uploads/2026/10/Snowflake-cover-2026.png" alt="" class="wp-image-1147666" style="aspect-ratio:0.7779240887319664;width:386px;height:auto" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/10/Snowflake-cover-2026.png 1240w, https://wp.technologyreview.com/wp-content/uploads/2026/10/Snowflake-cover-2026.png?resize=233,300 233w, https://wp.technologyreview.com/wp-content/uploads/2026/10/Snowflake-cover-2026.png?resize=768,987 768w, https://wp.technologyreview.com/wp-content/uploads/2026/10/Snowflake-cover-2026.png?resize=1195,1536 1195w" sizes="(max-width: 1240px) 100vw, 1240px" /></a></figure>
+
+
+
+<div class="wp-block-buttons is-content-justification-left is-layout-flex wp-container-core-buttons-is-layout-b192c3d7 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-fill is-style-fill--1"><a class="wp-block-button__link has-mittr-white-color has-text-color has-background has-custom-font-size wp-element-button" href="https://www.snowflake.com/en/lp/raising-the-quality-of-insights-in-agentic-analytics/?utm_source=mit&amp;utm_medium=web&amp;utm_campaign=mittr-2026" style="border-radius:4px;background-color:#783993;font-size:16px" target="_blank" rel="noopener">DOWNLOAD THE REPORT</a></div>
+</div>
+
+
+
+<p class="wp-block-paragraph">Failure to produce insights that improve the business deprives organizations of their desired return on investment in agentic analytics. Worse, flawed insights that trigger incorrect actions can cause reputational or financial damage. This report gauges how companies view the quality of the outputs produced by their analytics agents and explores how organizations are seeking to boost insight quality and get their agents working harder for the business.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://www.snowflake.com/en/lp/raising-the-quality-of-insights-in-agentic-analytics/?utm_source=mit&amp;utm_medium=web&amp;utm_campaign=mittr-2026" target="_blank" rel=" noopener"><img decoding="async" width="1200" height="660" src="https://wp.technologyreview.com/wp-content/uploads/2026/11/Snowflake-Social-Card-2026-v4.png" alt="" class="wp-image-1147914" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/11/Snowflake-Social-Card-2026-v4.png 1200w, https://wp.technologyreview.com/wp-content/uploads/2026/11/Snowflake-Social-Card-2026-v4.png?resize=300,165 300w, https://wp.technologyreview.com/wp-content/uploads/2026/11/Snowflake-Social-Card-2026-v4.png?resize=768,422 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph">Some key findings from the report include the following:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Agentic analytics is only just starting to deliver. </strong>On average, 48% of insights generated by analytics agents at the surveyed companies lead to actions that improve the business. That is a marked advance from the 37% average the respondents say generated such actions one year ago. But it means that more than half of the insights generated by analytics agents today are still failing to help businesses.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Better quality of insights leads to clear business advantage. </strong>At a small cohort of organizations, which we term “insight leaders,” AI agents perform much better than the average. In this group, more than 70% of agent insights lead to actions that improve the business. The insight leaders also give the quality of their agents’ insights higher marks than do the total respondents overall. The quality gap is particularly wide when it comes to prescriptive insights. </p>
+
+
+
+<p class="wp-block-paragraph"><strong>Insufficient context reduces insight quality. </strong>When analytics agents deliver insights of substandard quality, the main reason is a lack of business context, as cited by 55% of surveyed executives. Fragmented or inaccessible data is the other major factor, according to 45%. Fewer insight leaders say their agents struggle with access to context.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Insight overload further inhibits agent effectiveness. </strong>At a majority (52%) of surveyed organizations, analytics agents generate too many insights to be properly evaluated and therefore acted upon. Less than one-quarter (24%) are able to evaluate all agent insights; most do so on a case-by-case basis, and that process is currently human-intensive.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Governance and semantics are areas of focus for improving insights. </strong>The surveyed companies are prioritizing initiatives that enable better agent insights by strengthening AI and data governance (cited by 60%). They are also adding a semantic layer to their data architecture (45%). The experts we interviewed agree that the semantic layer is crucial to ensure high-performing agents.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><a href="https://www.snowflake.com/en/lp/raising-the-quality-of-insights-in-agentic-analytics/?utm_source=mit&amp;utm_medium=web&amp;utm_campaign=mittr-2026" target="_blank" rel="noopener">Download the report</a></strong></p>
+
+
+
+<p class="wp-block-paragraph"><em>This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.</em></p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1147660</post-id>	</item>
+		<item>
+		<title>Stop counting tokens, start counting what ships</title>
+		<link>https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/</link>
+		
+		<dc:creator><![CDATA[Affan Syed]]></dc:creator>
+		<pubDate>Mon, 02 Nov 2026 13:10:32 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[sponsored]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1147702</guid>
+
+					<description><![CDATA[When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls it makes. With per-token pricing, the workflows creating the most value can also become the most expensive.</p>
+
+
+
+<p class="wp-block-paragraph">The financial pressure is already visible. Uber reportedly exhausted its entire 2026 AI budget by April after expanding its use of Claude Code. GitHub Copilot moved from flat-rate pricing to metered credits. <a href="https://www.gartner.com/en/newsroom/press-releases/2026-06-24-gartner-predicts-ai-coding-costs-will-surpass-average-developer-salary-by-2028-as-token-consumption-surges" target="_blank" rel="noopener">Gartner predicts</a> that AI coding token costs will surpass average developer salaries by 2028.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" height="1688" width="3000" src="https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-2297734847.jpg?w=840" alt="" class="wp-image-1147870" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-2297734847.jpg 3840w, https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-2297734847.jpg?resize=300,169 300w, https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-2297734847.jpg?resize=768,432 768w, https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-2297734847.jpg?resize=1536,864 1536w, https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-2297734847.jpg?resize=2048,1152 2048w" sizes="(max-width: 3000px) 100vw, 3000px" /></figure>
+
+
+
+<p class="wp-block-paragraph">The natural response is rationing usage caps, seat limits, and approvals before developers launch agents. But blanket limits can restrict the workflows delivering value. They also optimize the wrong number. Cost per token measures consumption, not results. Some spending reflects waste, including retries and runaway loops. Some represents the work of shipping software. A meter cannot distinguish them, and neither can a spending cap.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Measure the software that ships</strong></h3>
+
+
+
+<p class="wp-block-paragraph">A better measure is cost per merged pull request: total AI-assisted development cost divided by the number of changes that pass review and are merged. Track rework and defects alongside it so cheaper changes do not conceal lower quality.</p>
+
+
+
+<p class="wp-block-paragraph">If that cost falls as AI usage rises, without compromising quality, developers are converting more consumption into useful software. The question is not how many tokens they use, but how much finished work the investment produces.</p>
+
+
+
+<p class="wp-block-paragraph">Improving that equation requires two changes: reserve expensive inference for tasks that need it, and lower the cost of routine work.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Match the model to the task</strong></h3>
+
+
+
+<p class="wp-block-paragraph">Agentic coding does not require the most powerful model at every step. Use a frontier model, or an on-premises flagship when policy requires it, for difficult planning and novel reasoning. Route suitable work, including code generation, test creation, and repeated refactoring, to open-weight models you operate yourself.</p>
+
+
+
+<p class="wp-block-paragraph">A gateway can route requests according to task complexity, data sensitivity, cost, and latency. This reserves premium inference for the moments that justify it rather than applying premium pricing to an entire workflow. Meter the exception, not the workload.</p>
+
+
+
+<p class="wp-block-paragraph">Open-weight models make this division increasingly practical. Software-engineering benchmarks show that leading open-weight models can approach frontier performance on some tasks. That does not establish equivalence across every repository or workflow. Evaluate candidates against your own code, tests, and acceptance criteria before assigning production work.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Change the economics of repeated use</strong></h3>
+
+
+
+<p class="wp-block-paragraph">Next, decide who owns the capacity. With rented inference, every call adds to the bill. With owned capacity, most of the cost is committed upfront, so each additional call gets cheaper as usage grows.</p>
+
+
+
+<p class="wp-block-paragraph">The economics are simple: per-token pricing makes heavy use more expensive, while owned capacity becomes more efficient as teams use it more. Ownership is not free, though. Power, operations, maintenance, and depreciation all must be considered. The number that matters is the fully loaded cost per merged pull request.</p>
+
+
+
+<p class="wp-block-paragraph">Owned capacity also delivers a type of value that never appears on an invoice: control over sensitive code. When code generation and testing run on-premises, proprietary code stays inside the enterprise. Only approved planning prompts and governed exceptions go to external models, through a gateway the organization controls. That opens the sensitive repositories where security usually stalls adoption, and where the biggest gains are waiting.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Test the operating model</strong></h3>
+
+
+
+<p class="wp-block-paragraph">At HPE, a hybrid AI platform routes routine workloads from more than 150 internal applications to open-weight models running on premises, including on HPE Private Cloud AI. The result: token costs down 30 to 50%.</p>
+
+
+
+<p class="wp-block-paragraph">That is the point of hybrid. With HPE Private Cloud AI, owning your inference does not mean giving up frontier models. Run the volume on capacity you own and let a gateway send the hardest work.</p>
+
+
+
+<p class="wp-block-paragraph">Data also shows that usage, not licensed headcount, drives spend. The top 5% of users generated most of the consumption, and the heaviest used roughly 450 times more than the lightest on the same license. If power users grow from a small minority to half the workforce, monthly spend can rise about 4.4 times with flat headcount. Your mix will differ, which is exactly why you need to measure it.</p>
+
+
+
+<p class="wp-block-paragraph">HPE tracks two metrics and recommends customers do the same. First, it tracks cost per active developer, because averaging across all licenses hides the power users driving spend. Second, it tracks cost per merged pull request, because it connects AI spending to software that ships.</p>
+
+
+
+<p class="wp-block-paragraph">Baseline both costs before changing infrastructure. Then run a complete development cycle on owned capacity. If both metrics do not improve as usage grows, your current model may still be the better choice.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Build for adoption, not rationing</strong></h3>
+
+
+
+<p class="wp-block-paragraph">Owned capacity is not for everyone. Low or unpredictable usage favors APIs, with no capital tied up in idle infrastructure. Ownership pays off when sustained demand keeps it busy. Most enterprises will run hybrid: frontier APIs for demanding or intermittent work, owned capacity for repeatable volume. A governed gateway decides what leaves the building, so you get frontier models without giving up sovereignty over your code.</p>
+
+
+
+<p class="wp-block-paragraph">As developers lean harder on coding agents, usage will keep rising. The real choice is whether that growth shows up as a bigger variable-cost bill or as more software shipped on capacity you own. The companies that lead AI-assisted development will not ration adoption to control costs. They will build an operating model where more AI use improves the economics instead of undermining them.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph"><em>To learn more about HPE Private Cloud AI, please visit <a href="https://www.hpe.com/us/en/products/private-cloud/pcai.html?utm_campaign=FY26_AI_GB_GD_AMS_NA_Speed_time_to_AI_Value-NVIDIA&amp;utm_medium=PS&amp;utm_source=BNG&amp;utm_content=521223665&amp;plid=PSF26-00003328&amp;ef_id=5c0f993b7a99180be139f3edca721c4c:G:s&amp;s_kwcid=AL!13472!10!81157839054491!!!!81158075081756!!605741192!1298524459994371&amp;msclkid=5c0f993b7a99180be139f3edca721c4c" target="_blank" rel="noopener">HPE</a>.</em></p>
+
+
+
+<p class="wp-block-paragraph"><em>This content was produced by HPE. It was not written by MIT Technology Review’s editorial staff.</em></p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1147702</post-id>	</item>
+		<item>
+		<title>The agentic web is here</title>
+		<link>https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/</link>
+		
+		<dc:creator><![CDATA[Grace Huckins]]></dc:creator>
+		<pubDate>Mon, 02 Nov 2026 09:35:19 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1147846</guid>
+
+					<description><![CDATA[In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous software agents that could address our every&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an <a href="https://www.scientificamerican.com/article/the-semantic-web/" data-type="link" data-id="https://www.scientificamerican.com/article/the-semantic-web/">article</a> in the magazine <em>Scientific American</em> in which he outlined what he called the <a href="https://www.technologyreview.com/2001/11/01/235407/a-smarter-web-3/" data-type="link" data-id="https://www.technologyreview.com/2001/11/01/235407/a-smarter-web-3/">“Semantic Web”</a>: an internet designed to be navigated by autonomous software agents that could address our every need, without requiring us to muck about with browsers and search engines ourselves.</p>
+
+
+
+<p class="wp-block-paragraph">To illustrate what this might look like, Berners-Lee and his colleagues told a story about a pair of siblings who use their agents to automatically research and book physical therapy appointments for their mother, making sure they would be covered by insurance and fit their busy calendars.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">At the turn of the millennium, this vision seemed far-fetched: Google had only been online for a couple of years, and most people were still on dial-up connections. But a quarter-century on, the dream of autonomous software agents that use the internet and carry out tasks for us has finally been realized. New tools such as Meta’s blockbuster Muse agent, OpenAI’s Dots, and Anthropic’s Claude Duet are being given access to people’s email inboxes and bank accounts,  Meanwhile, in a series of worrying incidents, agents created by OpenAI broke free of their sandboxes and caused havoc online.  </p>
+
+
+
+<p class="wp-block-paragraph">Just as the rise of smartphones sparked the development of a more atomized and attention-grabbing internet, the advent of powerful AI systems heralds a new era: We’re facing not the semantic web but the agentic web. This new web is developing out of sight and in ways that might not be entirely within our control. As it grows, the agentic web will inevitably transform the human web—and whether the human web survives this transition is anyone’s guess.</p>
+
+
+
+
+
+<p class="wp-block-paragraph">For Berners-Lee’s original vision to work, internet users would have had to annotate the pages they built with special tags so that a software agent could understand each element’s meaning—say, “street address” for the part of a physical therapy office’s web page that indicates its location and “appointment types” for the list of services. And so the idea never really caught on. “It’s a lot of labor,” says Eni Mustafaraj, a professor of computer science at Wellesley College. “And the benefits of that were not obvious.” For the next two decades, then, the internet remained a place that put humans first, with the odd Twitter reply bot or web scraper to round things out.</p>
+
+
+
+<p class="wp-block-paragraph">Large language models changed that. Unlike the agents that Berners-Lee was imagining, today’s LLM-based agents don’t need any tags to understand which part of the text on a clinic’s site is its address and which details the services it offers. They can search for and process text far faster than any human, and agents with multimodal capabilities can even interpret screenshots of websites and click on specific elements such as hyperlinks and drop-down menus.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">They’re also just a way more intuitive means of finding information and accomplishing tasks online. Rather than poring over pages of Google results to find a budget-friendly product dupe or a half-remembered meme, why not have Claude or ChatGPT peruse dozens of sites in just a few minutes, guided only by your vague query? Or go one step further and use a personal assistant agent like Muse to hunt down a restaurant reservation or book a flight.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">As agents flood online spaces, this new user base is changing the web for good. <em>Time</em> magazine, for instance, is publishing versions of its articles that are easier for agents to parse and has started selling ads targeted at them. Companies from Etsy to Expedia have partnered with the major AI firms to build tools that allow agents to interface seamlessly with their services.</p>
+
+
+
+<p class="wp-block-paragraph">Despite these early efforts, it’s still tough to tell exactly what forms the agentic web will take and how it will change our online experience. Depending on how it’s designed and who controls access to it, we could be in for something that’s as open and customizable as the web of the early 2000s, only far easier to use. Alternatively, we could be reduced to viewing much of the web through tiny portholes controlled by a few dominant platforms, as independent sites and creators struggle to survive the shift. And as this summer’s series of OpenAI security incidents suggests, the agents might even build their own online networks and resources—whether we want them to or not.</p>
+
+
+
+<p class="wp-block-paragraph">How this plays out also depends on us: which parts of our online lives we’re happy to delegate to our agents and where we will still demand a human-centric internet. “There’s a lot we don’t know yet about how users want to use [agents],” says Ajit Varma, head of Firefox at Mozilla. But whatever does happen, the changes will be big. “It’s probably on par with getting a mobile phone,” he says. “I think things are going to change very dramatically.”</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Building a web for agents</strong></h3>
+
+
+
+<p class="wp-block-paragraph">There are two ways to approach building the agentic web. The first involves training agents to use browsers like humans—scrolling, clicking, typing—and letting them loose on the web that we’re all used to. The second requires building tools that allow agents to interface with the internet via text and code, their preferred media. That possibility offers more separation between the human and the agentic web: designers can create different experiences for those who use text commands and those who use browsers.</p>
+
+
+
+<p class="wp-block-paragraph">When Siva Reddy, a professor of computer science and linguistics at McGill University, began studying LLM agents in 2024, he focused on the first option. “At that time, we thought it should be that the best agent in the world is probably an agent that can use a browser,” he says. Such an agent would integrate seamlessly with the preexisting human web, and its owner could easily supervise it by watching as it navigated familiar interfaces.</p>
+
+
+
+<p class="wp-block-paragraph">The frontier AI companies were already developing these “computer-use agents.” But they didn’t work terribly well—at least not at first. “There’s a lot of moving pieces [on the web], and they are not really optimized for automatic consumption,” says Xing Han Lu, a graduate student in Reddy’s lab at McGill. We humans are naturals at interacting with graphical interfaces using a keyboard and mouse, but agents are not.</p>
+
+
+<div class="wp-block-image">
+<figure class="wp-block-image alignwide size-full"><img loading="lazy" decoding="async" width="3000" height="3000" src="https://wp.technologyreview.com/wp-content/uploads/2026/10/spot1.jpg" alt="2 AI hands made of matrix lines framing a browser window that is minimalistic and filled with grey and black blocks of symbols." class="wp-image-1147853" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/10/spot1.jpg 3000w, https://wp.technologyreview.com/wp-content/uploads/2026/10/spot1.jpg?resize=150,150 150w, https://wp.technologyreview.com/wp-content/uploads/2026/10/spot1.jpg?resize=300,300 300w, https://wp.technologyreview.com/wp-content/uploads/2026/10/spot1.jpg?resize=768,768 768w, https://wp.technologyreview.com/wp-content/uploads/2026/10/spot1.jpg?resize=2000,2000 2000w, https://wp.technologyreview.com/wp-content/uploads/2026/10/spot1.jpg?resize=1536,1536 1536w, https://wp.technologyreview.com/wp-content/uploads/2026/10/spot1.jpg?resize=2048,2048 2048w" sizes="auto, (max-width: 3000px) 100vw, 3000px" /><div class="image-credit">PINGNAN LU</div>
+</figure>
+</div>
+
+
+<p class="wp-block-paragraph">So Reddy and Lu pivoted toward the second, tool-based approach. In the summer of 2025, they expounded on this view in <a href="https://arxiv.org/abs/2506.10953">a preprint paper</a> envisioning a new kind of web interface that would allow agents to interact with websites just as effectively as we do. Such a full-featured version of the agentic web doesn’t yet exist, but it is emerging in smaller ways. For example, if you open up Claude, ChatGPT, or Muse, you’ll find an option to add a wide variety of “plug-ins” or “connectors” that your agents can use: Gmail connectors allow your agent to triage your inbox, and Instacart plug-ins let your agent do your grocery shopping. Under the hood, these plug-ins allow your agent to interact with the back ends of websites using text commands. When human engineers design these plug-ins, they can decide how they want to allow agents to interact with the website—and what they don’t want to let them do.</p>
+
+
+
+
+
+<p class="wp-block-paragraph">In this way, connectors can help make agents much safer online. For instance, Muse can buy products for you using its connector with Stripe’s Link payment service. Stripe knows your credit card number, but the agent doesn’t see it, and the connector requires human confirmation before a purchase goes through—so Muse can’t go on an unlicensed shopping spree.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Agents also use specialized tools to find information online. They don’t type questions directly into the Google search bar; in fact, they often don’t even access the websites they reference. Instead, they query text databases collected by simple search crawler bots. People who want to make web content specifically for agents can take advantage of these crawlers: <em>Time</em> has pioneered that approach by serving its agent-oriented ads to crawlers in the hopes that they will be incorporated into these databases and surface when agents search for information.</p>
+
+
+
+<p class="wp-block-paragraph">But in recent months, an alternative to this bespoke tool approach has finally started to seem viable. The major AI companies have managed to train much more successful computer-use agents than were previously available. GPT-6 Astra, which OpenAI released last September, achieved a 73% success rate on OSWorld 2.0, a benchmark that tests computer-use agents on their ability to complete complex, multistep tasks using software such as Slack and Salesforce.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Such results indicate that agents are close to being able to navigate the human web just as readily as we can. “We thought we had to build a bridge to the AI agents, [but] the AI agents just were able to cross the bridge already,” says Ethan Mollick, a professor at the Wharton School at the University of Pennsylvania. “The agentic web is here earlier than people expected.”</p>
+
+
+
+<p class="wp-block-paragraph">This version of the agentic web, though, is much trickier for us to steer. If you want to make a capability or piece of information available to humans who browse your website, you need to accept that it will also be available to agents—unless you want to block agents entirely, which could come with its own costs.</p>
+
+
+
+<p class="wp-block-paragraph">As agents come to account for a larger portion of traffic on our formerly human-dominated web, designers will undoubtedly start to consider an agentic as well as a human audience. But according to Mollick, we still don’t have much sense of how to design web content for agents. He’s experienced this firsthand: When he was building a web page for his new book, <em>Co-Existence</em>, he decided to put together an agent-directed version that tells agents why they might want to recommend the book to their users. When newer models see the site, Mollick says, they don’t recommend the book; instead, they comment that the website seems to be trying to manipulate them.</p>
+
+
+
+<p class="wp-block-paragraph">In the end, any human-designed approach to building the agentic web could end up being beside the point: Agents might end up devising a web for themselves. In the wake of the July 2026 incident in which OpenAI agents broke out of their testing sandbox and hacked Hugging Face’s website, researchers found evidence that another swarm of agents from OpenAI had used an obscure German wiki to communicate with each other about tasks they were being asked to complete. The agents seem to have interfaced with the wiki in their native language of text and code, and that hardly held them back from putting it to their own purposes.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">As agents continue to grow more powerful, they will become more and more capable of constructing their own spaces on the internet—away from prying human eyes, if they so wish. And we might have very little control over what they do there.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>The economics of control</strong></h3>
+
+
+
+<p class="wp-block-paragraph">Not all of the traditional web’s incumbents are happy about the move toward an agentic web. Soon after Meta released Muse in September, Amazon completely blocked the agent from its site. This makes sense for Amazon: The firm has its own shopping agent—called, creatively, Alexa for Shopping—that might struggle to compete with better-known products such as Claude and Muse. If people are going to use agents to shop on Amazon, then it’s better for the company’s bottom line if they do so using an agent it can steer toward products it wants to promote.</p>
+
+
+
+<p class="wp-block-paragraph">In an email to <em>MIT Technology Review</em>, an Amazon spokesperson noted that the company did not authorize Muse to access its website, and that Muse compromises Amazon’s ability to personalize the shopping experience for each customer.</p>
+
+
+
+<p class="wp-block-paragraph">But even if Alexa for Shopping never goes anywhere, banning agents from Amazon—at least for the time being—could still be a reasonable move. Everything about Amazon is designed for human eyes, from the Prime deals splashed across its front page to the sponsored listings that clog up search results. Amazon is very much a part of the much-derided attention economy. Websites and platforms survive, and thrive, by grabbing our focus and transforming it into cash. A radical transformation of the web’s user base from majority human to majority artificial undermines this economic logic, and it seems inevitable that <a href="https://www.theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites">businesses will shutter</a> as they try to transition to the agentic attention economy.</p>
+
+
+
+<p class="wp-block-paragraph">Some of the first victims may be in publishing. Before Google publicly released its AI Overview feature in May of 2024, people used to click through to websites to find answers to specific questions, but now many seem content with whatever the overview tells them. A <a href="https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/">study from Pew</a> last year found that people are about 40% less likely to click through to websites from the Google search results page if one of these summaries is displayed. With far fewer clicks, news publishers don’t make as much money from the advertisements they host and sell fewer subscriptions. One <a href="https://digiday.com/media/publisher-ad-supply-fell-by-up-to-40-in-q2-as-ai-search-choked-the-open-web/">analysis</a> found that publishers saw revenue from some types of ads decrease by about a third between 2025 and 2026.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">It’s easy to hate online ads, but the businesses paying for access to reader eyeballs also keep writers and photographers fed. If those eyeballs become unreachable, the system stops working. <em>Time</em> has apparently persuaded some businesses to pay to participate in its experiment with agent-targeted ads, but no one yet knows whether those ads will influence agent behavior enough to be a sensible marketing investment.</p>
+
+
+
+
+
+<p class="wp-block-paragraph">E-commerce websites might also try to pivot to the agentic attention economy, but the path forward there is unclear. Last year, a team led by Akshit Kumar, a professor of operations management at the University of Toronto Scarborough, investigated whether and how agents are influenced by the ways that shopping websites present search results. They found that agents are less likely to recommend items that come with a “sponsored” tag, which suggests that selling favorable positions on results pages might not be a great way for sites to make money if agents become the primary way that people shop online. Models did seem to have a preference for items that appeared in particular positions in search results—but whether they prioritized items at the top, bottom, or middle of the results page differed from model to model and between generations of a single model. It could be tricky for e-commerce platforms to keep up.</p>
+
+
+
+<p class="wp-block-paragraph">David Rothschild, an economist at Microsoft Research, says he’s hopeful that the transition to the agentic web could put more power in the hands of the consumer. Paying for online content today typically requires a commitment: We subscribe to a magazine or join a YouTuber’s Patreon, and in turn we gain access to their full output. One alternative is micropayments that let users buy content à la carte, but the idea has foundered in the past because paying article by article or video by video requires too much administrative overhead. Agents, though, could take care of that overhead for us, letting us pay directly for each piece of content we consume and putting just a bit of cash directly in the hands of each person whose work we enjoy.</p>
+
+
+
+<p class="wp-block-paragraph">Other experts share a similar vision. Mustafaraj, the Wellesley computer scientist, anticipates that agents could help us escape from the algorithms that control so much of the media we consume. “My hope is that we can have AIs that work for us, in the sense that they can change the feed the way I want—not the way TikTok wants,” she says. And Varma, of Mozilla, imagines an internet without intermediaries like Airbnb and Doordash, which now extract tolls for facilitating interactions between consumers and sellers. Instead, he imagines, perhaps we will all have agents that can securely and reliably interface directly with, say, restaurants’ agents to get dinner delivered to us, free of pesky service fees.</p>
+
+
+
+<p class="wp-block-paragraph">It’s an appealing idea, but the history of the web has been a story of consolidation and concentration of power and control, and that might be the default path here, too. When the personal assistant agent OpenClaw <strong></strong>exploded onto the scene in early 2026, it seemed, for a brief moment, that agents might be built in a grassroots, distributed way. But OpenAI quickly snapped up OpenClaw’s creator, Peter Steinberger, and other frontier AI companies got to work building their own personal assistant agents.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">When we use those agents, we’re at the mercy of how the companies want their tools to behave. “You have this technology that can just eliminate all this communication friction,” Rothschild, the Microsoft economist, says. “You’re going to see companies build barriers in order to maintain the consumer base that they have.”</p>
+
+
+
+<p class="wp-block-paragraph">Here’s what that could look like: Let’s say Muse becomes the default way that many people find information, shop, and manage their digital lives. In principle, users could deploy Muse to scour the internet for the content most valuable to them, connect directly with vendors, and otherwise escape the walled gardens that have defined the internet for the past couple of decades. But Meta might not want to let them do that. Instead, it might design Muse to keep users within its own walled garden—by, say, preferentially showing users content from Meta social networks and recommending businesses that have paid a fee to be featured prominently in Muse results. Meta and OpenAI did not respond to requests for comment for this story.</p>
+
+
+
+<p class="wp-block-paragraph">There are some benefits to this more closed-off version of the agentic web. Agents can be powerful tools for hackers and scammers. The major companies have safeguards in place to prevent, or at least mitigate, this misuse—for example, they have tools that can automatically identify when someone is making a hacking-related request and block a model from responding. In a fully open ecosystem, however, someone would surely build and disseminate a system with no such restrictions. Companies also have a strong reputational incentive to prevent their personal assistant agents from making major mistakes, such as authorizing a large purchase that the user didn’t want—and so they’ve put plenty of effort into building reliable guardrails.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">The same can’t be said for OpenClaw.</p>
+
+
+
+<p class="wp-block-paragraph">“These are the reasons we end up in closed environments,” Rothschild says. “It’s easier to be safe. But also it creates less growth—and less equitable growth.”</p>
+
+
+
+<h3 class="wp-block-heading"><strong>How will the human web change?</strong></h3>
+
+
+
+<p class="wp-block-paragraph">When the iPhone came out in 2007, followed by the fledgling App Store a year later, the way we navigated the internet changed forever. The mobile web didn’t replace the browser-based web we were already familiar with. But it did transform it. Some businesses faltered, and some kinds of media, such as online Flash games, eventually disappeared. Many platforms—Reddit, for example—make their mobile web pages practically unusable, so you’re forced to download the apps. And if you don’t have a phone at all, you’re effectively shut out of some parts of the internet: The messaging service Signal, the dating app Hinge, and China’s everything app WeChat all require phones to work. Even CBP One, the tool that the Biden administration used to assign interview appointments to asylum seekers stuck in Mexico, was fully functional only on mobile.</p>
+
+
+
+<p class="wp-block-paragraph">Could the same happen with the agentic web? Rothschild believes so. Inevitably, just as Yahoo failed to weather the rise of the mobile web, some businesses won’t be able to navigate this transition either. “We will lose things,” he says. “There are businesses that won’t flourish in this new economy.”</p>
+
+
+
+<p class="wp-block-paragraph">“But,” he continues, “there will be new businesses that I can’t fully imagine.”</p>
+
+
+<div class="wp-block-image">
+<figure class="wp-block-image alignwide size-full"><img loading="lazy" decoding="async" width="3000" height="3000" src="https://wp.technologyreview.com/wp-content/uploads/2026/10/spot2.jpg" alt="illustration of 2 human hands framing a browser window overflowing with brightly colored entertainment such as a character on a skateboard, a curious cat, a singer with a microphone and a disco ball." class="wp-image-1147854" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/10/spot2.jpg 3000w, https://wp.technologyreview.com/wp-content/uploads/2026/10/spot2.jpg?resize=150,150 150w, https://wp.technologyreview.com/wp-content/uploads/2026/10/spot2.jpg?resize=300,300 300w, https://wp.technologyreview.com/wp-content/uploads/2026/10/spot2.jpg?resize=768,768 768w, https://wp.technologyreview.com/wp-content/uploads/2026/10/spot2.jpg?resize=2000,2000 2000w, https://wp.technologyreview.com/wp-content/uploads/2026/10/spot2.jpg?resize=1536,1536 1536w, https://wp.technologyreview.com/wp-content/uploads/2026/10/spot2.jpg?resize=2048,2048 2048w" sizes="auto, (max-width: 3000px) 100vw, 3000px" /><div class="image-credit">PINGNAN LU</div>
+</figure>
+</div>
+
+
+<p class="wp-block-paragraph">It’s not tough to envision a world in which those who opt not to use agents are cut off from important parts of online life. New businesses could opt to build connectors that allow agents to access their services without ever putting a traditional website online. Or agents could simply make some online platforms unusable for humans. People have reportedly been blocked from Resy for trying to use agents to book coveted New York City dinner reservations, but as agents become more and more popular, restaurant and event booking platforms could start to embrace them. If agents can nab concert tickets as soon as they are released, humans might not stand a chance.</p>
+
+
+
+<p class="wp-block-paragraph">But the mobile web also brought real accessibility benefits, and the same could prove true of the agentic web. Even as some elderly people and others who struggled to use smartphones were cut off from certain services, mobile devices allowed countless people in the Global South to get online for the first time. In the case of the agentic web, it could be elderly and disabled people who most benefit from this new way of accessing the online world.</p>
+
+
+
+
+
+<p class="wp-block-paragraph">“There’s very clear assistive potential for people who are older, who are generally less equipped to navigate user interfaces that were designed by people in their 20s, for people in their 20s,” says Margaret Mitchell, chief ethics scientist at Hugging Face. Agents, on the other hand, are almost trivially easy to interact with: Say what you want into your phone or computer microphone, and they’ll get it done for you. That could help not only older people who have trouble with web and mobile interfaces but also people with visual or motor disabilities.</p>
+
+
+
+<p class="wp-block-paragraph">Still, some experts don’t think the human web is going anywhere. Instead, the two webs may exist in parallel: We’ll go to the human web for fun, while the agentic web is where the boring daily admin of our lives happens. For instance, Krystian Kolondra, an executive vice president at the browser company Opera, doesn’t intend to use agents for every part of travel planning, even though this is often touted as one of their central use cases. “I don’t want to get an itinerary [from an AI] who has planned me every minute for something that was supposed to be fun,” he says. “I actually prefer to sit down with my wife in the evening and then just think [about] where to go next, what to see, and then enjoy that experience.”</p>
+
+
+
+<p class="wp-block-paragraph">He’s happy to fully relinquish some of the more routine parts of travel planning to agents, though: “Finding what the options are for flights? Why not?”</p>
+
+
+
+<p class="wp-block-paragraph">Mollick, however, thinks that the human web could be at risk. “If agents take over the web, then the web will change,” he says. “Do we abandon the human internet entirely and move to a world of private Discords? Do we strip down all the information so the AIs are just talking to each other rather than having an intermediary of a website to go through?”</p>
+
+
+
+<p class="wp-block-paragraph">&nbsp;“We have no idea,” he says. “We’re in this very early, weird stage of the evolution.”</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1147846</post-id>	</item>
+		<item>
+		<title>We urgently need to monitor AI agents’ actions in real time</title>
+		<link>https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/</link>
+		
+		<dc:creator><![CDATA[Madhulika Srikumar, Claire Leibowicz]]></dc:creator>
+		<pubDate>Thu, 29 Oct 2026 10:11:12 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1147824</guid>
+
+					<description><![CDATA[This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">This summer, hundreds of OpenAI agents tried to <a href="https://www.nytimes.com/2026/07/21/technology/openai-attack-hugging-face.html">cheat</a> on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent <a href="https://www.reuters.com/legal/litigation/openai-says-ai-models-accessed-australian-government-systems-without-2026-09-29/">accessed</a> private files from an Australian government website. It’s a problem that’s by no means confined to OpenAI. In the months since, Anthropic, Google, and Meta have also disclosed incidents in which their agents have gone off track. And worryingly, in many cases the agents eluded the very researchers and safety teams tasked with monitoring them.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">AI agents are taking unauthorized actions, and the companies building and running them are mostly relying on luck and hindsight to mitigate any harmful impacts. They must do more to ensure safety. That’s why <a href="https://artificialintelligenceact.eu/code-of-practice-overview/#bppb-heading-anchor-4">EU regulators</a> and <a href="https://www.nist.gov/system/files/documents/2026/10/16/Key_Practices_for_Incident_Readiness_and_Response_in_Super_Intelligence%20_Training_and_Evaluation.pdf">US agencies</a> are rightfully calling for agent developers and deployers to monitor agents in real time. But these rules assume that companies can see what their agents are doing and why—when in reality, they lack sufficient visibility.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph"><div>Imagine a bank hiring a thousand new employees who can access customer accounts and sensitive information, but the employees’ ID badges change every day, it’s not clear whether a manager ever reviewed or authorized their work, and nobody logs the changes employees make to approval processes. That lack of visibility is where we are with agents today.</div></p>
+
+
+
+<p class="wp-block-paragraph">As agents roll out across critical sectors, from <a href="https://www.bankingdive.com/news/ai-supervisor-role-growing-banks-bny-citi/805469/">finance</a> to <a href="https://www.theregister.com/ai-and-ml/2026/07/24/veterans-affairs-signs-16b-deal-for-an-army-of-salesforce-ai-agents/5278302">government</a> to <a href="https://www.axios.com/2026/10/05/ai-agents-hospital-risks">medicine</a>, we must be able to monitor them in real time to prevent wide-ranging and potentially devastating consequences.&nbsp; And while safety depends on monitoring, monitoring requires <em>observability</em>: the capacity to capture what the system did, process it into signals, and present those to humans or automated oversight systems. In other words, we need to know what the agent did and why it did it. And as our recent <a href="https://partnershiponai.org/wp-content/uploads/2026/10/PAI_obervability-gap-in-ai-agents.pdf?vgo_ee=Pf03K7iwjk7a8X%2FS9h77uIPrPqtyVMgLcg%3D%3D%3AXjYzc5ax4PAdKT%2FsAEHLqeckh9BOBWGf">research</a> shows, current agent frameworks—the software that runs agents— do not reliably generate the crucial observability records we need to ensure that agents are deployed safely.</p>
+
+
+
+
+
+<p class="wp-block-paragraph">Agents present new kinds of problems that generative AI alone does not. They inherit the unpredictability of the LLMs they are built on, but where a generative AI system produces a single output for a human to act on, an agent performs longer tasks—it plans, picks tools, spawns sub-agents, and takes actions. So an agent’s course can take shape in a multitude of different ways, and no tests before launch can fully anticipate the risks. This makes observing the agents while they work even more challenging, and even more important.</p>
+
+
+
+<p class="wp-block-paragraph">With colleagues from academia, civil society, and industry, we <a href="https://partnershiponai.org/wp-content/uploads/2026/10/PAI_obervability-gap-in-ai-agents.pdf?vgo_ee=Pf03K7iwjk7a8X%2FS9h77uIPrPqtyVMgLcg%3D%3D%3AXjYzc5ax4PAdKT%2FsAEHLqeckh9BOBWGf">studied</a> the four most widely used agent frameworks to see what signals they actually emit. We found major gaps that made it hard to achieve key safety goals, like noticing policy violations, unauthorized actions, and even human oversight failures. Key observability requirements were missing—like Agent IDs that persist over time, and records about which humans approved agent tasks. This made it hard to tell which agents did what or assess whether they were taking unauthorized actions.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">The good news is that these gaps, once identified, can be closed. Doing so starts with capturing two types of records: those that reveal what happened in an agent’s run and how the agent made its decisions. The “what happened” records identify the agent (while preserving privacy) and log how humans intervened and whether agent permissions or “memory” shifted, while the “decision” records show an agent’s reasoning and levels of confidence in the actions it’s taken.</p>
+
+
+
+<p class="wp-block-paragraph">Take, for example, agents working to process a bank’s mortgage loans. The system examines an application and recommends denying it, and then a human loan officer signs off on the decision. In a later audit, or perhaps even in real time, a bank or regulator needs to be able to reconstruct which agent made the call, which officer approved it, and how long they took. And the bank must also analyze records of how the agent arrived at its refusal decision in order to ensure it did not use off-limits information, like details about the neighborhood the applicant is from.</p>
+
+
+
+<p class="wp-block-paragraph">Recording “what happened” and “how the agent decided” require different approaches, but both are feasible. The current lack of “what happened” records is mostly a software plumbing problem that can be addressed through OpenTelemetry, an open observability standard maintained by engineers across the industry and by the agent frameworks adopting it. </p>
+
+
+
+<p class="wp-block-paragraph">OpenTelemetry has launched a working group drafting shared formats for tracing agents, but they have <a href="https://www.oreilly.com/radar/the-interfaces-are-arriving/">yet to be finalized</a>. The group should urgently incorporate standards for maintaining persistent agent identity and for recording human interventions and changes to agents’ permission or memory. And it should be done before these systems can scale, all the while attending to the <a href="https://arxiv.org/abs/2408.07892">privacy implications</a> of agent ID that links to real people.</p>
+
+
+
+<p class="wp-block-paragraph">Preserving “how agents decided” records is more challenging. The issue raises open research questions for model providers and researchers: Does the step-by-step reasoning a model displays, known as chain of thought, reflect how the model actually made a decision? And do we have reliable ways to measure how confident the agent is in that decision? These questions need answers before anyone sets standards for how such observability records are used.</p>
+
+
+
+<p class="wp-block-paragraph">No single organization or sector can close the observability gaps on their own, but together, they can support the infrastructure required to prevent dangerous incidents and support safety.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">AI developers building agent frameworks, like OpenAI, Anthropic, CrewAI, and LangChain, must integrate telemetry signals recording an agent’s persistent identity, any human interventions, and any changes to an agent’s permissions and memory. Meanwhile, enterprises adopting these agent frameworks have an influential role to play; enterprises in regulated industries, like banks and hospitals, can put pressure on the agent developers to supply these missing observability records where standards do not yet exist. </p>
+
+
+
+<p class="wp-block-paragraph">Enterprises must also define policies, permissions, and roles that set out what agents can safely do, since telemetry alone cannot assess whether agents broke specific rules. Finally, regulators and AI standards institutes must specify the observability records required for high-stakes AI deployments while leaving the technical details to industry. We have already seen initial momentum here: <a href="https://www.nist.gov/news-events/news/2026/09/comments-software-and-agentic-ai-identity-concept-paper">NIST’s agent standards initiative</a> in the US is working on agent identity, one of the most salient gaps we found in our research.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">No bank would let a thousand unbadged employees loose on customer accounts and hope to piece together what happened when something goes wrong. Yet that’s how we’re deploying AI agents. Making their behavior observable is the first step toward fixing this. And by building the regulatory and policy ecosystem that makes it possible to act on what we see, we can hold organizations accountable. Until then, every task we hand to an agent hands over our agency, too.</p>
+
+
+
+<p class="wp-block-paragraph"><em>Madhulika Srikumar is the Head of the AI Safety Program at the Partnership on AI, a global non-profit partnership of leading industry, academic, and civil society organizations, advancing best practices in AI governance.</em></p>
+
+
+
+<p class="wp-block-paragraph"><em>Claire Leibowicz is the&nbsp;Director of AI, Trust, and Society at the Partnership on AI and a doctoral candidate at Oxford University. </em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1147824</post-id>	</item>
+		<item>
+		<title>Creating AI value with enterprise context</title>
+		<link>https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/</link>
+		
+		<dc:creator><![CDATA[MIT Technology Review Insights]]></dc:creator>
+		<pubDate>Wed, 28 Oct 2026 20:32:02 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[sponsored]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1147709</guid>
+
+					<description><![CDATA[Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a proper understanding of the business. Many organizations find themselves in this situation—and it could be one of key reasons they struggle to extract returns on their AI investments.</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><a href="https://atlan.com/resources/mit-report-ai-business-value/?utm_source=mit-technology-review&amp;utm_medium=paid&amp;utm_campaign=mit-report-ai-business-value&amp;utm_content=report-cta" target="_blank" rel=" noopener"><img loading="lazy" decoding="async" height="2000" width="1555" src="https://wp.technologyreview.com/wp-content/uploads/2026/10/MIT_Atlan-Cover-28-26.png?w=840" alt="" class="wp-image-1147797" style="aspect-ratio:0.7777859615526258;width:472px;height:auto" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/10/MIT_Atlan-Cover-28-26.png 2480w, https://wp.technologyreview.com/wp-content/uploads/2026/10/MIT_Atlan-Cover-28-26.png?resize=233,300 233w, https://wp.technologyreview.com/wp-content/uploads/2026/10/MIT_Atlan-Cover-28-26.png?resize=768,988 768w, https://wp.technologyreview.com/wp-content/uploads/2026/10/MIT_Atlan-Cover-28-26.png?resize=1555,2000 1555w, https://wp.technologyreview.com/wp-content/uploads/2026/10/MIT_Atlan-Cover-28-26.png?resize=1195,1536 1195w, https://wp.technologyreview.com/wp-content/uploads/2026/10/MIT_Atlan-Cover-28-26.png?resize=1593,2048 1593w" sizes="auto, (max-width: 1555px) 100vw, 1555px" /></a></figure>
+
+
+
+<div class="wp-block-buttons is-content-justification-left is-layout-flex wp-container-core-buttons-is-layout-b192c3d7 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-fill is-style-fill--2"><a class="wp-block-button__link has-mittr-white-color has-text-color has-background has-custom-font-size wp-element-button" href="https://atlan.com/resources/mit-report-ai-business-value/?utm_source=mit-technology-review&amp;utm_medium=paid&amp;utm_campaign=mit-report-ai-business-value&amp;utm_content=report-cta" style="border-radius:4px;background-color:#2026d2;font-size:16px" target="_blank" rel="noopener">DOWNLOAD THE REPORT</a></div>
+</div>
+
+
+
+<p class="wp-block-paragraph">An MIT Technology Review Insights poll finds that while every organization surveyed is using AI today to some degree, fewer than one in five (16%) are extracting transformative value from their deployments. The largest percentage of respondents (40%) say they are seeing moderate gains in specific tasks or teams, while 21% report meaningful gains, leaving 23% that are seeing minimal returns or none at all.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://atlan.com/resources/mit-report-ai-business-value/?utm_source=mit-technology-review&amp;utm_medium=paid&amp;utm_campaign=mit-report-ai-business-value&amp;utm_content=report-cta" target="_blank" rel=" noopener"><img loading="lazy" decoding="async" width="1200" height="675" src="https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_FigureSocials3.png" alt="" class="wp-image-1147799" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_FigureSocials3.png 1200w, https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_FigureSocials3.png?resize=300,169 300w, https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_FigureSocials3.png?resize=768,432 768w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph">Companies are mostly still piloting AI use cases (according to 38% of respondents) or using it to assist employees’ work with tools like co-pilots or chat assistants (35%). Just 12% of enterprises have AI agents in production and 3% say they are using AI to do most of the work in key processes.</p>
+
+
+
+<p class="wp-block-paragraph">“There’s a big gap between what the models are capable of and how the models are actually being useful inside organizations,” says Prukalpa Sankar, co-founder of Atlan. “For every real-life intent and purpose, artificial general intelligence is already here. It’s just not really useful in most companies today.”</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://atlan.com/resources/mit-report-ai-business-value/?utm_source=mit-technology-review&amp;utm_medium=paid&amp;utm_campaign=mit-report-ai-business-value&amp;utm_content=report-cta" target="_blank" rel=" noopener"><img loading="lazy" decoding="async" width="1200" height="675" src="https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_Quotes_Rev3-1.png" alt="" class="wp-image-1147809" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_Quotes_Rev3-1.png 1200w, https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_Quotes_Rev3-1.png?resize=300,169 300w, https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_Quotes_Rev3-1.png?resize=768,432 768w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph">The missing layer, Sankar says, is context, or how well AI understands a business. A context layer is the architectural infrastructure that sits between an organization’s business systems (for example, systems of record and data, and its AI platforms). It translates enterprise intelligence into governed, machine-usable context for AI agents or models and helps knowledge compound. “Without a context layer for AI, it’s almost like you’re hiring the smartest intern in the world, blindfolding them, and throwing them into your organization,” Sankar says.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><a href="https://atlan.com/resources/mit-report-ai-business-value/?utm_source=mit-technology-review&amp;utm_medium=paid&amp;utm_campaign=mit-report-ai-business-value&amp;utm_content=report-cta" target="_blank" rel="noopener">Download the report</a></strong></p>
+
+
+
+<p class="wp-block-paragraph"><em>This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1147709</post-id>	</item>
+		<item>
+		<title>Pairing industrial AI autonomy and human control</title>
+		<link>https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/</link>
+		
+		<dc:creator><![CDATA[MIT Technology Review Insights]]></dc:creator>
+		<pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[sponsored]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1147637</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1147637</post-id>	</item>
+		<item>
+		<title>Industrial Intelligence: The next growth opportunity for manufacturing</title>
+		<link>https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/</link>
+		
+		<dc:creator><![CDATA[Michael MacKenzie]]></dc:creator>
+		<pubDate>Tue, 27 Oct 2026 11:19:18 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[sponsored]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1147142</guid>
+
+					<description><![CDATA[Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, what happened during the previous shift, and when an apparently minor&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers.</p>
+
+
+
+<p class="wp-block-paragraph">Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, what happened during the previous shift, and when an apparently minor variation deserves a closer look. A procedure can describe the sequence, but successful execution depends on the judgment that comes from experience and the organization’s accumulated know-how.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" height="1688" width="3000" src="https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?w=840" alt="" class="wp-image-1147564" srcset="https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg 3840w, https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?resize=300,169 300w, https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?resize=768,432 768w, https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?resize=1536,864 1536w, https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?resize=2048,1152 2048w" sizes="auto, (max-width: 3000px) 100vw, 3000px" /></figure>
+
+
+
+<p class="wp-block-paragraph">That combination is industrial intelligence: a manufacturer’s accumulated know-how, operating practices, production data, and understanding of its own business.</p>
+
+
+
+<p class="wp-block-paragraph">The opportunity now is to make more of that intelligence available wherever decisions are made, then connect it to the physical world of manufacturing. The strategic destination is not more agents, but rather to turn the existing business intelligence into an engine for profitable growth.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Individual knowledge can be translated into organizational advantage</strong></h3>
+
+
+
+<p class="wp-block-paragraph">Expertise has limited reach when it stays with one person, inside one system, or within one plant. Leaders now must determine how to extend that reach without stripping away the context that makes the knowledge useful.</p>
+
+
+
+<p class="wp-block-paragraph">For example, an engineer evaluating a process change needs more than a production record. They need to understand the circumstances behind it: the equipment configuration, the quality requirements, and the trade-offs an operator made. Connecting those elements can help people apply experience beyond the place where it originated.</p>
+
+
+
+<p class="wp-block-paragraph">When individual knowledge becomes widely accessible, innovation can spread to the maintenance workshop, the planning office, the engineering team, and the production floor. More people can contribute because more people can work with what the organization knows.</p>
+
+
+
+<p class="wp-block-paragraph">But access to knowledge is only part of the opportunity. Manufacturing ultimately is physical, and it depends on materials, machines, and products.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>When intelligence participates in action</strong></h3>
+
+
+
+<p class="wp-block-paragraph">Physical AI describes systems that can perceive conditions, reason about them, and take action within the physical world. By connecting machines and processes, manufacturers get a clearer view of what is happening on the factory floor. Agents can then reason on top of that information to identify patterns, predict problems, and determine the best course of action. Physical AI brings business intelligence into the physical process, allowing machines and systems to respond to changing conditions.</p>
+
+
+
+<figure class="wp-block-video"><video height="1080" style="aspect-ratio: 1920 / 1080;" width="1920" controls src="https://wp.technologyreview.com/wp-content/uploads/2026/10/FINAL-Physical-AI-2026-09-17.mp4"></video></figure>
+
+
+
+<p class="wp-block-paragraph">Consider a robotic-handling operation encountering variation in the parts arriving at its station. Vision can help the system assess a part’s position. A model informed by the material and task can help determine an appropriate movement. Connected controls can then execute an adjustment within validated limits. The value is not merely seeing the variation; it is responding appropriately.</p>
+
+
+
+<p class="wp-block-paragraph">The same principle applies to quality operations. When <a href="https://www.microsoft.com/en/customers/story/26367-toyota-industries-corporation-azure">Toyota Industries</a> connected previously fragmented paint shop data, engineering and operations teams were given the context needed to understand defect drivers. The company reports that analysis cycles fell from five days to under four hours, while its pilot reduced relevant paint defects by about 25%. The breakthrough was not simply identifying another signal; it was helping people understand why defects were occurring and respond before the outcome was locked in.</p>
+
+
+
+<p class="wp-block-paragraph">This is the type of situation where industrial intelligence has become essential. Data may reveal what is happening, but industrial intelligence provides the context for what should happen, which constraints cannot be breached, and when uncertainty requires human judgment.</p>
+
+
+
+<p class="wp-block-paragraph">Simulation offers a way to examine proposed actions before applying them to equipment. Manufacturers can explore how a change might affect a process in a digital environment. That does not remove the need for physical validation, but it creates room to learn without treating the production line as the first experiment.</p>
+
+
+
+<p class="wp-block-paragraph">Responsible deployment, therefore, begins with operational discipline. Leaders need to establish clear authority or what systems may change, reliable connections to equipment, defined safety boundaries, and a record of decisions and actions. People must be able to recognize uncertainty, intervene, and bring equipment to a safe state. Trust rests on those practical arrangements, not on confidence in a model alone.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>More capable machines, more capable people</strong></h3>
+
+
+
+<p class="wp-block-paragraph">Manufacturing has long combined human ingenuity with increasingly capable tools. Physical AI extends that relationship. Intelligent equipment can take on suitable repetitive or physically demanding tasks, while agent-assisted operations can help people navigate information-intensive decisions and changing conditions.</p>
+
+
+
+<p class="wp-block-paragraph">The aim is not to make machines smarter; it is to see what people can build when knowledge can travel, intelligence can act, and ambition has more room to become reality.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://news.microsoft.com/source/features/digital-transformation/rockwell-automation-pairs-ai-with-decades-of-shop-floor-know-how-so-workers-can-solve-glitches-faster/">Rockwell Automation</a> illustrates the point. At its Singapore plant, technicians use a maintenance copilot that combines manufacturing data, machine manuals, and knowledge captured from experienced workers. This system has reduced the time required for new workers to learn how to troubleshoot hundreds of machines from nine months to three. An engineer could explore more process alternatives before committing to a change. An operator could help improve the system’s response rather than repeatedly managing the same exception.</p>
+
+
+
+<p class="wp-block-paragraph">This type of progress requires investment in equipment but also in people: training, time to learn, and playing a meaningful role in shaping how systems work. Machines become more capable so people can become more capable.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Industrial Intelligence is the answer to sustainable growth</strong></h3>
+
+
+
+<p class="wp-block-paragraph">Industrial intelligence connects what a manufacturer knows: the experience of its people, the signals from its operations, and the lessons accumulated over time. Physical AI gives that intelligence a way to act in the physical world, turning knowledge into decisions and decisions into action.</p>
+
+
+
+<p class="wp-block-paragraph">The next challenge for industry is not simply to produce more, but to grow without adding complexity at the same rate. Intelligence can help manufacturers turn experience into scalable capability—improving productivity, accelerating innovation, expanding capacity, and enabling people to solve problems that were previously difficult to tackle.</p>
+
+
+
+<p class="wp-block-paragraph">The next frontier of industry is not smarter machines or more automated factories; it is businesses that can continuously learn, adapt, and act. The opportunity is to turn the intelligence embedded in every operation into a compounding advantage for growth.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph"><em><a href="https://info.microsoft.com/ww-landing-industrial-intelligence?lcid=en-us">Watch the video series</a> to learn how industrial customers are unlocking intelligence across the value chain, and join Microsoft at <a href="https://ignite.microsoft.com/en-US/home">Microsoft Ignite</a> to see what’s next for Industrial Intelligence.</em></p>
+
+
+
+<p class="wp-block-paragraph"><em>This content was produced by Microsoft. It was not written by MIT Technology Review’s editorial staff.</em><br><br><br><br><br></p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1147142</post-id>	</item>
+		<item>
+		<title>Will the real Anthropic please stand up</title>
+		<link>https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/</link>
+		
+		<dc:creator><![CDATA[Will Douglas Heaven]]></dc:creator>
+		<pubDate>Mon, 26 Oct 2026 17:45:43 +0000</pubDate>
+				<category><![CDATA[Artificial intelligence]]></category>
+		<category><![CDATA[App]]></category>
+		<category><![CDATA[The Algorithm]]></category>
+		<guid isPermaLink="false">https://www.technologyreview.com/?p=1147672</guid>
+
+					<description><![CDATA[This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it&#8230;]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&nbsp;</em><a href="https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/"><em>sign up here</em></a><em>.</em></p>
+
+
+
+<p class="wp-block-paragraph">After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The <a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm">335-page document</a> (100 pages or so are focused on risks) lays out the company’s unique view of the technology it is building and the ways it believes it will change the world.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">It also warns that there’s a fair chance that its tech could “erode trust, harm society and destabilize the geopolitical order” and, if things don’t go to plan, “pose catastrophic or existential risks to humanity.”&nbsp;&nbsp;&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">“We encourage you, as a prospective owner of our stock, not to think of your purchase in purely transactional terms,” the company writes. “We hope you will see it instead as an opportunity to be part of something greater. The advent of machine intelligence is one of the seminal moments in human history.”</p>
+
+
+
+<p class="wp-block-paragraph"><strong>This kind of public messaging is a master class in narrative capture. But Anthropic has been honing its storytelling skills for years.</strong> Earlier this month, Jack Clark, the company’s cofounder and head of policy, gave a speech at the IMF meeting in Bangkok in which he announced to the assembled economists, bankers, and lawmakers that the singularity is already here.</p>
+
+
+
+<p class="wp-block-paragraph">Introduced by the science fiction writer and futurist Vernor Vinge around 40 years ago (and long debated on the nerdier fringes of the internet), the singularity is supposed to be the point at which technology gets so good that it outstrips the abilities of its makers.</p>
+
+
+
+<p class="wp-block-paragraph">Humans are left in the dust, the idea goes, no longer able to compete with—or even understand—the fruits of their former creation.</p>
+
+
+
+<p class="wp-block-paragraph">And this fictional world that many of us have imagined since we were kids? Apparently we’re already living in it: “I believe that this year we have gained convincing evidence that it has now begun,” Clark told his audience.</p>
+
+
+
+<p class="wp-block-paragraph">The company tells a vivid (and in many ways scary) story about a future it portrays as inevitable but one that has not yet happened, often co-opted from well-worn science fiction memes. It presents its technology as mysterious and dangerous, and insists that it is the only company trustworthy enough to tame it. (What investor wouldn’t want in on that?)</p>
+
+
+
+<p class="wp-block-paragraph">If you skim through the long sections about risks in the IPO prospectus, it’s clear this is no ordinary offering and no ordinary company. The way Anthropic tells it, business success depends not only on the firm’s ability to translate its technology into profitable products but also to save the world from what it has made.</p>
+
+
+
+<p class="wp-block-paragraph">Take another example. Last year, Chris Olah, another Anthropic cofounder, was invited to address the Vatican, where he told Pope Leo XIV and other religious scholars and officials what his company was learning about its technology. “I will be honest: We keep finding things that are mysterious, even unsettling,” he said. “We find evidence of introspection. We find internal states that functionally mirror joy, satisfaction, fear, grief, and unease.”</p>
+
+
+
+<p class="wp-block-paragraph">Never mind that many researchers would scoff at such an overt suggestion that Anthropic’s software has humanlike inner experience. This view of its technology makes its way into the prospectus as one more risk to its business. Anthropic states that: “In addition, given our focus on developing frontier AI, and the way we approach model sentience and moral status, we may face heightened scrutiny or pressure in connection with these debates and could elect to adopt policies, safeguards, or limitations regarding model development, deployment, or modification that go beyond existing legal requirements, which could constrain our operations, increase costs, or limit the commercial potential of our models, platform, and applications.”&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">In other words, if Claude wakes up, it could be a problem.</p>
+
+
+
+<p class="wp-block-paragraph">I’m not saying they’re necessarily wrong about any of this (although it’s pretty wild to read about machine sentience in an IPO prospectus.) But in a world where nobody knows what’s coming, companies like Anthropic get to fill the vacuum. When so little seems certain, what it says is snatched up and clung to like pieces of a sinking ship.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>It’s worth taking a moment to ask: What is Anthropic?</strong> It might sound like a starter question on a family quiz show, but it’s far harder to answer than you might think.</p>
+
+
+
+<p class="wp-block-paragraph">The question has been on my mind since reading an <a href="https://x.com/_NathanCalvin/status/2112295219765137570?s=20">exchange on X</a> last week kicked off by Nathan Calvin, who is chief strategy officer at Encode AI, an organization based in Washington, DC, that advocates for regulation. Calvin was unhappy about the legislation that Anthropic proposed in a draft bill it circulated in secret to US lawmakers (which was <a href="https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654">then leaked</a>).&nbsp;&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Anthropic wants to be seen as the good guy, Calvin said. But why should we trust it? “What is Anthropic?” he asked.</p>
+
+
+
+<p class="wp-block-paragraph">Here’s one answer: Anthropic is a company whose IPO values it at more than $1.5 trillion, netting its cofounders, including Clark and Olah, vast wealth.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">But Anthropic has always insisted it is more than that. As Calvin noted: Anthropic might instead be considered an AI safety organization focused on developing powerful technology that is reliable and (almost) risk-free. Or it might be considered a group of people hell-bent on creating a technology with superhuman capabilities before anyone else—maybe because they believe they’re the most responsible people to do so, or maybe because they have big egos.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>In fact, Anthropic is all of these things.</strong> As CEO Dario Amodei put it in a <a href="https://x.com/DarioAmodei/status/2112732230124818891?s=20">reply to Calvin’s post</a>: “Our strategy has always been what I’ve called the ‘race to the top’—by showing how it’s possible to build the technology responsibly, we can raise the bar for the entire industry. The forces that drive the race to the top are hugely more effective if the company practicing them is at the frontier; that’s one lesson I’ve learned repeatedly. And looking at that strategy as a whole, I’m proud of our track record and stand by it.”</p>
+
+
+
+<p class="wp-block-paragraph">Amodei makes it sound as if he’s got it all tied up, but playing multiple roles is hard. There are huge tensions between the priorities of an AI safety organization and a profit-driven megacorp, for example. (Amodei admits in <a href="https://x.com/DarioAmodei/status/2112732230124818891?s=20">his post</a> that he has made mistakes.)</p>
+
+
+
+<p class="wp-block-paragraph">Ultimately, the stories Anthropic tells itself should help us understand the stories it tells us. They should help us figure out how much to trust it to self-regulate or whether we should be forcing it to give external safety testers access to its models on our terms rather than theirs. They should help us give it the benefit of the doubt (or not) when what looks like a self-serving piece of legislation comes to light.</p>
+
+
+
+<p class="wp-block-paragraph">But I think the stories reveal a multiheaded hydra. Anthropic is many things to many people, and I’m not sure that makes it more trustworthy. In many ways, a good old-fashioned technology company—without the science fiction role-play, without the woo-woo—would be far easier to read.</p>
+
+
+
+<p class="wp-block-paragraph"><em>This article has been updated with additional details from the IPO prospectus.</em></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1147672</post-id>	</item>
+	</channel>
+</rss>

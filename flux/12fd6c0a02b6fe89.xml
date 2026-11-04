@@ -1,0 +1,166 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns="http://purl.org/rss/1.0/" xmlns:admin="http://webns.net/mvcb/">
+    <channel rdf:about="http://feeds.nature.com/nclimate/rss/current">
+        <title>Nature Climate Change</title>
+        <description>Nature Climate Change is a monthly journal dedicated to publishing high-quality research papers that describe the most significant and cutting-edge research on the causes, impacts and wider implications of global climate change. The journal publishes climate research across the physical, biological and social sciences and strives to integrate and communicate interdisciplinary research. The journal aims to play a leading role in: providing accessibility to a broad audience to research published both within and outside the journal; raising the visibility of climate change research in related research communities as well as the mainstream media; and offering a forum for discussion of the challenges faced by researchers and policy makers (and other interested parties) in understanding the complex mechanisms and impacts associated with the Earth’s changing climate.</description>
+        <link>http://feeds.nature.com/nclimate/rss/current</link>
+        <admin:generatorAgent rdf:resource="https://www.nature.com/"/>
+        <admin:errorReportsTo rdf:resource="mailto:feedback@nature.com"/>
+        <dc:publisher>Nature Publishing Group</dc:publisher>
+        <dc:language>en</dc:language>
+        <dc:rights>© 2026 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</dc:rights>
+        <prism:publicationName>Nature Climate Change</prism:publicationName>
+        
+        
+        <prism:copyright>© 2026 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</prism:copyright>
+        <prism:rightsAgent>permissions@nature.com</prism:rightsAgent>
+        <image rdf:resource="https://www.nature.com/uploads/product/nclimate/rss.png"/>
+        <items>
+            <rdf:Seq>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41558-026-02779-7"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41558-026-02787-7"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41558-026-02776-w"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41558-026-02783-x"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41558-026-02791-x"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41558-026-02784-w"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41558-026-02758-y"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41558-026-02772-0"/>
+                
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://www.nature.com/uploads/product/nclimate/rss.png">
+        <title>Nature Climate Change</title>
+        <url>https://www.nature.com/uploads/product/nclimate/rss.png</url>
+        <link>http://feeds.nature.com/nclimate/rss/current</link>
+    </image>
+    
+        <item rdf:about="https://www.nature.com/articles/s41558-026-02779-7">
+            <title><![CDATA[Brazil’s data-driven plan for climate-resilient healthcare]]></title>
+            <link>https://www.nature.com/articles/s41558-026-02779-7</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Climate Change, Published online: 03 November 2026; <a href="https://www.nature.com/articles/s41558-026-02779-7">doi:10.1038/s41558-026-02779-7</a></p>By integrating climate risk into health planning, Brazil is redesigning healthcare to withstand floods, heatwaves and other climate shocks.]]></content:encoded>
+            <dc:title><![CDATA[Brazil’s data-driven plan for climate-resilient healthcare]]></dc:title>
+            <dc:creator>Lisa Palmer</dc:creator>
+            <dc:identifier>doi:10.1038/s41558-026-02779-7</dc:identifier>
+            <dc:source>Nature Climate Change, Published online: 2026-11-03; | doi:10.1038/s41558-026-02779-7</dc:source>
+            <dc:date>2026-11-03</dc:date>
+            <prism:publicationName>Nature Climate Change</prism:publicationName>
+            <prism:doi>10.1038/s41558-026-02779-7</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41558-026-02779-7</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41558-026-02787-7">
+            <title><![CDATA[Time to drop the no-policy business-as-usual baselines]]></title>
+            <link>https://www.nature.com/articles/s41558-026-02787-7</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Climate Change, Published online: 03 November 2026; <a href="https://www.nature.com/articles/s41558-026-02787-7">doi:10.1038/s41558-026-02787-7</a></p>Baseline construction shapes estimates of mitigation cost, ambition and progress, while no-policy counterfactuals could vary with choices about policy, technology and development. Rather than relying on one constructed baseline, assessments and related conclusions should be compared across plausible baselines.]]></content:encoded>
+            <dc:title><![CDATA[Time to drop the no-policy business-as-usual baselines]]></dc:title>
+            <dc:creator>Mel George</dc:creator><dc:creator>Anand Patwardhan</dc:creator>
+            <dc:identifier>doi:10.1038/s41558-026-02787-7</dc:identifier>
+            <dc:source>Nature Climate Change, Published online: 2026-11-03; | doi:10.1038/s41558-026-02787-7</dc:source>
+            <dc:date>2026-11-03</dc:date>
+            <prism:publicationName>Nature Climate Change</prism:publicationName>
+            <prism:doi>10.1038/s41558-026-02787-7</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41558-026-02787-7</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41558-026-02776-w">
+            <title><![CDATA[Zero emissions commitment depends on warming level]]></title>
+            <link>https://www.nature.com/articles/s41558-026-02776-w</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Climate Change, Published online: 03 November 2026; <a href="https://www.nature.com/articles/s41558-026-02776-w">doi:10.1038/s41558-026-02776-w</a></p>The global temperature change that happens after emissions cease is expected to be close to zero. Here the authors use model simulations to show that this zero emissions commitment depends on the warming level at which emissions cease and might be positive for higher warming.]]></content:encoded>
+            <dc:title><![CDATA[Zero emissions commitment depends on warming level]]></dc:title>
+            <dc:creator>Laura Gibbs</dc:creator><dc:creator>Chris D. Jones</dc:creator><dc:creator>Colin Jones</dc:creator><dc:creator>Timothy Andrews</dc:creator><dc:creator>Spencer Liddicoat</dc:creator><dc:creator>Andy J. Wiltshire</dc:creator><dc:creator>Eddy Robertson</dc:creator><dc:creator>Richard G. Williams</dc:creator><dc:creator>Lee de Mora</dc:creator><dc:creator>Jeremy Walton</dc:creator><dc:creator>Andrea Dittus</dc:creator><dc:creator>Ranjini Swaminathan</dc:creator><dc:creator>Paulo Ceppi</dc:creator><dc:creator>Robin S. Smith</dc:creator><dc:creator>Steven T. Rumbold</dc:creator>
+            <dc:identifier>doi:10.1038/s41558-026-02776-w</dc:identifier>
+            <dc:source>Nature Climate Change, Published online: 2026-11-03; | doi:10.1038/s41558-026-02776-w</dc:source>
+            <dc:date>2026-11-03</dc:date>
+            <prism:publicationName>Nature Climate Change</prism:publicationName>
+            <prism:doi>10.1038/s41558-026-02776-w</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41558-026-02776-w</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41558-026-02783-x">
+            <title><![CDATA[Southeast Asian voices on climate change]]></title>
+            <link>https://www.nature.com/articles/s41558-026-02783-x</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Climate Change, Published online: 02 November 2026; <a href="https://www.nature.com/articles/s41558-026-02783-x">doi:10.1038/s41558-026-02783-x</a></p>Responding to the increasing risks of climate change in Southeast Asia requires research and effective action that considers the unique challenges of the region. In this Viewpoint, researchers and practitioners from the region share their views on the progress made in understanding and responding to climate change.]]></content:encoded>
+            <dc:title><![CDATA[Southeast Asian voices on climate change]]></dc:title>
+            <dc:creator>Netra Eng</dc:creator><dc:creator>Inayah Hidayati</dc:creator><dc:creator>Hồng Xuân Đỗ</dc:creator><dc:creator>Ma. Laurice Jamero</dc:creator><dc:creator>Adi Jaya</dc:creator><dc:creator>Pinida Leelapanang Kamphaengthong</dc:creator><dc:creator>Keovathanak Khim</dc:creator><dc:creator>Phouphet Kyophilavong</dc:creator><dc:creator>Wilfredo Y. Licuanan</dc:creator><dc:creator>Maggie Chel Gee Ooi</dc:creator><dc:creator>Wanida Siriwatthanathadakul Phromlah</dc:creator><dc:creator>Weerin Wangjiraniran</dc:creator>
+            <dc:identifier>doi:10.1038/s41558-026-02783-x</dc:identifier>
+            <dc:source>Nature Climate Change, Published online: 2026-11-02; | doi:10.1038/s41558-026-02783-x</dc:source>
+            <dc:date>2026-11-02</dc:date>
+            <prism:publicationName>Nature Climate Change</prism:publicationName>
+            <prism:doi>10.1038/s41558-026-02783-x</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41558-026-02783-x</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41558-026-02791-x">
+            <title><![CDATA[Atmospheric stabilization of the East Antarctic ice sheet under warming]]></title>
+            <link>https://www.nature.com/articles/s41558-026-02791-x</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Climate Change, Published online: 30 October 2026; <a href="https://www.nature.com/articles/s41558-026-02791-x">doi:10.1038/s41558-026-02791-x</a></p>The long-term response of the Greenland and Antarctic ice sheets to warming is often studied using ice-only simulations. Here the authors use a coupled ice–atmosphere–ocean model and find that East Antarctica remains stable even under higher warming because changes in atmospheric circulation increase precipitation sensitivity.]]></content:encoded>
+            <dc:title><![CDATA[Atmospheric stabilization of the East Antarctic ice sheet under warming]]></dc:title>
+            <dc:creator>Kyung-Sook Yun</dc:creator><dc:creator>Axel Timmermann</dc:creator>
+            <dc:identifier>doi:10.1038/s41558-026-02791-x</dc:identifier>
+            <dc:source>Nature Climate Change, Published online: 2026-10-30; | doi:10.1038/s41558-026-02791-x</dc:source>
+            <dc:date>2026-10-30</dc:date>
+            <prism:publicationName>Nature Climate Change</prism:publicationName>
+            <prism:doi>10.1038/s41558-026-02791-x</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41558-026-02791-x</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41558-026-02784-w">
+            <title><![CDATA[Closing the climate–economics communication gap]]></title>
+            <link>https://www.nature.com/articles/s41558-026-02784-w</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Climate Change, Published online: 28 October 2026; <a href="https://www.nature.com/articles/s41558-026-02784-w">doi:10.1038/s41558-026-02784-w</a></p>As the IPCC is in its seventh assessment cycle, bridging the gap between physical climate science and economics has become more urgent. Estimating climate damages requires a rigorous translation of physical hazards into economic losses, highlighting the need for better communication between the disciplines.]]></content:encoded>
+            <dc:title><![CDATA[Closing the climate–economics communication gap]]></dc:title>
+            <dc:creator>S. C. Sherwood</dc:creator><dc:creator>M. Amiot</dc:creator><dc:creator>K. Schmedders</dc:creator><dc:creator>T. Thompson</dc:creator><dc:creator>J. Sillmann</dc:creator><dc:creator>P. Alexander</dc:creator><dc:creator>T. Lontzek</dc:creator><dc:creator>M. Tavoni</dc:creator><dc:creator>C. L. E. Franzke</dc:creator><dc:creator>J. Rising</dc:creator><dc:creator>K. Kornhuber</dc:creator><dc:creator>D. Narita</dc:creator><dc:creator>S. Scheidegger</dc:creator><dc:creator>G. C. Hegerl</dc:creator>
+            <dc:identifier>doi:10.1038/s41558-026-02784-w</dc:identifier>
+            <dc:source>Nature Climate Change, Published online: 2026-10-28; | doi:10.1038/s41558-026-02784-w</dc:source>
+            <dc:date>2026-10-28</dc:date>
+            <prism:publicationName>Nature Climate Change</prism:publicationName>
+            <prism:doi>10.1038/s41558-026-02784-w</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41558-026-02784-w</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41558-026-02758-y">
+            <title><![CDATA[Reversal of Antarctic Intermediate Water trends triggered by sea ice decline]]></title>
+            <link>https://www.nature.com/articles/s41558-026-02758-y</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Climate Change, Published online: 28 October 2026; <a href="https://www.nature.com/articles/s41558-026-02758-y">doi:10.1038/s41558-026-02758-y</a></p>This work investigates the effect of the 2016 regime shift in Antarctic sea ice on Antarctic Intermediate Water (AAIW). The authors show that decreased sea ice and reduced freshwater subduction lead to saltier and denser AAIW, with implications for wide-scale water-mass properties.]]></content:encoded>
+            <dc:title><![CDATA[Reversal of Antarctic Intermediate Water trends triggered by sea ice decline]]></dc:title>
+            <dc:creator>Kaushik Mishra</dc:creator><dc:creator>Bishakhdatta Gayen</dc:creator><dc:creator>Alberto C. Naveira Garabato</dc:creator>
+            <dc:identifier>doi:10.1038/s41558-026-02758-y</dc:identifier>
+            <dc:source>Nature Climate Change, Published online: 2026-10-28; | doi:10.1038/s41558-026-02758-y</dc:source>
+            <dc:date>2026-10-28</dc:date>
+            <prism:publicationName>Nature Climate Change</prism:publicationName>
+            <prism:doi>10.1038/s41558-026-02758-y</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41558-026-02758-y</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41558-026-02772-0">
+            <title><![CDATA[Climate warming boosts frequency and intensity of southern Africa’s rainfall extremes]]></title>
+            <link>https://www.nature.com/articles/s41558-026-02772-0</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Climate Change, Published online: 23 October 2026; <a href="https://www.nature.com/articles/s41558-026-02772-0">doi:10.1038/s41558-026-02772-0</a></p>Extreme southward swings of the South Indian convergence zone (a major source of rainfall across southern Africa) can trigger devastating floods. Climate-model projections indicate that these swings might occur twice as often in the twenty-first century as in the previous century and produce more intense rainfall, owing to an increased land–sea temperature contrast and poleward intensification of atmospheric circulation.]]></content:encoded>
+            <dc:title><![CDATA[Climate warming boosts frequency and intensity of southern Africa’s rainfall extremes]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/s41558-026-02772-0</dc:identifier>
+            <dc:source>Nature Climate Change, Published online: 2026-10-23; | doi:10.1038/s41558-026-02772-0</dc:source>
+            <dc:date>2026-10-23</dc:date>
+            <prism:publicationName>Nature Climate Change</prism:publicationName>
+            <prism:doi>10.1038/s41558-026-02772-0</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41558-026-02772-0</prism:url>
+        </item>
+    
+</rdf:RDF>

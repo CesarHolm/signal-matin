@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cepr="https://cepr.org/rss/ns/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://cepr.org/">
+  <channel>
+    <title>Recent VoxEU Content</title>
+    <link>https://cepr.org/</link>
+    <description>Latest VoxEU columns, talks and multimedia from CEPR</description>
+    <language>en</language>
+    
+    <item>
+  <title>Bank executive pay: Compensation design can help reduce excessive risk-taking</title>
+  <link>https://cepr.org/voxeu/columns/bank-executive-pay-compensation-design-can-help-reduce-excessive-risk-taking</link>
+  <description>Bankers may benefit from the upside of risk-taking through bonuses, while taxpayers may ultimately bear the costs when things go badly wrong. After the Global Financial Crisis, regulators set out to change how bank executives are paid. This column examines how compensation practices have evolved since then and how they relate to bank risk. Longer deferral horizons, as mandated in the EU, have reduced bank risk-taking, but evidence on bonus caps is inconclusive. The 2023 banking turmoil shows that bank boards and supervisors play a crucial role in ensuring good governance of compensation frameworks.</description>
+  <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Gaston Gelos, Bertrand Rime, Kevin Tracol</dc:creator>
+    <guid isPermaLink="false">dd88a5f9-f0ef-45af-8c24-ad9bf444b9fe</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-11/AdobeStock_880764558.jpeg?itok=pgdnZ1Cb</cepr:cover_image>
+    </item>
+<item>
+  <title>Job seekers’ beliefs and preferences over wages and benefits: Experimental evidence from online job boards</title>
+  <link>https://cepr.org/voxeu/columns/job-seekers-beliefs-and-preferences-over-wages-and-benefits-experimental-evidence</link>
+  <description>From employer wage-setting power to the consequences of pay transparency and the role of benefits in compensation inequality, many core questions about labour markets hinge on how job seekers respond to wage and benefit differences across job ads. Combining a field experiment on over 100 Swiss job boards with a survey, this column shows that workers are imperfectly informed about wage and benefit differences across jobs. Posting wages redirects search towards better-paying jobs. Workers also value certain benefits highly – notably company cars and the option to work from home. Since higher-paying jobs tend to offer more benefits, inequality in job value exceeds wage inequality across jobs.</description>
+  <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Andreas Beerli, Stefano Fiorin, Andreas Gulyas, Daniel Kopp, Mahsa Khoshnama, Michael Siegenthaler</dc:creator>
+    <guid isPermaLink="false">9bf98fa2-1a03-4bb4-a724-e3bf2e209dac</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-11/AdobeStock_114070233.jpeg?itok=To1bpCP6</cepr:cover_image>
+    </item>
+<item>
+  <title>Repo is the new dollar safe asset</title>
+  <link>https://cepr.org/voxeu/columns/repo-new-dollar-safe-asset</link>
+  <description>US Treasuries have long been the benchmark dollar safe asset, and the convenience yield they command is the price the world pays for dollar liquidity. This column shows that the convenience yield on ten-year Treasuries relative to corporate bonds has collapsed from around 60 to 10 basis points since 2019, while the premium on repo has held near 90. Repo, not the Treasury, is now the highest-convenience dollar safe asset. The same shift helps explain why the dollar has been losing ground as the global reserve asset even as domestic convenience yields hold up.</description>
+  <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Miguel Chumbo, Arvind Krishnamurthy</dc:creator>
+    <guid isPermaLink="false">1904ba14-783e-4e97-a120-73e09074900f</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-11/AdobeStock_2178989756.jpeg?itok=iKK-0VpT</cepr:cover_image>
+    </item>
+<item>
+  <title>A network approach to geopolitics</title>
+  <link>https://cepr.org/voxeu/columns/network-approach-geopolitics</link>
+  <description>In international affairs, what a country does depends on its own interests and on what its partners do. This column uses data on political institutions and UN voting to recover the network of geopolitical influence. The network tracks major shifts in international politics since the 1960s and reveals three notions of power: autonomy, control, and the ability to shape the game. Across all countries, the US has the most autonomy but China has the most control. Domestic political change in the US or China moves other countries the most, as the network transmits it furthest.</description>
+  <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Ernest Liu, Bennett Smith-Worthington, Stephen Redding, David Yang</dc:creator>
+    <guid isPermaLink="false">020f551f-ee30-47ba-b1db-fefc0c648242</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-11/AdobeStock_1903358888_Editorial_Use_Only.jpeg?itok=gN9L8rQW</cepr:cover_image>
+    </item>
+<item>
+  <title>L'essor avant l'effondrement : des « années folles » à la Grande Dépression</title>
+  <link>https://cepr.org/voxeu/columns/lessor-avant-leffondrement-des-annees-folles-la-grande-depression</link>
+  <description>L'essor des investissements dans les technologies d'intelligence artificielle suscite des inquiétudes quant à l'éventualité d'une bulle spéculative. Cet article soutient que l'essor des années 1920 et la Grande Dépression offrent des enseignements utiles. Au cours des années 1920, l’innovation en matière de procédés a connu une croissance rapide, tandis que l’innovation en matière de produits stagnait. À son tour, l’innovation en matière de procédés a alimenté un boom des investissements fondé sur des anticipations de demande future. Lorsque ces anticipations ne se sont pas concrétisées, une forte contraction s’en est suivie. Ainsi, l’optimisme et la prospérité des années folles aident à expliquer le déclenchement de la Grande Dépression et constituent un avertissement pour le boom actuel de l’intelligence artificielle.</description>
+  <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Harold Cole, Stefano Cravero, Jeremy Greenwood</dc:creator>
+    <guid isPermaLink="false">a6b70a76-80e1-423b-a723-bdf4cc736edb</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/Untitled.png?itok=iLpo6Iwk</cepr:cover_image>
+    </item>
+<item>
+  <title>Stablecoins and the macroeconomy: Bank disintermediation versus fiscal space</title>
+  <link>https://cepr.org/voxeu/columns/stablecoins-and-macroeconomy-bank-disintermediation-versus-fiscal-space</link>
+  <description>Stablecoins compete with banks for households’ holdings of safe and liquid assets, while creating additional demand for government debt. Building on a novel quantitative macroeconomic model, this column discusses how widespread stablecoin adoption affects the macroeconomy. In the baseline scenario, large-scale adoption has small negative long-run output effects. However, the sign and size of the effect depend on fiscal parameters, the regulatory framework for stablecoin reserve holdings, and whether stablecoin demand and issuance originate domestically or abroad. Short-run output effects can be significantly positive as the fiscal space channel activates faster.</description>
+  <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Boris Hofmann, Matthias Kaldorf, Matthias Rottner</dc:creator>
+    <guid isPermaLink="false">c4577e03-03b6-4199-91f5-c8bb99addf2f</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-11/AdobeStock_1623221533.jpeg?itok=J8ANgOP9</cepr:cover_image>
+    </item>
+<item>
+  <title>When judges move markets: Ideological shifts in the Supreme Court and macroeconomic expectations</title>
+  <link>https://cepr.org/voxeu/columns/when-judges-move-markets-ideological-shifts-supreme-court-and-macroeconomic</link>
+  <description>Courts increasingly shape economic policy. This column studies unexpected deaths of US Supreme Court Justices as quasi-experimental shifts in the Court’s ideological balance. High-frequency asset price responses reveal that a more conservative Court is associated with lower inflation expectations, lower activity expectations, and lower bond yields. A shift towards a more liberal Court induces the opposite responses. The findings are consistent with markets interpreting changes in the Supreme Court as news about future aggregate demand, in particular future fiscal policy.</description>
+  <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Thomas Drechsel, Naixin Zhang</dc:creator>
+    <guid isPermaLink="false">762a0b6d-2a86-45c6-8501-2119768c7478</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_670570392.jpeg?itok=UNg5FdCM</cepr:cover_image>
+    </item>
+<item>
+  <title>The boom before the bust: From the Roaring Twenties to the Great Depression</title>
+  <link>https://cepr.org/voxeu/columns/boom-bust-roaring-twenties-great-depression</link>
+  <description>The investment boom in artificial intelligence technologies has raised concerns about a potential bubble. This column argues that the 1920s boom and the Great Depression offer useful lessons. During the 1920s, process innovation grew rapidly, while product innovation stagnated. In turn, process innovation fuelled an investment boom based on an expectation of future demand. When this expectation failed to materialise, a sharp contraction followed. Thus, the optimism and prosperity of the Roaring Twenties help explain the onset of the Great Depression, and offer a cautionary tale for today’s artificial intelligence boom.</description>
+  <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Harold Cole, Stefano Cravero, Jeremy Greenwood</dc:creator>
+    <guid isPermaLink="false">7ab22ee3-8b70-4d9b-bc73-a13d2cf2c2b4</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/Untitled.png?itok=iLpo6Iwk</cepr:cover_image>
+    </item>
+<item>
+  <title>Stablecoins as a vehicle for dollarisation: Evidence from capital controls and currency crises</title>
+  <link>https://cepr.org/voxeu/columns/stablecoins-vehicle-dollarisation-evidence-capital-controls-and-currency-crises</link>
+  <description>Stablecoins could make payments and remittances cheaper and faster, but policymakers worry they could also help residents, particularly in emerging markets, circumvent capital controls and move savings into US dollars. This column introduces estimates of stablecoin flows and holdings for 188 countries, built from public blockchain data. Emerging market and developing economies take part in 86% of cross-border stablecoin flows and hold about three quarters of stablecoins. Cross-border stablecoin activity rises by roughly 30% after countries tighten restrictions on capital outflows and shows no sign of falling back when they are lifted. Holdings rise by roughly 75% in the year after a currency crisis begins and then persist.</description>
+  <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Marco Reuter</dc:creator>
+    <guid isPermaLink="false">73f128f4-4288-4f79-9f57-9b65dc95b613</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_511696419_Editorial_Use_Only.jpeg?itok=Idvqd8bL</cepr:cover_image>
+    </item>
+<item>
+  <title>Cooperatives in the 21st Century</title>
+  <link>https://cepr.org/multimedia/cooperatives-21st-century</link>
+  <description>Go to work, follow orders all day, and your living standards will rise. That is the deal behind the capitalist economy. In his forthcoming book, Cooperatives in the twenty-first century, Francesco Caselli (LSE, CEPR) argues that the deal has been broken for two generations. Pay at the top keeps climbing. Pay in the middle and at the bottom has barely moved.&lt;br&gt;
+&lt;br&gt;
+The usual fixes for spiralling inequality are higher taxes on the rich and stronger unions. Francesco's answer is to change who owns the firm. In a worker cooperative there are no outside shareholders, so the profits stay with the people who produce them. In conversation with Tim Phillips, he explains which of the economic objections to cooperatives are red herrings, and which ones are more serious.</description>
+  <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator/>
+    <guid isPermaLink="false">cef4c7e3-082d-4db6-97d7-58fc07ba5cae</guid>
+    <cepr:type>VoxEU Talk</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/Cooperatives%20in%20the%2021st%20Century-1.png?itok=R9Qj_-r1</cepr:cover_image>
+    </item>
+<item>
+  <title>Assessing China as a technological innovator</title>
+  <link>https://cepr.org/voxeu/columns/assessing-china-technological-innovator</link>
+  <description>The dramatic rise of domestic patent publications by Chinese inventors has raised questions about the extent of Chinese innovations. This column uses a newly assembled dataset of Chinese patents to understand the Chinese innovative ecosystem. The data reveal an innovation system that is more broad-based, more university-centred, and less dominated by state-owned enterprises, large national champions, or US-trained returnees than many standard narratives suggest. The findings challenge preconceptions about where Chinese innovation is occurring and suggest the importance of better understanding the mechanisms behind central coordination and its impact.</description>
+  <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Josh Lerner, Namrata Narain, Dimitris Papanikolaou, Amit Seru, Zunda Winston Xu</dc:creator>
+    <guid isPermaLink="false">9522ba22-8e37-464e-a794-160e7e907524</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_619234409.jpeg?itok=XtVDMdjO</cepr:cover_image>
+    </item>
+<item>
+  <title>AI to the rescue: How the countries of Europe and Central Asia can grow more prosperous as they grow older</title>
+  <link>https://cepr.org/voxeu/columns/ai-rescue-how-countries-europe-and-central-asia-can-grow-more-prosperous-they-grow</link>
+  <description>Much of developing Europe and Central Asia is ageing fast, and its workforce is starting to shrink. This column argues that artificial intelligence can partly offset this demographic challenge by (1) augmenting the skills of many in the workforce while automating tasks for which workers are increasingly scarce; (2) lowering the cost of expertise and specialisation, thus bringing in people currently not in the labour force; and (3) changing the way work is done, thereby expanding productive working lives. strong foundational and managerial skills, compute infrastructure, and the supportive business environment are necessary to encourage more firms to productively adopt and adapt AI.</description>
+  <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Ivailo V. Izvorski, Filip Jolevski</dc:creator>
+    <guid isPermaLink="false">41ea176a-3fa4-4f79-a94d-c40cd876a6b3</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_1889747731.jpeg?itok=DUg74u8e</cepr:cover_image>
+    </item>
+<item>
+  <title>Buying innovation vs buying protection: What we know about public procurement of innovation</title>
+  <link>https://cepr.org/voxeu/columns/buying-innovation-vs-buying-protection-what-we-know-about-public-procurement</link>
+  <description>Europe is turning public procurement into an instrument of industrial policy. The Industrial Accelerator Act and the proposed Public Procurement Act would let public buyers favour European suppliers in strategic sectors, and Beijing has already threatened retaliation. This column reviews what economic research so far tells us about public procurement as an innovation policy. Public procurement appears to spur innovation, most often incremental innovation, particularly among young and small firms, but only when tenders leave room for new solutions and buyers have the skills to manage them. Closing markets to foreign firms is a different policy though, and its potential benefits appear highly dependent on careful targeting and design.</description>
+  <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Olga Chiappinelli, Leonardo M. Giuffrida, Giancarlo Spagnolo</dc:creator>
+    <guid isPermaLink="false">52bd2178-d63b-47fd-9921-748b16a024a5</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_1328495060.jpeg?itok=OnkMl0rU</cepr:cover_image>
+    </item>
+<item>
+  <title>Company wage policy in a low-wage labour market</title>
+  <link>https://cepr.org/voxeu/columns/company-wage-policy-low-wage-labour-market</link>
+  <description>In many countries, minimum wage policies allow employers to pay young workers less than adults, and the UK is now debating how fast to phase out its lower youth minima. But do employers actually use the room that age-specific minimum wages give them? This column uses the introduction of the UK National Living Wage, which raised the minimum wage only for workers aged 25 and over, to show that employers in a low-wage sector also raised the pay of younger colleagues. These spillovers happen inside firms, within job roles, and seem to be driven by pay equity norms.</description>
+  <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Giulia Giupponi, Stephen Machin</dc:creator>
+    <guid isPermaLink="false">37ceadf8-13e1-4d4d-bcd8-bc6b145d6fb1</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_269077362.jpeg?itok=ldPwBzCP</cepr:cover_image>
+    </item>
+<item>
+  <title>The real-economy case for capital markets integration: Cross-border shareholders and firm investment resilience</title>
+  <link>https://cepr.org/voxeu/columns/real-economy-case-capital-markets-integration-cross-border-shareholders-and-firm</link>
+  <description>Europe’s push for deeper capital markets assumes that cross-border equity ownership matters. This column shows that it does. Euro area listed firms remain heavily owned by domestic investors. When COVID-19 struck, firms in the hardest-hit sectors with more domestically concentrated shareholders cut investment more, lost more value, and raised less equity than peers with diversified shareholder bases. Capital markets union is hence not just about financial integration. It is about real economic resilience.</description>
+  <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Elena Banu, Lea Best, Francesca Vinci</dc:creator>
+    <guid isPermaLink="false">fa5c5e8e-dc86-4ca9-bb87-4ead6ec91448</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_285353664.jpeg?itok=2vEaq1Cp</cepr:cover_image>
+    </item>
+<item>
+  <title>Powerful pacifism and currency dominance: What 150 years of international monetary system regime switches say about the US dollar’s future</title>
+  <link>https://cepr.org/voxeu/columns/powerful-pacifism-and-currency-dominance-what-150-years-international-monetary-system</link>
+  <description>The 20th century shift from sterling to the dollar is often cited as evidence that currency dominance is not forever. This column presents a nonlinear model of the international monetary system calibrated on historical events. Shifts in dominance require large, simultaneous combinations of shocks, with democracy and conflicts playing a central role. Stress tests suggest that dollar dominance is resilient: a decline would require repeated shocks in the US alongside major reforms in China and Europe. Parallels between the dollar’s rise in the 20th century and that of the renminbi in the 21st century should be treated with extreme caution.</description>
+  <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Michael Bordo, Cécile Bastidon</dc:creator>
+    <guid isPermaLink="false">ec999c14-825a-4f44-b64f-3434c074ab7d</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_47394509.jpeg?itok=iQ5pDw9k</cepr:cover_image>
+    </item>
+<item>
+  <title>Not your average firm: Heterogeneous cross-border financial allocations</title>
+  <link>https://cepr.org/voxeu/columns/not-your-average-firm-heterogeneous-cross-border-financial-allocations</link>
+  <description>International financial integration is often measured through national totals. Yet these totals can conceal very different experiences across firms. Using comprehensive French microdata, this column shows that most financially internationalised firms raise foreign equity without investing abroad, while a small group of large firms dominates cross-border positions. Foreign funding is associated with greater equity financing, lower bank debt, and higher investment. This heterogeneity also means that aggregate estimates understate the importance of country factors for the cross-border allocations of the typical firm.</description>
+  <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Juan Carluccio, Liliana Varela</dc:creator>
+    <guid isPermaLink="false">439f554e-0267-4aa6-b992-0f693d553dc8</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_503474263.jpeg?itok=8SBNVef-</cepr:cover_image>
+    </item>
+<item>
+  <title>Adult social care can be better value than the health care we already fund</title>
+  <link>https://cepr.org/voxeu/columns/adult-social-care-can-be-better-value-health-care-we-already-fund</link>
+  <description>Health programmes must clear cost-effectiveness thresholds, but social care faces no such test. This column uses Spain's 2007 long-term care reform to show that access to cash subsidies and publicly funded home help raised life satisfaction, reduced loneliness, and increased survival, at a cost per quality-adjusted life year well below the thresholds applied to health programmes. The results suggest that part of a national care service could be funded by replacing less cost-effective health programmes with social care.</description>
+  <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Joan Costa-i-Font, Sergi Jiménez-Martín, Cristina Vilaplana Prieto</dc:creator>
+    <guid isPermaLink="false">f2195418-1c65-416d-a930-b0132db8b373</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_1587716698.jpeg?itok=oplzCUoW</cepr:cover_image>
+    </item>
+<item>
+  <title>How agreements between suppliers and retailers can weaken competition</title>
+  <link>https://cepr.org/voxeu/columns/how-agreements-between-suppliers-and-retailers-can-weaken-competition</link>
+  <description>Agreements between manufacturers and retailers can affect competition across brands and stores. This column documents retail price patterns in the US consumer battery industry and uses a model estimated from purchase data to explore two potential mechanisms: changes in downstream retail pricing and changes in upstream wholesale contracting. Counterfactual simulations illustrate how these mechanisms could jointly weaken competition. In the scenarios examined, the wholesale channel generates the larger consumer welfare loss. The findings highlight the importance of considering both channels when evaluating the potential effects of vertical agreements.</description>
+  <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Zhonglin Li, Hsin-Tien Tiffany Tsai</dc:creator>
+    <guid isPermaLink="false">a8c3c921-4d78-474b-843e-b4ed2eeb10e8</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_739938543.jpeg?itok=mm78-RPW</cepr:cover_image>
+    </item>
+<item>
+  <title>Les services sociaux destinés aux adultes peuvent offrir un meilleur rapport qualité-prix que les soins de santé que nous finançons déjà</title>
+  <link>https://cepr.org/voxeu/columns/les-services-sociaux-destines-aux-adultes-peuvent-offrir-un-meilleur-rapport-qualite</link>
+  <description>Les programmes de santé doivent respecter des seuils de rentabilité, mais les services sociaux ne sont soumis à aucun critère de ce type. Cet article s'appuie sur la réforme espagnole de 2007 relative aux soins de longue durée pour montrer que l'accès à des aides financières et à une aide à domicile financée par les pouvoirs publics a amélioré la satisfaction de vie, réduit la solitude et augmenté la survie, pour un coût par année de vie ajustée en fonction de la qualité bien inférieur aux seuils appliqués aux programmes de santé. Ces résultats suggèrent qu’une partie d’un service national de prise en charge pourrait être financée en remplaçant des programmes de santé moins rentables par des services sociaux.</description>
+  <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Joan Costa-i-Font, Sergi Jiménez-Martín, Cristina Vilaplana Prieto</dc:creator>
+    <guid isPermaLink="false">17731021-5ba4-4d34-b6af-45b3d2ff6c9f</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_1587716698.jpeg?itok=oplzCUoW</cepr:cover_image>
+    </item>
+<item>
+  <title>Private equity beyond the target: How buyouts reshape supply chains</title>
+  <link>https://cepr.org/voxeu/columns/private-equity-beyond-target-how-buyouts-reshape-supply-chains</link>
+  <description>The importance of private equity for euro area firms is increasing, with annual growth rates in assets under management exceeding 10%. Private equity buyouts affect more than just the firms being acquired. Using comprehensive data for Belgium, this column shows that the sales volumes of suppliers grow faster when there is a higher proportion of business with customers backed by private equity. But this advantage is lost during downturns, as investors push for cost savings. Buyouts can also crowd out competitors that depend on the same suppliers. Finally, high leverage implies greater interest rate sensitivity, so private equity buyouts can intensify the transmission of monetary policy to target firms and beyond.</description>
+  <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Olivier De Jonghe, Cédric Huylebroek</dc:creator>
+    <guid isPermaLink="false">550b243f-2a01-458e-b25f-faa57a97fa83</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_221153942.jpeg?itok=mvDYm6Bx</cepr:cover_image>
+    </item>
+<item>
+  <title>Washing away the US: Tariff evasion on the other side of the US–China trade war</title>
+  <link>https://cepr.org/voxeu/columns/washing-away-us-tariff-evasion-other-side-us-china-trade-war</link>
+  <description>Debates about tariff evasion have focused on Chinese goods entering the US. This column examines the reverse flow and finds that China’s retaliatory tariffs on imports from the US also induced evasion, especially through the misreporting of US-origin goods as originating from other third countries. Trade data and customs enforcement cases help distinguish origin misreporting from genuine trade diversion. The estimates attribute about 35% of the tariff-induced reduction in recorded imports to underreporting, highlighting the need for stronger country-of-origin verification and showing how tariff evasion can make US–China decoupling appear greater than it actually is.</description>
+  <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    <dc:creator>Huijia Liu, Enze Xie, Linhui Yu, Miaojie Yu</dc:creator>
+    <guid isPermaLink="false">bf10e1ea-c67b-4fef-8cfa-b90e33b46fae</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_459199392.jpeg?itok=tk4gcW0W</cepr:cover_image>
+    </item>
+<item>
+  <title>Oil shocks no longer hit the US economy as they used to</title>
+  <link>https://cepr.org/voxeu/columns/oil-shocks-no-longer-hit-us-economy-they-used</link>
+  <description>Recent disruptions to global oil markets, from Russia’s invasion of Ukraine to the war in Iran, have revived fears of stagflation. This column shows that the shale revolution has fundamentally changed how the US economy responds to oil shocks. As the country has shifted from a major petroleum importer to a net exporter, adverse oil supply news has become considerably less contractionary and can even support activity, with benefits extending beyond the oil sector. The findings suggest that the Federal Reserve faces a more favourable trade-off between activity and inflation, even as households and firms remain exposed to higher energy costs.</description>
+  <pubDate>Sun, 25 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Diego Känzig, James Stock, Luca Zanotti</dc:creator>
+    <guid isPermaLink="false">dabf800c-6b9f-47a9-9e7e-2b7feedf3bee</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_2192611528.jpeg?itok=_R09xInP</cepr:cover_image>
+    </item>
+<item>
+  <title>Historic monetary tightening, benign output dynamics: Rising R-stars across the Atlantic</title>
+  <link>https://cepr.org/voxeu/columns/historic-monetary-tightening-benign-output-dynamics-rising-r-stars-across-atlantic</link>
+  <description>Nominal interest rates increased significantly in the US and euro area following the post-pandemic inflation surge, yet economic activity and labour markets remained resilient. This column finds that accounting for policy expectations implies a larger increase in the natural rate of interest, r*, than standard approaches suggest. In the US, r* increased by around two percentage points and around 1.5 to 2 percentage points in the euro area. These increases are largely explained by changes in convenience yields. Thus, monetary policy stances were considerably less restrictive than commonly believed and this helps explain the soft landing in economic activity.</description>
+  <pubDate>Sat, 24 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Mátyás Farkas, Zoltan Jakab, Jesper Lindé</dc:creator>
+    <guid isPermaLink="false">ac95792c-03dc-46a0-8fbf-e7e4eceedb09</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_981794669.jpeg?itok=ziHrGhNH</cepr:cover_image>
+    </item>
+<item>
+  <title>Changes in the health and longevity of the elderly in the US</title>
+  <link>https://cepr.org/voxeu/columns/changes-health-and-longevity-elderly-us</link>
+  <description>Spending on public pensions through Social Security and on elderly healthcare through Medicare accounted for over one-third of federal expenditures in the US by 2024. This column explores how improvements in elderly health and life expectancy affected the relative finances of Social Security and Medicare. The elderly are not only living longer but also are in better health, so expected lifetime Medicare spending per elderly individual has grown much slower than expected lifetime Social Security spending. The authors analyse the forces that affect the optimal allocation of a given public budget across these two social insurance programmes.</description>
+  <pubDate>Sat, 24 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Liran Einav, Amy Finkelstein</dc:creator>
+    <guid isPermaLink="false">98860f84-95bf-435d-b6a8-acf3a642e1ff</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_2066241312.jpeg?itok=72IXYCP-</cepr:cover_image>
+    </item>
+<item>
+  <title>Chasing far-right does not pay for the centre-right parties: Evidence from Germany’s 2025 election</title>
+  <link>https://cepr.org/voxeu/columns/chasing-far-right-does-not-pay-centre-right-parties-evidence-germanys-2025-election</link>
+  <description>Establishment parties are often urged to win voters over from populist parties by shifting their policy positions towards them. Based on the 2025 German federal election, this column simulates what would happen when the centre-right CDU changes its policies and the populist radical-right AfD responds. If the AfD stood still, a modest shift to the right would win the CDU a fifth of AfD voters, but the AfD would respond by moving further right, undoing the CDU’s gain. This strategy can thus leave the CDU worse off while pulling politics further to the right. Once the AfD's response is anticipated, moving right is no longer optimal for the CDU.</description>
+  <pubDate>Sat, 24 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Nina Nikiforova</dc:creator>
+    <guid isPermaLink="false">c3bb5282-1312-4197-95ea-8acab174fa44</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_158624695.jpeg?itok=RePXFZLW</cepr:cover_image>
+    </item>
+<item>
+  <title>The Challenges to the International Financial System</title>
+  <link>https://cepr.org/multimedia/challenges-international-financial-system</link>
+  <description>The 29th Geneva Report on the World Economy examines three pressures on the international financial system at once: global imbalances, the status of the dollar, and the stability of bond markets. Two of its authors, Valentina Bruno (American University, CEPR) and Cédric Tille (Geneva Graduate Institute, CEPR), tell Tim Phillips why stocks, the dollar and US Treasuries all fell on Liberation Day in April 2025, why that could happen again, and what we should do about it. &lt;br&gt;
+&lt;br&gt;
+So is this a rupture, or a transition in the world's financial system?</description>
+  <pubDate>Fri, 23 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator/>
+    <guid isPermaLink="false">7fbdb6d7-ffa9-4cc6-9e1e-067c5c1dc0bd</guid>
+    <cepr:type>VoxEU Talk</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/Challenges%20to%20the%20International%20Financial%20System-1.png?itok=UBn7rdkP</cepr:cover_image>
+    </item>
+<item>
+  <title>The returns to viral media</title>
+  <link>https://cepr.org/voxeu/columns/returns-viral-media</link>
+  <description>Social media has lowered the barriers to political communication, allowing politicians to reach large audiences without relying on traditional media. Yet easier access does not imply an equal distribution of attention. This column examines this distinction by linking daily data on Twitter likes and campaign contributions for US Members of Congress in 2019–2020. The market for attention is winner-takes-all: returns become substantial only when politicians go viral, and a handful of stars capture a disproportionate share of the gains. Social media has combined unusually broad access to political communication with a highly unequal distribution of attention – and of the financial returns associated with it.</description>
+  <pubDate>Fri, 23 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Johannes Böken, Mirko Draca, Nicola Mastrorocco, Arianna Ornaghi</dc:creator>
+    <guid isPermaLink="false">4682e327-3696-4c4b-902e-a2a7977f4a94</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_140269255.jpeg?itok=ctX98B47</cepr:cover_image>
+    </item>
+<item>
+  <title>Crypto capture of foreign aid</title>
+  <link>https://cepr.org/voxeu/columns/crypto-capture-foreign-aid</link>
+  <description>Official development assistance fell by 23% in 2025, the largest drop on record. Aid disbursements have tended to coincide with deposits in offshore banks. This column argues that once the Panama Papers raised the cost of offshore banking, part of that diversion migrated to cryptocurrency. Linking World Bank disbursements to blockchain forensics, it finds sharp, short-lived surges of anonymous crypto activity on tax-haven exchanges in the month aid arrives, implying leakage of two to six cents per aid dollar. The public ledgers that carry diverted funds also make them detectable, which argues for supervision timed to the moment the money lands.</description>
+  <pubDate>Fri, 23 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Sumit Agarwal, Peiyi Jin, Eswar Prasad, Daniel Rabetti</dc:creator>
+    <guid isPermaLink="false">a3a5b174-6151-481e-963a-2fc15e0d4067</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_222626147_1.jpeg?itok=ukoslhk9</cepr:cover_image>
+    </item>
+<item>
+  <title>Mind the gap: Bringing EU debt into the Stability and Growth Pact</title>
+  <link>https://cepr.org/voxeu/columns/mind-gap-bringing-eu-debt-stability-and-growth-pact</link>
+  <description>EU debt has become a noticeable feature of Europe’s fiscal architecture. However, EU fiscal rules focus solely on national public finances. They have a blind spot for EU debt, which calls their goal of fiscal sustainability into question. This column proposes a simple way to bridge this gap. Under our proposal, additional EU borrowing would be matched by a corresponding reduction in national borrowing. The mechanism would make the fiscal burden of EU debt visible in national statistics without reopening the recently reformed rules. It could also strengthen the safe-asset properties of EU bonds.</description>
+  <pubDate>Thu, 22 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Astrid Lemmer, Alexander Mahle, Karsten Wendorff</dc:creator>
+    <guid isPermaLink="false">f99ab80c-6dfe-4203-a5e9-86c2efcd83da</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_2210169566.jpeg?itok=9DbikNDz</cepr:cover_image>
+    </item>
+<item>
+  <title>Establishment-level evidence on California’s fast-food minimum wage</title>
+  <link>https://cepr.org/voxeu/columns/establishment-level-evidence-californias-fast-food-minimum-wage</link>
+  <description>The standard prediction is that a higher minimum wage reduces employment among low-wage workers. This column examines the effect of a rise in the minimum wage in California for workers at both large and small fast-food chains. Among smaller chains, employment, the number of establishments, and openings fell, while closures rose. The largest chains remained unchanged, indicating that the policy shifted California’s fast-food market towards its largest chains.</description>
+  <pubDate>Thu, 22 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Vitor Melo, David Neumark, Liam Sigaud, Gary A. Wagner</dc:creator>
+    <guid isPermaLink="false">07aaadeb-d029-48e0-be16-469d09b0917e</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_264183767.jpeg?itok=VzDsfqTz</cepr:cover_image>
+    </item>
+<item>
+  <title>From Kyiv with love (and savings): A defence win-win for Europe and Ukraine</title>
+  <link>https://cepr.org/voxeu/columns/kyiv-love-and-savings-defence-win-win-europe-and-ukraine</link>
+  <description>Europe is rearming at a historic pace, while military support for Ukraine is still negotiated package by package. This column compares what one euro of defence spending buys in Ukraine and in the rest of Europe. Ukrainian soldiers, howitzers and drones cost a fraction of their European equivalents and can be delivered in months rather than years. The authors argue that treating Ukraine's army and defence industry as part of Europe's own defence, financed through multi-year contracts and Russia's frozen assets, is the cheapest and fastest way for Europe to buy security.</description>
+  <pubDate>Thu, 22 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Torbjörn Becker, Yuriy Gorodnichenko</dc:creator>
+    <guid isPermaLink="false">f425f1bf-55ff-464e-9ec8-d16f78ee6033</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/Policy%20Insight%20153.07-3-Photo%20card.png?itok=FUqK39wJ</cepr:cover_image>
+    </item>
+<item>
+  <title>Investment screening reshapes rather than shrinks foreign investment</title>
+  <link>https://cepr.org/voxeu/columns/investment-screening-reshapes-rather-shrinks-foreign-investment</link>
+  <description>Driven by national security concerns, a growing number of countries screen foreign investment in an expanding range of sectors, yet evidence on the economic effects of such screening is scarce. This column uses new sector-level data for 43 OECD and EU countries to show that screening reduces the number of cross-border acquisitions by 11–18% but leaves the total value of inward investment unchanged. There is evidence for re-structuring of deals: minority stakes fall while controlling acquisitions rise. The effects are not concentrated on investors from China or other politically non-aligned countries.</description>
+  <pubDate>Wed, 21 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Feicheng Wang, Vera Eichenauer</dc:creator>
+    <guid isPermaLink="false">0d0f88c3-b7e7-4184-8ad5-f0fc7ce65caa</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_2019992843.jpeg?itok=ihvMTNvX</cepr:cover_image>
+    </item>
+<item>
+  <title>Lower capital requirements are no shortcut to European competitiveness</title>
+  <link>https://cepr.org/voxeu/columns/lower-capital-requirements-are-no-shortcut-european-competitiveness</link>
+  <description>The European banking sector is known for high regulatory complexity, market fragmentation, and uneven implementation of international standards. However, this column argues that across-the-board reductions in capital requirements are not the solution. European requirements are not uniformly higher than US requirements, and capital rules do not mainly explain the past gap in return on equity, which is now largely closed. Lower capital requirements are also unlikely to unlock additional lending for early-stage technologies and innovative firms. Instead, reforms should focus on simplifying the interaction between different requirements, streamlining reporting, and completing the Banking Union.</description>
+  <pubDate>Wed, 21 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Suzanne Vissers, Henrik Zaunbrecher</dc:creator>
+    <guid isPermaLink="false">28e1aeca-ba25-4e2e-8f46-5846c0b22c99</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_189281555.jpeg?itok=Gfo617iJ</cepr:cover_image>
+    </item>
+<item>
+  <title>Assainissement budgétaire : coûts temporaires ou séquelles durables</title>
+  <link>https://cepr.org/voxeu/columns/assainissement-budgetaire-couts-temporaires-ou-sequelles-durables</link>
+  <description>La dette publique atteint ou frôle des niveaux records dans l’ensemble des pays de l’OCDE, ce qui accentue la pression exercée sur les gouvernements pour qu’ils rétablissent la viabilité budgétaire à terme. Cet article s’appuie sur de nouvelles données comparatives entre pays qui montrent que les coûts en termes de production liés à l’assainissement budgétaire sont, en moyenne, modestes et de courte durée, et qu’il est difficile de mettre en évidence des séquelles durables. Mais les moyennes masquent une asymétrie cruciale : les assainissements lancés dans un contexte de forte endettement sont nettement plus restrictifs, et dans plus de la moitié des cas de l’échantillon, le ratio d’endettement était encore plus élevé trois ans après l’assainissement. La situation budgétaire initiale a davantage d’incidence sur les résultats que le choix entre réductions des dépenses et hausses d’impôts.</description>
+  <pubDate>Wed, 21 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Luiz de Mello, Joao Tovar Jalles</dc:creator>
+    <guid isPermaLink="false">014738b9-5543-475e-8cd7-9de88ff6a6a6</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_340557837.jpeg?itok=8bDNjN9d</cepr:cover_image>
+    </item>
+<item>
+  <title>What happens to innovation after Big Tech buys a startup</title>
+  <link>https://cepr.org/voxeu/columns/what-happens-innovation-after-big-tech-buys-startup</link>
+  <description>Concerns abound that ‘killer acquisitions’ by tech giants could deter startup entry and stifle innovation. This column analyses patent data before and after 1,200 acquisitions by eight technology giants between 1995 and 2020. On average, the ‘Big Eight’ firms appear to invest in the acquired technology rather than kill it. Acquired inventions become more influential, more widely cited, and more embedded in follow-on innovation by both the acquirer and competitors. However, longer-term changes to the competitive landscape need further investigation.</description>
+  <pubDate>Tue, 20 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Florian Ederer, Regina Seibel, Timothy S. Simcoe</dc:creator>
+    <guid isPermaLink="false">4a54e892-39df-4067-90b0-ec6ddbe04570</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_1253374938.jpeg?itok=RNy1NEYx</cepr:cover_image>
+    </item>
+<item>
+  <title>Taming original sin redux: The role of benchmark-driven flows</title>
+  <link>https://cepr.org/voxeu/columns/taming-original-sin-redux-role-benchmark-driven-flows</link>
+  <description>Emerging market capital flows remain highly sensitive to global shocks. This column analyses foreign investors in emerging market local-currency sovereign bonds depending on whether they are benchmarked to J.P. Morgan’s main local-currency government bond index or not. Benchmarked investors have increased their share of foreign holdings more than twofold over 2010–2025. Global push factors are strong determinants of benchmarked flows, whereas domestic pull factors determine non-benchmarked flows. Index design choices, such as country caps, can therefore materially affect flows to constituent countries.</description>
+  <pubDate>Tue, 20 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Serkan Arslanalp, Stijn Claessens, Daniela Klingebiel</dc:creator>
+    <guid isPermaLink="false">061eedec-f32d-4d0f-b4b5-fc1f1b8a9b26</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_1671587518.jpeg?itok=kSgeyRuu</cepr:cover_image>
+    </item>
+<item>
+  <title>Here, there, and everywhere: Remote work and the employment of disabled and older workers in the UK</title>
+  <link>https://cepr.org/voxeu/columns/here-there-and-everywhere-remote-work-and-employment-disabled-and-older-workers-uk</link>
+  <description>Disabled and older adults have lower employment rates than other workers. Policymakers increasingly point to remote work as a way to keep these groups attached to the labour market. This column uses the pandemic-driven rise in working from home in the UK as a quasi-experiment to explore remote work’s impacts on employment and other outcomes such as commute times, hours worked, and wages. A one percentage point increase in working from home raises full-time employment of people with a physical disability by about 0.9%, close to estimates for the US, and raises full-time employment of workers aged 50 to 64 by about 0.4%.</description>
+  <pubDate>Mon, 19 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Ian Burn, Melissa Gentry, Joanna Lahey</dc:creator>
+    <guid isPermaLink="false">c1fc3735-47e0-4a54-98f8-3dc493f7b3d1</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_415453214.jpeg?itok=g5mRBEqn</cepr:cover_image>
+    </item>
+<item>
+  <title>Forward guidance and the limits of public information</title>
+  <link>https://cepr.org/voxeu/columns/forward-guidance-and-limits-public-information</link>
+  <description>When nominal interest rates hit the effective lower bound, central banks turned to unconventional measures, with forward guidance emerging as a cornerstone of monetary policy. Drawing on economic literature and data on interest rate forecasts, this column assesses the impact of forward guidance on interest rate forecasts. Crucially, during forward guidance episodes public information proves less accurate than private information. Despite this inaccuracy, forecasters over-rely on public information.</description>
+  <pubDate>Mon, 19 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Thomas Lustenberger, Enzo Rossi</dc:creator>
+    <guid isPermaLink="false">47c28527-6499-4754-944a-1d396a00abb6</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/54992144900_93fbc09555_k.jpg?itok=N814GeB4</cepr:cover_image>
+    </item>
+<item>
+  <title>Letting AI agents write econometric code</title>
+  <link>https://cepr.org/voxeu/columns/letting-ai-agents-write-econometric-code</link>
+  <description>Large language models increasingly write the code behind empirical research. This column reports a benchmark of 40 econometric tasks in Stata, R, and Python. For each task, two leading models write a script, as a chatbot that never runs it and as an agent that runs and revises it. Letting the models run their code raises the share of correct results from 79% to 97% and makes the prompt and the software matter far less. The failures that remain under the agent come from scripts that run without errors but return wrong numbers, and detecting them is still the researcher’s work.</description>
+  <pubDate>Sun, 18 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Sebastian Galiani, Federico A. López, Raul A. Sosa</dc:creator>
+    <guid isPermaLink="false">39cae488-f51a-44b5-9158-6483b857da2e</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/Header_illustration_optional.png?itok=EbrZZZUn</cepr:cover_image>
+    </item>
+<item>
+  <title>Fiscal consolidation: Temporary costs versus lasting scars</title>
+  <link>https://cepr.org/voxeu/columns/fiscal-consolidation-temporary-costs-versus-lasting-scars</link>
+  <description>Public debt is at or near record highs across the OECD, increasing the pressure on governments to restore fiscal sustainability over time. This column draws on new cross-country evidence showing that the output costs of fiscal consolidation are modest and short-lived on average, and that lasting scars are hard to detect. But averages conceal a critical asymmetry: consolidations launched in high-debt environments are markedly more contractionary, and in more than half of the episodes in the sample the debt ratio was still higher three years after consolidation. Initial fiscal conditions matter more for outcomes than the choice between spending cuts and tax increases.</description>
+  <pubDate>Sat, 17 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Luiz de Mello, Joao Tovar Jalles</dc:creator>
+    <guid isPermaLink="false">c02c1251-dc66-44f2-8d94-a7f75c2df9d4</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_340557837.jpeg?itok=8bDNjN9d</cepr:cover_image>
+    </item>
+<item>
+  <title>Never let a good crisis go to waste: Term limits and banking reforms</title>
+  <link>https://cepr.org/voxeu/columns/never-let-good-crisis-go-waste-term-limits-and-banking-reforms</link>
+  <description>Financial crises routinely trigger sweeping overhauls of financial regulation, but whose interests do these reforms serve? Using data on financial policies in 88 democracies between 1973 and 2015, this column shows that leaders facing a binding term limit roll back financial liberalisation roughly three times more than leaders who can run again – but only in the wake of a financial crisis. The reforms they enact tend to favour incumbent banks over the general public. The effect is concentrated in countries where revolving doors between politics and finance are common, brings post-government career benefits to policymakers, but leads to no gains in banking stability.</description>
+  <pubDate>Sat, 17 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Orkun Saka, Yuemei Ji, Clement Minaudier</dc:creator>
+    <guid isPermaLink="false">e93e09cb-5bba-4a3f-98db-2f33daee8e8a</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_1926006634.jpeg?itok=pTCFkXEZ</cepr:cover_image>
+    </item>
+<item>
+  <title>Life after Divorce</title>
+  <link>https://cepr.org/multimedia/life-after-divorce</link>
+  <description>Who gets the kids? Courts aim to decide custody in the child's best interests, but nobody has had the data to test how well those decisions work.&lt;br&gt;
+&lt;br&gt;
+Gordon Dahl (UC San Diego, CEPR), Costas Meghir (Yale, CEPR) and seven co-authors built the data themselves. They collected more than 56,000 Swedish custody rulings, scanning paper files by hand where no digital copy existed, and linked them to records of parents' earnings, prescriptions and children's school tests. &lt;br&gt;
+&lt;br&gt;
+It seems Swedish judges do not agree on how often to award joint custody. Some award it in about 60% of cases; others in about 20%. But that decision makes a huge difference to the lives, and happiness, of both parents and children. They tell Tim Phillips whether joint or sole custody has, on average, better outcomes.</description>
+  <pubDate>Fri, 16 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator/>
+    <guid isPermaLink="false">7e14badb-b871-4d70-9ff8-7fb00be8708c</guid>
+    <cepr:type>VoxEU Talk</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/Life%20After%20Divorce-1.png?itok=-m7tI5aP</cepr:cover_image>
+    </item>
+<item>
+  <title>The cost of job loss in carbon-intensive sectors: Evidence from Germany</title>
+  <link>https://cepr.org/voxeu/columns/cost-job-loss-carbon-intensive-sectors-evidence-germany</link>
+  <description>In a green transition, workers will have to move from polluting, carbon-intensive sectors to other sectors and firms. To shed light on adjustment costs for workers in the green transition, this column uses German administrative data to estimate the cost of involuntary job displacement for workers in high-carbon-intensity sectors. Such workers face larger earnings and wage losses than workers displaced in other sectors. Production processes in carbon-intensive sectors are also regionally concentrated and involve specific occupations and tasks with higher firm-wage premia, reducing worker options for finding jobs with similar skill requirements and pay.</description>
+  <pubDate>Fri, 16 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>César Barreto, Robert Grundke, Ze’ev Krill</dc:creator>
+    <guid isPermaLink="false">c659b885-eb31-4b17-88c4-27bb893bf09c</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_681479695.jpeg?itok=3IbINVdn</cepr:cover_image>
+    </item>
+<item>
+  <title>The mortality costs of climate change</title>
+  <link>https://cepr.org/voxeu/columns/mortality-costs-climate-change</link>
+  <description>Mortality is one of the most salient consequences of climate change. Existing estimates have largely focused on the direct effects of local heat exposure. This column argues that this perspective can miss an important part of the overall health burden. New evidence based on fluctuations in global temperature suggests that climate change also affects mortality indirectly through its effects on economic activity and living standards. Accounting for these broader channels substantially increases estimated mortality damages and highlights an important role for economic resilience in limiting the health consequences of climate change.</description>
+  <pubDate>Fri, 16 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Adrien Bilal, Diego Känzig, Krzysztof Lisiecki</dc:creator>
+    <guid isPermaLink="false">c51c7eb5-f15b-4ca9-a778-58b3da546a0d</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_1678424891.jpeg?itok=93pyG9hJ</cepr:cover_image>
+    </item>
+<item>
+  <title>Accounting for cross-country income differences: Two decades of progress</title>
+  <link>https://cepr.org/voxeu/columns/accounting-cross-country-income-differences-two-decades-progress</link>
+  <description>Development accounting is a simple tool with potentially powerful insights. It asks whether the measured differences in inputs between developing and developed countries can account for the gap in GDP per worker. Twenty years ago, Francesco Caselli famously argued that the best estimate was “no”. This column revisits that conclusion in light of two decades of intensive research. The authors show that inputs account for a much higher share than previously thought – between 55% and 70%, as opposed to 30% before. An expanded measure of human capital that incorporates education quality and work experience drives much of this result.</description>
+  <pubDate>Thu, 15 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>David Lagakos, Todd Schoellman</dc:creator>
+    <guid isPermaLink="false">d9f7f389-f8f7-416c-8967-8d197972a846</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/42745325802_03f866b4d0_k.jpg?itok=sWSMcQQK</cepr:cover_image>
+    </item>
+<item>
+  <title>Tokenised finance: Towards better markets?</title>
+  <link>https://cepr.org/voxeu/columns/tokenised-finance-towards-better-markets</link>
+  <description>Tokenised finance has moved from the margins of crypto markets to the centre of the policy agenda. Central banks, regulators, and market participants are debating how far it could reshape the issuance, trading, and settlement of securities, including what this would mean for financial markets and monetary policy. This column argues that while tokenisation offers considerable promise — including near-instant settlement, round-the-clock operations, and higher velocity of liquidity and collateral — the transition to a tokenised world will not be frictionless. The coexistence of 24/7 on-chain systems with traditional off-chain infrastructures could create new challenges for market functioning and monetary policy implementation.</description>
+  <pubDate>Thu, 15 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Benoit Nguyen, Imène Rahmouni-Rousseau</dc:creator>
+    <guid isPermaLink="false">dff71df9-2aab-419a-86c8-ce9e7eb63540</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_815198895.jpeg?itok=zdMx7t7K</cepr:cover_image>
+    </item>
+<item>
+  <title>Small is beautiful 2050: Europe’s digital economy as a mesh, not a hub</title>
+  <link>https://cepr.org/voxeu/columns/small-beautiful-2050-europes-digital-economy-mesh-not-hub</link>
+  <description>In response to digital dependence, Europe has decided to think bigger. This includes AI gigafactories, tripling data centre capacity, and searching for domestic champions. However, this column argues that the destination for 2050 should be different. For the first time since the railway age, small, open AI models that run close to the data are making it possible for network technologies to distribute economic power rather than concentrate it. Europe’s dense network of small firms, regions, and languages puts it in a strong position to reap the benefits, provided today’s rules on switching, procurement, computing, and diffusion are designed with a mesh in mind rather than a hub.</description>
+  <pubDate>Thu, 15 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Anselm Küsters</dc:creator>
+    <guid isPermaLink="false">ff26a96e-e04b-4e1b-aca8-8f2ce53b364e</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/Kusters%20Europe%202050-1.png?itok=53RFJSEb</cepr:cover_image>
+    </item>
+<item>
+  <title>The Swiss–Japanese immigration puzzle</title>
+  <link>https://cepr.org/voxeu/columns/swiss-japanese-immigration-puzzle</link>
+  <description>Anti-migration politics are advancing across the rich world at very different levels of foreign population. Japan has a foreign-resident share just above 3%, while Switzerland’s foreign-born share is near 30%. Yet both have recently experienced a surge in nationalist politics centred on migration, suggesting that the scale of immigration alone cannot explain the backlash. This column argues that neither economic nor demographic pressures provide a sufficient explanation. Evidence from the Swiss vote of June 2026 and Japan’s elections in 2025–26 points to a generational dimension: support for migration restriction is strong among the old but also younger voters, while attitudes toward immigration appear less changed than its political salience.</description>
+  <pubDate>Thu, 15 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Beatrice Weder di Mauro, Toshihiro Okubo, Hillel Rapoport</dc:creator>
+    <guid isPermaLink="false">977326a8-d438-4ec9-8880-b0d785e16acc</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/Policy%20Insight%20152.07-3-Photo%20card.png?itok=Lo-chAgh</cepr:cover_image>
+    </item>
+<item>
+  <title>Connecting payment systems, linking economies</title>
+  <link>https://cepr.org/voxeu/columns/connecting-payment-systems-linking-economies</link>
+  <description>Several countries are working to interlink their domestic fast payment systems in order to reduce costs and improve the speed and transparency of cross-border payments. This column presents econometric evidence suggesting that countries with interlinked systems trade with each other about 4% more than countries that lack such interlinkages. The trade gains are larger in regions with high cross-border payment costs and for systems that allow the settlement of wholesale transactions.</description>
+  <pubDate>Wed, 14 Oct 2026 00:00:00 +0100</pubDate>
+    <dc:creator>Massimo Ferrari Minesso, Laura Lebastard, Olga Triay Bagur</dc:creator>
+    <guid isPermaLink="false">fcbbdd47-2111-49b0-849a-fa378001de2d</guid>
+    <cepr:type>VoxEU Column</cepr:type>
+    <cepr:cover_image>https://cepr.org/sites/default/files/styles/rss_featured_image/public/2026-10/AdobeStock_2210844027.jpeg?itok=UGoh3sYV</cepr:cover_image>
+    </item>
+
+  </channel>
+</rss>

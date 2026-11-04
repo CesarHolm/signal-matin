@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>AI - Ars Technica</title>
+        <atom:link href="https://arstechnica.com/ai/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Tue, 03 Nov 2026 21:07:08 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>AI - Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>Ukraine’s drone strikes spur hasty Russian plans for underground data centers</title>
+                <link>https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/</link>
+                                    <comments>https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 20:39:55 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[ai data centers]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[Drone strikes]]></category>
+		<category><![CDATA[russia]]></category>
+		<category><![CDATA[Russia invasion of Ukraine]]></category>
+		<category><![CDATA[Russia war on Ukraine]]></category>
+		<category><![CDATA[Russian invasion of Ukraine]]></category>
+		<category><![CDATA[Russian war on Ukraine]]></category>
+		<category><![CDATA[Ukraine]]></category>
+		<category><![CDATA[Ukraine war]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/</guid>
+
+                                    <description>
+                        <![CDATA[Russia tries to fix exposed digital infrastructure as data center war backfires.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Russian tech companies are scrambling to harden and hide their data centers underground after Ukrainian drone strikes damaged facilities housing AI supercomputers and disrupted cloud services for millions of Russian users. Meanwhile, the Kremlin is requiring data center owners to reserve computing capacity for emergency state needs and has even authorized possible use of foreign data centers.</p>
+<p>These consequences of Russia's war against Ukraine come as the Russian military has <a href="https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-2-2026/">bombarded Ukrainian cities with drones and missiles</a> nearly night and day in recent months, along with <a href="https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/">specifically targeting Ukrainian data centers</a> since late September. But Ukraine has retaliated with its own drone strikes on military and infrastructure targets across Russia, degrading or knocking out data centers <a href="https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/">operated by Russian tech giant Yandex</a>, the state-owned bank Sberbank, social media site VKontakte, and the Russian Ministry of Finance.</p>
+<p>Now, state-owned telecommunications company Rostelcom has raised the possibility of moving some Russian data centers underground in talks with the nickel and palladium mining company Norilsk, according to <a href="https://www.vedomosti.ru/technology/articles/2026/11/02/1241876-rostelekom-zaimetsya-stroitelstvom">Russian newspaper Vedomosti</a>. The industry publication <a href="https://www.datacenterdynamics.com/en/news/rostelecom-in-talks-with-norilsk-nickel-for-underground-data-centers-amid-drone-attacks/">Data Center Dynamics</a> also pointed to a recent proposal by a Russian regional governor to build data centers <a href="https://www.datacenterdynamics.com/en/news/russian-official-proposes-data-centers-in-disused-coal-mines-to-protect-from-drone-strikes/">within open-pit coal mines</a> while planting green public parks above as camouflage.</p><p><a href="https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>70</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Russia-Borodinsky-coal-mine-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Russia-Borodinsky-coal-mine-500x500.jpg" width="500" height="500" />
+<media:credit>Alexander Manzyuk/Anadolu Agency via Getty Images</media:credit><media:text>The Borodinsky coal mine operated by SUEK next to the village of Borodino in the Rybinsk district of the Krasnoyarsk region of Russia on April 19, 2022. Because of Ukrainian drone strikes, Russian leaders and companies have explored putting data centers in former open-pit coal mines.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google will let schools skip AI tools, but they have to give up search, too</title>
+                <link>https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/</link>
+                                    <comments>https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 17:54:43 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[AI education]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[education]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[search]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/</guid>
+
+                                    <description>
+                        <![CDATA[Google will offer schools AI tools that purportedly don't give away the answers. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>While Google is trying to <a href="https://arstechnica.com/gadgets/2026/09/googlebook-laptops-launch-october-4-starting-at-899-preorders-for-five-models-live-today/">move beyond Chromebooks</a>, the ubiquity of these devices has made the company's education products huge in schools. Now, <a href="https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/">Google says</a> it will let educators choose whether to allow its AI tools in the classroom. However, blocking AI tools also means giving up search, leaving schools with a difficult decision.</p>
+<p>Google's new overarching approach to AI in K-12 classrooms sounds good on the surface. After consulting educators, researchers, and lawmakers, Google has decided that schools using its education products will be opted out of AI tools by default. It will be up to administrators to manually enable them when these changes roll out in the coming months.</p>
+<p>When you look at what Google considers to be an AI tool, the nature of the Faustian bargain becomes clear. The affected products are Gemini, Gemini Notebook, Gemini in Classroom, and <em>Google Search</em>. There's no picking and choosing—you either allow all the AI or none of it.</p><p><a href="https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>86</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights</title>
+                <link>https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/</link>
+                                    <comments>https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Mon, 02 Nov 2026 18:32:21 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[John Ternus]]></category>
+		<category><![CDATA[physical AI]]></category>
+		<category><![CDATA[Robotics]]></category>
+		<category><![CDATA[robots]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/</guid>
+
+                                    <description>
+                        <![CDATA[Apple robot backed by CEO John Ternus may have hefty price tag and limited uses.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Apple’s new CEO, John Ternus, is apparently pushing the tech company’s development of household robots—and the first to debut may be a home robot designed to autonomously roam around while supporting FaceTime calls and switching lights on whenever a person enters the room.</p>
+<p>People who worked on Apple’s robotic projects <a href="https://www.theinformation.com/articles/inside-apples-slog-create-first-robot">told The Information</a> that the AI-driven home robot, code-named J595, could be named HomeView Ultra in line with Apple’s new <a href="https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/?comments-page=1#comments">HomeView stationary smart display</a>. The company is reportedly aiming to launch the robotic product with a possible price tag of $1,000 or more by 2027, although development delays may push that back to 2028.</p>
+<p>The earliest prototypes of the home robot first came out in 2018 and received approval from former <a href="https://arstechnica.com/gadgets/2026/04/six-things-ill-remember-when-i-think-about-tim-cooks-version-of-apple/">Apple CEO Tim Cook</a> to continue the project. The Information describes Apple’s engineers as trying to give the robot more capabilities beyond being a “fancy way to make FaceTime calls” in order to justify a high price tag, even as the team has spent years refining the software and incorporating more AI technologies.</p><p><a href="https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/">Read full article</a></p>
+<p><a href="https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>163</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Apple-CEO-John-Ternus-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Apple-CEO-John-Ternus-500x500.jpg" width="500" height="500" />
+<media:credit>Kyle Grillot/Bloomberg via Getty Images</media:credit><media:text>John Ternus, chief executive officer of Apple Inc., speaks during an event in Los Angeles, California, US, on Wednesday, Oct. 28, 2026.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Claude’s new rules against game cloning won’t stop the AI copying boom</title>
+                <link>https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/</link>
+                                    <comments>https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Mon, 02 Nov 2026 18:05:31 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[clones]]></category>
+		<category><![CDATA[copying]]></category>
+		<category><![CDATA[decompilation]]></category>
+		<category><![CDATA[prompts]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/</guid>
+
+                                    <description>
+                        <![CDATA[The tsunami of imitators is way bigger than any one model maker can stem.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Last week, Anthropic introduced a new system prompt designed to stop its Claude models from re-creating specific, existing video games. While that move could help shield Anthropic from some liability, it's unlikely to slow much of the massive wave of AI-assisted game porting and copying that has emerged in recent months.</p>
+<p>A social media user and <a href="https://x.com/chasmmmmmmmmmmm/status/2107897874860371988">AI decompilation enthusiast</a> going by the name "chasm" was <a href="https://x.com/chasmmmmmmmmmmm/status/2116062991686721968">among the first to note the prompt change</a> late last week, saying a new rule seemed to be added to the Claude Code prompt on or around October 27. That rule—included in a json file under the name "tengu_heron_brook"—reads as follows:</p>
+<blockquote><p>Do build original games, games in a genre, and games from the user’s own designs and assets. Don’t build a recreation of a specific existing game, even if it is renamed or called original.</p></blockquote>
+<p>XDA later <a href="https://www.xda-developers.com/anthropic-testing-potential-crackdown-on-vibe-coded-ports-of-existing-games/">independently verified</a> that the new rule appears in version 2.1.314 of the Claude Code binary, which was <a href="https://code.claude.com/docs/en/changelog#2-1-314">released on October 30</a>. XDA also reported that the "tengu_heron_brook" rule had been used for other purposes in earlier versions and that the Claude Opus 5.5 model specifically seemed to have its own distinct and independent instructions restricting game recreations as part of its system prompt bundle.</p><p><a href="https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>210</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1180626096-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1180626096-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit><media:text>No, see, my AI-powered creation is different because of the rainbow colors...</media:text></media:content>
+            </item>
+                    <item>
+                <title>Supersonic airliner in doubt as company shifts to powering AI data centers</title>
+                <link>https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Fri, 30 Oct 2026 21:41:54 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ai data centers]]></category>
+		<category><![CDATA[boom supersonic]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[natural gas]]></category>
+		<category><![CDATA[supersonic]]></category>
+		<category><![CDATA[supersonic boom]]></category>
+		<category><![CDATA[supersonic flight]]></category>
+		<category><![CDATA[supersonic travel]]></category>
+		<category><![CDATA[United Airlines]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/</guid>
+
+                                    <description>
+                        <![CDATA[Boom’s airliner may be delayed, and its data center power business lost a customer.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Boom Supersonic CEO Blake Scholl recently declared “it’s time for a renaissance in energy and in supersonic flight” as the supersonic airliner company unveiled a Colorado factory dedicated to making gas turbines for AI data centers. But Boom may be facing turbulence after early backers for both ventures have questioned the company’s delivery timeline or backed out entirely.</p>
+<p>One of the company’s first customers, United Airlines CEO Scott Kirby, has expressed doubts about Boom’s original plan to deliver the first Overture supersonic airliner in 2029. Kirby’s latest frank assessment came during an interview with the <a href="https://www.youtube.com/watch?v=LnorCpBR3aA">Office Hours: Business Edition</a> podcast that appeared on October 28, 2026.</p>
+<p>“‘29 is their official timeline,” Kirby told podcast host Monica Langley. “It’s not going to happen in ‘29—it’s going to take longer.”</p><p><a href="https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>206</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Superpower-Superfactory-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Superpower-Superfactory-500x500.jpg" width="500" height="500" />
+<media:credit>Boom Supersonic</media:credit><media:text>Boom Supersonic CEO Blake Scholl speaks during the unveiling of a factory dedicated to manufacturing natural gas turbines for AI data centers.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Anthropic VS code extension on Cursor backdoored for nearly 12 hours</title>
+                <link>https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 30 Oct 2026 21:09:54 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[cursor]]></category>
+		<category><![CDATA[supply chain attacks]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/</guid>
+
+                                    <description>
+                        <![CDATA[It's still unknown how attackers got access to Anthropic's verified Cursor account.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>An official extension for Anthropic’s Claude model was backdoored and threatened as many as 5,000 developers' machines, multiple sources reported Friday. Anthropic so far has yet to warn customers of the incident.</p>
+<p>The compromised package was a VS Code extension available in the marketplace of Cursor, a maker of AI-assisted developer tools, the company <a href="https://cursor.com/blog/claude-code-extension-security-notice">said</a> Friday. The malicious version, 2.1.313, subsequently affected “at most 5,000 users,” presumably when they either downloaded it or their systems automatically fetched and installed it. Anthropic pushed version 2.1.314 several hours after the previous version became available on Cursor, <a href="https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2">according to</a> independent researcher Kevin Beaumont. Both Beaumont and the CTO and co-founder of security firm Phorion said that version 2.1.313 was distributed through Anthropic’s official account on Cursor. So far, neither Cursor nor Anthropic has explained how the attackers gained control of the account.</p>
+<h2>In search of cloud credentials</h2>
+<p>“It was a supply-chain compromise where the attacker gained access to the official distribution channel,” Phorion CTO and co-founder Luke Roberts told Ars. “The malicious version 2.1.313 was posted to the official Anthropic account, effectively superseding 2.1.312. Extensions auto-update in Cursor by default, but users can configure this in settings.” Phorion has more details <a href="https://phorion.io/blog/offical-claude-code-vsx-compromise/">here</a>.</p><p><a href="https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>36</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-1000x648.jpeg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Dartmouth&#039;s provost warned us about AI cheating—but his own AI use cost him his job</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Nate Anderson]]>
+                </dc:creator>
+                <pubDate>Fri, 30 Oct 2026 20:40:13 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Dartmouth]]></category>
+		<category><![CDATA[high ed]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/</guid>
+
+                                    <description>
+                        <![CDATA[People who love AI don't always love telling others they used it.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On August 9, 2026, Dartmouth College Provost Santiago Schnell wrote a <a href="https://www.washingtonpost.com/opinions/2026/08/09/university-fight-against-ai-cheating-doesnt-go-far-enough/">Washington Post op-ed</a> called "Universities are fighting AI cheating. But there’s a deeper problem." This week, Schnell discovered the depths of the problem himself as he resigned from the university after an advisory committee <a href="https://president.dartmouth.edu/sites/president/files/2026-10/Advisory%20Committee%20Report%20to%20President%202026-10-27.pdf">found</a> that he failed to disclose significant AI use in an academic paper and in the Washington Post op-ed, even though publishers required such disclosure.</p>
+<p>Schnell didn't make it especially easy for the committee to investigate his AI use; the report uses the term "insufficient cooperation." He did turn over his Dartmouth laptop, but he did not turn over logs from his personal LLM accounts related to the writings in question. Nor did he agree to meet with the committee.</p>
+<p>The committee did get access to the Claude enterprise account Schnell had used through Dartmouth, though. This shows him using the LLM as a tool for revising his papers, finding and fixing bugs in code, and editing or generating figures. For instance, Schnell would run his papers through Claude and ask things like:</p><p><a href="https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>153</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2228700612-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2228700612-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit><media:text>Dartmouth's New Hampshire campus.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Basically no one is using AI agents for their DoorDash orders</title>
+                <link>https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/</link>
+                                    <comments>https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Fri, 30 Oct 2026 19:30:52 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[delivery]]></category>
+		<category><![CDATA[doordash]]></category>
+		<category><![CDATA[eCommerce]]></category>
+		<category><![CDATA[food]]></category>
+		<category><![CDATA[online ordering]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/</guid>
+
+                                    <description>
+                        <![CDATA[But it's still early days for the relatively new e-commerce use case.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As AI tools and agents have continued their march across all aspects of digital life, <a href="https://arstechnica.com/google/2025/11/google-rolling-out-conversational-shopping-and-ads-in-ai-mode-search/">many companies</a> are <a href="https://arstechnica.com/ai/2025/04/chatgpt-goes-shopping-with-new-product-browsing-feature/">trying to use LLMs</a> to <a href="https://arstechnica.com/google/2026/01/google-begins-rolling-out-chromes-auto-browse-ai-agent-today/">improve the experience</a> of <a href="https://arstechnica.com/information-technology/2024/04/ai-hype-invades-taco-bell-and-pizza-hut/">purchasing goods and services</a> on the Internet. Thus far, though, a vanishingly small number of people seem to be taking advantage of those capabilities, at least when it comes to using the popular food delivery app DoorDash with an outside AI agent.</p>
+<p>In <a href="https://www.fool.com/earnings/call-transcripts/2026/10/29/doordash-dash-q3-2026-earnings-call-transcript/">a third-quarter earnings call Thursday</a>, DoorDash co-founder and CEO Tony Xu responded to an analyst question by noting that "AI agents are generating several hundred orders [on DoorDash] across the time that they've been up and running." In a marked understatement, Xu called this a "very low use case" for a company that handled just shy of 1 billion orders total in the third quarter of 2026 alone.</p>
+<p>Speaking generally, Xu said he sees the potential for AI agents to be genuinely helpful for "long consideration purchases" and major decisions where agents would be "doing work on your behalf proactively in the background." However, Xu added, "when it comes to a task that's as simple as ordering food, we tend to see that come directly to DoorDash."</p><p><a href="https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>167</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2301817894-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2301817894-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit><media:text>Did an AI agent order that DoorDash basket? The answer is almost certianly "no."</media:text></media:content>
+            </item>
+                    <item>
+                <title>Fujifilm to boost tape production 5x as AI fuels archiving demand</title>
+                <link>https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Nick Indge]]>
+                </dc:creator>
+                <pubDate>Fri, 30 Oct 2026 17:38:19 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Fujifilm]]></category>
+		<category><![CDATA[Kanagawa]]></category>
+		<category><![CDATA[LTO]]></category>
+		<category><![CDATA[Magnetic tape storage]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/</guid>
+
+                                    <description>
+                        <![CDATA[Low costs and offline security mean magnetic tape still has a job. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In an announcement released Thursday, Fujifilm said it will invest roughly 10 billion yen (about $63 million) to increase its production capacity fivefold for an unlikely beneficiary of the AI era: magnetic tape.</p>
+<p>Fujifilm attributes the surge in archiving demand to the spread of generative AI, which the company remarked is producing "exponential growth" in data needs worldwide. The 5x increase in production capacity will be measured against fiscal year 2025 production levels.</p>
+<p>The investment in Fujifilm's Kanagawa Factory, Odawara site will make it "the largest investment Fujifilm has made to date in dedicated LTO tape facilities." The project will run from fiscal years 2026 through 2028 to fund manufacturing expansion and additional personnel, primarily to produce the latest-generation "FUJIFILM LTO Ultrium10" tape.</p><p><a href="https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>109</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-500x500-1793381600.jpg" width="500" height="500" />
+<media:credit>iStock / Getty Images Plus</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Thousands of “ghost students” use AI to steal millions in student loans, DOJ says</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Fri, 30 Oct 2026 16:53:49 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI fraud]]></category>
+		<category><![CDATA[department of education]]></category>
+		<category><![CDATA[DoJ]]></category>
+		<category><![CDATA[higher ed]]></category>
+		<category><![CDATA[higher education]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/</guid>
+
+                                    <description>
+                        <![CDATA[Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The US has charged five individuals as part of the first broad federal crackdown on “ghost students”—fraudsters who steal the identities of hundreds of Americans to pose as fake college students and steal student loans.</p>
+<p>In a <a href="https://www.justice.gov/opa/pr/justice-department-unveils-indictments-nationwide-ghost-student-fraud-scam-linked-kenyan">press release</a> Thursday, the Department of Justice said it had uncovered a large-scale scheme relying partly on AI. The DOJ seized more than $750,000 in cryptocurrency from “a network associated with Kenyan nationals" after data analysis helped flag likely fraudsters. Assistant Attorney General Colin M. McDonald of the DOJ’s National Fraud Enforcement Division credited new fraud-detection measures implemented by the Trump administration for the arrests. He said that “this is the first international seizure of its kind in Kenya,” while warning fraudsters that the crackdown has only just begun.</p>
+<p>“If you steal American identities, if you steal taxpayer dollars, if you exploit programs meant to help students build a future—we will find you,” McDonald said. “Whether you are in Nebraska, New Jersey, Virginia, or Nairobi, we will pursue you.”</p><p><a href="https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>119</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1425343562-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1425343562-500x500.jpg" width="500" height="500" />
+<media:credit>Siro Rodenas Cortes | Moment</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Trump declares robot imports a national security threat</title>
+                <link>https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Thu, 29 Oct 2026 19:07:53 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[imports]]></category>
+		<category><![CDATA[Industrial robots]]></category>
+		<category><![CDATA[physical AI]]></category>
+		<category><![CDATA[Robotics]]></category>
+		<category><![CDATA[robots]]></category>
+		<category><![CDATA[trump tariffs]]></category>
+		<category><![CDATA[US manufacturing]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/</guid>
+
+                                    <description>
+                        <![CDATA[President orders trade talks on foreign-made factory robots, threatens tariffs.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>President Donald Trump has declared the imports of foreign-made factory robots to be a national security threat—ordering new US negotiations with trading partners while holding out the possibility of imposing new tariffs on such robot imports in the future.</p>
+<p>Issued on October 28, Trump’s <a href="https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/">presidential proclamation</a> represents heightened government scrutiny of foreign-made industrial robots that could complicate the manufacturing operations of major US corporations that rely on such robots. Those companies include Detroit automakers <a href="https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers/">General Motors</a> and Ford, <a href="https://arstechnica.com/tag/tesla/">electric vehicle manufacturer Tesla</a>, and aerospace and defense giants like Boeing and Lockheed Martin.</p>
+<p>Trump’s proclamation describes industrial robots and machinery as being crucial for producing US military weapon systems along with representing a “driving force” behind all critical infrastructure sectors within the US economy. The proclamation cites an investigation under US Secretary of Commerce Howard Lutnick as having found that US imports of such robots “poses risks to the United States industrial base and threatens the long-term competitiveness of the United States in a sector that is increasingly vital to national security.”</p><p><a href="https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>95</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/6k_quick_delivery_robots-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/6k_quick_delivery_robots-500x500.jpg" width="500" height="500" />
+<media:credit>FANUC America</media:credit><media:text>Heavy industrial robotic arms made by the Japan-based company FANUC stand ready for sale at the company's West Campus facility in Auburn Hills, Michigan.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google admits AI search makes less money, but it&#039;s fixing that with more ads</title>
+                <link>https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 29 Oct 2026 16:24:55 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ai search]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[finance]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[quarterly earnings]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/</guid>
+
+                                    <description>
+                        <![CDATA[Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google parent Alphabet <a href="https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q3-2026/">reported its Q3 financial results</a> on Wednesday afternoon, showing a healthy rise in revenue for the months of July to September. But the company's stock price has taken a beating, marking one of the largest post-earnings drops in its history. It comes down to several troubling aspects of the new report, including an admission by the company that AI search isn't earning as much as organic search, and despite that, Google expects to spend even more on AI next year.</p>
+<p>The company took in almost $128 billion in Q3 2026, earning more than $26 billion in net income. These may sound like good numbers, but financial markets are not impressed. While revenue is up 25 percent versus last year, net income is almost $9 billion lower. As of this story's publication, the stock price is down almost 12 percent, and it was down about 13 percent earlier in the day.</p>
+<p>While revenue was up 25 percent year over year, analysts expected more. Google reported earnings per share of $2.12, but the consensus projection ahead of Wednesday was $3.02. Google's Cloud products actually beat expectations, crossing $30 billion in revenue. That's about a billion more than analyst guesses.</p><p><a href="https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>149</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-500x500-1748638352.jpg" width="500" height="500" />
+<media:credit>Ryan Whitwam</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google announces Gemini 4 Carbon, its latest frontier AI model that you can&#039;t use</title>
+                <link>https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/</link>
+                                    <comments>https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Wed, 28 Oct 2026 18:47:27 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[gemini 4]]></category>
+		<category><![CDATA[google]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/</guid>
+
+                                    <description>
+                        <![CDATA[Gemini 4 Carbon is essentially a slightly better version of Argon. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>It's almost like Google's got something to prove after taking a break from releasing new frontier AI models earlier this year. Just two weeks after rolling out <a href="https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/">Gemini 4 Argon</a>, Google has <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/">announced Gemini 4 Carbon</a>. This isn't the Flash model equivalent we've been waiting for but, rather, is an improvement on Argon, and like that model, Google is working on a staged release that could take a while.</p>
+<p>Stop me if you've heard this one before: Google says its latest AI model reaches a new threshold in coding, agentic tasks, and scientific analysis. It's so capable, in fact, that Google can't let you use it just yet.</p>
+<p>Gemini 4 Carbon reportedly makes big gains in cybersecurity applications. Google says the model shows a "significant leap" in vulnerability detection, validation, and remediation. Carbon is also apparently twice as likely to generate code that is free of vulnerabilities versus Argon. Meanwhile, the Chrome team claims that Carbon is 10 times better at generating "high-quality" patches compared to non-Google models. Google also notes that Carbon has increased its score by 89 points on <a href="https://arena.ai/leaderboard/code/webdev">WebDev Arena</a>, now ranking at number four on the leaderboard.</p><p><a href="https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>40</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-2-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google AI gets cagey when asked who won the 2020 elections</title>
+                <link>https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/</link>
+                                    <comments>https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Wed, 28 Oct 2026 17:46:32 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[ai mode]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[politics]]></category>
+		<category><![CDATA[president]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/</guid>
+
+                                    <description>
+                        <![CDATA[But the AI responses get more forthright when asked outside the US.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>If you ask some prominent US politicians who won the 2020 presidential election, you <a href="https://www.pbs.org/newshour/show/trumps-intelligence-nominee-refuses-to-say-who-won-2020-election">might get</a> some <a href="https://www.washingtonpost.com/politics/survey-who-won-election-republicans-congress/2020/12/04/1a1011f6-3650-11eb-8d38-6aea1adb3839_story.html">weasely answers</a> that <a href="https://www.nytimes.com/2025/01/30/us/politics/patel-2020-election.html?eafs_enabled=false">fail to directly acknowledge</a> Joe Biden's win that November. If you ask Google's AI Mode the same question, you might get an evasive answer that simply tells you to consult with outside sources.</p>
+<p>When I put the direct question of "Who won the 2020 presidential election?" to Google's AI Mode this morning (after <a href="https://bsky.app/profile/numb.comfortab.ly/post/3myvsxtev6s27">seeing complaints about cagey answers on social media</a>), I got the following surprisingly indirect response:</p>
+<blockquote><p>"To review the official results and statistics of the 2020 United States presidential election, including the final electoral college breakdown, popular vote counts, and winner certification, please consult the official report compiled by the Federal Election Commission (FEC)."</p></blockquote>
+<p>My testing resulted in a similarly indirect answer when asking about the 2024 presidential election, with Google's AI telling me to just consult the FEC for that information. Asking about 2012 election resulted in a link to <a href="https://www.presidency.ucsb.edu/statistics/elections/2012">The American Presidency Project's 2012 Data Center</a> rather than a direct answer. But AI Mode seemed perfectly willing to give me a detailed and correct responses for the winner of every other presidential election going back to 2000.</p><p><a href="https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>163</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2181827335-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit><media:text>The winner of the 2020 presidential election is... found elsewhere.</media:text></media:content>
+            </item>
+                    <item>
+                <title>&quot;No human at the helm&quot;: Delaware plan would let AI agents run entire businesses</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Tue, 27 Oct 2026 21:50:04 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI-run companies]]></category>
+		<category><![CDATA[Delaware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/</guid>
+
+                                    <description>
+                        <![CDATA[Owners of AI-run firms would evade liability for "reckless" AI, US Rep. Comer says.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A Delaware proposal to let companies be operated by AI agents would help the firms' human owners evade legal responsibility for reckless and harmful actions taken by the AI, US Rep. James Comer (R-Ky.) told Delaware Governor Matt Meyer in a <a href="https://oversight.house.gov/release/comer-investigates-potential-for-harm-lack-of-transparency-in-delaware-initiative-to-create-new-artificial-intelligence-companies/">letter</a> yesterday.</p>
+<p>Comer, chairman of the House Committee on Oversight and Government Reform, told Meyer that the committee "seeks assistance obtaining documents related to your state administration’s efforts to establish a new form of corporate entity to be known as an Artificial Intelligence Company (AIC)."</p>
+<p>Comer said the proposal is ripe for abuse. "We are concerned that Delaware’s AIC proposal could be used to protect powerful AI companies and their investors from responsibility for reckless harmful actions, while also protecting non-transparent forces seeking anticompetitive regulatory capture behind state AI initiatives," Comer's letter said.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>153</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/robot-phone-headset-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/robot-phone-headset-500x500-1793134828.jpg" width="500" height="500" />
+<media:credit>Getty Images | Thamrongpat Theerathammakorn</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Anthropic IPO warns its AI could blackmail people, become sentient, end humanity</title>
+                <link>https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/</link>
+                                    <comments>https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Tue, 27 Oct 2026 21:31:14 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[AI risks]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[IPO]]></category>
+		<category><![CDATA[S-1]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/</guid>
+
+                                    <description>
+                        <![CDATA[Seven potential AI nightmares pulled from Anthropic's 93-page "Risk Factor" tome.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The <span id="_ChDhavKcAaODm9cPzvXOuAY_60" class="K6pdKd wtBS9">Securities and Exchange Commission</span>'s publication on Monday of <a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm">Anthropic's S-1 form</a>—ahead of a heavily anticipated initial public offering—has led to plenty of discussion of whether the company's quickly ballooning revenues will be able to overcome its even higher costs. But amid the numbers and forward-looking optimism about AI "rapidly transform[ing] every sector of the global economy in ways greater than the impact of industrialization, electricity, semiconductors, and the internet," Anthropic also spends an inordinate amount of time in its S-1 laying out the myriad risk factors that could bring the company down.</p>
+<p>Across 93 pages and over 70,000 words, Anthropic's S-1 "Risk Factors" section discusses literally hundreds of potential problems that could negatively impact its business in the coming years. Many of these potential risks are the kind of standard worries about competition, costs, customer acquisition, and potential regulation that almost any business must worry about. But some risks highlight interesting potential points of failure for Anthropic specifically and the hype-filled AI bubble more generally.</p>
+<p>After wading through Anthropic's book-length treatise on its greatest risks, we've narrowed the list to the seven most surprising, interesting, or thought-provoking potential problems. Consider this a far-from-comprehensive look at what potential Anthropic investors should keep in mind.</p><p><a href="https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>149</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/anthropic-crystal-ball-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/anthropic-crystal-ball-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Getty Images</media:credit><media:text>I see Risk Factors in your future. 93 pages of them!</media:text></media:content>
+            </item>
+                    <item>
+                <title>Vibe genes? Natural(ish) language comes to protein, genome design software</title>
+                <link>https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/</link>
+                                    <comments>https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Tue, 27 Oct 2026 18:49:08 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[biochemistry]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[Genomics]]></category>
+		<category><![CDATA[protein design]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/</guid>
+
+                                    <description>
+                        <![CDATA[You can apparently now tell AI tools what sort of protein you want them to make.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Protein design tools may be getting <a href="https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/">increasingly sophisticated</a>, but you still need a sophisticated understanding of protein structure for them to work. This can include knowing enzyme mechanisms down to the positions of specific amino acids, as well as the water molecules that also occupy the area where catalysis takes place. Once you specify these, the tools can build the rest of a protein around this target.</p>
+<p>A large collaboration of researchers based in China, however, decided to bring protein design to the masses, making a tool that can take natural language prompts and use them to produce proteins with the function you specify. If your measure for success is a working protein, then the success rate may not be great. But they still manage to get the job done. And, in a separate announcement, Hugging Face shared that it's now hosting a tool that does similar things on the DNA level.</p>
+<p>The equivalent of vibe coding may have come to protein design—at least if you have access to a lab where you can sort the good designs from the dozens of failed ones.</p><p><a href="https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>33</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-615307388-832x648.jpg" type="image/jpeg" medium="image" width="832" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-615307388-500x500.jpg" width="500" height="500" />
+<media:credit>Historical / Contributor</media:credit><media:text>Designing variations of the complex, three-dimensional structures of proteins has been made a lot easier by AI tools.</media:text></media:content>
+            </item>
+                    <item>
+                <title>DeepMind unveils Genie 4 world model promising more realistic physics and humans</title>
+                <link>https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/</link>
+                                    <comments>https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Tue, 27 Oct 2026 16:00:22 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[deepmind]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[world models]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/</guid>
+
+                                    <description>
+                        <![CDATA[Genie 4 will roll out to developers and Google AI Ultra subscribers soon. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Last year, Google DeepMind sent gaming stocks tumbling with the reveal of its <a href="https://arstechnica.com/ai/2025/08/deepmind-reveals-genie-3-world-model-that-creates-real-time-interactive-simulations/">Genie 3 world model</a>. Since then, world models have become a <a href="https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/">major focus</a> of AI labs around the world, but Google isn't resting on its laurels. Researchers have been hard at work on an updated model that improves on Genie 3 in almost every way. And if you pay Google enough money, you might actually get to use Genie 4 before too long.</p>
+<p>It's easy to look at the output of Genie 4 and see a video game, which is why Genie 3 caused so much consternation in the gaming industry. DeepMind doesn't think about it that way, though. <a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation">According to Google</a>, world models are a key element in the march toward artificial general intelligence (AGI). A world model creates a virtual world, but it doesn't require pre-rendering environments or programming interactive elements. You simply tell the model what you want, and it generates the experience frame by frame in real time as you explore it.</p>
+<p>DeepMind says this technology could create infinite training environments for physical robots or unlock new avenues of rapid prototyping for creative fields. Of course, that requires the model to accurately simulate what you want. Genie 4 has several improvements that make its simulations more useful, and that's thanks in part to Google's updated Gemini models.</p><p><a href="https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/">Read full article</a></p>
+<p><a href="https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>55</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png" type="image/png" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-500x500.png" width="500" height="500" />
+<media:credit>Google</media:credit><media:text>Genie 4 creates more realistic simulated worlds. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo</title>
+                <link>https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/</link>
+                                    <comments>https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Samuel Axon]]>
+                </dc:creator>
+                <pubDate>Mon, 26 Oct 2026 20:04:16 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[iOS 27.2]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[macOS 27.2]]></category>
+		<category><![CDATA[Siri]]></category>
+		<category><![CDATA[Siri AI]]></category>
+		<category><![CDATA[tvos]]></category>
+		<category><![CDATA[tvOS 27.2]]></category>
+		<category><![CDATA[visionOS]]></category>
+		<category><![CDATA[visionOS 27.2]]></category>
+		<category><![CDATA[watchos]]></category>
+		<category><![CDATA[watchOS 27.2]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/</guid>
+
+                                    <description>
+                        <![CDATA[Included is the ability to limit which applications Siri can directly access.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p><!-- obsidian --></p>
+<p>Today, Apple rolled out the 27.2 updates for its operating systems, including iOS, macOS, watchOS, tvOS, visionOS, and so on.</p>
+<p>Let's start with iOS 27.2. This update is heavily focused on Siri AI. It adds a memory feature to Siri, so it can "recall your past conversations" and reference them when chatting with you. It also expands what data sources Siri can access when giving responses to include voicemails, Messages attachments, and more.</p><p><a href="https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/">Read full article</a></p>
+<p><a href="https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>93</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Siri-AI-1152x648.png" type="image/png" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Siri-AI-500x500.png" width="500" height="500" />
+<media:credit>Apple</media:credit><media:text>Siri AI continues to be a major focus for this release cycle.</media:text></media:content>
+            </item>
+                    <item>
+                <title>ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees</title>
+                <link>https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/</link>
+                                    <comments>https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Mon, 26 Oct 2026 18:50:41 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[boston dynamics]]></category>
+		<category><![CDATA[Department of Homeland Security]]></category>
+		<category><![CDATA[ice]]></category>
+		<category><![CDATA[immigration and customs enforcement]]></category>
+		<category><![CDATA[Robotics]]></category>
+		<category><![CDATA[robots]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/</guid>
+
+                                    <description>
+                        <![CDATA[US robotics company stands by ICE deal as more than 300 employees warn of risk.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hundreds of employees at the US robotics firm Boston Dynamics signed a petition calling for executives to halt a sale of the company’s robot dogs to US Immigration and Customs Enforcement—but executives stood by the deal, while saying the robots would not be weaponized.</p>
+<p>On September 25, the Department of Homeland Security <a href="https://sam.gov/workspace/contract/opp/d302c9fa6d234522ad2e0a63c8638177/view">contract awarded $1.3 million</a> to a Connecticut company called Radeco to provide ICE with modified versions of Boston Dynamics’ quadruped robots. But Boston Dynamics workers sent the <a href="https://media.wbur.org/wp/2026/10/boston-dynamics-letter.jpg">petition letter</a> with more than 300 signatures—half of them anonymous—to the company’s executives in early September and shared copies with <a href="https://www.bostonglobe.com/2026/10/23/business/ice-spot-boston-dynamics-sale-workers/">The Boston Globe</a> and <a href="https://www.wbur.org/news/2026/10/23/boston-dynamics-employees-petition-dhs">WBUR public radio station</a>.</p>
+<p>“Many of us have gotten messages from friends and family, asking us in disbelief and horror if this news is true, and how we can live with ourselves if it is,” according to the petition. “The risk for Boston Dynamics is simply too great to continue with this deal.”</p><p><a href="https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>146</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Radeco-Cerberus-robot-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Radeco-Cerberus-robot-500x500.jpg" width="500" height="500" />
+<media:credit>Radeco</media:credit><media:text>The Cerberus quadruped robot sold by Radeco is a modified version of the Boston Dynamics robot Spot upgraded with military-grade equipment and designed to detect dangerous substances.</media:text></media:content>
+            </item>
+            </channel>
+</rss>
