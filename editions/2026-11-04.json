@@ -1,0 +1,395 @@
+{
+ "date": "2026-11-04",
+ "nouveaux_mots": [
+  {
+   "mot": "Équivoque",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui peut s'interpréter de plusieurs façons ; ambigu, douteux.",
+   "exemple": "Sa réponse équivoque ne rassura personne."
+  },
+  {
+   "mot": "Fébrile",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui manifeste une agitation nerveuse, une excitation inquiète.",
+   "exemple": "Une attente fébrile précéda l'annonce des résultats."
+  },
+  {
+   "mot": "Préemption",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "pro",
+   "definition": "Droit d'acquérir un bien par priorité sur tout autre acheteur.",
+   "exemple": "La commune a exercé son droit de préemption sur la parcelle."
+  },
+  {
+   "mot": "Ergastule",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Dans l'Antiquité romaine, prison souterraine pour esclaves ; par extension, lieu d'enfermement pénible.",
+   "exemple": "Ce bureau sans fenêtre tenait de l'ergastule."
+  },
+  {
+   "mot": "Sybarite",
+   "nature": "n.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Personne qui recherche les plaisirs raffinés et une vie de luxe indolente.",
+   "exemple": "En sybarite, il prolongeait chaque repas."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Thébaïde",
+   "definition": "Lieu isolé et paisible propice à la retraite et à la méditation."
+  },
+  {
+   "mot": "Palimpseste",
+   "definition": "Manuscrit dont on a effacé le premier texte pour en écrire un nouveau ; par extension, ce qui garde la trace de couches successives."
+  },
+  {
+   "mot": "Frugal",
+   "definition": "Qui se contente de peu, notamment pour la nourriture ; simple et peu abondant."
+  },
+  {
+   "mot": "Sporadique",
+   "definition": "Qui se produit de façon irrégulière, isolée, par intervalles."
+  },
+  {
+   "mot": "Obsolescence",
+   "definition": "Fait de devenir périmé, dépassé, en particulier pour un équipement ou une technique."
+  }
+ ],
+ "articles": [
+  "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+  "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+  "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/",
+  "https://the-decoder.com/openai-hires-ex-army-secretary-gaining-bipartisan-reach-just-as-midterms-loom/",
+  "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
+  "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+  "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/",
+  "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/",
+  "https://www.lemonde.fr/politique/article/2026/11/04/devant-la-commission-d-enquete-sur-le-17-octobre-laurent-nunez-reconnait-un-echec_6805735_823448.html",
+  "https://www.publicsenat.fr/actualites/politique/petition-la-chaine-cnews-peut-elle-disparaitre-de-la-tnt",
+  "https://www.publicsenat.fr/actualites/societe/5-novembre-du-peuple-a-quoi-sattendre-pour-ce-jour-de-greve-et-de-mobilisation",
+  "https://www.publicsenat.fr/actualites/politique/budget-2027-calendrier-49-3-ordonnancesquelles-sont-les-echeances-a-venir-et-les-scenarios-possibles",
+  "https://www.franceinfo.fr/elections/presidentielle/bien-sur-qu-ils-s-inquietent-l-emergence-de-david-lisnard-peut-elle-menacer-la-candidature-de-bruno-retailleau-a-la-presidentielle_8264240.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/politique/article/2026/11/03/presidentielle-2027-pourquoi-les-dates-du-scrutin-virent-au-casse-tete-constitutionnel_6805653_823448.html",
+  "https://www.lemonde.fr/politique/article/2026/11/04/budget-2027-devant-l-impasse-des-debats-sebastien-lecornu-explore-la-voie-des-ordonnances_6805969_823448.html",
+  "https://www.publicsenat.fr/actualites/politique/hausse-de-tva-sur-les-abonnements-de-canal-la-ministre-de-la-culture-vigilante-sur-les-consequences-de-cette-evolution-pour-le-financement-du-cinema-francais",
+  "https://www.publicsenat.fr/actualites/politique/je-nai-jamais-signe-chez-edouard-philippe-le-senateur-pierre-jean-rochette-quitte-le-groupe-les-independants-a-majorite-horizons",
+  "https://www.publicsenat.fr/actualites/economie/le-budget-2027-de-lagriculture-vise-a-sassurer-que-lete-prochain-ne-ressemble-en-rien-a-lete-2026-insiste-annie-genevard",
+  "https://www.lemonde.fr/politique/article/2026/11/04/dans-gouverner-jordan-bardella-creuse-le-sillon-liberal-securitaire-du-rn-sans-propositions-nouvelles_6806117_823448.html",
+  "https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power",
+  "https://www.aljazeera.com/opinions/2026/11/4/lulas-victory-is-a-stress-test-for-the-global-south?traffic_source=rss",
+  "https://legrandcontinent.eu/fr/2026/11/04/5-points-sur-les-resultats-des-elections-de-mi-mandat/",
+  "https://www.npr.org/2026/11/04/g-s1-148952/maine-senate-race-susan-collins-troy-jackson",
+  "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/11/4/democratic-party-gains-us-house-majority-in-2026-midterm-elections?traffic_source=rss",
+  "https://www.politico.com/news/2026/11/03/democrats-sweep-texas-01147637",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/4/democrat-amy-acton-makes-history-in-ohio?traffic_source=rss",
+  "https://www.npr.org/2026/11/03/g-s1-151587/kansas-senate-race-hamilton-marshall",
+  "https://www.aljazeera.com/news/2026/11/4/democrat-josh-turek-flips-iowa-senate-seat?traffic_source=rss",
+  "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3306~028a82bc67.en.pdf",
+  "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3305~877e68c2b7.en.pdf",
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005012",
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004992",
+  "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0001100",
+  "https://verfassungsblog.de/the-clock-is-ticking/",
+  "https://verfassungsblog.de/the-purcell-principle/",
+  "https://www.village-justice.com/articles/franchise-base-tva-apres-abandon-seuil-unique-quelles-regles-appliquent,58845.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+  "https://www.insideprivacy.com/ccpa/cppa-proposes-amendments-to-opt-out-preference-signal-regulations/",
+  "https://eulawlive.com/bank-of-russia-seeks-annulment-of-eu-sanctions-provision-on-injunctions-against-recognition-and-enforcement/",
+  "https://www.bgnes.com/european-union/bosnia-and-herzegovina-joins-eu-sanctions-against-russian-defence-industry",
+  "https://www.complianceweek.com/regulatory-enforcement/extreme-networks-accepts-doj-near-miss-non-prosecution-agreement-for-alleged-sanctions-violations/",
+  "https://www.jdsupra.com/legalnews/lessons-from-the-recent-1-5-billion-aml-1819284/",
+  "https://lejournal.cnrs.fr/articles/la-nina-pourrait-davantage-affecter-leconomie-quel-nino",
+  "https://www.carbonbrief.org/state-of-the-climate-2026-likely-to-tie-with-2024-as-the-warmest-year-on-record",
+  "https://insideclimatenews.org/news/03112026/wildfire-building-damage-could-triple-by-2060/",
+  "https://insideclimatenews.org/news/03112026/epa-suspends-livestock-methane-monitoring-efforts/",
+  "https://theconversation.com/la-france-est-elle-entree-en-recession-en-2026-295759",
+  "https://theconversation.com/une-start-up-americaine-veut-vendre-la-lumiere-du-soleil-la-nuit-qui-aura-son-mot-a-dire-295381",
+  "https://www.sciencesetavenir.fr/sante/depression-les-femmes-paient-le-prix-fort-des-inegalites-selon-un-rapport_195912?xtor=RSS-16",
+  "https://www.sciencesetavenir.fr/nature-environnement/el-nino-l-essentiel-de-la-semaine_195915?xtor=RSS-15",
+  "https://www.sciencesetavenir.fr/nutrition/des-cyberattaques-perturbent-la-chaine-du-froid-dans-neuf-pays-europeens_195917?xtor=RSS-28",
+  "https://www.sciencesetavenir.fr/archeo-paleo/ocean-pacifique-une-expedition-americaine-echoue-a-retrouver-l-avion-d-amelia-earhart_195913?xtor=RSS-4",
+  "https://www.franceinfo.fr/sports/voile/route-du-rhum/jeremie-beyou-un-des-favoris-de-la-classe-imoca-abandonne-la-route-du-rhum-pour-raisons-medicales_8266286.html#xtor=RSS-3-%5Bgeneral%5D",
+  "https://www.franceinfo.fr/sports/voile/route-du-rhum/tenant-du-titre-charles-caudrelier-abandonne-la-route-du-rhum-apres-une-avarie_8266379.html#xtor=RSS-3-%5Bgeneral%5D"
+ ],
+ "titres": [
+  "La « théorie des jeux inversée » pour garder les agents d'IA sous contrôle",
+  "FlashProve : Anthropic travaille à prouver quel modèle d'IA a produit une réponse",
+  "Les constats sur les LLM se périment en 15,7 mois en moyenne, selon Stanford",
+  "OpenAI recrute l'ex-secrétaire à l'Armée Dan Driscoll pour sa stratégie de défense",
+  "Violences du 17 octobre : Laurent Nuñez reconnaît « un échec » devant les députés",
+  "Pétition contre CNews : la chaîne peut-elle perdre sa fréquence TNT ?",
+  "5 novembre : grève et manifestations, ce que l'on sait de la journée de mobilisation",
+  "Budget 2027 : les échéances et les scénarios possibles, du 49.3 aux ordonnances",
+  "Présidentielle : David Lisnard talonne Bruno Retailleau dans certains sondages",
+  "Les démocrates reprennent le Congrès et ouvrent une ère de pouvoir partagé",
+  "Réélection de Lula : un test de résistance pour le Sud global face à Washington",
+  "Midterms : les démocrates reprennent la Chambre et le Sénat face à Trump",
+  "Maine : Troy Jackson bat la sénatrice sortante Susan Collins",
+  "Ormuz : Téhéran juge la réponse américaine peu convaincante, Trump confirme des frappes",
+  "Dette à court ou long terme : l'effet sur les multiplicateurs budgétaires",
+  "Repo allemand : les hedge funds, emprunteurs insensibles au prix, font la « specialness »",
+  "Statines en prévention primaire : un LDL plus bas, moins d'événements cardiovasculaires",
+  "Stocks d'antiviraux antigrippaux : une approche fondée sur la capacité",
+  "Franchise en base de TVA : seuil unique abandonné, quelles règles s'appliquent",
+  "CCPA : la CPPA propose de renforcer les règles sur les signaux d'opt-out",
+  "La Niña pèserait davantage que El Niño sur l'économie mondiale, par les prix",
+  "Climat : 2026 devrait égaler 2024 comme année la plus chaude, 2027 la dépasser",
+  "Incendies : le nombre de bâtiments menacés aux États-Unis pourrait presque tripler d'ici 2060",
+  "Pollution de l'air : l'EPA renonce à encadrer les grands élevages industriels",
+  "La France est-elle en récession en 2026 ? Pas à ce stade, selon le CDCEF",
+  "Lumière solaire vendue la nuit : qui réglementera les miroirs spatiaux ?"
+ ],
+ "solutions": {
+  "sudoku": [
+   7,
+   8,
+   5,
+   1,
+   9,
+   2,
+   3,
+   6,
+   4,
+   9,
+   6,
+   4,
+   8,
+   7,
+   3,
+   2,
+   5,
+   1,
+   3,
+   2,
+   1,
+   4,
+   5,
+   6,
+   9,
+   8,
+   7,
+   2,
+   9,
+   3,
+   5,
+   8,
+   4,
+   1,
+   7,
+   6,
+   5,
+   4,
+   6,
+   7,
+   2,
+   1,
+   8,
+   9,
+   3,
+   1,
+   7,
+   8,
+   3,
+   6,
+   9,
+   4,
+   2,
+   5,
+   8,
+   1,
+   7,
+   2,
+   4,
+   5,
+   6,
+   3,
+   9,
+   4,
+   5,
+   9,
+   6,
+   3,
+   8,
+   7,
+   1,
+   2,
+   6,
+   3,
+   2,
+   9,
+   1,
+   7,
+   5,
+   4,
+   8
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     1,
+     8
+    ],
+    [
+     0,
+     8,
+     7,
+     1
+    ],
+    [
+     0,
+     9,
+     5,
+     1
+    ],
+    [
+     1,
+     0,
+     6,
+     2
+    ],
+    [
+     1,
+     2,
+     2,
+     1
+    ],
+    [
+     1,
+     3,
+     4,
+     3
+    ],
+    [
+     1,
+     6,
+     4,
+     1
+    ],
+    [
+     1,
+     7,
+     9,
+     1
+    ],
+    [
+     3,
+     2,
+     4,
+     1
+    ],
+    [
+     5,
+     3,
+     4,
+     2
+    ],
+    [
+     5,
+     5,
+     5,
+     2
+    ],
+    [
+     5,
+     9,
+     4,
+     1
+    ],
+    [
+     7,
+     0,
+     3,
+     3
+    ],
+    [
+     7,
+     8,
+     2,
+     1
+    ],
+    [
+     9,
+     3,
+     1,
+     2
+    ],
+    [
+     9,
+     8,
+     1,
+     2
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    4,
+    3,
+    6,
+    2,
+    1,
+    5
+   ],
+   [
+    3,
+    1,
+    2,
+    5,
+    4,
+    6
+   ],
+   [
+    2,
+    5,
+    1,
+    4,
+    6,
+    3
+   ],
+   [
+    1,
+    4,
+    5,
+    6,
+    3,
+    2
+   ],
+   [
+    5,
+    6,
+    4,
+    3,
+    2,
+    1
+   ],
+   [
+    6,
+    2,
+    3,
+    1,
+    5,
+    4
+   ]
+  ],
+  "compte": [
+   "50 × 5 = 250",
+   "250 − 9 = 241",
+   "241 + 3 = 244",
+   "244 + 2 = 246"
+  ]
+ },
+ "reponses_quiz": []
+}
