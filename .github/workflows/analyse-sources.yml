@@ -1,0 +1,20 @@
+# Temporaire : analyse ponctuelle des sources (branche analyse-sources, à supprimer).
+name: analyse des sources
+on:
+  push:
+    branches: [analyse-sources]
+jobs:
+  flux:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml pydantic
+      - run: python scripts/analyse/telecharger_flux.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: flux
+          path: flux/
