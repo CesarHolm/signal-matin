@@ -1,0 +1,381 @@
+{
+ "date": "2026-11-04",
+ "nouveaux_mots": [
+  {
+   "mot": "Équivoque",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui peut s'interpréter de plusieurs façons ; ambigu, douteux.",
+   "exemple": "Sa réponse équivoque ne rassura personne."
+  },
+  {
+   "mot": "Fébrile",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui manifeste une agitation nerveuse, une excitation inquiète.",
+   "exemple": "Une attente fébrile précéda l'annonce des résultats."
+  },
+  {
+   "mot": "Préemption",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "pro",
+   "definition": "Droit d'acquérir un bien par priorité sur tout autre acheteur.",
+   "exemple": "La commune a exercé son droit de préemption sur la parcelle."
+  },
+  {
+   "mot": "Ergastule",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Dans l'Antiquité romaine, prison souterraine pour esclaves ; par extension, lieu d'enfermement pénible.",
+   "exemple": "Ce bureau sans fenêtre tenait de l'ergastule."
+  },
+  {
+   "mot": "Sybarite",
+   "nature": "n.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Personne qui recherche les plaisirs raffinés et une vie de luxe indolente.",
+   "exemple": "En sybarite, il prolongeait chaque repas."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Thébaïde",
+   "definition": "Lieu isolé et paisible propice à la retraite et à la méditation."
+  },
+  {
+   "mot": "Palimpseste",
+   "definition": "Manuscrit dont on a effacé le premier texte pour en écrire un nouveau ; par extension, ce qui garde la trace de couches successives."
+  },
+  {
+   "mot": "Frugal",
+   "definition": "Qui se contente de peu, notamment pour la nourriture ; simple et peu abondant."
+  },
+  {
+   "mot": "Sporadique",
+   "definition": "Qui se produit de façon irrégulière, isolée, par intervalles."
+  },
+  {
+   "mot": "Obsolescence",
+   "definition": "Fait de devenir périmé, dépassé, en particulier pour un équipement ou une technique."
+  }
+ ],
+ "articles": [
+  "https://arxiv.org/abs/2611.03651",
+  "https://arxiv.org/abs/2611.03713",
+  "https://arxiv.org/abs/2611.03721",
+  "https://arxiv.org/abs/2611.03723",
+  "https://www.franceinfo.fr/monde/usa/midterms-2018/direct-midterms-2026-nette-avance-democrate-au-congres-des-premieres-victoires-historiques-suivez-les-resultats-des-elections-de-mi-mandat_8265776.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/international/live/2026/11/04/en-direct-guerre-en-ukraine-un-entrepot-d-e-commerce-russe-vise-par-une-attaque-de-drones-ukrainiens_6803934_3210.html",
+  "https://www.franceinfo.fr/economie/transports/infographie-il-y-a-un-climat-d-agressivite-generale-ce-que-montrent-les-chiffres-des-violences-motorisees-dont-sont-victimes-les-cyclistes-en-france_8263571.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/economie/greve/revalorisation-des-salaires-services-publics-justice-fiscale-quelles-sont-les-revendications-des-syndicats-pour-la-greve-du-5-novembre_8263733.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/faits-divers/martyre-de-l-a10/c-est-le-seul-enfant-que-j-ai-vu-dans-cet-etat-au-proces-des-parents-de-la-petite-martyre-de-l-a10-le-calvaire-d-inass-touloub-se-dessine_8266418.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/planete/article/2026/11/04/en-gironde-vivre-en-zone-inondable-partir-pour-aller-ou-ici-le-risque-est-connu-previsible-gerable-et-nous-profitons-d-un-art-de-vivre_6806074_3244.html",
+  "https://www.lemonde.fr/afrique/article/2026/11/04/en-afrique-du-sud-la-deconfiture-annoncee-de-l-anc-en-perte-de-vitesse-dans-les-grandes-villes-du-pays_6806072_3212.html",
+  "https://legrandcontinent.eu/fr/2026/11/04/5-points-sur-les-resultats-des-elections-de-mi-mandat/",
+  "https://www.aljazeera.com/opinions/2026/11/4/lulas-victory-is-a-stress-test-for-the-global-south?traffic_source=rss",
+  "https://www.npr.org/2026/11/04/g-s1-148952/maine-senate-race-susan-collins-troy-jackson",
+  "https://www.scmp.com/news/us/politics/article/3373224/us-voters-unleash-blue-wave-handing-congress-democrats-and-rebuking-trump",
+  "https://legrandcontinent.eu/fr/2026/11/04/le-rapport-qui-a-prepare-la-victoire-democrate-aux-midterms/",
+  "https://www.aljazeera.com/economy/2026/11/4/democrats-dominate-nyc-races-hochul-re-elected-new-york-governor?traffic_source=rss",
+  "https://www.npr.org/2026/11/04/nx-s1-6028116/former-arkansas-governor-says-democrats-gains-are-more-significant-than-ever-anticipated",
+  "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/4/keisha-lance-bottoms-becomes-georgias-first-black-governor?traffic_source=rss",
+  "https://verfassungsblog.de/the-clock-is-ticking/",
+  "https://verfassungsblog.de/race-empire-and-the-liberal-international-order/",
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005012",
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004992",
+  "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0001100",
+  "https://verfassungsblog.de/the-purcell-principle/",
+  "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3306~028a82bc67.en.pdf",
+  "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3305~877e68c2b7.en.pdf",
+  "https://verfassungsblog.de/tracing-the-colonialism-as-a-crime/",
+  "https://cambojanews.com/sanctions-linked-sihanoukville-casinos-took-most-of-1b-crypto-amid-crackdown-report-says/",
+  "https://finance.biggo.com/news/edd78339-0c62-4a0c-8c75-09a3908bfe45",
+  "https://www.insideprivacy.com/ccpa/cppa-proposes-amendments-to-opt-out-preference-signal-regulations/",
+  "https://stocktwits.com/news-articles/markets/equity/us-china-export-controls-threaten-sk-hynix-s-multi-billion-dollar-new-york-chip-expansion-plan/cNGXK4gR9di",
+  "https://www.jdsupra.com/legalnews/lessons-from-the-recent-1-5-billion-aml-1819284/",
+  "https://www.village-justice.com/articles/messages-professionnels-droit-acceder-autorise-toutes-les-utilisations-leur,59825.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+  "https://english.nv.ua/nation/european-commission-opposes-russia-s-return-to-hockey-50656036.html",
+  "https://ocula.com/magazine/art-news/eu-downgrade-art-market-money-laundering-risk/",
+  "https://www.coe.int/en/web/moneyval/-/moneyval-hosts-a-workshop-on-effectiveness-guidelines",
+  "https://www.village-justice.com/articles/obo-vendre-son-entreprise-soi-meme-pour-sortir-cash-sans-perdre-les-commandes,59835.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+  "https://insideclimatenews.org/news/04112026/democrats-seize-congress-statehouses-in-referendum-on-the-economy/",
+  "https://insideclimatenews.org/news/03112026/few-repercussions-for-oil-firms-continued-leaks-after-couples-death-from-toxic-gas/",
+  "https://insideclimatenews.org/news/03112026/todays-climate-election-hushing/",
+  "https://www.carbonbrief.org/uk-climate-minister-katie-white-cop31-must-respond-to-really-scary-science",
+  "https://science.nasa.gov/earth/earth-observatory/before-the-dawn-in-americas-heartland/",
+  "https://www.franceinfo.fr/sports/tennis/gael-monfils/en-images-ses-debuts-triomphants-en-juniors-ses-matchs-epiques-a-roland-garros-ses-13-titres-atp-les-moments-marquants-de-la-carriere-de-gael-monfils_8264078.html#xtor=RSS-3-%5Bgeneral%5D",
+  "https://www.franceinfo.fr/sports/auto-moto/formule-1/le-francais-esteban-ocon-perd-son-baquet-de-f1-chez-haas-remplace-par-le-bresilien-rafael-camara_8266577.html#xtor=RSS-3-%5Bgeneral%5D",
+  "https://www.franceinfo.fr/sports/sports-extremes/sur-un-fil-a-150-metres-du-vide_8266013.html#xtor=RSS-3-%5Bgeneral%5D"
+ ],
+ "titres": [
+  "CARD: A Proof-Carrying Certificate-to-Action Interface for Relative-Measurement Graphs",
+  "Midterms 2026 : après le Sénat, les démocrates décrochent la majorité absolue à la Chambre des représentants et contrôlent désormais le Congrès, un camouflet pour Donald Trump",
+  "EN DIRECT, guerre en Ukraine : un entrepôt d’e-commerce russe visé par une attaque de drones ukrainiens",
+  "5 points sur les résultats des élections de mi-mandat",
+  "Lula’s victory is a stress test for the Global South",
+  "Troy Jackson wins Maine Senate race over Susan Collins, in major coup for Democrats",
+  "The Clock Is Ticking",
+  "Race, Empire, and the Liberal International Order",
+  "Risk of cardiovascular events and mortality associated with LDL and non-HDL cholesterol levels after statin initiation for primary prevention: A multiregional cohort study",
+  "Transforming pandemic influenza antiviral stockpiling using a capacity-based approach: A modeling study",
+  "Sanctions-Linked Sihanoukville Casinos Took Most of $1B Crypto Amid Crackdown, Report Says",
+  "Machine Tools Excluded From First Wave of China Export Controls, but Syntec Still Posts Two Straight Limit-Down Days",
+  "CPPA Proposes Amendments to Opt-Out Preference Signal Regulations",
+  "US China Export Controls Threaten SK Hynix's Multi-Billion-Dollar New York Chip Expansion Plan",
+  "Democrats Seize Congress, Statehouses in Referendum on the Economy",
+  "Few Repercussions for Oil Firm’s Continued Leaks After Couple’s Death From Toxic Gas",
+  "Is It Better to Speak, or to ‘Hush’?",
+  "UK climate minister Katie White: COP31 must respond to ‘really scary’ science",
+  "Before the Dawn in America’s Heartland"
+ ],
+ "solutions": {
+  "sudoku": [
+   7,
+   8,
+   5,
+   1,
+   9,
+   2,
+   3,
+   6,
+   4,
+   9,
+   6,
+   4,
+   8,
+   7,
+   3,
+   2,
+   5,
+   1,
+   3,
+   2,
+   1,
+   4,
+   5,
+   6,
+   9,
+   8,
+   7,
+   2,
+   9,
+   3,
+   5,
+   8,
+   4,
+   1,
+   7,
+   6,
+   5,
+   4,
+   6,
+   7,
+   2,
+   1,
+   8,
+   9,
+   3,
+   1,
+   7,
+   8,
+   3,
+   6,
+   9,
+   4,
+   2,
+   5,
+   8,
+   1,
+   7,
+   2,
+   4,
+   5,
+   6,
+   3,
+   9,
+   4,
+   5,
+   9,
+   6,
+   3,
+   8,
+   7,
+   1,
+   2,
+   6,
+   3,
+   2,
+   9,
+   1,
+   7,
+   5,
+   4,
+   8
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     1,
+     8
+    ],
+    [
+     0,
+     8,
+     7,
+     1
+    ],
+    [
+     0,
+     9,
+     5,
+     1
+    ],
+    [
+     1,
+     0,
+     6,
+     2
+    ],
+    [
+     1,
+     2,
+     2,
+     1
+    ],
+    [
+     1,
+     3,
+     4,
+     3
+    ],
+    [
+     1,
+     6,
+     4,
+     1
+    ],
+    [
+     1,
+     7,
+     9,
+     1
+    ],
+    [
+     3,
+     2,
+     4,
+     1
+    ],
+    [
+     5,
+     3,
+     4,
+     2
+    ],
+    [
+     5,
+     5,
+     5,
+     2
+    ],
+    [
+     5,
+     9,
+     4,
+     1
+    ],
+    [
+     7,
+     0,
+     3,
+     3
+    ],
+    [
+     7,
+     8,
+     2,
+     1
+    ],
+    [
+     9,
+     3,
+     1,
+     2
+    ],
+    [
+     9,
+     8,
+     1,
+     2
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    4,
+    3,
+    6,
+    2,
+    1,
+    5
+   ],
+   [
+    3,
+    1,
+    2,
+    5,
+    4,
+    6
+   ],
+   [
+    2,
+    5,
+    1,
+    4,
+    6,
+    3
+   ],
+   [
+    1,
+    4,
+    5,
+    6,
+    3,
+    2
+   ],
+   [
+    5,
+    6,
+    4,
+    3,
+    2,
+    1
+   ],
+   [
+    6,
+    2,
+    3,
+    1,
+    5,
+    4
+   ]
+  ],
+  "compte": [
+   "50 × 5 = 250",
+   "250 − 9 = 241",
+   "241 + 3 = 244",
+   "244 + 2 = 246"
+  ]
+ },
+ "reponses_quiz": []
+}
