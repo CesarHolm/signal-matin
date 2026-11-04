@@ -36,7 +36,7 @@ Rubriques retirées : agenda, priorités, à ne pas oublier.
 | MIT Technology Review – IA | EN | https://www.technologyreview.com/topic/artificial-intelligence/feed |
 | ActuIA | FR | https://www.actuia.com/feed/ |
 | TechCrunch – IA | EN | https://techcrunch.com/category/artificial-intelligence/feed/ |
-| OpenAI (officiel) | EN | https://openai.com/news/rss.xml |
+| OpenAI (officiel) | EN | https://openai.com/news/rss.xml — ❌ retiré le 04/11/2026 (audit des sources) |
 | Quanta Magazine | EN | https://www.quantamagazine.org/feed/ |
 | The Conversation France | FR | https://theconversation.com/fr/articles.atom |
 | CNRS Le journal | FR | https://lejournal.cnrs.fr/rss |
@@ -56,7 +56,7 @@ Rubriques retirées : agenda, priorités, à ne pas oublier.
 | Actualité | États-Unis | NPR — https://feeds.npr.org/1001/rss.xml | EN | ✅ |
 | Actualité | États-Unis | Politico — https://rss.politico.com/politics-news.xml | EN | ✅ |
 | Actualité | Chine | South China Morning Post — https://www.scmp.com/rss/4/feed | EN | ✅ |
-| Actualité | Chine | The Diplomat — https://thediplomat.com/feed/ | EN | ✅ |
+| Actualité | Chine | The Diplomat — https://thediplomat.com/feed/ | EN | ❌ retiré le 04/11/2026 (audit des sources) |
 | Actualité | Monde | Al Jazeera — https://www.aljazeera.com/xml/rss/all.xml | EN | ✅ |
 | Actualité | Géopolitique | Le Grand Continent — https://legrandcontinent.eu/fr/feed/ | FR | ✅ |
 | Actualité | Géopolitique | Diploweb — https://www.diploweb.com/spip.php?page=backend | FR | ✅ |
@@ -72,7 +72,7 @@ Rubriques retirées : agenda, priorités, à ne pas oublier.
 | Veille | Conformité | ACPR | FR | ⏳ site inaccessible depuis le cloud, à tester depuis le PC |
 | Curiosités | Sport (actualité) | franceinfo Sports — https://www.francetvinfo.fr/sports.rss | FR | ✅ |
 | Curiosités | Sport (méthodes) | TrainingPeaks — https://www.trainingpeaks.com/feed/ | EN | ✅ |
-| Curiosités | Sport (méthodes) | Stronger by Science — https://www.strongerbyscience.com/feed/ | EN | ✅ |
+| Curiosités | Sport (méthodes) | Stronger by Science — https://www.strongerbyscience.com/feed/ | EN | ❌ retiré le 04/11/2026 (audit des sources) |
 
 **Règle sport** : actualité en **brèves uniquement** (savoir ce qui s'est passé), **football exclu systématiquement** ; les articles sur les **méthodes d'entraînement** sont traités en **article développé**.
 

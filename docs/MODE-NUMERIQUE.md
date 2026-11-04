@@ -71,7 +71,7 @@ imprimé, qui reste inchangé (8 pages, blocs d'origine).
 
 | Catégorie | Contenu |
 |---|---|
-| IA | Uniquement l'IA, y compris les papiers académiques (arXiv) |
+| IA | Uniquement l'IA (arXiv retiré le 04/11/2026 : aucun papier retenu) |
 | Actualité France | Surtout des faits, un peu d'analyse ; pas d'international sauf si la France est concernée |
 | Actualité Monde | Surtout des faits, un peu d'analyse |
 | Recherche & travaux d'experts | Papiers de recherche et analyses de chercheurs : économie, finance, social, droit, santé publique, climat, astronomie, mathématiques |
