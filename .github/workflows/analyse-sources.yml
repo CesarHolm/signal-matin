@@ -1,4 +1,4 @@
-# Temporaire : analyse ponctuelle des sources (branche analyse-sources, à supprimer).
+# Temporaire : démo avant/après sur un papier de recherche (branche analyse-sources, à supprimer).
 name: analyse des sources
 on:
   push:
@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 jobs:
-  flux:
+  demo:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -14,9 +14,11 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - run: pip install pyyaml pydantic
-      - run: python scripts/analyse/telecharger_flux.py
+      - run: pip install -e . pypdf
+      - run: python scripts/analyse/demo_recherche.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - run: |
           git config user.name "signal-matin"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f flux && git commit -qm "Flux récupérés [skip ci]" && git push -q origin HEAD:analyse-sources
+          git add -f demo && git commit -qm "Démo recherche [skip ci]" && git push -q origin HEAD:analyse-sources
