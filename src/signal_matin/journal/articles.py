@@ -46,6 +46,8 @@ class Bloc:
     candidats: list[Candidat] = field(default_factory=list)
     consigne: str = ""
     recherche: bool = False
+    max_longs: int | None = None    # version numerique : plafonds de la section
+    max_breves: int | None = None
 
 
 def fenetre_heures(jour: dt.date, config: dict) -> int:
@@ -70,7 +72,8 @@ def collecter(config: dict, maintenant: dt.datetime, deja_publies: set[str]) -> 
         bloc = Bloc(id=bloc_conf["id"], titre=bloc_conf["titre"],
                     rubriques=[s.get("rubrique", "") for s in bloc_conf.get("sources", [])],
                     consigne=" ".join(str(bloc_conf.get("consigne", "")).split()),
-                    recherche=bool(bloc_conf.get("recherche")))
+                    recherche=bool(bloc_conf.get("recherche")),
+                    max_longs=bloc_conf.get("max_longs"), max_breves=bloc_conf.get("max_breves"))
         for source in bloc_conf.get("sources", []):
             items, statut = collect_rss(
                 [{"name": source["nom"], "url": source["url"], "category": source.get("rubrique", "")}],

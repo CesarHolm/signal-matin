@@ -273,6 +273,17 @@ def _solutions(sol: dict | None) -> str:
             + "".join(morceaux) + "</details>")
 
 
+def _alertes(edition: dict) -> str:
+    """En tete de l'e-mail : sections indisponibles et articles non rediges ce matin."""
+    lignes = [f"Section indisponible : {E(t)}" for t in edition.get("indisponibles") or []]
+    for titre, n in (edition.get("non_rediges") or {}).items():
+        lignes.append(f"{E(titre)} : {n} article{'s' if n > 1 else ''} non rédigé{'s' if n > 1 else ''}")
+    if not lignes:
+        return ""
+    return ("<div class='synth' style='border-color:#a33'><b>Édition incomplète</b><p>"
+            + "<br>".join(lignes) + "</p></div>")
+
+
 def rendre_mobile(edition: dict) -> str:
     jour = dt.date.fromisoformat(edition["date"])
     statut = "Édition de secours" if edition.get("secours") else "Édition numérique"
@@ -291,6 +302,6 @@ def rendre_mobile(edition: dict) -> str:
 <div class="mast"><div class="over">Le quotidien personnel · Le journal anti-scroll</div>
 <h1>Signal <em>Matin</em></h1><p class="motto">Voir clair avant de voir l'écran.</p></div>
 <div class="meta">N° {edition.get('numero', 1):03d} · {E(date_longue(jour))} · {E(statut)}</div>
-{sommaire}{haut}{blocs}{bas}
+{_alertes(edition)}{sommaire}{haut}{blocs}{bas}
 <div class="pied">{pied}</div>
 </div></body></html>"""

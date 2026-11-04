@@ -23,12 +23,12 @@ TEXTE_MINIMUM = 2500     # en dessous (article payant, extrait partiel), seuleme
 
 
 # Version numerique (telephone) : pas de pagination, donc des articles plus complets.
+# Deux formats seulement (decision du 04/11/2026) : article long et breve. La longueur
+# du long suit la matiere disponible : la moitie du texte source, 4 500 caracteres au plus.
 NUM_RATIO = 0.50
 NUM_PLAFOND_LONG = 4500
-NUM_PLAFOND_COURT = 1800
-NUM_LONGS_PAR_BLOC = 4
-NUM_ARTICLES_PAR_BLOC = 6
-NUM_BREVES_PAR_BLOC = 6
+NUM_LONGS_PAR_BLOC = 3     # plafonds par defaut ; chaque bloc peut fixer max_longs / max_breves
+NUM_BREVES_PAR_BLOC = 3
 
 
 def quarts_de_contenu(pages: int) -> int:
@@ -154,26 +154,22 @@ def assembler(unites: list[dict]) -> list[list[dict]]:
 
 
 def gabarit_numerique(longueur_source: int) -> tuple[str, int]:
-    """Gabarit de la version telephone : longs jusqu'a 4 500 caracteres, courts jusqu'a 1 800."""
-    possible = int(longueur_source * NUM_RATIO)
-    if possible >= SEUIL_LONG:
-        return "long", min(NUM_PLAFOND_LONG, possible)
-    limite = min(NUM_PLAFOND_COURT, max(PLANCHER_COURT, possible))
-    return "court", max(300, min(limite, int(longueur_source * 0.70)))
+    """Version telephone : toujours un article long, d'autant plus court que la source est mince."""
+    return "long", max(300, min(NUM_PLAFOND_LONG, int(longueur_source * NUM_RATIO)))
 
 
-def planifier_numerique(classements: dict[str, list[Choix]], breves_disponibles: dict[str, int]) -> Plan:
-    """Sans contrainte de page : par bloc, les mieux classes (4 longs au plus, 6 articles au plus)
-    et toutes les breves redigees (6 au plus)."""
+def planifier_numerique(classements: dict[str, list[Choix]], breves_disponibles: dict[str, int],
+                        plafonds: dict[str, tuple[int, int]] | None = None) -> Plan:
+    """Sans contrainte de page : par bloc, les mieux classes et les breves, dans la limite
+    des plafonds du bloc (articles longs, breves)."""
+    plafonds = plafonds or {}
     articles: list[Choix] = []
-    for liste in classements.values():
-        longs = 0
-        for choix in liste[:NUM_ARTICLES_PAR_BLOC]:
-            if choix.format == "long":
-                if longs >= NUM_LONGS_PAR_BLOC:
-                    choix = Choix(choix.id, choix.bloc, choix.score, "court", NUM_PLAFOND_COURT)
-                else:
-                    longs += 1
-            articles.append(choix)
-    quarts = {b: -(-min(n, NUM_BREVES_PAR_BLOC) // 3) for b, n in breves_disponibles.items() if n}
+    for bloc, liste in classements.items():
+        longs = plafonds.get(bloc, (NUM_LONGS_PAR_BLOC, NUM_BREVES_PAR_BLOC))[0]
+        articles.extend(Choix(c.id, c.bloc, c.score, "long", c.limite) for c in liste[:longs])
+    quarts = {}
+    for bloc, n in breves_disponibles.items():
+        n = min(n, plafonds.get(bloc, (NUM_LONGS_PAR_BLOC, NUM_BREVES_PAR_BLOC))[1])
+        if n:
+            quarts[bloc] = -(-n // 3)
     return Plan(pages=0, articles=articles, quarts_breves=quarts)

@@ -115,11 +115,42 @@ def _plafonner(elements: list, source_de, maximum: int = MAX_PAR_SOURCE) -> list
     return retenus
 
 
-SCORE_A_COMPLETER = 8  # en dessous, un article au texte trop court devient une breve
+SCORE_A_COMPLETER = 8  # journal imprime : seuil historique (la version numerique complete tout article long)
+
+
+def plafonds(bloc: art.Bloc) -> tuple[int, int]:
+    """(articles longs, breves) publies au plus par la section, version numerique."""
+    return (bloc.max_longs or mep.NUM_LONGS_PAR_BLOC, bloc.max_breves or mep.NUM_BREVES_PAR_BLOC)
+
+
+def _recuperer_texte(candidat: art.Candidat, score: int, completer: bool, recherche: bool,
+                     index_global: dict, journal) -> None:
+    """Texte complet d'un article retenu ; version numerique : PDF des papiers de recherche
+    et, si le texte reste trop court, meme sujet dans d'autres sources."""
+    candidat.texte, candidat.auteur = art.texte_integral(candidat.url, candidat.resume)
+    if not completer or len(candidat.texte) >= mep.TEXTE_MINIMUM:
+        return
+    # Papier de recherche : le texte complet est souvent dans le PDF.
+    if recherche:
+        pdf = art.texte_pdf(candidat.url)
+        if len(pdf) > len(candidat.texte):
+            candidat.texte = pdf
+            journal(f"  {candidat.id} : papier lu en PDF ({len(pdf)} car.)")
+    # Article long au texte court : meme sujet dans d'autres sources (tout article retenu
+    # en long est par definition important ; decision du 04/11/2026).
+    if len(candidat.texte) < mep.TEXTE_MINIMUM:
+        autres = [c for c in index_global.values() if c.id != candidat.id]
+        art.completer_par_autres_sources(candidat, autres, mep.TEXTE_MINIMUM, journal)
 
 
 def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bool = True,
-             racine: Path = DOSSIER, journal=print) -> dict:
+             racine: Path = DOSSIER, journal=print, client=None, cache: dict | None = None) -> dict:
+    """Fabrique l'edition du jour.
+
+    `client` remplace le client de l'API (ex. agent.ClientAgent) ; `cache` (dictionnaire
+    modifie sur place) conserve les candidats et les textes recuperes, pour reprendre
+    l'edition apres une interruption sans rien collecter deux fois.
+    """
     maintenant = maintenant or dt.datetime.now().astimezone()
     jour = maintenant.date()
     conf = config.get("journal", {})
@@ -142,16 +173,29 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
     nouveaux_mots, revisions = selection_du_jour(jour, racine)
     journal("· Jeux")
     jeux = jeux_du_jour(jour)
-    journal("· Collecte des flux")
-    deja = articles_deja_publies(jour, racine)
-    blocs, erreurs = art.collecter(conf, maintenant, deja)
-    _filtrer(blocs)
+    if cache is not None and "blocs" in cache:
+        from .agent import blocs_depuis
+        journal("· Candidats repris du cache")
+        blocs, erreurs = blocs_depuis(cache["blocs"]), list(cache.get("erreurs", []))
+    else:
+        journal("· Collecte des flux")
+        deja = articles_deja_publies(jour, racine)
+        blocs, erreurs = art.collecter(conf, maintenant, deja)
+        _filtrer(blocs)
+        if cache is not None:
+            from .agent import blocs_en_dict
+            cache["blocs"], cache["erreurs"] = blocs_en_dict(blocs), erreurs
+    if cache is not None:
+        cache.setdefault("textes", {})
+    # Agent (abonnement) : pas de contenu de secours ; une section sans tri est signalee.
+    agent = bool(getattr(client, "agent", False))
+    indisponibles: list[str] = []
+    non_rediges: dict[str, int] = {}
     if erreurs:
         avertissements.append("Flux indisponibles : " + ", ".join(erreurs))
     journal(f"  {sum(len(b.candidats) for b in blocs)} articles candidats, {len(erreurs)} flux en erreur")
 
-    client = None
-    if avec_ia:
+    if client is None and avec_ia:
         try:
             client = ia.ClientIA(conf.get("ia", {}), journal=journal)
         except ia.IAIndisponible as erreur:
@@ -182,9 +226,11 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
                     if d.get("id") in index and index[d["id"]] not in [c for c, _ in classe]:
                         score = int(d.get("score", 0)) if str(d.get("score", "")).isdigit() else 6 - rang
                         classe.append((index[d["id"]], max(1, min(10, score))))
-                if classe:
-                    classements[bloc.id] = classe[:8 if numerique else 6]
-                    breves_redigees[bloc.id] = [b for b in data.get("breves", []) if b.get("id") in index][:6]
+                if classe or (numerique and "developpes" in data):
+                    longs, nb_breves = plafonds(bloc) if numerique else (6, 6)
+                    classements[bloc.id] = classe[:longs + 2 if numerique else 6]
+                    breves_redigees[bloc.id] = [b for b in data.get("breves", [])
+                                                if b.get("id") in index][:nb_breves]
             except (ValueError, KeyError, TypeError) as erreur:
                 journal(f"  ! tri {bloc.id} illisible : {erreur}")
         if "mots" in reponses:
@@ -194,6 +240,9 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
             except ValueError:
                 journal("  ! réponse vocabulaire illisible")
     for bloc in blocs:
+        if bloc.id not in classements and agent and bloc.candidats:
+            classements[bloc.id], breves_redigees[bloc.id] = [], []
+            indisponibles.append(bloc.titre)
         if bloc.id not in classements:
             classements[bloc.id], breves_redigees[bloc.id] = _secours_tri(bloc)
         if numerique:
@@ -215,18 +264,19 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
     for bloc_id, classe in classements.items():
         choix_par_bloc[bloc_id] = []
         for candidat, score in classe:
-            candidat.texte, candidat.auteur = art.texte_integral(candidat.url, candidat.resume)
-            if numerique and client and len(candidat.texte) < mep.TEXTE_MINIMUM:
-                # Papier de recherche : le texte complet est souvent dans le PDF.
-                if blocs_par_id[bloc_id].recherche:
-                    pdf = art.texte_pdf(candidat.url)
-                    if len(pdf) > len(candidat.texte):
-                        candidat.texte = pdf
-                        journal(f"  {candidat.id} : papier lu en PDF ({len(pdf)} car.)")
-                # Sujet important mais texte court : meme sujet dans d'autres sources.
-                if len(candidat.texte) < mep.TEXTE_MINIMUM and score >= SCORE_A_COMPLETER:
-                    autres = [c for c in index_global.values() if c.id != candidat.id]
-                    art.completer_par_autres_sources(candidat, autres, mep.TEXTE_MINIMUM, journal)
+            if numerique and len(choix_par_bloc[bloc_id]) >= plafonds(blocs_par_id[bloc_id])[0]:
+                break  # section complete : les articles de reserve ne servent pas
+            if cache is not None and candidat.id in cache["textes"]:
+                memo = cache["textes"][candidat.id]
+                candidat.texte, candidat.auteur = memo["texte"], memo["auteur"]
+                candidat.sources_complementaires = memo["sources_complementaires"]
+            else:
+                _recuperer_texte(candidat, score, numerique and client is not None,
+                                 blocs_par_id[bloc_id].recherche, index_global, journal)
+                if cache is not None:
+                    cache["textes"][candidat.id] = {
+                        "texte": candidat.texte, "auteur": candidat.auteur,
+                        "sources_complementaires": candidat.sources_complementaires}
             if client and len(candidat.texte) < mep.TEXTE_MINIMUM:
                 # Sans IA, le chapô du flux est affiché tel quel : pas de seuil.
                 journal(f"  {candidat.id} écarté des développés : texte trop court ({len(candidat.texte)} car.)")
@@ -252,7 +302,8 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
             except ValueError:
                 journal("  ! brèves complémentaires illisibles")
     if numerique:
-        plan = mep.planifier_numerique(choix_par_bloc, {b: len(v) for b, v in breves_redigees.items()})
+        plan = mep.planifier_numerique(choix_par_bloc, {b: len(v) for b, v in breves_redigees.items()},
+                                       {b.id: plafonds(b) for b in blocs})
     else:
         plan = mep.planifier(
             choix_par_bloc, {b: len(v) for b, v in breves_redigees.items()},
@@ -271,17 +322,49 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
         requetes = [ia.requete_synthese(client, index_global[c.id], c.limite, c.format, numerique,
                                         recherche=numerique and blocs_par_id[c.bloc].recherche)
                     for c in plan.articles]
+        if agent:
+            from .agent import CONSIGNE_VERIFICATION_SOURCES
+            for requete in requetes:
+                if "SOURCE 2 (" in requete.contenu:
+                    requete.contenu = CONSIGNE_VERIFICATION_SOURCES + "\n" + requete.contenu
         reponses = client.lot(requetes, echeance)
+        converties: set[str] = set()
         for choix_ in plan.articles:
             texte = reponses.get(f"syn-{choix_.id}")
             if not texte:
                 continue
             try:
-                data = ia.ajuster_longueur(ia.extraire_json(texte), choix_.limite)
+                data = ia.extraire_json(texte)
+                candidat = index_global[choix_.id]
+                if data.get("insuffisant"):
+                    # Sources complementaires ecartees par l'agent : l'article devient une breve.
+                    if data.get("titre") and data.get("texte"):
+                        breves_redigees.setdefault(choix_.bloc, []).insert(
+                            0, {"id": choix_.id, "titre": data["titre"], "texte": data["texte"]})
+                        converties.add(choix_.id)
+                        candidat.sources_complementaires = []
+                        journal(f"  {choix_.id} : matière insuffisante, passé en brève")
+                    continue
+                ecartees = {int(n) for n in data.get("sources_ecartees") or [] if str(n).isdigit()}
+                if ecartees:
+                    candidat.sources_complementaires = [
+                        s_ for n, s_ in enumerate(candidat.sources_complementaires, start=2) if n not in ecartees]
+                data = ia.ajuster_longueur(data, choix_.limite)
                 if data.get("titre") and data.get("sections"):
                     syntheses[choix_.id] = data
             except ValueError as erreur:
                 journal(f"  ! synthèse {choix_.id} illisible : {erreur}")
+        if converties:
+            plan.articles = [c for c in plan.articles if c.id not in converties]
+    if agent:
+        # Un article non redige n'est pas publie (pas de chapo de secours).
+        for choix_ in [c for c in plan.articles if c.id not in syntheses]:
+            non_rediges[blocs_par_id[choix_.bloc].titre] = non_rediges.get(blocs_par_id[choix_.bloc].titre, 0) + 1
+        plan.articles = [c for c in plan.articles if c.id in syntheses]
+    if numerique:
+        for b in blocs:
+            n = min(len(breves_redigees.get(b.id, [])), plafonds(b)[1])
+            plan.quarts_breves[b.id] = -(-n // 3)
 
     # --------------------------------------------------------------- Edition
     titres_blocs = {b.id: b.titre for b in blocs}
@@ -315,6 +398,8 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
                           "texte": _couper(b.get("texte", ""), 600 if numerique else 320)}
                          for b in breves_redigees.get(bloc_id, [])
                          if b.get("id") in index and b["id"] not in developpes_ids]
+        if numerique:
+            toutes_breves = toutes_breves[:plafonds(blocs_par_id[bloc_id])[1]]
         vues_breves = []
         for k in range(plan.quarts_breves.get(bloc_id, 0)):
             lot_breves = toutes_breves[3 * k: 3 * k + 3]
@@ -345,7 +430,7 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
             except ValueError:
                 journal("  ! quiz illisible")
 
-    secours = not syntheses
+    secours = not syntheses and not agent
     solutions_hier = None
     if precedente:
         sj = precedente.get("solutions", {})
@@ -367,6 +452,8 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
         "quiz": quiz,
         "solutions_hier": solutions_hier,
         "avertissements": avertissements,
+        "indisponibles": indisponibles,
+        "non_rediges": non_rediges,
     }
 
     memoire = {

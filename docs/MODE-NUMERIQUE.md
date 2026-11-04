@@ -83,17 +83,25 @@ Règles :
 - **Au sommaire**, sous les mots du jour : par catégorie, le titre de chaque
   article avec un lien direct, puis les brèves ; « Rien de notable aujourd'hui »
   si une catégorie est vide.
-- Par catégorie : jusqu'à **6 articles développés, dont 4 longs** (≤ 4 500
-  caractères) ; brèves d'environ 450 caractères, jusqu'à 6. Au plus 3 articles et
-  3 brèves d'une même source. Tri strict : aucun article hors sujet, pas de minimum.
+- **Deux formats** (04/11/2026) : article long et brève (~450 caractères). La
+  longueur du long suit la matière de la source : la moitié du texte, 4 500
+  caractères au plus ; une source mince donne un long plus court.
+- **Plafonds par catégorie** (04/11/2026), sans minimum : IA 4 longs + 4 brèves ;
+  France 3 + 3 ; Monde 3 + 3 ; Recherche 2 + 4 (brèves : conclusions seulement) ;
+  Veille réglementaire 2 + 2 ; Curiosités 2 + 4 (`max_longs`, `max_breves` dans
+  `blocs_numerique`). Au plus 3 articles et 3 brèves d'une même source.
+- **Tri** : (1) le sujet relève de la catégorie (France et Monde : toute l'actualité) ;
+  (2) importance, nouveauté, diversité. Long = important ou fondamental ; brève =
+  intéressant à savoir.
 - **Papiers de recherche** : lecture du PDF si la page ne donne qu'un résumé ;
   trame « La question · Les conclusions · La méthode · Ce que ça implique · Les
   limites » (limites seulement si les auteurs en citent), avec la référence
   (auteurs, institution, date, nature du document).
-- **Texte trop court** (article payant, page fermée) : si le sujet est important
-  (score ≥ 8), le programme cherche le même sujet dans les autres sources du jour,
-  puis sur Google Actualités, et rédige à partir de ces textes en citant chaque
-  source ; sinon, l'article devient une brève.
+- **Texte trop court** (article payant, page fermée) : pour tout article retenu en
+  long, le programme cherche le même sujet dans les autres sources du jour, puis sur
+  Google Actualités, et rédige à partir de ces textes en citant chaque source ; avec
+  l'agent, chaque source complémentaire est d'abord vérifiée (même fait). Sans
+  matière suffisante, l'article devient une brève.
 - **Google Actualités** couvre les thèmes de veille sans flux exploitable (NIS 2,
   anti-corruption, sanctions UE, OFAC, contrôle des exportations, LCB-FT,
   CSRD/CSDDD) ; les liens sont résolus vers l'article d'origine, les médias en
@@ -148,3 +156,22 @@ Un seul e-mail, une seule facture par jour.
 La mémoire (mots appris, solutions, articles déjà publiés) est sur la branche
 `journal-etat`. Pour que le PC reprenne là où le cloud s'est arrêté, recopier
 son contenu dans le dossier `data\` du PC avant de réactiver les tâches.
+
+## 7. Fabrication par l'agent Claude (abonnement, en préparation)
+
+Plan : `claude/plan-bascule-abonnement.md` (projet claude.ai). Les appels à l'API
+sont remplacés par une tâche planifiée Claude qui suit la compétence
+`.claude/skills/gazette/SKILL.md` :
+
+1. `python main.py journal-agent avancer <dossier>` : collecte, textes complets,
+   puis dépôt des demandes à l'IA dans `<dossier>/a_faire/` (mêmes consignes que l'API) ;
+   code 3 tant qu'il manque des réponses, code 0 quand l'édition est prête.
+2. Des sous-agents (Haiku pour le tri et les brèves, Sonnet pour les articles)
+   écrivent les réponses dans `<dossier>/faits/` ; `journal-agent verifier` les contrôle.
+3. Le dossier est poussé sur la branche `claude/editions` ; le workflow `publier`
+   de cette branche lance `journal-agent publier <dossier> --envoyer` (mise en page,
+   mémoire sur `journal-etat`, e-mail Resend).
+
+Une réponse manquante ne bloque pas l'édition : la section ou l'article absent est
+signalé en tête de l'e-mail (« Édition incomplète »). En cas d'échec complet, relance
+à la main de l'édition par l'API (§ 4).

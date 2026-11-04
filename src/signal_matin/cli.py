@@ -155,6 +155,17 @@ def build_parser() -> argparse.ArgumentParser:
                          help="version téléphone : sans météo ni jeux ; l'e-mail ne joint pas le PDF")
     journal.add_argument("--heure-limite", metavar="HH:MM",
                          help="remplace journal.heure_limite (bascule du traitement de nuit vers l'appel direct)")
+    agent = sub.add_parser("journal-agent",
+                           help="version numérique fabriquée par un agent Claude (abonnement), par étapes")
+    agent.add_argument("etape", choices=["avancer", "verifier", "publier"],
+                       help="avancer : collecte, textes et demandes à l'agent ; verifier : contrôle des "
+                            "réponses ; publier : mise en page, mémoire et e-mail")
+    agent.add_argument("dossier", help="dossier de l'édition (ex. editions/2026-11-05)")
+    agent.add_argument("--config", default="config.yaml", help="fichier YAML local")
+    agent.add_argument("--essai", action="store_true", help="n'enregistre rien ; e-mail marqué « essai »")
+    agent.add_argument("--final", action="store_true",
+                       help="termine l'édition même s'il manque des réponses (sections signalées)")
+    agent.add_argument("--envoyer", action="store_true", help="publier : envoie l'e-mail")
     diag = sub.add_parser("journal-diagnostic", help="teste les sources, l'extraction des articles et l'API")
     diag.add_argument("--config", default="config.yaml", help="fichier YAML local")
     test_envoi = sub.add_parser("journal-test-envoi", help="teste la connexion SMTP sans rien envoyer")
@@ -190,12 +201,97 @@ def _imprimer_journal(config: dict, pdf_path: Path) -> int:
     return 0
 
 
+def _envoyer_edition(edition: dict, pdf_path: Path, numerique: bool, essai: bool, trace) -> int:
+    from .journal.envoi import EnvoiImpossible, envoyer
+    mobile_path = pdf_path.parents[1] / "mobile" / pdf_path.with_suffix(".html").name
+    try:
+        envoyer(edition, mobile_path.read_text(encoding="utf-8"),
+                [mobile_path] if numerique else [pdf_path, mobile_path], essai=essai, journal=trace)
+    except EnvoiImpossible as erreur:
+        trace(f"! E-mail non envoyé : {erreur}")
+        return 2
+    return 0
+
+
+def _journal_agent(args, config: dict) -> int:
+    """Edition numerique par etapes, les appels IA etant faits par un agent (voir journal/agent.py).
+
+    Codes de sortie de « avancer » : 0 edition prete (resultat.json), 3 demandes en attente
+    dans a_faire/ (l'agent y repond dans faits/, puis relance « avancer »).
+    """
+    import json
+    from .journal import agent as ag
+    from .journal.etat import DOSSIER
+
+    dossier = Path(args.dossier)
+    config.setdefault("journal", {})["numerique"] = True
+    trace = _journal_fichier("agent")
+    if args.etape == "verifier":
+        problemes = ag.verifier(dossier)
+        for probleme in problemes:
+            print(f"! {probleme}")
+        print("Réponses conformes." if not problemes else f"{len(problemes)} problème(s).")
+        return 1 if problemes else 0
+    if args.etape == "avancer":
+        from .journal.edition import produire
+        cache = ag.charger_cache(dossier)
+        if "maintenant" not in cache:
+            cache["maintenant"] = dt.datetime.now().astimezone().isoformat()
+            cache["essai"] = bool(args.essai)
+        client = ag.ClientAgent(dossier, final=args.final, journal=trace)
+        try:
+            resultat = produire(config, dt.datetime.fromisoformat(cache["maintenant"]),
+                                client=client, cache=cache, journal=trace)
+            if client.en_attente:
+                raise ag.EnAttente(client.en_attente)
+        except ag.EnAttente as attente:
+            trace(f"… {attente}")
+            print(f"A_FAIRE {len(attente.ids)} : " + " ".join(f"a_faire/{i}.json" for i in attente.ids))
+            return 3
+        finally:
+            ag.enregistrer_cache(dossier, cache)
+        for avertissement in resultat["edition"]["avertissements"]:
+            trace(f"! {avertissement}")
+        resultat["essai"] = bool(cache.get("essai"))
+        (dossier / "resultat.json").write_text(
+            json.dumps(resultat, ensure_ascii=False, indent=1, default=str), encoding="utf-8")
+        edition = resultat["edition"]
+        trace(f"✓ Édition prête : {sum(len(b['developpes']) for b in edition['blocs'])} articles, "
+              f"{sum(len(b['breves']) for b in edition['blocs'])} brèves"
+              + (f" ; incomplète : {edition['indisponibles']} {edition['non_rediges']}"
+                 if edition.get("indisponibles") or edition.get("non_rediges") else ""))
+        return 0
+    # publier
+    from .journal import ia
+    from .journal.edition import publier
+    from .journal.vocabulaire import ajouter_mots
+    resultat = json.loads((dossier / "resultat.json").read_text(encoding="utf-8"))
+    essai = bool(args.essai or resultat.get("essai"))
+    jour = resultat["edition"]["date"]
+    if not essai and (DOSSIER / "editions" / f"{jour}.json").is_file():
+        trace(f"Édition du {jour} déjà publiée : rien à faire.")
+        return 0
+    mots = dossier / "faits" / "mots.json"
+    if mots.is_file() and not essai:
+        try:
+            ajout = ajouter_mots(ia.extraire_json(mots.read_text(encoding="utf-8")).get("mots", []), DOSSIER)
+            trace(f"  {ajout} mots ajoutés à la base")
+        except ValueError:
+            trace("  ! réponse vocabulaire illisible")
+    pdf_path = publier(resultat, memoriser=not essai, journal=trace)
+    if args.envoyer:
+        return _envoyer_edition(resultat["edition"], pdf_path, True, essai, trace)
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     config = load_config(args.config)
     if args.command == "journal-diagnostic":
         from .journal.diagnostic import diagnostiquer
         return diagnostiquer(config, _journal_fichier("diagnostic"))
+    if args.command == "journal-agent":
+        return _journal_agent(args, config)
     if args.command == "journal-test-envoi":
         from .journal.envoi import tester_connexion
         return tester_connexion()
@@ -213,15 +309,9 @@ def main(argv: list[str] | None = None) -> int:
             trace(f"! {avertissement}")
         pdf_path = publier(resultat, memoriser=not args.essai, journal=trace)
         if args.envoyer:
-            from .journal.envoi import EnvoiImpossible, envoyer
-            mobile_path = pdf_path.parents[1] / "mobile" / pdf_path.with_suffix(".html").name
-            try:
-                envoyer(resultat["edition"], mobile_path.read_text(encoding="utf-8"),
-                        [mobile_path] if args.numerique else [pdf_path, mobile_path],
-                        essai=args.essai, journal=trace)
-            except EnvoiImpossible as erreur:
-                trace(f"! E-mail non envoyé : {erreur}")
-                return 2
+            code = _envoyer_edition(resultat["edition"], pdf_path, args.numerique, args.essai, trace)
+            if code:
+                return code
         if args.imprimer:
             return _imprimer_journal(config, pdf_path)
         return 0

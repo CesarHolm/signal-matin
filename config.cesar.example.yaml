@@ -80,6 +80,8 @@ journal:
   # « google: true » : flux Google Actualités (le lien est résolu vers l'article d'origine).
   blocs_numerique:
     - id: ia
+      max_longs: 4
+      max_breves: 4
       titre: "IA"
       consigne: >-
         Bloc consacré EXCLUSIVEMENT à l'intelligence artificielle : modèles, produits, entreprises,
@@ -96,6 +98,8 @@ journal:
         - {nom: Ars Technica, rubrique: IA, url: "https://arstechnica.com/ai/feed/"}
 
     - id: france
+      max_longs: 3
+      max_breves: 3
       titre: "Actualité France"
       consigne: >-
         Actualité française (politique, société, économie). Surtout des faits : ce qui s'est passé,
@@ -107,19 +111,24 @@ journal:
         - {nom: Public Sénat, rubrique: France, url: "https://www.publicsenat.fr/feed"}
 
     - id: monde
+      max_longs: 3
+      max_breves: 3
       titre: "Actualité Monde"
       consigne: >-
-        Actualité internationale (États-Unis, Chine, international, géopolitique et défense). Surtout
+        Actualité internationale (Europe, États-Unis, Chine, international, géopolitique et défense). Surtout
         des faits, avec un peu d'analyse. Écarte l'actualité purement française.
       sources:
         - {nom: NPR, rubrique: États-Unis, url: "https://feeds.npr.org/1001/rss.xml"}
         - {nom: Politico, rubrique: États-Unis, url: "https://rss.politico.com/politics-news.xml"}
+        - {nom: Politico Europe, rubrique: Europe, url: "https://www.politico.eu/feed/"}
         - {nom: South China Morning Post, rubrique: Chine, url: "https://www.scmp.com/rss/4/feed"}
         - {nom: Al Jazeera, rubrique: Monde, url: "https://www.aljazeera.com/xml/rss/all.xml"}
         - {nom: Le Grand Continent, rubrique: Géopolitique, url: "https://legrandcontinent.eu/fr/feed/"}
         - {nom: Diploweb, rubrique: Géopolitique, url: "https://www.diploweb.com/spip.php?page=backend"}
 
     - id: recherche
+      max_longs: 2
+      max_breves: 4
       titre: "Recherche & travaux d'experts"
       recherche: true
       consigne: >-
@@ -127,7 +136,8 @@ journal:
         analyses de chercheurs fondées sur leurs travaux : économie, finance, social, droit, santé
         publique, climat, astronomie, mathématiques. Écarte les actualités institutionnelles
         (discours, nominations, agendas, newsletters, appels à contributions) et la vulgarisation
-        sans travail de recherche identifié.
+        sans travail de recherche identifié. Brèves : uniquement les conclusions du travail, avec
+        l'institution ou la revue, d'après le résumé fourni.
       sources:
         - {nom: BCE (documents de travail), rubrique: Économie, url: "https://www.ecb.europa.eu/rss/wppub.html"}
         - {nom: BCE (Research Bulletin), rubrique: Économie, url: "https://www.ecb.europa.eu/rss/rbu.html"}
@@ -147,6 +157,8 @@ journal:
         - {nom: Our World in Data, rubrique: Données, url: "https://ourworldindata.org/atom.xml"}
 
     - id: veille
+      max_longs: 2
+      max_breves: 2
       titre: "Veille réglementaire"
       consigne: >-
         Thèmes : RGPD, AI Act, NIS 2, anti-corruption, CSRD et CSDDD (devoir de vigilance), sanctions
@@ -174,6 +186,8 @@ journal:
         - {nom: CSRD et CSDDD, rubrique: CSRD et CSDDD, google: true, max: 6, url: "https://news.google.com/rss/search?q=CSRD+OR+CSDDD+OR+%22devoir+de+vigilance%22+when:2d&hl=fr&gl=FR&ceid=FR:fr"}
 
     - id: curiosites
+      max_longs: 2
+      max_breves: 4
       titre: "Curiosités"
       consigne: >-
         Tout le reste : science grand public, climat, espace, sport, idées. Le football est exclu.

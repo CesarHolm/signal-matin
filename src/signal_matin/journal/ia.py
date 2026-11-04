@@ -332,13 +332,24 @@ class ClientIA:
 # --------------------------------------------------------------------------- Contenus
 
 
-CONSIGNE_TRI_NUMERIQUE = (
-    "Respecte STRICTEMENT la consigne du bloc : n'inclus aucun article hors sujet, ni en développé "
-    "ni en brève, même s'il en reste peu ; dans cette édition il n'y a pas de minimum et des listes "
-    "vides sont acceptables. Varie les sources (pas plus de 3 articles d'une même source). "
-    "Édition numérique, lue sur téléphone, sans contrainte de place : classe jusqu'à 8 articles "
-    "à développer, et rédige des brèves plus complètes (2 à 3 phrases, environ 450 caractères), "
-    "toujours uniquement d'après le titre et le résumé fournis ; plus courtes si le résumé est pauvre.")
+def consigne_tri_numerique(longs: int, breves: int) -> str:
+    """Consigne de tri de la version numerique (regles du 04/11/2026)."""
+    return (
+        "Édition numérique, lue sur téléphone. Règles de sélection, dans cet ordre : "
+        "(1) le sujet doit relever de la consigne du bloc : n'inclus aucun article hors sujet, ni en "
+        "article ni en brève, même s'il en reste peu ; il n'y a pas de minimum et des listes vides "
+        "sont acceptables ; (2) classe ensuite par importance, puis nouveauté, puis diversité. "
+        f"Le bloc publie au plus {longs} article(s) long(s) et {breves} brève(s). "
+        "Article long : sujet important ou fondamental pour le lecteur. Brève : information "
+        "intéressante à savoir, sans plus. "
+        f"Dans « developpes », classe jusqu'à {longs + 2} articles : les {longs} premiers seront "
+        "publiés, les suivants servent de réserve si un texte est inaccessible. Le score sert "
+        "seulement à ordonner. Dans « breves », jusqu'à "
+        f"{breves} brèves de 2 à 3 phrases (environ 450 caractères), uniquement d'après le titre et "
+        "le résumé fournis ; plus courtes si le résumé est pauvre. Varie les sources (pas plus de "
+        "3 articles d'une même source).")
+
+
 CONSIGNE_RECHERCHE = (
     "Travail de recherche : utilise EXACTEMENT ces intertitres, dans cet ordre : "
     "« La question » (pourquoi ce travail, d'après l'introduction) ; « Les conclusions » (principaux "
@@ -352,8 +363,10 @@ CONSIGNE_SOURCES_MULTIPLES = (
     "Le texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien "
     "ajouter ; si elles divergent, dis-le en nommant la source.")
 CONSIGNE_SYNTHESE_NUMERIQUE = (
-    "Édition numérique, lue sur téléphone, sans contrainte de page : format « long » en 4 à 6 "
-    "sections, format « court » en 2 ou 3 sections ; même règle de longueur (90 à 100 % de la limite).")
+    "Édition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière "
+    "disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous "
+    "2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % "
+    "de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.")
 
 
 def requete_tri(client: ClientIA, bloc, deja: list[str], numerique: bool = False) -> Requete:
@@ -363,7 +376,10 @@ def requete_tri(client: ClientIA, bloc, deja: list[str], numerique: bool = False
         "candidats": [c.pour_tri() for c in bloc.candidats],
     }
     if numerique:
-        contenu["consigne_edition"] = CONSIGNE_TRI_NUMERIQUE
+        from .mise_en_page import NUM_BREVES_PAR_BLOC, NUM_LONGS_PAR_BLOC
+        contenu["consigne_edition"] = consigne_tri_numerique(
+            getattr(bloc, "max_longs", None) or NUM_LONGS_PAR_BLOC,
+            getattr(bloc, "max_breves", None) or NUM_BREVES_PAR_BLOC)
     if getattr(bloc, "consigne", ""):
         contenu["consigne_du_bloc"] = bloc.consigne
     if deja:
