@@ -19,7 +19,8 @@ items, _ = rss.collect_rss([{"name": "BCE", "url": "https://www.ecb.europa.eu/rs
 for it in items:
     if "wp3306" in str(it.source.url):
         titre, resume, publie = it.title, it.summary, it.source.published_at
-texte40, auteur = art.texte_integral(URL, resume)
+_, auteur = art.texte_integral(URL, resume)
+texte40 = art.texte_pdf(URL)  # chemin réel de l'édition pour un papier de recherche
 texte20 = art.texte_pdf(URL, plafond=20_000)
 sortie = {"titre_origine": titre, "auteur": auteur, "versions": []}
 for nom, texte in (("actuel_40000", texte40), ("propose_20000", texte20)):
@@ -32,4 +33,5 @@ for nom, texte in (("actuel_40000", texte40), ("propose_20000", texte20)):
                                "consommation": consommation[n0:], "reponse": rep})
 os.makedirs("demo", exist_ok=True)
 json.dump(sortie, open("demo/demo_recherche.json", "w"), ensure_ascii=False, indent=1)
-print(json.dumps([{k: v for k, v in x.items() if k != "reponse"} for x in sortie["versions"]], indent=1))
+import base64, zlib
+print("DEMO-DEBUT" + base64.b64encode(zlib.compress(json.dumps(sortie, ensure_ascii=False).encode())).decode() + "DEMO-FIN")

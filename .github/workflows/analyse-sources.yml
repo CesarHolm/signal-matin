@@ -18,7 +18,3 @@ jobs:
       - run: python scripts/analyse/demo_recherche.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      - run: |
-          git config user.name "signal-matin"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f demo && git commit -qm "Démo recherche [skip ci]" && git push -q origin HEAD:analyse-sources
