@@ -1,0 +1,368 @@
+{
+ "date": "2026-11-05",
+ "nouveaux_mots": [
+  {
+   "mot": "Saugrenu",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Inattendu au point d'en être absurde ou bizarre.",
+   "exemple": "Une idée saugrenue qui finit par convaincre."
+  },
+  {
+   "mot": "Narquois",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Moqueur avec une pointe de malice.",
+   "exemple": "Il lui lança un sourire narquois."
+  },
+  {
+   "mot": "Interopérabilité",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "pro",
+   "definition": "Capacité de systèmes différents à fonctionner ensemble et à échanger des données.",
+   "exemple": "L'interopérabilité des systèmes de paiement reste un chantier européen."
+  },
+  {
+   "mot": "Cacochyme",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "D'une santé faible et chancelante ; décrépit (souvent ironique).",
+   "exemple": "Un vieillard cacochyme, mais l'esprit toujours vif."
+  },
+  {
+   "mot": "Anachorète",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Religieux vivant dans la solitude ; par extension, personne retirée du monde.",
+   "exemple": "Il mène une vie d'anachorète dans sa maison de montagne."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Thébaïde",
+   "definition": "Lieu isolé et paisible propice à la retraite et à la méditation."
+  },
+  {
+   "mot": "Solvabilité",
+   "definition": "Capacité d'une personne ou d'une entreprise à honorer ses dettes."
+  },
+  {
+   "mot": "Ataraxie",
+   "definition": "Tranquillité de l'âme que rien ne trouble, idéal des philosophes antiques."
+  },
+  {
+   "mot": "Obsolescence",
+   "definition": "Fait de devenir périmé, dépassé, en particulier pour un équipement ou une technique."
+  },
+  {
+   "mot": "Ineffable",
+   "definition": "Qui ne peut être exprimé par des mots, tant il est intense ou subtil."
+  }
+ ],
+ "articles": [
+  "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+  "https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models/",
+  "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+  "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+  "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/",
+  "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/",
+  "https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights/",
+  "https://www.lemonde.fr/politique/article/2026/11/05/greve-du-5-novembre-entre-lyceens-etudiants-syndicats-de-salaries-et-gilets-jaunes-le-pari-d-une-convergence-des-mobilisations_6806706_823448.html",
+  "https://www.publicsenat.fr/actualites/education/mouvement-lyceen-manifester-est-legitime-mais-bloquer-un-lycee-est-illegal-et-porte-prejudice-aux-eleves-assure-le-ministre-de-leducation",
+  "https://www.lemonde.fr/politique/article/2026/11/04/presidentielle-2027-emmanuel-macron-preconise-une-coalition-de-glucksmann-a-lisnard_6806470_823448.html",
+  "https://www.lemonde.fr/politique/article/2026/11/04/budget-2026-le-gouvernement-tente-un-ultime-tour-de-vis-pour-eviter-un-derapage-xxl_6806410_823448.html",
+  "https://www.publicsenat.fr/actualites/politique/une-recession-nest-pas-a-exclure-la-rapporteure-generale-du-budget-au-senat-tire-a-boulets-rouges-sur-le-scenario-du-gouvernement",
+  "https://www.publicsenat.fr/actualites/politique/sondage-presidentielle-2027-un-second-tour-le-pen-melenchon-assure-la-droite-et-le-bloc-central-peine-a-remonter-lisnard-confirme-sa-percee",
+  "https://www.npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations",
+  "https://legrandcontinent.eu/fr/2026/11/05/apres-les-midterms-une-fenetre-pour-la-relation-transatlantique/",
+  "https://www.scmp.com/news/china/politics/article/3373345/ex-politburo-member-ma-xingruis-corruption-charges-extend-end-last-century",
+  "https://www.scmp.com/news/china/diplomacy/article/3373299/republicans-face-prospect-civil-war-trumps-air-invincibility-starts-fade",
+  "https://www.scmp.com/news/us/us-elections/article/3373318/five-takeaways-us-midterms-democrats-sweep-congress-and-trump-faces-iran-reckoning",
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005290",
+  "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3307~d3d2e0c5e4.en.pdf",
+  "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0001094",
+  "https://digital-strategy.ec.europa.eu/en/library/independent-study-impact-age-assurance-fundamental-rights-and-costs-businesses",
+  "https://digital-strategy.ec.europa.eu/en/consultations/call-evidence-advertising-repositories",
+  "https://www.cnil.fr/fr/cepd-privacy-for-kids",
+  "https://www.amlintelligence.com/2026/11/latest-firms-should-press-ahead-with-aml-rules-despite-ambiguity-amla-official-says/",
+  "https://www.carbonbrief.org/qa-what-is-the-brazil-led-deforestation-roadmap",
+  "https://www.carbonbrief.org/qa-what-is-in-the-global-roadmap-for-transitioning-away-from-fossil-fuels",
+  "https://www.sciencesetavenir.fr/nature-environnement/new-delhi-asphyxiee-par-une-pollution-de-l-air-jusqu-a-30-fois-superieure-aux-recommandations-de-l-oms_195929?xtor=RSS-15",
+  "https://www.sciencesetavenir.fr/sante/une-ia-detecte-les-personnes-a-risque-de-developper-la-maladie-d-alzheimer_195934?xtor=RSS-16",
+  "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
+  "https://www.sciencesetavenir.fr/espace/voie-lactee/les-naines-blanches-pas-si-blanches-que-cela_195631?xtor=RSS-9"
+ ],
+ "titres": [
+  "IA agentique : la traçabilité des données, clé de la sécurité",
+  "Anthropic étend son filigrane textuel à d'anciens modèles Claude, avec une faille",
+  "Élections américaines : les électeurs freinent les centres de données",
+  "Après les midterms, les centres de données au cœur d'un affrontement politique",
+  "Grève du 5 novembre : syndicats, lycéens, étudiants et « gilets jaunes » convergent",
+  "Blocus lycéens et étudiants : le gouvernement répond au Sénat",
+  "Présidentielle 2027 : Macron prône une coalition de Glucksmann à Lisnard",
+  "Majoritaires, les démocrates préparent une longue série d'enquêtes sur Trump",
+  "Après les midterms, une fenêtre d'opportunité pour la relation transatlantique",
+  "Perte de poids : une signature de 242 métabolites et ses liens avec trois maladies",
+  "Deep-π* : un réseau de neurones pour expliquer l'inflation tendancielle",
+  "Vérification de l'âge en ligne : une étude sur les droits fondamentaux et les coûts",
+  "DSA : la Commission consulte sur les registres publicitaires des grandes plateformes",
+  "Feuille de route sur la déforestation de la COP30 : contenu, absents et obstacles",
+  "Sortie des énergies fossiles : la feuille de route volontaire du Brésil"
+ ],
+ "solutions": {
+  "sudoku": [
+   6,
+   9,
+   1,
+   3,
+   7,
+   2,
+   4,
+   5,
+   8,
+   8,
+   3,
+   5,
+   9,
+   1,
+   4,
+   6,
+   7,
+   2,
+   2,
+   4,
+   7,
+   6,
+   5,
+   8,
+   1,
+   3,
+   9,
+   9,
+   2,
+   6,
+   1,
+   4,
+   3,
+   5,
+   8,
+   7,
+   1,
+   7,
+   8,
+   2,
+   9,
+   5,
+   3,
+   4,
+   6,
+   4,
+   5,
+   3,
+   8,
+   6,
+   7,
+   9,
+   2,
+   1,
+   5,
+   6,
+   4,
+   7,
+   8,
+   9,
+   2,
+   1,
+   3,
+   7,
+   1,
+   2,
+   5,
+   3,
+   6,
+   8,
+   9,
+   4,
+   3,
+   8,
+   9,
+   4,
+   2,
+   1,
+   7,
+   6,
+   5
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     5,
+     2
+    ],
+    [
+     0,
+     2,
+     10,
+     1
+    ],
+    [
+     0,
+     3,
+     4,
+     3
+    ],
+    [
+     0,
+     6,
+     3,
+     4
+    ],
+    [
+     3,
+     6,
+     3,
+     2
+    ],
+    [
+     3,
+     8,
+     3,
+     2
+    ],
+    [
+     4,
+     3,
+     4,
+     3
+    ],
+    [
+     5,
+     0,
+     5,
+     1
+    ],
+    [
+     5,
+     1,
+     3,
+     1
+    ],
+    [
+     6,
+     6,
+     2,
+     2
+    ],
+    [
+     6,
+     8,
+     4,
+     1
+    ],
+    [
+     6,
+     9,
+     4,
+     1
+    ],
+    [
+     8,
+     1,
+     2,
+     1
+    ],
+    [
+     8,
+     3,
+     1,
+     2
+    ],
+    [
+     8,
+     5,
+     1,
+     3
+    ],
+    [
+     9,
+     3,
+     1,
+     4
+    ],
+    [
+     9,
+     7,
+     1,
+     1
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    3,
+    5,
+    4,
+    6,
+    2,
+    1
+   ],
+   [
+    5,
+    1,
+    6,
+    2,
+    4,
+    3
+   ],
+   [
+    4,
+    6,
+    5,
+    1,
+    3,
+    2
+   ],
+   [
+    6,
+    2,
+    1,
+    3,
+    5,
+    4
+   ],
+   [
+    1,
+    3,
+    2,
+    4,
+    6,
+    5
+   ],
+   [
+    2,
+    4,
+    3,
+    5,
+    1,
+    6
+   ]
+  ],
+  "compte": [
+   "1 × 2 = 2",
+   "2 + 2 = 4",
+   "4 + 6 = 10",
+   "10 + 5 = 15",
+   "15 × 9 = 135"
+  ]
+ },
+ "reponses_quiz": []
+}
