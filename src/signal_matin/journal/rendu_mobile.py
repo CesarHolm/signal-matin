@@ -123,6 +123,28 @@ def _mots(edition: dict) -> str:
     return html + f"<div class='encadre'><p class='kicker'>À réviser</p>{corps}</div>"
 
 
+def _sport(edition: dict) -> str:
+    """Rubrique Sport, sous les mots : resultats (une ligne de contexte) puis « A suivre »."""
+    sport = edition.get("sport") or {}
+    if not sport.get("resultats") and not sport.get("a_suivre"):
+        return ""
+
+    def ligne(element: dict, heure: bool = False) -> str:
+        quand = f"{E(element['heure'])} · " if heure and element.get("heure") else ""
+        lien = (f" <a href='{E(element['url'], quote=True)}'>{E(element.get('source') or 'source')}</a>"
+                if element.get("url") else (f" <span class='ex'>{E(element['source'])}</span>"
+                                            if element.get("source") else ""))
+        return f"<li><b>{E(element.get('sport', '').upper())}</b> — {quand}{E(element['texte'])}{lien}</li>"
+
+    corps = ""
+    if sport.get("resultats"):
+        corps += "<ul class='mots'>" + "".join(ligne(r) for r in sport["resultats"]) + "</ul>"
+    if sport.get("a_suivre"):
+        corps += ("<p class='kicker' style='margin-top:8px'>À suivre aujourd'hui</p><ul class='mots'>"
+                  + "".join(ligne(r, heure=True) for r in sport["a_suivre"]) + "</ul>")
+    return f"<div class='encadre'><p class='kicker'>Sport</p>{corps}</div>"
+
+
 def _pied(article: dict) -> str:
     texte = f"Par {article['auteur']}, {article['source']}" if article.get("auteur") else article.get("source", "")
     if article.get("url"):
@@ -298,7 +320,7 @@ def rendre_mobile(edition: dict) -> str:
     sommaire, blocs = _blocs(edition)
     if edition.get("numerique"):
         # Lecture sur telephone : ni meteo, ni jeux, ni solutions.
-        haut, bas, pied = _mots(edition) + _sommaire_detaille(edition), "", "Signal Matin · Le journal anti-scroll"
+        haut, bas, pied = _mots(edition) + _sport(edition) + _sommaire_detaille(edition), "", "Signal Matin · Le journal anti-scroll"
     else:
         haut = _meteo(edition.get("meteo")) + _mots(edition)
         bas = _jeux(edition) + _solutions(edition.get("solutions_hier"))

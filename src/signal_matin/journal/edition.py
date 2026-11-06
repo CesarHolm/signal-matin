@@ -188,6 +188,21 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
             cache["blocs"], cache["erreurs"] = blocs_en_dict(blocs), erreurs
     if cache is not None:
         cache.setdefault("textes", {})
+    # Section Sport (version numerique) : scores, programme et depeches, sans IA.
+    matiere_sport, sport = None, None
+    if numerique:
+        if cache is not None and "sport" in cache:
+            matiere_sport = cache["sport"]
+        else:
+            from . import sport as sp
+            journal("· Sport")
+            try:
+                matiere_sport = sp.collecter(maintenant, journal)
+            except Exception as erreur:  # une section secondaire ne doit pas bloquer l'edition
+                journal(f"  ! sport indisponible : {erreur!r}")
+                matiere_sport = {}
+            if cache is not None:
+                cache["sport"] = matiere_sport
     # Agent (abonnement) : pas de contenu de secours ; une section sans tri est signalee.
     agent = bool(getattr(client, "agent", False))
     indisponibles: list[str] = []
@@ -214,7 +229,16 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
         if besoins_mots:
             connus = [m["mot"] for m in charger_base(racine)]
             requetes.append(ia.requete_mots(client, besoins_mots, connus))
+        if matiere_sport and any(matiere_sport.get(k) for k in ("resultats", "programme", "depeches")):
+            from . import sport as sp
+            requetes.append(sp.requete(client, matiere_sport))
         reponses = client.lot(requetes, echeance)
+        if reponses.get("sport"):
+            from . import sport as sp
+            try:
+                sport = sp.lire_reponse(reponses["sport"])
+            except ValueError:
+                journal("  ! réponse sport illisible")
         for bloc in blocs:
             texte = reponses.get(f"tri-{bloc.id}")
             if not texte:
@@ -444,6 +468,7 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
         "meteo": asdict(meteo) if meteo else None,
         "nouveaux_mots": nouveaux_mots,
         "revisions": [{"mot": m["mot"]} for m in revisions],
+        "sport": sport,
         "reponses_hier": (precedente or {}).get("revisions", []),
         "blocs": vue_blocs,
         "titres_blocs": titres_blocs,
