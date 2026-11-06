@@ -1,0 +1,122 @@
+# Fabrication hybride de l'édition numérique (décision du 06/11/2026).
+#
+# Internet (flux, textes complets, PDF), mise en page et e-mail : ici, sur GitHub, sans IA.
+# Rédaction (tri, brèves, articles) : tâche planifiée Claude (abonnement), compétence `gazette`.
+# Les deux s'échangent les fichiers sur cette branche « claude/editions » :
+#   l'agent pousse editions/<jour>/tour.json (+ ses réponses dans faits/),
+#   ce workflow avance l'édition et repousse a_faire/, cache.json et etat.json ;
+#   au dernier tour il publie (mise en page, mémoire journal-etat, e-mail Resend).
+# Secrets : RESEND_API_KEY, MAIL_DESTINATAIRE, MAIL_EXPEDITEUR.
+name: fabrication
+
+on:
+  push:
+    branches: [claude/editions]
+    paths: ["editions/**/tour.json"]
+  workflow_dispatch:
+    inputs:
+      dossier:
+        description: "Dossier à republier (ex. editions/2026-11-09)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fabrication
+  cancel-in-progress: false
+
+jobs:
+  tour:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      TZ: Europe/Paris
+    steps:
+      - name: Code du journal
+        uses: actions/checkout@v7
+        with:
+          ref: cesar/personnalisation
+
+      - name: Mémoire du journal
+        uses: actions/checkout@v7
+        with:
+          ref: journal-etat
+          path: data
+
+      - name: Éditions
+        uses: actions/checkout@v7
+        with:
+          ref: claude/editions
+          path: livraison
+          fetch-depth: 2
+
+      - name: Dossier de l'édition
+        id: edition
+        run: |
+          if [ -n "${{ inputs.dossier }}" ]; then
+            dossier="${{ inputs.dossier }}"
+          else
+            dossier=$(git -C livraison diff --name-only HEAD~1 HEAD | grep '/tour.json$' | head -1 | xargs -r dirname)
+          fi
+          if [ -z "$dossier" ] || [ ! -d "livraison/$dossier" ]; then
+            echo "::error title=Édition introuvable::aucun tour.json modifié"
+            exit 1
+          fi
+          echo "dossier=livraison/$dossier" >> "$GITHUB_OUTPUT"
+          echo "::notice title=Édition::$dossier"
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installation
+        run: |
+          pip install -e .
+          cp config.cesar.example.yaml config.yaml
+
+      - name: Tour (collecte, textes, demandes ; publication au dernier tour)
+        id: tour
+        continue-on-error: true
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          MAIL_DESTINATAIRE: ${{ secrets.MAIL_DESTINATAIRE }}
+          MAIL_EXPEDITEUR: ${{ secrets.MAIL_EXPEDITEUR }}
+        run: |
+          if [ -n "${{ inputs.dossier }}" ]; then
+            python main.py journal-agent publier "${{ steps.edition.outputs.dossier }}" --envoyer
+          else
+            python main.py journal-agent tour "${{ steps.edition.outputs.dossier }}"
+          fi
+
+      - name: Renvoyer l'état à l'agent
+        if: ${{ !inputs.dossier }}
+        working-directory: livraison
+        run: |
+          git config user.name "signal-matin"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A editions
+          git diff --cached --quiet && exit 0
+          git commit -qm "Tour GitHub : $(basename "${{ steps.edition.outputs.dossier }}")"
+          for i in 1 2 3; do
+            git pull -q --rebase origin claude/editions && git push -q origin HEAD:claude/editions && exit 0
+            sleep 5
+          done
+          exit 1
+
+      - name: Enregistrer la mémoire du journal
+        working-directory: data
+        run: |
+          git config user.name "signal-matin"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Rien à enregistrer (tour intermédiaire ou essai)"; exit 0; fi
+          git commit -m "Édition du $(date +%F) (agent)"
+          git push origin HEAD:journal-etat
+
+      - name: Résultat
+        if: steps.tour.outcome == 'failure'
+        run: |
+          echo "::error title=Tour en échec::voir le journal de l'étape Tour et etat.json"
+          exit 1
