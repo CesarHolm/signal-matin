@@ -131,6 +131,7 @@ Règles :
 - Uniquement les événements importants : finales et phases finales, Grands Chelems et Masters 1000, grands tours et classiques, grands marathons et championnats, matchs de premier plan des grandes compétitions (Ligue des champions, grands championnats européens, Top 14, Six Nations, Grand Prix de F1…), sélections nationales ; plus les sportifs et équipes français engagés dans un grand événement. Tous les sports sont possibles.
 - « resultats » : au plus {MAX_RESULTATS} lignes ; chacune donne le sport, puis le résultat exact et une seule phrase de contexte (enjeu, qualification, record, classement). Chaque score, nom ou temps doit figurer tel quel dans la matière fournie : n'invente rien, ne complète rien de mémoire ; un résultat seulement évoqué dans un titre peut être repris s'il y est explicite.
 - « a_suivre » : au plus {MAX_A_SUIVRE} rendez-vous d'aujourd'hui, avec l'heure si elle est connue (format 14 h 30).
+- Formule 1 (et sports mécaniques) : dans « programme », la date et l'heure sont celles du début du week-end de course (essais), pas de la course. N'écris jamais « Grand Prix » suivi de cette heure ; mentionne la séance du jour (essais, qualifications, sprint, course) seulement si une dépêche la précise, sinon écris « week-end du Grand Prix de … » sans heure.
 - Phrases courtes, style dépêche. Pas de rumeurs, de transferts ni de polémiques. Listes vides acceptées s'il n'y a rien d'important.
 - Pour chaque ligne, reprends « source » et « url » de l'élément utilisé (pour les scores structurés : source « ESPN »)."""
 
