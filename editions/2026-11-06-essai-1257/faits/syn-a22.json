@@ -1,0 +1,29 @@
+{
+ "titre": "Claude lance Personal Finance pour analyser ses dépenses bancaires",
+ "chapo": "Anthropic déploie en bêta aux États-Unis un outil qui relie comptes bancaires et cartes à Claude, en lecture seule, pour répondre aux questions des utilisateurs sur leur argent.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Anthropic a annoncé jeudi un nouvel outil pour Claude, baptisé « Personal Finance », conçu pour aider les utilisateurs à suivre leur argent. Ils peuvent y connecter leurs comptes bancaires et leurs cartes de crédit par l'intermédiaire de Plaid, puis interroger Claude sur leurs finances. L'accès est en lecture seule : l'outil ne peut ni déplacer, ni gérer, ni investir l'argent des utilisateurs. Selon TechCrunch, Anthropic veut ainsi faire de son assistant un compagnon financier qui aide à comprendre ses dépenses, plutôt qu'un simple distributeur de conseils génériques. Claude répond en langage courant, à partir des soldes et des transactions, et explique tout terme nouveau."
+  },
+  {
+   "intertitre": "Ce que l'outil sait faire",
+   "texte": "En fin de mois, on peut demander à Claude « Où est passé mon argent ce mois-ci ? » : il additionne les dépenses des comptes connectés et les range par catégories, comme le loyer et les charges, l'alimentation et les boissons ou les achats. Des questions de suivi sont possibles, par exemple « Est-ce plus que d'habitude ? » ou « Y a-t-il autre chose que j'aurais manqué ? ». Selon Anthropic, l'outil va au-delà des simples bilans : il analyse les transactions pour signaler des problèmes potentiels, comme des prélèvements en double, des frais inattendus ou des factures en hausse régulière. On peut aussi lui demander si l'on dépense plus que l'on ne gagne, ou si l'on peut s'offrir des vacances dans six mois. Il explique des notions comme l'APR (taux annuel) et calcule les intérêts payés sur un an. D'après ZDNET, il produit aussi tableaux et graphiques : un représentant d'Anthropic cite un graphique hebdomadaire des dépenses, un calendrier des échéances ou un tableau de bord, que Claude construit sous forme d'artefact que l'on peut ajuster et retrouver."
+  },
+  {
+   "intertitre": "Données et confidentialité",
+   "texte": "Certains hésiteront à relier leurs comptes à un agent conversationnel, note TechCrunch. Anthropic limite donc ce que Claude voit, pour les seuls comptes que l'utilisateur choisit de connecter : le nom de la banque, le nom et le type de chaque compte, les quatre derniers chiffres du numéro, les soldes, les plafonds de crédit et jusqu'à deux ans de transactions. Les conversations tenues dans l'espace Personal Finance ne servent pas à entraîner les modèles. ZDNET souligne que cette protection est propre à cet espace : ce que l'on partage de ses finances avec Claude en dehors relève des seuls paramètres de confidentialité habituels. L'outil ne comporte ni publicité ni recommandation sponsorisée, et Anthropic n'y propose ni carte de crédit, ni prêt, ni compte d'épargne."
+  },
+  {
+   "intertitre": "Disponibilité et contexte",
+   "texte": "Personal Finance est déployé en bêta cette semaine pour les abonnés Pro, Max et Ultra aux États-Unis. TechCrunch estime que Claude rattrape ChatGPT d'OpenAI, qui a lancé en mai des outils similaires permettant aussi de connecter ses comptes. ZDNET y voit une réponse aux usages existants : le rapport d'usage d'Anthropic d'avril montrait que les conseils financiers figuraient parmi les principaux sujets pour lesquels on sollicite Claude. Il s'inscrit dans l'extension de Claude vers de nouveaux secteurs, après Claude for Legal et Claude for Financial Services."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Anthropic affirme que, l'outil s'appuyant sur des données de transactions réelles et non sur la mémoire, il ne devrait pas halluciner ; il peut lister les transactions exactes derrière chaque chiffre pour vérifier le calcul. L'entreprise reconnaît toutefois qu'il peut se tromper, comme toute IA, et recommande de confirmer auprès de sa banque pour tout sujet important. Elle présente Personal Finance comme un premier pas : pour les grandes décisions d'argent, elle juge préférable que Claude travaille aux côtés de professionnels agréés et d'établissements régulés, et invite banques, gestionnaires de patrimoine et sociétés de services financiers à la contacter. ZDNET y lit l'annonce possible d'un système de planification plus intégré."
+  }
+ ],
+ "synthese": "Anthropic ouvre à ses abonnés américains un outil de suivi financier en lecture seule, qui analyse jusqu'à deux ans de transactions et dont les conversations ne servent pas à l'entraînement. L'entreprise le présente comme un premier pas et recommande de vérifier auprès de sa banque.",
+ "republication": "",
+ "sources_ecartees": []
+}
