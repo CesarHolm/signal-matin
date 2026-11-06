@@ -1,14 +1,23 @@
 {
- "tour": 1,
+ "tour": 2,
  "code": 3,
  "a_faire": [
-  "tri-curiosites",
-  "tri-france",
-  "tri-ia",
-  "tri-monde",
-  "tri-recherche",
-  "tri-veille"
+  "breves",
+  "syn-a10",
+  "syn-a112",
+  "syn-a120",
+  "syn-a123",
+  "syn-a142",
+  "syn-a161",
+  "syn-a193",
+  "syn-a194",
+  "syn-a2",
+  "syn-a41",
+  "syn-a57",
+  "syn-a60",
+  "syn-a8",
+  "syn-a80"
  ],
  "termine": false,
- "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Collecte des flux\n  203 articles candidats, 3 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n… 6 demande(s) en attente : tri-ia, tri-france, tri-monde, tri-recherche, tri-veille, tri-curiosites\nA_FAIRE 6 : a_faire/tri-ia.json a_faire/tri-france.json a_faire/tri-monde.json a_faire/tri-recherche.json a_faire/tri-veille.json a_faire/tri-curiosites.json\n"
+ "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  203 articles candidats, 3 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 29 candidats → 4 à développer, 4 brèves\n  france : 33 candidats → 5 à développer, 3 brèves\n  monde : 55 candidats → 4 à développer, 3 brèves\n  recherche : 21 candidats → 3 à développer, 4 brèves\n  veille : 33 candidats → 4 à développer, 2 brèves\n  curiosites : 32 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a28 écarté des développés : texte trop court (2099 car.)\n  a57 complété par : Midi Libre\n  a41 complété par : BFM, franceinfo\n  a80 complété par : NewsCord\n  a91 écarté des développés : texte trop court (812 car.)\n  a112 complété par : Al Jazeera\n  a94 écarté des développés : texte trop court (600 car.)\n  a123 : papier lu en PDF (40007 car.)\n  a120 : papier lu en PDF (40007 car.)\n  plan : sans pages, 14 articles (14 longs)\n· Lot 2 : synthèses (Sonnet)\n… 15 demande(s) en attente : breves, syn-a10, syn-a2, syn-a8, syn-a57, syn-a60, syn-a41, syn-a80, syn-a112, syn-a123, syn-a120, syn-a142, syn-a161, syn-a193, syn-a194\nA_FAIRE 15 : a_faire/breves.json a_faire/syn-a10.json a_faire/syn-a2.json a_faire/syn-a8.json a_faire/syn-a57.json a_faire/syn-a60.json a_faire/syn-a41.json a_faire/syn-a80.json a_faire/syn-a112.json a_faire/syn-a123.json a_faire/syn-a120.json a_faire/syn-a142.json a_faire/syn-a161.json a_faire/syn-a193.json a_faire/syn-a194.json\n"
 }

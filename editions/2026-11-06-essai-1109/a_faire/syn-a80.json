@@ -1,0 +1,64 @@
+{
+ "id": "syn-a80",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a80.json",
+ "limite_caracteres": 3748,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 3748 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Politico Europe\nRubrique : Europe\nDate du flux : 06/11/2026\nAuteur : Daria Zakharova\nTitre d'origine : Trump teases ‘beautiful’ deal covering ‘all of Europe’ after meeting Putin’s envoy\n\nARTICLE :\nSOURCE 1 (Politico Europe) :\nU.S. President Donald Trump reiterated his promise of a “big, beautiful agreement” on Ukraine after holding a meeting with Russian President Vladimir Putin’s envoy, Kirill Dmitriev, on Thursday.\nDmitriev, who heads the U.S.-sanctioned Russian sovereign wealth fund, was attending a White House event hosted by First Lady Melania Trump where she delivered remarks about the temporary ceasefire in Oleshky that she helped negotiate. Although Russian and Ukrainian officials were present at the event, Trump told reporters Thursday evening he had only met Dmitriev.\n“I can’t tell you what I discussed. But I’m just telling you, it’s going to be a big agreement,” he said. “It’s going to involve more than Ukraine, and I could even say it might involve all of Europe.”\n\nSOURCE 2 (NewsCord) :\nThis article is an automated aggregation of coverage from news outlets. Our editorials offer in-depth analysis curated by the NewsCord team.\nTrump forecasts a very large Russia-Ukraine deal potentially covering all of Europe. Involves more than Ukraine, extending to the whole of Europe.\nWhite House talks\nUS President Donald Trump met Russian President Vladimir Putin’s envoy Kirill Dmitriev at the White House after First Lady Melania Trump hosted officials from Russia and Ukraine, and Trump said he expects a deal that would cover “all of Europe.”\nTrump told reporters, “I can’t tell you what we discussed. But I can tell you that there will be an agreement,” and he added that it would be “a very big one.”\nTrump also confirmed that he did not meet the Ukrainian officials who were present at the White House on Thursday, while Melania Trump urged a permanent ceasefire in Ukraine during a White House press conference attended by representatives of the Russian and Ukrainian sides.\nThe US president’s remarks came as the White House said Melania Trump helped bring Russian and Ukrainian representatives together and facilitated arrangements aimed at reuniting children with their families, including a localised ceasefire arrangement in Oleshky.\nEU diplomats said there is no plan to resume buying Russian gas, and one diplomat said, “We don’t see any rationale at the moment to ease sanctions or restrictions on Russia”.\nMelania’s role\nMelania Trump hosted officials from the two warring countries at the White House, and Trump predicted an imminent deal with Russia covering Ukraine and “all of Europe” after his involvement in the event.\nTrump told reporters, “Yeah, I did. I can't tell you what I discussed, but I'm just telling you, there's going to be an agreement,” and he said it would “involve more than Ukraine” and “might involve all of Europe.”\nMelania Trump’s humanitarian efforts included sending letters to Russian President Vladimir Putin and Ukrainian President Volodymyr Zelenskyy, and the White House said her work contributed to a localised ceasefire arrangement in Oleshky aimed at enabling humanitarian assistance and the evacuation of civilians.\nThe Tribune said the temporary truce reportedly allowed nearly 800 people to be evacuated from the area, while Trump said both countries were suffering significant losses every month and stated, “They're losing between the two of them, they're losing 25,000 people to death, 25,000 people a month.”\nEUobserver reported that EU, US, and Ukrainian officials held a third meeting in Brussels on Wednesday (4 November) and Thursday, following talks in Miami on 9 October and in Oslo on 20 October.\nNext talks and pressure\nDiario Las Américas said Trump’s remarks came ahead of a new round of talks between the United States, Russia and Ukraine planned for November 10 and 11 in Abu Dhabi, with the United States mediating a new round of technical talks between Ukraine and Russia. US special envoy Steve Witkoff said Washington hopes to build on progress made in meetings held in Kyiv, Oslo and Saint Petersburg to reach a “comprehensive and lasting peace agreement” that “guarantees security for future generations.” Reuters said Trump told reporters at the White House on Thursday that the war was very close to being settled and that bringing it to an end might involve all of Europe, while Melania Trump said Ukraine and Russia must “find common ground.”\nEUobserver reported that the talks in Brussels involve national security advisers from France, Germany, the UK (the ‘E3’ group), and the US, as well as senior officials from the European Commission, Nato, and the World Bank. EU diplomats told EUobserver that there is no plan to resume buying Russian gas and that “more pressure and restrictions are needed,” framing the negotiations against continued sanctions and restrictions on Russia.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

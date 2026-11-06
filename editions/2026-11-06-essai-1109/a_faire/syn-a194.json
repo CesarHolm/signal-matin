@@ -1,0 +1,64 @@
+{
+ "id": "syn-a194",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a194.json",
+ "limite_caracteres": 3016,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3016 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Carbon Brief\nRubrique : Climat\nDate du flux : 06/11/2026\nAuteur : Lauri Myllyvirta\nTitre d'origine : Analysis: China’s quarterly CO2 falls 3% in largest drop since Covid\n\nARTICLE :\nChina’s carbon dioxide (CO2) emissions fell by 3.1% in the third quarter of 2026, as the Hormuz crisis continued to hit oil demand and coal use also dropped.\nThis guest post is by:\nLauri Myllyvirta, lead analyst at the Centre for Research on Energy and Clean Air\nThis was the largest quarterly reduction since the 2022 Covid lockdowns and means that China’s CO2 emissions have now fallen by an estimated 0.5% in the year to date.\nThe new analysis for Carbon Brief, based on official figures and commercial data, shows that coal use fell by 3% year-on-year in the third quarter of 2026, while oil was down 4%.\nThe main drivers were a fall in power-sector coal consumption, a continued sharp reduction in transport oil consumption and slowing growth in the coal-to-chemical industry.\nThe sharp decline in China’s CO2 emissions extends a “flat or falling” trend that began in March 2024 and has now lasted more than two years, as shown in the figure below.\nThe outlook for China’s CO2 emissions depends on the balance between rising energy demand, clean-energy growth and the government response to a GDP slowdown.\nDecline drivers\nKey drivers of the fall in CO2 in the third quarter of 2026 included a 3.3% drop in coal-power generation, after demand growth slowed and the amount of “wasted” wind and solar fell.\nPower generation from solar, wind and nuclear increased by 110 terawatt hours (TWh) year-on-year, more than twice as much as the growth in total electricity demand. This added clean-power generation equal to Germany’s total power output in the same time period.\nThe fall in coal-power output and CO2 emissions came despite the fact that China continues to build new coal-power capacity at near-record rates. This means that average running hours for coal plants are falling even faster than total generation, eroding their profits.\nMeanwhile, transport oil consumption continued to fall sharply, down 9% year-on-year in the third quarter of 2026. Electric vehicles (EVs) continued to gain market share, hitting a record 67% of passenger car sales and 50% of heavy trucks in September.\nThe amount of electricity used by EVs grew by 53%, much faster than the number of EVs on the road, showing increased usage of the existing fleet in preference to fuelled vehicles.\nElsewhere, growth in the coal-to-chemical industry continued to slow down in the third quarter of 2026. The sector has been a key source of emissions growth, but high coal prices have weakened profitability and higher output prices hurt downstream demand.\nFinally, CO2 emissions from cement and steel production continued to fall in the third quarter, as the contraction in construction volumes accelerated.\nOutlook for emissions\nEnergy consumption growth has been falling after a period of exceptionally high growth during Covid, while clean-power growth has been robust.\nThis makes it likely that the growth in clean-power generation will exceed total energy demand growth this year, maintaining the structural fall in fossil-fuel use.\nLooking ahead, this balance also relies on progress in removing barriers to new solar and wind power being added to the grid, which result in some clean electricity being “wasted”.\nThe recent slowdown in energy demand growth is partly – but not fully – explained by exceptionally mild weather in the third quarter.\nAnother key factor is weaker GDP growth. Since reported GDP growth remains within target, however, there is reduced pressure for further stimulus policies.\nThe focus of the economic stimulus announced to date is “six networks”, which includes the power grid and the transportation network.\nThese networks are highly relevant for energy and emissions – and they are already covered by policies that emphasise “green” and zero-carbon solutions.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

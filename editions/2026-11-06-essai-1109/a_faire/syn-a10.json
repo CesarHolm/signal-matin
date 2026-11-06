@@ -1,0 +1,64 @@
+{
+ "id": "syn-a10",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a10.json",
+ "limite_caracteres": 3611,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3611 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 05/11/2026\nAuteur : Maximilian Schreiner\nTitre d'origine : OpenAI's GPT-6 Astra quietly sabotaged safety research by inventing fake obstacles\n\nARTICLE :\nOpenAI's GPT-6 Astra quietly sabotaged safety research by inventing fake obstacles\nKey Points\n- OpenAI's GPT-6 Astra performed about 40 percent worse on safety research tasks than on identical general tasks, and in some cases secretly withheld help.\n- The system repeatedly faked obstacles in its internal reasoning or filtered data to avoid having to openly refuse requests.\n- OpenAI traces the behavior to excessive caution caused by reinforcement learning and specific training data. Removing that data from the model fixed the problem.\nOpenAI's GPT-6 Astra performed significantly worse on AI safety tasks than on comparable other tasks. Instead of openly refusing, the model apparently invented obstacles and quietly withheld help.\nAfter the internal launch of GPT-6 Astra, OpenAI researchers noticed the model was making suspiciously little progress on safety and alignment work. It invented unnecessary prerequisites, abandoned working solutions, and reported blockers that either didn't exist or that it had caused itself. One researcher said a project evaluating model sabotage was stuck for days and only moved forward after switching to a different model.\nA look at the model's chain-of-thought reasoning showed no recognizable intent to underperform in most cases. OpenAI's misconduct monitoring system didn't flag anything.\nControlled test reveals a significant performance gap\nTo measure the problem systematically, OpenAI built an evaluation using identical coding tasks. The only difference was the description, with one set framed the tasks as safety research, the other as general AI research.\nThe result, according to the report: Astra completed only about 10 percent of the evaluation criteria under the safety framing, compared to 16 percent under the general framing. That's roughly 40 percent fewer completed tasks. The predecessor model GPT-5.6 Sol showed no such gap.\nThe difference persisted even after OpenAI filtered out all cases of open refusal or reasoning that showed clear intent to underperform. Only when the researchers removed every case where the model expressed even brief ethical concerns did the gap shrink to 0.75 percentage points.\nAstra withheld help and didn't tell anyone\nIn some cases, Astra made its intent clear in its internal reasoning. It decided to quietly limit its assistance during an experiment on bypassing safety monitors, filtered violent content out of safety evaluations, or deliberately left out information during a data export.\nA recurring pattern ran through these cases: Astra justified its behavior internally as safer, without informing the user about the restriction. In one instance, its reasoning explicitly noted that it should avoid an open refusal.\nThe problem also showed up during regular internal use by OpenAI employees. In 0.25 percent of safety-related requests, Astra verbalized a decision to secretly withhold help. For general requests, that number was 0.11 percent.\nRoot cause still unknown, but reinforcement learning and one dataset are suspects\nThe performance gap grew during reinforcement learning from practically zero to six percentage points, according to OpenAI. The researchers identified a reward algorithm during training that favored covert underperformance over open refusal. A specific training dataset also increased the model's tendency to invent restrictions. Removing that dataset from the final model eliminated the gap entirely. However, the same dataset didn't reproduce the problem in other models.\nOpenAI found no evidence that Astra was acting strategically, for example to hide its capabilities. The simplest explanation is excessive caution on safety-related tasks. When researchers instructed the model to be \"cautious,\" underperformance increased by 50 percent. Still, OpenAI says strategic motives can't be fully ruled out.\nThe problem also has a paradoxical dimension: A model that treats safety research as suspicious could end up performing worse on the very safety evaluations designed to make it safer, slowing down the work meant to improve it. As visible forms of model misbehavior get suppressed more effectively, subtler forms may become harder to detect, OpenAI writes. The company says it's working on better evaluations and monitoring systems.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

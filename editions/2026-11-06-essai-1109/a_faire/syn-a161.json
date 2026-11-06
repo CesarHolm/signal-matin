@@ -1,0 +1,64 @@
+{
+ "id": "syn-a161",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a161.json",
+ "limite_caracteres": 2500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 2500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Kharon\nRubrique : Sanctions et export\nDate du flux : 06/11/2026\nAuteur : Kharon\nTitre d'origine : BIS Extends Suspension of its 50% ‘Affiliates’ Rule Amid Ongoing China Talks\n\nARTICLE :\nThe U.S. Bureau of Industry and Security (BIS) filed plans Thursday to extend the one-year suspension of its Affiliates Rule, also known as its 50% rule, through Jan. 10.\nThe Trump administration’s pause on the rule, which would significantly expand the scope of American export controls by covering majority-owned subsidiaries of parties named on the BIS Entity List and certain other blacklists, had been set to end Monday.\nThe White House had initially moved to delay the Affiliates Rule last November, as part of a trade deal with China that included Beijing shelving export controls on rare earth minerals. The notice of the two-month extension, set to publish in the Federal Register  on Monday, did not provide an explanation, though Treasury Secretary Scott Bessent had signaled the action was coming in September, citing ongoing efforts to secure a broader bilateral deal with China. \nBIS’s press office did not immediately respond to a request for comment. \nThe Affiliates Rule, when it arrived last fall, stood to close an export-control loophole that had long been discussed inside the Commerce Department and long anticipated outside it. Government and military officials have increasingly expressed concern about the diversion of advanced tech and other dual-use goods, particularly to China, through non-blacklisted subsidiaries.\n“For too long, loopholes have enabled exports that undermine American national security and foreign policy interests,” Jeffrey Kessler, undersecretary of commerce for industry and security, said in a statement after the rule’s September 2025 rollout. “Under this Administration, BIS is closing the loopholes and ensuring that export controls work as intended.”\nBesides the Entity List, the rule would also apply to subsidiaries owned 50% or more, whether directly or indirectly, by parties on the Military End-User List or by certain parties on U.S. sanctions lists.\nA Kharon analysis last year found that thousands of subsidiaries — in nearly 100 jurisdictions across six continents — would fall under export-control regulations if such an ownership rule were enacted.\nBut the Affiliates Rule became a flashpoint with Beijing even before its restrictions took effect, and it quickly became a bargaining chip in trade negotiations between President Trump and Chinese leader Xi Jinping. Rare earths, as critical components in everything from high-tech defense systems to consumer electronics, represent a strategic vulnerability and chokepoint for much of the West because of China’s dominance over the global market. \nExperts told The Brief after the rule’s post-summit suspension that the volatility of the U.S.-China dynamic made it difficult to predict what could come next. \nA White House fact sheet at the time, however, had hinted at additional delays, stating that the Affiliates Rule would go into effect Nov. 9, 2026, “absent a future extension.”\nRead more from The Brief:\nSee the affiliates the lists miss.\nKharon’s industry-leading BIS Affiliates Rule solution surfaces covered entities that don’t appear on published lists, backed by ownership and network intelligence.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

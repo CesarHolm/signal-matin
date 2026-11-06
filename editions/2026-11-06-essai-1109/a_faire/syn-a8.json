@@ -1,0 +1,64 @@
+{
+ "id": "syn-a8",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a8.json",
+ "limite_caracteres": 3399,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3399 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 05/11/2026\nAuteur : Maximilian Schreiner\nTitre d'origine : After midterm rout, OpenAI tries to win over communities it needs for AI expansion\n\nARTICLE :\nAfter midterm rout, OpenAI tries to win over communities it needs for AI expansion\nKey Points\n- OpenAI is responding to protests against AI infrastructure expansion with voluntary rules for its own data centers, including covering grid costs and more transparency on resource usage.\n- The move comes after the US midterm elections, where voters rejected new data centers in 40 out of 41 ballot measures and projects in states like Texas face tough new hurdles.\n- Potential delays are weighing on specialized operators and Elon Musk's infrastructure plans, while tech giants like Microsoft and Alphabet rallied on the stock market.\nAfter US voters overwhelmingly rejected new data centers, OpenAI is launching a charm offensive with new voluntary commitments. They have gaps, though.\nOpenAI is responding with a PR push, as expected, to growing resistance against AI infrastructure expansion. In a National Community Compact and a Policy Blueprint, OpenAI lays out voluntary commitments for future sites and calls on lawmakers to make these rules binding for the entire industry.\nThe exact scope of those voluntary pledges remains unclear. According to OpenAI, they apply to future sites the company owns and operates itself. But a large share of OpenAI's data center infrastructure is built and held by partners like Oracle.\nAt its own sites, OpenAI says it will stop requiring nondisclosure agreements during negotiations with local authorities. Trade secrets, security concerns, and competitively sensitive information are still exempt, though. The company also promises to cover the full cost of electricity and grid upgrades, throttle consumption during peak hours, and disclose construction plans, noise studies, and water usage data.\nTo win over skeptical residents, OpenAI's policy chief Chris Lehane is pitching economic benefits. The facilities won't be a black box, Lehane told Reuters, since regular hardware upgrades would create permanent jobs. He's promising 2,500 positions for Ohio. OpenAI also points to local payments like $4.8 million for school lunches in Georgia. Compared to the planned project costs of over $30 billion in that state, those are barely more than symbolic gestures.\nUS voters pump the brakes on the data center boom\nThe announcement came just two days after the US midterm elections, which doubled as a rebuke of the tech industry. In 40 out of 41 local ballot measures, voters rejected new data centers. Democrats also won not just Congress but governor's seats in key infrastructure states like Texas, Georgia, and Ohio.\nTexas' new governor Gina Hinojosa has already called for an immediate moratorium on new facilities. According to the research group Data Center Watch, 45 projects worth $88 billion were already stalled by local opposition in Q2 2026. Lehane acknowledged that OpenAI projects could face delays too.\nOn Wall Street, the election results split AI stocks. Specialized data center operators like Hut 8 (-23 percent), IREN (-11 percent), and Core Scientific (-10 percent) tanked on fears of tighter permitting. Meanwhile, cash-rich tech giants like Microsoft (+6.7 percent), Amazon (+6.1 percent), and Alphabet (+3.2 percent) rallied. Investors expect a slower buildout to curb the companies' exploding infrastructure spending and give them an edge over smaller rivals, partly because they already operate large data centers.\nElon Musk's $446 million election bet doesn't pay off\nOne of the election's biggest losers is Elon Musk. As Politico reports, the tech billionaire poured a record $446 million into Republican candidates, with over $200 million going to Texas alone. Nearly all the politicians he backed lost their races.\nThat puts Musk's own data center expansion plans in his adopted home state of Texas on uncertain ground. SpaceX shares fell 3.9 percent and Tesla dropped 3.3 percent. On X, Musk responded to the defeat by pointing to his orbital infrastructure plans. \"Data centers in space looking pretty appealing right now,\" he wrote.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

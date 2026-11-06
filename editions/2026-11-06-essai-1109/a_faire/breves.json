@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a28\", \"source\": \"Ars Technica\", \"titre\": \"Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.\", \"resume\": \"Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says.\"}, {\"id\": \"a91\", \"source\": \"South China Morning Post\", \"titre\": \"The new anti-corruption law arming Beijing with wide global enforcement powers\", \"resume\": \"China’s top legislature has passed a landmark law targeting cross-border corruption, equipping Beijing with expansive new tools to pursue illicit offshore assets while countering foreign attempts to investigate wrongdoing in China. The Anti-Cross-Border Corruption Law was approved at the close of the 25th session of the 14th National People’s Congress Standing Committee on Friday and took effect immediately, according to state news agency Xinhua. The statute establishes formal mechanisms for...\"}, {\"id\": \"a94\", \"source\": \"South China Morning Post\", \"titre\": \"EU-China truce under strain as both sides brace for potential trade war\", \"resume\": \"Weeks after the European Union and China struck a deal aimed at averting a looming trade war, the two sides remain at loggerheads over what is wrong with their relationship, how to fix it and who is to blame. At events in Brussels this week, threats were exchanged and differences rose to the surface. With the ink barely dry on their fragile trade peace, it was clear that both were still preparing for a trade war. “If the EU insists on adopting restrictive and discriminatory measures against...\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

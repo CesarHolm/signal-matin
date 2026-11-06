@@ -1,0 +1,64 @@
+{
+ "id": "syn-a57",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a57.json",
+ "limite_caracteres": 3321,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 3321 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Public Sénat\nRubrique : France\nDate du flux : 05/11/2026\nAuteur : Rédaction Public Sénat\nTitre d'origine : Manifestation du 5 novembre : Sébastien Lecornu annonce « une conférence sociale » avec les syndicats et le patronat, lundi\n\nARTICLE :\nSOURCE 1 (Public Sénat) :\nEmmanuel Macron, à seulement 13 % de cote de confiance, bat le record d'impopularité de son prédécesseur socialiste à l'Élysée François Hollande, selon la dernière édition du baromètre d’Elabe pour les Echos, publiée jeudi.\nManifestation du 5 novembre : Sébastien Lecornu annonce « une conférence sociale » avec les syndicats et le patronat, lundi\nDes grèves et 600 000 personnes (près de 1,6 million selon la CGT), dans les rues ce jeudi, pour une nouvelle journée de mobilisation en faveur des salaires et du pouvoir d’achat à l’appel des syndicats a conduit à une première réponse de la part de l’exécutif.\nLe Premier ministre, Sébastien Lecornu réunira une « conférence sociale » avec les organisations syndicales et patronales, lundi à Matignon, ont annoncé ses services, en fin d’après-midi.\nCette conférence vise à « apporter des réponses aux questions de pouvoir d’achat et de salaires », tandis que Sébastien Lecornu a demandé au ministre du Travail, Jean-Pierre Farandou « de finaliser d’ici dimanche les concertations qu’il mène depuis plusieurs jours » sur ces sujets, ajoute Matignon dans un communiqué. Le ministre de l’Action et des Comptes publics David Amiel « poursuit » quant à lui « ses échanges avec les représentants des agents de la fonction publique ».\nLes responsables de la CFDT et de la CGT ont à nouveau réclamé jeudi une hausse substantielle du Smic et, au-delà, des augmentations des salaires dans leur ensemble. Le premier syndicat français, la CFDT, demande une hausse du Smic de 100 euros net, la CGT une augmentation de 10%, ainsi que l’indexation de tous les salaires sur les prix.\nJean-Pierre Farandou, qui a reçu ces derniers jours les organisations syndicales et patronales, a indiqué mardi avoir jeté avec elles « les bases d’un logiciel » comprenant un travail sur le Smic. Le sujet d’une hausse du Smic n’est « pas tabou » mais le gouvernement doit être attentif aux conséquences d’une éventuelle hausse sur « l’emploi », a-t-il prévenu.\n(Avec l’AFP)\n\nSOURCE 2 (Midi Libre) :\nMobilisation du 5 novembre : l’ampleur du mouvement l’oblige… Sébastien Lecornu prévoit une \"conférence sociale\" avec les syndicats et le patronat lundi\nEntre 575 000 et 1,6 million de manifestants ont défilé jeudi 5 novembre pour réclamer une hausse du pouvoir d’achat. Face à cette mobilisation, le Premier ministre Sébastien Lecornu a convoqué une conférence sociale avec syndicats et patronat le lundi 9 novembre.\nEntre 575 000 et 1,6 million de manifestants ont défilé ce jeudi 5 novembre pour réclamer une hausse du pouvoir d’achat. Cette mobilisation massive a poussé le Premier ministre, Sébastien Lecornu, à organiser une conférence sociale avec les syndicats et le patronat ce lundi 9 novembre, rapporte Ici.\nLe gouvernement ouvert à un coup de pouce\nLe ministre du Travail s’est entretenu avec les dirigeants des principales organisations patronales : Patrick Martin (Medef), Amir Reza-Tofighi (Les Entrepreneurs, ex-CPME) et Michel Picon (U2P). Le gouvernement ne ferme pas la porte à un coup de pouce économique. Invité sur TF1 ce vendredi 6 novembre, Jean-Pierre Farandou a notamment évoqué la possibilité de faire passer le Smic au-dessus de la barre des 1 500 euros net, alors qu’il s’élève actuellement à 1 477,93 euros.\nLes syndicats attendent des réponses\nSophie Binet (CGT) et Marylise Léon (CFDT) attendent toutes deux des réponses concrètes. La secrétaire générale de la CFDT plaide pour une hausse de 100 euros par mois. La grogne sociale qui s’installe depuis l’automne exige des réponses urgentes, comme le souligne Cyril Chabanier, président de la CFTC, interrogé jeudi soir sur franceinfo : \"Est-ce que oui ou non il y aura le dégel de l’indice du point des fonctionnaires ? Est-ce qu’il y aura peut-être aussi une prime facilitée qui sera mise en place avec le fait qu’elle soit défiscalisée et désocialisée ?\".\nDans un communiqué publié ce jeudi 5 novembre, les organisations syndicales dénoncent aussi \"les entraves inacceptables à l’exercice du droit de manifester\". Une nouvelle journée de mobilisation, l’Acte IV du mouvement lancé le 17 octobre, est prévue samedi 7 novembre.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

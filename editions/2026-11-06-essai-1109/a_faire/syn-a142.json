@@ -1,0 +1,64 @@
+{
+ "id": "syn-a142",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a142.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : CNIL\nRubrique : RGPD\nDate du flux : 05/11/2026\nTitre d'origine : Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs\n\nARTICLE :\nOutils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs\n05 novembre 2026\nLa CNIL publie une recommandation relative aux outils de rejeu de session permettant le suivi et l'analyse du comportement en ligne des utilisateurs. L’objectif est d’aider les acteurs qui conçoivent ces outils et ceux qui les utilisent dans leur mise en conformité.\nLes enjeux\nLes outils de rejeu de session fonctionnent avec des traceurs et servent à enregistrer visuellement ou à reconstituer le parcours complet de navigation d’un internaute sur un site web ou une . Ils peuvent notamment être utilisés pour détecter et corriger des dysfonctionnements, ou encore optimiser la structure ou l’ergonomie d’un service numérique.\nConcrètement, ces outils offrent à l’éditeur d’un site ou d’une application mobile la possibilité d’enregistrer l’ensemble des interactions des utilisateurs : mouvements de souris, interactions tactiles, clics, défilement des pages et, dans certains cas, saisies dans les formulaires. Ces éléments sont ensuite utilisés pour analyser le parcours de l’internaute sous forme de vidéos.\nSi ces solutions offrent de nouvelles possibilités de suivi et d’analyse des comportements des internautes, elles présentent également des risques élevés d’atteinte à la vie privée de ces derniers. Elles peuvent notamment conduire à collecter des données personnelles qui ne sont pas nécessaires à l’analyse recherchée.\nUne recommandation pour encadrer l’utilisation des outils de rejeu de session\nÀ qui s’adresse-t-elle ?\nLa recommandation de la CNIL s’adresse à deux catégories d’acteurs :\n- les fournisseurs d’outils de rejeu de session, qui conçoivent les solutions techniques et définissent les paramétrages et fonctionnalités ;\n- les éditeurs de sites web ou d’applications mobiles, qui déploient ces outils pour analyser les parcours de leurs utilisateurs.\nQuels sont ses objectifs ?\nLa recommandation apporte des réponses concrètes aux enjeux juridiques et techniques liés à l’utilisation des outils de rejeu de session. Elle vise à aider les fournisseurs et les éditeurs à respecter le principe de des données et à déterminer les conditions dans lesquelles ces solutions peuvent déployées.\nElle explicite notamment les obligations relatives à l’information des personnes et la manière de recueillir leur consentement. Elle propose également des recommandations techniques et organisationnelles qui doivent permettre aux fournisseurs qui proposent ces outils et aux éditeurs qui les exploitent de s’assurer du respect de la règlementation applicable.\nLes principaux apports de la recommandation\nClarifier le rôle des acteurs et le cadre juridique applicable\nLa recommandation aide les acteurs à déterminer leur qualification en fonction de leur rôle et en lien avec le cadre légal applicable. Elle précise que les outils de rejeu de session fonctionnent avec des traceurs et qu’ils doivent respecter les dispositions de l’article 82 de la loi Informatique et Libertés.\nLa recommandation rappelle que ces outils sont soumis au consentement préalable des personnes, puisqu’aucune exemption prévue par cet article n’est applicable. Le recueil du consentement doit donc respecter les règles déjà exposées par la CNIL en matière de traceurs (cookies).\nPréciser les finalités pour lesquelles les outils peuvent être déployés\nLa recommandation rappelle que les outils de rejeu de session doivent être utilisés pour des finalités déterminées, explicites et légitimes. Ces finalités doivent être déterminées en amont du déploiement des outils, et non après la collecte des données.\nProposer des recommandations concrètes aux acteurs\nLa recommandation propose aux acteurs une série de mesures techniques et opérationnelles, adaptables aux finalités poursuivies, afin de s’assurer de la conformité de ces outils aux principes clés du RGPD.\nElle souligne l’importance de mettre en place un outil de masquage permettant d’occulter les données non pertinentes, de limiter le nombre de sessions collectées en fonction des finalités poursuivies et de limiter le recours aux identifiants.\nUne recommandation enrichie par la consultation publique\nCette recommandation a fait l’objet d’échanges avec des professionnels et des associations représentatives de la société civile. Elle a également été soumise à consultation publique entre février et mai 2026. Les contributions reçues ont permis de mieux comprendre les usages et les enjeux de ces outils.\nLa CNIL a apporté plusieurs clarifications dans cette version finale :\n- La recommandation apporte aux acteurs des précisions sur le contenu de l’information à fournir en distinguant les informations de premier et deuxième niveau des interfaces de recueil du consentement. La recommandation propose des formulations pour parvenir à cet objectif.\n- La version définitive du document prévoit désormais une recommandation relative à l’information spécifique sur l’utilisation de ces outils, à fournir dès le premier niveau des interfaces utilisées afin de s’assurer du recueil d’un consentement éclairé.\n- Enfin, elle ajoute une précision dans les mesures techniques proposées en recommandant le masquage des mouvements de souris dans certaines zones afin d’éviter la collecte incidente de codes d’authentification.\n- La recommandation couvre les risques associés à l’usage d’outils de rejeu utilisés dans des chatbots (agents conversationnels). Elle précise que ces outils devraient permettre de masquer le contenu des discussions (questions et réponses), celles-ci pouvant révéler des données potentiellement sensibles.\nLes prochaines étapes\nLa CNIL accompagnera les acteurs professionnels, notamment à travers un webinaire. L’objectif est que les professionnels s’approprient au mieux les règles et les recommandations présentées dans la recommandation et qu’ils puissent mettre en œuvre les mesures proposées pour assurer leur conformité.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
