@@ -1,0 +1,64 @@
+{
+ "id": "syn-a67",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a67.json",
+ "limite_caracteres": 3493,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3493 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Al Jazeera\nRubrique : Monde\nDate du flux : 06/11/2026\nAuteur : Nils Adler\nTitre d'origine : Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?\n\nARTICLE :\nIran has exempted ships from India, China, Iraq and Qatar from its Strait of Hormuz restrictions, a senior Iranian lawmaker said on Tuesday.\n“Ships from these countries pass freely, and the Americans do not intercept them either,” Amir Hayat Moqaddam, deputy chairman of the Iranian parliament’s National Security and Foreign Policy Committee, told the Iranian Students’ News Agency (ISNA).\nIran effectively shut the strait early in the US-Israel war on Iran, which began on February 28, and the United States reimposed a naval blockade on Iran’s southern ports in July.\nSo why have these four countries been granted passage through the critical strait, and can their ships really sail freely while the blockade remains in place?\nWhat does Iran get in return for letting ships pass?\nIt will receive medicine from India and political backing from China, according to Hayat Moqaddam. Iran already receives diplomatic support from Qatar, which is leading mediation efforts to end the US-Israel war on Iran.\nHayat Moqaddam said Tehran will also collect transit fees from Indian and Chinese ships, while Qatari vessels pass free. He did not say whether Iraqi ships will pay a toll.\n“Whatever the lawmaker says is the rationale – the big question is if it works and, if yes, to what extent?” Rouzbeh Parsi, an Iran analyst and affiliated researcher at Lund University’s Department of History and Human Rights Studies, told Al Jazeera.\n“Iran has been under sanctions for a very long time, so bartering and quid pro quos in trade are nothing new,” he said. The difference now, he added, is that “it’s about poking holes in an embargo and getting crucial goods/services in and out”.\nNader Hashemi, an associate professor of Middle East politics at Georgetown University, said that “most likely Iran is charging a transit fee or a percentage of the cargo value to allow those ships to go through without being harassed”.\n“It’s a clever move by Tehran for several reasons,” Wolfgang Pusztai, a security and defence analyst and Austria’s former defence attache to Libya, told Al Jazeera.\n“If successful, this move will generate significant revenue for Iran, as China is by far the largest purchaser of Iranian crude oil, buying nearly 90 percent of Iran’s total oil exports,” he said.\nBy including Qatar, with its many liquefied natural gas (LNG) buyers, and India, Iran is also “trying to undermine acceptance” of Washington’s strategy in the conflict, especially as it charges Qatar no tolls, he added.\nWhy does it matter to these four countries?\nAll four are highly dependent on the Strait of Hormuz for exports.\nOf the 10.23 million barrels a day of Gulf crude that passed through the strait in October, about 42 percent went to China and 13 percent to India, Muyu Xu, a senior crude oil analyst at the analytics firm Kpler, told Al Jazeera.\n“China is the country most able to cross US interests. The question is whether Beijing considers it worth the potential political cost,” Parsi said.\nAsia is particularly reliant on Gulf oil and gas usually shipped out via Hormuz. Countries there have much to offer in return for allowing ships to pass.\n“For India, the shutdown of oil from the Gulf has been a great loss – and it is a big producer of the pharmaceuticals that Iran cannot manufacture itself,” he said.\nQatar, which is mediating between Washington and Tehran, shipped no LNG through the strait in August, but managed 1.8 million tonnes in October, Xu said.\nIts crude transits fell over the same period, from 517,000 barrels a day to 193,000, while Iraq’s rose from 1.69 million to 2.65 million.\nKpler has been unable to trace the origin of up to two million barrels a day of Middle Eastern crude, so both countries’ flows may be higher, Xu said.\n“India and Qatar have closer relationships with DC they need to maintain – while both of them also feel let down by Trump,” Parsi said, adding, “For Qatar, maintaining a relationship with Iran is also vital since it’s an unavoidable neighbour.”\n“So for all of them, there are upsides for these exemptions from Iranian restrictions but also political dangers,” he said.\nIs this announcement new?\nNot entirely.\nIran began letting some vessels from countries it considers friendly pass within weeks of the war starting. And in April, its military command said “brotherly” Iraq was exempt.\nWith the Iraqi exemption, Iran “probably intends to support the economic recovery” of its western neighbour, a fellow Shia-majority country, Pusztai said.\nWill ships be able to get past the US blockade?\nThat depends on Washington.\nUS Central Command (CENTCOM) has said the blockade applies to “all vessels of all nations entering or leaving coastal areas or ports in Iran”, while vessels avoiding Iranian ports are not affected.\nIt has also said humanitarian shipments, including “food and medical supplies essential for the survival of the civilian populations”, can pass after inspection.\nBut Hayat Moqaddam did not appear to limit the exemptions to ships trading with other Gulf states, Pusztai noted. “If this is really the case, this would also have a significant impact on the other Gulf states, including Saudi Arabia,” he said.\n“This could make the continuation of the American naval blockade more difficult and less effective, assuming Washington accepts this Iranian move,” he said. The main change, he added, is that the exemption “would also cover Chinese/Indian ships from/to Iran”, if the US accepts it.\nIt is also unclear whether “ships of these countries” means the flag a vessel flies, its owner, its operator or some other link, Pusztai said.\nEnding the blockade is one of Tehran’s demands before it will commit to broader peace talks with the US, which will include discussions about Iran’s nuclear programme. Qatar-mediated talks currently centre on an Iranian proposal to reopen the strait if the US meets seven conditions, including this and lifting sanctions.\n“It seems to be that Iran tries to separate the questions of free passage through the Strait of Hormuz and oil exports from the nuclear question,” Pusztai said, adding, “The American reaction will show if this is successful.”\nWill this make a difference to oil markets?\nNot much, for now.\n“I think they make only limited difference at present,” Chris Beauchamp, chief market analyst at IG Group, told Al Jazeera.\n“Markets are back to pricing in a peace deal, but if conflict flares up at full tilt, then Iranian commanders may not have time to distinguish their targets,” he said, adding: “At present, the focus remains squarely on the prospects of a broader deal.”\nAn exemption has not guaranteed safety. On October 30, the Qatari LNG carrier Al Mayeda was struck by “unidentified objects” in the Gulf, said its owner, Qatar Gas Transport Company.\nMore than 120 commercial ships have been hit in the region since the war began, with October being the worst month, according to data from the International Maritime Organization and United Kingdom Maritime Trade Operations.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

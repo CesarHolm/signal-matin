@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a84", "score": 8, "raison": "Traces de chlorure d'hydrogène dans l'atmosphère de Mars suggérant des chambres magmatiques encore actives : une observation qui remet en cause l'image d'une planète inerte."},
+    {"id": "a94", "score": 7, "raison": "En Turquie, des dolines géantes se multiplient dans les champs de céréales, liées au pompage des nappes pour l'irrigation ; sujet concret à l'approche de la COP31."},
+    {"id": "a108", "score": 7, "raison": "Les émissions de CO2 de la Chine ont baissé de 3,1 % au troisième trimestre 2026, la plus forte baisse depuis la période Covid."},
+    {"id": "a97", "score": 6, "raison": "La maladie à corps de Lewy, la deuxième maladie neurodégénérative en France après Alzheimer, reste peu connue du public."}
+  ],
+  "breves": [
+    {"id": "a125", "titre": "Victor Wembanyama : 52 points et 24 rebonds, des records en carrière contre Dallas", "texte": "Mercredi, le Français a livré un match titanesque avec les Spurs de San Antonio, victorieux des Mavericks de Dallas. Il a réalisé plusieurs records en carrière, avec 52 points et 24 rebonds."},
+    {"id": "a87", "titre": "Paludisme d'aéroport à Francfort : huit personnes infectées par des moustiques", "texte": "Des moustiques anophèles ont introduit à Francfort des parasites du paludisme, qui ont infecté huit personnes avec une forme rare de la maladie, dite « paludisme d'aéroport »."},
+    {"id": "a113", "titre": "En Pennsylvanie, des amateurs fabriquent de l'huile à partir du hickory amer", "texte": "Face aux huiles importées d'olive, de colza ou de palme, un réseau de passionnés de durabilité produit de l'huile à partir du hickory amer, une essence native de Pennsylvanie. L'État est l'un des pôles de cette production, en forte croissance."},
+    {"id": "a85", "titre": "Chauve-souris : le rythme cardiaque des femelles s'accélère aux cris de leurs petits", "texte": "Le cœur des femelles chauves-souris accélère lorsqu'elles entendent les cris de leurs propres petits, et seulement ceux-là. Des chercheurs de l'université Doshisha évoquent un lien possible avec leur mode de vie."}
+  ]
+}

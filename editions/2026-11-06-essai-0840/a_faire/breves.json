@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a14\", \"source\": \"Le Monde\", \"titre\": \"Grève du 5 novembre : entre colère sociale et révolte politique, une mobilisation massive pour le pouvoir d’achat\", \"resume\": \"Dans toute la France, 193 cortèges ont réuni 1,6 million de manifestants selon la CGT, 575 000 selon le ministère de l’intérieur, à l’appel d’une intersyndicale associée aux mouvements lycéens et étudiants, aux « gilets jaunes » et aux agriculteurs.\"}, {\"id\": \"a41\", \"source\": \"Public Sénat\", \"titre\": \"Sondage : 82 % des Français ne font pas confiance à Emmanuel Macron, qui bat le record d’impopularité de François Hollande à l’Elysée\", \"resume\": \"Emmanuel Macron, à seulement 13 % de cote de confiance, bat le record d'impopularité de son prédécesseur socialiste à l'Élysée François Hollande, selon la dernière édition du baromètre d’Elabe pour les Echos, publiée jeudi.\"}, {\"id\": \"a16\", \"source\": \"Le Monde\", \"titre\": \"Pourquoi l’inflation réelle est toujours moins élevée que celle ressentie par les Français\", \"resume\": \"L’écart de perception sur la hausse des prix s’explique par le poids des achats les plus fréquents, notamment ceux concernant l’alimentation et les carburants. Sans oublier qu’un indicateur statistique est une moyenne qui ne peut refléter, par définition, chaque situation individuelle.\"}, {\"id\": \"a52\", \"source\": \"South China Morning Post\", \"titre\": \"New anti-corruption law arms Beijing with expansive global enforcement powers\", \"resume\": \"China’s top legislature passed on Friday a landmark law targeting cross-border corruption, equipping Beijing with expansive new tools to pursue illicit offshore assets while countering foreign attempts to investigate wrongdoing in China. The Anti-Cross-Border Corruption Law was approved at the close of the 25th session of the 14th National People’s Congress Standing Committee (NPCSC) and took effect immediately, according to the state news agency Xinhua. The statute establishes formal mechanisms...\"}, {\"id\": \"a56\", \"source\": \"South China Morning Post\", \"titre\": \"US and Brazil deliver double blow to the populist right. Will Europe feel the impact?\", \"resume\": \"In the space of roughly 10 days, the two largest democracies in the Americas delivered setbacks to the populist right. In Brazil, Luiz Inacio Lula da Silva staged a narrow but remarkable comeback, defeating Flavio Bolsonaro, the son of former president Jair Bolsonaro, in a run-off election after trailing in the first round. This week, American voters handed control of both chambers of the US Congress to Democrats in a sharp rebuke of candidates riding on US President Donald Trump’s “Make America...\"}, {\"id\": \"a55\", \"source\": \"South China Morning Post\", \"titre\": \"EU-China truce under strain as both sides brace for potential trade war\", \"resume\": \"Weeks after the European Union and China struck a deal aimed at averting a looming trade war, the two sides remain at loggerheads over what is wrong with their relationship, how to fix it and who is to blame. At an event in Brussels this week, threats were exchanged and differences rose to the surface. With the ink barely dry on their fragile trade peace, it was clear that both were still preparing for a trade war. “If the EU insists on adopting restrictive and discriminatory measures against...\"}, {\"id\": \"a84\", \"source\": \"Sciences et Avenir\", \"titre\": \"Mars : du magma coulerait encore dans les entrailles de la planète Rouge\", \"resume\": \"Une analyse récente de l'atmosphère de Mars suggère une activité volcanique plus intense que prévue à la surface de la planète Rouge. Des traces de chlorure d'hydrogène dans la basse atmosphère pourraient provenir de chambres magmatiques actives. Une observation essentielle qui remet en cause la vision d'un environnement planétaire inerte.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

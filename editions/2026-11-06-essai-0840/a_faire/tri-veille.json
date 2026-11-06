@@ -1,0 +1,60 @@
+{
+ "id": "tri-veille",
+ "modele": "haiku",
+ "sortie": "faits/tri-veille.json",
+ "limite_caracteres": null,
+ "systeme": "Tu es le secrétaire de rédaction d'un journal personnel imprimé chaque matin pour un lecteur francophone exigeant (consultant en conformité réglementaire et gestion des risques).\n\nPour un bloc du journal, tu reçois une liste d'articles candidats (identifiant, rubrique, source, nature, titre, date, résumé du flux RSS). Tu dois :\n1. Classer, par ordre de priorité décroissante, jusqu'à 6 articles à développer (synthèse d'un quart ou d'une demi-page selon leur longueur). Le journal en publiera au moins 2 par bloc, et davantage selon la place disponible ; attribue à chacun un « score » de 1 à 10 (9 ou 10 : sujet essentiel du jour, à ne pas manquer).\n2. Choisir jusqu'à 6 autres articles pour des brèves, classés par priorité, et rédiger chaque brève (le journal en publie 3 par bloc, davantage s'il reste de la place).\n\nCritères de sélection, par ordre de priorité :\n- Importance : portée réelle de l'information, conséquences concrètes, intérêt durable.\n- Nouveauté : un fait nouveau prime sur un commentaire ; écarte les republications d'articles anciens, les contenus promotionnels, les cas clients publicitaires et les annonces de numéros de magazine.\n- Diversité : un même événement ou sujet ne donne qu'UN seul article développé (garde le meilleur) et au plus une brève complémentaire ; plusieurs articles sur un même fait d'actualité (ex. réactions, enquête, suites judiciaires) comptent comme un seul sujet. Équilibre les rubriques du bloc.\n- Le FOOTBALL est TOTALEMENT EXCLU, dans tous les blocs (ni brève ni développé), y compris les transferts, les clubs et les sélections.\n- Bloc avec rubrique sport : L'actualité sportive n'est traitée qu'en brèves (savoir ce qui s'est passé). Les articles de nature « methode » (méthodes d'entraînement) sont prioritaires pour les articles développés s'ils sont intéressants ; à défaut, développe des articles de science grand public.\n\nRègles des brèves :\n- « titre » : en français, factuel, 90 caractères maximum.\n- « texte » : 1 à 2 phrases en français, environ 250 caractères, uniquement d'après le titre et le résumé fournis. N'ajoute aucune information extérieure. Si le résumé est trop pauvre pour une brève fiable, choisis un autre article.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"developpes\": [{\"id\": \"a12\", \"score\": 8, \"raison\": \"…\"}, …], \"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}, …]}",
+ "contenu": "{\"bloc\": \"Veille réglementaire\", \"rubriques\": [\"RGPD\"], \"candidats\": [{\"id\": \"a81\", \"rubrique\": \"RGPD\", \"source\": \"CNIL\", \"nature\": \"actu\", \"titre\": \"Ordre du jour de la séance plénière du 5 novembre 2026\", \"date\": \"2026-11-05 12:00\", \"resume\": \"La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 5 novembre 2026 à 9 h 30 avec l’ordre du jour suivant :\"}, {\"id\": \"a82\", \"rubrique\": \"RGPD\", \"source\": \"CNIL\", \"nature\": \"actu\", \"titre\": \"Rejeu de session : ces outils qui enregistrent votre activité en ligne\", \"date\": \"2026-11-05 12:00\", \"resume\": \"Lorsque vous naviguez sur Internet ou que vous utilisez une application sur votre téléphone, vos actions peuvent être enregistrées par ce que l’on appelle des outils de rejeu de session. À quoi servent-ils et quels sont vos droits ?\"}, {\"id\": \"a83\", \"rubrique\": \"RGPD\", \"source\": \"CNIL\", \"nature\": \"actu\", \"titre\": \"Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs\", \"date\": \"2026-11-05 12:00\", \"resume\": \"La CNIL publie une recommandation relative aux outils de rejeu de session permettant le suivi et l'analyse du comportement en ligne des utilisateurs. L’objectif est d’aider les acteurs qui conçoivent ces outils et ceux qui les utilisent dans leur mise en conformité.\"}], \"consigne_edition\": \"Édition numérique, lue sur téléphone. Règles de sélection, dans cet ordre : (1) le sujet doit relever de la consigne du bloc : n'inclus aucun article hors sujet, ni en article ni en brève, même s'il en reste peu ; il n'y a pas de minimum et des listes vides sont acceptables ; (2) classe ensuite par importance, puis nouveauté, puis diversité. Le bloc publie au plus 2 article(s) long(s) et 2 brève(s). Article long : sujet important ou fondamental pour le lecteur. Brève : information intéressante à savoir, sans plus. Dans « developpes », classe jusqu'à 4 articles : les 2 premiers seront publiés, les suivants servent de réserve si un texte est inaccessible. Le score sert seulement à ordonner. Dans « breves », jusqu'à 2 brèves de 2 à 3 phrases (environ 450 caractères), uniquement d'après le titre et le résumé fournis ; plus courtes si le résumé est pauvre. Varie les sources (pas plus de 3 articles d'une même source).\", \"consigne_du_bloc\": \"Thèmes : RGPD, AI Act, NIS 2, anti-corruption, CSRD et CSDDD (devoir de vigilance), sanctions économiques et contrôle des exportations ; en second rang LCB-FT et DORA. Attention aux homonymes : « NIS » désigne aussi une compagnie pétrolière serbe ; la fraude fiscale et le droit pénal général sont hors thème. Priorité à l'Europe ; à l'étranger, seulement les informations clés. Trois types d'articles : (a) évolutions de la réglementation ; (b) sanctions prononcées, avec leurs motifs ; (c) comment les entreprises se mettent en conformité. Écarte ce qui sort de ces thèmes.\", \"sujets_deja_publies_recemment\": [\"Du Covid aux manifestations : le masque, objet de ralliement de la génération Z\", \"Royaume-Uni : cinq aliments dont les prix pourraient grimper cet hiver\", \"Maternelle : la joie auprès des enfants ne suffit pas à compenser l'usure\", \"Pologne : Bruxelles presse le président Nawrocki de valider les juges du Tribunal\", \"Trump menace l'Iran de frappes sur « un ou deux sites », dont le mont Kolang\", \"Piratage de Binance : le FBI accuse la Corée du Nord d'un vol de 6,3 milliards de dollars\", \"COP17 d'Erevan : bilan mondial alarmant, finance et fonds de Cali en panne\", \"Pennsylvanie : un nouveau permis ouvre une brèche pour les eaux usées pétrolières\", \"Microplastiques : pourquoi ils ne sont pas chimiquement inertes pour la santé\", \"Alaska : un an après le typhon Halong, Kwigillingok reste dans l'incertitude\", \"Route du Rhum : l'apnée, outil de préparation mentale des skippeurs\", \"Route du Rhum : comment les favoris gèrent le sommeil en mer\", \"Neville's Cross, 1346 : la victoire anglaise décisive que l'histoire a oubliée\", \"Niveau de français exigé des étrangers : une question qui dépasse la langue\", \"Réseaux sociaux : interdire aux ados ne suffit pas, selon ces chercheurs\", \"Pourquoi les Français sont plus pessimistes sur la démocratie que Belges et Italiens\", \"Rouille de la ronce : l'énigme d'un champignon introduit illégalement en Australie\", \"Wegovy en comprimé : l'antiobésité arrive en pharmacie en France\", \"Seuil de 1,5°C : l'ONU alerte sur la fonte des glaces avant la COP31\", \"À Sarayaku, des peuples d'Amazonie viennent apprendre à résister au pétrole\", \"Pennsylvanie : Josh Shapiro et les centres de données, un virage risqué\", \"Kimi Antonelli, 20 ans, sacré plus jeune champion du monde de F1 au Mexique\", \"Corée du Sud : la justice veut une amende contre les fausses citations de l'IA\", \"« Super Intelligence » : le nouveau test de loyauté voulu par Donald Trump\", \"Anthropic dit approcher de l'auto-amélioration récursive de l'IA\", \"Coup de pouce du Smic : une hausse au-delà de la formule légale divise le Sénat\", \"Inéligibilité de Marine Le Pen : le pourvoi en cassation relance le débat juridique\", \"Un Français sur trois a eu du mal à payer ses factures d'énergie en un an\", \"Chômage : une santé physique et surtout mentale dégradée, selon Santé publique France\", \"Cyberattaques ANTS et SFR : un hacker de 17 ans raconte sa double vie\", \"Élections de mi-mandat aux États-Unis : quand connaîtra-t-on les résultats ?\", \"Vol de 6 milliards de dollars chez Binance : la Corée du Nord, hackers d'État\", \"Frappes américaines sur l'île iranienne de Qeshm à la veille des élections de mi-mandat\", \"Un juge fédéral rejette les poursuites contre deux anciens responsables du FBI\", \"La Cour suprême refuse d'écarter des bulletins de vote en Californie\", \"Comment la BCE perçoit les non-banques : un indice fondé sur ses discours\", \"Frais de service : une sensibilité très inégale, l'exemple des distributeurs\", \"Déséquilibres mondiaux : la finance pèse plus que le commerce\", \"Fiscalité et appariement : des taux optimaux plus bas qu'à l'ordinaire\", \"Surveillance de l'air en Chine : les analystes intègrent mieux le risque écologique\"]}",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "developpes": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "score": {
+       "type": "integer"
+      },
+      "raison": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "score"
+     ]
+    }
+   },
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "developpes",
+   "breves"
+  ]
+ }
+}

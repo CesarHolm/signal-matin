@@ -1,0 +1,16 @@
+{
+ "titre": "Claude lance « Personal Finance » pour analyser ses dépenses",
+ "chapo": "Anthropic annonce « Personal Finance », un outil qui permet à Claude d'analyser les comptes bancaires et les cartes de crédit de ses utilisateurs, en lecture seule.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Anthropic a annoncé jeudi un nouvel outil pour Claude, « Personal Finance », conçu pour aider à suivre son argent. Les utilisateurs y connectent leurs comptes bancaires et leurs cartes de crédit via Plaid, puis interrogent Claude. L'accès est en lecture seule : l'outil ne peut ni déplacer, ni gérer, ni investir l'argent. Interrogé sur « Où est passé mon argent ce mois-ci ? », Claude additionne les dépenses et les classe par catégorie (loyer et charges, restauration, achats). Il signale aussi doublons de prélèvement, frais inattendus et factures en hausse régulière, et explique des notions comme l'APR (taux annuel)."
+  },
+  {
+   "intertitre": "Le contexte et les limites",
+   "texte": "Claude rattrape ChatGPT, dont les outils similaires datent de mai. Anthropic précise que Claude n'accède qu'au nom de la banque, au nom et au type de compte, aux quatre derniers chiffres du numéro, aux soldes, aux plafonds de crédit et à deux ans d'historique de transactions. Les conversations dans l'espace Personal Finance ne servent pas à entraîner les modèles. Le déploiement en bêta commence cette semaine pour les abonnés Pro, Max et Ultra aux États-Unis."
+  }
+ ],
+ "synthese": "Anthropic fait de Claude un assistant financier en lecture seule, connecté aux comptes de l'utilisateur. Le déploiement est limité aux États-Unis.",
+ "republication": ""
+}

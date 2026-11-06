@@ -1,0 +1,16 @@
+{
+  "developpes": [
+    {"id": "a6", "score": 8, "raison": "Le président d'OpenAI évoque une introduction en bourse possible dès 2027 et des gains dans le marché entreprise, où Anthropic est déjà bien implanté."},
+    {"id": "a7", "score": 8, "raison": "Lancement concret d'un outil d'analyse financière dans Claude, qui se connecte aux comptes bancaires et cartes via Plaid : sujet de données personnelles sensibles."},
+    {"id": "a4", "score": 7, "raison": "L'opposition politique aux centres de données pourrait freiner l'expansion de l'IA, selon Meta lui-même."},
+    {"id": "a1", "score": 7, "raison": "Palo Alto Networks serait en discussions pour racheter une start-up de sécurité des agents d'IA pour 500 M$, selon une source ; signal de consolidation du marché."},
+    {"id": "a5", "score": 6, "raison": "Nouveau modèle de cybersécurité d'OpenAI, dans un contexte d'examen accru des laboratoires d'IA sur la protection des infrastructures numériques."},
+    {"id": "a2", "score": 6, "raison": "Airbnb annonce un agent IA de voyage pour la première moitié de 2027 : aide à la planification, à la comparaison, à la gestion des réservations et au séjour."}
+  ],
+  "breves": [
+    {"id": "a9", "titre": "Dropbox rachète Tigris Data pour 350 M$ afin de renforcer son infrastructure IA", "texte": "Dropbox acquiert Tigris Data pour 350 millions de dollars. L'opération doit soutenir le développement de DBX Agent Cloud, une nouvelle plateforme de stockage destinée aux développeurs qui conçoivent des modèles et des agents d'IA."},
+    {"id": "a8", "titre": "Axiom Math veut écarter les preuves mathématiques non vérifiées produites par l'IA", "texte": "Face à l'afflux de démonstrations non contrôlées produites par l'IA, la start-up Axiom Math mise sur la vérification formelle. Ses agents d'IA viennent de vérifier formellement le Stacks Project, l'une des plus grandes bibliothèques du domaine."},
+    {"id": "a11", "titre": "Box adopte le modèle Nemotron de Nvidia pour un système de recherche de contenus", "texte": "Ce nouveau système de récupération de contenus, conçu pour les agents, répondrait quatre fois plus vite, avec 20 % d'erreurs en moins et 90 % de jetons en moins, selon les chiffres avancés par l'entreprise."},
+    {"id": "a12", "titre": "Une start-up YC mobilise 1 M$ sur cinq problèmes ouverts de science des matériaux", "texte": "Elle met 1 million de dollars sur cinq problèmes non résolus de science des matériaux. Les modèles d'IA de pointe ont progressé en mathématiques et en sciences du vivant, mais n'ont pas encore vraiment abordé la physique complexe des matériaux avancés."}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "developpes": [
+    {"id": "a83", "score": 8, "raison": "Évolution réglementaire : la CNIL publie sa recommandation sur les outils de rejeu de session, pour guider les concepteurs et les utilisateurs vers la conformité RGPD."}
+  ],
+  "breves": [
+    {"id": "a82", "titre": "Rejeu de session : les outils qui enregistrent votre activité en ligne", "texte": "Ces outils peuvent enregistrer vos actions lorsque vous naviguez sur Internet ou utilisez une application mobile. Le texte de la CNIL aborde leur finalité et les droits des personnes concernées."}
+  ]
+}

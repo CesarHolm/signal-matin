@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a67", "score": 8, "raison": "L'Iran exempte des restrictions du détroit d'Ormuz les navires de quatre pays (Inde, Chine, Qatar, Irak) : enjeu énergétique majeur, avec des risques politiques selon les analystes."},
+    {"id": "a52", "score": 8, "raison": "Loi contre la corruption transfrontalière adoptée par le Comité permanent de l'Assemblée populaire nationale, en vigueur immédiatement : Pékin se dote de larges moyens pour poursuivre des avoirs offshore."},
+    {"id": "a56", "score": 7, "raison": "Lula bat Flavio Bolsonaro au second tour au Brésil, puis les démocrates prennent le contrôle des deux chambres du Congrès américain : un revers pour la droite populiste."},
+    {"id": "a55", "score": 7, "raison": "Trêve commerciale UE-Chine fragile : les deux parties se préparent à une éventuelle guerre commerciale malgré l'accord récent."},
+    {"id": "a73", "score": 6, "raison": "Des colons israéliens ont saisi huit foyers palestiniens à Jéricho, déplaçant des dizaines de personnes ; l'ONU évoque des tirs à balles réelles et des coups."}
+  ],
+  "breves": [
+    {"id": "a64", "titre": "Israël : Herzog désignera dimanche le candidat à la formation du gouvernement", "texte": "Une majorité de députés israéliens a soutenu Eisenkot plutôt que Netanyahu. Le président Herzog doit annoncer dimanche le nom du candidat chargé de former un gouvernement."},
+    {"id": "a60", "titre": "Washington sanctionne deux entreprises chinoises pour des livraisons à l'armée cubaine", "texte": "Le département d'État vise CEIEC et Beijing H&C Technologies, accusées d'avoir fourni équipements et composants à la société cubaine Sociedad Mercantil Duna, chargée des achats d'armement. Washington renforce ainsi la pression sur les fournisseurs étrangers de La Havane."},
+    {"id": "a76", "titre": "La Chine publie sept fois moins de séries statistiques qu'il y a dix ans", "texte": "Selon Le Grand Continent, l'opacité croissante du régime chinois, qui publie sept fois moins de séries statistiques qu'il y a dix ans, témoigne de ses faiblesses."}
+  ]
+}

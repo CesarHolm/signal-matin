@@ -1,0 +1,64 @@
+{
+ "id": "syn-a73",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a73.json",
+ "limite_caracteres": 1417,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 1417 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Al Jazeera\nRubrique : Monde\nDate du flux : 06/11/2026\nAuteur : Al Jazeera Staff\nTitre d'origine : Israeli settlers seize 8 Palestinian homes in Jericho, displacing dozens\n\nARTICLE :\nThe United Nations has condemned the seizure of eight Palestinian homes by Israeli settlers in the occupied West Bank city of Jericho, saying the settlers assaulted residents and forced dozens of people to flee.\nStephane Dujarric, a spokesperson for the UN Secretary-General Antonio Guterres, told reporters on Thursday that the settlers reportedly “used live ammunition” during the takeover on the previous day.\nThey also “physically assaulted Palestinian residents” and threw stones, “prompting the flight of families for their safety”, he said.\nSome of those displaced now “lack adequate shelter”, while the Israeli military has since declared the area a closed military zone, preventing humanitarian workers from reaching those affected.\n“We once again condemn all of these violent activities by the Israeli settlers,” he said.\nThe incident involved some 30 Israeli settlers, who came to take over the houses in Ein a-Duyuk a-Tahta on the outskirts of Jericho on Wednesday afternoon, according to Israeli settlement watchdog Peace Now.\nThe group said that, according to reports, the settlers “assaulted and robbed two Israeli activists and shot a Palestinian man in the leg” during the seizure.\nThe settlers claimed they legally purchased the homes, but Palestinian officials say the sale documents were forged.\nHanan Greenwood, a settler representative, told the AFP news agency that Nachala, a right-wing Israeli organisation, had bought the eight homes “with our help”. He said he was “very excited” to be there.\nNachala funds the establishment of new settlements in the occupied West Bank and campaigns for Israel to annex the territory.\nBut Hussein Hamayel, governor of the Jericho region, told the AFP that the land belongs to the Palestinian Authority and cannot be sold.\n“What is being promoted is a forgery, not a sale, and what is being circulated is settler propaganda,” Hamayel said.\nThe land is located in the West Bank’s Area C, which has been under Israeli control since the Oslo Accords of the 1990s. Israel has occupied the West Bank since 1967, and more than 500,000 Israelis live in settlements there, which are illegal under international law.\nSettler pogroms in the occupied West Bank have approached all-time highs this year, and several Palestinian communities in the greater Jericho area have already been driven from their homes.\nResidents said they feared the new settlers would step up pogroms in the area and bring a heavier military presence.\nThat pattern has played out in Hebron, where some 400 settlers live in the Old City, in a city of about 250,000 Palestinians.\nAccording to Peace Now, the Israeli presence in Hebron has notably “led to constant friction and violence, severe restrictions on Palestinian freedom of movement” and also “resulted in the displacement of thousands of Palestinians“.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

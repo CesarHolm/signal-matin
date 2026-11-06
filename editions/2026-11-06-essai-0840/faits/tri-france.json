@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a14", "score": 9, "raison": "Mobilisation du 5 novembre pour les salaires et le pouvoir d'achat : 1,6 million de manifestants selon la CGT, 575 000 selon le ministère de l'Intérieur, avec une intersyndicale élargie."},
+    {"id": "a25", "score": 7, "raison": "Le Parquet national antiterroriste ouvre un nombre record d'enquêtes liées à l'ultradroite violente, deux semaines après l'attentat raciste de Trappes."},
+    {"id": "a43", "score": 7, "raison": "Le Sénat veut rétablir la réforme des retraites de 2023 dans le budget de la Sécurité sociale, après son rejet à l'Assemblée nationale."},
+    {"id": "a41", "score": 6, "raison": "Baromètre Elabe : 13 % de confiance pour Emmanuel Macron, qui dépasse le record d'impopularité de François Hollande à l'Élysée."},
+    {"id": "a16", "score": 6, "raison": "Pourquoi l'inflation ressentie dépasse l'inflation mesurée : poids des achats fréquents comme l'alimentation et les carburants, et limite d'une moyenne statistique."}
+  ],
+  "breves": [
+    {"id": "a26", "titre": "Corse-du-Sud : deux personnes retrouvées mortes après des inondations", "texte": "Leur voiture a été emportée par les inondations. Les deux départements corses sont en vigilance orange pour un risque de pluie-inondation depuis jeudi matin, avec des éboulements signalés."},
+    {"id": "a27", "titre": "Smic : le ministre du Travail juge important de le relever au-delà de 1 500 euros net", "texte": "Selon Matignon, Sébastien Lecornu a demandé à son ministre de finaliser d'ici dimanche ses concertations sur les salaires. Une réunion avec les partenaires sociaux est prévue lundi."},
+    {"id": "a23", "titre": "Le nouveau TGV de la SNCF entre en service vendredi", "texte": "Le premier TGV de nouvelle génération de la SNCF quitte Paris vendredi matin pour Marseille, avec de nombreuses innovations. Plus confortables, écologiques et modulables, les nouvelles rames remplaceront progressivement le parc existant sur une dizaine d'années."}
+  ]
+}

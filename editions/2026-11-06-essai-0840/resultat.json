@@ -1,0 +1,2313 @@
+{
+ "edition": {
+  "date": "2026-11-06",
+  "numero": 10,
+  "secours": false,
+  "numerique": true,
+  "meteo": null,
+  "nouveaux_mots": [
+   {
+    "mot": "Tenace",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui ne cède pas, persévère ; qui adhère ou persiste fortement.",
+    "exemple": "Une rumeur tenace circulait depuis des semaines."
+   },
+   {
+    "mot": "Morose",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Triste et maussade ; sans entrain.",
+    "exemple": "Le marché reste morose depuis la rentrée."
+   },
+   {
+    "mot": "Ergoter",
+    "nature": "v. intr.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Chicaner sur des détails, contester pour des riens.",
+    "exemple": "Inutile d'ergoter sur une virgule."
+   },
+   {
+    "mot": "Astreinte",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "pro",
+    "definition": "Condamnation à payer une somme par jour de retard dans l'exécution d'une obligation.",
+    "exemple": "Le juge a assorti l'injonction d'une astreinte de 500 euros par jour."
+   },
+   {
+    "mot": "Pantagruélique",
+    "nature": "adj.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Digne de Pantagruel : énorme, gargantuesque (surtout pour un repas).",
+    "exemple": "Un festin pantagruélique clôtura la fête."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Vindicatif"
+   },
+   {
+    "mot": "Tributaire"
+   },
+   {
+    "mot": "Acédie"
+   },
+   {
+    "mot": "Ineffable"
+   },
+   {
+    "mot": "Fuligineux"
+   }
+  ],
+  "reponses_hier": [
+   {
+    "mot": "Thébaïde",
+    "definition": "Lieu isolé et paisible propice à la retraite et à la méditation."
+   },
+   {
+    "mot": "Solvabilité",
+    "definition": "Capacité d'une personne ou d'une entreprise à honorer ses dettes."
+   },
+   {
+    "mot": "Ataraxie",
+    "definition": "Tranquillité de l'âme que rien ne trouble, idéal des philosophes antiques."
+   },
+   {
+    "mot": "Obsolescence",
+    "definition": "Fait de devenir périmé, dépassé, en particulier pour un équipement ou une technique."
+   },
+   {
+    "mot": "Ineffable",
+    "definition": "Qui ne peut être exprimé par des mots, tant il est intense ou subtil."
+   }
+  ],
+  "blocs": [
+   {
+    "id": "ia",
+    "titre": "IA",
+    "developpes": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "auteur": "Sarah Perez",
+      "titre": "OpenAI se dit prête pour une introduction en Bourse en 2027",
+      "chapo": "Greg Brockman, président d'OpenAI, estime que l'entreprise pourrait être prête pour une introduction en Bourse en 2027, grâce à l'essor de son activité auprès des entreprises.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Lors d'une conférence technologique du Wall Street Journal, mercredi, le cofondateur et président d'OpenAI a répondu « Je pense que oui. Oui. » à la question de savoir si l'entreprise serait prête pour une introduction en Bourse l'an prochain. Il dit ne s'être « jamais senti aussi confiant » dans ce que fait la société."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "Greg Brockman décrit une année 2026 en deux temps. Les premier et deuxième trimestres ont été « plutôt rudes » : OpenAI n'était « même pas dans la conversation » sur le codage par agents, où Claude Code, d'Anthropic, a gagné des parts de marché. Au troisième trimestre, le chiffre d'affaires annualisé a progressé de 70 % sur le trimestre, ce qu'il attribue au doublement de l'activité auprès des entreprises. Ce segment, qui ne pesait qu'environ 30 % du chiffre d'affaires, en fournit désormais la majorité. Le grand public n'a pas reculé, précise-t-il."
+       }
+      ],
+      "synthese": "OpenAI juge possible une introduction en Bourse en 2027, après un redressement attribué à son offre pour les entreprises.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a6"
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "auteur": "Aisha Malik",
+      "titre": "Claude lance « Personal Finance » pour analyser ses dépenses",
+      "chapo": "Anthropic annonce « Personal Finance », un outil qui permet à Claude d'analyser les comptes bancaires et les cartes de crédit de ses utilisateurs, en lecture seule.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Anthropic a annoncé jeudi un nouvel outil pour Claude, « Personal Finance », conçu pour aider à suivre son argent. Les utilisateurs y connectent leurs comptes bancaires et leurs cartes de crédit via Plaid, puis interrogent Claude. L'accès est en lecture seule : l'outil ne peut ni déplacer, ni gérer, ni investir l'argent. Interrogé sur « Où est passé mon argent ce mois-ci ? », Claude additionne les dépenses et les classe par catégorie (loyer et charges, restauration, achats). Il signale aussi doublons de prélèvement, frais inattendus et factures en hausse régulière, et explique des notions comme l'APR (taux annuel)."
+       },
+       {
+        "intertitre": "Le contexte et les limites",
+        "texte": "Claude rattrape ChatGPT, dont les outils similaires datent de mai. Anthropic précise que Claude n'accède qu'au nom de la banque, au nom et au type de compte, aux quatre derniers chiffres du numéro, aux soldes, aux plafonds de crédit et à deux ans d'historique de transactions. Les conversations dans l'espace Personal Finance ne servent pas à entraîner les modèles. Le déploiement en bêta commence cette semaine pour les abonnés Pro, Max et Ultra aux États-Unis."
+       }
+      ],
+      "synthese": "Anthropic fait de Claude un assistant financier en lecture seule, connecté aux comptes de l'utilisateur. Le déploiement est limité aux États-Unis.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a7"
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "auteur": "Sarah Perez",
+      "titre": "Meta craint que le rejet des centres de données freine l'IA",
+      "chapo": "Dina Powell McCormick, présidente de Meta, estime que les victoires démocrates aux élections de mi-mandat rendront plus difficile la construction de centres de données.",
+      "sections": [
+       {
+        "intertitre": "Le déclencheur",
+        "texte": "Lors de la conférence WSJ Tech, mercredi, la dirigeante a jugé que l'industrie n'avait « pas assez bien expliqué les bénéfices de ces investissements ». Le rejet des centres de données, enjeu bien présent dans le scrutin, tient selon elle à un malaise plus large : « La manifestation visible de l'IA, c'est un centre de données, et les gens peuvent dire : je n'en veux pas dans ma communauté. » Meta, qui en construit depuis vingt ans, en possède dans 23 États, dont cinq sont prévus à 1 gigawatt ou plus, notamment au Texas. Elle s'attend à ce que ce soit « plus difficile » et à un examen accru des projets."
+       },
+       {
+        "intertitre": "La réponse de Meta",
+        "texte": "Selon elle, les communautés n'acceptent un centre que s'il leur profite. Meta dit payer sa propre électricité, affecter les surplus fiscaux aux enseignants et aux secours, employer une main-d'œuvre locale et rechercher un soutien des deux partis. Elle ajoute que Mark Zuckerberg, PDG, parie sur les humains plus que sur les machines. Meta espère que son agent grand public Muse dépassera ses 10 millions d'utilisateurs actuels. À défaut, la puissance de calcul resterait valorisable : l'entreprise reçoit « des appels chaque jour » pour la louer."
+       }
+      ],
+      "synthese": "Meta anticipe des difficultés accrues pour ses centres de données et mise sur des projets profitables aux communautés. Elle estime que ses investissements seront rentabilisés d'une façon ou d'une autre, notamment par la location de puissance de calcul.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a4"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "auteur": "",
+      "id": "a9",
+      "titre": "Dropbox rachète Tigris Data pour 350 M$ afin de renforcer son infrastructure IA",
+      "texte": "Dropbox acquiert Tigris Data pour 350 millions de dollars. L'opération doit soutenir le développement de DBX Agent Cloud, une nouvelle plateforme de stockage destinée aux développeurs qui conçoivent des modèles et des agents d'IA."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "auteur": "",
+      "id": "a8",
+      "titre": "Axiom Math veut écarter les preuves mathématiques non vérifiées produites par l'IA",
+      "texte": "Face à l'afflux de démonstrations non contrôlées produites par l'IA, la start-up Axiom Math mise sur la vérification formelle. Ses agents d'IA viennent de vérifier formellement le Stacks Project, l'une des plus grandes bibliothèques du domaine."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+      "auteur": "",
+      "id": "a11",
+      "titre": "Box adopte le modèle Nemotron de Nvidia pour un système de recherche de contenus",
+      "texte": "Ce nouveau système de récupération de contenus, conçu pour les agents, répondrait quatre fois plus vite, avec 20 % d'erreurs en moins et 90 % de jetons en moins, selon les chiffres avancés par l'entreprise."
+     }
+    ]
+   },
+   {
+    "id": "france",
+    "titre": "Actualité France",
+    "developpes": [
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-06",
+      "url": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/un-nombre-de-procedures-en-croissance-pourquoi-le-parquet-national-antiterroriste-se-saisit-de-plus-en-plus-d-affaires-liees-a-l-ultradroite-radicale-violente_8267705.html#xtor=RSS-3-[lestitres]",
+      "auteur": "Violaine Jaussent",
+      "titre": "Le Pnat face à la hausse des affaires d'ultradroite radicale violente",
+      "chapo": "Deux semaines après l'attentat raciste de Trappes, le procureur antiterroriste Olivier Christen alerte sur une menace en croissance : le Pnat n'a jamais ouvert autant d'enquêtes sur l'ultradroite.",
+      "sections": [
+       {
+        "intertitre": "Le déclencheur",
+        "texte": "Mardi 3 novembre, sur RTL, le procureur national antiterroriste, Olivier Christen, est revenu sur l'attentat raciste du 23 octobre à Trappes et à La Verrière (Yvelines). L'attaque a tué un Français noir de 26 ans, Pengo Bossio Wangi, et blessé sept autres personnes, dont quatre grièvement. Le magistrat a aussi comptabilisé 22 victimes qui n'ont pas été touchées physiquement, mais dont le « véhicule a été touché par des balles » ou qui « ont été visées sans être atteintes ». Selon lui, le nombre de procédures liées à l'ultradroite radicale violente est « en croissance depuis quelques années »."
+       },
+       {
+        "intertitre": "Des chiffres en hausse",
+        "texte": "La menace principale en matière de terrorisme reste « jihadiste », mais celle de l'ultradroite augmente. Entre 2019, date de création du Parquet national antiterroriste (Pnat), et 2024, il y avait « une à deux procédures par an ». Ces deux dernières années, neuf enquêtes en lien avec cette mouvance ont été ouvertes, dont quatre en 2026, un nombre jamais atteint, a appris franceinfo auprès du Pnat, qui n'a pas détaillé les affaires. Depuis sa création, 14 procédures ont été jugées. Le premier procès de terrorisme d'ultradroite, « Waffenkraft », s'est tenu devant une cour d'assises spéciale des mineurs : quatre hommes de la mouvance néonazie ont été condamnés en juin 2023 pour avoir cherché à viser des institutions, des mosquées, une synagogue, la Licra, le Crif ou des figures politiques comme Jean-Luc Mélenchon. Le principal accusé, Alexandre Gilet, ex-gendarme volontaire de 27 ans, a écopé de 18 ans de réclusion criminelle."
+       },
+       {
+        "intertitre": "Le profil du suspect",
+        "texte": "Le principal suspect, Kévin Tessier, 39 ans, a selon le procureur « largement préparé et prémédité les faits, probablement depuis la fin de l'été, début septembre ». Mis en examen et placé en détention provisoire, il a reconnu en garde à vue le caractère raciste de son attaque et avoir visé Trappes, un « repaire d'islamistes » à ses yeux, des termes proches de ceux employés en 2021 par Jordan Bardella, président du RN. Il avait chez lui des objets et des autocollants glorifiant le RN, sans adhérer au parti, a précisé le procureur le 29 octobre. Le Pnat le classe parmi les profils de « l'ultradroite radicale violente », une classification propre à la justice française. L'historien Nicolas Lebourg rappelle que la catégorie a été construite en 1994 par la direction centrale des renseignements généraux pour désigner le segment violent ou potentiellement violent de l'extrême droite."
+       },
+       {
+        "intertitre": "Un terrorisme qui évolue",
+        "texte": "L'ancien procureur Jean-François Ricard (2019-2024) affirme que les autorités ont longtemps empêché les actions de « petits groupes » par des arrestations en amont. La situation a changé : selon Olivier Christen, un « climat de discussions » créant une tension peut convaincre certains que c'est « le bon moment pour passer à l'acte ». Les groupuscules identitaires, environ 350 selon Nicolas Lebourg, sont identifiés ; ce sont les individus isolés, nourris de discours racistes, qui inquiètent le plus le ministre de l'Intérieur, Laurent Nuñez, car ils sont difficiles à détecter. Le cas de Kévin Tessier suit celui de Christophe B., principal suspect de l'attentat du 1er juin 2025 à Puget-sur-Argens (Var), où Hichem Miraoui, un Tunisien de 46 ans, a été tué : pour la première fois, le Pnat s'est saisi d'un homicide lié à l'extrême droite."
+       },
+       {
+        "intertitre": "Les ressorts idéologiques",
+        "texte": "Après les attentats islamistes de 2015, une partie des militants de l'AFO ont estimé qu'il fallait agir, rappelle Nicolas Lebourg, et le Covid-19 a catalysé les sentiments de haine. La mouvance connaît depuis une résurgence sur les réseaux sociaux, où circulent la « remigration » et le « grand remplacement », idée complotiste portée par Renaud Camus. Lebourg qualifie de « postmoderne » cette nouvelle phase, fondée sur les thèses « accélérationnistes » d'une guerre raciale à précipiter, née aux États-Unis. Un documentaire d'Arte, Terrorisme d'ultradroite, montre que le phénomène touche toutes les démocraties occidentales."
+       }
+      ],
+      "synthese": "Le Pnat constate une hausse inédite des procédures visant l'ultradroite radicale violente, quatre enquêtes ayant été ouvertes en 2026. L'attentat de Trappes s'inscrit dans une évolution vers des passages à l'acte d'individus isolés, dans un climat de tension.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a25"
+     },
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-05",
+      "url": "https://www.publicsenat.fr/actualites/politique/budget-de-la-secu-le-senat-prevoit-de-voter-le-retour-de-la-reforme-des-retraites-de-2023",
+      "auteur": "",
+      "titre": "Sécu : le Sénat veut rétablir la réforme des retraites de 2023",
+      "chapo": "Le Sénat examinera le budget de la Sécurité sociale du 9 au 18 novembre et sa majorité veut y rétablir la réforme des retraites de 2023.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est prévu",
+        "texte": "Après le rejet du texte par les députés, les sénateurs l'examineront du lundi 9 au mercredi 18 novembre. La majorité de droite et du centre déposera un amendement rétablissant la réforme de 2023, suspendue l'an dernier dans le cadre d'un accord entre le gouvernement et les socialistes. Elle y voit, comme l'avait demandé le candidat LR à la présidentielle Bruno Retailleau, le chemin vers l'équilibre des comptes sociaux : la mesure soulagerait les finances sociales de 600 millions d'euros l'an prochain."
+       },
+       {
+        "intertitre": "Arguments et limites",
+        "texte": "Le rapporteur centriste Olivier Henno veut tenir un déficit de 12,7 milliards d'euros, contre 21,8 milliards prévus en 2026. Selon lui, il faut travailler plus parce que l'on vit plus longtemps et qu'il y a moins d'actifs. La sénatrice LR Marie-Do Aeschlimann chiffre à 10 milliards d'euros le coût de la suppression de la réforme entre 2026 et 2032. Même adoptée au Sénat, la mesure devrait être écartée : sans majorité, le gouvernement devra très probablement recourir au 49.3 ou aux ordonnances."
+       }
+      ],
+      "synthese": "La majorité sénatoriale veut voter un budget de la Sécu conforme à ses convictions, avec le retour de la réforme de 2023. Elle sait toutefois que le gouvernement a de fortes chances de passer outre.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a43"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-06",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/06/pourquoi-l-inflation-reelle-est-toujours-moins-elevee-que-celle-ressentie-par-les-francais_6807726_3234.html",
+      "auteur": "Béatrice Madeline",
+      "id": "a16",
+      "titre": "Pourquoi l'inflation ressentie dépasse toujours l'inflation réelle",
+      "texte": "L'écart de perception s'explique d'abord par le poids des achats les plus fréquents, notamment l'alimentation et les carburants. Un indicateur statistique reste par ailleurs une moyenne, qui ne peut refléter chaque situation individuelle."
+     },
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-05",
+      "url": "https://www.publicsenat.fr/actualites/politique/sondage-82-des-francais-ne-font-pas-confiance-a-emmanuel-macron-qui-bat-le-record-dimpopularite-de-francois-hollande-a-lelysee",
+      "auteur": "",
+      "id": "a41",
+      "titre": "Macron à 13 % de confiance, un record d'impopularité devant Hollande (Elabe)",
+      "texte": "Selon le dernier baromètre Elabe pour Les Echos, publié jeudi, Emmanuel Macron n'obtient que 13 % de cote de confiance. Il bat ainsi le record d'impopularité détenu à l'Élysée par son prédécesseur socialiste François Hollande. Le titre de l'article indique par ailleurs que 82 % des Français ne lui font pas confiance."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-06",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/06/greve-du-5-novembre-entre-colere-sociale-et-revolte-politique-une-mobilisation-massive-pour-le-pouvoir-d-achat_6807682_823448.html",
+      "auteur": "",
+      "id": "a14",
+      "titre": "Grève du 5 novembre : 575 000 manifestants selon l'Intérieur, 1,6 million selon la CGT",
+      "texte": "Dans toute la France, 193 cortèges ont réuni 1,6 million de manifestants selon la CGT, 575 000 selon le ministère de l'Intérieur. L'appel émanait d'une intersyndicale, associée aux mouvements lycéens et étudiants, aux « gilets jaunes » et aux agriculteurs."
+     }
+    ]
+   },
+   {
+    "id": "monde",
+    "titre": "Actualité Monde",
+    "developpes": [
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-06",
+      "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions?traffic_source=rss",
+      "auteur": "Nils Adler",
+      "titre": "Ormuz : pourquoi l'Iran exempte l'Inde, la Chine, le Qatar et l'Irak",
+      "chapo": "Selon un député iranien, les navires indiens, chinois, irakiens et qataris sont exemptés des restrictions à Ormuz ; reste à savoir si le blocus américain les laissera passer.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Amir Hayat Moqaddam, vice-président de la commission de la sécurité nationale et de la politique étrangère du Parlement iranien, a déclaré mardi à l'agence ISNA que les navires de ces quatre pays passent librement et que les Américains ne les interceptent pas non plus. L'Iran avait fermé le détroit au début de la guerre menée contre lui par les États-Unis et Israël, commencée le 28 février, et les États-Unis ont rétabli en juillet un blocus naval de ses ports du sud. L'annonce n'est pas entièrement nouvelle : l'Irak avait été déclaré exempté en avril."
+       },
+       {
+        "intertitre": "Les contreparties et les intérêts",
+        "texte": "Selon le député, l'Iran recevra des médicaments de l'Inde et un soutien politique de la Chine, et percevra des droits de transit sur les navires indiens et chinois, tandis que les navires qataris passent gratuitement ; il n'a pas dit si les Irakiens paieront. Le Qatar, qui mène la médiation pour mettre fin à la guerre, apporte déjà son appui diplomatique. Pour l'analyste en sécurité Wolfgang Pusztai, c'est un coup habile : la Chine achète près de 90 % du pétrole exporté par l'Iran, et inclure le Qatar, aux nombreux acheteurs de gaz naturel liquéfié (GNL), et l'Inde viserait à saper l'adhésion à la stratégie de Washington. Ces quatre pays dépendent fortement du détroit : sur les 10,23 millions de barils par jour de brut du Golfe qui y ont transité en octobre, environ 42 % sont allés en Chine et 13 % en Inde, selon Kpler."
+       },
+       {
+        "intertitre": "Le blocus américain, obstacle principal",
+        "texte": "Le Commandement central américain (CENTCOM) a indiqué que le blocus s'applique à tous les navires de toutes les nations entrant ou sortant des zones côtières et ports iraniens, mais pas à ceux qui évitent les ports iraniens ; les cargaisons humanitaires, dont nourriture et fournitures médicales, peuvent passer après inspection. Pour Pusztai, si l'exemption ne se limite pas aux échanges avec les autres États du Golfe, le blocus deviendrait plus difficile à maintenir et moins efficace, à condition que Washington l'accepte. Lever le blocus figure parmi les exigences de Téhéran avant des négociations plus larges, qui incluraient son programme nucléaire ; les discussions menées sous médiation qatarie portent sur une proposition iranienne de rouvrir le détroit si les États-Unis remplissent sept conditions, dont celle-ci et la levée des sanctions."
+       },
+       {
+        "intertitre": "Les risques et les effets sur les marchés",
+        "texte": "Pour Rouzbeh Parsi, de l'université de Lund, la Chine peut mieux que quiconque contrarier les intérêts américains, reste à savoir si elle en juge le coût politique acceptable ; l'Inde et le Qatar, déçus par Donald Trump, veulent garder leurs liens avec Washington. Chris Beauchamp, d'IG Group, juge leur effet limité sur les marchés, tournés vers un accord de paix. L'exemption ne garantit pas la sécurité : le 30 octobre, le méthanier qatari Al Mayeda a été frappé par des « objets non identifiés », et plus de 120 navires commerciaux ont été touchés dans la région depuis le début de la guerre, octobre étant le pire mois, selon l'OMI et l'UKMTO."
+       }
+      ],
+      "synthese": "L'Iran échange un passage libre à Ormuz contre des biens, des droits de transit et des appuis politiques, mais l'efficacité de ces exemptions dépend de la réaction de Washington et de la sécurité réelle des navires. Pour l'instant, les marchés y voient peu de différence.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a67"
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-06",
+      "url": "https://www.aljazeera.com/news/2026/11/6/israeli-settlers-seize-8-palestinian-homes-in-jericho-displacing-dozens?traffic_source=rss",
+      "auteur": "",
+      "titre": "Cisjordanie : des colons s'emparent de huit maisons palestiniennes à Jéricho",
+      "chapo": "L'ONU condamne la prise de huit maisons palestiniennes par des colons israéliens à Jéricho, qui a fait fuir des dizaines de personnes.",
+      "sections": [
+       {
+        "intertitre": "Ce qui s'est passé",
+        "texte": "Mercredi après-midi, une trentaine de colons, selon l'organisation Peace Now, ont investi huit maisons d'Ein a-Duyuk a-Tahta, en périphérie de Jéricho. Le porte-parole de l'ONU Stéphane Dujarric affirme qu'ils auraient utilisé des munitions réelles, agressé des habitants et jeté des pierres, poussant des familles à fuir. Selon Peace Now, deux militants israéliens ont été agressés et dépouillés, et un Palestinien blessé à la jambe par balle. L'armée a déclaré la zone fermée, empêchant les humanitaires d'atteindre les déplacés, dont certains manquent d'abri."
+       },
+       {
+        "intertitre": "Une propriété contestée",
+        "texte": "Les colons disent avoir acheté légalement les maisons, via l'organisation Nachala. Le gouverneur de Jéricho, Hussein Hamayel, répond que la terre appartient à l'Autorité palestinienne, qu'elle ne peut être vendue et que les actes de vente sont des faux. Située en zone C, sous contrôle israélien depuis les accords d'Oslo, elle fait partie d'une Cisjordanie où plus de 500 000 Israéliens vivent dans des colonies, illégales au regard du droit international."
+       }
+      ],
+      "synthese": "L'ONU condamne des violences de colons qui ont déplacé des familles, tandis que la propriété des maisons est contestée. Les habitants craignent de nouvelles attaques.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a73"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-06",
+      "url": "https://www.scmp.com/news/china/article/3373493/eu-china-trade-truce-under-strain-both-sides-brace-potential-trade-war",
+      "auteur": "Finbarr Bermingham",
+      "id": "a55",
+      "titre": "UE-Chine : trêve commerciale fragile, chacun se prépare à une guerre commerciale",
+      "texte": "Quelques semaines après un accord destiné à écarter une guerre commerciale, l'UE et la Chine restent en désaccord sur la nature de leur relation, sur les moyens de la corriger et sur les responsabilités. Des menaces ont été échangées à Bruxelles, et les deux parties continuent de se préparer à un conflit commercial."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-06",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3373448/us-and-brazil-deliver-double-blow-populist-right-will-europe-feel-impact",
+      "auteur": "Khushboo Razdan",
+      "id": "a56",
+      "titre": "Brésil et États-Unis : deux revers pour la droite populiste en une dizaine de jours",
+      "texte": "En une dizaine de jours, deux grandes démocraties des Amériques ont infligé des revers à la droite populiste. Au Brésil, Luiz Inácio Lula da Silva l'a emporté de justesse au second tour contre Flávio Bolsonaro, fils de l'ancien président Jair Bolsonaro, après avoir été devancé au premier tour. Aux États-Unis, les électeurs ont confié aux démocrates le contrôle des deux chambres du Congrès, un net désaveu pour des candidats qui misaient sur Donald Trump."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-06",
+      "url": "https://www.scmp.com/news/china/politics/article/3373519/new-anti-corruption-law-arms-beijing-expansive-global-enforcement-powers",
+      "auteur": "William Zheng",
+      "id": "a52",
+      "titre": "Pékin se dote d'une loi contre la corruption transfrontalière aux pouvoirs étendus",
+      "texte": "Le Comité permanent de l'Assemblée populaire nationale a adopté vendredi une loi visant la corruption transfrontalière, en vigueur immédiatement selon l'agence Xinhua. Elle donne à Pékin de larges moyens de poursuivre des avoirs illicites à l'étranger et de contrer les tentatives étrangères d'enquêter sur des faits commis en Chine."
+     }
+    ]
+   },
+   {
+    "id": "recherche",
+    "titre": "Recherche & travaux d'experts",
+    "developpes": [],
+    "breves": []
+   },
+   {
+    "id": "veille",
+    "titre": "Veille réglementaire",
+    "developpes": [
+     {
+      "rubrique": "RGPD",
+      "source": "CNIL",
+      "date": "2026-11-05",
+      "url": "https://www.cnil.fr/fr/rejeu-de-session-recommandation",
+      "auteur": "",
+      "titre": "Rejeu de session : la CNIL publie sa recommandation sur ces outils de suivi",
+      "chapo": "La CNIL publie une recommandation pour aider les fournisseurs et les utilisateurs d'outils de rejeu de session à se mettre en conformité avec le droit des données personnelles.",
+      "sections": [
+       {
+        "intertitre": "Les enjeux",
+        "texte": "Les outils de rejeu de session fonctionnent avec des traceurs et reconstituent le parcours complet d'un internaute sur un site web ou une application mobile. Ils servent à détecter et corriger des dysfonctionnements ou à optimiser la structure et l'ergonomie d'un service. Ils peuvent enregistrer mouvements de souris, interactions tactiles, clics, défilement des pages et, parfois, saisies dans les formulaires, analysés ensuite sous forme de vidéos. La CNIL y voit des risques élevés d'atteinte à la vie privée, notamment la collecte de données personnelles non nécessaires à l'analyse recherchée."
+       },
+       {
+        "intertitre": "Qui est concerné et pourquoi",
+        "texte": "La recommandation s'adresse aux fournisseurs de ces outils, qui conçoivent les solutions et définissent paramétrages et fonctionnalités, et aux éditeurs de sites ou d'applications qui les déploient. Elle les aide à respecter le principe de minimisation des données, à déterminer les conditions de déploiement, à informer les personnes et à recueillir leur consentement, et propose des mesures techniques et organisationnelles."
+       },
+       {
+        "intertitre": "Ce que dit la recommandation",
+        "texte": "Ces outils relèvent de l'article 82 de la loi Informatique et Libertés et exigent le consentement préalable, aucune exemption de cet article ne s'appliquant ; le recueil suit les règles déjà fixées pour les cookies. Les finalités doivent être déterminées, explicites et légitimes, et fixées avant le déploiement, non après la collecte. La CNIL souligne l'importance d'un outil de masquage occultant les données non pertinentes, de limiter le nombre de sessions collectées selon les finalités et de limiter le recours aux identifiants."
+       },
+       {
+        "intertitre": "Les ajouts après la consultation",
+        "texte": "Après des échanges avec des professionnels et des associations, puis une consultation publique de février à mai 2026, la version finale précise le contenu de l'information, distingue les deux niveaux des interfaces de consentement et prévoit une information spécifique dès le premier niveau. Elle recommande de masquer les mouvements de souris dans certaines zones pour éviter la collecte de codes d'authentification, et de masquer le contenu des discussions avec les chatbots, qui peuvent révéler des données sensibles. La CNIL accompagnera les professionnels, notamment par un webinaire."
+       }
+      ],
+      "synthese": "La CNIL encadre des outils de rejeu de session soumis au consentement préalable, avec des finalités fixées d'avance et des mesures de masquage et de limitation. Sa version finale, enrichie par la consultation, vise à aider fournisseurs et éditeurs à se conformer.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a83"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "RGPD",
+      "source": "CNIL",
+      "date": "2026-11-05",
+      "url": "https://www.cnil.fr/fr/rejeu-de-session-vos-droits",
+      "auteur": "",
+      "id": "a82",
+      "titre": "Rejeu de session : les outils qui enregistrent votre activité en ligne",
+      "texte": "Ces outils peuvent enregistrer vos actions lorsque vous naviguez sur Internet ou utilisez une application mobile. Le texte de la CNIL aborde leur finalité et les droits des personnes concernées."
+     }
+    ]
+   },
+   {
+    "id": "curiosites",
+    "titre": "Curiosités",
+    "developpes": [
+     {
+      "rubrique": "Idées",
+      "source": "The Conversation",
+      "date": "2026-11-05",
+      "url": "https://theconversation.com/avant-la-cop31-la-turquie-face-aux-trous-deau-geants-qui-souvrent-dans-ses-champs-de-cereales-295675",
+      "auteur": "Nima Shokri",
+      "titre": "Turquie : le pompage des nappes ouvre des dolines dans le grenier à blé",
+      "chapo": "Autour de Konya, au cœur agricole de la Turquie, 684 dolines ont été recensées ; l'irrigation intensive y fragilise un sous-sol calcaire, à quelques jours de la COP31.",
+      "sections": [
+       {
+        "intertitre": "Le déclencheur",
+        "texte": "Sur le plateau anatolien central, l'une des principales régions agricoles de la Turquie (blé, maïs, betterave sucrière), le sol devient de plus en plus instable. De grandes dolines, appelées localement obruks, dont certaines mesurent plusieurs dizaines de mètres de large et de profondeur, sont apparues dans le bassin de Konya. Elles engloutissent des terres agricoles et menacent routes et habitations, parfois dans des champs cultivés depuis des générations. L'autorité turque de gestion des catastrophes et des situations d'urgence (AFAD) en a récemment recensé 684 dans les provinces de Konya, de Karaman et d'Aksaray, et une étude récente évalue à une vingtaine le nombre de nouvelles dolines chaque année. Le phénomène n'est pas nouveau, puisqu'il existe depuis des milliers d'années, mais il est devenu bien plus fréquent ces dernières décennies."
+       },
+       {
+        "intertitre": "Pourquoi le sol s'effondre",
+        "texte": "On met souvent en cause la sécheresse et le changement climatique, mais le pompage intensif des eaux souterraines pour l'agriculture peut aussi accroître le risque d'effondrement. Konya est un bassin endoréique, c'est-à-dire fermé : l'eau qui y entre ne rejoint pas la mer. Les pluies y sont relativement faibles et surtout concentrées en dehors de la principale saison de culture, si bien que les nappes sont devenues indispensables, notamment pour le maïs irrigué, la betterave sucrière et les cultures fourragères. La demande a dépassé le rythme de reconstitution des aquifères : une étude régionale estime la perte annuelle moyenne de stockage à l'équivalent de 3,4 centimètres d'eau. Or la Turquie a connu en 2025 sa sécheresse la plus grave depuis des décennies, ce qui a poussé les agriculteurs à pomper davantage. Le niveau des nappes baisse alors, la pression de l'eau dans les pores et les fractures diminue, et des cavités existantes dans le calcaire, creusées par la karstification, peuvent se déstabiliser."
+       },
+       {
+        "intertitre": "Ce que montrent les mesures",
+        "texte": "Une étude sur la période 2000-2024 relève une forte hausse du rythme de formation, d'environ trois dolines par an entre 2000 et 2010 à 32 par an entre 2016 et 2019, puis un retour à environ 22 par an après 2020, malgré l'épuisement continu des nappes. Une explication possible est que, par endroits, les cavités les plus fragiles se sont déjà effondrées : la formation dépend du nombre de structures instables et pas seulement du volume prélevé. La réaction du sous-sol varie aussi selon la profondeur et la forme des cavités, l'épaisseur des couches qui les surmontent et l'historique des niveaux. S'y ajoute la subsidence, un enfoncement progressif du sol, mesuré par radar satellitaire jusqu'à 90 millimètres par an, qui fissure routes et bâtiments. Le problème est mondial : une analyse, cosignée par l'auteur de l'article, estime que plus de 6,3 millions de kilomètres carrés de terres s'affaissent de plus de 5 millimètres par an, le pompage étant le facteur le plus déterminant."
+       },
+       {
+        "intertitre": "Les pistes et leurs limites",
+        "texte": "La pression sur les nappes est liée à une production agricole orientée vers des marchés établis et des industries de transformation, souvent par des politiques privilégiant des niveaux de production élevés plutôt que les économies d'eau. Limiter les prélèvements sans accompagner les agriculteurs ferait peser sur eux, et sur l'approvisionnement alimentaire, une forte contrainte économique ; mais la poursuite de l'épuisement pourrait saper la production qui fait l'importance de la région. Une irrigation plus efficace ne suffit pas si l'eau économisée sert à étendre les surfaces irriguées. L'auteur évoque un suivi fiable des nappes et des prélèvements, des plafonds contraignants, des incitations adaptées à l'eau disponible et une cartographie des risques géologiques."
+       }
+      ],
+      "synthese": "À Konya, les effondrements résultent d'un sous-sol calcaire fragile que le pompage des nappes, aggravé par la sécheresse, rend plus instable. Selon l'auteur, la Turquie, hôte de la COP31 du 9 au 20 novembre 2026, doit traiter les eaux souterraines comme une ressource finie.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a94"
+     },
+     {
+      "rubrique": "Climat",
+      "source": "Carbon Brief",
+      "date": "2026-11-06",
+      "url": "https://www.carbonbrief.org/analysis-chinas-quarterly-co2-falls-3-in-largest-drop-since-covid",
+      "auteur": "Lauri Myllyvirta",
+      "titre": "Chine : les émissions de CO2 reculent de 3,1 % au troisième trimestre 2026",
+      "chapo": "Selon une analyse pour Carbon Brief, c'est la plus forte baisse trimestrielle depuis les confinements de 2022, portée par le recul du charbon et du pétrole.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Les émissions chinoises de CO2 ont baissé de 3,1 % au troisième trimestre 2026, la crise d'Ormuz continuant de peser sur la demande de pétrole. Pour Lauri Myllyvirta (Centre for Research on Energy and Clean Air), c'est la plus forte baisse trimestrielle depuis 2022, d'après des chiffres officiels et des données commerciales, et le recul atteint 0,5 % depuis le début de l'année. Le charbon recule de 3 % sur un an et le pétrole de 4 %, dans une tendance « stable ou en baisse » observée depuis mars 2024."
+       },
+       {
+        "intertitre": "Les moteurs de la baisse",
+        "texte": "La production d'électricité au charbon a chuté de 3,3 %. Le solaire, l'éolien et le nucléaire ont gagné 110 TWh, plus du double de la hausse de la demande électrique, soit l'équivalent de la production totale de l'Allemagne sur la période. La Chine continue pourtant de construire des centrales à charbon à un rythme proche du record : leur durée moyenne de fonctionnement baisse plus vite que la production, ce qui rogne leurs profits. La consommation de pétrole des transports a reculé de 9 %, les véhicules électriques atteignant en septembre 67 % des ventes de voitures et 50 % de celles de poids lourds ; l'électricité qu'ils consomment a augmenté de 53 %. La carbochimie ralentit, et le ciment et l'acier émettent moins. Reste à savoir si la demande d'énergie, en partie freinée par un temps clément, repartira."
+       }
+      ],
+      "synthese": "Le charbon et le pétrole reculent en Chine, tandis que l'électricité propre progresse plus vite que la demande. L'évolution dépendra de la demande d'énergie, de l'essor du propre et de la réponse au ralentissement.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a108"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-05",
+      "url": "https://www.sciencesetavenir.fr/espace/systeme-solaire/mars-serait-plus-activement-volcanique-que-prevu_195796?xtor=RSS-9",
+      "auteur": "Julien Boughon",
+      "id": "a84",
+      "titre": "Mars : une activité volcanique plus intense que prévue, selon l'atmosphère",
+      "texte": "Une analyse récente de l'atmosphère martienne suggère une activité volcanique plus intense que prévue à la surface de la planète Rouge. Des traces de chlorure d'hydrogène dans la basse atmosphère pourraient provenir de chambres magmatiques actives, ce qui remet en cause l'image d'un environnement planétaire inerte."
+     },
+     {
+      "rubrique": "Sport",
+      "source": "franceinfo Sports",
+      "date": "2026-11-05",
+      "url": "https://www.franceinfo.fr/sports/basket/victor-wembanyama/ou-placer-la-performance-stratospherique-de-victor-wembanyama-dans-l-histoire-de-la-nba_8269256.html#xtor=RSS-3-%5Bgeneral%5D",
+      "auteur": "",
+      "id": "a125",
+      "titre": "Victor Wembanyama : 52 points et 24 rebonds, des records en carrière contre Dallas",
+      "texte": "Mercredi, le Français a livré un match titanesque avec les Spurs de San Antonio, victorieux des Mavericks de Dallas. Il a réalisé plusieurs records en carrière, avec 52 points et 24 rebonds."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-05",
+      "url": "https://www.sciencesetavenir.fr/sante/paludisme-d-aeroport-mortel-a-francfort-des-parasites-importes-d-afrique-par-des-moustiques_195942?xtor=RSS-16",
+      "auteur": "",
+      "id": "a87",
+      "titre": "Paludisme d'aéroport à Francfort : huit personnes infectées par des moustiques",
+      "texte": "Des moustiques anophèles ont introduit à Francfort des parasites du paludisme, qui ont infecté huit personnes avec une forme rare de la maladie, dite « paludisme d'aéroport »."
+     },
+     {
+      "rubrique": "Climat",
+      "source": "Inside Climate News",
+      "date": "2026-11-05",
+      "url": "https://insideclimatenews.org/news/05112026/pennsylvania-hickory-nut-cooking-oil-replacement/",
+      "auteur": "",
+      "id": "a113",
+      "titre": "En Pennsylvanie, des amateurs fabriquent de l'huile à partir du hickory amer",
+      "texte": "Face aux huiles importées d'olive, de colza ou de palme, un réseau de passionnés de durabilité produit de l'huile à partir du hickory amer, une essence native de Pennsylvanie. L'État est l'un des pôles de cette production, en forte croissance."
+     }
+    ]
+   }
+  ],
+  "titres_blocs": {
+   "ia": "IA",
+   "france": "Actualité France",
+   "monde": "Actualité Monde",
+   "recherche": "Recherche & travaux d'experts",
+   "veille": "Veille réglementaire",
+   "curiosites": "Curiosités"
+  },
+  "pages": 0,
+  "sequence": [
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "TechCrunch",
+     "date": "2026-11-05",
+     "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+     "auteur": "Sarah Perez",
+     "titre": "OpenAI se dit prête pour une introduction en Bourse en 2027",
+     "chapo": "Greg Brockman, président d'OpenAI, estime que l'entreprise pourrait être prête pour une introduction en Bourse en 2027, grâce à l'essor de son activité auprès des entreprises.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Lors d'une conférence technologique du Wall Street Journal, mercredi, le cofondateur et président d'OpenAI a répondu « Je pense que oui. Oui. » à la question de savoir si l'entreprise serait prête pour une introduction en Bourse l'an prochain. Il dit ne s'être « jamais senti aussi confiant » dans ce que fait la société."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "Greg Brockman décrit une année 2026 en deux temps. Les premier et deuxième trimestres ont été « plutôt rudes » : OpenAI n'était « même pas dans la conversation » sur le codage par agents, où Claude Code, d'Anthropic, a gagné des parts de marché. Au troisième trimestre, le chiffre d'affaires annualisé a progressé de 70 % sur le trimestre, ce qu'il attribue au doublement de l'activité auprès des entreprises. Ce segment, qui ne pesait qu'environ 30 % du chiffre d'affaires, en fournit désormais la majorité. Le grand public n'a pas reculé, précise-t-il."
+      }
+     ],
+     "synthese": "OpenAI juge possible une introduction en Bourse en 2027, après un redressement attribué à son offre pour les entreprises.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a6"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "TechCrunch",
+     "date": "2026-11-05",
+     "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+     "auteur": "Aisha Malik",
+     "titre": "Claude lance « Personal Finance » pour analyser ses dépenses",
+     "chapo": "Anthropic annonce « Personal Finance », un outil qui permet à Claude d'analyser les comptes bancaires et les cartes de crédit de ses utilisateurs, en lecture seule.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Anthropic a annoncé jeudi un nouvel outil pour Claude, « Personal Finance », conçu pour aider à suivre son argent. Les utilisateurs y connectent leurs comptes bancaires et leurs cartes de crédit via Plaid, puis interrogent Claude. L'accès est en lecture seule : l'outil ne peut ni déplacer, ni gérer, ni investir l'argent. Interrogé sur « Où est passé mon argent ce mois-ci ? », Claude additionne les dépenses et les classe par catégorie (loyer et charges, restauration, achats). Il signale aussi doublons de prélèvement, frais inattendus et factures en hausse régulière, et explique des notions comme l'APR (taux annuel)."
+      },
+      {
+       "intertitre": "Le contexte et les limites",
+       "texte": "Claude rattrape ChatGPT, dont les outils similaires datent de mai. Anthropic précise que Claude n'accède qu'au nom de la banque, au nom et au type de compte, aux quatre derniers chiffres du numéro, aux soldes, aux plafonds de crédit et à deux ans d'historique de transactions. Les conversations dans l'espace Personal Finance ne servent pas à entraîner les modèles. Le déploiement en bêta commence cette semaine pour les abonnés Pro, Max et Ultra aux États-Unis."
+      }
+     ],
+     "synthese": "Anthropic fait de Claude un assistant financier en lecture seule, connecté aux comptes de l'utilisateur. Le déploiement est limité aux États-Unis.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a7"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "TechCrunch",
+     "date": "2026-11-05",
+     "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+     "auteur": "Sarah Perez",
+     "titre": "Meta craint que le rejet des centres de données freine l'IA",
+     "chapo": "Dina Powell McCormick, présidente de Meta, estime que les victoires démocrates aux élections de mi-mandat rendront plus difficile la construction de centres de données.",
+     "sections": [
+      {
+       "intertitre": "Le déclencheur",
+       "texte": "Lors de la conférence WSJ Tech, mercredi, la dirigeante a jugé que l'industrie n'avait « pas assez bien expliqué les bénéfices de ces investissements ». Le rejet des centres de données, enjeu bien présent dans le scrutin, tient selon elle à un malaise plus large : « La manifestation visible de l'IA, c'est un centre de données, et les gens peuvent dire : je n'en veux pas dans ma communauté. » Meta, qui en construit depuis vingt ans, en possède dans 23 États, dont cinq sont prévus à 1 gigawatt ou plus, notamment au Texas. Elle s'attend à ce que ce soit « plus difficile » et à un examen accru des projets."
+      },
+      {
+       "intertitre": "La réponse de Meta",
+       "texte": "Selon elle, les communautés n'acceptent un centre que s'il leur profite. Meta dit payer sa propre électricité, affecter les surplus fiscaux aux enseignants et aux secours, employer une main-d'œuvre locale et rechercher un soutien des deux partis. Elle ajoute que Mark Zuckerberg, PDG, parie sur les humains plus que sur les machines. Meta espère que son agent grand public Muse dépassera ses 10 millions d'utilisateurs actuels. À défaut, la puissance de calcul resterait valorisable : l'entreprise reçoit « des appels chaque jour » pour la louer."
+      }
+     ],
+     "synthese": "Meta anticipe des difficultés accrues pour ses centres de données et mise sur des projets profitables aux communautés. Elle estime que ses investissements seront rentabilisés d'une façon ou d'une autre, notamment par la location de puissance de calcul.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a4"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "auteur": "",
+      "id": "a9",
+      "titre": "Dropbox rachète Tigris Data pour 350 M$ afin de renforcer son infrastructure IA",
+      "texte": "Dropbox acquiert Tigris Data pour 350 millions de dollars. L'opération doit soutenir le développement de DBX Agent Cloud, une nouvelle plateforme de stockage destinée aux développeurs qui conçoivent des modèles et des agents d'IA."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "auteur": "",
+      "id": "a8",
+      "titre": "Axiom Math veut écarter les preuves mathématiques non vérifiées produites par l'IA",
+      "texte": "Face à l'afflux de démonstrations non contrôlées produites par l'IA, la start-up Axiom Math mise sur la vérification formelle. Ses agents d'IA viennent de vérifier formellement le Stacks Project, l'une des plus grandes bibliothèques du domaine."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-05",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+      "auteur": "",
+      "id": "a11",
+      "titre": "Box adopte le modèle Nemotron de Nvidia pour un système de recherche de contenus",
+      "texte": "Ce nouveau système de récupération de contenus, conçu pour les agents, répondrait quatre fois plus vite, avec 20 % d'erreurs en moins et 90 % de jetons en moins, selon les chiffres avancés par l'entreprise."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-06",
+     "url": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/un-nombre-de-procedures-en-croissance-pourquoi-le-parquet-national-antiterroriste-se-saisit-de-plus-en-plus-d-affaires-liees-a-l-ultradroite-radicale-violente_8267705.html#xtor=RSS-3-[lestitres]",
+     "auteur": "Violaine Jaussent",
+     "titre": "Le Pnat face à la hausse des affaires d'ultradroite radicale violente",
+     "chapo": "Deux semaines après l'attentat raciste de Trappes, le procureur antiterroriste Olivier Christen alerte sur une menace en croissance : le Pnat n'a jamais ouvert autant d'enquêtes sur l'ultradroite.",
+     "sections": [
+      {
+       "intertitre": "Le déclencheur",
+       "texte": "Mardi 3 novembre, sur RTL, le procureur national antiterroriste, Olivier Christen, est revenu sur l'attentat raciste du 23 octobre à Trappes et à La Verrière (Yvelines). L'attaque a tué un Français noir de 26 ans, Pengo Bossio Wangi, et blessé sept autres personnes, dont quatre grièvement. Le magistrat a aussi comptabilisé 22 victimes qui n'ont pas été touchées physiquement, mais dont le « véhicule a été touché par des balles » ou qui « ont été visées sans être atteintes ». Selon lui, le nombre de procédures liées à l'ultradroite radicale violente est « en croissance depuis quelques années »."
+      },
+      {
+       "intertitre": "Des chiffres en hausse",
+       "texte": "La menace principale en matière de terrorisme reste « jihadiste », mais celle de l'ultradroite augmente. Entre 2019, date de création du Parquet national antiterroriste (Pnat), et 2024, il y avait « une à deux procédures par an ». Ces deux dernières années, neuf enquêtes en lien avec cette mouvance ont été ouvertes, dont quatre en 2026, un nombre jamais atteint, a appris franceinfo auprès du Pnat, qui n'a pas détaillé les affaires. Depuis sa création, 14 procédures ont été jugées. Le premier procès de terrorisme d'ultradroite, « Waffenkraft », s'est tenu devant une cour d'assises spéciale des mineurs : quatre hommes de la mouvance néonazie ont été condamnés en juin 2023 pour avoir cherché à viser des institutions, des mosquées, une synagogue, la Licra, le Crif ou des figures politiques comme Jean-Luc Mélenchon. Le principal accusé, Alexandre Gilet, ex-gendarme volontaire de 27 ans, a écopé de 18 ans de réclusion criminelle."
+      },
+      {
+       "intertitre": "Le profil du suspect",
+       "texte": "Le principal suspect, Kévin Tessier, 39 ans, a selon le procureur « largement préparé et prémédité les faits, probablement depuis la fin de l'été, début septembre ». Mis en examen et placé en détention provisoire, il a reconnu en garde à vue le caractère raciste de son attaque et avoir visé Trappes, un « repaire d'islamistes » à ses yeux, des termes proches de ceux employés en 2021 par Jordan Bardella, président du RN. Il avait chez lui des objets et des autocollants glorifiant le RN, sans adhérer au parti, a précisé le procureur le 29 octobre. Le Pnat le classe parmi les profils de « l'ultradroite radicale violente », une classification propre à la justice française. L'historien Nicolas Lebourg rappelle que la catégorie a été construite en 1994 par la direction centrale des renseignements généraux pour désigner le segment violent ou potentiellement violent de l'extrême droite."
+      },
+      {
+       "intertitre": "Un terrorisme qui évolue",
+       "texte": "L'ancien procureur Jean-François Ricard (2019-2024) affirme que les autorités ont longtemps empêché les actions de « petits groupes » par des arrestations en amont. La situation a changé : selon Olivier Christen, un « climat de discussions » créant une tension peut convaincre certains que c'est « le bon moment pour passer à l'acte ». Les groupuscules identitaires, environ 350 selon Nicolas Lebourg, sont identifiés ; ce sont les individus isolés, nourris de discours racistes, qui inquiètent le plus le ministre de l'Intérieur, Laurent Nuñez, car ils sont difficiles à détecter. Le cas de Kévin Tessier suit celui de Christophe B., principal suspect de l'attentat du 1er juin 2025 à Puget-sur-Argens (Var), où Hichem Miraoui, un Tunisien de 46 ans, a été tué : pour la première fois, le Pnat s'est saisi d'un homicide lié à l'extrême droite."
+      },
+      {
+       "intertitre": "Les ressorts idéologiques",
+       "texte": "Après les attentats islamistes de 2015, une partie des militants de l'AFO ont estimé qu'il fallait agir, rappelle Nicolas Lebourg, et le Covid-19 a catalysé les sentiments de haine. La mouvance connaît depuis une résurgence sur les réseaux sociaux, où circulent la « remigration » et le « grand remplacement », idée complotiste portée par Renaud Camus. Lebourg qualifie de « postmoderne » cette nouvelle phase, fondée sur les thèses « accélérationnistes » d'une guerre raciale à précipiter, née aux États-Unis. Un documentaire d'Arte, Terrorisme d'ultradroite, montre que le phénomène touche toutes les démocraties occidentales."
+      }
+     ],
+     "synthese": "Le Pnat constate une hausse inédite des procédures visant l'ultradroite radicale violente, quatre enquêtes ayant été ouvertes en 2026. L'attentat de Trappes s'inscrit dans une évolution vers des passages à l'acte d'individus isolés, dans un climat de tension.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a25"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "Public Sénat",
+     "date": "2026-11-05",
+     "url": "https://www.publicsenat.fr/actualites/politique/budget-de-la-secu-le-senat-prevoit-de-voter-le-retour-de-la-reforme-des-retraites-de-2023",
+     "auteur": "",
+     "titre": "Sécu : le Sénat veut rétablir la réforme des retraites de 2023",
+     "chapo": "Le Sénat examinera le budget de la Sécurité sociale du 9 au 18 novembre et sa majorité veut y rétablir la réforme des retraites de 2023.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est prévu",
+       "texte": "Après le rejet du texte par les députés, les sénateurs l'examineront du lundi 9 au mercredi 18 novembre. La majorité de droite et du centre déposera un amendement rétablissant la réforme de 2023, suspendue l'an dernier dans le cadre d'un accord entre le gouvernement et les socialistes. Elle y voit, comme l'avait demandé le candidat LR à la présidentielle Bruno Retailleau, le chemin vers l'équilibre des comptes sociaux : la mesure soulagerait les finances sociales de 600 millions d'euros l'an prochain."
+      },
+      {
+       "intertitre": "Arguments et limites",
+       "texte": "Le rapporteur centriste Olivier Henno veut tenir un déficit de 12,7 milliards d'euros, contre 21,8 milliards prévus en 2026. Selon lui, il faut travailler plus parce que l'on vit plus longtemps et qu'il y a moins d'actifs. La sénatrice LR Marie-Do Aeschlimann chiffre à 10 milliards d'euros le coût de la suppression de la réforme entre 2026 et 2032. Même adoptée au Sénat, la mesure devrait être écartée : sans majorité, le gouvernement devra très probablement recourir au 49.3 ou aux ordonnances."
+      }
+     ],
+     "synthese": "La majorité sénatoriale veut voter un budget de la Sécu conforme à ses convictions, avec le retour de la réforme de 2023. Elle sait toutefois que le gouvernement a de fortes chances de passer outre.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a43"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "france",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-06",
+      "url": "https://www.lemonde.fr/economie/article/2026/11/06/pourquoi-l-inflation-reelle-est-toujours-moins-elevee-que-celle-ressentie-par-les-francais_6807726_3234.html",
+      "auteur": "Béatrice Madeline",
+      "id": "a16",
+      "titre": "Pourquoi l'inflation ressentie dépasse toujours l'inflation réelle",
+      "texte": "L'écart de perception s'explique d'abord par le poids des achats les plus fréquents, notamment l'alimentation et les carburants. Un indicateur statistique reste par ailleurs une moyenne, qui ne peut refléter chaque situation individuelle."
+     },
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-05",
+      "url": "https://www.publicsenat.fr/actualites/politique/sondage-82-des-francais-ne-font-pas-confiance-a-emmanuel-macron-qui-bat-le-record-dimpopularite-de-francois-hollande-a-lelysee",
+      "auteur": "",
+      "id": "a41",
+      "titre": "Macron à 13 % de confiance, un record d'impopularité devant Hollande (Elabe)",
+      "texte": "Selon le dernier baromètre Elabe pour Les Echos, publié jeudi, Emmanuel Macron n'obtient que 13 % de cote de confiance. Il bat ainsi le record d'impopularité détenu à l'Élysée par son prédécesseur socialiste François Hollande. Le titre de l'article indique par ailleurs que 82 % des Français ne lui font pas confiance."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-06",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/06/greve-du-5-novembre-entre-colere-sociale-et-revolte-politique-une-mobilisation-massive-pour-le-pouvoir-d-achat_6807682_823448.html",
+      "auteur": "",
+      "id": "a14",
+      "titre": "Grève du 5 novembre : 575 000 manifestants selon l'Intérieur, 1,6 million selon la CGT",
+      "texte": "Dans toute la France, 193 cortèges ont réuni 1,6 million de manifestants selon la CGT, 575 000 selon le ministère de l'Intérieur. L'appel émanait d'une intersyndicale, associée aux mouvements lycéens et étudiants, aux « gilets jaunes » et aux agriculteurs."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "Monde",
+     "source": "Al Jazeera",
+     "date": "2026-11-06",
+     "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions?traffic_source=rss",
+     "auteur": "Nils Adler",
+     "titre": "Ormuz : pourquoi l'Iran exempte l'Inde, la Chine, le Qatar et l'Irak",
+     "chapo": "Selon un député iranien, les navires indiens, chinois, irakiens et qataris sont exemptés des restrictions à Ormuz ; reste à savoir si le blocus américain les laissera passer.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Amir Hayat Moqaddam, vice-président de la commission de la sécurité nationale et de la politique étrangère du Parlement iranien, a déclaré mardi à l'agence ISNA que les navires de ces quatre pays passent librement et que les Américains ne les interceptent pas non plus. L'Iran avait fermé le détroit au début de la guerre menée contre lui par les États-Unis et Israël, commencée le 28 février, et les États-Unis ont rétabli en juillet un blocus naval de ses ports du sud. L'annonce n'est pas entièrement nouvelle : l'Irak avait été déclaré exempté en avril."
+      },
+      {
+       "intertitre": "Les contreparties et les intérêts",
+       "texte": "Selon le député, l'Iran recevra des médicaments de l'Inde et un soutien politique de la Chine, et percevra des droits de transit sur les navires indiens et chinois, tandis que les navires qataris passent gratuitement ; il n'a pas dit si les Irakiens paieront. Le Qatar, qui mène la médiation pour mettre fin à la guerre, apporte déjà son appui diplomatique. Pour l'analyste en sécurité Wolfgang Pusztai, c'est un coup habile : la Chine achète près de 90 % du pétrole exporté par l'Iran, et inclure le Qatar, aux nombreux acheteurs de gaz naturel liquéfié (GNL), et l'Inde viserait à saper l'adhésion à la stratégie de Washington. Ces quatre pays dépendent fortement du détroit : sur les 10,23 millions de barils par jour de brut du Golfe qui y ont transité en octobre, environ 42 % sont allés en Chine et 13 % en Inde, selon Kpler."
+      },
+      {
+       "intertitre": "Le blocus américain, obstacle principal",
+       "texte": "Le Commandement central américain (CENTCOM) a indiqué que le blocus s'applique à tous les navires de toutes les nations entrant ou sortant des zones côtières et ports iraniens, mais pas à ceux qui évitent les ports iraniens ; les cargaisons humanitaires, dont nourriture et fournitures médicales, peuvent passer après inspection. Pour Pusztai, si l'exemption ne se limite pas aux échanges avec les autres États du Golfe, le blocus deviendrait plus difficile à maintenir et moins efficace, à condition que Washington l'accepte. Lever le blocus figure parmi les exigences de Téhéran avant des négociations plus larges, qui incluraient son programme nucléaire ; les discussions menées sous médiation qatarie portent sur une proposition iranienne de rouvrir le détroit si les États-Unis remplissent sept conditions, dont celle-ci et la levée des sanctions."
+      },
+      {
+       "intertitre": "Les risques et les effets sur les marchés",
+       "texte": "Pour Rouzbeh Parsi, de l'université de Lund, la Chine peut mieux que quiconque contrarier les intérêts américains, reste à savoir si elle en juge le coût politique acceptable ; l'Inde et le Qatar, déçus par Donald Trump, veulent garder leurs liens avec Washington. Chris Beauchamp, d'IG Group, juge leur effet limité sur les marchés, tournés vers un accord de paix. L'exemption ne garantit pas la sécurité : le 30 octobre, le méthanier qatari Al Mayeda a été frappé par des « objets non identifiés », et plus de 120 navires commerciaux ont été touchés dans la région depuis le début de la guerre, octobre étant le pire mois, selon l'OMI et l'UKMTO."
+      }
+     ],
+     "synthese": "L'Iran échange un passage libre à Ormuz contre des biens, des droits de transit et des appuis politiques, mais l'efficacité de ces exemptions dépend de la réaction de Washington et de la sécurité réelle des navires. Pour l'instant, les marchés y voient peu de différence.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a67"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "Monde",
+     "source": "Al Jazeera",
+     "date": "2026-11-06",
+     "url": "https://www.aljazeera.com/news/2026/11/6/israeli-settlers-seize-8-palestinian-homes-in-jericho-displacing-dozens?traffic_source=rss",
+     "auteur": "",
+     "titre": "Cisjordanie : des colons s'emparent de huit maisons palestiniennes à Jéricho",
+     "chapo": "L'ONU condamne la prise de huit maisons palestiniennes par des colons israéliens à Jéricho, qui a fait fuir des dizaines de personnes.",
+     "sections": [
+      {
+       "intertitre": "Ce qui s'est passé",
+       "texte": "Mercredi après-midi, une trentaine de colons, selon l'organisation Peace Now, ont investi huit maisons d'Ein a-Duyuk a-Tahta, en périphérie de Jéricho. Le porte-parole de l'ONU Stéphane Dujarric affirme qu'ils auraient utilisé des munitions réelles, agressé des habitants et jeté des pierres, poussant des familles à fuir. Selon Peace Now, deux militants israéliens ont été agressés et dépouillés, et un Palestinien blessé à la jambe par balle. L'armée a déclaré la zone fermée, empêchant les humanitaires d'atteindre les déplacés, dont certains manquent d'abri."
+      },
+      {
+       "intertitre": "Une propriété contestée",
+       "texte": "Les colons disent avoir acheté légalement les maisons, via l'organisation Nachala. Le gouverneur de Jéricho, Hussein Hamayel, répond que la terre appartient à l'Autorité palestinienne, qu'elle ne peut être vendue et que les actes de vente sont des faux. Située en zone C, sous contrôle israélien depuis les accords d'Oslo, elle fait partie d'une Cisjordanie où plus de 500 000 Israéliens vivent dans des colonies, illégales au regard du droit international."
+      }
+     ],
+     "synthese": "L'ONU condamne des violences de colons qui ont déplacé des familles, tandis que la propriété des maisons est contestée. Les habitants craignent de nouvelles attaques.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a73"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "monde",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-06",
+      "url": "https://www.scmp.com/news/china/article/3373493/eu-china-trade-truce-under-strain-both-sides-brace-potential-trade-war",
+      "auteur": "Finbarr Bermingham",
+      "id": "a55",
+      "titre": "UE-Chine : trêve commerciale fragile, chacun se prépare à une guerre commerciale",
+      "texte": "Quelques semaines après un accord destiné à écarter une guerre commerciale, l'UE et la Chine restent en désaccord sur la nature de leur relation, sur les moyens de la corriger et sur les responsabilités. Des menaces ont été échangées à Bruxelles, et les deux parties continuent de se préparer à un conflit commercial."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-06",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3373448/us-and-brazil-deliver-double-blow-populist-right-will-europe-feel-impact",
+      "auteur": "Khushboo Razdan",
+      "id": "a56",
+      "titre": "Brésil et États-Unis : deux revers pour la droite populiste en une dizaine de jours",
+      "texte": "En une dizaine de jours, deux grandes démocraties des Amériques ont infligé des revers à la droite populiste. Au Brésil, Luiz Inácio Lula da Silva l'a emporté de justesse au second tour contre Flávio Bolsonaro, fils de l'ancien président Jair Bolsonaro, après avoir été devancé au premier tour. Aux États-Unis, les électeurs ont confié aux démocrates le contrôle des deux chambres du Congrès, un net désaveu pour des candidats qui misaient sur Donald Trump."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-06",
+      "url": "https://www.scmp.com/news/china/politics/article/3373519/new-anti-corruption-law-arms-beijing-expansive-global-enforcement-powers",
+      "auteur": "William Zheng",
+      "id": "a52",
+      "titre": "Pékin se dote d'une loi contre la corruption transfrontalière aux pouvoirs étendus",
+      "texte": "Le Comité permanent de l'Assemblée populaire nationale a adopté vendredi une loi visant la corruption transfrontalière, en vigueur immédiatement selon l'agence Xinhua. Elle donne à Pékin de larges moyens de poursuivre des avoirs illicites à l'étranger et de contrer les tentatives étrangères d'enquêter sur des faits commis en Chine."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "RGPD",
+     "source": "CNIL",
+     "date": "2026-11-05",
+     "url": "https://www.cnil.fr/fr/rejeu-de-session-recommandation",
+     "auteur": "",
+     "titre": "Rejeu de session : la CNIL publie sa recommandation sur ces outils de suivi",
+     "chapo": "La CNIL publie une recommandation pour aider les fournisseurs et les utilisateurs d'outils de rejeu de session à se mettre en conformité avec le droit des données personnelles.",
+     "sections": [
+      {
+       "intertitre": "Les enjeux",
+       "texte": "Les outils de rejeu de session fonctionnent avec des traceurs et reconstituent le parcours complet d'un internaute sur un site web ou une application mobile. Ils servent à détecter et corriger des dysfonctionnements ou à optimiser la structure et l'ergonomie d'un service. Ils peuvent enregistrer mouvements de souris, interactions tactiles, clics, défilement des pages et, parfois, saisies dans les formulaires, analysés ensuite sous forme de vidéos. La CNIL y voit des risques élevés d'atteinte à la vie privée, notamment la collecte de données personnelles non nécessaires à l'analyse recherchée."
+      },
+      {
+       "intertitre": "Qui est concerné et pourquoi",
+       "texte": "La recommandation s'adresse aux fournisseurs de ces outils, qui conçoivent les solutions et définissent paramétrages et fonctionnalités, et aux éditeurs de sites ou d'applications qui les déploient. Elle les aide à respecter le principe de minimisation des données, à déterminer les conditions de déploiement, à informer les personnes et à recueillir leur consentement, et propose des mesures techniques et organisationnelles."
+      },
+      {
+       "intertitre": "Ce que dit la recommandation",
+       "texte": "Ces outils relèvent de l'article 82 de la loi Informatique et Libertés et exigent le consentement préalable, aucune exemption de cet article ne s'appliquant ; le recueil suit les règles déjà fixées pour les cookies. Les finalités doivent être déterminées, explicites et légitimes, et fixées avant le déploiement, non après la collecte. La CNIL souligne l'importance d'un outil de masquage occultant les données non pertinentes, de limiter le nombre de sessions collectées selon les finalités et de limiter le recours aux identifiants."
+      },
+      {
+       "intertitre": "Les ajouts après la consultation",
+       "texte": "Après des échanges avec des professionnels et des associations, puis une consultation publique de février à mai 2026, la version finale précise le contenu de l'information, distingue les deux niveaux des interfaces de consentement et prévoit une information spécifique dès le premier niveau. Elle recommande de masquer les mouvements de souris dans certaines zones pour éviter la collecte de codes d'authentification, et de masquer le contenu des discussions avec les chatbots, qui peuvent révéler des données sensibles. La CNIL accompagnera les professionnels, notamment par un webinaire."
+      }
+     ],
+     "synthese": "La CNIL encadre des outils de rejeu de session soumis au consentement préalable, avec des finalités fixées d'avance et des mesures de masquage et de limitation. Sa version finale, enrichie par la consultation, vise à aider fournisseurs et éditeurs à se conformer.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a83"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "veille",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "RGPD",
+      "source": "CNIL",
+      "date": "2026-11-05",
+      "url": "https://www.cnil.fr/fr/rejeu-de-session-vos-droits",
+      "auteur": "",
+      "id": "a82",
+      "titre": "Rejeu de session : les outils qui enregistrent votre activité en ligne",
+      "texte": "Ces outils peuvent enregistrer vos actions lorsque vous naviguez sur Internet ou utilisez une application mobile. Le texte de la CNIL aborde leur finalité et les droits des personnes concernées."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Idées",
+     "source": "The Conversation",
+     "date": "2026-11-05",
+     "url": "https://theconversation.com/avant-la-cop31-la-turquie-face-aux-trous-deau-geants-qui-souvrent-dans-ses-champs-de-cereales-295675",
+     "auteur": "Nima Shokri",
+     "titre": "Turquie : le pompage des nappes ouvre des dolines dans le grenier à blé",
+     "chapo": "Autour de Konya, au cœur agricole de la Turquie, 684 dolines ont été recensées ; l'irrigation intensive y fragilise un sous-sol calcaire, à quelques jours de la COP31.",
+     "sections": [
+      {
+       "intertitre": "Le déclencheur",
+       "texte": "Sur le plateau anatolien central, l'une des principales régions agricoles de la Turquie (blé, maïs, betterave sucrière), le sol devient de plus en plus instable. De grandes dolines, appelées localement obruks, dont certaines mesurent plusieurs dizaines de mètres de large et de profondeur, sont apparues dans le bassin de Konya. Elles engloutissent des terres agricoles et menacent routes et habitations, parfois dans des champs cultivés depuis des générations. L'autorité turque de gestion des catastrophes et des situations d'urgence (AFAD) en a récemment recensé 684 dans les provinces de Konya, de Karaman et d'Aksaray, et une étude récente évalue à une vingtaine le nombre de nouvelles dolines chaque année. Le phénomène n'est pas nouveau, puisqu'il existe depuis des milliers d'années, mais il est devenu bien plus fréquent ces dernières décennies."
+      },
+      {
+       "intertitre": "Pourquoi le sol s'effondre",
+       "texte": "On met souvent en cause la sécheresse et le changement climatique, mais le pompage intensif des eaux souterraines pour l'agriculture peut aussi accroître le risque d'effondrement. Konya est un bassin endoréique, c'est-à-dire fermé : l'eau qui y entre ne rejoint pas la mer. Les pluies y sont relativement faibles et surtout concentrées en dehors de la principale saison de culture, si bien que les nappes sont devenues indispensables, notamment pour le maïs irrigué, la betterave sucrière et les cultures fourragères. La demande a dépassé le rythme de reconstitution des aquifères : une étude régionale estime la perte annuelle moyenne de stockage à l'équivalent de 3,4 centimètres d'eau. Or la Turquie a connu en 2025 sa sécheresse la plus grave depuis des décennies, ce qui a poussé les agriculteurs à pomper davantage. Le niveau des nappes baisse alors, la pression de l'eau dans les pores et les fractures diminue, et des cavités existantes dans le calcaire, creusées par la karstification, peuvent se déstabiliser."
+      },
+      {
+       "intertitre": "Ce que montrent les mesures",
+       "texte": "Une étude sur la période 2000-2024 relève une forte hausse du rythme de formation, d'environ trois dolines par an entre 2000 et 2010 à 32 par an entre 2016 et 2019, puis un retour à environ 22 par an après 2020, malgré l'épuisement continu des nappes. Une explication possible est que, par endroits, les cavités les plus fragiles se sont déjà effondrées : la formation dépend du nombre de structures instables et pas seulement du volume prélevé. La réaction du sous-sol varie aussi selon la profondeur et la forme des cavités, l'épaisseur des couches qui les surmontent et l'historique des niveaux. S'y ajoute la subsidence, un enfoncement progressif du sol, mesuré par radar satellitaire jusqu'à 90 millimètres par an, qui fissure routes et bâtiments. Le problème est mondial : une analyse, cosignée par l'auteur de l'article, estime que plus de 6,3 millions de kilomètres carrés de terres s'affaissent de plus de 5 millimètres par an, le pompage étant le facteur le plus déterminant."
+      },
+      {
+       "intertitre": "Les pistes et leurs limites",
+       "texte": "La pression sur les nappes est liée à une production agricole orientée vers des marchés établis et des industries de transformation, souvent par des politiques privilégiant des niveaux de production élevés plutôt que les économies d'eau. Limiter les prélèvements sans accompagner les agriculteurs ferait peser sur eux, et sur l'approvisionnement alimentaire, une forte contrainte économique ; mais la poursuite de l'épuisement pourrait saper la production qui fait l'importance de la région. Une irrigation plus efficace ne suffit pas si l'eau économisée sert à étendre les surfaces irriguées. L'auteur évoque un suivi fiable des nappes et des prélèvements, des plafonds contraignants, des incitations adaptées à l'eau disponible et une cartographie des risques géologiques."
+      }
+     ],
+     "synthese": "À Konya, les effondrements résultent d'un sous-sol calcaire fragile que le pompage des nappes, aggravé par la sécheresse, rend plus instable. Selon l'auteur, la Turquie, hôte de la COP31 du 9 au 20 novembre 2026, doit traiter les eaux souterraines comme une ressource finie.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a94"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Climat",
+     "source": "Carbon Brief",
+     "date": "2026-11-06",
+     "url": "https://www.carbonbrief.org/analysis-chinas-quarterly-co2-falls-3-in-largest-drop-since-covid",
+     "auteur": "Lauri Myllyvirta",
+     "titre": "Chine : les émissions de CO2 reculent de 3,1 % au troisième trimestre 2026",
+     "chapo": "Selon une analyse pour Carbon Brief, c'est la plus forte baisse trimestrielle depuis les confinements de 2022, portée par le recul du charbon et du pétrole.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Les émissions chinoises de CO2 ont baissé de 3,1 % au troisième trimestre 2026, la crise d'Ormuz continuant de peser sur la demande de pétrole. Pour Lauri Myllyvirta (Centre for Research on Energy and Clean Air), c'est la plus forte baisse trimestrielle depuis 2022, d'après des chiffres officiels et des données commerciales, et le recul atteint 0,5 % depuis le début de l'année. Le charbon recule de 3 % sur un an et le pétrole de 4 %, dans une tendance « stable ou en baisse » observée depuis mars 2024."
+      },
+      {
+       "intertitre": "Les moteurs de la baisse",
+       "texte": "La production d'électricité au charbon a chuté de 3,3 %. Le solaire, l'éolien et le nucléaire ont gagné 110 TWh, plus du double de la hausse de la demande électrique, soit l'équivalent de la production totale de l'Allemagne sur la période. La Chine continue pourtant de construire des centrales à charbon à un rythme proche du record : leur durée moyenne de fonctionnement baisse plus vite que la production, ce qui rogne leurs profits. La consommation de pétrole des transports a reculé de 9 %, les véhicules électriques atteignant en septembre 67 % des ventes de voitures et 50 % de celles de poids lourds ; l'électricité qu'ils consomment a augmenté de 53 %. La carbochimie ralentit, et le ciment et l'acier émettent moins. Reste à savoir si la demande d'énergie, en partie freinée par un temps clément, repartira."
+      }
+     ],
+     "synthese": "Le charbon et le pétrole reculent en Chine, tandis que l'électricité propre progresse plus vite que la demande. L'évolution dépendra de la demande d'énergie, de l'essor du propre et de la réponse au ralentissement.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a108"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-05",
+      "url": "https://www.sciencesetavenir.fr/espace/systeme-solaire/mars-serait-plus-activement-volcanique-que-prevu_195796?xtor=RSS-9",
+      "auteur": "Julien Boughon",
+      "id": "a84",
+      "titre": "Mars : une activité volcanique plus intense que prévue, selon l'atmosphère",
+      "texte": "Une analyse récente de l'atmosphère martienne suggère une activité volcanique plus intense que prévue à la surface de la planète Rouge. Des traces de chlorure d'hydrogène dans la basse atmosphère pourraient provenir de chambres magmatiques actives, ce qui remet en cause l'image d'un environnement planétaire inerte."
+     },
+     {
+      "rubrique": "Sport",
+      "source": "franceinfo Sports",
+      "date": "2026-11-05",
+      "url": "https://www.franceinfo.fr/sports/basket/victor-wembanyama/ou-placer-la-performance-stratospherique-de-victor-wembanyama-dans-l-histoire-de-la-nba_8269256.html#xtor=RSS-3-%5Bgeneral%5D",
+      "auteur": "",
+      "id": "a125",
+      "titre": "Victor Wembanyama : 52 points et 24 rebonds, des records en carrière contre Dallas",
+      "texte": "Mercredi, le Français a livré un match titanesque avec les Spurs de San Antonio, victorieux des Mavericks de Dallas. Il a réalisé plusieurs records en carrière, avec 52 points et 24 rebonds."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-05",
+      "url": "https://www.sciencesetavenir.fr/sante/paludisme-d-aeroport-mortel-a-francfort-des-parasites-importes-d-afrique-par-des-moustiques_195942?xtor=RSS-16",
+      "auteur": "",
+      "id": "a87",
+      "titre": "Paludisme d'aéroport à Francfort : huit personnes infectées par des moustiques",
+      "texte": "Des moustiques anophèles ont introduit à Francfort des parasites du paludisme, qui ont infecté huit personnes avec une forme rare de la maladie, dite « paludisme d'aéroport »."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Climat",
+      "source": "Inside Climate News",
+      "date": "2026-11-05",
+      "url": "https://insideclimatenews.org/news/05112026/pennsylvania-hickory-nut-cooking-oil-replacement/",
+      "auteur": "",
+      "id": "a113",
+      "titre": "En Pennsylvanie, des amateurs fabriquent de l'huile à partir du hickory amer",
+      "texte": "Face aux huiles importées d'olive, de colza ou de palme, un réseau de passionnés de durabilité produit de l'huile à partir du hickory amer, une essence native de Pennsylvanie. L'État est l'un des pôles de cette production, en forte croissance."
+     }
+    ]
+   },
+   {
+    "type": "solutions",
+    "bloc": "",
+    "taille": 1
+   }
+  ],
+  "jeux": {
+   "sudoku": {
+    "grille": [
+     5,
+     0,
+     9,
+     0,
+     0,
+     0,
+     0,
+     0,
+     6,
+     6,
+     1,
+     0,
+     9,
+     0,
+     0,
+     4,
+     0,
+     0,
+     0,
+     7,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3,
+     0,
+     8,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     4,
+     0,
+     8,
+     5,
+     0,
+     4,
+     0,
+     0,
+     0,
+     7,
+     0,
+     0,
+     0,
+     9,
+     2,
+     0,
+     0,
+     6,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     4,
+     0,
+     5,
+     9,
+     7,
+     0,
+     0,
+     0,
+     9,
+     5,
+     0,
+     0,
+     4,
+     0,
+     0,
+     0
+    ],
+    "solution": [
+     5,
+     4,
+     9,
+     7,
+     3,
+     1,
+     2,
+     8,
+     6,
+     6,
+     1,
+     3,
+     9,
+     2,
+     8,
+     4,
+     7,
+     5,
+     8,
+     7,
+     2,
+     4,
+     6,
+     5,
+     9,
+     1,
+     3,
+     3,
+     8,
+     7,
+     5,
+     9,
+     2,
+     6,
+     4,
+     1,
+     9,
+     2,
+     6,
+     1,
+     4,
+     3,
+     8,
+     5,
+     7,
+     4,
+     5,
+     1,
+     8,
+     7,
+     6,
+     3,
+     2,
+     9,
+     2,
+     3,
+     8,
+     6,
+     1,
+     7,
+     5,
+     9,
+     4,
+     1,
+     6,
+     4,
+     2,
+     5,
+     9,
+     7,
+     3,
+     8,
+     7,
+     9,
+     5,
+     3,
+     8,
+     4,
+     1,
+     6,
+     2
+    ]
+   },
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "indices": [
+     [
+      7,
+      0,
+      9
+     ],
+     [
+      5,
+      1,
+      12
+     ],
+     [
+      3,
+      4,
+      12
+     ],
+     [
+      0,
+      5,
+      2
+     ],
+     [
+      0,
+      6,
+      6
+     ],
+     [
+      1,
+      7,
+      12
+     ],
+     [
+      0,
+      9,
+      6
+     ],
+     [
+      7,
+      5,
+      8
+     ],
+     [
+      6,
+      4,
+      4
+     ],
+     [
+      8,
+      6,
+      9
+     ],
+     [
+      7,
+      9,
+      3
+     ],
+     [
+      8,
+      1,
+      8
+     ],
+     [
+      9,
+      0,
+      3
+     ],
+     [
+      9,
+      3,
+      2
+     ],
+     [
+      9,
+      7,
+      2
+     ],
+     [
+      9,
+      8,
+      2
+     ]
+    ],
+    "rectangles": [
+     [
+      0,
+      0,
+      9,
+      1
+     ],
+     [
+      0,
+      1,
+      6,
+      2
+     ],
+     [
+      0,
+      3,
+      6,
+      2
+     ],
+     [
+      0,
+      5,
+      2,
+      1
+     ],
+     [
+      0,
+      6,
+      6,
+      1
+     ],
+     [
+      0,
+      7,
+      6,
+      2
+     ],
+     [
+      0,
+      9,
+      6,
+      1
+     ],
+     [
+      2,
+      5,
+      8,
+      1
+     ],
+     [
+      6,
+      1,
+      1,
+      4
+     ],
+     [
+      6,
+      6,
+      3,
+      3
+     ],
+     [
+      6,
+      9,
+      3,
+      1
+     ],
+     [
+      7,
+      1,
+      2,
+      4
+     ],
+     [
+      9,
+      0,
+      1,
+      3
+     ],
+     [
+      9,
+      3,
+      1,
+      2
+     ],
+     [
+      9,
+      6,
+      1,
+      2
+     ],
+     [
+      9,
+      8,
+      1,
+      2
+     ]
+    ]
+   },
+   "futoshiki": {
+    "n": 6,
+    "donnes": [
+     [
+      3,
+      0,
+      3
+     ],
+     [
+      2,
+      5,
+      2
+     ],
+     [
+      2,
+      1,
+      3
+     ],
+     [
+      4,
+      5,
+      4
+     ]
+    ],
+    "signes": [
+     [
+      [
+       1,
+       5
+      ],
+      [
+       0,
+       5
+      ]
+     ],
+     [
+      [
+       3,
+       5
+      ],
+      [
+       3,
+       4
+      ]
+     ],
+     [
+      [
+       5,
+       3
+      ],
+      [
+       4,
+       3
+      ]
+     ],
+     [
+      [
+       1,
+       4
+      ],
+      [
+       1,
+       5
+      ]
+     ],
+     [
+      [
+       2,
+       0
+      ],
+      [
+       3,
+       0
+      ]
+     ],
+     [
+      [
+       4,
+       2
+      ],
+      [
+       3,
+       2
+      ]
+     ],
+     [
+      [
+       0,
+       2
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     [
+      [
+       5,
+       2
+      ],
+      [
+       5,
+       3
+      ]
+     ],
+     [
+      [
+       0,
+       3
+      ],
+      [
+       0,
+       4
+      ]
+     ],
+     [
+      [
+       1,
+       1
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     [
+      [
+       4,
+       0
+      ],
+      [
+       3,
+       0
+      ]
+     ],
+     [
+      [
+       4,
+       4
+      ],
+      [
+       4,
+       3
+      ]
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ]
+     ],
+     [
+      [
+       4,
+       1
+      ],
+      [
+       5,
+       1
+      ]
+     ],
+     [
+      [
+       1,
+       2
+      ],
+      [
+       1,
+       1
+      ]
+     ],
+     [
+      [
+       3,
+       2
+      ],
+      [
+       3,
+       1
+      ]
+     ]
+    ],
+    "solution": [
+     [
+      5,
+      4,
+      2,
+      1,
+      3,
+      6
+     ],
+     [
+      6,
+      5,
+      4,
+      2,
+      1,
+      3
+     ],
+     [
+      1,
+      3,
+      6,
+      5,
+      4,
+      2
+     ],
+     [
+      3,
+      6,
+      5,
+      4,
+      2,
+      1
+     ],
+     [
+      2,
+      1,
+      3,
+      6,
+      5,
+      4
+     ],
+     [
+      4,
+      2,
+      1,
+      3,
+      6,
+      5
+     ]
+    ]
+   },
+   "compte": {
+    "plaques": [
+     6,
+     1,
+     25,
+     10,
+     100,
+     2
+    ],
+    "cible": 129,
+    "solution": [
+     "6 + 100 = 106",
+     "106 + 25 = 131",
+     "131 × 1 = 131",
+     "131 − 2 = 129"
+    ]
+   }
+  },
+  "quiz": [],
+  "solutions_hier": {
+   "sudoku": [
+    6,
+    9,
+    1,
+    3,
+    7,
+    2,
+    4,
+    5,
+    8,
+    8,
+    3,
+    5,
+    9,
+    1,
+    4,
+    6,
+    7,
+    2,
+    2,
+    4,
+    7,
+    6,
+    5,
+    8,
+    1,
+    3,
+    9,
+    9,
+    2,
+    6,
+    1,
+    4,
+    3,
+    5,
+    8,
+    7,
+    1,
+    7,
+    8,
+    2,
+    9,
+    5,
+    3,
+    4,
+    6,
+    4,
+    5,
+    3,
+    8,
+    6,
+    7,
+    9,
+    2,
+    1,
+    5,
+    6,
+    4,
+    7,
+    8,
+    9,
+    2,
+    1,
+    3,
+    7,
+    1,
+    2,
+    5,
+    3,
+    6,
+    8,
+    9,
+    4,
+    3,
+    8,
+    9,
+    4,
+    2,
+    1,
+    7,
+    6,
+    5
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      5,
+      2
+     ],
+     [
+      0,
+      2,
+      10,
+      1
+     ],
+     [
+      0,
+      3,
+      4,
+      3
+     ],
+     [
+      0,
+      6,
+      3,
+      4
+     ],
+     [
+      3,
+      6,
+      3,
+      2
+     ],
+     [
+      3,
+      8,
+      3,
+      2
+     ],
+     [
+      4,
+      3,
+      4,
+      3
+     ],
+     [
+      5,
+      0,
+      5,
+      1
+     ],
+     [
+      5,
+      1,
+      3,
+      1
+     ],
+     [
+      6,
+      6,
+      2,
+      2
+     ],
+     [
+      6,
+      8,
+      4,
+      1
+     ],
+     [
+      6,
+      9,
+      4,
+      1
+     ],
+     [
+      8,
+      1,
+      2,
+      1
+     ],
+     [
+      8,
+      3,
+      1,
+      2
+     ],
+     [
+      8,
+      5,
+      1,
+      3
+     ],
+     [
+      9,
+      3,
+      1,
+      4
+     ],
+     [
+      9,
+      7,
+      1,
+      1
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     3,
+     5,
+     4,
+     6,
+     2,
+     1
+    ],
+    [
+     5,
+     1,
+     6,
+     2,
+     4,
+     3
+    ],
+    [
+     4,
+     6,
+     5,
+     1,
+     3,
+     2
+    ],
+    [
+     6,
+     2,
+     1,
+     3,
+     5,
+     4
+    ],
+    [
+     1,
+     3,
+     2,
+     4,
+     6,
+     5
+    ],
+    [
+     2,
+     4,
+     3,
+     5,
+     1,
+     6
+    ]
+   ],
+   "compte": [
+    "1 × 2 = 2",
+    "2 + 2 = 4",
+    "4 + 6 = 10",
+    "10 + 5 = 15",
+    "15 × 9 = 135"
+   ],
+   "quiz": []
+  },
+  "avertissements": [
+   "Flux indisponibles : The Decoder, Google DeepMind, Google Research, Hugging Face, Ars Technica, NPR, Politico Europe, BCE (documents de travail), BCE (Research Bulletin), BRI (documents de travail), Réserve fédérale (FEDS Notes), Réserve fédérale (documents de travail), NBER, Pew Research Center, Verfassungsblog, European Law Blog, PLOS Medicine, PLOS Climate, Nature Climate Change, ESO, Terence Tao, AMS Feature Column, EDPB, Covington Inside Privacy, Covington Global Policy Watch, Commission européenne (numérique), Steptoe International Compliance, Village de la Justice, NIS 2, Anti-corruption, Sanctions UE, OFAC, Contrôle des exportations, LCB-FT, CSRD et CSDDD, ESA, TrainingPeaks"
+  ],
+  "indisponibles": [],
+  "non_rediges": {}
+ },
+ "memoire": {
+  "date": "2026-11-06",
+  "nouveaux_mots": [
+   {
+    "mot": "Tenace",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui ne cède pas, persévère ; qui adhère ou persiste fortement.",
+    "exemple": "Une rumeur tenace circulait depuis des semaines."
+   },
+   {
+    "mot": "Morose",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Triste et maussade ; sans entrain.",
+    "exemple": "Le marché reste morose depuis la rentrée."
+   },
+   {
+    "mot": "Ergoter",
+    "nature": "v. intr.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Chicaner sur des détails, contester pour des riens.",
+    "exemple": "Inutile d'ergoter sur une virgule."
+   },
+   {
+    "mot": "Astreinte",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "pro",
+    "definition": "Condamnation à payer une somme par jour de retard dans l'exécution d'une obligation.",
+    "exemple": "Le juge a assorti l'injonction d'une astreinte de 500 euros par jour."
+   },
+   {
+    "mot": "Pantagruélique",
+    "nature": "adj.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Digne de Pantagruel : énorme, gargantuesque (surtout pour un repas).",
+    "exemple": "Un festin pantagruélique clôtura la fête."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Vindicatif",
+    "definition": "Porté à la vengeance."
+   },
+   {
+    "mot": "Tributaire",
+    "definition": "Qui dépend de quelque chose ou de quelqu'un."
+   },
+   {
+    "mot": "Acédie",
+    "definition": "Torpeur de l'âme, dégoût mélancolique pour l'effort et la vie spirituelle."
+   },
+   {
+    "mot": "Ineffable",
+    "definition": "Qui ne peut être exprimé par des mots, tant il est intense ou subtil."
+   },
+   {
+    "mot": "Fuligineux",
+    "definition": "Qui a la couleur ou l'aspect de la suie ; au figuré, obscur, confus."
+   }
+  ],
+  "articles": [
+   "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+   "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+   "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+   "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+   "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+   "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+   "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/un-nombre-de-procedures-en-croissance-pourquoi-le-parquet-national-antiterroriste-se-saisit-de-plus-en-plus-d-affaires-liees-a-l-ultradroite-radicale-violente_8267705.html#xtor=RSS-3-[lestitres]",
+   "https://www.publicsenat.fr/actualites/politique/budget-de-la-secu-le-senat-prevoit-de-voter-le-retour-de-la-reforme-des-retraites-de-2023",
+   "https://www.lemonde.fr/economie/article/2026/11/06/pourquoi-l-inflation-reelle-est-toujours-moins-elevee-que-celle-ressentie-par-les-francais_6807726_3234.html",
+   "https://www.publicsenat.fr/actualites/politique/sondage-82-des-francais-ne-font-pas-confiance-a-emmanuel-macron-qui-bat-le-record-dimpopularite-de-francois-hollande-a-lelysee",
+   "https://www.lemonde.fr/politique/article/2026/11/06/greve-du-5-novembre-entre-colere-sociale-et-revolte-politique-une-mobilisation-massive-pour-le-pouvoir-d-achat_6807682_823448.html",
+   "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions?traffic_source=rss",
+   "https://www.aljazeera.com/news/2026/11/6/israeli-settlers-seize-8-palestinian-homes-in-jericho-displacing-dozens?traffic_source=rss",
+   "https://www.scmp.com/news/china/article/3373493/eu-china-trade-truce-under-strain-both-sides-brace-potential-trade-war",
+   "https://www.scmp.com/news/china/diplomacy/article/3373448/us-and-brazil-deliver-double-blow-populist-right-will-europe-feel-impact",
+   "https://www.scmp.com/news/china/politics/article/3373519/new-anti-corruption-law-arms-beijing-expansive-global-enforcement-powers",
+   "https://www.cnil.fr/fr/rejeu-de-session-recommandation",
+   "https://www.cnil.fr/fr/rejeu-de-session-vos-droits",
+   "https://theconversation.com/avant-la-cop31-la-turquie-face-aux-trous-deau-geants-qui-souvrent-dans-ses-champs-de-cereales-295675",
+   "https://www.carbonbrief.org/analysis-chinas-quarterly-co2-falls-3-in-largest-drop-since-covid",
+   "https://www.sciencesetavenir.fr/espace/systeme-solaire/mars-serait-plus-activement-volcanique-que-prevu_195796?xtor=RSS-9",
+   "https://www.franceinfo.fr/sports/basket/victor-wembanyama/ou-placer-la-performance-stratospherique-de-victor-wembanyama-dans-l-histoire-de-la-nba_8269256.html#xtor=RSS-3-%5Bgeneral%5D",
+   "https://www.sciencesetavenir.fr/sante/paludisme-d-aeroport-mortel-a-francfort-des-parasites-importes-d-afrique-par-des-moustiques_195942?xtor=RSS-16",
+   "https://insideclimatenews.org/news/05112026/pennsylvania-hickory-nut-cooking-oil-replacement/"
+  ],
+  "titres": [
+   "OpenAI se dit prête pour une introduction en Bourse en 2027",
+   "Claude lance « Personal Finance » pour analyser ses dépenses",
+   "Meta craint que le rejet des centres de données freine l'IA",
+   "Le Pnat face à la hausse des affaires d'ultradroite radicale violente",
+   "Sécu : le Sénat veut rétablir la réforme des retraites de 2023",
+   "Ormuz : pourquoi l'Iran exempte l'Inde, la Chine, le Qatar et l'Irak",
+   "Cisjordanie : des colons s'emparent de huit maisons palestiniennes à Jéricho",
+   "Rejeu de session : la CNIL publie sa recommandation sur ces outils de suivi",
+   "Turquie : le pompage des nappes ouvre des dolines dans le grenier à blé",
+   "Chine : les émissions de CO2 reculent de 3,1 % au troisième trimestre 2026"
+  ],
+  "solutions": {
+   "sudoku": [
+    5,
+    4,
+    9,
+    7,
+    3,
+    1,
+    2,
+    8,
+    6,
+    6,
+    1,
+    3,
+    9,
+    2,
+    8,
+    4,
+    7,
+    5,
+    8,
+    7,
+    2,
+    4,
+    6,
+    5,
+    9,
+    1,
+    3,
+    3,
+    8,
+    7,
+    5,
+    9,
+    2,
+    6,
+    4,
+    1,
+    9,
+    2,
+    6,
+    1,
+    4,
+    3,
+    8,
+    5,
+    7,
+    4,
+    5,
+    1,
+    8,
+    7,
+    6,
+    3,
+    2,
+    9,
+    2,
+    3,
+    8,
+    6,
+    1,
+    7,
+    5,
+    9,
+    4,
+    1,
+    6,
+    4,
+    2,
+    5,
+    9,
+    7,
+    3,
+    8,
+    7,
+    9,
+    5,
+    3,
+    8,
+    4,
+    1,
+    6,
+    2
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      9,
+      1
+     ],
+     [
+      0,
+      1,
+      6,
+      2
+     ],
+     [
+      0,
+      3,
+      6,
+      2
+     ],
+     [
+      0,
+      5,
+      2,
+      1
+     ],
+     [
+      0,
+      6,
+      6,
+      1
+     ],
+     [
+      0,
+      7,
+      6,
+      2
+     ],
+     [
+      0,
+      9,
+      6,
+      1
+     ],
+     [
+      2,
+      5,
+      8,
+      1
+     ],
+     [
+      6,
+      1,
+      1,
+      4
+     ],
+     [
+      6,
+      6,
+      3,
+      3
+     ],
+     [
+      6,
+      9,
+      3,
+      1
+     ],
+     [
+      7,
+      1,
+      2,
+      4
+     ],
+     [
+      9,
+      0,
+      1,
+      3
+     ],
+     [
+      9,
+      3,
+      1,
+      2
+     ],
+     [
+      9,
+      6,
+      1,
+      2
+     ],
+     [
+      9,
+      8,
+      1,
+      2
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     5,
+     4,
+     2,
+     1,
+     3,
+     6
+    ],
+    [
+     6,
+     5,
+     4,
+     2,
+     1,
+     3
+    ],
+    [
+     1,
+     3,
+     6,
+     5,
+     4,
+     2
+    ],
+    [
+     3,
+     6,
+     5,
+     4,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     3,
+     6,
+     5,
+     4
+    ],
+    [
+     4,
+     2,
+     1,
+     3,
+     6,
+     5
+    ]
+   ],
+   "compte": [
+    "6 + 100 = 106",
+    "106 + 25 = 131",
+    "131 × 1 = 131",
+    "131 − 2 = 129"
+   ]
+  },
+  "reponses_quiz": []
+ },
+ "essai": true
+}
