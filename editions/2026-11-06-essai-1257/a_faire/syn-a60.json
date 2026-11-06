@@ -1,0 +1,64 @@
+{
+ "id": "syn-a60",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a60.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Public Sénat\nRubrique : France\nDate du flux : 05/11/2026\nAuteur : Guillaume Jacquot\nTitre d'origine : « Ils nuiront gravement à l’économie » : au Sénat, le grand ras-le-bol des patrons face aux choix budgétaires du gouvernement\n\nARTICLE :\nLa ministre de l’Agriculture et de l’Alimentation a précisé que le plan de relance, très attendu par les exploitations fragilisées par la sécheresse, se traduira par des amendements du gouvernement lors des débats au Sénat. Annie Genevard a par ailleurs été interpellée au cours de son audition sur l’arrêt inattendu d’une dotation aux régions de 100 millions d’euros, ou encore sur le projet de la hausse de la taxe sur les produits sucrés.\n« Ils nuiront gravement à l’économie » : au Sénat, le grand ras-le-bol des patrons face aux choix budgétaires du gouvernement\nDans la rue, les syndicats ont affiché leur front uni contre la vie chère et pour obtenir des hausses de salaires. Auditionnées au Sénat, les organisations patronales ont, elles, fait bloc ce 5 novembre contre le projet de budget 2027, qu’elles estiment néfaste à la santé des entreprises, déjà fortement fragilisées par une conjoncture très dégradée.\nL’offensive du patronat contre les textes budgétaires était déjà montée d’un cran la veille, avec la publication d’une tribune cosignée par 72 fédérations. « Augmenter les charges ou augmenter les salaires, il faut choisir ! » c’est le titre de cet appel collectif, qui fait écho aux revendications salariales qui s’expriment dans l’ensemble du pays.\nElles s’insurgent d’une hausse des prélèvements de 11,5 milliards d’euros, en raison du coup de rabot sur les allègements généraux de cotisations. Soit l’équivalent de 550 euros par salarié chaque année. Appelés à prendre le relais dans moins de deux semaines lors des débats sur le projet de loi de finances (PLF), rejeté hier par les députés, les sénateurs de la délégation aux entreprises ont pu prendre en direct le pouls des organisations patronales. Durant près de deux heures et demie, elles ont vidé leur sac.\n« Des budgets récessifs »\n« Je le dis très clairement, ils nuiront gravement à l’économie », a prévenu d’emblée le président du Medef, Patrick Martin, au sujet du projet de loi de finances et du projet de loi de financement de la Sécurité sociale (PLFSS), qui « se fondent sur des erreurs stratégiques ». « Le vrai problème de la France, c’est un problème de croissance. Raison de plus pour ne pas proposer des budgets récessifs », a-t-il ajouté.\n« On est assez sidérés de voir un nombre de mesures qui portent atteinte au travail, à notre capacité aussi au fond à rémunérer davantage nos collaborateurs », s’est également exclamé Michel Picon, le président l’Union des entreprises de proximité (U2P), qui représente l’artisanat, le petit commerce et les professions libérales.\nAmir Reza-Tofighi, président des Entrepreneurs (ex-CPME) est venu avec des chiffres, pour montrer que la réforme de l’assiette de calcul des allègements généraux, inscrite dans le PLFSS, entraînerait des conséquences sur le pouvoir d’achat des salariés. L’intégration de nouveaux éléments de rémunération dans le calcul des allégements s’ajoute à un gel du barème décidé en juin par le gouvernement. Les Entrepreneurs ont mené une enquête de conjoncture après de 2 500 dirigeants de petites et moyennes entreprises. « Il y a 92 % qui déclarent qu’en cas de nouvelle hausse des cotisations salariales, il limiterait les augmentations de salaire. Et 62 % qui reporteraient ou annuleraient des embauches », a relayé Amir Reza-Tofighi devant les parlementaires. « L’augmentation de coût du travail, c’est 11 milliards d’euros. Soit ils vont dans le salaire, soit ils vont dans les charges patronales, mais ils ne peuvent pas aller dans les deux. Il n’y a pas de magie, surtout à un moment où l’économie est en difficulté », a-t-il insisté.\n« Il faut se préparer, si on prend ces mesures, à retrouver un chômage de masse »\n« Il est évident que si ces mesures qui renchériront le coût du travail devaient être prises, il y a un risque économique puisque ces mesures interviennent évidemment à un moment où les entreprises sont en souffrance », a également ajouté Patrick Martin. Le président du Medef considère que le « risque ultime » serait de « propager » dans les entreprises, où le climat est « encore apaisé », « les mêmes tensions qui fracturent l’ensemble de notre société ».\n« On voit bien que dans les branches et dans les entreprises, qui d’ores et déjà ont engagé leur NAO (négociation annuelle obligatoire), la réduction, si ce n’est l’annulation, des marges de manœuvre pour revaloriser les salaires du fait de ces 11,5 milliards d’euros de prélèvements supplémentaires, conduit séance tenante à des crispations. Dans ma propre entreprise, c’est le cas », a-t-il expliqué aux sénateurs.\nPhilippe d’Ornano, co-président du Mouvement des entreprises de taille intermédiaire (METI) redoute même des effets sur l’emploi. « Il faut dire les choses comme elles sont, il faut se préparer, si on prend ces mesures, à retrouver un chômage de masse dont on était un tout petit peu sorti dans les 7-8 dernières années », a-t-il alerté.\nLes organisations patronales ont rappelé dans le même temps que les nuages s’accumulaient au-dessus de l’économie. On recense sur un an plus de 70 000 défaillances d’entreprises, et selon Patrick Martin la taille moyenne des sociétés concernées est en augmentation. « Je ne doute pas qu’avec ce que le pays est en train de traverser ça augmente », s’est projeté Michel Picon, de l’U2P. Il y a quelques jours, CCI France évaluait à 1,5 milliard d’euros le manque à gagner pour les commerces de centre-ville, en raison des manifestations.\n« Les attentes (salariales) sont tellement loin de ce que nous avons la possibilité »\nLes chiffres de l’investissement au troisième trimestre ont aussi fait l’effet d’une douche froide. « La baisse est absolument glaçante », a alerté le patron du Medef. « On a moins 47 % d’investissement sur les trois premiers trimestres. Ce qui est quasiment inédit pour nous », a témoigné Philippe d’Ornano, le représentants des ETI. Pour le président du Medef, il ne fait aucun doute que le scénario du gouvernement pour 2027 est désormais « complètement improbable ». Pas de croissance à 1 %, mais plutôt une croissance qui s’établira au mieux à 0,4 ou 0,5 %, selon Patrick Martin.\nC’est dans ce marasme économique qu’un coup de pouce au Smic pourrait être décrété prochainement. « Comment envisager une hausse dans ce contexte ? C’est être dans le déni de l’effet ciseaux qui va peser sur les entreprises », s’est inquiété le sénateur LR Olivier Rietmann. « Qui peut être contre face à la détresse de nombre de nos concitoyens ? » réagit Michel Picon, avant d’ajouter : « Mais pour le faire, nous ne devons pas être mis à contribution davantage par les allègements de cotisations. Ce n’est pas possible d’avoir les deux ! »\n« Je voudrais rappeler à tous quand même que 0,6 % [le montant probable du coup de pouce, en supplémentaire de l’indexation automatique, ndlr], c’est autour de 5 euros par mois […] Les attentes sont tellement loin de ce que nous avons la possibilité de faire que je suis très inquiet sur l’issue et la sortie de des événements que nous connaissons », a-t-il ajouté. Ce jeudi soir, Matignon annoncé avoir convoqué une conférence sociale lundi.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

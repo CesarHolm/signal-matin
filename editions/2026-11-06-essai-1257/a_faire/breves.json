@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a2\", \"source\": \"The Decoder\", \"titre\": \"Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation\", \"resume\": \"Anthropic's IPO is in trouble as investors push back on the $1.5 trillion valuation and the tech market sells off. The article Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation appeared first on The Decoder .\"}, {\"id\": \"a31\", \"source\": \"Le Monde\", \"titre\": \"Sébastien Lecornu convoque une « conférence sociale » sur le pouvoir d’achat et les salaires, un moyen de sortir d’un dialogue incertain avec la jeunesse\", \"resume\": \"Avec ce rendez-vous prévu lundi 9 novembre, le premier ministre espère engager un dialogue davantage balisé sur le pouvoir d’achat et les salaires que le tête-à-tête avec les mouvements de jeunes. Les acteurs sociaux ont pris acte, se gardant, cependant, de crier victoire.\"}, {\"id\": \"a45\", \"source\": \"franceinfo\", \"titre\": \"Un accident de car fait deux morts dans l'Ain, dont un mineur, annonce le parquet de Bourg-en-Bresse\", \"resume\": \"La sortie de route a également fait seize blessés, dont trois dans un état grave. Le chauffeur n'a pas encore été entendu.\"}, {\"id\": \"a78\", \"source\": \"Politico Europe\", \"titre\": \"Von der Leyen to visit Black Sea amid deadly drone attacks\", \"resume\": \"The trip comes after at least seven commercial vessels were reportedly struck by drones that many have linked to Russia.\"}, {\"id\": \"a91\", \"source\": \"South China Morning Post\", \"titre\": \"The new anti-corruption law arming Beijing with wide global enforcement powers\", \"resume\": \"China’s top legislature has passed a landmark law targeting cross-border corruption, equipping Beijing with expansive new tools to pursue illicit offshore assets while countering foreign attempts to investigate wrongdoing in China. The Anti-Cross-Border Corruption Law was approved at the close of the 25th session of the 14th National People’s Congress Standing Committee on Friday and took effect immediately, according to state news agency Xinhua. The statute establishes formal mechanisms for...\"}, {\"id\": \"a95\", \"source\": \"South China Morning Post\", \"titre\": \"US and Brazil deliver double blow to the populist right. Will Europe feel the impact?\", \"resume\": \"In the space of roughly 10 days, the two largest democracies in the Americas delivered setbacks to the populist right. In Brazil, Luiz Inacio Lula da Silva staged a narrow but remarkable comeback, defeating Flavio Bolsonaro, the son of former president Jair Bolsonaro, in a run-off election after trailing in the first round. This week, American voters handed control of both chambers of the US Congress to Democrats in a sharp rebuke of candidates riding on US President Donald Trump’s “Make America...\"}, {\"id\": \"a184\", \"source\": \"Sciences et Avenir\", \"titre\": \"Mars : du magma coulerait toujours dans les entrailles de la planète Rouge\", \"resume\": \"Une analyse récente de l'atmosphère de Mars suggère une activité volcanique plus intense que prévue à la surface de la planète Rouge. Des traces de chlorure d'hydrogène dans la basse atmosphère pourraient provenir de chambres magmatiques actives. Une observation essentielle qui remet en cause la vision d'un environnement planétaire inerte.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

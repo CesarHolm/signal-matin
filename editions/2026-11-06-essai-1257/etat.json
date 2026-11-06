@@ -1,15 +1,24 @@
 {
- "tour": 1,
+ "tour": 2,
  "code": 3,
  "a_faire": [
-  "sport",
-  "tri-curiosites",
-  "tri-france",
-  "tri-ia",
-  "tri-monde",
-  "tri-recherche",
-  "tri-veille"
+  "breves",
+  "syn-a100",
+  "syn-a111",
+  "syn-a137",
+  "syn-a138",
+  "syn-a145",
+  "syn-a156",
+  "syn-a19",
+  "syn-a194",
+  "syn-a202",
+  "syn-a22",
+  "syn-a4",
+  "syn-a49",
+  "syn-a60",
+  "syn-a61",
+  "syn-a7"
  ],
  "termine": false,
- "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Collecte des flux\n· Sport\n  sport : 19 résultats, 15 matchs au programme, 138 dépêches\n  213 articles candidats, 2 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n… 7 demande(s) en attente : tri-ia, tri-france, tri-monde, tri-recherche, tri-veille, tri-curiosites, sport\nA_FAIRE 7 : a_faire/tri-ia.json a_faire/tri-france.json a_faire/tri-monde.json a_faire/tri-recherche.json a_faire/tri-veille.json a_faire/tri-curiosites.json a_faire/sport.json\n"
+ "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  213 articles candidats, 2 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 30 candidats → 6 à développer, 4 brèves\n  france : 31 candidats → 5 à développer, 3 brèves\n  monde : 55 candidats → 5 à développer, 3 brèves\n  recherche : 26 candidats → 4 à développer, 4 brèves\n  veille : 35 candidats → 4 à développer, 2 brèves\n  curiosites : 36 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a2 écarté des développés : texte trop court (1399 car.)\n  a22 complété par : ZDNET\n  a31 écarté des développés : texte trop court (1171 car.)\n  a45 écarté des développés : texte trop court (2369 car.)\n  a78 écarté des développés : texte trop court (836 car.)\n  a91 écarté des développés : texte trop court (812 car.)\n  a95 écarté des développés : texte trop court (726 car.)\n  a100 complété par : Al Jazeera\n  a184 écarté des développés : texte trop court (341 car.)\n  plan : sans pages, 15 articles (15 longs)\n· Lot 2 : synthèses (Sonnet)\n… 16 demande(s) en attente : breves, syn-a4, syn-a7, syn-a22, syn-a19, syn-a61, syn-a60, syn-a49, syn-a111, syn-a100, syn-a138, syn-a137, syn-a145, syn-a156, syn-a202, syn-a194\nA_FAIRE 16 : a_faire/breves.json a_faire/syn-a4.json a_faire/syn-a7.json a_faire/syn-a22.json a_faire/syn-a19.json a_faire/syn-a61.json a_faire/syn-a60.json a_faire/syn-a49.json a_faire/syn-a111.json a_faire/syn-a100.json a_faire/syn-a138.json a_faire/syn-a137.json a_faire/syn-a145.json a_faire/syn-a156.json a_faire/syn-a202.json a_faire/syn-a194.json\n"
 }

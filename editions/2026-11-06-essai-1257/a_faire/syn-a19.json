@@ -1,0 +1,64 @@
+{
+ "id": "syn-a19",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a19.json",
+ "limite_caracteres": 2676,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 2676 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : TechCrunch\nRubrique : IA\nDate du flux : 05/11/2026\nAuteur : Sarah Perez\nTitre d'origine : Meta warns that election backlash against data centers could make AI expansion harder\n\nARTICLE :\nMeta president Dina Powell McCormick said that the Democratic wins in the midterm elections are going to make it a lot harder for companies to build data centers, adding that the industry has “not done as good a job as we needed to explain the benefits of these investments.”\nSpeaking at the WSJ Tech conference on Wednesday, the Meta exec pointed out that the backlash against data centers — which was very much on the ballot during this election season — was also tied to people’s feelings about AI technology overall.\n“The visible sort of manifestation of AI is a data center, and it’s something that people can say, ‘I don’t want this in my community,’” she explained. “I think there’s an underlying bigger issue, which is how people feel about AI in general.”\nMeta believes it could turn around the negative consumer sentiment around AI if it’s able to demonstrate the value, not only of the data centers coming to local communities, but also in the technology itself.\n“The stakes of who builds the technology that cures cancer, that gives access to education, that is also a very fundamental difference … Mark [Zuckerberg, Meta CEO] is very ‘long human,’ and he’s betting on humans more than machines,” Powell McCormick explained. “And that’s what we mean when we say the future is for everyone. That people should not be left behind. But the way to ensure that is that this technology is democratized, that people have access to it in a very fair and transparent way,” she said.\nThe exec also touted Meta’s experience in building data centers, saying that the company has been doing so for 20 years, as it takes a lot of compute power to offer the products it does in the social networking space. Today, the company has data centers in 23 states, she said, and five of them, including one in Texas, are planned as projects of 1 gigawatt or more.\nBut Meta is now worried that it could lose some of its investments after politicians ran on anti-data-center platforms during the midterms.\n“I think it’s going to be harder,” Powell McCormick said, describing what the future of building data centers looks like. “It has been hard, I should say, but I also think that it’s becoming clear what models work, and the states want those models that work.”\nSpecifically, communities only want data centers when it benefits them in some way, she explained, laying out the approach that Meta today uses to close its data center deals in local communities.\nSuccessful projects see Meta paying for its own electricity, directing any tax surpluses as a result of the data centers toward teachers and first responders, keeping the labor force local, and getting bipartisan support for the project, among other things.\nGoing forward, she expects data center projects to come under more review and be weighed against whether the constituents actually want them.\nMeta has pinned its hopes on its AI investments, particularly its consumer AI agent Muse scaling far beyond the 10 million users it has today, to become a business that one day serves billions. But even if that’s not the case, it believes that its investments in data centers will not be for nothing, as the compute itself will be valuable.\n“We’re getting calls every day to lease that compute [we’ve built], and so one way or another, we’re seeing a path to monetization,” Powell McCormick said.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

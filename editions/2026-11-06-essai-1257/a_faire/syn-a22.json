@@ -1,0 +1,64 @@
+{
+ "id": "syn-a22",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a22.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : TechCrunch\nRubrique : IA\nDate du flux : 05/11/2026\nAuteur : Aisha Malik\nTitre d'origine : Claude can now analyze your spending with its new Personal Finance tool\n\nARTICLE :\nSOURCE 1 (TechCrunch) :\nAnthropic announced Thursday that Claude is getting a new tool called “Personal Finance,” designed to help users keep track of their money. With it, users can connect their bank and credit card accounts through Plaid and ask Claude questions about their finances. Anthropic says access is read-only, meaning Personal Finance can’t move, manage, or invest users’ money.\nBy letting Claude connect directly to bank and credit card accounts, Anthropic is positioning its chatbot as a financial companion that can help people understand their spending and make sense of their money, rather than simply offering them generic advice.\nWith the launch, Claude is playing catch-up to OpenAI’s ChatGPT, which introduced similar personal finance tools in May that also let users connect their financial accounts and ask questions about everything from spending patterns to long-term financial planning.\n“Claude gives you answers in everyday language, from your balances and transactions, and explains any term that’s new to you,” Anthropic wrote in a blog post. “Like the rest of Claude, Personal Finance has no ads or sponsored recommendations, and it doesn’t offer credit cards, loans, or savings accounts of its own, so your money questions get a straight answer.”\nFor instance, at the end of the month, a user could ask Claude, “Where did my money go this month?” The chatbot will then add up spending across the connected accounts and sort it by category, such as rent and utilities, food and drink, and shopping. Users can choose to go deeper by following up with questions like, “Is that more than usual?” or “Anything else I’m missing?”\nAnthropic says the tool goes beyond basic spending summaries by analyzing transactions across connected accounts to flag potential issues, such as duplicate charges, unexpected fees, and steadily increasing bills. Users can also ask broader questions about their finances, such as whether they’re spending more than they earn. The tool can also explain financial concepts like APR (annual percentage rate), while providing calculations that show users how much they’ve paid in interest over the past year.\nOf course, some people will have reservations about connecting their financial accounts to an AI chatbot. Anthropic says Claude’s access is limited to each connected bank’s name, account name and type, the last four digits of the account number, balances, credit limits, and up to two years of transaction history.\nAdditionally, the company notes that when users chat with Claude in the Personal Finance hub, those conversations aren’t used to train its models.\nPersonal Finance starts rolling out in beta this week to users on the Pro, Max, and Ultra plans in the U.S.\nThe launch of the new tool comes as Anthropic has been expanding Claude into new verticals. For instance, Anthropic launched Claude for Legal and Claude for Financial Services earlier this year.\n\nSOURCE 2 (ZDNET) :\nZDNET’s key takeaways\n- You can share bank information with Claude via Plaid.\n- Anthropic won’t use financial conversations to train models.\n- Claude and ChatGPT now offer financial analysis tools.\nYou can now share your financial information with Claude and ask the chatbot for insights on your spending.\nWhat Personal Finance in Claude does\nFunctionally, this feature appears similar to ChatGPT Finances: It lets you link as many bank and credit card accounts as you’d like to Claude via Plaid with read-only access. You can then ask Claude where you spent your money this month or whether you can afford to take a vacation in six months, for example.\n(Disclosure: Ziff Davis, ZDNET’s parent company, filed an April 2025 lawsuit against OpenAI, alleging it infringed Ziff Davis copyrights in training and operating its AI systems.)\nAlso: Stop sharing your passwords with AI agents\nAccording to Anthropic, the feature is a response to existing use patterns: the company’s April usage report found that financial advice was one of the main topics users ask Claude for help with.\nGiven the privacy concerns around sharing sensitive data with AI systems, especially agents, Anthropic emphasized which data the new feature will access and how.\n“For the accounts you choose to connect (and only those), Claude sees the bank’s name, each account’s name, type, and last four digits, balances and credit limits, and up to two years of transactions. When you chat with Claude in the Personal Finance hub, those conversations aren’t used to train our models.”\nThat last part is important: Personal Finance in Claude is its own mode with its own protections. If you share or discuss your financial data with Claude outside that “hub,” it’s subject only to your Claude privacy settings.\nThe idea behind the feature is that you can ask follow-up questions and request more insights about spending habits, trends over time, and future goals based on what Claude finds, similar to any other Claude conversation. The tool will also generate tables and charts to visualize your financial information.\n“You can ask for a weekly spending chart, a calendar of what’s due, or a dashboard of the numbers you choose, and Claude builds it as an artifact you can keep adjusting and coming back to,” an Anthropic representative told ZDNET via email.\nYou can also expect an ad-free experience in the feature.\n“Like the rest of Claude, Personal Finance has no ads or sponsored recommendations, and it doesn’t offer credit cards, loans, or savings accounts of its own, so your money questions get a straight answer,” the company said in the announcement.\nThe company added that because Claude is using actual transaction data and not memory, the feature shouldn’t hallucinate.\n“It can list the exact transactions behind any number so you can check its math,” Anthropic said via email. “Like any AI, it can make mistakes, so for anything important, we recommend confirming with your bank.”\nWho it’s for\nFor now, Personal Finance in Claude is available only to Pro, Max, and Ultra subscribers in the US. Given the many finance apps out there, it may primarily be for users who already use Claude for much of their work and day-to-day and don’t want to switch interfaces.\nStill, the difference — and for many, the appeal — here is the natural language interface. Other finance apps don’t necessarily have an easy, accessible chat function where users can shoot off quick questions like they would to a human financial planner. These assistants also present historical budget analysis in plain English, rather than requiring users to interpret dashboards themselves, which users may see as a perk.\nAlso: 5 ways to use AI when your budget is tight\nOn Reddit, many users find ChatGPT Finances to be accurate and reliable. One Reddit user said ChatGPT Finance seemed to have Mint or Monarch potential, but noted it was still “weaker” than those apps in some areas, such as historical syncing, high-quality dashboards, and generating full statement PDFs.\nZDNET editor-in-chief Elyse Betters Picaro was “incredibly impressed” with ChatGPT Finances when she tried it out, and still uses it as one of several financial tools (not a replacement for professional advice). She also has her privacy settings in ChatGPT structured to reduce any security risks.\n“ChatGPT has genuinely helped me make better financial decisions,” she wrote.\nAnthropic noted that users shouldn’t look to Personal Finance for Claude as a total authority. \n“Personal Finance is a first step. For life’s bigger money decisions, we think people are best served by Claude working alongside the licensed professionals and regulated firms they trust,” the company said in the announcement. \n“We’re exploring how to make that possible in Claude, and we’d like to hear from banks, wealth managers, and financial services companies who want to help shape it” — indicating a more integrated financial planning system within Claude may be on the way.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

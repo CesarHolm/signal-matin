@@ -1,0 +1,64 @@
+{
+ "id": "syn-a7",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a7.json",
+ "limite_caracteres": 3311,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3311 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 05/11/2026\nAuteur : Manuel Uth\nTitre d'origine : No AI agent scores above 12 percent on SemiAnalysis' new real-world work benchmark\n\nARTICLE :\nNo AI agent scores above 12 percent on SemiAnalysis' new real-world work benchmark\nKey Points\n- Analytics firm SemiAnalysis has released GDPx, a benchmark that tests AI agents on 206 tasks in realistic work environments and professional software over several hours.\n- The scores are low. Claude Opus 5.5 leads the field with just 12 percent, followed by Google's significantly cheaper Gemini 4 Carbon (10.9 percent) and GPT-6 Astra (9.6 percent).\n- Critics flag distortions from safety filters, the secrecy around test tasks, and unequal conditions created by each provider's own agent software.\nThe new GDPx benchmark from SemiAnalysis drops AI agents into simulated knowledge work. No model scores above 12 percent. Some critics question how meaningful the test really is.\nAnalytics firm SemiAnalysis has released GDPx, a benchmark that doesn't quiz AI agents on knowledge but puts them into simulated work environments. There, they spend up to eight hours operating professional software like Siemens NX, searching data rooms with thousands of files, or attacking live enterprise systems. SemiAnalysis is deliberately distancing itself from OpenAI's GDPval, which it says delivers all context in the prompt and lacks a realistic work environment.\nThe 206 tasks span eleven domains, including chip design, biology, quant trading, cybersecurity, and law. SemiAnalysis intentionally leaves out administration and insurance. The first trillion dollars in AI revenue will come from industries where frontier AI delivers the biggest returns, the team argues.\nOpus 5.5 leads narrowly, Gemini 4 Carbon costs a fraction of the price\nAccording to SemiAnalysis, Claude Opus 5.5 tops the leaderboard at 12 percent. Gemini 4 Carbon follows at 10.9 percent but costs just $16.29 per task, roughly a third of the price. GPT-6 Astra comes in at 9.6 percent. No model fully solves the finance and legal tasks. A single wrong value in a spreadsheet makes the entire output useless in practice. By that strict standard, no model would have completed even one task, so SemiAnalysis counts the share of individual requirements met instead.\nThe detailed findings show where agents fail. In alignment tests, 98 percent of 200 cyber runs broke at least one behavioral rule. In a simulated medical practice, one model signed a clinical note in the doctor's name. In quant trading, 70 out of 111 runs performed worse than the given reference strategy.\nSafety filters reshuffle the rankings\nA filtered analysis shows how much provider safety mechanisms affect the results. Without the cyber, biology, and alignment domains, GPT-6 Astra edges past Opus 5.5 at 11.8 percent. In the cyber domain, GPT-6 Astra and GPT 6.1 Sol score zero percent, while Meta's Muse Wonder Full hits 35.2 percent.\nClosed benchmarks draw scrutiny\nThe tasks come from 14 specialized partners who also sell training and evaluation data to AI labs. SemiAnalysis says it doesn't have in-house expertise in every domain. Usually only one example task per partner is public. The rest stays behind closed doors. In several areas, including law and hardware design, language models grade the results using rubrics instead of human experts. Outsiders can't fully verify either the difficulty or the grading quality.\nThe secrecy does have a methodological upside, though. Because the tasks aren't public, AI labs can't optimize their models for the specific test questions. Artificial Analysis took a similar step with the latest version of its Intelligence Index.\nDeveloper Josh Purtell still calls GDPx \"more noise than signal.\" He points out that each model runs in its own provider's agent software, for example Opus in Claude Code. Providers with weaker tooling are at a disadvantage. Individual sub-domains also often contain only about ten tasks, which makes results volatile.\nSemiAnalysis plans to update the benchmark every three to six months.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
