@@ -54,8 +54,8 @@ def test_autres_jeux_coherents():
 
 # ------------------------------------------------------------ Vocabulaire
 
-def test_base_de_mots_valide():
-    mots = charger_base(Path("/nonexistent-signal-matin"))
+def test_base_de_mots_valide(tmp_path):
+    mots = charger_base(tmp_path / "absent")  # base livree avec le code (aucun ajout local)
     assert len(mots) >= 120
     assert {m["niveau"] for m in mots} == {"facile", "intermediaire", "difficile"}
     assert all(m["definition"] and m["exemple"] for m in mots)

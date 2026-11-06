@@ -172,9 +172,12 @@ def _sommaire_detaille(edition: dict) -> str:
         partie = f"<h3><a href='#bloc-{E(bloc['id'], quote=True)}'>{E(bloc['titre'])}</a></h3>"
         if bloc.get("developpes"):
             partie += "<ol>" + "".join(f"<li>{_lien('art', a)}</li>" for a in bloc["developpes"]) + "</ol>"
-        if bloc.get("breves"):
+        if bloc.get("breves") and not edition.get("numerique"):
             partie += ("<p class='bref'>En bref : "
                        + " · ".join(_lien("br", b) for b in bloc["breves"]) + "</p>")
+        elif bloc.get("breves"):  # version numerique : les breves ne sont que comptees
+            n = len(bloc["breves"])
+            partie += f"<p class='bref'>+ {n} brève{'s' if n > 1 else ''}</p>"
         parties.append(partie)
     if not parties:
         return ""
@@ -186,7 +189,12 @@ def _breves(breves: list[dict]) -> str:
         return ""
     return "<p class='kicker' style='margin-top:6px'>En bref</p>" + "".join(
         f"<div class='breve'{_ancre_breve(b)}><p class='kicker'>{E(_kicker(b))}</p><h5>{E(b.get('titre', ''))}</h5>"
-        f"<p>{E(b.get('texte', ''))}</p></div>" for b in breves)
+        f"<p>{E(b.get('texte', ''))}</p>{_source_breve(b)}</div>" for b in breves)
+
+
+def _source_breve(breve: dict) -> str:
+    """Source en fin de breve, comme pour les articles (nom du media, lien vers l'original)."""
+    return _pied({**breve, "auteur": ""}) if breve.get("source") else ""
 
 
 def _blocs(edition: dict) -> tuple[str, str]:
