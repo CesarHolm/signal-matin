@@ -83,9 +83,9 @@ Règles :
 - **Au sommaire**, sous les mots du jour : par catégorie, le titre de chaque
   article avec un lien direct, puis les brèves ; « Rien de notable aujourd'hui »
   si une catégorie est vide.
-- **Deux formats** (04/11/2026) : article long et brève (~450 caractères). La
-  longueur du long suit la matière de la source : la moitié du texte, 4 500
-  caractères au plus ; une source mince donne un long plus court.
+- **Deux formats** (04/11/2026) : article long et brève (~450 caractères, avec sa
+  source). Longueur du long (06/11/2026) : 80 % de la source, entre 2 500 et 4 500
+  caractères. Sommaire : les articles longs ; les brèves y sont seulement comptées.
 - **Plafonds par catégorie** (04/11/2026), sans minimum : IA 4 longs + 4 brèves ;
   France 3 + 3 ; Monde 3 + 3 ; Recherche 2 + 4 (brèves : conclusions seulement) ;
   Veille réglementaire 2 + 2 ; Curiosités 2 + 4 (`max_longs`, `max_breves` dans
@@ -157,21 +157,26 @@ La mémoire (mots appris, solutions, articles déjà publiés) est sur la branch
 `journal-etat`. Pour que le PC reprenne là où le cloud s'est arrêté, recopier
 son contenu dans le dossier `data\` du PC avant de réactiver les tâches.
 
-## 7. Fabrication par l'agent Claude (abonnement, en préparation)
+## 7. Fabrication hybride : GitHub collecte, l'agent Claude rédige (06/11/2026)
 
-Plan : `claude/plan-bascule-abonnement.md` (projet claude.ai). Les appels à l'API
-sont remplacés par une tâche planifiée Claude qui suit la compétence
-`.claude/skills/gazette/SKILL.md` :
+Plan : `claude/plan-bascule-abonnement.md` (projet claude.ai). Depuis le cloud Claude, une
+grande partie des sites refusent la connexion (37 sources sur 59 lors de l'essai du 06/11) ;
+tout ce qui touche internet tourne donc sur GitHub, la rédaction seule dans le cloud Claude
+(abonnement), selon la compétence `.claude/skills/gazette/SKILL.md`.
 
-1. `python main.py journal-agent avancer <dossier>` : collecte, textes complets,
-   puis dépôt des demandes à l'IA dans `<dossier>/a_faire/` (mêmes consignes que l'API) ;
-   code 3 tant qu'il manque des réponses, code 0 quand l'édition est prête.
-2. Des sous-agents (Haiku pour le tri et les brèves, Sonnet pour les articles)
-   écrivent les réponses dans `<dossier>/faits/` ; `journal-agent verifier` les contrôle.
-3. Le dossier est poussé sur la branche `claude/editions` ; le workflow `publier`
-   de cette branche lance `journal-agent publier <dossier> --envoyer` (mise en page,
-   mémoire sur `journal-etat`, e-mail Resend).
+Échange par la branche `claude/editions`, dossier `editions/<jour>/` :
+1. l'agent pousse `tour.json` (numéro du tour, essai, final) et ses réponses dans `faits/` ;
+2. le workflow `fabrication` lance `journal-agent tour` : collecte et textes (cache.json),
+   nouvelles demandes dans `a_faire/` (mêmes consignes que l'API), puis `etat.json` ; au
+   dernier tour, mise en page, mémoire (`journal-etat`) et e-mail ;
+3. l'agent attend `etat.json` (`journal-agent attendre`), fait rédiger les demandes par des
+   sous-agents (Haiku : tri et brèves ; Sonnet : articles), contrôle (`journal-agent verifier`)
+   et pousse le tour suivant. Trois tours en temps normal.
 
-Une réponse manquante ne bloque pas l'édition : la section ou l'article absent est
-signalé en tête de l'e-mail (« Édition incomplète »). En cas d'échec complet, relance
-à la main de l'édition par l'API (§ 4).
+Longueur des articles : 80 % de la source, entre 2 500 et 4 500 caractères ; une source de
+moins de 6 000 caractères est d'abord complétée par d'autres sources, que l'agent vérifie
+(même fait) avant de rédiger un seul article à partir de toutes.
+
+Une réponse manquante ne bloque pas l'édition : la section ou l'article absent est signalé en
+tête de l'e-mail (« Édition incomplète »). En cas d'échec complet, relance à la main de
+l'édition par l'API (§ 4).

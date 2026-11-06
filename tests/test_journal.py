@@ -502,7 +502,8 @@ def test_version_numerique_sans_meteo_ni_jeux(tmp_path, monkeypatch):
 def test_plan_numerique_plus_long_et_sans_pages():
     from signal_matin.journal import mise_en_page as mep
     assert mep.gabarit_numerique(20000) == ("long", 4500)
-    assert mep.gabarit_numerique(3000) == ("long", 1500)  # plus de format court : un long plus bref
+    assert mep.gabarit_numerique(3000) == ("long", 2500)  # plancher
+    assert mep.gabarit_numerique(5000) == ("long", 4000)  # 80 % de la source
     assert mep.gabarit(20000) == ("long", 2800)  # version imprimée inchangée
     choix = {"ia": [mep.Choix(f"a{i}", "ia", 9 - i, "long", 4500) for i in range(8)]}
     plan = mep.planifier_numerique(choix, {"ia": 6, "veille": 0}, {"ia": (4, 4)})

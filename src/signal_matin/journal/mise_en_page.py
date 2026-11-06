@@ -25,8 +25,12 @@ TEXTE_MINIMUM = 2500     # en dessous (article payant, extrait partiel), seuleme
 # Version numerique (telephone) : pas de pagination, donc des articles plus complets.
 # Deux formats seulement (decision du 04/11/2026) : article long et breve. La longueur
 # du long suit la matiere disponible : la moitie du texte source, 4 500 caracteres au plus.
-NUM_RATIO = 0.50
+# Regle du 06/11/2026 : 80 % de la source, entre 2 500 et 4 500 caracteres ; une source de
+# moins de 6 000 caracteres est d'abord completee par d'autres sources (meme fait).
+NUM_RATIO = 0.80
+NUM_PLANCHER_LONG = 2500
 NUM_PLAFOND_LONG = 4500
+NUM_SEUIL_COMPLEMENT = 6000
 NUM_LONGS_PAR_BLOC = 3     # plafonds par defaut ; chaque bloc peut fixer max_longs / max_breves
 NUM_BREVES_PAR_BLOC = 3
 
@@ -155,7 +159,7 @@ def assembler(unites: list[dict]) -> list[list[dict]]:
 
 def gabarit_numerique(longueur_source: int) -> tuple[str, int]:
     """Version telephone : toujours un article long, d'autant plus court que la source est mince."""
-    return "long", max(300, min(NUM_PLAFOND_LONG, int(longueur_source * NUM_RATIO)))
+    return "long", max(NUM_PLANCHER_LONG, min(NUM_PLAFOND_LONG, int(longueur_source * NUM_RATIO)))
 
 
 def planifier_numerique(classements: dict[str, list[Choix]], breves_disponibles: dict[str, int],

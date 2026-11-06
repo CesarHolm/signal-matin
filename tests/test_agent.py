@@ -79,7 +79,7 @@ def test_aller_retour_complet(tmp_path, monde):
     assert set(attente.value.ids) == {"breves", "syn-a2", "syn-a3"}
     assert "https://exemple.fr/4" not in monde["textes"]  # réserve inutile : pas récupérée
     syn = json.loads((dossier / "a_faire" / "syn-a2.json").read_text(encoding="utf-8"))
-    assert syn["modele"] == "sonnet" and syn["limite_caracteres"] == 4350  # moitié du texte source
+    assert syn["modele"] == "sonnet" and syn["limite_caracteres"] == 4500  # 80 % de la source, plafonné
 
     # 3. Rédaction, puis édition terminée sans nouvelle collecte ni nouveau téléchargement.
     textes_avant = len(monde["textes"])
@@ -112,7 +112,7 @@ def test_reponses_manquantes_signalees_sans_secours(tmp_path, monde):
 
 
 def test_sources_complementaires_verifiees(tmp_path, monde, monkeypatch):
-    def completer(candidat, autres, minimum, journal=print):
+    def completer(candidat, autres, minimum, journal=print, cible=None):
         candidat.texte = "SOURCE 1 (A) :\ncourt\n\nSOURCE 2 (B) :\n" + "y" * 5000
         candidat.sources_complementaires = [{"source": "B", "url": "https://b.fr"}]
         return True
@@ -169,3 +169,63 @@ def test_commande_journal_agent(tmp_path, monde, monkeypatch):
     assert cli.main(["journal-agent", "verifier", str(dossier)]) == 0
     resultat = json.loads((dossier / "resultat.json").read_text(encoding="utf-8"))
     assert resultat["edition"]["numerique"] and resultat["essai"] is False
+
+
+def test_tour_hybride_cote_github(tmp_path, monde, monkeypatch):
+    """Côté GitHub : tour.json → avancer → etat.json ; dernier tour → publication."""
+    from signal_matin import cli
+    from signal_matin.journal import etat
+    monkeypatch.setattr(etat, "DOSSIER", tmp_path / "data")
+    monkeypatch.setattr(ed, "DOSSIER", tmp_path / "data")
+    monkeypatch.setattr(ed, "ROOT", tmp_path)
+    monkeypatch.setattr(cli, "ROOT", tmp_path)
+    envois = []
+    monkeypatch.setattr(cli, "_envoyer_edition", lambda edition, *a: envois.append(edition["date"]) or 0)
+    dossier = tmp_path / "ed"
+    dossier.mkdir()
+    commande = ["journal-agent", "tour", str(dossier), "--config", str(tmp_path / "absent.yaml")]
+
+    (dossier / "tour.json").write_text(json.dumps({"tour": 1, "essai": True}), encoding="utf-8")
+    assert cli.main(commande) == 0
+    etat1 = json.loads((dossier / "etat.json").read_text(encoding="utf-8"))
+    assert etat1["tour"] == 1 and etat1["code"] == 3 and "tri-ia" in etat1["a_faire"]
+    assert not etat1["termine"] and not envois
+
+    for ident in etat1["a_faire"]:
+        _ecrire(dossier, ident, {"mots": []} if ident == "mots" else {"developpes": [], "breves": []})
+    (dossier / "tour.json").write_text(json.dumps({"tour": 2}), encoding="utf-8")
+    assert cli.main(commande) == 0
+    etat2 = json.loads((dossier / "etat.json").read_text(encoding="utf-8"))
+    assert etat2 == {**etat2, "tour": 2, "code": 0, "a_faire": [], "termine": True}
+    assert len(envois) == 1
+    assert json.loads((dossier / "resultat.json").read_text(encoding="utf-8"))["essai"] is True
+
+
+def test_attendre_lit_l_etat_pousse(tmp_path):
+    import subprocess
+
+    def git(*args, cwd):
+        subprocess.run(["git", *args], cwd=cwd, check=True, capture_output=True)
+
+    distant, local = tmp_path / "distant.git", tmp_path / "local"
+    git("init", "-q", "--bare", str(distant), cwd=tmp_path)
+    git("clone", "-q", str(distant), str(local), cwd=tmp_path)
+    git("checkout", "-q", "-b", "claude/editions", cwd=local)
+    dossier = local / "editions" / "j"
+    dossier.mkdir(parents=True)
+    (dossier / "tour.json").write_text('{"tour": 1}', encoding="utf-8")
+    git("add", "-A", cwd=local)
+    git("-c", "user.name=t", "-c", "user.email=t@t", "commit", "-qm", "t1", cwd=local)
+    git("push", "-q", "origin", "claude/editions", cwd=local)
+    assert ag.attendre(dossier, 1, delai=0, pause=0) == 4
+
+    # « GitHub » répond depuis un autre clone.
+    autre = tmp_path / "autre"
+    git("clone", "-q", "-b", "claude/editions", str(distant), str(autre), cwd=tmp_path)
+    (autre / "editions" / "j" / "etat.json").write_text(
+        '{"tour": 1, "code": 3, "a_faire": ["tri-ia"], "termine": false}', encoding="utf-8")
+    git("add", "-A", cwd=autre)
+    git("-c", "user.name=t", "-c", "user.email=t@t", "commit", "-qm", "t2", cwd=autre)
+    git("push", "-q", "origin", "claude/editions", cwd=autre)
+    assert ag.attendre(dossier, 1, delai=0, pause=0) == 0
+    assert (dossier / "etat.json").is_file()

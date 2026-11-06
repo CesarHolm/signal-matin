@@ -203,3 +203,44 @@ def verifier(dossier: Path) -> list[str]:
                 problemes.append(f"{ident} : {longueur} caractères pour une limite de {limite} "
                                  "(trop court : viser 90 à 100 %)")
     return problemes
+
+
+# --------------------------------------------------------------------------- Mode hybride
+#
+# La collecte et les textes (internet) tournent sur GitHub, la redaction dans le cloud Claude.
+# L'agent pousse <dossier>/tour.json ({"tour": n, "essai": bool, "final": bool}) sur la branche
+# claude/editions ; le workflow « fabrication » lance `avancer`, puis pousse les demandes et
+# <dossier>/etat.json ({"tour": n, "code": c, "a_faire": [...], "termine": bool, "journal": "..."}).
+
+
+def attendre(dossier: Path, tour: int, delai: int = 540, pause: int = 15) -> int:
+    """Attend que GitHub ait traite le tour `tour`, puis met le dossier local a jour.
+
+    Codes : 0 tour traite (voir etat.json), 2 echec du programme sur GitHub, 4 delai depasse.
+    """
+    import subprocess
+    import time
+
+    dossier = Path(dossier).resolve()
+    racine = Path(subprocess.check_output(["git", "-C", str(dossier), "rev-parse", "--show-toplevel"],
+                                          text=True).strip())
+    chemin = f"{dossier.relative_to(racine).as_posix()}/etat.json"
+    fin = time.monotonic() + delai
+    while True:
+        subprocess.run(["git", "-C", str(racine), "fetch", "-q", "origin", "claude/editions"], check=False)
+        lu = subprocess.run(["git", "-C", str(racine), "show", f"origin/claude/editions:{chemin}"],
+                            capture_output=True, text=True)
+        etat = json.loads(lu.stdout) if lu.returncode == 0 and lu.stdout.strip() else {}
+        if etat.get("tour", 0) >= tour:
+            subprocess.run(["git", "-C", str(racine), "reset", "-q", "--hard", "origin/claude/editions"], check=True)
+            print(f"TOUR {etat['tour']} code {etat.get('code')} termine={etat.get('termine', False)}")
+            if etat.get("a_faire"):
+                print(f"A_FAIRE {len(etat['a_faire'])} : " + " ".join(f"a_faire/{i}.json" for i in etat["a_faire"]))
+            if etat.get("code") not in (0, 3):
+                print((etat.get("journal") or "")[-3000:])
+                return 2
+            return 0
+        if time.monotonic() >= fin:
+            print(f"DELAI : GitHub n'a pas encore traité le tour {tour} (relancer attendre)")
+            return 4
+        time.sleep(pause)

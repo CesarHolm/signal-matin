@@ -128,7 +128,7 @@ def _recuperer_texte(candidat: art.Candidat, score: int, completer: bool, recher
     """Texte complet d'un article retenu ; version numerique : PDF des papiers de recherche
     et, si le texte reste trop court, meme sujet dans d'autres sources."""
     candidat.texte, candidat.auteur = art.texte_integral(candidat.url, candidat.resume)
-    if not completer or len(candidat.texte) >= mep.TEXTE_MINIMUM:
+    if not completer or len(candidat.texte) >= mep.NUM_SEUIL_COMPLEMENT:
         return
     # Papier de recherche : le texte complet est souvent dans le PDF.
     if recherche:
@@ -138,9 +138,10 @@ def _recuperer_texte(candidat: art.Candidat, score: int, completer: bool, recher
             journal(f"  {candidat.id} : papier lu en PDF ({len(pdf)} car.)")
     # Article long au texte court : meme sujet dans d'autres sources (tout article retenu
     # en long est par definition important ; decision du 04/11/2026).
-    if len(candidat.texte) < mep.TEXTE_MINIMUM:
+    if len(candidat.texte) < mep.NUM_SEUIL_COMPLEMENT:
         autres = [c for c in index_global.values() if c.id != candidat.id]
-        art.completer_par_autres_sources(candidat, autres, mep.TEXTE_MINIMUM, journal)
+        art.completer_par_autres_sources(candidat, autres, mep.TEXTE_MINIMUM, journal,
+                                         cible=mep.NUM_SEUIL_COMPLEMENT)
 
 
 def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bool = True,

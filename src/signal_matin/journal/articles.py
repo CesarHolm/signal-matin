@@ -266,12 +266,15 @@ def recherche_google(requete: str, langue: str = "fr", nombre: int = 3) -> list[
 
 
 def completer_par_autres_sources(candidat: Candidat, autres: list[Candidat], minimum: int,
-                                 journal=print) -> bool:
+                                 journal=print, cible: int | None = None) -> bool:
     """Texte trop court mais sujet important : cherche le meme sujet ailleurs.
 
     1. parmi les candidats du jour d'autres sources ; 2. sur Google Actualites.
     Les textes trouves sont ajoutes, chacun identifie par sa source, sans rien inventer.
+    La recherche continue jusqu'a `cible` caracteres (par defaut `minimum`) ; le complement
+    est garde des que le total atteint `minimum`.
     """
+    cible = max(cible or minimum, minimum)
     morceaux, sources = [], []
     for autre in autres:
         if autre.source == candidat.source or not meme_sujet(candidat.titre, autre.titre):
@@ -280,9 +283,9 @@ def completer_par_autres_sources(candidat: Candidat, autres: list[Candidat], min
         if len(texte) >= 1000:
             morceaux.append((autre.source, autre.url, texte))
             sources.append({"source": autre.source, "url": autre.url})
-        if sum(len(m[2]) for m in morceaux) >= minimum:
+        if sum(len(m[2]) for m in morceaux) + len(candidat.texte) >= cible:
             break
-    if sum(len(m[2]) for m in morceaux) + len(candidat.texte) < minimum:
+    if sum(len(m[2]) for m in morceaux) + len(candidat.texte) < cible:
         requete = " ".join(sorted(mots_cles(candidat.titre), key=len, reverse=True)[:6])
         langue = "fr" if re.search(r"[éèàùç]", candidat.titre) else "en"
         for titre, media, adresse in recherche_google(requete, langue):
@@ -292,7 +295,7 @@ def completer_par_autres_sources(candidat: Candidat, autres: list[Candidat], min
             if len(texte) >= 1000:
                 morceaux.append((media or "autre source", adresse, texte))
                 sources.append({"source": media or "autre source", "url": adresse})
-            if sum(len(m[2]) for m in morceaux) + len(candidat.texte) >= minimum:
+            if sum(len(m[2]) for m in morceaux) + len(candidat.texte) >= cible:
                 break
     total = len(candidat.texte) + sum(len(m[2]) for m in morceaux)
     if not morceaux or total < minimum:

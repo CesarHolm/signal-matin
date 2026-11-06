@@ -157,15 +157,19 @@ def build_parser() -> argparse.ArgumentParser:
                          help="remplace journal.heure_limite (bascule du traitement de nuit vers l'appel direct)")
     agent = sub.add_parser("journal-agent",
                            help="version numérique fabriquée par un agent Claude (abonnement), par étapes")
-    agent.add_argument("etape", choices=["avancer", "verifier", "publier"],
+    agent.add_argument("etape", choices=["avancer", "verifier", "publier", "attendre", "tour"],
                        help="avancer : collecte, textes et demandes à l'agent ; verifier : contrôle des "
-                            "réponses ; publier : mise en page, mémoire et e-mail")
+                            "réponses ; publier : mise en page, mémoire et e-mail ; attendre : attend "
+                            "que GitHub ait traité le tour --tour (mode hybride) ; tour : côté GitHub, "
+                            "lit tour.json, avance, écrit etat.json et publie si l'édition est prête")
     agent.add_argument("dossier", help="dossier de l'édition (ex. editions/2026-11-05)")
     agent.add_argument("--config", default="config.yaml", help="fichier YAML local")
     agent.add_argument("--essai", action="store_true", help="n'enregistre rien ; e-mail marqué « essai »")
     agent.add_argument("--final", action="store_true",
                        help="termine l'édition même s'il manque des réponses (sections signalées)")
     agent.add_argument("--envoyer", action="store_true", help="publier : envoie l'e-mail")
+    agent.add_argument("--tour", type=int, default=1, help="attendre : numéro du tour attendu")
+    agent.add_argument("--delai", type=int, default=540, help="attendre : durée maximale en secondes")
     diag = sub.add_parser("journal-diagnostic", help="teste les sources, l'extraction des articles et l'API")
     diag.add_argument("--config", default="config.yaml", help="fichier YAML local")
     test_envoi = sub.add_parser("journal-test-envoi", help="teste la connexion SMTP sans rien envoyer")
@@ -226,6 +230,10 @@ def _journal_agent(args, config: dict) -> int:
     dossier = Path(args.dossier)
     config.setdefault("journal", {})["numerique"] = True
     trace = _journal_fichier("agent")
+    if args.etape == "attendre":
+        return ag.attendre(dossier, args.tour, args.delai)
+    if args.etape == "tour":
+        return _tour_hybride(args, config, dossier)
     if args.etape == "verifier":
         problemes = ag.verifier(dossier)
         for probleme in problemes:
@@ -282,6 +290,46 @@ def _journal_agent(args, config: dict) -> int:
     if args.envoyer:
         return _envoyer_edition(resultat["edition"], pdf_path, True, essai, trace)
     return 0
+
+
+def _tour_hybride(args, config: dict, dossier: Path) -> int:
+    """Cote GitHub (workflow « fabrication ») : un tour du mode hybride.
+
+    Lit <dossier>/tour.json, lance « avancer » (et « publier » si l'edition est prete),
+    puis ecrit <dossier>/etat.json pour l'agent. Le code de sortie est celui d'« avancer ».
+    """
+    import argparse
+    import contextlib
+    import io
+    import json
+
+    demande = json.loads((dossier / "tour.json").read_text(encoding="utf-8"))
+    sortie = io.StringIO()
+
+    class Double(io.TextIOBase):
+        def write(self, texte):
+            sortie.write(texte)
+            return sys.__stdout__.write(texte)
+
+    with contextlib.redirect_stdout(Double()):
+        avancer = argparse.Namespace(**{**vars(args), "etape": "avancer",
+                                        "essai": bool(demande.get("essai")), "final": bool(demande.get("final"))})
+        try:
+            code = _journal_agent(avancer, config)
+        except Exception as erreur:  # l'agent doit toujours recevoir un etat
+            print(f"! Erreur du programme : {erreur!r}")
+            code = 1
+        termine, envoi = False, None
+        if code == 0:
+            publication = argparse.Namespace(**{**vars(args), "etape": "publier", "essai": False, "envoyer": True})
+            envoi = _journal_agent(publication, config)
+            termine = envoi == 0
+    en_attente = sorted(f.stem for f in (dossier / "a_faire").glob("*.json")
+                        if not (dossier / "faits" / f.name).is_file()) if code == 3 else []
+    etat = {"tour": int(demande.get("tour", 1)), "code": code if envoi in (None, 0) else 2,
+            "a_faire": en_attente, "termine": termine, "journal": sortie.getvalue()[-6000:]}
+    (dossier / "etat.json").write_text(json.dumps(etat, ensure_ascii=False, indent=1), encoding="utf-8")
+    return 0 if code in (0, 3) and envoi in (None, 0) else 1
 
 
 def main(argv: list[str] | None = None) -> int:
