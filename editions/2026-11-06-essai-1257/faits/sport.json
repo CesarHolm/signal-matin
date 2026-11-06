@@ -1,0 +1,14 @@
+{
+ "resultats": [
+  {"sport": "Tennis", "texte": "Luca Van Assche bat Lorenzo Musetti 7-5, 3-6, 6-4 au Rolex Paris Masters. Il se qualifie pour son premier quart de finale en Masters 1000.", "source": "L'Équipe", "url": "https://www.lequipe.fr/Tennis/Actualites/Au-rolex-paris-masters-luca-van-assche-a-fini-par-user-lorenzo-musetti-pour-s-offrir-un-premier-quart-en-masters-1000/1741406#at_medium=RSS_feeds"},
+  {"sport": "Football", "texte": "Marseille bat Bayer Leverkusen 1-0 en Ligue Europa, sur un but d'Amine Gouiri. Premier succès de l'OM dans la compétition, qui reste en course pour les barrages.", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401915533/marseille-bayer-leverkusen"},
+  {"sport": "Tennis", "texte": "Taylor Fritz bat Arthur Fils 6-3, 6-4 en huitièmes du Rolex Paris Masters. Le Français, 7e mondial, est éliminé.", "source": "L'Équipe", "url": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-elimine-en-huitiemes-de-finale-du-rolex-paris-masters-par-un-imperial-taylor-fritz/1741444#at_medium=RSS_feeds"},
+  {"sport": "Tennis", "texte": "Ben Shelton bat Arthur Rinderknech 3-6, 6-4, 7-6 [5] en huitièmes du Rolex Paris Masters. Le Français cède au tie-break du troisième set face au 4e mondial.", "source": "L'Équipe", "url": "https://www.lequipe.fr/Tennis/Actualites/Arthur-rinderknech-cede-au-bout-du-suspense-face-a-ben-shelton-en-huitiemes-du-rolex-paris-masters/1741356#at_medium=RSS_feeds"},
+  {"sport": "Tennis", "texte": "Tommy Paul bat Quentin Halys 7-6 [3], 6-4 au Rolex Paris Masters. Le Français est éliminé avant les quarts de finale.", "source": "L'Équipe", "url": "https://www.lequipe.fr/Tennis/Actualites/Pas-de-quarts-de-finale-au-rolex-paris-masters-pour-quentin-halys-battu-par-tommy-paul/1741322#at_medium=RSS_feeds"}
+ ],
+ "a_suivre": [
+  {"sport": "Formule 1", "texte": "MSC Cruises São Paulo Grand Prix.", "heure": "16 h 30", "source": "ESPN", "url": "https://www.espn.com/f1/race/_/id/600057448"},
+  {"sport": "Tennis", "texte": "Rolex Paris Masters, quart de finale : Luca Van Assche contre Rinky Hijikata, en journée.", "source": "L'Équipe", "url": "https://www.lequipe.fr/Tennis/Actualites/Luca-van-assche-en-journee-alcaraz-fritz-en-nocturne-le-programme-de-vendredi-au-rolex-paris-masters/1741473#at_medium=RSS_feeds"},
+  {"sport": "League of Legends", "texte": "Mondiaux, quart de finale : Karmine Corp contre T1.", "heure": "23 h", "source": "L'Équipe", "url": "https://www.lequipe.fr/Esport/Actualites/League-of-legends-pourquoi-le-karmine-corp-t1-en-quarts-des-mondiaux-est-il-un-rendez-vous-immanquable/1741519#at_medium=RSS_feeds"}
+ ]
+}

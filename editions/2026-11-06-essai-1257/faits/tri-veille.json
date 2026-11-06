@@ -1,0 +1,12 @@
+{
+ "developpes": [
+  {"id": "a145", "score": 8, "raison": "RGPD : la CNIL publie une recommandation sur les outils de rejeu de session, pour guider les concepteurs et les utilisateurs vers la conformité (CNIL)."},
+  {"id": "a156", "score": 8, "raison": "Sanctions UE contre la Russie : nouvelle phase ciblant les réseaux financiers et la flotte fantôme (EU Today)."},
+  {"id": "a166", "score": 7, "raison": "Contrôle des exportations : le BIS prolonge la suspension de sa règle des 50 % sur les filiales, en parallèle des discussions avec la Chine (Kharon)."},
+  {"id": "a146", "score": 7, "raison": "Devoir de vigilance hors UE : le gouvernement britannique s'engage sur une loi obligatoire de diligence raisonnable en matière de droits humains, à l'issue de son examen de la conduite responsable des entreprises (Covington)."}
+ ],
+ "breves": [
+  {"id": "a160", "titre": "OFAC sanctionne dix personnes et une entité liées à un réseau informatique nord-coréen", "texte": "Les États-Unis, via l'OFAC, ont sanctionné dix personnes et une entité rattachées à un réseau informatique nord-coréen."},
+  {"id": "a175", "titre": "JBS visé en Europe par des plaintes liées à la déforestation illégale en Amazonie", "texte": "Le groupe de viande JBS fait l'objet de plaintes déposées en Europe, pour des liens présumés avec la déforestation illégale en Amazonie."}
+ ]
+}

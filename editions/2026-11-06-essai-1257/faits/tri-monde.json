@@ -1,0 +1,14 @@
+{
+ "developpes": [
+  {"id": "a111", "score": 9, "raison": "La Maison-Blanche voudrait négocier avec Poutine une « nouvelle architecture de sécurité européenne », sans les Européens ; le gendre de Trump annonce une tentative de changement de régime en Europe (Le Grand Continent)."},
+  {"id": "a78", "score": 8, "raison": "Ursula von der Leyen se rend en mer Noire après des attaques de drones ayant touché au moins sept navires de commerce, que beaucoup associent à la Russie (Politico Europe)."},
+  {"id": "a91", "score": 7, "raison": "Chine : une loi anticorruption transfrontalière, adoptée vendredi et en vigueur immédiatement, donne à Pékin des outils étendus pour traquer les avoirs offshore et contrer les enquêtes étrangères (South China Morning Post)."},
+  {"id": "a95", "score": 6, "raison": "Lula bat Flavio Bolsonaro au Brésil, puis les démocrates prennent le contrôle des deux chambres du Congrès américain : deux revers pour la droite populiste (South China Morning Post)."},
+  {"id": "a100", "score": 5, "raison": "Un accord présumé de livraison de lance-roquettes illustre le rapprochement entre la Russie et l'Iran, au moment où un traité de coopération est discuté avec Poutine (Al Jazeera)."}
+ ],
+ "breves": [
+  {"id": "a94", "titre": "UE-Chine : la trêve commerciale sous tension, les deux camps se préparent", "texte": "Quelques semaines après un accord destiné à écarter la guerre commerciale, Bruxelles et Pékin se renvoient la responsabilité de leurs différends. Les menaces échangées cette semaine montrent que chacun se prépare à une guerre commerciale."},
+  {"id": "a68", "titre": "Technologie : le Nasdaq recule de plus de 5 % sur les craintes d'un encadrement de l'IA", "texte": "Environ 2 000 milliards de dollars de valorisation se sont évaporés après la victoire démocrate aux élections de mi-mandat. Les investisseurs redoutent un Congrès et des États plus durs envers l'IA et les centres de données."},
+  {"id": "a103", "titre": "Macao : un ancien élu prodémocratie condamné à 12 ans et demi de prison", "texte": "Au Kam-san est reconnu coupable de diffusion de fausses informations et de subversion, pour avoir tenté de perturber les élections de Macao de 2024."}
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "developpes": [
+  {"id": "a4", "score": 9, "raison": "GPT-6 Cyber : modèle conçu pour trouver des failles, écrire des exploits et proposer des correctifs ; OpenAI annonce 81 vulnérabilités inédites dans Firefox et 948 exploits fonctionnels dans le noyau Linux (The Decoder)."},
+  {"id": "a2", "score": 8, "raison": "L'introduction en Bourse d'Anthropic, valorisée 1 500 milliards de dollars, se heurte à la résistance des investisseurs sur fond de repli des valeurs technologiques (The Decoder)."},
+  {"id": "a7", "score": 7, "raison": "Benchmark GDPx de SemiAnalysis : aucun agent IA ne dépasse 12 % sur des tâches de travail simulées ; Claude Opus 5.5 est en tête de peu, avec des critiques sur le petit nombre de tâches (The Decoder)."},
+  {"id": "a22", "score": 6, "raison": "Claude Personal Finance : les utilisateurs relient leurs comptes bancaires et de cartes via Plaid pour poser des questions sur leurs finances (TechCrunch)."},
+  {"id": "a19", "score": 5, "raison": "Meta alerte : la contestation politique des centres de données pourrait freiner l'expansion de l'IA (TechCrunch)."},
+  {"id": "a16", "score": 4, "raison": "Palo Alto Networks en discussions pour racheter Clutch, start-up de sécurité des agents IA, pour 500 millions de dollars ; valorisée 85 millions de dollars selon une source (TechCrunch)."}
+ ],
+ "breves": [
+  {"id": "a29", "titre": "Plainte : une épouse aurait utilisé ChatGPT pour planifier le meurtre de son mari", "texte": "Selon la plainte, des boissons énergisantes amères auraient servi à un empoisonnement orienté par ChatGPT."},
+  {"id": "a28", "titre": "Google : les écoles peuvent se passer de Gemini, pas de l'IA de recherche", "texte": "Google propose aux écoles davantage de choix, sans les options attendues : la recherche peut être gardée sans Gemini, mais la recherche par IA reste non négociable."},
+  {"id": "a23", "titre": "Axiom Math veut écarter les preuves mathématiques non vérifiées produites par l'IA", "texte": "Face à l'afflux de démonstrations non vérifiées, la start-up mise sur la vérification formelle. Ses agents IA ont vérifié formellement la bibliothèque Stacks Project, l'une des plus importantes du domaine."},
+  {"id": "a26", "titre": "Box s'appuie sur Nemotron de Nvidia pour un système de recherche de contenus", "texte": "Selon les chiffres annoncés, le système répondrait quatre fois plus vite, avec 20 % d'erreurs en moins et 90 % de tokens en moins. Il vise les agents IA."}
+ ]
+}

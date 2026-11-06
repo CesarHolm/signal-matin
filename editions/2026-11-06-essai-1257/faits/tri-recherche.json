@@ -1,0 +1,14 @@
+{
+ "developpes": [
+  {"id": "a138", "score": 8, "raison": "Étude cas-croisé stratifiée sur vingt ans : l'impact de la variabilité des températures sur la mortalité lors des chaleurs et des froids extrêmes (PLOS Climate)."},
+  {"id": "a137", "score": 7, "raison": "Évaluation économique modélisée du retour sur investissement mondial des vaccins COVID-19 durant la première année de vaccination (PLOS Medicine)."},
+  {"id": "a121", "score": 7, "raison": "Données à haute fréquence de marchés de prédiction (Kalshi) : les révisions de prévisions macroéconomiques corrèlent parfois positivement avec les hausses de taux de la Fed (NBER)."},
+  {"id": "a117", "score": 6, "raison": "LEAP (Connecticut) : visites à domicile d'élèves chroniquement absents, avec des effets estimés sur la présence, la discipline et les résultats (NBER)."}
+ ],
+ "breves": [
+  {"id": "a126", "titre": "Pew : les adultes LGBTQ plus présents dans les communautés en ligne", "texte": "Selon le Pew Research Center, les adultes LGBTQ sont plus susceptibles de rejoindre des communautés en ligne et y trouvent davantage de valeur. Certains les quittent toutefois en raison du harcèlement visant des personnes."},
+  {"id": "a118", "titre": "Automatisation : la croissance dépend du taux d'épargne, selon un modèle NBER", "texte": "Dans un modèle standard de tâches, la même technologie produit 11,7 % de croissance annuelle si les ménages optimisent leur épargne, contre 2,2 % si le taux est fixé. L'article est de Jesús Fernández-Villaverde."},
+  {"id": "a133", "titre": "Détention des demandeurs de protection : des ordonnances souvent erronées", "texte": "Selon le Verfassungsblog, des études empiriques montrent que les ordonnances de détention sont répétées et systématiquement erronées, alors que le débat politique porte surtout sur l'extension des types et de la durée de détention."},
+  {"id": "a139", "titre": "Amérique latine : priorités de santé climatique identifiées par une démarche multi-acteurs", "texte": "Malgré des émissions minimes, l'Amérique latine et les Caraïbes sont très vulnérables au changement climatique. Une étude publiée dans PLOS Climate identifie leurs priorités de santé climatique par une démarche multi-parties prenantes."}
+ ]
+}

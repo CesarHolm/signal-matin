@@ -1,0 +1,14 @@
+{
+ "developpes": [
+  {"id": "a202", "score": 8, "raison": "Climat : un « super El Niño » en forte progression, dont le pic est attendu en décembre, avec un effet sur les températures moyennes mondiales (Carbon Brief)."},
+  {"id": "a184", "score": 7, "raison": "Science : une analyse de l'atmosphère de Mars suggère une activité volcanique plus intense que prévue, avec des chambres magmatiques possiblement actives (Sciences et Avenir)."},
+  {"id": "a194", "score": 6, "raison": "Climat : en Turquie, des dolines s'ouvrent dans les champs de céréales avec le pompage des nappes, à l'approche de la COP31 (The Conversation)."},
+  {"id": "a178", "score": 5, "raison": "Science grand public : pourquoi la peur peut devenir récréative, éclairée par les neurosciences cognitives (CNRS Le journal)."}
+ ],
+ "breves": [
+  {"id": "a183", "titre": "Pérou : plus de 3 000 mygales saisies à l'aéroport de Lima", "texte": "La douane de l'aéroport de Lima a saisi plus de 3 000 mygales destinées au trafic vers l'Allemagne. Provenant de plusieurs régions du pays, certaines étaient encore à l'état d'œuf."},
+  {"id": "a199", "titre": "Lumières nocturnes du Midwest vues depuis l'ISS", "texte": "Photographiée le 18 octobre 2026 depuis la Station spatiale internationale, à 259 miles d'altitude, l'image montre Chicago, Detroit et la région new-yorkaise."},
+  {"id": "a185", "titre": "Chauve-souris : le cœur des femelles s'accélère aux cris de leurs petits", "texte": "Le rythme cardiaque des femelles accélère en entendant les cris de leurs propres petits, et seulement ceux-ci, selon des chercheurs de l'université Doshisha. Cette réaction pourrait être liée à leur mode de vie."},
+  {"id": "a221", "titre": "Badminton : Mady Sow décroche l'argent aux JO de la Jeunesse", "texte": "Le Français, n° 1 mondial juniors, a été battu en finale par l'Émirati Riyan Malhan, à Dakar. Il avait réalisé un parcours presque parfait avant cette défaite."}
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "developpes": [
+  {"id": "a31", "score": 9, "raison": "Lecornu convoque une conférence sociale lundi 9 novembre sur le pouvoir d'achat et les salaires, pour engager un dialogue plus balisé que le tête-à-tête avec les mouvements de jeunes (Le Monde)."},
+  {"id": "a61", "score": 8, "raison": "Budget de la Sécurité sociale : au Sénat, la droite et le centre veulent rétablir la réforme des retraites de 2023, le texte ayant été rejeté à l'Assemblée (Public Sénat)."},
+  {"id": "a45", "score": 7, "raison": "Accident de car dans l'Ain : deux morts, dont un mineur, et seize blessés, dont trois dans un état grave ; le chauffeur n'a pas encore été entendu (franceinfo)."},
+  {"id": "a60", "score": 6, "raison": "Medef, Les Entrepreneurs et U2P dénoncent les réductions des allègements généraux prévues par le budget 2027 (Public Sénat)."},
+  {"id": "a49", "score": 6, "raison": "Le PNAT se saisit de plus en plus d'affaires liées à l'ultradroite violente, deux semaines après l'attentat de Trappes (franceinfo)."}
+ ],
+ "breves": [
+  {"id": "a42", "titre": "A69 : l'autoroute ouverte après quatre ans de contestation", "texte": "L'A69 est ouverte aux automobilistes avec un péage de 20,40 euros pour l'aller-retour Toulouse-Castres, parmi les plus élevés de France. Les associations environnementales ont multiplié les recours depuis 2023."},
+  {"id": "a46", "titre": "Quatre nouvelles alertes à la bombe ont forcé des avions à se poser en France", "texte": "Selon Matignon, les appareils se sont posés sans encombre et sont inspectés par des démineurs. De nombreuses alertes ont été émises depuis le début de semaine en Europe."},
+  {"id": "a59", "titre": "Macron à 13 % de confiance, record d'impopularité à l'Élysée", "texte": "Selon le baromètre Elabe pour Les Echos, 82 % des Français ne font pas confiance à Emmanuel Macron, qui bat le record de François Hollande."}
+ ]
+}
