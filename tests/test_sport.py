@@ -49,11 +49,11 @@ def test_reponse_plafonnee_et_rendu():
                       "competition": "Top 14 (championnat de France)"}] * 5})
     data = sport.lire_reponse(reponse)
     assert len(data["resultats"]) == 5 and len(data["a_suivre"]) == 3
-    html = _sport({"sport": data})
-    assert "Résultats d'hier" in html and "À suivre aujourd'hui" in html
-    assert html.index("Résultats d'hier") < html.index("À suivre aujourd'hui")
+    html = _sport({"date": "2026-11-06", "sport": data})
+    assert "Résultats du 05/11" in html and "À suivre aujourd'hui" in html
+    assert html.index("Résultats du 05/11") < html.index("À suivre aujourd'hui")
     assert "<b>A0 – B0</b> <b class='score'>6-3 6-4</b>" in html
-    assert "— Masters 1000 de Paris (circuit ATP), 8es de finale" in html
+    assert "<p class='sp-c'>Masters 1000 de Paris (circuit ATP), 8es de finale</p>" in html
     assert "<b class='score'>14 h 30</b>" in html
     assert "lequipe.fr" not in html  # sources non affichées
     assert _sport({"sport": {"resultats": [], "a_suivre": []}}) == ""

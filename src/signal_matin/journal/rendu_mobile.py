@@ -145,12 +145,17 @@ def _sport(edition: dict) -> str:
         html = (f"<p class='sp'><span class='kicker sp-k'>{E(r.get('sport', ''))}</span> "
                 f"<b>{E(r['affiche'])}</b>{valeur}</p>")
         if r.get("competition"):
-            html += f"<p class='sp-c'>— {E(r['competition'])}</p>"
+            html += f"<p class='sp-c'>{E(r['competition'])}</p>"
         return f"<li>{html}</li>"
 
     parties = []
     if sport.get("resultats"):
-        parties.append("<p class='sp-t'>Résultats d'hier</p><ul class='sport'>"
+        veille = ""
+        try:
+            veille = " du " + (dt.date.fromisoformat(edition["date"]) - dt.timedelta(days=1)).strftime("%d/%m")
+        except (KeyError, TypeError, ValueError):
+            pass
+        parties.append(f"<p class='sp-t'>Résultats{veille}</p><ul class='sport'>"
                        + "".join(ligne(r, r.get("score", "")) for r in sport["resultats"]) + "</ul>")
     if sport.get("a_suivre"):
         parties.append("<p class='sp-t'>À suivre aujourd'hui</p><ul class='sport'>"
