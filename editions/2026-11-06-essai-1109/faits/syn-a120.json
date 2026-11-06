@@ -1,0 +1,29 @@
+{
+ "titre": "Automatisation : l'épargne peut faire passer la croissance de 2,2 % à 11,7 %",
+ "chapo": "Dans un document de travail du NBER, Jesús Fernández-Villaverde montre que, face à l'automatisation, le rythme de l'épargne peut décider si la croissance reste modeste ou devient très rapide.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "L'intelligence artificielle et l'automatisation pourraient remodeler l'économie dans les décennies à venir, ce qui exigera beaucoup de capital : logiciels, centres de données, robots, centrales électriques. Van Nieuwerburgh (2026) estime que les seuls campus d'IA absorberont 3,6 % du PIB par an entre 2025 et 2032, dont une bonne part se dépréciera vite. L'auteur demande donc : qui épargnera pour les machines ? La réponse dépend de deux leviers. Le premier est la structure des tâches (ce que les machines savent faire, avec quelle productivité, et la substituabilité des tâches), qui fixe le rendement de l'accumulation de machines. Le second est l'offre de capital, c'est-à-dire ce que les ménages épargnent en réponse à ces rendements, réaction a priori ambiguë."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "À trajectoire d'automatisation identique, l'économie croît de 11,7 % par an lorsque les tâches sont très complémentaires et que les ménages épargnent de façon optimale, contre 2,2 % si le taux d'épargne reste figé à son niveau calibré de 2025, soit 23 %. Une croissance lente pourrait donc refléter un manque d'accumulation de capital plutôt qu'un goulot technologique. Le taux d'épargne monte surtout parce que l'automatisation accroît la part du capital, non parce que les ménages deviennent plus économes. Les taux longs anticipent le boom : le rendement réel à dix ans bondit de 5,1 % à 13,6 %. Les ménages sans patrimoine, qui consomment tout leur revenu du travail, perdent l'équivalent de deux cinquièmes à deux tiers de leur consommation, alors que maintenir leur revenu sur sa tendance coûterait temporairement au plus un cinquième du PIB. En automatisation complète, les salaires restent entre un quart et la moitié de leur tendance. La valeur du travail futur chute des deux tiers dès le départ, alors que la Bourse ne bouge pas à l'annonce."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "L'auteur emploie un modèle de croissance néoclassique avec une entreprise et un ménage représentatifs, dont la production suit le cadre des tâches d'Acemoglu et Restrepo : chaque tâche est accomplie par du travail ou par des machines. Il compare deux cas polaires, un ménage qui épargne de façon optimale et un taux d'épargne fixe. Calibré sur l'économie américaine, il calcule la transition vers l'automatisation complète, chaque tâche devenant automatisable entre 2025 et 2045. Il étudie aussi l'automatisation partielle et la séparation entre ménages sans patrimoine et propriétaires du capital."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Selon l'auteur, l'offre de capital gouverne l'ampleur du boom, tandis que la structure des tâches en fixe la durée et l'évolution des salaires. Avec une élasticité de substitution entre tâches σ = 1, la consommation bondit de 10 % dès que la trajectoire est connue ; avec σ = 0,2, elle chute de 9 %. La production dépasse dans les deux cas sa tendance : environ seize fois en 2045 avec σ = 1, cinq fois avec σ = 0,2. Si seule une partie des tâches est automatisée, les dernières tâches réservées au travail deviennent un goulot : avec σ = 0,2, le salaire, tombé à un peu plus d'un quart de sa tendance en 2040, remonte à neuf fois celle-ci. Le transfert qui maintiendrait le revenu du travail sur sa tendance culmine à 4 % du PIB avec σ = 1 et 20 % avec σ = 0,2. L'auteur en tire des signes observables : l'épargne devrait suivre la part du capital, et les taux longs devraient bondir tandis que le taux court reste stable."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "L'auteur avertit que ses exercices sont des repères, non des prévisions . Ses résultats supposent une offre de capital assez élastique, que l'hétérogénéité des agents, les frictions financières ou la limite des ressources physiques pourraient plafonner. L'économie politique est, selon lui, probablement l'omission la plus importante : un salaire tombé à un quart de sa tendance pendant deux décennies ne ravirait pas l'électeur médian. Enfin, les données ne diront pas avant des décennies si les dernières tâches seront automatisées."
+  }
+ ],
+ "synthese": "Selon ce document de travail, la même technologie peut produire 2,2 % ou 11,7 % de croissance annuelle selon que l'épargne suit ou non, ce qui fait d'un goulot apparent un possible manque de capital. Les gains seraient très larges mais inégalement répartis, et l'auteur précise que ses résultats sont des repères, pas des prévisions.",
+ "republication": "",
+ "reference": "Jesús Fernández-Villaverde (University of Pennsylvania, CEPR et NBER), « Saving for the Machines », NBER Working Paper n° 35964, octobre 2026 ; document de travail non relu par des pairs."
+}

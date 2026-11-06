@@ -1,0 +1,29 @@
+{
+ "titre": "Les marchés de prédiction contredisent un fort « effet d'information » de la Fed",
+ "chapo": "Des données quotidiennes du marché Kalshi indiquent que les hausses de taux de la Fed font baisser les attentes de production, d'emploi et d'inflation, comme le prévoient les modèles classiques.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Lorsque la Réserve fédérale relève ses taux, les modèles macroéconomiques standard et les VAR prévoient un recul de la production, de l'emploi et de l'inflation au cours des trimestres suivants. Or les révisions mensuelles des prévisions de professionnels sont parfois corrélées positivement aux variations de taux de la Fed. Selon la littérature sur l'« effet d'information de la Fed » (Romer et Romer, 2000 ; Campbell, Evans, Fisher et Justiniano, 2012 ; Nakamura et Steinsson, 2018), une hausse de taux révèle que l'économie est plus solide qu'on ne le croyait, au point de l'emporter sur le canal habituel. Bauer et Swanson (2023a) y voient plutôt un effet de la faible fréquence des données : sur un mois entier, les publications économiques et les mouvements de marché influencent à la fois la Fed et les prévisionnistes, ce qu'ils appellent « la réponse de la Fed aux nouvelles »."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Les attentes tirées de Kalshi réagissent aux annonces de politique monétaire comme le prévoient les modèles standard : des taux plus élevés font baisser production, emploi et inflation, sans qu'un effet d'information soit nécessaire pour l'expliquer. Le 15 juin 2022, lors de la hausse de 75 points de base, la plus forte depuis 1994, la probabilité implicite que le PIB du troisième trimestre 2022 dépasse 2,0 % est tombée d'environ 50 % à environ 35 %. Les taux de swaps d'inflation, mesure quotidienne alternative, réagissent comme les attentes d'inflation de Kalshi. Les surprises de taux directeur et d'orientation future ont des effets négatifs et très significatifs sur les attentes d'inflation et de PIB à plus long terme. Les auteurs ne trouvent aucune trace d'effet d'information dans les discours du président de la Fed et, au mieux, de faibles indices dans les procès-verbaux du FOMC."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Les auteurs exploitent les contrats d'événements de Kalshi, marché de prédiction américain lancé en juillet 2021 et agréé par la CFTC. Ces contrats binaires versent 1 dollar si l'événement se réalise, et les positions peuvent atteindre 7 millions de dollars, contre 850 dollars sur PredictIt. Ils ont recueilli toutes les transactions de juillet 2021 à décembre 2025 pour cinq contrats très échangés : taux des fonds fédéraux, inflation (CPI), taux de chômage, emplois non agricoles et PIB réel. Les volumes montent nettement autour des annonces, et les prévisions de Kalshi ont des erreurs comparables, souvent inférieures, à celles des enquêtes Blue Chip et Survey of Professional Forecasters. Au lieu de régressions mensuelles, ils estiment des régressions quotidiennes, avec effets fixes par événement et erreurs types regroupées par jour de négociation."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Selon les auteurs, leurs estimations fournissent de nouvelles preuves contre un effet d'information très fort et complètent celles de Bauer et Swanson, obtenues autrement : ceux-ci contrôlent les nouvelles omises dans des régressions mensuelles, tandis que les données quotidiennes les écartent d'emblée. Les chocs « d'information » de Jarociński et Karadi (2020) n'ont guère d'effet systématique sur les attentes fondamentales, ce qui, comme pour le choc « hors rendement » de Boehm et Kroner (2024), suggère qu'ils reflètent plutôt l'appétit pour le risque. Les données de contrats d'événements peuvent donc aider à séparer la composante de type prime de risque de la vraie information."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Les auteurs précisent que leurs résultats n'excluent pas toute forme d'effet d'information : seuls sont écartés les effets assez forts pour inverser le signe des coefficients. L'information révélée pourrait être trop faible pour changer ce signe, ou faible en moyenne mais importante à quelques dates isolées, version défendue par Jarociński et Karadi (2020) et Lunsford (2020), que leurs résultats ne réfutent pas. Enfin, les primes de risque sur ces contrats pourraient être faibles, ou ne pas réagir comme celles d'autres actifs."
+  }
+ ],
+ "synthese": "Avec des données quotidiennes de Kalshi, les auteurs trouvent que les attentes macroéconomiques réagissent aux taux de la Fed comme le prévoient les modèles standard, ce qui plaide contre un fort effet d'information. Ils reconnaissent cependant qu'un effet plus faible, ou concentré sur quelques dates, n'est pas écarté.",
+ "republication": "",
+ "reference": "Eric T. Swanson (University of California, Irvine, et NBER), Wang Renxuan (China-Europe International Business School) et Yanbin Wu (University of Florida), « The Effects of Monetary Policy on Macroeconomic Expectations: High-Frequency Evidence from Prediction Markets », NBER Working Paper n° 35968, octobre 2026 ; document de travail non relu par des pairs."
+}

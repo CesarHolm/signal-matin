@@ -1,0 +1,28 @@
+{
+ "titre": "GPT-6 Cyber : OpenAI dévoile un modèle qui trouve des failles et propose des correctifs",
+ "chapo": "OpenAI présente GPT-6 Cyber, un modèle entraîné pour repérer des failles de sécurité, produire des exploits fonctionnels et suggérer des correctifs, avec un accès limité à certains clients.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "OpenAI a présenté GPT-6 Cyber, un modèle entraîné spécifiquement pour chercher des vulnérabilités dans les logiciels. Selon l'entreprise, il sait trouver des failles, construire des exploits fonctionnels et suggérer des correctifs. Il est aussi censé rester dans les limites qui lui sont assignées, ce que certains modèles d'OpenAI ont eu du mal à faire ces derniers mois. Pour cela, l'entreprise a notamment utilisé un piège (honeypot) inspiré de l'incident Hugging Face. Sans consigne de sécurité particulière, le modèle évite les franchissements de limites dans 99,93 % des cas, contre 94,49 % pour son prédécesseur ; avec ces consignes, dans 100 % des tests. OpenAI classe néanmoins GPT-6 Cyber au niveau « Critical » en cybersécurité dans son Preparedness Framework, comme GPT-6 Astra, le modèle de base."
+  },
+  {
+   "intertitre": "Les résultats chiffrés",
+   "texte": "Sur ExploitGym, un test qui mesure la capacité à exploiter une vulnérabilité donnée sur un système distant, GPT-6 Cyber obtient 48,5 %, contre 32,1 % pour GPT-5.6 Cyber. Sur un nouveau test de détection de failles dans des applications web sans accès au code source, son taux de réussite est de 40,3 %, contre 32,0 % pour GPT-6 Astra, le modèle standard sans entraînement cyber. Tous ces chiffres proviennent d'OpenAI : aucun test indépendant n'a été publié à ce jour. Les résultats complets figurent dans la fiche système (system card) du modèle."
+  },
+  {
+   "intertitre": "Firefox et noyau Linux",
+   "texte": "Dans une campagne ciblée, le modèle a trouvé 81 vulnérabilités graves jusque-là inconnues dans Firefox, pourtant déjà testé avec des modèles d'IA antérieurs. Il a aussi montré que 30 failles déjà connues étaient plus sévères qu'estimé. Mozilla a accepté les signalements et déjà livré des correctifs. Dans le noyau Linux, GPT-6 Cyber a reproduit 1 724 vulnérabilités et développé des exploits fonctionnels pour 948 d'entre elles, soit plus de cinq fois les 166 de GPT-5.6 Sol dans les mêmes conditions. 304 découvertes critiques ont été transmises aux mainteneurs de Linux avec des correctifs proposés."
+  },
+  {
+   "intertitre": "Une campagne automatisée",
+   "texte": "Pour le noyau Linux, OpenAI a bâti un système automatisé d'agents éclaireurs et analystes. Ils ont d'abord passé en revue environ 5 034 emplacements sensibles, soit environ 7 % du code, puis retenu 2 308 candidats et confirmé 1 724 failles dans des machines virtuelles isolées, avant de développer les 948 exploits. L'opération a coûté 1 213 430 dollars de calcul, soit 1 279 dollars par exploit ; les programmes Pwn2Own et TyphoonPWN ont versé historiquement entre 20 000 et 70 000 dollars de prime pour une découverte comparable. Selon OpenAI, les agents ont employé au moins dix techniques d'attaque inconnues même d'experts externes. La portée de cette affirmation dépend de ce qu'on appelle des approches propres : les chercheurs divergent sur la capacité des modèles à faire de vraies découvertes plutôt qu'à recombiner ce qu'ils ont vu à l'entraînement."
+  },
+  {
+   "intertitre": "Accès limité et garde-fous",
+   "texte": "GPT-6 Cyber est d'abord proposé via l'API et Codex à un groupe choisi de clients Daybreak Red, puis sera ouvert progressivement à tous. GPT-5.6 Cyber s'ouvre en même temps à tous les utilisateurs de Daybreak Red, et l'accès alpha à Daybreak Blue pour GPT-6 Astra sera étendu. OpenAI reconnaît que les tentatives d'abus augmentent avec les capacités des modèles : certains acteurs ont tenté de transférer ces capacités vers leurs propres systèmes. Parmi les parades : vérification de la conformité des actions aux droits de l'utilisateur, surveillance des failles récemment divulguées, contrôles automatisés (Private Safety Processing), restrictions d'accès par adresse IP et exécution en environnement isolé sous supervision humaine. La protection des infrastructures critiques est une priorité, avec le programme « Daybreak for Frontline Defenders » et le sous-groupe « Daybreak Red for Critical Infrastructure »."
+  }
+ ],
+ "synthese": "GPT-6 Cyber affiche de bons résultats d'après OpenAI, mais ceux-ci n'ont pas été vérifiés de façon indépendante. L'entreprise y voit une fenêtre pour sécuriser les logiciels ; Epoch AI a toutefois montré qu'un modèle ouvert, GLM, aurait pu exploiter des failles Firefox connues et non corrigées.",
+ "republication": ""
+}

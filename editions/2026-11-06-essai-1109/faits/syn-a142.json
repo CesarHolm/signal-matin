@@ -1,0 +1,32 @@
+{
+ "titre": "Rejeu de session : la CNIL publie sa recommandation pour encadrer ces outils",
+ "chapo": "La CNIL a publié une recommandation destinée aux fournisseurs et aux éditeurs d'outils de rejeu de session, qui enregistrent le parcours des internautes sur les sites et applications.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Le 5 novembre 2026, la CNIL publie une recommandation relative aux outils de rejeu de session, qui permettent le suivi et l'analyse du comportement en ligne des utilisateurs. Son objectif est d'aider les acteurs qui conçoivent ces outils, comme ceux qui les utilisent, dans leur mise en conformité. Ces outils fonctionnent avec des traceurs : ils servent à enregistrer visuellement, ou à reconstituer, le parcours complet de navigation d'un internaute sur un site web ou une application mobile. Ils peuvent notamment aider à détecter et à corriger des dysfonctionnements, ou à optimiser la structure ou l'ergonomie d'un service numérique."
+  },
+  {
+   "intertitre": "Les enjeux pour la vie privée",
+   "texte": "Concrètement, l'éditeur d'un site ou d'une application peut enregistrer l'ensemble des interactions des utilisateurs : mouvements de souris, interactions tactiles, clics, défilement des pages et, dans certains cas, saisies dans les formulaires. Ces éléments sont ensuite exploités pour analyser le parcours de l'internaute sous forme de vidéos. Si ces solutions ouvrent de nouvelles possibilités d'analyse, elles présentent aussi des risques élevés d'atteinte à la vie privée. Elles peuvent notamment conduire à collecter des données personnelles qui ne sont pas nécessaires à l'analyse recherchée."
+  },
+  {
+   "intertitre": "Qui est concerné et ce que prévoit le texte",
+   "texte": "La recommandation s'adresse à deux catégories d'acteurs : les fournisseurs d'outils, qui conçoivent les solutions techniques et définissent les paramétrages et fonctionnalités, et les éditeurs de sites web ou d'applications mobiles, qui déploient ces outils pour analyser les parcours de leurs utilisateurs. Elle les aide à déterminer leur qualification selon leur rôle et le cadre légal applicable. Elle rappelle que ces outils relèvent de l'article 82 de la loi Informatique et Libertés et qu'ils sont soumis au consentement préalable, puisqu'aucune exemption prévue par cet article ne s'applique. Le recueil du consentement doit suivre les règles déjà exposées par la CNIL en matière de traceurs (cookies). Elle précise aussi les obligations d'information des personnes. Les finalités doivent être déterminées, explicites et légitimes, et fixées en amont du déploiement, non après la collecte des données."
+  },
+  {
+   "intertitre": "Les mesures techniques proposées",
+   "texte": "La recommandation propose une série de mesures techniques et opérationnelles, adaptables aux finalités poursuivies, pour assurer la conformité de ces outils aux principes clés du RGPD. Elle souligne l'importance de mettre en place un outil de masquage permettant d'occulter les données non pertinentes, de limiter le nombre de sessions collectées en fonction des finalités poursuivies et de limiter le recours aux identifiants."
+  },
+  {
+   "intertitre": "Ce que la consultation publique a changé",
+   "texte": "Le texte a fait l'objet d'échanges avec des professionnels et des associations représentatives de la société civile, puis d'une consultation publique de février à mai 2026. Les contributions ont permis de mieux comprendre les usages et les enjeux de ces outils. La version finale apporte plusieurs clarifications : le contenu de l'information à fournir distingue les informations de premier et de second niveau des interfaces de recueil du consentement, avec des formulations proposées ; une information spécifique sur l'usage de ces outils est désormais recommandée dès le premier niveau, pour garantir un consentement éclairé ; le masquage des mouvements de souris dans certaines zones est recommandé, afin d'éviter la collecte incidente de codes d'authentification ; enfin, le texte couvre les chatbots, dont le contenu des discussions (questions et réponses) devrait pouvoir être masqué, car il peut révéler des données potentiellement sensibles."
+  },
+  {
+   "intertitre": "Les prochaines étapes",
+   "texte": "La CNIL accompagnera les acteurs professionnels, notamment au moyen d'un webinaire, afin qu'ils s'approprient les règles et les recommandations et mettent en œuvre les mesures proposées pour assurer leur conformité."
+  }
+ ],
+ "synthese": "Les outils de rejeu de session, qui enregistrent en détail le parcours des internautes, exigent un consentement préalable et des finalités définies avant toute collecte. La CNIL recommande notamment le masquage des données non pertinentes et la limitation des sessions collectées, et prévoit un webinaire d'accompagnement.",
+ "republication": ""
+}
