@@ -1,0 +1,358 @@
+{
+ "date": "2026-11-06",
+ "nouveaux_mots": [
+  {
+   "mot": "Tenace",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui ne cède pas, persévère ; qui adhère ou persiste fortement.",
+   "exemple": "Une rumeur tenace circulait depuis des semaines."
+  },
+  {
+   "mot": "Morose",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Triste et maussade ; sans entrain.",
+   "exemple": "Le marché reste morose depuis la rentrée."
+  },
+  {
+   "mot": "Ergoter",
+   "nature": "v. intr.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Chicaner sur des détails, contester pour des riens.",
+   "exemple": "Inutile d'ergoter sur une virgule."
+  },
+  {
+   "mot": "Astreinte",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Condamnation à payer une somme par jour de retard dans l'exécution d'une obligation.",
+   "exemple": "Le juge a assorti l'injonction d'une astreinte de 500 euros par jour."
+  },
+  {
+   "mot": "Pantagruélique",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Digne de Pantagruel : énorme, gargantuesque (surtout pour un repas).",
+   "exemple": "Un festin pantagruélique clôtura la fête."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Vindicatif",
+   "definition": "Porté à la vengeance."
+  },
+  {
+   "mot": "Tributaire",
+   "definition": "Qui dépend de quelque chose ou de quelqu'un."
+  },
+  {
+   "mot": "Acédie",
+   "definition": "Torpeur de l'âme, dégoût mélancolique pour l'effort et la vie spirituelle."
+  },
+  {
+   "mot": "Ineffable",
+   "definition": "Qui ne peut être exprimé par des mots, tant il est intense ou subtil."
+  },
+  {
+   "mot": "Fuligineux",
+   "definition": "Qui a la couleur ou l'aspect de la suie ; au figuré, obscur, confus."
+  }
+ ],
+ "articles": [
+  "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
+  "https://the-decoder.com/openais-gpt-6-astra-quietly-sabotaged-safety-research-by-inventing-fake-obstacles/",
+  "https://the-decoder.com/after-midterm-rout-openai-tries-to-win-over-communities-it-needs-for-ai-expansion/",
+  "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/",
+  "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+  "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+  "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+  "https://www.publicsenat.fr/actualites/politique/mobilisation-contre-la-vie-chere-journee-de-greve-et-manifestations-en-france-qui-sannoncent-tres-suivies",
+  "https://www.publicsenat.fr/actualites/economie/ils-nuiront-gravement-a-leconomie-au-senat-le-grand-ras-le-bol-des-patrons-face-aux-choix-budgetaires-du-gouvernement",
+  "https://www.publicsenat.fr/actualites/politique/manifestation-du-5-novembre-sebastien-lecornu-annonce-une-conference-sociale-avec-les-syndicats-et-le-patronat-lundi",
+  "https://www.publicsenat.fr/actualites/politique/sondage-82-des-francais-ne-font-pas-confiance-a-emmanuel-macron-qui-bat-le-record-dimpopularite-de-francois-hollande-a-lelysee",
+  "https://www.franceinfo.fr/societe/manifestations/direct-mobilisation-sociale-le-ministre-du-travail-juge-important-d-essayer-de-relever-le-smic-au-dela-de-la-barre-des-1-500-euros-net_8270366.html#xtor=RSS-3-[lestitres]",
+  "https://www.scmp.com/news/us/us-elections/article/3373466/defiant-hegseth-tells-democrats-their-impeachment-push-wont-work",
+  "https://www.npr.org/2026/11/05/nx-s1-6031987/stock-markets-ai-midterm-elections",
+  "https://www.scmp.com/news/china/article/3373493/eu-china-trade-truce-under-strain-both-sides-brace-potential-trade-war",
+  "https://www.scmp.com/news/china/politics/article/3373519/new-anti-corruption-law-arms-beijing-expansive-global-enforcement-powers",
+  "https://www.aljazeera.com/news/2026/11/6/indonesia-names-fourth-wiretapping-suspect-as-political-intrigue-deepens?traffic_source=rss",
+  "https://www.nber.org/papers/w35961#fromrss",
+  "https://verfassungsblog.de/death-by-a-thousand-cuts/",
+  "https://www.nber.org/papers/w35967#fromrss",
+  "https://www.nber.org/papers/w35968#fromrss",
+  "https://www.nber.org/papers/w35966#fromrss",
+  "https://www.cnil.fr/fr/rejeu-de-session-recommandation",
+  "https://www.globalpolicywatch.com/2026/11/uk-government-commits-to-mandatory-human-rights-due-diligence-law-outcome-of-the-responsible-business-conduct-review/",
+  "https://eutoday.net/switzerland-lifts-sanctions-usmanov-fridman-eu-deal/",
+  "https://www.ogj.com/general-interest/economics-markets/news/55416991/us-sanctions-network-supporting-iranian-oil-shipments",
+  "https://theconversation.com/la-menopause-peut-discretement-fragiliser-les-os-voici-ce-quil-faut-savoir-pour-les-proteger-295957",
+  "https://www.sciencesetavenir.fr/high-tech/intelligence-artificielle/intelligence-artificielle-des-dizaines-de-villes-americaines-votent-contre-les-data-centers_195952?xtor=RSS-12",
+  "https://www.sciencesetavenir.fr/high-tech/pourquoi-les-refrigerateurs-des-supermarches-europeens-sont-des-cibles-faciles-pour-les-pirates-informatiques_195945?xtor=RSS-12",
+  "https://www.sciencesetavenir.fr/espace/systeme-solaire/mars-serait-plus-activement-volcanique-que-prevu_195796?xtor=RSS-9",
+  "https://www.sciencesetavenir.fr/sante/paludisme-d-aeroport-mortel-a-francfort-des-parasites-importes-d-afrique-par-des-moustiques_195942?xtor=RSS-16"
+ ],
+ "titres": [
+  "GPT-6 Cyber d'OpenAI : un modèle qui trouve les failles, les exploite et propose des correctifs",
+  "GPT-6 Astra : le modèle d'OpenAI a freiné en douce la recherche sur la sécurité",
+  "Après les élections, OpenAI promet des règles volontaires pour ses data centers",
+  "Vie chère : grève et manifestations très suivies en France, Lecornu convoque une conférence sociale",
+  "Budget 2027 : les organisations patronales font bloc devant les sénateurs",
+  "Hegseth défie les démocrates : la procédure de destitution « ne marchera pas »",
+  "Après les élections de mi-mandat, la crainte d'un tttour de vis sur l'IA fait chuter la tech",
+  "Visites à domicile et absentéisme chronique : les résultats du programme LEAP",
+  "KlimaSeniorinnen : la Suisse résiste, l'arrêt climatique reste inexécuté",
+  "Rejeu de session : la CNIL publie sa recommandation pour les acteurs",
+  "Royaume-Uni : le gouvernement promet une loi de vigilance en matière de droits humains",
+  "Ménopause et os : une fragilisation discrète à repérer et à prévenir tôt"
+ ],
+ "solutions": {
+  "sudoku": [
+   5,
+   4,
+   9,
+   7,
+   3,
+   1,
+   2,
+   8,
+   6,
+   6,
+   1,
+   3,
+   9,
+   2,
+   8,
+   4,
+   7,
+   5,
+   8,
+   7,
+   2,
+   4,
+   6,
+   5,
+   9,
+   1,
+   3,
+   3,
+   8,
+   7,
+   5,
+   9,
+   2,
+   6,
+   4,
+   1,
+   9,
+   2,
+   6,
+   1,
+   4,
+   3,
+   8,
+   5,
+   7,
+   4,
+   5,
+   1,
+   8,
+   7,
+   6,
+   3,
+   2,
+   9,
+   2,
+   3,
+   8,
+   6,
+   1,
+   7,
+   5,
+   9,
+   4,
+   1,
+   6,
+   4,
+   2,
+   5,
+   9,
+   7,
+   3,
+   8,
+   7,
+   9,
+   5,
+   3,
+   8,
+   4,
+   1,
+   6,
+   2
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     9,
+     1
+    ],
+    [
+     0,
+     1,
+     6,
+     2
+    ],
+    [
+     0,
+     3,
+     6,
+     2
+    ],
+    [
+     0,
+     5,
+     2,
+     1
+    ],
+    [
+     0,
+     6,
+     6,
+     1
+    ],
+    [
+     0,
+     7,
+     6,
+     2
+    ],
+    [
+     0,
+     9,
+     6,
+     1
+    ],
+    [
+     2,
+     5,
+     8,
+     1
+    ],
+    [
+     6,
+     1,
+     1,
+     4
+    ],
+    [
+     6,
+     6,
+     3,
+     3
+    ],
+    [
+     6,
+     9,
+     3,
+     1
+    ],
+    [
+     7,
+     1,
+     2,
+     4
+    ],
+    [
+     9,
+     0,
+     1,
+     3
+    ],
+    [
+     9,
+     3,
+     1,
+     2
+    ],
+    [
+     9,
+     6,
+     1,
+     2
+    ],
+    [
+     9,
+     8,
+     1,
+     2
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    5,
+    4,
+    2,
+    1,
+    3,
+    6
+   ],
+   [
+    6,
+    5,
+    4,
+    2,
+    1,
+    3
+   ],
+   [
+    1,
+    3,
+    6,
+    5,
+    4,
+    2
+   ],
+   [
+    3,
+    6,
+    5,
+    4,
+    2,
+    1
+   ],
+   [
+    2,
+    1,
+    3,
+    6,
+    5,
+    4
+   ],
+   [
+    4,
+    2,
+    1,
+    3,
+    6,
+    5
+   ]
+  ],
+  "compte": [
+   "6 + 100 = 106",
+   "106 + 25 = 131",
+   "131 × 1 = 131",
+   "131 − 2 = 129"
+  ]
+ },
+ "reponses_quiz": []
+}
