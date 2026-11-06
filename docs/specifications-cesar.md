@@ -75,6 +75,7 @@ Rubriques retirées : agenda, priorités, à ne pas oublier.
 | Curiosités | Sport (méthodes) | Stronger by Science — https://www.strongerbyscience.com/feed/ | EN | ❌ retiré le 04/11/2026 (audit des sources) |
 
 **Règle sport** : actualité en **brèves uniquement** (savoir ce qui s'est passé), **football exclu systématiquement** ; les articles sur les **méthodes d'entraînement** sont traités en **article développé**.
+*Version numérique (06/11/2026)* : une section Sport dédiée donne les résultats et le programme des événements majeurs, **football compris** ; il reste exclu des articles et des brèves (voir `docs/MODE-NUMERIQUE.md`).
 
 Test réel du 19/10/2026 : 29 flux sur 29 lus par le programme.
 

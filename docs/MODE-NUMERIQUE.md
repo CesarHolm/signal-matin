@@ -1,9 +1,13 @@
 # Recevoir le journal par e-mail, sans le PC
 
-Le journal est généré chaque matin dans le cloud GitHub (GitHub Actions), puis
-envoyé par e-mail : version lisible sur téléphone dans le corps du message
-(articles, brèves, mots du jour ; ni météo ni jeux), avec la même page HTML en
-pièce jointe. Le PC peut rester éteint.
+**Depuis le 07/11/2026, la version numérique est la version principale**, fabriquée
+chaque matin en mode hybride (§ 7) : une tâche planifiée Claude (abonnement Pro,
+lundi-samedi, 4 h 07 Europe/Paris) fait rédiger, GitHub Actions collecte, met en page
+et envoie l'e-mail. L'édition par l'API (§ 1 à 6) ne sert plus qu'à la relance
+manuelle : sa planification automatique est retirée. La version papier est suspendue.
+
+Contenu de l'e-mail : mots du jour, section Sport, sommaire, articles et brèves ; ni
+météo ni jeux ; la même page HTML en pièce jointe. Le PC peut rester éteint.
 
 Les mots du jour du voyage (28/10 → 11/11/2026) sont choisis à l'avance dans
 `mots_planifies.json`, sur la branche `journal-etat` ; ensuite, le tirage
@@ -124,7 +128,11 @@ Réglages : `src/signal_matin/journal/mise_en_page.py` (constantes `NUM_…`).
 GitHub peut retarder une tâche planifiée de plusieurs heures (constaté le 28 et
 le 29/10/2026 : lancement vers 10 h 30 au lieu de 4 h 07, heure de Paris).
 
-## 4 ter. Lancement à l'heure : cron-job.org (mis en place le 29/10/2026)
+## 4 ter. Lancement à l'heure : cron-job.org (29/10/2026 — abandonné le 06/11/2026)
+
+*Historique : cron-job.org n'a jamais été activé ; le lancement à l'heure est assuré
+par la tâche planifiée Claude (§ 7) et la planification GitHub de l'édition API est
+retirée.*
 
 Depuis fin août 2026, la planification GitHub part avec 3 à 10 h de retard.
 Le lancement est donc confié à **cron-job.org**, qui appelle chaque matin
@@ -180,3 +188,26 @@ moins de 6 000 caractères est d'abord complétée par d'autres sources, que l'a
 Une réponse manquante ne bloque pas l'édition : la section ou l'article absent est signalé en
 tête de l'e-mail (« Édition incomplète »). En cas d'échec complet, relance à la main de
 l'édition par l'API (§ 4).
+
+### Section Sport (06/11/2026)
+
+Sous les mots du jour, deux parties : « Résultats du JJ/MM » (le lundi : samedi et
+dimanche) et « À suivre aujourd'hui ». Par ligne : sport, affiche, score (ou heure),
+puis la compétition et sa nature (championnat du monde, coupe d'Europe, circuit ATP…).
+Au plus 5 résultats (2 par sport s'il y a d'autres résultats importants) et 3
+rendez-vous ; événements majeurs de tous les sports (e-sport compris) et Français en
+lice. Matière : scores et programme d'ESPN (football, rugby, F1, NBA), dépêches de
+L'Équipe et RMC Sport (tennis, cyclisme, athlétisme…) ; rien n'est ajouté de mémoire,
+sources non affichées. Le football n'apparaît que dans cette section.
+
+### Exploitation
+
+- **Chaque matin** : e-mail vers 4 h 30 (Paris). En cas d'échec de la tâche,
+  notification sur le téléphone.
+- **Relancer à la main** : demander à Claude de relancer la gazette du jour ; ou,
+  sans Claude, GitHub → Actions → journal quotidien → Run workflow (édition par
+  l'API, crédits API nécessaires).
+- **Republier une édition déjà fabriquée** : Actions → fabrication → Run workflow,
+  dossier `editions/AAAA-MM-JJ`.
+- **Suivi** : jauge hebdomadaire de l'abonnement (≈ 2 % par édition mesuré le
+  06/11) ; facture API ≈ 0.
