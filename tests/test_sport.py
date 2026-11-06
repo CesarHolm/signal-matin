@@ -57,3 +57,22 @@ def test_reponse_plafonnee_et_rendu():
     assert "<b class='score'>14 h 30</b>" in html
     assert "lequipe.fr" not in html  # sources non affichées
     assert _sport({"sport": {"resultats": [], "a_suivre": []}}) == ""
+
+
+def test_lundi_resultats_du_week_end(monkeypatch):
+    dates = []
+
+    def lire(url):
+        if "espn" in url:
+            dates.append(url.rsplit("dates=", 1)[1])
+            return json.dumps({"events": []})
+        return RSS
+    monkeypatch.setattr(sport, "_lire", lire)
+    lundi = dt.datetime(2026, 11, 9, 4, tzinfo=dt.timezone.utc)
+    matiere = sport.collecter(lundi, journal=lambda *a: None)
+    assert matiere["periode"] == ["2026-11-07", "2026-11-08"]
+    assert {"20261107", "20261108", "20261109"} == set(dates)
+    html = _sport({"date": "2026-11-09", "sport": {
+        "periode": matiere["periode"], "a_suivre": [],
+        "resultats": [{"sport": "Rugby", "affiche": "A – B", "score": "20-10"}]}})
+    assert "Résultats du 07/11 au 08/11" in html

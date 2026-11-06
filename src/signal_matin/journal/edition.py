@@ -237,6 +237,7 @@ def produire(config: dict, maintenant: dt.datetime | None = None, *, avec_ia: bo
             from . import sport as sp
             try:
                 sport = sp.lire_reponse(reponses["sport"])
+                sport["periode"] = matiere_sport.get("periode", [])
             except ValueError:
                 journal("  ! réponse sport illisible")
         for bloc in blocs:

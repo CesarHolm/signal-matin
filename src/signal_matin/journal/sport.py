@@ -92,12 +92,14 @@ def _depeches(nom: str, url: str, depuis: dt.datetime) -> list[dict]:
 
 
 def collecter(maintenant: dt.datetime, journal=print) -> dict:
-    """Scores d'hier, programme du jour et depeches des dernieres 30 h."""
+    """Scores de la veille (le lundi : samedi et dimanche, faute d'edition le dimanche),
+    programme du jour et depeches de la meme periode."""
     jour = maintenant.astimezone(PARIS).date()
-    hier = jour - dt.timedelta(days=1)
+    nb_jours = 2 if jour.weekday() == 0 else 1
+    periode = [jour - dt.timedelta(days=n) for n in range(nb_jours, 0, -1)]
     resultats, programme, depeches, erreurs = [], [], [], []
     for chemin, (sport, competition) in COMPETITIONS.items():
-        for date, liste in ((hier, resultats), (jour, programme)):
+        for date, liste in [(d, resultats) for d in periode] + [(jour, programme)]:
             try:
                 donnees = json.loads(_lire(f"{ESPN}{chemin}/scoreboard?dates={date:%Y%m%d}"))
             except Exception:
@@ -107,7 +109,7 @@ def collecter(maintenant: dt.datetime, journal=print) -> dict:
                 match = _match(evenement, sport, competition)
                 if (liste is resultats and match["termine"]) or (liste is programme and not match["termine"]):
                     liste.append(match)
-    depuis = maintenant - dt.timedelta(hours=30)
+    depuis = maintenant - dt.timedelta(hours=30 + 24 * (nb_jours - 1))
     vus = set()
     for nom, url in DEPECHES.items():
         try:
@@ -119,13 +121,14 @@ def collecter(maintenant: dt.datetime, journal=print) -> dict:
             erreurs.append(nom)
     journal(f"  sport : {len(resultats)} résultats, {len(programme)} matchs au programme, "
             f"{len(depeches)} dépêches" + (f" ; indisponibles : {', '.join(sorted(set(erreurs)))}" if erreurs else ""))
-    return {"jour": jour.isoformat(), "resultats": resultats, "programme": programme,
-            "depeches": depeches[:150], "erreurs": sorted(set(erreurs))}
+    return {"jour": jour.isoformat(), "periode": [d.isoformat() for d in periode],
+            "resultats": resultats, "programme": programme,
+            "depeches": depeches[:150 * nb_jours], "erreurs": sorted(set(erreurs))}
 
 
 SYSTEME_SPORT = f"""Tu rédiges la rubrique Sport d'un journal personnel lu sur téléphone, en français, pour un lecteur qui veut l'essentiel en quelques lignes.
 
-Matière fournie : « resultats » (scores définitifs d'hier), « programme » (matchs d'aujourd'hui, heure de Paris) et « depeches » (titres et résumés des dernières 30 heures : tennis, cyclisme, athlétisme et autres sports).
+Matière fournie : « periode » (jours couverts : la veille ; le lundi, samedi et dimanche), « resultats » (scores définitifs de la période), « programme » (matchs d'aujourd'hui, heure de Paris) et « depeches » (titres et résumés de la période : tennis, cyclisme, athlétisme et autres sports).
 
 Règles :
 - Uniquement les événements importants : finales et phases finales, Grands Chelems et Masters 1000, grands tours et classiques, grands marathons et championnats, matchs de premier plan des grandes compétitions (Ligue des champions, grands championnats européens, Top 14, Six Nations, Grand Prix de F1…), sélections nationales ; plus les sportifs et équipes français engagés dans un grand événement. Tous les sports sont possibles.
@@ -149,7 +152,7 @@ SCHEMA_SPORT = {"type": "object", "properties": {
 
 def requete(client, matiere: dict):
     from .ia import Requete
-    contenu = {k: matiere.get(k, []) for k in ("resultats", "programme", "depeches")}
+    contenu = {k: matiere.get(k, []) for k in ("periode", "resultats", "programme", "depeches")}
     return Requete(id="sport", modele=client.modele_tri, systeme=SYSTEME_SPORT,
                    contenu=json.dumps(contenu, ensure_ascii=False), max_tokens=3000, schema=SCHEMA_SPORT)
 

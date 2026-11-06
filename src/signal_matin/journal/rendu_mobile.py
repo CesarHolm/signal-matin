@@ -152,7 +152,10 @@ def _sport(edition: dict) -> str:
     if sport.get("resultats"):
         veille = ""
         try:
-            veille = " du " + (dt.date.fromisoformat(edition["date"]) - dt.timedelta(days=1)).strftime("%d/%m")
+            jours = [dt.date.fromisoformat(j) for j in sport.get("periode") or []] or [
+                dt.date.fromisoformat(edition["date"]) - dt.timedelta(days=1)]
+            veille = (f" du {jours[0]:%d/%m}" if len(jours) == 1
+                      else f" du {jours[0]:%d/%m} au {jours[-1]:%d/%m}")
         except (KeyError, TypeError, ValueError):
             pass
         parties.append(f"<p class='sp-t'>Résultats{veille}</p><ul class='sport'>"
