@@ -57,27 +57,31 @@ jobs:
           if [ -n "${{ inputs.dossier }}" ]; then
             dossier="${{ inputs.dossier }}"
           else
-            dossier=$(git -C livraison diff --name-only HEAD~1 HEAD | grep '/tour.json$' | head -1 | xargs -r dirname)
+            dossier=$(git -C livraison diff --name-only --diff-filter=AM HEAD~1 HEAD | grep '/tour.json$' | head -1 | xargs -r dirname)
           fi
           if [ -z "$dossier" ] || [ ! -d "livraison/$dossier" ]; then
-            echo "::error title=Édition introuvable::aucun tour.json modifié"
-            exit 1
+            echo "::notice title=Rien à faire::aucun tour.json ajouté ou modifié (dossier supprimé ?)"
+            echo "dossier=" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
           echo "dossier=livraison/$dossier" >> "$GITHUB_OUTPUT"
           echo "::notice title=Édition::$dossier"
 
       - uses: actions/setup-python@v7
+        if: steps.edition.outputs.dossier != ''
         with:
           python-version: "3.12"
           cache: pip
 
       - name: Installation
+        if: steps.edition.outputs.dossier != ''
         run: |
           pip install -e .
           cp config.cesar.example.yaml config.yaml
 
       - name: Tour (collecte, textes, demandes ; publication au dernier tour)
         id: tour
+        if: steps.edition.outputs.dossier != ''
         continue-on-error: true
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
@@ -91,7 +95,7 @@ jobs:
           fi
 
       - name: Renvoyer l'état à l'agent
-        if: ${{ !inputs.dossier }}
+        if: ${{ !inputs.dossier && steps.edition.outputs.dossier != '' }}
         working-directory: livraison
         run: |
           git config user.name "signal-matin"
@@ -106,6 +110,7 @@ jobs:
           exit 1
 
       - name: Enregistrer la mémoire du journal
+        if: steps.edition.outputs.dossier != ''
         working-directory: data
         run: |
           git config user.name "signal-matin"
