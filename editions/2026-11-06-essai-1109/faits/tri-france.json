@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a57", "score": 9, "raison": "Plus de 600 000 personnes ont défilé jeudi pour les salaires et le pouvoir d'achat, et Matignon convoque lundi une conférence sociale avec syndicats et patronat : sujet central du jour."},
+    {"id": "a60", "score": 8, "raison": "Le Sénat prévoit de rétablir la réforme des retraites de 2023 dans le budget de la Sécurité sociale, rejeté à l'Assemblée : enjeu budgétaire et social majeur."},
+    {"id": "a41", "score": 7, "raison": "Deux personnes sont mortes en Corse-du-Sud après que leur véhicule a été emporté par les eaux lors des intempéries : fait grave, à suivre."},
+    {"id": "a45", "score": 6, "raison": "Le Parquet national antiterroriste ouvre un nombre record d'enquêtes sur l'ultradroite radicale violente : enjeu de sécurité durable."},
+    {"id": "a34", "score": 5, "raison": "Explication factuelle de l'écart entre inflation mesurée et inflation ressentie, utile dans le débat sur le pouvoir d'achat ; en réserve."}
+  ],
+  "breves": [
+    {"id": "a33", "titre": "Accident de car à Lent (Ain) : deux morts et trois blessés", "texte": "Vendredi matin, un car transportant 63 passagers s'est accidenté à Lent, au sud de Bourg-en-Bresse, selon la préfecture de l'Ain, qui fait état de deux morts et trois blessés. Le ministre des Transports, Philippe Tabarot, a annoncé qu'il se rendrait sur place."},
+    {"id": "a63", "titre": "Logement contre sollicitations sexuelles : le Sénat vote à l'unanimité", "texte": "Le Sénat a adopté à l'unanimité, jeudi, une proposition de loi de la sénatrice Nathalie Delattre visant à sanctionner spécifiquement le fait de proposer un logement en échange de sollicitations sexuelles. Ces annonces, nombreuses sur les réseaux sociaux et les sites immobiliers, ciblent des personnes en grande précarité."},
+    {"id": "a46", "titre": "A69 : des riverains dénoncent l'enclavement créé par le tracé", "texte": "L'autoroute A69 a ouvert vendredi après quatre ans de bras de fer. Certains riverains doivent désormais faire des détours pour emprunter les itinéraires gratuits de leurs trajets du quotidien, et dénoncent un enclavement."}
+  ]
+}

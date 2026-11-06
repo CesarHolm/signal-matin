@@ -1,0 +1,13 @@
+{
+  "developpes": [
+    {"id": "a123", "score": 7, "raison": "Des données à haute fréquence issues des marchés de prédiction Kalshi éclairent pourquoi les prévisions macroéconomiques se révisent parfois dans le même sens que les hausses de taux de la Fed : enjeu pour l'analyse de la politique monétaire."},
+    {"id": "a120", "score": 6, "raison": "Dans un modèle de tâches, la même trajectoire technologique produit 11,7 % de croissance annuelle si les ménages choisissent leur taux d'épargne, contre 2,2 % avec un taux fixe : effet concret de l'épargne sur l'automatisation."},
+    {"id": "a121", "score": 5, "raison": "La R&D publique liée à la conquête spatiale américaine a orienté l'industrie manufacturière vers l'automatisation, avec des effets sur l'innovation et l'emploi ; en réserve."}
+  ],
+  "breves": [
+    {"id": "a131", "titre": "Demandeurs de protection : des ordonnances de détention souvent erronées", "texte": "Selon des travaux empiriques cités par Verfassungsblog, les ordonnances de détention des demandeurs de protection sont à plusieurs reprises et systématiquement fautives. Ces questions préalables sont pourtant souvent ignorées dans le débat politique allemand et européen."},
+    {"id": "a128", "titre": "Les adultes LGBTQ plus présents dans les communautés en ligne", "texte": "Selon le Pew Research Center, les adultes LGBTQ rejoignent plus souvent des communautés en ligne, qui leur apportent une vraie valeur. Certains les quittent toutefois, en raison du harcèlement subi par d'autres membres."},
+    {"id": "a130", "titre": "Transparence salariale : les annonces d'emploi devraient indiquer le salaire", "texte": "La directive européenne sur la transparence des rémunérations n'a pas été transposée en Allemagne à la date limite du 7 juin 2026. Selon Verfassungsblog, la transposition devrait imposer aux annonces d'emploi de mentionner la rémunération."},
+    {"id": "a129", "titre": "La Loi fondamentale allemande, une constitution pacifiste", "texte": "Selon Verfassungsblog, les normes de la Loi fondamentale de 1949 relatives à la défense font de ce texte une constitution pacifiste. L'auteur souligne l'importance de les respecter aujourd'hui, à l'heure de la « Zeitenwende »."}
+  ]
+}

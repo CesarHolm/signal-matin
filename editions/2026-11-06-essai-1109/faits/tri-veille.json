@@ -1,0 +1,12 @@
+{
+  "developpes": [
+    {"id": "a142", "score": 8, "raison": "La CNIL publie une recommandation sur les outils de rejeu de session, qui suivent le comportement des internautes : référence directe pour la mise en conformité des acteurs qui les conçoivent ou les utilisent."},
+    {"id": "a161", "score": 7, "raison": "Le BIS prolonge la suspension de sa règle des 50 % sur les filiales, en pleines discussions avec la Chine : évolution directe des contrôles à l'export."},
+    {"id": "a153", "score": 6, "raison": "La Suisse lève les sanctions visant Alisher Ousmanov et Mikhaïl Fridman mais ajoute des restrictions sur 254 entités, en alignement sur l'UE : sanctions et mises à jour de listes pour les dispositifs de conformité ; en réserve."},
+    {"id": "a143", "score": 6, "raison": "Le gouvernement britannique s'engage à instaurer une loi obligatoire de diligence raisonnable en matière de droits humains : évolution du devoir de vigilance hors de l'UE ; en réserve."}
+  ],
+  "breves": [
+    {"id": "a167", "titre": "LCB-FT : une nouvelle loi allemande anti-blanchiment", "texte": "Global Regulation Tomorrow présente cette nouvelle loi allemande comme une étape du passage de règles nationales à un corpus unique européen (Single Rulebook)."},
+    {"id": "a171", "titre": "LCB-FT : la BCE précise sa réponse aux risques numériques et transfrontaliers", "texte": "Selon Traders Union, la BCE a exposé la manière dont sa supervision de la lutte contre le blanchiment répond aux risques numériques et transfrontaliers en Europe."}
+  ]
+}

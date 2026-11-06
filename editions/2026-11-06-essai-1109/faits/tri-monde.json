@@ -1,0 +1,13 @@
+{
+  "developpes": [
+    {"id": "a80", "score": 8, "raison": "Trump évoque un accord « magnifique » couvrant « toute l'Europe » après une rencontre avec l'émissaire de Poutine, en précisant qu'il dépassera l'Ukraine : enjeu majeur pour l'Europe."},
+    {"id": "a91", "score": 8, "raison": "Pékin adopte une loi sur la corruption transfrontalière, en vigueur immédiatement, avec des outils étendus pour poursuivre les avoirs offshore : enjeu direct de conformité pour les entreprises présentes en Chine ou à l'international."},
+    {"id": "a112", "score": 7, "raison": "Le président israélien Herzog doit désigner dimanche le candidat chargé de former un gouvernement, après le soutien d'une majorité de députés à Eisenkot plutôt qu'à Netanyahu."},
+    {"id": "a94", "score": 6, "raison": "Malgré un accord récent, l'UE et la Chine se préparent à une possible guerre commerciale et s'opposent sur la responsabilité de leurs tensions ; en réserve."}
+  ],
+  "breves": [
+    {"id": "a73", "titre": "Paraguay : Santiago Peña mis en accusation minutes après sa démission", "texte": "Les députés paraguayens ont voté la mise en accusation du président, quelques minutes après sa démission. Cette décision intervient alors que la faillite d'une banque numérique liée à son gouvernement a gelé les économies de millions de personnes."},
+    {"id": "a96", "titre": "Une prolongation de la trêve sino-américaine probable à l'Apec de Shenzhen", "texte": "Lors de leur rencontre en Corée du Sud, Donald Trump et Xi Jinping ont suspendu certaines mesures, dont des droits de port sur les navires construits en Chine et des contrôles chinois sur les terres rares. Selon le South China Morning Post, une prolongation de cette trêve paraît probable lors du sommet de l'Apec à Shenzhen."},
+    {"id": "a104", "titre": "Royaume-Uni : un marin indien emprisonné pour des sanctions contre la Russie", "texte": "Le capitaine indien Ajay Pant se trouvait en eaux internationales lorsque son pétrolier, présumé appartenir à la « flotte fantôme », a été capturé par des militaires britanniques. Il a ensuite été emprisonné au Royaume-Uni dans le cadre de sanctions contre la Russie."}
+  ]
+}
