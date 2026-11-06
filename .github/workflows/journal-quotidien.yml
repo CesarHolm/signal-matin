@@ -12,10 +12,9 @@
 name: journal quotidien
 
 on:
-  schedule:
-    # 3 h 07 UTC = 4 h 07 à Paris (heure d'hiver). Secours seulement : le lancement à
-    # l'heure vient de cron-job.org (appel de l'API workflow_dispatch, essai et direct à false).
-    - cron: "7 3 * * 1-6"
+  # Plus de lancement automatique (06/11/2026) : la gazette est fabriquée chaque matin par
+  # la tâche planifiée Claude (mode hybride, workflow « fabrication » de claude/editions).
+  # Ce workflow ne sert plus qu'à la relance manuelle par l'API (Run workflow).
   workflow_dispatch:
     inputs:
       essai:
