@@ -51,6 +51,14 @@ table.wx{border-collapse:collapse;width:100%;font-family:Arial,Helvetica,sans-se
 table.wx th,table.wx td{border-bottom:1px solid #ddd6c8;padding:4px 3px;text-align:left}
 .note{font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#666;margin:6px 0 0}
 ul.mots{list-style:none;padding:0;margin:0}
+ul.sport{list-style:none;padding:0;margin:0}
+ul.sport li{margin:0 0 10px;padding:0 0 8px;border-bottom:1px solid #ddd}
+ul.sport li:last-child{border-bottom:0;padding-bottom:0}
+ul.sport p{margin:0}
+.sp-k{display:inline;margin-right:4px;color:#a33}
+.score{font-family:Arial,Helvetica,sans-serif;white-space:nowrap;margin-left:4px}
+.sp-c{font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#555}
+.sp-t{font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;text-transform:uppercase;letter-spacing:.06em;margin:12px 0 8px;padding:4px 0;border-top:2px solid #151515;border-bottom:1px solid #151515}
 ul.mots li{margin:0 0 12px}
 ul.mots em{color:#555;font-size:15px}
 .ex{font-style:italic;color:#444}
@@ -124,25 +132,30 @@ def _mots(edition: dict) -> str:
 
 
 def _sport(edition: dict) -> str:
-    """Rubrique Sport, sous les mots : resultats (une ligne de contexte) puis « A suivre »."""
+    """Rubrique Sport, sous les mots, en deux parties : « Résultats d'hier » puis
+    « À suivre aujourd'hui ». Par ligne : SPORT · affiche · score (ou heure), puis la
+    competition et sa nature (championnat du monde, coupe d'Europe…). Sans source affichee.
+    """
     sport = edition.get("sport") or {}
     if not sport.get("resultats") and not sport.get("a_suivre"):
         return ""
 
-    def ligne(element: dict, heure: bool = False) -> str:
-        quand = f"{E(element['heure'])} · " if heure and element.get("heure") else ""
-        lien = (f" <a href='{E(element['url'], quote=True)}'>{E(element.get('source') or 'source')}</a>"
-                if element.get("url") else (f" <span class='ex'>{E(element['source'])}</span>"
-                                            if element.get("source") else ""))
-        return f"<li><b>{E(element.get('sport', '').upper())}</b> — {quand}{E(element['texte'])}{lien}</li>"
+    def ligne(r: dict, droite: str) -> str:
+        valeur = f" <b class='score'>{E(droite)}</b>" if droite else ""
+        html = (f"<p class='sp'><span class='kicker sp-k'>{E(r.get('sport', ''))}</span> "
+                f"<b>{E(r['affiche'])}</b>{valeur}</p>")
+        if r.get("competition"):
+            html += f"<p class='sp-c'>— {E(r['competition'])}</p>"
+        return f"<li>{html}</li>"
 
-    corps = ""
+    parties = []
     if sport.get("resultats"):
-        corps += "<ul class='mots'>" + "".join(ligne(r) for r in sport["resultats"]) + "</ul>"
+        parties.append("<p class='sp-t'>Résultats d'hier</p><ul class='sport'>"
+                       + "".join(ligne(r, r.get("score", "")) for r in sport["resultats"]) + "</ul>")
     if sport.get("a_suivre"):
-        corps += ("<p class='kicker' style='margin-top:8px'>À suivre aujourd'hui</p><ul class='mots'>"
-                  + "".join(ligne(r, heure=True) for r in sport["a_suivre"]) + "</ul>")
-    return f"<div class='encadre'><p class='kicker'>Sport</p>{corps}</div>"
+        parties.append("<p class='sp-t'>À suivre aujourd'hui</p><ul class='sport'>"
+                       + "".join(ligne(r, r.get("heure", "")) for r in sport["a_suivre"]) + "</ul>")
+    return f"<div class='encadre'><p class='kicker'>Sport</p>{''.join(parties)}</div>"
 
 
 def _pied(article: dict) -> str:

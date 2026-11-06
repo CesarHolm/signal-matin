@@ -41,12 +41,19 @@ def test_collecte_hors_ligne_ne_bloque_pas():
 
 
 def test_reponse_plafonnee_et_rendu():
-    reponse = json.dumps({"resultats": [{"sport": "Tennis", "texte": f"Résultat {i}.", "source": "L'Équipe",
-                                         "url": "https://lequipe.fr/1"} for i in range(8)],
-                          "a_suivre": [{"sport": "Rugby", "texte": "Toulouse - Clermont", "heure": "14 h 30"}] * 5})
+    reponse = json.dumps({
+        "resultats": [{"sport": "Tennis", "affiche": f"A{i} – B{i}", "score": "6-3 6-4",
+                       "competition": "Masters 1000 de Paris (circuit ATP), 8es de finale",
+                       "source": "L'Équipe", "url": "https://lequipe.fr/1"} for i in range(8)],
+        "a_suivre": [{"sport": "Rugby", "affiche": "Toulouse – Clermont", "heure": "14 h 30",
+                      "competition": "Top 14 (championnat de France)"}] * 5})
     data = sport.lire_reponse(reponse)
     assert len(data["resultats"]) == 5 and len(data["a_suivre"]) == 3
     html = _sport({"sport": data})
-    assert "<b>TENNIS</b> — Résultat 0." in html and "lequipe.fr/1" in html
-    assert "À suivre aujourd'hui" in html and "14 h 30 · Toulouse" in html
+    assert "Résultats d'hier" in html and "À suivre aujourd'hui" in html
+    assert html.index("Résultats d'hier") < html.index("À suivre aujourd'hui")
+    assert "<b>A0 – B0</b> <b class='score'>6-3 6-4</b>" in html
+    assert "— Masters 1000 de Paris (circuit ATP), 8es de finale" in html
+    assert "<b class='score'>14 h 30</b>" in html
+    assert "lequipe.fr" not in html  # sources non affichées
     assert _sport({"sport": {"resultats": [], "a_suivre": []}}) == ""
