@@ -1,0 +1,275 @@
+{
+ "le": "2026-11-06T11:04:47.369834",
+ "sources": {
+  "espn tennis atp": {
+   "code": 200,
+   "elements": 1,
+   "exemples": [
+    "2026-10-31T04:00 Rolex Paris Masters [Final]"
+   ]
+  },
+  "espn tennis wta": {
+   "code": 200,
+   "elements": 5,
+   "exemples": [
+    "2026-10-30T04:00 Prudential Hong Kong Tennis Open [Final]",
+    "2026-10-31T04:00 Chennai Open [Retired]",
+    "2026-10-31T04:00 American Tennis Open Miami []",
+    "2026-11-01T04:00 Reto Win Tennis Cali Open [Final]"
+   ]
+  },
+  "espn f1": {
+   "code": 200,
+   "elements": 1,
+   "exemples": [
+    "2026-11-06T15:30 MSC Cruises São Paulo Grand Prix [Scheduled]"
+   ]
+  },
+  "espn ligue 1": {
+   "code": 200,
+   "elements": 1,
+   "exemples": [
+    "2026-11-06T19:45 Strasbourg at Toulouse [Scheduled]"
+   ]
+  },
+  "espn ldc": {
+   "code": 200,
+   "elements": 9,
+   "exemples": [
+    "2026-11-04T17:45 Real Madrid at AEK Athens [Full Time]",
+    "2026-11-04T17:45 Liverpool at Fenerbahce [Full Time]",
+    "2026-11-04T20:00 Real Betis at Borussia Dortmund [Full Time]",
+    "2026-11-04T20:00 Napoli at FC Porto [Full Time]"
+   ]
+  },
+  "espn europa": {
+   "code": 200,
+   "elements": 17,
+   "exemples": [
+    "2026-11-05T17:45 Ferencvaros at AC Milan [Full Time]",
+    "2026-11-05T17:45 RB Salzburg at Anderlecht [Full Time]",
+    "2026-11-05T17:45 TSG Hoffenheim at Crystal Palace [Full Time]",
+    "2026-11-05T17:45 Jagiellonia Bialystok at Levski Sofia [Full Time]"
+   ]
+  },
+  "espn premier league": {
+   "code": 200,
+   "elements": 1,
+   "exemples": [
+    "2026-11-06T20:00 Coventry City at Everton [Scheduled]"
+   ]
+  },
+  "espn liga": {
+   "code": 200,
+   "elements": 1,
+   "exemples": [
+    "2026-11-06T20:00 Alavés at Sevilla [Scheduled]"
+   ]
+  },
+  "espn serie a": {
+   "code": 200,
+   "elements": 1,
+   "exemples": [
+    "2026-11-06T19:45 Udinese at Venezia [Scheduled]"
+   ]
+  },
+  "espn bundesliga": {
+   "code": 200,
+   "elements": 1,
+   "exemples": [
+    "2026-11-06T19:30 Borussia Mönchengladbach at Hamburg SV [Scheduled]"
+   ]
+  },
+  "espn foot amicaux/qualifs": {
+   "code": 200,
+   "elements": 4,
+   "exemples": [
+    "2026-03-31T18:45 Italy at Bosnia-Herzegovina [Final Score - After Penalties]",
+    "2026-03-31T18:45 Denmark at Czechia [Final Score - After Penalties]",
+    "2026-03-31T18:45 Türkiye at Kosovo [Full Time]",
+    "2026-03-31T18:45 Poland at Sweden [Full Time]"
+   ]
+  },
+  "espn rugby (toutes)": {
+   "erreur": "<HTTPError 404: 'Not Found'>"
+  },
+  "espn rugby top 14": {
+   "code": 200,
+   "elements": 6,
+   "exemples": [
+    "2026-11-07T13:30 Stade Toulousain vs Clermont Auvergne [Scheduled]",
+    "2026-11-07T15:30 Perpignan vs Section Paloise [Scheduled]",
+    "2026-11-07T15:35 Castres Olympique vs Racing 92 [Scheduled]",
+    "2026-11-07T15:35 Montpellier Herault vs Lyon [Scheduled]"
+   ]
+  },
+  "espn rugby tests": {
+   "code": 200,
+   "elements": 1,
+   "exemples": [
+    "2026-11-10T00:00 Pakistan vs Uzbekistan [Scheduled]"
+   ]
+  },
+  "espn nba": {
+   "code": 200,
+   "elements": 2,
+   "exemples": [
+    "2026-11-06T02:00 Orlando Magic at Phoenix Suns [Final]",
+    "2026-11-06T03:00 Miami Heat at Golden State Warriors [Final]"
+   ]
+  },
+  "lequipe une": {
+   "code": 200,
+   "elements": 50,
+   "exemples": [
+    "L&#039;Angleterre avec les frères Bellingham et Josh King pour la Ligue des nations",
+    "Où suivre les «25 heures qui courent» ?",
+    "Makis Chamalidis, docteur en psychologie, explique comment prévenir les burn-out dans le haut niveau : « Il faut préconiser la récupération émotionnelle »",
+    "Les corps et les têtes pas loin de la saturation"
+   ]
+  },
+  "lequipe tennis": {
+   "code": 200,
+   "elements": 50,
+   "exemples": [
+    "Makis Chamalidis, docteur en psychologie, explique comment prévenir les burn-out dans le haut niveau : « Il faut préconiser la récupération émotionnelle »",
+    "Les corps et les têtes pas loin de la saturation",
+    "Jannik Sinner officialise la fin de sa collaboration avec un de ses entraîneurs, Darren Cahill, remplacé par Magnus Norman",
+    "Et si on s&#039;était trompé sur Luca Van Assche ?"
+   ]
+  },
+  "lequipe cyclisme": {
+   "code": 200,
+   "elements": 50,
+   "exemples": [
+    "Votez pour les rookies de l&#039;année",
+    "Reconversion professionnelle, les premier pas des ex-coureurs dans leur vie d&#039;après",
+    "Aude Biannic, la rescapée du vélo d&#039;avant qui ne s&#039;impose que le plaisir",
+    "L&#039;ancienne coureuse Audrey Cordon-Ragot va devenir la directrice d&#039;une course en Belgique"
+   ]
+  },
+  "lequipe athletisme": {
+   "code": 200,
+   "elements": 50,
+   "exemples": [
+    "Tom Dumoulin sous les 2h30, James Milner et Anthony Mounier finishers... : les anciens sportifs au rendez-vous du marathon de New York",
+    "Andreas Almgren triomphe à New York pour son premier marathon",
+    "Déjà victorieuse en 2024, la Kényane Sheila Chepkirui remporte à nouveau le marathon de New York",
+    "Où voir le marathon de New-York ?"
+   ]
+  },
+  "lequipe rugby": {
+   "code": 200,
+   "elements": 50,
+   "exemples": [
+    "Frédéric Michalak à propos du rôle de Romain Ntamack comme buteur numéro 1 des Bleus face aux Fidji : « Aucun doute, il maîtrise, il l&#039;a déjà montré »",
+    "Comment Nevers, bon dernier malgré son gros budget, a-t-il pu tomber si bas ?",
+    "Attissogbe : «J&#039;ai tiré la bonne carte»",
+    "Dix mois pour faire briller les Fidji à la Coupe du monde : la mission sprint du Sud-Africain Jake White, coach en 2007 lors du sacre des Boks"
+   ]
+  },
+  "lequipe f1": {
+   "code": 200,
+   "elements": 50,
+   "exemples": [
+    "« C&#039;était pareil avec Sebastian et pareil avec Carlos » : pour Lewis Hamilton, Charles Leclerc est plus agressif avec ses équipiers qu&#039;avec les autres pilotes",
+    "Antonelli : « Ma vie va beaucoup changer »",
+    "Alan Jones, ancien champion australien de Formule 1, est mort à l&#039;âge de 80 ans",
+    "Écarté ce week-end au Mexique, Esteban Ocon ne pilotera plus pour Haas"
+   ]
+  },
+  "lequipe football": {
+   "code": 200,
+   "elements": 50,
+   "exemples": [
+    "L&#039;Angleterre avec les frères Bellingham et Josh King pour la Ligue des nations",
+    "Godo et la visualisation d&#039;avant-match : «Ces exercices m&#039;ont aidé»",
+    "Malgré la prolongation de Kane au Bayern, Tottenham conserverait un droit de préemption sur un éventuel transfert du Ballon d&#039;Or 2026",
+    "« J&#039;effleure le ballon de la tête et mes cheveux se retrouvent par terre » : « Dudu », le footballeur amateur brésilien qui a perdu sa prothèse capillaire en plein match"
+   ]
+  },
+  "franceinfo sports": {
+   "code": 200,
+   "elements": 20,
+   "exemples": [
+    "Sept personnes dont l'ex-joueuse du PSG Aminata Diallo renvoy&#xE9;es en correctionnelle dans l'affaire de l'agression de Kheira Hamraoui",
+    "Les images du sauvetage d'Armel Le Cl&#xE9;ac'h, apr&#xE8;s son chavirage sur la Route du Rhum",
+    "Tom Laperche file vers la victoire sur la Route du Rhum, son arriv&#xE9;e attendue samedi",
+    "Route du Rhum : le skipper Romain Pilliard a lanc&#xE9; une cagnotte en ligne pour pouvoir repartir apr&#xE8;s sa collision avec un bateau concurrent"
+   ]
+  },
+  "rmc sport": {
+   "code": 200,
+   "elements": 30,
+   "exemples": [
+    "Fil Sport - actualités",
+    "DIRECT. Masters 1000 de Paris: suivez en live les quarts de finale avec Van Assche, Alcaraz, Shelton et Ruud",
+    "Messages sans réponse de Jorge Jesus, isolement en Arabie saoudite... Les coulisses de la retraite internationale de Cristiano Ronaldo",
+    "DIRECT. Ligue 1: les principales infos et déclarations en live avant la 10e journée"
+   ]
+  },
+  "eurosport": {
+   "erreur": "<HTTPError 404: 'Not Found'>"
+  },
+  "bbc sport": {
+   "code": 200,
+   "elements": 66,
+   "exemples": [
+    "BBC Sport",
+    "A bitter end for Ronaldo - the icon who transformed Portugal",
+    "Duran & Osmand spark Celtic into life - but where does that leave Hogh?",
+    "'Putting his doubters in their place' - Rooney lands pundit of year award"
+   ]
+  },
+  "bbc tennis": {
+   "code": 200,
+   "elements": 54,
+   "exemples": [
+    "BBC Sport",
+    "'I don't fear for my safety from online abuse - because we're so used to it'",
+    "WTA takes 'full responsibility' after Pegula 'diva' comment live-streamed",
+    "Defeat ends Djokovic's hopes of making ATP Finals"
+   ]
+  },
+  "bbc cycling": {
+   "code": 200,
+   "elements": 21,
+   "exemples": [
+    "BBC Sport",
+    "Pogacar 'happy to be alive' after 'scary' crash",
+    "Cox wins second gold at Para-cycling Worlds",
+    "Dog walker, babysitter, teacher, lifeguard... world champion"
+   ]
+  },
+  "bbc athletics": {
+   "code": 200,
+   "elements": 43,
+   "exemples": [
+    "BBC Sport",
+    "Kerr's mile record up for World Athletics award",
+    "Grit and glory - Mageean's career in pictures",
+    "Sportspeople back Dobbin's PM plea on ME funding"
+   ]
+  },
+  "cyclingnews": {
+   "code": 200,
+   "elements": 50,
+   "exemples": [
+    " Outshining established players, mid-season promotions and Grand Tour victories – Taking a closer look at 10 stand-out neo-pros of 2026 ",
+    " 'I felt the bone snap' - Hannah Otto survives 40% gradients, snowy summit and fracture to set epic one-day Kilimanjaro summit record ",
+    " Superprestige Middelkerke: Joran Wysure steals the win as Michael Vanthourenhout has heated run-in with Cameron Mason ",
+    " Superprestige Middelkerke: Aniek van Alphen puts in dominant performance ahead of European Championships "
+   ]
+  },
+  "letsrun": {
+   "code": 200,
+   "elements": 10,
+   "exemples": [
+    "We coached a 9:58 two-miler running just 10 miles a week. How fast is he now?",
+    "Foreign runners took 95% of the top-10 spots at SEC cross country. In the Big Ten, 75% were Americans.",
+    "Almgren’s NYC Breakthrough, McClain’s Charge, and What 2:07 But 11th Place Means for Conner Mantz",
+    "WTW: African-born men won 111 of 113 majors. Then came Andreas Almgren. Jess McClain shocks NYC, NCAA XC &#038; remembering Ciara Mageean"
+   ]
+  }
+ }
+}
