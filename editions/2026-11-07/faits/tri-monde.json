@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a87", "score": 8, "raison": "Préparation du sommet Trump-Xi à Shenzhen : appel entre les responsables commerciaux américains et chinois, sur fond d'engagements de l'accord de Busan."},
+    {"id": "a73", "score": 7, "raison": "Plan de sécurité européen de Washington : les capitales craignent qu'il exclue leurs alliés et favorise la Russie."},
+    {"id": "a55", "score": 7, "raison": "Élections israéliennes sans majorité nette : l'opposition de centre droit peut espérer écarter Netanyahu, mais le soutien des partis arabes sera décisif."},
+    {"id": "a107", "score": 6, "raison": "Frappes russes répétées sur Kiev : analyse de la capacité de la capitale à tenir, alors que son approvisionnement énergétique est menacé."},
+    {"id": "a97", "score": 6, "raison": "Paraguay : destitution du président Santiago Peña après le scandale de la banque Ueno, et investiture de Pedro Alliana."}
+  ],
+  "breves": [
+    {"id": "a94", "titre": "Plus de 5 000 cas de rougeole aux États-Unis, un niveau inédit depuis 35 ans", "texte": "Le CDC recense plus de 5 000 cas de rougeole, du jamais-vu depuis trente-cinq ans. Les enfants et adolescents représentent près de 60 % des cas confirmés."},
+    {"id": "a100", "titre": "Nouvelle-Zélande : les électeurs votent le dernier jour d'un scrutin serré", "texte": "Les Néo-Zélandais se rendent aux urnes pour le dernier jour de vote d'une course très serrée. Plus de la moitié des électeurs ont déjà voté par anticipation."},
+    {"id": "a88", "titre": "UE et États-Unis relancent leur dialogue sur la Chine après deux ans de pause", "texte": "Selon plusieurs sources, Bruxelles et Washington prévoient de relancer leur dialogue sur la Chine, à l'arrêt depuis le retour de Donald Trump. Les discussions sont attendues la première semaine de décembre."}
+  ]
+}

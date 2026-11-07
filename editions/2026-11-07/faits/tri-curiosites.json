@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a178", "score": 8, "raison": "Phénomène climatique majeur : un « super El Niño » en voie de culminer en décembre 2026, avec un effet attendu sur les températures moyennes mondiales."},
+    {"id": "a163", "score": 7, "raison": "Commission de The Lancet sur les principaux risques pour l'humanité au cours de ce siècle : sujet de fond, à portée durable."},
+    {"id": "a161", "score": 6, "raison": "Théorème quantique présenté comme remettant en cause la notion de réalité d'Einstein : science grand public."},
+    {"id": "a170", "score": 5, "raison": "Débat de fond sur le terme « racisé » et la place du racisme dans la société, analyse académique publiée par The Conversation."}
+  ],
+  "breves": [
+    {"id": "a169", "titre": "Pérou : plus de 3 000 mygales saisies à l'aéroport de Lima", "texte": "La douane de l'aéroport de Lima a saisi plus de 3 000 mygales transportées illégalement, destinées au trafic vers l'Allemagne. Certaines étaient encore à l'état d'œuf, et elles provenaient de plusieurs régions du pays."},
+    {"id": "a180", "titre": "Un pacte mondial pour réduire les émissions de SF6, gaz à effet de serre très puissant", "texte": "L'Allemagne a lancé une initiative internationale, le « Global SF6 Pledge », annoncée à Kigali lors d'une réunion du PNUE. Elle invite les pays à s'engager, notamment sur la surveillance de leurs émissions de ce gaz."},
+    {"id": "a162", "titre": "La peur peut devenir récréative, selon les neurosciences cognitives", "texte": "Plutôt associée à la menace, la peur peut devenir récréative. Le CNRS présente les réponses des neurosciences cognitives à cette question."},
+    {"id": "a188", "titre": "Route du Rhum : Armel Le Cléac'h et Francis Joyon secourus après leur chavirage", "texte": "Les deux skippers ont chaviré en pleine mer pendant la Route du Rhum. Ils ont été secourus par des cargos, après plusieurs heures passées dans la cabine de leur bateau."}
+  ]
+}

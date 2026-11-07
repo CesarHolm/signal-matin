@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a113", "score": 7, "raison": "Working paper NBER sur l'automatisation : le taux d'épargne détermine l'ampleur de la hausse de croissance (11,7 % par an avec un taux d'épargne optimal, 2,2 % avec un taux fixe)."},
+    {"id": "a120", "score": 6, "raison": "Verfassungsblog : bilan de la démocratie brésilienne après l'élection présidentielle, Lula ayant battu Flávio Bolsonaro d'environ 4,4 millions de voix."},
+    {"id": "a114", "score": 5, "raison": "NBER : pondérations de bien-être fondées sur les droits de propriété en économie du climat, avec des transferts entre pays."},
+    {"id": "a123", "score": 4, "raison": "Verfassungsblog : effets de l'IA générative sur l'activité scientifique et académique, et protection des ressources épistémiques."}
+  ],
+  "breves": [
+    {"id": "a116", "titre": "Sondages des midterms 2026 : bonne direction, avance démocrate sous-estimée", "texte": "Selon une première analyse du Pew Research Center, les sondages préélectoraux ont capté la direction du scrutin. Ils ont généralement sous-estimé l'ampleur de l'avance démocrate."},
+    {"id": "a119", "titre": "États-Unis : 7 Américains sur 10 jugent les réseaux sociaux trop puissants en politique", "texte": "Selon le Pew Research Center, environ sept Américains sur dix estiment que les réseaux sociaux ont trop de pouvoir politique. Ils sont 55 % à le penser des médias d'information, avec des écarts entre républicains et démocrates."},
+    {"id": "a126", "titre": "Duterte devant la CPI : l'action d'avocats philippins décrite par Verfassungsblog", "texte": "Arrêté en 2025, l'ancien président philippin Rodrigo Duterte comparaît devant la Cour pénale internationale pour crimes contre l'humanité. Selon Verfassungsblog, la résistance juridique peut faire une différence concrète, même sous une violence d'État implacable."},
+    {"id": "a127", "titre": "Territoires autochtones : le droit ne pèse que s'il soutient les communautés", "texte": "Selon Verfassungsblog, l'action juridique ne transforme les rapports de force inégaux que si elle appuie l'organisation des communautés, selon leurs propres décisions. Les projets énergétiques transforment les territoires avant même le début des travaux."}
+  ]
+}

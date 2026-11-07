@@ -1,0 +1,12 @@
+{
+  "developpes": [
+    {"id": "a141", "score": 8, "raison": "Sanctions contre la Russie entrant dans une nouvelle phase, avec un ciblage des réseaux financiers et de la flotte fantôme."},
+    {"id": "a150", "score": 7, "raison": "Contrôle des exportations : les États-Unis prolongent la suspension de la règle des affiliés (règle des 50 %), en plein échanges avec la Chine."},
+    {"id": "a139", "score": 7, "raison": "Commission européenne : création d'un bureau interne dédié aux sanctions, couvrant tout le cycle économique."},
+    {"id": "a140", "score": 6, "raison": "Sanctions de l'UE : victoire judiciaire partielle de l'inspecteur de navires russe, selon EU Perspectives."}
+  ],
+  "breves": [
+    {"id": "a131", "titre": "RGPD : la CNIL rappelle les règles des recherches internes en santé", "texte": "Les établissements qui emploient des professionnels de santé menant des recherches internes sont concernés. La CNIL rappelle les règles applicables."},
+    {"id": "a144", "titre": "Sanctions : les États-Unis visent 45 personnes et entités dans l'affaire Prince Group", "texte": "L'OFAC a sanctionné 45 personnes et entités dans l'affaire Prince Group, une escroquerie aux cryptoactifs."}
+  ]
+}

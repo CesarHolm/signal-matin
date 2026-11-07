@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a51", "score": 8, "raison": "Programme présidentiel de La France insoumise (1 069 mesures, dont 238 nouvelles) : l'écologie devient la porte d'entrée, sous le récit de la « Nouvelle France »."},
+    {"id": "a25", "score": 7, "raison": "Baisses de crédits dans les collèges et lycées depuis la rentrée : dispositifs d'accompagnement menacés, faute de visibilité budgétaire."},
+    {"id": "a35", "score": 7, "raison": "Trois femmes gravement blessées par des grenades policières lors de la manifestation du 17 octobre à Marseille ; deux d'entre elles annoncent une plainte."},
+    {"id": "a48", "score": 6, "raison": "Budget de la Sécurité sociale 2027 : examen au Sénat du 9 au 17 novembre, avec retraites, prestations familiales et taxe sur le sucre."},
+    {"id": "a43", "score": 5, "raison": "Péage de l'A69 Toulouse-Castres : plus de 20 euros pour un aller-retour sur 53 km, tarifs fixés avant le début des travaux."}
+  ],
+  "breves": [
+    {"id": "a36", "titre": "Ain : deux morts, dont une fillette de 7 ans, dans un accident de car", "texte": "Un accident de car survenu vendredi matin dans le secteur de Lent, près de Bourg-en-Bresse, a fait deux morts et une quinzaine de blessés. Le chauffeur a été placé en garde à vue."},
+    {"id": "a39", "titre": "Incendie de Wintzenheim : la propriétaire du gîte sera jugée", "texte": "Onze personnes, dont dix en situation de handicap léger, avaient péri dans l'incendie de 2023 dans ce gîte du Haut-Rhin. La propriétaire sera jugée pour homicides et blessures involontaires."},
+    {"id": "a52", "titre": "Lycées : la liste des 200 établissements à rénover suscite la colère des régions", "texte": "Issue d'une consultation en ligne, la liste des 200 lycées à rénover « en priorité », diffusée par le gouvernement cette semaine, a provoqué la colère des régions. Elles ont la charge du bâti scolaire et critiquent la méthode."}
+  ]
+}

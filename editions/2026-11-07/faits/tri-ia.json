@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a14", "score": 8, "raison": "Élections de mi-mandat : 40 des 41 mesures locales sur les data centers vont vers davantage de restrictions, avec un impact possible sur le secteur de l'IA."},
+    {"id": "a7", "score": 7, "raison": "Introduction en Bourse d'Anthropic, valorisée 1 500 milliards de dollars : les investisseurs résistent à ce niveau de valorisation, sur fond de repli des marchés technologiques."},
+    {"id": "a6", "score": 6, "raison": "Inkling 2 Small (Thinking Machines, 594 milliards de paramètres) revendique la première place des modèles ouverts occidentaux ; sa consommation de tokens augmente fortement."},
+    {"id": "a4", "score": 5, "raison": "Analyse de 45 laboratoires « neolabs » : pourquoi des chercheurs quittent les grands acteurs de l'IA, et quels paris de recherche ils font."}
+  ],
+  "breves": [
+    {"id": "a21", "titre": "Meta renonce à forcer les pages Facebook à autoriser l'entraînement de l'IA", "texte": "Meta ne contraindra pas les propriétaires de pages Facebook à autoriser l'usage de leurs contenus liés pour entraîner ses IA. Le groupe abandonne la mise à jour de conditions commerciales qui suscitait la critique."},
+    {"id": "a12", "titre": "Des centaines d'outils de piratage IA Artex exposés sur internet", "texte": "Des chercheurs en sécurité ont trouvé des centaines de serveurs hébergeant l'outil de test d'intrusion Artex, accessibles depuis internet. N'importe qui peut ainsi accéder à cet outil de piratage."},
+    {"id": "a20", "titre": "Palo Alto Networks négocie le rachat de Clutch, start-up de sécurité des agents IA", "texte": "Palo Alto Networks serait en discussions pour acquérir Clutch pour 500 millions de dollars, selon une source. Soutenue par Lightspeed et SignalFire, Clutch était valorisée 85 millions de dollars."},
+    {"id": "a1", "titre": "Un robot humanoïde nettoie un appartement, un test à San Francisco", "texte": "Un journaliste de MIT Technology Review a regardé un robot humanoïde faire le ménage dans un service de nettoyage lancé à San Francisco. Il y voit un aperçu de l'avenir."}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "resultats": [
+    {"sport": "Rugby", "affiche": "Irlande – Argentine", "score": "42-12", "competition": "Championnat des nations de rugby (sélections nationales)", "source": "L'Équipe", "url": "https://www.lequipe.fr/Rugby/Actualites/L-irlande-vient-facilement-a-bout-de-l-argentine-lors-du-championnat-des-nations/1741824#at_medium=RSS_feeds"},
+    {"sport": "Tennis", "affiche": "Van Assche – Hijikata", "score": "6-4 6-7 [4] 7-5", "competition": "Rolex Paris Masters (Masters 1000, circuit ATP), quarts de finale", "source": "L'Équipe", "url": "https://www.lequipe.fr/Tennis/Actualites/La-belle-histoire-continue-luca-van-assche-qualifie-pour-les-demi-finales-du-rolex-paris-masters/1741748#at_medium=RSS_feeds"},
+    {"sport": "Tennis", "affiche": "Alcaraz – Fritz", "score": "6-7 [10] 7-5 6-3", "competition": "Rolex Paris Masters (Masters 1000, circuit ATP), quarts de finale", "source": "L'Équipe", "url": "https://www.lequipe.fr/Tennis/Actualites/Apres-avoir-sauve-deux-balles-de-match-carlos-alcaraz-vient-a-bout-de-taylor-fritz-et-se-qualifie-pour-les-demi-finales-du-rolex-paris-masters/1741812#at_medium=RSS_feeds"},
+    {"sport": "Football", "affiche": "Leverkusen – Marseille", "score": "0-1", "competition": "Ligue Europa (coupe d'Europe des clubs), phase de ligue, 4e journée", "source": "RMC Sport", "url": "https://rmcsport.bfmtv.com/football/europa-league/leverkusen-om-le-but-fantastique-de-gouiri-en-video-qui-offre-le-premier-succes-aux-phoceens-en-ligue-europa_AV-202611050876.html"},
+    {"sport": "Hockey sur glace", "affiche": "France – Slovénie", "score": "5-3", "competition": "Coupe d'Europe des Nations (sélections nationales), 2e journée", "source": "L'Équipe", "url": "https://www.lequipe.fr/Hockey-sur-glace/Actualites/Premiere-victoire-de-la-saison-pour-l-equipe-de-france-qui-domine-la-slovenie-en-coupe-d-europe-des-nations/1741820#at_medium=RSS_feeds"}
+  ],
+  "a_suivre": [
+    {"sport": "Rugby", "affiche": "France – Fidji", "competition": "Championnat des nations de rugby (sélections nationales)", "heure": "21 h 10", "source": "L'Équipe", "url": "https://www.lequipe.fr/Rugby/Article/Frederic-michalak-a-propos-du-role-de-romain-ntamack-comme-buteur-numero-1-des-bleus-face-aux-fidji-aucun-doute-il-maitrise-il-l-a-deja-montre/1741551#at_medium=RSS_feeds"},
+    {"sport": "Rugby", "affiche": "Stade toulousain – Clermont Auvergne", "competition": "Top 14 (championnat de France), 9e journée", "heure": "14 h 30", "source": "ESPN", "url": "https://www.espn.com/rugby/match/_/gameId/604423/league/270559"},
+    {"sport": "Football", "affiche": "Valence – Real Madrid", "competition": "Liga (championnat d'Espagne)", "heure": "21 h 00", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401882808/real-madrid-valencia"}
+  ]
+}
