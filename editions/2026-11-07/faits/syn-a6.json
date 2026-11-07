@@ -1,0 +1,24 @@
+{
+ "titre": "Inkling 2 Small : Thinking Machines vise la tête des modèles ouverts",
+ "chapo": "La start-up de Mira Murati dévoile Inkling 2 Small, un modèle de 594 milliards de paramètres dont les poids doivent être publiés sous licence Apache 2.0 après des tests de sécurité.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Thinking Machines, start-up fondée par Mira Murati, ancienne directrice technique d'OpenAI, présente la deuxième génération de ses modèles : Inkling 2 Small. Il s'agit d'un modèle à mélange d'experts de 594 milliards de paramètres, dont 17 milliards sont actifs à un instant donné. Il accepte du texte et des images en entrée, mais ne produit que du texte, et propose une profondeur de réflexion réglable pour choisir entre rapidité et minutie. Les modèles Inkling sont conçus comme des modèles de base destinés à être affinés, ce qui peut les rendre attractifs pour des usages spécialisés. Selon The Decoder, il se présente comme le plus puissant des modèles à poids ouverts occidentaux. ZDNET précise que, d'après l'organisme d'évaluation Artificial Analysis, il pourrait contester l'avance des modèles chinois, comme ceux de DeepSeek et de Moonshot, qui dominent depuis des années les classements des modèles ouverts."
+  },
+  {
+   "intertitre": "Les résultats mesurés",
+   "texte": "Sur l'indice d'intelligence d'Artificial Analysis, Inkling 2 Small obtient 31, soit 18 points de plus que son prédécesseur Inkling Small (13), à peu près au niveau de Gemini 3.8 Flash de Google, avec lequel ZDNET le dit à égalité. Le même site rappelle que Gemini 4 Carbon et Claude Opus 5.5 dominent l'indice avec 60 et 59. Les progrès les plus nets concernent les tâches dites agentiques, où le modèle exécute seul des procédures en plusieurs étapes : sur AutomationBench-AA, le score passe de 5 à 46 %, et sur FrontierCode 2.0 de 5 à 25 %. Sur AA-Briefcase, test de travail intellectuel, il atteint 1 527 Elo, soit 615 points de plus. En programmation, il fait 25,4 % sur FrontierCode 2.0, 72,1 % sur DeepSWE et 86,3 % sur SWEBench Pro v2 (Hard), mais Deepseek-V4.1-Flash reste devant sur la plupart de ces tests, avec 28,5 % sur FrontierCode et 77 % sur DeepSWE. Côté vision, il obtient 25,2 % sur GDP.pdf, 81,6 % sur MMMU Pro, 64,7 % sur PerceptionBench et 1 340 Elo sur DesignArena Website, le meilleur score des modèles ouverts selon The Decoder."
+  },
+  {
+   "intertitre": "Un coût plus élevé, des nuances sur la fiabilité",
+   "texte": "Ces gains ont un prix. Le modèle produit environ 150 000 jetons de sortie par tâche, soit quatre fois plus que son prédécesseur, et coûte près de six fois plus : 1,18 dollar par tâche selon Artificial Analysis. C'est encore bien moins que Gemini 3.8 Flash (7,77 dollars) ou Claude Sonnet 5.5 (10,02 dollars). Artificial Analysis juge pourtant le modèle remarquablement lent par tâche et très verbeux, et son tarif d'entrée de 0,30 dollar par million de jetons « assez cher », la médiane de sa catégorie étant de 0,24 dollar. Le taux d'hallucination tombe de 61 à 27 %, mais The Decoder note que c'est surtout parce que le modèle répond à moins de questions : le taux de réponse passe de 77 à 53 %. ZDNET, citant l'évaluation, ajoute que la précision monte de 32 à 34 %."
+  },
+  {
+   "intertitre": "Entraînement, limites et calendrier",
+   "texte": "Thinking Machines affirme avoir entraîné le modèle par apprentissage par renforcement sur des centaines de milliers de tâches de programmation longues, un système automatisé vérifiant si le code fonctionne et comment le modèle aborde chaque tâche. L'entraînement total a porté sur environ 12 000 milliards de jetons, nettement moins que ses concurrents ; la phase de renforcement a requis 3 000 milliards de jetons sur 2 048 GPU pendant neuf jours. La société reconnaît que le modèle communique parfois de façon peu efficace, ne choisit pas toujours les meilleurs outils pour de grands codes, ne gère pas l'audio, est moins optimisé pour le dialogue, et peut réagir de façon excessive aux sujets de santé. Il n'est d'abord proposé que via sa plateforme Tinker. Les poids seront publiés sous licence Apache 2.0 à l'issue de tests de sécurité externes : The Decoder ne donne pas de date, tandis que ZDNET annonce la semaine prochaine."
+  }
+ ],
+ "synthese": "Inkling 2 Small place Thinking Machines parmi les meilleurs modèles ouverts hors de Chine, avec de forts progrès en tâches agentiques, au prix d'un coût et d'une verbosité accrus. Sa publication sous licence Apache 2.0 reste à venir.",
+ "republication": ""
+}
