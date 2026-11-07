@@ -1,0 +1,64 @@
+{
+ "id": "syn-a48",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a48.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Public Sénat\nRubrique : France\nDate du flux : 06/11/2026\nAuteur : Guillaume Jacquot\nTitre d'origine : Budget 2027 : les points chauds lors des débats au Sénat du 9 au 17 novembre\n\nARTICLE :\nAvec 1 069 mesures, dont 238 nouvelles, La France insoumise dévoile vendredi 6 novembre une nouvelle édition de son programme présidentiel, L’Avenir en commun. Si les marqueurs historiques du mouvement sont largement reconduits, l’écologie en devient la porte d’entrée. Derrière ce changement de priorité, Jean-Luc Mélenchon cherche à imposer un nouveau récit, celui de la « Nouvelle France », qui succède à l’« union populaire » de 2022.\nBudget 2027 : les points chauds lors des débats au Sénat du 9 au 17 novembre\nPlus de 1 200 amendements ont été déposés sur le projet de loi de financement de la Sécurité sociale (PLFSS) pour 2027 au Sénat. Ils seront débattus du 9 au 17 novembre, exception faite du 11 novembre et vraisemblablement du 15 novembre. Le vote solennel se tiendra le 18 novembre. Comme l’an dernier, les débats seront particulièrement scrutés, puisque l’Assemblée nationale n’a pu examiner le projet de loi en entier. Le rejet de la partie recettes en octobre a entraîné le rejet du texte dans son ensemble, et a empêché l’examen du volet dépenses.\nEn commission, le 4 novembre, les sénateurs de la majorité sénatoriale ont opéré des modifications limitées, mais certaines devraient faire parler d’elles.\nDe vifs débats en prévision sur les retraites\nUn article devrait faire particulièrement faire débat. C’est l’article 35 qui propose de déroger à la règle selon laquelle les pensions de retraite doivent être indexées au 1er janvier sur l’inflation. Dans le texte déposé par le gouvernement, une revalorisation était prévue pour les pensions allant jusqu’à 1 260 euros. La commission des affaires sociales défendra un amendement pour porter le seuil à 1 500 euros. Ce filet de protection serait équivalent à celui l’an dernier où la commission avait soutenu un gel au-delà de 1 400 euros, soit un niveau proche du Smic net. Rappelant que la situation financière de la branche vieillesse reste « fragile », la rapporteure Marie-Do Aeschlimann veut également supprimer la possibilité offerte à l’exécutif de pouvoir procéder par décret en 2027 à une revalorisation plus importante des pensions, voire à une annulation du gel.\nLes trois groupes de gauche et le groupe Union nationale pour les territoires (RN-UDR) veulent revenir sur cette désindexation partielle, avec des amendements de suppression. Au sein de la majorité sénatoriale, seul le sénateur LR Alain Houpert s’engage dans la même voie.\nD’autres amendements visent à relever le seuil, comme celui de Marie-Claude Lermytte (Les Indépendants) à 1867 euros. La sénatrice de la Guadeloupe Solanges Nadille (RDPI) veut donner au gouvernement la possibilité d’une revalorisation différenciée dans les outre-mer, où le niveau des prix est plus fort que dans l’Hexagone. Les socialistes Victorin Lurel et Catherine Conconne veulent exclure les territoires ultramarins du gel des pensions.\nÀ noter que les Indépendants veulent remplacer la revalorisation automatique des pensions de retraite en fonction de l’inflation par une décision annuelle du Parlement. Au moment des travaux en commission, le ministre du Travail Jean-Pierre Farandou avait évoqué la possibilité d’un amendement pour revenir sur le mécanisme d’indexation automatique à 100 % sur l’inflation.\nLa majorité sénatoriale veut revenir sur la suspension de la réforme des retraites\nLa commission des affaires sociales proposera le rétablissement de la réforme des retraites de 2023, suspendue l’an dernier. Un amendement du groupe Les Indépendants proposera le même type d’amendement, contre ce qu’ils estiment être une « grave erreur politique ».\nDeux amendements, de Vincent Louault (Les Indépendants) et de Daniel Fargeot (Union centriste et indépendants) proposent également de supprimer le caractère automatique de la revalorisation des prestations sociales chaque année. Les écologistes porteront quant à eux un amendement ouvrant droit à un congé anticipatoire de retraite pour les personnes ayant atteint 62 ans et 42 annuités.\nQuelle évolution pour le calcul des allègements généraux ?\nL’article 7 devrait constituer l’un des premiers temps forts de la discussion. C’est l’une des dispositions les plus décriées par les organisations patronales. Il vise à prendre en compte des compléments de salaire, comme la participation, l’intéressement, ou encore l’abondement aux plans d’épargne entreprise, dans le calcul des allègements généraux. De nombreux amendements de suppression vont être défendus par des sénateurs issus des Républicains, de l’Union centriste, des Indépendants, ou encore du groupe Union nationale pour les territoires (RN-UDR). Les parlementaires dénoncent un renchérissement du coût du travail et craignent que ces dispositifs ne perdent en attractivité dans les entreprises.\nLa sénatrice centriste Brigitte Devésa proposera en outre de revenir sur le gel de la valeur du Smic dans le calcul des allègements généraux. À gauche, des amendements viseront à élargir l’assiette des cotisations. Les écologistes et les communistes veulent soumettre les primes de partage de la valeur à l’assiette des cotisations de sécurité sociale. Les premiers entendent également s’opposer dans le même article à la suppression du malus seniors, « seule sanction liée à l’obligation de négocier sur l’emploi des seniors ». Les socialistes essayeront d’étendre les cotisations au forfait social sur les sommes versées au titre de l’intéressement et de la prime de partage de la valeur dans les entreprises employant au moins 50 salariés.\nL’extension de la taxe sucre va diviser au Sénat\nLe débat sur les taxes comportementales est un classique des examens de projets de loi de financement de la Sécurité sociale. Un article devrait donner lieu à des débats nourris : l’article 8. Il doit éteindre le champ de la taxe sur les boissons sucrées aux produits solides industriels transformés, contenant des additifs et contribuant le plus à la surconsommation de sucre.\nLa commission des affaires sociales veut conserver le dispositif, mais veut préciser les choses. Son amendement vise à exclure les denrées « non soumises à l’obligation d’étiquetage nutritionnel », et notamment celles « emballées sur le lieu de vente à la demande du consommateur ou préemballées en vue de leur vente immédiate ». De quoi exclure par exemple les chocolats vendus en ballotins. La commission veut aussi protéger les produits artisanaux et certains produits bénéficiant d’un signe officiel de qualité et d’origine français, comme le nougat de Montélimar.\nOn recense 9 amendements de suppression de l’article, qui cumulent au total une quarantaine de signataires, siégeant à droite au centre, chez les Indépendants, au RDSE ou encore au groupe UNT.\nLe délai de carence d’un an imposé aux étrangers pour le bénéfice des prestations familiales\nLe climat pourrait aussi se tendre sur l’article 37. Il vise à conditionner à une durée de résidence d’un an le bénéfice des prestations familiales (y compris la prestation d’accueil du jeune enfant) et les aides personnelles au logement (APL) pour les pour les ressortissants étrangers hors Union européenne.\nLes trois groupes de gauche demandent sa suppression, mais également l’ancienne ministre Renaissance Brigitte Bourguignon, qui souligne que l’économie ne sera que de 62 millions d’euros par an. Les opposants à la mesure considèrent que cet article frappera avant « d’abord les enfants ».\nLes sénateurs RN et UDR veulent porter la durée de résidence « stable et régulière » à 3 années, avant de pouvoir octroyer les prestations familiales. Vincent Louault (Horizons) propose deux années et demie, une durée supérieure de 6 mois à ce qui avait été voté dans une proposition de loi au Sénat en 2025. La sénatrice UDR Gaëlle Frontoni entend même proposer 5 ans, un seuil qui avait été censuré par le Conseil constitutionnel en 2024.\nProtection des cures thermales\nQuestion sensible au Sénat, la question de la prise en charge par la Sécurité sociale des cures thermales devrait cette année encore évoluer sensible. Le gouvernement veut faire passer par voie réglementaire le taux de prise en charge des cures thermales par la Sécurité sociale de 65 % à 15 %, pour une économie de 200 millions d’euros.\nLe Sénat s’était déjà opposé à cette mesure lors de l’examen du PLFSS pour 2026. La commission des affaires sociales, soutenue par Jean-Marc Boyer (LR), une partie du groupe RDSE, plusieurs sénateurs socialistes, veut amender le projet de loi pour se prémunir contre un déremboursement mené sans étude. Celui-ci ne « pourra avoir lieu qu’après la publication par la Haute Autorité de santé d’un avis sur leur service médical rendu ».",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a178",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a178.json",
+ "limite_caracteres": 2708,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 2708 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Carbon Brief\nRubrique : Climat\nDate du flux : 06/11/2026\nAuteur : Cecilia Keating\nTitre d'origine : ‘Simply staggering’: Rapidly developing ‘super El Niño’ on track to peak in December\n\nARTICLE :\nThe ongoing “super El Niño” is likely to peak at the end of 2026 and push average global temperatures to record levels next year.\nThat is according to Carbon Brief’s latest “state of the climate” update, which analyses El Niño forecasts from more than a dozen climate models, as well as six global temperature datasets.\nDr Zeke Hausfather, Carbon Brief’s climate science contributor, described this year’s El Niño as “simply staggering” when answering questions from CB+ members during a CB Connect “ask me anything” session.\nEl Niño is a naturally occurring climate pattern in the tropical Pacific that releases heat from the ocean into the atmosphere and temporarily boosts global temperatures.\nThis year’s El Niño event – which has been underway since June – has already broken a number of records and reshaped the world’s weather, fuelling fires in Indonesia and “super typhoons” in the west Pacific.\nThe strength of an El Niño is tracked using the “Niño3.4 anomaly”, which is a measure of how much warmer sea surface temperatures are than average in a section of the central Pacific.\nAnalysis of more than 600 forecasts from 14 different climate models by Hausfather for Carbon Brief’s “state of the climate” update shows how models project this year’s El Niño will peak with an anomaly of around 4C. This would be more than a degree above the previous record in 2015-16.\nWriting on CB Connect on 5 November, Hausfather wrote:\n“This El Niño event is developing so quickly and is reaching sea surface temperatures so warm that it’s simply staggering. We haven’t seen anything like this in the historical record and it may end up being the strongest El Niño event in the past millennium.”\nThis year’s El Niño has already chalked up a number of milestones.\nOn 18 September, the daily anomaly in the Niño3.4 region broke the satellite-era record set in 2015 when it reached 3.11C.\nMeanwhile, September as a whole recorded the highest monthly Niño3.4 region temperature anomaly – 2.84C – since sea surface temperature records began in the mid-1800s.\nMembership\nSupport award-winning climate journalism\nHausfather wrote on CB Connect that this year’s El Niño had been “running well above any prior El Niño event since June, at times by a full degree [Celsius]”.\nCarbon Brief’s “state of the climate” analysis indicates that El Niño is set to continue to intensify into December, with 10 out of 14 models expecting temperatures in the Niño3.4 region to peak in the final month of this year. The remainder anticipate a November peak.\nWhile human emissions of greenhouse gases are responsible for almost all of long-term global warming, temperatures in specific years are strongly influenced by El Niño events.\nThe “state of the climate” analysis explains that this year’s El Niño event will have its largest effect on global temperatures in 2027. This is because global temperatures typically lag warming in the tropical Pacific by around three months.\nCarbon Brief projects that the 2027 average global temperature will reach around 1.74C above pre-industrial levels. It calculates a 96% chance that next year will be the warmest on record.\nThis projection is based on the historical relationship between year-on-year temperature changes and El Niño conditions the preceding autumn. It also factors in uncertainty around how global temperatures will develop across the remainder of 2026.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

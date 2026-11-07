@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a14\", \"source\": \"TechCrunch\", \"titre\": \"How a Blue Wave midterm might reshape the AI industry\", \"resume\": \"Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]\"}, {\"id\": \"a7\", \"source\": \"The Decoder\", \"titre\": \"Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation\", \"resume\": \"Anthropic's IPO is in trouble as investors push back on the $1.5 trillion valuation and the tech market sells off. The article Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation appeared first on The Decoder .\"}, {\"id\": \"a25\", \"source\": \"Le Monde\", \"titre\": \"Dans les collèges et les lycées, le « cauchemar » des baisses de crédits depuis la rentrée : « Il y a des dispositifs qu’on n’a plus les moyens de financer »\", \"resume\": \"Les chefs d’établissement alertent sur la réduction de leurs enveloppes d’heures supplémentaires, qui financent l’accompagnement aux devoirs ou les projets culturels. Double conséquence de budgets en baisse et de l’instabilité politique, qui empêche toute visibilité sur le contenu des lois de finances de l’année suivante.\"}, {\"id\": \"a87\", \"source\": \"South China Morning Post\", \"titre\": \"US, China trade chiefs hold call ahead of Trump-Xi summit in Shenzhen\", \"resume\": \"US Treasury Secretary Scott Bessent and Trade Representative Jamieson Greer held a video call with Chinese Vice-Premier He Lifeng on Friday, as both sides moved to finalise preparations for President Donald Trump’s planned meeting with Chinese leader Xi Jinping in Shenzhen later this month. “Secretary Bessent emphasised the importance of China fully and immediately implementing its commitments made in Busan and raised concerns about recent Chinese actions,” a statement from the Treasury...\"}, {\"id\": \"a73\", \"source\": \"Politico Europe\", \"titre\": \"Trump’s ‘big, beautiful’ European security plan isn’t convincing Europe\", \"resume\": \"Capitals fear a U.S. effort to overhaul the continent's security arrangements could exclude allies and favor Russia.\"}, {\"id\": \"a150\", \"source\": \"MLex\", \"titre\": \"US extends suspension of export controls ‘affiliates rule’\", \"resume\": \"US extends suspension of export controls ‘affiliates rule’ MLex\"}, {\"id\": \"a139\", \"source\": \"Agence Europe\", \"titre\": \"Creation of internal European Commission office dedicated to EU sanctions across entire economic lifecycle\", \"resume\": \"Creation of internal European Commission office dedicated to EU sanctions across entire economic lifecycle Agence Europe\"}, {\"id\": \"a163\", \"source\": \"Sciences et Avenir\", \"titre\": \"Voici les dangers du futur, selon le Lancet\", \"resume\": \"Une commission de la prestigieuse revue The Lancet a tenté de prédire quels seront les risques les plus graves pour l’humanité lors de ce siècle. Voici leurs conclusions.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

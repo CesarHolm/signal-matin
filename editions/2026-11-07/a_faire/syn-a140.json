@@ -1,0 +1,64 @@
+{
+ "id": "syn-a140",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a140.json",
+ "limite_caracteres": 3776,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3776 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : EU Perspectives\nRubrique : Sanctions et export\nDate du flux : 06/11/2026\nAuteur : Media Networks; Daniel Deyl\nTitre d'origine : Russia’s ship inspector scores partial court win against EU sanctions\n\nARTICLE :\nThe General Court of the European Union has annulled one part of the sanctions imposed on the Russian Maritime Register of Shipping. The rest of the restrictions stay in place.\nA Russian state-owned ship inspector has beaten the European Union in court, but only just. The Russian Maritime Register of Shipping, or RMRS, is a non-profit entity that is 100 per cent owned by the Russian state. It brought an action for annulment in Case T-535/24 against measures the EU adopted in response to the war in Ukraine.\nThe sanctions followed Russia’s full-scale invasion of Ukraine in 2022. The Council of the EU extended its regime to RMRS. It placed the body on lists carrying investment bans and transaction prohibitions. It also banned ships certified by RMRS from entering EU ports and locks.\nThe Council also withdrew the EU-level recognition of RMRS as an authorised ship-inspection and certification organisation. It required member states to revoke the body’s authorisations. That last measure is the one the court has now struck down.\nA narrow victory\nThe court annulled the provision requiring the withdrawal of recognition. It found that the measure went too far or lacked proper legal justification under the EU’s rules on ship inspection, set out in Regulation 391/2009. The Council cannot use this tool to disqualify RMRS as a recognised safety organisation.\nRMRS will not feel the benefit soon. The court ordered that the effects of the annulled provision stay in force for no more than two months and ten days from the date of judgment. That gives the Council a window of 70 days.\nThe Council can use that time to rewrite the text or to appeal to the European Court of Justice (ECJ). Until the period expires, the practical ban on RMRS’s recognition remains. If the Council appeals, the annulment is frozen until the ECJ rules. The sanction then stays active throughout.\nEverything else survives. The court dismissed the action as to the remainder. The other sanctions—the investment bans, the transaction prohibitions, and the port-entry bans for RMRS-certified ships—all stay legally valid. RMRS remains a heavily sanctioned entity. It has simply defeated the mechanism the EU used to strip its regulatory status.\nWhat the applicants argued\nThe applicants raised three main arguments. First, they said the measures were disproportionate. Shutting down RMRS’s operations, revoking its recognition, and blocking certified ships went, they argued, far beyond what the EU’s foreign-policy and security goals required.\nThe legal test is demanding for applicants. Restrictive measures must be appropriate and necessary to meet objectives of general interest. They must not impose a disproportionate burden. Yet RMRS is an instrument of the Russian state, and the Council generally enjoys a wide margin of appreciation in foreign and security policy.\n(The court) orders the Council of the European Union and the Russian Maritime Register of Shipping to each bear their own costs. — Maria José Costeira, vice-president of the General Court of the European Union\nSecond, RMRS said the Council gave inadequate reasons under Article 296 of the Treaty on the Functioning of the European Union. It argued that a technical classification body deserved more than generic formulas about state ownership. EU institutions must state concrete grounds, so that the entity can defend its rights and the courts can review the decision.\nThird, the applicants invoked the right to effective judicial review under Article 47 of the Charter of Fundamental Rights. They said the design of the sanctions and the handling of evidence denied them a real chance to contest the designation. The court, for its part, must be able to verify the facts.\nWho pays, and what comes next\nOn costs, nobody comes out ahead. Maria José Costeira, Vice-President of the General Court of the European Union, read out the order: “(The court) orders the Council of the European Union and the Russian Maritime Register of Shipping to each bear their own costs.” The European Commission, which supported the Council, must also bear its own costs.\nVictories of this kind tend to be short-lived. When the General Court annuls a sanction, the Council rarely drops it. It usually corrects the flaws and reimposes the measure. It may redraft the statement of reasons with fresh evidence. It may also amend the framework to create broader categories, such as entities in high-revenue sectors like maritime transport.\nThe grace period exists to prevent a gap in sanctions coverage. The cycle of challenge and redrafting is a feature of the EU’s architecture. It lets the bloc wage economic warfare while showing that it respects judicial review and the rule of law.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
