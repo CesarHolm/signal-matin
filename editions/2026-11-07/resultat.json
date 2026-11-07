@@ -1,0 +1,2985 @@
+{
+ "edition": {
+  "date": "2026-11-07",
+  "numero": 11,
+  "secours": false,
+  "numerique": true,
+  "meteo": null,
+  "nouveaux_mots": [
+   {
+    "mot": "Prolixe",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui s'exprime trop longuement ; bavard.",
+    "exemple": "Un rapport prolixe de deux cents pages."
+   },
+   {
+    "mot": "Probant",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui démontre, qui emporte la conviction.",
+    "exemple": "Les essais ne sont pas encore probants."
+   },
+   {
+    "mot": "Inférence",
+    "nature": "n. f.",
+    "niveau": "intermediaire",
+    "domaine": "pro",
+    "definition": "Opération qui tire une conclusion à partir de données ; en IA, production d'un résultat par un modèle.",
+    "exemple": "Le coût d'inférence des grands modèles."
+   },
+   {
+    "mot": "Psittacisme",
+    "nature": "n. m.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Répétition mécanique de mots sans les comprendre.",
+    "exemple": "Un apprentissage par psittacisme."
+   },
+   {
+    "mot": "Captation",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Fait de s'approprier quelque chose, souvent de façon détournée.",
+    "exemple": "La captation d'un héritage."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Faconde"
+   },
+   {
+    "mot": "Pusillanime"
+   },
+   {
+    "mot": "Prosopopée"
+   },
+   {
+    "mot": "Décote"
+   },
+   {
+    "mot": "Ténu"
+   }
+  ],
+  "sport": {
+   "resultats": [
+    {
+     "sport": "Rugby",
+     "affiche": "Irlande – Argentine",
+     "score": "42-12",
+     "competition": "Championnat des nations de rugby (sélections nationales)",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Rugby/Actualites/L-irlande-vient-facilement-a-bout-de-l-argentine-lors-du-championnat-des-nations/1741824#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Tennis",
+     "affiche": "Van Assche – Hijikata",
+     "score": "6-4 6-7 [4] 7-5",
+     "competition": "Rolex Paris Masters (Masters 1000, circuit ATP), quarts de finale",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Tennis/Actualites/La-belle-histoire-continue-luca-van-assche-qualifie-pour-les-demi-finales-du-rolex-paris-masters/1741748#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Tennis",
+     "affiche": "Alcaraz – Fritz",
+     "score": "6-7 [10] 7-5 6-3",
+     "competition": "Rolex Paris Masters (Masters 1000, circuit ATP), quarts de finale",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Tennis/Actualites/Apres-avoir-sauve-deux-balles-de-match-carlos-alcaraz-vient-a-bout-de-taylor-fritz-et-se-qualifie-pour-les-demi-finales-du-rolex-paris-masters/1741812#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Leverkusen – Marseille",
+     "score": "0-1",
+     "competition": "Ligue Europa (coupe d'Europe des clubs), phase de ligue, 4e journée",
+     "source": "RMC Sport",
+     "url": "https://rmcsport.bfmtv.com/football/europa-league/leverkusen-om-le-but-fantastique-de-gouiri-en-video-qui-offre-le-premier-succes-aux-phoceens-en-ligue-europa_AV-202611050876.html"
+    },
+    {
+     "sport": "Hockey sur glace",
+     "affiche": "France – Slovénie",
+     "score": "5-3",
+     "competition": "Coupe d'Europe des Nations (sélections nationales), 2e journée",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Hockey-sur-glace/Actualites/Premiere-victoire-de-la-saison-pour-l-equipe-de-france-qui-domine-la-slovenie-en-coupe-d-europe-des-nations/1741820#at_medium=RSS_feeds"
+    }
+   ],
+   "a_suivre": [
+    {
+     "sport": "Rugby",
+     "affiche": "France – Fidji",
+     "competition": "Championnat des nations de rugby (sélections nationales)",
+     "heure": "21 h 10",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Rugby/Article/Frederic-michalak-a-propos-du-role-de-romain-ntamack-comme-buteur-numero-1-des-bleus-face-aux-fidji-aucun-doute-il-maitrise-il-l-a-deja-montre/1741551#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Rugby",
+     "affiche": "Stade toulousain – Clermont Auvergne",
+     "competition": "Top 14 (championnat de France), 9e journée",
+     "heure": "14 h 30",
+     "source": "ESPN",
+     "url": "https://www.espn.com/rugby/match/_/gameId/604423/league/270559"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Valence – Real Madrid",
+     "competition": "Liga (championnat d'Espagne)",
+     "heure": "21 h 00",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401882808/real-madrid-valencia"
+    }
+   ],
+   "periode": [
+    "2026-11-06"
+   ]
+  },
+  "reponses_hier": [
+   {
+    "mot": "Vindicatif",
+    "definition": "Porté à la vengeance."
+   },
+   {
+    "mot": "Tributaire",
+    "definition": "Qui dépend de quelque chose ou de quelqu'un."
+   },
+   {
+    "mot": "Acédie",
+    "definition": "Torpeur de l'âme, dégoût mélancolique pour l'effort et la vie spirituelle."
+   },
+   {
+    "mot": "Ineffable",
+    "definition": "Qui ne peut être exprimé par des mots, tant il est intense ou subtil."
+   },
+   {
+    "mot": "Fuligineux",
+    "definition": "Qui a la couleur ou l'aspect de la suie ; au figuré, obscur, confus."
+   }
+  ],
+  "blocs": [
+   {
+    "id": "ia",
+    "titre": "IA",
+    "developpes": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-06",
+      "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
+      "auteur": "Matthias Bastian",
+      "titre": "Inkling 2 Small : Thinking Machines vise la tête des modèles ouverts",
+      "chapo": "La start-up de Mira Murati dévoile Inkling 2 Small, un modèle de 594 milliards de paramètres dont les poids doivent être publiés sous licence Apache 2.0 après des tests de sécurité.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Thinking Machines, start-up fondée par Mira Murati, ancienne directrice technique d'OpenAI, présente la deuxième génération de ses modèles : Inkling 2 Small. Il s'agit d'un modèle à mélange d'experts de 594 milliards de paramètres, dont 17 milliards sont actifs à un instant donné. Il accepte du texte et des images en entrée, mais ne produit que du texte, et propose une profondeur de réflexion réglable pour choisir entre rapidité et minutie. Les modèles Inkling sont conçus comme des modèles de base destinés à être affinés, ce qui peut les rendre attractifs pour des usages spécialisés. Selon The Decoder, il se présente comme le plus puissant des modèles à poids ouverts occidentaux. ZDNET précise que, d'après l'organisme d'évaluation Artificial Analysis, il pourrait contester l'avance des modèles chinois, comme ceux de DeepSeek et de Moonshot, qui dominent depuis des années les classements des modèles ouverts."
+       },
+       {
+        "intertitre": "Les résultats mesurés",
+        "texte": "Sur l'indice d'intelligence d'Artificial Analysis, Inkling 2 Small obtient 31, soit 18 points de plus que son prédécesseur Inkling Small (13), à peu près au niveau de Gemini 3.8 Flash de Google, avec lequel ZDNET le dit à égalité. Le même site rappelle que Gemini 4 Carbon et Claude Opus 5.5 dominent l'indice avec 60 et 59. Les progrès les plus nets concernent les tâches dites agentiques, où le modèle exécute seul des procédures en plusieurs étapes : sur AutomationBench-AA, le score passe de 5 à 46 %, et sur FrontierCode 2.0 de 5 à 25 %. Sur AA-Briefcase, test de travail intellectuel, il atteint 1 527 Elo, soit 615 points de plus. En programmation, il fait 25,4 % sur FrontierCode 2.0, 72,1 % sur DeepSWE et 86,3 % sur SWEBench Pro v2 (Hard), mais Deepseek-V4.1-Flash reste devant sur la plupart de ces tests, avec 28,5 % sur FrontierCode et 77 % sur DeepSWE. Côté vision, il obtient 25,2 % sur GDP.pdf, 81,6 % sur MMMU Pro, 64,7 % sur PerceptionBench et 1 340 Elo sur DesignArena Website, le meilleur score des modèles ouverts selon The Decoder."
+       },
+       {
+        "intertitre": "Un coût plus élevé, des nuances sur la fiabilité",
+        "texte": "Ces gains ont un prix. Le modèle produit environ 150 000 jetons de sortie par tâche, soit quatre fois plus que son prédécesseur, et coûte près de six fois plus : 1,18 dollar par tâche selon Artificial Analysis. C'est encore bien moins que Gemini 3.8 Flash (7,77 dollars) ou Claude Sonnet 5.5 (10,02 dollars). Artificial Analysis juge pourtant le modèle remarquablement lent par tâche et très verbeux, et son tarif d'entrée de 0,30 dollar par million de jetons « assez cher », la médiane de sa catégorie étant de 0,24 dollar. Le taux d'hallucination tombe de 61 à 27 %, mais The Decoder note que c'est surtout parce que le modèle répond à moins de questions : le taux de réponse passe de 77 à 53 %. ZDNET, citant l'évaluation, ajoute que la précision monte de 32 à 34 %."
+       },
+       {
+        "intertitre": "Entraînement, limites et calendrier",
+        "texte": "Thinking Machines affirme avoir entraîné le modèle par apprentissage par renforcement sur des centaines de milliers de tâches de programmation longues, un système automatisé vérifiant si le code fonctionne et comment le modèle aborde chaque tâche. L'entraînement total a porté sur environ 12 000 milliards de jetons, nettement moins que ses concurrents ; la phase de renforcement a requis 3 000 milliards de jetons sur 2 048 GPU pendant neuf jours. La société reconnaît que le modèle communique parfois de façon peu efficace, ne choisit pas toujours les meilleurs outils pour de grands codes, ne gère pas l'audio, est moins optimisé pour le dialogue, et peut réagir de façon excessive aux sujets de santé. Il n'est d'abord proposé que via sa plateforme Tinker. Les poids seront publiés sous licence Apache 2.0 à l'issue de tests de sécurité externes : The Decoder ne donne pas de date, tandis que ZDNET annonce la semaine prochaine."
+       }
+      ],
+      "synthese": "Inkling 2 Small place Thinking Machines parmi les meilleurs modèles ouverts hors de Chine, avec de forts progrès en tâches agentiques, au prix d'un coût et d'une verbosité accrus. Sa publication sous licence Apache 2.0 reste à venir.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "ZDNET",
+        "url": "https://www.zdnet.com/innovation/thinking-machines-inkling-2-small-open-weight/"
+       }
+      ],
+      "format": "long",
+      "id": "a6"
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-06",
+      "url": "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/",
+      "auteur": "Maximilian Schreiner",
+      "titre": "Si l'AGI est proche, pourquoi les chercheurs quittent-ils les grands labos ?",
+      "chapo": "Des cocréateurs des modèles actuels fondent leurs « neolabs » et lèvent des milliards sans produit, convaincus que la recette dominante ne suffira pas.",
+      "sections": [
+       {
+        "intertitre": "Le déclencheur",
+        "texte": "Après le lancement de GPT-6 Astra, Jensen Huang (Nvidia) a déclaré que « l'AGI est arrivée » et Greg Brockman (OpenAI) a salué une « ère de l'AGI », sans définition partagée du terme. Pourtant, des artisans des systèmes actuels partent : Ilya Sutskever fonde Safe Superintelligence (SSI), Jerry Tworek Core Automation, David Silver Ineffable Intelligence, Yann LeCun AMI, et Jeff Dean Discovery Loop après 27 ans chez Google. L'argent suit : Nvidia aurait investi cinq milliards de dollars dans SSI selon Bloomberg, Prometheus, le labo de Jeff Bezos, a levé douze milliards à 41 milliards de valorisation, et Flapping Airplanes un milliard en série A, tous sans modèle public."
+       },
+       {
+        "intertitre": "Des motivations mêlées",
+        "texte": "Les raisons ne sont pas toutes techniques : à ces valorisations, les fondateurs deviennent vite milliardaires sur le papier. LeCun a quitté Meta après un désaccord stratégique, Sutskever veut chercher sans pression produit, d'autres visent une niche qui serait annexe dans un grand labo. Certains départs ne sont pas nets : Google est investisseur fondateur et partenaire cloud de Discovery Loop, qui discuterait d'un tour d'amorçage d'environ un milliard de dollars selon Business Insider. Le doute commun ne porte pas sur l'arrivée d'IA bien plus puissantes, mais sur la recette actuelle seule : modèles de langage toujours plus gros, entraînés sur des données d'internet et affinés par apprentissage par renforcement."
+       },
+       {
+        "intertitre": "Qu'est-ce qu'un neolab ?",
+        "texte": "Il n'existe pas de définition officielle : l'auteur désigne ainsi des entreprises indépendantes, centrées sur la recherche, bâties autour d'un pari technique à long terme. La vague est apparue en 2024, quand Sutskever a fondé SSI et levé un milliard de dollars en quelques mois. Les investisseurs financent cela parce qu'OpenAI et Anthropic, devenus des groupes qui visent l'introduction en Bourse, voient leurs équipes de recherche rivaliser avec les équipes produit pour l'argent et l'attention, et que les firmes établies peinent face aux idées qui menacent leur activité (le « dilemme de l'innovateur »). Une petite équipe pourrait trouver ce que les géants manquent. Anthropic, fondée en 2021 par Dario et Daniela Amodei, dépassait 65 milliards de dollars de revenu annualisé fin juillet 2026 selon Bloomberg."
+       },
+       {
+        "intertitre": "Les paris technologiques",
+        "texte": "The Decoder range 27 labs en six paris. Le premier : apprendre autrement, en continu pendant le déploiement (Adaption, Core Automation), à partir de peu d'exemples (Flapping Airplanes, Ndea, SSI) ou par l'expérience (Ineffable). Le deuxième : le langage ne suffit pas, d'où les modèles du monde et la robotique (AMI, Black Forest Labs, World Labs, Physical Intelligence). Le troisième : les données précieuses ne sont pas en ligne, comme chez Periodic Labs, qui génère les siennes dans des laboratoires automatisés. Le quatrième : le calcul est le goulot d'étranglement (Inception, Liquid AI, Unconventional AI). Le cinquième : automatiser la recherche elle-même, par exemple avec les preuves vérifiables d'Axiom Math, écrites en Lean, un langage où un vérificateur contrôle chaque étape."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Le pari reste risqué. Les grands labos disposent de plus de calcul, de chaînes de données établies et des retours de centaines de millions d'utilisateurs : la société TypeSafe AI a lancé le modèle Jev à la mi-septembre, et OpenAI a annoncé son Decisions API deux semaines plus tard. Un avantage même bref peut toutefois valoriser une équipe : Microsoft a recruté l'équipe d'Inflection, et AMD veut racheter World Labs pour environ 8,2 milliards de dollars. Les généralistes progressent aussi : GPT-6 Astra a obtenu jusqu'à 99,9 % sur ARC-AGI-3, mais en robotique il lui faut une demi-heure et plus de 16 dollars par tâche, contre 20 secondes pour un humain."
+       }
+      ],
+      "synthese": "Les neolabs misent sur des lacunes de recherche que les grands acteurs ne comblent pas, avec des fonds énormes et peu de produits visibles. Leur pari reste ouvert, car les généralistes rattrapent vite leurs avantages.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a4"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-06",
+      "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
+      "auteur": "Maximilian Schreiner",
+      "id": "a7",
+      "titre": "Anthropic : l'introduction en Bourse se heurte aux réticences des investisseurs",
+      "texte": "L'introduction en Bourse d'Anthropic rencontre des difficultés : les investisseurs contestent la valorisation visée de 1 500 milliards de dollars, alors que le marché technologique est en repli."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-06",
+      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "auteur": "Theresa Loconsolo; Anthony Ha; Sean O'Kane; Kirsten Korosec",
+      "id": "a14",
+      "titre": "Midterms américains : la vague démocrate pourrait remodeler l'industrie tech",
+      "texte": "Les victoires historiques des démocrates aux élections de mi-mandat américaines pourraient aussi transformer le secteur technologique. Sur 41 mesures électorales liées aux centres de données, la majorité des votants s'est prononcée pour davantage de restrictions dans toutes sauf une."
+     },
+     {
+      "rubrique": "IA",
+      "source": "Ars Technica",
+      "date": "2026-11-06",
+      "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+      "auteur": "",
+      "id": "a21",
+      "titre": "Meta renonce à forcer les pages Facebook à autoriser l'entraînement de l'IA",
+      "texte": "Meta ne contraindra pas les propriétaires de pages Facebook à autoriser l'usage de leurs contenus liés pour entraîner ses IA. Le groupe abandonne la mise à jour de conditions commerciales qui suscitait la critique."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-06",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "auteur": "",
+      "id": "a12",
+      "titre": "Des centaines d'outils de piratage IA Artex exposés sur internet",
+      "texte": "Des chercheurs en sécurité ont trouvé des centaines de serveurs hébergeant l'outil de test d'intrusion Artex, accessibles depuis internet. N'importe qui peut ainsi accéder à cet outil de piratage."
+     }
+    ]
+   },
+   {
+    "id": "france",
+    "titre": "Actualité France",
+    "developpes": [
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-06",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-avec-la-nouvelle-france-jean-luc-melenchon-fait-de-lecologie-la-cle-de-voute-de-son-programme",
+      "auteur": "Emma Bador-Fritche",
+      "titre": "Présidentielle 2027 : LFI place l'écologie en tête de son programme",
+      "chapo": "La France insoumise publie la cinquième édition de L'Avenir en commun : 1 069 propositions, dont 238 nouvelles, et une « Nouvelle France » qui remplace l'« union populaire ».",
+      "sections": [
+       {
+        "intertitre": "Ce qui est publié",
+        "texte": "À la veille d'un grand meeting au Bourget, en Seine-Saint-Denis, LFI publie l'intégralité de son programme pour 2027 : un ouvrage de 212 pages vendu 4,90 euros en librairie, avec 1 069 propositions dont 238 nouvelles selon le décompte du mouvement. Coordonné par les députés Clémence Guetté et Hadrien Clouet, il s'appuie sur plus de 24 000 contributions citoyennes, une trentaine d'auditions et des groupes d'experts, et sur un réseau de 200 hauts fonctionnaires surnommés « les Phrygiens ». Pour le député Aurélien Le Coq, faire du programme l'arme principale de la campagne est la méthode du mouvement. Le chiffrage complet ne sera dévoilé qu'au début de 2027."
+       },
+       {
+        "intertitre": "L'écologie en porte d'entrée",
+        "texte": "La bifurcation écologique et sociale devient la première des six grandes parties, alors que l'écologie était longtemps reléguée à la troisième. Les insoumis proposent d'inscrire dans la Constitution une « règle verte », qui interdirait de prélever sur la nature plus qu'elle ne peut reconstituer, et une « règle bleue » sur le même principe, ainsi qu'un conseil à la planification écologique et des « écorégions » fondées sur les bassins versants, les massifs et les façades maritimes. Ils maintiennent la sortie du nucléaire et des énergies fossiles pour 100 % de renouvelables, mais à l'horizon 2060 au plus tard, contre 2050 en 2022, avec une baisse de 65 % des émissions d'ici 2033. Selon Hadrien Clouet, tout le programme est structuré autour de la planification écologique. Sur le plan international, LFI propose un tribunal international de justice climatique et environnementale, une organisation mondiale de l'environnement et un fonds pour indemniser les victimes de pollutions et soutenir les lanceurs d'alerte. Ce virage cherche aussi à occuper le terrain des écologistes, alors que le ralliement de leur appareil à une candidature Mélenchon reste incertain."
+       },
+       {
+        "intertitre": "Des marqueurs historiques reconduits",
+        "texte": "Le Smic à 1 700 euros net, le blocage des prix des produits de première nécessité, le rétablissement de l'ISF, la taxation des très hauts patrimoines et la « sécurité sociale intégrale » demeurent. Sur les retraites, LFI promet d'abroger la réforme d'Emmanuel Macron, avec un retour à 62 ans puis à 60 ans à taux plein après 40 annuités, un calendrier plus progressif qu'en 2022. La VIe République reste au programme, avec une assemblée constituante convoquée par référendum, le vote à 16 ans, la reconnaissance du vote blanc et le vote obligatoire. Sur l'intelligence artificielle, une autorité nationale délivrerait des autorisations de mise sur le marché aux systèmes à risques élevés, avec un contrôle humain des décisions algorithmiques au travail."
+       },
+       {
+        "intertitre": "Droits nouveaux et international",
+        "texte": "Le programme propose un congé de proche aidant, un congé de sept jours en cas de décès d'un proche, un statut légal du baptême civil et un statut de famille monoparentale. Il prévoit un plan d'un milliard d'euros contre « l'islamophobie, l'antisémitisme et toutes les formes de racisme », dans un contexte où le mouvement est régulièrement mis en cause sur l'antisémitisme. À l'international, LFI veut sortir du commandement intégré de l'Otan, mettre fin à « l'isolement occidental » de la France et faire appliquer le mandat d'arrêt visant Benyamin Netanyahou ; elle réaffirme la solution à deux États, tout en ouvrant la voie à un État binational égalitaire."
+       },
+       {
+        "intertitre": "Un nouveau récit : la « Nouvelle France »",
+        "texte": "Cette expression, à peine esquissée en 2022, succède à l'« union populaire ». Dans son introduction, Jean-Luc Mélenchon oppose le « suprémacisme » au « collectivisme » et présente un choix « historique ». Le récit se veut fédérateur, au-delà des seuls sympathisants. Aurélien Le Coq rappelle que Mélenchon est passé de 11 % en 2012 à 22 % en 2022. Une nouvelle affiche, avec Gergovie en fond et « Liberté, Égalité, Solidarité » en bleu, blanc, rouge, a aussi été dévoilée le 6 novembre. Pour Mélenchon, l'enjeu est de faire de la « Nouvelle France » le cadre de sa quatrième bataille présidentielle."
+       }
+      ],
+      "synthese": "LFI reconduit ses mesures emblématiques tout en faisant de l'écologie le point de départ de son projet. Jean-Luc Mélenchon veut transformer ce programme en récit de campagne autour de la « Nouvelle France ».",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a51"
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-06",
+      "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/temoignages-ce-sont-des-blessures-de-guerre-trois-femmes-gravement-blessees-par-des-grenades-lancees-par-la-police-le-17-octobre-racontent-comment-leur-vie-a-bascule_8271329.html#xtor=RSS-3-[lestitres]",
+      "auteur": "Margaux Stive",
+      "titre": "Marseille, 17 octobre : trois femmes mutilées par des grenades policières",
+      "chapo": "Suzanne, Laurie et Olive, blessées aux pieds ou aux jambes en trente minutes lors de la manifestation, resteront marquées à vie ; deux d'entre elles déposent plainte.",
+      "sections": [
+       {
+        "intertitre": "Le déclencheur",
+        "texte": "Trois jeunes femmes de 21, 31 et 34 ans, Suzanne, Laurie et Olive (les prénoms ont été changés), ont témoigné vendredi 6 novembre sur franceinfo. Elles ne se connaissaient pas avant le 17 octobre, mais sont désormais liées par ce qu'elles ont vécu ce jour-là. Ce jour-là, lors de la manifestation de Marseille, toutes ont été très gravement blessées par des grenades de la police, qui les ont mutilées aux pieds ou aux jambes en l'espace de trente minutes, au même endroit. Aucune n'est sûre de pouvoir un jour remarcher normalement."
+       },
+       {
+        "intertitre": "Ce qui s'est passé",
+        "texte": "La nuit tombe près de la gare de Marseille quand les trois femmes se retrouvent noyées sous les gaz lacrymogènes. Face à elles, un barrage de police, puis soudain des explosions. Suzanne raconte : « À l'endroit où j'étais, je ne pensais pas une seule seconde que je pouvais être atteinte par quoi que ce soit. On était assez loin. » Quand l'explosif atteint son pied, elle est « juste sonnée », avec des acouphènes, « comme suspendue », sans comprendre qu'elle est blessée. Une fois les acouphènes estompés, elle entend les gens autour d'elle et ses amis dire qu'elle a « un gros trou dans le pied » : « C'est là que j'ai compris que j'étais vraiment atteinte. »"
+       },
+       {
+        "intertitre": "Des blessures de guerre",
+        "texte": "Toutes décrivent la sidération, puis la découverte de leurs blessures : des trous béants allant jusqu'à 11 centimètres dans le pied ou la jambe. « On est des cyborgs », résume Olive. Elle ajoute : « Ce sont des blessures de guerre, en fait. Si ça s'infecte, c'est l'amputation », et compare leur situation à celle des soldats de la seconde guerre mondiale : « Les gueules cassées, c'est nous », dit-elle en riant. Derrière ce rire, selon franceinfo, se cache surtout une grande détresse psychologique."
+       },
+       {
+        "intertitre": "Le choc psychologique",
+        "texte": "Laurie confie un stress post-traumatique qu'elle n'avait pas mesuré : elle habite dans le centre-ville de Marseille, non loin des points de départ des manifestations. « J'entends les grenades tomber, j'entends des slogans. Il y a un stress post-traumatique existant que je ne peux pas nier », dit-elle. Certaines nuits, elle se réveille en ayant du mal à croire qu'elle a pris une grenade dans le corps : « C'est quand même choquant. » Elle n'imaginait pas, « en tant que Française, bien que militante », vivre cela un jour. « C'est très angoissant cette situation. Il y a un basculement qui s'apparente à un règne de la terreur », estime-t-elle. Olive n'est pas sûre de retourner manifester : « Ça fait aussi repenser l'engagement. Parce qu'on ne va pas se mentir, les gens qui manifestent, c'est quand même des gens qui sont concernés. Ils subissent beaucoup de choses dans leur vie et c'est pénible de voir que c'est devenu un danger de manifester. Donc comment on fait ? » Laurie et Suzanne disent avoir une peur panique pour leurs proches qui continuent de manifester."
+       },
+       {
+        "intertitre": "Plaintes et revendications",
+        "texte": "Deux des trois femmes, qui l'ont annoncé, déposent plainte dans les prochaines heures, surtout pour faire changer les choses ; saisir la justice n'était une évidence pour aucune. Suzanne veut surtout se faire voir et se compter, afin d'obtenir un chiffre réaliste de manifestants blessés : elle exprime sa colère de ne pas voir les chiffres sortir des recensements de blessés : « Qu'on ne sache pas combien on est, combien de personnes ça représente avec des blessures graves ou même plus légères. » Elles veulent aussi se battre pour faire interdire ces armes qui, disent-elles, « peuvent tuer » et risquent de les laisser handicapées à vie. Ce combat les lie désormais : elles s'écrivent tous les jours, et c'est, indiquent-elles, leur seul rayon de soleil dans ce moment qui a fait basculer leur vie."
+       }
+      ],
+      "synthese": "Trois femmes mutilées par des grenades policières à Marseille le 17 octobre disent vivre avec des séquelles physiques et psychologiques durables. Deux portent plainte, et toutes veulent un décompte réaliste des blessés et l'interdiction de ces armes.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/temoignages-ce-sont-des-blessures-de-guerre-trois-femmes-gravement-blessees-par-des-grenades-lancees-par-la-police-le-17-octobre-racontent-comment-leur-vie-a-bascule_8271329.html"
+       }
+      ],
+      "format": "long",
+      "id": "a35"
+     },
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-06",
+      "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-les-points-chauds-lors-des-debats-au-senat-du-9-au-17-novembre",
+      "auteur": "Guillaume Jacquot",
+      "titre": "PLFSS 2027 : retraites, taxe sucre, étrangers, les points chauds au Sénat",
+      "chapo": "Plus de 1 200 amendements au projet de budget de la Sécurité sociale seront débattus au Sénat du 9 au 17 novembre, avant un vote solennel le 18.",
+      "sections": [
+       {
+        "intertitre": "Le calendrier et le contexte",
+        "texte": "Les débats sur le projet de loi de financement de la Sécurité sociale (PLFSS) pour 2027 se tiendront du 9 au 17 novembre, sauf le 11 novembre et vraisemblablement le 15. Le vote solennel aura lieu le 18 novembre. Comme l'an dernier, le texte sera particulièrement scruté : l'Assemblée nationale n'a pu l'examiner en entier, car le rejet de la partie recettes en octobre a entraîné celui de l'ensemble et empêché l'examen du volet dépenses. En commission, le 4 novembre, les sénateurs de la majorité sénatoriale ont apporté des modifications limitées, dont certaines devraient faire parler."
+       },
+       {
+        "intertitre": "Retraites : gel partiel et réforme de 2023",
+        "texte": "L'article 35 déroge à l'indexation des pensions sur l'inflation au 1er janvier. Le gouvernement prévoyait une revalorisation jusqu'à 1 260 euros ; la commission des affaires sociales défendra un seuil de 1 500 euros, et sa rapporteure Marie-Do Aeschlimann veut supprimer la possibilité d'une revalorisation plus forte, voire d'une annulation du gel, par décret en 2027. Les trois groupes de gauche et le groupe UNT (RN-UDR) proposent de supprimer la désindexation ; à droite, seul Alain Houpert (LR) les suit. D'autres amendements relèvent le seuil, à 1 867 euros pour Marie-Claude Lermytte (Les Indépendants), ou prévoient un traitement différencié pour les outre-mer, où les prix sont plus élevés. Les Indépendants veulent remplacer la revalorisation automatique par une décision annuelle du Parlement, et le ministre du Travail Jean-Pierre Farandou a évoqué un amendement sur l'indexation à 100 % sur l'inflation. La commission proposera aussi de rétablir la réforme des retraites de 2023, suspendue l'an dernier ; les Indépendants déposent un amendement du même type, contre ce qu'ils jugent une « grave erreur politique ». Les écologistes proposent un congé anticipatoire de retraite pour les personnes ayant 62 ans et 42 annuités."
+       },
+       {
+        "intertitre": "Allègements généraux de cotisations",
+        "texte": "L'article 7, parmi les plus décriés par les organisations patronales, intégrerait dans le calcul des allègements généraux des compléments de salaire comme la participation, l'intéressement et l'abondement aux plans d'épargne entreprise. De nombreux amendements de suppression viendront de sénateurs Républicains, centristes, Indépendants et UNT, qui dénoncent un renchérissement du coût du travail et craignent une perte d'attractivité de ces dispositifs. La centriste Brigitte Devésa veut revenir sur le gel de la valeur du Smic dans ce calcul. À gauche, des amendements visent à élargir l'assiette des cotisations, notamment aux primes de partage de la valeur."
+       },
+       {
+        "intertitre": "Taxe sucre et cures thermales",
+        "texte": "L'article 8 étend la taxe sur les boissons sucrées à certains produits solides industriels transformés. La commission veut le conserver mais exclure les denrées non soumises à l'étiquetage nutritionnel, comme les chocolats en ballotins, et protéger les produits artisanaux et certains produits sous signe officiel de qualité, tel le nougat de Montélimar. Neuf amendements de suppression réunissent une quarantaine de signataires. Pour les cures thermales, sujet sensible au Sénat qui s'y était déjà opposé pour le PLFSS 2026, le gouvernement veut ramener par voie réglementaire la prise en charge de 65 % à 15 %, soit 200 millions d'euros d'économie ; la commission exige qu'un tel déremboursement ne puisse intervenir qu'après un avis de la Haute Autorité de santé sur leur service médical rendu."
+       },
+       {
+        "intertitre": "Délai de carence pour les étrangers",
+        "texte": "L'article 37 conditionnerait à un an de résidence les prestations familiales et les aides au logement (APL) des ressortissants étrangers hors Union européenne. Les trois groupes de gauche demandent sa suppression, comme Brigitte Bourguignon, ancienne ministre Renaissance, qui note une économie de seulement 62 millions d'euros par an ; ses opposants estiment que la mesure frapperait d'abord les enfants. Les sénateurs RN et UDR veulent porter la durée à trois ans, et Gaëlle Frontoni (UDR) à cinq ans, un seuil censuré par le Conseil constitutionnel en 2024."
+       }
+      ],
+      "synthese": "Au Sénat, les retraites, les allègements de cotisations, la taxe sucre et les prestations aux étrangers concentreront les affrontements. La majorité sénatoriale a modifié le texte en commission, mais des amendements opposés viennent de tous les bords.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a48"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-06",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/06/dans-les-colleges-et-les-lycees-le-cauchemar-des-baisses-de-credits-depuis-la-rentree-il-y-a-des-dispositifs-qu-on-n-a-plus-les-moyens-de-financer_6807846_3224.html",
+      "auteur": "Eléa Pommiers",
+      "id": "a25",
+      "titre": "Collèges et lycées : la baisse des crédits inquiète les chefs d'établissement",
+      "texte": "Les chefs d'établissement alertent sur la réduction des enveloppes d'heures supplémentaires, qui financent notamment l'accompagnement aux devoirs et les projets culturels. Ils pointent une double conséquence : des budgets en baisse et une instabilité politique qui empêche de savoir ce que contiendront les lois de finances de l'année suivante."
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-06",
+      "url": "https://www.franceinfo.fr/faits-divers/accident/deux-morts-une-enquete-ouverte-ce-que-l-on-sait-de-l-accident-de-car-pres-de-bourg-en-bresse-dans-l-ain_8270546.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "id": "a36",
+      "titre": "Ain : deux morts, dont une fillette de 7 ans, dans un accident de car",
+      "texte": "Un accident de car survenu vendredi matin dans le secteur de Lent, près de Bourg-en-Bresse, a fait deux morts et une quinzaine de blessés. Le chauffeur a été placé en garde à vue."
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-06",
+      "url": "https://www.franceinfo.fr/faits-divers/incendie-meurtrier-a-wintzenheim/la-proprietaire-du-gite-touche-par-un-incendie-meurtrier-en-2023-a-wintzenheim-sera-jugee-pour-homicides-et-blessures-involontaires_8271611.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "id": "a39",
+      "titre": "Incendie de Wintzenheim : la propriétaire du gîte sera jugée",
+      "texte": "Onze personnes, dont dix en situation de handicap léger, avaient péri dans l'incendie de 2023 dans ce gîte du Haut-Rhin. La propriétaire sera jugée pour homicides et blessures involontaires."
+     }
+    ]
+   },
+   {
+    "id": "monde",
+    "titre": "Actualité Monde",
+    "developpes": [
+     {
+      "rubrique": "États-Unis",
+      "source": "NPR",
+      "date": "2026-11-06",
+      "url": "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
+      "auteur": "Ruth Sherlock",
+      "titre": "Israël : les partis arabes, arbitres d'un scrutin sans majorité",
+      "chapo": "Après des législatives sans vainqueur, les partis dirigés par des Arabes, forts de 19 sièges sur 120, pèsent sur la formation du prochain gouvernement.",
+      "sections": [
+       {
+        "intertitre": "Ce qui s'est passé",
+        "texte": "Depuis plusieurs années, beaucoup de citoyens palestiniens d'Israël boudaient les urnes, estimant avoir peu à gagner dans la vie politique d'un État qui, selon eux, marginalise régulièrement leurs communautés et opprime leurs compatriotes de Cisjordanie et de Gaza. Le mois dernier, ils ont voté en nombre record. Ils ont contribué à priver de sa majorité le gouvernement du Premier ministre Benjamin Netanyahu, présenté comme le plus à l'extrême droite de l'histoire d'Israël. Ni sa coalition ni son principal adversaire, Gadi Eisenkot, à la tête d'une opposition de centre droit, n'atteignent les 61 sièges nécessaires pour gouverner. Les partis dirigés par des Arabes ont obtenu 19 des 120 sièges, soit 64 % de voix en plus qu'au scrutin précédent selon la Commission électorale centrale."
+       },
+       {
+        "intertitre": "Une communauté qui revendique sa force",
+        "texte": "« Nous avons empêché le gouvernement de Netanyahu de continuer », a déclaré Jamal Zahalka, président du Haut Comité de suivi, principale instance faîtière des citoyens palestiniens d'Israël. Selon lui, c'est un succès historique. À Kufr Qasim, ville à majorité palestinienne, des centaines de personnes se sont réunies deux jours après le vote pour la commémoration annuelle des habitants abattus en 1956 par des gardes-frontières israéliens, le jour de l'ouverture de la crise de Suez. Les participants ont aussi évoqué la hausse nette des discriminations depuis les attaques du 7 octobre 2023, la guerre à Gaza, qui a fait plus de 74 000 morts palestiniens, et la situation en Cisjordanie occupée, où des organisations de défense des droits et l'ONU accusent le gouvernement d'armer et de soutenir des colons. Intisar Sarsur, 65 ans, dit que tous ses proches ont voté et réclame des droits fondamentaux. Descendants de ceux restés sur place lors de la création d'Israël en 1948, ces citoyens forment environ 20 % de la population."
+       },
+       {
+        "intertitre": "La riposte du camp Netanyahu",
+        "texte": "Benjamin Netanyahu et ses alliés ont fait de cette forte participation un cri de ralliement. Le jour du scrutin, le Premier ministre a publié une vidéo évoquant une « urgence ». Itamar Ben Gvir, ministre de la Sécurité nationale d'extrême droite, a lancé un appel filmé à l'entrée de Kufr Qasim. Une fois les résultats connus, le Likud a accusé les partis arabes d'avoir « volé » l'élection par la corruption, les menaces et la falsification, puis a mis en garde contre une prise de contrôle étrangère de la Knesset. Le parti n'a rendu public aucun élément de preuve. La police dit n'avoir trouvé aucun fondement à ces accusations, et les responsables électoraux écartent toute fraude généralisée. Le président de la commission électorale a toutefois demandé au Shin Bet d'enquêter sur un éventuel financement étranger, tout en jugeant, comme le procureur général, que le vote s'est déroulé correctement."
+       },
+       {
+        "intertitre": "Des partis arabes divisés face à Eisenkot",
+        "texte": "Cette campagne est largement perçue comme une tentative d'empêcher le bloc d'Eisenkot de s'allier aux partis arabes, ce qui lui donnerait la majorité. Une telle alliance serait risquée et pourrait provoquer le départ de membres de droite de son camp. Ancien chef d'état-major dont le fils a été tué à Gaza, il a siégé comme observateur au cabinet de guerre de Netanyahu. On lui attribue la « doctrine Dahiyeh », exposée en 2008, qui prévoit une force « disproportionnée » contre les villages d'où des combattants tirent sur Israël. Les partis arabes sont donc partagés. Ra'am, formation islamiste socialement conservatrice, a fait campagne pour entrer dans une coalition. La Liste unie, qui détient 11 des 19 sièges, ne s'associera pas formellement à Eisenkot, mais pourrait le soutenir de l'extérieur, en invoquant la guerre à Gaza et l'occupation de la Cisjordanie."
+       },
+       {
+        "intertitre": "Le calendrier",
+        "texte": "Le président Isaac Herzog consulte les partis et doit annoncer la semaine prochaine à qui il confie le mandat de former une coalition. Ce candidat disposera de 28 jours, avec une prolongation possible de deux semaines. En cas d'échec, un second candidat aura 28 jours, sans prolongation. Si personne n'y parvient, de nouvelles élections auront lieu l'an prochain."
+       }
+      ],
+      "synthese": "Le scrutin laisse Israël sans majorité et place les partis arabes en position d'arbitres, mais leurs divisions et l'hostilité du camp Netanyahu rendent l'issue incertaine. Faute de coalition, de nouvelles élections se tiendraient l'an prochain.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a55"
+     },
+     {
+      "rubrique": "Géopolitique",
+      "source": "Le Grand Continent",
+      "date": "2026-11-06",
+      "url": "https://legrandcontinent.eu/fr/2026/11/06/face-aux-frappes-russes-incessantes-la-capitale-ukrainienne-peut-elle-tenir/",
+      "auteur": "Marin Saillofest",
+      "titre": "Kiev sous les frappes russes : un réseau électrique à bout de souffle",
+      "chapo": "L'armée russe accélère ses frappes sur l'électricité ukrainienne, et Kiev, qui dépend de lignes très longues, aborde un hiver qui s'annonce particulièrement dur.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "La situation s'est nettement détériorée ces dernières semaines dans les grandes villes ukrainiennes, surtout à Kiev. L'armée russe accélère sa campagne contre la production et la distribution d'électricité : centrales, lignes à haute tension et sous-stations sont visées de façon systématique. Selon ACLED, 238 frappes ayant touché des infrastructures énergétiques ont été recensées en octobre, un record depuis le début de l'invasion à grande échelle en février 2022. Vendredi 6 novembre, Volodymyr Zelensky a décrit la situation énergétique de Kiev comme « la pire » du pays. Mardi 3 novembre, des frappes ont aussi privé toute la capitale d'eau pendant plus de 24 heures, selon la municipalité."
+       },
+       {
+        "intertitre": "Pourquoi Kiev est exposée",
+        "texte": "Les centrales thermiques de Kiev ne produisent plus d'électricité : la capitale dépend en majorité de trois centrales nucléaires situées à environ 300 kilomètres. Le courant de l'ouest et du sud parcourt de longues distances par des lignes à haute tension, ce qui rend la ville très vulnérable, la portée des drones russes dépassant 1 000 kilomètres. Un réseau de petites centrales à gaz fait fonctionner des services essentiels (hôpitaux, une partie du pompage d'eau), mais ne couvre qu'une fraction des besoins."
+       },
+       {
+        "intertitre": "Une asymétrie qui pèse sur la défense",
+        "texte": "Cet hiver, la Russie pourrait tirer entre 130 et 190 projectiles balistiques par mois. Trop rapides pour être interceptés par des drones ou d'autres moyens peu coûteux, ils exigent des missiles intercepteurs. Or l'Ukraine ne reçoit en moyenne que 12 intercepteurs Patriot livrés par les États-Unis chaque mois, soit moins de 5 % du nombre nécessaire, et les intercepteurs européens, comme les Aster du système SAMP/T, ne compensent qu'à la marge. En octobre, elle n'a abattu que 11 des 150 missiles balistiques tirés par la Russie, soit environ 7 %."
+       },
+       {
+        "intertitre": "Les conséquences attendues",
+        "texte": "L'hiver 2026-2027 sera vraisemblablement le plus difficile pour les Ukrainiens depuis le début de la guerre à grande échelle. La stratégie russe vise à rendre la capitale inhabitable en ciblant le chauffage, l'éclairage et l'approvisionnement en eau, pour peser sur la population et son moral. Sur le plan économique, la Banque nationale d'Ukraine estime que ces bombardements amputeront la croissance de près de 2 points en 2026. Le PIB réel devrait reculer de 0,4 % cette année, une première depuis 2022, après +1,8 % en 2025."
+       }
+      ],
+      "synthese": "Les frappes russes sur le réseau électrique atteignent un niveau record et Kiev en subit déjà les effets. Faute d'intercepteurs en nombre suffisant, l'hiver pourrait être le plus dur de la guerre.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a107"
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-07",
+      "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in?traffic_source=rss",
+      "auteur": "",
+      "titre": "Paraguay : Santiago Peña destitué, Pedro Alliana prête serment",
+      "chapo": "Après la faillite de la banque Ueno, le Sénat a destitué le président Santiago Peña, placé en résidence surveillée ; son vice-président Pedro Alliana lui succède.",
+      "sections": [
+       {
+        "intertitre": "Ce qui s'est passé",
+        "texte": "Vendredi, Pedro Alliana, 52 ans, a prêté serment et devient le 53e président du Paraguay. Il était vice-président de Santiago Peña depuis le début du mandat de ce dernier, en 2023. Le même jour, 44 sénateurs sur 45 ont voté la destitution de Peña, un sénateur s'étant abstenu. Après la destitution, les procureurs ont ordonné son assignation à résidence, soupçonné d'abus de confiance et d'autres délits. « Je pars avec gratitude, en mesurant pleinement l'angoisse de ceux qui attendent des réponses », a écrit Peña sur les réseaux sociaux. Il n'a pas assisté en personne à l'audience du Sénat et y a envoyé ses avocats, en disant ne pas vouloir que sa présence nourrisse la division ou l'instabilité. Plus tôt dans la journée, il avait toutefois regretté la rapidité de la procédure et demandé un délai pour exercer son droit constitutionnel à la défense, le temps imparti étant selon lui clairement insuffisant."
+       },
+       {
+        "intertitre": "La faillite d'Ueno Bank",
+        "texte": "Le scandale a éclaté mardi, quand la banque centrale a annoncé qu'Ueno était passée sous les seuils légaux de solvabilité, c'est-à-dire qu'elle n'avait pas assez de garanties pour couvrir ses prêts et ses autres activités. Elle a saisi l'établissement et transféré ses actifs restants à d'autres banques. Des millions de clients ont brusquement perdu l'accès à leurs comptes et à leurs pensions. Avec environ trois millions de membres, la banque comptait près des deux tiers des adultes du pays parmi ses clients. Regroupée en 2023 sous la marque Ueno, elle était devenue la cinquième banque du pays par les dépôts, grâce à 800 millions de dollars d'argent public. Avant l'effondrement, elle affirmait que plus d'un million de Paraguayens y avaient ouvert leur premier compte. Des questions se posent sur la qualité de sa supervision par les institutions publiques. Le président de la banque centrale, Carlos Carvallo, a démissionné cette semaine ; un mandat d'arrêt a été émis contre lui, la banque centrale étant accusée d'avoir manqué à sa mission de contrôle."
+       },
+       {
+        "intertitre": "Une destitution plutôt qu'une démission",
+        "texte": "En 2023, Peña avait été identifié comme actionnaire de la maison mère d'Ueno ; il affirme avoir vendu ses parts début 2025. Des interrogations portent sur d'éventuels conflits d'intérêts. Après la faillite, il avait proposé de partir, au nom de « la nécessité de préserver nos institutions démocratiques ». Jeudi, le Congrès a refusé sa démission et engagé la destitution : la Chambre des députés l'a votée par 78 voix contre zéro. Elle a en revanche refusé d'ouvrir une procédure contre Alliana. Le Parti Colorado, mouvement conservateur de Peña qui domine largement la politique paraguayenne depuis 1948, a soutenu la manœuvre. Horacio Cartes, ancien président et chef du parti, a écrit vouloir ainsi « rétablir les institutions de la République ». Une démission aurait laissé à Peña le droit, réservé aux anciens présidents, de siéger au Sénat, avec une protection juridique contre les poursuites."
+       },
+       {
+        "intertitre": "Le nouveau président et l'enquête",
+        "texte": "Alliana a débuté en politique comme gouverneur de son département d'origine, Ñeembucú, dans le sud du pays, avant de siéger près de dix ans à la Chambre des députés, dont trois comme président. Il prend les rênes du pays au moment de l'un des scandales politiques et économiques les plus graves de son histoire récente. Les procureurs se demandent si Ueno a été protégée de tout contrôle par ses liens avec le pouvoir ; quelque 355 millions de dollars de fonds de pension publics y étaient investis. Au moins 27 personnes font l'objet de poursuites pénales, dont l'actionnaire principal, Miguel Vázquez. Les faits examinés comprennent tentative de fraude, abus de confiance, détournement de fonds et trafic d'influence. Peña a laissé entendre qu'il coopérerait à l'enquête."
+       }
+      ],
+      "synthese": "Le Paraguay change de président en pleine crise, après la faillite d'Ueno et la destitution de Santiago Peña, désormais en résidence surveillée. Pedro Alliana hérite d'un scandale bancaire et politique qui touche aussi des fonds de pension publics.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in"
+       }
+      ],
+      "format": "long",
+      "id": "a97"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-06",
+      "url": "https://www.politico.eu/article/jared-kushner-european-security-plan-is-not-convincing-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Victor Jack; Jacopo Barigazzi; Hans von der Burchard; Nicholas Vinocur",
+      "id": "a73",
+      "titre": "Plan de sécurité américain pour l'Europe : les capitales redoutent d'être écartées",
+      "texte": "Les capitales européennes craignent qu'un projet américain de refonte des dispositifs de sécurité du continent n'exclue des alliés et ne favorise la Russie."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-06",
+      "url": "https://www.scmp.com/news/us/economy-trade-business/article/3373616/us-china-trade-chiefs-hold-call-ahead-trump-xi-summit-shenzhen",
+      "auteur": "Nayan Seth",
+      "id": "a87",
+      "titre": "Chine : Bessent et Greer s'entretiennent avec He Lifeng avant le sommet Trump-Xi",
+      "texte": "Le secrétaire au Trésor Scott Bessent et la représentante au Commerce Jamieson Greer ont eu un appel vidéo avec le vice-Premier ministre chinois He Lifeng pour préparer la rencontre de Donald Trump avec Xi Jinping à Shenzhen, prévue plus tard dans le mois. Bessent a insisté sur la mise en œuvre complète et immédiate par la Chine de ses engagements pris à Busan et a exprimé des préoccupations sur des actions chinoises récentes."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-07",
+      "url": "https://www.aljazeera.com/news/2026/11/7/cdc-reports-more-than-5000-measles-cases-highest-number-in-35-years?traffic_source=rss",
+      "auteur": "",
+      "id": "a94",
+      "titre": "Plus de 5 000 cas de rougeole aux États-Unis, un niveau inédit depuis 35 ans",
+      "texte": "Le CDC recense plus de 5 000 cas de rougeole, du jamais-vu depuis trente-cinq ans. Les enfants et adolescents représentent près de 60 % des cas confirmés."
+     }
+    ]
+   },
+   {
+    "id": "recherche",
+    "titre": "Recherche & travaux d'experts",
+    "developpes": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35964#fromrss",
+      "auteur": "Jesús Fernández-Villaverde",
+      "titre": "Automatisation : qui épargnera pour les machines ? Étude du NBER",
+      "chapo": "Selon Jesús Fernández-Villaverde, la croissance née de l'automatisation dépend de l'épargne : une croissance lente pourrait refléter trop peu de capital accumulé, non un blocage technologique.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "L'intelligence artificielle et l'automatisation pourraient remodeler l'économie dans les décennies à venir, ce qui exigera beaucoup de capital : logiciels, centres de données, robots, centrales électriques. Van Nieuwerburgh (2026) estime que les seuls campus d'IA absorberont 3,6 % du PIB par an sur 2025-2032, et une grande partie de ce capital se dépréciera vite. Qui épargnera pour les machines ? L'auteur répond que tout dépend de deux paramètres : la structure des tâches, qui fixe les rendements de l'accumulation de machines, et l'offre de capital, c'est-à-dire ce que les ménages acceptent d'épargner en réponse à ces rendements."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "À trajectoire technologique identique, l'économie croît de 11,7 % par an quand les tâches sont très complémentaires et que les ménages épargnent de façon optimale, mais de seulement 2,2 % si le taux d'épargne reste figé à 23 %, niveau calibré pour les États-Unis en 2025. Une croissance lente peut donc refléter un manque d'accumulation de capital plutôt qu'un goulot technologique. Le taux d'épargne monte surtout parce que l'automatisation accroît la part du capital, non parce que les ménages deviennent plus économes : cette part passe d'un tiers à la totalité sous automatisation complète. Le rendement réel à dix ans bondit de 5,1 % à 13,6 % d'emblée, les rendements longs intégrant le boom de croissance. Les salaires restent entre le quart et la moitié de leur tendance sous automatisation complète. Les ménages sans épargne perdent l'équivalent de 40 % à 65 % de leur consommation, tandis que maintenir leurs revenus sur la tendance coûte au plus un cinquième du PIB, temporairement."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "L'auteur s'appuie sur un modèle de croissance néoclassique déterministe, en économie fermée, avec un ménage représentatif et une entreprise représentative. La production suit le cadre des tâches d'Acemoglu et Restrepo : chaque tâche est effectuée par du travail ou par des machines. Le modèle est calibré sur l'économie américaine, avec une automatisation de toutes les tâches entre 2025 et 2045. Il compare deux cas extrêmes : un ménage qui épargne de façon optimale et un taux d'épargne fixe. Il distingue ensuite des ménages sans actifs, qui consomment leur revenu du travail, et des propriétaires du capital."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Pour l'auteur, la distinction entre goulot technologique et goulot d'offre de capital a des conséquences observables. Le taux d'épargne devrait suivre la part du capital : si l'investissement reste à un cinquième du PIB alors que cette part augmente, le modèle de Solow décrirait mieux le monde. Les premières années renseigneraient sur l'élasticité de substitution entre tâches. Et les rendements longs devraient bondir pendant que le taux court reste stable. Les gains globaux sont importants, mais mal répartis : les propriétaires gagnent davantage que le ménage représentatif, alors que les revenus du travail s'effondrent. Le coût d'un transfert pour compenser les ménages sans épargne reste modeste au regard de la production."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Tous les exercices sont des références, non des prévisions : l'auteur prend au sérieux la possibilité d'une IA transformatrice pour en déduire les conséquences sur l'épargne. Ses résultats reposent sur une offre de capital suffisamment élastique, que peuvent limiter des agents hétérogènes, des frictions financières ou des ressources physiques limitées. Il cite aussi comme omissions le logement et surtout l'économie politique : un salaire tombé au quart de sa tendance pendant vingt ans serait mal accueilli par l'électeur médian. Enfin, les données ne diront pas avant des décennies si les dernières tâches seront automatisées."
+       }
+      ],
+      "synthese": "Selon l'auteur, la vitesse du boom de croissance lié à l'automatisation dépend de la capacité des ménages à épargner, tandis que la structure des tâches détermine sa durée et l'évolution des salaires. Ce document de travail présente des scénarios de référence, non des prévisions.",
+      "republication": "",
+      "reference": "Jesús Fernández-Villaverde (Université de Pennsylvanie, département d'économie ; CEPR ; NBER), NBER Working Paper n° 35964, octobre 2026 : document de travail non évalué par des pairs.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a113"
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-06",
+      "url": "https://verfassungsblog.de/brazils-democracy-tomorrow/",
+      "auteur": "Diego Platz Pereira",
+      "titre": "Brésil : réduire les pouvoirs individuels pour consolider la démocratie",
+      "chapo": "Après la victoire de Lula au second tour, un juriste plaide pour réduire les pouvoirs concentrés entre les mains de quelques personnes dans les grandes institutions brésiliennes.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "Le second tour de l'élection présidentielle brésilienne, le mois dernier, a vu Lula da Silva battre le candidat d'extrême droite Flávio Bolsonaro de près de 4,4 millions de voix. Flávio a quitté le pays pour les États-Unis afin d'y demander l'asile, malgré une interdiction judiciaire de sortie du territoire et la suspension de son passeport dans une enquête pour corruption et blanchiment présumés. Son père, Jair Bolsonaro, a été condamné pour tentative de coup d'État. Dans la version initiale d'une lettre adressée au peuple brésilien et à la communauté internationale, Flávio se déclarait président élu. L'auteur y voit l'occasion de faire le point sur la résilience de la démocratie brésilienne et les pressions qui continuent de peser sur elle."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "Selon l'auteur, l'avenir de la démocratie brésilienne dépendra d'abord de la mobilisation sociale, comme l'a montré la mobilisation numérique coordonnée, d'une intensité inédite, du camp pro-Lula, puis de la limitation des pouvoirs potentiellement abusifs des plateformes numériques, tels que ceux apparemment exercés par Meta, visant aussi bien Lula que le camp pro-Bolsonaro. Il ajoute une dimension institutionnelle : il faut des institutions plus solides et une réduction stratégique des pouvoirs de décision excessifs concentrés chez des acteurs individuels. Il juge que trop peu de personnes prennent trop de décisions au Brésil, à la présidence, à la Cour suprême fédérale (STF), au Congrès national et au Parquet général de la République. La défiance envers le STF a atteint des niveaux record : une séance plénière retransmise, peu avant le premier tour, a exposé des querelles personnelles après des décisions monocratiques contradictoires dans une affaire de corruption, et la plupart des juges ont été impliqués dans des activités publiquement rapportées qui soulèvent des questions d'impartialité. Il évoque, pour le STF, les décisions monocratiques, les demandes de vue (pedidos de vista) qui retardent le vote collectif et les larges pouvoirs de la présidence de la Cour sur l'ordre du jour. Pour le Congrès, il cite les pouvoirs des présidents de la Chambre et du Sénat et le fait qu'un cinquième du budget discrétionnaire fédéral dépende des amendements budgétaires individuels des parlementaires."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "Le texte ne s'appuie pas sur des données chiffrées ni sur un protocole d'enquête. L'auteur passe en revue, institution par institution, les pouvoirs individuels et les risques d'abus qu'il leur associe, en s'appuyant sur des épisodes récents, dont la séance plénière du STF avant le premier tour et la prolongation du vote au second tour, ainsi que sur des travaux de Conrado Hübner Mendes sur le procureur général."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Pour la présidence, l'auteur propose de mettre fin à la politicagem dans la nomination des juges du STF ou de revoir le modèle de sélection, par exemple avec des conseils institutionnels, comme Lula l'a envisagé, en préservant le rôle du Sénat. Pour le STF, il suggère de réduire les décisions monocratiques, d'adopter un code d'éthique et de soumettre l'ordre du jour du président de la Cour à un contrôle collectif. Pour le Parquet général, il évoque des changements formels ou informels des mécanismes internes de responsabilité du procureur général. Pour le Congrès, il réclame des contre-pouvoirs et des droits procéduraux pour les minorités face aux présidents des chambres, et une gestion collective du budget plutôt qu'une somme d'« îlots individuels ». Il estime que, sans réforme, la Cour pourrait ne plus tenir longtemps sur le plan de sa légitimité. Il distingue le cas du juge Cristiano Zanin, qui a prolongé le vote de deux heures moins de 30 minutes avant la fermeture : l'extrême urgence et la demande des deux camps justifiaient cette décision individuelle."
+       }
+      ],
+      "synthese": "L'auteur estime que la mobilisation sociale ne suffira pas à protéger la démocratie brésilienne et que des institutions capables de résister aux choix et aux abus de responsables individuels sont indispensables. Il demande donc une réduction stratégique des pouvoirs individuels.",
+      "republication": "",
+      "reference": "Diego Platz Pereira, Verfassungsblog, billet daté du 6 novembre 2026 (date du flux) : billet de chercheur ou commentaire, non présenté comme article évalué par des pairs.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a120"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Social",
+      "source": "Pew Research Center",
+      "date": "2026-11-06",
+      "url": "https://www.pewresearch.org/short-reads/2026/11/06/a-first-look-at-polling-performance-in-2026/",
+      "auteur": "",
+      "id": "a116",
+      "titre": "Sondages des midterms 2026 : bonne direction, avance démocrate sous-estimée",
+      "texte": "Selon une première analyse du Pew Research Center, les sondages préélectoraux ont capté la direction du scrutin. Ils ont généralement sous-estimé l'ampleur de l'avance démocrate."
+     },
+     {
+      "rubrique": "Social",
+      "source": "Pew Research Center",
+      "date": "2026-11-06",
+      "url": "https://www.pewresearch.org/short-reads/2026/11/06/majority-of-americans-say-social-media-companies-news-outlets-have-too-much-power-in-politics/",
+      "auteur": "",
+      "id": "a119",
+      "titre": "États-Unis : 7 Américains sur 10 jugent les réseaux sociaux trop puissants en politique",
+      "texte": "Selon le Pew Research Center, environ sept Américains sur dix estiment que les réseaux sociaux ont trop de pouvoir politique. Ils sont 55 % à le penser des médias d'information, avec des écarts entre républicains et démocrates."
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-06",
+      "url": "https://verfassungsblog.de/the-road-to-the-icc-prosecution-of-philippine-warlord-rodrigo-duterte/",
+      "auteur": "",
+      "id": "a126",
+      "titre": "Duterte devant la CPI : l'action d'avocats philippins décrite par Verfassungsblog",
+      "texte": "Arrêté en 2025, l'ancien président philippin Rodrigo Duterte comparaît devant la Cour pénale internationale pour crimes contre l'humanité. Selon Verfassungsblog, la résistance juridique peut faire une différence concrète, même sous une violence d'État implacable."
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-06",
+      "url": "https://verfassungsblog.de/defending-indigenous-territories-through-law-and-collective-power/",
+      "auteur": "",
+      "id": "a127",
+      "titre": "Territoires autochtones : le droit ne pèse que s'il soutient les communautés",
+      "texte": "Selon Verfassungsblog, l'action juridique ne transforme les rapports de force inégaux que si elle appuie l'organisation des communautés, selon leurs propres décisions. Les projets énergétiques transforment les territoires avant même le début des travaux."
+     }
+    ]
+   },
+   {
+    "id": "veille",
+    "titre": "Veille réglementaire",
+    "developpes": [
+     {
+      "rubrique": "Sanctions et export",
+      "source": "EU Today",
+      "date": "2026-11-06",
+      "url": "https://eutoday.net/europes-russia-sanctions-enter-a-new-phase/",
+      "auteur": "",
+      "titre": "Sanctions anti-russes : Bruxelles cible réseaux financiers et flotte fantôme",
+      "chapo": "Face aux contournements, l'UE déplace son attention de nouveaux paquets de sanctions vers l'application effective des mesures existantes.",
+      "sections": [
+       {
+        "intertitre": "Ce qui s'est tenu à Bruxelles",
+        "texte": "Le 5 novembre, la Commission européenne a réuni à Bruxelles des responsables d'États membres et de pays partenaires pour examiner les faiblesses dans l'application des sanctions contre la Russie. Les échanges ont porté sur les cryptomonnaies, les réseaux de paiement étrangers, les achats militaires et les infrastructures maritimes du pétrole russe. Le dixième Groupe de haut niveau sur les mesures restrictives de l'Union, présidé par la commissaire aux services financiers Maria Luís Albuquerque, a rassemblé les autorités nationales chargées de les appliquer. Un forum distinct, convoqué par l'envoyé de l'UE pour les sanctions David O'Sullivan, a réuni le Royaume-Uni, les États-Unis, le Japon, le Canada, d'autres partenaires et l'Ukraine."
+       },
+       {
+        "intertitre": "Les limites des paquets successifs",
+        "texte": "Depuis février 2022, l'UE a restreint progressivement l'accès aux marchés financiers européens, aux technologies avancées, aux équipements industriels et aux revenus de l'énergie. Le 21e paquet, adopté le 23 juillet 2026, étend l'interdiction de transactions à 33 autres établissements financiers russes et à quatre banques de pays tiers. Il vise aussi 14 plateformes de cryptomonnaies hors de l'UE et des entités de la chaîne d'approvisionnement militaro-industrielle russe. Mais plus la législation s'étend, plus son application devient délicate : une transaction interdite via une banque russe peut passer par un intermédiaire ailleurs, des composants peuvent transiter par plusieurs juridictions, et le pétrole peut s'appuyer sur des montages de propriété complexes. Rien de cela ne prouve nécessairement une faute de chaque intermédiaire : établir une violation exige des preuves sur la transaction, les règles et les responsabilités des parties."
+       },
+       {
+        "intertitre": "Cryptomonnaies et paiements parallèles",
+        "texte": "Les restrictions bancaires attirent l'attention sur d'autres circuits : crypto-actifs et réseaux reliant des entreprises russes à des intermédiaires de pays tiers. Le paquet de juillet crée un mécanisme permettant d'interdire les transactions avec des prestataires étrangers de cryptomonnaies utilisés pour faciliter l'évasion des sanctions, ce qui étend les restrictions au-delà des institutions établies dans l'Union. Leur efficacité dépend toutefois de pays dont les priorités réglementaires peuvent différer de celles de Bruxelles, et les autorités doivent distinguer le commerce légitime des opérations destinées à dissimuler des bénéficiaires russes. Les banques et multinationales doivent donc examiner davantage propriétaires, circuits de paiement et destinataires réels."
+       },
+       {
+        "intertitre": "La flotte fantôme, une préoccupation centrale",
+        "texte": "La Russie continue d'exporter du pétrole avec des pétroliers soumis à des montages de propriété et d'assurance compliqués, dont des navires dits appartenant à sa flotte fantôme. Le paquet de juillet a ajouté 41 navires aux restrictions européennes, portant à plus de 670 le total des bâtiments concernés. Bruxelles s'intéresse aussi aux services qui les rendent possibles : soutage, équipages et appui. Des gouvernements européens s'inquiètent aussi de la vétusté des navires, d'assurances incertaines, d'accidents et de la sécurité des infrastructures sous-marines. Fermer un port européen à un navire ne l'empêche pas de transporter du pétrole entre pays tiers : il faut coopérer avec les États du pavillon, les assureurs, les armateurs et les autorités des grandes places commerciales."
+       },
+       {
+        "intertitre": "Une épreuve de force économique sur plusieurs années",
+        "texte": "La Commission estime que les sanctions contribuent aux difficultés économiques russes et cite un recul de la croissance annuelle de 4,9 % en 2024 à 1 % en 2025. La croissance ne suffit pas à mesurer leur efficacité : la capacité de la Russie à financer sa production militaire dépend des dépenses publiques, des recettes d'exportation, de l'accès aux composants importés et de sa faculté à réorienter ses ressources vers la défense. Des prix du pétrole élevés, notamment avec l'instabilité au Moyen-Orient, compliquent la réduction des revenus de Moscou."
+       }
+      ],
+      "synthese": "Pour Bruxelles, l'enjeu n'est plus d'annoncer de nouvelles interdictions, mais de vérifier que biens, argent et services n'atteignent plus leurs destinataires par d'autres voies. Le résultat dépendra moins du nombre de noms ajoutés aux listes que de la capacité à rendre le contournement plus difficile, plus coûteux et plus facile à détecter.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a141"
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "EU Perspectives",
+      "date": "2026-11-06",
+      "url": "https://euperspectives.eu/2026/11/russias-ship-inspector-scores-partial-court-win-against-eu-sanctions/",
+      "auteur": "Media Networks; Daniel Deyl",
+      "titre": "Sanctions de l'UE : le registre maritime russe obtient une annulation partielle",
+      "chapo": "Le Tribunal de l'Union européenne a annulé une seule des mesures visant le Registre maritime russe de navigation ; toutes les autres sanctions restent en vigueur.",
+      "sections": [
+       {
+        "intertitre": "Ce que le Tribunal a décidé",
+        "texte": "Le Tribunal de l'Union européenne a annulé une partie des sanctions prises contre le Registre maritime russe de navigation (RMRS), organisme à but non lucratif détenu à 100 % par l'État russe. Le RMRS avait introduit un recours en annulation (affaire T-535/24) contre des mesures adoptées en réponse à la guerre en Ukraine. Le Tribunal a annulé la disposition qui imposait de retirer la reconnaissance du RMRS comme organisme habilité à inspecter et certifier les navires. Il a estimé que la mesure allait trop loin ou manquait de justification juridique au regard des règles de l'UE sur l'inspection des navires, fixées par le règlement 391/2009 : le Conseil ne peut pas s'en servir pour disqualifier le RMRS comme organisme de sécurité reconnu. Le recours a été rejeté pour le reste."
+       },
+       {
+        "intertitre": "Le contexte des sanctions",
+        "texte": "Ces mesures font suite à l'invasion à grande échelle de l'Ukraine par la Russie en 2022. Le Conseil de l'UE a étendu son régime au RMRS, inscrit sur des listes entraînant des interdictions d'investissement et des interdictions de transaction. Il a aussi interdit l'accès aux ports et aux écluses de l'UE aux navires certifiés par le RMRS. Enfin, il a retiré la reconnaissance du RMRS au niveau de l'UE et exigé des États membres qu'ils révoquent ses autorisations : c'est cette dernière mesure que le Tribunal vient d'annuler. Les interdictions d'investissement, les interdictions de transaction et l'interdiction d'accès aux ports pour les navires certifiés restent juridiquement valables."
+       },
+       {
+        "intertitre": "Une victoire sans effet immédiat",
+        "texte": "Le RMRS n'en profitera pas de sitôt. Le Tribunal a décidé que les effets de la disposition annulée restent en vigueur pendant deux mois et dix jours au plus à compter de l'arrêt, soit 70 jours. Le Conseil peut en profiter pour réécrire le texte ou former un pourvoi devant la Cour de justice de l'UE. Tant que ce délai n'a pas expiré, l'interdiction pratique de reconnaissance demeure ; en cas de pourvoi, l'annulation est gelée jusqu'à la décision de la Cour et la sanction reste active pendant toute la procédure. Ce délai vise à éviter un trou dans la couverture des sanctions. Chacun supporte ses propres dépens : le Conseil et le RMRS, ainsi que la Commission européenne, qui soutenait le Conseil."
+       },
+       {
+        "intertitre": "Les arguments du RMRS",
+        "texte": "Le RMRS avançait trois arguments. Les mesures seraient disproportionnées par rapport aux objectifs de politique étrangère et de sécurité de l'UE. Le Conseil aurait insuffisamment motivé sa décision au regard de l'article 296 du traité sur le fonctionnement de l'Union européenne, un organisme technique de classification méritant mieux que des formules générales sur la propriété de l'État. Enfin, le droit à un recours effectif, garanti par l'article 47 de la Charte des droits fondamentaux, n'aurait pas été respecté. Selon l'article, le critère juridique est exigeant pour les requérants, le RMRS est un instrument de l'État russe et le Conseil dispose d'une large marge d'appréciation en matière de politique étrangère et de sécurité."
+       }
+      ],
+      "synthese": "Le RMRS n'a gagné que sur un point, le retrait de sa reconnaissance, et reste une entité lourdement sanctionnée. Selon l'article, le Conseil corrige généralement les défauts relevés et rétablit la mesure, parfois avec une motivation étoffée ou des catégories élargies, ce qui illustre l'alternance entre contestation et réécriture propre au dispositif européen.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a140"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "RGPD",
+      "source": "CNIL",
+      "date": "2026-11-06",
+      "url": "https://www.cnil.fr/fr/recherches-internes-sante-quelles-obligations",
+      "auteur": "",
+      "id": "a131",
+      "titre": "RGPD : la CNIL rappelle les règles des recherches internes en santé",
+      "texte": "Les établissements qui emploient des professionnels de santé menant des recherches internes sont concernés. La CNIL rappelle les règles applicables."
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "bloomingbit",
+      "date": "2026-11-06",
+      "url": "https://en.bloomingbit.io/feed/news/123842",
+      "auteur": "",
+      "id": "a144",
+      "titre": "Sanctions : les États-Unis visent 45 personnes et entités dans l'affaire Prince Group",
+      "texte": "L'OFAC a sanctionné 45 personnes et entités dans l'affaire Prince Group, une escroquerie aux cryptoactifs."
+     }
+    ]
+   },
+   {
+    "id": "curiosites",
+    "titre": "Curiosités",
+    "developpes": [
+     {
+      "rubrique": "Climat",
+      "source": "Carbon Brief",
+      "date": "2026-11-06",
+      "url": "https://www.carbonbrief.org/simply-staggering-rapidly-developing-super-el-nino-on-track-to-peak-in-december",
+      "auteur": "Cecilia Keating",
+      "titre": "« Super El Niño » : un pic attendu en décembre et une année 2027 record",
+      "chapo": "Selon la dernière analyse de Carbon Brief, l'El Niño en cours devrait culminer fin 2026 et porter la température mondiale à un niveau inédit l'an prochain.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Le « super El Niño » en cours devrait atteindre son maximum à la fin de 2026 et pousser la température moyenne mondiale à des niveaux records en 2027. C'est la conclusion de la dernière mise à jour « état du climat » de Carbon Brief, qui analyse les prévisions de plus d'une douzaine de modèles climatiques et six jeux de données de température. Le climatologue Zeke Hausfather, contributeur de Carbon Brief, a jugé cet événement « simplement stupéfiant »."
+       },
+       {
+        "intertitre": "Un événement déjà exceptionnel",
+        "texte": "El Niño est un phénomène climatique naturel du Pacifique tropical qui libère de la chaleur de l'océan vers l'atmosphère et relève temporairement les températures mondiales. L'épisode actuel, en cours depuis juin, a déjà battu plusieurs records et bouleversé la météo mondiale, avec des incendies en Indonésie et des « super typhons » dans le Pacifique ouest. Le 18 septembre, l'anomalie quotidienne de la zone Niño3.4 a atteint 3,11 °C, record de l'ère satellitaire établi en 2015. Septembre a aussi connu l'anomalie mensuelle la plus élevée depuis le milieu du XIXe siècle : 2,84 °C. Selon Hausfather, l'épisode dépasse depuis juin tous les précédents, parfois d'un degré entier."
+       },
+       {
+        "intertitre": "Le pic attendu en décembre",
+        "texte": "L'intensité se suit par l'anomalie Niño3.4, qui mesure l'écart de température de la mer par rapport à la moyenne dans une zone du Pacifique central. Sur plus de 600 prévisions issues de 14 modèles, le pic atteindrait environ 4 °C, soit plus d'un degré de plus que le record de 2015-2016. Dix modèles sur 14 le placent en décembre, les autres en novembre. Hausfather estime qu'il pourrait s'agir du plus fort El Niño du dernier millénaire."
+       },
+       {
+        "intertitre": "Les effets sur 2027",
+        "texte": "Les émissions humaines expliquent presque tout le réchauffement à long terme, mais El Niño pèse sur chaque année. Les températures mondiales suivant le Pacifique avec environ trois mois de retard, l'effet sera maximal en 2027. Carbon Brief projette alors environ 1,74 °C au-dessus du niveau préindustriel, avec 96 % de chances que ce soit l'année la plus chaude jamais enregistrée. Cette projection repose sur la relation historique entre les variations de température d'une année sur l'autre et les conditions El Niño de l'automne précédent, et tient compte de l'incertitude sur l'évolution du reste de 2026."
+       }
+      ],
+      "synthese": "L'El Niño de 2026 progresse plus vite et plus fort que tous ceux observés, avec un pic attendu en décembre. Ses effets sur la température mondiale culmineraient en 2027, très probablement une année record.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a178"
+     },
+     {
+      "rubrique": "Science",
+      "source": "Quanta Magazine",
+      "date": "2026-11-06",
+      "url": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
+      "auteur": "Charlie Wood",
+      "titre": "D'Einstein à PBR : trois théorèmes et ce qu'il reste de la réalité quantique",
+      "chapo": "Depuis 1935, Einstein, Bell puis Pusey et ses collègues ont resserré le choix : la réalité objective est étrange, ou elle n'existe pas.",
+      "sections": [
+       {
+        "intertitre": "Le déclencheur",
+        "texte": "Un bébé comprend en moins d'un an que ce qu'on cache derrière ses mains continue d'exister. Pour Einstein, le monde est de même « réel » : une boule de billard rouge l'est même dans le noir. La mécanique quantique semble dire autre chose : ses mathématiques n'attribuent la couleur qu'au moment de la mesure, et avant elles ne donnent que des probabilités. Selon Quanta Magazine, trois théorèmes, dus à Einstein et ses collaborateurs, à John Stewart Bell puis à Matthew Pusey, Jonathan Barrett et Terry Rudolph (« PBR », 2012), ont montré cette théorie incompatible avec le monde perçu. Comme l'expérience confirme la théorie, quelque chose de la réalité doit être abandonné."
+       },
+       {
+        "intertitre": "Einstein et la réalité",
+        "texte": "La mécanique quantique de Heisenberg et Schrödinger décrit des possibilités : la fonction d'onde donne par exemple 77 % de chances de trouver la boule rouge et 23 % verte. Pour Einstein, elle ressemble à une prévision météo : passer de 77 % à 100 % en regardant dehors est un changement de certitude dans la tête, non de l'atmosphère. Avec Podolsky et Rosen (EPR), il a imaginé deux particules dont une seule est mesurée : l'autre devait avoir des propriétés déjà fixées, donc l'état quantique ne serait qu'un artefact d'information. Ils supposaient la « réalité » (un état propre à la particule) et la « localité » (il ne change que par interaction avec elle). Niels Bohr a attaqué la première : « Il n'y a pas de monde quantique », aurait-il dit selon Aage Petersen. Cette position est devenue l'interprétation de Copenhague."
+       },
+       {
+        "intertitre": "Bell et la localité",
+        "texte": "En 1952, John Stewart Bell découvre la mécanique bohmienne de David Bohm, où les particules ont toujours une position réelle, guidées par une « onde pilote » qui peut perturber instantanément une particule lointaine (la non-localité). Il y voit un antidote à la complaisance ambiante. Il conçoit ensuite une expérience valable pour toute théorie quantique : deux particules, deux appareils effectuant chacun une mesure choisie au hasard. Dans un monde réel et local, les résultats concordent relativement rarement ; la mécanique quantique prédit qu'ils concordent bien plus souvent. Les expériences des années 1980 lui ont donné raison : le monde ne peut être à la fois réel et local."
+       },
+       {
+        "intertitre": "Le théorème PBR",
+        "texte": "En 2004, Robert Spekkens, du Perimeter Institute, décrit un monde où l'état quantique n'est qu'une connaissance incomplète de propriétés réelles et y retrouve téléportation, interdiction de copier un état et bien d'autres phénomènes. En 2011, Matthew Pusey, alors doctorant à l'Imperial College London, tente de prolonger cette idée, puis cherche plutôt à prouver que c'est impossible. L'analogie de Rudolph est un jeu de cartes : un donneur tire deux cartes dans la pile des rouges ou celle des as, et le joueur doit nommer une combinaison de piles exclue. Avec deux as rouges, il ne peut rien exclure, car les deux états de connaissance se recoupent. Dans la version quantique, une machine peut toujours exclure une combinaison : les états quantiques ne se recoupent pas, ce qu'une expérience de 2012 a vérifié."
+       },
+       {
+        "intertitre": "Les suites et les réserves",
+        "texte": "Des chercheurs britanniques, menés par Crispin Barnes (université de Cambridge), ont joué à l'automne dernier une version à cinq cartes sur un ordinateur quantique d'IBM, surtout pour vérifier son bon fonctionnement : la machine a toujours gagné, comme prévu. Pour Pusey, « si quelque chose est réel, l'état quantique l'est ». Mais PBR laisse l'autre extrême ouvert : rien n'est réel, pas même l'état quantique, comme le soutient Copenhague depuis Bohr. Il met fin à un siècle de marchandage : il faut accepter une réalité objective mais surréelle, ou rejeter toute réalité objective. Jacques Pienaar, aujourd'hui à l'Université fédérale de Rio de Janeiro, a renoncé à la réalité objective et choisi le QBisme, où la théorie décrit notre relation au monde. D'autres, dont Lucien Hardy, du Perimeter Institute, se demandent si la réalité doit avoir un état unique à chaque instant."
+       }
+      ],
+      "synthese": "Einstein, Bell puis PBR ont écarté la voie moyenne où la réalité existe sans que l'état quantique le soit. Il reste à choisir entre une réalité objective mais surréelle et l'absence de réalité objective, ou à redéfinir la réalité elle-même.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a161"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-06",
+      "url": "https://www.sciencesetavenir.fr/sante/voici-les-dangers-du-futur-selon-le-lancet_196014?xtor=RSS-16",
+      "auteur": "",
+      "id": "a163",
+      "titre": "Une commission du Lancet recense les plus grands risques pour l'humanité ce siècle",
+      "texte": "Une commission de la prestigieuse revue The Lancet a tenté de prédire quels seront les risques les plus graves pour l'humanité au cours de ce siècle. Le résumé ne détaille pas ses conclusions."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-06",
+      "url": "https://www.sciencesetavenir.fr/nature-environnement/perou-saisie-de-milliers-de-mygales-destinees-au-trafic-vers-l-allemagne_195994?xtor=RSS-15",
+      "auteur": "",
+      "id": "a169",
+      "titre": "Pérou : plus de 3 000 mygales saisies à l'aéroport de Lima",
+      "texte": "La douane de l'aéroport de Lima a saisi plus de 3 000 mygales transportées illégalement, destinées au trafic vers l'Allemagne. Certaines étaient encore à l'état d'œuf, et elles provenaient de plusieurs régions du pays."
+     },
+     {
+      "rubrique": "Climat",
+      "source": "Inside Climate News",
+      "date": "2026-11-07",
+      "url": "https://insideclimatenews.org/news/06112026/germany-launches-global-sf6-pledge-china-emissions/",
+      "auteur": "",
+      "id": "a180",
+      "titre": "Un pacte mondial pour réduire les émissions de SF6, gaz à effet de serre très puissant",
+      "texte": "L'Allemagne a lancé une initiative internationale, le « Global SF6 Pledge », annoncée à Kigali lors d'une réunion du PNUE. Elle invite les pays à s'engager, notamment sur la surveillance de leurs émissions de ce gaz."
+     },
+     {
+      "rubrique": "Science",
+      "source": "CNRS Le journal",
+      "date": "2026-11-06",
+      "url": "https://lejournal.cnrs.fr/articles/pourquoi-aimons-nous-avoir-peur",
+      "auteur": "",
+      "id": "a162",
+      "titre": "La peur peut devenir récréative, selon les neurosciences cognitives",
+      "texte": "Plutôt associée à la menace, la peur peut devenir récréative. Le CNRS présente les réponses des neurosciences cognitives à cette question."
+     }
+    ]
+   }
+  ],
+  "titres_blocs": {
+   "ia": "IA",
+   "france": "Actualité France",
+   "monde": "Actualité Monde",
+   "recherche": "Recherche & travaux d'experts",
+   "veille": "Veille réglementaire",
+   "curiosites": "Curiosités"
+  },
+  "pages": 0,
+  "sequence": [
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-06",
+     "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
+     "auteur": "Matthias Bastian",
+     "titre": "Inkling 2 Small : Thinking Machines vise la tête des modèles ouverts",
+     "chapo": "La start-up de Mira Murati dévoile Inkling 2 Small, un modèle de 594 milliards de paramètres dont les poids doivent être publiés sous licence Apache 2.0 après des tests de sécurité.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Thinking Machines, start-up fondée par Mira Murati, ancienne directrice technique d'OpenAI, présente la deuxième génération de ses modèles : Inkling 2 Small. Il s'agit d'un modèle à mélange d'experts de 594 milliards de paramètres, dont 17 milliards sont actifs à un instant donné. Il accepte du texte et des images en entrée, mais ne produit que du texte, et propose une profondeur de réflexion réglable pour choisir entre rapidité et minutie. Les modèles Inkling sont conçus comme des modèles de base destinés à être affinés, ce qui peut les rendre attractifs pour des usages spécialisés. Selon The Decoder, il se présente comme le plus puissant des modèles à poids ouverts occidentaux. ZDNET précise que, d'après l'organisme d'évaluation Artificial Analysis, il pourrait contester l'avance des modèles chinois, comme ceux de DeepSeek et de Moonshot, qui dominent depuis des années les classements des modèles ouverts."
+      },
+      {
+       "intertitre": "Les résultats mesurés",
+       "texte": "Sur l'indice d'intelligence d'Artificial Analysis, Inkling 2 Small obtient 31, soit 18 points de plus que son prédécesseur Inkling Small (13), à peu près au niveau de Gemini 3.8 Flash de Google, avec lequel ZDNET le dit à égalité. Le même site rappelle que Gemini 4 Carbon et Claude Opus 5.5 dominent l'indice avec 60 et 59. Les progrès les plus nets concernent les tâches dites agentiques, où le modèle exécute seul des procédures en plusieurs étapes : sur AutomationBench-AA, le score passe de 5 à 46 %, et sur FrontierCode 2.0 de 5 à 25 %. Sur AA-Briefcase, test de travail intellectuel, il atteint 1 527 Elo, soit 615 points de plus. En programmation, il fait 25,4 % sur FrontierCode 2.0, 72,1 % sur DeepSWE et 86,3 % sur SWEBench Pro v2 (Hard), mais Deepseek-V4.1-Flash reste devant sur la plupart de ces tests, avec 28,5 % sur FrontierCode et 77 % sur DeepSWE. Côté vision, il obtient 25,2 % sur GDP.pdf, 81,6 % sur MMMU Pro, 64,7 % sur PerceptionBench et 1 340 Elo sur DesignArena Website, le meilleur score des modèles ouverts selon The Decoder."
+      },
+      {
+       "intertitre": "Un coût plus élevé, des nuances sur la fiabilité",
+       "texte": "Ces gains ont un prix. Le modèle produit environ 150 000 jetons de sortie par tâche, soit quatre fois plus que son prédécesseur, et coûte près de six fois plus : 1,18 dollar par tâche selon Artificial Analysis. C'est encore bien moins que Gemini 3.8 Flash (7,77 dollars) ou Claude Sonnet 5.5 (10,02 dollars). Artificial Analysis juge pourtant le modèle remarquablement lent par tâche et très verbeux, et son tarif d'entrée de 0,30 dollar par million de jetons « assez cher », la médiane de sa catégorie étant de 0,24 dollar. Le taux d'hallucination tombe de 61 à 27 %, mais The Decoder note que c'est surtout parce que le modèle répond à moins de questions : le taux de réponse passe de 77 à 53 %. ZDNET, citant l'évaluation, ajoute que la précision monte de 32 à 34 %."
+      },
+      {
+       "intertitre": "Entraînement, limites et calendrier",
+       "texte": "Thinking Machines affirme avoir entraîné le modèle par apprentissage par renforcement sur des centaines de milliers de tâches de programmation longues, un système automatisé vérifiant si le code fonctionne et comment le modèle aborde chaque tâche. L'entraînement total a porté sur environ 12 000 milliards de jetons, nettement moins que ses concurrents ; la phase de renforcement a requis 3 000 milliards de jetons sur 2 048 GPU pendant neuf jours. La société reconnaît que le modèle communique parfois de façon peu efficace, ne choisit pas toujours les meilleurs outils pour de grands codes, ne gère pas l'audio, est moins optimisé pour le dialogue, et peut réagir de façon excessive aux sujets de santé. Il n'est d'abord proposé que via sa plateforme Tinker. Les poids seront publiés sous licence Apache 2.0 à l'issue de tests de sécurité externes : The Decoder ne donne pas de date, tandis que ZDNET annonce la semaine prochaine."
+      }
+     ],
+     "synthese": "Inkling 2 Small place Thinking Machines parmi les meilleurs modèles ouverts hors de Chine, avec de forts progrès en tâches agentiques, au prix d'un coût et d'une verbosité accrus. Sa publication sous licence Apache 2.0 reste à venir.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "ZDNET",
+       "url": "https://www.zdnet.com/innovation/thinking-machines-inkling-2-small-open-weight/"
+      }
+     ],
+     "format": "long",
+     "id": "a6"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-06",
+     "url": "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/",
+     "auteur": "Maximilian Schreiner",
+     "titre": "Si l'AGI est proche, pourquoi les chercheurs quittent-ils les grands labos ?",
+     "chapo": "Des cocréateurs des modèles actuels fondent leurs « neolabs » et lèvent des milliards sans produit, convaincus que la recette dominante ne suffira pas.",
+     "sections": [
+      {
+       "intertitre": "Le déclencheur",
+       "texte": "Après le lancement de GPT-6 Astra, Jensen Huang (Nvidia) a déclaré que « l'AGI est arrivée » et Greg Brockman (OpenAI) a salué une « ère de l'AGI », sans définition partagée du terme. Pourtant, des artisans des systèmes actuels partent : Ilya Sutskever fonde Safe Superintelligence (SSI), Jerry Tworek Core Automation, David Silver Ineffable Intelligence, Yann LeCun AMI, et Jeff Dean Discovery Loop après 27 ans chez Google. L'argent suit : Nvidia aurait investi cinq milliards de dollars dans SSI selon Bloomberg, Prometheus, le labo de Jeff Bezos, a levé douze milliards à 41 milliards de valorisation, et Flapping Airplanes un milliard en série A, tous sans modèle public."
+      },
+      {
+       "intertitre": "Des motivations mêlées",
+       "texte": "Les raisons ne sont pas toutes techniques : à ces valorisations, les fondateurs deviennent vite milliardaires sur le papier. LeCun a quitté Meta après un désaccord stratégique, Sutskever veut chercher sans pression produit, d'autres visent une niche qui serait annexe dans un grand labo. Certains départs ne sont pas nets : Google est investisseur fondateur et partenaire cloud de Discovery Loop, qui discuterait d'un tour d'amorçage d'environ un milliard de dollars selon Business Insider. Le doute commun ne porte pas sur l'arrivée d'IA bien plus puissantes, mais sur la recette actuelle seule : modèles de langage toujours plus gros, entraînés sur des données d'internet et affinés par apprentissage par renforcement."
+      },
+      {
+       "intertitre": "Qu'est-ce qu'un neolab ?",
+       "texte": "Il n'existe pas de définition officielle : l'auteur désigne ainsi des entreprises indépendantes, centrées sur la recherche, bâties autour d'un pari technique à long terme. La vague est apparue en 2024, quand Sutskever a fondé SSI et levé un milliard de dollars en quelques mois. Les investisseurs financent cela parce qu'OpenAI et Anthropic, devenus des groupes qui visent l'introduction en Bourse, voient leurs équipes de recherche rivaliser avec les équipes produit pour l'argent et l'attention, et que les firmes établies peinent face aux idées qui menacent leur activité (le « dilemme de l'innovateur »). Une petite équipe pourrait trouver ce que les géants manquent. Anthropic, fondée en 2021 par Dario et Daniela Amodei, dépassait 65 milliards de dollars de revenu annualisé fin juillet 2026 selon Bloomberg."
+      },
+      {
+       "intertitre": "Les paris technologiques",
+       "texte": "The Decoder range 27 labs en six paris. Le premier : apprendre autrement, en continu pendant le déploiement (Adaption, Core Automation), à partir de peu d'exemples (Flapping Airplanes, Ndea, SSI) ou par l'expérience (Ineffable). Le deuxième : le langage ne suffit pas, d'où les modèles du monde et la robotique (AMI, Black Forest Labs, World Labs, Physical Intelligence). Le troisième : les données précieuses ne sont pas en ligne, comme chez Periodic Labs, qui génère les siennes dans des laboratoires automatisés. Le quatrième : le calcul est le goulot d'étranglement (Inception, Liquid AI, Unconventional AI). Le cinquième : automatiser la recherche elle-même, par exemple avec les preuves vérifiables d'Axiom Math, écrites en Lean, un langage où un vérificateur contrôle chaque étape."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Le pari reste risqué. Les grands labos disposent de plus de calcul, de chaînes de données établies et des retours de centaines de millions d'utilisateurs : la société TypeSafe AI a lancé le modèle Jev à la mi-septembre, et OpenAI a annoncé son Decisions API deux semaines plus tard. Un avantage même bref peut toutefois valoriser une équipe : Microsoft a recruté l'équipe d'Inflection, et AMD veut racheter World Labs pour environ 8,2 milliards de dollars. Les généralistes progressent aussi : GPT-6 Astra a obtenu jusqu'à 99,9 % sur ARC-AGI-3, mais en robotique il lui faut une demi-heure et plus de 16 dollars par tâche, contre 20 secondes pour un humain."
+      }
+     ],
+     "synthese": "Les neolabs misent sur des lacunes de recherche que les grands acteurs ne comblent pas, avec des fonds énormes et peu de produits visibles. Leur pari reste ouvert, car les généralistes rattrapent vite leurs avantages.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a4"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-06",
+      "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
+      "auteur": "Maximilian Schreiner",
+      "id": "a7",
+      "titre": "Anthropic : l'introduction en Bourse se heurte aux réticences des investisseurs",
+      "texte": "L'introduction en Bourse d'Anthropic rencontre des difficultés : les investisseurs contestent la valorisation visée de 1 500 milliards de dollars, alors que le marché technologique est en repli."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-06",
+      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "auteur": "Theresa Loconsolo; Anthony Ha; Sean O'Kane; Kirsten Korosec",
+      "id": "a14",
+      "titre": "Midterms américains : la vague démocrate pourrait remodeler l'industrie tech",
+      "texte": "Les victoires historiques des démocrates aux élections de mi-mandat américaines pourraient aussi transformer le secteur technologique. Sur 41 mesures électorales liées aux centres de données, la majorité des votants s'est prononcée pour davantage de restrictions dans toutes sauf une."
+     },
+     {
+      "rubrique": "IA",
+      "source": "Ars Technica",
+      "date": "2026-11-06",
+      "url": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+      "auteur": "",
+      "id": "a21",
+      "titre": "Meta renonce à forcer les pages Facebook à autoriser l'entraînement de l'IA",
+      "texte": "Meta ne contraindra pas les propriétaires de pages Facebook à autoriser l'usage de leurs contenus liés pour entraîner ses IA. Le groupe abandonne la mise à jour de conditions commerciales qui suscitait la critique."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-06",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "auteur": "",
+      "id": "a12",
+      "titre": "Des centaines d'outils de piratage IA Artex exposés sur internet",
+      "texte": "Des chercheurs en sécurité ont trouvé des centaines de serveurs hébergeant l'outil de test d'intrusion Artex, accessibles depuis internet. N'importe qui peut ainsi accéder à cet outil de piratage."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "Public Sénat",
+     "date": "2026-11-06",
+     "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-avec-la-nouvelle-france-jean-luc-melenchon-fait-de-lecologie-la-cle-de-voute-de-son-programme",
+     "auteur": "Emma Bador-Fritche",
+     "titre": "Présidentielle 2027 : LFI place l'écologie en tête de son programme",
+     "chapo": "La France insoumise publie la cinquième édition de L'Avenir en commun : 1 069 propositions, dont 238 nouvelles, et une « Nouvelle France » qui remplace l'« union populaire ».",
+     "sections": [
+      {
+       "intertitre": "Ce qui est publié",
+       "texte": "À la veille d'un grand meeting au Bourget, en Seine-Saint-Denis, LFI publie l'intégralité de son programme pour 2027 : un ouvrage de 212 pages vendu 4,90 euros en librairie, avec 1 069 propositions dont 238 nouvelles selon le décompte du mouvement. Coordonné par les députés Clémence Guetté et Hadrien Clouet, il s'appuie sur plus de 24 000 contributions citoyennes, une trentaine d'auditions et des groupes d'experts, et sur un réseau de 200 hauts fonctionnaires surnommés « les Phrygiens ». Pour le député Aurélien Le Coq, faire du programme l'arme principale de la campagne est la méthode du mouvement. Le chiffrage complet ne sera dévoilé qu'au début de 2027."
+      },
+      {
+       "intertitre": "L'écologie en porte d'entrée",
+       "texte": "La bifurcation écologique et sociale devient la première des six grandes parties, alors que l'écologie était longtemps reléguée à la troisième. Les insoumis proposent d'inscrire dans la Constitution une « règle verte », qui interdirait de prélever sur la nature plus qu'elle ne peut reconstituer, et une « règle bleue » sur le même principe, ainsi qu'un conseil à la planification écologique et des « écorégions » fondées sur les bassins versants, les massifs et les façades maritimes. Ils maintiennent la sortie du nucléaire et des énergies fossiles pour 100 % de renouvelables, mais à l'horizon 2060 au plus tard, contre 2050 en 2022, avec une baisse de 65 % des émissions d'ici 2033. Selon Hadrien Clouet, tout le programme est structuré autour de la planification écologique. Sur le plan international, LFI propose un tribunal international de justice climatique et environnementale, une organisation mondiale de l'environnement et un fonds pour indemniser les victimes de pollutions et soutenir les lanceurs d'alerte. Ce virage cherche aussi à occuper le terrain des écologistes, alors que le ralliement de leur appareil à une candidature Mélenchon reste incertain."
+      },
+      {
+       "intertitre": "Des marqueurs historiques reconduits",
+       "texte": "Le Smic à 1 700 euros net, le blocage des prix des produits de première nécessité, le rétablissement de l'ISF, la taxation des très hauts patrimoines et la « sécurité sociale intégrale » demeurent. Sur les retraites, LFI promet d'abroger la réforme d'Emmanuel Macron, avec un retour à 62 ans puis à 60 ans à taux plein après 40 annuités, un calendrier plus progressif qu'en 2022. La VIe République reste au programme, avec une assemblée constituante convoquée par référendum, le vote à 16 ans, la reconnaissance du vote blanc et le vote obligatoire. Sur l'intelligence artificielle, une autorité nationale délivrerait des autorisations de mise sur le marché aux systèmes à risques élevés, avec un contrôle humain des décisions algorithmiques au travail."
+      },
+      {
+       "intertitre": "Droits nouveaux et international",
+       "texte": "Le programme propose un congé de proche aidant, un congé de sept jours en cas de décès d'un proche, un statut légal du baptême civil et un statut de famille monoparentale. Il prévoit un plan d'un milliard d'euros contre « l'islamophobie, l'antisémitisme et toutes les formes de racisme », dans un contexte où le mouvement est régulièrement mis en cause sur l'antisémitisme. À l'international, LFI veut sortir du commandement intégré de l'Otan, mettre fin à « l'isolement occidental » de la France et faire appliquer le mandat d'arrêt visant Benyamin Netanyahou ; elle réaffirme la solution à deux États, tout en ouvrant la voie à un État binational égalitaire."
+      },
+      {
+       "intertitre": "Un nouveau récit : la « Nouvelle France »",
+       "texte": "Cette expression, à peine esquissée en 2022, succède à l'« union populaire ». Dans son introduction, Jean-Luc Mélenchon oppose le « suprémacisme » au « collectivisme » et présente un choix « historique ». Le récit se veut fédérateur, au-delà des seuls sympathisants. Aurélien Le Coq rappelle que Mélenchon est passé de 11 % en 2012 à 22 % en 2022. Une nouvelle affiche, avec Gergovie en fond et « Liberté, Égalité, Solidarité » en bleu, blanc, rouge, a aussi été dévoilée le 6 novembre. Pour Mélenchon, l'enjeu est de faire de la « Nouvelle France » le cadre de sa quatrième bataille présidentielle."
+      }
+     ],
+     "synthese": "LFI reconduit ses mesures emblématiques tout en faisant de l'écologie le point de départ de son projet. Jean-Luc Mélenchon veut transformer ce programme en récit de campagne autour de la « Nouvelle France ».",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a51"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-06",
+     "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/temoignages-ce-sont-des-blessures-de-guerre-trois-femmes-gravement-blessees-par-des-grenades-lancees-par-la-police-le-17-octobre-racontent-comment-leur-vie-a-bascule_8271329.html#xtor=RSS-3-[lestitres]",
+     "auteur": "Margaux Stive",
+     "titre": "Marseille, 17 octobre : trois femmes mutilées par des grenades policières",
+     "chapo": "Suzanne, Laurie et Olive, blessées aux pieds ou aux jambes en trente minutes lors de la manifestation, resteront marquées à vie ; deux d'entre elles déposent plainte.",
+     "sections": [
+      {
+       "intertitre": "Le déclencheur",
+       "texte": "Trois jeunes femmes de 21, 31 et 34 ans, Suzanne, Laurie et Olive (les prénoms ont été changés), ont témoigné vendredi 6 novembre sur franceinfo. Elles ne se connaissaient pas avant le 17 octobre, mais sont désormais liées par ce qu'elles ont vécu ce jour-là. Ce jour-là, lors de la manifestation de Marseille, toutes ont été très gravement blessées par des grenades de la police, qui les ont mutilées aux pieds ou aux jambes en l'espace de trente minutes, au même endroit. Aucune n'est sûre de pouvoir un jour remarcher normalement."
+      },
+      {
+       "intertitre": "Ce qui s'est passé",
+       "texte": "La nuit tombe près de la gare de Marseille quand les trois femmes se retrouvent noyées sous les gaz lacrymogènes. Face à elles, un barrage de police, puis soudain des explosions. Suzanne raconte : « À l'endroit où j'étais, je ne pensais pas une seule seconde que je pouvais être atteinte par quoi que ce soit. On était assez loin. » Quand l'explosif atteint son pied, elle est « juste sonnée », avec des acouphènes, « comme suspendue », sans comprendre qu'elle est blessée. Une fois les acouphènes estompés, elle entend les gens autour d'elle et ses amis dire qu'elle a « un gros trou dans le pied » : « C'est là que j'ai compris que j'étais vraiment atteinte. »"
+      },
+      {
+       "intertitre": "Des blessures de guerre",
+       "texte": "Toutes décrivent la sidération, puis la découverte de leurs blessures : des trous béants allant jusqu'à 11 centimètres dans le pied ou la jambe. « On est des cyborgs », résume Olive. Elle ajoute : « Ce sont des blessures de guerre, en fait. Si ça s'infecte, c'est l'amputation », et compare leur situation à celle des soldats de la seconde guerre mondiale : « Les gueules cassées, c'est nous », dit-elle en riant. Derrière ce rire, selon franceinfo, se cache surtout une grande détresse psychologique."
+      },
+      {
+       "intertitre": "Le choc psychologique",
+       "texte": "Laurie confie un stress post-traumatique qu'elle n'avait pas mesuré : elle habite dans le centre-ville de Marseille, non loin des points de départ des manifestations. « J'entends les grenades tomber, j'entends des slogans. Il y a un stress post-traumatique existant que je ne peux pas nier », dit-elle. Certaines nuits, elle se réveille en ayant du mal à croire qu'elle a pris une grenade dans le corps : « C'est quand même choquant. » Elle n'imaginait pas, « en tant que Française, bien que militante », vivre cela un jour. « C'est très angoissant cette situation. Il y a un basculement qui s'apparente à un règne de la terreur », estime-t-elle. Olive n'est pas sûre de retourner manifester : « Ça fait aussi repenser l'engagement. Parce qu'on ne va pas se mentir, les gens qui manifestent, c'est quand même des gens qui sont concernés. Ils subissent beaucoup de choses dans leur vie et c'est pénible de voir que c'est devenu un danger de manifester. Donc comment on fait ? » Laurie et Suzanne disent avoir une peur panique pour leurs proches qui continuent de manifester."
+      },
+      {
+       "intertitre": "Plaintes et revendications",
+       "texte": "Deux des trois femmes, qui l'ont annoncé, déposent plainte dans les prochaines heures, surtout pour faire changer les choses ; saisir la justice n'était une évidence pour aucune. Suzanne veut surtout se faire voir et se compter, afin d'obtenir un chiffre réaliste de manifestants blessés : elle exprime sa colère de ne pas voir les chiffres sortir des recensements de blessés : « Qu'on ne sache pas combien on est, combien de personnes ça représente avec des blessures graves ou même plus légères. » Elles veulent aussi se battre pour faire interdire ces armes qui, disent-elles, « peuvent tuer » et risquent de les laisser handicapées à vie. Ce combat les lie désormais : elles s'écrivent tous les jours, et c'est, indiquent-elles, leur seul rayon de soleil dans ce moment qui a fait basculer leur vie."
+      }
+     ],
+     "synthese": "Trois femmes mutilées par des grenades policières à Marseille le 17 octobre disent vivre avec des séquelles physiques et psychologiques durables. Deux portent plainte, et toutes veulent un décompte réaliste des blessés et l'interdiction de ces armes.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "franceinfo",
+       "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/temoignages-ce-sont-des-blessures-de-guerre-trois-femmes-gravement-blessees-par-des-grenades-lancees-par-la-police-le-17-octobre-racontent-comment-leur-vie-a-bascule_8271329.html"
+      }
+     ],
+     "format": "long",
+     "id": "a35"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "Public Sénat",
+     "date": "2026-11-06",
+     "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-les-points-chauds-lors-des-debats-au-senat-du-9-au-17-novembre",
+     "auteur": "Guillaume Jacquot",
+     "titre": "PLFSS 2027 : retraites, taxe sucre, étrangers, les points chauds au Sénat",
+     "chapo": "Plus de 1 200 amendements au projet de budget de la Sécurité sociale seront débattus au Sénat du 9 au 17 novembre, avant un vote solennel le 18.",
+     "sections": [
+      {
+       "intertitre": "Le calendrier et le contexte",
+       "texte": "Les débats sur le projet de loi de financement de la Sécurité sociale (PLFSS) pour 2027 se tiendront du 9 au 17 novembre, sauf le 11 novembre et vraisemblablement le 15. Le vote solennel aura lieu le 18 novembre. Comme l'an dernier, le texte sera particulièrement scruté : l'Assemblée nationale n'a pu l'examiner en entier, car le rejet de la partie recettes en octobre a entraîné celui de l'ensemble et empêché l'examen du volet dépenses. En commission, le 4 novembre, les sénateurs de la majorité sénatoriale ont apporté des modifications limitées, dont certaines devraient faire parler."
+      },
+      {
+       "intertitre": "Retraites : gel partiel et réforme de 2023",
+       "texte": "L'article 35 déroge à l'indexation des pensions sur l'inflation au 1er janvier. Le gouvernement prévoyait une revalorisation jusqu'à 1 260 euros ; la commission des affaires sociales défendra un seuil de 1 500 euros, et sa rapporteure Marie-Do Aeschlimann veut supprimer la possibilité d'une revalorisation plus forte, voire d'une annulation du gel, par décret en 2027. Les trois groupes de gauche et le groupe UNT (RN-UDR) proposent de supprimer la désindexation ; à droite, seul Alain Houpert (LR) les suit. D'autres amendements relèvent le seuil, à 1 867 euros pour Marie-Claude Lermytte (Les Indépendants), ou prévoient un traitement différencié pour les outre-mer, où les prix sont plus élevés. Les Indépendants veulent remplacer la revalorisation automatique par une décision annuelle du Parlement, et le ministre du Travail Jean-Pierre Farandou a évoqué un amendement sur l'indexation à 100 % sur l'inflation. La commission proposera aussi de rétablir la réforme des retraites de 2023, suspendue l'an dernier ; les Indépendants déposent un amendement du même type, contre ce qu'ils jugent une « grave erreur politique ». Les écologistes proposent un congé anticipatoire de retraite pour les personnes ayant 62 ans et 42 annuités."
+      },
+      {
+       "intertitre": "Allègements généraux de cotisations",
+       "texte": "L'article 7, parmi les plus décriés par les organisations patronales, intégrerait dans le calcul des allègements généraux des compléments de salaire comme la participation, l'intéressement et l'abondement aux plans d'épargne entreprise. De nombreux amendements de suppression viendront de sénateurs Républicains, centristes, Indépendants et UNT, qui dénoncent un renchérissement du coût du travail et craignent une perte d'attractivité de ces dispositifs. La centriste Brigitte Devésa veut revenir sur le gel de la valeur du Smic dans ce calcul. À gauche, des amendements visent à élargir l'assiette des cotisations, notamment aux primes de partage de la valeur."
+      },
+      {
+       "intertitre": "Taxe sucre et cures thermales",
+       "texte": "L'article 8 étend la taxe sur les boissons sucrées à certains produits solides industriels transformés. La commission veut le conserver mais exclure les denrées non soumises à l'étiquetage nutritionnel, comme les chocolats en ballotins, et protéger les produits artisanaux et certains produits sous signe officiel de qualité, tel le nougat de Montélimar. Neuf amendements de suppression réunissent une quarantaine de signataires. Pour les cures thermales, sujet sensible au Sénat qui s'y était déjà opposé pour le PLFSS 2026, le gouvernement veut ramener par voie réglementaire la prise en charge de 65 % à 15 %, soit 200 millions d'euros d'économie ; la commission exige qu'un tel déremboursement ne puisse intervenir qu'après un avis de la Haute Autorité de santé sur leur service médical rendu."
+      },
+      {
+       "intertitre": "Délai de carence pour les étrangers",
+       "texte": "L'article 37 conditionnerait à un an de résidence les prestations familiales et les aides au logement (APL) des ressortissants étrangers hors Union européenne. Les trois groupes de gauche demandent sa suppression, comme Brigitte Bourguignon, ancienne ministre Renaissance, qui note une économie de seulement 62 millions d'euros par an ; ses opposants estiment que la mesure frapperait d'abord les enfants. Les sénateurs RN et UDR veulent porter la durée à trois ans, et Gaëlle Frontoni (UDR) à cinq ans, un seuil censuré par le Conseil constitutionnel en 2024."
+      }
+     ],
+     "synthese": "Au Sénat, les retraites, les allègements de cotisations, la taxe sucre et les prestations aux étrangers concentreront les affrontements. La majorité sénatoriale a modifié le texte en commission, mais des amendements opposés viennent de tous les bords.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a48"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "france",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-06",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/06/dans-les-colleges-et-les-lycees-le-cauchemar-des-baisses-de-credits-depuis-la-rentree-il-y-a-des-dispositifs-qu-on-n-a-plus-les-moyens-de-financer_6807846_3224.html",
+      "auteur": "Eléa Pommiers",
+      "id": "a25",
+      "titre": "Collèges et lycées : la baisse des crédits inquiète les chefs d'établissement",
+      "texte": "Les chefs d'établissement alertent sur la réduction des enveloppes d'heures supplémentaires, qui financent notamment l'accompagnement aux devoirs et les projets culturels. Ils pointent une double conséquence : des budgets en baisse et une instabilité politique qui empêche de savoir ce que contiendront les lois de finances de l'année suivante."
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-06",
+      "url": "https://www.franceinfo.fr/faits-divers/accident/deux-morts-une-enquete-ouverte-ce-que-l-on-sait-de-l-accident-de-car-pres-de-bourg-en-bresse-dans-l-ain_8270546.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "id": "a36",
+      "titre": "Ain : deux morts, dont une fillette de 7 ans, dans un accident de car",
+      "texte": "Un accident de car survenu vendredi matin dans le secteur de Lent, près de Bourg-en-Bresse, a fait deux morts et une quinzaine de blessés. Le chauffeur a été placé en garde à vue."
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-06",
+      "url": "https://www.franceinfo.fr/faits-divers/incendie-meurtrier-a-wintzenheim/la-proprietaire-du-gite-touche-par-un-incendie-meurtrier-en-2023-a-wintzenheim-sera-jugee-pour-homicides-et-blessures-involontaires_8271611.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "id": "a39",
+      "titre": "Incendie de Wintzenheim : la propriétaire du gîte sera jugée",
+      "texte": "Onze personnes, dont dix en situation de handicap léger, avaient péri dans l'incendie de 2023 dans ce gîte du Haut-Rhin. La propriétaire sera jugée pour homicides et blessures involontaires."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "États-Unis",
+     "source": "NPR",
+     "date": "2026-11-06",
+     "url": "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
+     "auteur": "Ruth Sherlock",
+     "titre": "Israël : les partis arabes, arbitres d'un scrutin sans majorité",
+     "chapo": "Après des législatives sans vainqueur, les partis dirigés par des Arabes, forts de 19 sièges sur 120, pèsent sur la formation du prochain gouvernement.",
+     "sections": [
+      {
+       "intertitre": "Ce qui s'est passé",
+       "texte": "Depuis plusieurs années, beaucoup de citoyens palestiniens d'Israël boudaient les urnes, estimant avoir peu à gagner dans la vie politique d'un État qui, selon eux, marginalise régulièrement leurs communautés et opprime leurs compatriotes de Cisjordanie et de Gaza. Le mois dernier, ils ont voté en nombre record. Ils ont contribué à priver de sa majorité le gouvernement du Premier ministre Benjamin Netanyahu, présenté comme le plus à l'extrême droite de l'histoire d'Israël. Ni sa coalition ni son principal adversaire, Gadi Eisenkot, à la tête d'une opposition de centre droit, n'atteignent les 61 sièges nécessaires pour gouverner. Les partis dirigés par des Arabes ont obtenu 19 des 120 sièges, soit 64 % de voix en plus qu'au scrutin précédent selon la Commission électorale centrale."
+      },
+      {
+       "intertitre": "Une communauté qui revendique sa force",
+       "texte": "« Nous avons empêché le gouvernement de Netanyahu de continuer », a déclaré Jamal Zahalka, président du Haut Comité de suivi, principale instance faîtière des citoyens palestiniens d'Israël. Selon lui, c'est un succès historique. À Kufr Qasim, ville à majorité palestinienne, des centaines de personnes se sont réunies deux jours après le vote pour la commémoration annuelle des habitants abattus en 1956 par des gardes-frontières israéliens, le jour de l'ouverture de la crise de Suez. Les participants ont aussi évoqué la hausse nette des discriminations depuis les attaques du 7 octobre 2023, la guerre à Gaza, qui a fait plus de 74 000 morts palestiniens, et la situation en Cisjordanie occupée, où des organisations de défense des droits et l'ONU accusent le gouvernement d'armer et de soutenir des colons. Intisar Sarsur, 65 ans, dit que tous ses proches ont voté et réclame des droits fondamentaux. Descendants de ceux restés sur place lors de la création d'Israël en 1948, ces citoyens forment environ 20 % de la population."
+      },
+      {
+       "intertitre": "La riposte du camp Netanyahu",
+       "texte": "Benjamin Netanyahu et ses alliés ont fait de cette forte participation un cri de ralliement. Le jour du scrutin, le Premier ministre a publié une vidéo évoquant une « urgence ». Itamar Ben Gvir, ministre de la Sécurité nationale d'extrême droite, a lancé un appel filmé à l'entrée de Kufr Qasim. Une fois les résultats connus, le Likud a accusé les partis arabes d'avoir « volé » l'élection par la corruption, les menaces et la falsification, puis a mis en garde contre une prise de contrôle étrangère de la Knesset. Le parti n'a rendu public aucun élément de preuve. La police dit n'avoir trouvé aucun fondement à ces accusations, et les responsables électoraux écartent toute fraude généralisée. Le président de la commission électorale a toutefois demandé au Shin Bet d'enquêter sur un éventuel financement étranger, tout en jugeant, comme le procureur général, que le vote s'est déroulé correctement."
+      },
+      {
+       "intertitre": "Des partis arabes divisés face à Eisenkot",
+       "texte": "Cette campagne est largement perçue comme une tentative d'empêcher le bloc d'Eisenkot de s'allier aux partis arabes, ce qui lui donnerait la majorité. Une telle alliance serait risquée et pourrait provoquer le départ de membres de droite de son camp. Ancien chef d'état-major dont le fils a été tué à Gaza, il a siégé comme observateur au cabinet de guerre de Netanyahu. On lui attribue la « doctrine Dahiyeh », exposée en 2008, qui prévoit une force « disproportionnée » contre les villages d'où des combattants tirent sur Israël. Les partis arabes sont donc partagés. Ra'am, formation islamiste socialement conservatrice, a fait campagne pour entrer dans une coalition. La Liste unie, qui détient 11 des 19 sièges, ne s'associera pas formellement à Eisenkot, mais pourrait le soutenir de l'extérieur, en invoquant la guerre à Gaza et l'occupation de la Cisjordanie."
+      },
+      {
+       "intertitre": "Le calendrier",
+       "texte": "Le président Isaac Herzog consulte les partis et doit annoncer la semaine prochaine à qui il confie le mandat de former une coalition. Ce candidat disposera de 28 jours, avec une prolongation possible de deux semaines. En cas d'échec, un second candidat aura 28 jours, sans prolongation. Si personne n'y parvient, de nouvelles élections auront lieu l'an prochain."
+      }
+     ],
+     "synthese": "Le scrutin laisse Israël sans majorité et place les partis arabes en position d'arbitres, mais leurs divisions et l'hostilité du camp Netanyahu rendent l'issue incertaine. Faute de coalition, de nouvelles élections se tiendraient l'an prochain.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a55"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "Géopolitique",
+     "source": "Le Grand Continent",
+     "date": "2026-11-06",
+     "url": "https://legrandcontinent.eu/fr/2026/11/06/face-aux-frappes-russes-incessantes-la-capitale-ukrainienne-peut-elle-tenir/",
+     "auteur": "Marin Saillofest",
+     "titre": "Kiev sous les frappes russes : un réseau électrique à bout de souffle",
+     "chapo": "L'armée russe accélère ses frappes sur l'électricité ukrainienne, et Kiev, qui dépend de lignes très longues, aborde un hiver qui s'annonce particulièrement dur.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "La situation s'est nettement détériorée ces dernières semaines dans les grandes villes ukrainiennes, surtout à Kiev. L'armée russe accélère sa campagne contre la production et la distribution d'électricité : centrales, lignes à haute tension et sous-stations sont visées de façon systématique. Selon ACLED, 238 frappes ayant touché des infrastructures énergétiques ont été recensées en octobre, un record depuis le début de l'invasion à grande échelle en février 2022. Vendredi 6 novembre, Volodymyr Zelensky a décrit la situation énergétique de Kiev comme « la pire » du pays. Mardi 3 novembre, des frappes ont aussi privé toute la capitale d'eau pendant plus de 24 heures, selon la municipalité."
+      },
+      {
+       "intertitre": "Pourquoi Kiev est exposée",
+       "texte": "Les centrales thermiques de Kiev ne produisent plus d'électricité : la capitale dépend en majorité de trois centrales nucléaires situées à environ 300 kilomètres. Le courant de l'ouest et du sud parcourt de longues distances par des lignes à haute tension, ce qui rend la ville très vulnérable, la portée des drones russes dépassant 1 000 kilomètres. Un réseau de petites centrales à gaz fait fonctionner des services essentiels (hôpitaux, une partie du pompage d'eau), mais ne couvre qu'une fraction des besoins."
+      },
+      {
+       "intertitre": "Une asymétrie qui pèse sur la défense",
+       "texte": "Cet hiver, la Russie pourrait tirer entre 130 et 190 projectiles balistiques par mois. Trop rapides pour être interceptés par des drones ou d'autres moyens peu coûteux, ils exigent des missiles intercepteurs. Or l'Ukraine ne reçoit en moyenne que 12 intercepteurs Patriot livrés par les États-Unis chaque mois, soit moins de 5 % du nombre nécessaire, et les intercepteurs européens, comme les Aster du système SAMP/T, ne compensent qu'à la marge. En octobre, elle n'a abattu que 11 des 150 missiles balistiques tirés par la Russie, soit environ 7 %."
+      },
+      {
+       "intertitre": "Les conséquences attendues",
+       "texte": "L'hiver 2026-2027 sera vraisemblablement le plus difficile pour les Ukrainiens depuis le début de la guerre à grande échelle. La stratégie russe vise à rendre la capitale inhabitable en ciblant le chauffage, l'éclairage et l'approvisionnement en eau, pour peser sur la population et son moral. Sur le plan économique, la Banque nationale d'Ukraine estime que ces bombardements amputeront la croissance de près de 2 points en 2026. Le PIB réel devrait reculer de 0,4 % cette année, une première depuis 2022, après +1,8 % en 2025."
+      }
+     ],
+     "synthese": "Les frappes russes sur le réseau électrique atteignent un niveau record et Kiev en subit déjà les effets. Faute d'intercepteurs en nombre suffisant, l'hiver pourrait être le plus dur de la guerre.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a107"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "Monde",
+     "source": "Al Jazeera",
+     "date": "2026-11-07",
+     "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in?traffic_source=rss",
+     "auteur": "",
+     "titre": "Paraguay : Santiago Peña destitué, Pedro Alliana prête serment",
+     "chapo": "Après la faillite de la banque Ueno, le Sénat a destitué le président Santiago Peña, placé en résidence surveillée ; son vice-président Pedro Alliana lui succède.",
+     "sections": [
+      {
+       "intertitre": "Ce qui s'est passé",
+       "texte": "Vendredi, Pedro Alliana, 52 ans, a prêté serment et devient le 53e président du Paraguay. Il était vice-président de Santiago Peña depuis le début du mandat de ce dernier, en 2023. Le même jour, 44 sénateurs sur 45 ont voté la destitution de Peña, un sénateur s'étant abstenu. Après la destitution, les procureurs ont ordonné son assignation à résidence, soupçonné d'abus de confiance et d'autres délits. « Je pars avec gratitude, en mesurant pleinement l'angoisse de ceux qui attendent des réponses », a écrit Peña sur les réseaux sociaux. Il n'a pas assisté en personne à l'audience du Sénat et y a envoyé ses avocats, en disant ne pas vouloir que sa présence nourrisse la division ou l'instabilité. Plus tôt dans la journée, il avait toutefois regretté la rapidité de la procédure et demandé un délai pour exercer son droit constitutionnel à la défense, le temps imparti étant selon lui clairement insuffisant."
+      },
+      {
+       "intertitre": "La faillite d'Ueno Bank",
+       "texte": "Le scandale a éclaté mardi, quand la banque centrale a annoncé qu'Ueno était passée sous les seuils légaux de solvabilité, c'est-à-dire qu'elle n'avait pas assez de garanties pour couvrir ses prêts et ses autres activités. Elle a saisi l'établissement et transféré ses actifs restants à d'autres banques. Des millions de clients ont brusquement perdu l'accès à leurs comptes et à leurs pensions. Avec environ trois millions de membres, la banque comptait près des deux tiers des adultes du pays parmi ses clients. Regroupée en 2023 sous la marque Ueno, elle était devenue la cinquième banque du pays par les dépôts, grâce à 800 millions de dollars d'argent public. Avant l'effondrement, elle affirmait que plus d'un million de Paraguayens y avaient ouvert leur premier compte. Des questions se posent sur la qualité de sa supervision par les institutions publiques. Le président de la banque centrale, Carlos Carvallo, a démissionné cette semaine ; un mandat d'arrêt a été émis contre lui, la banque centrale étant accusée d'avoir manqué à sa mission de contrôle."
+      },
+      {
+       "intertitre": "Une destitution plutôt qu'une démission",
+       "texte": "En 2023, Peña avait été identifié comme actionnaire de la maison mère d'Ueno ; il affirme avoir vendu ses parts début 2025. Des interrogations portent sur d'éventuels conflits d'intérêts. Après la faillite, il avait proposé de partir, au nom de « la nécessité de préserver nos institutions démocratiques ». Jeudi, le Congrès a refusé sa démission et engagé la destitution : la Chambre des députés l'a votée par 78 voix contre zéro. Elle a en revanche refusé d'ouvrir une procédure contre Alliana. Le Parti Colorado, mouvement conservateur de Peña qui domine largement la politique paraguayenne depuis 1948, a soutenu la manœuvre. Horacio Cartes, ancien président et chef du parti, a écrit vouloir ainsi « rétablir les institutions de la République ». Une démission aurait laissé à Peña le droit, réservé aux anciens présidents, de siéger au Sénat, avec une protection juridique contre les poursuites."
+      },
+      {
+       "intertitre": "Le nouveau président et l'enquête",
+       "texte": "Alliana a débuté en politique comme gouverneur de son département d'origine, Ñeembucú, dans le sud du pays, avant de siéger près de dix ans à la Chambre des députés, dont trois comme président. Il prend les rênes du pays au moment de l'un des scandales politiques et économiques les plus graves de son histoire récente. Les procureurs se demandent si Ueno a été protégée de tout contrôle par ses liens avec le pouvoir ; quelque 355 millions de dollars de fonds de pension publics y étaient investis. Au moins 27 personnes font l'objet de poursuites pénales, dont l'actionnaire principal, Miguel Vázquez. Les faits examinés comprennent tentative de fraude, abus de confiance, détournement de fonds et trafic d'influence. Peña a laissé entendre qu'il coopérerait à l'enquête."
+      }
+     ],
+     "synthese": "Le Paraguay change de président en pleine crise, après la faillite d'Ueno et la destitution de Santiago Peña, désormais en résidence surveillée. Pedro Alliana hérite d'un scandale bancaire et politique qui touche aussi des fonds de pension publics.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in"
+      }
+     ],
+     "format": "long",
+     "id": "a97"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "monde",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-06",
+      "url": "https://www.politico.eu/article/jared-kushner-european-security-plan-is-not-convincing-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Victor Jack; Jacopo Barigazzi; Hans von der Burchard; Nicholas Vinocur",
+      "id": "a73",
+      "titre": "Plan de sécurité américain pour l'Europe : les capitales redoutent d'être écartées",
+      "texte": "Les capitales européennes craignent qu'un projet américain de refonte des dispositifs de sécurité du continent n'exclue des alliés et ne favorise la Russie."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-06",
+      "url": "https://www.scmp.com/news/us/economy-trade-business/article/3373616/us-china-trade-chiefs-hold-call-ahead-trump-xi-summit-shenzhen",
+      "auteur": "Nayan Seth",
+      "id": "a87",
+      "titre": "Chine : Bessent et Greer s'entretiennent avec He Lifeng avant le sommet Trump-Xi",
+      "texte": "Le secrétaire au Trésor Scott Bessent et la représentante au Commerce Jamieson Greer ont eu un appel vidéo avec le vice-Premier ministre chinois He Lifeng pour préparer la rencontre de Donald Trump avec Xi Jinping à Shenzhen, prévue plus tard dans le mois. Bessent a insisté sur la mise en œuvre complète et immédiate par la Chine de ses engagements pris à Busan et a exprimé des préoccupations sur des actions chinoises récentes."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-07",
+      "url": "https://www.aljazeera.com/news/2026/11/7/cdc-reports-more-than-5000-measles-cases-highest-number-in-35-years?traffic_source=rss",
+      "auteur": "",
+      "id": "a94",
+      "titre": "Plus de 5 000 cas de rougeole aux États-Unis, un niveau inédit depuis 35 ans",
+      "texte": "Le CDC recense plus de 5 000 cas de rougeole, du jamais-vu depuis trente-cinq ans. Les enfants et adolescents représentent près de 60 % des cas confirmés."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Économie et social",
+     "source": "NBER",
+     "date": null,
+     "url": "https://www.nber.org/papers/w35964#fromrss",
+     "auteur": "Jesús Fernández-Villaverde",
+     "titre": "Automatisation : qui épargnera pour les machines ? Étude du NBER",
+     "chapo": "Selon Jesús Fernández-Villaverde, la croissance née de l'automatisation dépend de l'épargne : une croissance lente pourrait refléter trop peu de capital accumulé, non un blocage technologique.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "L'intelligence artificielle et l'automatisation pourraient remodeler l'économie dans les décennies à venir, ce qui exigera beaucoup de capital : logiciels, centres de données, robots, centrales électriques. Van Nieuwerburgh (2026) estime que les seuls campus d'IA absorberont 3,6 % du PIB par an sur 2025-2032, et une grande partie de ce capital se dépréciera vite. Qui épargnera pour les machines ? L'auteur répond que tout dépend de deux paramètres : la structure des tâches, qui fixe les rendements de l'accumulation de machines, et l'offre de capital, c'est-à-dire ce que les ménages acceptent d'épargner en réponse à ces rendements."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "À trajectoire technologique identique, l'économie croît de 11,7 % par an quand les tâches sont très complémentaires et que les ménages épargnent de façon optimale, mais de seulement 2,2 % si le taux d'épargne reste figé à 23 %, niveau calibré pour les États-Unis en 2025. Une croissance lente peut donc refléter un manque d'accumulation de capital plutôt qu'un goulot technologique. Le taux d'épargne monte surtout parce que l'automatisation accroît la part du capital, non parce que les ménages deviennent plus économes : cette part passe d'un tiers à la totalité sous automatisation complète. Le rendement réel à dix ans bondit de 5,1 % à 13,6 % d'emblée, les rendements longs intégrant le boom de croissance. Les salaires restent entre le quart et la moitié de leur tendance sous automatisation complète. Les ménages sans épargne perdent l'équivalent de 40 % à 65 % de leur consommation, tandis que maintenir leurs revenus sur la tendance coûte au plus un cinquième du PIB, temporairement."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "L'auteur s'appuie sur un modèle de croissance néoclassique déterministe, en économie fermée, avec un ménage représentatif et une entreprise représentative. La production suit le cadre des tâches d'Acemoglu et Restrepo : chaque tâche est effectuée par du travail ou par des machines. Le modèle est calibré sur l'économie américaine, avec une automatisation de toutes les tâches entre 2025 et 2045. Il compare deux cas extrêmes : un ménage qui épargne de façon optimale et un taux d'épargne fixe. Il distingue ensuite des ménages sans actifs, qui consomment leur revenu du travail, et des propriétaires du capital."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Pour l'auteur, la distinction entre goulot technologique et goulot d'offre de capital a des conséquences observables. Le taux d'épargne devrait suivre la part du capital : si l'investissement reste à un cinquième du PIB alors que cette part augmente, le modèle de Solow décrirait mieux le monde. Les premières années renseigneraient sur l'élasticité de substitution entre tâches. Et les rendements longs devraient bondir pendant que le taux court reste stable. Les gains globaux sont importants, mais mal répartis : les propriétaires gagnent davantage que le ménage représentatif, alors que les revenus du travail s'effondrent. Le coût d'un transfert pour compenser les ménages sans épargne reste modeste au regard de la production."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Tous les exercices sont des références, non des prévisions : l'auteur prend au sérieux la possibilité d'une IA transformatrice pour en déduire les conséquences sur l'épargne. Ses résultats reposent sur une offre de capital suffisamment élastique, que peuvent limiter des agents hétérogènes, des frictions financières ou des ressources physiques limitées. Il cite aussi comme omissions le logement et surtout l'économie politique : un salaire tombé au quart de sa tendance pendant vingt ans serait mal accueilli par l'électeur médian. Enfin, les données ne diront pas avant des décennies si les dernières tâches seront automatisées."
+      }
+     ],
+     "synthese": "Selon l'auteur, la vitesse du boom de croissance lié à l'automatisation dépend de la capacité des ménages à épargner, tandis que la structure des tâches détermine sa durée et l'évolution des salaires. Ce document de travail présente des scénarios de référence, non des prévisions.",
+     "republication": "",
+     "reference": "Jesús Fernández-Villaverde (Université de Pennsylvanie, département d'économie ; CEPR ; NBER), NBER Working Paper n° 35964, octobre 2026 : document de travail non évalué par des pairs.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a113"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Droit",
+     "source": "Verfassungsblog",
+     "date": "2026-11-06",
+     "url": "https://verfassungsblog.de/brazils-democracy-tomorrow/",
+     "auteur": "Diego Platz Pereira",
+     "titre": "Brésil : réduire les pouvoirs individuels pour consolider la démocratie",
+     "chapo": "Après la victoire de Lula au second tour, un juriste plaide pour réduire les pouvoirs concentrés entre les mains de quelques personnes dans les grandes institutions brésiliennes.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "Le second tour de l'élection présidentielle brésilienne, le mois dernier, a vu Lula da Silva battre le candidat d'extrême droite Flávio Bolsonaro de près de 4,4 millions de voix. Flávio a quitté le pays pour les États-Unis afin d'y demander l'asile, malgré une interdiction judiciaire de sortie du territoire et la suspension de son passeport dans une enquête pour corruption et blanchiment présumés. Son père, Jair Bolsonaro, a été condamné pour tentative de coup d'État. Dans la version initiale d'une lettre adressée au peuple brésilien et à la communauté internationale, Flávio se déclarait président élu. L'auteur y voit l'occasion de faire le point sur la résilience de la démocratie brésilienne et les pressions qui continuent de peser sur elle."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "Selon l'auteur, l'avenir de la démocratie brésilienne dépendra d'abord de la mobilisation sociale, comme l'a montré la mobilisation numérique coordonnée, d'une intensité inédite, du camp pro-Lula, puis de la limitation des pouvoirs potentiellement abusifs des plateformes numériques, tels que ceux apparemment exercés par Meta, visant aussi bien Lula que le camp pro-Bolsonaro. Il ajoute une dimension institutionnelle : il faut des institutions plus solides et une réduction stratégique des pouvoirs de décision excessifs concentrés chez des acteurs individuels. Il juge que trop peu de personnes prennent trop de décisions au Brésil, à la présidence, à la Cour suprême fédérale (STF), au Congrès national et au Parquet général de la République. La défiance envers le STF a atteint des niveaux record : une séance plénière retransmise, peu avant le premier tour, a exposé des querelles personnelles après des décisions monocratiques contradictoires dans une affaire de corruption, et la plupart des juges ont été impliqués dans des activités publiquement rapportées qui soulèvent des questions d'impartialité. Il évoque, pour le STF, les décisions monocratiques, les demandes de vue (pedidos de vista) qui retardent le vote collectif et les larges pouvoirs de la présidence de la Cour sur l'ordre du jour. Pour le Congrès, il cite les pouvoirs des présidents de la Chambre et du Sénat et le fait qu'un cinquième du budget discrétionnaire fédéral dépende des amendements budgétaires individuels des parlementaires."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "Le texte ne s'appuie pas sur des données chiffrées ni sur un protocole d'enquête. L'auteur passe en revue, institution par institution, les pouvoirs individuels et les risques d'abus qu'il leur associe, en s'appuyant sur des épisodes récents, dont la séance plénière du STF avant le premier tour et la prolongation du vote au second tour, ainsi que sur des travaux de Conrado Hübner Mendes sur le procureur général."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Pour la présidence, l'auteur propose de mettre fin à la politicagem dans la nomination des juges du STF ou de revoir le modèle de sélection, par exemple avec des conseils institutionnels, comme Lula l'a envisagé, en préservant le rôle du Sénat. Pour le STF, il suggère de réduire les décisions monocratiques, d'adopter un code d'éthique et de soumettre l'ordre du jour du président de la Cour à un contrôle collectif. Pour le Parquet général, il évoque des changements formels ou informels des mécanismes internes de responsabilité du procureur général. Pour le Congrès, il réclame des contre-pouvoirs et des droits procéduraux pour les minorités face aux présidents des chambres, et une gestion collective du budget plutôt qu'une somme d'« îlots individuels ». Il estime que, sans réforme, la Cour pourrait ne plus tenir longtemps sur le plan de sa légitimité. Il distingue le cas du juge Cristiano Zanin, qui a prolongé le vote de deux heures moins de 30 minutes avant la fermeture : l'extrême urgence et la demande des deux camps justifiaient cette décision individuelle."
+      }
+     ],
+     "synthese": "L'auteur estime que la mobilisation sociale ne suffira pas à protéger la démocratie brésilienne et que des institutions capables de résister aux choix et aux abus de responsables individuels sont indispensables. Il demande donc une réduction stratégique des pouvoirs individuels.",
+     "republication": "",
+     "reference": "Diego Platz Pereira, Verfassungsblog, billet daté du 6 novembre 2026 (date du flux) : billet de chercheur ou commentaire, non présenté comme article évalué par des pairs.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a120"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "recherche",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Social",
+      "source": "Pew Research Center",
+      "date": "2026-11-06",
+      "url": "https://www.pewresearch.org/short-reads/2026/11/06/a-first-look-at-polling-performance-in-2026/",
+      "auteur": "",
+      "id": "a116",
+      "titre": "Sondages des midterms 2026 : bonne direction, avance démocrate sous-estimée",
+      "texte": "Selon une première analyse du Pew Research Center, les sondages préélectoraux ont capté la direction du scrutin. Ils ont généralement sous-estimé l'ampleur de l'avance démocrate."
+     },
+     {
+      "rubrique": "Social",
+      "source": "Pew Research Center",
+      "date": "2026-11-06",
+      "url": "https://www.pewresearch.org/short-reads/2026/11/06/majority-of-americans-say-social-media-companies-news-outlets-have-too-much-power-in-politics/",
+      "auteur": "",
+      "id": "a119",
+      "titre": "États-Unis : 7 Américains sur 10 jugent les réseaux sociaux trop puissants en politique",
+      "texte": "Selon le Pew Research Center, environ sept Américains sur dix estiment que les réseaux sociaux ont trop de pouvoir politique. Ils sont 55 % à le penser des médias d'information, avec des écarts entre républicains et démocrates."
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-06",
+      "url": "https://verfassungsblog.de/the-road-to-the-icc-prosecution-of-philippine-warlord-rodrigo-duterte/",
+      "auteur": "",
+      "id": "a126",
+      "titre": "Duterte devant la CPI : l'action d'avocats philippins décrite par Verfassungsblog",
+      "texte": "Arrêté en 2025, l'ancien président philippin Rodrigo Duterte comparaît devant la Cour pénale internationale pour crimes contre l'humanité. Selon Verfassungsblog, la résistance juridique peut faire une différence concrète, même sous une violence d'État implacable."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "recherche",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-06",
+      "url": "https://verfassungsblog.de/defending-indigenous-territories-through-law-and-collective-power/",
+      "auteur": "",
+      "id": "a127",
+      "titre": "Territoires autochtones : le droit ne pèse que s'il soutient les communautés",
+      "texte": "Selon Verfassungsblog, l'action juridique ne transforme les rapports de force inégaux que si elle appuie l'organisation des communautés, selon leurs propres décisions. Les projets énergétiques transforment les territoires avant même le début des travaux."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Sanctions et export",
+     "source": "EU Today",
+     "date": "2026-11-06",
+     "url": "https://eutoday.net/europes-russia-sanctions-enter-a-new-phase/",
+     "auteur": "",
+     "titre": "Sanctions anti-russes : Bruxelles cible réseaux financiers et flotte fantôme",
+     "chapo": "Face aux contournements, l'UE déplace son attention de nouveaux paquets de sanctions vers l'application effective des mesures existantes.",
+     "sections": [
+      {
+       "intertitre": "Ce qui s'est tenu à Bruxelles",
+       "texte": "Le 5 novembre, la Commission européenne a réuni à Bruxelles des responsables d'États membres et de pays partenaires pour examiner les faiblesses dans l'application des sanctions contre la Russie. Les échanges ont porté sur les cryptomonnaies, les réseaux de paiement étrangers, les achats militaires et les infrastructures maritimes du pétrole russe. Le dixième Groupe de haut niveau sur les mesures restrictives de l'Union, présidé par la commissaire aux services financiers Maria Luís Albuquerque, a rassemblé les autorités nationales chargées de les appliquer. Un forum distinct, convoqué par l'envoyé de l'UE pour les sanctions David O'Sullivan, a réuni le Royaume-Uni, les États-Unis, le Japon, le Canada, d'autres partenaires et l'Ukraine."
+      },
+      {
+       "intertitre": "Les limites des paquets successifs",
+       "texte": "Depuis février 2022, l'UE a restreint progressivement l'accès aux marchés financiers européens, aux technologies avancées, aux équipements industriels et aux revenus de l'énergie. Le 21e paquet, adopté le 23 juillet 2026, étend l'interdiction de transactions à 33 autres établissements financiers russes et à quatre banques de pays tiers. Il vise aussi 14 plateformes de cryptomonnaies hors de l'UE et des entités de la chaîne d'approvisionnement militaro-industrielle russe. Mais plus la législation s'étend, plus son application devient délicate : une transaction interdite via une banque russe peut passer par un intermédiaire ailleurs, des composants peuvent transiter par plusieurs juridictions, et le pétrole peut s'appuyer sur des montages de propriété complexes. Rien de cela ne prouve nécessairement une faute de chaque intermédiaire : établir une violation exige des preuves sur la transaction, les règles et les responsabilités des parties."
+      },
+      {
+       "intertitre": "Cryptomonnaies et paiements parallèles",
+       "texte": "Les restrictions bancaires attirent l'attention sur d'autres circuits : crypto-actifs et réseaux reliant des entreprises russes à des intermédiaires de pays tiers. Le paquet de juillet crée un mécanisme permettant d'interdire les transactions avec des prestataires étrangers de cryptomonnaies utilisés pour faciliter l'évasion des sanctions, ce qui étend les restrictions au-delà des institutions établies dans l'Union. Leur efficacité dépend toutefois de pays dont les priorités réglementaires peuvent différer de celles de Bruxelles, et les autorités doivent distinguer le commerce légitime des opérations destinées à dissimuler des bénéficiaires russes. Les banques et multinationales doivent donc examiner davantage propriétaires, circuits de paiement et destinataires réels."
+      },
+      {
+       "intertitre": "La flotte fantôme, une préoccupation centrale",
+       "texte": "La Russie continue d'exporter du pétrole avec des pétroliers soumis à des montages de propriété et d'assurance compliqués, dont des navires dits appartenant à sa flotte fantôme. Le paquet de juillet a ajouté 41 navires aux restrictions européennes, portant à plus de 670 le total des bâtiments concernés. Bruxelles s'intéresse aussi aux services qui les rendent possibles : soutage, équipages et appui. Des gouvernements européens s'inquiètent aussi de la vétusté des navires, d'assurances incertaines, d'accidents et de la sécurité des infrastructures sous-marines. Fermer un port européen à un navire ne l'empêche pas de transporter du pétrole entre pays tiers : il faut coopérer avec les États du pavillon, les assureurs, les armateurs et les autorités des grandes places commerciales."
+      },
+      {
+       "intertitre": "Une épreuve de force économique sur plusieurs années",
+       "texte": "La Commission estime que les sanctions contribuent aux difficultés économiques russes et cite un recul de la croissance annuelle de 4,9 % en 2024 à 1 % en 2025. La croissance ne suffit pas à mesurer leur efficacité : la capacité de la Russie à financer sa production militaire dépend des dépenses publiques, des recettes d'exportation, de l'accès aux composants importés et de sa faculté à réorienter ses ressources vers la défense. Des prix du pétrole élevés, notamment avec l'instabilité au Moyen-Orient, compliquent la réduction des revenus de Moscou."
+      }
+     ],
+     "synthese": "Pour Bruxelles, l'enjeu n'est plus d'annoncer de nouvelles interdictions, mais de vérifier que biens, argent et services n'atteignent plus leurs destinataires par d'autres voies. Le résultat dépendra moins du nombre de noms ajoutés aux listes que de la capacité à rendre le contournement plus difficile, plus coûteux et plus facile à détecter.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a141"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Sanctions et export",
+     "source": "EU Perspectives",
+     "date": "2026-11-06",
+     "url": "https://euperspectives.eu/2026/11/russias-ship-inspector-scores-partial-court-win-against-eu-sanctions/",
+     "auteur": "Media Networks; Daniel Deyl",
+     "titre": "Sanctions de l'UE : le registre maritime russe obtient une annulation partielle",
+     "chapo": "Le Tribunal de l'Union européenne a annulé une seule des mesures visant le Registre maritime russe de navigation ; toutes les autres sanctions restent en vigueur.",
+     "sections": [
+      {
+       "intertitre": "Ce que le Tribunal a décidé",
+       "texte": "Le Tribunal de l'Union européenne a annulé une partie des sanctions prises contre le Registre maritime russe de navigation (RMRS), organisme à but non lucratif détenu à 100 % par l'État russe. Le RMRS avait introduit un recours en annulation (affaire T-535/24) contre des mesures adoptées en réponse à la guerre en Ukraine. Le Tribunal a annulé la disposition qui imposait de retirer la reconnaissance du RMRS comme organisme habilité à inspecter et certifier les navires. Il a estimé que la mesure allait trop loin ou manquait de justification juridique au regard des règles de l'UE sur l'inspection des navires, fixées par le règlement 391/2009 : le Conseil ne peut pas s'en servir pour disqualifier le RMRS comme organisme de sécurité reconnu. Le recours a été rejeté pour le reste."
+      },
+      {
+       "intertitre": "Le contexte des sanctions",
+       "texte": "Ces mesures font suite à l'invasion à grande échelle de l'Ukraine par la Russie en 2022. Le Conseil de l'UE a étendu son régime au RMRS, inscrit sur des listes entraînant des interdictions d'investissement et des interdictions de transaction. Il a aussi interdit l'accès aux ports et aux écluses de l'UE aux navires certifiés par le RMRS. Enfin, il a retiré la reconnaissance du RMRS au niveau de l'UE et exigé des États membres qu'ils révoquent ses autorisations : c'est cette dernière mesure que le Tribunal vient d'annuler. Les interdictions d'investissement, les interdictions de transaction et l'interdiction d'accès aux ports pour les navires certifiés restent juridiquement valables."
+      },
+      {
+       "intertitre": "Une victoire sans effet immédiat",
+       "texte": "Le RMRS n'en profitera pas de sitôt. Le Tribunal a décidé que les effets de la disposition annulée restent en vigueur pendant deux mois et dix jours au plus à compter de l'arrêt, soit 70 jours. Le Conseil peut en profiter pour réécrire le texte ou former un pourvoi devant la Cour de justice de l'UE. Tant que ce délai n'a pas expiré, l'interdiction pratique de reconnaissance demeure ; en cas de pourvoi, l'annulation est gelée jusqu'à la décision de la Cour et la sanction reste active pendant toute la procédure. Ce délai vise à éviter un trou dans la couverture des sanctions. Chacun supporte ses propres dépens : le Conseil et le RMRS, ainsi que la Commission européenne, qui soutenait le Conseil."
+      },
+      {
+       "intertitre": "Les arguments du RMRS",
+       "texte": "Le RMRS avançait trois arguments. Les mesures seraient disproportionnées par rapport aux objectifs de politique étrangère et de sécurité de l'UE. Le Conseil aurait insuffisamment motivé sa décision au regard de l'article 296 du traité sur le fonctionnement de l'Union européenne, un organisme technique de classification méritant mieux que des formules générales sur la propriété de l'État. Enfin, le droit à un recours effectif, garanti par l'article 47 de la Charte des droits fondamentaux, n'aurait pas été respecté. Selon l'article, le critère juridique est exigeant pour les requérants, le RMRS est un instrument de l'État russe et le Conseil dispose d'une large marge d'appréciation en matière de politique étrangère et de sécurité."
+      }
+     ],
+     "synthese": "Le RMRS n'a gagné que sur un point, le retrait de sa reconnaissance, et reste une entité lourdement sanctionnée. Selon l'article, le Conseil corrige généralement les défauts relevés et rétablit la mesure, parfois avec une motivation étoffée ou des catégories élargies, ce qui illustre l'alternance entre contestation et réécriture propre au dispositif européen.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a140"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "veille",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "RGPD",
+      "source": "CNIL",
+      "date": "2026-11-06",
+      "url": "https://www.cnil.fr/fr/recherches-internes-sante-quelles-obligations",
+      "auteur": "",
+      "id": "a131",
+      "titre": "RGPD : la CNIL rappelle les règles des recherches internes en santé",
+      "texte": "Les établissements qui emploient des professionnels de santé menant des recherches internes sont concernés. La CNIL rappelle les règles applicables."
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "bloomingbit",
+      "date": "2026-11-06",
+      "url": "https://en.bloomingbit.io/feed/news/123842",
+      "auteur": "",
+      "id": "a144",
+      "titre": "Sanctions : les États-Unis visent 45 personnes et entités dans l'affaire Prince Group",
+      "texte": "L'OFAC a sanctionné 45 personnes et entités dans l'affaire Prince Group, une escroquerie aux cryptoactifs."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Climat",
+     "source": "Carbon Brief",
+     "date": "2026-11-06",
+     "url": "https://www.carbonbrief.org/simply-staggering-rapidly-developing-super-el-nino-on-track-to-peak-in-december",
+     "auteur": "Cecilia Keating",
+     "titre": "« Super El Niño » : un pic attendu en décembre et une année 2027 record",
+     "chapo": "Selon la dernière analyse de Carbon Brief, l'El Niño en cours devrait culminer fin 2026 et porter la température mondiale à un niveau inédit l'an prochain.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Le « super El Niño » en cours devrait atteindre son maximum à la fin de 2026 et pousser la température moyenne mondiale à des niveaux records en 2027. C'est la conclusion de la dernière mise à jour « état du climat » de Carbon Brief, qui analyse les prévisions de plus d'une douzaine de modèles climatiques et six jeux de données de température. Le climatologue Zeke Hausfather, contributeur de Carbon Brief, a jugé cet événement « simplement stupéfiant »."
+      },
+      {
+       "intertitre": "Un événement déjà exceptionnel",
+       "texte": "El Niño est un phénomène climatique naturel du Pacifique tropical qui libère de la chaleur de l'océan vers l'atmosphère et relève temporairement les températures mondiales. L'épisode actuel, en cours depuis juin, a déjà battu plusieurs records et bouleversé la météo mondiale, avec des incendies en Indonésie et des « super typhons » dans le Pacifique ouest. Le 18 septembre, l'anomalie quotidienne de la zone Niño3.4 a atteint 3,11 °C, record de l'ère satellitaire établi en 2015. Septembre a aussi connu l'anomalie mensuelle la plus élevée depuis le milieu du XIXe siècle : 2,84 °C. Selon Hausfather, l'épisode dépasse depuis juin tous les précédents, parfois d'un degré entier."
+      },
+      {
+       "intertitre": "Le pic attendu en décembre",
+       "texte": "L'intensité se suit par l'anomalie Niño3.4, qui mesure l'écart de température de la mer par rapport à la moyenne dans une zone du Pacifique central. Sur plus de 600 prévisions issues de 14 modèles, le pic atteindrait environ 4 °C, soit plus d'un degré de plus que le record de 2015-2016. Dix modèles sur 14 le placent en décembre, les autres en novembre. Hausfather estime qu'il pourrait s'agir du plus fort El Niño du dernier millénaire."
+      },
+      {
+       "intertitre": "Les effets sur 2027",
+       "texte": "Les émissions humaines expliquent presque tout le réchauffement à long terme, mais El Niño pèse sur chaque année. Les températures mondiales suivant le Pacifique avec environ trois mois de retard, l'effet sera maximal en 2027. Carbon Brief projette alors environ 1,74 °C au-dessus du niveau préindustriel, avec 96 % de chances que ce soit l'année la plus chaude jamais enregistrée. Cette projection repose sur la relation historique entre les variations de température d'une année sur l'autre et les conditions El Niño de l'automne précédent, et tient compte de l'incertitude sur l'évolution du reste de 2026."
+      }
+     ],
+     "synthese": "L'El Niño de 2026 progresse plus vite et plus fort que tous ceux observés, avec un pic attendu en décembre. Ses effets sur la température mondiale culmineraient en 2027, très probablement une année record.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a178"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Science",
+     "source": "Quanta Magazine",
+     "date": "2026-11-06",
+     "url": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
+     "auteur": "Charlie Wood",
+     "titre": "D'Einstein à PBR : trois théorèmes et ce qu'il reste de la réalité quantique",
+     "chapo": "Depuis 1935, Einstein, Bell puis Pusey et ses collègues ont resserré le choix : la réalité objective est étrange, ou elle n'existe pas.",
+     "sections": [
+      {
+       "intertitre": "Le déclencheur",
+       "texte": "Un bébé comprend en moins d'un an que ce qu'on cache derrière ses mains continue d'exister. Pour Einstein, le monde est de même « réel » : une boule de billard rouge l'est même dans le noir. La mécanique quantique semble dire autre chose : ses mathématiques n'attribuent la couleur qu'au moment de la mesure, et avant elles ne donnent que des probabilités. Selon Quanta Magazine, trois théorèmes, dus à Einstein et ses collaborateurs, à John Stewart Bell puis à Matthew Pusey, Jonathan Barrett et Terry Rudolph (« PBR », 2012), ont montré cette théorie incompatible avec le monde perçu. Comme l'expérience confirme la théorie, quelque chose de la réalité doit être abandonné."
+      },
+      {
+       "intertitre": "Einstein et la réalité",
+       "texte": "La mécanique quantique de Heisenberg et Schrödinger décrit des possibilités : la fonction d'onde donne par exemple 77 % de chances de trouver la boule rouge et 23 % verte. Pour Einstein, elle ressemble à une prévision météo : passer de 77 % à 100 % en regardant dehors est un changement de certitude dans la tête, non de l'atmosphère. Avec Podolsky et Rosen (EPR), il a imaginé deux particules dont une seule est mesurée : l'autre devait avoir des propriétés déjà fixées, donc l'état quantique ne serait qu'un artefact d'information. Ils supposaient la « réalité » (un état propre à la particule) et la « localité » (il ne change que par interaction avec elle). Niels Bohr a attaqué la première : « Il n'y a pas de monde quantique », aurait-il dit selon Aage Petersen. Cette position est devenue l'interprétation de Copenhague."
+      },
+      {
+       "intertitre": "Bell et la localité",
+       "texte": "En 1952, John Stewart Bell découvre la mécanique bohmienne de David Bohm, où les particules ont toujours une position réelle, guidées par une « onde pilote » qui peut perturber instantanément une particule lointaine (la non-localité). Il y voit un antidote à la complaisance ambiante. Il conçoit ensuite une expérience valable pour toute théorie quantique : deux particules, deux appareils effectuant chacun une mesure choisie au hasard. Dans un monde réel et local, les résultats concordent relativement rarement ; la mécanique quantique prédit qu'ils concordent bien plus souvent. Les expériences des années 1980 lui ont donné raison : le monde ne peut être à la fois réel et local."
+      },
+      {
+       "intertitre": "Le théorème PBR",
+       "texte": "En 2004, Robert Spekkens, du Perimeter Institute, décrit un monde où l'état quantique n'est qu'une connaissance incomplète de propriétés réelles et y retrouve téléportation, interdiction de copier un état et bien d'autres phénomènes. En 2011, Matthew Pusey, alors doctorant à l'Imperial College London, tente de prolonger cette idée, puis cherche plutôt à prouver que c'est impossible. L'analogie de Rudolph est un jeu de cartes : un donneur tire deux cartes dans la pile des rouges ou celle des as, et le joueur doit nommer une combinaison de piles exclue. Avec deux as rouges, il ne peut rien exclure, car les deux états de connaissance se recoupent. Dans la version quantique, une machine peut toujours exclure une combinaison : les états quantiques ne se recoupent pas, ce qu'une expérience de 2012 a vérifié."
+      },
+      {
+       "intertitre": "Les suites et les réserves",
+       "texte": "Des chercheurs britanniques, menés par Crispin Barnes (université de Cambridge), ont joué à l'automne dernier une version à cinq cartes sur un ordinateur quantique d'IBM, surtout pour vérifier son bon fonctionnement : la machine a toujours gagné, comme prévu. Pour Pusey, « si quelque chose est réel, l'état quantique l'est ». Mais PBR laisse l'autre extrême ouvert : rien n'est réel, pas même l'état quantique, comme le soutient Copenhague depuis Bohr. Il met fin à un siècle de marchandage : il faut accepter une réalité objective mais surréelle, ou rejeter toute réalité objective. Jacques Pienaar, aujourd'hui à l'Université fédérale de Rio de Janeiro, a renoncé à la réalité objective et choisi le QBisme, où la théorie décrit notre relation au monde. D'autres, dont Lucien Hardy, du Perimeter Institute, se demandent si la réalité doit avoir un état unique à chaque instant."
+      }
+     ],
+     "synthese": "Einstein, Bell puis PBR ont écarté la voie moyenne où la réalité existe sans que l'état quantique le soit. Il reste à choisir entre une réalité objective mais surréelle et l'absence de réalité objective, ou à redéfinir la réalité elle-même.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a161"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-06",
+      "url": "https://www.sciencesetavenir.fr/sante/voici-les-dangers-du-futur-selon-le-lancet_196014?xtor=RSS-16",
+      "auteur": "",
+      "id": "a163",
+      "titre": "Une commission du Lancet recense les plus grands risques pour l'humanité ce siècle",
+      "texte": "Une commission de la prestigieuse revue The Lancet a tenté de prédire quels seront les risques les plus graves pour l'humanité au cours de ce siècle. Le résumé ne détaille pas ses conclusions."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-06",
+      "url": "https://www.sciencesetavenir.fr/nature-environnement/perou-saisie-de-milliers-de-mygales-destinees-au-trafic-vers-l-allemagne_195994?xtor=RSS-15",
+      "auteur": "",
+      "id": "a169",
+      "titre": "Pérou : plus de 3 000 mygales saisies à l'aéroport de Lima",
+      "texte": "La douane de l'aéroport de Lima a saisi plus de 3 000 mygales transportées illégalement, destinées au trafic vers l'Allemagne. Certaines étaient encore à l'état d'œuf, et elles provenaient de plusieurs régions du pays."
+     },
+     {
+      "rubrique": "Climat",
+      "source": "Inside Climate News",
+      "date": "2026-11-07",
+      "url": "https://insideclimatenews.org/news/06112026/germany-launches-global-sf6-pledge-china-emissions/",
+      "auteur": "",
+      "id": "a180",
+      "titre": "Un pacte mondial pour réduire les émissions de SF6, gaz à effet de serre très puissant",
+      "texte": "L'Allemagne a lancé une initiative internationale, le « Global SF6 Pledge », annoncée à Kigali lors d'une réunion du PNUE. Elle invite les pays à s'engager, notamment sur la surveillance de leurs émissions de ce gaz."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "CNRS Le journal",
+      "date": "2026-11-06",
+      "url": "https://lejournal.cnrs.fr/articles/pourquoi-aimons-nous-avoir-peur",
+      "auteur": "",
+      "id": "a162",
+      "titre": "La peur peut devenir récréative, selon les neurosciences cognitives",
+      "texte": "Plutôt associée à la menace, la peur peut devenir récréative. Le CNRS présente les réponses des neurosciences cognitives à cette question."
+     }
+    ]
+   },
+   {
+    "type": "solutions",
+    "bloc": "",
+    "taille": 1
+   }
+  ],
+  "jeux": {
+   "sudoku": {
+    "grille": [
+     0,
+     0,
+     8,
+     0,
+     0,
+     0,
+     6,
+     0,
+     7,
+     6,
+     7,
+     1,
+     3,
+     0,
+     0,
+     4,
+     0,
+     0,
+     0,
+     0,
+     4,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0,
+     3,
+     0,
+     0,
+     8,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     9,
+     0,
+     0,
+     0,
+     5,
+     6,
+     8,
+     0,
+     0,
+     0,
+     0,
+     8,
+     0,
+     0,
+     5,
+     0,
+     0,
+     0,
+     6,
+     0,
+     0,
+     0,
+     0,
+     0,
+     9,
+     0,
+     7,
+     5,
+     7,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3,
+     0,
+     0
+    ],
+    "solution": [
+     5,
+     3,
+     8,
+     4,
+     9,
+     2,
+     6,
+     1,
+     7,
+     6,
+     7,
+     1,
+     3,
+     8,
+     5,
+     4,
+     9,
+     2,
+     2,
+     9,
+     4,
+     1,
+     7,
+     6,
+     8,
+     5,
+     3,
+     4,
+     2,
+     7,
+     9,
+     1,
+     3,
+     5,
+     6,
+     8,
+     8,
+     6,
+     5,
+     2,
+     4,
+     7,
+     1,
+     3,
+     9,
+     9,
+     1,
+     3,
+     5,
+     6,
+     8,
+     7,
+     2,
+     4,
+     3,
+     8,
+     2,
+     7,
+     5,
+     1,
+     9,
+     4,
+     6,
+     1,
+     4,
+     6,
+     8,
+     3,
+     9,
+     2,
+     7,
+     5,
+     7,
+     5,
+     9,
+     6,
+     2,
+     4,
+     3,
+     8,
+     1
+    ]
+   },
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "indices": [
+     [
+      4,
+      0,
+      10
+     ],
+     [
+      2,
+      2,
+      9
+     ],
+     [
+      0,
+      7,
+      10
+     ],
+     [
+      4,
+      9,
+      6
+     ],
+     [
+      3,
+      5,
+      8
+     ],
+     [
+      5,
+      6,
+      5
+     ],
+     [
+      7,
+      7,
+      12
+     ],
+     [
+      3,
+      2,
+      8
+     ],
+     [
+      8,
+      3,
+      7
+     ],
+     [
+      6,
+      5,
+      8
+     ],
+     [
+      7,
+      9,
+      2
+     ],
+     [
+      7,
+      2,
+      4
+     ],
+     [
+      9,
+      6,
+      3
+     ],
+     [
+      8,
+      9,
+      6
+     ],
+     [
+      9,
+      1,
+      2
+     ]
+    ],
+    "rectangles": [
+     [
+      0,
+      0,
+      10,
+      1
+     ],
+     [
+      0,
+      1,
+      3,
+      3
+     ],
+     [
+      0,
+      4,
+      2,
+      5
+     ],
+     [
+      0,
+      9,
+      6,
+      1
+     ],
+     [
+      2,
+      4,
+      4,
+      2
+     ],
+     [
+      2,
+      6,
+      5,
+      1
+     ],
+     [
+      2,
+      7,
+      6,
+      2
+     ],
+     [
+      3,
+      1,
+      4,
+      2
+     ],
+     [
+      3,
+      3,
+      7,
+      1
+     ],
+     [
+      6,
+      4,
+      4,
+      2
+     ],
+     [
+      6,
+      9,
+      2,
+      1
+     ],
+     [
+      7,
+      1,
+      2,
+      2
+     ],
+     [
+      7,
+      6,
+      3,
+      1
+     ],
+     [
+      8,
+      7,
+      2,
+      3
+     ],
+     [
+      9,
+      1,
+      1,
+      2
+     ]
+    ]
+   },
+   "futoshiki": {
+    "n": 6,
+    "donnes": [
+     [
+      0,
+      1,
+      1
+     ],
+     [
+      2,
+      0,
+      2
+     ],
+     [
+      1,
+      1,
+      4
+     ],
+     [
+      5,
+      1,
+      6
+     ]
+    ],
+    "signes": [
+     [
+      [
+       4,
+       3
+      ],
+      [
+       4,
+       2
+      ]
+     ],
+     [
+      [
+       3,
+       5
+      ],
+      [
+       2,
+       5
+      ]
+     ],
+     [
+      [
+       2,
+       0
+      ],
+      [
+       3,
+       0
+      ]
+     ],
+     [
+      [
+       4,
+       1
+      ],
+      [
+       3,
+       1
+      ]
+     ],
+     [
+      [
+       4,
+       3
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     [
+      [
+       1,
+       3
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     [
+      [
+       2,
+       5
+      ],
+      [
+       1,
+       5
+      ]
+     ],
+     [
+      [
+       5,
+       2
+      ],
+      [
+       5,
+       1
+      ]
+     ],
+     [
+      [
+       5,
+       5
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     [
+      [
+       3,
+       3
+      ],
+      [
+       3,
+       2
+      ]
+     ],
+     [
+      [
+       3,
+       2
+      ],
+      [
+       3,
+       1
+      ]
+     ],
+     [
+      [
+       5,
+       4
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     [
+      [
+       4,
+       5
+      ],
+      [
+       3,
+       5
+      ]
+     ],
+     [
+      [
+       4,
+       0
+      ],
+      [
+       5,
+       0
+      ]
+     ],
+     [
+      [
+       2,
+       4
+      ],
+      [
+       3,
+       4
+      ]
+     ],
+     [
+      [
+       1,
+       1
+      ],
+      [
+       1,
+       0
+      ]
+     ]
+    ],
+    "solution": [
+     [
+      6,
+      1,
+      4,
+      5,
+      3,
+      2
+     ],
+     [
+      5,
+      4,
+      3,
+      2,
+      1,
+      6
+     ],
+     [
+      2,
+      3,
+      1,
+      6,
+      4,
+      5
+     ],
+     [
+      3,
+      5,
+      2,
+      1,
+      6,
+      4
+     ],
+     [
+      1,
+      2,
+      6,
+      4,
+      5,
+      3
+     ],
+     [
+      4,
+      6,
+      5,
+      3,
+      2,
+      1
+     ]
+    ]
+   },
+   "compte": {
+    "plaques": [
+     7,
+     25,
+     2,
+     2,
+     75,
+     1
+    ],
+    "cible": 714,
+    "solution": [
+     "2 × 1 = 2",
+     "2 + 75 = 77",
+     "77 + 25 = 102",
+     "102 × 7 = 714"
+    ]
+   }
+  },
+  "quiz": [],
+  "solutions_hier": {
+   "sudoku": [
+    5,
+    4,
+    9,
+    7,
+    3,
+    1,
+    2,
+    8,
+    6,
+    6,
+    1,
+    3,
+    9,
+    2,
+    8,
+    4,
+    7,
+    5,
+    8,
+    7,
+    2,
+    4,
+    6,
+    5,
+    9,
+    1,
+    3,
+    3,
+    8,
+    7,
+    5,
+    9,
+    2,
+    6,
+    4,
+    1,
+    9,
+    2,
+    6,
+    1,
+    4,
+    3,
+    8,
+    5,
+    7,
+    4,
+    5,
+    1,
+    8,
+    7,
+    6,
+    3,
+    2,
+    9,
+    2,
+    3,
+    8,
+    6,
+    1,
+    7,
+    5,
+    9,
+    4,
+    1,
+    6,
+    4,
+    2,
+    5,
+    9,
+    7,
+    3,
+    8,
+    7,
+    9,
+    5,
+    3,
+    8,
+    4,
+    1,
+    6,
+    2
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      9,
+      1
+     ],
+     [
+      0,
+      1,
+      6,
+      2
+     ],
+     [
+      0,
+      3,
+      6,
+      2
+     ],
+     [
+      0,
+      5,
+      2,
+      1
+     ],
+     [
+      0,
+      6,
+      6,
+      1
+     ],
+     [
+      0,
+      7,
+      6,
+      2
+     ],
+     [
+      0,
+      9,
+      6,
+      1
+     ],
+     [
+      2,
+      5,
+      8,
+      1
+     ],
+     [
+      6,
+      1,
+      1,
+      4
+     ],
+     [
+      6,
+      6,
+      3,
+      3
+     ],
+     [
+      6,
+      9,
+      3,
+      1
+     ],
+     [
+      7,
+      1,
+      2,
+      4
+     ],
+     [
+      9,
+      0,
+      1,
+      3
+     ],
+     [
+      9,
+      3,
+      1,
+      2
+     ],
+     [
+      9,
+      6,
+      1,
+      2
+     ],
+     [
+      9,
+      8,
+      1,
+      2
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     5,
+     4,
+     2,
+     1,
+     3,
+     6
+    ],
+    [
+     6,
+     5,
+     4,
+     2,
+     1,
+     3
+    ],
+    [
+     1,
+     3,
+     6,
+     5,
+     4,
+     2
+    ],
+    [
+     3,
+     6,
+     5,
+     4,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     3,
+     6,
+     5,
+     4
+    ],
+    [
+     4,
+     2,
+     1,
+     3,
+     6,
+     5
+    ]
+   ],
+   "compte": [
+    "6 + 100 = 106",
+    "106 + 25 = 131",
+    "131 × 1 = 131",
+    "131 − 2 = 129"
+   ],
+   "quiz": []
+  },
+  "avertissements": [
+   "Flux indisponibles : EDPB, ESA"
+  ],
+  "indisponibles": [],
+  "non_rediges": {}
+ },
+ "memoire": {
+  "date": "2026-11-07",
+  "nouveaux_mots": [
+   {
+    "mot": "Prolixe",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui s'exprime trop longuement ; bavard.",
+    "exemple": "Un rapport prolixe de deux cents pages."
+   },
+   {
+    "mot": "Probant",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui démontre, qui emporte la conviction.",
+    "exemple": "Les essais ne sont pas encore probants."
+   },
+   {
+    "mot": "Inférence",
+    "nature": "n. f.",
+    "niveau": "intermediaire",
+    "domaine": "pro",
+    "definition": "Opération qui tire une conclusion à partir de données ; en IA, production d'un résultat par un modèle.",
+    "exemple": "Le coût d'inférence des grands modèles."
+   },
+   {
+    "mot": "Psittacisme",
+    "nature": "n. m.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Répétition mécanique de mots sans les comprendre.",
+    "exemple": "Un apprentissage par psittacisme."
+   },
+   {
+    "mot": "Captation",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Fait de s'approprier quelque chose, souvent de façon détournée.",
+    "exemple": "La captation d'un héritage."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Faconde",
+    "definition": "Grande facilité de parole, souvent excessive."
+   },
+   {
+    "mot": "Pusillanime",
+    "definition": "Qui manque de courage, d'audace ; timoré."
+   },
+   {
+    "mot": "Prosopopée",
+    "definition": "Figure qui fait parler un absent, un mort ou une chose."
+   },
+   {
+    "mot": "Décote",
+    "definition": "Écart négatif entre la valeur d'un actif et sa valeur de référence ; réduction appliquée à cette valeur."
+   },
+   {
+    "mot": "Ténu",
+    "definition": "Très mince, très fin ; par extension, faible, à peine perceptible."
+   }
+  ],
+  "articles": [
+   "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
+   "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/",
+   "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
+   "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+   "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+   "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+   "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-avec-la-nouvelle-france-jean-luc-melenchon-fait-de-lecologie-la-cle-de-voute-de-son-programme",
+   "https://www.franceinfo.fr/societe/education/blocage-des-lycees/temoignages-ce-sont-des-blessures-de-guerre-trois-femmes-gravement-blessees-par-des-grenades-lancees-par-la-police-le-17-octobre-racontent-comment-leur-vie-a-bascule_8271329.html#xtor=RSS-3-[lestitres]",
+   "https://www.publicsenat.fr/actualites/politique/budget-2027-les-points-chauds-lors-des-debats-au-senat-du-9-au-17-novembre",
+   "https://www.lemonde.fr/societe/article/2026/11/06/dans-les-colleges-et-les-lycees-le-cauchemar-des-baisses-de-credits-depuis-la-rentree-il-y-a-des-dispositifs-qu-on-n-a-plus-les-moyens-de-financer_6807846_3224.html",
+   "https://www.franceinfo.fr/faits-divers/accident/deux-morts-une-enquete-ouverte-ce-que-l-on-sait-de-l-accident-de-car-pres-de-bourg-en-bresse-dans-l-ain_8270546.html#xtor=RSS-3-[lestitres]",
+   "https://www.franceinfo.fr/faits-divers/incendie-meurtrier-a-wintzenheim/la-proprietaire-du-gite-touche-par-un-incendie-meurtrier-en-2023-a-wintzenheim-sera-jugee-pour-homicides-et-blessures-involontaires_8271611.html#xtor=RSS-3-[lestitres]",
+   "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
+   "https://legrandcontinent.eu/fr/2026/11/06/face-aux-frappes-russes-incessantes-la-capitale-ukrainienne-peut-elle-tenir/",
+   "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in?traffic_source=rss",
+   "https://www.politico.eu/article/jared-kushner-european-security-plan-is-not-convincing-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "https://www.scmp.com/news/us/economy-trade-business/article/3373616/us-china-trade-chiefs-hold-call-ahead-trump-xi-summit-shenzhen",
+   "https://www.aljazeera.com/news/2026/11/7/cdc-reports-more-than-5000-measles-cases-highest-number-in-35-years?traffic_source=rss",
+   "https://www.nber.org/papers/w35964#fromrss",
+   "https://verfassungsblog.de/brazils-democracy-tomorrow/",
+   "https://www.pewresearch.org/short-reads/2026/11/06/a-first-look-at-polling-performance-in-2026/",
+   "https://www.pewresearch.org/short-reads/2026/11/06/majority-of-americans-say-social-media-companies-news-outlets-have-too-much-power-in-politics/",
+   "https://verfassungsblog.de/the-road-to-the-icc-prosecution-of-philippine-warlord-rodrigo-duterte/",
+   "https://verfassungsblog.de/defending-indigenous-territories-through-law-and-collective-power/",
+   "https://eutoday.net/europes-russia-sanctions-enter-a-new-phase/",
+   "https://euperspectives.eu/2026/11/russias-ship-inspector-scores-partial-court-win-against-eu-sanctions/",
+   "https://www.cnil.fr/fr/recherches-internes-sante-quelles-obligations",
+   "https://en.bloomingbit.io/feed/news/123842",
+   "https://www.carbonbrief.org/simply-staggering-rapidly-developing-super-el-nino-on-track-to-peak-in-december",
+   "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
+   "https://www.sciencesetavenir.fr/sante/voici-les-dangers-du-futur-selon-le-lancet_196014?xtor=RSS-16",
+   "https://www.sciencesetavenir.fr/nature-environnement/perou-saisie-de-milliers-de-mygales-destinees-au-trafic-vers-l-allemagne_195994?xtor=RSS-15",
+   "https://insideclimatenews.org/news/06112026/germany-launches-global-sf6-pledge-china-emissions/",
+   "https://lejournal.cnrs.fr/articles/pourquoi-aimons-nous-avoir-peur"
+  ],
+  "titres": [
+   "Inkling 2 Small : Thinking Machines vise la tête des modèles ouverts",
+   "Si l'AGI est proche, pourquoi les chercheurs quittent-ils les grands labos ?",
+   "Présidentielle 2027 : LFI place l'écologie en tête de son programme",
+   "Marseille, 17 octobre : trois femmes mutilées par des grenades policières",
+   "PLFSS 2027 : retraites, taxe sucre, étrangers, les points chauds au Sénat",
+   "Israël : les partis arabes, arbitres d'un scrutin sans majorité",
+   "Kiev sous les frappes russes : un réseau électrique à bout de souffle",
+   "Paraguay : Santiago Peña destitué, Pedro Alliana prête serment",
+   "Automatisation : qui épargnera pour les machines ? Étude du NBER",
+   "Brésil : réduire les pouvoirs individuels pour consolider la démocratie",
+   "Sanctions anti-russes : Bruxelles cible réseaux financiers et flotte fantôme",
+   "Sanctions de l'UE : le registre maritime russe obtient une annulation partielle",
+   "« Super El Niño » : un pic attendu en décembre et une année 2027 record",
+   "D'Einstein à PBR : trois théorèmes et ce qu'il reste de la réalité quantique"
+  ],
+  "solutions": {
+   "sudoku": [
+    5,
+    3,
+    8,
+    4,
+    9,
+    2,
+    6,
+    1,
+    7,
+    6,
+    7,
+    1,
+    3,
+    8,
+    5,
+    4,
+    9,
+    2,
+    2,
+    9,
+    4,
+    1,
+    7,
+    6,
+    8,
+    5,
+    3,
+    4,
+    2,
+    7,
+    9,
+    1,
+    3,
+    5,
+    6,
+    8,
+    8,
+    6,
+    5,
+    2,
+    4,
+    7,
+    1,
+    3,
+    9,
+    9,
+    1,
+    3,
+    5,
+    6,
+    8,
+    7,
+    2,
+    4,
+    3,
+    8,
+    2,
+    7,
+    5,
+    1,
+    9,
+    4,
+    6,
+    1,
+    4,
+    6,
+    8,
+    3,
+    9,
+    2,
+    7,
+    5,
+    7,
+    5,
+    9,
+    6,
+    2,
+    4,
+    3,
+    8,
+    1
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      10,
+      1
+     ],
+     [
+      0,
+      1,
+      3,
+      3
+     ],
+     [
+      0,
+      4,
+      2,
+      5
+     ],
+     [
+      0,
+      9,
+      6,
+      1
+     ],
+     [
+      2,
+      4,
+      4,
+      2
+     ],
+     [
+      2,
+      6,
+      5,
+      1
+     ],
+     [
+      2,
+      7,
+      6,
+      2
+     ],
+     [
+      3,
+      1,
+      4,
+      2
+     ],
+     [
+      3,
+      3,
+      7,
+      1
+     ],
+     [
+      6,
+      4,
+      4,
+      2
+     ],
+     [
+      6,
+      9,
+      2,
+      1
+     ],
+     [
+      7,
+      1,
+      2,
+      2
+     ],
+     [
+      7,
+      6,
+      3,
+      1
+     ],
+     [
+      8,
+      7,
+      2,
+      3
+     ],
+     [
+      9,
+      1,
+      1,
+      2
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     6,
+     1,
+     4,
+     5,
+     3,
+     2
+    ],
+    [
+     5,
+     4,
+     3,
+     2,
+     1,
+     6
+    ],
+    [
+     2,
+     3,
+     1,
+     6,
+     4,
+     5
+    ],
+    [
+     3,
+     5,
+     2,
+     1,
+     6,
+     4
+    ],
+    [
+     1,
+     2,
+     6,
+     4,
+     5,
+     3
+    ],
+    [
+     4,
+     6,
+     5,
+     3,
+     2,
+     1
+    ]
+   ],
+   "compte": [
+    "2 × 1 = 2",
+    "2 + 75 = 77",
+    "77 + 25 = 102",
+    "102 × 7 = 714"
+   ]
+  },
+  "reponses_quiz": []
+ },
+ "essai": false
+}
