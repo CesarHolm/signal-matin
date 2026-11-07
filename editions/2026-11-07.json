@@ -1,0 +1,357 @@
+{
+ "date": "2026-11-07",
+ "nouveaux_mots": [
+  {
+   "mot": "Prolixe",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui s'exprime trop longuement ; bavard.",
+   "exemple": "Un rapport prolixe de deux cents pages."
+  },
+  {
+   "mot": "Probant",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui démontre, qui emporte la conviction.",
+   "exemple": "Les essais ne sont pas encore probants."
+  },
+  {
+   "mot": "Inférence",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "pro",
+   "definition": "Opération qui tire une conclusion à partir de données ; en IA, production d'un résultat par un modèle.",
+   "exemple": "Le coût d'inférence des grands modèles."
+  },
+  {
+   "mot": "Psittacisme",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Répétition mécanique de mots sans les comprendre.",
+   "exemple": "Un apprentissage par psittacisme."
+  },
+  {
+   "mot": "Captation",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Fait de s'approprier quelque chose, souvent de façon détournée.",
+   "exemple": "La captation d'un héritage."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Faconde",
+   "definition": "Grande facilité de parole, souvent excessive."
+  },
+  {
+   "mot": "Pusillanime",
+   "definition": "Qui manque de courage, d'audace ; timoré."
+  },
+  {
+   "mot": "Prosopopée",
+   "definition": "Figure qui fait parler un absent, un mort ou une chose."
+  },
+  {
+   "mot": "Décote",
+   "definition": "Écart négatif entre la valeur d'un actif et sa valeur de référence ; réduction appliquée à cette valeur."
+  },
+  {
+   "mot": "Ténu",
+   "definition": "Très mince, très fin ; par extension, faible, à peine perceptible."
+  }
+ ],
+ "articles": [
+  "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
+  "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/",
+  "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
+  "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+  "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+  "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+  "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-avec-la-nouvelle-france-jean-luc-melenchon-fait-de-lecologie-la-cle-de-voute-de-son-programme",
+  "https://www.franceinfo.fr/societe/education/blocage-des-lycees/temoignages-ce-sont-des-blessures-de-guerre-trois-femmes-gravement-blessees-par-des-grenades-lancees-par-la-police-le-17-octobre-racontent-comment-leur-vie-a-bascule_8271329.html#xtor=RSS-3-[lestitres]",
+  "https://www.publicsenat.fr/actualites/politique/budget-2027-les-points-chauds-lors-des-debats-au-senat-du-9-au-17-novembre",
+  "https://www.lemonde.fr/societe/article/2026/11/06/dans-les-colleges-et-les-lycees-le-cauchemar-des-baisses-de-credits-depuis-la-rentree-il-y-a-des-dispositifs-qu-on-n-a-plus-les-moyens-de-financer_6807846_3224.html",
+  "https://www.franceinfo.fr/faits-divers/accident/deux-morts-une-enquete-ouverte-ce-que-l-on-sait-de-l-accident-de-car-pres-de-bourg-en-bresse-dans-l-ain_8270546.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/faits-divers/incendie-meurtrier-a-wintzenheim/la-proprietaire-du-gite-touche-par-un-incendie-meurtrier-en-2023-a-wintzenheim-sera-jugee-pour-homicides-et-blessures-involontaires_8271611.html#xtor=RSS-3-[lestitres]",
+  "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
+  "https://legrandcontinent.eu/fr/2026/11/06/face-aux-frappes-russes-incessantes-la-capitale-ukrainienne-peut-elle-tenir/",
+  "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in?traffic_source=rss",
+  "https://www.politico.eu/article/jared-kushner-european-security-plan-is-not-convincing-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.scmp.com/news/us/economy-trade-business/article/3373616/us-china-trade-chiefs-hold-call-ahead-trump-xi-summit-shenzhen",
+  "https://www.aljazeera.com/news/2026/11/7/cdc-reports-more-than-5000-measles-cases-highest-number-in-35-years?traffic_source=rss",
+  "https://www.nber.org/papers/w35964#fromrss",
+  "https://verfassungsblog.de/brazils-democracy-tomorrow/",
+  "https://www.pewresearch.org/short-reads/2026/11/06/a-first-look-at-polling-performance-in-2026/",
+  "https://www.pewresearch.org/short-reads/2026/11/06/majority-of-americans-say-social-media-companies-news-outlets-have-too-much-power-in-politics/",
+  "https://verfassungsblog.de/the-road-to-the-icc-prosecution-of-philippine-warlord-rodrigo-duterte/",
+  "https://verfassungsblog.de/defending-indigenous-territories-through-law-and-collective-power/",
+  "https://eutoday.net/europes-russia-sanctions-enter-a-new-phase/",
+  "https://euperspectives.eu/2026/11/russias-ship-inspector-scores-partial-court-win-against-eu-sanctions/",
+  "https://www.cnil.fr/fr/recherches-internes-sante-quelles-obligations",
+  "https://en.bloomingbit.io/feed/news/123842",
+  "https://www.carbonbrief.org/simply-staggering-rapidly-developing-super-el-nino-on-track-to-peak-in-december",
+  "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
+  "https://www.sciencesetavenir.fr/sante/voici-les-dangers-du-futur-selon-le-lancet_196014?xtor=RSS-16",
+  "https://www.sciencesetavenir.fr/nature-environnement/perou-saisie-de-milliers-de-mygales-destinees-au-trafic-vers-l-allemagne_195994?xtor=RSS-15",
+  "https://insideclimatenews.org/news/06112026/germany-launches-global-sf6-pledge-china-emissions/",
+  "https://lejournal.cnrs.fr/articles/pourquoi-aimons-nous-avoir-peur"
+ ],
+ "titres": [
+  "Inkling 2 Small : Thinking Machines vise la tête des modèles ouverts",
+  "Si l'AGI est proche, pourquoi les chercheurs quittent-ils les grands labos ?",
+  "Présidentielle 2027 : LFI place l'écologie en tête de son programme",
+  "Marseille, 17 octobre : trois femmes mutilées par des grenades policières",
+  "PLFSS 2027 : retraites, taxe sucre, étrangers, les points chauds au Sénat",
+  "Israël : les partis arabes, arbitres d'un scrutin sans majorité",
+  "Kiev sous les frappes russes : un réseau électrique à bout de souffle",
+  "Paraguay : Santiago Peña destitué, Pedro Alliana prête serment",
+  "Automatisation : qui épargnera pour les machines ? Étude du NBER",
+  "Brésil : réduire les pouvoirs individuels pour consolider la démocratie",
+  "Sanctions anti-russes : Bruxelles cible réseaux financiers et flotte fantôme",
+  "Sanctions de l'UE : le registre maritime russe obtient une annulation partielle",
+  "« Super El Niño » : un pic attendu en décembre et une année 2027 record",
+  "D'Einstein à PBR : trois théorèmes et ce qu'il reste de la réalité quantique"
+ ],
+ "solutions": {
+  "sudoku": [
+   5,
+   3,
+   8,
+   4,
+   9,
+   2,
+   6,
+   1,
+   7,
+   6,
+   7,
+   1,
+   3,
+   8,
+   5,
+   4,
+   9,
+   2,
+   2,
+   9,
+   4,
+   1,
+   7,
+   6,
+   8,
+   5,
+   3,
+   4,
+   2,
+   7,
+   9,
+   1,
+   3,
+   5,
+   6,
+   8,
+   8,
+   6,
+   5,
+   2,
+   4,
+   7,
+   1,
+   3,
+   9,
+   9,
+   1,
+   3,
+   5,
+   6,
+   8,
+   7,
+   2,
+   4,
+   3,
+   8,
+   2,
+   7,
+   5,
+   1,
+   9,
+   4,
+   6,
+   1,
+   4,
+   6,
+   8,
+   3,
+   9,
+   2,
+   7,
+   5,
+   7,
+   5,
+   9,
+   6,
+   2,
+   4,
+   3,
+   8,
+   1
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     10,
+     1
+    ],
+    [
+     0,
+     1,
+     3,
+     3
+    ],
+    [
+     0,
+     4,
+     2,
+     5
+    ],
+    [
+     0,
+     9,
+     6,
+     1
+    ],
+    [
+     2,
+     4,
+     4,
+     2
+    ],
+    [
+     2,
+     6,
+     5,
+     1
+    ],
+    [
+     2,
+     7,
+     6,
+     2
+    ],
+    [
+     3,
+     1,
+     4,
+     2
+    ],
+    [
+     3,
+     3,
+     7,
+     1
+    ],
+    [
+     6,
+     4,
+     4,
+     2
+    ],
+    [
+     6,
+     9,
+     2,
+     1
+    ],
+    [
+     7,
+     1,
+     2,
+     2
+    ],
+    [
+     7,
+     6,
+     3,
+     1
+    ],
+    [
+     8,
+     7,
+     2,
+     3
+    ],
+    [
+     9,
+     1,
+     1,
+     2
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    6,
+    1,
+    4,
+    5,
+    3,
+    2
+   ],
+   [
+    5,
+    4,
+    3,
+    2,
+    1,
+    6
+   ],
+   [
+    2,
+    3,
+    1,
+    6,
+    4,
+    5
+   ],
+   [
+    3,
+    5,
+    2,
+    1,
+    6,
+    4
+   ],
+   [
+    1,
+    2,
+    6,
+    4,
+    5,
+    3
+   ],
+   [
+    4,
+    6,
+    5,
+    3,
+    2,
+    1
+   ]
+  ],
+  "compte": [
+   "2 × 1 = 2",
+   "2 + 75 = 77",
+   "77 + 25 = 102",
+   "102 × 7 = 714"
+  ]
+ },
+ "reponses_quiz": []
+}
