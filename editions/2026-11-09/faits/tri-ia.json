@@ -1,0 +1,8 @@
+{
+ "developpes": [
+  {"id": "a5", "score": 9, "raison": "Anthropic maintient son introduction en bourse avant Thanksgiving malgré la baisse des marchés technologiques, avec une valorisation de 1 250 à 1 750 milliards de dollars et une levée de 80 à 100 milliards visée."},
+  {"id": "a8", "score": 8, "raison": "Benchmark Vals AI : GPT-6 Sol Daybreak atteint 80,8 % des objectifs d'attaque, et le modèle ouvert DeepSeek V4.1 Flash 72,8 % pour un dixième du coût ; l'écart entre modèles ouverts et fermés se réduit."},
+  {"id": "a6", "score": 7, "raison": "Étude d'un chercheur d'Anthropic : des IA repèrent la plupart des comportements problématiques d'agents, mais les réglages les plus poussés multiplient les fausses alertes."}
+ ],
+ "breves": []
+}

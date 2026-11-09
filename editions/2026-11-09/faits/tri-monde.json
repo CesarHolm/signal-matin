@@ -1,0 +1,15 @@
+{
+ "developpes": [
+  {"id": "a81", "score": 9, "raison": "Trump doit s'entretenir avec Xi et Poutine du dossier iranien et de la « dénucléarisation » ; blocus terrestre de l'Iran annoncé, Téhéran menace en cas de reprise des attaques américaines."},
+  {"id": "a43", "score": 8, "raison": "Les Européens, dont la France, participeront aux pourparlers ukrainiens d'Abou Dhabi, malgré les objections du Kremlin : premier cycle à trois depuis février."},
+  {"id": "a54", "score": 8, "raison": "Le Kremlin recrute des civils ordinaires pour mener des opérations de sabotage à travers l'Europe."},
+  {"id": "a52", "score": 7, "raison": "Élections de mi-mandat : les démocrates ont gagné plus de 500 sièges et fait basculer au moins 12 chambres législatives d'État."},
+  {"id": "a57", "score": 7, "raison": "Les dirigeants finlandais et norvégien critiqués pour leurs contacts avec Moscou, révélateurs d'une fracture européenne sur les négociations avec la Russie."},
+  {"id": "a41", "score": 6, "raison": "Nvidia lance une enquête interne sur son PDG, après des informations sur une relation avec une femme soupçonnée d'espionnage pour la Chine."}
+ ],
+ "breves": [
+  {"id": "a61", "titre": "Des frappes russes privent 600 000 personnes d'électricité dans l'est de l'Ukraine", "texte": "Volodymyr Zelensky réclame de nouvelles sanctions contre la Russie à la veille des pourparlers d'Abou Dhabi. Les frappes ont plongé dans le noir environ 600 000 personnes dans l'est du pays."},
+  {"id": "a68", "titre": "La Chine intègre plus vite son nouveau missile intercontinental DF-61", "texte": "Selon la télévision d'État CCTV, le DF-61 est passé de sa présentation publique à l'entraînement militaire de routine beaucoup plus vite que les missiles précédents. Un ancien chercheur de la Force de fusées de l'armée chinoise y voit une intégration plus efficace des missiles stratégiques."},
+  {"id": "a76", "titre": "La Moldavie met en service une nouvelle ligne électrique vers la Roumanie", "texte": "La présidente Maia Sandu annonce que deux autres lignes vers la Roumanie sont en préparation. L'objectif est de réduire la dépendance de la Moldavie à la Russie."}
+ ]
+}

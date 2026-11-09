@@ -1,0 +1,14 @@
+{
+ "developpes": [
+  {"id": "a40", "score": 8, "raison": "Contestation de la jeunesse qui s'étend à plusieurs pays européens, avec des manifestations coordonnées annoncées pour la fin novembre."},
+  {"id": "a24", "score": 7, "raison": "Proposition de loi socialiste visant à régulariser 300 000 travailleurs sans papiers, examinée en commission lundi."},
+  {"id": "a17", "score": 7, "raison": "Procès de trois policiers pour les violences infligées au producteur Michel Zecler, devant la cour criminelle de Paris à partir de lundi."},
+  {"id": "a25", "score": 6, "raison": "Fabien Roussel maintient sa candidature à la présidentielle malgré le ralliement de neuf députés communistes à Jean-Luc Mélenchon."},
+  {"id": "a27", "score": 5, "raison": "Accident de car dans l'Ain (deux morts) : le chauffeur, âgé de 26 ans, mis en examen pour homicide involontaire."}
+ ],
+ "breves": [
+  {"id": "a32", "titre": "Pas de semestre validé d'office pour les étudiants pendant la mobilisation", "texte": "Le ministre de l'Enseignement supérieur exclut toute validation automatique d'un semestre pour les étudiants touchés par la mobilisation sociale en cours. Le rattrapage des cours et la validation des examens posent un casse-tête proche de celui du baccalauréat, pour lequel le ministre de l'Éducation nationale a rejeté tout changement de calendrier."},
+  {"id": "a39", "titre": "Au Bourget, LFI met en scène sa « Nouvelle France »", "texte": "Samedi 7 novembre, La France insoumise a présenté la nouvelle édition de « L'Avenir en commun » au Bourget, dans une mise en scène de campagne. Jean-Luc Mélenchon s'y est adressé à la jeunesse ; le mouvement veut faire de ce programme le premier acte de la présidentielle de 2027."},
+  {"id": "a37", "titre": "Présidentielle 2027 : le nom de Christine Lagarde circule", "texte": "Depuis l'annonce de sa démission anticipée de la Banque centrale européenne, le nom de Christine Lagarde alimente les hypothèses pour la présidentielle de 2027. Le centre et la droite cherchent un leadership à l'approche de l'élection."}
+ ]
+}

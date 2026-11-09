@@ -1,0 +1,53 @@
+{
+ "resultats": [
+  {
+   "sport": "Tennis",
+   "affiche": "Alcaraz – Shelton",
+   "score": "7-6 [5], 7-5",
+   "competition": "Rolex Paris Masters (Masters 1000, circuit ATP), finale",
+   "source": "L'Équipe",
+   "url": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-domine-ben-shelton-en-finale-du-rolex-paris-masters-et-remporte-son-premier-masters-1000-a-paris/1742240#at_medium=RSS_feeds"
+  },
+  {
+   "sport": "Voile",
+   "affiche": "Route du Rhum 2026",
+   "score": "1. Tom Laperche, 6 jours, 13 heures et 27 minutes",
+   "competition": "Route du Rhum 2026, catégorie Ultim, arrivée à Pointe-à-Pitre ; nouveau record de la course",
+   "source": "RMC Sport",
+   "url": "https://rmcsport.bfmtv.com/voile/direct-route-du-rhum-2026-suivez-en-live-l-arrivee-de-la-course-en-guadeloupe-avec-la-victoire-attendue-de-tom-laperche_LN-202611070178.html"
+  },
+  {
+   "sport": "Rugby",
+   "affiche": "France – Fidji",
+   "score": "54-17",
+   "competition": "Championnat des nations (rugby à XV), 4e journée, à Lyon",
+   "source": "L'Équipe",
+   "url": "https://www.lequipe.fr/Rugby/Actualites/Appliquee-l-equipe-de-france-prend-nettement-le-dessus-sur-les-fidji-dans-le-championnat-des-nations/1742109#at_medium=RSS_feeds"
+  },
+  {
+   "sport": "Formule 1",
+   "affiche": "Grand Prix du Brésil",
+   "score": "1. Lando Norris, devant Max Verstappen et Isack Hadjar",
+   "competition": "Championnat du monde de Formule 1, course perturbée par la pluie ; Mercedes sacré champion du monde des constructeurs",
+   "source": "L'Équipe",
+   "url": "https://www.lequipe.fr/Formule-1/Actualites/Lando-norris-remporte-le-grand-prix-du-bresil-perturbe-par-la-pluie-isack-hadjar-termine-3e-mercedes-decroche-le-titre-constructeurs/1742290#at_medium=RSS_feeds"
+  },
+  {
+   "sport": "Tennis",
+   "affiche": "Halys – Herbert",
+   "score": "7-6 [3], 6-7 [4], 10-8",
+   "competition": "Rolex Paris Masters (Masters 1000, circuit ATP), finale du double ; victoire des Français contre Skupski – Harrison",
+   "source": "L'Équipe",
+   "url": "https://www.lequipe.fr/Tennis/Actualites/Quentin-halys-et-pierre-hugues-herbert-titres-en-double-du-rolex-paris-masters/1742206#at_medium=RSS_feeds"
+  }
+ ],
+ "a_suivre": [
+  {
+   "sport": "Tennis",
+   "affiche": "Sabalenka – Muchova",
+   "competition": "Finales WTA (circuit WTA)",
+   "source": "RMC Sport",
+   "url": "https://rmcsport.bfmtv.com/pari-sportif/pronos-paris-rmc-le-pari-du-jour-du-9-novembre-wta-finals_AN-202611080407.html"
+  }
+ ]
+}

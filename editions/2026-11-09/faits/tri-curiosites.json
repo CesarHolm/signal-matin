@@ -1,0 +1,14 @@
+{
+ "developpes": [
+  {"id": "a125", "score": 8, "raison": "Reconstitution de l'arbre généalogique de plus de 1,28 million de cellules d'un embryon de souris, à partir de l'ADN : méthode nouvelle et spectaculaire."},
+  {"id": "a151", "score": 8, "raison": "Le panel scientifique du GIEC est enlisé et manque de fonds à l'approche de la COP31 : enjeu pour la base scientifique des négociations climatiques."},
+  {"id": "a130", "score": 7, "raison": "Les « little red dots » révélés par James Webb restent une énigme : trous noirs, étoiles massives ou chaînon manquant dans la formation des galaxies."},
+  {"id": "a144", "score": 6, "raison": "La NASA attribue des contrats pour la base lunaire : livraisons robotiques, rover à propulsion nucléaire, services de lancement et infrastructures de surface."}
+ ],
+ "breves": [
+  {"id": "a149", "titre": "Le réchauffement amène la dengue jusque dans l'Himalaya", "texte": "Au Népal, le réchauffement transforme les montagnes : glaciers qui s'effondrent, permafrost qui glisse, barrages de glace qui libèrent de vastes lacs. Un effet plus discret s'ajoute : le recul du froid alpin permet aux moustiques porteurs de maladies, dont la dengue, de gagner les hautes altitudes."},
+  {"id": "a126", "titre": "Chants d'oiseaux : huit grands motifs acoustiques chez les passereaux", "texte": "L'analyse de près de 117 000 chants révèle que les mélodies des passereaux se répartissent entre huit grands motifs acoustiques. Selon ces travaux, l'environnement, le mode de vie et la reproduction façonnent ces mélodies."},
+  {"id": "a153", "titre": "Tom Laperche remporte la Route du Rhum en battant le record de la course", "texte": "Le skipper de 29 ans a rallié Pointe-à-Pitre dans la nuit de samedi à dimanche, en améliorant de 6 heures et 19 minutes le précédent chrono de référence."},
+  {"id": "a158", "titre": "Carlos Alcaraz remporte pour la première fois le Masters 1000 de Paris", "texte": "L'Espagnol, parfois imprécis, a fini par s'imposer pour la première fois en indoor à Paris, dimanche, en finale contre Ben Shelton."}
+ ]
+}
