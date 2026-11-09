@@ -1,0 +1,64 @@
+{
+ "id": "syn-a5",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a5.json",
+ "limite_caracteres": 3594,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 3594 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : The Decoder\nRubrique : IA\nDate du flux : 07/11/2026\nAuteur : Matthias Bastian\nTitre d'origine : Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation\n\nARTICLE :\nSOURCE 1 (The Decoder) :\nAnthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation\nAnthropic is pressing ahead with its IPO despite the tech selloff, accepting a lower valuation. The Claude developer wants to go public before Thanksgiving and raise $80–100 billion at a $1.25–1.75 trillion valuation, according to investors cited by the Financial Times. That tops the current $965 billion but falls short of the $2 trillion the most optimistic investors had hoped for. Annualized reported revenue now sits at about $81 billion, up from roughly $65 billion at the end of July.\nRising borrowing costs and heavy AI spending plans triggered a tech selloff this week. Democrats winning the US midterms accelerated it because they had promised to slow data center construction, including other measures. The Nasdaq 100 dropped 6.4 percent on Thursday but recovered somewhat on Friday.\nOpenAI also cut its funding-round target from $1.4 trillion to $1.25 trillion and recently raised only about a third of the $30 billion it originally sought.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now\n\nSOURCE 2 (TradingView) :\nAnthropic IPO to move forward despite tech selloff: FT\nAnthropic ANT is pressing ahead with its plans for a U.S. public listing this month and is even prepared to accept a lower-than-expected valuation amid investor worries over an ongoing tech selloff, The Financial Times reported, citing multiple investors in the AI startup.\nThe Claude maker is racing towards its much-anticipated initial public offering before the U.S. Thanksgiving holiday this month, the investors said, adding that the company is planning to raise $80B-$100B at a valuation of $1.25T-$1.75T.\nWhile that is a significant increase from its current $965B valuation, the target falls short of the doubled price tag investors had hoped for as recently as a month ago.\n“My view is they will price it very conservatively, call it $1.5tn, and go up from there,” said one large investor. Others taking part in the deal expected even a lower valuation of roughly $1.3T.\nAnthropic’s ANT scaled-back expectations coincide with a sharp decline in AI-related tech stocks over the recent weeks, a selloff that accelerated on Thursday when the Nasdaq 100 QQQM plunged 6.4% on worries over a potential slowdown in AI infrastructure buildout.\nBloomberg reported on Friday that OpenAI OPENAI, which recently delayed its IPO plans, completed a new private funding round of roughly $11B, valuing the ChatGPT maker at $1.25T, a sharp decline from $30B or more it initially sought at a $1.4T valuation.\nHowever, according to more than half a dozen Anthropic ANT investors, the company remains on track to go public even if its CEO Dario Amodei has to accept a price cut to achieve the goal.\n“It’s just one milestone along the way,” one early investor of the company said. “They should treat it like every other fundraise: a means to an end.”\nMultiple people familiar with Amodei’s thinking said that the CEO has shown little interest in beating Elon Musk’s SpaceX SPCX, which completed the largest ever IPO in June at a valuation of roughly $1.8T. “They don’t care about being bigger than SpaceX or maximizing the IPO,” one investor noted.\n“They’re donating the majority of their economics to charity anyway,” he added, referring to Anthropic co-founders’ intention to hand 80% of their personal equity in the company to charitable purposes.\nWith $150B in cash and liquid investments on its balance sheet, Anthropic ANT expects to raise enough funding so as not to sell equity again, people familiar with its thinking said.\n“Public markets are highly averse to dilution,” added another large investor. “When you are taking a company public, that should be the last time you tap equity capital markets. But it opens the window for debt.”\nJPMorgan JPM, which leads U.S. retail sales of company shares, is expected to hold an “information session” for prospective investors on November 13, the FT said. Anthropic ANT declined to comment on the report.DisclaimerContent provided by Seeking Alpha is intended for information purposes only, and that Seeking Alpha does not offer any personalist investment advice and is not a licensed securities dealer, broker, US investment adviser or investment bank.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

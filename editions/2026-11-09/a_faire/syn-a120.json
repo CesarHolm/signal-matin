@@ -1,0 +1,64 @@
+{
+ "id": "syn-a120",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a120.json",
+ "limite_caracteres": 3964,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3964 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : tovima.com\nRubrique : LCB-FT\nDate du flux : 07/11/2026\nTitre d'origine : Dirty Money: Bankers, Lawyers, Accountants Face Tougher Rules\n\nARTICLE :\nΜake us preferred on Google\nProfessionals such as bankers, owners of currency or cryptocurrency exchanges, lawyers and accountants could end up in the dock, even facing prison sentences, if they turn a blind eye in transactions such as those for granting golden visas to foreign clients and fail to notify the authorities when they have even a suspicion that the sums involved, usually large, are the proceeds of money laundering.\nThis change is being introduced along with a series of other provisions, aiming to create a stronger legal framework to combat money laundering within the first months of 2027.\nA separate chapter of the new framework includes a series of measures to quickly identify the real beneficial owners hiding behind corporate structures, often short-lived ones, and to put a stop to the creation of such “legal vehicles” fronted by “straw men” who pose as managers.\n“TA NEA Weekend” today reveals the major changes that are about to be legislated, with the aim of tackling the crime of laundering the proceeds of illegal activities more effectively, a problem that is not unique to Greece.\nThis complex task has been assigned to a working group of about 30 bodies, coordinated by the Anti-Money Laundering Authority, which in recent years has intervened in dozens of criminal cases, mapped suspicious money flows and has the know-how to deal with such criminal offenses.\nSafeguards\n“A superhuman effort is being made so that the draft law is delivered by the end of 2026 and the required process can move forward immediately,” says Charalambos Vourliotis, president of the Independent Anti-Money Laundering Authority and honorary deputy prosecutor of the Supreme Court.\n“With the new safeguards, the aim is for lawmakers, and indeed at a pan-European level, not to be left chasing after criminals who launder huge sums undisturbed, but to be able to prevent such offenses by using new, modern tools,” said sources familiar with the upcoming changes. The new legal framework will consist of 100 articles, with the goal of transforming the fight against dirty money in Greece from the first months of 2027.\nRecent cases, such as those involving the “To Horiatiko” bakery chain, Pizza Fan and the NGO Paidiki Chara, in which the defendants are also being investigated for money laundering, show the scale of a problem that is not only Greek.\n7 Changes\nAccording to information obtained by TA NEA, the main proposals and changes from the working group include the following:\n- The role of the Anti-Money Laundering Authority will be upgraded, with its participation in decision-making at the EU level.\n- The rules for combating money laundering will be unified across the EU, creating a new, broader regulatory framework.\n- The legal framework will be tightened for banks, investment firms, insurance companies, currency exchanges, cryptocurrency exchanges, lawyers, accountants and others involved in golden visa cases. How will this work?\nAccording to information, any of these professionals who suspect during a transaction that money laundering may be taking place must immediately notify the relevant authorities. Otherwise, they risk being held criminally liable themselves, facing even prison sentences.\n- Stricter safeguards will be introduced for legal entities, along with additional requirements to identify the real beneficial owners of various entities, in order to prevent them from being run by “straw men,” as happened for years in the recently uncovered “To Horiatiko” case.\n- Sanctions imposed across Europe will be linked to the anti-money laundering framework.\n- Stricter training requirements will be set for staff dealing with money laundering, with particular emphasis on four principles: skills, confidentiality, integrity and discretion.\n- The list of people required to submit asset declarations will be gradually expanded between 2027 and 2028 to include figures from professional sports. This will start with professional soccer, followed by other sports such as basketball and volleyball. The provision takes on particular importance following the recent arrests in the case of alleged fixed basketball games.\nEuropean Directive\nIt is worth noting that the legal framework on money laundering is based mainly on European directives. In Greece, the most recent law on combating money laundering has been in force since 2018, when the 2015 European directive was transposed into national law.\nSpecifically, this is Law 4557/2018 on the “Prevention and suppression of money laundering and terrorist financing and other provisions,” which incorporated Directive 2015/849/EU.\nHowever, that directive has been replaced by a newer one from 2024. As a result, Greece must now transpose the new European directive into national law by the first months of 2027. This is Directive (EU) 2024/1640, a key pillar of the new, unified European framework for preventing and combating money laundering and terrorist financing.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

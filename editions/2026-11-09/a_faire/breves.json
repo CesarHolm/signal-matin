@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a24\", \"source\": \"Le Monde\", \"titre\": \"Immigration : Une proposition de loi socialiste veut régulariser 300 000 travailleurs sans‑papiers\", \"resume\": \"Le texte du député PS de la Drôme Paul Christophle sera débattu en commission lundi 9 novembre. Il vise, sur le modèle espagnol, à accorder un titre de séjour à certains travailleurs étrangers. Une idée à laquelle une partie du patronat n’est pas hostile.\"}, {\"id\": \"a17\", \"source\": \"Le Monde\", \"titre\": \"L’affaire Michel Zecler, emblématique des violences policières, devant la justice\", \"resume\": \"A partir du lundi 9 novembre, trois policiers comparaissent devant la cour criminelle de Paris pour des violences infligées au producteur de musique, dont les images avaient choqué l’opinion en 2020.\"}, {\"id\": \"a81\", \"source\": \"Al Jazeera\", \"titre\": \"Iran war live: Trump to talk to Xi, Putin about Tehran, ‘denuclearization’\", \"resume\": \"Trump says Iran land blockade is now in effect as Tehran threatens to 'rain down hell' if US resumes attacks.\"}, {\"id\": \"a52\", \"source\": \"Politico\", \"titre\": \"Democratic thrashing redraws the map of state power\", \"resume\": \"Dems picked up more than 500 seats (and counting) and flipped at least 12 legislative chambers.\"}, {\"id\": \"a118\", \"source\": \"Rare Earth Exchanges\", \"titre\": \"China Rare Earth Export Controls November 10 Deadline Explained\", \"resume\": \"China Rare Earth Export Controls November 10 Deadline Explained Rare Earth Exchanges\"}, {\"id\": \"a125\", \"source\": \"Sciences et Avenir\", \"titre\": \"Une \\\"machine à écrire l’ADN\\\" retrace l’histoire de 1,28 million de cellules\", \"resume\": \"Grâce à une technologie permettant d’enregistrer les divisions cellulaires dans l’ADN, des chercheurs ont reconstitué l’arbre généalogique de plus de 1,28 million de cellules d’un embryon de souris.\"}, {\"id\": \"a130\", \"source\": \"Sciences et Avenir\", \"titre\": \"Les « little red dots » : une nouvelle énigme dans l’histoire de l’Univers\", \"resume\": \"Depuis leur découverte grâce au James-Webb, les « little red dots », de petits objets rouges de l’Univers lointain, passionnent les scientifiques. Cachent-ils des trous noirs, des étoiles massives ? Sont-ils un chaînon manquant dans la formation des galaxies ? Les hypothèses fusent.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

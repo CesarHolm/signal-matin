@@ -1,0 +1,64 @@
+{
+ "id": "syn-a25",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a25.json",
+ "limite_caracteres": 2500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 2500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Le Monde\nRubrique : France\nDate du flux : 08/11/2026\nAuteur : Le Monde avec AFP\nTitre d'origine : Présidentielle 2027 : Fabien Roussel ira « jusqu’au bout », malgré le ralliement de députés communistes à Mélenchon\n\nARTICLE :\nSOURCE 1 (Le Monde) :\nFabien Roussel a affirmé, dimanche 8 novembre, qu’il irait « jusqu’au bout » de sa candidature à l’élection présidentielle, malgré le choix de plusieurs députés communistes de soutenir Jean-Luc Mélenchon, mieux placé dans les sondages mais qui « ne gagnera jamais », selon le secrétaire national du Parti communiste français (PCF).\n« Oui, nous irons jusqu’au bout », a-t-il déclaré sur ICI et Franceinfo, rappelant que le Parti communiste avait fait le « choix démocratique » de le « désigner comme [son] candidat ».\nCette semaine, neuf députés du groupe communiste et ultramarin, dont trois membres du PCF, ont pourtant annoncé leur ralliement à la candidature de M. Mélenchon, qualifié dans tous les sondages pour un second tour face à Marine Le Pen, quand M. Roussel est crédité de 2 % à 3 % des intentions de vote.\nDes défections dont le dirigeant communiste « se serait bien passé » et qu’il « regrette », a reconnu le candidat communiste, car « dans une famille politique, quand il y a des choix qui sont pris, on les respecte, c’est une question d’honneur en politique ».\nDéterminé à maintenir sa candidature, M. Roussel a fait valoir ses « différences » avec le tribun « insoumis », en particulier sur l’énergie nucléaire. Il a aussi estimé que « Jean-Luc Mélenchon seul (…) ne ferait pas plus que 30 % » et donc qu’avec lui, « la gauche ne gagner[ait] jamais » face à l’extrême droite.\n\nSOURCE 2 (tv5monde) :\nPrésidentielle: malgré les défections, Roussel ira \"jusqu'au bout\"\nFabien Roussel a affirmé dimanche qu'il irait \"jusqu'au bout\" de sa candidature à la présidentielle, malgré le choix de plusieurs députés communistes de soutenir Jean-Luc Mélenchon, mieux placé dans les sondages mais qui \"ne gagnera jamais\" selon le patron du PCF.\n\"Oui, nous irons jusqu'au bout\", a-t-il déclaré sur ICI et franceinfo, rappelant que le Parti communiste avait fait le \"choix démocratique\" de le \"désigner comme (son) candidat\".\nPourtant cette semaine, neuf députés du groupe communiste et ultramarin (dont trois membres du PCF) ont annoncé leur ralliement à la candidature de M. Mélenchon, qualifié dans tous les sondages pour un second tour face à Marine Le Pen, quand M. Roussel est crédité de 2% à 3% des intentions de vote.\nDes défections dont le dirigeant communiste \"se serait bien passé\" et qu'il \"regrette\", a-t-il reconnu, car \"dans une famille politique, quand il y a des choix qui sont pris, on les respecte, c'est une question d'honneur en politique\".\nDéterminé à maintenir sa candidature, M. Roussel a fait valoir ses \"différences\" avec le tribun Insoumis, en particulier sur l'énergie nucléaire. Mais il a aussi estimé que \"Jean-Luc Mélenchon seul (...) ne ferait pas plus que 30%\" et donc qu'avec lui, \"la gauche ne gagnera(it) jamais\" face à l'extrême droite.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

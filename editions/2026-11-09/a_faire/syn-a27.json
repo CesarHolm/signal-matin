@@ -1,0 +1,64 @@
+{
+ "id": "syn-a27",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a27.json",
+ "limite_caracteres": 3474,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 3474 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : franceinfo\nRubrique : France\nDate du flux : 08/11/2026\nAuteur : Article rédigé par franceinfo France Télévisions\nTitre d'origine : Accident mortel dans l'Ain :le chauffeur mis en examen pour \"homicide involontaire\", annonce le parquet\n\nARTICLE :\nSOURCE 1 (franceinfo) :\nAccident mortel dans l'Ain :le chauffeur mis en examen pour \"homicide involontaire\", annonce le parquet\nLe chauffeur du car, âgé de 26 ans, avait déclaré s'être \"assoupi\" au volant. Une enfant de 7 ans et un jeune homme de 18 ans sont morts dans cet accident de ca.\nAlors que deux personnes, une fillette de 7 ans et un jeune majeur, sont mortes dans un accident de car, survenu vendredi, dans le secteur de Lent (Ain), le chauffeur du bus a été mis en examen dimanche 8 novembre, pour \"homicide et blessures involontaires\", a annoncé le parquet de Bourg-en-Bresse.\nLe chauffeur, âgé de 26 ans, sans antécédent judiciaire, avait déclaré s'être \"assoupi\" au volant. \"L’intéressé, à nouveau auditionné par les enquêteurs de la section de recherches de Lyon, a confirmé ses premières déclarations, à savoir qu’il avait pris son service très tôt le matin, s’était senti fatigué et s’était endormi avant le choc\", précise le parquet dimanche. \"En l’état de l’enquête, les qualifications initiales d’homicide et blessures routières ne sont pas retenues, compte tenu de l’absence de circonstances aggravantes\", selon la même source.\nL'homme a été placé sous contrôle judiciaire, \"avec, notamment, une interdiction de conduire et une obligation de soins\".\n- \n        \nvidéo Le domicile d'un policier visé par un incendie dans le Gers\n- \n        \nvidéo \"Il était apeuré, il était trempé tellement il avait couru\" : dans l'Oise, des habitants sauvent un cerf poursuivi par des chasseurs\n- Le butin de braquages d'usines de métaux précieux à Besançon, d'une valeur estimée à six millions d'euros, a été retrouvé\n- Dans le Var, une femme avoue avoir tué sa mère de 89 ans au fusil de chasse\n- Le lycéen de La Courneuve soupçonné d'avoir poignardé son camarade a été mis en examen et placé sous contrôle judiciaire\n\nSOURCE 2 (Le Monde) :\nLe chauffeur du car, dont la sortie de route, vendredi 6 novembre, dans l’Ain, a fait deux morts, une fillette de 7 ans et un jeune homme de 18 ans, ainsi que 29 blessés, a été mis en examen pour « homicide involontaire », a annoncé, dimanche 8 novembre, le parquet.\n« Le chauffeur, âgé de 26 ans, sans antécédent judiciaire, a été mis en examen ce jour des chefs d’homicide involontaire par conducteur de véhicule terrestre à moteur », a précisé la procureure de la République de Bourg-en-Bresse, Karine Malara, dans un communiqué.\nL’enquête avait d’abord été ouverte pour « homicide routier et blessures routières aggravées », mais ces qualifications n’ont pas été retenues « compte tenu de l’absence de circonstances aggravantes », comme un excès de vitesse ou une alcoolémie. L’homicide involontaire est passible de cinq ans d’emprisonnement, contre sept pour l’homicide routier.\nL’accident s’est produit vers 7 h 30 sur la départementale D22 à Lent, au sud de Bourg-en-Bresse. Le car, affrété par la région Auvergne-Rhône-Alpes, transportait 49 personnes, dont 23 mineurs. Il a « quitté la voie de droite pour se déporter sur sa gauche » et « percuté plusieurs arbres qui bordaient la chaussée avant de s’immobiliser dans le ravin », avait expliqué Karine Malara lors d’une conférence de presse. Le chauffeur, lui-même blessé et hospitalisé, « indique qu’il se serait assoupi » au volant et que, « lorsqu’il s’est réveillé, il s’est retrouvé de l’autre côté de la chaussée », avait rapporté la magistrate.\nTest d’alcoolémie et de stupéfiants négatifs\nLa fillette, de nationalité bosnienne, et un étudiant lyonnais de 18 ans sont morts. Trois personnes ont été hospitalisées en urgence absolue – le pronostic vital de deux d’entre elles est engagé – et 25 autres ont été plus légèrement blessées.\nEmployé en contrat à durée indéterminée « depuis peu de temps dans cette société », le conducteur avait été placé en garde à vue. Les premiers dépistages d’alcoolémie et de stupéfiants s’étaient révélés négatifs. Il avait déclaré aux enquêteurs qu’il circulait avec le régulateur de vitesse et respectait la limitation fixée à 70 kilomètres à l’heure. « Cet élément devra également faire l’objet de vérifications », avait souligné la procureure.\nLe chauffeur avait déjà été contrôlé négatif lors d’un contrôle inopiné à la mi-octobre, et son entreprise avait fait l’objet de 106 contrôles depuis 2024, selon le ministre des transports, Philippe Tabarot, qui s’est rendu sur les lieux vendredi.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

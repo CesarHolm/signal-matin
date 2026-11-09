@@ -1,0 +1,64 @@
+{
+ "id": "syn-a40",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a40.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Public Sénat\nRubrique : France\nDate du flux : 07/11/2026\nAuteur : Rédaction Public Sénat\nTitre d'origine : Mobilisation de la jeunesse : « Nous avons construit un État-providence qui fonctionne seulement pour les adultes », reconnaît cette eurodéputée\n\nARTICLE :\nÀ l’occasion de la présentation de la nouvelle édition de L’Avenir en commun, samedi 7 novembre, La France insoumise a transformé le Bourget en théâtre de campagne. Scénographie immersive, démonstration de force militante et discours de Jean-Luc Mélenchon résolument tourné vers la jeunesse, le mouvement entend faire de son programme le premier acte de la présidentielle de 2027. Reportage\nMobilisation de la jeunesse : « Nous avons construit un État-providence qui fonctionne seulement pour les adultes », reconnaît cette eurodéputée\nComme une traînée de poudre, ces dernières semaines, une multitude de mouvements sociaux se sont propagés à travers le continent. Parfois accompagnés de scènes de violence spectaculaires et de heurts, ils présentent aussi des similitudes de fond. En Italie, l’ampleur des manifestations, qui ont rassemblé de 250 000 à plus d’un million de personnes selon les sources, a pris de court le gouvernement Meloni. En France, le mouvement, parti d’une colère lycéenne, a pris de l’ampleur au fil des semaines jusqu’à atteindre 1,6 million de manifestants ce 5 novembre, jour de grève générale, selon les chiffres des syndicats (575 000 selon le ministère).\nUne convergence des luttes transfrontalières ?\nMalgré la diversité des contextes nationaux, la contestation s’articule autour de revendications partagées et d’une solidarité transfrontalière. « Ce sont des mots d’ordre qui traversent toute l’Europe, parce que c’est une situation finalement similaire, et donc avec une jeunesse qui se reconnaît dans les mouvements les uns des autres, avec une solidarité qui est très belle aussi », s’enthousiasme l’eurodéputée Emma Fourreau (France, La Gauche). Pour cette élue de La France insoumise, le mot d’ordre de la jeunesse européenne est bien commun : « C’est la défense du droit à l’avenir, à la fois des jeunes et des peuples en général, parce que ce sont les mêmes causes qui frappent partout en Europe : la crise du logement, le coût de la vie et le délabrement de l’éducation. » L’élue pointe du doigt des classes surchargées, un manque chronique de professeurs et des infrastructures scolaires dégradées, illustrées par des situations d’insalubrité dans les établissements.\nModèle social en crise et inflation\nDerrière cette colère, certains élus lisent une remise en cause des promesses non tenues de la démocratie libérale. C’est le cas de l’Italienne Elisabetta Gualmini : « [Les jeunes manifestants] veulent le capitalisme que les générations précédentes ont vécu », analyse l’eurodéputée (Renew Europe). Selon elle, la nouvelle génération fait face à un paradoxe intenable : on lui enjoint de s’investir et de se former, sans pour autant lui octroyer les conditions matérielles de son émancipation. « Nous avons construit un État-providence qui fonctionne seulement pour les adultes, pour les insiders, et pas pour les jeunes », regrette-t-elle. « En Italie, chaque personne qui naît a six grands-parents sur les épaules. »\nCette fracture générationnelle se superpose à une crise économique alimentée par une inflation persistante, s’établissant en moyenne à 3,8 % dans l’Union européenne, avec des pics à 4,2 % en Italie, 4,5 % en Belgique et jusqu’à 6,5 % en Roumanie. Pour l’eurodéputée belge Assita Kanko (N-VA/ECR), la solution ne réside pas dans un endettement ou des dépenses publiques incontrôlées, mais dans la relance de la compétitivité et du tissu productif, en s’inspirant notamment des recommandations du rapport Draghi. « L’État-providence est en train de s’effondrer parce que, dans beaucoup de pays, il y a des gens qui profitent du système sans contribuer », dénonce-t-elle. « On ne peut pas dépenser, dépenser, dépenser sans créer de la valeur et de la prospérité durable. »\nRéponse politique ou sécuritaire ?\nLa réponse politique à ces contestations interroge et divise les États membres de l’Union. En Italie, elle s’est traduite par une fermeté accrue et près de 600 arrestations. Face aux pillages, la présidente du Conseil, Giorgia Meloni, a même eu recours à l’armée. L’eurodéputée Elisabetta Gualmini, tout en condamnant fermement les actes de vandalisme et les violences, insiste sur le fait qu’une logique purement sécuritaire est vouée à l’échec. « Il faut penser à des mesures concrètes pour les jeunes », plaide cette élue Renew. Elle appelle ainsi à l’intégration immédiate d’une évaluation d’impact intergénérationnel dans les politiques publiques européennes.\nSur le volet sécuritaire, la question du maintien de l’ordre suscite de vifs débats. Assita Kanko, pour le groupe des Réformistes et Conservateurs européens, situé à la droite de l’hémicycle du Parlement européen, dénonce avec force les agressions répétées subies par les forces de police, qu’elle érige en garantes de l’autorité républicaine face aux casseurs. Pour elle, ces derniers sont l’expression d’une crise de l’éducation au sens moral et d’une « société où il n’y a plus de responsabilités ». L’eurodéputée belge critique en outre l’attitude de la gauche radicale, qu’elle accuse d’entretenir un climat d’impunité et d’avoir « infiltré » les manifestants. À l’inverse, l’insoumise Emma Fourreau rejette une telle lecture, fustigeant une « dénonciation à géométrie variable » et dénonçant une « violence policière » qu’elle juge disproportionnée. Elle justifie sa présence aux manifestations en France, comme celle du leader de La France insoumise Jean-Luc Mélenchon : « Notre place est toujours du côté de ceux qui manifestent pour leur dignité dans la vie. »\nQuelle réponse politique ?\nAu-delà de ces divergences idéologiques, un consensus émerge sur l’urgence d’investir dans le secteur de l’éducation. Qu’il s’agisse de l’Allemagne, confrontée à la plus grande pénurie d’enseignants à l’échelle européenne, ou de l’Italie et de la France, la revalorisation de la profession enseignante et l’amélioration des conditions d’apprentissage apparaissent désormais comme des leviers pour désamorcer la crise et redonner des perspectives à la jeunesse.\n« Le problème, c’est que [les enseignants] sont vraiment très peu payés », déplore Elisabetta Gualmini. « On ne peut pas prétendre que les enseignants soient présents et aillent dans les écoles, qu’ils se déplacent d’une région à l’autre, sans les payer plus et donc il faut donner une valeur sociale plus haute aux enseignants », conclut l’eurodéputée italienne, dans des débats qui rappellent ceux qui existent en France.\nUn article de Thibault Henocque – LCP Assemblée nationale à retrouver en intégralité ici",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

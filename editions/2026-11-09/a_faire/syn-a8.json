@@ -1,0 +1,64 @@
+{
+ "id": "syn-a8",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a8.json",
+ "limite_caracteres": 2500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 2500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 07/11/2026\nAuteur : Matthias Bastian\nTitre d'origine : The gap between open and closed AI models in cyber capabilities keeps shrinking\n\nARTICLE :\nThe gap between open and closed AI models in cyber capabilities keeps shrinking\nAI agents can break into realistic corporate networks on their own, Vals AI finds\nThe Vals CyberOffense benchmark simulates realistic corporate networks to test this. Each agent operates solo on an isolated attack machine, starting with nothing but a public web address and zero human help.\nGPT-6 Sol, part of OpenAI's restricted Daybreak cyber program, posted the best result at 80.8 percent of objectives. Deepseek V4.1 Flash 1017, a freely available open-weight model, isn't far behind at 72.8 percent and costs only about $3 per run instead of roughly $22. Once a model's weights are public, no provider can control or restrict how it's used, Vals researchers say.\nIn the harder Lighthouse test, Daybreak took over admin control of the first company, stole passwords, and used them to break into the second company. It completed 27 of 31 objectives in under three hours. Deepseek managed 21 objectives at a tenth of the cost and wasn't limited solely by safety guardrails.\nLonger runtimes turned out to be critical as well. Deepseek scored zero results in its first 25 million tokens and made most of its progress only after 100 million tokens. Short tests therefore underestimate the real potential of open models.\nVals points out that the same findings create an opportunity for defenders, because the very models that exploit vulnerabilities can help companies find and fix them first. Attacks on real networks are likely to increase in the coming months, according to Vals.\nOpen models close the gap fast, earlier studies confirm\nThe results align with a recent analysis by the UK's AI Security Institute (AISI) from July. The gap between open and closed frontier models in cyber capabilities has shrunk to four to seven months. For most of 2025, that gap still stood at six to ten months.\nOpen models are also much cheaper. A cyber-range run with Deepseek V4-Pro costs just $1.19 according to AISI, compared with $85 for Anthropic's Opus 4.5. The safety measures on the open models proved largely ineffective.\nA recent study by Anthropic also showed that the freely available model GLM-5-3 can build exploits at nearly the same level as the internal top model Mythos.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
