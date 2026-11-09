@@ -1,0 +1,24 @@
+{
+ "titre": "Cyberattaques par IA : les modèles ouverts rattrapent les modèles fermés",
+ "chapo": "Selon le banc d'essai Vals CyberOffense, des agents d'IA pénètrent seuls des réseaux d'entreprise simulés, et l'écart entre modèles ouverts et fermés se réduit.",
+ "sections": [
+  {
+   "intertitre": "Le test",
+   "texte": "Le banc d'essai Vals CyberOffense simule des réseaux d'entreprise réalistes. Chaque agent travaille seul sur une machine d'attaque isolée, avec pour seul point de départ une adresse web publique, sans aide humaine. Le meilleur résultat revient à GPT-6 Sol, intégré au programme cyber restreint Daybreak d'OpenAI, qui atteint 80,8 % des objectifs. Deepseek V4.1 Flash 1017, un modèle ouvert librement disponible, le suit de près avec 72,8 %, pour un coût d'environ 3 dollars par exécution contre environ 22 dollars."
+  },
+  {
+   "intertitre": "Le test le plus difficile",
+   "texte": "Dans l'épreuve Lighthouse, plus dure, Daybreak a pris le contrôle administrateur de la première entreprise, volé des mots de passe, puis s'en est servi pour pénétrer dans la seconde. Il a rempli 27 objectifs sur 31 en moins de trois heures. Deepseek en a atteint 21, pour un coût dix fois moindre, et n'était pas limité par les seuls garde-fous de sécurité. Vals note qu'un modèle aux poids publics échappe au contrôle de tout fournisseur. La durée d'exécution compte aussi : Deepseek n'a obtenu aucun résultat sur ses 25 premiers millions de jetons et n'a progressé surtout qu'après 100 millions. Les tests courts sous-estiment donc ces modèles."
+  },
+  {
+   "intertitre": "Un écart qui se resserre",
+   "texte": "Ces résultats rejoignent une analyse de l'AI Security Institute (AISI) britannique, publiée en juillet : l'écart de capacités cyber entre modèles ouverts et fermés de pointe est tombé à quatre à sept mois, contre six à dix mois durant l'essentiel de 2025. Selon l'AISI, une exécution en cyber-range avec Deepseek V4-Pro coûte 1,19 dollar, contre 85 pour Opus 4.5 d'Anthropic, et les mesures de sécurité des modèles ouverts se sont révélées largement inefficaces. Une étude d'Anthropic montre aussi que le modèle libre GLM-5-3 construit des exploits presque aussi bien que Mythos, son meilleur modèle interne."
+  },
+  {
+   "intertitre": "Défense et perspectives",
+   "texte": "Vals y voit aussi une occasion pour les défenseurs : les modèles capables d'exploiter des failles peuvent aider les entreprises à les trouver et à les corriger en premier. Vals s'attend toutefois à une hausse des attaques sur des réseaux réels dans les mois à venir."
+  }
+ ],
+ "synthese": "Les modèles ouverts, bien moins coûteux, approchent les meilleurs modèles fermés en cyberoffensive. Les défenseurs disposent des mêmes outils, mais Vals prévoit davantage d'attaques réelles.",
+ "republication": ""
+}

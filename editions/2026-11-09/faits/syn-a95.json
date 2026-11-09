@@ -1,0 +1,29 @@
+{
+ "titre": "Climat : fonder les pondérations des modèles sur les droits de propriété",
+ "chapo": "Trois économistes proposent de fonder les pondérations des modèles climatiques sur les droits de propriété et la négociation, plutôt que sur l'absence de transferts ou un critère d'équité.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Le changement climatique est un problème de bien public mondial : selon Samuelson, un tel problème n'a pas de solution efficace unique, mais un ensemble d'allocations efficaces aux conséquences distributives différentes. Il faut donc choisir des pondérations de bien-être entre pays pour le planificateur mondial des modèles. L'approche courante, celle des poids de Negishi, retient l'allocation efficace obtenue sans transferts internationaux et passe pour neutre sur le plan distributif, ce que des critiques jugent faux. L'alternative, des fonctions de bien-être averses aux inégalités, suppose selon ses détracteurs plus de redistribution que les pays n'en accepteraient. Les auteurs relèvent par ailleurs que les droits liés aux émissions sont de plus en plus contestés : avis consultatif de la Cour internationale de Justice en 2025 sur la responsabilité des États, recours de citoyens, procès de municipalités américaines contre des groupes pétroliers, paiements pour pertes et dommages dans les négociations internationales."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Les « poids de Coase » qu'ils proposent mènent toujours à une amélioration au sens de Pareto par rapport à l'allocation de référence : aucun pays n'y perd, ce qui n'est pas garanti avec les poids de Negishi. Passer du « droit de polluer » au « droit à l'absence de pollution » ne change guère l'inégalité entre pays, mais modifie la consommation de certains : +15 % par habitant en Afrique subsaharienne, -9 % en Afrique du Sud, moins de 2 % aux États-Unis et dans l'Union européenne. Les transferts annuels de l'allocation efficace atteignent 190 milliards de dollars avec le droit de polluer et 1 030 milliards avec le droit à l'absence de pollution. Dans ce second cas, l'Afrique subsaharienne reçoit 175 milliards et la Chine, qui paie le plus, 850 milliards. Les gains de consommation par habitant sont d'environ 1 % dans le premier régime et de 3 % dans le second."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Les auteurs construisent un modèle théorique statique où les émissions de chaque pays profitent à son économie mais créent un dommage global. Chaque régime de droits fixe une allocation de référence : l'équilibre de Nash pour le droit de polluer, zéro émission pour le droit à l'absence de pollution. Une négociation de Nash donne ensuite l'allocation efficace, dont les poids dérivent, comme ceux de Negishi, de l'inverse de l'utilité marginale de la consommation. Le modèle est appliqué à un modèle d'évaluation intégrée statique inspiré de RICE et de C-DICE, avec des poids de négociation fondés sur le PIB."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Les transferts ne traduisent pas un choix de redistribution : ils reflètent le partage négocié du surplus, selon le principe du bénéficiaire payeur pour le droit de polluer et du pollueur payeur pour le droit à l'absence de pollution. Les pays dont les émissions rapportent beaucoup au regard des dommages, comme la Russie, l'Afrique du Sud ou la Chine, préfèrent le droit de polluer ; ceux dont les dommages dominent, comme l'Afrique subsaharienne ou le Brésil, préfèrent l'autre. Certains pays, dont l'Afrique du Sud, la Russie, la Chine et le Canada, préfèrent même la situation de référence du droit de polluer à l'allocation efficace du régime opposé. Contester les droits peut donc leur sembler plus important que traiter le problème climatique. Les montants rappellent les 300 milliards de dollars annuels de la COP29 et les 1 300 milliards réclamés par les pays en développement."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Les auteurs jugent leur application quantitative relativement simple et appellent à un modèle dynamique, à d'autres solutions de négociation et à d'autres références, comme les responsabilités historiques. Ils n'étudient pas les instruments de politique nécessaires, par exemple taxes carbone ou marché de permis. Ils notent enfin que les allocations dépendent des dotations initiales, d'où d'éventuelles réserves d'équité."
+  }
+ ],
+ "synthese": "Les auteurs proposent d'ancrer les pondérations climatiques dans les droits de propriété et la négociation, ce qui garantit un gain pour chaque pays. Leur modèle simple montre que l'enjeu de ces droits est considérable pour certains, d'où les contestations actuelles.",
+ "republication": "",
+ "reference": "Simon F. Lang (ETH Zurich, CESifo), Matthew D. Gordon (Paris School of Economics, École normale supérieure, Université PSL) et Matthew J. Kotchen (Yale University, NBER) ; NBER Working Paper n° 35971, octobre 2026 ; document de travail non relu par des pairs."
+}

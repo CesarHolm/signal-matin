@@ -1,0 +1,25 @@
+{
+ "titre": "Inde : la démocratisation des villages dépend de l'accès au crédit",
+ "chapo": "Deux économistes montrent que le passage à la démocratie dans les villages indiens n'a pas les mêmes effets sur les biens publics selon la part de paysans sans terre et la présence de banques.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Les biens publics (routes, irrigation, écoles) peuvent accélérer le développement, mais leur composition dépend de qui décide : les seuls propriétaires terriens ou l'ensemble de la communauté. Les auteurs étudient comment la démocratisation, c'est-à-dire le passage d'un pouvoir détenu par un sous-ensemble à un vote de tous les membres, change cette composition et, par elle, l'économie. Les travaux existants sur le lien entre démocratie et croissance donnent des résultats contrastés, et supposent le plus souvent un effet identique partout, hypothèse que les auteurs jugent probablement fausse. Ils cherchent donc les mécanismes, en distinguant deux groupes aux intérêts différents, propriétaires et sans-terre, et en faisant varier la facilité d'accès à l'entrepreneuriat non agricole."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Sans banque, la démocratie augmente en moyenne les programmes d'emploi, réduit l'investissement dans les écoles et n'a pas d'effet significatif sur le revenu des entreprises. Une hausse de 10 points de la part de sans-terre entraîne une hausse de 11 points des programmes d'emploi en démocratie par rapport à l'oligarchie, mais de 2,6 points seulement en présence d'une banque. La présence d'une banque compense presque entièrement la baisse des constructions d'écoles liée à la démocratie, et, avec une banque, la démocratie construit d'autant plus d'écoles que la part de sans-terre est grande. Une hausse de 10 % de cette part réduit le revenu non agricole de 158 roupies par ménage en démocratie sans crédit, mais l'augmente de 42 roupies avec crédit. Le calendrier compte aussi : la bascule vers la démocratie a été retardée dans les villages où la part de sans-terre était plus grande."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Les auteurs bâtissent un modèle d'équilibre général d'un village, avec un secteur agricole et un secteur non agricole dont l'entrée exige un capital, donc du crédit. Ils le calibrent avec des enquêtes auprès des ménages et un panel annuel de villages indiens de 1971 à 2006, soit 242 villages présents dans les quatre vagues d'enquête. Les enquêtes de 1999-2000 et 2006-2008 ont recueilli, auprès d'informateurs locaux, l'historique de l'instance qui décide des ressources communes. Un village est jugé démocratique s'il a un panchayat élu et si des élections ont eu lieu : 76 % des villages de l'échantillon en avaient un en 1999, contre 62 % en 1982. Les réformes, d'abord dans quelques États, puis inscrites dans la Constitution nationale et pleinement effectives en 1996, ont poussé les villages à se démocratiser. Pour traiter l'endogénéité, ils utilisent comme instruments le calendrier des amendements adoptés par les États et au niveau national, et pour la présence de banques une approche par fonction de contrôle."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Les banques accordent aux entreprises non agricoles des prêts à des taux nettement inférieurs à ceux des sources informelles, et ces prêts atteignent un volume total comparable à celui des prêts agricoles. Grâce à elles, les sans-terre capables peuvent devenir entrepreneurs, leurs intérêts se rapprochent de ceux des propriétaires et ils soutiennent davantage l'école que les politiques de salaires. Selon les auteurs, il n'existe donc pas de réponse unique à la question de savoir si la démocratie favorise la croissance : cela dépend. Un transfert monétaire important financé de l'extérieur aux sans-terre, simulé avec une part de sans-terre de 0,6, accroît la construction d'écoles en démocratie mais la réduit en oligarchie. Les auteurs en tirent qu'il faut être prudent quant à la validité externe d'une intervention à grande échelle documentée en un seul lieu."
+  }
+ ],
+ "synthese": "Selon cette étude, la démocratisation des villages n'a pas d'effet uniforme : elle réduit les écoles sans crédit et les augmente avec crédit. Les politiques de développement, comme les transferts, ont donc des effets qui dépendent du régime politique et de l'accès au crédit.",
+ "republication": "",
+ "reference": "Andrew D. Foster (Brown University, NBER) et Mark R. Rosenzweig (Yale University, NBER) ; NBER Working Paper n° 35972, octobre 2026 ; document de travail non relu par des pairs."
+}
