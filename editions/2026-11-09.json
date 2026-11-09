@@ -1,0 +1,351 @@
+{
+ "date": "2026-11-09",
+ "nouveaux_mots": [
+  {
+   "mot": "Fastidieux",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui ennuie par sa monotonie ou sa longueur.",
+   "exemple": "Un travail de saisie fastidieux."
+  },
+  {
+   "mot": "Loquace",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui parle volontiers et beaucoup.",
+   "exemple": "Peu loquace d'habitude, il se montra intarissable."
+  },
+  {
+   "mot": "Inopiné",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qui arrive sans qu'on s'y attende ; imprévu.",
+   "exemple": "Une visite inopinée de l'inspection."
+  },
+  {
+   "mot": "Fongible",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Se dit de biens interchangeables, qui peuvent être remplacés par d'autres de même nature et quantité.",
+   "exemple": "L'argent est le bien fongible par excellence."
+  },
+  {
+   "mot": "Gnomique",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Qui exprime des vérités morales sous forme de sentences ou de maximes.",
+   "exemple": "La poésie gnomique d'Hésiode."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Coruscant",
+   "definition": "Qui brille d'un vif éclat ; au figuré, brillant, éclatant."
+  },
+  {
+   "mot": "Sporadique",
+   "definition": "Qui se produit de façon irrégulière, isolée, par intervalles."
+  },
+  {
+   "mot": "Ténu",
+   "definition": "Très mince, très fin ; par extension, faible, à peine perceptible."
+  },
+  {
+   "mot": "Fuligineux",
+   "definition": "Qui a la couleur ou l'aspect de la suie ; au figuré, obscur, confus."
+  },
+  {
+   "mot": "Titrisation",
+   "definition": "Technique financière qui transforme des créances peu liquides en titres négociables sur un marché."
+  }
+ ],
+ "articles": [
+  "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+  "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+  "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+  "https://www.publicsenat.fr/actualites/politique/mobilisation-de-la-jeunesse-nous-avons-construit-un-etat-providence-qui-fonctionne-seulement-pour-les-adultes-reconnait-cette-eurodeputee",
+  "https://www.lemonde.fr/election-presidentielle-2027/article/2026/11/08/presidentielle-2027-fabien-roussel-ira-jusqu-au-bout-malgre-le-ralliement-de-deputes-communistes-a-melenchon_6808471_6205049.html",
+  "https://www.franceinfo.fr/faits-divers/apres-l-accident-de-car-ayant-cause-la-mort-de-deux-personnes-dans-l-ain-le-chauffeur-mis-en-examen-pour-homicide-involontaire-annonce-le-parquet_8273654.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/societe/article/2026/11/08/l-affaire-michel-zecler-emblematique-des-violences-policieres-devant-la-justice_6808454_3224.html",
+  "https://www.lemonde.fr/societe/article/2026/11/08/immigration-une-proposition-de-loi-socialiste-veut-regulariser-300-000-travailleurs-sans-papiers_6808461_3224.html",
+  "https://www.franceinfo.fr/societe/education/blocage-des-lycees/le-ministre-de-l-enseignement-superieur-exclut-tout-semestre-valide-d-office-pour-les-etudiants-pendant-la-mobilisation-sociale-en-cours_8273630.html#xtor=RSS-3-[lestitres]",
+  "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+  "https://www.politico.eu/article/russia-hybrid-war-europe-low-level-agents/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.politico.eu/article/vladimir-putin-europe-rift-russia-ukraine-war/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.politico.com/news/2026/11/08/democratic-thrashing-redraws-the-map-of-state-power-01154607",
+  "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss",
+  "https://www.politico.eu/article/russian-strikes-leave-600000-in-the-dark-in-eastern-ukraine-dnipropetrovsk/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.nber.org/papers/w35972#fromrss",
+  "https://www.nber.org/papers/w35971#fromrss",
+  "https://www.tovima.com/society/dirty-money-bankers-lawyers-accountants-face-tougher-rules/",
+  "https://ritzherald.com/treasury-sanctions-eight-canadian-money-services-businesses-enabling-iranian-regime-sanctions-evasion/",
+  "https://newscord.org/article/fincen-cuts-off-mexc-global-from-us-financial-system-over-16-billion-illicit-flo--Story_20261106_USTreasurycutsoffMEXf4e932e4",
+  "https://www.frontieresmedia.fr/politique/detournement-de-fonds-publics-le-pnf-ouvre-officiellement-une-enquete-contre-bally-bagayoko-le-ma---19380",
+  "https://insideclimatenews.org/news/07112026/un-ipcc-funding-crunch-ahead-of-cop31/",
+  "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+  "https://www.sciencesetavenir.fr/espace/astrophysique/les-petits-points-rouges-demangent-les-astrophysiciens_195845?xtor=RSS-9",
+  "https://www.sciencesetavenir.fr/fondamental/une-machine-a-ecrire-l-adn-retrace-l-histoire-de-1-28-million-de-cellules_195764?xtor=RSS-10",
+  "https://insideclimatenews.org/news/07112026/nepal-himalayas-dengue-fever/",
+  "https://www.sciencesetavenir.fr/animaux/117-000-chants-etudies-pour-comprendre-pourquoi-les-oiseaux-chantent-differemment_195855?xtor=RSS-26"
+ ],
+ "titres": [
+  "Anthropic maintient son introduction en Bourse malgré la chute de la tech",
+  "Cyberattaques par IA : les modèles ouverts rattrapent les modèles fermés",
+  "Auditeurs d'IA : la plupart des dérives détectées, mais trop de fausses alertes",
+  "Colère de la jeunesse en Europe : trois eurodéputés, trois lectures",
+  "Présidentielle 2027 : Roussel maintient sa candidature malgré les défections",
+  "Accident de car dans l'Ain : chauffeur mis en examen pour homicide involontaire",
+  "Ukraine : l'Europe sera présente aux pourparlers d'Abou Dhabi malgré le Kremlin",
+  "Ces « agents jetables » qui font le sale travail de la Russie en Europe",
+  "L'appel à Poutine de Stubb et Støre révèle les divisions de l'Europe",
+  "Inde : la démocratisation des villages dépend de l'accès au crédit",
+  "Climat : fonder les pondérations des modèles sur les droits de propriété",
+  "Grèce : banquiers et juristes face à des règles anti-blanchiment durcies",
+  "Le Trésor américain sanctionne huit sociétés canadiennes liées à l'Iran",
+  "Le GIEC, bloqué et à court de budget, à la veille de la COP31",
+  "NASA : contrats et missions pour construire la base lunaire Moon Base"
+ ],
+ "solutions": {
+  "sudoku": [
+   8,
+   9,
+   1,
+   2,
+   6,
+   7,
+   4,
+   3,
+   5,
+   3,
+   4,
+   2,
+   1,
+   9,
+   5,
+   6,
+   7,
+   8,
+   5,
+   7,
+   6,
+   8,
+   3,
+   4,
+   9,
+   2,
+   1,
+   6,
+   3,
+   4,
+   9,
+   2,
+   8,
+   1,
+   5,
+   7,
+   9,
+   8,
+   7,
+   5,
+   1,
+   6,
+   2,
+   4,
+   3,
+   2,
+   1,
+   5,
+   4,
+   7,
+   3,
+   8,
+   6,
+   9,
+   7,
+   2,
+   8,
+   3,
+   4,
+   9,
+   5,
+   1,
+   6,
+   1,
+   5,
+   3,
+   6,
+   8,
+   2,
+   7,
+   9,
+   4,
+   4,
+   6,
+   9,
+   7,
+   5,
+   1,
+   3,
+   8,
+   2
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     7,
+     1
+    ],
+    [
+     0,
+     1,
+     3,
+     2
+    ],
+    [
+     0,
+     3,
+     5,
+     2
+    ],
+    [
+     0,
+     5,
+     6,
+     2
+    ],
+    [
+     0,
+     7,
+     3,
+     2
+    ],
+    [
+     0,
+     9,
+     10,
+     1
+    ],
+    [
+     3,
+     1,
+     4,
+     1
+    ],
+    [
+     3,
+     2,
+     6,
+     1
+    ],
+    [
+     3,
+     7,
+     3,
+     2
+    ],
+    [
+     5,
+     3,
+     5,
+     2
+    ],
+    [
+     6,
+     5,
+     3,
+     2
+    ],
+    [
+     6,
+     7,
+     4,
+     2
+    ],
+    [
+     7,
+     0,
+     3,
+     2
+    ],
+    [
+     9,
+     2,
+     1,
+     1
+    ],
+    [
+     9,
+     5,
+     1,
+     2
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    1,
+    4,
+    5,
+    2,
+    3,
+    6
+   ],
+   [
+    5,
+    6,
+    1,
+    3,
+    2,
+    4
+   ],
+   [
+    6,
+    3,
+    4,
+    5,
+    1,
+    2
+   ],
+   [
+    3,
+    5,
+    2,
+    6,
+    4,
+    1
+   ],
+   [
+    2,
+    1,
+    3,
+    4,
+    6,
+    5
+   ],
+   [
+    4,
+    2,
+    6,
+    1,
+    5,
+    3
+   ]
+  ],
+  "compte": [
+   "7 × 75 = 525",
+   "525 − 3 = 522",
+   "522 + 10 = 532",
+   "532 − 1 = 531"
+  ]
+ },
+ "reponses_quiz": []
+}
