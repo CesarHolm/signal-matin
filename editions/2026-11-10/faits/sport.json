@@ -1,0 +1,54 @@
+{
+  "resultats": [
+    {
+      "sport": "Tennis",
+      "affiche": "Andreeva – Svitolina",
+      "score": "6-4 6-0",
+      "competition": "Finales WTA (circuit WTA), 1re journée",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/Mirra-andreeva-clinique-face-a-elina-svitolina-pour-son-entree-en-lice-aux-finales-wta/1742663#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Tennis",
+      "affiche": "Sabalenka – Muchová",
+      "score": "7-6 [2], 7-5",
+      "competition": "Finales WTA (circuit WTA), 1re journée",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/Aryna-sabalenka-hausse-le-ton-et-bat-karolina-muchova-lors-de-son-entree-en-lice-aux-finales-wta/1742655#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Rugby à XV",
+      "affiche": "La Rochelle – Bayonne",
+      "score": "22-18",
+      "competition": "Top 14 (championnat de France), 9e journée",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Rugby/Actualites/La-rochelle-s-impose-dans-la-douleur-contre-bayonne-et-lui-passe-devant-au-classement/1742388#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Rugby à XV",
+      "affiche": "Afrique du Sud – Italie",
+      "score": "66-7",
+      "competition": "Championnat des nations (sélections)",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Rugby/Actualites/L-afrique-du-sud-avec-ses-cadres-pour-affronter-la-france-en-championnat-des-nations/1742472#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Formule 1",
+      "affiche": "Mercedes",
+      "score": "titre constructeurs, le neuvième de son histoire",
+      "competition": "Championnat du monde de Formule 1 (constructeurs)",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Formule-1/Actualites/Le-palmares-du-championnat-du-monde-apres-le-titre-de-mercedes/1742438#at_medium=RSS_feeds"
+    }
+  ],
+  "a_suivre": [
+    {
+      "sport": "Football",
+      "affiche": "Paris FC – Real Madrid",
+      "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue, 4e journée",
+      "heure": "18 h 45",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Football/Actualites/L-entraineuse-du-paris-fc-sandrine-soubeyrand-avant-le-deplacement-sur-le-terrain-du-real-madrid-on-va-jouer-autrement-avec-d-autres-qualites/1742543#at_medium=RSS_feeds"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a106",
+      "score": 9,
+      "raison": "Iran : Trump évoque un « élan positif » vers un accord après sa rencontre avec le premier ministre qatari, sur la base d'une proposition de cessez-le-feu."
+    },
+    {
+      "id": "a101",
+      "score": 8,
+      "raison": "Ukraine : reprise des discussions entre Russes, Ukrainiens et Américains, Zelensky affirmant des succès sur le terrain."
+    },
+    {
+      "id": "a66",
+      "score": 7,
+      "raison": "États-Unis : procédure de destitution contre le ministre de la Défense Pete Hegseth, lancée par le républicain Thomas Massie à propos de la guerre en Iran."
+    },
+    {
+      "id": "a90",
+      "score": 7,
+      "raison": "Chine-États-Unis : l'affaire Nvidia pourrait tester la trêve fragile entre Washington et Pékin, avant la rencontre attendue entre Trump et Xi."
+    },
+    {
+      "id": "a64",
+      "score": 6,
+      "raison": "Cyberattaque des frigos de supermarchés attribuée à l'Iran par la France (réserve, sujet aussi traité dans le bloc France)."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a69",
+      "titre": "Trump nomme Stephen Miller comme nouveau chef de cabinet",
+      "texte": "Le président américain a désigné Stephen Miller à ce poste, un signal de sa volonté de faire face à l'opposition. Les républicains ne gardent le contrôle du Congrès que pendant quelques semaines."
+    },
+    {
+      "id": "a78",
+      "titre": "Espagne : le retour de la droite pourrait relancer le séparatisme catalan",
+      "texte": "Le mouvement indépendantiste catalan, largement en sommeil depuis 2017-2018, pourrait reprendre vigueur si le Parti populaire et Vox remportent les élections du 29 novembre."
+    },
+    {
+      "id": "a95",
+      "titre": "Lituanie : discussions avec Taïwan sur le renommage de son bureau à Vilnius",
+      "texte": "Le président lituanien confirme des échanges avec Taïwan pour changer le nom d'un bureau de représentation controversé à Vilnius. Il estime que son gouvernement n'est pas tenu de suivre des politiques antérieures à son arrivée."
+    }
+  ]
+}

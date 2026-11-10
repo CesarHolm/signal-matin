@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a122",
+      "score": 8,
+      "raison": "Économie et social (NBER) : dans 600 villages indonésiens, cibler les ménages les plus pauvres en consommation manque 77 % des ménages à plus forte valeur sociale marginale."
+    },
+    {
+      "id": "a117",
+      "score": 7,
+      "raison": "BCE (document de travail) : mesure de l'efficacité de la supervision du risque de crédit, à partir de 8 106 mesures de 2016 à 2025, analysées par LLM."
+    },
+    {
+      "id": "a118",
+      "score": 7,
+      "raison": "Réserve fédérale (FEDS Notes) : après les droits de douane de 2025, exportations canadiennes vers les États-Unis en baisse d'environ 10 %, mexicaines en hausse d'environ 16 %."
+    },
+    {
+      "id": "a129",
+      "score": 6,
+      "raison": "NBER : méta-analyse bayésienne de 49 études sur les programmes Graduation contre la pauvreté, avec des gains économiques et psychosociaux."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a133",
+      "titre": "Bons alimentaires devenus gratuits : +25 % d'inscrits, sans gain de santé infantile mesuré",
+      "texte": "Une étude NBER sur la réforme de 1979, qui a porté la subvention des bons alimentaires de 65 % à 100 %, constate une hausse des inscriptions de 1,85 point, soit environ 25 %. Les nouveaux inscrits sont nettement plus pauvres, et aucune amélioration de la santé infantile n'est détectée."
+    },
+    {
+      "id": "a119",
+      "titre": "Crédit privé américain : des estimations de taille très variables",
+      "texte": "Selon une note de la Réserve fédérale, les estimations de la taille du marché du crédit privé américain divergent fortement. L'expression recouvre en effet des instruments, des stratégies et des intermédiaires différents."
+    },
+    {
+      "id": "a120",
+      "titre": "Réserves d'or : le lieu de conservation reflète en partie le risque de sanctions",
+      "texte": "Une note de la Réserve fédérale examine les déplacements de réserves d'or de banques centrales aux Pays-Bas, en France et en Allemagne depuis 2013. Le choix de la juridiction de conservation tient en partie au risque perçu de sanctions ou d'expropriation, avec la proximité des marchés."
+    },
+    {
+      "id": "a136",
+      "titre": "Tribunal constitutionnel : la suspension de sa présidence jugée douteuse",
+      "texte": "Dans une tribune du Verfassungsblog, l'auteur juge douteuse la légalité de la décision du 30 octobre 2026 suspendant le président et le vice-président du Tribunal constitutionnel. Il estime qu'il faut reconstruire la légitimité, la crédibilité et l'autorité de l'institution."
+    }
+  ]
+}

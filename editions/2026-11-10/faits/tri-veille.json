@@ -1,0 +1,31 @@
+{
+  "developpes": [
+    {
+      "id": "a144",
+      "score": 8,
+      "raison": "RGPD et cybersécurité (CNIL) : dix sanctions simplifiées contre des collectivités territoriales et un établissement public pour des manquements à la cybersécurité."
+    },
+    {
+      "id": "a153",
+      "score": 8,
+      "raison": "NIS 2 (LCP) : les secteurs « hautement critiques » vont être inscrits dans la loi, projet de loi débattu à l'Assemblée nationale."
+    },
+    {
+      "id": "a167",
+      "score": 7,
+      "raison": "Sanctions et export (National Law Review) : défaillances de due diligence sanctionnées par un accord OFAC, et premier accord « near miss » du DOJ."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a160",
+      "titre": "Cyberattaque des frigos de supermarchés : la France met en cause l'Iran",
+      "texte": "La France attribue à l'Iran la cyberattaque visant des installations de réfrigération de supermarchés et demande des sanctions au niveau de l'Union européenne."
+    },
+    {
+      "id": "a173",
+      "titre": "Terres rares : la Chine prolonge la suspension de ses nouveaux contrôles jusqu'en janvier",
+      "texte": "Selon Reuters, la Chine prolonge jusqu'en janvier la suspension de ses nouveaux contrôles sur les terres rares."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a4",
+      "score": 9,
+      "raison": "Sortie de Claude Fable 5.2 et Mythos 5.2, présentés comme les modèles les plus puissants d'Anthropic, l'une des versions étant réservée aux organisations vérifiées."
+    },
+    {
+      "id": "a10",
+      "score": 8,
+      "raison": "Scandale d'espionnage autour de Jensen Huang (Nvidia) : il affaiblit son lobbying contre des contrôles plus stricts sur les puces IA."
+    },
+    {
+      "id": "a26",
+      "score": 8,
+      "raison": "Risque de sécurité : Claude Code expose par inadvertance des secrets (mots de passe, clés API) sur GitHub, après un message « ne plus demander »."
+    },
+    {
+      "id": "a2",
+      "score": 7,
+      "raison": "Régulation : Scott Wiener, auteur d'une loi californienne sur les risques de l'IA avancée, élu au Congrès, pourrait peser sur la politique fédérale de l'IA."
+    },
+    {
+      "id": "a9",
+      "score": 6,
+      "raison": "Industrie : Google élargit sa famille de TPU (8tx, 8i Max) et se pose en alternative à Nvidia, avec près de 100 clients externes."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a14",
+      "titre": "Anthropic avance dans son projet d'introduction en Bourse",
+      "texte": "Selon le Wall Street Journal, Anthropic doit fixer cette semaine la fourchette de valorisation visée pour son introduction en Bourse."
+    },
+    {
+      "id": "a21",
+      "titre": "Meta lance Muse Ember, un petit modèle pour l'exécution des agents",
+      "texte": "Meta présente Muse Ember, un modèle léger destiné à l'exécution des agents. À 10 cents de dollar par million de tokens en entrée, il est nettement moins cher que des concurrents de pointe comme Haiku ou Luna."
+    },
+    {
+      "id": "a22",
+      "titre": "Anthropic achète pour 3,4 milliards de dollars de turbines à gaz",
+      "texte": "Anthropic a acquis des turbines à gaz naturel pour plusieurs milliards de dollars, dans la ruée de l'IA vers le gaz. Le groupe pourrait finir par regretter cet achat."
+    }
+  ]
+}

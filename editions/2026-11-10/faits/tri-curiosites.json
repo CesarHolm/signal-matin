@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a186",
+      "score": 8,
+      "raison": "Climat : à l'approche de la COP31, le seuil de 1,5 °C pourrait être franchi dans les prochaines années ; question du dépassement et de sa réversibilité."
+    },
+    {
+      "id": "a188",
+      "score": 8,
+      "raison": "Espace : premier astronaute étranger appelé à rejoindre la station spatiale chinoise Tiangong, fait nouveau et concret."
+    },
+    {
+      "id": "a216",
+      "score": 7,
+      "raison": "Climat : analyse de Carbon Brief, les émissions fossiles de CO2 sont projetées en baisse d'environ 0,4 % en 2026."
+    },
+    {
+      "id": "a185",
+      "score": 6,
+      "raison": "Science grand public : hypothèse d'une origine de la vie dans un monde à ARN, qui ne suffirait peut-être pas."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a211",
+      "titre": "Chandra : un compagnon caché expliquerait les sursauts d'une étoile géante",
+      "texte": "Grâce à l'observatoire Chandra de la NASA, des astronomes ont identifié l'objet qui provoque les éruptions répétées d'une étoile massive et instable. Un compagnon jusqu'ici invisible arrache de la matière à cette étoile tous les 113 jours, selon une étude publiée dans The Astrophysical Journal."
+    },
+    {
+      "id": "a232",
+      "titre": "JOJ de Dakar : la France décroche l'or en rugby à 7 et l'argent en badminton",
+      "texte": "Les Jeux olympiques de la jeunesse se tiennent pour la première fois sur le continent africain, à Dakar. Les jeunes Bleus, tous âgés de moins de 18 ans, ont déjà remporté l'or en rugby à 7 et l'argent en badminton."
+    },
+    {
+      "id": "a203",
+      "titre": "Internes en médecine : la relation avec le patient, clé de leur bien-être",
+      "texte": "Une étude donne la parole aux internes en médecine, exposés à la surcharge de travail et au manque de reconnaissance. Elle montre que la relation avec le patient joue un rôle essentiel dans leur bien-être professionnel."
+    },
+    {
+      "id": "a189",
+      "titre": "Au Pakistan, des robots humanoïdes servent les pizzas dans un restaurant de Karachi",
+      "texte": "Dans un restaurant de Karachi, deux robots humanoïdes conçus par un ingénieur local apportent les plats aux clients. Fabriqués surtout avec des composants locaux, ils pourraient bientôt reconnaître visuellement les clients pour personnaliser leurs recommandations."
+    }
+  ]
+}

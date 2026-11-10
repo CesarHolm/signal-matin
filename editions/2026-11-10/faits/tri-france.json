@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a40",
+      "score": 8,
+      "raison": "Sécurité : la France attribue à l'Iran une cyberattaque inédite contre des installations frigorifiques de 700 sites ; une unité des Gardiens de la Révolution visée par une enquête."
+    },
+    {
+      "id": "a57",
+      "score": 8,
+      "raison": "Social : Smic revalorisé de 1,6 % au 1er décembre, à 1 502 € net par mois ; contesté par la CGT, jugé insuffisant par la CFDT."
+    },
+    {
+      "id": "a56",
+      "score": 7,
+      "raison": "Économie : dix-huit propositions de la Cour des comptes, jusqu'à 38 Md€ d'économies, dans le débat budgétaire."
+    },
+    {
+      "id": "a47",
+      "score": 7,
+      "raison": "Société : le nombre d'overdoses mortelles a plus que doublé en dix ans, selon l'Office antistupéfiants."
+    },
+    {
+      "id": "a51",
+      "score": 6,
+      "raison": "Économie : prix de référence du gaz en hausse de 5,8 % en décembre, lié à la baisse d'offre depuis la crise du détroit d'Ormuz."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a32",
+      "titre": "Mobilisation lycéenne : la première réunion sur Parcoursup tourne court à Matignon",
+      "texte": "Plusieurs responsables syndicaux ont quitté la réunion de Matignon sur la réforme de Parcoursup. Ils dénonçaient notamment la présence du syndicat UNI, ainsi que celle d'un député RN du Nord et d'une sénatrice UDR des Alpes-Maritimes."
+    },
+    {
+      "id": "a53",
+      "titre": "Teddy Riner se lance dans la course à la présidentielle de 2027",
+      "texte": "Le quintuple champion olympique de judo a annoncé lundi sa candidature, dans une vidéo et une interview au Parisien. Se disant « ni de droite, ni de gauche », il veut rassembler, dans une course déjà marquée par de nombreux prétendants."
+    },
+    {
+      "id": "a37",
+      "titre": "Succession de Lagarde à la BCE : Paris pourrait soutenir Hernandez de Cos",
+      "texte": "Macron et Merz ont évoqué ce week-end la succession de Christine Lagarde. Paris pourrait soutenir l'Espagnol Pablo Hernandez de Cos face au Néerlandais Klaas Knot ; les chefs d'État et de gouvernement doivent aussi choisir deux autres membres du directoire."
+    }
+  ]
+}
