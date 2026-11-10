@@ -1,0 +1,380 @@
+{
+ "date": "2026-11-10",
+ "nouveaux_mots": [
+  {
+   "mot": "Désinvolte",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui fait preuve d'une liberté d'allure excessive, d'un manque de sérieux ou d'égards.",
+   "exemple": "Une réponse désinvolte qui froissa l'assistance."
+  },
+  {
+   "mot": "Opportun",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui convient au moment, aux circonstances.",
+   "exemple": "Il jugea opportun de reporter la réunion."
+  },
+  {
+   "mot": "Ostentatoire",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qui est fait avec ostentation, pour être remarqué.",
+   "exemple": "Un luxe ostentatoire, sans goût."
+  },
+  {
+   "mot": "Clause léonine",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Clause qui attribue à une partie la totalité des profits ou l'exonère de toute perte, réputée non écrite en droit des sociétés.",
+   "exemple": "Le pacte d'associés contenait une clause léonine."
+  },
+  {
+   "mot": "Hypallage",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Figure qui attribue à un mot ce qui convient logiquement à un autre mot de la phrase.",
+   "exemple": "« Ce marchand accoudé sur son comptoir avide » est une hypallage célèbre."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Austère",
+   "definition": "Sévère et dépouillé, sans ornement ni agrément."
+  },
+  {
+   "mot": "Ataraxie",
+   "definition": "Tranquillité de l'âme que rien ne trouble, idéal des philosophes antiques."
+  },
+  {
+   "mot": "Philippique",
+   "definition": "Discours violent et polémique dirigé contre quelqu'un."
+  },
+  {
+   "mot": "Frugal",
+   "definition": "Qui se contente de peu, notamment pour la nourriture ; simple et peu abondant."
+  },
+  {
+   "mot": "Mièvre",
+   "definition": "D'une gentillesse, d'une grâce affectée et fade."
+  }
+ ],
+ "articles": [
+  "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/",
+  "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/",
+  "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+  "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/",
+  "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+  "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+  "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+  "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+  "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/cyberattaque-contre-des-frigos-de-supermarches-le-parquet-de-paris-ouvre-une-enquete-visant-une-unite-des-gardiens-de-la-revolution-iraniens_8274806.html#xtor=RSS-3-[lestitres]",
+  "https://www.publicsenat.fr/actualites/politique/pouvoir-dachat-sebastien-lecornu-annonce-une-hausse-anticipee-du-smic-a-1-502-euros-des-le-1er-decembre",
+  "https://www.publicsenat.fr/actualites/politique/gel-dun-an-des-promotions-des-fonctionnaires-non-revalorisation-des-prestations-baisse-des-dotations-la-cour-des-comptes-avance-ses-idees-deconomies",
+  "https://www.lemonde.fr/societe/article/2026/11/09/mobilisation-lyceenne-a-matignon-la-premiere-reunion-sur-la-reforme-de-parcoursup-tourne-court_6808704_3224.html",
+  "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-le-judoka-teddy-riner-se-lance-dans-la-course-a-lelysee-au-milieu-dune-multitude-de-candidats",
+  "https://www.lemonde.fr/economie/article/2026/11/09/succession-de-christine-lagarde-a-la-tete-de-la-bce-paris-pourrait-soutenir-pablo-hernandez-de-cos-face-a-klaas-knot-dans-la-course-a-la-presidence_6808703_3234.html",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/10/trump-signals-positive-momentum-with-iran-after-meeting-qatari-pm?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes?traffic_source=rss",
+  "https://www.npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
+  "https://www.npr.org/2026/11/09/g-s1-152627/up-first-newsletter-stephen-miller-trump-congress-nvidia-cop31",
+  "https://www.politico.eu/article/elections-return-of-spanish-right-risks-reigniting-catalan-separatist-flame/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.scmp.com/news/china/diplomacy/article/3373838/lithuania-asked-taipei-change-name-office-beijings-national-day-reports",
+  "https://www.nber.org/papers/w35984#fromrss",
+  "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3308~a6e82e37aa.en.pdf",
+  "https://www.nber.org/papers/w35996#fromrss",
+  "https://www.federalreserve.gov/econres/notes/feds-notes/u-s-private-credit-vehicles-institutional-structure-and-aggregate-balance-sheets-20261109.html",
+  "https://www.federalreserve.gov/econres/notes/feds-notes/gold-reserve-relocations-are-they-always-bad-news-for-u-s-dollar-reserves-20261109.html",
+  "https://verfassungsblog.de/mma-fighters-will-not-restore-the-rule-of-law/",
+  "https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales",
+  "https://lcp.fr/actualites/cybersecurite-les-secteurs-hautement-critiques-bientot-inscrits-dans-la-loi-444844?amp",
+  "https://www.al-monitor.com/originals/2026/11/france-blames-iran-supermarket-fridge-hack-seeks-eu-sanctions",
+  "https://www.reuters.com/world/china/china-extends-suspension-new-rare-earth-controls-until-january-2026-11-09/",
+  "https://www.carbonbrief.org/analysis-fossil-fuel-co2-emissions-set-to-dip-in-2026-as-iran-conflict-hits-oil-use",
+  "https://www.quantamagazine.org/did-life-begin-in-an-rna-world-20261109/",
+  "https://www.sciencesetavenir.fr/espace/exploration/la-chine-s-apprete-a-accueillir-son-premier-astronaute-etranger-dans-sa-station-spatiale-tiangong_196022?xtor=RSS-9",
+  "https://www.sciencesetavenir.fr/nature-environnement/cop31-qu-est-ce-que-l-overshoot-et-pourquoi-inquiete-t-il-les-scientifiques_196041?xtor=RSS-15",
+  "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+  "https://www.franceinfo.fr/replay-jt/france-2/13-heures/jeux-olympiques-de-la-jeunesse-la-belle-moisson-de-medailles-de-la-releve-du-sport-francais_8274638.html#xtor=RSS-3-%5Bgeneral%5D"
+ ],
+ "titres": [
+  "Anthropic lance Claude Fable 5.2 et Mythos 5.2, en tête des classements",
+  "Nvidia : la liaison de Jensen Huang fragilise son lobbying sur les puces",
+  "Scott Wiener, successeur de Pelosi, veut réguler l'IA au Congrès",
+  "Google lance deux nouvelles variantes de puces TPU de huitième génération",
+  "Cyberattaque contre des frigos : la France accuse l'Iran",
+  "Smic revalorisé de 1,6 % dès le 1er décembre : ce qu'annonce Lecornu",
+  "La Cour des comptes propose 32 à 38 milliards d'euros d'économies",
+  "Iran : Trump voit un « élan positif » après un entretien avec le Premier ministre qatari",
+  "Abu Dhabi : Russes, Ukrainiens et Américains se retrouvent pour de nouveaux pourparlers",
+  "Massie redépose une procédure de destitution contre Pete Hegseth",
+  "Ciblage de la pauvreté : trois méthodes, trois définitions du besoin",
+  "Supervision bancaire : ce qui fait corriger les failles de risque de crédit",
+  "Cybersécurité : la CNIL sanctionne dix collectivités et établissements publics",
+  "NIS 2 : les députés examinent le projet de loi sur la cybersécurité",
+  "Émissions de CO2 fossiles : léger recul en 2026, dû au choc pétrolier",
+  "La vie est-elle née dans un « monde ARN » ? Atouts et limites de l'hypothèse"
+ ],
+ "solutions": {
+  "sudoku": [
+   7,
+   1,
+   3,
+   5,
+   8,
+   6,
+   4,
+   9,
+   2,
+   5,
+   2,
+   6,
+   1,
+   4,
+   9,
+   7,
+   8,
+   3,
+   9,
+   4,
+   8,
+   3,
+   7,
+   2,
+   6,
+   1,
+   5,
+   4,
+   8,
+   7,
+   2,
+   1,
+   5,
+   3,
+   6,
+   9,
+   1,
+   3,
+   9,
+   7,
+   6,
+   8,
+   2,
+   5,
+   4,
+   6,
+   5,
+   2,
+   4,
+   9,
+   3,
+   8,
+   7,
+   1,
+   2,
+   7,
+   1,
+   6,
+   5,
+   4,
+   9,
+   3,
+   8,
+   3,
+   9,
+   5,
+   8,
+   2,
+   7,
+   1,
+   4,
+   6,
+   8,
+   6,
+   4,
+   9,
+   3,
+   1,
+   5,
+   2,
+   7
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     3,
+     2
+    ],
+    [
+     0,
+     2,
+     10,
+     1
+    ],
+    [
+     0,
+     3,
+     2,
+     6
+    ],
+    [
+     0,
+     9,
+     8,
+     1
+    ],
+    [
+     2,
+     3,
+     6,
+     1
+    ],
+    [
+     2,
+     4,
+     6,
+     2
+    ],
+    [
+     2,
+     6,
+     2,
+     3
+    ],
+    [
+     3,
+     0,
+     6,
+     2
+    ],
+    [
+     4,
+     6,
+     2,
+     1
+    ],
+    [
+     4,
+     7,
+     5,
+     1
+    ],
+    [
+     4,
+     8,
+     3,
+     1
+    ],
+    [
+     6,
+     6,
+     3,
+     1
+    ],
+    [
+     7,
+     8,
+     2,
+     1
+    ],
+    [
+     8,
+     3,
+     2,
+     3
+    ],
+    [
+     8,
+     9,
+     2,
+     1
+    ],
+    [
+     9,
+     0,
+     1,
+     2
+    ],
+    [
+     9,
+     6,
+     1,
+     2
+    ],
+    [
+     9,
+     8,
+     1,
+     1
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    6,
+    1,
+    2,
+    3,
+    5,
+    4
+   ],
+   [
+    5,
+    3,
+    1,
+    4,
+    2,
+    6
+   ],
+   [
+    3,
+    5,
+    6,
+    2,
+    4,
+    1
+   ],
+   [
+    2,
+    4,
+    3,
+    6,
+    1,
+    5
+   ],
+   [
+    1,
+    6,
+    4,
+    5,
+    3,
+    2
+   ],
+   [
+    4,
+    2,
+    5,
+    1,
+    6,
+    3
+   ]
+  ],
+  "compte": [
+   "75 − 10 = 65",
+   "65 × 1 = 65",
+   "65 × 6 = 390",
+   "390 − 100 = 290",
+   "290 + 7 = 297"
+  ]
+ },
+ "reponses_quiz": []
+}
