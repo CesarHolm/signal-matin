@@ -1,0 +1,26 @@
+{
+ "titre": "Scott Wiener, successeur de Pelosi, veut réguler l'IA au Congrès",
+ "chapo": "Élu à Washington pour le siège de Nancy Pelosi, l'ancien sénateur californien Scott Wiener entend peser sur la politique fédérale de l'IA et réclame des règles contraignantes.",
+ "sections": [
+  {
+   "intertitre": "Le déclencheur",
+   "texte": "Scott Wiener, auteur au Sénat de Californie de textes destinés à limiter les risques de l'intelligence artificielle de pointe, vient de remporter une élection serrée pour le siège de San Francisco laissé ouvert par Nancy Pelosi, ancienne présidente de la Chambre des représentants. Il pourrait ainsi peser sur la politique fédérale en la matière. Grace Huckins, de MIT Technology Review, l'a interrogé vendredi, quelques heures après la proclamation de sa victoire. Il pensait déjà au risque lié à l'IA : la veille, l'organisation à but non lucratif METR avait publié un rapport largement interprété comme la preuve qu'Anthropic aurait atteint l'auto-amélioration récursive, c'est-à-dire un phénomène où l'IA contribue de façon significative à son propre progrès, au point que celui-ci pourrait devenir incontrôlable. « C'est très préoccupant », a-t-il déclaré, y voyant la preuve qu'il reste peu de temps pour réguler. Il espérait que le Congrès agisse avant la fin de l'année, ce qui ne semble pas se produire."
+  },
+  {
+   "intertitre": "Un parcours déjà marqué par l'IA",
+   "texte": "Depuis plusieurs années, Scott Wiener se concentre de plus en plus sur l'IA et a fait siennes de nombreuses préoccupations du mouvement pour la sécurité de l'IA : au cours de l'entretien de vingt minutes, il a employé une demi-douzaine de fois l'expression « auto-amélioration récursive ». « Il faut ralentir, car cela va très vite et nous pourrions aller droit vers un désastre sans nous en rendre compte », dit-il. Son influence est déjà réelle. Le projet de loi SB 1047, qu'il a rédigé en 2024, devait devenir le premier véritable texte du pays sur l'IA de pointe avant d'être frappé d'un veto par le gouverneur de Californie, Gavin Newsom. Il a ensuite défendu la SB 53, un texte plus léger que Newsom a signé. Les deux ont inspiré des propositions de loi fédérales. Sa campagne a reçu plus de 3 millions de dollars de Public First Action, une organisation favorable à la régulation, largement financée par Anthropic, d'où des critiques sur sa proximité avec l'industrie."
+  },
+  {
+   "intertitre": "Ce qu'il veut faire à Washington",
+   "texte": "Si le Congrès crée une commission spéciale sur l'intelligence artificielle, idée que les démocrates évoquent depuis septembre, il se dit prêt à y siéger. Il juge essentiel de disposer d'un régulateur fédéral fort, doté de pouvoirs et réactif, et cite la proposition de loi du représentant démocrate californien Ro Khanna pour en créer un. Il met aussi en avant la protection des lanceurs d'alerte, des obligations de tests et d'audits, ainsi qu'un dispositif d'arrêt d'urgence, et souhaite que le Congrès use de ses pouvoirs de contrôle pour que les laboratoires d'IA rendent des comptes. « Il s'agit de l'avenir de l'humanité », affirme-t-il. Ancien législateur d'un État, il s'oppose à la large préemption des lois des États que prévoient certaines propositions fédérales, rappelant que les États sont, selon la formule de Brandeis, des laboratoires. Surtout, il veut des mesures qui aient de vraies dents, à la hauteur du risque de perte de contrôle."
+  },
+  {
+   "intertitre": "Les obstacles",
+   "texte": "Il aura des alliés, dont le sénateur Bernie Sanders, qui a rencontré de nombreuses figures du mouvement pour la sécurité de l'IA et évoqué à plusieurs reprises le risque existentiel. Mais l'écart reste grand entre sa vision et l'humeur nationale, dominée par l'opposition aux centres de données : les électeurs ont approuvé 40 mesures sur 41 hostiles aux centres de données mardi. Wiener y voit surtout des préoccupations locales, factures d'électricité et consommation d'eau, plus que des inquiétudes sur le risque de l'IA. Il se dit seulement « prudemment optimiste » face à un Congrès au piètre bilan en matière de régulation du secteur, et s'inquiète de la position du président Donald Trump, qui a qualifié en septembre de « canular » les craintes d'une catastrophe liée à l'IA et refuse de coopérer avec la Chine, ce qu'il juge indispensable. L'imprévisibilité de Trump nourrit pourtant un espoir fragile : il espère qu'il ne faudra pas un désastre pour pousser le président à agir."
+  }
+ ],
+ "synthese": "Scott Wiener arrive au Congrès avec l'expérience de deux lois californiennes sur l'IA et l'intention d'obtenir une régulation fédérale contraignante. Il se dit toutefois seulement prudemment optimiste, entre un Congrès peu enclin à réguler et un président sceptique.",
+ "republication": "",
+ "reference": "",
+ "sources_ecartees": []
+}

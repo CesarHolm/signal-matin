@@ -1,0 +1,26 @@
+{
+ "titre": "Anthropic lance Claude Fable 5.2 et Mythos 5.2, en tête des classements",
+ "chapo": "Anthropic publie Fable 5.2 et Mythos 5.2, deux modèles pour les tâches techniques les plus exigeantes, qui reprennent la tête des comparatifs peu avant son introduction en Bourse.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Anthropic lance Claude Fable 5.2 et Claude Mythos 5.2, deux modèles phares conçus pour les tâches techniques les plus exigeantes, selon The Decoder. Ils reposent sur la même base mais diffèrent par l'accès : Fable comporte des garde-fous qui bloquent les tâches risquées en cybersécurité et en biologie et reste ouvert à tous, tandis que Mythos lève certaines de ces restrictions et n'est réservé qu'aux organisations admises aux programmes de vérification d'Anthropic pour la cybersécurité ou les sciences du vivant. Le prix est de 8 dollars par million de jetons en entrée et 40 dollars en sortie, contre 10 et 50 pour les prédécesseurs. Sur le papier, c'est une baisse, mais la facture réelle dépend de la consommation de jetons. Anthropic recommande toujours Claude Opus 5.5 pour l'usage courant. Les modèles produisent jusqu'à 30 % plus vite que Fable 5.1 et Mythos 5.1 ; un mode rapide, pour certaines organisations et sur certaines plateformes, accélère jusqu'à 2,5 fois la sortie, au double du prix."
+  },
+  {
+   "intertitre": "Les résultats des comparatifs",
+   "texte": "Selon Artificial Analysis, Fable 5.2 prend la première place de l'indice v5 avec 65 points au niveau de calcul le plus élevé : cinq de plus que Gemini 4 Carbon (60), que Google n'a pas encore publié, six de plus qu'Opus 5.5 (59) et quinze de plus que Fable 5.1, sorti début septembre. Il est premier dans cinq des neuf tests : 80 % à HLE-Diamond, 73 % à Terminal-Bench-Science et 49 % à FrontierCode 2.0. Il est plus faible en travail de connaissance agentique et en programmation en terminal : 1 785 Elo à AA-Briefcase, derrière Sonnet 5.5 (1 813) et dans la marge d'Opus 5.5 (1 800) ; 60 % à Terminal-Bench 4.0, à égalité avec Opus 5.5, derrière Kimi K3.1 Pro (67 %), Gemini 4 Carbon (65 %) et Sonnet 5.5 (64 %). La qualité maximale coûte cher : 26,50 dollars par tâche en moyenne, environ 2,6 fois Opus 5.5 (10 dollars) et le double de Fable 5.1 (12,99). Aux niveaux inférieurs, Fable 5.2 obtient 62 points, devant tous les autres modèles, avec 98 000 jetons de sortie par tâche contre 173 000 pour Opus 5.5."
+  },
+  {
+   "intertitre": "Cybersécurité et limites volontaires",
+   "texte": "Selon Anthropic, Mythos 5.2 trouve plus de vulnérabilités que ses prédécesseurs et sait mieux les reproduire et les corriger ; Fable bloque donc la plupart des tâches de sécurité, dont les tests d'intrusion et la génération d'exploits. Au test interne CVE Rediscovery, lors de la session d'octobre 2026 portant sur 1 829 vulnérabilités, Mythos 5.2 en a trouvé 10,2 % de plus qu'Opus 5.5 et 14,4 % de plus que Mythos 5.1. Une société de sécurité rapporte qu'un bogue confirmé sur six trouvés par Mythos 5.2 avait échappé à tous les autres modèles testés. Anthropic affirme aussi avoir volontairement freiné, à l'entraînement, les capacités susceptibles d'accélérer le plus directement le développement de l'IA : sur l'optimisation de noyaux de calcul et l'amélioration d'architectures de modèles, les deux modèles restent à peu près au niveau d'Opus 5.5. La programmation agentique, le matériel et la recherche, interprétabilité comprise, ne sont pas touchés. Claude écrit plus de 90 % des modifications fusionnées dans le code central d'Anthropic, sous supervision humaine."
+  },
+  {
+   "intertitre": "Le théorème de Fermat formalisé",
+   "texte": "Environ 1 000 agents Fable 5.2 ont formalisé entièrement la preuve du dernier théorème de Fermat en langage Lean, pour qu'un ordinateur la vérifie pas à pas, selon Anthropic. C'est la première fois que cette vérification est menée à terme, en 30 heures. Une version de recherche antérieure et non publiée avait mis 11 jours, dans un environnement sur mesure et avec l'aide d'un chercheur. Les agents de Fable 5.2 sont partis de consignes brèves, se sont organisés seuls et n'ont utilisé aucune référence mathématique ; ils ont consommé un tiers des jetons d'action de la première tentative et produit une preuve sept fois plus courte. Dans le même dispositif, Opus 5.5 n'a formalisé que 26 % en 18 heures, sans guère progresser jusqu'à la trentième."
+  }
+ ],
+ "synthese": "Fable 5.2 et Mythos 5.2 placent Anthropic en tête des comparatifs, au prix d'un coût par tâche élevé au niveau maximal. L'entreprise dit avoir limité certaines capacités liées à l'accélération de l'IA.",
+ "republication": "",
+ "reference": "",
+ "sources_ecartees": []
+}

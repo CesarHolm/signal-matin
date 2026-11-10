@@ -1,0 +1,26 @@
+{
+ "titre": "Cyberattaque contre des frigos : la France accuse l'Iran",
+ "chapo": "Le parquet de Paris soupçonne une unité des Gardiens de la Révolution d'être derrière la cyberattaque qui a touché des frigos de supermarchés dans la nuit du 11 au 12 octobre.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Lundi 9 novembre, dans un communiqué, le parquet de Paris a annoncé, confirmant une information du Figaro, que la justice française soupçonne une unité des Gardiens de la Révolution iraniens d'être responsable de la cyberattaque qui a touché les frigos de supermarchés français dans la nuit du 11 au 12 octobre. Ce rebondissement intervient après une attaque inédite en France. Une information judiciaire est ouverte contre « le chef du groupe iranien Shahid Kaveh, unité cyber offensive affiliée au Centre électronique et cyber du Corps des Gardiens de la Révolution (CGRI-CEC), contre ses deux adjoints et contre toute autre personne qui serait identifiée ». Dans la foulée, le ministre des Affaires étrangères, Jean-Noël Barrot, a déclaré : « Je suis en mesure de confirmer que la responsabilité de cette attaque revient au corps des Gardiens de la révolution de la République islamique d'Iran. » Il a qualifié les faits d'attaque « d'une ampleur inédite et d'une agressivité inédite », a annoncé des sanctions à l'échelle européenne contre tous les responsables et la convocation lundi de l'ambassadeur d'Iran en France, pour protester très vivement contre cet acte extrêmement grave."
+  },
+  {
+   "intertitre": "Ce qui s'est passé",
+   "texte": "Environ 700 sites de la grande distribution, appartenant à des marques comme Système U, Intermarché ou E.Leclerc, ont été touchés. Les pirates ont atteint à distance les systèmes de régulation frigorifique du fabricant Danfoss, puis ceux de Dixell et Copeland. Selon le parquet, les attaquants avaient pris le contrôle des équipements via des interfaces web pour lancer des cycles de dégivrage anormaux d'une durée illimitée, tout en désactivant les alertes de sécurité des sondes censées s'activer au-delà d'une certaine température. Dans la nuit du 11 au 12 octobre, la température des installations frigorifiques de ces sites, répartis à travers la France, s'est emballée, ce qui a provoqué des pertes alimentaires importantes et une vingtaine de départs de feu. L'enquête, ouverte dans la foulée, a été confiée à l'Office anti-cybercriminalité et à la Direction générale de la sécurité intérieure (DGSI)."
+  },
+  {
+   "intertitre": "Les éléments de l'enquête",
+   "texte": "Selon la procureure de Paris, Laure Beccuau, les enquêteurs ont mis au jour, avec l'appui des services spécialisés de l'État, un mode opératoire caractéristique de cette unité, l'utilisation du farsi et des adresses IP renvoyant vers des terminaux localisés en Iran. L'information judiciaire est ouverte pour atteintes frauduleuses à un système de traitement automatisé de données en bande organisée et dégradations par un moyen dangereux pour les personnes en bande organisée. Ces deux infractions sont aggravées par la circonstance d'avoir été commises dans le but de servir une puissance étrangère, en l'espèce l'Iran, auxquelles s'ajoute la participation à une association de malfaiteurs en vue de la préparation d'un crime. Ces poursuites, détaillées dans le communiqué du parquet de Paris, visent le chef du groupe, ses deux adjoints et toute autre personne qui serait identifiée."
+  },
+  {
+   "intertitre": "Les points de prudence",
+   "texte": "D'autres cyberattaques contre des installations frigorifiques ont récemment touché des supermarchés dans plusieurs pays d'Europe, ainsi que trois sites de l'Établissement français du sang. Vincent Strubel, directeur général de l'Agence nationale de la sécurité des systèmes d'information, indique toutefois que l'agence ne se prononce pas à ce stade sur l'attaque visant l'EFS : même si le mode opératoire est similaire, rien en l'état ne permet d'affirmer qu'il s'agit du même attaquant, écrit-il sur LinkedIn. Les attaques dans les autres pays européens n'ont pas encore été attribuées."
+  }
+ ],
+ "synthese": "La justice française soupçonne une unité cyber des Gardiens de la Révolution d'avoir paralysé des frigos de 700 sites de la grande distribution, et Paris annonce des sanctions européennes. L'attribution des autres attaques, dont celle visant l'EFS, reste ouverte.",
+ "republication": "",
+ "reference": "",
+ "sources_ecartees": []
+}
