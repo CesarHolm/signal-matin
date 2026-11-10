@@ -1,0 +1,64 @@
+{
+ "id": "syn-a10",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a10.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : The Decoder\nRubrique : IA\nDate du flux : 09/11/2026\nAuteur : Maximilian Schreiner\nTitre d'origine : Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls\n\nARTICLE :\nSOURCE 1 (The Decoder) :\nNvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls\nKey Points\n- Nvidia CEO Jensen Huang admitted to a relationship with a suspected Chinese informant, prompting the company's board to launch an investigation.\n- The woman worked for Megaspeed, a data center operator that US authorities suspect serves as a backdoor for smuggling Nvidia AI chips to China.\n- The incident weakens Nvidia's position against stricter US export controls and raises leadership risks, since Huang runs the company largely without a succession plan and holds no controlling share.\nNvidia CEO Jensen Huang has admitted to an extramarital affair with a woman US intelligence agencies classify as a suspected Chinese informant. The board has launched an independent investigation. The affair weakens Huang's lobbying efforts against stricter AI chip export controls, with a newly elected Democratic Congress poised to ramp up scrutiny of AI chip smuggling to China and push for tighter restrictions.\nNvidia CEO Jensen Huang acknowledged an extramarital relationship with Alice Huang (Huang Le), a former executive at Singaporean data center operator Megaspeed International, in a company-wide memo. This is according to Bloomberg. US intelligence agencies have classified the woman as a suspected informant for a Chinese intelligence service. Secretary of State Marco Rubio reportedly wrote a memo to senior government officials warning about the closeness between Huang and the woman.\nAs recently as late October, the Nvidia CEO had described the relationship to Bloomberg as \"normal.\" Nvidia's board has now announced an independent investigation led by a committee of independent directors. The Chinese embassy denied the espionage allegations.\nMegaspeed sits at the center of the chip smuggling debate\nMegaspeed operates data centers across Southeast Asia and provides computing capacity to companies including Chinese tech giant Alibaba. US authorities suspect the company serves as a backdoor for transferring export-controlled Nvidia chips to China. A Malaysian sister company reportedly purchased AI hardware containing Nvidia chips worth at least $4.8 billion between June 2024 and February 2026.\nThe Megaspeed case points to a broader problem. Despite US export bans, billions of dollars' worth of Nvidia chips are reaching China through smuggling networks in Southeast Asia. Nvidia recently responded with tighter chip tracking. Its \"Fleet Intelligence\" system logs the location of AI accelerators and is now a requirement for the coveted Nvidia Cloud Partner (NCP) status in the region, Bloomberg reports. Sharing location data with Nvidia or the US government remains voluntary, though. Nvidia also removed half of its pre-approved Asian buyers from its list earlier this year and capped the resale of computing capacity to Chinese firms at 50 percent.\nWashington and Capitol Hill consider these measures insufficient, according to Bloomberg. Nvidia counters that it complies with existing law and that identifying illegal actors is the government's job.\nHuang's lobbying push for China chip sales is losing ground\nHuang has spent years pushing for Nvidia and other US chipmakers to keep selling AI processors to China. His argument: shutting out the world's second-largest chip market would push China to build an independent and potentially superior AI industry. He made this case directly to the Trump administration and accompanied President Trump on a trip to Beijing in May.\nThe affair now undermines that lobbying effort. Republican lawmakers had already demanded a briefing with Huang before his admission. After the US midterms, where Democrats won both chambers of Congress, stricter export controls have become more likely. Bloomberg Intelligence notes that the affair weakens Nvidia's bargaining position right as the new Democratic Congress takes over committee chairs in January and plans to scrutinize AI chip exports to China more closely.\nNo succession plan for the world's second most valuable company\nNvidia has a market cap of roughly $4.5 trillion, making it the second most valuable company in the world. Huang built the company without a conventional hierarchy: about 60 people report directly to him, and there is no public succession plan. Bernstein analyst Stacy Rasgon warned that Huang \"is Nvidia\" and personally pulls most of the strings at the company. Unlike Mark Zuckerberg at Meta, Huang doesn't hold dual-class shares. His stake of just under four percent offers him no protection against removal by the board or shareholders.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now\n\nSOURCE 2 (Talking Points Memo) :\nThe Information is reporting (paywall) that regardless of what multiple investigations unearth about NVIDIA CEO Jensen Huang’s affair with a suspected Chinese spy, the scandal is likely to spur Congress to impose tighter export controls on the advanced processors used in AI data centers. There’s been a big bipartisan push for this in Congress for a while but it’s largely been headed off by White House resistance. That resistance seems to center on Trump himself and the small coterie of Silicon Valley advisors who run AI policy at the White House. As I noted in this post, the argument for tight export controls seems pretty strong to me, certainly if we’re operating on the premise that US superiority in AI development is a critical national security interest.\nWhen I say “to me” I’m noting the fact that tech export control policy is way outside any area of expertise for me. So I’m leaving open the possibility that there are good arguments I’m not considering. But I’m at least skeptical. The Information article notes that NVIDIA’s arguments against tighter restrictions is that blocking China from using these advanced chips will drive them to develop their own advanced chips and that future export of those chips to other countries will mean a lot of global AI doesn’t run on US hardware and standards. With the same caveat that I’m new to this topic, that at least sounds a lot more like an argument for defending NVIDIA’s global market share than safeguarding US security interests.\nOne additional point on this which goes to assumptions and premises. We’re told that AI development poses severe – and at least to some people, existential – dangers to society, economy, maybe even the species. But a major argument against any slowdown on development is that slowing down AI development in the US means risking that China will catch up to or surpass the US.\nI don’t see how you can have this both ways.\nIf it’s such a big deal that we’re willing to run additional risks of major or catastrophic societal harms to stay on top I don’t see how there can be any good argument against very tight export controls on the hardware that is the basis of a lot of that US superiority. Am I missing something? Could be. But it seems hard to figure. And given the mix of cravenness and corruption that operates in this administration, Huang’s apparently very close relationship with Trump and the fact that administration resistance to export controls seems to come down from Trump himself … well, it all sounds pretty iffy to me.\nWhen I say iffy I’m not suggesting that Huang himself is compromised in some way or under some foreign influence throught this suspected Chinese spy. It’s just that the NVIDIA’s commercial interests seem pretty obviously in tension with US national security interests. Add to that that Trump is corrupt and an ingenuous moron when cash is involved and this all requires a much closer look.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

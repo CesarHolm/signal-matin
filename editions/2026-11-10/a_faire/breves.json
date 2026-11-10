@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a26\", \"source\": \"Ars Technica\", \"titre\": \"Claude Code is accidentally exposing secrets all over GitHub\", \"resume\": \"\\\"Do not ask again\\\" prompt leads to passwords, API keys, and more being shared.\"}, {\"id\": \"a186\", \"source\": \"Sciences et Avenir\", \"titre\": \"COP31 : le défi de l’overshoot\", \"resume\": \"Le seuil de 1,5°C de réchauffement climatique pourrait être franchi dans les prochaines années. Mais ce dépassement est-il inéluctable ? Et surtout, sera-t-il réversible ? Par Rafaële Brillaud.\"}, {\"id\": \"a188\", \"source\": \"Sciences et Avenir\", \"titre\": \"Un astronaute pakistanais bientôt à bord de la station spatiale chinoise\", \"resume\": \"Pour la première fois, un astronaute étranger va rejoindre la station spatiale chinoise Tiangong. Originaire du Pakistan, il participera à la mission Shenzhou-24 en tant que spécialiste chargé des expériences scientifiques embarquées, avant de revenir sur Terre à bord de Shenzhou-23.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a9",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a9.json",
+ "limite_caracteres": 3350,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3350 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 09/11/2026\nAuteur : Maximilian Schreiner\nTitre d'origine : Google ships four TPU variants in one year as it ramps up competition with Nvidia\n\nARTICLE :\nGoogle ships four TPU variants in one year as it ramps up competition with Nvidia\nKey Points\n- Google is introducing two new systems in its eighth-generation AI chip lineup, the TPU 8tx and TPU 8i Max, both built on existing processors.\n- The TPU 8tx keeps confidential data encrypted during processing, while the TPU 8i Max doubles memory and compute power within the same rack by combining two chips on a single package.\n- Together with software tools like TorchTPU, Google aims to lower the barrier for developers and increasingly market its hardware to external customers for day-to-day model inference.\nWith two new TPU variants, Google is targeting confidential AI workloads and memory-hungry applications. The expansion cements Google's strategic shift toward positioning its in-house AI chips as a broad platform for external customers.\nGoogle has added two new systems to its eighth-generation AI accelerator lineup: the TPU 8tx for confidential computing and the TPU 8i Max for memory-intensive workloads. With these additions, Google says it has shipped four TPU systems within a single year for the first time.\nBoth new variants are built on existing silicon. Google isn't introducing a new chip generation here, but new system configurations: different packaging, different networking, and different memory setups around the same processor. The company frames this modular approach as a deliberate design choice that lets it deliver new hardware variants in months rather than years.\nTPU 8tx keeps sensitive data encrypted even during processing\nThe TPU 8tx targets enterprises and government agencies working with confidential data. Normally, data is encrypted during storage and transmission but has to be decrypted in memory once a processor works with it.\nThe TPU 8tx is designed to close that gap. According to Google, data and model weights stay protected and isolated even during active use. Nvidia already offers a comparable feature for GPUs through its confidential computing architecture.\nThe system uses the same low-latency Boardfly network Google developed for real-time inference and is supposed to deliver up to twice the latency reduction compared to the TPU 8t. Google says enterprises can use a single system to fine-tune models, distill large models into smaller ones, and train AI agents with reinforcement learning, all without moving sensitive data between different clusters.\nTPU 8i Max doubles compute power in the same rack\nThe TPU 8i Max tackles a different problem: the memory bottleneck. When AI agents work simultaneously across large codebases or hours of video, memory bandwidth becomes the chokepoint. Google addressed this by placing two TPU 8i chips on a single package.\nThe result is double the compute power, double the memory, and double the memory bandwidth in the same rack format, which means significantly more performance per square meter of data center space.\nGoogle lowers the bar for TPU adoption\nBeyond hardware, Google is working to make TPUs easier to use. The company has released TorchTPU as open source, so PyTorch code should run on TPUs with minimal changes. Popular inference frameworks like vLLM and SGLang are also supported.\nThe inference market is driving the custom chip race\nThe expansion is a direct response to Google's strategic shift from treating TPUs as a purely internal tool to marketing them as a competitive platform for outside customers. The company now counts nearly 100 external TPU customers.\nA broader market trend is driving this push. As AI applications spread, the focus is shifting from expensive training runs to inference, meaning the day-to-day operation of models. Specialized chips like TPUs can play to their strengths in exactly this area. That's also why Amazon, Microsoft, and OpenAI are all developing their own accelerators.\nNvidia has responded by bolstering its own inference offering through its acqui-hire and licensing deal with Groq.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

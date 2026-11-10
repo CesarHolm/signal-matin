@@ -1,0 +1,64 @@
+{
+ "id": "syn-a57",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a57.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Public Sénat\nRubrique : France\nDate du flux : 09/11/2026\nAuteur : Emma Bador-Fritche\nTitre d'origine : Pouvoir d’achat : Sébastien Lecornu annonce une hausse anticipée du Smic à 1 502 euros par mois dès le 1er décembre\n\nARTICLE :\nLe groupe RN-UDR du Sénat, l’Union Nationale pour les Territoires, a présenté ce matin les textes qui seront débattus lors de leur niche parlementaire prévue le 10 décembre. Au programme : une proposition de résolution sur l’accès à l’eau en Outre-mer et une proposition de loi sur des peines planchers pour les crimes ou délits contre les forces de l’ordre et les pompiers.\nPouvoir d’achat : Sébastien Lecornu annonce une hausse anticipée du Smic à 1 502 euros par mois dès le 1er décembre\nUn premier geste, mais pas « un solde de tout compte ». Face aux revendications syndicales sur le pouvoir d’achat, Sébastien Lecornu a annoncé, lundi 9 novembre, une revalorisation anticipée du Smic de 1,6 % à compter du 1er décembre. Le salaire minimum passera ainsi de 1 477,93 à 1 502 euros net par mois, soit une hausse qui intervient un mois avant la revalorisation automatique habituellement prévue en janvier.\n« C’est la deuxième hausse la plus importante en vingt ans », a défendu le Premier ministre lors d’une conférence de presse organisée à l’issue de la réunion avec les organisations syndicales et patronales. Selon le ministre du Travail, Jean-Pierre Farandou, le Smic aura progressé de 5,3 % sur l’ensemble de l’année 2026, soit 75 euros net supplémentaires par rapport à son niveau de début d’année.\nCette annonce constitue une première réponse aux revendications des syndicats. La CFDT réclamait une augmentation de 100 euros net par mois, tandis que la CGT demandait une hausse de 10 %, soit environ 150 euros supplémentaires. À son arrivée à Matignon, la secrétaire générale de la CGT, Sophie Binet, avait prévenu : les organisations attendaient des réponses « immédiates » sur le Smic, mais aussi sur l’ensemble des rémunérations.\nRelancer les négociations salariales dans les branches\nConcilier les revendications salariales et les inquiétudes des entreprises, c’était toute l’équation de cette conférence sociale. Réunis à Matignon, les représentants des employeurs et des salariés ont échangé dans un contexte économique tendu, alors que le patronat met en avant les faibles marges de manœuvre des entreprises. Celles de l’État sont également limitées, avec une dette publique qui atteint 3 600 milliards d’euros, soit 120 % du PIB, et un déficit de 5,4 %. Au-delà du « coup de pouce » au Smic, l’exécutif entend surtout relancer les négociations salariales dans les branches professionnelles. Car si le gouvernement peut agir directement sur le salaire minimum, les autres rémunérations du secteur privé relèvent des discussions entre partenaires sociaux.\n« Le Smic, c’est un coup de pouce, mais c’est aussi un coup de boost », a résumé Jean-Pierre Farandou. Le ministre du Travail a appelé les branches à ouvrir dès la semaine prochaine des négociations rapides pour relever leurs minima conventionnels. Le constat est préoccupant, une branche professionnelle sur deux n’aurait pas renégocié sa grille salariale depuis dix ans, tandis que 69 branches afficheraient encore des minima inférieurs au Smic. La revalorisation du salaire minimum risque ainsi d’accentuer le tassement des grilles salariales, en rapprochant les rémunérations des premiers échelons. Pour suivre ces discussions, un comité de suivi des salaires réunissant syndicats et organisations patronales sera installé dans les prochains jours.\nL’exécutif entend également utiliser le levier des aides aux entreprises. Un premier décret, attendu cette semaine, conditionnera le bénéfice des allégements généraux de cotisations patronales au niveau effectif des minima conventionnels. L’objectif est d’inciter les branches à revoir leurs grilles de rémunération. Un second décret, attendu d’ici à la fin de l’année après examen par le Conseil d’État, permettra aux représentants des salariés d’être informés des aides publiques perçues par leur entreprise.\nEn parallèle, Sébastien Lecornu veut engager une réforme des allégements généraux de cotisations patronales. Le Premier ministre a annoncé la signature, dès lundi soir, d’une lettre de cadrage pour ouvrir les discussions. Une manière de donner des gages au patronat, soucieux de préserver la compétitivité des entreprises et de ne pas voir le coût du travail s’alourdir. « On ne peut pas dire à un monde économique que le Smic augmente avec un coup de pouce et leur dire qu’on va les laisser tomber sur les allégements généraux », a justifié le chef du gouvernement.\nDes mesures supplémentaires pour soutenir le pouvoir d’achat\nEn complément des mesures salariales, le gouvernement a présenté plusieurs dispositifs destinés à soutenir le pouvoir d’achat. Ils feront l’objet d’amendements au projet de loi de finances, actuellement examiné par le Parlement.\nLe ministre des PME, du Commerce et du Pouvoir d’achat, Serge Papin, a notamment annoncé l’élargissement de la prime de partage de la valeur aux entreprises de plus de 50 salariés. Jusqu’ici réservée, dans le dispositif présenté, aux structures de moins de 50 salariés, cette possibilité pourrait concerner 1,5 million de salariés supplémentaires, portant le nombre total de bénéficiaires potentiels à près de quatre millions.\nMesure supplémentaire mise en place : le plafond d’exonération fiscale des heures supplémentaires passerait de 7 500 à 10 000 euros. Le gouvernement souhaite également prolonger en 2027 la prise en charge des abonnements aux transports en commun par les employeurs à hauteur de 75 %.\nSur le volet énergétique, Roland Lescure a annoncé que l’exécutif proposerait de maintenir l’an prochain le plafond de la prime carburant à 1 000 euros. Le ministre de l’Économie a par ailleurs mis en avant les effets de la libération de 10 millions de barils de gazole, affirmant que les prix avaient reculé en moyenne de 21 centimes dans 76 % des stations-service. Une baisse qui devrait, selon lui, contribuer à « modérer l’inflation de novembre ». Le ministre a toutefois rappelé la fragilité de la conjoncture économique. À la fin du troisième trimestre, l’économie française était « à l’arrêt », a-t-il estimé, soulignant que l’investissement et les exportations soutenaient davantage l’activité que la consommation.\nUne première étape avant les discussions de décembre\nPour Sébastien Lecornu, cette conférence sociale doit ouvrir une nouvelle séquence de dialogue entre les partenaires sociaux. Le premier ministre a insisté sur la nécessité de prendre des engagements « sincères », à rebours des promesses qu’il voit fleurir à l’approche de la présidentielle. « Le devoir du gouvernement, qui n’a pas d’agenda électoral, c’est précisément de trouver des solutions », a-t-il affirmé. Prudent sur la portée des annonces, le chef du gouvernement a prévenu : « Ce n’est pas un solde de tout compte. » L’exécutif attend désormais des avancées concrètes dans les branches professionnelles et les entreprises d’ici au début du mois de décembre. L’État entend se poser « en garant » des engagements pris de part et d’autre, tout en veillant à ce que les négociations ne s’enlisent pas.\nUne autre séquence sociale attend enfin le gouvernement vendredi, Sébastien Lecornu doit recevoir les organisations syndicales de la fonction publique.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

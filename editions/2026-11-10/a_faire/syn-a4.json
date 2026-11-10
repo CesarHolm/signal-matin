@@ -1,0 +1,64 @@
+{
+ "id": "syn-a4",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a4.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 09/11/2026\nAuteur : Matthias Bastian\nTitre d'origine : Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO\n\nARTICLE :\nClaude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO\nKey Points\n- Anthropic is releasing Claude Fable 5.2 and Mythos 5.2, two new flagship models built for the most demanding technical tasks. Anthropic says it deliberately prevented the models from gaining capabilities during training that could directly accelerate AI development.\n- Fable 5.2 ranks first with 65 points on the Artificial Analysis Intelligence Index v5, five points ahead of Gemini 4 Carbon and 15 ahead of its predecessor, Fable 5.1. Peak quality averages $26.50 per task, about 2.6 times as much as Opus 5.5.\n- At lower compute tiers, Fable 5.2 still outperforms every other model at every tier with 62 points while consuming far fewer tokens.\nAnthropic's Claude Fable 5.2 and Mythos 5.2 reclaim the AI performance lead shortly before the company's IPO, in some cases by a wide margin. Opus 5.5 remains Anthropic's recommended model for everyday use.\nClaude Fable 5.2 and Claude Mythos 5.2 share the same model foundation but, just like their predecessors, differ in access. Fable includes safeguards that block risky tasks in cybersecurity and biology and is available to all users. Mythos removes certain of these restrictions and is open only to organizations that apply through Anthropic's Verification Programs for Cybersecurity or Life Sciences.\nPricing is $8 per million input tokens and $40 per million output tokens. On paper, at least, that's a cut from the predecessors, which cost $10 and $50. What users actually pay depends on token consumption, which varies with tasks, settings, and software environments. Anthropic positions the new models for the most demanding technical work and continues to recommend Claude Opus 5.5 for everyday use.\nThe models produce output up to 30 percent faster than Fable 5.1 and Mythos 5.1, Anthropic says. An optional fast mode for select organizations speeds up token output by up to a factor of 2.5 but costs twice as much and is available only on certain platforms, including Claude Code, the Claude Platform, Google Cloud, and Microsoft Foundry.\nFable 5.2 jumps to a clear lead on benchmarks\nArtificial Analysis’s benchmarks put Fable 5.2 clearly ahead of its rivals. On the current Index v5 at the highest compute tier, it takes first place with 65 points, five ahead of Gemini 4 Carbon (60, High tier), which Google still hasn't released, six ahead of Claude Opus 5.5 (59, Max tier), and a striking 15 ahead of Claude Fable 5.1, which came out only in early September.\nFable 5.2 scores best in five of nine individual tests, according to Artificial Analysis. It hits 80 percent on HLE-Diamond, a test with expert-level academic questions, 73 percent on Terminal-Bench-Science, which tests whether an AI agent can independently run scientific workflows in a terminal, and 49 percent on FrontierCode 2.0, which evaluates whether an agent can deliver useful code changes in real open-source projects.\nFable 5.2 is weaker in agentic knowledge work and terminal-based coding. It reaches 1,785 Elo on AA-Briefcase, a benchmark for multi-step knowledge work tasks, just behind Claude Sonnet 5.5 (1,813) and within the confidence interval of Opus 5.5 (1,800). On Terminal-Bench 4.0, which measures multi-step terminal tasks in areas like software development and security, it scores 60 percent, tied with Opus 5.5. Kimi K3.1 Pro (67 percent), Gemini 4 Carbon (65 percent), and Sonnet 5.5 (64 percent) rank higher here.\nPeak quality comes at a price, though. Per-task costs at the highest tier average $26.50, about 2.6 times as much as Opus 5.5 ($10) and roughly double Fable 5.1 ($12.99). Fable 5.2 still scores 62 points on the Intelligence Index at the lower High and Xhigh tiers, ahead of every other model at any tier according to Artificial Analysis, while consuming far fewer tokens: 98,000 output tokens per task compared to 173,000 for Opus 5.5 at the Max tier.\nMythos 5.2 finds far more security flaws than all predecessors\nThe new models also set records in cybersecurity, which is seeing intense debate right now. Mythos 5.2 finds more vulnerabilities than earlier models and is better at reproducing and fixing them, Anthropic says. Fable, the publicly available variant, blocks most security-related tasks as a result, including penetration tests and exploit code generation. Opus 4.8 responds to blocked cybersecurity requests instead, and Opus 5 responds to blocked biology requests.\nAnthropic uses an internal test called CVE Rediscovery to check how many published vulnerabilities from the CVE database (Common Vulnerabilities and Exposures, a system for cataloging known software flaws) a model can independently find when given the project's state before the fix.\nMythos 5.2 found 10.2 percent more vulnerabilities than Opus 5.5 and 14.4 percent more than Mythos 5.1 in the October 2026 run with 1,829 CVEs, Anthropic says. It led at every compute tier. One security firm reported that one in six confirmed bugs Mythos 5.2 found had been missed by all other frontier models tested, according to Anthropic.\nAnthropic throttles capabilities that could accelerate AI development\nAnthropic says it deliberately held the model back during training from improving at capabilities that could most directly accelerate AI development, so-called RSI, which is widely discussed as a risk right now. Fable 5.2 and Mythos 5.2 perform roughly on par with Opus 5.5 in areas like optimizing compute kernels for accelerator chips and improving large language model architectures, the company says.\nRelated capabilities like agentic coding, hardware development, and traditional AI research, including interpretability research, aren't affected, according to Anthropic. Claude now writes over 90 percent of the changes merged into Anthropic's core codebase, under human guidance, the company says. Anthropic also claims the model programmed an operating system from scratch in an internal test.\nClaude Fable 5.2 formalizes Fermat's Last Theorem in 30 hours\nThe example likely to draw the most attention comes once again from mathematics. About 1,000 Fable 5.2 agents fully formalized the proof of Fermat's Last Theorem, translating it into the Lean programming language so a computer can verify it step by step, Anthropic says.\nFermat's Last Theorem states that the familiar equation a² + b² = c² has no whole-number solutions for powers higher than squares. Nobody could prove this for centuries until Andrew Wiles presented a proof over a hundred pages long in 1995. Its machine verification has now been completed for the first time. It took 30 hours.\nAn earlier, unpublished research version of Claude needed 11 days for the same task and relied on a purpose-built environment and guidance from a human researcher. The Fable 5.2 agents started with brief instructions, organized their collaboration on their own, and used no mathematical references, Anthropic says. The only progress metric was a list of intermediate lemmas. The model used one-third of the action tokens of the first attempt and produced a proof seven times shorter.\nAnthropic ran Opus 5.5 in the same setup with 1,000 agents for comparison. Opus managed just 26 percent of the formalization in 18 hours and made barely any progress after that through hour 30.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
