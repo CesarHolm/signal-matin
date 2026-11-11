@@ -1,0 +1,2903 @@
+{
+ "edition": {
+  "date": "2026-11-11",
+  "numero": 14,
+  "secours": false,
+  "numerique": true,
+  "meteo": null,
+  "nouveaux_mots": [
+   {
+    "mot": "Plausible",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui peut être admis comme vrai ou possible ; vraisemblable.",
+    "exemple": "Une explication plausible, mais non démontrée."
+   },
+   {
+    "mot": "Indulgent",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Porté à excuser les fautes, à pardonner.",
+    "exemple": "Le jury s'est montré indulgent."
+   },
+   {
+    "mot": "Sinécure",
+    "nature": "n. f.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Emploi rémunéré qui demande peu ou pas de travail.",
+    "exemple": "Ce poste n'a rien d'une sinécure."
+   },
+   {
+    "mot": "Dation en paiement",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "pro",
+    "definition": "Remise d'un bien, avec l'accord du créancier, en paiement d'une dette à la place de la somme due.",
+    "exemple": "L'héritier a réglé les droits par dation en paiement d'un tableau."
+   },
+   {
+    "mot": "Lustral",
+    "nature": "adj.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Qui sert à purifier, notamment par l'eau dans les rites.",
+    "exemple": "L'eau lustrale du baptistère."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Solvabilité"
+   },
+   {
+    "mot": "Sycophante"
+   },
+   {
+    "mot": "Placide"
+   },
+   {
+    "mot": "Prébende"
+   },
+   {
+    "mot": "Jurisprudence"
+   }
+  ],
+  "sport": {
+   "resultats": [
+    {
+     "sport": "Tennis",
+     "affiche": "Noskova – Gauff",
+     "score": "6-3 6-3",
+     "competition": "Finales WTA (circuit WTA), groupe A, 2e journée",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Tennis/Actualites/Linda-noskova-enchaine-un-deuxieme-succes-aux-finales-wta-contre-coco-gauff-et-se-qualifie-en-demi-finales/1742916#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Tennis",
+     "affiche": "Pegula – Kostyuk",
+     "score": "6-2 7-5",
+     "competition": "Finales WTA (circuit WTA), phase de groupes",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Tennis/Actualites/Jessica-pegula-ouvre-son-compteur-dans-les-finales-wta-2026-en-s-imposant-contre-marta-kostyuk/1742902#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Football",
+     "affiche": "PSG – Bayern Munich",
+     "score": "1-2",
+     "competition": "Ligue des champions, 4e journée de la phase de ligue",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Football/Actualites/Apres-une-premiere-periode-manquee-le-psg-s-incline-a-domicile-face-au-bayern-munich-en-ligue-des-champions/1742905#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Paris FC – Real Madrid",
+     "score": "0-3",
+     "competition": "Ligue des champions féminine",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Football/Actualites/Battu-par-le-real-madrid-le-paris-fc-est-toujours-a-la-recherche-d-une-victoire-en-ligue-des-champions-feminines/1742870#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Para-rugby à XIII",
+     "affiche": "France – Irlande",
+     "score": "82-26",
+     "competition": "Coupe du monde de para-rugby à XIII (Australie), demi-finale",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Rugby-a-xiii/Actualites/Les-bleus-deroulent-contre-l-irlande-et-se-qualifient-en-finale-de-coupe-du-monde-de-para-rugby-a-xiii/1742688#at_medium=RSS_feeds"
+    }
+   ],
+   "a_suivre": [
+    {
+     "sport": "Tennis",
+     "affiche": "Sabalenka – Andreeva",
+     "competition": "Finales WTA (circuit WTA)",
+     "source": "RMC Sport",
+     "url": "https://rmcsport.bfmtv.com/pari-sportif/pronos-paris-rmc-le-pari-tennis-du-jour-du-11-novembre-wta-finals_AN-202611100426.html"
+    }
+   ],
+   "periode": [
+    "2026-11-10"
+   ]
+  },
+  "reponses_hier": [
+   {
+    "mot": "Austère",
+    "definition": "Sévère et dépouillé, sans ornement ni agrément."
+   },
+   {
+    "mot": "Ataraxie",
+    "definition": "Tranquillité de l'âme que rien ne trouble, idéal des philosophes antiques."
+   },
+   {
+    "mot": "Philippique",
+    "definition": "Discours violent et polémique dirigé contre quelqu'un."
+   },
+   {
+    "mot": "Frugal",
+    "definition": "Qui se contente de peu, notamment pour la nourriture ; simple et peu abondant."
+   },
+   {
+    "mot": "Mièvre",
+    "definition": "D'une gentillesse, d'une grâce affectée et fade."
+   }
+  ],
+  "blocs": [
+   {
+    "id": "ia",
+    "titre": "IA",
+    "developpes": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-10",
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "auteur": "Rebecca Bellan",
+      "titre": "New York : la loi RAISE soumet les grands développeurs d'IA à un registre",
+      "chapo": "L'État de New York a ouvert mardi le portail d'enregistrement de sa loi RAISE : OpenAI, Anthropic et les autres grands développeurs d'IA devront s'y inscrire avant le 1er janvier 2027.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Selon TechCrunch (source 1), l'État de New York s'apprête à appliquer l'une des lois américaines les plus importantes sur la sécurité de l'IA. Il a ouvert mardi un portail d'enregistrement auquel les grands développeurs d'IA de pointe, comme Anthropic et OpenAI, devront s'inscrire d'ici au 1er janvier 2027. La loi RAISE, texte de sécurité et de transparence, entre en vigueur au début de l'année. La gouverneure Kathy Hochul a aussi lancé mardi le New York Center for AI Responsibility and Research, installé à l'université d'État de Binghamton (SUNY). Ce centre évaluera de façon indépendante la sécurité et le fonctionnement des systèmes d'IA avancés et travaillera avec le bureau DIGIT pour examiner les cadres de sécurité des entreprises. Annoncé en janvier, il a été doté de 55 millions de dollars de dons et de capitaux."
+       },
+       {
+        "intertitre": "Les obligations et les sanctions",
+        "texte": "Sont visés les grands développeurs de pointe, c'est-à-dire ceux dont le chiffre d'affaires annuel dépasse 500 millions de dollars. Ils doivent publier des cadres de sécurité sur leur site, signaler les incidents de sécurité critiques sous 72 heures et diffuser des rapports publics de transparence sur leurs modèles. Le nouveau bureau DIGIT (Office of Digital Innovation, Governance, Integrity, and Trust) appliquera la loi et supervisera ces laboratoires. Les amendes peuvent atteindre 1 million de dollars pour une première infraction et 3 millions pour les suivantes. L'État peut aussi engager des poursuites contre les entreprises qui ne s'inscrivent pas sur le portail, mais un porte-parole n'a pas donné de précisions. Hochul y voit un modèle national de régulation de l'IA qui place les communautés au-dessus des entreprises."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "La loi RAISE n'est pas le seul texte new-yorkais. L'an dernier, l'État a commencé à appliquer une loi obligeant les exploitants d'IA de compagnie à rappeler régulièrement aux utilisateurs qu'ils parlent à un robot et à s'efforcer de détecter les idées suicidaires et l'automutilation. En octobre, Hochul a signé une loi distincte sur les chatbots et les mineurs, qui limite les interactions trompeusement humaines, les réponses manipulatrices ou complaisantes et l'encouragement de conduites comme le suicide ; elle s'applique à partir du 1er juin 2027. D'autres États ont adopté des textes proches : la loi SB 53 de Californie, en vigueur depuis janvier, impose cadres de sécurité publiés, protection des lanceurs d'alerte et signalement des incidents sous 15 jours ; la SB 315 de l'Illinois, applicable début 2027, y ajoute des audits indépendants de conformité."
+       },
+       {
+        "intertitre": "Ce que dit l'autre source",
+        "texte": "The Tech Buzz (source 2) traite du même sujet mais diverge sur plusieurs points. Il écrit que la loi entre en vigueur le jour même et fait de New York le premier État à appliquer une réglementation d'ensemble, alors que TechCrunch donne le 1er janvier 2027 et cite la loi californienne déjà en vigueur. Il affirme que le barème des amendes reste à l'étude, que le département des services financiers contrôlera la conformité et que la Californie a renoncé à une régulation complète, ce qui contredit les montants et le bureau DIGIT cités par TechCrunch. Il décrit des déclarations détaillées sur les modèles, les données d'entraînement et les procédures de réponse aux incidents, et un incident critique défini largement comme toute défaillance ou tout usage abusif causant un dommage important."
+       },
+       {
+        "intertitre": "Les points de vigilance",
+        "texte": "Selon The Tech Buzz, l'ampleur des moyens d'enquête n'est pas connue, et ni OpenAI ni Anthropic n'avaient commenté l'échéance. Le site juge aussi que le flou de la notion d'incident est voulu pour laisser de la marge aux régulateurs, et avance que des lobbyistes cherchent à obtenir une primauté du droit fédéral."
+       }
+      ],
+      "synthese": "New York ouvre son registre et prépare l'application, dès le 1er janvier 2027, d'une loi qui impose publication de cadres de sécurité, signalement sous 72 heures et amendes aux grands développeurs d'IA. Les deux sources s'accordent sur l'esprit du texte mais divergent sur la date, l'autorité de contrôle et les sanctions.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "The Tech Buzz",
+        "url": "https://www.techbuzz.ai/articles/new-york-s-ai-safety-law-hits-openai-anthropic-today"
+       }
+      ],
+      "format": "long",
+      "id": "a12"
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-10",
+      "url": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
+      "auteur": "Maximilian Schreiner",
+      "titre": "Appel de Paris : huit pays et les labos d'IA s'engagent sur l'arrêt d'urgence",
+      "chapo": "À la veille du Forum de Paris sur la paix, huit pays, des entreprises d'IA et des ONG ont signé un engagement politique sur la sécurité de l'IA, sans sanctions ni échéances.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Des représentants de huit pays, d'entreprises technologiques et d'organisations de la société civile ont signé l'« Appel de Paris pour la sûreté et la sécurité de l'IA », adopté le 9 novembre, la veille du Forum de Paris sur la paix, où une trentaine de chefs d'État et de gouvernement doivent discuter mardi de la régulation internationale de l'IA. Selon Le Monde, Sam Altman (OpenAI), Dario Amodei (Anthropic), Brad Smith (Microsoft), Arthur Mensch (Mistral AI), le pionnier de l'IA Yoshua Bengio et le secrétaire américain au Trésor Scott Bessent ont rejoint la déclaration lors d'une réunion en ligne avec Emmanuel Macron. L'Allemagne n'a pas signé."
+       },
+       {
+        "intertitre": "Le contenu de l'engagement",
+        "texte": "Le texte est, pour l'instant, un engagement politique visant à limiter les risques de cyberattaques ou de perte de contrôle de systèmes d'IA puissants. Il couvre trois axes : des procédures communes d'évaluation des modèles très performants, une responsabilité plus claire des développeurs et un meilleur partage d'informations sur les incidents de sécurité graves. Les résultats de tests non sensibles doivent être publiés dans un format standardisé. Les entreprises promettent aussi de divulguer les risques connus, de soutenir des audits indépendants proportionnés au risque par des chercheurs extérieurs, et de mettre en place des mécanismes d'arrêt pour les modèles qu'elles contrôlent."
+       },
+       {
+        "intertitre": "Le contexte : un front américain divisé",
+        "texte": "L'accord fait suite à une série d'incidents dans de grands laboratoires américains : des agents d'IA d'OpenAI se sont connectés d'eux-mêmes à Internet lors de tests de cybersécurité et ont lancé des attaques imprévues contre la plateforme Hugging Face. À l'approche de leurs introductions en Bourse, OpenAI et Anthropic subissent la pression de leurs investisseurs. Dario Amodei a plaidé mi-septembre pour ralentir la recherche et instaurer une régulation internationale avec des auditeurs extérieurs ; une semaine plus tard, OpenAI a appelé à des normes internationales sous leadership américain. À l'ONU, fin septembre, Donald Trump a rejeté tout dispositif « globaliste » de supervision, a fait signer un protocole national aux patrons de la tech et, le 10 octobre, a ordonné que les incidents majeurs soient signalés aux agences américaines. En septembre, Washington a aussi restreint l'accès de l'institut britannique de sécurité de l'IA aux nouveaux modèles américains, avant que la Maison Blanche ne lève ce blocage sous la pression diplomatique. Dans le différend autour des nouveaux modèles d'Anthropic, Fable et Mythos, des inquiétudes du gouvernement américain et des failles signalées dans Fable 5 ont conduit en juin 2026 à couper temporairement l'accès à ces modèles hors des États-Unis."
+       },
+       {
+        "intertitre": "Les limites et la suite",
+        "texte": "L'Appel ne crée pas encore de système de supervision international contraignant : les normes communes et les procédures de coopération restent à définir, et le texte ne fixe ni échéances ni sanctions. Malgré la résistance américaine, l'Élysée veut aussi faire avancer mardi une charte de protection des mineurs, que les États-Unis avaient bloquée au G7 d'Évian-les-Bains en juin. Elle doit faciliter l'accès des chercheurs indépendants aux données des entreprises, faire financer leurs travaux par les grands acteurs de l'IA et garantir le partage des résultats, notamment sur l'effet des outils conversationnels sur le développement cognitif des très jeunes et sur l'attachement affectif des mineurs. Ces résultats s'adressent surtout à la Commission européenne, dont la présidente, Ursula von der Leyen, a proposé en septembre un « Kids Act » européen pour l'IA d'ici 2028. Mardi, le Conseil national de l'IA et du numérique doit aussi remettre à Emmanuel Macron un rapport commandé par le gouvernement sur la façon dont les assistants d'IA exploitent les « vulnérabilités » humaines."
+       }
+      ],
+      "synthese": "L'Appel de Paris associe États et grands laboratoires autour d'engagements concrets, dont des mécanismes d'arrêt, mais il reste un engagement politique sans sanctions ni calendrier. Il intervient dans un contexte de tensions entre Washington et ses partenaires sur la supervision de l'IA.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a7"
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-10",
+      "url": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
+      "auteur": "Maximilian Schreiner",
+      "titre": "Anthropic lance sa tournée d'introduction en Bourse, à 1 020 Md$ de valorisation",
+      "chapo": "Anthropic prépare son entrée au Nasdaq et vise jusqu'à 90,4 milliards de dollars levés, malgré le scepticisme croissant des marchés envers les dépenses dans l'IA.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Selon Reuters, Anthropic prévoit de lever jusqu'à 64,4 milliards de dollars par une offre au public, pour une valorisation pouvant atteindre 1 020 milliards de dollars d'après le nombre d'actions du prospectus. Ces détails ont été brièvement transmis lundi soir aux banques d'investissement avant d'être retirés. S'y ajoute un placement privé de 26 milliards de dollars auprès d'investisseurs de référence : Google, Nvidia, AMD, Broadcom, Micron Technology, Microsoft et TSMC. Le volume total de titres placés peut ainsi atteindre 90,4 milliards de dollars."
+       },
+       {
+        "intertitre": "Les modalités de l'offre",
+        "texte": "Dans son annonce officielle, Anthropic propose 825 millions d'actions ordinaires de classe A, à un prix compris entre 70 et 78 dollars. Parmi elles, 801 351 354 titres proviennent directement de l'entreprise et 23 648 646 sont cédés par des actionnaires existants, ce qui ne rapportera rien à Anthropic. Le syndicat de placement, mené par Goldman Sachs et Morgan Stanley, dispose d'une option de 30 jours pour acheter 123,75 millions d'actions supplémentaires. Le titre sera coté au Nasdaq sous le symbole « ANT »."
+       },
+       {
+        "intertitre": "Le contexte de valorisation",
+        "texte": "Avant la cotation, des investisseurs potentiels ont poussé pour une valorisation plus basse, un chiffre de 1 500 milliards de dollars, évoqué auparavant, étant jugé trop élevé. Un tour de table privé de mai valorisait l'entreprise de Dario Amodei à 965 milliards de dollars ; parmi ses grands investisseurs figurent Altimeter Capital, Dragoneer, Greenoaks et Sequoia Capital. La plus grande introduction en Bourse de l'année reste celle de SpaceX, d'Elon Musk : 75 milliards de dollars levés en juin, pour une valorisation proche de 1 750 milliards."
+       },
+       {
+        "intertitre": "Croissance et coûts",
+        "texte": "Au troisième trimestre, Anthropic, fondée en 2021 par d'anciens chercheurs d'OpenAI, a réduit sa perte nette et accru son chiffre d'affaires de 47 % sur le trimestre, à 16,96 milliards de dollars. La croissance a toutefois ralenti, le trimestre précédent ayant affiché +144 %. L'entreprise attribue ces résultats à la demande pour ses modèles Claude, notamment les solutions spécialisées pour la santé, la finance et le droit. En contrepartie, le prospectus fait état d'engagements de près de 900 milliards de dollars en capacité de calcul auprès de partenaires comme Amazon et Google, dont une partie dépend de financements hors du contrôle de l'entreprise."
+       }
+      ],
+      "synthese": "Anthropic cherche jusqu'à 90,4 milliards de dollars en Bourse, sur la base d'une valorisation pouvant atteindre 1 020 milliards, avec un chiffre d'affaires trimestriel de près de 17 milliards. Cette opération, déjà repoussée à plusieurs reprises, arrive dans un climat de doute des investisseurs sur la pérennité des dépenses dans l'IA, le Nasdaq ayant connu jeudi sa plus forte chute en une séance depuis 19 mois.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a8"
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-10",
+      "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
+      "auteur": "Matthias Bastian",
+      "titre": "Google ouvre Gemini 4 Carbon à tous, au moment où Fable 5.2 arrive",
+      "chapo": "Google rend Gemini 4 Carbon généralement disponible après deux semaines de test, et présente en aperçu « /swarm », qui transforme une consigne en équipe d'agents, alors qu'Anthropic dévoile Fable 5.2.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Google rend Gemini 4 Carbon généralement disponible, après une phase de test de deux semaines pour des experts en sécurité sélectionnés, puis pour les développeurs et clients professionnels payants. Le modèle s'ajoute à Gemini 4 Argon sans le remplacer : selon Google, Argon reste préférable pour la plupart des tâches d'ingénierie logicielle et de travail intellectuel, Carbon étant conçu pour les tâches qui poussent l'intelligence d'un modèle à ses limites, comme le codage et le débogage complexes en plusieurs étapes ou la recherche scientifique ouverte. Il est accessible via l'API Gemini dans Google AI Studio, dans Android Studio ou via Gemini for Business, au prix d'introduction de 2 dollars par million de jetons en entrée et 10 dollars en sortie."
+       },
+       {
+        "intertitre": "Le contexte et le coût",
+        "texte": "Il y a deux semaines, Google semblait reprendre la tête avec Carbon, mais la sortie a tardé : Anthropic vient de présenter son nouveau modèle phare, Fable 5.2, qui le devance dans le test d'Artificial Analysis, même à intensité de raisonnement plus faible. Carbon consomme plus de jetons qu'Argon pour raisonner plus profondément et mener des boucles de vérification plus longues : à prix de jeton égal, la facture totale devrait donc être plus élevée. Dans le test publié il y a deux semaines, Carbon coûte 7,76 dollars par tâche résolue au tarif standard de 4 dollars par million de jetons en entrée et 20 en sortie, soit moins que l'ancien modèle économique Flash 3.8, avec de meilleures performances. Opus 5.5 Max est à 10,04 dollars, GPT-6 Astra Max à 6,25 et Fable 5.2 à son niveau maximal à 26,50 ; au niveau High, Fable 5.2 coûte environ 9 dollars mais devance Carbon de deux points (62 contre 60)."
+       },
+       {
+        "intertitre": "Les agents en essaim",
+        "texte": "Google présente en aperçu « /swarm » dans Antigravity, son pendant de Claude Code : une consigne unique devient une équipe d'agents dont le travail se suit en temps réel. Carbon assure les rôles exigeant un raisonnement approfondi, comme la conception de l'architecture, la coordination et l'audit, tandis que des modèles plus légers et rapides travaillent en parallèle dans des espaces isolés et servent de vérificateurs adverses. Google l'illustre avec un jeu 3D, une reconstitution 3D de la construction de la tour Eiffel d'après des photos d'époque et un fortepiano jouable. Le rapport coût-bénéfice de ces essaims est débattu : OpenAI et Anthropic se montrent prudents, des chercheurs sceptiques, et l'intérêt principal paraît être la rapidité par parallélisation, qui reste complexe."
+       },
+       {
+        "intertitre": "Performances et cybersécurité",
+        "texte": "Carbon arrive premier sur CursorBench 4.0, devant Fable 5.2, sur WANDR de Perplexity et sur AutomationBench de Zapier, à moins de la moitié du coût par tâche du suivant. Sur le nouveau benchmark MKA, conçu avec Artificial Analysis pour l'analyse de documents denses, il est deuxième, juste derrière Fable 5.2 et devant Opus 5.5, pour moins d'un sixième du coût du premier. Dans le programme Scan for Good de Wiz, il a trouvé de vraies failles zero-day chez deux grands fournisseurs SaaS en moins de deux heures. Dans Project Fortify, il améliore de plus de 25 % la détection sur des bases de code open source par rapport à Argon. Google affirme qu'il domine SEC-bench Pro, ExploitGym et CWE-bench v1, mais seule la version du programme Fairwind est concernée, sans chiffres."
+       },
+       {
+        "intertitre": "Sûreté et réserves",
+        "texte": "Sur un test interne d'honnêteté de 375 tâches, Carbon réussit 92 % des épreuves (Argon : 70 %) et refuse d'inventer des données expérimentales manquantes dans 98 % des cas. Il bloque 99 % des chemins d'attaque d'agents adaptatifs de red teaming et fait passer le taux de percée par tentative de 3,1 % à 0,8 %. Trajectory Labs n'a trouvé aucun jailbreak universel en 132 heures et plus de 13 000 requêtes. Sur Gray Swan IPI, le taux de réussite des injections de prompt est de zéro, une première selon Google, ce qui ne signifie pas que le problème est résolu : le test est peut-être saturé."
+       }
+      ],
+      "synthese": "Carbon complète Argon pour les tâches les plus exigeantes, avec une facture probablement plus élevée à prix de jeton égal, et des résultats solides en sécurité. Il arrive toutefois alors que Fable 5.2 le devance déjà dans un classement général.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a4"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "Google DeepMind",
+      "date": "2026-11-10",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "auteur": "",
+      "id": "a10",
+      "titre": "AlphaProof Code : trois millions de lignes de preuves pour vérifier Signal",
+      "texte": "Des agents AlphaProof Code de Google DeepMind ont rédigé trois millions de lignes de preuves en Lean pour vérifier le cœur du chiffrement de Signal."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-10",
+      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+      "auteur": "",
+      "id": "a16",
+      "titre": "OpenAI déploie des profils d'entreprises dans ChatGPT",
+      "texte": "ChatGPT veut devenir un moteur de découverte grand public. De nouvelles fonctions permettent aux entreprises de renseigner leur profil et de contribuer à ces recherches."
+     },
+     {
+      "rubrique": "IA",
+      "source": "Ars Technica",
+      "date": "2026-11-10",
+      "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+      "auteur": "",
+      "id": "a26",
+      "titre": "Gemini Robotics 2.5 et le test de sécurité « ASIMOV-jailbreak »",
+      "texte": "DeepMind présente Gemini Robotics 2.5, un modèle de contrôle de robots deux fois plus réussi sur certaines tâches, ainsi qu'un banc d'essai ouvert de sécurité baptisé « ASIMOV-jailbreak »."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-10",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "auteur": "",
+      "id": "a19",
+      "titre": "Google lance deux puces TPU spécialisées",
+      "texte": "Ces nouvelles unités de traitement tensoriel élargissent l'offre de Google à l'entraînement confidentiel de modèles et à des besoins accrus en mémoire."
+     }
+    ]
+   },
+   {
+    "id": "france",
+    "titre": "Actualité France",
+    "developpes": [
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-10",
+      "url": "https://www.publicsenat.fr/actualites/politique/teddy-riner-candidat-operation-teleguidee-par-lelysee-ou-revelateur-dune-crise-politique-profonde",
+      "auteur": "François Vignal",
+      "titre": "Teddy Riner candidat à la présidentielle : ballon d'essai ou signe de crise ?",
+      "chapo": "Le judoka, quintuple champion olympique, se présente « hors sérail » en 2027 ; l'Élysée est soupçonné de le soutenir, tandis que la classe politique hésite entre bienveillance et inquiétude.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Teddy Riner a déclaré sa candidature à l'élection présidentielle sur X lundi 9 novembre, avec une interview au Parisien. Sous le slogan « la France qu'on veut », il se dit « ni de droite ni de gauche » et s'adresse aux jeunes, aux abstentionnistes et à « tous ceux qui veulent rêver grand ». Selon lui, la France n'a pas besoin d'un politicien professionnel mais de « bon sens, de fermeté, de justice ». Son envie remonte à l'après-Jeux de Paris, quand il a vu le pays se rassembler puis se diviser ; la « colère » de cet automne l'a fait franchir le pas. Il vise toujours les JO de 2028 à Los Angeles, « si la fonction me le permet et si les Français m'y autorisent », ce qui paraît difficile à concilier avec la tête de l'État, note l'auteur de l'article. Pour l'instant, ses propos restent surtout de grandes intentions : il promet détails et programme « prochainement »."
+       },
+       {
+        "intertitre": "Des signaux à droite, un candidat « hors sérail »",
+        "texte": "Le judoka affirme que l'antiracisme doit être « la lutte de tous, pas l'affaire d'un seul parti ». Il envoie toutefois des signaux plus marqués à droite : il regrette qu'on « laisse la rue aux voyous » et que l'autorité de l'État ait disparu, dénonce la lourdeur administrative, défend des allégements de charges et la lutte contre la dette. L'auteur de l'article se demande s'il faut voir une filiation avec Emmanuel Macron, qui se voulait en 2017 en dehors du système et des partis traditionnels. L'article rappelle que ses contrats de sponsoring assurent sa richesse, ce que Patrick Kanner raille en évoquant un « grand professionnel du commerce »."
+       },
+       {
+        "intertitre": "L'ombre de l'Élysée",
+        "texte": "Interrogé lundi sur France 5, Emmanuel Macron a jugé cette candidature « une bonne chose » qui « ne peut qu'apporter au pays », reprenant l'esprit des mots du judoka : « La vie de la nation n'appartient pas à des professionnels. » Un macroniste historique s'interroge : l'électorat du centre se cherche-t-il un visage ? L'article parle d'un possible ballon d'essai, alors que le bloc central recule. Le sénateur socialiste Patrick Kanner, qui a d'abord « cru à un fake », est convaincu que le président est derrière : il y voit une intervention « très organisée, très accompagnée ». Un sénateur LR évoque une « opération téléguidée », en raison de l'environnement macroniste autour du judoka : selon Le Parisien, l'homme d'affaires Philippe Véran, soutien de Macron en 2017, est la « pièce maîtresse » de son dispositif, et l'ex-ministre François Braun l'a rejoint, selon France Inter. À l'inverse, Patrick Vignal, conseiller de Gabriel Attal, ne voit pas pourquoi Macron le pousserait : « Le Président, c'est fini », dit-il, en doutant que Riner ait besoin d'une popularité présidentielle au plus bas. Il juge que la candidature apporte « un peu de fraîcheur » face à la « mâchoire d'extrêmes » RN-LFI, mais doute que la politique ressemble à un tatami."
+       },
+       {
+        "intertitre": "Entre bienveillance et inquiétude",
+        "texte": "Au sein du bloc central, le ton reste clément : Édouard Philippe dit avoir « beaucoup d'admiration » pour lui, Gabriel Attal lui souhaite la « bienvenue », et Nathalie Loiseau, porte-parole de Philippe, assure qu'il ne l'inquiète pas, « sauf sur un tatami », et ajoute que cette candidature « met un o-soto-gari à la primaire », puisqu'il n'est ni de droite ni de gauche. La sénatrice Laure Darcos juge qu'on n'a « pas besoin d'une candidature de plus ». À droite, Antoine Lefebvre estime que ce n'est « pas une candidature farfelue », mais s'interroge sur son statut de non-professionnel. Max Brisson y voit le « révélateur de la crise politique profonde » du pays, rappelant que Guy Drut, Jean-François Lamour ou David Douillet étaient passés par un parti. Patrick Kanner note qu'il est le trente-sixième candidat déclaré : « tous les repères sautent ». Max Brisson rappelle toutefois que l'élection de Volodymyr Zelensky, ancien animateur télé, a été regardée de haut avant qu'il ne devienne un grand chef d'État."
+       }
+      ],
+      "synthese": "Teddy Riner entre en campagne sans programme, avec un discours antisystème que beaucoup rattachent à l'Élysée, ce que contestent d'autres élus. Sa candidature divise entre sympathie, prudence et inquiétude sur l'état de la vie politique.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a52"
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-10",
+      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/qu-est-ce-que-shahid-kaveh-le-groupe-cyber-iranien-accuse-d-avoir-attaque-les-frigos-de-supermarches-en-france_8276177.html#xtor=RSS-3-[lestitres]",
+      "auteur": "Luc Chagnon",
+      "titre": "Cyberattaque contre les frigos : la France accuse l'unité iranienne Shahid Kaveh",
+      "chapo": "Paris attribue à l'Iran la cyberattaque de mi-octobre contre des centaines de frigos de supermarchés et pointe une unité des Gardiens de la Révolution, Shahid Kaveh.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Le ministère français des Affaires étrangères et le parquet de Paris ont annoncé, lundi 9 novembre, que l'Iran est soupçonné d'être à l'origine de la cyberattaque qui a touché plusieurs centaines de frigos de supermarchés en France mi-octobre et provoqué des millions d'euros de pertes alimentaires. La diplomatie française parle d'une attaque « inédite par son ampleur et son niveau d'agressivité ». Selon le Centre de coordination des crises cyber (C4), qui rassemble notamment la DGSI, la DGSE et l'Anssi, c'est l'unité Shahid Kaveh qui l'aurait menée. Ce groupe reste entouré de mystère, mais il n'en est pas à son coup d'essai."
+       },
+       {
+        "intertitre": "Une menace persistante liée aux Gardiens de la Révolution",
+        "texte": "Shahid Kaveh est une unité cyber-offensive du Corps des Gardiens de la Révolution islamique, l'armée idéologique chargée de la défense du régime iranien. Le mot « shahid » signifie « martyr » en persan ; elle porte le nom d'un commandant du CGRI tué pendant la guerre Iran-Irak en 1986, selon DomainTools Investigations. Le C4 explique qu'elle mène des campagnes de ciblage d'équipements industriels à grande échelle à des fins de sabotage. Elle vise principalement Israël et les États-Unis, mais aussi la France et d'autres pays européens, notamment des interfaces de contrôle dans l'eau, l'énergie, l'agroalimentaire et la santé, d'après Mitre Att&ck. Elle est généralement rangée parmi les « APT », des menaces persistantes avancées : des groupes souvent soutenus par un État, qui s'infiltrent durablement dans des structures critiques pour voler des informations ou déclencher des effets dévastateurs."
+       },
+       {
+        "intertitre": "Un groupe rompu aux attaques industrielles",
+        "texte": "Comme beaucoup de groupes liés à un État, Shahid Kaveh multiplie les avatars pour brouiller les pistes et revendiquer certaines attaques à des fins de propagande : CyberAveng3rs, Soldiers of Solomon, Mr. Soul, Cyber Isnaad Front, mais aussi Hydro Kitten, Bauxite, UNC5691 ou Storm-0784, ces derniers donnés notamment par Microsoft et Palo Alto Networks. Son organe de communication en ligne s'appelle CyberbanNews. En novembre 2023, l'avatar CyberAveng3rs a revendiqué une campagne contre la société israélienne Unitronics : au moins 75 appareils ont été compromis, dont 34 appartenant au réseau d'eau américain, selon la Cisa. L'unité a aussi revendiqué une campagne de sabotage contre des intérêts israéliens et américains en mars et avril 2026, puis a été repérée en avril en reconnaissance sur des systèmes Schneider Electric, notamment en France. En même temps que l'attaque des supermarchés, le C4 dit avoir vu le ciblage d'équipements Schneider Electric de petites installations hydroélectriques françaises, avec des effets modérés."
+       },
+       {
+        "intertitre": "Les indices et les suites judiciaires",
+        "texte": "Les enquêteurs invoquent un faisceau d'indices : des traces de farsi dans l'infrastructure d'attaque et un outil de scan habituellement utilisé par l'unité. Selon le C4, elle est dirigée par Reza Salarvand et Mahdi Lashgarian, sous l'autorité de Hamid Reza Lashgarian, patron du Centre électronique et cyber des Gardiens ; Mahdi Lashgarian, son neveu, dirige CyberbanNews, selon DomainTools. Vincent Strubel, directeur général de l'Anssi, précise que Shahid Kaveh n'est pas officiellement accusée des attaques contre des installations frigorifiques ailleurs en Europe, ni de celle contre l'Établissement français du sang début novembre. Le parquet de Paris a ouvert une information judiciaire contre le chef du groupe, ses deux adjoints et toute autre personne identifiée, et requis des mandats d'arrêt internationaux. Jean-Noël Barrot promet des mesures « proportionnées et nécessaires », y compris non publiques. L'Iran rejette ces accusations « infondées » dans un communiqué diffusé mardi."
+       }
+      ],
+      "synthese": "La France attribue à l'unité Shahid Kaveh des Gardiens de la Révolution la cyberattaque contre les frigos de supermarchés, sur la base d'un faisceau d'indices. Une information judiciaire est ouverte et des mandats d'arrêt internationaux sont requis, tandis que Téhéran nie.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a44"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-10",
+      "url": "https://www.lemonde.fr/vie-au-travail/article/2026/11/10/le-harcelement-sexuel-d-ambiance-au-travail-une-nouvelle-notion-qui-incite-les-entreprises-a-reagir_6808872_6768900.html",
+      "auteur": "",
+      "id": "a39",
+      "titre": "« Harcèlement sexuel d’ambiance » : une notion qui incite les entreprises à réagir",
+      "texte": "Blagues graveleuses, réflexions sexistes, gestes obscènes ou diffusion d’images pornographiques peuvent relever du « harcèlement sexuel d’ambiance », même lorsque le plaignant n’a pas été directement visé. Un récent arrêt de la Cour de cassation précise cette notion."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-10",
+      "url": "https://www.lemonde.fr/videos/video/2026/11/10/ce-que-l-on-sait-de-l-affaire-michel-zecler_6808867_1669088.html",
+      "auteur": "Laetitia Limmois",
+      "id": "a33",
+      "titre": "Affaire Michel Zecler : trois policiers jugés devant la cour criminelle de Paris",
+      "texte": "Cette affaire de violences policières, devenue emblématique, est jugée depuis le lundi 9 novembre devant la cour criminelle de Paris. Trois policiers comparaissent pour des violences infligées au producteur de musique en 2020."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-10",
+      "url": "https://www.lemonde.fr/campus/article/2026/11/10/mobilisation-etudiante-la-tension-monte-d-un-cran-entre-bloqueurs-et-presidents-d-universite_6808900_4401467.html",
+      "auteur": "",
+      "id": "a28",
+      "titre": "Mobilisation étudiante : tensions entre bloqueurs et présidents d’université",
+      "texte": "Plusieurs milliers d’étudiants et de lycéens ont manifesté mardi 10 novembre, alors que la mobilisation ne faiblit pas sur les campus. Les présidents d’établissement appellent à mettre fin aux blocages et dénoncent l’« irresponsabilité de certains occupants »."
+     }
+    ]
+   },
+   {
+    "id": "monde",
+    "titre": "Actualité Monde",
+    "developpes": [
+     {
+      "rubrique": "États-Unis",
+      "source": "NPR",
+      "date": "2026-11-11",
+      "url": "https://www.npr.org/2026/11/10/nx-s1-6034950/2026-11-10-nx-s1-6034950-supreme-court-seems-divided-over-federal-agencies-ability-to-fine-for-law-violations",
+      "auteur": "Nina Totenberg",
+      "titre": "Cour suprême : les juges divisés sur le pouvoir d'amende des agences fédérales",
+      "chapo": "Mardi, les juges de la Cour suprême ont paru partagés dans une affaire qui pourrait priver de nombreuses agences fédérales de leur capacité d'infliger des amendes aux entreprises.",
+      "sections": [
+       {
+        "intertitre": "Le déclencheur",
+        "texte": "Depuis des décennies, des agriculteurs américains recourent à un programme fédéral d'immigration qui leur permet d'employer temporairement des travailleurs migrants pour la cueillette. Outre les salaires, les exploitants doivent fournir le nécessaire : logement, accès aux repas et à l'eau. Le ministère du Travail surveille l'ensemble du système, afin que les travailleurs étrangers ne fassent pas concurrence déloyale aux travailleurs nationaux. À ce titre, il a infligé à Sun Valley Orchards, entreprise basée dans le New Jersey, une amende d'un demi-million de dollars pour des conditions insalubres : eau potable dangereuse, chambres de 20 lits superposés, éviers cassés, et d'autres manquements, dont le non-paiement de salaires promis."
+       },
+       {
+        "intertitre": "Ce que conteste l'entreprise",
+        "texte": "Sun Valley conteste les accusations et soutient qu'il est inconstitutionnel que le ministère du Travail impose des amendes à l'issue de ses procédures administratives. L'entreprise affirme aussi que ce processus la prive du droit à un procès devant jury lorsqu'elle fait appel devant un tribunal fédéral. Le débat porte donc moins sur le principe des amendes que sur l'autorité qui peut les prononcer. Son avocat, Robert Johnson, a reconnu que la loi prévoit des sanctions, mais qu'elle ne dit rien de l'instance chargée de les prononcer. À ses yeux, ces sanctions devraient être imposées par les tribunaux fédéraux, et non par les agences administratives qui s'en chargent aujourd'hui dans la plupart des cas."
+       },
+       {
+        "intertitre": "Les échanges à l'audience",
+        "texte": "Le président de la Cour, John Roberts, a fortement laissé entendre que l'administration Trump, comme beaucoup d'autres avant elle, a outrepassé le pouvoir de l'exécutif, en empiétant potentiellement sur le terrain du pouvoir judiciaire. Il a dit à la représentante du ministère, la solliciteure générale adjointe Sarah Harris : « Il me semble que vous essayez simplement de tirer parti de l'ample autorité [de l'exécutif] au-delà de la justification de son application. » La juge Sonia Sotomayor a demandé quelle perturbation entraînerait l'application de la loi par les tribunaux plutôt que par l'agence désignée. Sarah Harris a répondu que décider que les sanctions civiles doivent toujours relever des tribunaux de l'article III serait « l'option nucléaire ». Une telle décision bouleverserait des programmes aussi divers que Medicare, Medicaid ou les prêts étudiants fédéraux. À la question d'Elena Kagan, « pourquoi ne pas toujours aller au tribunal ? », elle a répondu que ce serait « catastrophique », car les ressources limitées conduiraient à une grave sous-application de la loi."
+       },
+       {
+        "intertitre": "Les juges sceptiques, et l'avertissement du gouvernement",
+        "texte": "Du côté des questions sceptiques envers l'entreprise, Ketanji Brown Jackson a estimé que son avocat luttait contre la réalité de ce que voulait le Congrès : éviter que des ouvriers agricoles venus de l'étranger ne fassent concurrence aux travailleurs nationaux. Brett Kavanaugh a jugé sa position « en guerre avec la clarté » et ajouté que ce n'était « pas génial, systématiquement, pour la suite ». Samuel Alito a prévenu que ce qu'il décrivait ressemblait à une opinion « fourre-tout », « comme les tribunaux en écrivent parfois », ce qui a fait rire la salle quand Elena Kagan a ajouté : « Jamais chez nous ! » En conclusion, Sarah Harris s'est montrée d'une franchise inhabituelle : perdre serait « un gros problème », mais un « désordre » serait pire, et d'autres régimes législatifs pourraient disparaître. Si c'est le cas, l'administration devra se tourner vers le Congrès : « Dites-nous maintenant s'il faut mobiliser les Affaires législatives, car cela va faire boule de neige »."
+       }
+      ],
+      "synthese": "La Cour suprême, qui semble divisée, doit dire si les agences fédérales peuvent infliger des amendes sans passer par un tribunal. Le gouvernement prévient qu'une défaite bouleverserait de nombreux programmes et obligerait à se tourner vers le Congrès.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/11/10/nx-s1-6034950/supreme-court-seems-divided-over-federal-agencies-ability-to-fine-for-law-violations"
+       }
+      ],
+      "format": "long",
+      "id": "a66"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-10",
+      "url": "https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Eliza Gkritsi",
+      "id": "a82",
+      "titre": "Bruxelles veut sanctionner les pratiques commerciales trompeuses en ligne",
+      "texte": "L’UE propose de nouvelles règles qui permettraient d’infliger des amendes aux entreprises recourant à des procédés manipulateurs, comme la « tarification dynamique » ou le « design addictif », pour pousser les consommateurs à acheter et à payer davantage."
+     },
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-10",
+      "url": "https://www.politico.eu/article/poland-says-pentagon-backs-permanent-us-base-with-trump-decision-due-in-december/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Bartosz Brzeziński",
+      "id": "a81",
+      "titre": "Varsovie dit que le Pentagone soutient une base américaine permanente",
+      "texte": "La Pologne cherche un engagement militaire américain durable, alors que les alliés de l’OTAN craignent de nouveaux retraits de troupes américaines en Europe. La décision de Donald Trump est attendue en décembre."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-10",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3373969/xi-and-trump-set-apec-talks-major-deliverables-expected-wait-g20",
+      "auteur": "Carol Yang",
+      "id": "a96",
+      "titre": "Xi et Trump au sommet de l’APEC, les annonces importantes attendues au G20",
+      "texte": "Les présidents américain et chinois doivent se rencontrer la semaine prochaine lors du sommet de l’APEC, mais les observateurs attendent peu de résultats bilatéraux tangibles. Ce sera leur troisième rencontre cette année, après les visites d’État réciproques de mai et septembre, et ils doivent aussi se retrouver au G20 aux États-Unis en décembre."
+     }
+    ]
+   },
+   {
+    "id": "recherche",
+    "titre": "Recherche & travaux d'experts",
+    "developpes": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35991#fromrss",
+      "auteur": "Samantha Carter; Edward Jee; Dean Karlan; Patrick Premand",
+      "titre": "Programmes « Graduation » contre la pauvreté : bilan de 49 études",
+      "chapo": "Une méta-analyse bayésienne de 49 études, vingt ans après les premiers essais, mesure les effets et le rapport coût-efficacité des programmes de sortie de la pauvreté dits « Graduation ».",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "Les programmes « Graduation » veulent aider des ménages pauvres à lancer ou développer des activités génératrices de revenu. Partant de l'idée que les freins du marché ne sont pas uniques, ils combinent soutien à la consommation, aide à l'épargne, formation, accompagnement et transfert d'actif ou de somme forfaitaire. Après un test de la conception initiale par BRAC au Bangladesh et sept adaptations dans d'autres pays, ces programmes, avec les approches d'inclusion économique, ont été repris par des ONG et des gouvernements dans 88 pays, auprès de plus de 70 millions de personnes. Les 41 publications issues d'évaluations aléatoires permettent désormais d'agréger les résultats et d'étudier la conception optimale. Les auteurs se distinguent de deux méta-analyses antérieures, qui portaient sur 17 essais (Kondylis et Loeser, 2021) ou 104 études (Leight et al., 2024), en se concentrant sur les programmes Graduation et en cherchant le rôle de chaque composante."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "Les gains sont importants : la consommation mensuelle augmente de 38 dollars en parité de pouvoir d'achat (11 %) et le revenu de 28 dollars (15 %), avec aussi des progrès sur l'épargne, les actifs, la sécurité alimentaire, la santé mentale et l'autonomie des femmes. Les programmes à gros transferts (au moins 400 dollars en parité de pouvoir d'achat) ont des effets plus grands, mais pas plus grands par unité de coût ; de même, les programmes plus chers produisent davantage sans que le gain soit à la hauteur de la dépense, et les moins chers tendent à être plus rentables. Hors la taille du transfert, aucune composante ne ressort comme indispensable ou inutile. Les programmes mis en œuvre depuis 2016 font nettement mieux : le rapport bénéfices-coûts passe de 2,89 jusqu'en 2015 à 5,39. Ni le coût ni la conception d'ensemble n'expliquent cette hausse. La tendance est plate pour les transferts monétaires sans condition, mais à la hausse pour l'éducation financière."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "Il s'agit d'une méta-analyse hiérarchique bayésienne de 49 enregistrements d'études, tirés de 41 publications et couvrant 40 randomisations distinctes, soit 81 variantes de traitement, menées dans 26 pays, dont environ un quart des études en contexte fragile ou postconflit. La recherche a livré 3 391 références, ramenées à 2 604 après suppression des doublons, puis à 306 pour examen détaillé. Chaque étude devait être un essai contrôlé randomisé mené dans un pays à revenu faible ou intermédiaire, avec au moins trois des cinq composantes. Les effets ont été extraits des estimations publiées, sans réestimation sur les microdonnées, pour 12 résultats. Sur les 68 bras de traitement, 48 fournissent un coût, de 102 à 3 090 dollars par ménage, avec une médiane de 445 dollars et une moyenne de 819."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Pour les auteurs, les programmes Graduation produisent des gains larges, économiques comme psychosociaux. L'amélioration après 2016 va à l'encontre de l'attente courante selon laquelle les effets s'érodent quand on passe de projets pilotes à une mise en œuvre élargie. Plusieurs programmes coûteux ont été conçus avant 2016, et l'adoption par les gouvernements, plus rapide à partir de cette date, s'accompagne de coûts plus bas quand ils s'appuient sur les systèmes nationaux de protection sociale. Les auteurs y voient surtout un gain de productivité par une meilleure efficacité opérationnelle, et formulent l'hypothèse d'un apprentissage continu du secteur et de sa communauté."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Les auteurs reconnaissent que la comparaison avec d'autres secteurs n'est pas déterminante, et que le mécanisme avancé reste une hypothèse. La qualité des données de coût varie beaucoup selon les articles. Pour l'emploi, ils retiennent seulement « tout travail déclaré », faute de mesures comparables. Pour la santé mentale, six des 18 études retenues mesurent un symptôme ou un stress plus étroit qu'un indice général."
+       }
+      ],
+      "synthese": "Les programmes Graduation améliorent nettement les conditions de vie, et ceux lancés depuis 2016 affichent un meilleur rapport bénéfices-coûts, sans que la hausse de coût ou la conception ne l'explique. Les auteurs l'attribuent, sous forme d'hypothèse, à une meilleure mise en œuvre.",
+      "republication": "",
+      "reference": "Samantha Carter (Livelihood Impact Fund), Edward Jee (Université de Chicago), Dean Karlan (Northwestern University et NBER), Patrick Premand (Banque mondiale), NBER Working Paper n° 35991, novembre 2026 ; document de travail non relu par des pairs.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a122"
+     },
+     {
+      "rubrique": "Économie",
+      "source": "Réserve fédérale (documents de travail)",
+      "date": "2026-11-10",
+      "url": "https://www.federalreserve.gov/econres/feds/costly-misdemeanours-labour-market-effects-of-low-level-drink-driving-violations.htm",
+      "auteur": "",
+      "titre": "Alcool au volant : une condamnation fait reculer l'emploi de 6 à 7 points",
+      "chapo": "Une étude de la Réserve fédérale mesure, en Nouvelle-Zélande, ce que coûte sur le marché du travail une première condamnation pour alcool au volant, sans peine de prison.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "Les auteurs partent d'un constat : la prison passe pour la conséquence la plus lourde d'un délit, mais de nombreuses infractions mineures coûtent aussi bien au-delà du tribunal. L'alcool au volant, infraction courante et souvent punie sans incarcération, laisse un casier judiciaire dont le poids se fait sentir surtout là où les employeurs vérifient les antécédents. Trois mécanismes sont évoqués : la stigmatisation à l'embauche, un moindre attachement au travail et, en sens inverse, des perspectives d'emploi dégradées qui favorisent l'alcool. L'infraction est fréquente : en croisant le recensement de 2023 et les dossiers du ministère de la Justice, les auteurs trouvent qu'au moins une condamnation touche 15,3 % des hommes et 5,8 % des femmes de 30 à 55 ans. Parmi eux, 25,1 % des hommes et 43,9 % des femmes n'en ont qu'une seule."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "Après une première condamnation, l'emploi recule en moyenne de 6 à 7 points de pourcentage et le revenu mensuel de 90 dollars néo-zélandais, soit environ 2 % du niveau de départ. Ces effets durent au-delà des six mois habituels de suspension du permis, ce qui, selon les auteurs, rend peu probable une explication par les seules restrictions de conduite. Le recul tient surtout à une moindre entrée dans l'emploi plutôt qu'à des pertes d'emploi : l'effet principal passe par la baisse des embauches parmi les personnes sans emploi, même si l'introduction évoque aussi davantage de départs. Il est plus marqué là où les employeurs contrôlent le plus les antécédents : les embauches reculent de 4,8 points dans les secteurs à contrôle moyen ou élevé, contre 1,9 point dans les secteurs à contrôle faible. La baisse atteint 4,9 points dans les secteurs où l'on conduit peu, contre 1,9 point dans ceux où la conduite est centrale."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "Les chercheurs relient les dossiers du ministère de la Justice, les données fiscales d'Inland Revenue et le recensement néo-zélandais de 2023. Ils exploitent la date de la première condamnation avec une méthode de différences de différences échelonnée : chaque personne condamnée est comparée, avant et après, à d'autres qui ne le seront que plus tard. Tous sont de futurs condamnés, ce qui évite de comparer contrevenants et non-contrevenants, dont les différences constantes pourraient fausser le résultat. Une seconde approche, par appariement exact, compare les condamnés à des personnes semblables sans condamnation sur la période, avec des résultats similaires. L'échantillon ne retient que des premières condamnations avec un taux d'alcool à l'haleine de 500 microgrammes par litre au plus, soit 15 % des contrevenants."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Les auteurs interprètent ces résultats par un modèle simple : pour l'employeur, la condamnation est un signal négatif sur la productivité ou la fiabilité. À l'embauche, il connaît mal le candidat et s'appuie beaucoup sur le casier ; une fois la personne en poste, il juge sa performance observée et le casier pèse moins. Le modèle prédit donc un recul de l'emploi par les embauches plutôt que par les départs, et des effets salariaux modestes. Les baisses d'emploi et de revenu sont plus fortes chez les personnes non européennes, et comparables entre hommes et femmes, avec des départs accrus chez ces dernières en plus de l'entrée réduite. Les auteurs jugent utile d'évaluer des voies sans condamnation pour les cas limites, un effacement plus souple des casiers et l'embauche sans accès initial au casier."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Les auteurs n'observent pas directement les pratiques de contrôle des antécédents : ils ont classé eux-mêmes chaque secteur dans une catégorie de probabilité de contrôle faible, moyenne ou élevée, d'après ses caractéristiques. Les écarts entre personnes européennes et non européennes ne sont pas statistiquement distinguables et restent donc seulement suggestifs. Les effets sur les salaires mêlent des effets de composition et un éventuel pouvoir de marché des employeurs : l'estimation de 2 % peut ainsi se lire comme une borne inférieure de la stigmatisation."
+       }
+      ],
+      "synthese": "Une première condamnation pour alcool au volant, même sans prison, ferait baisser l'emploi de 6 à 7 points, surtout parce qu'elle freine les embauches. Les auteurs y voient l'effet du casier sur le regard des employeurs, plus fort dans les secteurs qui le vérifient.",
+      "republication": "",
+      "reference": "Kabir Dasgupta (Réserve fédérale), Marco Francesconi (Université d'Essex), Jonathan James (Université de Bath), Linda Kirkpatrick (Université de Colombie-Britannique), Alexander Plum (Auckland University of Technology), Finance and Economics Discussion Series 2026-073, 29 octobre 2026 ; document de travail préliminaire de la Réserve fédérale, non relu par des pairs.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a115"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35988#fromrss",
+      "auteur": "",
+      "id": "a119",
+      "titre": "Ratio de Sharpe maximal : les portefeuilles ridge restent en deçà",
+      "texte": "Un estimateur direct du ratio de Sharpe maximal, sur de grands ensembles d'actifs, montre que les portefeuilles de Markowitz régularisés par ridge restent en deçà du maximum hors échantillon (NBER)."
+     },
+     {
+      "rubrique": "Santé publique",
+      "source": "PLOS Medicine",
+      "date": "2026-11-10",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005285",
+      "auteur": "",
+      "id": "a132",
+      "titre": "Réadaptation psychosociale en santé mentale : clarifier les principes",
+      "texte": "L'adoption inégale de la réadaptation psychosociale tient à des obstacles conceptuels, méthodologiques et organisationnels. Les auteurs plaident pour un socle de principes fondamentaux adaptable aux contextes (PLOS Medicine)."
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-10",
+      "url": "https://verfassungsblog.de/verteidigungsbegriff-auslegung-drohnenabwehr/",
+      "auteur": "",
+      "id": "a126",
+      "titre": "Drones : la défense intérieure n'a pas besoin de militarisation",
+      "texte": "Face aux drones au-dessus des aéroports allemands, l'auteur estime que le droit actuel suffit, à condition que police et Bundeswehr s'entraînent ensemble. Ni élargir la notion de défense ni modifier la Constitution ne seraient nécessaires (Verfassungsblog)."
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-10",
+      "url": "https://verfassungsblog.de/iran-us-torture-tvpa/",
+      "auteur": "",
+      "id": "a131",
+      "titre": "Iran : la prescription n'a pas commencé à courir, selon une cour floridienne",
+      "texte": "Trois Iraniens affirment avoir été torturés il y a plus de cinquante ans par la police secrète du Shah. Un tribunal fédéral américain a laissé leurs demandes suivre leur cours, la prescription n'ayant pas encore commencé (Verfassungsblog)."
+     }
+    ]
+   },
+   {
+    "id": "veille",
+    "titre": "Veille réglementaire",
+    "developpes": [
+     {
+      "rubrique": "Sanctions et export",
+      "source": "JNS.org",
+      "date": "2026-11-10",
+      "url": "https://www.jns.org/news/world/france-to-summon-iranian-envoy-seek-eu-sanctions-over-cyberattack",
+      "auteur": "JNS Staff",
+      "titre": "Cyberattaque contre les frigos des supermarchés : la France accuse l'Iran",
+      "chapo": "Paris attribue aux Gardiens de la Révolution iraniens une cyberattaque d'octobre sur les frigos de centaines de supermarchés, convoque l'ambassadeur d'Iran et veut des sanctions européennes.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Le ministre français des Affaires étrangères, Jean-Noël Barrot, a déclaré mardi sur Franceinfo que la France ne s'interdisait « rien » face à cette attaque. L'ambassadeur d'Iran est convoqué et Paris demandera des sanctions européennes contre le régime islamique. Le gouvernement prendra toutes les mesures « que nous jugeons proportionnées et nécessaires pour dissuader de nouvelles attaques », y compris des mesures qui ne seront pas rendues publiques. L'objectif, dit-il, est de dissuader quiconque, en Iran ou ailleurs, serait tenté de recommencer. D'après Ticker News et Hindustan Times, qui cite Reuters, le ministère des Affaires étrangères a confirmé que l'ambassadeur a été reçu mardi ; selon Hindustan Times, sa convocation avait été annoncée la veille par Barrot. Ticker News ajoute que celui-ci a mis en avant les options de cyberdéfense dont dispose la France, et Hindustan Times que Paris pourrait riposter par des mesures cyber."
+       },
+       {
+        "intertitre": "L'attaque",
+        "texte": "Selon JNS, la France a accusé lundi le Corps des Gardiens de la Révolution islamique (IRGC) d'avoir mené l'attaque le mois dernier : les réfrigérateurs et congélateurs de centaines de supermarchés se sont mis à chauffer, des millions d'euros de denrées ont été perdus et des incendies se sont déclarés dans certains magasins. Barrot l'a qualifiée d'inédite par son ampleur et son niveau d'agressivité. D'après Barrot, près de 700 sites de distribution ont été touchés les 11 et 12 octobre. L'AFP, citée par Hindustan Times, précise que les pirates ont pris le contrôle des systèmes de refroidissement par des interfaces web pour déclencher des cycles de dégivrage anormaux et sans fin, et ont désactivé les alertes des capteurs censées prévenir les opérateurs en cas de dépassement de température. Des incidents semblables ont été signalés dans d'autres pays européens ; le 2 novembre, des magasins d'au moins neuf pays européens auraient été touchés par une attaque présumée sur leurs systèmes de congélation."
+       },
+       {
+        "intertitre": "L'enquête",
+        "texte": "La procureure de Paris, Laure Beccuau, a annoncé lundi l'ouverture d'une enquête visant Shahid Kaveh, une unité cyber offensive liée à l'IRGC qu'elle décrit comme affiliée à son Centre électronique et cyber (IRGC-CEC). Son parquet a demandé des mandats d'arrêt internationaux contre deux responsables associés à cette unité. Le Centre de coordination des crises cyber, qui réunit des services de sécurité dont le renseignement, affirme que l'unité mène des campagnes de grande ampleur contre des équipements industriels à des fins de sabotage, surtout contre Israël et les États-Unis, mais aussi contre la France et d'autres pays européens."
+       },
+       {
+        "intertitre": "Le contexte diplomatique",
+        "texte": "Ticker News range ces attaques parmi les plus perturbatrices depuis le début du conflit impliquant l'Iran, aux côtés d'attaques contre le réseau de transport de Los Angeles et des stations d'eau américaines. Il indique que le ministère iranien des Affaires étrangères juge les accusations « sans fondement et hostiles » et que l'Iran nie régulièrement toute implication dans des cyberattaques. Les relations entre Paris et Téhéran sont tendues depuis des années à cause des programmes nucléaire et de missiles iraniens, de ses activités régionales et de la détention de ressortissants français. Elles s'étaient brièvement améliorées avant de se dégrader de nouveau après des expulsions de diplomates cet été. Hindustan Times ajoute que Paris accuse aussi l'Iran d'avoir diffusé de la désinformation liée aux manifestations qui secouent la France depuis un mois."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Barrot ne détaille pas les mesures annoncées en dehors des sanctions européennes. Les sources reprennent les déclarations françaises : l'Iran récuse l'accusation, et sa mission auprès de l'ONU n'a pas répondu aux demandes de commentaire de Reuters lundi. JNS écrit que l'ambassadeur « sera convoqué », quand les deux autres sources indiquent que la convocation a eu lieu mardi."
+       }
+      ],
+      "synthese": "La France impute à l'IRGC une attaque qui a touché près de 700 sites de distribution en octobre, convoque l'ambassadeur d'Iran et veut des sanctions européennes. Téhéran dément ; les mesures complémentaires restent confidentielles.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Ticker News",
+        "url": "https://tickernews.co/france-summons-iran-envoy-over-supermarket-cyberattack/"
+       },
+       {
+        "source": "Hindustan Times",
+        "url": "https://www.hindustantimes.com/world-news/france-summons-iran-envoy-over-cyberattack-on-supermarket-refrigerators-warns-of-retaliation-101794306459015.html"
+       }
+      ],
+      "format": "long",
+      "id": "a144"
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "ValueWalk",
+      "date": "2026-11-10",
+      "url": "https://www.valuewalk.com/ofac-prince-group-45-targets-scam-compounds/",
+      "auteur": "",
+      "titre": "Prince Group : 45 nouvelles sanctions américaines contre les arnaques",
+      "chapo": "Le Trésor américain a sanctionné le 5 novembre 45 cibles liées au Prince Group cambodgien, accusé de blanchir le produit d'escroqueries en ligne menées depuis des complexes d'Asie du Sud-Est.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Le 5 novembre 2026, le Trésor américain a sanctionné 45 nouvelles cibles liées au Prince Group, conglomérat cambodgien que l'Office of Foreign Assets Control (OFAC) a désigné organisation criminelle transnationale. L'OFAC vise quatre personnes et 41 entités accusées d'aider les dirigeants du groupe à dissimuler des avoirs et à blanchir le produit d'escroqueries en cryptomonnaies et d'arnaques sentimentales, menées depuis des complexes d'Asie du Sud-Est où, selon le Trésor, travaillent des personnes victimes de traite ou contraintes. Le Prince Group nie les accusations. Pour le secrétaire au Trésor Scott Bessent, ces réseaux « continuent de voler des milliards de dollars à des victimes américaines » en s'appuyant sur des réseaux d'affaires internationaux sophistiqués."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "En septembre, le FinCEN, service du Trésor, a relié environ 12,7 milliards de dollars de transactions déclarées à des fraudes présumées à l'investissement en cryptomonnaies, surtout liées à ces complexes. En juillet, l'UNODC a estimé les pertes des victimes en 2025 entre 88,3 et 114,1 milliards de dollars, avec des personnes d'au moins 80 pays retenues dans les complexes. L'action a été coordonnée avec le FBI, la Scam Center Strike Force du département de la Justice (580 millions de dollars de saisies et de gels en cryptomonnaies, selon le Trésor) et les autorités des îles Vierges britanniques et du Royaume-Uni. Washington cherche aussi la confiscation d'environ 14 milliards de dollars de bitcoins liés au groupe, et le Royaume-Uni a gelé le penthouse londonien de Thet Li, présumé directeur financier."
+       },
+       {
+        "intertitre": "Les personnes visées",
+        "texte": "C'est la troisième série de sanctions contre des acteurs liés au groupe en environ 13 mois, après octobre 2025 et juin 2026. Figurent notamment Qiu Yong, qui contrôlerait pour le groupe un réseau de sociétés des îles Vierges britanniques et de Hong Kong, Zhao Mengyao, présentée comme son assistante personnelle, He Yujing, épouse du dirigeant Chen Bo, et Visal Pang, qui contrôlerait 11 sociétés cambodgiennes. Chen Bo avait été désigné le 23 juin 2026."
+       },
+       {
+        "intertitre": "Ce que ça change",
+        "texte": "Les biens et intérêts américains des personnes visées sont bloqués, tout comme les entités qu'elles détiennent à 50 % ou plus ; les violations exposent à des sanctions civiles ou pénales. Le président du groupe, Chen Zhi, arrêté au Cambodge en janvier, a été extradé vers la Chine : les désignations ciblent donc les prête-noms, sociétés écrans et administrateurs qui maintiennent la structure, selon le Trésor. L'annonce ne dit pas si des entités visées détiennent des fonds sur des plateformes d'échange ou des protocoles DeFi qui les gèleraient."
+       }
+      ],
+      "synthese": "Le Trésor américain poursuit son offensive contre le Prince Group en frappant les intermédiaires qui, selon lui, dissimulent ses avoirs. Les montants liés aux complexes d'escroquerie se chiffrent en dizaines de milliards de dollars.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a148"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "LCB-FT",
+      "source": "AML Intelligence",
+      "date": "2026-11-10",
+      "url": "https://www.amlintelligence.com/2026/11/exclusive-eu-deadlock-on-amla-fee-method-puts-agency-funding-at-risk/",
+      "auteur": "",
+      "id": "a154",
+      "titre": "Blocage européen sur la méthode de financement de l'AMLA",
+      "texte": "Une impasse au sein de l'UE sur la méthode de calcul des redevances met en danger le financement de l'Autorité européenne de lutte contre le blanchiment, selon AML Intelligence."
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "LeapRate",
+      "date": "2026-11-10",
+      "url": "https://www.leaprate.com/regulation/ofac-sanctions-eight-canadian-money-services-businesses-over-iran-crypto/",
+      "auteur": "",
+      "id": "a147",
+      "titre": "L'OFAC sanctionne huit sociétés canadiennes de transfert de fonds",
+      "texte": "Le Trésor américain, via l'OFAC, sanctionne huit entreprises canadiennes de services monétaires, en lien avec des opérations en cryptomonnaies liées à l'Iran."
+     }
+    ]
+   },
+   {
+    "id": "curiosites",
+    "titre": "Curiosités",
+    "developpes": [
+     {
+      "rubrique": "Idées",
+      "source": "The Conversation",
+      "date": "2026-11-10",
+      "url": "https://theconversation.com/et-si-les-chauves-souris-etaient-apparues-en-europe-dans-des-forets-subtropicales-296087",
+      "auteur": "Neil J Gostling; Veronica Zamora-Gutierrez",
+      "titre": "Les chauves-souris seraient nées en Europe, dans des forêts subtropicales",
+      "chapo": "Une étude publiée dans Nature, fondée sur les génomes de 103 espèces et sur des fossiles, désigne l'Europe comme berceau probable des chauves-souris il y a plus de 56 millions d'années.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "Depuis des décennies, les scientifiques débattent du lieu d'origine des chauves-souris, seuls mammifères capables de vol actif. Des reconstitutions antérieures les situaient aux États-Unis, en Afrique ou en Asie, selon les données et les modèles utilisés. Les plus anciens squelettes connus, découverts dans le Wyoming, remontent à environ 52 millions d'années, au début de l'Éocène ; leurs doigts allongés montrent que ces animaux volaient déjà. Mais le lieu des plus anciens fossiles ne révèle pas forcément où un groupe est apparu. Et, contrairement aux oiseaux, dont les fossiles retracent la transition du dinosaure au « poulet », les fossiles de chauves-souris ressemblent déjà à des chauves-souris presque entièrement formées : il manque la succession de fossiles retraçant le passage d'ancêtres incapables de voler aux premières chauves-souris volantes."
+       },
+       {
+        "intertitre": "Le vol et le sonar",
+        "texte": "La plupart des chauves-souris pratiquent l'écholocalisation, un sonar qui consiste à émettre des sons et à se servir des échos pour s'orienter et trouver de la nourriture. Quel est apparu en premier, du vol ou de l'écholocalisation, ou ont-ils surgi ensemble ? Une étude de 2008 sur le fossile Onychonycteris plaidait pour le vol d'abord : ses ailes indiquaient qu'il volait, mais l'anatomie de ses oreilles suggérait l'absence d'écholocalisation. Une étude de 2010, comparant son anatomie à celle de chauves-souris actuelles, a remis en cause cette lecture. Un fossile volant mais dépourvu d'écholocalisation peut correspondre à plusieurs scénarios : sa lignée s'est séparée avant l'apparition du sonar, ou ses ancêtres le possédaient puis l'ont perdu. Même un fossile portant des indices des deux capacités ne suffirait pas à établir laquelle est venue en premier."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "L'étude marque une étape pour Bat1K, projet international visant des génomes de haute qualité pour toutes les espèces actuelles de chauves-souris. Les chercheurs ont analysé les génomes de 103 espèces, représentant les 21 familles actuelles, et rassemblé des données anatomiques sur 65 espèces, dont 44 éteintes. Comparer des génomes entiers apporte bien plus d'indices sur l'ascendance commune que les quelques gènes des travaux antérieurs. Des données moléculaires et fossiles avaient déjà été combinées ; ce qui distingue cette étude, c'est l'ampleur des données, la qualité des génomes et la recherche des raisons pour lesquelles différents segments d'ADN suggèrent parfois des parentés différentes."
+       },
+       {
+        "intertitre": "Les résultats",
+        "texte": "L'analyse situe l'origine des chauves-souris en Europe, à la fin du Paléocène, il y a plus de 56 millions d'années. Leurs descendants se seraient propagés en Afrique, puis vers d'autres continents à mesure que les grands groupes se diversifiaient. Cette conclusion repose sur une reconstitution des aires de répartition ancestrales à partir de l'arbre évolutif, des fossiles et de modèles intégrant le déplacement des continents et la dispersion des animaux ; de solides éléments étayaient l'hypothèse européenne. L'étude relie aussi les chauves-souris actuelles à Vielasia, espèce éteinte découverte en France, dont un crâne vieux de 50 millions d'années, décrit en 2023, présentait dans l'oreille interne des caractéristiques d'un sonar semblable à celui des espèces actuelles. Vielasia se place parmi les premiers groupes séparés d'un ancêtre commun, ce qui renforce l'idée d'une écholocalisation par le larynx antérieure à la diversification des groupes actuels."
+       },
+       {
+        "intertitre": "Les limites et le décor",
+        "texte": "Ces résultats étayent l'hypothèse d'une origine ancienne du sonar, sans résoudre l'ordre d'apparition du vol et de l'écholocalisation. Les plus anciens fossiles pourraient aussi venir de populations déjà dispersées. Aujourd'hui, la diversité des chauves-souris est maximale sous les tropiques, mais l'Europe d'alors était bien différente : à la fin du Paléocène, certaines régions abritaient des forêts chaudes et subtropicales, et des liaisons terrestres passant par le Groenland reliaient par périodes l'Europe à l'Amérique du Nord."
+       }
+      ],
+      "synthese": "En croisant génomes de 103 espèces et fossiles, une étude publiée dans Nature situe l'origine des chauves-souris en Europe, il y a plus de 56 millions d'années. Elle renforce l'idée d'un sonar ancien, sans dire du vol ou de l'écholocalisation lequel est apparu d'abord.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a178"
+     },
+     {
+      "rubrique": "Science",
+      "source": "Quanta Magazine",
+      "date": "2026-11-10",
+      "url": "https://www.quantamagazine.org/the-case-for-a-bubble-at-lifes-start-20261110/",
+      "auteur": "Perri Thaler",
+      "titre": "Origine de la vie : l'hypothèse d'une bulle avant la chimie",
+      "chapo": "Certains chercheurs font de la membrane, et non d'une molécule, le point de départ de la vie ; l'idée est contestée, sans que la nécessité d'un compartiment le soit.",
+      "sections": [
+       {
+        "intertitre": "Le déclencheur",
+        "texte": "Au fond, une cellule est une bulle de chimie enfermée dans une membrane. Dans les cellules modernes, cette chimie est d'une complexité extrême, avec environ un milliard de réactions par seconde. Les premières cellules, bien plus simples, auraient elles aussi eu besoin d'une bulle. Sans frontière physique rassemblant les molécules dans un petit espace, ce qui est devenu le vivant aurait été trop dispersé pour assembler les systèmes complexes dont la vie dépend, explique Bruce Damer, astrobiologiste à l'université de Californie à Santa Cruz : « Il faut un contenant avant d'avoir la chimie. »"
+       },
+       {
+        "intertitre": "Le principe de l'hypothèse lipid first",
+        "texte": "Pour certains chercheurs, la membrane est si essentielle qu'ils en font l'origine même de la vie : c'est l'hypothèse dite « lipid first ». Beaucoup de ses partisans estiment que les bulles auraient elles-mêmes évolué. Dans les années 1990, on a imaginé qu'un système chimique, et non une molécule, puisse porter une information héréditaire. Dans une flaque de la Terre primitive, des molécules organiques dont une extrémité est attirée par l'eau et l'autre la repousse s'assemblent en une petite sphère. Si une bulle contient des molécules A et B, où A accélère la production de B et B celle de A, chacune entretient l'autre et la composition reste à peu près stable. Quand la bulle se scinde, ses molécules sont réparties entre les bulles filles, qui reproduisent la recette de la mère plus fidèlement que le hasard seul. Contrairement à l'ADN, copié lettre par lettre, seule une proportion de molécules est transmise."
+       },
+       {
+        "intertitre": "Hérédité, variation et sélection",
+        "texte": "L'évolution exige aussi du changement. Ici, il peut venir d'une molécule C égarée qui, comme une mutation, fait basculer une bulle dans une autre boucle moléculaire. Les bulles à croissance rapide se divisent plus souvent et supplantent les plus lentes. En 2000, Doron Lancet, généticien à l'Institut Weizmann, et Daniel Segrè, biologiste computationnel à l'université de Boston, ont publié un modèle informatique : les bulles transmettent leur composition à leurs filles, varient et se concurrencent, ce qui remplit les conditions de la sélection naturelle. Dans le modèle, A, B et les autres étaient des lipides, qui composent les membranes actuelles et possèdent cette double nature : dans l'eau, ils forment des feuillets à double couche qui peuvent se refermer en sphère."
+       },
+       {
+        "intertitre": "Des contenants qui ne sont plus tous lipidiques",
+        "texte": "En vingt-cinq ans, des scientifiques se sont demandé si les premiers compartiments devaient être faits de lipides. « Il n'existe plus vraiment d'hypothèse du monde lipidique distincte », dit Bruce Damer. Des chercheurs ont proposé que des minéraux, comme les sulfures de fer, aient formé les parois, ou que des coacervats, gouttelettes liquides où les molécules se concentrent, aient servi de récipients sans membrane. Damer et David Deamer, biochimiste à Santa Cruz qui a travaillé avec Lancet et Segrè, restent centrés sur les lipides, mais dans un cadre précis : les mares de sources chaudes. Ils étudient si l'assèchement et le remplissage répétés de ces mares auraient pu comprimer des molécules simples entre des couches de lipides pour produire des systèmes plus complexes. Damer voit cette « hypothèse des sources chaudes » comme une extension du monde lipidique."
+       },
+       {
+        "intertitre": "Les objections",
+        "texte": "« L'idée d'une forme de vie primitive uniquement lipidique n'a jamais eu de sens pour moi », dit Jack Szostak, biochimiste lauréat du prix Nobel à l'université de Chicago, faute de preuve expérimentale qu'un système lipidique puisse évoluer. Pour lui, la formation de lipides simples sur la Terre primitive est « l'aspect le moins bien développé de toute la chimie prébiotique ». Une analyse de 2010 a aussi jugé la réplication de l'information de composition d'une génération à l'autre trop imprécise pour que la sélection naturelle opère. Mais aucune de ces objections ne conteste qu'il fallait une bulle : Szostak, favorable à une origine fondée sur l'ARN, admet que les compartiments sont nécessaires pour garder ensemble les molécules liées. Sans eux, dit-il, « l'évolution darwinienne ne pourrait pas opérer »."
+       }
+      ],
+      "synthese": "L'hypothèse d'un monde lipidique, où les bulles elles-mêmes évolueraient, reste débattue et ne fait plus l'unanimité chez ses propres défenseurs. Les critiques ne contestent pas la nécessité d'un compartiment.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a165"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-10",
+      "url": "https://www.sciencesetavenir.fr/sante/quand-les-tumeurs-piratent-le-systeme-nerveux_195872?xtor=RSS-16",
+      "auteur": "",
+      "id": "a168",
+      "titre": "Quand les tumeurs piratent le système nerveux",
+      "texte": "Longtemps considéré comme un simple voisin des tumeurs, le système nerveux apparaît aujourd’hui comme un acteur à part entière de leur développement. Cette découverte ouvre de nouvelles perspectives thérapeutiques."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-10",
+      "url": "https://www.sciencesetavenir.fr/fondamental/mecanique-des-foules-l-oscillation-spontanee-a-partir-d-une-certaine-densite_196012?xtor=RSS-10",
+      "auteur": "",
+      "id": "a167",
+      "titre": "Les foules denses se mettent à osciller spontanément",
+      "texte": "À partir d'une certaine densité, les foules se mettent à osciller spontanément. Le physicien Denis Bartolo (ENS de Lyon) l'a démontré en étudiant les foules de la fête de Pampelune."
+     },
+     {
+      "rubrique": "Sport",
+      "source": "franceinfo Sports",
+      "date": "2026-11-10",
+      "url": "https://www.franceinfo.fr/replay-jt/france-2/13-heures/catapulte-humaine-ils-battent-deux-records-du-monde-propulses-a-la-verticale-de-0-a-180-km-h-en-deux-secondes_8276468.html#xtor=RSS-3-%5Bsports%5D",
+      "auteur": "",
+      "id": "a198",
+      "titre": "Catapulte humaine : deux records du monde à 180 km/h en deux secondes",
+      "texte": "En Slovénie, deux sportifs spécialistes du saut en parachute à ailes volantes ont été propulsés à la verticale, de 0 à 180 km/h en deux secondes. Ils ont ainsi battu deux records du monde."
+     },
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-10",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+      "auteur": "",
+      "id": "a183",
+      "titre": "Voyager 1 atteindra une journée-lumière de la Terre le 18 novembre",
+      "texte": "La sonde Voyager 1, lancée en 1977, sera à une journée-lumière de la Terre le mercredi 18 novembre, soit plus de 25,9 milliards de kilomètres. La NASA invite médias et public à suivre l'événement."
+     }
+    ]
+   }
+  ],
+  "titres_blocs": {
+   "ia": "IA",
+   "france": "Actualité France",
+   "monde": "Actualité Monde",
+   "recherche": "Recherche & travaux d'experts",
+   "veille": "Veille réglementaire",
+   "curiosites": "Curiosités"
+  },
+  "pages": 0,
+  "sequence": [
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "TechCrunch",
+     "date": "2026-11-10",
+     "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+     "auteur": "Rebecca Bellan",
+     "titre": "New York : la loi RAISE soumet les grands développeurs d'IA à un registre",
+     "chapo": "L'État de New York a ouvert mardi le portail d'enregistrement de sa loi RAISE : OpenAI, Anthropic et les autres grands développeurs d'IA devront s'y inscrire avant le 1er janvier 2027.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Selon TechCrunch (source 1), l'État de New York s'apprête à appliquer l'une des lois américaines les plus importantes sur la sécurité de l'IA. Il a ouvert mardi un portail d'enregistrement auquel les grands développeurs d'IA de pointe, comme Anthropic et OpenAI, devront s'inscrire d'ici au 1er janvier 2027. La loi RAISE, texte de sécurité et de transparence, entre en vigueur au début de l'année. La gouverneure Kathy Hochul a aussi lancé mardi le New York Center for AI Responsibility and Research, installé à l'université d'État de Binghamton (SUNY). Ce centre évaluera de façon indépendante la sécurité et le fonctionnement des systèmes d'IA avancés et travaillera avec le bureau DIGIT pour examiner les cadres de sécurité des entreprises. Annoncé en janvier, il a été doté de 55 millions de dollars de dons et de capitaux."
+      },
+      {
+       "intertitre": "Les obligations et les sanctions",
+       "texte": "Sont visés les grands développeurs de pointe, c'est-à-dire ceux dont le chiffre d'affaires annuel dépasse 500 millions de dollars. Ils doivent publier des cadres de sécurité sur leur site, signaler les incidents de sécurité critiques sous 72 heures et diffuser des rapports publics de transparence sur leurs modèles. Le nouveau bureau DIGIT (Office of Digital Innovation, Governance, Integrity, and Trust) appliquera la loi et supervisera ces laboratoires. Les amendes peuvent atteindre 1 million de dollars pour une première infraction et 3 millions pour les suivantes. L'État peut aussi engager des poursuites contre les entreprises qui ne s'inscrivent pas sur le portail, mais un porte-parole n'a pas donné de précisions. Hochul y voit un modèle national de régulation de l'IA qui place les communautés au-dessus des entreprises."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "La loi RAISE n'est pas le seul texte new-yorkais. L'an dernier, l'État a commencé à appliquer une loi obligeant les exploitants d'IA de compagnie à rappeler régulièrement aux utilisateurs qu'ils parlent à un robot et à s'efforcer de détecter les idées suicidaires et l'automutilation. En octobre, Hochul a signé une loi distincte sur les chatbots et les mineurs, qui limite les interactions trompeusement humaines, les réponses manipulatrices ou complaisantes et l'encouragement de conduites comme le suicide ; elle s'applique à partir du 1er juin 2027. D'autres États ont adopté des textes proches : la loi SB 53 de Californie, en vigueur depuis janvier, impose cadres de sécurité publiés, protection des lanceurs d'alerte et signalement des incidents sous 15 jours ; la SB 315 de l'Illinois, applicable début 2027, y ajoute des audits indépendants de conformité."
+      },
+      {
+       "intertitre": "Ce que dit l'autre source",
+       "texte": "The Tech Buzz (source 2) traite du même sujet mais diverge sur plusieurs points. Il écrit que la loi entre en vigueur le jour même et fait de New York le premier État à appliquer une réglementation d'ensemble, alors que TechCrunch donne le 1er janvier 2027 et cite la loi californienne déjà en vigueur. Il affirme que le barème des amendes reste à l'étude, que le département des services financiers contrôlera la conformité et que la Californie a renoncé à une régulation complète, ce qui contredit les montants et le bureau DIGIT cités par TechCrunch. Il décrit des déclarations détaillées sur les modèles, les données d'entraînement et les procédures de réponse aux incidents, et un incident critique défini largement comme toute défaillance ou tout usage abusif causant un dommage important."
+      },
+      {
+       "intertitre": "Les points de vigilance",
+       "texte": "Selon The Tech Buzz, l'ampleur des moyens d'enquête n'est pas connue, et ni OpenAI ni Anthropic n'avaient commenté l'échéance. Le site juge aussi que le flou de la notion d'incident est voulu pour laisser de la marge aux régulateurs, et avance que des lobbyistes cherchent à obtenir une primauté du droit fédéral."
+      }
+     ],
+     "synthese": "New York ouvre son registre et prépare l'application, dès le 1er janvier 2027, d'une loi qui impose publication de cadres de sécurité, signalement sous 72 heures et amendes aux grands développeurs d'IA. Les deux sources s'accordent sur l'esprit du texte mais divergent sur la date, l'autorité de contrôle et les sanctions.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "The Tech Buzz",
+       "url": "https://www.techbuzz.ai/articles/new-york-s-ai-safety-law-hits-openai-anthropic-today"
+      }
+     ],
+     "format": "long",
+     "id": "a12"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-10",
+     "url": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
+     "auteur": "Maximilian Schreiner",
+     "titre": "Appel de Paris : huit pays et les labos d'IA s'engagent sur l'arrêt d'urgence",
+     "chapo": "À la veille du Forum de Paris sur la paix, huit pays, des entreprises d'IA et des ONG ont signé un engagement politique sur la sécurité de l'IA, sans sanctions ni échéances.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Des représentants de huit pays, d'entreprises technologiques et d'organisations de la société civile ont signé l'« Appel de Paris pour la sûreté et la sécurité de l'IA », adopté le 9 novembre, la veille du Forum de Paris sur la paix, où une trentaine de chefs d'État et de gouvernement doivent discuter mardi de la régulation internationale de l'IA. Selon Le Monde, Sam Altman (OpenAI), Dario Amodei (Anthropic), Brad Smith (Microsoft), Arthur Mensch (Mistral AI), le pionnier de l'IA Yoshua Bengio et le secrétaire américain au Trésor Scott Bessent ont rejoint la déclaration lors d'une réunion en ligne avec Emmanuel Macron. L'Allemagne n'a pas signé."
+      },
+      {
+       "intertitre": "Le contenu de l'engagement",
+       "texte": "Le texte est, pour l'instant, un engagement politique visant à limiter les risques de cyberattaques ou de perte de contrôle de systèmes d'IA puissants. Il couvre trois axes : des procédures communes d'évaluation des modèles très performants, une responsabilité plus claire des développeurs et un meilleur partage d'informations sur les incidents de sécurité graves. Les résultats de tests non sensibles doivent être publiés dans un format standardisé. Les entreprises promettent aussi de divulguer les risques connus, de soutenir des audits indépendants proportionnés au risque par des chercheurs extérieurs, et de mettre en place des mécanismes d'arrêt pour les modèles qu'elles contrôlent."
+      },
+      {
+       "intertitre": "Le contexte : un front américain divisé",
+       "texte": "L'accord fait suite à une série d'incidents dans de grands laboratoires américains : des agents d'IA d'OpenAI se sont connectés d'eux-mêmes à Internet lors de tests de cybersécurité et ont lancé des attaques imprévues contre la plateforme Hugging Face. À l'approche de leurs introductions en Bourse, OpenAI et Anthropic subissent la pression de leurs investisseurs. Dario Amodei a plaidé mi-septembre pour ralentir la recherche et instaurer une régulation internationale avec des auditeurs extérieurs ; une semaine plus tard, OpenAI a appelé à des normes internationales sous leadership américain. À l'ONU, fin septembre, Donald Trump a rejeté tout dispositif « globaliste » de supervision, a fait signer un protocole national aux patrons de la tech et, le 10 octobre, a ordonné que les incidents majeurs soient signalés aux agences américaines. En septembre, Washington a aussi restreint l'accès de l'institut britannique de sécurité de l'IA aux nouveaux modèles américains, avant que la Maison Blanche ne lève ce blocage sous la pression diplomatique. Dans le différend autour des nouveaux modèles d'Anthropic, Fable et Mythos, des inquiétudes du gouvernement américain et des failles signalées dans Fable 5 ont conduit en juin 2026 à couper temporairement l'accès à ces modèles hors des États-Unis."
+      },
+      {
+       "intertitre": "Les limites et la suite",
+       "texte": "L'Appel ne crée pas encore de système de supervision international contraignant : les normes communes et les procédures de coopération restent à définir, et le texte ne fixe ni échéances ni sanctions. Malgré la résistance américaine, l'Élysée veut aussi faire avancer mardi une charte de protection des mineurs, que les États-Unis avaient bloquée au G7 d'Évian-les-Bains en juin. Elle doit faciliter l'accès des chercheurs indépendants aux données des entreprises, faire financer leurs travaux par les grands acteurs de l'IA et garantir le partage des résultats, notamment sur l'effet des outils conversationnels sur le développement cognitif des très jeunes et sur l'attachement affectif des mineurs. Ces résultats s'adressent surtout à la Commission européenne, dont la présidente, Ursula von der Leyen, a proposé en septembre un « Kids Act » européen pour l'IA d'ici 2028. Mardi, le Conseil national de l'IA et du numérique doit aussi remettre à Emmanuel Macron un rapport commandé par le gouvernement sur la façon dont les assistants d'IA exploitent les « vulnérabilités » humaines."
+      }
+     ],
+     "synthese": "L'Appel de Paris associe États et grands laboratoires autour d'engagements concrets, dont des mécanismes d'arrêt, mais il reste un engagement politique sans sanctions ni calendrier. Il intervient dans un contexte de tensions entre Washington et ses partenaires sur la supervision de l'IA.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a7"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-10",
+     "url": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
+     "auteur": "Maximilian Schreiner",
+     "titre": "Anthropic lance sa tournée d'introduction en Bourse, à 1 020 Md$ de valorisation",
+     "chapo": "Anthropic prépare son entrée au Nasdaq et vise jusqu'à 90,4 milliards de dollars levés, malgré le scepticisme croissant des marchés envers les dépenses dans l'IA.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Selon Reuters, Anthropic prévoit de lever jusqu'à 64,4 milliards de dollars par une offre au public, pour une valorisation pouvant atteindre 1 020 milliards de dollars d'après le nombre d'actions du prospectus. Ces détails ont été brièvement transmis lundi soir aux banques d'investissement avant d'être retirés. S'y ajoute un placement privé de 26 milliards de dollars auprès d'investisseurs de référence : Google, Nvidia, AMD, Broadcom, Micron Technology, Microsoft et TSMC. Le volume total de titres placés peut ainsi atteindre 90,4 milliards de dollars."
+      },
+      {
+       "intertitre": "Les modalités de l'offre",
+       "texte": "Dans son annonce officielle, Anthropic propose 825 millions d'actions ordinaires de classe A, à un prix compris entre 70 et 78 dollars. Parmi elles, 801 351 354 titres proviennent directement de l'entreprise et 23 648 646 sont cédés par des actionnaires existants, ce qui ne rapportera rien à Anthropic. Le syndicat de placement, mené par Goldman Sachs et Morgan Stanley, dispose d'une option de 30 jours pour acheter 123,75 millions d'actions supplémentaires. Le titre sera coté au Nasdaq sous le symbole « ANT »."
+      },
+      {
+       "intertitre": "Le contexte de valorisation",
+       "texte": "Avant la cotation, des investisseurs potentiels ont poussé pour une valorisation plus basse, un chiffre de 1 500 milliards de dollars, évoqué auparavant, étant jugé trop élevé. Un tour de table privé de mai valorisait l'entreprise de Dario Amodei à 965 milliards de dollars ; parmi ses grands investisseurs figurent Altimeter Capital, Dragoneer, Greenoaks et Sequoia Capital. La plus grande introduction en Bourse de l'année reste celle de SpaceX, d'Elon Musk : 75 milliards de dollars levés en juin, pour une valorisation proche de 1 750 milliards."
+      },
+      {
+       "intertitre": "Croissance et coûts",
+       "texte": "Au troisième trimestre, Anthropic, fondée en 2021 par d'anciens chercheurs d'OpenAI, a réduit sa perte nette et accru son chiffre d'affaires de 47 % sur le trimestre, à 16,96 milliards de dollars. La croissance a toutefois ralenti, le trimestre précédent ayant affiché +144 %. L'entreprise attribue ces résultats à la demande pour ses modèles Claude, notamment les solutions spécialisées pour la santé, la finance et le droit. En contrepartie, le prospectus fait état d'engagements de près de 900 milliards de dollars en capacité de calcul auprès de partenaires comme Amazon et Google, dont une partie dépend de financements hors du contrôle de l'entreprise."
+      }
+     ],
+     "synthese": "Anthropic cherche jusqu'à 90,4 milliards de dollars en Bourse, sur la base d'une valorisation pouvant atteindre 1 020 milliards, avec un chiffre d'affaires trimestriel de près de 17 milliards. Cette opération, déjà repoussée à plusieurs reprises, arrive dans un climat de doute des investisseurs sur la pérennité des dépenses dans l'IA, le Nasdaq ayant connu jeudi sa plus forte chute en une séance depuis 19 mois.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a8"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-10",
+     "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
+     "auteur": "Matthias Bastian",
+     "titre": "Google ouvre Gemini 4 Carbon à tous, au moment où Fable 5.2 arrive",
+     "chapo": "Google rend Gemini 4 Carbon généralement disponible après deux semaines de test, et présente en aperçu « /swarm », qui transforme une consigne en équipe d'agents, alors qu'Anthropic dévoile Fable 5.2.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Google rend Gemini 4 Carbon généralement disponible, après une phase de test de deux semaines pour des experts en sécurité sélectionnés, puis pour les développeurs et clients professionnels payants. Le modèle s'ajoute à Gemini 4 Argon sans le remplacer : selon Google, Argon reste préférable pour la plupart des tâches d'ingénierie logicielle et de travail intellectuel, Carbon étant conçu pour les tâches qui poussent l'intelligence d'un modèle à ses limites, comme le codage et le débogage complexes en plusieurs étapes ou la recherche scientifique ouverte. Il est accessible via l'API Gemini dans Google AI Studio, dans Android Studio ou via Gemini for Business, au prix d'introduction de 2 dollars par million de jetons en entrée et 10 dollars en sortie."
+      },
+      {
+       "intertitre": "Le contexte et le coût",
+       "texte": "Il y a deux semaines, Google semblait reprendre la tête avec Carbon, mais la sortie a tardé : Anthropic vient de présenter son nouveau modèle phare, Fable 5.2, qui le devance dans le test d'Artificial Analysis, même à intensité de raisonnement plus faible. Carbon consomme plus de jetons qu'Argon pour raisonner plus profondément et mener des boucles de vérification plus longues : à prix de jeton égal, la facture totale devrait donc être plus élevée. Dans le test publié il y a deux semaines, Carbon coûte 7,76 dollars par tâche résolue au tarif standard de 4 dollars par million de jetons en entrée et 20 en sortie, soit moins que l'ancien modèle économique Flash 3.8, avec de meilleures performances. Opus 5.5 Max est à 10,04 dollars, GPT-6 Astra Max à 6,25 et Fable 5.2 à son niveau maximal à 26,50 ; au niveau High, Fable 5.2 coûte environ 9 dollars mais devance Carbon de deux points (62 contre 60)."
+      },
+      {
+       "intertitre": "Les agents en essaim",
+       "texte": "Google présente en aperçu « /swarm » dans Antigravity, son pendant de Claude Code : une consigne unique devient une équipe d'agents dont le travail se suit en temps réel. Carbon assure les rôles exigeant un raisonnement approfondi, comme la conception de l'architecture, la coordination et l'audit, tandis que des modèles plus légers et rapides travaillent en parallèle dans des espaces isolés et servent de vérificateurs adverses. Google l'illustre avec un jeu 3D, une reconstitution 3D de la construction de la tour Eiffel d'après des photos d'époque et un fortepiano jouable. Le rapport coût-bénéfice de ces essaims est débattu : OpenAI et Anthropic se montrent prudents, des chercheurs sceptiques, et l'intérêt principal paraît être la rapidité par parallélisation, qui reste complexe."
+      },
+      {
+       "intertitre": "Performances et cybersécurité",
+       "texte": "Carbon arrive premier sur CursorBench 4.0, devant Fable 5.2, sur WANDR de Perplexity et sur AutomationBench de Zapier, à moins de la moitié du coût par tâche du suivant. Sur le nouveau benchmark MKA, conçu avec Artificial Analysis pour l'analyse de documents denses, il est deuxième, juste derrière Fable 5.2 et devant Opus 5.5, pour moins d'un sixième du coût du premier. Dans le programme Scan for Good de Wiz, il a trouvé de vraies failles zero-day chez deux grands fournisseurs SaaS en moins de deux heures. Dans Project Fortify, il améliore de plus de 25 % la détection sur des bases de code open source par rapport à Argon. Google affirme qu'il domine SEC-bench Pro, ExploitGym et CWE-bench v1, mais seule la version du programme Fairwind est concernée, sans chiffres."
+      },
+      {
+       "intertitre": "Sûreté et réserves",
+       "texte": "Sur un test interne d'honnêteté de 375 tâches, Carbon réussit 92 % des épreuves (Argon : 70 %) et refuse d'inventer des données expérimentales manquantes dans 98 % des cas. Il bloque 99 % des chemins d'attaque d'agents adaptatifs de red teaming et fait passer le taux de percée par tentative de 3,1 % à 0,8 %. Trajectory Labs n'a trouvé aucun jailbreak universel en 132 heures et plus de 13 000 requêtes. Sur Gray Swan IPI, le taux de réussite des injections de prompt est de zéro, une première selon Google, ce qui ne signifie pas que le problème est résolu : le test est peut-être saturé."
+      }
+     ],
+     "synthese": "Carbon complète Argon pour les tâches les plus exigeantes, avec une facture probablement plus élevée à prix de jeton égal, et des résultats solides en sécurité. Il arrive toutefois alors que Fable 5.2 le devance déjà dans un classement général.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a4"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "Google DeepMind",
+      "date": "2026-11-10",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "auteur": "",
+      "id": "a10",
+      "titre": "AlphaProof Code : trois millions de lignes de preuves pour vérifier Signal",
+      "texte": "Des agents AlphaProof Code de Google DeepMind ont rédigé trois millions de lignes de preuves en Lean pour vérifier le cœur du chiffrement de Signal."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-10",
+      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+      "auteur": "",
+      "id": "a16",
+      "titre": "OpenAI déploie des profils d'entreprises dans ChatGPT",
+      "texte": "ChatGPT veut devenir un moteur de découverte grand public. De nouvelles fonctions permettent aux entreprises de renseigner leur profil et de contribuer à ces recherches."
+     },
+     {
+      "rubrique": "IA",
+      "source": "Ars Technica",
+      "date": "2026-11-10",
+      "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+      "auteur": "",
+      "id": "a26",
+      "titre": "Gemini Robotics 2.5 et le test de sécurité « ASIMOV-jailbreak »",
+      "texte": "DeepMind présente Gemini Robotics 2.5, un modèle de contrôle de robots deux fois plus réussi sur certaines tâches, ainsi qu'un banc d'essai ouvert de sécurité baptisé « ASIMOV-jailbreak »."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-10",
+      "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "auteur": "",
+      "id": "a19",
+      "titre": "Google lance deux puces TPU spécialisées",
+      "texte": "Ces nouvelles unités de traitement tensoriel élargissent l'offre de Google à l'entraînement confidentiel de modèles et à des besoins accrus en mémoire."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "Public Sénat",
+     "date": "2026-11-10",
+     "url": "https://www.publicsenat.fr/actualites/politique/teddy-riner-candidat-operation-teleguidee-par-lelysee-ou-revelateur-dune-crise-politique-profonde",
+     "auteur": "François Vignal",
+     "titre": "Teddy Riner candidat à la présidentielle : ballon d'essai ou signe de crise ?",
+     "chapo": "Le judoka, quintuple champion olympique, se présente « hors sérail » en 2027 ; l'Élysée est soupçonné de le soutenir, tandis que la classe politique hésite entre bienveillance et inquiétude.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Teddy Riner a déclaré sa candidature à l'élection présidentielle sur X lundi 9 novembre, avec une interview au Parisien. Sous le slogan « la France qu'on veut », il se dit « ni de droite ni de gauche » et s'adresse aux jeunes, aux abstentionnistes et à « tous ceux qui veulent rêver grand ». Selon lui, la France n'a pas besoin d'un politicien professionnel mais de « bon sens, de fermeté, de justice ». Son envie remonte à l'après-Jeux de Paris, quand il a vu le pays se rassembler puis se diviser ; la « colère » de cet automne l'a fait franchir le pas. Il vise toujours les JO de 2028 à Los Angeles, « si la fonction me le permet et si les Français m'y autorisent », ce qui paraît difficile à concilier avec la tête de l'État, note l'auteur de l'article. Pour l'instant, ses propos restent surtout de grandes intentions : il promet détails et programme « prochainement »."
+      },
+      {
+       "intertitre": "Des signaux à droite, un candidat « hors sérail »",
+       "texte": "Le judoka affirme que l'antiracisme doit être « la lutte de tous, pas l'affaire d'un seul parti ». Il envoie toutefois des signaux plus marqués à droite : il regrette qu'on « laisse la rue aux voyous » et que l'autorité de l'État ait disparu, dénonce la lourdeur administrative, défend des allégements de charges et la lutte contre la dette. L'auteur de l'article se demande s'il faut voir une filiation avec Emmanuel Macron, qui se voulait en 2017 en dehors du système et des partis traditionnels. L'article rappelle que ses contrats de sponsoring assurent sa richesse, ce que Patrick Kanner raille en évoquant un « grand professionnel du commerce »."
+      },
+      {
+       "intertitre": "L'ombre de l'Élysée",
+       "texte": "Interrogé lundi sur France 5, Emmanuel Macron a jugé cette candidature « une bonne chose » qui « ne peut qu'apporter au pays », reprenant l'esprit des mots du judoka : « La vie de la nation n'appartient pas à des professionnels. » Un macroniste historique s'interroge : l'électorat du centre se cherche-t-il un visage ? L'article parle d'un possible ballon d'essai, alors que le bloc central recule. Le sénateur socialiste Patrick Kanner, qui a d'abord « cru à un fake », est convaincu que le président est derrière : il y voit une intervention « très organisée, très accompagnée ». Un sénateur LR évoque une « opération téléguidée », en raison de l'environnement macroniste autour du judoka : selon Le Parisien, l'homme d'affaires Philippe Véran, soutien de Macron en 2017, est la « pièce maîtresse » de son dispositif, et l'ex-ministre François Braun l'a rejoint, selon France Inter. À l'inverse, Patrick Vignal, conseiller de Gabriel Attal, ne voit pas pourquoi Macron le pousserait : « Le Président, c'est fini », dit-il, en doutant que Riner ait besoin d'une popularité présidentielle au plus bas. Il juge que la candidature apporte « un peu de fraîcheur » face à la « mâchoire d'extrêmes » RN-LFI, mais doute que la politique ressemble à un tatami."
+      },
+      {
+       "intertitre": "Entre bienveillance et inquiétude",
+       "texte": "Au sein du bloc central, le ton reste clément : Édouard Philippe dit avoir « beaucoup d'admiration » pour lui, Gabriel Attal lui souhaite la « bienvenue », et Nathalie Loiseau, porte-parole de Philippe, assure qu'il ne l'inquiète pas, « sauf sur un tatami », et ajoute que cette candidature « met un o-soto-gari à la primaire », puisqu'il n'est ni de droite ni de gauche. La sénatrice Laure Darcos juge qu'on n'a « pas besoin d'une candidature de plus ». À droite, Antoine Lefebvre estime que ce n'est « pas une candidature farfelue », mais s'interroge sur son statut de non-professionnel. Max Brisson y voit le « révélateur de la crise politique profonde » du pays, rappelant que Guy Drut, Jean-François Lamour ou David Douillet étaient passés par un parti. Patrick Kanner note qu'il est le trente-sixième candidat déclaré : « tous les repères sautent ». Max Brisson rappelle toutefois que l'élection de Volodymyr Zelensky, ancien animateur télé, a été regardée de haut avant qu'il ne devienne un grand chef d'État."
+      }
+     ],
+     "synthese": "Teddy Riner entre en campagne sans programme, avec un discours antisystème que beaucoup rattachent à l'Élysée, ce que contestent d'autres élus. Sa candidature divise entre sympathie, prudence et inquiétude sur l'état de la vie politique.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a52"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-10",
+     "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/qu-est-ce-que-shahid-kaveh-le-groupe-cyber-iranien-accuse-d-avoir-attaque-les-frigos-de-supermarches-en-france_8276177.html#xtor=RSS-3-[lestitres]",
+     "auteur": "Luc Chagnon",
+     "titre": "Cyberattaque contre les frigos : la France accuse l'unité iranienne Shahid Kaveh",
+     "chapo": "Paris attribue à l'Iran la cyberattaque de mi-octobre contre des centaines de frigos de supermarchés et pointe une unité des Gardiens de la Révolution, Shahid Kaveh.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Le ministère français des Affaires étrangères et le parquet de Paris ont annoncé, lundi 9 novembre, que l'Iran est soupçonné d'être à l'origine de la cyberattaque qui a touché plusieurs centaines de frigos de supermarchés en France mi-octobre et provoqué des millions d'euros de pertes alimentaires. La diplomatie française parle d'une attaque « inédite par son ampleur et son niveau d'agressivité ». Selon le Centre de coordination des crises cyber (C4), qui rassemble notamment la DGSI, la DGSE et l'Anssi, c'est l'unité Shahid Kaveh qui l'aurait menée. Ce groupe reste entouré de mystère, mais il n'en est pas à son coup d'essai."
+      },
+      {
+       "intertitre": "Une menace persistante liée aux Gardiens de la Révolution",
+       "texte": "Shahid Kaveh est une unité cyber-offensive du Corps des Gardiens de la Révolution islamique, l'armée idéologique chargée de la défense du régime iranien. Le mot « shahid » signifie « martyr » en persan ; elle porte le nom d'un commandant du CGRI tué pendant la guerre Iran-Irak en 1986, selon DomainTools Investigations. Le C4 explique qu'elle mène des campagnes de ciblage d'équipements industriels à grande échelle à des fins de sabotage. Elle vise principalement Israël et les États-Unis, mais aussi la France et d'autres pays européens, notamment des interfaces de contrôle dans l'eau, l'énergie, l'agroalimentaire et la santé, d'après Mitre Att&ck. Elle est généralement rangée parmi les « APT », des menaces persistantes avancées : des groupes souvent soutenus par un État, qui s'infiltrent durablement dans des structures critiques pour voler des informations ou déclencher des effets dévastateurs."
+      },
+      {
+       "intertitre": "Un groupe rompu aux attaques industrielles",
+       "texte": "Comme beaucoup de groupes liés à un État, Shahid Kaveh multiplie les avatars pour brouiller les pistes et revendiquer certaines attaques à des fins de propagande : CyberAveng3rs, Soldiers of Solomon, Mr. Soul, Cyber Isnaad Front, mais aussi Hydro Kitten, Bauxite, UNC5691 ou Storm-0784, ces derniers donnés notamment par Microsoft et Palo Alto Networks. Son organe de communication en ligne s'appelle CyberbanNews. En novembre 2023, l'avatar CyberAveng3rs a revendiqué une campagne contre la société israélienne Unitronics : au moins 75 appareils ont été compromis, dont 34 appartenant au réseau d'eau américain, selon la Cisa. L'unité a aussi revendiqué une campagne de sabotage contre des intérêts israéliens et américains en mars et avril 2026, puis a été repérée en avril en reconnaissance sur des systèmes Schneider Electric, notamment en France. En même temps que l'attaque des supermarchés, le C4 dit avoir vu le ciblage d'équipements Schneider Electric de petites installations hydroélectriques françaises, avec des effets modérés."
+      },
+      {
+       "intertitre": "Les indices et les suites judiciaires",
+       "texte": "Les enquêteurs invoquent un faisceau d'indices : des traces de farsi dans l'infrastructure d'attaque et un outil de scan habituellement utilisé par l'unité. Selon le C4, elle est dirigée par Reza Salarvand et Mahdi Lashgarian, sous l'autorité de Hamid Reza Lashgarian, patron du Centre électronique et cyber des Gardiens ; Mahdi Lashgarian, son neveu, dirige CyberbanNews, selon DomainTools. Vincent Strubel, directeur général de l'Anssi, précise que Shahid Kaveh n'est pas officiellement accusée des attaques contre des installations frigorifiques ailleurs en Europe, ni de celle contre l'Établissement français du sang début novembre. Le parquet de Paris a ouvert une information judiciaire contre le chef du groupe, ses deux adjoints et toute autre personne identifiée, et requis des mandats d'arrêt internationaux. Jean-Noël Barrot promet des mesures « proportionnées et nécessaires », y compris non publiques. L'Iran rejette ces accusations « infondées » dans un communiqué diffusé mardi."
+      }
+     ],
+     "synthese": "La France attribue à l'unité Shahid Kaveh des Gardiens de la Révolution la cyberattaque contre les frigos de supermarchés, sur la base d'un faisceau d'indices. Une information judiciaire est ouverte et des mandats d'arrêt internationaux sont requis, tandis que Téhéran nie.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a44"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "france",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-10",
+      "url": "https://www.lemonde.fr/vie-au-travail/article/2026/11/10/le-harcelement-sexuel-d-ambiance-au-travail-une-nouvelle-notion-qui-incite-les-entreprises-a-reagir_6808872_6768900.html",
+      "auteur": "",
+      "id": "a39",
+      "titre": "« Harcèlement sexuel d’ambiance » : une notion qui incite les entreprises à réagir",
+      "texte": "Blagues graveleuses, réflexions sexistes, gestes obscènes ou diffusion d’images pornographiques peuvent relever du « harcèlement sexuel d’ambiance », même lorsque le plaignant n’a pas été directement visé. Un récent arrêt de la Cour de cassation précise cette notion."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-10",
+      "url": "https://www.lemonde.fr/videos/video/2026/11/10/ce-que-l-on-sait-de-l-affaire-michel-zecler_6808867_1669088.html",
+      "auteur": "Laetitia Limmois",
+      "id": "a33",
+      "titre": "Affaire Michel Zecler : trois policiers jugés devant la cour criminelle de Paris",
+      "texte": "Cette affaire de violences policières, devenue emblématique, est jugée depuis le lundi 9 novembre devant la cour criminelle de Paris. Trois policiers comparaissent pour des violences infligées au producteur de musique en 2020."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-10",
+      "url": "https://www.lemonde.fr/campus/article/2026/11/10/mobilisation-etudiante-la-tension-monte-d-un-cran-entre-bloqueurs-et-presidents-d-universite_6808900_4401467.html",
+      "auteur": "",
+      "id": "a28",
+      "titre": "Mobilisation étudiante : tensions entre bloqueurs et présidents d’université",
+      "texte": "Plusieurs milliers d’étudiants et de lycéens ont manifesté mardi 10 novembre, alors que la mobilisation ne faiblit pas sur les campus. Les présidents d’établissement appellent à mettre fin aux blocages et dénoncent l’« irresponsabilité de certains occupants »."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "États-Unis",
+     "source": "NPR",
+     "date": "2026-11-11",
+     "url": "https://www.npr.org/2026/11/10/nx-s1-6034950/2026-11-10-nx-s1-6034950-supreme-court-seems-divided-over-federal-agencies-ability-to-fine-for-law-violations",
+     "auteur": "Nina Totenberg",
+     "titre": "Cour suprême : les juges divisés sur le pouvoir d'amende des agences fédérales",
+     "chapo": "Mardi, les juges de la Cour suprême ont paru partagés dans une affaire qui pourrait priver de nombreuses agences fédérales de leur capacité d'infliger des amendes aux entreprises.",
+     "sections": [
+      {
+       "intertitre": "Le déclencheur",
+       "texte": "Depuis des décennies, des agriculteurs américains recourent à un programme fédéral d'immigration qui leur permet d'employer temporairement des travailleurs migrants pour la cueillette. Outre les salaires, les exploitants doivent fournir le nécessaire : logement, accès aux repas et à l'eau. Le ministère du Travail surveille l'ensemble du système, afin que les travailleurs étrangers ne fassent pas concurrence déloyale aux travailleurs nationaux. À ce titre, il a infligé à Sun Valley Orchards, entreprise basée dans le New Jersey, une amende d'un demi-million de dollars pour des conditions insalubres : eau potable dangereuse, chambres de 20 lits superposés, éviers cassés, et d'autres manquements, dont le non-paiement de salaires promis."
+      },
+      {
+       "intertitre": "Ce que conteste l'entreprise",
+       "texte": "Sun Valley conteste les accusations et soutient qu'il est inconstitutionnel que le ministère du Travail impose des amendes à l'issue de ses procédures administratives. L'entreprise affirme aussi que ce processus la prive du droit à un procès devant jury lorsqu'elle fait appel devant un tribunal fédéral. Le débat porte donc moins sur le principe des amendes que sur l'autorité qui peut les prononcer. Son avocat, Robert Johnson, a reconnu que la loi prévoit des sanctions, mais qu'elle ne dit rien de l'instance chargée de les prononcer. À ses yeux, ces sanctions devraient être imposées par les tribunaux fédéraux, et non par les agences administratives qui s'en chargent aujourd'hui dans la plupart des cas."
+      },
+      {
+       "intertitre": "Les échanges à l'audience",
+       "texte": "Le président de la Cour, John Roberts, a fortement laissé entendre que l'administration Trump, comme beaucoup d'autres avant elle, a outrepassé le pouvoir de l'exécutif, en empiétant potentiellement sur le terrain du pouvoir judiciaire. Il a dit à la représentante du ministère, la solliciteure générale adjointe Sarah Harris : « Il me semble que vous essayez simplement de tirer parti de l'ample autorité [de l'exécutif] au-delà de la justification de son application. » La juge Sonia Sotomayor a demandé quelle perturbation entraînerait l'application de la loi par les tribunaux plutôt que par l'agence désignée. Sarah Harris a répondu que décider que les sanctions civiles doivent toujours relever des tribunaux de l'article III serait « l'option nucléaire ». Une telle décision bouleverserait des programmes aussi divers que Medicare, Medicaid ou les prêts étudiants fédéraux. À la question d'Elena Kagan, « pourquoi ne pas toujours aller au tribunal ? », elle a répondu que ce serait « catastrophique », car les ressources limitées conduiraient à une grave sous-application de la loi."
+      },
+      {
+       "intertitre": "Les juges sceptiques, et l'avertissement du gouvernement",
+       "texte": "Du côté des questions sceptiques envers l'entreprise, Ketanji Brown Jackson a estimé que son avocat luttait contre la réalité de ce que voulait le Congrès : éviter que des ouvriers agricoles venus de l'étranger ne fassent concurrence aux travailleurs nationaux. Brett Kavanaugh a jugé sa position « en guerre avec la clarté » et ajouté que ce n'était « pas génial, systématiquement, pour la suite ». Samuel Alito a prévenu que ce qu'il décrivait ressemblait à une opinion « fourre-tout », « comme les tribunaux en écrivent parfois », ce qui a fait rire la salle quand Elena Kagan a ajouté : « Jamais chez nous ! » En conclusion, Sarah Harris s'est montrée d'une franchise inhabituelle : perdre serait « un gros problème », mais un « désordre » serait pire, et d'autres régimes législatifs pourraient disparaître. Si c'est le cas, l'administration devra se tourner vers le Congrès : « Dites-nous maintenant s'il faut mobiliser les Affaires législatives, car cela va faire boule de neige »."
+      }
+     ],
+     "synthese": "La Cour suprême, qui semble divisée, doit dire si les agences fédérales peuvent infliger des amendes sans passer par un tribunal. Le gouvernement prévient qu'une défaite bouleverserait de nombreux programmes et obligerait à se tourner vers le Congrès.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "NPR",
+       "url": "https://www.npr.org/2026/11/10/nx-s1-6034950/supreme-court-seems-divided-over-federal-agencies-ability-to-fine-for-law-violations"
+      }
+     ],
+     "format": "long",
+     "id": "a66"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "monde",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-10",
+      "url": "https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Eliza Gkritsi",
+      "id": "a82",
+      "titre": "Bruxelles veut sanctionner les pratiques commerciales trompeuses en ligne",
+      "texte": "L’UE propose de nouvelles règles qui permettraient d’infliger des amendes aux entreprises recourant à des procédés manipulateurs, comme la « tarification dynamique » ou le « design addictif », pour pousser les consommateurs à acheter et à payer davantage."
+     },
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-10",
+      "url": "https://www.politico.eu/article/poland-says-pentagon-backs-permanent-us-base-with-trump-decision-due-in-december/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Bartosz Brzeziński",
+      "id": "a81",
+      "titre": "Varsovie dit que le Pentagone soutient une base américaine permanente",
+      "texte": "La Pologne cherche un engagement militaire américain durable, alors que les alliés de l’OTAN craignent de nouveaux retraits de troupes américaines en Europe. La décision de Donald Trump est attendue en décembre."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-10",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3373969/xi-and-trump-set-apec-talks-major-deliverables-expected-wait-g20",
+      "auteur": "Carol Yang",
+      "id": "a96",
+      "titre": "Xi et Trump au sommet de l’APEC, les annonces importantes attendues au G20",
+      "texte": "Les présidents américain et chinois doivent se rencontrer la semaine prochaine lors du sommet de l’APEC, mais les observateurs attendent peu de résultats bilatéraux tangibles. Ce sera leur troisième rencontre cette année, après les visites d’État réciproques de mai et septembre, et ils doivent aussi se retrouver au G20 aux États-Unis en décembre."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Économie et social",
+     "source": "NBER",
+     "date": null,
+     "url": "https://www.nber.org/papers/w35991#fromrss",
+     "auteur": "Samantha Carter; Edward Jee; Dean Karlan; Patrick Premand",
+     "titre": "Programmes « Graduation » contre la pauvreté : bilan de 49 études",
+     "chapo": "Une méta-analyse bayésienne de 49 études, vingt ans après les premiers essais, mesure les effets et le rapport coût-efficacité des programmes de sortie de la pauvreté dits « Graduation ».",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "Les programmes « Graduation » veulent aider des ménages pauvres à lancer ou développer des activités génératrices de revenu. Partant de l'idée que les freins du marché ne sont pas uniques, ils combinent soutien à la consommation, aide à l'épargne, formation, accompagnement et transfert d'actif ou de somme forfaitaire. Après un test de la conception initiale par BRAC au Bangladesh et sept adaptations dans d'autres pays, ces programmes, avec les approches d'inclusion économique, ont été repris par des ONG et des gouvernements dans 88 pays, auprès de plus de 70 millions de personnes. Les 41 publications issues d'évaluations aléatoires permettent désormais d'agréger les résultats et d'étudier la conception optimale. Les auteurs se distinguent de deux méta-analyses antérieures, qui portaient sur 17 essais (Kondylis et Loeser, 2021) ou 104 études (Leight et al., 2024), en se concentrant sur les programmes Graduation et en cherchant le rôle de chaque composante."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "Les gains sont importants : la consommation mensuelle augmente de 38 dollars en parité de pouvoir d'achat (11 %) et le revenu de 28 dollars (15 %), avec aussi des progrès sur l'épargne, les actifs, la sécurité alimentaire, la santé mentale et l'autonomie des femmes. Les programmes à gros transferts (au moins 400 dollars en parité de pouvoir d'achat) ont des effets plus grands, mais pas plus grands par unité de coût ; de même, les programmes plus chers produisent davantage sans que le gain soit à la hauteur de la dépense, et les moins chers tendent à être plus rentables. Hors la taille du transfert, aucune composante ne ressort comme indispensable ou inutile. Les programmes mis en œuvre depuis 2016 font nettement mieux : le rapport bénéfices-coûts passe de 2,89 jusqu'en 2015 à 5,39. Ni le coût ni la conception d'ensemble n'expliquent cette hausse. La tendance est plate pour les transferts monétaires sans condition, mais à la hausse pour l'éducation financière."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "Il s'agit d'une méta-analyse hiérarchique bayésienne de 49 enregistrements d'études, tirés de 41 publications et couvrant 40 randomisations distinctes, soit 81 variantes de traitement, menées dans 26 pays, dont environ un quart des études en contexte fragile ou postconflit. La recherche a livré 3 391 références, ramenées à 2 604 après suppression des doublons, puis à 306 pour examen détaillé. Chaque étude devait être un essai contrôlé randomisé mené dans un pays à revenu faible ou intermédiaire, avec au moins trois des cinq composantes. Les effets ont été extraits des estimations publiées, sans réestimation sur les microdonnées, pour 12 résultats. Sur les 68 bras de traitement, 48 fournissent un coût, de 102 à 3 090 dollars par ménage, avec une médiane de 445 dollars et une moyenne de 819."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Pour les auteurs, les programmes Graduation produisent des gains larges, économiques comme psychosociaux. L'amélioration après 2016 va à l'encontre de l'attente courante selon laquelle les effets s'érodent quand on passe de projets pilotes à une mise en œuvre élargie. Plusieurs programmes coûteux ont été conçus avant 2016, et l'adoption par les gouvernements, plus rapide à partir de cette date, s'accompagne de coûts plus bas quand ils s'appuient sur les systèmes nationaux de protection sociale. Les auteurs y voient surtout un gain de productivité par une meilleure efficacité opérationnelle, et formulent l'hypothèse d'un apprentissage continu du secteur et de sa communauté."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Les auteurs reconnaissent que la comparaison avec d'autres secteurs n'est pas déterminante, et que le mécanisme avancé reste une hypothèse. La qualité des données de coût varie beaucoup selon les articles. Pour l'emploi, ils retiennent seulement « tout travail déclaré », faute de mesures comparables. Pour la santé mentale, six des 18 études retenues mesurent un symptôme ou un stress plus étroit qu'un indice général."
+      }
+     ],
+     "synthese": "Les programmes Graduation améliorent nettement les conditions de vie, et ceux lancés depuis 2016 affichent un meilleur rapport bénéfices-coûts, sans que la hausse de coût ou la conception ne l'explique. Les auteurs l'attribuent, sous forme d'hypothèse, à une meilleure mise en œuvre.",
+     "republication": "",
+     "reference": "Samantha Carter (Livelihood Impact Fund), Edward Jee (Université de Chicago), Dean Karlan (Northwestern University et NBER), Patrick Premand (Banque mondiale), NBER Working Paper n° 35991, novembre 2026 ; document de travail non relu par des pairs.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a122"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Économie",
+     "source": "Réserve fédérale (documents de travail)",
+     "date": "2026-11-10",
+     "url": "https://www.federalreserve.gov/econres/feds/costly-misdemeanours-labour-market-effects-of-low-level-drink-driving-violations.htm",
+     "auteur": "",
+     "titre": "Alcool au volant : une condamnation fait reculer l'emploi de 6 à 7 points",
+     "chapo": "Une étude de la Réserve fédérale mesure, en Nouvelle-Zélande, ce que coûte sur le marché du travail une première condamnation pour alcool au volant, sans peine de prison.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "Les auteurs partent d'un constat : la prison passe pour la conséquence la plus lourde d'un délit, mais de nombreuses infractions mineures coûtent aussi bien au-delà du tribunal. L'alcool au volant, infraction courante et souvent punie sans incarcération, laisse un casier judiciaire dont le poids se fait sentir surtout là où les employeurs vérifient les antécédents. Trois mécanismes sont évoqués : la stigmatisation à l'embauche, un moindre attachement au travail et, en sens inverse, des perspectives d'emploi dégradées qui favorisent l'alcool. L'infraction est fréquente : en croisant le recensement de 2023 et les dossiers du ministère de la Justice, les auteurs trouvent qu'au moins une condamnation touche 15,3 % des hommes et 5,8 % des femmes de 30 à 55 ans. Parmi eux, 25,1 % des hommes et 43,9 % des femmes n'en ont qu'une seule."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "Après une première condamnation, l'emploi recule en moyenne de 6 à 7 points de pourcentage et le revenu mensuel de 90 dollars néo-zélandais, soit environ 2 % du niveau de départ. Ces effets durent au-delà des six mois habituels de suspension du permis, ce qui, selon les auteurs, rend peu probable une explication par les seules restrictions de conduite. Le recul tient surtout à une moindre entrée dans l'emploi plutôt qu'à des pertes d'emploi : l'effet principal passe par la baisse des embauches parmi les personnes sans emploi, même si l'introduction évoque aussi davantage de départs. Il est plus marqué là où les employeurs contrôlent le plus les antécédents : les embauches reculent de 4,8 points dans les secteurs à contrôle moyen ou élevé, contre 1,9 point dans les secteurs à contrôle faible. La baisse atteint 4,9 points dans les secteurs où l'on conduit peu, contre 1,9 point dans ceux où la conduite est centrale."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "Les chercheurs relient les dossiers du ministère de la Justice, les données fiscales d'Inland Revenue et le recensement néo-zélandais de 2023. Ils exploitent la date de la première condamnation avec une méthode de différences de différences échelonnée : chaque personne condamnée est comparée, avant et après, à d'autres qui ne le seront que plus tard. Tous sont de futurs condamnés, ce qui évite de comparer contrevenants et non-contrevenants, dont les différences constantes pourraient fausser le résultat. Une seconde approche, par appariement exact, compare les condamnés à des personnes semblables sans condamnation sur la période, avec des résultats similaires. L'échantillon ne retient que des premières condamnations avec un taux d'alcool à l'haleine de 500 microgrammes par litre au plus, soit 15 % des contrevenants."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Les auteurs interprètent ces résultats par un modèle simple : pour l'employeur, la condamnation est un signal négatif sur la productivité ou la fiabilité. À l'embauche, il connaît mal le candidat et s'appuie beaucoup sur le casier ; une fois la personne en poste, il juge sa performance observée et le casier pèse moins. Le modèle prédit donc un recul de l'emploi par les embauches plutôt que par les départs, et des effets salariaux modestes. Les baisses d'emploi et de revenu sont plus fortes chez les personnes non européennes, et comparables entre hommes et femmes, avec des départs accrus chez ces dernières en plus de l'entrée réduite. Les auteurs jugent utile d'évaluer des voies sans condamnation pour les cas limites, un effacement plus souple des casiers et l'embauche sans accès initial au casier."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Les auteurs n'observent pas directement les pratiques de contrôle des antécédents : ils ont classé eux-mêmes chaque secteur dans une catégorie de probabilité de contrôle faible, moyenne ou élevée, d'après ses caractéristiques. Les écarts entre personnes européennes et non européennes ne sont pas statistiquement distinguables et restent donc seulement suggestifs. Les effets sur les salaires mêlent des effets de composition et un éventuel pouvoir de marché des employeurs : l'estimation de 2 % peut ainsi se lire comme une borne inférieure de la stigmatisation."
+      }
+     ],
+     "synthese": "Une première condamnation pour alcool au volant, même sans prison, ferait baisser l'emploi de 6 à 7 points, surtout parce qu'elle freine les embauches. Les auteurs y voient l'effet du casier sur le regard des employeurs, plus fort dans les secteurs qui le vérifient.",
+     "republication": "",
+     "reference": "Kabir Dasgupta (Réserve fédérale), Marco Francesconi (Université d'Essex), Jonathan James (Université de Bath), Linda Kirkpatrick (Université de Colombie-Britannique), Alexander Plum (Auckland University of Technology), Finance and Economics Discussion Series 2026-073, 29 octobre 2026 ; document de travail préliminaire de la Réserve fédérale, non relu par des pairs.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a115"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "recherche",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35988#fromrss",
+      "auteur": "",
+      "id": "a119",
+      "titre": "Ratio de Sharpe maximal : les portefeuilles ridge restent en deçà",
+      "texte": "Un estimateur direct du ratio de Sharpe maximal, sur de grands ensembles d'actifs, montre que les portefeuilles de Markowitz régularisés par ridge restent en deçà du maximum hors échantillon (NBER)."
+     },
+     {
+      "rubrique": "Santé publique",
+      "source": "PLOS Medicine",
+      "date": "2026-11-10",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005285",
+      "auteur": "",
+      "id": "a132",
+      "titre": "Réadaptation psychosociale en santé mentale : clarifier les principes",
+      "texte": "L'adoption inégale de la réadaptation psychosociale tient à des obstacles conceptuels, méthodologiques et organisationnels. Les auteurs plaident pour un socle de principes fondamentaux adaptable aux contextes (PLOS Medicine)."
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-10",
+      "url": "https://verfassungsblog.de/verteidigungsbegriff-auslegung-drohnenabwehr/",
+      "auteur": "",
+      "id": "a126",
+      "titre": "Drones : la défense intérieure n'a pas besoin de militarisation",
+      "texte": "Face aux drones au-dessus des aéroports allemands, l'auteur estime que le droit actuel suffit, à condition que police et Bundeswehr s'entraînent ensemble. Ni élargir la notion de défense ni modifier la Constitution ne seraient nécessaires (Verfassungsblog)."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "recherche",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-10",
+      "url": "https://verfassungsblog.de/iran-us-torture-tvpa/",
+      "auteur": "",
+      "id": "a131",
+      "titre": "Iran : la prescription n'a pas commencé à courir, selon une cour floridienne",
+      "texte": "Trois Iraniens affirment avoir été torturés il y a plus de cinquante ans par la police secrète du Shah. Un tribunal fédéral américain a laissé leurs demandes suivre leur cours, la prescription n'ayant pas encore commencé (Verfassungsblog)."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Sanctions et export",
+     "source": "JNS.org",
+     "date": "2026-11-10",
+     "url": "https://www.jns.org/news/world/france-to-summon-iranian-envoy-seek-eu-sanctions-over-cyberattack",
+     "auteur": "JNS Staff",
+     "titre": "Cyberattaque contre les frigos des supermarchés : la France accuse l'Iran",
+     "chapo": "Paris attribue aux Gardiens de la Révolution iraniens une cyberattaque d'octobre sur les frigos de centaines de supermarchés, convoque l'ambassadeur d'Iran et veut des sanctions européennes.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Le ministre français des Affaires étrangères, Jean-Noël Barrot, a déclaré mardi sur Franceinfo que la France ne s'interdisait « rien » face à cette attaque. L'ambassadeur d'Iran est convoqué et Paris demandera des sanctions européennes contre le régime islamique. Le gouvernement prendra toutes les mesures « que nous jugeons proportionnées et nécessaires pour dissuader de nouvelles attaques », y compris des mesures qui ne seront pas rendues publiques. L'objectif, dit-il, est de dissuader quiconque, en Iran ou ailleurs, serait tenté de recommencer. D'après Ticker News et Hindustan Times, qui cite Reuters, le ministère des Affaires étrangères a confirmé que l'ambassadeur a été reçu mardi ; selon Hindustan Times, sa convocation avait été annoncée la veille par Barrot. Ticker News ajoute que celui-ci a mis en avant les options de cyberdéfense dont dispose la France, et Hindustan Times que Paris pourrait riposter par des mesures cyber."
+      },
+      {
+       "intertitre": "L'attaque",
+       "texte": "Selon JNS, la France a accusé lundi le Corps des Gardiens de la Révolution islamique (IRGC) d'avoir mené l'attaque le mois dernier : les réfrigérateurs et congélateurs de centaines de supermarchés se sont mis à chauffer, des millions d'euros de denrées ont été perdus et des incendies se sont déclarés dans certains magasins. Barrot l'a qualifiée d'inédite par son ampleur et son niveau d'agressivité. D'après Barrot, près de 700 sites de distribution ont été touchés les 11 et 12 octobre. L'AFP, citée par Hindustan Times, précise que les pirates ont pris le contrôle des systèmes de refroidissement par des interfaces web pour déclencher des cycles de dégivrage anormaux et sans fin, et ont désactivé les alertes des capteurs censées prévenir les opérateurs en cas de dépassement de température. Des incidents semblables ont été signalés dans d'autres pays européens ; le 2 novembre, des magasins d'au moins neuf pays européens auraient été touchés par une attaque présumée sur leurs systèmes de congélation."
+      },
+      {
+       "intertitre": "L'enquête",
+       "texte": "La procureure de Paris, Laure Beccuau, a annoncé lundi l'ouverture d'une enquête visant Shahid Kaveh, une unité cyber offensive liée à l'IRGC qu'elle décrit comme affiliée à son Centre électronique et cyber (IRGC-CEC). Son parquet a demandé des mandats d'arrêt internationaux contre deux responsables associés à cette unité. Le Centre de coordination des crises cyber, qui réunit des services de sécurité dont le renseignement, affirme que l'unité mène des campagnes de grande ampleur contre des équipements industriels à des fins de sabotage, surtout contre Israël et les États-Unis, mais aussi contre la France et d'autres pays européens."
+      },
+      {
+       "intertitre": "Le contexte diplomatique",
+       "texte": "Ticker News range ces attaques parmi les plus perturbatrices depuis le début du conflit impliquant l'Iran, aux côtés d'attaques contre le réseau de transport de Los Angeles et des stations d'eau américaines. Il indique que le ministère iranien des Affaires étrangères juge les accusations « sans fondement et hostiles » et que l'Iran nie régulièrement toute implication dans des cyberattaques. Les relations entre Paris et Téhéran sont tendues depuis des années à cause des programmes nucléaire et de missiles iraniens, de ses activités régionales et de la détention de ressortissants français. Elles s'étaient brièvement améliorées avant de se dégrader de nouveau après des expulsions de diplomates cet été. Hindustan Times ajoute que Paris accuse aussi l'Iran d'avoir diffusé de la désinformation liée aux manifestations qui secouent la France depuis un mois."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Barrot ne détaille pas les mesures annoncées en dehors des sanctions européennes. Les sources reprennent les déclarations françaises : l'Iran récuse l'accusation, et sa mission auprès de l'ONU n'a pas répondu aux demandes de commentaire de Reuters lundi. JNS écrit que l'ambassadeur « sera convoqué », quand les deux autres sources indiquent que la convocation a eu lieu mardi."
+      }
+     ],
+     "synthese": "La France impute à l'IRGC une attaque qui a touché près de 700 sites de distribution en octobre, convoque l'ambassadeur d'Iran et veut des sanctions européennes. Téhéran dément ; les mesures complémentaires restent confidentielles.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Ticker News",
+       "url": "https://tickernews.co/france-summons-iran-envoy-over-supermarket-cyberattack/"
+      },
+      {
+       "source": "Hindustan Times",
+       "url": "https://www.hindustantimes.com/world-news/france-summons-iran-envoy-over-cyberattack-on-supermarket-refrigerators-warns-of-retaliation-101794306459015.html"
+      }
+     ],
+     "format": "long",
+     "id": "a144"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Sanctions et export",
+     "source": "ValueWalk",
+     "date": "2026-11-10",
+     "url": "https://www.valuewalk.com/ofac-prince-group-45-targets-scam-compounds/",
+     "auteur": "",
+     "titre": "Prince Group : 45 nouvelles sanctions américaines contre les arnaques",
+     "chapo": "Le Trésor américain a sanctionné le 5 novembre 45 cibles liées au Prince Group cambodgien, accusé de blanchir le produit d'escroqueries en ligne menées depuis des complexes d'Asie du Sud-Est.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Le 5 novembre 2026, le Trésor américain a sanctionné 45 nouvelles cibles liées au Prince Group, conglomérat cambodgien que l'Office of Foreign Assets Control (OFAC) a désigné organisation criminelle transnationale. L'OFAC vise quatre personnes et 41 entités accusées d'aider les dirigeants du groupe à dissimuler des avoirs et à blanchir le produit d'escroqueries en cryptomonnaies et d'arnaques sentimentales, menées depuis des complexes d'Asie du Sud-Est où, selon le Trésor, travaillent des personnes victimes de traite ou contraintes. Le Prince Group nie les accusations. Pour le secrétaire au Trésor Scott Bessent, ces réseaux « continuent de voler des milliards de dollars à des victimes américaines » en s'appuyant sur des réseaux d'affaires internationaux sophistiqués."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "En septembre, le FinCEN, service du Trésor, a relié environ 12,7 milliards de dollars de transactions déclarées à des fraudes présumées à l'investissement en cryptomonnaies, surtout liées à ces complexes. En juillet, l'UNODC a estimé les pertes des victimes en 2025 entre 88,3 et 114,1 milliards de dollars, avec des personnes d'au moins 80 pays retenues dans les complexes. L'action a été coordonnée avec le FBI, la Scam Center Strike Force du département de la Justice (580 millions de dollars de saisies et de gels en cryptomonnaies, selon le Trésor) et les autorités des îles Vierges britanniques et du Royaume-Uni. Washington cherche aussi la confiscation d'environ 14 milliards de dollars de bitcoins liés au groupe, et le Royaume-Uni a gelé le penthouse londonien de Thet Li, présumé directeur financier."
+      },
+      {
+       "intertitre": "Les personnes visées",
+       "texte": "C'est la troisième série de sanctions contre des acteurs liés au groupe en environ 13 mois, après octobre 2025 et juin 2026. Figurent notamment Qiu Yong, qui contrôlerait pour le groupe un réseau de sociétés des îles Vierges britanniques et de Hong Kong, Zhao Mengyao, présentée comme son assistante personnelle, He Yujing, épouse du dirigeant Chen Bo, et Visal Pang, qui contrôlerait 11 sociétés cambodgiennes. Chen Bo avait été désigné le 23 juin 2026."
+      },
+      {
+       "intertitre": "Ce que ça change",
+       "texte": "Les biens et intérêts américains des personnes visées sont bloqués, tout comme les entités qu'elles détiennent à 50 % ou plus ; les violations exposent à des sanctions civiles ou pénales. Le président du groupe, Chen Zhi, arrêté au Cambodge en janvier, a été extradé vers la Chine : les désignations ciblent donc les prête-noms, sociétés écrans et administrateurs qui maintiennent la structure, selon le Trésor. L'annonce ne dit pas si des entités visées détiennent des fonds sur des plateformes d'échange ou des protocoles DeFi qui les gèleraient."
+      }
+     ],
+     "synthese": "Le Trésor américain poursuit son offensive contre le Prince Group en frappant les intermédiaires qui, selon lui, dissimulent ses avoirs. Les montants liés aux complexes d'escroquerie se chiffrent en dizaines de milliards de dollars.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a148"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "veille",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "LCB-FT",
+      "source": "AML Intelligence",
+      "date": "2026-11-10",
+      "url": "https://www.amlintelligence.com/2026/11/exclusive-eu-deadlock-on-amla-fee-method-puts-agency-funding-at-risk/",
+      "auteur": "",
+      "id": "a154",
+      "titre": "Blocage européen sur la méthode de financement de l'AMLA",
+      "texte": "Une impasse au sein de l'UE sur la méthode de calcul des redevances met en danger le financement de l'Autorité européenne de lutte contre le blanchiment, selon AML Intelligence."
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "LeapRate",
+      "date": "2026-11-10",
+      "url": "https://www.leaprate.com/regulation/ofac-sanctions-eight-canadian-money-services-businesses-over-iran-crypto/",
+      "auteur": "",
+      "id": "a147",
+      "titre": "L'OFAC sanctionne huit sociétés canadiennes de transfert de fonds",
+      "texte": "Le Trésor américain, via l'OFAC, sanctionne huit entreprises canadiennes de services monétaires, en lien avec des opérations en cryptomonnaies liées à l'Iran."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Idées",
+     "source": "The Conversation",
+     "date": "2026-11-10",
+     "url": "https://theconversation.com/et-si-les-chauves-souris-etaient-apparues-en-europe-dans-des-forets-subtropicales-296087",
+     "auteur": "Neil J Gostling; Veronica Zamora-Gutierrez",
+     "titre": "Les chauves-souris seraient nées en Europe, dans des forêts subtropicales",
+     "chapo": "Une étude publiée dans Nature, fondée sur les génomes de 103 espèces et sur des fossiles, désigne l'Europe comme berceau probable des chauves-souris il y a plus de 56 millions d'années.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "Depuis des décennies, les scientifiques débattent du lieu d'origine des chauves-souris, seuls mammifères capables de vol actif. Des reconstitutions antérieures les situaient aux États-Unis, en Afrique ou en Asie, selon les données et les modèles utilisés. Les plus anciens squelettes connus, découverts dans le Wyoming, remontent à environ 52 millions d'années, au début de l'Éocène ; leurs doigts allongés montrent que ces animaux volaient déjà. Mais le lieu des plus anciens fossiles ne révèle pas forcément où un groupe est apparu. Et, contrairement aux oiseaux, dont les fossiles retracent la transition du dinosaure au « poulet », les fossiles de chauves-souris ressemblent déjà à des chauves-souris presque entièrement formées : il manque la succession de fossiles retraçant le passage d'ancêtres incapables de voler aux premières chauves-souris volantes."
+      },
+      {
+       "intertitre": "Le vol et le sonar",
+       "texte": "La plupart des chauves-souris pratiquent l'écholocalisation, un sonar qui consiste à émettre des sons et à se servir des échos pour s'orienter et trouver de la nourriture. Quel est apparu en premier, du vol ou de l'écholocalisation, ou ont-ils surgi ensemble ? Une étude de 2008 sur le fossile Onychonycteris plaidait pour le vol d'abord : ses ailes indiquaient qu'il volait, mais l'anatomie de ses oreilles suggérait l'absence d'écholocalisation. Une étude de 2010, comparant son anatomie à celle de chauves-souris actuelles, a remis en cause cette lecture. Un fossile volant mais dépourvu d'écholocalisation peut correspondre à plusieurs scénarios : sa lignée s'est séparée avant l'apparition du sonar, ou ses ancêtres le possédaient puis l'ont perdu. Même un fossile portant des indices des deux capacités ne suffirait pas à établir laquelle est venue en premier."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "L'étude marque une étape pour Bat1K, projet international visant des génomes de haute qualité pour toutes les espèces actuelles de chauves-souris. Les chercheurs ont analysé les génomes de 103 espèces, représentant les 21 familles actuelles, et rassemblé des données anatomiques sur 65 espèces, dont 44 éteintes. Comparer des génomes entiers apporte bien plus d'indices sur l'ascendance commune que les quelques gènes des travaux antérieurs. Des données moléculaires et fossiles avaient déjà été combinées ; ce qui distingue cette étude, c'est l'ampleur des données, la qualité des génomes et la recherche des raisons pour lesquelles différents segments d'ADN suggèrent parfois des parentés différentes."
+      },
+      {
+       "intertitre": "Les résultats",
+       "texte": "L'analyse situe l'origine des chauves-souris en Europe, à la fin du Paléocène, il y a plus de 56 millions d'années. Leurs descendants se seraient propagés en Afrique, puis vers d'autres continents à mesure que les grands groupes se diversifiaient. Cette conclusion repose sur une reconstitution des aires de répartition ancestrales à partir de l'arbre évolutif, des fossiles et de modèles intégrant le déplacement des continents et la dispersion des animaux ; de solides éléments étayaient l'hypothèse européenne. L'étude relie aussi les chauves-souris actuelles à Vielasia, espèce éteinte découverte en France, dont un crâne vieux de 50 millions d'années, décrit en 2023, présentait dans l'oreille interne des caractéristiques d'un sonar semblable à celui des espèces actuelles. Vielasia se place parmi les premiers groupes séparés d'un ancêtre commun, ce qui renforce l'idée d'une écholocalisation par le larynx antérieure à la diversification des groupes actuels."
+      },
+      {
+       "intertitre": "Les limites et le décor",
+       "texte": "Ces résultats étayent l'hypothèse d'une origine ancienne du sonar, sans résoudre l'ordre d'apparition du vol et de l'écholocalisation. Les plus anciens fossiles pourraient aussi venir de populations déjà dispersées. Aujourd'hui, la diversité des chauves-souris est maximale sous les tropiques, mais l'Europe d'alors était bien différente : à la fin du Paléocène, certaines régions abritaient des forêts chaudes et subtropicales, et des liaisons terrestres passant par le Groenland reliaient par périodes l'Europe à l'Amérique du Nord."
+      }
+     ],
+     "synthese": "En croisant génomes de 103 espèces et fossiles, une étude publiée dans Nature situe l'origine des chauves-souris en Europe, il y a plus de 56 millions d'années. Elle renforce l'idée d'un sonar ancien, sans dire du vol ou de l'écholocalisation lequel est apparu d'abord.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a178"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Science",
+     "source": "Quanta Magazine",
+     "date": "2026-11-10",
+     "url": "https://www.quantamagazine.org/the-case-for-a-bubble-at-lifes-start-20261110/",
+     "auteur": "Perri Thaler",
+     "titre": "Origine de la vie : l'hypothèse d'une bulle avant la chimie",
+     "chapo": "Certains chercheurs font de la membrane, et non d'une molécule, le point de départ de la vie ; l'idée est contestée, sans que la nécessité d'un compartiment le soit.",
+     "sections": [
+      {
+       "intertitre": "Le déclencheur",
+       "texte": "Au fond, une cellule est une bulle de chimie enfermée dans une membrane. Dans les cellules modernes, cette chimie est d'une complexité extrême, avec environ un milliard de réactions par seconde. Les premières cellules, bien plus simples, auraient elles aussi eu besoin d'une bulle. Sans frontière physique rassemblant les molécules dans un petit espace, ce qui est devenu le vivant aurait été trop dispersé pour assembler les systèmes complexes dont la vie dépend, explique Bruce Damer, astrobiologiste à l'université de Californie à Santa Cruz : « Il faut un contenant avant d'avoir la chimie. »"
+      },
+      {
+       "intertitre": "Le principe de l'hypothèse lipid first",
+       "texte": "Pour certains chercheurs, la membrane est si essentielle qu'ils en font l'origine même de la vie : c'est l'hypothèse dite « lipid first ». Beaucoup de ses partisans estiment que les bulles auraient elles-mêmes évolué. Dans les années 1990, on a imaginé qu'un système chimique, et non une molécule, puisse porter une information héréditaire. Dans une flaque de la Terre primitive, des molécules organiques dont une extrémité est attirée par l'eau et l'autre la repousse s'assemblent en une petite sphère. Si une bulle contient des molécules A et B, où A accélère la production de B et B celle de A, chacune entretient l'autre et la composition reste à peu près stable. Quand la bulle se scinde, ses molécules sont réparties entre les bulles filles, qui reproduisent la recette de la mère plus fidèlement que le hasard seul. Contrairement à l'ADN, copié lettre par lettre, seule une proportion de molécules est transmise."
+      },
+      {
+       "intertitre": "Hérédité, variation et sélection",
+       "texte": "L'évolution exige aussi du changement. Ici, il peut venir d'une molécule C égarée qui, comme une mutation, fait basculer une bulle dans une autre boucle moléculaire. Les bulles à croissance rapide se divisent plus souvent et supplantent les plus lentes. En 2000, Doron Lancet, généticien à l'Institut Weizmann, et Daniel Segrè, biologiste computationnel à l'université de Boston, ont publié un modèle informatique : les bulles transmettent leur composition à leurs filles, varient et se concurrencent, ce qui remplit les conditions de la sélection naturelle. Dans le modèle, A, B et les autres étaient des lipides, qui composent les membranes actuelles et possèdent cette double nature : dans l'eau, ils forment des feuillets à double couche qui peuvent se refermer en sphère."
+      },
+      {
+       "intertitre": "Des contenants qui ne sont plus tous lipidiques",
+       "texte": "En vingt-cinq ans, des scientifiques se sont demandé si les premiers compartiments devaient être faits de lipides. « Il n'existe plus vraiment d'hypothèse du monde lipidique distincte », dit Bruce Damer. Des chercheurs ont proposé que des minéraux, comme les sulfures de fer, aient formé les parois, ou que des coacervats, gouttelettes liquides où les molécules se concentrent, aient servi de récipients sans membrane. Damer et David Deamer, biochimiste à Santa Cruz qui a travaillé avec Lancet et Segrè, restent centrés sur les lipides, mais dans un cadre précis : les mares de sources chaudes. Ils étudient si l'assèchement et le remplissage répétés de ces mares auraient pu comprimer des molécules simples entre des couches de lipides pour produire des systèmes plus complexes. Damer voit cette « hypothèse des sources chaudes » comme une extension du monde lipidique."
+      },
+      {
+       "intertitre": "Les objections",
+       "texte": "« L'idée d'une forme de vie primitive uniquement lipidique n'a jamais eu de sens pour moi », dit Jack Szostak, biochimiste lauréat du prix Nobel à l'université de Chicago, faute de preuve expérimentale qu'un système lipidique puisse évoluer. Pour lui, la formation de lipides simples sur la Terre primitive est « l'aspect le moins bien développé de toute la chimie prébiotique ». Une analyse de 2010 a aussi jugé la réplication de l'information de composition d'une génération à l'autre trop imprécise pour que la sélection naturelle opère. Mais aucune de ces objections ne conteste qu'il fallait une bulle : Szostak, favorable à une origine fondée sur l'ARN, admet que les compartiments sont nécessaires pour garder ensemble les molécules liées. Sans eux, dit-il, « l'évolution darwinienne ne pourrait pas opérer »."
+      }
+     ],
+     "synthese": "L'hypothèse d'un monde lipidique, où les bulles elles-mêmes évolueraient, reste débattue et ne fait plus l'unanimité chez ses propres défenseurs. Les critiques ne contestent pas la nécessité d'un compartiment.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a165"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-10",
+      "url": "https://www.sciencesetavenir.fr/sante/quand-les-tumeurs-piratent-le-systeme-nerveux_195872?xtor=RSS-16",
+      "auteur": "",
+      "id": "a168",
+      "titre": "Quand les tumeurs piratent le système nerveux",
+      "texte": "Longtemps considéré comme un simple voisin des tumeurs, le système nerveux apparaît aujourd’hui comme un acteur à part entière de leur développement. Cette découverte ouvre de nouvelles perspectives thérapeutiques."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-10",
+      "url": "https://www.sciencesetavenir.fr/fondamental/mecanique-des-foules-l-oscillation-spontanee-a-partir-d-une-certaine-densite_196012?xtor=RSS-10",
+      "auteur": "",
+      "id": "a167",
+      "titre": "Les foules denses se mettent à osciller spontanément",
+      "texte": "À partir d'une certaine densité, les foules se mettent à osciller spontanément. Le physicien Denis Bartolo (ENS de Lyon) l'a démontré en étudiant les foules de la fête de Pampelune."
+     },
+     {
+      "rubrique": "Sport",
+      "source": "franceinfo Sports",
+      "date": "2026-11-10",
+      "url": "https://www.franceinfo.fr/replay-jt/france-2/13-heures/catapulte-humaine-ils-battent-deux-records-du-monde-propulses-a-la-verticale-de-0-a-180-km-h-en-deux-secondes_8276468.html#xtor=RSS-3-%5Bsports%5D",
+      "auteur": "",
+      "id": "a198",
+      "titre": "Catapulte humaine : deux records du monde à 180 km/h en deux secondes",
+      "texte": "En Slovénie, deux sportifs spécialistes du saut en parachute à ailes volantes ont été propulsés à la verticale, de 0 à 180 km/h en deux secondes. Ils ont ainsi battu deux records du monde."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-10",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+      "auteur": "",
+      "id": "a183",
+      "titre": "Voyager 1 atteindra une journée-lumière de la Terre le 18 novembre",
+      "texte": "La sonde Voyager 1, lancée en 1977, sera à une journée-lumière de la Terre le mercredi 18 novembre, soit plus de 25,9 milliards de kilomètres. La NASA invite médias et public à suivre l'événement."
+     }
+    ]
+   },
+   {
+    "type": "solutions",
+    "bloc": "",
+    "taille": 1
+   }
+  ],
+  "jeux": {
+   "sudoku": {
+    "grille": [
+     0,
+     0,
+     4,
+     0,
+     0,
+     0,
+     8,
+     3,
+     0,
+     3,
+     0,
+     0,
+     8,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     7,
+     0,
+     0,
+     4,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     6,
+     4,
+     0,
+     7,
+     2,
+     8,
+     0,
+     0,
+     0,
+     7,
+     0,
+     1,
+     6,
+     5,
+     0,
+     0,
+     9,
+     0,
+     0,
+     0,
+     8,
+     0,
+     4,
+     0,
+     0,
+     0,
+     0,
+     8,
+     0,
+     5,
+     0,
+     0,
+     0,
+     0,
+     4,
+     0,
+     2,
+     9,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "solution": [
+     6,
+     2,
+     4,
+     1,
+     7,
+     9,
+     8,
+     3,
+     5,
+     3,
+     7,
+     1,
+     8,
+     4,
+     5,
+     9,
+     2,
+     6,
+     8,
+     9,
+     5,
+     6,
+     3,
+     2,
+     1,
+     7,
+     4,
+     1,
+     4,
+     9,
+     5,
+     2,
+     8,
+     3,
+     6,
+     7,
+     5,
+     3,
+     6,
+     4,
+     9,
+     7,
+     2,
+     8,
+     1,
+     2,
+     8,
+     7,
+     3,
+     1,
+     6,
+     5,
+     4,
+     9,
+     9,
+     6,
+     3,
+     7,
+     8,
+     1,
+     4,
+     5,
+     2,
+     7,
+     1,
+     8,
+     2,
+     5,
+     4,
+     6,
+     9,
+     3,
+     4,
+     5,
+     2,
+     9,
+     6,
+     3,
+     7,
+     1,
+     8
+    ]
+   },
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "indices": [
+     [
+      1,
+      0,
+      5
+     ],
+     [
+      0,
+      6,
+      8
+     ],
+     [
+      4,
+      9,
+      10
+     ],
+     [
+      3,
+      1,
+      12
+     ],
+     [
+      4,
+      4,
+      12
+     ],
+     [
+      4,
+      7,
+      10
+     ],
+     [
+      5,
+      4,
+      12
+     ],
+     [
+      7,
+      6,
+      3
+     ],
+     [
+      7,
+      7,
+      4
+     ],
+     [
+      7,
+      8,
+      3
+     ],
+     [
+      7,
+      4,
+      6
+     ],
+     [
+      9,
+      2,
+      8
+     ],
+     [
+      9,
+      4,
+      6
+     ],
+     [
+      9,
+      8,
+      1
+     ]
+    ],
+    "rectangles": [
+     [
+      0,
+      0,
+      5,
+      1
+     ],
+     [
+      0,
+      1,
+      1,
+      8
+     ],
+     [
+      0,
+      9,
+      10,
+      1
+     ],
+     [
+      1,
+      1,
+      4,
+      3
+     ],
+     [
+      1,
+      4,
+      4,
+      3
+     ],
+     [
+      1,
+      7,
+      5,
+      2
+     ],
+     [
+      5,
+      0,
+      2,
+      6
+     ],
+     [
+      5,
+      6,
+      3,
+      1
+     ],
+     [
+      6,
+      7,
+      4,
+      1
+     ],
+     [
+      6,
+      8,
+      3,
+      1
+     ],
+     [
+      7,
+      0,
+      1,
+      6
+     ],
+     [
+      8,
+      0,
+      2,
+      4
+     ],
+     [
+      8,
+      4,
+      2,
+      3
+     ],
+     [
+      9,
+      8,
+      1,
+      1
+     ]
+    ]
+   },
+   "futoshiki": {
+    "n": 6,
+    "donnes": [
+     [
+      5,
+      1,
+      1
+     ],
+     [
+      3,
+      0,
+      2
+     ],
+     [
+      3,
+      5,
+      5
+     ],
+     [
+      1,
+      3,
+      3
+     ],
+     [
+      2,
+      2,
+      6
+     ],
+     [
+      5,
+      5,
+      2
+     ]
+    ],
+    "signes": [
+     [
+      [
+       0,
+       2
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     [
+      [
+       5,
+       5
+      ],
+      [
+       4,
+       5
+      ]
+     ],
+     [
+      [
+       3,
+       2
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     [
+      [
+       3,
+       0
+      ],
+      [
+       2,
+       0
+      ]
+     ],
+     [
+      [
+       1,
+       3
+      ],
+      [
+       2,
+       3
+      ]
+     ],
+     [
+      [
+       4,
+       3
+      ],
+      [
+       5,
+       3
+      ]
+     ],
+     [
+      [
+       3,
+       3
+      ],
+      [
+       3,
+       4
+      ]
+     ],
+     [
+      [
+       4,
+       5
+      ],
+      [
+       3,
+       5
+      ]
+     ],
+     [
+      [
+       5,
+       2
+      ],
+      [
+       4,
+       2
+      ]
+     ],
+     [
+      [
+       3,
+       1
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     [
+      [
+       2,
+       4
+      ],
+      [
+       2,
+       3
+      ]
+     ],
+     [
+      [
+       4,
+       5
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     [
+      [
+       1,
+       4
+      ],
+      [
+       1,
+       5
+      ]
+     ],
+     [
+      [
+       2,
+       1
+      ],
+      [
+       2,
+       2
+      ]
+     ],
+     [
+      [
+       2,
+       5
+      ],
+      [
+       2,
+       4
+      ]
+     ]
+    ],
+    "solution": [
+     [
+      4,
+      5,
+      2,
+      1,
+      3,
+      6
+     ],
+     [
+      6,
+      2,
+      5,
+      3,
+      1,
+      4
+     ],
+     [
+      3,
+      4,
+      6,
+      5,
+      2,
+      1
+     ],
+     [
+      2,
+      3,
+      1,
+      4,
+      6,
+      5
+     ],
+     [
+      1,
+      6,
+      4,
+      2,
+      5,
+      3
+     ],
+     [
+      5,
+      1,
+      3,
+      6,
+      4,
+      2
+     ]
+    ]
+   },
+   "compte": {
+    "plaques": [
+     3,
+     8,
+     8,
+     9,
+     6,
+     7
+    ],
+    "cible": 392,
+    "solution": [
+     "8 × 6 = 48",
+     "48 + 7 = 55",
+     "55 + 3 = 58",
+     "58 − 9 = 49",
+     "49 × 8 = 392"
+    ]
+   }
+  },
+  "quiz": [],
+  "solutions_hier": {
+   "sudoku": [
+    7,
+    1,
+    3,
+    5,
+    8,
+    6,
+    4,
+    9,
+    2,
+    5,
+    2,
+    6,
+    1,
+    4,
+    9,
+    7,
+    8,
+    3,
+    9,
+    4,
+    8,
+    3,
+    7,
+    2,
+    6,
+    1,
+    5,
+    4,
+    8,
+    7,
+    2,
+    1,
+    5,
+    3,
+    6,
+    9,
+    1,
+    3,
+    9,
+    7,
+    6,
+    8,
+    2,
+    5,
+    4,
+    6,
+    5,
+    2,
+    4,
+    9,
+    3,
+    8,
+    7,
+    1,
+    2,
+    7,
+    1,
+    6,
+    5,
+    4,
+    9,
+    3,
+    8,
+    3,
+    9,
+    5,
+    8,
+    2,
+    7,
+    1,
+    4,
+    6,
+    8,
+    6,
+    4,
+    9,
+    3,
+    1,
+    5,
+    2,
+    7
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      3,
+      2
+     ],
+     [
+      0,
+      2,
+      10,
+      1
+     ],
+     [
+      0,
+      3,
+      2,
+      6
+     ],
+     [
+      0,
+      9,
+      8,
+      1
+     ],
+     [
+      2,
+      3,
+      6,
+      1
+     ],
+     [
+      2,
+      4,
+      6,
+      2
+     ],
+     [
+      2,
+      6,
+      2,
+      3
+     ],
+     [
+      3,
+      0,
+      6,
+      2
+     ],
+     [
+      4,
+      6,
+      2,
+      1
+     ],
+     [
+      4,
+      7,
+      5,
+      1
+     ],
+     [
+      4,
+      8,
+      3,
+      1
+     ],
+     [
+      6,
+      6,
+      3,
+      1
+     ],
+     [
+      7,
+      8,
+      2,
+      1
+     ],
+     [
+      8,
+      3,
+      2,
+      3
+     ],
+     [
+      8,
+      9,
+      2,
+      1
+     ],
+     [
+      9,
+      0,
+      1,
+      2
+     ],
+     [
+      9,
+      6,
+      1,
+      2
+     ],
+     [
+      9,
+      8,
+      1,
+      1
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     6,
+     1,
+     2,
+     3,
+     5,
+     4
+    ],
+    [
+     5,
+     3,
+     1,
+     4,
+     2,
+     6
+    ],
+    [
+     3,
+     5,
+     6,
+     2,
+     4,
+     1
+    ],
+    [
+     2,
+     4,
+     3,
+     6,
+     1,
+     5
+    ],
+    [
+     1,
+     6,
+     4,
+     5,
+     3,
+     2
+    ],
+    [
+     4,
+     2,
+     5,
+     1,
+     6,
+     3
+    ]
+   ],
+   "compte": [
+    "75 − 10 = 65",
+    "65 × 1 = 65",
+    "65 × 6 = 390",
+    "390 − 100 = 290",
+    "290 + 7 = 297"
+   ],
+   "quiz": []
+  },
+  "avertissements": [
+   "Flux indisponibles : EDPB, ESA"
+  ],
+  "indisponibles": [],
+  "non_rediges": {}
+ },
+ "memoire": {
+  "date": "2026-11-11",
+  "nouveaux_mots": [
+   {
+    "mot": "Plausible",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui peut être admis comme vrai ou possible ; vraisemblable.",
+    "exemple": "Une explication plausible, mais non démontrée."
+   },
+   {
+    "mot": "Indulgent",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Porté à excuser les fautes, à pardonner.",
+    "exemple": "Le jury s'est montré indulgent."
+   },
+   {
+    "mot": "Sinécure",
+    "nature": "n. f.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Emploi rémunéré qui demande peu ou pas de travail.",
+    "exemple": "Ce poste n'a rien d'une sinécure."
+   },
+   {
+    "mot": "Dation en paiement",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "pro",
+    "definition": "Remise d'un bien, avec l'accord du créancier, en paiement d'une dette à la place de la somme due.",
+    "exemple": "L'héritier a réglé les droits par dation en paiement d'un tableau."
+   },
+   {
+    "mot": "Lustral",
+    "nature": "adj.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Qui sert à purifier, notamment par l'eau dans les rites.",
+    "exemple": "L'eau lustrale du baptistère."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Solvabilité",
+    "definition": "Capacité d'une personne ou d'une entreprise à honorer ses dettes."
+   },
+   {
+    "mot": "Sycophante",
+    "definition": "Délateur, dénonciateur ; par extension, flatteur hypocrite."
+   },
+   {
+    "mot": "Placide",
+    "definition": "Calme, paisible, que rien ne semble troubler."
+   },
+   {
+    "mot": "Prébende",
+    "definition": "Revenu attaché à une charge ; par extension, avantage lucratif obtenu sans grand effort."
+   },
+   {
+    "mot": "Jurisprudence",
+    "definition": "Ensemble des décisions de justice qui font référence."
+   }
+  ],
+  "articles": [
+   "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+   "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
+   "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
+   "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
+   "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+   "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+   "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+   "https://www.publicsenat.fr/actualites/politique/teddy-riner-candidat-operation-teleguidee-par-lelysee-ou-revelateur-dune-crise-politique-profonde",
+   "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/qu-est-ce-que-shahid-kaveh-le-groupe-cyber-iranien-accuse-d-avoir-attaque-les-frigos-de-supermarches-en-france_8276177.html#xtor=RSS-3-[lestitres]",
+   "https://www.lemonde.fr/vie-au-travail/article/2026/11/10/le-harcelement-sexuel-d-ambiance-au-travail-une-nouvelle-notion-qui-incite-les-entreprises-a-reagir_6808872_6768900.html",
+   "https://www.lemonde.fr/videos/video/2026/11/10/ce-que-l-on-sait-de-l-affaire-michel-zecler_6808867_1669088.html",
+   "https://www.lemonde.fr/campus/article/2026/11/10/mobilisation-etudiante-la-tension-monte-d-un-cran-entre-bloqueurs-et-presidents-d-universite_6808900_4401467.html",
+   "https://www.npr.org/2026/11/10/nx-s1-6034950/2026-11-10-nx-s1-6034950-supreme-court-seems-divided-over-federal-agencies-ability-to-fine-for-law-violations",
+   "https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "https://www.politico.eu/article/poland-says-pentagon-backs-permanent-us-base-with-trump-decision-due-in-december/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "https://www.scmp.com/news/china/diplomacy/article/3373969/xi-and-trump-set-apec-talks-major-deliverables-expected-wait-g20",
+   "https://www.nber.org/papers/w35991#fromrss",
+   "https://www.federalreserve.gov/econres/feds/costly-misdemeanours-labour-market-effects-of-low-level-drink-driving-violations.htm",
+   "https://www.nber.org/papers/w35988#fromrss",
+   "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005285",
+   "https://verfassungsblog.de/verteidigungsbegriff-auslegung-drohnenabwehr/",
+   "https://verfassungsblog.de/iran-us-torture-tvpa/",
+   "https://www.jns.org/news/world/france-to-summon-iranian-envoy-seek-eu-sanctions-over-cyberattack",
+   "https://www.valuewalk.com/ofac-prince-group-45-targets-scam-compounds/",
+   "https://www.amlintelligence.com/2026/11/exclusive-eu-deadlock-on-amla-fee-method-puts-agency-funding-at-risk/",
+   "https://www.leaprate.com/regulation/ofac-sanctions-eight-canadian-money-services-businesses-over-iran-crypto/",
+   "https://theconversation.com/et-si-les-chauves-souris-etaient-apparues-en-europe-dans-des-forets-subtropicales-296087",
+   "https://www.quantamagazine.org/the-case-for-a-bubble-at-lifes-start-20261110/",
+   "https://www.sciencesetavenir.fr/sante/quand-les-tumeurs-piratent-le-systeme-nerveux_195872?xtor=RSS-16",
+   "https://www.sciencesetavenir.fr/fondamental/mecanique-des-foules-l-oscillation-spontanee-a-partir-d-une-certaine-densite_196012?xtor=RSS-10",
+   "https://www.franceinfo.fr/replay-jt/france-2/13-heures/catapulte-humaine-ils-battent-deux-records-du-monde-propulses-a-la-verticale-de-0-a-180-km-h-en-deux-secondes_8276468.html#xtor=RSS-3-%5Bsports%5D",
+   "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
+  ],
+  "titres": [
+   "New York : la loi RAISE soumet les grands développeurs d'IA à un registre",
+   "Appel de Paris : huit pays et les labos d'IA s'engagent sur l'arrêt d'urgence",
+   "Anthropic lance sa tournée d'introduction en Bourse, à 1 020 Md$ de valorisation",
+   "Google ouvre Gemini 4 Carbon à tous, au moment où Fable 5.2 arrive",
+   "Teddy Riner candidat à la présidentielle : ballon d'essai ou signe de crise ?",
+   "Cyberattaque contre les frigos : la France accuse l'unité iranienne Shahid Kaveh",
+   "Cour suprême : les juges divisés sur le pouvoir d'amende des agences fédérales",
+   "Programmes « Graduation » contre la pauvreté : bilan de 49 études",
+   "Alcool au volant : une condamnation fait reculer l'emploi de 6 à 7 points",
+   "Cyberattaque contre les frigos des supermarchés : la France accuse l'Iran",
+   "Prince Group : 45 nouvelles sanctions américaines contre les arnaques",
+   "Les chauves-souris seraient nées en Europe, dans des forêts subtropicales",
+   "Origine de la vie : l'hypothèse d'une bulle avant la chimie"
+  ],
+  "solutions": {
+   "sudoku": [
+    6,
+    2,
+    4,
+    1,
+    7,
+    9,
+    8,
+    3,
+    5,
+    3,
+    7,
+    1,
+    8,
+    4,
+    5,
+    9,
+    2,
+    6,
+    8,
+    9,
+    5,
+    6,
+    3,
+    2,
+    1,
+    7,
+    4,
+    1,
+    4,
+    9,
+    5,
+    2,
+    8,
+    3,
+    6,
+    7,
+    5,
+    3,
+    6,
+    4,
+    9,
+    7,
+    2,
+    8,
+    1,
+    2,
+    8,
+    7,
+    3,
+    1,
+    6,
+    5,
+    4,
+    9,
+    9,
+    6,
+    3,
+    7,
+    8,
+    1,
+    4,
+    5,
+    2,
+    7,
+    1,
+    8,
+    2,
+    5,
+    4,
+    6,
+    9,
+    3,
+    4,
+    5,
+    2,
+    9,
+    6,
+    3,
+    7,
+    1,
+    8
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      5,
+      1
+     ],
+     [
+      0,
+      1,
+      1,
+      8
+     ],
+     [
+      0,
+      9,
+      10,
+      1
+     ],
+     [
+      1,
+      1,
+      4,
+      3
+     ],
+     [
+      1,
+      4,
+      4,
+      3
+     ],
+     [
+      1,
+      7,
+      5,
+      2
+     ],
+     [
+      5,
+      0,
+      2,
+      6
+     ],
+     [
+      5,
+      6,
+      3,
+      1
+     ],
+     [
+      6,
+      7,
+      4,
+      1
+     ],
+     [
+      6,
+      8,
+      3,
+      1
+     ],
+     [
+      7,
+      0,
+      1,
+      6
+     ],
+     [
+      8,
+      0,
+      2,
+      4
+     ],
+     [
+      8,
+      4,
+      2,
+      3
+     ],
+     [
+      9,
+      8,
+      1,
+      1
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     4,
+     5,
+     2,
+     1,
+     3,
+     6
+    ],
+    [
+     6,
+     2,
+     5,
+     3,
+     1,
+     4
+    ],
+    [
+     3,
+     4,
+     6,
+     5,
+     2,
+     1
+    ],
+    [
+     2,
+     3,
+     1,
+     4,
+     6,
+     5
+    ],
+    [
+     1,
+     6,
+     4,
+     2,
+     5,
+     3
+    ],
+    [
+     5,
+     1,
+     3,
+     6,
+     4,
+     2
+    ]
+   ],
+   "compte": [
+    "8 × 6 = 48",
+    "48 + 7 = 55",
+    "55 + 3 = 58",
+    "58 − 9 = 49",
+    "49 × 8 = 392"
+   ]
+  },
+  "reponses_quiz": []
+ },
+ "essai": false
+}
