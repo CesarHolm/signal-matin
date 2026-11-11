@@ -1,0 +1,64 @@
+{
+ "id": "syn-a44",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a44.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : franceinfo\nRubrique : France\nDate du flux : 10/11/2026\nAuteur : Luc Chagnon\nTitre d'origine : Qu'est-ce que Shahid Kaveh, le groupe cyber iranien accusé d'avoir attaqué les frigos de supermarchés en France ?\n\nARTICLE :\nQu'est-ce que Shahid Kaveh, le groupe cyber iranien accusé d'avoir attaqué les frigos de supermarchés en France ?\nLa France affirme que l'Iran est responsable de la cyberattaque qui a perturbé des centaines de magasins mi-octobre. L'unité Shahid Kaveh, rattachée aux Gardiens de la Révolution iraniens et habituée des attaques contre les appareils industriels connectés, est pointée du doigt.\nIl est responsable d'\"une attaque inédite par son ampleur et son niveau d’agressivité\", selon la diplomatie française. L'Iran est soupçonné d'être à l'origine de la cyberattaque qui a touché plusieurs centaines de frigos de supermarchés en France mi-octobre, provoquant des millions d'euros de pertes alimentaires, ont annoncé le ministère des Affaires étrangères français et le parquet de Paris, lundi 9 novembre.\nPlus précisément, c'est l'unité Shahid Kaveh qui est accusée d'avoir mené l'attaque, d'après le Centre de coordination des crises cyber (C4) français. Si ce groupe reste nimbé de mystère, il n'en est pas à son coup d'essai.\nUne \"menace persistante\" liée aux Gardiens de la Révolution iraniens\nShahid Kaveh est une unité cyber-offensive du Corps des Gardiens de la Révolution islamique iraniens (CGRI), l'armée idéologique chargée de la défense du régime. L'unité tire son nom de Mohammed Kaveh, un commandant du CGRI tué lors de la guerre Iran-Irak de 1986, d'après le programme de recherche en cybersécurité DomainTools Investigations. Le titre \"Shahid\" (également associé aux drones produits en Iran) signifie \"martyr\" en persan, et est généralement associé aux unités opérationnelles, \"à la fois en hommage aux commandants tombés au combat et comme une référence délibérée à la symbolique religieuse et nationaliste\", ajoute le site.\nShahid Kaveh \"mène des campagnes de ciblage d'équipements industriels à grande échelle à des fins de sabotage\", explique le C4, qui rassemble plusieurs entités françaises, dont la Direction générale de la sécurité intérieure, la Direction générale de la sécurité extérieure et l'Agence nationale de la sécurité des systèmes d'information. Cette entité cible \"principalement\" Israël et les Etats-Unis, mais aussi \"la France et d'autres pays européens\". Elle vise notamment des interfaces de contrôle utilisées dans des secteurs comme l'eau, l'énergie, l'agroalimentaire et la santé, décrit Mitre Att&ck, une base de connaissances largement utilisée en cybersécurité.\nShahid Kaveh est généralement considéré comme l'un des groupes les plus dangereux, les \"APT\" (pour \"advanced persistent threat\", \"menace persistante avancée\"). Ces groupes sont souvent soutenus par un Etat et mènent fréquemment des infiltrations de long terme dans des structures critiques, en restant cachés le plus longtemps possible, pour voler des informations ou déclencher des effets dévastateurs et servir des objectifs géopolitiques.\nUn groupe rompu aux attaques contre les équipements industriels\nComme de nombreux groupes de hackers liés à un Etat, Shahid Kaveh accumule les surnoms et les \"avatars numériques\" qui lui permettent de brouiller les pistes, et de \"revendiquer publiquement certaines des attaques\" à des fins de propagande, explique le C4. Parmi ces avatars, on retrouve les noms \"CyberAveng3rs\", \"Soldiers of Solomon\", \"Mr. Soul\" et \"Cyber Isnaad Front\", listent les renseignements français. Il y a aussi les surnoms \"Hydro Kitten\", \"Bauxite\", \"UNC5691\" et \"Storm-0784\", dont certains sont donnés par des entreprises de cybersécurité comme Microsoft et Palo Alto Networks. L'unité dispose même d'un \"organe de communication en ligne\", CyberbanNews, rapporte le C4.\nShahid Kaveh et ses avatars ne sont pas des nouveaux venus dans le paysage des cybermenaces. \"Depuis 2020, le groupe CyberAv3ngers a revendiqué la responsabilité de cyberattaques en Israël, bien que plusieurs de ces prétendues intrusions dans des infrastructures critiques israéliennes s'avèrent fausses\", pointait l'agence de cyberdéfense américaine (Cisa) fin 2024.\nAprès le début de la guerre entre Israël et le Hamas en octobre 2023, Shahid Kaveh a notamment ciblé l'Etat hébreu avec des attaques par rançongiciel contre des caméras de sécurité, d'après Microsoft. L'unité a revendiqué, via son avatar \"CyberAveng3rs\", une campagne menée en novembre 2023 \"ciblant la société israélienne Unitronics, qui produit des systèmes de contrôle industriel utilisés aux Etats-Unis et en Europe\", décrit le C4. Au moins 75 appareils avaient été compromis, dont 34 appartenant au réseau d'eau américain, détaille le Cisa.\nShahid Kaveh a également revendiqué \"une campagne de sabotage à grande échelle contre des intérêts israéliens et américains, touchant des équipements de contrôle industriel, dont des équipements frigorifiques israéliens, en mars et avril 2026\", d'après les renseignements français. Elle a été repérée en avril en train d'effectuer \"des actions massives de reconnaissance sur des systèmes de contrôle industriel Schneider Electric, notamment en France\". Enfin, en même temps que l'attaque sur les supermarchés français, le C4 dit avoir repéré \"le ciblage (…) de plusieurs équipements Schneider Electric appartenant à de petites installations hydroélectriques en France, avec des effets modérés\".\nLe parquet de Paris requiert des mandats d'arrêt internationaux\nAu sein de Shahid Kaveh, on trouve une sous-unité surnommée \"Intelligence Group 13\" par le programme de recherche en cybersécurité DomainTools Investigations. Le site la présente comme \"l'une des unités les plus dynamiques sur le plan opérationnel et les plus ancrées idéologiquement au sein de l'arsenal cybernétique\" des Gardiens de la Révolution, \"à la croisée du cyberespionnage tactique, du sabotage industriel et de la guerre psychologique\".\nSelon le C4, Shahid Kaveh est dirigée par deux personnes, \"Reza Salarvand et Mahdi Lashgarian\". Au-dessus d'eux figure Hamid Reza Lashgarian, le dirigeant du Centre électronique et cyber des Gardiens de la Révolution. D'après DomainTools Investigations, Reza Salarvand \"serait le chef tactique et le coordinateur sur le terrain\" de l'\"Intelligence Group 13\", servant \"notamment à gérer la sélection des cibles, à superviser les campagnes de cyberintrusion et à aligner les actions [du groupe] sur les objectifs stratégiques\" des Gardiens de la Révolution. Mahdi Lashgarian, neveu de Hamid Reza Lashgarian, dirige l'organe de propagande CyberbanNews, selon la même source.\nSi cette unité est accusée par la France, c'est parce que les enquêteurs expliquent avoir repéré \"un faisceau d'indices\" reliant l'attaque sur les frigos à l'Iran. \"Des traces d'utilisation du farsi [nom local du persan, langue majoritaire en Iran] ont été retrouvées dans l'infrastructure d'attaque\", et les hackers ont recouru à un outil de scan \"habituellement utilisé\" par l'unité, décrit entre autres le C4. Shahid Kaveh n'est pas accusé officiellement d'avoir mené les attaques qui ont touché des installations frigorifiques de supermarchés ailleurs en Europe, ni celle contre l'Etablissement français du sang début novembre, précise sur LinkedIn Vincent Strubel, directeur général de l'Anssi.\nLe parquet de Paris a annoncé l'ouverture d'une information judiciaire contre \"le chef\" de Shahid Kaveh, \"ses deux adjoints et contre toute autre personne qui serait identifiée\", selon un communiqué. Des \"mandats d'arrêt internationaux\" ont également été requis, ajoute le texte.\n\"Nous ne nous interdisons rien et nous prendrons toutes les mesures, y compris celles dont nous ne ferons pas état publiquement (…), que nous jugerons proportionnées et nécessaires pour dissuader toute nouvelle attaque et sanctionner les auteurs de cette agression inacceptable\", assène le ministre des Affaires étrangères français, Jean-Noël Barrot, sur franceinfo. L'Iran a fermement rejeté \"les accusations infondées\" de la France, dans un communiqué diffusé par le ministère des Affaires étrangères iranien mardi.\n- \n        \nvidéo: Enquête France TV Faux site écolo, photos générées par IA... Les dessous d'une opération d'ingérence iranienne en France\n- \n        \naudio Que retenir des discussions entre Ukrainiens et Russes ? Les informés de franceinfo du mardi 10 novembre 2026\n- L'Iran rejette \"les accusations infondées\" de la France concernant la cyberattaque contre les frigos de supermarchés\n- \n        \naudio Cyberattaques, propagande, manipulation de l'opinion... La France face à la multiplication des opérations iraniennes\n- Face à la cyberattaque en France attribuée à l'Iran, l'Union européenne se dit prête à une réponse \"rapide et unie\"",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

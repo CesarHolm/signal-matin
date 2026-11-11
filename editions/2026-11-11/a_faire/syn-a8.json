@@ -1,0 +1,64 @@
+{
+ "id": "syn-a8",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a8.json",
+ "limite_caracteres": 3087,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3087 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 10/11/2026\nAuteur : Maximilian Schreiner\nTitre d'origine : Anthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation\n\nARTICLE :\nAnthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation\nKey Points\n- Anthropic is preparing its Nasdaq IPO and aims to raise up to $90.4 billion through a combination of public shares and a private placement, targeting a valuation of $1.02 trillion.\n- In Q3, the Claude developer grew revenue 47 percent to nearly $17 billion and narrowed its net loss, though growth slowed compared to the prior quarter.\n- The IPO faces headwinds from nearly $900 billion in compute commitments with partners like Amazon and Google, along with growing investor skepticism toward AI spending.\nAnthropic is hitting the road to pitch investors on its IPO. Despite growing skepticism on Wall Street and massive infrastructure costs, the stock offering could raise up to $90.4 billion.\nAccording to a report from Reuters, AI company Anthropic plans to raise up to $64.4 billion through its public offering. Based on the share count listed in its prospectus, the OpenAI rival is targeting a valuation of up to $1.02 trillion. Details of the plan were briefly sent to investment banks on Monday evening before being pulled back.\nOn top of the public offering, Anthropic is locking in $26 billion through a separate private placement. Anchor investors include Google, Nvidia, AMD, Broadcom, Micron Technology, Microsoft, and TSMC. That brings the total share placement volume to as much as $90.4 billion.\nIn an official announcement, Anthropic says the public offering covers 825 million Class A common shares priced between $70 and $78 per share. Of those, 801,351,354 shares come directly from Anthropic, while existing shareholders are selling 23,648,646 shares. Anthropic won't see any proceeds from those secondary sales. The underwriting syndicate, led by Goldman Sachs and Morgan Stanley, also gets a 30-day option to buy an additional 123.75 million shares. The stock will trade on the Nasdaq under the ticker symbol \"ANT.\"\nAhead of the listing, potential backers had pushed for a lower valuation after a previously discussed $1.5 trillion figure was deemed too rich. A private funding round in May valued CEO Dario Amodei's company at $965 billion. Major existing investors include Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital. The world's largest IPO so far this year was Elon Musk's SpaceX, which raised $75 billion in June at a valuation of nearly $1.75 trillion.\nBillions in revenue, but data center costs are staggering\nIn Q3, Anthropic narrowed its net loss and grew revenue 47 percent quarter over quarter to $16.96 billion. Growth did slow compared to the prior quarter, though, when revenue jumped 144 percent. The company, founded in 2021 by former OpenAI researchers, credits strong demand for its Claude models, particularly in specialized industry solutions for healthcare, finance, and legal services.\nThat growth comes with a hefty price tag. According to the prospectus, Anthropic has committed to nearly $900 billion in compute capacity with partners like Amazon and Google. Some of that future infrastructure depends on financing outside the AI developer's control.\nThe repeatedly delayed IPO lands during a period of growing market skepticism. In today's high-interest-rate environment, investors are increasingly questioning the sustainability of the AI investment cycle, circular funding structures, and potential overcapacity in data centers. The Nasdaq posted its sharpest single-day drop in 19 months on Thursday after strong Democratic gains in the U.S. midterm elections fueled fears of tighter regulations on AI data center construction.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

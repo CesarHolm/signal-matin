@@ -1,0 +1,64 @@
+{
+ "id": "syn-a4",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a4.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 10/11/2026\nAuteur : Matthias Bastian\nTitre d'origine : Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet\n\nARTICLE :\nGemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet\nKey Points\n- Google has made Gemini 4 Carbon generally available after a two-week testing phase for paying developers and business customers.\n- Carbon complements Gemini 4 Argon and is built for demanding tasks such as multi-step coding, debugging, and scientific research, though it consumes more tokens than Argon.\n- Google previewed the \"/swarm\" feature in Antigravity, which turns a single prompt into a coordinated team of agents that split up complex tasks in real time.\nAbout two weeks ago, it looked as though Google would once again take the lead in AI models when it unveiled Gemini 4 Carbon. But the advertising and cloud giant took a bit too long to release it.\nNow, Carbon is already starting to feel a little less fresh. Anthropic just unveiled its new top model, Fable 5.2, which outperforms the new Gemini model in the Artificial Analysis test even at lower reasoning intensity. The model cycle is spinning particularly fast right now. Still, it's good to see that Carbon is now generally available after a two-week testing phase for selected security experts.\nGoogle says Carbon complements the previously released Gemini 4 Argon rather than replacing it. Argon is still the better choice for most software engineering and knowledge work tasks, according to Google, while Carbon is built for tasks that push the limits of model intelligence. That's a bit surprising, since both models have the same token price, but Carbon scores higher on benchmarks.\nGoogle lists complex multi-step coding and debugging along with open-ended scientific research among Carbon's strengths. But the model uses more tokens than Argon to reason more deeply on complex debugging or open-ended research and to run longer verification loops. So in practice, the total bill is likely higher compared to Argon despite the same token price.\nIn the Artificial Analysis test published two weeks ago, Carbon cost $7.76 per solved task, already calculated at the regular standard price of four dollars per million input tokens and 20 dollars per million output tokens. That makes Carbon cheaper than the older budget model Flash 3.8 while delivering better performance, which is no small feat. A Flash variant of Gemini 4 is likely to launch soon.\nIn the same test, Opus 5.5 Max comes in at $10.04, GPT-6 Astra Max at $6.25. Fable 5.2 at its maximum tier costs as much as $26.50. At the High tier, Fable 5.2 costs \"only\" about $9 per task but still sits two points ahead of Carbon in the overall index (62 vs. 60).\nDevelopers and business customers on paid tiers can access the model through the Gemini API in Google AI Studio, in Android Studio, or through Gemini for Business. The introductory price stays at two dollars per million input tokens and ten dollars per million output tokens.\nGoogle introduces agent swarms that turn a single prompt into a coordinated AI agent team\nAlongside the model launch, Google is previewing the \"/swarm\" feature in Google Antigravity, Google's counterpart to Claude Code. The new feature turns a single prompt into a coordinated team of agents whose work can be tracked in real time. Carbon takes on roles that need deep reasoning, such as architecture design, coordination, and auditing, while faster, lighter models run in parallel isolated workspaces and as adversarial verifiers.\nGoogle demonstrates the feature with a 3D game where users explore the Google campus in Mountain View as a pelican on a GBike, an interactive 3D reconstruction of the Eiffel Tower's construction based on historical photos, and a playable 18th-century fortepiano with seat-specific spatial acoustics.\nThe cost-benefit ratio of agent swarms like these is being debated across the industry. OpenAI and Anthropic have recently sounded cautious, and researchers are skeptical too. The main benefit seems to be greater speed through parallelization, but that's complex.\nCarbon keeps up with the new Fable 5.2 on some benchmarks but costs far less\nIn addition to the performance data already known from late October, Google cites new benchmark results. Carbon takes first place on the coding benchmark CursorBench 4.0, ahead of Fable 5.2, on Perplexity's WANDR, and on Zapier's AutomationBench, at less than half the per-task cost of the next-best model, Fable 5.2.\nFor analyzing dense documents with charts, blueprints, and tables, Google partnered with Artificial Analysis to launch the new Multimodal Knowledge Agent (MKA) benchmark. Carbon finishes second here, just behind Fable 5.2 and just ahead of Opus 5.5, but costs less than one-sixth of what the top performer does on average.\nGemini 4 Carbon finds real zero-day vulnerabilities in under two hours\nFrom the two-week early-access testing phase through the Fairwind Program, Google is sharing concrete real-world results for cyberdefense for the first time. As part of security firm Wiz's Scan for Good program, Carbon found real zero-day vulnerabilities while scanning two large SaaS providers in under two hours. Google's own cloud security team also used the model to write working proof-of-concept exploits for two known bugs in a popular open-source project.\nOnly then could the bugs be proven critically exploitable, comparable to the PHP2Shell vulnerability. In Google's autonomous security system Project Fortify, Carbon boosted the detection rate on open-source codebases by more than 25 percent over Argon.\nGoogle highlights cybersecurity capabilities as a particularly strong feature of Carbon. The model leads on the benchmarks SEC-bench Pro (finding vulnerabilities), ExploitGym (exploiting vulnerabilities), and CWE-bench v1 (patching vulnerabilities), according to Google, but that applies only to the version available through the Fairwind Program. Google doesn't share specific numbers.\nGoogle's Carbon is the first AI model to hit a zero percent success rate on a prompt injection test\nGoogle has also published a full safety report and the model card. On an internal honesty test with 375 tasks, Carbon passes 92 percent of tests (Argon: 70 percent) and refuses to fabricate missing experimental data in 98 percent of cases.\nIn simulated cyberattacks, the model blocked 99 percent of attack paths from adaptive red-teaming agents and cut the breakthrough rate per attempt from 3.1 percent with Argon to 0.8 percent. External testers from Trajectory Labs didn't find a single universal jailbreak in 132 hours and over 13,000 queries.\nOn the Gray Swan IPI benchmark, Carbon achieved a prompt injection success rate of zero percent, Google says, meaning it wasn't cracked even once. Google says this is the first time any model has reached that milestone. That doesn't mean prompt injections are solved; the test may just be saturated. It's still progress, especially since some competitors are still more vulnerable here.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

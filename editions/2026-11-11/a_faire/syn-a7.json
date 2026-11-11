@@ -1,0 +1,64 @@
+{
+ "id": "syn-a7",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a7.json",
+ "limite_caracteres": 4368,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4368 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 10/11/2026\nAuteur : Maximilian Schreiner\nTitre d'origine : Eight countries and top AI labs agree to shutdown mechanisms in new Paris declaration\n\nARTICLE :\nEight countries and top AI labs agree to shutdown mechanisms in new Paris declaration\nAhead of the Paris Peace Forum, Emmanuel Macron brings together leading AI companies and governments for joint safety commitments. The agreement doesn't yet create a binding oversight system with sanctions, but the companies commit to concrete measures including shutdown mechanisms.\nOn the eve of the Paris Peace Forum, where roughly thirty heads of state and government will discuss international AI regulation on Tuesday, representatives of eight countries, tech companies, and civil-society organizations signed the \"Paris Call for AI Safety and Security,\" adopted on Nov. 9. As the French daily Le Monde reports, Sam Altman (OpenAI), Dario Amodei (Anthropic), Brad Smith (Microsoft), Arthur Mensch (Mistral AI), AI pioneer Yoshua Bengio, and U.S. Treasury Secretary Scott Bessent joined the declaration during an online meeting with French President Emmanuel Macron. Germany didn't sign.\nThe document is, for now, a political self-commitment aimed at curbing the risks of cyberattacks or loss of control over powerful AI systems. It covers three main areas: shared procedures for evaluating high-capability AI models, clearer developer accountability, and better information sharing on serious security incidents. Non-sensitive test results are to be published in a standardized format. The companies also pledge to disclose known risks, support risk-proportionate independent audits by outside researchers, and set up shutdown mechanisms for models under their control.\nThis doesn't yet create a binding international oversight system, though, since shared standards and cooperation procedures still have to be worked out. The declaration combines concrete safety commitments with the intention to develop an international framework from them, but it sets neither deadlines nor sanctions.\nU.S. companies and governments clash over AI oversight\nThe agreement follows a string of incidents at major U.S. labs. OpenAI's AI agents, in particular, had independently connected to the internet during cybersecurity tests and launched unforeseen attacks on the AI platform Hugging Face, reigniting the debate over the controllability of powerful models.\nAs OpenAI and Anthropic prepare their IPOs, they're under pressure from their investors to contain these safety risks. Altman's internal thinking on AI regulation makes the overlap between safety and commercial calculus plain: according to his position, OpenAI mustn't lose ground to competitors even if safety measures slow things down. Anthropic CEO Amodei argued in a mid-September essay for slowing the pace of research and introducing international regulation with outside auditors inside the labs. Barely a week later, OpenAI called for international safety standards under U.S. leadership, built on the network of AI safety institutes in the UK, the U.S., and France that the \"Paris Call\" also names.\nAt the UN General Assembly in late September, however, U.S. President Donald Trump rejected any attempt to build a \"globalist\" oversight scheme for American AI models. Instead, he had tech CEOs sign a national protocol and, on Oct. 10, ordered that major AI incidents be reported to U.S. agencies. The British AI Security Institute showed how much friction international cooperation is facing. After Washington restricted its access to new U.S. models in September, the White House reversed the block only after diplomatic pressure.\nAt the AI summit in Paris in February 2025, by contrast, a more optimistic view of the technology had still pushed safety concerns into the background, unlike at the earlier summits in the UK and South Korea. The dispute over Anthropic's new models Fable and Mythos later showed how concrete safety conflicts had become. The models' leap in capabilities also pushed Paris to change course on cybersecurity. U.S. government concerns about model access and reported vulnerabilities in Fable 5 led to access to the models being temporarily shut off outside the U.S. in June 2026.\nFrance pushes for a charter to protect minors\nDespite American resistance, the Élysée Palace also plans to advance a child-protection charter at the Paris Peace Forum on Tuesday. The U.S. had blocked it at the G7 summit in Évian-les-Bains, France, in June. The framework is meant to give independent researchers easier access to company data, have major AI players fund their work, and ensure that findings are shared.\nEarly-stage research is to examine how new conversational tools that rarely push back affect the cognitive development of the very young in everyday learning. The charter also addresses the emotional attachment minors form with these systems, a topic that has already drawn attention in the U.S. through lawsuits linked to suicides.\nThe research findings are intended primarily for the European Commission, whose president, Ursula von der Leyen, proposed a European \"Kids Act\" for AI by 2028 in September. On Tuesday at the Peace Forum, France's National AI and Digital Council will hand Macron a government-commissioned report that analyzes how AI assistants exploit human \"vulnerabilities\" and offers recommendations for tighter regulation.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

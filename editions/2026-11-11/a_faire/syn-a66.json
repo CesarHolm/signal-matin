@@ -1,0 +1,64 @@
+{
+ "id": "syn-a66",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a66.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : NPR\nRubrique : États-Unis\nDate du flux : 11/11/2026\nAuteur : Nina Totenberg\nTitre d'origine : Supreme Court seems split over federal agencies' ability to fine for law violations\n\nARTICLE :\nSOURCE 1 (NPR) :\nSupreme Court seems split over federal agencies' ability to fine for law violations\nAt the Supreme Court, the justices seemed divided on Tuesday in a case that could undermine the ability of many federal regulatory agencies to fine businesses that violate federal laws.\nFor decades, farmers have relied on a federal immigration program that allows them to temporarily employ migrant workers to pick crops.\nIn addition to wages, farm owners must provide basic necessities, such as housing, access to meals and water. The whole system is essentially policed by the Department of Labor to ensure that foreign workers don't undercut domestic laborers.\nIn that role, the department fined Sun Valley Orchards, based in New Jersey, a half-million dollars for unsanitary conditions, including providing unsafe drinking water, housing people in 20-bunk rooms, broken sinks and other violations, including failure to pay promised wages.\nSun Valley is disputing the charges and contends that the Department of Labor imposing monetary fines based on its administrative proceedings is unconstitutional. Sun Valley also says the process denies them the right to a jury trial when and if they appeal to a federal court.\nAt the high court Tuesday, Chief Justice John Roberts strongly suggested that the Trump administration, and many administrations before it, have exceeded the power of the executive branch. In this case, potentially wading into the judicial branch's territory.\nAddressing Deputy Solicitor General Sarah Harris, who represented the Labor Department, Roberts said, \"It seems to me you're just trying to leverage … the broad authority [of the executive branch] beyond the justification for its application.\"\nJustice Sonia Sotomayor asked how disruptive it would be for the federal courts to enforce the law instead of the designated agency (in this case the Department of Labor).\nHarris responded succinctly, \"If the court were to say civil penalties always have to be in Article III courts, that's kind of the nuclear option.\"\nHarris added that such a ruling would disrupt programs as diverse as Medicare, Medicaid, the federal student loan program and more.\nThat prompted this question from Justice Elena Kagan: \"Why not just go to court always?\" Harris quickly responded, \"I think it would be catastrophic.\" She went on to explain that a system like that would inevitably result in massive under-enforcement of the law, given limited resources.\nLawyer Robert Johnson represented Sun Valley Orchards. \"To be sure,\" he said, \"the statute contemplates penalties, but it says nothing about where those penalties should be adjudicated.\"\nJohnson further contended that penalties should be imposed by the federal courts, not the administrative agencies that do most of that work under current law.\nTo that Justice Ketanji Brown Jackson replied, \"It seems like you're just sort of fighting the reality of … what Congress was trying to do … in ensuring that we don't have farm workers coming in and undercutting domestic workers.\"\nA more skeptical observation came from Justice Brett Kavanaugh: \"What you're proposing is really at war with clarity,\" he said, adding, \"I think that's not great systematically going forward.\"\nJustice Samuel Alito pointedly added, \"What you're outlining is sort of a hodge-podge opinion, and maybe sometimes courts write that sort of thing,\" to which Justice Kagan quickly chimed in with a chuckling crowd in the court, \"Not ever us!\"\nIn rebuttal, Deputy Solicitor General Harris was unusually candid. \"It would be a big deal for the government to lose, but an even bigger deal would be to have a mess,\" she said. She later added, \"A lot of other statutory regimes also would be on the cutting-room floor.\"\nAnd if that's the case, she said, the administration will have to go to Congress. Her voice rising, she added, \"Please tell us now ... if we need to get Legislative Affairs on it right now, because this will snowball.\"\n\nSOURCE 2 (NPR) :\nSupreme Court seems split over federal agencies' ability to fine for law violations\nAt the Supreme Court, the justices seemed divided on Tuesday in a case that could undermine the ability of many federal regulatory agencies to fine businesses that violate federal laws.\nFor decades, farmers have relied on a federal immigration program that allows them to temporarily employ migrant workers to pick crops.\nIn addition to wages, farm owners must provide basic necessities, such as housing, access to meals and water. The whole system is essentially policed by the Department of Labor to ensure that foreign workers don't undercut domestic laborers.\nIn that role, the department fined Sun Valley Orchards, based in New Jersey, a half-million dollars for unsanitary conditions, including providing unsafe drinking water, housing people in 20-bunk rooms, broken sinks and other violations, including failure to pay promised wages.\nSun Valley is disputing the charges and contends that the Department of Labor imposing monetary fines based on its administrative proceedings is unconstitutional. Sun Valley also says the process denies them the right to a jury trial when and if they appeal to a federal court.\nAt the high court Tuesday, Chief Justice John Roberts strongly suggested that the Trump administration, and many administrations before it, have exceeded the power of the executive branch. In this case, potentially wading into the judicial branch's territory.\nAddressing Deputy Solicitor General Sarah Harris, who represented the Labor Department, Roberts said, \"It seems to me you're just trying to leverage … the broad authority [of the executive branch] beyond the justification for its application.\"\nJustice Sonia Sotomayor asked how disruptive it would be for the federal courts to enforce the law instead of the designated agency (in this case the Department of Labor).\nHarris responded succinctly, \"If the court were to say civil penalties always have to be in Article III courts, that's kind of the nuclear option.\"\nHarris added that such a ruling would disrupt programs as diverse as Medicare, Medicaid, the federal student loan program and more.\nThat prompted this question from Justice Elena Kagan: \"Why not just go to court always?\" Harris quickly responded, \"I think it would be catastrophic.\" She went on to explain that a system like that would inevitably result in massive under-enforcement of the law, given limited resources.\nLawyer Robert Johnson represented Sun Valley Orchards. \"To be sure,\" he said, \"the statute contemplates penalties, but it says nothing about where those penalties should be adjudicated.\"\nJohnson further contended that penalties should be imposed by the federal courts, not the administrative agencies that do most of that work under current law.\nTo that Justice Ketanji Brown Jackson replied, \"It seems like you're just sort of fighting the reality of … what Congress was trying to do … in ensuring that we don't have farm workers coming in and undercutting domestic workers.\"\nA more skeptical observation came from Justice Brett Kavanaugh: \"What you're proposing is really at war with clarity,\" he said, adding, \"I think that's not great systematically going forward.\"\nJustice Samuel Alito pointedly added, \"What you're outlining is sort of a hodge-podge opinion, and maybe sometimes courts write that sort of thing,\" to which Justice Kagan quickly chimed in with a chuckling crowd in the court, \"Not ever us!\"\nIn rebuttal, Deputy Solicitor General Harris was unusually candid. \"It would be a big deal for the government to lose, but an even bigger deal would be to have a mess,\" she said. She later added, \"A lot of other statutory regimes also would be on the cutting-room floor.\"\nAnd if that's the case, she said, the administration will have to go to Congress. Her voice rising, she added, \"Please tell us now ... if we need to get Legislative Affairs on it right now, because this will snowball.\"",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

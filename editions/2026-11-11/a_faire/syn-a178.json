@@ -1,0 +1,64 @@
+{
+ "id": "syn-a178",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a178.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Conversation\nRubrique : Idées\nDate du flux : 10/11/2026\nAuteur : Neil J Gostling; Veronica Zamora-Gutierrez\nTitre d'origine : Et si les chauves-souris étaient apparues en Europe, dans des forêts subtropicales ?\n\nARTICLE :\nL’ESSENTIEL\n- Une étude internationale désigne l’Europe comme le berceau probable des chauves-souris, il y a plus de 56 millions d’années.\n- Les génomes de 103 espèces actuelles, croisés avec des fossiles, permettent de reconstituer la parenté et les déplacements de ces mammifères.\n- Un fossile découvert en France étaye l’hypothèse d’une origine ancienne du sonar, sans résoudre l’ordre d’apparition du vol et de l’écholocalisation.\nDepuis des décennies, les scientifiques débattent du lieu d’origine des chauves-souris. Une étude récemment publiée dans la revue Nature apporte de nouveaux éléments pour répondre à cette question. Ces travaux internationaux, qui combinent ADN et fossiles, désignent l’Europe comme leur berceau probable.\nJusqu’ici, la difficulté tenait à une différence avec les oiseaux, dont les nombreux fossiles retracent remarquablement la transition du dinosaure au « poulet » : les fossiles de chauves-souris que l’on découvre ressemblent déjà, de façon saisissante, à des « chauves-souris » presque entièrement formées.\nCe que l’on savait des premières chauves-souris\nLes chauves-souris sont les seuls mammifères capables de vol actif. Des reconstitutions antérieures situaient leur berceau aux États-Unis, en Afrique ou en Asie, les réponses variant selon les jeux de données et les modèles utilisés. Les plus anciens squelettes de chauves-souris connus, découverts dans le Wyoming, aux États-Unis, remontent à environ 52 millions d’années, au début de l’Éocène. Leurs doigts allongés, qui soutenaient les ailes, montrent que ces animaux pouvaient déjà voler.\nToutefois, le lieu où l’on trouve les plus anciens fossiles connus ne révèle pas nécessairement où un groupe est apparu au cours de l’évolution. Ces fossiles fournissent néanmoins des indices importants sur l’anatomie, les liens de parenté et la répartition des premières chauves-souris. Ce qui manque, c’est une succession de fossiles retraçant la transition entre des ancêtres incapables de voler et les premières chauves-souris volantes.\nLa plupart des chauves-souris utilisent l’écholocalisation, une forme de sonar qui consiste à émettre des sons puis à se servir des échos renvoyés pour s’orienter et trouver de la nourriture. Outre la question de leur lieu d’origine, les scientifiques débattent de la façon dont le vol et l’écholocalisation sont apparus au cours de l’évolution. Lequel est apparu en premier, ou sont-ils apparus ensemble ?\nUne étude de 2008 sur l’espèce fossile de chauve-souris Onychonycteris étayait l’hypothèse d’une apparition du vol en premier. Ses ailes indiquaient qu’elle pouvait voler, tandis que l’anatomie de ses oreilles suggérait qu’elle ne pratiquait pas l’écholocalisation. Toutefois, une étude de 2010, comparant l’anatomie d’Onychonycteris à celle de chauves-souris actuelles, a remis en cause cette interprétation.\nLe vol a permis aux chauves-souris d’atteindre de nouvelles régions, tandis que l’écholocalisation leur a donné un moyen de s’orienter et de trouver de la nourriture dans l’obscurité. Un fossile interprété comme celui d’une chauve-souris capable de voler mais dépourvue d’écholocalisation pourrait correspondre à différents scénarios évolutifs. Sa lignée pourrait s’être séparée des autres avant l’apparition de l’écholocalisation, ou ses ancêtres pourraient avoir possédé cette faculté puis l’avoir perdue.\nEn combinant les données sur l’anatomie des fossiles et l’ADN de chauves-souris actuelles, les chercheurs peuvent situer cet animal parmi les espèces qui lui sont apparentées et évaluer ces possibilités. Même un fossile présentant des indices de ces deux capacités ne suffirait pas, à lui seul, à établir laquelle est apparue en premier, ni si elles sont apparues ensemble.\nCette capacité à se disperser complique aussi la recherche du berceau des chauves-souris. Les plus anciens fossiles connus pourraient appartenir à des populations qui s’étaient déjà propagées vers d’autres régions. Les scientifiques doivent croiser l’arbre généalogique des chauves-souris avec les données indiquant quand et où vivaient ses différentes branches.\nCe que change la nouvelle étude\nL’étude récente marque une étape importante pour Bat1K, un projet international visant à produire des génomes de haute qualité pour toutes les espèces actuelles de chauves-souris. Un génome est l’ensemble des instructions génétiques d’un organisme. En comparant les génomes à la lumière des données fossiles, les chercheurs obtiennent bien davantage d’indices sur l’ascendance commune qu’avec des analyses fondées sur quelques gènes seulement, comme c’était le cas dans les travaux antérieurs.\nPour cette étude, les chercheurs ont analysé les génomes de 103 espèces de chauves-souris représentant les 21 familles actuelles. L’étude a aussi rassemblé des données anatomiques sur 65 espèces, dont 44 éteintes. Des scientifiques avaient déjà combiné des données moléculaires et fossiles. Ce qui distingue cette étude, c’est l’ampleur des données, la qualité des génomes et la recherche des raisons pour lesquelles différents segments d’ADN suggèrent parfois des liens de parenté différents entre groupes de chauves-souris.\nLa nouvelle analyse situe l’origine des chauves-souris en Europe, à la fin du Paléocène, une époque géologique, il y a plus de 56 millions d’années. Selon cette reconstitution, leurs descendants se sont propagés en Afrique, puis vers d’autres continents à mesure que les grands groupes de chauves-souris se diversifiaient. Cette conclusion repose sur une reconstitution des aires de répartition ancestrales à partir de l’arbre évolutif, des fossiles et de modèles qui prennent en compte les déplacements des continents et la dispersion des animaux. Dans cette analyse, de solides éléments étayaient l’hypothèse européenne.\nCette étude apporte aussi de nouveaux résultats sur l’origine de l’écholocalisation en établissant un lien entre les chauves-souris actuelles et Vielasia, une chauve-souris éteinte découverte en France. Un crâne fossile vieux de 50 millions d’années, décrit en 2023, présentait dans l’oreille interne des caractéristiques indiquant que cet animal pouvait utiliser une forme de sonar similaire à celle des chauves-souris actuelles pratiquant l’écholocalisation. La nouvelle étude situe Vielasia parmi les premiers groupes à s’être séparés, dans l’arbre évolutif, d’un ancêtre commun aux chauves-souris, ce qui renforce les indices d’une écholocalisation utilisant le larynx antérieure à la diversification des groupes actuels. Ces résultats étayent l’hypothèse d’une origine ancienne du sonar, sans résoudre la question de l’ordre précis d’apparition du vol et de l’écholocalisation.\nAujourd’hui, la diversité des chauves-souris est la plus grande sous les tropiques, mais l’Europe où elles seraient apparues était bien différente du continent que nous connaissons. À la fin du Paléocène, certaines régions d’Europe abritaient des forêts chaudes et subtropicales. Par périodes, des liaisons terrestres passant par le Groenland reliaient l’Europe à l’Amérique du Nord, permettant aux mammifères de circuler entre des régions aujourd’hui séparées par l’océan. Pour se représenter les débuts des chauves-souris, il faut imaginer ces forêts anciennes sur une carte où les voies de passage et les barrières étaient très différentes de celles d’aujourd’hui.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

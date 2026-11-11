@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a28\", \"source\": \"Le Monde\", \"titre\": \"Mobilisation étudiante : la tension monte d’un cran entre bloqueurs et présidents d’université\", \"resume\": \"Plusieurs milliers d’étudiants et de lycéens ont manifesté, mardi 10 novembre, alors que la mobilisation ne faiblit pas sur les campus. Les présidents d’établissement appellent à stopper les blocages et dénoncent l’« irresponsabilité de certains occupants ».\"}, {\"id\": \"a33\", \"source\": \"Le Monde\", \"titre\": \"Ce que l’on sait de l’affaire Michel Zecler\", \"resume\": \"Cette affaire de violences policières, devenue emblématique, est jugée depuis le lundi 9 novembre devant la cour criminelle de Paris. Trois policiers comparaissent pour des violences infligées au producteur de musique en 2020.\"}, {\"id\": \"a39\", \"source\": \"Le Monde\", \"titre\": \"Le « harcèlement sexuel d’ambiance » au travail, une nouvelle notion qui incite les entreprises à réagir\", \"resume\": \"Blagues graveleuses, réflexions sexistes, gestes obscènes, diffusion d’images pornographiques… De nombreux comportements observés dans l’entreprise peuvent être considérés comme du « harcèlement sexuel d’ambiance », sans que le plaignant ait été directement visé. Un récent arrêt de la Cour de cassation précise cette notion.\"}, {\"id\": \"a83\", \"source\": \"Politico Europe\", \"titre\": \"Ukraine and Russia discuss prisoner swap deal during ‘constructive’ talks\", \"resume\": \"Ukraine's Volodymyr Zelenskyy welcomed a positive day of direct negotiations with Russia in Abu Dhabi.\"}, {\"id\": \"a96\", \"source\": \"South China Morning Post\", \"titre\": \"Xi and Trump set for Apec talks, but major deliverables expected to wait for G20\", \"resume\": \"The presidents of the US and China are set to meet again at next week’s Apec summit, but observers expect few tangible bilateral deliverables to emerge from their talks. The face-to-face meeting between Donald Trump and Xi Jinping will be the third between the two leaders this year, following reciprocal state visits in May and September. They are also expected to meet at the Group of 20 summit in the United States in December. In each case, global markets will be watching closely to see how...\"}, {\"id\": \"a81\", \"source\": \"Politico Europe\", \"titre\": \"Poland says Pentagon backs permanent US base, with Trump decision due in December\", \"resume\": \"Warsaw is seeking a lasting American military commitment as NATO allies fear further U.S. troop withdrawals from Europe.\"}, {\"id\": \"a82\", \"source\": \"Politico Europe\", \"titre\": \"Brussels takes on the evils of online commerce\", \"resume\": \"The EU is proposing new rules that would fine companies that use manipulative online tactics like \\\"dynamic pricing\\\" and \\\"addictive design\\\" to lure consumers to buy and pay more.\"}, {\"id\": \"a161\", \"source\": \"AEF info\", \"titre\": \"La Finlande pourrait être le premier pays à transposer la CS3D sur le devoir de vigilance\", \"resume\": \"La Finlande pourrait être le premier pays à transposer la CS3D sur le devoir de vigilance AEF info\"}, {\"id\": \"a142\", \"source\": \"Pam Insight\", \"titre\": \"EPrivateClient - Switzerland adopts the EU’s latest Russian sanctions package\", \"resume\": \"EPrivateClient - Switzerland adopts the EU’s latest Russian sanctions package Pam Insight\"}, {\"id\": \"a168\", \"source\": \"Sciences et Avenir\", \"titre\": \"Quand les tumeurs piratent le système nerveux\", \"resume\": \"Longtemps considéré comme un simple voisin des tumeurs, le système nerveux apparaît aujourd’hui comme un acteur à part entière de leur développement. Une découverte qui ouvre de nouvelles perspectives thérapeutiques.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}
