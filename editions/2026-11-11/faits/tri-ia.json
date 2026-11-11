@@ -1,0 +1,16 @@
+{
+  "developpes": [
+    {"id": "a12", "score": 9, "raison": "Entrée en vigueur de la loi new-yorkaise sur la sécurité de l'IA : enregistrement, divulgation des pratiques de sécurité, signalement des incidents critiques, amendes. Vise OpenAI et Anthropic. Sujet central pour la conformité."},
+    {"id": "a7", "score": 8, "raison": "Déclaration de Paris pour la sécurité et la sûreté de l'IA, à l'initiative d'Emmanuel Macron : huit pays et OpenAI, Anthropic, Microsoft, Mistral AI. Engagements (arrêt d'urgence, audits, divulgation des risques) sans sanctions ni échéances."},
+    {"id": "a8", "score": 7, "raison": "Anthropic lance son introduction en Bourse (fourchette 70 à 78 $ par action, placement privé de 26 Md$). Regrouper avec a22 et a13. Attention : valorisation de 1,02 Md$ dans a8 contre 1,404 Md$ dans a22, à vérifier."},
+    {"id": "a4", "score": 7, "raison": "Gemini 4 Carbon disponible : premier dans plusieurs benchmarks, à moins de la moitié du coût par tâche ; aperçu de « /swarm » (équipes d'agents coordonnées). Regrouper avec a9 (même annonce Google DeepMind)."},
+    {"id": "a24", "score": 6, "raison": "Grok Build : 35 000 applications exposées à tout le monde, fuite d'informations confidentielles. Risque de sécurité concret pour les entreprises utilisatrices d'agents de code."},
+    {"id": "a2", "score": 6, "raison": "Claude s'étend avec tableurs, tableaux blancs et connecteurs interactifs (partenaires Adobe, Atlassian). Divergence : a17 annonce Claude Meetings comme lancé, a2 comme « bientôt » ; à vérifier."}
+  ],
+  "breves": [
+    {"id": "a10", "titre": "AlphaProof Code : trois millions de lignes de preuves pour vérifier Signal", "texte": "Des agents AlphaProof Code de Google DeepMind ont rédigé trois millions de lignes de preuves en Lean pour vérifier le cœur du chiffrement de Signal."},
+    {"id": "a16", "titre": "OpenAI déploie des profils d'entreprises dans ChatGPT", "texte": "ChatGPT veut devenir un moteur de découverte grand public. De nouvelles fonctions permettent aux entreprises de renseigner leur profil et de contribuer à ces recherches."},
+    {"id": "a26", "titre": "Gemini Robotics 2.5 et le test de sécurité « ASIMOV-jailbreak »", "texte": "DeepMind présente Gemini Robotics 2.5, un modèle de contrôle de robots deux fois plus réussi sur certaines tâches, ainsi qu'un banc d'essai ouvert de sécurité baptisé « ASIMOV-jailbreak »."},
+    {"id": "a19", "titre": "Google lance deux puces TPU spécialisées", "texte": "Ces nouvelles unités de traitement tensoriel élargissent l'offre de Google à l'entraînement confidentiel de modèles et à des besoins accrus en mémoire."}
+  ]
+}

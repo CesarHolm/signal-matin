@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a122", "score": 7, "raison": "Méta-analyse bayésienne de 49 études sur les programmes « Graduation » contre la pauvreté (NBER) : gains économiques et psychosociaux importants. Le chiffre de consommation mensuelle est tronqué dans le flux : à vérifier."},
+    {"id": "a115", "score": 6, "raison": "Conduite en état d'ivresse, même infraction mineure : l'emploi baisse de 6 à 7 points et le salaire mensuel d'environ 2 % (Réserve fédérale, documents de travail, différences de différences échelonnées)."},
+    {"id": "a121", "score": 6, "raison": "Retraités conseillés : environ deux tiers des portefeuilles restent en actions, 30 à 40 points de plus que les retraités non conseillés (NBER)."},
+    {"id": "a130", "score": 5, "raison": "Pacte européen sur la migration et l'asile : un seuil statistique Eurostat place certains demandeurs en procédure accélérée, avec des risques pour les réfugiés LGBTQI+ (Verfassungsblog). Réserve."}
+  ],
+  "breves": [
+    {"id": "a119", "titre": "Ratio de Sharpe maximal : les portefeuilles ridge restent en deçà", "texte": "Un estimateur direct du ratio de Sharpe maximal, sur de grands ensembles d'actifs, montre que les portefeuilles de Markowitz régularisés par ridge restent en deçà du maximum hors échantillon (NBER)."},
+    {"id": "a132", "titre": "Réadaptation psychosociale en santé mentale : clarifier les principes", "texte": "L'adoption inégale de la réadaptation psychosociale tient à des obstacles conceptuels, méthodologiques et organisationnels. Les auteurs plaident pour un socle de principes fondamentaux adaptable aux contextes (PLOS Medicine)."},
+    {"id": "a126", "titre": "Drones : la défense intérieure n'a pas besoin de militarisation", "texte": "Face aux drones au-dessus des aéroports allemands, l'auteur estime que le droit actuel suffit, à condition que police et Bundeswehr s'entraînent ensemble. Ni élargir la notion de défense ni modifier la Constitution ne seraient nécessaires (Verfassungsblog)."},
+    {"id": "a131", "titre": "Iran : la prescription n'a pas commencé à courir, selon une cour floridienne", "texte": "Trois Iraniens affirment avoir été torturés il y a plus de cinquante ans par la police secrète du Shah. Un tribunal fédéral américain a laissé leurs demandes suivre leur cours, la prescription n'ayant pas encore commencé (Verfassungsblog)."}
+  ]
+}

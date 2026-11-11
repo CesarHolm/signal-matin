@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a28", "score": 8, "raison": "Mobilisation du 10 novembre : tension entre bloqueurs et présidents d'université, enseignants dans la rue. Regrouper avec a41, a54 et a49 (même fait : mobilisation lycéenne et étudiante, agression d'une élue à Chelles)."},
+    {"id": "a52", "score": 8, "raison": "Candidature de Teddy Riner à la présidentielle 2027 : réactions politiques et soupçon d'opération de l'Élysée. Regrouper avec a56 (même fait)."},
+    {"id": "a44", "score": 7, "raison": "La France attribue à l'Iran la cyberattaque qui a perturbé des magasins mi-octobre (unité Shahid Kaveh). Regrouper avec a43 (opération d'ingérence iranienne) ; a59 (projet de loi cybersécurité) peut servir de mise en perspective."},
+    {"id": "a33", "score": 7, "raison": "Procès devant la cour criminelle de Paris de trois policiers accusés de violences sur Michel Zecler en 2020. Regrouper avec a40 (témoignage de la victime)."},
+    {"id": "a39", "score": 6, "raison": "Harcèlement sexuel d'ambiance : une notion précisée par la Cour de cassation, qui incite les entreprises à agir. Intérêt direct pour la conformité et la gestion des risques RH."}
+  ],
+  "breves": [
+    {"id": "a51", "titre": "Smic : Bardella critique la hausse annoncée par le gouvernement", "texte": "Le président du RN juge la hausse du smic « un sparadrap sur une plaie immense ». Il propose d'augmenter davantage de salariés, tout en exonérant de charges les entreprises."},
+    {"id": "a30", "titre": "Éric Zemmour confirme sa candidature à la présidentielle", "texte": "Sur TF1, mardi 10 novembre, le polémiste d'extrême droite a confirmé qu'il se présentera une deuxième fois à l'Élysée, malgré les soutiens qui lui préfèrent sa compagne, Sarah Knafo."},
+    {"id": "a36", "titre": "Michel Houellebecq mis en examen pour ses propos sur les musulmans", "texte": "Mis en examen pour des propos tenus en 2022 dans une revue, l'écrivain conteste le délit de complicité de provocation à la haine. Il dénonce « la judiciarisation croissante des débats intellectuels »."}
+  ]
+}

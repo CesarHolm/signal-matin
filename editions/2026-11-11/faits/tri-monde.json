@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a83", "score": 8, "raison": "Pourparlers directs russo-ukrainiens à Abou Dhabi : échange de prisonniers évoqué, Zelensky juge la journée « constructive ». Même fait que a79 (Kiev demande à être consulté sur le représentant européen) ; a34 et a47 relèvent du bloc France."},
+    {"id": "a96", "score": 7, "raison": "Rencontre Trump–Xi au sommet de l'APEC la semaine prochaine, peu de résultats concrets attendus avant le G20. Regrouper avec a89 (appel commercial États-Unis–Chine, engagements agricoles et exportations de terres rares)."},
+    {"id": "a81", "score": 7, "raison": "La Pologne affirme que le Pentagone soutient une base américaine permanente ; décision de Trump attendue en décembre, sur fond de craintes de retraits de troupes en Europe."},
+    {"id": "a82", "score": 6, "raison": "Bruxelles propose des amendes contre les pratiques commerciales manipulatrices (tarification dynamique, design addictif). Réserve : sujet réglementaire européen."},
+    {"id": "a66", "score": 6, "raison": "Cour suprême américaine : les juges semblent partagés sur le pouvoir des agences fédérales d'infliger des amendes pour violation de la loi. Réserve : enjeu juridique pour les entreprises."}
+  ],
+  "breves": [
+    {"id": "a105", "titre": "Espagne : hommage d'État aux 69 victimes de la collision ferroviaire", "texte": "Le roi et la reine d'Espagne ont rejoint les familles lors d'obsèques d'État pour les 69 victimes d'une collision de train meurtrière."},
+    {"id": "a102", "titre": "Trois hommes inculpés aux États-Unis pour un projet d'attaque au Royaume-Uni", "texte": "Le ministère américain de la Justice accuse trois hommes liés à l'Iran d'un projet d'attentat contre la base aérienne de Fairford, au Royaume-Uni, utilisée dans la guerre américaine contre l'Iran."},
+    {"id": "a73", "titre": "Indonésie : le vice-président propose sa démission", "texte": "Le vice-président indonésien propose de démissionner, sur fond de doutes sur son éligibilité et de fracture entre Prabowo et Widodo. Une enquête vise aussi des hauts policiers accusés d'avoir placé le président sous écoute."}
+  ]
+}

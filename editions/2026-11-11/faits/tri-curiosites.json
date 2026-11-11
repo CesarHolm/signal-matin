@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a178", "score": 8, "raison": "Étude internationale (génomes de 103 espèces, fossiles) : l'Europe serait le berceau probable des chauves-souris, il y a plus de 56 millions d'années. Sujet original et scientifiquement solide."},
+    {"id": "a168", "score": 7, "raison": "Recherche sur le rôle du système nerveux dans le développement des tumeurs, avec des pistes thérapeutiques. Importance pour le lecteur."},
+    {"id": "a165", "score": 7, "raison": "Théorie de la membrane lipidique (lipid-first) sur l'origine de la vie : pourquoi une bulle a pu rassembler la chimie. Science grand public de fond."},
+    {"id": "a185", "score": 6, "raison": "Deux études menées par des astrophysiciens de la NASA sur la détection d'exoplanètes par les ondes gravitationnelles de LISA. Regrouper éventuellement avec a183 (NASA) pour l'espace."}
+  ],
+  "breves": [
+    {"id": "a167", "titre": "Les foules denses se mettent à osciller spontanément", "texte": "À partir d'une certaine densité, les foules se mettent à osciller spontanément. Le physicien Denis Bartolo (ENS de Lyon) l'a démontré en étudiant les foules de la fête de Pampelune."},
+    {"id": "a198", "titre": "Catapulte humaine : deux records du monde à 180 km/h en deux secondes", "texte": "En Slovénie, deux sportifs spécialistes du saut en parachute à ailes volantes ont été propulsés à la verticale, de 0 à 180 km/h en deux secondes. Ils ont ainsi battu deux records du monde."},
+    {"id": "a183", "titre": "Voyager 1 atteindra une journée-lumière de la Terre le 18 novembre", "texte": "La sonde Voyager 1, lancée en 1977, sera à une journée-lumière de la Terre le mercredi 18 novembre, soit plus de 25,9 milliards de kilomètres. La NASA invite médias et public à suivre l'événement."},
+    {"id": "a171", "titre": "À Paris, certaines espèces de fourmis prospèrent dans les parcs", "texte": "Presque autant d'espèces de fourmis vivent dans les parcs parisiens que dans les forêts d'Île-de-France, mais ce ne sont pas les mêmes. Les espèces tolérant la chaleur semblent y prospérer davantage, selon The Conversation."}
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "resultats": [
+    {
+      "sport": "Tennis",
+      "affiche": "Noskova – Gauff",
+      "score": "6-3 6-3",
+      "competition": "Finales WTA (circuit WTA), groupe A, 2e journée",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/Linda-noskova-enchaine-un-deuxieme-succes-aux-finales-wta-contre-coco-gauff-et-se-qualifie-en-demi-finales/1742916#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Tennis",
+      "affiche": "Pegula – Kostyuk",
+      "score": "6-2 7-5",
+      "competition": "Finales WTA (circuit WTA), phase de groupes",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/Jessica-pegula-ouvre-son-compteur-dans-les-finales-wta-2026-en-s-imposant-contre-marta-kostyuk/1742902#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Football",
+      "affiche": "PSG – Bayern Munich",
+      "score": "1-2",
+      "competition": "Ligue des champions, 4e journée de la phase de ligue",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Football/Actualites/Apres-une-premiere-periode-manquee-le-psg-s-incline-a-domicile-face-au-bayern-munich-en-ligue-des-champions/1742905#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Paris FC – Real Madrid",
+      "score": "0-3",
+      "competition": "Ligue des champions féminine",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Football/Actualites/Battu-par-le-real-madrid-le-paris-fc-est-toujours-a-la-recherche-d-une-victoire-en-ligue-des-champions-feminines/1742870#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Para-rugby à XIII",
+      "affiche": "France – Irlande",
+      "score": "82-26",
+      "competition": "Coupe du monde de para-rugby à XIII (Australie), demi-finale",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Rugby-a-xiii/Actualites/Les-bleus-deroulent-contre-l-irlande-et-se-qualifient-en-finale-de-coupe-du-monde-de-para-rugby-a-xiii/1742688#at_medium=RSS_feeds"
+    }
+  ],
+  "a_suivre": [
+    {
+      "sport": "Tennis",
+      "affiche": "Sabalenka – Andreeva",
+      "competition": "Finales WTA (circuit WTA)",
+      "source": "RMC Sport",
+      "url": "https://rmcsport.bfmtv.com/pari-sportif/pronos-paris-rmc-le-pari-tennis-du-jour-du-11-novembre-wta-finals_AN-202611100426.html"
+    }
+  ]
+}

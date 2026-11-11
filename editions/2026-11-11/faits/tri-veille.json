@@ -1,0 +1,12 @@
+{
+  "developpes": [
+    {"id": "a161", "score": 8, "raison": "La Finlande pourrait être le premier pays à transposer la CS3D (devoir de vigilance). Évolution directe du thème CSRD et CSDDD. Exclure a160 (proposition britannique), déjà publiée récemment."},
+    {"id": "a144", "score": 7, "raison": "France : convocation de l'ambassadeur iranien et demande de sanctions européennes après la cyberattaque. Regrouper avec a141 et a145 (même fait)."},
+    {"id": "a142", "score": 6, "raison": "La Suisse adopte le dernier train de sanctions de l'UE contre la Russie. Évolution des sanctions, utile pour les contrôles de conformité."},
+    {"id": "a148", "score": 6, "raison": "L'OFAC élargit les sanctions visant Prince Group à un réseau mondial d'entreprises, avec 45 cibles supplémentaires et des montants évoqués en milliards. Regrouper avec a146 (même fait)."}
+  ],
+  "breves": [
+    {"id": "a154", "titre": "Blocage européen sur la méthode de financement de l'AMLA", "texte": "Une impasse au sein de l'UE sur la méthode de calcul des redevances met en danger le financement de l'Autorité européenne de lutte contre le blanchiment, selon AML Intelligence."},
+    {"id": "a147", "titre": "L'OFAC sanctionne huit sociétés canadiennes de transfert de fonds", "texte": "Le Trésor américain, via l'OFAC, sanctionne huit entreprises canadiennes de services monétaires, en lien avec des opérations en cryptomonnaies liées à l'Iran."}
+  ]
+}
