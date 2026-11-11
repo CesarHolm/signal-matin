@@ -1,0 +1,350 @@
+{
+ "date": "2026-11-11",
+ "nouveaux_mots": [
+  {
+   "mot": "Plausible",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui peut être admis comme vrai ou possible ; vraisemblable.",
+   "exemple": "Une explication plausible, mais non démontrée."
+  },
+  {
+   "mot": "Indulgent",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Porté à excuser les fautes, à pardonner.",
+   "exemple": "Le jury s'est montré indulgent."
+  },
+  {
+   "mot": "Sinécure",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Emploi rémunéré qui demande peu ou pas de travail.",
+   "exemple": "Ce poste n'a rien d'une sinécure."
+  },
+  {
+   "mot": "Dation en paiement",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Remise d'un bien, avec l'accord du créancier, en paiement d'une dette à la place de la somme due.",
+   "exemple": "L'héritier a réglé les droits par dation en paiement d'un tableau."
+  },
+  {
+   "mot": "Lustral",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Qui sert à purifier, notamment par l'eau dans les rites.",
+   "exemple": "L'eau lustrale du baptistère."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Solvabilité",
+   "definition": "Capacité d'une personne ou d'une entreprise à honorer ses dettes."
+  },
+  {
+   "mot": "Sycophante",
+   "definition": "Délateur, dénonciateur ; par extension, flatteur hypocrite."
+  },
+  {
+   "mot": "Placide",
+   "definition": "Calme, paisible, que rien ne semble troubler."
+  },
+  {
+   "mot": "Prébende",
+   "definition": "Revenu attaché à une charge ; par extension, avantage lucratif obtenu sans grand effort."
+  },
+  {
+   "mot": "Jurisprudence",
+   "definition": "Ensemble des décisions de justice qui font référence."
+  }
+ ],
+ "articles": [
+  "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+  "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
+  "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
+  "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
+  "https://deepmind.google/blog/introducing-alphaproof-code/",
+  "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+  "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+  "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+  "https://www.publicsenat.fr/actualites/politique/teddy-riner-candidat-operation-teleguidee-par-lelysee-ou-revelateur-dune-crise-politique-profonde",
+  "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/qu-est-ce-que-shahid-kaveh-le-groupe-cyber-iranien-accuse-d-avoir-attaque-les-frigos-de-supermarches-en-france_8276177.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/vie-au-travail/article/2026/11/10/le-harcelement-sexuel-d-ambiance-au-travail-une-nouvelle-notion-qui-incite-les-entreprises-a-reagir_6808872_6768900.html",
+  "https://www.lemonde.fr/videos/video/2026/11/10/ce-que-l-on-sait-de-l-affaire-michel-zecler_6808867_1669088.html",
+  "https://www.lemonde.fr/campus/article/2026/11/10/mobilisation-etudiante-la-tension-monte-d-un-cran-entre-bloqueurs-et-presidents-d-universite_6808900_4401467.html",
+  "https://www.npr.org/2026/11/10/nx-s1-6034950/2026-11-10-nx-s1-6034950-supreme-court-seems-divided-over-federal-agencies-ability-to-fine-for-law-violations",
+  "https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.politico.eu/article/poland-says-pentagon-backs-permanent-us-base-with-trump-decision-due-in-december/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.scmp.com/news/china/diplomacy/article/3373969/xi-and-trump-set-apec-talks-major-deliverables-expected-wait-g20",
+  "https://www.nber.org/papers/w35991#fromrss",
+  "https://www.federalreserve.gov/econres/feds/costly-misdemeanours-labour-market-effects-of-low-level-drink-driving-violations.htm",
+  "https://www.nber.org/papers/w35988#fromrss",
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005285",
+  "https://verfassungsblog.de/verteidigungsbegriff-auslegung-drohnenabwehr/",
+  "https://verfassungsblog.de/iran-us-torture-tvpa/",
+  "https://www.jns.org/news/world/france-to-summon-iranian-envoy-seek-eu-sanctions-over-cyberattack",
+  "https://www.valuewalk.com/ofac-prince-group-45-targets-scam-compounds/",
+  "https://www.amlintelligence.com/2026/11/exclusive-eu-deadlock-on-amla-fee-method-puts-agency-funding-at-risk/",
+  "https://www.leaprate.com/regulation/ofac-sanctions-eight-canadian-money-services-businesses-over-iran-crypto/",
+  "https://theconversation.com/et-si-les-chauves-souris-etaient-apparues-en-europe-dans-des-forets-subtropicales-296087",
+  "https://www.quantamagazine.org/the-case-for-a-bubble-at-lifes-start-20261110/",
+  "https://www.sciencesetavenir.fr/sante/quand-les-tumeurs-piratent-le-systeme-nerveux_195872?xtor=RSS-16",
+  "https://www.sciencesetavenir.fr/fondamental/mecanique-des-foules-l-oscillation-spontanee-a-partir-d-une-certaine-densite_196012?xtor=RSS-10",
+  "https://www.franceinfo.fr/replay-jt/france-2/13-heures/catapulte-humaine-ils-battent-deux-records-du-monde-propulses-a-la-verticale-de-0-a-180-km-h-en-deux-secondes_8276468.html#xtor=RSS-3-%5Bsports%5D",
+  "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/"
+ ],
+ "titres": [
+  "New York : la loi RAISE soumet les grands développeurs d'IA à un registre",
+  "Appel de Paris : huit pays et les labos d'IA s'engagent sur l'arrêt d'urgence",
+  "Anthropic lance sa tournée d'introduction en Bourse, à 1 020 Md$ de valorisation",
+  "Google ouvre Gemini 4 Carbon à tous, au moment où Fable 5.2 arrive",
+  "Teddy Riner candidat à la présidentielle : ballon d'essai ou signe de crise ?",
+  "Cyberattaque contre les frigos : la France accuse l'unité iranienne Shahid Kaveh",
+  "Cour suprême : les juges divisés sur le pouvoir d'amende des agences fédérales",
+  "Programmes « Graduation » contre la pauvreté : bilan de 49 études",
+  "Alcool au volant : une condamnation fait reculer l'emploi de 6 à 7 points",
+  "Cyberattaque contre les frigos des supermarchés : la France accuse l'Iran",
+  "Prince Group : 45 nouvelles sanctions américaines contre les arnaques",
+  "Les chauves-souris seraient nées en Europe, dans des forêts subtropicales",
+  "Origine de la vie : l'hypothèse d'une bulle avant la chimie"
+ ],
+ "solutions": {
+  "sudoku": [
+   6,
+   2,
+   4,
+   1,
+   7,
+   9,
+   8,
+   3,
+   5,
+   3,
+   7,
+   1,
+   8,
+   4,
+   5,
+   9,
+   2,
+   6,
+   8,
+   9,
+   5,
+   6,
+   3,
+   2,
+   1,
+   7,
+   4,
+   1,
+   4,
+   9,
+   5,
+   2,
+   8,
+   3,
+   6,
+   7,
+   5,
+   3,
+   6,
+   4,
+   9,
+   7,
+   2,
+   8,
+   1,
+   2,
+   8,
+   7,
+   3,
+   1,
+   6,
+   5,
+   4,
+   9,
+   9,
+   6,
+   3,
+   7,
+   8,
+   1,
+   4,
+   5,
+   2,
+   7,
+   1,
+   8,
+   2,
+   5,
+   4,
+   6,
+   9,
+   3,
+   4,
+   5,
+   2,
+   9,
+   6,
+   3,
+   7,
+   1,
+   8
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     5,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     8
+    ],
+    [
+     0,
+     9,
+     10,
+     1
+    ],
+    [
+     1,
+     1,
+     4,
+     3
+    ],
+    [
+     1,
+     4,
+     4,
+     3
+    ],
+    [
+     1,
+     7,
+     5,
+     2
+    ],
+    [
+     5,
+     0,
+     2,
+     6
+    ],
+    [
+     5,
+     6,
+     3,
+     1
+    ],
+    [
+     6,
+     7,
+     4,
+     1
+    ],
+    [
+     6,
+     8,
+     3,
+     1
+    ],
+    [
+     7,
+     0,
+     1,
+     6
+    ],
+    [
+     8,
+     0,
+     2,
+     4
+    ],
+    [
+     8,
+     4,
+     2,
+     3
+    ],
+    [
+     9,
+     8,
+     1,
+     1
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    4,
+    5,
+    2,
+    1,
+    3,
+    6
+   ],
+   [
+    6,
+    2,
+    5,
+    3,
+    1,
+    4
+   ],
+   [
+    3,
+    4,
+    6,
+    5,
+    2,
+    1
+   ],
+   [
+    2,
+    3,
+    1,
+    4,
+    6,
+    5
+   ],
+   [
+    1,
+    6,
+    4,
+    2,
+    5,
+    3
+   ],
+   [
+    5,
+    1,
+    3,
+    6,
+    4,
+    2
+   ]
+  ],
+  "compte": [
+   "8 × 6 = 48",
+   "48 + 7 = 55",
+   "55 + 3 = 58",
+   "58 − 9 = 49",
+   "49 × 8 = 392"
+  ]
+ },
+ "reponses_quiz": []
+}
