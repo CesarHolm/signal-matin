@@ -1,0 +1,29 @@
+{
+ "titre": "Programmes « Graduation » contre la pauvreté : bilan de 49 études",
+ "chapo": "Une méta-analyse bayésienne de 49 études, vingt ans après les premiers essais, mesure les effets et le rapport coût-efficacité des programmes de sortie de la pauvreté dits « Graduation ».",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Les programmes « Graduation » veulent aider des ménages pauvres à lancer ou développer des activités génératrices de revenu. Partant de l'idée que les freins du marché ne sont pas uniques, ils combinent soutien à la consommation, aide à l'épargne, formation, accompagnement et transfert d'actif ou de somme forfaitaire. Après un test de la conception initiale par BRAC au Bangladesh et sept adaptations dans d'autres pays, ces programmes, avec les approches d'inclusion économique, ont été repris par des ONG et des gouvernements dans 88 pays, auprès de plus de 70 millions de personnes. Les 41 publications issues d'évaluations aléatoires permettent désormais d'agréger les résultats et d'étudier la conception optimale. Les auteurs se distinguent de deux méta-analyses antérieures, qui portaient sur 17 essais (Kondylis et Loeser, 2021) ou 104 études (Leight et al., 2024), en se concentrant sur les programmes Graduation et en cherchant le rôle de chaque composante."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Les gains sont importants : la consommation mensuelle augmente de 38 dollars en parité de pouvoir d'achat (11 %) et le revenu de 28 dollars (15 %), avec aussi des progrès sur l'épargne, les actifs, la sécurité alimentaire, la santé mentale et l'autonomie des femmes. Les programmes à gros transferts (au moins 400 dollars en parité de pouvoir d'achat) ont des effets plus grands, mais pas plus grands par unité de coût ; de même, les programmes plus chers produisent davantage sans que le gain soit à la hauteur de la dépense, et les moins chers tendent à être plus rentables. Hors la taille du transfert, aucune composante ne ressort comme indispensable ou inutile. Les programmes mis en œuvre depuis 2016 font nettement mieux : le rapport bénéfices-coûts passe de 2,89 jusqu'en 2015 à 5,39. Ni le coût ni la conception d'ensemble n'expliquent cette hausse. La tendance est plate pour les transferts monétaires sans condition, mais à la hausse pour l'éducation financière."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Il s'agit d'une méta-analyse hiérarchique bayésienne de 49 enregistrements d'études, tirés de 41 publications et couvrant 40 randomisations distinctes, soit 81 variantes de traitement, menées dans 26 pays, dont environ un quart des études en contexte fragile ou postconflit. La recherche a livré 3 391 références, ramenées à 2 604 après suppression des doublons, puis à 306 pour examen détaillé. Chaque étude devait être un essai contrôlé randomisé mené dans un pays à revenu faible ou intermédiaire, avec au moins trois des cinq composantes. Les effets ont été extraits des estimations publiées, sans réestimation sur les microdonnées, pour 12 résultats. Sur les 68 bras de traitement, 48 fournissent un coût, de 102 à 3 090 dollars par ménage, avec une médiane de 445 dollars et une moyenne de 819."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Pour les auteurs, les programmes Graduation produisent des gains larges, économiques comme psychosociaux. L'amélioration après 2016 va à l'encontre de l'attente courante selon laquelle les effets s'érodent quand on passe de projets pilotes à une mise en œuvre élargie. Plusieurs programmes coûteux ont été conçus avant 2016, et l'adoption par les gouvernements, plus rapide à partir de cette date, s'accompagne de coûts plus bas quand ils s'appuient sur les systèmes nationaux de protection sociale. Les auteurs y voient surtout un gain de productivité par une meilleure efficacité opérationnelle, et formulent l'hypothèse d'un apprentissage continu du secteur et de sa communauté."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Les auteurs reconnaissent que la comparaison avec d'autres secteurs n'est pas déterminante, et que le mécanisme avancé reste une hypothèse. La qualité des données de coût varie beaucoup selon les articles. Pour l'emploi, ils retiennent seulement « tout travail déclaré », faute de mesures comparables. Pour la santé mentale, six des 18 études retenues mesurent un symptôme ou un stress plus étroit qu'un indice général."
+  }
+ ],
+ "synthese": "Les programmes Graduation améliorent nettement les conditions de vie, et ceux lancés depuis 2016 affichent un meilleur rapport bénéfices-coûts, sans que la hausse de coût ou la conception ne l'explique. Les auteurs l'attribuent, sous forme d'hypothèse, à une meilleure mise en œuvre.",
+ "republication": "",
+ "reference": "Samantha Carter (Livelihood Impact Fund), Edward Jee (Université de Chicago), Dean Karlan (Northwestern University et NBER), Patrick Premand (Banque mondiale), NBER Working Paper n° 35991, novembre 2026 ; document de travail non relu par des pairs."
+}

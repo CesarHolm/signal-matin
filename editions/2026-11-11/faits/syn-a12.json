@@ -1,0 +1,29 @@
+{
+ "titre": "New York : la loi RAISE soumet les grands développeurs d'IA à un registre",
+ "chapo": "L'État de New York a ouvert mardi le portail d'enregistrement de sa loi RAISE : OpenAI, Anthropic et les autres grands développeurs d'IA devront s'y inscrire avant le 1er janvier 2027.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Selon TechCrunch (source 1), l'État de New York s'apprête à appliquer l'une des lois américaines les plus importantes sur la sécurité de l'IA. Il a ouvert mardi un portail d'enregistrement auquel les grands développeurs d'IA de pointe, comme Anthropic et OpenAI, devront s'inscrire d'ici au 1er janvier 2027. La loi RAISE, texte de sécurité et de transparence, entre en vigueur au début de l'année. La gouverneure Kathy Hochul a aussi lancé mardi le New York Center for AI Responsibility and Research, installé à l'université d'État de Binghamton (SUNY). Ce centre évaluera de façon indépendante la sécurité et le fonctionnement des systèmes d'IA avancés et travaillera avec le bureau DIGIT pour examiner les cadres de sécurité des entreprises. Annoncé en janvier, il a été doté de 55 millions de dollars de dons et de capitaux."
+  },
+  {
+   "intertitre": "Les obligations et les sanctions",
+   "texte": "Sont visés les grands développeurs de pointe, c'est-à-dire ceux dont le chiffre d'affaires annuel dépasse 500 millions de dollars. Ils doivent publier des cadres de sécurité sur leur site, signaler les incidents de sécurité critiques sous 72 heures et diffuser des rapports publics de transparence sur leurs modèles. Le nouveau bureau DIGIT (Office of Digital Innovation, Governance, Integrity, and Trust) appliquera la loi et supervisera ces laboratoires. Les amendes peuvent atteindre 1 million de dollars pour une première infraction et 3 millions pour les suivantes. L'État peut aussi engager des poursuites contre les entreprises qui ne s'inscrivent pas sur le portail, mais un porte-parole n'a pas donné de précisions. Hochul y voit un modèle national de régulation de l'IA qui place les communautés au-dessus des entreprises."
+  },
+  {
+   "intertitre": "Le contexte",
+   "texte": "La loi RAISE n'est pas le seul texte new-yorkais. L'an dernier, l'État a commencé à appliquer une loi obligeant les exploitants d'IA de compagnie à rappeler régulièrement aux utilisateurs qu'ils parlent à un robot et à s'efforcer de détecter les idées suicidaires et l'automutilation. En octobre, Hochul a signé une loi distincte sur les chatbots et les mineurs, qui limite les interactions trompeusement humaines, les réponses manipulatrices ou complaisantes et l'encouragement de conduites comme le suicide ; elle s'applique à partir du 1er juin 2027. D'autres États ont adopté des textes proches : la loi SB 53 de Californie, en vigueur depuis janvier, impose cadres de sécurité publiés, protection des lanceurs d'alerte et signalement des incidents sous 15 jours ; la SB 315 de l'Illinois, applicable début 2027, y ajoute des audits indépendants de conformité."
+  },
+  {
+   "intertitre": "Ce que dit l'autre source",
+   "texte": "The Tech Buzz (source 2) traite du même sujet mais diverge sur plusieurs points. Il écrit que la loi entre en vigueur le jour même et fait de New York le premier État à appliquer une réglementation d'ensemble, alors que TechCrunch donne le 1er janvier 2027 et cite la loi californienne déjà en vigueur. Il affirme que le barème des amendes reste à l'étude, que le département des services financiers contrôlera la conformité et que la Californie a renoncé à une régulation complète, ce qui contredit les montants et le bureau DIGIT cités par TechCrunch. Il décrit des déclarations détaillées sur les modèles, les données d'entraînement et les procédures de réponse aux incidents, et un incident critique défini largement comme toute défaillance ou tout usage abusif causant un dommage important."
+  },
+  {
+   "intertitre": "Les points de vigilance",
+   "texte": "Selon The Tech Buzz, l'ampleur des moyens d'enquête n'est pas connue, et ni OpenAI ni Anthropic n'avaient commenté l'échéance. Le site juge aussi que le flou de la notion d'incident est voulu pour laisser de la marge aux régulateurs, et avance que des lobbyistes cherchent à obtenir une primauté du droit fédéral."
+  }
+ ],
+ "synthese": "New York ouvre son registre et prépare l'application, dès le 1er janvier 2027, d'une loi qui impose publication de cadres de sécurité, signalement sous 72 heures et amendes aux grands développeurs d'IA. Les deux sources s'accordent sur l'esprit du texte mais divergent sur la date, l'autorité de contrôle et les sanctions.",
+ "republication": "",
+ "sources_ecartees": []
+}

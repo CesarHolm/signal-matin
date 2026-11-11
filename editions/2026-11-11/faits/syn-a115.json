@@ -1,0 +1,29 @@
+{
+ "titre": "Alcool au volant : une condamnation fait reculer l'emploi de 6 à 7 points",
+ "chapo": "Une étude de la Réserve fédérale mesure, en Nouvelle-Zélande, ce que coûte sur le marché du travail une première condamnation pour alcool au volant, sans peine de prison.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Les auteurs partent d'un constat : la prison passe pour la conséquence la plus lourde d'un délit, mais de nombreuses infractions mineures coûtent aussi bien au-delà du tribunal. L'alcool au volant, infraction courante et souvent punie sans incarcération, laisse un casier judiciaire dont le poids se fait sentir surtout là où les employeurs vérifient les antécédents. Trois mécanismes sont évoqués : la stigmatisation à l'embauche, un moindre attachement au travail et, en sens inverse, des perspectives d'emploi dégradées qui favorisent l'alcool. L'infraction est fréquente : en croisant le recensement de 2023 et les dossiers du ministère de la Justice, les auteurs trouvent qu'au moins une condamnation touche 15,3 % des hommes et 5,8 % des femmes de 30 à 55 ans. Parmi eux, 25,1 % des hommes et 43,9 % des femmes n'en ont qu'une seule."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Après une première condamnation, l'emploi recule en moyenne de 6 à 7 points de pourcentage et le revenu mensuel de 90 dollars néo-zélandais, soit environ 2 % du niveau de départ. Ces effets durent au-delà des six mois habituels de suspension du permis, ce qui, selon les auteurs, rend peu probable une explication par les seules restrictions de conduite. Le recul tient surtout à une moindre entrée dans l'emploi plutôt qu'à des pertes d'emploi : l'effet principal passe par la baisse des embauches parmi les personnes sans emploi, même si l'introduction évoque aussi davantage de départs. Il est plus marqué là où les employeurs contrôlent le plus les antécédents : les embauches reculent de 4,8 points dans les secteurs à contrôle moyen ou élevé, contre 1,9 point dans les secteurs à contrôle faible. La baisse atteint 4,9 points dans les secteurs où l'on conduit peu, contre 1,9 point dans ceux où la conduite est centrale."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Les chercheurs relient les dossiers du ministère de la Justice, les données fiscales d'Inland Revenue et le recensement néo-zélandais de 2023. Ils exploitent la date de la première condamnation avec une méthode de différences de différences échelonnée : chaque personne condamnée est comparée, avant et après, à d'autres qui ne le seront que plus tard. Tous sont de futurs condamnés, ce qui évite de comparer contrevenants et non-contrevenants, dont les différences constantes pourraient fausser le résultat. Une seconde approche, par appariement exact, compare les condamnés à des personnes semblables sans condamnation sur la période, avec des résultats similaires. L'échantillon ne retient que des premières condamnations avec un taux d'alcool à l'haleine de 500 microgrammes par litre au plus, soit 15 % des contrevenants."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Les auteurs interprètent ces résultats par un modèle simple : pour l'employeur, la condamnation est un signal négatif sur la productivité ou la fiabilité. À l'embauche, il connaît mal le candidat et s'appuie beaucoup sur le casier ; une fois la personne en poste, il juge sa performance observée et le casier pèse moins. Le modèle prédit donc un recul de l'emploi par les embauches plutôt que par les départs, et des effets salariaux modestes. Les baisses d'emploi et de revenu sont plus fortes chez les personnes non européennes, et comparables entre hommes et femmes, avec des départs accrus chez ces dernières en plus de l'entrée réduite. Les auteurs jugent utile d'évaluer des voies sans condamnation pour les cas limites, un effacement plus souple des casiers et l'embauche sans accès initial au casier."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Les auteurs n'observent pas directement les pratiques de contrôle des antécédents : ils ont classé eux-mêmes chaque secteur dans une catégorie de probabilité de contrôle faible, moyenne ou élevée, d'après ses caractéristiques. Les écarts entre personnes européennes et non européennes ne sont pas statistiquement distinguables et restent donc seulement suggestifs. Les effets sur les salaires mêlent des effets de composition et un éventuel pouvoir de marché des employeurs : l'estimation de 2 % peut ainsi se lire comme une borne inférieure de la stigmatisation."
+  }
+ ],
+ "synthese": "Une première condamnation pour alcool au volant, même sans prison, ferait baisser l'emploi de 6 à 7 points, surtout parce qu'elle freine les embauches. Les auteurs y voient l'effet du casier sur le regard des employeurs, plus fort dans les secteurs qui le vérifient.",
+ "republication": "",
+ "reference": "Kabir Dasgupta (Réserve fédérale), Marco Francesconi (Université d'Essex), Jonathan James (Université de Bath), Linda Kirkpatrick (Université de Colombie-Britannique), Alexander Plum (Auckland University of Technology), Finance and Economics Discussion Series 2026-073, 29 octobre 2026 ; document de travail préliminaire de la Réserve fédérale, non relu par des pairs."
+}
