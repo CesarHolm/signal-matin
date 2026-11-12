@@ -1,0 +1,2825 @@
+{
+ "edition": {
+  "date": "2026-11-12",
+  "numero": 15,
+  "secours": false,
+  "numerique": true,
+  "meteo": null,
+  "nouveaux_mots": [
+   {
+    "mot": "Sibyllin",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Dont le sens est obscur, énigmatique.",
+    "exemple": "Un message sibyllin laissé sur le bureau."
+   },
+   {
+    "mot": "Résilience",
+    "nature": "n. f.",
+    "niveau": "facile",
+    "domaine": "pro",
+    "definition": "Capacité à résister à un choc et à s'en remettre.",
+    "exemple": "La résilience opérationnelle des banques (DORA)."
+   },
+   {
+    "mot": "Acrimonie",
+    "nature": "n. f.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Mauvaise humeur qui s'exprime avec aigreur.",
+    "exemple": "Il évoqua son ancien patron avec acrimonie."
+   },
+   {
+    "mot": "Rodomontade",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Vantardise, fanfaronnade.",
+    "exemple": "Des rodomontades avant le match."
+   },
+   {
+    "mot": "Byzantin",
+    "nature": "adj.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Se dit d'une discussion d'une subtilité excessive et oiseuse.",
+    "exemple": "Une querelle byzantine sur une virgule."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Jurisprudence"
+   },
+   {
+    "mot": "Enclin"
+   },
+   {
+    "mot": "Fat"
+   },
+   {
+    "mot": "Narquois"
+   },
+   {
+    "mot": "Pusillanime"
+   }
+  ],
+  "sport": {
+   "resultats": [
+    {
+     "sport": "Football",
+     "affiche": "Juventus – OL",
+     "score": "0-6",
+     "competition": "Ligue des champions féminine, phase de ligue (4e journée)",
+     "source": "RMC Sport",
+     "url": "https://rmcsport.bfmtv.com/football/feminin/ligue-des-champions/ligue-des-champions-feminine-l-ol-balaye-la-juve_AD-202611110832.html"
+    },
+    {
+     "sport": "Basket",
+     "affiche": "Paris Basketball – Fenerbahçe",
+     "score": "111-109 a.p.",
+     "competition": "Euroligue (coupe d'Europe des clubs)",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Basket/Actualites/Paris-fait-chuter-fenerbahce-en-euroligue-sur-un-panier-de-nadir-hifi-au-buzzer-de-la-prolongation/1743081#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Tennis",
+     "affiche": "Svitolina – Muchova",
+     "score": "3-6 6-2 6-2",
+     "competition": "Finales WTA (circuit WTA), phase de poules",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Tennis/Actualites/Malmenee-par-karolina-muchova-elina-svitolina-s-en-sort-et-se-relance-aux-finales-wta/1743084#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Voile",
+     "affiche": "Route du Rhum",
+     "score": "Alexia Barrier, 10 j 7 h 40 min (Ultim, première femme à finir à la barre)",
+     "competition": "Route du Rhum 2026, arrivées",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Voile/Actualites/Alexia-barrier-premiere-navigatrice-a-terminer-la-route-du-rhum-en-ultim/1743066#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Handball",
+     "affiche": "Saint-Amand – Metz",
+     "score": "23-37",
+     "competition": "Ligue Butagaz Énergie (championnat de France féminin), 9e journée",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Handball/Actualites/Metz-cartonne-a-saint-amand-brest-resiste-a-chambray-lors-de-la-9e-journee-de-ligue-butagaz-energie/1743069#at_medium=RSS_feeds"
+    }
+   ],
+   "a_suivre": [
+    {
+     "sport": "Football",
+     "affiche": "Italie – France",
+     "competition": "Ligue des nations, 5e journée",
+     "heure": "20 h 45",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401861151/france-italy"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Angleterre – Croatie",
+     "competition": "Ligue des nations",
+     "heure": "20 h 45",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401861150/croatia-england"
+    }
+   ],
+   "periode": [
+    "2026-11-11"
+   ]
+  },
+  "reponses_hier": [
+   {
+    "mot": "Solvabilité",
+    "definition": "Capacité d'une personne ou d'une entreprise à honorer ses dettes."
+   },
+   {
+    "mot": "Sycophante",
+    "definition": "Délateur, dénonciateur ; par extension, flatteur hypocrite."
+   },
+   {
+    "mot": "Placide",
+    "definition": "Calme, paisible, que rien ne semble troubler."
+   },
+   {
+    "mot": "Prébende",
+    "definition": "Revenu attaché à une charge ; par extension, avantage lucratif obtenu sans grand effort."
+   },
+   {
+    "mot": "Jurisprudence",
+    "definition": "Ensemble des décisions de justice qui font référence."
+   }
+  ],
+  "blocs": [
+   {
+    "id": "ia",
+    "titre": "IA",
+    "developpes": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-11",
+      "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+      "auteur": "Matthias Bastian",
+      "titre": "Anthropic affirme avoir porté Claude sur des puces AMD en trois jours",
+      "chapo": "Selon Anthropic, son modèle Mythos a écrit presque tout le code nécessaire, ce qui réduirait l'avantage logiciel CUDA de Nvidia ; ces chiffres n'ont pas été vérifiés de façon indépendante.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Anthropic affirme s'être affranchie de sa dépendance à Nvidia grâce à une stratégie multi-puces. Dans une présentation aux investisseurs, l'entreprise explique avoir porté Claude sur des processeurs graphiques AMD en trois jours seulement, presque sans intervention humaine. Selon Tom Brown, cofondateur et Chief Compute Officer, Anthropic entraîne et exploite désormais Claude sur les quatre grandes familles de puces. Elle traite les capacités de calcul de fournisseurs, d'architectures et de sites différents comme un seul ensemble interchangeable, et assure tirer plus de chaque dollar de calcul que tout autre laboratoire d'IA de pointe."
+       },
+       {
+        "intertitre": "Le contexte : CUDA",
+        "texte": "Le principal avantage concurrentiel de Nvidia tient à l'association du matériel et du logiciel, en particulier CUDA, l'écosystème logiciel qui enferme les développeurs dans ses puces. Adapter des modèles à une autre architecture demande tant d'efforts que beaucoup d'entreprises n'essaient même pas. Chaque puce exige son propre logiciel sur mesure et sa propre pile d'inférence, ce qui est coûteux et long. Anthropic dit avoir fait très tôt un « pari non conventionnel » sur le multi-puces, alors que l'industrie jugeait l'effort peu rentable, et être devenue « incroyablement bonne » à ce jeu."
+       },
+       {
+        "intertitre": "Trois jours au lieu de plusieurs mois",
+        "texte": "Jusqu'ici, la mise en route d'une nouvelle plateforme mobilisait des dizaines d'ingénieurs pendant des mois. Cette année, Anthropic a utilisé pour la première fois des GPU AMD et a confié le travail à son modèle de pointe, Mythos. Celui-ci aurait écrit ou porté lui-même près de 100 % des noyaux logiciels (kernels), en trois jours au lieu des six à douze mois habituels. Si ces chiffres sont exacts, le surcoût logiciel, longtemps considéré comme le plus solide atout de Nvidia, diminuerait fortement et les entreprises pourraient changer de fournisseur plus facilement, selon le prix ou la disponibilité."
+       },
+       {
+        "intertitre": "Ce que ça change",
+        "texte": "Dans un marché du calcul où l'offre est tendue, une approche multi-puces permet de viser le meilleur rapport performance-prix, quel que soit le fournisseur. Certaines puces conviennent mieux à l'entraînement, d'autres à l'inférence. Nvidia, dominant sur les puces d'IA, bénéficie d'une marge supérieure à 70 %, inhabituelle pour du matériel. Anthropic compte aussi sur des « multiplicateurs de calcul », des avancées de recherche qui tirent plus de performance de la même capacité, et construit ses propres centres de données via le programme « Anthropic Direct » pour réduire le coût total de possession."
+       },
+       {
+        "intertitre": "Les liens financiers et les réserves",
+        "texte": "Les chiffres proviennent de la présentation aux investisseurs et n'ont pas été vérifiés de façon indépendante. Nvidia et AMD ont tous deux des liens financiers profonds avec Anthropic. En novembre 2025, dans un accord de 45 milliards de dollars avec Microsoft, Nvidia s'est engagé à investir jusqu'à 10 milliards. Selon le document S-1/A déposé auprès de la SEC le 10 novembre 2026, Nvidia participe aussi à un placement privé conditionnel de 26 milliards. AMD a annoncé en juillet 2026 un investissement de jusqu'à 5 milliards ; Anthropic prévoit de déployer jusqu'à deux gigawatts de GPU AMD Instinct MI455X, dès le premier semestre 2027."
+       }
+      ],
+      "synthese": "Anthropic assure que l'IA elle-même peut abaisser la barrière logicielle de CUDA, puisqu'elle aurait porté Claude sur AMD en trois jours. Ces chiffres, issus d'une présentation aux investisseurs, restent à confirmer de façon indépendante.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a5"
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-11",
+      "url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+      "auteur": "Jonathan Kemper",
+      "titre": "Applications créées avec Grok : près de 95 % sont ouvertes à tous",
+      "chapo": "Selon la société de sécurité Claroc, plus de 35 000 applications conçues avec l'assistant Grok sont accessibles sans connexion, y compris avec des données sensibles.",
+      "sections": [
+       {
+        "intertitre": "Ce que révèle le rapport",
+        "texte": "Dans le mode « Build » de SpaceXSI (ex-xAI), l'utilisateur décrit une application dans une conversation et Grok en écrit le code. L'application ne devient publique que lorsque son créateur clique sur « Publish » : elle reçoit alors sa propre adresse sur grok.me. Claroc a vérifié 37 571 applications encore en ligne et constaté que 35 578 d'entre elles, soit 94,7 %, étaient ouvertes à toute personne disposant du lien. La plupart étaient des jeux, des pages de présentation ou des calculatrices, mais environ une sur dix contenait des éléments sensibles, des données d'entreprise ou des informations personnelles. Les chercheurs estiment que 650 à 800 applications renfermaient des données privées."
+       },
+       {
+        "intertitre": "Des données sensibles exposées",
+        "texte": "Parmi les cas confirmés figurent une fiche de service de réanimation avec les valeurs biologiques d'un patient, une liste de plus de 3 500 employés d'un groupe hospitalier et le planning d'une caserne de pompiers. Le code d'une application de feuilles de temps contenait 18 comptes avec leurs mots de passe en clair. Claroc a identifié 30 organisations touchées en dehors de SpaceXSI et de X, dont six entreprises du classement Fortune 500, et en taira les noms. Vingt-quatre applications provenaient de salariés de SpaceXSI et de X : un plan d'accueil confidentiel pour un nouveau membre de l'équipe commerciale entreprises, avec des adresses de systèmes internes et 19 canaux de discussion, une carte des territoires commerciaux listant 594 comptes stratégiques et des données de pipeline, huit propositions publicitaires pour X dont une, marquée confidentielle, visait une agence fédérale américaine, ainsi que des rapports de campagne indiquant les dépenses publicitaires."
+       },
+       {
+        "intertitre": "Un défaut dans les réglages et dans le code",
+        "texte": "Claroc met en cause le dialogue de publication : sur le compte payant utilisé pour les tests, l'option « Anyone with the link » était présélectionnée. Les adresses sont aussi faciles à trouver, puisque chaque application a son sous-domaine et que son nom apparaît dans les bases DNS passives commerciales dès la première visite. Deux applications de test de Claroc ont révélé un autre problème. Une application de liste de contacts s'est retrouvée avec une base de données sans authentification, où des visiteurs anonymes pouvaient ajouter des entrées. Pour un fichier clients d'équipe commerciale, Grok a ajouté de lui-même une connexion Google et X, mais son code inscrivait chaque utilisateur authentifié dans l'équipe avant de vérifier l'appartenance : un compte Google extérieur pouvait alors lire, modifier et supprimer des enregistrements. Claroc précise n'avoir mené d'essais d'écriture et de suppression que sur ses propres applications. Avec l'option « Only you », l'application de test bloquait l'accès extérieur ; ce n'est pas le réglage par défaut. Dans un test avec ChatGPT, l'application créée était par défaut réservée à son propriétaire."
+       },
+       {
+        "intertitre": "La réponse de SpaceXSI et les réserves",
+        "texte": "SpaceXSI a seulement répondu que les applications restent privées tant que leur créateur ne les partage pas, que la publication exige plusieurs étapes dont un avis juridique, et que les comptes des employés sont réglés par défaut sur « Only you ». Claroc rétorque que des clics supplémentaires ne servent à rien si « Anyone with the link » reste présélectionné à la dernière étape, et que les 24 applications d'employés ouvertes montrent le peu d'effet de ce réglage plus strict. La firme propose de faire de « Only you » le réglage par défaut, d'afficher qui aura accès avant publication, d'avertir lorsqu'une application a une base de données sans connexion, et d'utiliser des chemins difficiles à deviner sur un hôte partagé plutôt que des sous-domaines. SpaceXSI a retiré les 24 applications de ses employés, mais pas celles d'autres utilisateurs. Faute d'engagement à prévenir les propriétaires, Claroc les avertit directement. L'article rappelle que cette firme vend des solutions de sécurité pour applications créées par IA."
+       }
+      ],
+      "synthese": "Selon Claroc, un réglage de publication ouvert par défaut, des adresses faciles à repérer et un code d'accès défaillant exposent des milliers d'applications Grok, dont celles de SpaceXSI. D'autres fournisseurs rencontrent des problèmes comparables avec leurs fonctions de partage, comme Meta et Anthropic.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a8"
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-11",
+      "url": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+      "auteur": "Maximilian Schreiner",
+      "titre": "Des firmes américaines vendraient 500 M$ de données d'IA à la Chine",
+      "chapo": "Selon une enquête de ChinaTalk, au moins neuf entreprises américaines vendent à des laboratoires chinois des environnements d'apprentissage par renforcement, ce qui leur fait économiser du calcul.",
+      "sections": [
+       {
+        "intertitre": "Ce que révèle l'enquête",
+        "texte": "Des entreprises américaines comme Mercor, Surge AI, AfterQuery et Turing vendraient à des laboratoires d'IA chinois environ un demi-milliard de dollars de données d'entraînement, d'après une enquête de ChinaTalk. Une partie prend la forme d'environnements d'apprentissage par renforcement : des mondes simulés où les modèles s'entraînent à des tâches précises, comme le code, l'analyse financière ou le travail de bureau. Les auteurs ont identifié au moins neuf sociétés américaines vendant à des clients chinois. AfterQuery tirerait une part notable de son revenu annuel récurrent de ces clients ; ChinaTalk cite des informations de Forbes sur environ 100 millions de dollars, sans avoir pu les vérifier."
+       },
+       {
+        "intertitre": "Pourquoi les Chinois achètent",
+        "texte": "Les laboratoires chinois achètent délibérément les mêmes produits que ceux déjà vendus à Anthropic ou OpenAI : ils savent qu'ils fonctionnent et évitent ainsi un développement interne coûteux et des entraînements inutiles. Les puces chinoises souffrant de goulets d'étranglement de mémoire, ces économies sont d'autant plus précieuses. S'y ajoute la distillation : ces laboratoires utilisent des modèles américains comme GPT ou Claude en « enseignants » et réemploient leurs réponses comme exemples. Les deux leviers combinés leur permettent de réduire l'écart avec moins de calcul."
+       },
+       {
+        "intertitre": "Des circuits discrets, peu encadrés",
+        "texte": "Surge AI affirme sur son site que ses produits sont « conçus par les mêmes experts que ceux de notre travail pour les laboratoires de pointe ». Les accords passent aussi par des structures offshore : ByteDance dispose de bureaux d'achats à Singapour et à San Jose. Ces liens ont été mis au jour par des sources anonymes et par le manque de rigueur de sous-traitants, qui publient parfois les noms de clients sur LinkedIn ou dans leurs CV. Les contrôles à l'exportation s'appliquent à peine, ces environnements étant largement non réglementés."
+       },
+       {
+        "intertitre": "Risques et nuances",
+        "texte": "Les domaines à double usage posent un risque particulier : les environnements de code améliorent le développement logiciel mais peuvent aussi affûter des capacités cyberoffensives, et ceux de biologie pourraient améliorer la synthèse de gènes et des applications liées aux armes biologiques. Les auteurs demandent que le Bureau of Industry and Security soumette ces environnements aux contrôles existants. Ils jugent toutefois la situation non apocalyptique : en s'appuyant sur le travail américain, les laboratoires chinois restent en retard d'au moins quelques mois, et les environnements sensibles sont de plus en plus conçus en interne par les entreprises américaines."
+       }
+      ],
+      "synthese": "Les laboratoires chinois économisent du calcul en achetant les mêmes environnements d'entraînement que leurs concurrents américains, hors de tout contrôle. Les auteurs de l'enquête réclament des contrôles à l'exportation pour les domaines à double usage.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a6"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-11",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "auteur": "Theresa Loconsolo; Rebecca Bellan; Tim De Chant",
+      "id": "a17",
+      "titre": "Pourquoi le centre de données que vous redoutez pourrait ne jamais être construit",
+      "texte": "Le boom des centres de données se heurte à des obstacles concrets : opposition locale, délais d'autorisation et concurrence pour l'électricité. Avant même ces difficultés, beaucoup de projets annoncés pourraient ne jamais voir le jour, alors que des milliards de dollars sont investis dans l'infrastructure de l'IA."
+     },
+     {
+      "rubrique": "IA",
+      "source": "Ars Technica",
+      "date": "2026-11-11",
+      "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+      "auteur": "",
+      "id": "a28",
+      "titre": "Google DeepMind a vérifié mathématiquement des parties clés de Signal",
+      "texte": "Ce projet de quatre semaines laisse penser que l'IA pourrait rendre la vérification formelle bien plus pratique."
+     },
+     {
+      "rubrique": "IA",
+      "source": "Ars Technica",
+      "date": "2026-11-11",
+      "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+      "auteur": "",
+      "id": "a26",
+      "titre": "TSMC investira 1 milliard de dollars dans Anthropic et OpenAI",
+      "texte": "Un nouvel exemple du financement circulaire qui alimente l'essor de l'IA, au moment où le marché de l'IA vacille."
+     },
+     {
+      "rubrique": "IA",
+      "source": "Google DeepMind",
+      "date": "2026-11-11",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "auteur": "",
+      "id": "a11",
+      "titre": "AlphaGenome 2 : comment les cellules lisent l'ADN pour mieux comprendre les maladies",
+      "texte": "Le modèle prédit comment les séquences d'ADN et leurs variations influencent des types cellulaires humains et certaines maladies."
+     }
+    ]
+   },
+   {
+    "id": "france",
+    "titre": "Actualité France",
+    "developpes": [
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-11",
+      "url": "https://www.franceinfo.fr/politique/marine-le-pen/plus-de-cent-constitutionnalistes-critiquent-le-referendum-pour-changer-la-constitution-tel-que-propose-par-marine-le-pen_8278388.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "titre": "110 constitutionnalistes jugent irrégulier le référendum voulu par Le Pen",
+      "chapo": "Dans une tribune au Monde, 110 universitaires estiment que réviser la Constitution par référendum sans passer par le Parlement, comme le propose Marine Le Pen, est contraire au droit.",
+      "sections": [
+       {
+        "intertitre": "Le déclencheur",
+        "texte": "Cent dix universitaires spécialistes de droit constitutionnel ont publié une tribune dans Le Monde, mercredi 11 novembre. Ils y jugent irrégulière la proposition au cœur du programme du Rassemblement national : si Marine Le Pen accède à l'Élysée, réviser la Constitution par référendum en contournant le Parlement, afin d'appliquer sa politique migratoire. Libération précise que cette révision viserait aussi à mettre en place la préférence nationale. Les signataires écrivent : « Que la Constitution soit complexe à réviser ne donne pas le droit de s'en affranchir. » Ils rejoignent ainsi la position exprimée mi-octobre par le président du Conseil constitutionnel, Richard Ferrand. Selon franceinfo et l'AFP, il s'agit de la proposition phare du programme du RN, ce que confirme Libération."
+       },
+       {
+        "intertitre": "Articles 11 et 89",
+        "texte": "Leur argumentation repose sur la distinction entre deux articles de la Constitution. L'article 11 permet au président de la République de soumettre certains projets de loi au référendum. L'article 89 prévoit que toute révision constitutionnelle doit être votée en « termes identiques » par l'Assemblée nationale et le Sénat, avant d'être approuvée soit par référendum, soit par une majorité des trois cinquièmes du Parlement réuni en Congrès : l'article 89 prévoit donc deux modes d'approbation, mais un seul point de départ, le vote conforme des deux chambres. Pour les signataires, un chef de l'État ne peut donc pas consulter directement les Français pour modifier la Constitution sans l'accord préalable des deux assemblées."
+       },
+       {
+        "intertitre": "Le calcul politique",
+        "texte": "L'enjeu est concret. Le RN espère obtenir une majorité à l'Assemblée après une dissolution suivant la présidentielle, mais le Sénat restera dominé par une majorité de droite et du centre, qui pourrait s'opposer à une telle révision. D'où la volonté de Marine Le Pen de contourner l'article 89 par l'article 11, qui autorise les référendums « sur l'organisation des pouvoirs publics ». Autrement dit, la voie choisie éviterait un Sénat potentiellement hostile. Elle s'appuie sur le précédent de 1962, quand le général de Gaulle avait organisé un référendum sur l'élection du président de la République au suffrage universel."
+       },
+       {
+        "intertitre": "Le risque d'une censure",
+        "texte": "Les universitaires répondent que « le contexte juridique a considérablement évolué » depuis 1962. Selon eux, « l'état actuel du droit conduit à reconnaître la compétence du Conseil constitutionnel pour contrôler un décret du président de la République » convoquant un référendum. Ils laissent ainsi entendre que les Sages pourraient annuler la convocation d'une telle consultation. Ils ajoutent que « l'enjeu dépasse les orientations politiques » : ce qui serait admis aujourd'hui pour un président pourrait être invoqué demain par ses successeurs, y compris pour modifier profondément les prérogatives du Parlement ou les garanties d'indépendance des juridictions. Libération cite leur mise en garde : « C'est donc bien l'équilibre des pouvoirs […] qui se trouve en cause. »"
+       },
+       {
+        "intertitre": "Les réactions",
+        "texte": "Marine Le Pen affirme que la Constitution « n'est pas un contre-pouvoir au peuple » et que « si les Français décident de modifier leur Constitution, personne ne peut les en empêcher ». Libération rappelle que La France insoumise envisage aussi un référendum fondé sur l'article 11, non contre l'immigration, mais pour convoquer une Constituante et instaurer à terme une VIe République. Sa responsable du programme, la députée Clémence Guetté, estime que passer par l'article 89 se heurterait à l'obstruction d'un Sénat « très conservateur ». Elle ajoute que « des constitutionnalistes » lui disent qu'il y a « un chemin », et que le débat existe."
+       }
+      ],
+      "synthese": "Cent dix constitutionnalistes jugent qu'une révision constitutionnelle par référendum ne peut contourner l'article 89 et le vote des deux assemblées, et que le Conseil constitutionnel pourrait censurer la convocation du scrutin. Marine Le Pen répond que le peuple reste souverain pour modifier sa Constitution.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/politique/marine-le-pen/plus-de-cent-constitutionnalistes-critiquent-le-referendum-pour-changer-la-constitution-tel-que-propose-par-marine-le-pen_8278388.html"
+       },
+       {
+        "source": "Libération",
+        "url": "https://www.liberation.fr/politique/elections/un-referendum-pour-changer-la-constitution-110-constitutionnalistes-critiquent-le-projet-de-marine-le-pen-20261111_FKMMJMKVCNETHJZ2X7ADMX5Y4M/"
+       }
+      ],
+      "format": "long",
+      "id": "a46"
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-11",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/11/les-declarations-en-garde-a-vue-de-kevin-tessier-l-auteur-de-l-attentat-raciste-de-trappes-j-espere-que-je-deviendrai-un-exemple-pour-les-francais_6808986_3224.html",
+      "auteur": "",
+      "titre": "Attentat de Trappes : le tireur assume le caractère raciste de ses actes",
+      "chapo": "Kevin Tessier, 39 ans, a reconnu en garde à vue avoir choisi ses victimes selon leur origine ou leur religion ; il est mis en examen pour assassinat en lien avec une entreprise terroriste.",
+      "sections": [
+       {
+        "intertitre": "Des aveux après plusieurs jours de garde à vue",
+        "texte": "Selon Le Monde, la garde à vue de Kevin Tessier a duré quatre jours dans les locaux de la sous-direction antiterroriste (SDAT), avec un séjour en unité psychiatrique et des propos tantôt confus, tantôt provocateurs. Le 27 octobre au soir, il a admis pour la première fois la dimension raciste de son acte : « J'ai choisi les personnes sur lesquelles j'ai tiré en fonction de leur ethnie ou de leur religion. » BFM précise qu'il visait des personnes « type musulman ou africain », et ses déclarations, dont BFMTV et RMC ont eu connaissance, reprennent une propagande d'ultradroite : « la France est colonisée par les islamistes et Africains en tout genre ». Il juge ne pas avoir commis d'acte terroriste : « C'était pour libérer mon pays. » Selon Le Monde, il a aussi dit : « J'agis pour la France. » Le 29 octobre, il a été mis en examen pour « assassinat et tentatives d'assassinats en relation avec une entreprise terroriste », avec la circonstance aggravante de racisme, puis placé en détention provisoire."
+       },
+       {
+        "intertitre": "Le périple du 23 octobre",
+        "texte": "Le 23 octobre, entre Trappes et La Verrière (Yvelines), cet homme né à Saint-Cyr-l'École, inspecteur de conformité dans des stations-service, est soupçonné d'avoir tué Pengo Bossio Wangi, 26 ans, dont l'autopsie a révélé 21 impacts de balles, et d'avoir blessé sept personnes. Le Monde évoque vingt minutes et huit kilomètres de trajet, BFM douze kilomètres. Il a raconté son parcours froidement : parti de chez lui avec le projet de « tuer », il s'est d'abord rendu à la mosquée de Trappes, vide, puis son arme s'est enrayée à un arrêt de bus. Il a ensuite tiré sur une voiture, sur un homme noir qui marchait seul, puis à la station-service de Trappes, où il dit avoir tiré de près sur un homme blessé à terre, Ahmed Chihi, grièvement atteint et lourdement opéré. À La Verrière, il a rechargé son arme et, dans une cité, a couru vers une jeune femme noire voilée en lui lançant : « Vas-y, prie, ma belle », avant de lui tirer dessus."
+       },
+       {
+        "intertitre": "Victimes et bilan des tirs",
+        "texte": "Selon Le Monde, Samba Coulibaly est toujours hospitalisé dans le coma, pronostic vital engagé, tandis que l'état d'une fillette de 11 ans, visée par neuf tirs, s'est amélioré. BFM parle de Ramatou D., 12 ans, touchée de huit balles selon le tireur, qui affirme avoir cru qu'elle avait « au moins seize, dix-sept ans ». Les enquêteurs ont établi qu'il a tiré « a minima 128 cartouches », chiffre probablement minoré car le vent a pu faire disparaître des étuis ; BFM, qui parle d'un pistolet-mitrailleur Sten, évoque 128 tirs. Selon le procureur national antiterroriste, Olivier Christen, 23 autres personnes sont aussi victimes psychologiques."
+       },
+       {
+        "intertitre": "Idéologie et préméditation",
+        "texte": "Quatre heures après son arrestation, menotté dans un véhicule, il a murmuré : « J'espère que je deviendrai un exemple pour les Français, qu'ils se battront. » Il se dit « de droite », « croyant », et se sent le plus proche de « Macron », sans doute par ironie, note BFM. Une trentaine d'autocollants du Rassemblement national ont été retrouvés chez lui ; les enquêteurs n'ont pas établi, à ce stade, de lien avec des organisations ou groupuscules d'ultradroite. Confronté à des photos de lui lors d'actions propalestiniennes en 2017-2018, il dit avoir voulu « infiltrer les gauchistes », et il a dressé une liste de quatre personnalités de gauche, « ennemis de la France », selon BFMTV et RMC. Il dit penser à ce projet depuis des années et avait envisagé d'agir le 6 septembre 2027, jour de ses 40 ans ; il cite les émeutes de fin octobre 2026 et une agression probablement raciste commise trois jours plus tôt à Levallois-Perret, pour laquelle il était convoqué au commissariat le 23 octobre. Il a dit avoir acheté l'arme quelques mois plus tôt « pour [sa] propre sécurité et celle de [sa] famille », sans dire à qui, et avoir vendu son ordinateur le 21 octobre pour que les enquêteurs n'y accèdent pas. Ses avocats n'ont pas souhaité réagir, selon BFM."
+       }
+      ],
+      "synthese": "Le tireur de Trappes assume désormais le caractère raciste de ses actes sans exprimer de regret. Les enquêteurs n'ont pas établi, à ce stade, de lien avec des organisations d'ultradroite.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "BFM",
+        "url": "https://www.bfmtv.com/police-justice/info-bfmtv-rmc-j-espere-que-je-deviendrai-un-exemple-les-declarations-glacantes-de-kevin-tessier-apres-l-attentat-de-trappes_AV-202611110554.html"
+       }
+      ],
+      "format": "long",
+      "id": "a30"
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-11",
+      "url": "https://www.franceinfo.fr/faits-divers/police/violences-policieres/quatre-organisations-syndicales-de-journalistes-deposent-plainte-contre-x-apres-plusieurs-entraves-par-des-forces-de-l-ordre-lors-de-manifestations_8278373.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "titre": "Journalistes : quatre syndicats portent plainte contre X après des entraves",
+      "chapo": "Le SNJ, le SNJ-CGT, la CFDT-Journalistes et le SGJ-FO ont annoncé, le 11 novembre, une plainte contre X pour des violences et entraves attribuées à des membres des forces de l'ordre.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Quatre organisations syndicales de journalistes, le SNJ, le SNJ-CGT, la CFDT-Journalistes et le SGJ-FO, ont annoncé mercredi 11 novembre, dans un communiqué commun, le dépôt d'une plainte contre X. Cette démarche intervient après celle de sept journalistes devant le procureur de la République de Paris, qui souhaitaient « dénoncer les violences et entraves commises à leur encontre par des membres des forces de l'ordre dans l'exercice de leurs fonctions ». Plusieurs journalistes avaient ainsi porté plainte auparavant, notamment à Paris, pour dénoncer ces violences et entraves lors de la couverture de la mobilisation sociale. Les quatre organisations s'associent désormais à cette démarche judiciaire, en visant des auteurs non identifiés, ce qu'exprime la formule « contre X », et elles la présentent dans un texte signé en commun, sous la forme d'une intersyndicale."
+       },
+       {
+        "intertitre": "Le contexte : une mobilisation sociale en cours",
+        "texte": "Les faits dénoncés se seraient produits lors des différentes manifestations organisées dans le cadre de la mobilisation sociale qui se poursuit en France depuis plusieurs semaines. Dans ce contexte, l'intersyndicale réaffirme que « le travail des journalistes est plus que jamais indispensable » : il permet, selon elle, de documenter les événements, de rendre compte des revendications exprimées, mais aussi de témoigner du déroulement des opérations de maintien de l'ordre et de permettre aux citoyens d'être pleinement informés."
+       },
+       {
+        "intertitre": "Ce que dénoncent les syndicats",
+        "texte": "Les syndicats relèvent que, « alors même que leur présence est essentielle à l'exercice du débat démocratique », les journalistes « font régulièrement l'objet d'insultes, de menaces, de violences physiques et d'obstacles à la prise d'images ou à la couverture des événements ». Le communiqué décrit ainsi une pratique devenue courante, et non des cas rares : les difficultés évoquées vont donc de la parole agressive aux atteintes physiques, en passant par les obstacles mis au travail d'enregistrement et de reportage sur le terrain."
+       },
+       {
+        "intertitre": "Une réponse judiciaire attendue",
+        "texte": "Pour les signataires, qui ne se contentent pas de constater ces faits mais en attendent des suites devant la justice, « ces cas se multiplient, ne peuvent plus être considérés comme de simples incidents isolés, et appellent une réponse judiciaire ferme et à la hauteur de leur gravité ». Ils rappellent que « la liberté de la presse est un droit fondamental et l'une des conditions essentielles de toute société démocratique », et que l'empêcher « entrave le droit de chacun d'être informé »."
+       }
+      ],
+      "synthese": "Quatre syndicats de journalistes réclament une réponse judiciaire ferme aux entraves subies en manifestation. Leur plainte contre X fait suite à celle de sept journalistes déposée auprès du procureur de Paris, dans le contexte de la mobilisation sociale en cours.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/faits-divers/police/violences-policieres/quatre-organisations-syndicales-de-journalistes-deposent-plainte-contre-x-apres-plusieurs-entraves-par-des-forces-de-l-ordre-lors-de-manifestations_8278373.html"
+       }
+      ],
+      "format": "long",
+      "id": "a45"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-12",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/12/louise-57-ans-aidee-par-le-secours-catholique-etre-pauvre-au-rsa-ce-n-est-pas-profiter-du-systeme-c-est-vivre-dans-le-stress_6809034_3224.html",
+      "auteur": "Claire Ané",
+      "id": "a36",
+      "titre": "Pauvreté : le Secours catholique publie son rapport annuel, avec le témoignage de Louise",
+      "texte": "Dans son rapport annuel publié le 12 novembre, le Secours catholique invite à comprendre la pauvreté, qui est multidimensionnelle. Le témoignage de Louise, 57 ans, bénéficiaire du RSA aidée par l'association, montre que les difficultés matérielles s'accompagnent de maltraitances et d'isolement."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-11",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/11/presidentielle-2027-jean-luc-melenchon-critique-pour-ses-propositions-sur-l-ukraine-accuse-les-medias-d-avoir-truque-ses-paroles_6809023_823448.html",
+      "auteur": "",
+      "id": "a32",
+      "titre": "Présidentielle 2027 : Mélenchon accuse les médias d'avoir « truqué ses paroles »",
+      "texte": "Lors de son meeting du 7 novembre, le candidat insoumis a évoqué la possibilité d'un référendum sur la cession du Donbass à la Russie pour résoudre le conflit en Ukraine. Critiqué pour ces propositions, il a répondu le 11 novembre lors d'un « discours sur la paix »."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-11",
+      "url": "https://www.lemonde.fr/international/article/2026/11/11/quatre-journalistes-et-deputes-francais-interdits-de-sejour-en-russie-une-nouvelle-etape-dans-la-degradation-des-relations-entre-paris-et-moscou_6809031_3210.html",
+      "auteur": "",
+      "id": "a33",
+      "titre": "Deux journalistes et deux députés français interdits de séjour en Russie",
+      "texte": "Moscou vise les députés Sacha Houlié et Arthur Delaporte ainsi que les journalistes Ariane Chemin et Paul Gogo, pour leur participation au harcèlement de la propagandiste du Kremlin Xenia Fedorova, selon le ministère russe des affaires étrangères."
+     }
+    ]
+   },
+   {
+    "id": "monde",
+    "titre": "Actualité Monde",
+    "developpes": [
+     {
+      "rubrique": "États-Unis",
+      "source": "NPR",
+      "date": "2026-11-11",
+      "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+      "auteur": "The Associated Press",
+      "titre": "Russie et Ukraine : échange de prisonniers convenu, sans percée à Abou Dhabi",
+      "chapo": "Au terme de deux jours de pourparlers sous médiation américaine, Moscou et Kiev ont accepté un vaste échange de prisonniers de guerre, mais aucune avancée majeure vers la paix n'a été obtenue.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "La Russie et l'Ukraine ont convenu d'un vaste échange de prisonniers de guerre, ont indiqué les deux camps mercredi, à l'issue de deux jours de pourparlers sous médiation américaine à Abou Dhabi, aux Émirats arabes unis. Jared Kushner, gendre du président Donald Trump, a parlé du « plus grand échange humanitaire de prisonniers », dont les chiffres seront finalisés jeudi. Vladimir Medinsky, chef de la délégation russe, et Roustem Oumerov, qui conduisait celle de Kyiv, ont confirmé le projet, Medinsky précisant qu'il s'agit d'un accord « de principe ». Selon Alexandre Zorine, du service d'information de l'état-major russe, ce serait l'un des plus importants échanges depuis le retour de 1 000 soldats l'an dernier, et il pourrait avoir lieu d'ici deux ou trois semaines. Les deux camps ont déjà procédé de temps à autre à des échanges de prisonniers, mais restent très éloignés sur les conditions d'un règlement de paix."
+       },
+       {
+        "intertitre": "Des pourparlers sans percée",
+        "texte": "C'était la première rencontre entre les délégations depuis février, à Genève, et les attentes étaient faibles. La session de mercredi a duré un peu moins de deux heures, après quatre heures la veille. Medinsky a estimé que Moscou et Kyiv s'étaient rapprochés de la paix, et le conseiller du Kremlin Iouri Ouchakov a parlé de discussions « de fond et assez utiles ». Kushner admet qu'il n'y a « pas de confiance » entre les parties, mais voit dans l'échange un moyen de réunir des familles et de créer une dynamique. Les responsables américains se disent déterminés à relancer leurs efforts de paix, qui n'ont pas produit de résultats notables jusqu'ici. Les obstacles restent entiers : garanties de sécurité d'après-guerre, sort des territoires ukrainiens occupés et rôle des Européens."
+       },
+       {
+        "intertitre": "Les Européens tenus à l'écart",
+        "texte": "Moscou a exclu les Européens des discussions directes. Leurs représentants, ainsi que ceux de l'Union européenne et de l'OTAN, étaient à Abou Dhabi et devaient rencontrer la délégation ukrainienne mercredi. Zelensky a écrit sur X que l'Europe doit être représentée à chaque étape. Le porte-parole du Kremlin, Dmitri Peskov, juge qu'elle pourrait rejoindre les discussions, mais que ses déclarations actuelles ne montrent aucune volonté de contribuer à la paix. Kushner veut obtenir leur participation et estime que les Européens, l'UE et l'OTAN doivent être associés aux discussions sur la sécurité d'après-guerre. Moscou doit, dit-il, présenter des propositions de désescalade acceptables pour l'Europe. Les responsables européens estiment que les discussions sur la sécurité du continent ne pourraient commencer qu'après un cessez-le-feu ; beaucoup y voient, en y associant la Russie, une concession à Poutine, qui décrit l'élargissement de l'OTAN vers l'est comme une menace majeure et exige un retrait des troupes de l'Alliance de ses frontières."
+       },
+       {
+        "intertitre": "Un contexte qui change",
+        "texte": "Kushner et l'émissaire Steve Witkoff se rendront jeudi à Moscou pour rencontrer Vladimir Poutine, puis à Dublin pour voir Volodymyr Zelensky. Le contexte a changé depuis février : l'administration Trump devra composer en janvier avec un Congrès aux mains des démocrates, qui pourraient réclamer plus de soutien à l'Ukraine. L'économie de guerre russe est sous forte tension et l'Ukraine subit de lourdes attaques sur son réseau électrique. Sur le front, peu de terrain a changé de mains cette année, et les frappes de missiles et de drones se poursuivent : mercredi, une attaque russe sur un marché de la région d'Odessa a fait trois morts et onze blessés."
+       },
+       {
+        "intertitre": "Un Indonésien capturé",
+        "texte": "Par ailleurs, un Indonésien de 49 ans aurait été capturé dans la région de Zaporijjia, affirmant avoir été recruté à son insu pour combattre pour l'armée russe. Selon le projet ukrainien « Je veux vivre », il pensait signer un contrat d'un an dans la construction à Moscou. L'ambassade d'Indonésie à Kyiv cherche à le rencontrer."
+       }
+      ],
+      "synthese": "Les pourparlers d'Abou Dhabi n'ont pas fait avancer la paix, mais ont débouché sur un accord de principe pour un grand échange de prisonniers. Les discussions se poursuivront jeudi à Moscou, puis à Dublin, avec la question d'une participation européenne.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a60"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-12",
+      "url": "https://www.politico.eu/article/kremlin-hide-numbers-cant-hide-graves-russia-ukraine-war/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Daria Zakharova",
+      "id": "a68",
+      "titre": "Guerre en Ukraine : le Kremlin peut cacher le bilan des morts, pas les tombes",
+      "texte": "Alors que la guerre se prolonge, Moscou s'efforce de dissimuler le nombre de victimes en fermant des bases de données et en poursuivant ceux qui documentent les morts. Les tombes, elles, restent visibles."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-11",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3373661/low-hanging-fruit-xi-and-trump-pluck-shenzhen-apec-summit",
+      "auteur": "Brian Y S Wong",
+      "id": "a81",
+      "titre": "Sommet de l'APEC à Shenzhen : des gains faciles à saisir pour Xi et Trump",
+      "texte": "Le sommet de l'APEC se tiendra à Shenzhen les 18 et 19 novembre, et accueillera la première de deux rencontres entre Xi Jinping et Donald Trump cette année. Après avoir évoqué une « stabilité stratégique constructive » en mai et en septembre, les deux dirigeants veulent préserver une détente fragile, en partie pour des raisons de politique intérieure."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-12",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
+      "auteur": "",
+      "id": "a94",
+      "titre": "Israël frappe les soins intensifs de l'hôpital Nasser à Gaza",
+      "texte": "Selon la Défense civile de Gaza, une frappe israélienne sur l'hôpital Nasser a fait au moins six morts."
+     }
+    ]
+   },
+   {
+    "id": "recherche",
+    "titre": "Recherche & travaux d'experts",
+    "developpes": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35990#fromrss",
+      "auteur": "Allison T Cole; Maarten Meeuwis; Alessandro Previtero; Noah Stoffman",
+      "titre": "Retraités conseillés : deux tiers du portefeuille en actions, un choix défendable ?",
+      "chapo": "Une étude du NBER sur plus de 36 000 retraités canadiens suivis par un conseiller montre qu'ils gardent des portefeuilles bien plus risqués que les autres, et que ce choix peut se défendre.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "Aux États-Unis, environ 68 % des actifs de retraite sont placés sur des comptes individuels (comptes de retraite individuels, plans à cotisations définies). Les retraités doivent donc décider seuls combien retirer chaque année et quelle part garder en actions ou en obligations, un problème complexe, souvent abordé alors que les capacités cognitives déclinent. Les conseillers financiers sont très sollicités : leur usage culmine vers 65 ans, âge où plus de la moitié des ménages disposant d'un patrimoine à investir font appel à un conseil professionnel. Pourtant, selon les auteurs, la façon dont ces conseillers façonnent les décisions de placement des retraités reste très peu étudiée. L'étude demande si les allocations en actions des retraités conseillés sont sensées."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "Les retraités conseillés gardent environ deux tiers de leur portefeuille en actions jusqu'à un âge avancé : la part passe d'environ 75 % à 65 ans à 55 % à 85 ans, soit 30 à 40 points de pourcentage de plus que les retraités non conseillés (25 à 30 %), la règle empirique « 100 moins l'âge » ou les fonds à date cible. Il s'agit de choix actifs et non d'inertie. Les caractéristiques des investisseurs expliquent peu la variation (16 %), alors que l'identité du conseiller la fait passer à 36 % ; entre conseillers, l'écart interquartile est de 15 points. Après un changement de conseiller, la part en actions converge peu à peu vers celle de ses autres clients, comblant 28 % de l'écart en deux ans. Les conseillers en âge de la retraite détiennent eux-mêmes des parts équivalentes, même après avoir cessé leur activité. Au-delà de dix ans de relation, la part en actions est supérieure d'environ 7 points, et l'influence est la plus forte chez les clients peu informés ou peu tolérants au risque (deux fois plus sensibles pour les moins tolérants)."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "Les auteurs exploitent des données administratives sur plus de 36 000 retraités canadiens conseillés. Pour le profil par âge, ils suivent l'approche de Deaton et Paxson (1994b), reprise par Fagereng, Gottlieb et Guiso (2017). Ils distinguent l'influence des conseillers de l'appariement entre clients et conseillers grâce aux changements de conseiller, y compris involontaires (départ à la retraite, décès, sortie du secteur). Ils s'appuient aussi sur l'enquête Canadian Financial Monitor, de 1999 à 2006, où les retraités avec conseil payant détiennent en moyenne 49 % d'actions contre 24 % pour ceux sans conseil. Enfin, un modèle standard de cycle de vie, avec aversion au risque, risque de mortalité, pension sûre, motif de legs et frais calibrés sur les données, est comparé à un scénario sans conseil."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Avec une aversion au risque modérée de 4,2, le modèle reproduit ces portefeuilles : le retraité typique a un patrimoine financier modeste face à une pension sûre, qui joue le rôle d'une forte détention d'obligations, si bien qu'une part élevée d'actions est optimale. Les conseillers apparaissent donc sincères et plutôt fondés. Dans le scénario sans conseil, la prime d'actions perçue est de 2,4 %, environ 40 % de la prime historique. Le conseil ferait ainsi gagner l'équivalent de 70 points de base par an en mesure objective et 160 en mesure subjective, pour un coût de 140 points de base dans les données. Pour les retraités ayant une pension sûre importante, les fonds à date cible pourraient être trop prudents."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Les auteurs ne peuvent pas exclure complètement une sélection dans le conseil : les investisseurs sans conseiller pourraient être plus averses au risque. Expliquer tout l'écart par ce seul facteur exigerait une aversion de 9,3, mais ils jugent la sélection peu susceptible de tout expliquer. Le modèle ignore par ailleurs les risques de santé et de dépenses médicales, et les données sont canadiennes. Les gains liés à la planification financière ne sont pas comptés."
+       }
+      ],
+      "synthese": "Les retraités conseillés prennent nettement plus de risque en actions, sous l'influence de leurs conseillers, et un modèle standard montre que ce choix se justifie. Les gains du conseil sont du même ordre de grandeur que son coût.",
+      "republication": "",
+      "reference": "Allison T. Cole (Arizona State University), Maarten Meeuwis (Washington University in St. Louis), Alessandro Previtero (Indiana University et NBER), Noah Stoffman (Indiana University) ; NBER Working Paper n° 35990, novembre 2026 ; document de travail non relu par des pairs.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a110"
+     },
+     {
+      "rubrique": "Santé publique",
+      "source": "PLOS Medicine",
+      "date": "2026-11-11",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004768",
+      "auteur": "",
+      "titre": "Vaccin antipneumococcique en crise humanitaire : une dose unique suffit-elle ?",
+      "chapo": "Une modélisation publiée dans PLOS Medicine estime qu'une campagne à dose unique, visant les enfants de moins de 5 ans, protège en partie les populations déplacées pendant trois ans.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "À la fin de 2025, environ 118 millions de personnes étaient déplacées de force dans le monde (guerre, insécurité alimentaire, catastrophes naturelles). Dans ces populations, souvent surpeuplées et mal desservies en soins, le pneumocoque (Streptococcus pneumoniae) circule et provoque des maladies graves. Les vaccins antipneumococciques conjugués (PCV) sont pourtant peu utilisés dans les réponses humanitaires : les programmes de routine y sont perturbés et il est difficile d'administrer plusieurs doses. L'OMS recommandait en 2019 de les employer chez les moins d'un an et d'envisager les moins de 5 ans. Les auteurs ont donc voulu évaluer l'effet de campagnes de vaccination réalisables sur le terrain, selon le nombre de doses et les âges ciblés."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "Dans le camp de déplacés de Digaale, près de Hargeisa (Somaliland), une campagne à dose unique avec une couverture élevée chez les moins de 5 ans permet de contrôler en partie les sérotypes vaccinaux jusqu'à 3 ans. Elle évite 27 % (intervalle crédible à 95 % : 20-34) des cas de maladie pneumococcique sévère, tous âges confondus, en vaccinant les moins de 5 ans, et 38 % (29-46) en vaccinant les moins de 15 ans. Cibler les moins d'un an ou de 2 ans n'a qu'un effet faible et de courte durée. La campagne visant les moins de 5 ans est la plus efficiente : 108 doses (77-162) pour éviter un cas sévère, contre 231 (167-326) pour les moins de 15 ans sur 3 ans. Une campagne à dose unique pour les moins de 5 ans (27 %, 108 doses) l'emporte sur une campagne à deux doses pour les moins de 2 ans (12 %, 138 doses). Appliquées aux déplacés du monde, de telles campagnes exigeraient environ 30 millions de doses sur 5 ans (28 à 55 millions selon les résultats détaillés)."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "Les chercheurs ont mené à Digaale (environ 3 000 personnes, 700 abris) une enquête sur le portage du pneumocoque, la malnutrition et les contacts sociaux, afin de paramétrer un modèle de transmission tenant compte des migrations. Ils ont simulé des campagnes à une ou deux doses, ciblant les enfants de moins de 1, 2, 5, 10 ou 15 ans avec 85 % de couverture, sur un horizon de 5 ans. Trois autres cas types ont été modélisés : Maiduguri (Nigeria, 2016), Bambari (République centrafricaine, 2019) et le site de protection des civils de Bentiu (Soudan du Sud, 2015). Chaque scénario repose sur 500 simulations."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Selon les auteurs, des campagnes simples à dose unique, couvrant plusieurs classes d'âge, peuvent être menées efficacement quand la vaccination de routine n'est pas possible ; ces travaux ont contribué à de récentes recommandations de l'OMS en ce sens. Là où les services de routine fonctionnent, l'ensemble du schéma vaccinal reste préférable. L'effet tient en partie à l'immunité collective, qui protège aussi les enfants nés après la campagne. Dans les contextes où les contacts avec une population hôte non vaccinée ou les migrations sont plus importants, comme à Maiduguri, un âge d'éligibilité plus large (moins de 10 ans) est nécessaire pour un effet comparable. Une administration conjointe avec la rougeole pourrait être pratique, mais augmenterait la complexité opérationnelle."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Les données empiriques sur l'efficacité des PCV et sur la maladie en contexte humanitaire sont rares. Le vaccin Pneumosil n'a pas de données d'efficacité sur la transmission, et les profils de portage et de contacts de Somaliland ont été extrapolés à d'autres crises, ce qui peut modifier l'ampleur de l'effet. La couverture de 85 % peut être optimiste dans certains contextes. Les adultes et la rentabilité n'ont pas été évalués directement."
+       }
+      ],
+      "synthese": "Selon cette modélisation, une campagne à dose unique chez les moins de 5 ans est le meilleur compromis entre impact et nombre de doses en situation de crise. Ces estimations dépendent d'hypothèses et de données limitées, et l'effet peut varier selon les contextes.",
+      "republication": "",
+      "reference": "Kevin van Zandvoort, Mohamed O. Bobe, … Stefan Flasche (15 auteurs) ; PLOS Medicine 23(11): e1004768, publié le 11 novembre 2026 ; article de revue en accès libre (étude de modélisation).",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a121"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35989#fromrss",
+      "auteur": "",
+      "id": "a109",
+      "titre": "Locations courte durée : la transparence des prix rend les clients plus sensibles",
+      "texte": "Selon un document de travail du NBER, la loi californienne imposant d'afficher les prix tout compris a accru la sensibilité des clients aux prix par rapport aux villes témoins. Les tarifs journaliers moyens ont pourtant progressé de 4,8 %."
+     },
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35992#fromrss",
+      "auteur": "",
+      "id": "a111",
+      "titre": "Haut débit : les grands fournisseurs investissent où les élections sont disputées",
+      "texte": "Selon le NBER, les grands opérateurs augmentent davantage leur capacité dans les comtés électoralement disputés. Cette présence est associée à moins de politiques facilitant l'entrée de concurrents, notamment l'accès aux droits de passage."
+     },
+     {
+      "rubrique": "Social",
+      "source": "Pew Research Center",
+      "date": "2026-11-11",
+      "url": "https://www.pewresearch.org/short-reads/2026/11/11/key-facts-about-us-data-centers/",
+      "auteur": "",
+      "id": "a116",
+      "titre": "Data centers aux États-Unis : expansion rapide et contestation publique croissante",
+      "texte": "Selon le Pew Research Center, les data centers se multiplient pour alimenter l'IA, et l'opposition du public progresse. Ce centre publie des chiffres clés sur leur implantation, leur consommation d'énergie et l'opinion des Américains."
+     }
+    ]
+   },
+   {
+    "id": "veille",
+    "titre": "Veille réglementaire",
+    "developpes": [
+     {
+      "rubrique": "Sanctions et export",
+      "source": "UA.NEWS",
+      "date": "2026-11-11",
+      "url": "https://ua.news/en/world/pid-novi-sanktsiyi-es-potrapliat-50-rosiiskikh-bankiv",
+      "auteur": "",
+      "titre": "Sanctions UE : 145 nouvelles inscriptions visant la Russie, dont 50 banques",
+      "chapo": "Les ambassadeurs des Vingt-Sept ont convenu le 11 novembre d'inscrire 145 personnes et entités sur les listes de sanctions contre la Russie ; l'approbation finale est attendue le 16.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Lors de la réunion du Comité des représentants permanents, le 11 novembre 2026, les ambassadeurs des États membres de l'Union européenne se sont provisoirement entendus pour ajouter 145 personnes et entités aux listes de sanctions visant la Russie. Elles sont impliquées, selon UA.NEWS, dans l'agression, les cyberattaques et les activités hybrides. La source 1 (UA.NEWS) cite « La Vérité européenne » et un diplomate européen ; la source 2 (UkrMedia News) s'appuie sur Reuters et sur des diplomates de l'Union. Les deux sources s'accordent sur les chiffres : 113 inscriptions au titre du régime principal, 31 au titre du régime sur les activités hybrides et une au titre du régime sur les cyberattaques."
+       },
+       {
+        "intertitre": "Les banques et les entreprises visées",
+        "texte": "Le régime principal sanctionne les actions contre l'intégrité territoriale, la souveraineté et l'indépendance de l'Ukraine. Il comprendra 12 personnes et 101 personnes morales, dont 50 banques russes. Les sanctions toucheront aussi des sociétés qui facilitent les activités de la flotte fantôme russe, qui sert à transporter du pétrole en contournant les restrictions internationales. La source 2 ajoute des entreprises du secteur de l'énergie et des représentants du monde des affaires russe. La liste complète des banques et des sociétés n'est pas encore publiée ; elle doit l'être une fois les décisions officiellement approuvées."
+       },
+       {
+        "intertitre": "Hybride et cyberattaques",
+        "texte": "Dans le régime consacré aux attaques hybrides russes, 30 personnes et une personne morale seront ajoutées, soit 31 inscriptions. D'après la source 2, ces mesures concernent notamment l'ingérence étrangère dans l'information et la manipulation de l'information. Une autre personne morale rejoindra la liste distincte visant les cyberattaques. Selon l'une des sources de Reuters, rapportée par la source 2, une partie des nouvelles restrictions liées aux activités hybrides se rattache à une tentative d'attaque de drones contre l'aéroport de Leipzig/Halle, en Allemagne, dont les autorités allemandes ont rendu Moscou responsable. La Russie nie toute implication dans des sabotages, des opérations hybrides ou la préparation d'attaques contre des membres de l'OTAN."
+       },
+       {
+        "intertitre": "Le calendrier et les effets",
+        "texte": "L'accord des ambassadeurs ne met pas encore les sanctions en vigueur. L'approbation finale revient au Conseil des affaires étrangères de l'Union, réuni le lundi 16 novembre 2026 à Bruxelles, après quoi les actes seront publiés au Journal officiel de l'UE. Au titre du régime principal, les sanctions prévoient le gel des avoirs dans l'Union, l'interdiction de mettre des fonds ou des ressources économiques à disposition des personnes visées et, pour les individus, l'interdiction d'entrer sur le territoire de l'Union ou de le traverser."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "Le 12 octobre, l'Union avait déjà approuvé un important élargissement des listes visant le complexe militaro-industriel russe : 1 569 personnes et entités, dont 826 sociétés et 743 dirigeants. La source 1 rappelle qu'un nouveau paquet de sanctions est en préparation pour novembre 2026, visant surtout des banques régionales russes et des raffineries de pétrole, ainsi que des sociétés de Chine et des Émirats arabes unis qui aident à contourner les barrières précédentes, avec un net élargissement des restrictions à l'exportation. Elle indique aussi que la Commission européenne a rejeté une proposition américaine de reprendre les achats de gaz russe dans le cadre des discussions sur un éventuel cessez-le-feu, et que Bruxelles ne prévoit pas de lever les sanctions avant la fin complète de la guerre."
+       }
+      ],
+      "synthese": "Les ambassadeurs de l'Union ont provisoirement convenu de 145 nouvelles inscriptions, dont 50 banques russes, mais le texte n'entrera en vigueur qu'après l'approbation du Conseil des affaires étrangères, attendue le 16 novembre. Bruxelles dit aussi ne pas vouloir lever les sanctions avant la fin de la guerre.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "UkrMedia News",
+        "url": "https://ukrmedia.news/en/world/yes-sanktsiyi-rosiya-50-bankiv/"
+       }
+      ],
+      "format": "long",
+      "id": "a134"
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "Reuters",
+      "date": "2026-11-11",
+      "url": "https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/",
+      "auteur": "",
+      "titre": "Une université chinoise sur liste noire a acheté des puces Nvidia H200",
+      "chapo": "Selon Reuters, l'université polytechnique du Nord-Ouest, sur la liste noire américaine, a acheté deux puces H200 en octobre, ce qui révèle des failles dans le contrôle des exportations.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est révélé",
+        "texte": "D'après des documents d'achat consultés par Reuters, qui publie ces informations pour la première fois, la Northwestern Polytechnical University, établissement chinois aux liens étroits avec l'Armée populaire de libération, a acheté le mois dernier deux puces H200 de Nvidia pour 123 000 dollars. Le registre d'achat, daté du 21 octobre, figure sur le site de l'université. Les puces, destinées à son école de gestion, ont été fournies par Shaanxi Bosuan Network Technology, et non directement par Nvidia. L'université, Nvidia et le Bureau de l'industrie et de la sécurité du département américain du Commerce, qui supervise les contrôles à l'exportation, n'ont pas répondu aux demandes de commentaires."
+       },
+       {
+        "intertitre": "Une université sous sanctions",
+        "texte": "Basée à Xi'an, dans le nord-ouest du pays, l'université mène des recherches liées aux avions militaires, aux missiles et aux satellites. Le département du Commerce l'a inscrite en 2001 sur sa liste noire commerciale, l'Entity List, en raison de son implication présumée dans la prolifération de missiles et de recherches militaires, puis a durci les restrictions en 2019 : les licences d'exportation de technologies américaines contrôlées vers l'établissement relèvent depuis d'une politique de refus dans la plupart des cas. Elle fait partie du groupe des « Sept fils de la défense nationale », universités chinoises sous sanctions américaines qui mènent des recherches de défense pour Pékin. La H200 compte parmi les puces les plus performantes de Nvidia pour entraîner et exploiter des systèmes d'IA avancés ; ses exportations exigent une licence, normalement refusée aux institutions de cette liste."
+       },
+       {
+        "intertitre": "Achats et locations de puissance de calcul",
+        "texte": "L'université a aussi acheté cette année, par cinq contrats de location de capacité informatique conclus avec des entreprises chinoises, l'accès à des H200 et à d'autres processeurs Nvidia. Son école de cybersécurité a attribué en janvier deux contrats de sept mois, de 66 218 et 66 113 dollars, pour des serveurs contenant chacun huit H200, destinés au réglage fin de modèles d'IA et à l'apprentissage par renforcement. Elle a également loué des serveurs de huit puces A100 et de huit puces A800, interdites d'exportation vers toutes les entités chinoises. En avril, un autre institut de l'université a acheté, pour 56 219 dollars, des services exigeant au moins 24 puces A100, pour des simulations de structures et de dynamique des fluides. Les contrats sont allés à de petits fournisseurs peu connus, et les registres disent peu de chose de l'origine des processeurs."
+       },
+       {
+        "intertitre": "Un marché plus large",
+        "texte": "Reuters a examiné 26 registres d'achats et documents d'entreprises chinois de cette année : des universités et instituts de recherche y achètent des puces Nvidia soumises à restrictions, ou louent des services de calcul qui en utilisent, par l'intermédiaire de fournisseurs nationaux. L'université de Shenzhen a acheté trois puces H100 pour 115 406 dollars en septembre ; l'université de technologie de Wuhan, un serveur avec une H100 pour 53 221 dollars en juin ; l'université Beihang, elle aussi l'une des « Sept fils », quatre A800 pour 73 310 dollars en avril."
+       },
+       {
+        "intertitre": "Le débat à Washington",
+        "texte": "L'administration Trump a commencé en janvier à autoriser certaines exportations de H200 vers la Chine au cas par cas, sans lever les restrictions distinctes visant les organisations de l'Entity List. Ces révélations surviennent alors que Nvidia et son PDG, Jensen Huang, sont de plus en plus scrutés à Washington pour leur plaidoyer en faveur d'un assouplissement, après des informations selon lesquelles il aurait été visé par une opération d'espionnage chinoise. Huang soutient que les ventes préservent la primauté technologique américaine ; certains élus craignent un appui à la conception d'armes. Trois présidents républicains de commissions du Congrès demandent à le rencontrer le 18 novembre."
+       }
+      ],
+      "synthese": "Des registres d'achat montrent qu'une université chinoise sous sanctions américaines a acquis des H200 par un fournisseur intermédiaire, et les registres décrivent un marché plus large de puces restreintes. L'affaire alimente le débat américain sur le durcissement des contrôles à l'exportation.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Miami Herald",
+        "url": "https://www.miamiherald.com/news/nation-world/national/article318026028.html"
+       }
+      ],
+      "format": "long",
+      "id": "a140"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "LCB-FT",
+      "source": "ACAMS",
+      "date": "2026-11-11",
+      "url": "https://www.acams.org/en/news/amla-finalizing-list-systemically-important-banks",
+      "auteur": "",
+      "id": "a143",
+      "titre": "L'AMLA finalise la liste des banques d'importance systémique",
+      "texte": "Selon ACAMS, l'AMLA est en train de finaliser la liste des banques d'importance systémique."
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "Kharon",
+      "date": "2026-11-12",
+      "url": "https://www.kharon.com/resources/customer-story/export-controls/the-franchise-value-imperative-using-the-bis-affiliates-rule-to-strengthen-risk-management-controls",
+      "auteur": "",
+      "id": "a137",
+      "titre": "Kharon plaide pour l'usage de la règle « affiliates » du BIS dans les contrôles de risque",
+      "texte": "Selon Kharon, il faut utiliser la règle « affiliates » du BIS pour renforcer les contrôles de gestion des risques."
+     }
+    ]
+   },
+   {
+    "id": "curiosites",
+    "titre": "Curiosités",
+    "developpes": [
+     {
+      "rubrique": "Science",
+      "source": "Quanta Magazine",
+      "date": "2026-11-11",
+      "url": "https://www.quantamagazine.org/what-is-the-metabolism-first-theory-for-the-origin-of-life-20261111/",
+      "auteur": "Jake Buehler",
+      "titre": "Le métabolisme a-t-il allumé l'étincelle de la vie ? Deux pistes en débat",
+      "chapo": "Certains chercheurs pensent que des cycles de réactions chimiques simples ont précédé les gènes et les cellules ; reste à savoir où et comment ils ont pu démarrer.",
+      "sections": [
+       {
+        "intertitre": "Le principe : le métabolisme d'abord",
+        "texte": "Depuis plus de 4 milliards d'années, le métabolisme, c'est-à-dire la capacité des cellules à capter, transformer et utiliser l'énergie chimique de leur environnement, alimente le réseau de réactions qui entretient les êtres vivants. Certains chercheurs estiment que ces réactions ont pu déclencher la vie elle-même, sous la forme de cycles autoentretenus de molécules simples, avant les gènes et les cellules. L'ARN et l'ADN, qui stockent l'information héréditaire, ne seraient venus que plus tard. Selon William Martin, biologiste de l'évolution à l'université Heinrich-Heine de Düsseldorf (Allemagne), l'énergie qui traverse le système est ce qu'est la vie : elle synthétise les gènes qui produisent les catalyseurs entretenant la réaction, lesquels ont évolué avec le temps."
+       },
+       {
+        "intertitre": "De Morowitz aux sources hydrothermales",
+        "texte": "L'idée qu'une géochimie non vivante ait pu déclencher une biochimie vivante date de plusieurs décennies. En 1968, le biophysicien américain Harold Morowitz propose que l'énergie qui traverse un système l'organise : l'énergie de sources extérieures, comme le soleil ou des processus géologiques, aurait poussé des réseaux chimiques vers des réactions autoentretenues, favorisées sur le plan thermodynamique, qui auraient pu devenir biologiques avec le temps. La voie de l'acétyl-CoA, que certains microbes actuels utilisent pour produire de l'énergie chimique à partir d'hydrogène et de dioxyde de carbone, en serait une version très simple. À la fin des années 1980 et au début des années 1990, Günter Wächtershäuser, juriste spécialisé en brevets, titulaire d'un doctorat de chimie, a proposé un « monde fer-soufre » : autour des sources hydrothermales, ces eaux chauffées par la géothermie et riches en métaux dissous qui jaillissent du plancher océanique, des réactions comme la voie de l'acétyl-CoA auraient été catalysées par des minéraux de sulfure de fer. L'hydrogène aurait fourni l'énergie, les catalyseurs métalliques maintenant la boucle en marche ; des boucles enzymatiques de plus en plus nombreuses auraient pu s'y greffer, bien avant tout mécanisme génétique d'hérédité."
+       },
+       {
+        "intertitre": "Deux expériences de 2020, deux environnements",
+        "texte": "L'équipe de Martin a reproduit en laboratoire les conditions de température et de pression des sources hydrothermales. En 2020, elle a montré que le dioxyde de carbone et l'hydrogène qu'on y trouve, avec des minéraux de nickel et de fer courants sur ces sites, pouvaient former du formiate, de l'acétate et du pyruvate. Pour Martina Preiner, biochimiste à l'Institut Max-Planck de microbiologie terrestre (Allemagne) et première auteure de l'étude, ces composés sont la « colonne vertébrale » de la voie de l'acétyl-CoA : ces réactions peuvent démarrer avant toute présence d'ARN ou de protéines. D'autres jugent ces conditions peut-être inutiles. Toujours en 2020, Ramanarayanan Krishnamurthy, chimiste organicien à Scripps Research (Californie), et ses collègues ont montré que deux petites molécules possiblement présentes sur la Terre primitive, le pyruvate et le glyoxylate, pouvaient réagir pour former presque tous les composants du cycle inverse de l'acide citrique, analogue de celui de l'acétyl-CoA, dans des conditions de température et d'eau très éloignées de celles d'une source, et sans catalyseur métallique. Le métabolisme aurait pu démarrer dans une mare tiède plutôt que dans un creuset des grands fonds."
+       },
+       {
+        "intertitre": "Les questions ouvertes",
+        "texte": "Quel que soit le lieu, on ignore comment les premières réactions ont pu devenir assez stables pour se complexifier. Un matériau génétique capable de stocker et de répliquer l'information a peut-être été nécessaire pour transmettre les améliorations de ces réactions rudimentaires d'une génération à l'autre. Reste à établir le lien entre métabolisme et information génétique, et à comprendre comment ces réactions ont pu coexister sans se saboter une fois enfermées dans des membranes cellulaires. « Comment mieux les mélanger pour ne pas obtenir un fouillis complet que nous ne pourrions pas analyser ? », demande Krishnamurthy : tel est le défi."
+       }
+      ],
+      "synthese": "Deux expériences de 2020 montrent que des réactions de type métabolique peuvent démarrer sans ARN ni protéines, près d'une source hydrothermale ou, sans métaux, en milieu tiède. Leur stabilisation et leur lien avec l'information génétique restent à expliquer.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a150"
+     },
+     {
+      "rubrique": "Climat",
+      "source": "Inside Climate News",
+      "date": "2026-11-11",
+      "url": "https://insideclimatenews.org/news/11112026/as-texas-embraces-carbon-storage-a-black-community-questions-the-risks/",
+      "auteur": "Emily Foxhall; The Texas Tribune; Erin Schulte",
+      "titre": "Texas : le stockage de CO2 d'ExxonMobil inquiète la communauté de Cheek",
+      "chapo": "Près de Beaumont, ExxonMobil s'apprête à injecter du CO2 sous terre ; les habitants de Cheek, majoritairement noirs, contestent un permis que le régulateur texan a pourtant accordé.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est en jeu à Cheek",
+        "texte": "Au bord d'une route rurale près de Beaumont, ExxonMobil prépare l'injection de dioxyde de carbone dans le sous-sol pour l'y stocker durablement et l'empêcher de contribuer au réchauffement. Ce pourrait être le premier projet de ce type à entrer en service dans l'État. La Commission des chemins de fer du Texas, qui supervise l'industrie pétrolière et gazière, a obtenu fin 2025 l'autorité de délivrer ces permis et a approuvé le projet en septembre. La communauté voisine de Cheek, à majorité noire et où beaucoup d'habitants sont modestes ou âgés, lui a demandé de revenir sur sa décision : elle ne croit pas aux assurances de l'entreprise sur la sécurité des personnes et des nappes phréatiques."
+       },
+       {
+        "intertitre": "Les craintes des habitants",
+        "texte": "Les riverains redoutent une contamination de l'eau souterraine, une fuite dans l'air qui les suffoquerait, et des secours mal équipés. Le dioxyde de carbone dans l'eau pourrait la rendre plus acide et y faire passer des métaux ; si un panache assez important les enveloppait, les gens ne pourraient ni respirer ni faire fonctionner une voiture pour fuir. L'association de la communauté s'est alliée en juillet 2025 aux avocats gratuits d'Earthjustice et a contesté le permis jusqu'à une audience administrative en mars, jugeant la surveillance souterraine trop étroite. Un juge administratif a ensuite recommandé de soumettre le permis au vote de la commission. S'y ajoute une inquiétude d'environnement et de justice sociale : les habitants craignent d'avoir été choisis parce qu'ils résisteraient moins. ExxonMobil a déjà construit trois puits d'injection en bordure de la communauté."
+       },
+       {
+        "intertitre": "Les arguments en faveur du stockage",
+        "texte": "Les partisans y voient un volet d'une approche « tout ce qui est possible ». Des crédits d'impôt fédéraux soutiennent ces projets, et l'est du Texas attire par son réseau de pipelines (propriété d'ExxonMobil), sa géologie et ses installations industrielles voisines. ExxonMobil a sept accords de stockage, dont le volume égalera les émissions de 2 millions de voitures. Une étude de chercheurs de Texas A&M juge la probabilité de fuite faible. Susan Hovorka, de l'université du Texas à Austin, tient la technologie pour éprouvée, tout en jugeant l'anxiété parfois supérieure à ce qui est réaliste. L'entreprise s'engage à installer des arrêts automatiques, à surveiller le panache souterrain et à tenir une ligne téléphonique permanente."
+       },
+       {
+        "intertitre": "Les critiques et les incidents ailleurs",
+        "texte": "Naomi Oreskes, de Harvard, qualifie cette technologie de « surtout une dangereuse distraction ». Selon une enquête de Drilled et ProPublica, réduire assez les émissions exigerait plus de ressources que possible. Près d'un tiers des 19 projets texans proposés ont été annulés ou suspendus. Un gazoduc de CO2 s'est rompu au Mississippi en 2020 après un glissement de terrain, et des dizaines de personnes ont été hospitalisées ; en Illinois, un fluide injecté a gagné des zones souterraines non autorisées. Le gouverneur de Louisiane, Jeff Landry, a suspendu l'examen des nouvelles demandes pour s'assurer du respect de la réglementation de l'État. Le Dakota du Nord a approuvé huit puits actifs répartis sur trois projets, le Wyoming cinq puits pour un projet, l'Arizona aucun. Pour la chercheuse Naomi Yoder, opposée à la démarche du Texas, on ne pourra pas séquestrer assez de CO2 pour que le risque en vaille la peine."
+       },
+       {
+        "intertitre": "Le régulateur sous pression",
+        "texte": "Lors d'une audience en septembre, le député texan Drew Darby, qui dirige la commission de l'énergie de la Chambre, a demandé que les projets avancent « au rythme le plus soutenu tout en protégeant le public ». Le lendemain, apprenant qu'ExxonMobil n'avait plus parlé aux habitants depuis qu'ils avaient pris des avocats, la présidente de la commission, Christi Craddick, a lancé à l'entreprise : « Donnez-leur de l'information. Soyez là pour leur sécurité. » Elle a pourtant voté pour le permis. Wayne Christian a voté contre, le jugeant dangereux. Le projet « Sunflower » d'ExxonMobil, près de Nome, avance aussi : la commission recueille les avis du public cette semaine."
+       }
+      ],
+      "synthese": "Le projet de Cheek met à l'épreuve la capacité du Texas à accélérer le stockage du CO2 tout en répondant aux inquiétudes des riverains. Pour Sophia Cunningham, du Greater Houston Partnership, la confiance des communautés fera ou déferait ces projets.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a162"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-11",
+      "url": "https://www.sciencesetavenir.fr/archeo-paleo/neandertal-la-conquete-des-mondes-souterrains_195881?xtor=RSS-4",
+      "auteur": "",
+      "id": "a151",
+      "titre": "Néandertal : les secrets des grottes européennes",
+      "texte": "Pendant plus de 100 000 ans, les néandertaliens ont occupé les grottes européennes, où ils ont laissé cercles de stalagmites, crânes d'animaux disposés avec soin et parois gravées. Ces réalisations pourraient révéler des rites dont le sens nous échappe encore."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-11",
+      "url": "https://www.sciencesetavenir.fr/sante/cancer-colorectal-l-immunotherapie-pour-eviter-la-chirurgie_195866?xtor=RSS-16",
+      "auteur": "",
+      "id": "a152",
+      "titre": "Cancer du rectum : l'immunothérapie permet d'éviter la chirurgie chez certains patients",
+      "texte": "Grâce aux progrès de l'immunothérapie, certains patients atteints d'un cancer du rectum peuvent désormais éviter la chirurgie et ses lourdes conséquences."
+     },
+     {
+      "rubrique": "Idées",
+      "source": "Aeon",
+      "date": "2026-11-11",
+      "url": "https://aeon.co/videos/how-a-palaeontologist-decodes-fossils-from-the-dawn-of-complex-life",
+      "auteur": "",
+      "id": "a155",
+      "titre": "Des fossiles édiacariens montrent comment les animaux ont commencé à se déplacer",
+      "texte": "Des spécimens anciens révèlent comment les animaux ont commencé à bouger il y a environ un demi-milliard d'années. Ils livrent aussi le premier exemple connu de latéralité."
+     },
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-12",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
+      "auteur": "",
+      "id": "a156",
+      "titre": "Curiosity achève sa campagne de forage au trou « Nazca »",
+      "texte": "Selon le blog de la mission publié par la NASA, Curiosity termine sa campagne de forage au trou « Nazca ». La roche y contient des cristaux en forme de disques."
+     }
+    ]
+   }
+  ],
+  "titres_blocs": {
+   "ia": "IA",
+   "france": "Actualité France",
+   "monde": "Actualité Monde",
+   "recherche": "Recherche & travaux d'experts",
+   "veille": "Veille réglementaire",
+   "curiosites": "Curiosités"
+  },
+  "pages": 0,
+  "sequence": [
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-11",
+     "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+     "auteur": "Matthias Bastian",
+     "titre": "Anthropic affirme avoir porté Claude sur des puces AMD en trois jours",
+     "chapo": "Selon Anthropic, son modèle Mythos a écrit presque tout le code nécessaire, ce qui réduirait l'avantage logiciel CUDA de Nvidia ; ces chiffres n'ont pas été vérifiés de façon indépendante.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Anthropic affirme s'être affranchie de sa dépendance à Nvidia grâce à une stratégie multi-puces. Dans une présentation aux investisseurs, l'entreprise explique avoir porté Claude sur des processeurs graphiques AMD en trois jours seulement, presque sans intervention humaine. Selon Tom Brown, cofondateur et Chief Compute Officer, Anthropic entraîne et exploite désormais Claude sur les quatre grandes familles de puces. Elle traite les capacités de calcul de fournisseurs, d'architectures et de sites différents comme un seul ensemble interchangeable, et assure tirer plus de chaque dollar de calcul que tout autre laboratoire d'IA de pointe."
+      },
+      {
+       "intertitre": "Le contexte : CUDA",
+       "texte": "Le principal avantage concurrentiel de Nvidia tient à l'association du matériel et du logiciel, en particulier CUDA, l'écosystème logiciel qui enferme les développeurs dans ses puces. Adapter des modèles à une autre architecture demande tant d'efforts que beaucoup d'entreprises n'essaient même pas. Chaque puce exige son propre logiciel sur mesure et sa propre pile d'inférence, ce qui est coûteux et long. Anthropic dit avoir fait très tôt un « pari non conventionnel » sur le multi-puces, alors que l'industrie jugeait l'effort peu rentable, et être devenue « incroyablement bonne » à ce jeu."
+      },
+      {
+       "intertitre": "Trois jours au lieu de plusieurs mois",
+       "texte": "Jusqu'ici, la mise en route d'une nouvelle plateforme mobilisait des dizaines d'ingénieurs pendant des mois. Cette année, Anthropic a utilisé pour la première fois des GPU AMD et a confié le travail à son modèle de pointe, Mythos. Celui-ci aurait écrit ou porté lui-même près de 100 % des noyaux logiciels (kernels), en trois jours au lieu des six à douze mois habituels. Si ces chiffres sont exacts, le surcoût logiciel, longtemps considéré comme le plus solide atout de Nvidia, diminuerait fortement et les entreprises pourraient changer de fournisseur plus facilement, selon le prix ou la disponibilité."
+      },
+      {
+       "intertitre": "Ce que ça change",
+       "texte": "Dans un marché du calcul où l'offre est tendue, une approche multi-puces permet de viser le meilleur rapport performance-prix, quel que soit le fournisseur. Certaines puces conviennent mieux à l'entraînement, d'autres à l'inférence. Nvidia, dominant sur les puces d'IA, bénéficie d'une marge supérieure à 70 %, inhabituelle pour du matériel. Anthropic compte aussi sur des « multiplicateurs de calcul », des avancées de recherche qui tirent plus de performance de la même capacité, et construit ses propres centres de données via le programme « Anthropic Direct » pour réduire le coût total de possession."
+      },
+      {
+       "intertitre": "Les liens financiers et les réserves",
+       "texte": "Les chiffres proviennent de la présentation aux investisseurs et n'ont pas été vérifiés de façon indépendante. Nvidia et AMD ont tous deux des liens financiers profonds avec Anthropic. En novembre 2025, dans un accord de 45 milliards de dollars avec Microsoft, Nvidia s'est engagé à investir jusqu'à 10 milliards. Selon le document S-1/A déposé auprès de la SEC le 10 novembre 2026, Nvidia participe aussi à un placement privé conditionnel de 26 milliards. AMD a annoncé en juillet 2026 un investissement de jusqu'à 5 milliards ; Anthropic prévoit de déployer jusqu'à deux gigawatts de GPU AMD Instinct MI455X, dès le premier semestre 2027."
+      }
+     ],
+     "synthese": "Anthropic assure que l'IA elle-même peut abaisser la barrière logicielle de CUDA, puisqu'elle aurait porté Claude sur AMD en trois jours. Ces chiffres, issus d'une présentation aux investisseurs, restent à confirmer de façon indépendante.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a5"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-11",
+     "url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+     "auteur": "Jonathan Kemper",
+     "titre": "Applications créées avec Grok : près de 95 % sont ouvertes à tous",
+     "chapo": "Selon la société de sécurité Claroc, plus de 35 000 applications conçues avec l'assistant Grok sont accessibles sans connexion, y compris avec des données sensibles.",
+     "sections": [
+      {
+       "intertitre": "Ce que révèle le rapport",
+       "texte": "Dans le mode « Build » de SpaceXSI (ex-xAI), l'utilisateur décrit une application dans une conversation et Grok en écrit le code. L'application ne devient publique que lorsque son créateur clique sur « Publish » : elle reçoit alors sa propre adresse sur grok.me. Claroc a vérifié 37 571 applications encore en ligne et constaté que 35 578 d'entre elles, soit 94,7 %, étaient ouvertes à toute personne disposant du lien. La plupart étaient des jeux, des pages de présentation ou des calculatrices, mais environ une sur dix contenait des éléments sensibles, des données d'entreprise ou des informations personnelles. Les chercheurs estiment que 650 à 800 applications renfermaient des données privées."
+      },
+      {
+       "intertitre": "Des données sensibles exposées",
+       "texte": "Parmi les cas confirmés figurent une fiche de service de réanimation avec les valeurs biologiques d'un patient, une liste de plus de 3 500 employés d'un groupe hospitalier et le planning d'une caserne de pompiers. Le code d'une application de feuilles de temps contenait 18 comptes avec leurs mots de passe en clair. Claroc a identifié 30 organisations touchées en dehors de SpaceXSI et de X, dont six entreprises du classement Fortune 500, et en taira les noms. Vingt-quatre applications provenaient de salariés de SpaceXSI et de X : un plan d'accueil confidentiel pour un nouveau membre de l'équipe commerciale entreprises, avec des adresses de systèmes internes et 19 canaux de discussion, une carte des territoires commerciaux listant 594 comptes stratégiques et des données de pipeline, huit propositions publicitaires pour X dont une, marquée confidentielle, visait une agence fédérale américaine, ainsi que des rapports de campagne indiquant les dépenses publicitaires."
+      },
+      {
+       "intertitre": "Un défaut dans les réglages et dans le code",
+       "texte": "Claroc met en cause le dialogue de publication : sur le compte payant utilisé pour les tests, l'option « Anyone with the link » était présélectionnée. Les adresses sont aussi faciles à trouver, puisque chaque application a son sous-domaine et que son nom apparaît dans les bases DNS passives commerciales dès la première visite. Deux applications de test de Claroc ont révélé un autre problème. Une application de liste de contacts s'est retrouvée avec une base de données sans authentification, où des visiteurs anonymes pouvaient ajouter des entrées. Pour un fichier clients d'équipe commerciale, Grok a ajouté de lui-même une connexion Google et X, mais son code inscrivait chaque utilisateur authentifié dans l'équipe avant de vérifier l'appartenance : un compte Google extérieur pouvait alors lire, modifier et supprimer des enregistrements. Claroc précise n'avoir mené d'essais d'écriture et de suppression que sur ses propres applications. Avec l'option « Only you », l'application de test bloquait l'accès extérieur ; ce n'est pas le réglage par défaut. Dans un test avec ChatGPT, l'application créée était par défaut réservée à son propriétaire."
+      },
+      {
+       "intertitre": "La réponse de SpaceXSI et les réserves",
+       "texte": "SpaceXSI a seulement répondu que les applications restent privées tant que leur créateur ne les partage pas, que la publication exige plusieurs étapes dont un avis juridique, et que les comptes des employés sont réglés par défaut sur « Only you ». Claroc rétorque que des clics supplémentaires ne servent à rien si « Anyone with the link » reste présélectionné à la dernière étape, et que les 24 applications d'employés ouvertes montrent le peu d'effet de ce réglage plus strict. La firme propose de faire de « Only you » le réglage par défaut, d'afficher qui aura accès avant publication, d'avertir lorsqu'une application a une base de données sans connexion, et d'utiliser des chemins difficiles à deviner sur un hôte partagé plutôt que des sous-domaines. SpaceXSI a retiré les 24 applications de ses employés, mais pas celles d'autres utilisateurs. Faute d'engagement à prévenir les propriétaires, Claroc les avertit directement. L'article rappelle que cette firme vend des solutions de sécurité pour applications créées par IA."
+      }
+     ],
+     "synthese": "Selon Claroc, un réglage de publication ouvert par défaut, des adresses faciles à repérer et un code d'accès défaillant exposent des milliers d'applications Grok, dont celles de SpaceXSI. D'autres fournisseurs rencontrent des problèmes comparables avec leurs fonctions de partage, comme Meta et Anthropic.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a8"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-11",
+     "url": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+     "auteur": "Maximilian Schreiner",
+     "titre": "Des firmes américaines vendraient 500 M$ de données d'IA à la Chine",
+     "chapo": "Selon une enquête de ChinaTalk, au moins neuf entreprises américaines vendent à des laboratoires chinois des environnements d'apprentissage par renforcement, ce qui leur fait économiser du calcul.",
+     "sections": [
+      {
+       "intertitre": "Ce que révèle l'enquête",
+       "texte": "Des entreprises américaines comme Mercor, Surge AI, AfterQuery et Turing vendraient à des laboratoires d'IA chinois environ un demi-milliard de dollars de données d'entraînement, d'après une enquête de ChinaTalk. Une partie prend la forme d'environnements d'apprentissage par renforcement : des mondes simulés où les modèles s'entraînent à des tâches précises, comme le code, l'analyse financière ou le travail de bureau. Les auteurs ont identifié au moins neuf sociétés américaines vendant à des clients chinois. AfterQuery tirerait une part notable de son revenu annuel récurrent de ces clients ; ChinaTalk cite des informations de Forbes sur environ 100 millions de dollars, sans avoir pu les vérifier."
+      },
+      {
+       "intertitre": "Pourquoi les Chinois achètent",
+       "texte": "Les laboratoires chinois achètent délibérément les mêmes produits que ceux déjà vendus à Anthropic ou OpenAI : ils savent qu'ils fonctionnent et évitent ainsi un développement interne coûteux et des entraînements inutiles. Les puces chinoises souffrant de goulets d'étranglement de mémoire, ces économies sont d'autant plus précieuses. S'y ajoute la distillation : ces laboratoires utilisent des modèles américains comme GPT ou Claude en « enseignants » et réemploient leurs réponses comme exemples. Les deux leviers combinés leur permettent de réduire l'écart avec moins de calcul."
+      },
+      {
+       "intertitre": "Des circuits discrets, peu encadrés",
+       "texte": "Surge AI affirme sur son site que ses produits sont « conçus par les mêmes experts que ceux de notre travail pour les laboratoires de pointe ». Les accords passent aussi par des structures offshore : ByteDance dispose de bureaux d'achats à Singapour et à San Jose. Ces liens ont été mis au jour par des sources anonymes et par le manque de rigueur de sous-traitants, qui publient parfois les noms de clients sur LinkedIn ou dans leurs CV. Les contrôles à l'exportation s'appliquent à peine, ces environnements étant largement non réglementés."
+      },
+      {
+       "intertitre": "Risques et nuances",
+       "texte": "Les domaines à double usage posent un risque particulier : les environnements de code améliorent le développement logiciel mais peuvent aussi affûter des capacités cyberoffensives, et ceux de biologie pourraient améliorer la synthèse de gènes et des applications liées aux armes biologiques. Les auteurs demandent que le Bureau of Industry and Security soumette ces environnements aux contrôles existants. Ils jugent toutefois la situation non apocalyptique : en s'appuyant sur le travail américain, les laboratoires chinois restent en retard d'au moins quelques mois, et les environnements sensibles sont de plus en plus conçus en interne par les entreprises américaines."
+      }
+     ],
+     "synthese": "Les laboratoires chinois économisent du calcul en achetant les mêmes environnements d'entraînement que leurs concurrents américains, hors de tout contrôle. Les auteurs de l'enquête réclament des contrôles à l'exportation pour les domaines à double usage.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a6"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-11",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "auteur": "Theresa Loconsolo; Rebecca Bellan; Tim De Chant",
+      "id": "a17",
+      "titre": "Pourquoi le centre de données que vous redoutez pourrait ne jamais être construit",
+      "texte": "Le boom des centres de données se heurte à des obstacles concrets : opposition locale, délais d'autorisation et concurrence pour l'électricité. Avant même ces difficultés, beaucoup de projets annoncés pourraient ne jamais voir le jour, alors que des milliards de dollars sont investis dans l'infrastructure de l'IA."
+     },
+     {
+      "rubrique": "IA",
+      "source": "Ars Technica",
+      "date": "2026-11-11",
+      "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+      "auteur": "",
+      "id": "a28",
+      "titre": "Google DeepMind a vérifié mathématiquement des parties clés de Signal",
+      "texte": "Ce projet de quatre semaines laisse penser que l'IA pourrait rendre la vérification formelle bien plus pratique."
+     },
+     {
+      "rubrique": "IA",
+      "source": "Ars Technica",
+      "date": "2026-11-11",
+      "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+      "auteur": "",
+      "id": "a26",
+      "titre": "TSMC investira 1 milliard de dollars dans Anthropic et OpenAI",
+      "texte": "Un nouvel exemple du financement circulaire qui alimente l'essor de l'IA, au moment où le marché de l'IA vacille."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "Google DeepMind",
+      "date": "2026-11-11",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "auteur": "",
+      "id": "a11",
+      "titre": "AlphaGenome 2 : comment les cellules lisent l'ADN pour mieux comprendre les maladies",
+      "texte": "Le modèle prédit comment les séquences d'ADN et leurs variations influencent des types cellulaires humains et certaines maladies."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-11",
+     "url": "https://www.franceinfo.fr/politique/marine-le-pen/plus-de-cent-constitutionnalistes-critiquent-le-referendum-pour-changer-la-constitution-tel-que-propose-par-marine-le-pen_8278388.html#xtor=RSS-3-[lestitres]",
+     "auteur": "",
+     "titre": "110 constitutionnalistes jugent irrégulier le référendum voulu par Le Pen",
+     "chapo": "Dans une tribune au Monde, 110 universitaires estiment que réviser la Constitution par référendum sans passer par le Parlement, comme le propose Marine Le Pen, est contraire au droit.",
+     "sections": [
+      {
+       "intertitre": "Le déclencheur",
+       "texte": "Cent dix universitaires spécialistes de droit constitutionnel ont publié une tribune dans Le Monde, mercredi 11 novembre. Ils y jugent irrégulière la proposition au cœur du programme du Rassemblement national : si Marine Le Pen accède à l'Élysée, réviser la Constitution par référendum en contournant le Parlement, afin d'appliquer sa politique migratoire. Libération précise que cette révision viserait aussi à mettre en place la préférence nationale. Les signataires écrivent : « Que la Constitution soit complexe à réviser ne donne pas le droit de s'en affranchir. » Ils rejoignent ainsi la position exprimée mi-octobre par le président du Conseil constitutionnel, Richard Ferrand. Selon franceinfo et l'AFP, il s'agit de la proposition phare du programme du RN, ce que confirme Libération."
+      },
+      {
+       "intertitre": "Articles 11 et 89",
+       "texte": "Leur argumentation repose sur la distinction entre deux articles de la Constitution. L'article 11 permet au président de la République de soumettre certains projets de loi au référendum. L'article 89 prévoit que toute révision constitutionnelle doit être votée en « termes identiques » par l'Assemblée nationale et le Sénat, avant d'être approuvée soit par référendum, soit par une majorité des trois cinquièmes du Parlement réuni en Congrès : l'article 89 prévoit donc deux modes d'approbation, mais un seul point de départ, le vote conforme des deux chambres. Pour les signataires, un chef de l'État ne peut donc pas consulter directement les Français pour modifier la Constitution sans l'accord préalable des deux assemblées."
+      },
+      {
+       "intertitre": "Le calcul politique",
+       "texte": "L'enjeu est concret. Le RN espère obtenir une majorité à l'Assemblée après une dissolution suivant la présidentielle, mais le Sénat restera dominé par une majorité de droite et du centre, qui pourrait s'opposer à une telle révision. D'où la volonté de Marine Le Pen de contourner l'article 89 par l'article 11, qui autorise les référendums « sur l'organisation des pouvoirs publics ». Autrement dit, la voie choisie éviterait un Sénat potentiellement hostile. Elle s'appuie sur le précédent de 1962, quand le général de Gaulle avait organisé un référendum sur l'élection du président de la République au suffrage universel."
+      },
+      {
+       "intertitre": "Le risque d'une censure",
+       "texte": "Les universitaires répondent que « le contexte juridique a considérablement évolué » depuis 1962. Selon eux, « l'état actuel du droit conduit à reconnaître la compétence du Conseil constitutionnel pour contrôler un décret du président de la République » convoquant un référendum. Ils laissent ainsi entendre que les Sages pourraient annuler la convocation d'une telle consultation. Ils ajoutent que « l'enjeu dépasse les orientations politiques » : ce qui serait admis aujourd'hui pour un président pourrait être invoqué demain par ses successeurs, y compris pour modifier profondément les prérogatives du Parlement ou les garanties d'indépendance des juridictions. Libération cite leur mise en garde : « C'est donc bien l'équilibre des pouvoirs […] qui se trouve en cause. »"
+      },
+      {
+       "intertitre": "Les réactions",
+       "texte": "Marine Le Pen affirme que la Constitution « n'est pas un contre-pouvoir au peuple » et que « si les Français décident de modifier leur Constitution, personne ne peut les en empêcher ». Libération rappelle que La France insoumise envisage aussi un référendum fondé sur l'article 11, non contre l'immigration, mais pour convoquer une Constituante et instaurer à terme une VIe République. Sa responsable du programme, la députée Clémence Guetté, estime que passer par l'article 89 se heurterait à l'obstruction d'un Sénat « très conservateur ». Elle ajoute que « des constitutionnalistes » lui disent qu'il y a « un chemin », et que le débat existe."
+      }
+     ],
+     "synthese": "Cent dix constitutionnalistes jugent qu'une révision constitutionnelle par référendum ne peut contourner l'article 89 et le vote des deux assemblées, et que le Conseil constitutionnel pourrait censurer la convocation du scrutin. Marine Le Pen répond que le peuple reste souverain pour modifier sa Constitution.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "franceinfo",
+       "url": "https://www.franceinfo.fr/politique/marine-le-pen/plus-de-cent-constitutionnalistes-critiquent-le-referendum-pour-changer-la-constitution-tel-que-propose-par-marine-le-pen_8278388.html"
+      },
+      {
+       "source": "Libération",
+       "url": "https://www.liberation.fr/politique/elections/un-referendum-pour-changer-la-constitution-110-constitutionnalistes-critiquent-le-projet-de-marine-le-pen-20261111_FKMMJMKVCNETHJZ2X7ADMX5Y4M/"
+      }
+     ],
+     "format": "long",
+     "id": "a46"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "Le Monde",
+     "date": "2026-11-11",
+     "url": "https://www.lemonde.fr/societe/article/2026/11/11/les-declarations-en-garde-a-vue-de-kevin-tessier-l-auteur-de-l-attentat-raciste-de-trappes-j-espere-que-je-deviendrai-un-exemple-pour-les-francais_6808986_3224.html",
+     "auteur": "",
+     "titre": "Attentat de Trappes : le tireur assume le caractère raciste de ses actes",
+     "chapo": "Kevin Tessier, 39 ans, a reconnu en garde à vue avoir choisi ses victimes selon leur origine ou leur religion ; il est mis en examen pour assassinat en lien avec une entreprise terroriste.",
+     "sections": [
+      {
+       "intertitre": "Des aveux après plusieurs jours de garde à vue",
+       "texte": "Selon Le Monde, la garde à vue de Kevin Tessier a duré quatre jours dans les locaux de la sous-direction antiterroriste (SDAT), avec un séjour en unité psychiatrique et des propos tantôt confus, tantôt provocateurs. Le 27 octobre au soir, il a admis pour la première fois la dimension raciste de son acte : « J'ai choisi les personnes sur lesquelles j'ai tiré en fonction de leur ethnie ou de leur religion. » BFM précise qu'il visait des personnes « type musulman ou africain », et ses déclarations, dont BFMTV et RMC ont eu connaissance, reprennent une propagande d'ultradroite : « la France est colonisée par les islamistes et Africains en tout genre ». Il juge ne pas avoir commis d'acte terroriste : « C'était pour libérer mon pays. » Selon Le Monde, il a aussi dit : « J'agis pour la France. » Le 29 octobre, il a été mis en examen pour « assassinat et tentatives d'assassinats en relation avec une entreprise terroriste », avec la circonstance aggravante de racisme, puis placé en détention provisoire."
+      },
+      {
+       "intertitre": "Le périple du 23 octobre",
+       "texte": "Le 23 octobre, entre Trappes et La Verrière (Yvelines), cet homme né à Saint-Cyr-l'École, inspecteur de conformité dans des stations-service, est soupçonné d'avoir tué Pengo Bossio Wangi, 26 ans, dont l'autopsie a révélé 21 impacts de balles, et d'avoir blessé sept personnes. Le Monde évoque vingt minutes et huit kilomètres de trajet, BFM douze kilomètres. Il a raconté son parcours froidement : parti de chez lui avec le projet de « tuer », il s'est d'abord rendu à la mosquée de Trappes, vide, puis son arme s'est enrayée à un arrêt de bus. Il a ensuite tiré sur une voiture, sur un homme noir qui marchait seul, puis à la station-service de Trappes, où il dit avoir tiré de près sur un homme blessé à terre, Ahmed Chihi, grièvement atteint et lourdement opéré. À La Verrière, il a rechargé son arme et, dans une cité, a couru vers une jeune femme noire voilée en lui lançant : « Vas-y, prie, ma belle », avant de lui tirer dessus."
+      },
+      {
+       "intertitre": "Victimes et bilan des tirs",
+       "texte": "Selon Le Monde, Samba Coulibaly est toujours hospitalisé dans le coma, pronostic vital engagé, tandis que l'état d'une fillette de 11 ans, visée par neuf tirs, s'est amélioré. BFM parle de Ramatou D., 12 ans, touchée de huit balles selon le tireur, qui affirme avoir cru qu'elle avait « au moins seize, dix-sept ans ». Les enquêteurs ont établi qu'il a tiré « a minima 128 cartouches », chiffre probablement minoré car le vent a pu faire disparaître des étuis ; BFM, qui parle d'un pistolet-mitrailleur Sten, évoque 128 tirs. Selon le procureur national antiterroriste, Olivier Christen, 23 autres personnes sont aussi victimes psychologiques."
+      },
+      {
+       "intertitre": "Idéologie et préméditation",
+       "texte": "Quatre heures après son arrestation, menotté dans un véhicule, il a murmuré : « J'espère que je deviendrai un exemple pour les Français, qu'ils se battront. » Il se dit « de droite », « croyant », et se sent le plus proche de « Macron », sans doute par ironie, note BFM. Une trentaine d'autocollants du Rassemblement national ont été retrouvés chez lui ; les enquêteurs n'ont pas établi, à ce stade, de lien avec des organisations ou groupuscules d'ultradroite. Confronté à des photos de lui lors d'actions propalestiniennes en 2017-2018, il dit avoir voulu « infiltrer les gauchistes », et il a dressé une liste de quatre personnalités de gauche, « ennemis de la France », selon BFMTV et RMC. Il dit penser à ce projet depuis des années et avait envisagé d'agir le 6 septembre 2027, jour de ses 40 ans ; il cite les émeutes de fin octobre 2026 et une agression probablement raciste commise trois jours plus tôt à Levallois-Perret, pour laquelle il était convoqué au commissariat le 23 octobre. Il a dit avoir acheté l'arme quelques mois plus tôt « pour [sa] propre sécurité et celle de [sa] famille », sans dire à qui, et avoir vendu son ordinateur le 21 octobre pour que les enquêteurs n'y accèdent pas. Ses avocats n'ont pas souhaité réagir, selon BFM."
+      }
+     ],
+     "synthese": "Le tireur de Trappes assume désormais le caractère raciste de ses actes sans exprimer de regret. Les enquêteurs n'ont pas établi, à ce stade, de lien avec des organisations d'ultradroite.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "BFM",
+       "url": "https://www.bfmtv.com/police-justice/info-bfmtv-rmc-j-espere-que-je-deviendrai-un-exemple-les-declarations-glacantes-de-kevin-tessier-apres-l-attentat-de-trappes_AV-202611110554.html"
+      }
+     ],
+     "format": "long",
+     "id": "a30"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-11",
+     "url": "https://www.franceinfo.fr/faits-divers/police/violences-policieres/quatre-organisations-syndicales-de-journalistes-deposent-plainte-contre-x-apres-plusieurs-entraves-par-des-forces-de-l-ordre-lors-de-manifestations_8278373.html#xtor=RSS-3-[lestitres]",
+     "auteur": "",
+     "titre": "Journalistes : quatre syndicats portent plainte contre X après des entraves",
+     "chapo": "Le SNJ, le SNJ-CGT, la CFDT-Journalistes et le SGJ-FO ont annoncé, le 11 novembre, une plainte contre X pour des violences et entraves attribuées à des membres des forces de l'ordre.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Quatre organisations syndicales de journalistes, le SNJ, le SNJ-CGT, la CFDT-Journalistes et le SGJ-FO, ont annoncé mercredi 11 novembre, dans un communiqué commun, le dépôt d'une plainte contre X. Cette démarche intervient après celle de sept journalistes devant le procureur de la République de Paris, qui souhaitaient « dénoncer les violences et entraves commises à leur encontre par des membres des forces de l'ordre dans l'exercice de leurs fonctions ». Plusieurs journalistes avaient ainsi porté plainte auparavant, notamment à Paris, pour dénoncer ces violences et entraves lors de la couverture de la mobilisation sociale. Les quatre organisations s'associent désormais à cette démarche judiciaire, en visant des auteurs non identifiés, ce qu'exprime la formule « contre X », et elles la présentent dans un texte signé en commun, sous la forme d'une intersyndicale."
+      },
+      {
+       "intertitre": "Le contexte : une mobilisation sociale en cours",
+       "texte": "Les faits dénoncés se seraient produits lors des différentes manifestations organisées dans le cadre de la mobilisation sociale qui se poursuit en France depuis plusieurs semaines. Dans ce contexte, l'intersyndicale réaffirme que « le travail des journalistes est plus que jamais indispensable » : il permet, selon elle, de documenter les événements, de rendre compte des revendications exprimées, mais aussi de témoigner du déroulement des opérations de maintien de l'ordre et de permettre aux citoyens d'être pleinement informés."
+      },
+      {
+       "intertitre": "Ce que dénoncent les syndicats",
+       "texte": "Les syndicats relèvent que, « alors même que leur présence est essentielle à l'exercice du débat démocratique », les journalistes « font régulièrement l'objet d'insultes, de menaces, de violences physiques et d'obstacles à la prise d'images ou à la couverture des événements ». Le communiqué décrit ainsi une pratique devenue courante, et non des cas rares : les difficultés évoquées vont donc de la parole agressive aux atteintes physiques, en passant par les obstacles mis au travail d'enregistrement et de reportage sur le terrain."
+      },
+      {
+       "intertitre": "Une réponse judiciaire attendue",
+       "texte": "Pour les signataires, qui ne se contentent pas de constater ces faits mais en attendent des suites devant la justice, « ces cas se multiplient, ne peuvent plus être considérés comme de simples incidents isolés, et appellent une réponse judiciaire ferme et à la hauteur de leur gravité ». Ils rappellent que « la liberté de la presse est un droit fondamental et l'une des conditions essentielles de toute société démocratique », et que l'empêcher « entrave le droit de chacun d'être informé »."
+      }
+     ],
+     "synthese": "Quatre syndicats de journalistes réclament une réponse judiciaire ferme aux entraves subies en manifestation. Leur plainte contre X fait suite à celle de sept journalistes déposée auprès du procureur de Paris, dans le contexte de la mobilisation sociale en cours.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "franceinfo",
+       "url": "https://www.franceinfo.fr/faits-divers/police/violences-policieres/quatre-organisations-syndicales-de-journalistes-deposent-plainte-contre-x-apres-plusieurs-entraves-par-des-forces-de-l-ordre-lors-de-manifestations_8278373.html"
+      }
+     ],
+     "format": "long",
+     "id": "a45"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "france",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-12",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/12/louise-57-ans-aidee-par-le-secours-catholique-etre-pauvre-au-rsa-ce-n-est-pas-profiter-du-systeme-c-est-vivre-dans-le-stress_6809034_3224.html",
+      "auteur": "Claire Ané",
+      "id": "a36",
+      "titre": "Pauvreté : le Secours catholique publie son rapport annuel, avec le témoignage de Louise",
+      "texte": "Dans son rapport annuel publié le 12 novembre, le Secours catholique invite à comprendre la pauvreté, qui est multidimensionnelle. Le témoignage de Louise, 57 ans, bénéficiaire du RSA aidée par l'association, montre que les difficultés matérielles s'accompagnent de maltraitances et d'isolement."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-11",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/11/presidentielle-2027-jean-luc-melenchon-critique-pour-ses-propositions-sur-l-ukraine-accuse-les-medias-d-avoir-truque-ses-paroles_6809023_823448.html",
+      "auteur": "",
+      "id": "a32",
+      "titre": "Présidentielle 2027 : Mélenchon accuse les médias d'avoir « truqué ses paroles »",
+      "texte": "Lors de son meeting du 7 novembre, le candidat insoumis a évoqué la possibilité d'un référendum sur la cession du Donbass à la Russie pour résoudre le conflit en Ukraine. Critiqué pour ces propositions, il a répondu le 11 novembre lors d'un « discours sur la paix »."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-11",
+      "url": "https://www.lemonde.fr/international/article/2026/11/11/quatre-journalistes-et-deputes-francais-interdits-de-sejour-en-russie-une-nouvelle-etape-dans-la-degradation-des-relations-entre-paris-et-moscou_6809031_3210.html",
+      "auteur": "",
+      "id": "a33",
+      "titre": "Deux journalistes et deux députés français interdits de séjour en Russie",
+      "texte": "Moscou vise les députés Sacha Houlié et Arthur Delaporte ainsi que les journalistes Ariane Chemin et Paul Gogo, pour leur participation au harcèlement de la propagandiste du Kremlin Xenia Fedorova, selon le ministère russe des affaires étrangères."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "États-Unis",
+     "source": "NPR",
+     "date": "2026-11-11",
+     "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+     "auteur": "The Associated Press",
+     "titre": "Russie et Ukraine : échange de prisonniers convenu, sans percée à Abou Dhabi",
+     "chapo": "Au terme de deux jours de pourparlers sous médiation américaine, Moscou et Kiev ont accepté un vaste échange de prisonniers de guerre, mais aucune avancée majeure vers la paix n'a été obtenue.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "La Russie et l'Ukraine ont convenu d'un vaste échange de prisonniers de guerre, ont indiqué les deux camps mercredi, à l'issue de deux jours de pourparlers sous médiation américaine à Abou Dhabi, aux Émirats arabes unis. Jared Kushner, gendre du président Donald Trump, a parlé du « plus grand échange humanitaire de prisonniers », dont les chiffres seront finalisés jeudi. Vladimir Medinsky, chef de la délégation russe, et Roustem Oumerov, qui conduisait celle de Kyiv, ont confirmé le projet, Medinsky précisant qu'il s'agit d'un accord « de principe ». Selon Alexandre Zorine, du service d'information de l'état-major russe, ce serait l'un des plus importants échanges depuis le retour de 1 000 soldats l'an dernier, et il pourrait avoir lieu d'ici deux ou trois semaines. Les deux camps ont déjà procédé de temps à autre à des échanges de prisonniers, mais restent très éloignés sur les conditions d'un règlement de paix."
+      },
+      {
+       "intertitre": "Des pourparlers sans percée",
+       "texte": "C'était la première rencontre entre les délégations depuis février, à Genève, et les attentes étaient faibles. La session de mercredi a duré un peu moins de deux heures, après quatre heures la veille. Medinsky a estimé que Moscou et Kyiv s'étaient rapprochés de la paix, et le conseiller du Kremlin Iouri Ouchakov a parlé de discussions « de fond et assez utiles ». Kushner admet qu'il n'y a « pas de confiance » entre les parties, mais voit dans l'échange un moyen de réunir des familles et de créer une dynamique. Les responsables américains se disent déterminés à relancer leurs efforts de paix, qui n'ont pas produit de résultats notables jusqu'ici. Les obstacles restent entiers : garanties de sécurité d'après-guerre, sort des territoires ukrainiens occupés et rôle des Européens."
+      },
+      {
+       "intertitre": "Les Européens tenus à l'écart",
+       "texte": "Moscou a exclu les Européens des discussions directes. Leurs représentants, ainsi que ceux de l'Union européenne et de l'OTAN, étaient à Abou Dhabi et devaient rencontrer la délégation ukrainienne mercredi. Zelensky a écrit sur X que l'Europe doit être représentée à chaque étape. Le porte-parole du Kremlin, Dmitri Peskov, juge qu'elle pourrait rejoindre les discussions, mais que ses déclarations actuelles ne montrent aucune volonté de contribuer à la paix. Kushner veut obtenir leur participation et estime que les Européens, l'UE et l'OTAN doivent être associés aux discussions sur la sécurité d'après-guerre. Moscou doit, dit-il, présenter des propositions de désescalade acceptables pour l'Europe. Les responsables européens estiment que les discussions sur la sécurité du continent ne pourraient commencer qu'après un cessez-le-feu ; beaucoup y voient, en y associant la Russie, une concession à Poutine, qui décrit l'élargissement de l'OTAN vers l'est comme une menace majeure et exige un retrait des troupes de l'Alliance de ses frontières."
+      },
+      {
+       "intertitre": "Un contexte qui change",
+       "texte": "Kushner et l'émissaire Steve Witkoff se rendront jeudi à Moscou pour rencontrer Vladimir Poutine, puis à Dublin pour voir Volodymyr Zelensky. Le contexte a changé depuis février : l'administration Trump devra composer en janvier avec un Congrès aux mains des démocrates, qui pourraient réclamer plus de soutien à l'Ukraine. L'économie de guerre russe est sous forte tension et l'Ukraine subit de lourdes attaques sur son réseau électrique. Sur le front, peu de terrain a changé de mains cette année, et les frappes de missiles et de drones se poursuivent : mercredi, une attaque russe sur un marché de la région d'Odessa a fait trois morts et onze blessés."
+      },
+      {
+       "intertitre": "Un Indonésien capturé",
+       "texte": "Par ailleurs, un Indonésien de 49 ans aurait été capturé dans la région de Zaporijjia, affirmant avoir été recruté à son insu pour combattre pour l'armée russe. Selon le projet ukrainien « Je veux vivre », il pensait signer un contrat d'un an dans la construction à Moscou. L'ambassade d'Indonésie à Kyiv cherche à le rencontrer."
+      }
+     ],
+     "synthese": "Les pourparlers d'Abou Dhabi n'ont pas fait avancer la paix, mais ont débouché sur un accord de principe pour un grand échange de prisonniers. Les discussions se poursuivront jeudi à Moscou, puis à Dublin, avec la question d'une participation européenne.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a60"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "monde",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-12",
+      "url": "https://www.politico.eu/article/kremlin-hide-numbers-cant-hide-graves-russia-ukraine-war/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Daria Zakharova",
+      "id": "a68",
+      "titre": "Guerre en Ukraine : le Kremlin peut cacher le bilan des morts, pas les tombes",
+      "texte": "Alors que la guerre se prolonge, Moscou s'efforce de dissimuler le nombre de victimes en fermant des bases de données et en poursuivant ceux qui documentent les morts. Les tombes, elles, restent visibles."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-11",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3373661/low-hanging-fruit-xi-and-trump-pluck-shenzhen-apec-summit",
+      "auteur": "Brian Y S Wong",
+      "id": "a81",
+      "titre": "Sommet de l'APEC à Shenzhen : des gains faciles à saisir pour Xi et Trump",
+      "texte": "Le sommet de l'APEC se tiendra à Shenzhen les 18 et 19 novembre, et accueillera la première de deux rencontres entre Xi Jinping et Donald Trump cette année. Après avoir évoqué une « stabilité stratégique constructive » en mai et en septembre, les deux dirigeants veulent préserver une détente fragile, en partie pour des raisons de politique intérieure."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-12",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
+      "auteur": "",
+      "id": "a94",
+      "titre": "Israël frappe les soins intensifs de l'hôpital Nasser à Gaza",
+      "texte": "Selon la Défense civile de Gaza, une frappe israélienne sur l'hôpital Nasser a fait au moins six morts."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Économie et social",
+     "source": "NBER",
+     "date": null,
+     "url": "https://www.nber.org/papers/w35990#fromrss",
+     "auteur": "Allison T Cole; Maarten Meeuwis; Alessandro Previtero; Noah Stoffman",
+     "titre": "Retraités conseillés : deux tiers du portefeuille en actions, un choix défendable ?",
+     "chapo": "Une étude du NBER sur plus de 36 000 retraités canadiens suivis par un conseiller montre qu'ils gardent des portefeuilles bien plus risqués que les autres, et que ce choix peut se défendre.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "Aux États-Unis, environ 68 % des actifs de retraite sont placés sur des comptes individuels (comptes de retraite individuels, plans à cotisations définies). Les retraités doivent donc décider seuls combien retirer chaque année et quelle part garder en actions ou en obligations, un problème complexe, souvent abordé alors que les capacités cognitives déclinent. Les conseillers financiers sont très sollicités : leur usage culmine vers 65 ans, âge où plus de la moitié des ménages disposant d'un patrimoine à investir font appel à un conseil professionnel. Pourtant, selon les auteurs, la façon dont ces conseillers façonnent les décisions de placement des retraités reste très peu étudiée. L'étude demande si les allocations en actions des retraités conseillés sont sensées."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "Les retraités conseillés gardent environ deux tiers de leur portefeuille en actions jusqu'à un âge avancé : la part passe d'environ 75 % à 65 ans à 55 % à 85 ans, soit 30 à 40 points de pourcentage de plus que les retraités non conseillés (25 à 30 %), la règle empirique « 100 moins l'âge » ou les fonds à date cible. Il s'agit de choix actifs et non d'inertie. Les caractéristiques des investisseurs expliquent peu la variation (16 %), alors que l'identité du conseiller la fait passer à 36 % ; entre conseillers, l'écart interquartile est de 15 points. Après un changement de conseiller, la part en actions converge peu à peu vers celle de ses autres clients, comblant 28 % de l'écart en deux ans. Les conseillers en âge de la retraite détiennent eux-mêmes des parts équivalentes, même après avoir cessé leur activité. Au-delà de dix ans de relation, la part en actions est supérieure d'environ 7 points, et l'influence est la plus forte chez les clients peu informés ou peu tolérants au risque (deux fois plus sensibles pour les moins tolérants)."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "Les auteurs exploitent des données administratives sur plus de 36 000 retraités canadiens conseillés. Pour le profil par âge, ils suivent l'approche de Deaton et Paxson (1994b), reprise par Fagereng, Gottlieb et Guiso (2017). Ils distinguent l'influence des conseillers de l'appariement entre clients et conseillers grâce aux changements de conseiller, y compris involontaires (départ à la retraite, décès, sortie du secteur). Ils s'appuient aussi sur l'enquête Canadian Financial Monitor, de 1999 à 2006, où les retraités avec conseil payant détiennent en moyenne 49 % d'actions contre 24 % pour ceux sans conseil. Enfin, un modèle standard de cycle de vie, avec aversion au risque, risque de mortalité, pension sûre, motif de legs et frais calibrés sur les données, est comparé à un scénario sans conseil."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Avec une aversion au risque modérée de 4,2, le modèle reproduit ces portefeuilles : le retraité typique a un patrimoine financier modeste face à une pension sûre, qui joue le rôle d'une forte détention d'obligations, si bien qu'une part élevée d'actions est optimale. Les conseillers apparaissent donc sincères et plutôt fondés. Dans le scénario sans conseil, la prime d'actions perçue est de 2,4 %, environ 40 % de la prime historique. Le conseil ferait ainsi gagner l'équivalent de 70 points de base par an en mesure objective et 160 en mesure subjective, pour un coût de 140 points de base dans les données. Pour les retraités ayant une pension sûre importante, les fonds à date cible pourraient être trop prudents."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Les auteurs ne peuvent pas exclure complètement une sélection dans le conseil : les investisseurs sans conseiller pourraient être plus averses au risque. Expliquer tout l'écart par ce seul facteur exigerait une aversion de 9,3, mais ils jugent la sélection peu susceptible de tout expliquer. Le modèle ignore par ailleurs les risques de santé et de dépenses médicales, et les données sont canadiennes. Les gains liés à la planification financière ne sont pas comptés."
+      }
+     ],
+     "synthese": "Les retraités conseillés prennent nettement plus de risque en actions, sous l'influence de leurs conseillers, et un modèle standard montre que ce choix se justifie. Les gains du conseil sont du même ordre de grandeur que son coût.",
+     "republication": "",
+     "reference": "Allison T. Cole (Arizona State University), Maarten Meeuwis (Washington University in St. Louis), Alessandro Previtero (Indiana University et NBER), Noah Stoffman (Indiana University) ; NBER Working Paper n° 35990, novembre 2026 ; document de travail non relu par des pairs.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a110"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Santé publique",
+     "source": "PLOS Medicine",
+     "date": "2026-11-11",
+     "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004768",
+     "auteur": "",
+     "titre": "Vaccin antipneumococcique en crise humanitaire : une dose unique suffit-elle ?",
+     "chapo": "Une modélisation publiée dans PLOS Medicine estime qu'une campagne à dose unique, visant les enfants de moins de 5 ans, protège en partie les populations déplacées pendant trois ans.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "À la fin de 2025, environ 118 millions de personnes étaient déplacées de force dans le monde (guerre, insécurité alimentaire, catastrophes naturelles). Dans ces populations, souvent surpeuplées et mal desservies en soins, le pneumocoque (Streptococcus pneumoniae) circule et provoque des maladies graves. Les vaccins antipneumococciques conjugués (PCV) sont pourtant peu utilisés dans les réponses humanitaires : les programmes de routine y sont perturbés et il est difficile d'administrer plusieurs doses. L'OMS recommandait en 2019 de les employer chez les moins d'un an et d'envisager les moins de 5 ans. Les auteurs ont donc voulu évaluer l'effet de campagnes de vaccination réalisables sur le terrain, selon le nombre de doses et les âges ciblés."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "Dans le camp de déplacés de Digaale, près de Hargeisa (Somaliland), une campagne à dose unique avec une couverture élevée chez les moins de 5 ans permet de contrôler en partie les sérotypes vaccinaux jusqu'à 3 ans. Elle évite 27 % (intervalle crédible à 95 % : 20-34) des cas de maladie pneumococcique sévère, tous âges confondus, en vaccinant les moins de 5 ans, et 38 % (29-46) en vaccinant les moins de 15 ans. Cibler les moins d'un an ou de 2 ans n'a qu'un effet faible et de courte durée. La campagne visant les moins de 5 ans est la plus efficiente : 108 doses (77-162) pour éviter un cas sévère, contre 231 (167-326) pour les moins de 15 ans sur 3 ans. Une campagne à dose unique pour les moins de 5 ans (27 %, 108 doses) l'emporte sur une campagne à deux doses pour les moins de 2 ans (12 %, 138 doses). Appliquées aux déplacés du monde, de telles campagnes exigeraient environ 30 millions de doses sur 5 ans (28 à 55 millions selon les résultats détaillés)."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "Les chercheurs ont mené à Digaale (environ 3 000 personnes, 700 abris) une enquête sur le portage du pneumocoque, la malnutrition et les contacts sociaux, afin de paramétrer un modèle de transmission tenant compte des migrations. Ils ont simulé des campagnes à une ou deux doses, ciblant les enfants de moins de 1, 2, 5, 10 ou 15 ans avec 85 % de couverture, sur un horizon de 5 ans. Trois autres cas types ont été modélisés : Maiduguri (Nigeria, 2016), Bambari (République centrafricaine, 2019) et le site de protection des civils de Bentiu (Soudan du Sud, 2015). Chaque scénario repose sur 500 simulations."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Selon les auteurs, des campagnes simples à dose unique, couvrant plusieurs classes d'âge, peuvent être menées efficacement quand la vaccination de routine n'est pas possible ; ces travaux ont contribué à de récentes recommandations de l'OMS en ce sens. Là où les services de routine fonctionnent, l'ensemble du schéma vaccinal reste préférable. L'effet tient en partie à l'immunité collective, qui protège aussi les enfants nés après la campagne. Dans les contextes où les contacts avec une population hôte non vaccinée ou les migrations sont plus importants, comme à Maiduguri, un âge d'éligibilité plus large (moins de 10 ans) est nécessaire pour un effet comparable. Une administration conjointe avec la rougeole pourrait être pratique, mais augmenterait la complexité opérationnelle."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Les données empiriques sur l'efficacité des PCV et sur la maladie en contexte humanitaire sont rares. Le vaccin Pneumosil n'a pas de données d'efficacité sur la transmission, et les profils de portage et de contacts de Somaliland ont été extrapolés à d'autres crises, ce qui peut modifier l'ampleur de l'effet. La couverture de 85 % peut être optimiste dans certains contextes. Les adultes et la rentabilité n'ont pas été évalués directement."
+      }
+     ],
+     "synthese": "Selon cette modélisation, une campagne à dose unique chez les moins de 5 ans est le meilleur compromis entre impact et nombre de doses en situation de crise. Ces estimations dépendent d'hypothèses et de données limitées, et l'effet peut varier selon les contextes.",
+     "republication": "",
+     "reference": "Kevin van Zandvoort, Mohamed O. Bobe, … Stefan Flasche (15 auteurs) ; PLOS Medicine 23(11): e1004768, publié le 11 novembre 2026 ; article de revue en accès libre (étude de modélisation).",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a121"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "recherche",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35989#fromrss",
+      "auteur": "",
+      "id": "a109",
+      "titre": "Locations courte durée : la transparence des prix rend les clients plus sensibles",
+      "texte": "Selon un document de travail du NBER, la loi californienne imposant d'afficher les prix tout compris a accru la sensibilité des clients aux prix par rapport aux villes témoins. Les tarifs journaliers moyens ont pourtant progressé de 4,8 %."
+     },
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35992#fromrss",
+      "auteur": "",
+      "id": "a111",
+      "titre": "Haut débit : les grands fournisseurs investissent où les élections sont disputées",
+      "texte": "Selon le NBER, les grands opérateurs augmentent davantage leur capacité dans les comtés électoralement disputés. Cette présence est associée à moins de politiques facilitant l'entrée de concurrents, notamment l'accès aux droits de passage."
+     },
+     {
+      "rubrique": "Social",
+      "source": "Pew Research Center",
+      "date": "2026-11-11",
+      "url": "https://www.pewresearch.org/short-reads/2026/11/11/key-facts-about-us-data-centers/",
+      "auteur": "",
+      "id": "a116",
+      "titre": "Data centers aux États-Unis : expansion rapide et contestation publique croissante",
+      "texte": "Selon le Pew Research Center, les data centers se multiplient pour alimenter l'IA, et l'opposition du public progresse. Ce centre publie des chiffres clés sur leur implantation, leur consommation d'énergie et l'opinion des Américains."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Sanctions et export",
+     "source": "UA.NEWS",
+     "date": "2026-11-11",
+     "url": "https://ua.news/en/world/pid-novi-sanktsiyi-es-potrapliat-50-rosiiskikh-bankiv",
+     "auteur": "",
+     "titre": "Sanctions UE : 145 nouvelles inscriptions visant la Russie, dont 50 banques",
+     "chapo": "Les ambassadeurs des Vingt-Sept ont convenu le 11 novembre d'inscrire 145 personnes et entités sur les listes de sanctions contre la Russie ; l'approbation finale est attendue le 16.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Lors de la réunion du Comité des représentants permanents, le 11 novembre 2026, les ambassadeurs des États membres de l'Union européenne se sont provisoirement entendus pour ajouter 145 personnes et entités aux listes de sanctions visant la Russie. Elles sont impliquées, selon UA.NEWS, dans l'agression, les cyberattaques et les activités hybrides. La source 1 (UA.NEWS) cite « La Vérité européenne » et un diplomate européen ; la source 2 (UkrMedia News) s'appuie sur Reuters et sur des diplomates de l'Union. Les deux sources s'accordent sur les chiffres : 113 inscriptions au titre du régime principal, 31 au titre du régime sur les activités hybrides et une au titre du régime sur les cyberattaques."
+      },
+      {
+       "intertitre": "Les banques et les entreprises visées",
+       "texte": "Le régime principal sanctionne les actions contre l'intégrité territoriale, la souveraineté et l'indépendance de l'Ukraine. Il comprendra 12 personnes et 101 personnes morales, dont 50 banques russes. Les sanctions toucheront aussi des sociétés qui facilitent les activités de la flotte fantôme russe, qui sert à transporter du pétrole en contournant les restrictions internationales. La source 2 ajoute des entreprises du secteur de l'énergie et des représentants du monde des affaires russe. La liste complète des banques et des sociétés n'est pas encore publiée ; elle doit l'être une fois les décisions officiellement approuvées."
+      },
+      {
+       "intertitre": "Hybride et cyberattaques",
+       "texte": "Dans le régime consacré aux attaques hybrides russes, 30 personnes et une personne morale seront ajoutées, soit 31 inscriptions. D'après la source 2, ces mesures concernent notamment l'ingérence étrangère dans l'information et la manipulation de l'information. Une autre personne morale rejoindra la liste distincte visant les cyberattaques. Selon l'une des sources de Reuters, rapportée par la source 2, une partie des nouvelles restrictions liées aux activités hybrides se rattache à une tentative d'attaque de drones contre l'aéroport de Leipzig/Halle, en Allemagne, dont les autorités allemandes ont rendu Moscou responsable. La Russie nie toute implication dans des sabotages, des opérations hybrides ou la préparation d'attaques contre des membres de l'OTAN."
+      },
+      {
+       "intertitre": "Le calendrier et les effets",
+       "texte": "L'accord des ambassadeurs ne met pas encore les sanctions en vigueur. L'approbation finale revient au Conseil des affaires étrangères de l'Union, réuni le lundi 16 novembre 2026 à Bruxelles, après quoi les actes seront publiés au Journal officiel de l'UE. Au titre du régime principal, les sanctions prévoient le gel des avoirs dans l'Union, l'interdiction de mettre des fonds ou des ressources économiques à disposition des personnes visées et, pour les individus, l'interdiction d'entrer sur le territoire de l'Union ou de le traverser."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "Le 12 octobre, l'Union avait déjà approuvé un important élargissement des listes visant le complexe militaro-industriel russe : 1 569 personnes et entités, dont 826 sociétés et 743 dirigeants. La source 1 rappelle qu'un nouveau paquet de sanctions est en préparation pour novembre 2026, visant surtout des banques régionales russes et des raffineries de pétrole, ainsi que des sociétés de Chine et des Émirats arabes unis qui aident à contourner les barrières précédentes, avec un net élargissement des restrictions à l'exportation. Elle indique aussi que la Commission européenne a rejeté une proposition américaine de reprendre les achats de gaz russe dans le cadre des discussions sur un éventuel cessez-le-feu, et que Bruxelles ne prévoit pas de lever les sanctions avant la fin complète de la guerre."
+      }
+     ],
+     "synthese": "Les ambassadeurs de l'Union ont provisoirement convenu de 145 nouvelles inscriptions, dont 50 banques russes, mais le texte n'entrera en vigueur qu'après l'approbation du Conseil des affaires étrangères, attendue le 16 novembre. Bruxelles dit aussi ne pas vouloir lever les sanctions avant la fin de la guerre.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "UkrMedia News",
+       "url": "https://ukrmedia.news/en/world/yes-sanktsiyi-rosiya-50-bankiv/"
+      }
+     ],
+     "format": "long",
+     "id": "a134"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Sanctions et export",
+     "source": "Reuters",
+     "date": "2026-11-11",
+     "url": "https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/",
+     "auteur": "",
+     "titre": "Une université chinoise sur liste noire a acheté des puces Nvidia H200",
+     "chapo": "Selon Reuters, l'université polytechnique du Nord-Ouest, sur la liste noire américaine, a acheté deux puces H200 en octobre, ce qui révèle des failles dans le contrôle des exportations.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est révélé",
+       "texte": "D'après des documents d'achat consultés par Reuters, qui publie ces informations pour la première fois, la Northwestern Polytechnical University, établissement chinois aux liens étroits avec l'Armée populaire de libération, a acheté le mois dernier deux puces H200 de Nvidia pour 123 000 dollars. Le registre d'achat, daté du 21 octobre, figure sur le site de l'université. Les puces, destinées à son école de gestion, ont été fournies par Shaanxi Bosuan Network Technology, et non directement par Nvidia. L'université, Nvidia et le Bureau de l'industrie et de la sécurité du département américain du Commerce, qui supervise les contrôles à l'exportation, n'ont pas répondu aux demandes de commentaires."
+      },
+      {
+       "intertitre": "Une université sous sanctions",
+       "texte": "Basée à Xi'an, dans le nord-ouest du pays, l'université mène des recherches liées aux avions militaires, aux missiles et aux satellites. Le département du Commerce l'a inscrite en 2001 sur sa liste noire commerciale, l'Entity List, en raison de son implication présumée dans la prolifération de missiles et de recherches militaires, puis a durci les restrictions en 2019 : les licences d'exportation de technologies américaines contrôlées vers l'établissement relèvent depuis d'une politique de refus dans la plupart des cas. Elle fait partie du groupe des « Sept fils de la défense nationale », universités chinoises sous sanctions américaines qui mènent des recherches de défense pour Pékin. La H200 compte parmi les puces les plus performantes de Nvidia pour entraîner et exploiter des systèmes d'IA avancés ; ses exportations exigent une licence, normalement refusée aux institutions de cette liste."
+      },
+      {
+       "intertitre": "Achats et locations de puissance de calcul",
+       "texte": "L'université a aussi acheté cette année, par cinq contrats de location de capacité informatique conclus avec des entreprises chinoises, l'accès à des H200 et à d'autres processeurs Nvidia. Son école de cybersécurité a attribué en janvier deux contrats de sept mois, de 66 218 et 66 113 dollars, pour des serveurs contenant chacun huit H200, destinés au réglage fin de modèles d'IA et à l'apprentissage par renforcement. Elle a également loué des serveurs de huit puces A100 et de huit puces A800, interdites d'exportation vers toutes les entités chinoises. En avril, un autre institut de l'université a acheté, pour 56 219 dollars, des services exigeant au moins 24 puces A100, pour des simulations de structures et de dynamique des fluides. Les contrats sont allés à de petits fournisseurs peu connus, et les registres disent peu de chose de l'origine des processeurs."
+      },
+      {
+       "intertitre": "Un marché plus large",
+       "texte": "Reuters a examiné 26 registres d'achats et documents d'entreprises chinois de cette année : des universités et instituts de recherche y achètent des puces Nvidia soumises à restrictions, ou louent des services de calcul qui en utilisent, par l'intermédiaire de fournisseurs nationaux. L'université de Shenzhen a acheté trois puces H100 pour 115 406 dollars en septembre ; l'université de technologie de Wuhan, un serveur avec une H100 pour 53 221 dollars en juin ; l'université Beihang, elle aussi l'une des « Sept fils », quatre A800 pour 73 310 dollars en avril."
+      },
+      {
+       "intertitre": "Le débat à Washington",
+       "texte": "L'administration Trump a commencé en janvier à autoriser certaines exportations de H200 vers la Chine au cas par cas, sans lever les restrictions distinctes visant les organisations de l'Entity List. Ces révélations surviennent alors que Nvidia et son PDG, Jensen Huang, sont de plus en plus scrutés à Washington pour leur plaidoyer en faveur d'un assouplissement, après des informations selon lesquelles il aurait été visé par une opération d'espionnage chinoise. Huang soutient que les ventes préservent la primauté technologique américaine ; certains élus craignent un appui à la conception d'armes. Trois présidents républicains de commissions du Congrès demandent à le rencontrer le 18 novembre."
+      }
+     ],
+     "synthese": "Des registres d'achat montrent qu'une université chinoise sous sanctions américaines a acquis des H200 par un fournisseur intermédiaire, et les registres décrivent un marché plus large de puces restreintes. L'affaire alimente le débat américain sur le durcissement des contrôles à l'exportation.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Miami Herald",
+       "url": "https://www.miamiherald.com/news/nation-world/national/article318026028.html"
+      }
+     ],
+     "format": "long",
+     "id": "a140"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "veille",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "LCB-FT",
+      "source": "ACAMS",
+      "date": "2026-11-11",
+      "url": "https://www.acams.org/en/news/amla-finalizing-list-systemically-important-banks",
+      "auteur": "",
+      "id": "a143",
+      "titre": "L'AMLA finalise la liste des banques d'importance systémique",
+      "texte": "Selon ACAMS, l'AMLA est en train de finaliser la liste des banques d'importance systémique."
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "Kharon",
+      "date": "2026-11-12",
+      "url": "https://www.kharon.com/resources/customer-story/export-controls/the-franchise-value-imperative-using-the-bis-affiliates-rule-to-strengthen-risk-management-controls",
+      "auteur": "",
+      "id": "a137",
+      "titre": "Kharon plaide pour l'usage de la règle « affiliates » du BIS dans les contrôles de risque",
+      "texte": "Selon Kharon, il faut utiliser la règle « affiliates » du BIS pour renforcer les contrôles de gestion des risques."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Science",
+     "source": "Quanta Magazine",
+     "date": "2026-11-11",
+     "url": "https://www.quantamagazine.org/what-is-the-metabolism-first-theory-for-the-origin-of-life-20261111/",
+     "auteur": "Jake Buehler",
+     "titre": "Le métabolisme a-t-il allumé l'étincelle de la vie ? Deux pistes en débat",
+     "chapo": "Certains chercheurs pensent que des cycles de réactions chimiques simples ont précédé les gènes et les cellules ; reste à savoir où et comment ils ont pu démarrer.",
+     "sections": [
+      {
+       "intertitre": "Le principe : le métabolisme d'abord",
+       "texte": "Depuis plus de 4 milliards d'années, le métabolisme, c'est-à-dire la capacité des cellules à capter, transformer et utiliser l'énergie chimique de leur environnement, alimente le réseau de réactions qui entretient les êtres vivants. Certains chercheurs estiment que ces réactions ont pu déclencher la vie elle-même, sous la forme de cycles autoentretenus de molécules simples, avant les gènes et les cellules. L'ARN et l'ADN, qui stockent l'information héréditaire, ne seraient venus que plus tard. Selon William Martin, biologiste de l'évolution à l'université Heinrich-Heine de Düsseldorf (Allemagne), l'énergie qui traverse le système est ce qu'est la vie : elle synthétise les gènes qui produisent les catalyseurs entretenant la réaction, lesquels ont évolué avec le temps."
+      },
+      {
+       "intertitre": "De Morowitz aux sources hydrothermales",
+       "texte": "L'idée qu'une géochimie non vivante ait pu déclencher une biochimie vivante date de plusieurs décennies. En 1968, le biophysicien américain Harold Morowitz propose que l'énergie qui traverse un système l'organise : l'énergie de sources extérieures, comme le soleil ou des processus géologiques, aurait poussé des réseaux chimiques vers des réactions autoentretenues, favorisées sur le plan thermodynamique, qui auraient pu devenir biologiques avec le temps. La voie de l'acétyl-CoA, que certains microbes actuels utilisent pour produire de l'énergie chimique à partir d'hydrogène et de dioxyde de carbone, en serait une version très simple. À la fin des années 1980 et au début des années 1990, Günter Wächtershäuser, juriste spécialisé en brevets, titulaire d'un doctorat de chimie, a proposé un « monde fer-soufre » : autour des sources hydrothermales, ces eaux chauffées par la géothermie et riches en métaux dissous qui jaillissent du plancher océanique, des réactions comme la voie de l'acétyl-CoA auraient été catalysées par des minéraux de sulfure de fer. L'hydrogène aurait fourni l'énergie, les catalyseurs métalliques maintenant la boucle en marche ; des boucles enzymatiques de plus en plus nombreuses auraient pu s'y greffer, bien avant tout mécanisme génétique d'hérédité."
+      },
+      {
+       "intertitre": "Deux expériences de 2020, deux environnements",
+       "texte": "L'équipe de Martin a reproduit en laboratoire les conditions de température et de pression des sources hydrothermales. En 2020, elle a montré que le dioxyde de carbone et l'hydrogène qu'on y trouve, avec des minéraux de nickel et de fer courants sur ces sites, pouvaient former du formiate, de l'acétate et du pyruvate. Pour Martina Preiner, biochimiste à l'Institut Max-Planck de microbiologie terrestre (Allemagne) et première auteure de l'étude, ces composés sont la « colonne vertébrale » de la voie de l'acétyl-CoA : ces réactions peuvent démarrer avant toute présence d'ARN ou de protéines. D'autres jugent ces conditions peut-être inutiles. Toujours en 2020, Ramanarayanan Krishnamurthy, chimiste organicien à Scripps Research (Californie), et ses collègues ont montré que deux petites molécules possiblement présentes sur la Terre primitive, le pyruvate et le glyoxylate, pouvaient réagir pour former presque tous les composants du cycle inverse de l'acide citrique, analogue de celui de l'acétyl-CoA, dans des conditions de température et d'eau très éloignées de celles d'une source, et sans catalyseur métallique. Le métabolisme aurait pu démarrer dans une mare tiède plutôt que dans un creuset des grands fonds."
+      },
+      {
+       "intertitre": "Les questions ouvertes",
+       "texte": "Quel que soit le lieu, on ignore comment les premières réactions ont pu devenir assez stables pour se complexifier. Un matériau génétique capable de stocker et de répliquer l'information a peut-être été nécessaire pour transmettre les améliorations de ces réactions rudimentaires d'une génération à l'autre. Reste à établir le lien entre métabolisme et information génétique, et à comprendre comment ces réactions ont pu coexister sans se saboter une fois enfermées dans des membranes cellulaires. « Comment mieux les mélanger pour ne pas obtenir un fouillis complet que nous ne pourrions pas analyser ? », demande Krishnamurthy : tel est le défi."
+      }
+     ],
+     "synthese": "Deux expériences de 2020 montrent que des réactions de type métabolique peuvent démarrer sans ARN ni protéines, près d'une source hydrothermale ou, sans métaux, en milieu tiède. Leur stabilisation et leur lien avec l'information génétique restent à expliquer.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a150"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Climat",
+     "source": "Inside Climate News",
+     "date": "2026-11-11",
+     "url": "https://insideclimatenews.org/news/11112026/as-texas-embraces-carbon-storage-a-black-community-questions-the-risks/",
+     "auteur": "Emily Foxhall; The Texas Tribune; Erin Schulte",
+     "titre": "Texas : le stockage de CO2 d'ExxonMobil inquiète la communauté de Cheek",
+     "chapo": "Près de Beaumont, ExxonMobil s'apprête à injecter du CO2 sous terre ; les habitants de Cheek, majoritairement noirs, contestent un permis que le régulateur texan a pourtant accordé.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est en jeu à Cheek",
+       "texte": "Au bord d'une route rurale près de Beaumont, ExxonMobil prépare l'injection de dioxyde de carbone dans le sous-sol pour l'y stocker durablement et l'empêcher de contribuer au réchauffement. Ce pourrait être le premier projet de ce type à entrer en service dans l'État. La Commission des chemins de fer du Texas, qui supervise l'industrie pétrolière et gazière, a obtenu fin 2025 l'autorité de délivrer ces permis et a approuvé le projet en septembre. La communauté voisine de Cheek, à majorité noire et où beaucoup d'habitants sont modestes ou âgés, lui a demandé de revenir sur sa décision : elle ne croit pas aux assurances de l'entreprise sur la sécurité des personnes et des nappes phréatiques."
+      },
+      {
+       "intertitre": "Les craintes des habitants",
+       "texte": "Les riverains redoutent une contamination de l'eau souterraine, une fuite dans l'air qui les suffoquerait, et des secours mal équipés. Le dioxyde de carbone dans l'eau pourrait la rendre plus acide et y faire passer des métaux ; si un panache assez important les enveloppait, les gens ne pourraient ni respirer ni faire fonctionner une voiture pour fuir. L'association de la communauté s'est alliée en juillet 2025 aux avocats gratuits d'Earthjustice et a contesté le permis jusqu'à une audience administrative en mars, jugeant la surveillance souterraine trop étroite. Un juge administratif a ensuite recommandé de soumettre le permis au vote de la commission. S'y ajoute une inquiétude d'environnement et de justice sociale : les habitants craignent d'avoir été choisis parce qu'ils résisteraient moins. ExxonMobil a déjà construit trois puits d'injection en bordure de la communauté."
+      },
+      {
+       "intertitre": "Les arguments en faveur du stockage",
+       "texte": "Les partisans y voient un volet d'une approche « tout ce qui est possible ». Des crédits d'impôt fédéraux soutiennent ces projets, et l'est du Texas attire par son réseau de pipelines (propriété d'ExxonMobil), sa géologie et ses installations industrielles voisines. ExxonMobil a sept accords de stockage, dont le volume égalera les émissions de 2 millions de voitures. Une étude de chercheurs de Texas A&M juge la probabilité de fuite faible. Susan Hovorka, de l'université du Texas à Austin, tient la technologie pour éprouvée, tout en jugeant l'anxiété parfois supérieure à ce qui est réaliste. L'entreprise s'engage à installer des arrêts automatiques, à surveiller le panache souterrain et à tenir une ligne téléphonique permanente."
+      },
+      {
+       "intertitre": "Les critiques et les incidents ailleurs",
+       "texte": "Naomi Oreskes, de Harvard, qualifie cette technologie de « surtout une dangereuse distraction ». Selon une enquête de Drilled et ProPublica, réduire assez les émissions exigerait plus de ressources que possible. Près d'un tiers des 19 projets texans proposés ont été annulés ou suspendus. Un gazoduc de CO2 s'est rompu au Mississippi en 2020 après un glissement de terrain, et des dizaines de personnes ont été hospitalisées ; en Illinois, un fluide injecté a gagné des zones souterraines non autorisées. Le gouverneur de Louisiane, Jeff Landry, a suspendu l'examen des nouvelles demandes pour s'assurer du respect de la réglementation de l'État. Le Dakota du Nord a approuvé huit puits actifs répartis sur trois projets, le Wyoming cinq puits pour un projet, l'Arizona aucun. Pour la chercheuse Naomi Yoder, opposée à la démarche du Texas, on ne pourra pas séquestrer assez de CO2 pour que le risque en vaille la peine."
+      },
+      {
+       "intertitre": "Le régulateur sous pression",
+       "texte": "Lors d'une audience en septembre, le député texan Drew Darby, qui dirige la commission de l'énergie de la Chambre, a demandé que les projets avancent « au rythme le plus soutenu tout en protégeant le public ». Le lendemain, apprenant qu'ExxonMobil n'avait plus parlé aux habitants depuis qu'ils avaient pris des avocats, la présidente de la commission, Christi Craddick, a lancé à l'entreprise : « Donnez-leur de l'information. Soyez là pour leur sécurité. » Elle a pourtant voté pour le permis. Wayne Christian a voté contre, le jugeant dangereux. Le projet « Sunflower » d'ExxonMobil, près de Nome, avance aussi : la commission recueille les avis du public cette semaine."
+      }
+     ],
+     "synthese": "Le projet de Cheek met à l'épreuve la capacité du Texas à accélérer le stockage du CO2 tout en répondant aux inquiétudes des riverains. Pour Sophia Cunningham, du Greater Houston Partnership, la confiance des communautés fera ou déferait ces projets.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a162"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-11",
+      "url": "https://www.sciencesetavenir.fr/archeo-paleo/neandertal-la-conquete-des-mondes-souterrains_195881?xtor=RSS-4",
+      "auteur": "",
+      "id": "a151",
+      "titre": "Néandertal : les secrets des grottes européennes",
+      "texte": "Pendant plus de 100 000 ans, les néandertaliens ont occupé les grottes européennes, où ils ont laissé cercles de stalagmites, crânes d'animaux disposés avec soin et parois gravées. Ces réalisations pourraient révéler des rites dont le sens nous échappe encore."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-11",
+      "url": "https://www.sciencesetavenir.fr/sante/cancer-colorectal-l-immunotherapie-pour-eviter-la-chirurgie_195866?xtor=RSS-16",
+      "auteur": "",
+      "id": "a152",
+      "titre": "Cancer du rectum : l'immunothérapie permet d'éviter la chirurgie chez certains patients",
+      "texte": "Grâce aux progrès de l'immunothérapie, certains patients atteints d'un cancer du rectum peuvent désormais éviter la chirurgie et ses lourdes conséquences."
+     },
+     {
+      "rubrique": "Idées",
+      "source": "Aeon",
+      "date": "2026-11-11",
+      "url": "https://aeon.co/videos/how-a-palaeontologist-decodes-fossils-from-the-dawn-of-complex-life",
+      "auteur": "",
+      "id": "a155",
+      "titre": "Des fossiles édiacariens montrent comment les animaux ont commencé à se déplacer",
+      "texte": "Des spécimens anciens révèlent comment les animaux ont commencé à bouger il y a environ un demi-milliard d'années. Ils livrent aussi le premier exemple connu de latéralité."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-12",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
+      "auteur": "",
+      "id": "a156",
+      "titre": "Curiosity achève sa campagne de forage au trou « Nazca »",
+      "texte": "Selon le blog de la mission publié par la NASA, Curiosity termine sa campagne de forage au trou « Nazca ». La roche y contient des cristaux en forme de disques."
+     }
+    ]
+   },
+   {
+    "type": "solutions",
+    "bloc": "",
+    "taille": 1
+   }
+  ],
+  "jeux": {
+   "sudoku": {
+    "grille": [
+     0,
+     0,
+     2,
+     4,
+     0,
+     9,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3,
+     0,
+     6,
+     9,
+     0,
+     1,
+     0,
+     4,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5,
+     0,
+     2,
+     6,
+     0,
+     0,
+     3,
+     9,
+     0,
+     0,
+     0,
+     9,
+     0,
+     2,
+     0,
+     0,
+     0,
+     3,
+     0,
+     0,
+     5,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     2,
+     0,
+     0,
+     5,
+     1,
+     0,
+     0,
+     0,
+     7,
+     7,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     8,
+     0
+    ],
+    "solution": [
+     3,
+     8,
+     2,
+     4,
+     6,
+     9,
+     7,
+     5,
+     1,
+     9,
+     6,
+     5,
+     1,
+     2,
+     7,
+     8,
+     4,
+     3,
+     4,
+     7,
+     1,
+     8,
+     3,
+     5,
+     6,
+     9,
+     2,
+     1,
+     3,
+     4,
+     9,
+     8,
+     6,
+     2,
+     7,
+     5,
+     5,
+     2,
+     6,
+     7,
+     4,
+     3,
+     9,
+     1,
+     8,
+     8,
+     9,
+     7,
+     2,
+     5,
+     1,
+     4,
+     3,
+     6,
+     6,
+     5,
+     8,
+     3,
+     7,
+     4,
+     1,
+     2,
+     9,
+     2,
+     4,
+     9,
+     5,
+     1,
+     8,
+     3,
+     6,
+     7,
+     7,
+     1,
+     3,
+     6,
+     9,
+     2,
+     5,
+     8,
+     4
+    ]
+   },
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "indices": [
+     [
+      9,
+      0,
+      10
+     ],
+     [
+      2,
+      4,
+      12
+     ],
+     [
+      2,
+      5,
+      12
+     ],
+     [
+      2,
+      9,
+      9
+     ],
+     [
+      3,
+      1,
+      4
+     ],
+     [
+      4,
+      7,
+      12
+     ],
+     [
+      6,
+      3,
+      12
+     ],
+     [
+      6,
+      5,
+      12
+     ],
+     [
+      7,
+      7,
+      10
+     ],
+     [
+      9,
+      1,
+      6
+     ],
+     [
+      9,
+      9,
+      1
+     ]
+    ],
+    "rectangles": [
+     [
+      0,
+      0,
+      10,
+      1
+     ],
+     [
+      0,
+      1,
+      3,
+      4
+     ],
+     [
+      0,
+      5,
+      3,
+      4
+     ],
+     [
+      0,
+      9,
+      9,
+      1
+     ],
+     [
+      3,
+      1,
+      2,
+      2
+     ],
+     [
+      3,
+      3,
+      2,
+      6
+     ],
+     [
+      5,
+      1,
+      4,
+      3
+     ],
+     [
+      5,
+      4,
+      4,
+      3
+     ],
+     [
+      5,
+      7,
+      5,
+      2
+     ],
+     [
+      9,
+      1,
+      1,
+      6
+     ],
+     [
+      9,
+      9,
+      1,
+      1
+     ]
+    ]
+   },
+   "futoshiki": {
+    "n": 6,
+    "donnes": [
+     [
+      1,
+      0,
+      6
+     ],
+     [
+      0,
+      4,
+      4
+     ],
+     [
+      1,
+      5,
+      2
+     ],
+     [
+      2,
+      0,
+      5
+     ]
+    ],
+    "signes": [
+     [
+      [
+       0,
+       0
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     [
+      [
+       2,
+       4
+      ],
+      [
+       2,
+       5
+      ]
+     ],
+     [
+      [
+       2,
+       2
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     [
+      [
+       2,
+       3
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     [
+      [
+       3,
+       0
+      ],
+      [
+       4,
+       0
+      ]
+     ],
+     [
+      [
+       3,
+       4
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     [
+      [
+       1,
+       3
+      ],
+      [
+       2,
+       3
+      ]
+     ],
+     [
+      [
+       5,
+       2
+      ],
+      [
+       4,
+       2
+      ]
+     ],
+     [
+      [
+       4,
+       1
+      ],
+      [
+       3,
+       1
+      ]
+     ],
+     [
+      [
+       3,
+       2
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     [
+      [
+       0,
+       5
+      ],
+      [
+       1,
+       5
+      ]
+     ],
+     [
+      [
+       1,
+       1
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     [
+      [
+       5,
+       4
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     [
+      [
+       4,
+       1
+      ],
+      [
+       4,
+       0
+      ]
+     ],
+     [
+      [
+       1,
+       4
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     [
+      [
+       3,
+       2
+      ],
+      [
+       2,
+       2
+      ]
+     ]
+    ],
+    "solution": [
+     [
+      2,
+      3,
+      6,
+      5,
+      4,
+      1
+     ],
+     [
+      6,
+      4,
+      5,
+      3,
+      1,
+      2
+     ],
+     [
+      5,
+      1,
+      3,
+      4,
+      2,
+      6
+     ],
+     [
+      1,
+      5,
+      2,
+      6,
+      3,
+      4
+     ],
+     [
+      3,
+      2,
+      4,
+      1,
+      6,
+      5
+     ],
+     [
+      4,
+      6,
+      1,
+      2,
+      5,
+      3
+     ]
+    ]
+   },
+   "compte": {
+    "plaques": [
+     10,
+     1,
+     6,
+     10,
+     6,
+     2
+    ],
+    "cible": 202,
+    "solution": [
+     "6 + 10 = 16",
+     "16 × 6 = 96",
+     "96 × 2 = 192",
+     "192 + 10 = 202"
+    ]
+   }
+  },
+  "quiz": [],
+  "solutions_hier": {
+   "sudoku": [
+    6,
+    2,
+    4,
+    1,
+    7,
+    9,
+    8,
+    3,
+    5,
+    3,
+    7,
+    1,
+    8,
+    4,
+    5,
+    9,
+    2,
+    6,
+    8,
+    9,
+    5,
+    6,
+    3,
+    2,
+    1,
+    7,
+    4,
+    1,
+    4,
+    9,
+    5,
+    2,
+    8,
+    3,
+    6,
+    7,
+    5,
+    3,
+    6,
+    4,
+    9,
+    7,
+    2,
+    8,
+    1,
+    2,
+    8,
+    7,
+    3,
+    1,
+    6,
+    5,
+    4,
+    9,
+    9,
+    6,
+    3,
+    7,
+    8,
+    1,
+    4,
+    5,
+    2,
+    7,
+    1,
+    8,
+    2,
+    5,
+    4,
+    6,
+    9,
+    3,
+    4,
+    5,
+    2,
+    9,
+    6,
+    3,
+    7,
+    1,
+    8
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      5,
+      1
+     ],
+     [
+      0,
+      1,
+      1,
+      8
+     ],
+     [
+      0,
+      9,
+      10,
+      1
+     ],
+     [
+      1,
+      1,
+      4,
+      3
+     ],
+     [
+      1,
+      4,
+      4,
+      3
+     ],
+     [
+      1,
+      7,
+      5,
+      2
+     ],
+     [
+      5,
+      0,
+      2,
+      6
+     ],
+     [
+      5,
+      6,
+      3,
+      1
+     ],
+     [
+      6,
+      7,
+      4,
+      1
+     ],
+     [
+      6,
+      8,
+      3,
+      1
+     ],
+     [
+      7,
+      0,
+      1,
+      6
+     ],
+     [
+      8,
+      0,
+      2,
+      4
+     ],
+     [
+      8,
+      4,
+      2,
+      3
+     ],
+     [
+      9,
+      8,
+      1,
+      1
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     4,
+     5,
+     2,
+     1,
+     3,
+     6
+    ],
+    [
+     6,
+     2,
+     5,
+     3,
+     1,
+     4
+    ],
+    [
+     3,
+     4,
+     6,
+     5,
+     2,
+     1
+    ],
+    [
+     2,
+     3,
+     1,
+     4,
+     6,
+     5
+    ],
+    [
+     1,
+     6,
+     4,
+     2,
+     5,
+     3
+    ],
+    [
+     5,
+     1,
+     3,
+     6,
+     4,
+     2
+    ]
+   ],
+   "compte": [
+    "8 × 6 = 48",
+    "48 + 7 = 55",
+    "55 + 3 = 58",
+    "58 − 9 = 49",
+    "49 × 8 = 392"
+   ],
+   "quiz": []
+  },
+  "avertissements": [
+   "Flux indisponibles : EDPB, ESA"
+  ],
+  "indisponibles": [],
+  "non_rediges": {}
+ },
+ "memoire": {
+  "date": "2026-11-12",
+  "nouveaux_mots": [
+   {
+    "mot": "Sibyllin",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Dont le sens est obscur, énigmatique.",
+    "exemple": "Un message sibyllin laissé sur le bureau."
+   },
+   {
+    "mot": "Résilience",
+    "nature": "n. f.",
+    "niveau": "facile",
+    "domaine": "pro",
+    "definition": "Capacité à résister à un choc et à s'en remettre.",
+    "exemple": "La résilience opérationnelle des banques (DORA)."
+   },
+   {
+    "mot": "Acrimonie",
+    "nature": "n. f.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Mauvaise humeur qui s'exprime avec aigreur.",
+    "exemple": "Il évoqua son ancien patron avec acrimonie."
+   },
+   {
+    "mot": "Rodomontade",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Vantardise, fanfaronnade.",
+    "exemple": "Des rodomontades avant le match."
+   },
+   {
+    "mot": "Byzantin",
+    "nature": "adj.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Se dit d'une discussion d'une subtilité excessive et oiseuse.",
+    "exemple": "Une querelle byzantine sur une virgule."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Jurisprudence",
+    "definition": "Ensemble des décisions de justice qui font référence."
+   },
+   {
+    "mot": "Enclin",
+    "definition": "Porté naturellement à quelque chose, disposé à."
+   },
+   {
+    "mot": "Fat",
+    "definition": "Vaniteux, satisfait de lui-même de façon ridicule."
+   },
+   {
+    "mot": "Narquois",
+    "definition": "Moqueur avec une pointe de malice."
+   },
+   {
+    "mot": "Pusillanime",
+    "definition": "Qui manque de courage, d'audace ; timoré."
+   }
+  ],
+  "articles": [
+   "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+   "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+   "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+   "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+   "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+   "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+   "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "https://www.franceinfo.fr/politique/marine-le-pen/plus-de-cent-constitutionnalistes-critiquent-le-referendum-pour-changer-la-constitution-tel-que-propose-par-marine-le-pen_8278388.html#xtor=RSS-3-[lestitres]",
+   "https://www.lemonde.fr/societe/article/2026/11/11/les-declarations-en-garde-a-vue-de-kevin-tessier-l-auteur-de-l-attentat-raciste-de-trappes-j-espere-que-je-deviendrai-un-exemple-pour-les-francais_6808986_3224.html",
+   "https://www.franceinfo.fr/faits-divers/police/violences-policieres/quatre-organisations-syndicales-de-journalistes-deposent-plainte-contre-x-apres-plusieurs-entraves-par-des-forces-de-l-ordre-lors-de-manifestations_8278373.html#xtor=RSS-3-[lestitres]",
+   "https://www.lemonde.fr/societe/article/2026/11/12/louise-57-ans-aidee-par-le-secours-catholique-etre-pauvre-au-rsa-ce-n-est-pas-profiter-du-systeme-c-est-vivre-dans-le-stress_6809034_3224.html",
+   "https://www.lemonde.fr/politique/article/2026/11/11/presidentielle-2027-jean-luc-melenchon-critique-pour-ses-propositions-sur-l-ukraine-accuse-les-medias-d-avoir-truque-ses-paroles_6809023_823448.html",
+   "https://www.lemonde.fr/international/article/2026/11/11/quatre-journalistes-et-deputes-francais-interdits-de-sejour-en-russie-une-nouvelle-etape-dans-la-degradation-des-relations-entre-paris-et-moscou_6809031_3210.html",
+   "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+   "https://www.politico.eu/article/kremlin-hide-numbers-cant-hide-graves-russia-ukraine-war/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "https://www.scmp.com/opinion/china-opinion/article/3373661/low-hanging-fruit-xi-and-trump-pluck-shenzhen-apec-summit",
+   "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
+   "https://www.nber.org/papers/w35990#fromrss",
+   "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004768",
+   "https://www.nber.org/papers/w35989#fromrss",
+   "https://www.nber.org/papers/w35992#fromrss",
+   "https://www.pewresearch.org/short-reads/2026/11/11/key-facts-about-us-data-centers/",
+   "https://ua.news/en/world/pid-novi-sanktsiyi-es-potrapliat-50-rosiiskikh-bankiv",
+   "https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/",
+   "https://www.acams.org/en/news/amla-finalizing-list-systemically-important-banks",
+   "https://www.kharon.com/resources/customer-story/export-controls/the-franchise-value-imperative-using-the-bis-affiliates-rule-to-strengthen-risk-management-controls",
+   "https://www.quantamagazine.org/what-is-the-metabolism-first-theory-for-the-origin-of-life-20261111/",
+   "https://insideclimatenews.org/news/11112026/as-texas-embraces-carbon-storage-a-black-community-questions-the-risks/",
+   "https://www.sciencesetavenir.fr/archeo-paleo/neandertal-la-conquete-des-mondes-souterrains_195881?xtor=RSS-4",
+   "https://www.sciencesetavenir.fr/sante/cancer-colorectal-l-immunotherapie-pour-eviter-la-chirurgie_195866?xtor=RSS-16",
+   "https://aeon.co/videos/how-a-palaeontologist-decodes-fossils-from-the-dawn-of-complex-life",
+   "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/"
+  ],
+  "titres": [
+   "Anthropic affirme avoir porté Claude sur des puces AMD en trois jours",
+   "Applications créées avec Grok : près de 95 % sont ouvertes à tous",
+   "Des firmes américaines vendraient 500 M$ de données d'IA à la Chine",
+   "110 constitutionnalistes jugent irrégulier le référendum voulu par Le Pen",
+   "Attentat de Trappes : le tireur assume le caractère raciste de ses actes",
+   "Journalistes : quatre syndicats portent plainte contre X après des entraves",
+   "Russie et Ukraine : échange de prisonniers convenu, sans percée à Abou Dhabi",
+   "Retraités conseillés : deux tiers du portefeuille en actions, un choix défendable ?",
+   "Vaccin antipneumococcique en crise humanitaire : une dose unique suffit-elle ?",
+   "Sanctions UE : 145 nouvelles inscriptions visant la Russie, dont 50 banques",
+   "Une université chinoise sur liste noire a acheté des puces Nvidia H200",
+   "Le métabolisme a-t-il allumé l'étincelle de la vie ? Deux pistes en débat",
+   "Texas : le stockage de CO2 d'ExxonMobil inquiète la communauté de Cheek"
+  ],
+  "solutions": {
+   "sudoku": [
+    3,
+    8,
+    2,
+    4,
+    6,
+    9,
+    7,
+    5,
+    1,
+    9,
+    6,
+    5,
+    1,
+    2,
+    7,
+    8,
+    4,
+    3,
+    4,
+    7,
+    1,
+    8,
+    3,
+    5,
+    6,
+    9,
+    2,
+    1,
+    3,
+    4,
+    9,
+    8,
+    6,
+    2,
+    7,
+    5,
+    5,
+    2,
+    6,
+    7,
+    4,
+    3,
+    9,
+    1,
+    8,
+    8,
+    9,
+    7,
+    2,
+    5,
+    1,
+    4,
+    3,
+    6,
+    6,
+    5,
+    8,
+    3,
+    7,
+    4,
+    1,
+    2,
+    9,
+    2,
+    4,
+    9,
+    5,
+    1,
+    8,
+    3,
+    6,
+    7,
+    7,
+    1,
+    3,
+    6,
+    9,
+    2,
+    5,
+    8,
+    4
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      10,
+      1
+     ],
+     [
+      0,
+      1,
+      3,
+      4
+     ],
+     [
+      0,
+      5,
+      3,
+      4
+     ],
+     [
+      0,
+      9,
+      9,
+      1
+     ],
+     [
+      3,
+      1,
+      2,
+      2
+     ],
+     [
+      3,
+      3,
+      2,
+      6
+     ],
+     [
+      5,
+      1,
+      4,
+      3
+     ],
+     [
+      5,
+      4,
+      4,
+      3
+     ],
+     [
+      5,
+      7,
+      5,
+      2
+     ],
+     [
+      9,
+      1,
+      1,
+      6
+     ],
+     [
+      9,
+      9,
+      1,
+      1
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     2,
+     3,
+     6,
+     5,
+     4,
+     1
+    ],
+    [
+     6,
+     4,
+     5,
+     3,
+     1,
+     2
+    ],
+    [
+     5,
+     1,
+     3,
+     4,
+     2,
+     6
+    ],
+    [
+     1,
+     5,
+     2,
+     6,
+     3,
+     4
+    ],
+    [
+     3,
+     2,
+     4,
+     1,
+     6,
+     5
+    ],
+    [
+     4,
+     6,
+     1,
+     2,
+     5,
+     3
+    ]
+   ],
+   "compte": [
+    "6 + 10 = 16",
+    "16 × 6 = 96",
+    "96 × 2 = 192",
+    "192 + 10 = 202"
+   ]
+  },
+  "reponses_quiz": []
+ },
+ "essai": false
+}
