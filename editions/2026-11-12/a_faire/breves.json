@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a17\", \"source\": \"TechCrunch\", \"titre\": \"Why the data center you dread might never even be built\", \"resume\": \"The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the first place. With billions of dollars in AI infrastructure […]\"}, {\"id\": \"a32\", \"source\": \"Le Monde\", \"titre\": \"Présidentielle 2027 : Jean-Luc Mélenchon, critiqué pour ses propositions sur l’Ukraine, accuse les médias d’avoir « truqué ses paroles »\", \"resume\": \"Le candidat « insoumis » a, lors de son meeting du 7 novembre, évoqué la possibilité d’un référendum sur la cession du Donbass à la Russie pour résoudre le conflit. Le chef de file de La France insoumise a vivement répondu aux critiques mercredi 11 novembre dans un « discours sur la paix ».\"}, {\"id\": \"a36\", \"source\": \"Le Monde\", \"titre\": \"Louise, 57 ans, aidée par le Secours catholique : « Etre pauvre, au RSA, ce n’est pas profiter du système, c’est vivre dans le stress »\", \"resume\": \"Dans son rapport annuel publié jeudi 12 novembre, l’association invite à « comprendre la pauvreté », qui est « multidimensionnelle » comme en témoigne le quotidien de Louise, rencontrée par « Le Monde », où les difficultés matérielles se doublent de maltraitances et d’isolement.\"}, {\"id\": \"a94\", \"source\": \"Al Jazeera\", \"titre\": \"Israel strikes intensive care at Gaza’s Nasser Hospital\", \"resume\": \"Gaza's Civil Defence says an Israeli strike on Nasser Hospital has killed at least six people.\"}, {\"id\": \"a81\", \"source\": \"South China Morning Post\", \"titre\": \"Low-hanging fruit for Xi and Trump to pluck at Shenzhen Apec summit\", \"resume\": \"The Asia-Pacific Economic Cooperation summit is set to take place in Shenzhen on November 18 and 19. Shenzhen will also be playing host to the first of two further meetings between Chinese President Xi Jinping and US President Donald Trump this year. When the two leaders met in May and September, they called for “constructive strategic stability” as a prescription for US-China relations. Both sides are keen to maintain the fragile detente, in part due to domestic considerations. Beijing wants to...\"}, {\"id\": \"a68\", \"source\": \"Politico Europe\", \"titre\": \"The Kremlin can hide the death toll. It can’t hide the graves.\", \"resume\": \"As the war in Ukraine drags on, Moscow is taking great pains to suppress casualty figures by closing databases and prosecuting those who document the dead.\"}, {\"id\": \"a152\", \"source\": \"Sciences et Avenir\", \"titre\": \"Cancer colorectal : l’immunothérapie pour éviter la chirurgie\", \"resume\": \"Grâce aux progrès de l’immunothérapie, certains patients atteints d’un cancer du rectum peuvent désormais éviter la chirurgie et ses lourdes conséquences.\"}, {\"id\": \"a151\", \"source\": \"Sciences et Avenir\", \"titre\": \"Dans les profondeurs, les secrets de Neandertal\", \"resume\": \"Cercles de stalagmites, crânes d’animaux disposés avec soin, parois gravées… Les néandertaliens ont investi les grottes européennes pendant plus de 100 000 ans pour y habiter et y laisser d’énigmatiques réalisations, dévoilant de possibles rites. Des symboles dont le sens nous échappe encore.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

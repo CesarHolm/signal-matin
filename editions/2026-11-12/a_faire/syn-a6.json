@@ -1,0 +1,64 @@
+{
+ "id": "syn-a6",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a6.json",
+ "limite_caracteres": 3163,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3163 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 11/11/2026\nAuteur : Maximilian Schreiner\nTitre d'origine : US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs\n\nARTICLE :\nUS data brokers are selling half a billion dollars in RL training environments to Chinese AI labs\nKey Points\n- At least nine US firms are selling $500 million worth of AI training data to Chinese labs, according to a ChinaTalk investigation.\n- Chinese buyers use the same training environments built for OpenAI or Anthropic, cutting their own compute costs and development time.\n- Because this data trade remains largely unregulated, the authors call for export controls over potential security risks in areas like cybersecurity and biology.\nAmerican data brokers sell so-called RL environments to Chinese AI labs, helping them save compute during model development. A ChinaTalk investigation identifies at least nine companies involved.\nAmerican data firms like Mercor, Surge AI, AfterQuery, and Turing are selling roughly half a billion dollars' worth of training data to Chinese AI labs, according to an investigation by ChinaTalk. Some of that data takes the form of reinforcement learning environments, which are simulated worlds where AI models are trained on specific tasks like coding, financial analysis, or office work.\nChinese labs deliberately buy the same products previously sold to Anthropic or OpenAI, the report says. That way, they already know the data works and can skip costly in-house development and wasted training runs. Because Chinese chips suffer from acute memory bottlenecks, those savings are particularly valuable for labs there.\nThere is also the issue of distillation. Chinese labs use powerful US models like GPT or Claude as \"teachers,\" using their outputs as training examples. Combined with purchased RL environments, this creates a two-pronged advantage that lets Chinese labs close the gap with less compute of their own.\nAt least nine firms identified\nThe authors identified at least nine US data firms selling to Chinese customers. AfterQuery reportedly draws a significant share of its annual recurring revenue from Chinese customers. ChinaTalk points to Forbes reports of about $100 million in ARR but could not independently verify the sales.\nSurge AI openly advertises on its website that its products are \"built by the same experts behind our frontier-lab work.\" The deals also run through offshore structures. ByteDance maintains procurement offices in Singapore and San Jose.\nThese business relationships came to light through a combination of anonymous sources and sloppy operational security among subcontractors, according to ChinaTalk. The US data firms outsource much of the actual RL environment creation and data curation to low-paid workers in developing countries, especially India. Those subcontractors then sometimes post client names on LinkedIn or in résumés, even though they are supposed to use only code names. Export controls barely apply because RL environments remain largely unregulated.\nCoding and biology raise dual-use concerns\nDomains with dual-use potential pose particular risks: Coding environments improve software development but can also sharpen offensive cyber capabilities. Biology environments could improve gene synthesis capabilities and potentially enhance bioweapons-relevant applications. The ChinaTalk authors argue that the Bureau of Industry and Security should subject these dual-use environments to existing export controls.\nAt the same time, the authors stress that these relationships are not apocalyptic. By piggybacking on US work, Chinese labs still trail their US peers by at least a few months as a structural matter. Sensitive environments in areas like biology, chemistry, cybersecurity, chip design, and investment banking are increasingly being built in-house at American frontier companies, the authors say.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

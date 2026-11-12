@@ -1,0 +1,64 @@
+{
+ "id": "syn-a134",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a134.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : UA.NEWS\nRubrique : Sanctions et export\nDate du flux : 11/11/2026\nAuteur : UA NEWS\nTitre d'origine : 50 Russian banks will be subject to new EU sanctions\n\nARTICLE :\nSOURCE 1 (UA.NEWS) :\n50 Russian banks will be subject to new EU sanctions\nAt a meeting of the Committee of Permanent Representatives on November 11, EU ambassadors tentatively agreed to add 145 individuals and entities involved in aggression, cyberattacks, and hybrid activities to the sanctions lists against Russia.\n“The sanctions lists for actions against Ukraine’s territorial integrity, sovereignty, and independence will include 12 individuals and 101 legal entities. Among these 101 entities are 50 Russian banks,” a European diplomat said.\nSanctions will also be imposed on a number of companies that facilitate the activities of Russia’s shadow fleet. In addition, 30 individuals and one legal entity will be added to the list under the sanctions regime targeting Russia’s hybrid attacks. Another legal entity will be added to the EU sanctions list targeting cyberattacks.\nSource: “European Truth.”\nFinal approval of the package will take place at the EU Foreign Affairs Council meeting on November 16, and the restrictions will also cover companies that facilitate the operations of the shadow fleet.\nIt was previously reported that the European Union is developing another package of sanctions against Russia, which is scheduled to be adopted in November 2026 following approval by all member states of the bloc. Among the entities subject to the restrictions are primarily Russian regional banks and oil refineries, as well as foreign companies from China and the United Arab Emirates that facilitate the circumvention of previous barriers. At the same time, the EU plans to significantly expand export restrictions on Russian companies.\nThe European Commission rejected a proposal by the United States to resume purchases of Russian gas as part of discussions on a possible ceasefire in Ukraine. Officials in Brussels also emphasized that they do not plan to lift sanctions against Moscow until the war is completely over.\n\nSOURCE 2 (UkrMedia News) :\nOn 11 November 2026, the ambassadors of the 27 Member States of the European Union agreed on new sanctions lists targeting Russia, which are set to include 145 individuals and legal entities, including 50 Russian banks. The restrictions will also apply to companies linked to Russia’s shadow fleet, energy firms and individuals involved in disinformation campaigns, cyber-attacks and hybrid activities. This was reported by Reuters, citing EU diplomats. The lists are due to be finalised by EU foreign ministers at a meeting in Brussels on 16 November.\n- On 11 November, EU ambassadors provisionally agreed on 145 new additions to the sanctions lists.\n- The main list will include 113 individuals and legal entities, including 50 Russian banks.\n- The restrictions will also apply to companies linked to the Russian Federation’s shadow fleet and the energy sector.\n- A further 31 entries relate to hybrid activities, and one to cyber-attacks.\n- Final approval is expected on 16 November at a meeting of the Council of the EU.\nWhich Russian banks and companies will be subject to sanctions?\nThe majority of the agreed restrictions relate to the main the EU sanctions regime, introduced in response to Russia’s violation of Ukraine’s territorial integrity and sovereignty.\nAccording to diplomatic sources cited by Reuters, there are plans to add 113 individuals and organisations to this list. Among them are 50 Russian banks, energy companies and representatives Russian business and the organisations that facilitate the operations of the shadow fleet.\nA full list of the banks and companies on which restrictions are proposed has not yet been published. It is expected to be made public once the relevant decisions have been officially approved.\nSanctions under the main regime provide for the freezing of assets belonging to sanctioned persons within the EU and a ban on the provision of funds or economic resources to them. Individuals are also subject to a ban on entry into the European Union and on transit through its territory.\nThe EU is tightening restrictions on the shadow fleet and hybrid operations\nParticular attention The European Union is targeting companies that help Russia transport oil in circumvention of international restrictions. This refers to a network of intermediaries and businesses linked to the so-called ‘shadow fleet’.\nIn addition to the main list, the diplomats agreed on 31 additions under the sanctions regime targeting Russian hybrid activities. These measures relate, in particular, to foreign interference in information and the manipulation of information.\nIt is proposed that a further legal entity be added to a separate sanctions list for its involvement in cyberattack.\nAccording to one of Reuters’ sources, some of the new restrictions on hybrid activities are linked to an attempt to drone attacks on Leipzig Airport/Halle in Germany, for which the German authorities have blamed Moscow.\nRussia denies any involvement in acts of sabotage, hybrid operations or the planning of attacks on NATO member states.\nWhen will the new EU sanctions against Russia come into force?\nPreliminary agreement by diplomats does not yet mean that the new restrictions are already in force. The next stage is the formal approval of the sanctions lists by the EU Foreign Affairs Council.\nIts meeting is scheduled for Monday, 16 November 2026, as confirmed by the official calendar of the Council of the European Union. Once the legal acts have been adopted, the sanctions are to be published in the Official Journal of the EU.\nEarlier, on 12 October, the European Union had already approved a major expansion of the sanctions lists targeting the Russian military-industrial complex. At that time, restrictions were imposed on 1,569 individuals and legal entities, including 826 companies and 743 company directors.\nThe 145 new additions will mark the next step in stepping up sanctions pressure on Russia, provided the ministers approve the proposals agreed by the diplomats.\nAs of 11 November, the sanctions lists had been provisionally approved by the ambassadors of the EU member states. A final decision is expected on 16 November, after which the full list of Russian banks, companies and individuals subject to the restrictions will be announced.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a60",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a60.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : NPR\nRubrique : États-Unis\nDate du flux : 11/11/2026\nAuteur : The Associated Press\nTitre d'origine : Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough\n\nARTICLE :\nRussia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough\nABU DHABI, United Arab Emirates — Russia and Ukraine agreed to a large exchange of prisoners of war, both sides said Wednesday as two days of U.S. mediated talks concluded with no major breakthrough on ending Moscow's nearly 5-year-old full-scale invasion.\nHopes had been low for any significant development in the first meeting in nine months between the delegations. Russia and Ukraine have from time to time swapped POWs but have remained far apart in their demands for accepting a peace settlement.\nU.S. officials say they are determined to revive Washington's peace efforts that so far have failed to deliver significant results.\nAlong with postwar security guarantees for both countries, other key hurdles are the fate of Russian-occupied Ukrainian territory and what role European countries will play in an eventual settlement.\nU.S. envoys to meet with Putin and Zelenskyy\nThe session was the first such meeting since February on Russia's invasion, which analysts and humanitarian organizations say has killed hundreds of thousands of soldiers and thousands of civilians.\nThe talks lasted just under two hours Wednesday, after a four-hour session the previous day.\n\"One of the positives is we agreed that we're going to have the biggest humanitarian release of prisoners, which we're going to finalize the numbers tomorrow,\" said Jared Kushner, U.S. President Donald Trump's son-in-law, after the Abu Dhabi talks ended.\nVladimir Medinsky, head of the Russian delegation, and Rustem Umerov, who led Kyiv's contingent, confirmed the planned POW exchange, although Medinsky noted the agreement was \"in principle.\"\nAlexander Zorin, a deputy chief of the General Staff's information department who attended the talks, told Russian state TV it would be one of the biggest such swaps after the 1,000 soldiers returned home last year.\nThe latest exchange could take place in the next two or three weeks, he said.\nKushner said he and U.S. envoy Steve Witkoff will travel to Moscow on Thursday to meet with President Vladimir Putin, then fly to Dublin, Ireland, to meet Ukrainian President Volodymyr Zelenskyy.\nMedinsky said he felt the meeting helped Moscow and Kyiv edge closer to peace, while Kremlin foreign affairs adviser Yuri Ushakov described the talks as \"substantive and quite useful.\"\nEuropean officials were excluded by Moscow from the talks\nUmerov said Kyiv's delegation was expected to meet later Wednesday with representatives of European governments, the European Union and NATO who were in the capital of the United Arab Emirates but did not attend the three-way talks.\nMoscow doesn't want European countries, which are concerned about Russia's conduct and broader intentions on the continent, involved in the direct negotiations. Kushner said one of the goals of the Moscow meeting is to try to get Europeans added to the talks.\n\"Ukraine's priority is to end the war as soon as possible with a dignified peace,\" Zelenskyy said on X. \"We believe that Europe must be represented at every stage of real diplomacy. It is essential that the United States have a strong position and exert influence on the source of this war — that is Russia.\"\nKremlin spokesman Dmitry Peskov said European representatives could eventually join peace talks but added their current statements \"don't indicate any desire on their part to contribute to movement along the path toward peace.\" Moscow complains that Europe is financing and supplying weaponry to Ukraine.\nKushner said both Ukraine and Russia needed clarity on postwar security arrangements. He said European countries, the EU and NATO have to be involved in those discussions to build consensus on next steps.\nUkraine wants to ensure that Moscow doesn't invade again, and EU officials say any discussions on Europe's security arrangements could only start after a ceasefire. Many in Europe see the inclusion of Russia in those plans as a concession to Putin, who has described NATO's eastward expansion as a top threat to its security. Russia has demanded that the alliance pull back its troops from its borders.\nRussia's security concerns were discussed at the talks, Kushner said, adding that Moscow was told it needs to provide different de-escalation proposals acceptable to Europe.\n\"The reality is, is there's no trust right now between the sides. And that's to be expected after a conflict like this,\" he said. But he posted on X later that the POW exchange \"will reunite families, build trust and create momentum toward peace.\"\nThe talks were held in a new political atmosphere\nThe context of the negotiations has changed since the February meeting in Geneva. The Trump administration now must reckon with Democrats taking over the U.S. Congress in January following the U.S. midterm elections, and they could demand more support for Ukraine.\nAlso, Russia's wartime economy is under heavy strain, and Ukraine is reeling from devastating aerial attacks on its power grid.\nFighting continues on the front line, where little territory has changed hands this year. Both countries are battering each other with long-range missiles and drones.\nThree people died and 11 were injured after Russia launched a daytime attack on a market in the southern Odesa region, local authorities said. Residential buildings were damaged, said Oleh Kiper, head of the regional military administration.\nOvernight, Russia struck the Zaporizhzhia region in southern Ukraine and the eastern city of Kharkiv, wounding seven civilians and damaging property, Ukrainian officials said.\nRussia's Defense Ministry said it downed 627 Ukrainian drones overnight, 150 of them over the region around St. Petersburg. Regional Gov. Alexander Drozdenko said the drones started a fire at the port of Ust-Luga, a main facility for Russian oil exports, injuring three workers.\nAn Indonesian man is reportedly captured on the battlefield\nMeanwhile, a 49-year-old Indonesian man reportedly was captured on the battlefield in southern Ukraine's Zaporizhzhia region after he claimed he was unknowingly recruited to fight for the Russian military.\nThe Indonesian Embassy in Kyiv was seeking access to the man, who was in Ukrainian custody, according to Yvonne Mewengkang, a spokesperson for the Indonesian Ministry of Foreign Affairs.\nAccording to Ukraine's \"I Want to Live\" project that offers Russian troops the opportunity to surrender, the man was taken to occupied Donetsk with no military training and then to the Zaporizhzhia region, where his unit was attacked and he was captured, according to the group's post on Telegram.\nThe man said he signed what he believed to be a contract to work in construction for one year in Moscow, the group said.\nUkrainian and Russian officials made no immediate comment.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a150",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a150.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Quanta Magazine\nRubrique : Science\nDate du flux : 11/11/2026\nAuteur : Jake Buehler November\nTitre d'origine : How a Metabolic Spark Could Have Jump-Started Life\n\nARTICLE :\nFor well over 4 billion years, the fire of metabolism has powered the engines of life. The ability of cells to gather, transform, and harness chemical energy from their surroundings is the central force driving the dizzyingly complex network of chemical reactions that sustains living things.\nMetabolism is so crucial to life that some researchers believe that these reactions could have helped spark life itself. They argue that life’s first glimmers were found in self-sustaining cycles of simple molecules, before genes or cells existed. Only later did more complex molecules like RNA and DNA develop and begin storing information for the purposes of heredity.\nThe core argument behind metabolism’s primacy is that without a self-sustaining reaction to provide energy, it’s impossible to explain how the larger and more complex molecules necessary for cellular life could have been produced at all. Energy going through the system is what life is in its many manifestations, said William Martin, an evolutionary biologist at Heinrich Heine University Düsseldorf in Germany. “It synthesizes genes that contain the information to produce the catalysts that keep this reaction going, and those catalysts have changed over time.”\nThe concept that reactions driven by nonliving geochemistry could have eventually triggered living biochemistry has been decades in the making. In 1968, the American biophysicist Harold Morowitz proposed that energy that flows through a system organizes that system, and he applied this to the concept of a proto-metabolism. Essentially, Morowitz suggested that energy from external environmental sources, such as the sun or geologic processes, could nudge chemical networks into self-sustaining reactions because they were thermodynamically favored. In time, those could become biological reactions.\nA very simple version of early self-sustaining reactions might be something like the acetyl-CoA pathway, a process that some modern microbes use to build complex organic molecules and generate chemical energy from hydrogen and carbon dioxide. But what conditions could have sparked these types of lifelike reactions?\nDeep-sea submersibles first encountered hydrothermal vents in the late 1970s. These are wounds in the seafloor where geothermally heated water rich in dissolved metals pours out into the surrounding seawater. In the late 1980s and early 1990s, Günter Wächtershäuser, a patent lawyer with a doctorate in chemistry, proposed the concept of an “iron-sulfur world.” In this possible early Earth environment, self-sustaining reactions like the acetyl-CoA pathway could have been chemically catalyzed by the iron-sulfide minerals collecting around these vents.\nHere’s how that could have led to life. At first, a very simple pathway might have converted carbon dioxide and hydrogen into more complex carbon-containing compounds such as acetate and pyruvate, and released energy back into the environment. Hydrogen would have provided the energy; metallic catalysts kept this running in a loop. Once a primitive cycle was established, it could begin to produce increasingly complex compounds in layers, with more and more enzymatic loops, all gathering and releasing energy, building out from this original cycle. It’s possible that they could continue increasing in complexity well before any of life’s genetic mechanisms of inheritance had developed.\n“You start out with a simple inorganic catalyst, and then organic catalysts, and then enzymes, and the metabolic process becomes more complex,” Martin said. “But the nature of the reactions that start without enzymes has been up in the air and hotly debated.”\nTo explore possible mechanisms, Martin and his colleagues mimicked temperature and pressure conditions around hydrothermal vents in the laboratory. In 2020, the team showed that chemicals found in these vents, such as carbon dioxide and hydrogen, along with nickel and iron minerals common at these sites, could combine to create formate, acetate, and pyruvate. These compounds are essentially the “spine” of the acetyl-CoA pathway, said Martina Preiner, a biochemist at the Max Planck Institute for Terrestrial Microbiology in Germany and lead author of the study. The findings “show that it’s possible to start these reactions before you have anything else,” including RNA or proteins, Preiner said.\nHowever, some scientists argue that the heated and pressurized conditions around hydrothermal vents may not have been required to form these reactions. Also in 2020, Ramanarayanan Krishnamurthy, an organic chemist at Scripps Research in California, and his colleagues demonstrated that two small molecules that may have been present in an early Earth environment, pyruvate and glyoxylate, could react to form almost all the components of the reverse citric acid cycle — which is analogous to the acetyl-CoA cycle — and could do so not only at temperatures and in water conditions far removed from the more extreme environment of a vent, but also without any metal catalysts. This suggests that metabolism could have kicked off in a tepid pool rather than a deep-sea crucible.\nWhatever environment provided the trigger, there is no well-formed understanding of how initial metabolic reactions could have become stable enough to develop complexity. Genetic material that can store and replicate information may have been necessary to transmit improvements to rudimentary metabolic reactions across generations.\nResearchers also need to establish a connection between metabolism and genetic information, as well as determine how these proto-metabolic reactions might have coexisted without sabotaging each other once they were placed within the confines of cell membranes.\n“How best can we mix them together so that we don’t get a complete mess that we can’t analyze?” Krishnamurthy said. “That is the challenge.”\nEditor’s Note: Ramanarayanan Krishnamurthy has received funding from the Simons Foundation, which also funds this editorially independent magazine. Simons Foundation funding decisions have no influence on our coverage.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a8",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a8.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 11/11/2026\nAuteur : Jonathan Kemper\nTitre d'origine : Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline\n\nARTICLE :\nGrok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline\nKey Points\n- Security firm Claroc found nearly 95 percent of more than 37,000 web apps built with the AI assistant Grok were publicly accessible without login.\n- The exposed apps included confidential business documents from SpaceXSI and X, as well as sensitive third-party data such as patient lab values, shift schedules, and plaintext passwords.\n- Claroc blames an insecure default publishing setting, easily discoverable web addresses, and flawed access controls in Grok-generated code.\nApps built with the AI assistant Grok are almost always open to anyone with the link, according to a security firm. The exposed data includes patient records and confidential documents from Grok maker SpaceXSI itself.\nSecurity firm Claroc found more than 35,000 Grok-built apps that could be accessed without login, according to a recent report. In SpaceXSI's \"Build\" mode (the company was formerly xAI), users describe an app in a chat and Grok writes the code. An app only goes public when its creator clicks \"Publish,\" which gives it its own address on grok.me.\nOut of 37,571 apps Claroc checked that were still online, 35,578 were open to anyone. That's 94.7 percent, according to the report. Claroc points to the publish dialog as the cause. On the paid account the firm used for testing, \"Anyone with the link\" was already preselected. The addresses were also easy to find. Each app gets its own subdomain, so its name shows up in commercial passive DNS databases after the first visit. Those databases can be searched by pattern.\nSpaceXSI employees exposed internal documents too\n24 of the accessible apps came from SpaceXSI and X employees. Among them was a confidential onboarding plan for a new enterprise sales team member that included internal system addresses and 19 chat channels. Claroc also found a publicly accessible sales territory map with 594 strategic accounts and pipeline data, plus eight X ad proposals. One of those proposals targeted a U.S. federal agency and was marked as confidential. Campaign reports and dashboards with ad spending were also exposed.\nMost of the open apps were games, landing pages, or calculators, Claroc says. But about one in ten contained sensitive material, internal business data, or personal information. The firm classifies roughly two percent as especially bad. The researchers estimate that 650 to 800 apps contained private data.\nConfirmed cases included an ICU briefing with a patient's lab values, a list of more than 3,500 employees at a hospital group, and a fire department shift schedule. The source code of a timesheet app contained 18 accounts with plaintext passwords. Beyond SpaceXSI and X, Claroc identified 30 affected organizations, six of them Fortune 500 companies. The firm is withholding the names.\nGrok test app let an outside account join the team\nTwo of Claroc's own test apps turned up another problem. A contact list app ended up with a database that had no login, so anonymous visitors could add entries. For a sales team customer list, Grok added Google and X sign-in on its own. In that test app, though, Grok's code added every authenticated user to the team first and only checked membership afterward. An outside Google account could then read, edit, and delete records. Claroc says it ran write and delete tests only on its own apps.\nGrok does offer the right settings. When set to \"Only you,\" the test app blocked outside access. It just isn't the default. In a test with ChatGPT, a newly built app defaulted to \"Only me\" when shared. That app's address can also show up in DNS data, but it leads to an app only the owner can open.\nSpaceXSI says publishing takes several steps\nSpaceXSI responded to the disclosure only by saying that apps are private until their creator shares them, that publishing takes multiple steps including a legal notice, and that employee accounts default to \"Only you.\" Claroc counters that extra clicks don't help if \"Anyone with the link\" is still preselected at the final step. The 24 open employee apps also show how little the stricter default for staff accounts actually helps, the firm says.\nClaroc proposed that SpaceXSI make \"Only you\" the default and show who will have access before publishing. Grok should also warn when an app has a database but no login. Instead of individual subdomains, apps should run on hard-to-guess paths on a shared host so their names don't end up in DNS data.\nSpaceXSI has since taken the 24 employee apps offline but hasn't removed the open apps from other Grok users and organizations. Claroc offered to share the full list of addresses confidentially. Because SpaceXSI didn't commit to contacting the affected owners, Claroc is now notifying them directly. The firm has its own interests here. It sells security solutions for AI-built apps.\nThis is at least the third privacy incident for SpaceXSI involving Grok. In August 2025, Forbes found more than 370,000 shared Grok conversations in Google Search. In July 2026, the terminal tool Grok Build uploaded user files to the company's servers without asking, including SSH keys and password databases. Because of sexualized deepfakes generated by Grok, Ireland's data protection authority is also investigating whether X neglected data protection by design.\nOther providers have similar problems with their sharing features. Using the same passive DNS method, Claroc tracked down about 6,800 shared conversations from Meta's agent Muse in October. At Anthropic, shared Claude chats and artifacts turned up in search engines in July, including user-built apps.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a140",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a140.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Reuters\nRubrique : Sanctions et export\nDate du flux : 11/11/2026\nTitre d'origine : EXCLUSIVE: Chinese university bought Nvidia H200 chips despite US blacklist\n\nARTICLE :\nSOURCE 1 (Reuters) :\nEXCLUSIVE: Chinese university bought Nvidia H200 chips despite US blacklist Reuters\n\nSOURCE 2 (Miami Herald) :\nBEIJING - A Chinese university with deep ties to the People’s Liberation Army bought Nvidia’s powerful H200 AI chips last month despite being on a US export blacklist, procurement records show, highlighting gaps in Washington’s efforts to curb China’s access to advanced technology.\nThe findings come as Nvidia and its CEO Jensen Huang face mounting scrutiny in Washington over his lobbying for looser restrictions on sales of AI chips to China, following reports alleging he was targeted by a Chinese spying operation.\nHuang has argued that continued US sales to China would preserve American technological leadership and keep Chinese customers reliant on US technology. But some US lawmakers say access to Nvidia’s most powerful AI chips can speed China’s development of AI systems for weapons design, intelligence analysis and military modernization.\nBoth Democrats and Republicans in Congress have urged stronger controls on China’s access to advanced AI chips, such as chip-tracking requirements and greater congressional oversight of exports. Three Republican congressional committee chairmen have requested a briefing with Huang on November 18 over his reported contacts with an alleged Chinese intelligence operative.\nNorthwestern Polytechnical University bought two H200 chips last month for $123,000, according to an October 21 procurement record on its website.\nNorthwestern is a member of the “Seven Sons of National Defense” group of Chinese universities under U.S. sanctions and with a history of conducting defense-related research for Beijing.\nThe chips were purchased for its management school from Shaanxi Bosuan Network Technology rather than directly from Nvidia, the record shows.\nThe H200 is among Nvidia’s most capable chips for training and running advanced AI systems and is subject to US export licence approvals, which are normally denied for blacklisted institutions such as Northwestern Polytechnical.\nNorthwestern Polytechnical also bought access this year to H200 chips and other powerful Nvidia AI processors through five contracts for rented computing capacity from Chinese companies, procurement records show.\nReuters is reporting the chip purchases and computing contracts for the first time. Northwestern Polytechnical, Nvidia and the US Commerce Department’s Bureau of Industry and Security, which oversees export controls, did not respond to requests for comment. Reuters could not determine contact details for Shaanxi Bosuan Network Technology.\nTrade blacklist\nBased in the northwestern city of Xi’an, Northwestern Polytechnical conducts research related to military aircraft, missiles and satellites.\nThe US Commerce Department added the university to its trade blacklist, known as the Entity List, in 2001 over its alleged involvement in missile-proliferation activities and military research. It tightened the restrictions in 2019, making licenses for exports of controlled US technology to the university subject to a policy of denial in most circumstances.\nNorthwestern Polytechnical’s purchases show how Chinese institutions with military ties continue to obtain US AI computing power through domestic suppliers, either by buying chips outright or renting access to servers containing them.\nA Reuters review of 26 Chinese procurement and corporate records from this year found universities and research institutions buying US-restricted Nvidia chips or renting access to Nvidia-powered computing services that use such chips through domestic suppliers. Several had close links to China’s defense industry or military research.\nThe universities named in the records did not respond to requests for comment.\nNvidia chips for military-linked research\nUS President Donald Trump’s administration began allowing some H200 exports to China on a case-by-case basis in January. But that policy did not lift the separate restrictions applying to Entity List organizations such as Northwestern Polytechnical.\nThe January licensing rules also require safeguards to prevent blacklisted entities and military end-users from remotely accessing chips exported under the policy, which covers H200 processors and less advanced models.\nIn addition to the management school’s outright purchase of the two H200 chips, procurement records show the university’s cybersecurity school awarded two seven-month contracts in January for access to servers containing eight H200 chips each. The contracts, worth $66,218 and $66,113, covered fine-tuning AI models and reinforcement-learning training.\nIt also rented access to servers containing eight Nvidia A100 chips and eight A800 chips. The A100 and A800 are banned from export to all Chinese entities, though the H200 is the most advanced of those cited in Northwestern Polytechnical’s procurement records.\nIn April, another university institute bought computing services requiring at least 24 A100 chips in a $56,219 contract for structural and fluid-dynamics simulations.\nThe awards went to several little-known Chinese technology suppliers. The records offered scant information about where the processors originated or where the rented servers operated.\nUnder Chinese law, public procurement agencies must verify that suppliers can fulfill orders before announcing winning bidders and signing contracts.\nA wider market\nThe procurement records show a wider market for restricted Nvidia AI chips and computing services at Chinese universities.\nShenzhen University bought three H100 processors, another high-end Nvidia AI chip banned by the US, for $115,406 in September. Wuhan University of Technology bought a server containing an H100 chip for $53,221 in June and four A100 chips in a separate $51,572 purchase, the records show.\nBeihang University, another of the Seven Sons of National Defense universities, bought four A800 processors for $73,310 in April. Beihang has close ties to China’s aerospace and defense industries and conducts research for military aviation and space programs.\nTwo government procurement announcements in July and September named suppliers selected to provide computing services using Nvidia H800 and A800 chips restricted from export to China to the University of Chinese Academy of Sciences. One listed H800 access at $1.50 per chip-hour. A separate January procurement award named a supplier of six A100 chips worth $72,680 for a Shenzhen-based public institution.\nReuters has previously reported that Chinese institutions acquired restricted Nvidia chips embedded in servers made by Super Micro Computer, Dell and Gigabyte through domestic resellers. Reuters has also documented an underground market in China for restricted Nvidia chips sourced from overseas inventories and third-country intermediaries.\nLast week, Reuters reported that small quantities of H200 chips had reached China through indirect routes while Beijing withheld approval for large-scale imports.\nCopyright Reuters or USA Today Network via Reuters Connect.\nThis story was originally published November 11, 2026 at 12:17 AM.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
