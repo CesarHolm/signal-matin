@@ -1,0 +1,330 @@
+{
+ "date": "2026-11-12",
+ "nouveaux_mots": [
+  {
+   "mot": "Sibyllin",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Dont le sens est obscur, énigmatique.",
+   "exemple": "Un message sibyllin laissé sur le bureau."
+  },
+  {
+   "mot": "Résilience",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Capacité à résister à un choc et à s'en remettre.",
+   "exemple": "La résilience opérationnelle des banques (DORA)."
+  },
+  {
+   "mot": "Acrimonie",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Mauvaise humeur qui s'exprime avec aigreur.",
+   "exemple": "Il évoqua son ancien patron avec acrimonie."
+  },
+  {
+   "mot": "Rodomontade",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Vantardise, fanfaronnade.",
+   "exemple": "Des rodomontades avant le match."
+  },
+  {
+   "mot": "Byzantin",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Se dit d'une discussion d'une subtilité excessive et oiseuse.",
+   "exemple": "Une querelle byzantine sur une virgule."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Jurisprudence",
+   "definition": "Ensemble des décisions de justice qui font référence."
+  },
+  {
+   "mot": "Enclin",
+   "definition": "Porté naturellement à quelque chose, disposé à."
+  },
+  {
+   "mot": "Fat",
+   "definition": "Vaniteux, satisfait de lui-même de façon ridicule."
+  },
+  {
+   "mot": "Narquois",
+   "definition": "Moqueur avec une pointe de malice."
+  },
+  {
+   "mot": "Pusillanime",
+   "definition": "Qui manque de courage, d'audace ; timoré."
+  }
+ ],
+ "articles": [
+  "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+  "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+  "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+  "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+  "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+  "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+  "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+  "https://www.franceinfo.fr/politique/marine-le-pen/plus-de-cent-constitutionnalistes-critiquent-le-referendum-pour-changer-la-constitution-tel-que-propose-par-marine-le-pen_8278388.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/societe/article/2026/11/11/les-declarations-en-garde-a-vue-de-kevin-tessier-l-auteur-de-l-attentat-raciste-de-trappes-j-espere-que-je-deviendrai-un-exemple-pour-les-francais_6808986_3224.html",
+  "https://www.franceinfo.fr/faits-divers/police/violences-policieres/quatre-organisations-syndicales-de-journalistes-deposent-plainte-contre-x-apres-plusieurs-entraves-par-des-forces-de-l-ordre-lors-de-manifestations_8278373.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/societe/article/2026/11/12/louise-57-ans-aidee-par-le-secours-catholique-etre-pauvre-au-rsa-ce-n-est-pas-profiter-du-systeme-c-est-vivre-dans-le-stress_6809034_3224.html",
+  "https://www.lemonde.fr/politique/article/2026/11/11/presidentielle-2027-jean-luc-melenchon-critique-pour-ses-propositions-sur-l-ukraine-accuse-les-medias-d-avoir-truque-ses-paroles_6809023_823448.html",
+  "https://www.lemonde.fr/international/article/2026/11/11/quatre-journalistes-et-deputes-francais-interdits-de-sejour-en-russie-une-nouvelle-etape-dans-la-degradation-des-relations-entre-paris-et-moscou_6809031_3210.html",
+  "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+  "https://www.politico.eu/article/kremlin-hide-numbers-cant-hide-graves-russia-ukraine-war/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.scmp.com/opinion/china-opinion/article/3373661/low-hanging-fruit-xi-and-trump-pluck-shenzhen-apec-summit",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
+  "https://www.nber.org/papers/w35990#fromrss",
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004768",
+  "https://www.nber.org/papers/w35989#fromrss",
+  "https://www.nber.org/papers/w35992#fromrss",
+  "https://www.pewresearch.org/short-reads/2026/11/11/key-facts-about-us-data-centers/",
+  "https://ua.news/en/world/pid-novi-sanktsiyi-es-potrapliat-50-rosiiskikh-bankiv",
+  "https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/",
+  "https://www.acams.org/en/news/amla-finalizing-list-systemically-important-banks",
+  "https://www.kharon.com/resources/customer-story/export-controls/the-franchise-value-imperative-using-the-bis-affiliates-rule-to-strengthen-risk-management-controls",
+  "https://www.quantamagazine.org/what-is-the-metabolism-first-theory-for-the-origin-of-life-20261111/",
+  "https://insideclimatenews.org/news/11112026/as-texas-embraces-carbon-storage-a-black-community-questions-the-risks/",
+  "https://www.sciencesetavenir.fr/archeo-paleo/neandertal-la-conquete-des-mondes-souterrains_195881?xtor=RSS-4",
+  "https://www.sciencesetavenir.fr/sante/cancer-colorectal-l-immunotherapie-pour-eviter-la-chirurgie_195866?xtor=RSS-16",
+  "https://aeon.co/videos/how-a-palaeontologist-decodes-fossils-from-the-dawn-of-complex-life",
+  "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/"
+ ],
+ "titres": [
+  "Anthropic affirme avoir porté Claude sur des puces AMD en trois jours",
+  "Applications créées avec Grok : près de 95 % sont ouvertes à tous",
+  "Des firmes américaines vendraient 500 M$ de données d'IA à la Chine",
+  "110 constitutionnalistes jugent irrégulier le référendum voulu par Le Pen",
+  "Attentat de Trappes : le tireur assume le caractère raciste de ses actes",
+  "Journalistes : quatre syndicats portent plainte contre X après des entraves",
+  "Russie et Ukraine : échange de prisonniers convenu, sans percée à Abou Dhabi",
+  "Retraités conseillés : deux tiers du portefeuille en actions, un choix défendable ?",
+  "Vaccin antipneumococcique en crise humanitaire : une dose unique suffit-elle ?",
+  "Sanctions UE : 145 nouvelles inscriptions visant la Russie, dont 50 banques",
+  "Une université chinoise sur liste noire a acheté des puces Nvidia H200",
+  "Le métabolisme a-t-il allumé l'étincelle de la vie ? Deux pistes en débat",
+  "Texas : le stockage de CO2 d'ExxonMobil inquiète la communauté de Cheek"
+ ],
+ "solutions": {
+  "sudoku": [
+   3,
+   8,
+   2,
+   4,
+   6,
+   9,
+   7,
+   5,
+   1,
+   9,
+   6,
+   5,
+   1,
+   2,
+   7,
+   8,
+   4,
+   3,
+   4,
+   7,
+   1,
+   8,
+   3,
+   5,
+   6,
+   9,
+   2,
+   1,
+   3,
+   4,
+   9,
+   8,
+   6,
+   2,
+   7,
+   5,
+   5,
+   2,
+   6,
+   7,
+   4,
+   3,
+   9,
+   1,
+   8,
+   8,
+   9,
+   7,
+   2,
+   5,
+   1,
+   4,
+   3,
+   6,
+   6,
+   5,
+   8,
+   3,
+   7,
+   4,
+   1,
+   2,
+   9,
+   2,
+   4,
+   9,
+   5,
+   1,
+   8,
+   3,
+   6,
+   7,
+   7,
+   1,
+   3,
+   6,
+   9,
+   2,
+   5,
+   8,
+   4
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     10,
+     1
+    ],
+    [
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     0,
+     5,
+     3,
+     4
+    ],
+    [
+     0,
+     9,
+     9,
+     1
+    ],
+    [
+     3,
+     1,
+     2,
+     2
+    ],
+    [
+     3,
+     3,
+     2,
+     6
+    ],
+    [
+     5,
+     1,
+     4,
+     3
+    ],
+    [
+     5,
+     4,
+     4,
+     3
+    ],
+    [
+     5,
+     7,
+     5,
+     2
+    ],
+    [
+     9,
+     1,
+     1,
+     6
+    ],
+    [
+     9,
+     9,
+     1,
+     1
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    2,
+    3,
+    6,
+    5,
+    4,
+    1
+   ],
+   [
+    6,
+    4,
+    5,
+    3,
+    1,
+    2
+   ],
+   [
+    5,
+    1,
+    3,
+    4,
+    2,
+    6
+   ],
+   [
+    1,
+    5,
+    2,
+    6,
+    3,
+    4
+   ],
+   [
+    3,
+    2,
+    4,
+    1,
+    6,
+    5
+   ],
+   [
+    4,
+    6,
+    1,
+    2,
+    5,
+    3
+   ]
+  ],
+  "compte": [
+   "6 + 10 = 16",
+   "16 × 6 = 96",
+   "96 × 2 = 192",
+   "192 + 10 = 202"
+  ]
+ },
+ "reponses_quiz": []
+}
