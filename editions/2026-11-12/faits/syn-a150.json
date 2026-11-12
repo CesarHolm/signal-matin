@@ -1,0 +1,24 @@
+{
+ "titre": "Le métabolisme a-t-il allumé l'étincelle de la vie ? Deux pistes en débat",
+ "chapo": "Certains chercheurs pensent que des cycles de réactions chimiques simples ont précédé les gènes et les cellules ; reste à savoir où et comment ils ont pu démarrer.",
+ "sections": [
+  {
+   "intertitre": "Le principe : le métabolisme d'abord",
+   "texte": "Depuis plus de 4 milliards d'années, le métabolisme, c'est-à-dire la capacité des cellules à capter, transformer et utiliser l'énergie chimique de leur environnement, alimente le réseau de réactions qui entretient les êtres vivants. Certains chercheurs estiment que ces réactions ont pu déclencher la vie elle-même, sous la forme de cycles autoentretenus de molécules simples, avant les gènes et les cellules. L'ARN et l'ADN, qui stockent l'information héréditaire, ne seraient venus que plus tard. Selon William Martin, biologiste de l'évolution à l'université Heinrich-Heine de Düsseldorf (Allemagne), l'énergie qui traverse le système est ce qu'est la vie : elle synthétise les gènes qui produisent les catalyseurs entretenant la réaction, lesquels ont évolué avec le temps."
+  },
+  {
+   "intertitre": "De Morowitz aux sources hydrothermales",
+   "texte": "L'idée qu'une géochimie non vivante ait pu déclencher une biochimie vivante date de plusieurs décennies. En 1968, le biophysicien américain Harold Morowitz propose que l'énergie qui traverse un système l'organise : l'énergie de sources extérieures, comme le soleil ou des processus géologiques, aurait poussé des réseaux chimiques vers des réactions autoentretenues, favorisées sur le plan thermodynamique, qui auraient pu devenir biologiques avec le temps. La voie de l'acétyl-CoA, que certains microbes actuels utilisent pour produire de l'énergie chimique à partir d'hydrogène et de dioxyde de carbone, en serait une version très simple. À la fin des années 1980 et au début des années 1990, Günter Wächtershäuser, juriste spécialisé en brevets, titulaire d'un doctorat de chimie, a proposé un « monde fer-soufre » : autour des sources hydrothermales, ces eaux chauffées par la géothermie et riches en métaux dissous qui jaillissent du plancher océanique, des réactions comme la voie de l'acétyl-CoA auraient été catalysées par des minéraux de sulfure de fer. L'hydrogène aurait fourni l'énergie, les catalyseurs métalliques maintenant la boucle en marche ; des boucles enzymatiques de plus en plus nombreuses auraient pu s'y greffer, bien avant tout mécanisme génétique d'hérédité."
+  },
+  {
+   "intertitre": "Deux expériences de 2020, deux environnements",
+   "texte": "L'équipe de Martin a reproduit en laboratoire les conditions de température et de pression des sources hydrothermales. En 2020, elle a montré que le dioxyde de carbone et l'hydrogène qu'on y trouve, avec des minéraux de nickel et de fer courants sur ces sites, pouvaient former du formiate, de l'acétate et du pyruvate. Pour Martina Preiner, biochimiste à l'Institut Max-Planck de microbiologie terrestre (Allemagne) et première auteure de l'étude, ces composés sont la « colonne vertébrale » de la voie de l'acétyl-CoA : ces réactions peuvent démarrer avant toute présence d'ARN ou de protéines. D'autres jugent ces conditions peut-être inutiles. Toujours en 2020, Ramanarayanan Krishnamurthy, chimiste organicien à Scripps Research (Californie), et ses collègues ont montré que deux petites molécules possiblement présentes sur la Terre primitive, le pyruvate et le glyoxylate, pouvaient réagir pour former presque tous les composants du cycle inverse de l'acide citrique, analogue de celui de l'acétyl-CoA, dans des conditions de température et d'eau très éloignées de celles d'une source, et sans catalyseur métallique. Le métabolisme aurait pu démarrer dans une mare tiède plutôt que dans un creuset des grands fonds."
+  },
+  {
+   "intertitre": "Les questions ouvertes",
+   "texte": "Quel que soit le lieu, on ignore comment les premières réactions ont pu devenir assez stables pour se complexifier. Un matériau génétique capable de stocker et de répliquer l'information a peut-être été nécessaire pour transmettre les améliorations de ces réactions rudimentaires d'une génération à l'autre. Reste à établir le lien entre métabolisme et information génétique, et à comprendre comment ces réactions ont pu coexister sans se saboter une fois enfermées dans des membranes cellulaires. « Comment mieux les mélanger pour ne pas obtenir un fouillis complet que nous ne pourrions pas analyser ? », demande Krishnamurthy : tel est le défi."
+  }
+ ],
+ "synthese": "Deux expériences de 2020 montrent que des réactions de type métabolique peuvent démarrer sans ARN ni protéines, près d'une source hydrothermale ou, sans métaux, en milieu tiède. Leur stabilisation et leur lien avec l'information génétique restent à expliquer.",
+ "republication": ""
+}

@@ -1,0 +1,29 @@
+{
+ "titre": "Anthropic affirme avoir porté Claude sur des puces AMD en trois jours",
+ "chapo": "Selon Anthropic, son modèle Mythos a écrit presque tout le code nécessaire, ce qui réduirait l'avantage logiciel CUDA de Nvidia ; ces chiffres n'ont pas été vérifiés de façon indépendante.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Anthropic affirme s'être affranchie de sa dépendance à Nvidia grâce à une stratégie multi-puces. Dans une présentation aux investisseurs, l'entreprise explique avoir porté Claude sur des processeurs graphiques AMD en trois jours seulement, presque sans intervention humaine. Selon Tom Brown, cofondateur et Chief Compute Officer, Anthropic entraîne et exploite désormais Claude sur les quatre grandes familles de puces. Elle traite les capacités de calcul de fournisseurs, d'architectures et de sites différents comme un seul ensemble interchangeable, et assure tirer plus de chaque dollar de calcul que tout autre laboratoire d'IA de pointe."
+  },
+  {
+   "intertitre": "Le contexte : CUDA",
+   "texte": "Le principal avantage concurrentiel de Nvidia tient à l'association du matériel et du logiciel, en particulier CUDA, l'écosystème logiciel qui enferme les développeurs dans ses puces. Adapter des modèles à une autre architecture demande tant d'efforts que beaucoup d'entreprises n'essaient même pas. Chaque puce exige son propre logiciel sur mesure et sa propre pile d'inférence, ce qui est coûteux et long. Anthropic dit avoir fait très tôt un « pari non conventionnel » sur le multi-puces, alors que l'industrie jugeait l'effort peu rentable, et être devenue « incroyablement bonne » à ce jeu."
+  },
+  {
+   "intertitre": "Trois jours au lieu de plusieurs mois",
+   "texte": "Jusqu'ici, la mise en route d'une nouvelle plateforme mobilisait des dizaines d'ingénieurs pendant des mois. Cette année, Anthropic a utilisé pour la première fois des GPU AMD et a confié le travail à son modèle de pointe, Mythos. Celui-ci aurait écrit ou porté lui-même près de 100 % des noyaux logiciels (kernels), en trois jours au lieu des six à douze mois habituels. Si ces chiffres sont exacts, le surcoût logiciel, longtemps considéré comme le plus solide atout de Nvidia, diminuerait fortement et les entreprises pourraient changer de fournisseur plus facilement, selon le prix ou la disponibilité."
+  },
+  {
+   "intertitre": "Ce que ça change",
+   "texte": "Dans un marché du calcul où l'offre est tendue, une approche multi-puces permet de viser le meilleur rapport performance-prix, quel que soit le fournisseur. Certaines puces conviennent mieux à l'entraînement, d'autres à l'inférence. Nvidia, dominant sur les puces d'IA, bénéficie d'une marge supérieure à 70 %, inhabituelle pour du matériel. Anthropic compte aussi sur des « multiplicateurs de calcul », des avancées de recherche qui tirent plus de performance de la même capacité, et construit ses propres centres de données via le programme « Anthropic Direct » pour réduire le coût total de possession."
+  },
+  {
+   "intertitre": "Les liens financiers et les réserves",
+   "texte": "Les chiffres proviennent de la présentation aux investisseurs et n'ont pas été vérifiés de façon indépendante. Nvidia et AMD ont tous deux des liens financiers profonds avec Anthropic. En novembre 2025, dans un accord de 45 milliards de dollars avec Microsoft, Nvidia s'est engagé à investir jusqu'à 10 milliards. Selon le document S-1/A déposé auprès de la SEC le 10 novembre 2026, Nvidia participe aussi à un placement privé conditionnel de 26 milliards. AMD a annoncé en juillet 2026 un investissement de jusqu'à 5 milliards ; Anthropic prévoit de déployer jusqu'à deux gigawatts de GPU AMD Instinct MI455X, dès le premier semestre 2027."
+  }
+ ],
+ "synthese": "Anthropic assure que l'IA elle-même peut abaisser la barrière logicielle de CUDA, puisqu'elle aurait porté Claude sur AMD en trois jours. Ces chiffres, issus d'une présentation aux investisseurs, restent à confirmer de façon indépendante.",
+ "republication": "",
+ "sources_ecartees": []
+}

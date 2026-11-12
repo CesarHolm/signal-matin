@@ -1,0 +1,25 @@
+{
+ "titre": "Des firmes américaines vendraient 500 M$ de données d'IA à la Chine",
+ "chapo": "Selon une enquête de ChinaTalk, au moins neuf entreprises américaines vendent à des laboratoires chinois des environnements d'apprentissage par renforcement, ce qui leur fait économiser du calcul.",
+ "sections": [
+  {
+   "intertitre": "Ce que révèle l'enquête",
+   "texte": "Des entreprises américaines comme Mercor, Surge AI, AfterQuery et Turing vendraient à des laboratoires d'IA chinois environ un demi-milliard de dollars de données d'entraînement, d'après une enquête de ChinaTalk. Une partie prend la forme d'environnements d'apprentissage par renforcement : des mondes simulés où les modèles s'entraînent à des tâches précises, comme le code, l'analyse financière ou le travail de bureau. Les auteurs ont identifié au moins neuf sociétés américaines vendant à des clients chinois. AfterQuery tirerait une part notable de son revenu annuel récurrent de ces clients ; ChinaTalk cite des informations de Forbes sur environ 100 millions de dollars, sans avoir pu les vérifier."
+  },
+  {
+   "intertitre": "Pourquoi les Chinois achètent",
+   "texte": "Les laboratoires chinois achètent délibérément les mêmes produits que ceux déjà vendus à Anthropic ou OpenAI : ils savent qu'ils fonctionnent et évitent ainsi un développement interne coûteux et des entraînements inutiles. Les puces chinoises souffrant de goulets d'étranglement de mémoire, ces économies sont d'autant plus précieuses. S'y ajoute la distillation : ces laboratoires utilisent des modèles américains comme GPT ou Claude en « enseignants » et réemploient leurs réponses comme exemples. Les deux leviers combinés leur permettent de réduire l'écart avec moins de calcul."
+  },
+  {
+   "intertitre": "Des circuits discrets, peu encadrés",
+   "texte": "Surge AI affirme sur son site que ses produits sont « conçus par les mêmes experts que ceux de notre travail pour les laboratoires de pointe ». Les accords passent aussi par des structures offshore : ByteDance dispose de bureaux d'achats à Singapour et à San Jose. Ces liens ont été mis au jour par des sources anonymes et par le manque de rigueur de sous-traitants, qui publient parfois les noms de clients sur LinkedIn ou dans leurs CV. Les contrôles à l'exportation s'appliquent à peine, ces environnements étant largement non réglementés."
+  },
+  {
+   "intertitre": "Risques et nuances",
+   "texte": "Les domaines à double usage posent un risque particulier : les environnements de code améliorent le développement logiciel mais peuvent aussi affûter des capacités cyberoffensives, et ceux de biologie pourraient améliorer la synthèse de gènes et des applications liées aux armes biologiques. Les auteurs demandent que le Bureau of Industry and Security soumette ces environnements aux contrôles existants. Ils jugent toutefois la situation non apocalyptique : en s'appuyant sur le travail américain, les laboratoires chinois restent en retard d'au moins quelques mois, et les environnements sensibles sont de plus en plus conçus en interne par les entreprises américaines."
+  }
+ ],
+ "synthese": "Les laboratoires chinois économisent du calcul en achetant les mêmes environnements d'entraînement que leurs concurrents américains, hors de tout contrôle. Les auteurs de l'enquête réclament des contrôles à l'exportation pour les domaines à double usage.",
+ "republication": "",
+ "sources_ecartees": []
+}
