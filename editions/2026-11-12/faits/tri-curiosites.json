@@ -1,0 +1,14 @@
+{
+ "developpes": [
+  {"id": "a150", "score": 8, "raison": "Cycles métaboliques auto-entretenus, possiblement clés aux origines de la vie : sujet de fond en science grand public."},
+  {"id": "a152", "score": 7, "raison": "L'immunothérapie permet à certains patients atteints d'un cancer du rectum d'éviter la chirurgie."},
+  {"id": "a151", "score": 7, "raison": "Structures et crânes d'animaux laissés par les néandertaliens dans les grottes européennes, sur plus de 100 000 ans (réserve)."},
+  {"id": "a162", "score": 6, "raison": "Premier projet texan de stockage géologique du CO2 et questions sur ses risques pour une communauté voisine (réserve)."}
+ ],
+ "breves": [
+  {"id": "a155", "titre": "Des fossiles édiacariens montrent comment les animaux ont commencé à se déplacer", "texte": "Des spécimens anciens révèlent comment les animaux ont commencé à bouger il y a environ un demi-milliard d'années. Ils livrent aussi le premier exemple connu de latéralité."},
+  {"id": "a156", "titre": "Curiosity achève sa campagne de forage au trou « Nazca »", "texte": "Selon le blog de la mission publié par la NASA, Curiosity termine sa campagne de forage au trou « Nazca ». La roche y contient des cristaux en forme de disques."},
+  {"id": "a160", "titre": "Même les cactus menacés par la chaleur et la sécheresse liées au réchauffement", "texte": "Une nouvelle étude suggère que le changement climatique pourrait menacer les cactus plus qu'on ne le pensait. Ces plantes figurent pourtant parmi les plus résistantes au monde."},
+  {"id": "a165", "titre": "Route du Rhum : trois amis du Morbihan remportent chacun leur catégorie", "texte": "Tom Laperche, Basile Bourgnon et Corentin Horeau, tous de La Trinité-sur-Mer, ont gagné leur catégorie à moins de deux minutes d'intervalle. L'arrivée a eu lieu mercredi 11 novembre."}
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "resultats": [
+  {"sport": "Football", "affiche": "Juventus – OL", "score": "0-6", "competition": "Ligue des champions féminine, phase de ligue (4e journée)", "source": "RMC Sport", "url": "https://rmcsport.bfmtv.com/football/feminin/ligue-des-champions/ligue-des-champions-feminine-l-ol-balaye-la-juve_AD-202611110832.html"},
+  {"sport": "Basket", "affiche": "Paris Basketball – Fenerbahçe", "score": "111-109 a.p.", "competition": "Euroligue (coupe d'Europe des clubs)", "source": "L'Équipe", "url": "https://www.lequipe.fr/Basket/Actualites/Paris-fait-chuter-fenerbahce-en-euroligue-sur-un-panier-de-nadir-hifi-au-buzzer-de-la-prolongation/1743081#at_medium=RSS_feeds"},
+  {"sport": "Tennis", "affiche": "Svitolina – Muchova", "score": "3-6 6-2 6-2", "competition": "Finales WTA (circuit WTA), phase de poules", "source": "L'Équipe", "url": "https://www.lequipe.fr/Tennis/Actualites/Malmenee-par-karolina-muchova-elina-svitolina-s-en-sort-et-se-relance-aux-finales-wta/1743084#at_medium=RSS_feeds"},
+  {"sport": "Voile", "affiche": "Route du Rhum", "score": "Alexia Barrier, 10 j 7 h 40 min (Ultim, première femme à finir à la barre)", "competition": "Route du Rhum 2026, arrivées", "source": "L'Équipe", "url": "https://www.lequipe.fr/Voile/Actualites/Alexia-barrier-premiere-navigatrice-a-terminer-la-route-du-rhum-en-ultim/1743066#at_medium=RSS_feeds"},
+  {"sport": "Handball", "affiche": "Saint-Amand – Metz", "score": "23-37", "competition": "Ligue Butagaz Énergie (championnat de France féminin), 9e journée", "source": "L'Équipe", "url": "https://www.lequipe.fr/Handball/Actualites/Metz-cartonne-a-saint-amand-brest-resiste-a-chambray-lors-de-la-9e-journee-de-ligue-butagaz-energie/1743069#at_medium=RSS_feeds"}
+ ],
+ "a_suivre": [
+  {"sport": "Football", "affiche": "Italie – France", "competition": "Ligue des nations, 5e journée", "heure": "20 h 45", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401861151/france-italy"},
+  {"sport": "Football", "affiche": "Angleterre – Croatie", "competition": "Ligue des nations", "heure": "20 h 45", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401861150/croatia-england"}
+ ]
+}

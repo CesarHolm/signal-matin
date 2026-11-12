@@ -1,0 +1,13 @@
+{
+ "developpes": [
+  {"id": "a60", "score": 8, "raison": "Accord russo-ukrainien sur un vaste échange de prisonniers de guerre, négocié à Abou Dhabi : la plus grande libération humanitaire depuis 2022 selon NPR."},
+  {"id": "a94", "score": 8, "raison": "Frappe israélienne sur les soins intensifs de l'hôpital Nasser à Gaza, au moins six morts selon la défense civile."},
+  {"id": "a81", "score": 7, "raison": "Sommet de l'APEC à Shenzhen les 18 et 19 novembre, et première des deux rencontres Xi-Trump prévues cette année."},
+  {"id": "a68", "score": 6, "raison": "Moscou dissimule le bilan des morts en fermant des bases de données et en poursuivant ceux qui documentent les tombes (réserve)."}
+ ],
+ "breves": [
+  {"id": "a90", "titre": "Le vice-président indonésien démissionne sur fond de polémique sur ses qualifications", "texte": "Gibran Rakabuming Raka a démissionné de ses fonctions de vice-président, au cœur d'un différend sur ses qualifications scolaires."},
+  {"id": "a62", "titre": "Trois hommes liés à l'Iran accusés de projets d'attaques contre une base britannique", "texte": "Des agents liés à l'Iran sont poursuivis pour près de vingt attaques, dont un projet visant une base britannique qui accueille des troupes américaines. Un soldat américain est par ailleurs détenu au Royaume-Uni pour des soupçons d'espionnage au profit de la Russie."},
+  {"id": "a73", "titre": "Alertes à la bombe visant des centaines d'écoles en Italie, en Irlande et au Royaume-Uni", "texte": "Selon les autorités italiennes, il s'agit probablement d'une cyberattaque plutôt que d'une menace réelle."}
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "developpes": [
+  {"id": "a5", "score": 8, "raison": "Selon Anthropic, son modèle interne a porté Claude sur GPU AMD en trois jours : l'avantage CUDA de Nvidia recule."},
+  {"id": "a8", "score": 8, "raison": "Plus de 35 000 applications construites avec Grok accessibles sans connexion, dont des données de patients : incident de sécurité et de protection des données."},
+  {"id": "a6", "score": 7, "raison": "Données d'entraînement d'IA vendues à des laboratoires chinois, les contrôles à l'export s'appliquant à peine selon l'enquête citée."},
+  {"id": "a17", "score": 6, "raison": "Opposition locale, délais d'autorisation et besoins en électricité freinent les data centers, dont beaucoup de projets annoncés ne verront pas le jour."},
+  {"id": "a10", "score": 5, "raison": "Le régulateur britannique de l'enseignement supérieur menace les universités de sanctions si elles n'adoptent pas des examens résistants à l'IA (réserve)."}
+ ],
+ "breves": [
+  {"id": "a28", "titre": "Google DeepMind a vérifié mathématiquement des parties clés de Signal", "texte": "Ce projet de quatre semaines laisse penser que l'IA pourrait rendre la vérification formelle bien plus pratique."},
+  {"id": "a26", "titre": "TSMC investira 1 milliard de dollars dans Anthropic et OpenAI", "texte": "Un nouvel exemple du financement circulaire qui alimente l'essor de l'IA, au moment où le marché de l'IA vacille."},
+  {"id": "a11", "titre": "AlphaGenome 2 : comment les cellules lisent l'ADN pour mieux comprendre les maladies", "texte": "Le modèle prédit comment les séquences d'ADN et leurs variations influencent des types cellulaires humains et certaines maladies."},
+  {"id": "a21", "titre": "Fractile lève 720 millions de dollars pour les puces d'IA", "texte": "La société britannique figure désormais parmi les acteurs les mieux financés de la course aux puces conçues spécifiquement pour l'IA."}
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "developpes": [
+  {"id": "a134", "score": 8, "raison": "Nouvelles sanctions européennes visant cinquante banques russes."},
+  {"id": "a140", "score": 7, "raison": "Enquête de Reuters : une université chinoise a acheté des puces Nvidia H200 malgré une liste noire américaine (contrôle des exportations)."},
+  {"id": "a130", "score": 6, "raison": "Application inégale des sanctions de l'UE contre la Russie, selon le WSJ (réserve ; même sujet que a131, à ne développer qu'une fois)."}
+ ],
+ "breves": [
+  {"id": "a143", "titre": "L'AMLA finalise la liste des banques d'importance systémique", "texte": "Selon ACAMS, l'AMLA est en train de finaliser la liste des banques d'importance systémique."},
+  {"id": "a137", "titre": "Kharon plaide pour l'usage de la règle « affiliates » du BIS dans les contrôles de risque", "texte": "Selon Kharon, il faut utiliser la règle « affiliates » du BIS pour renforcer les contrôles de gestion des risques."}
+ ]
+}

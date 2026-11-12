@@ -1,0 +1,14 @@
+{
+ "developpes": [
+  {"id": "a46", "score": 8, "raison": "Plus de cent constitutionnalistes jugent irrégulière la proposition phare du RN de référendum pour changer la Constitution, comme le président du Conseil constitutionnel."},
+  {"id": "a30", "score": 8, "raison": "Garde à vue du suspect de l'attentat de Trappes, accusé d'un meurtre et de sept blessés, avec des revendications racistes révélées par Le Monde."},
+  {"id": "a32", "score": 6, "raison": "Présidentielle 2027 : Jean-Luc Mélenchon critiqué pour sa proposition de référendum sur la cession du Donbass."},
+  {"id": "a36", "score": 6, "raison": "Rapport annuel du Secours catholique sur la pauvreté, avec le témoignage d'une bénéficiaire du RSA (réserve)."},
+  {"id": "a45", "score": 5, "raison": "Quatre syndicats de journalistes portent plainte contre X après des entraves des forces de l'ordre lors de manifestations (réserve)."}
+ ],
+ "breves": [
+  {"id": "a33", "titre": "Deux journalistes et deux députés français interdits de séjour en Russie", "texte": "Moscou vise les députés Sacha Houlié et Arthur Delaporte ainsi que les journalistes Ariane Chemin et Paul Gogo, pour leur participation au harcèlement de la propagandiste du Kremlin Xenia Fedorova, selon le ministère russe des affaires étrangères."},
+  {"id": "a41", "titre": "Attentat de Trappes : le suspect avait dressé une liste de personnalités de gauche", "texte": "Lors de la perquisition à son domicile, les enquêteurs ont découvert sur un post-it une liste de quatre personnalités de gauche et d'extrême gauche, avec leurs numéros de téléphone."},
+  {"id": "a51", "titre": "La tempête Charles, moins forte que prévu au Portugal, se dirige vers la France", "texte": "Le centre et le sud du Portugal restent en alerte rouge à cause de fortes pluies. Selon Météo-France, des perturbations sont attendues jeudi sur une « vaste moitié sud du pays »."}
+ ]
+}

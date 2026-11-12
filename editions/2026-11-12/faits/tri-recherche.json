@@ -1,0 +1,13 @@
+{
+ "developpes": [
+  {"id": "a110", "score": 8, "raison": "Étude NBER : les retraités conseillés gardent environ deux tiers de leur portefeuille en actions, 30 à 40 points de plus que les non-conseillés."},
+  {"id": "a121", "score": 7, "raison": "Modélisation de l'efficacité des campagnes de vaccination antipneumococcique en contextes humanitaires (PLOS Medicine)."},
+  {"id": "a105", "score": 6, "raison": "Document de travail de la BCE : effets des surtaxes locales sur l'impôt sur les sociétés au Portugal, croisant bilans d'entreprises et données de crédit (réserve)."},
+  {"id": "a113", "score": 5, "raison": "Étude NBER : premier effet causal estimé des températures océaniques sur les revenus de la pêche européenne (réserve)."}
+ ],
+ "breves": [
+  {"id": "a109", "titre": "Locations courte durée : la transparence des prix rend les clients plus sensibles", "texte": "Selon un document de travail du NBER, la loi californienne imposant d'afficher les prix tout compris a accru la sensibilité des clients aux prix par rapport aux villes témoins. Les tarifs journaliers moyens ont pourtant progressé de 4,8 %."},
+  {"id": "a111", "titre": "Haut débit : les grands fournisseurs investissent où les élections sont disputées", "texte": "Selon le NBER, les grands opérateurs augmentent davantage leur capacité dans les comtés électoralement disputés. Cette présence est associée à moins de politiques facilitant l'entrée de concurrents, notamment l'accès aux droits de passage."},
+  {"id": "a116", "titre": "Data centers aux États-Unis : expansion rapide et contestation publique croissante", "texte": "Selon le Pew Research Center, les data centers se multiplient pour alimenter l'IA, et l'opposition du public progresse. Ce centre publie des chiffres clés sur leur implantation, leur consommation d'énergie et l'opinion des Américains."}
+ ]
+}
