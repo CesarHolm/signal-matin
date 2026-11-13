@@ -1,0 +1,36 @@
+{
+  "developpes": [
+    {
+      "id": "a134",
+      "score": 8,
+      "raison": "Actualité réglementaire RGPD du CEPD : décision d'adéquation concernant la Corée du Sud, versions finales des BCR-ST et action coordonnée sur le recrutement par IA."
+    },
+    {
+      "id": "a148",
+      "score": 8,
+      "raison": "Sanctions américaines visant la Cour pénale internationale : conséquences concrètes et échéance d'avril 2027 pour les entreprises, avec les mesures de mise en conformité."
+    },
+    {
+      "id": "a138",
+      "score": 7,
+      "raison": "Transposition française de NIS 2 : les demandes des élus locaux ont été écartées à l'Assemblée nationale, évolution réglementaire directe."
+    },
+    {
+      "id": "a163",
+      "score": 6,
+      "raison": "Devoir de vigilance : risques climatiques et émissions de scope 3, mise en conformité des entreprises (CSDDD)."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a157",
+      "titre": "Règles de redevances de l'AMLA : entrée en vigueur attendue à l'été prochain",
+      "texte": "Selon AML Intelligence, Bruxelles ne s'attend à une entrée en vigueur des règles sur les redevances de l'AMLA, l'autorité européenne de lutte contre le blanchiment, que pour l'été prochain, les capitales tardant à s'accorder."
+    },
+    {
+      "id": "a160",
+      "titre": "Monaco sort de la liste grise du GAFI, mais des restrictions européennes demeurent",
+      "texte": "Monaco a été retiré de la liste grise du GAFI. Des restrictions de l'Union européenne restent toutefois en vigueur, selon Monaco Life."
+    }
+  ]
+}

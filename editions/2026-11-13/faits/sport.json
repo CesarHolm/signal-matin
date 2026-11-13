@@ -1,0 +1,54 @@
+{
+  "resultats": [
+    {
+      "sport": "Football",
+      "affiche": "Italie – France",
+      "score": "3-1",
+      "competition": "Ligue des nations (UEFA), phase de groupes",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401861151/france-italy"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Angleterre – Croatie",
+      "score": "2-1",
+      "competition": "Ligue des nations (UEFA), phase de groupes",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401861150/croatia-england"
+    },
+    {
+      "sport": "Tennis",
+      "affiche": "Gauff – Kostyuk",
+      "score": "6-4 7-5",
+      "competition": "Finales WTA (circuit WTA), phase de poules",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/Coco-gauff-renverse-marta-kostyuk-dans-le-deuxieme-set-et-peut-croire-a-la-qualification-en-demies-des-finales-wta/1743294#at_medium=RSS_feeds"
+    }
+  ],
+  "a_suivre": [
+    {
+      "sport": "Rugby",
+      "affiche": "France – Afrique du Sud",
+      "competition": "Championnat des nations (rugby à XV)",
+      "heure": "21 h 10",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Rugby/Actualites/Ferveur-exceptionnelle-attendue-au-stade-de-france-pour-france-afrique-du-sud-entre-passion-mais-aussi-emotion-onze-ans-apres-les-attentats-du-13-novembre-2015/1743244#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Serbie – Allemagne",
+      "competition": "Ligue des nations (UEFA), phase de groupes",
+      "heure": "20 h 45",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401861158/germany-serbia"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Pays-Bas – Grèce",
+      "competition": "Ligue des nations (UEFA), phase de groupes",
+      "heure": "20 h 45",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401861159/greece-netherlands"
+    }
+  ]
+}

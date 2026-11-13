@@ -1,0 +1,56 @@
+{
+  "developpes": [
+    {
+      "id": "a5",
+      "score": 9,
+      "raison": "Démission du PDG de Nvidia après le scandale d'espionnage, avec 1 400 milliards de dollars de capitalisation effacés : fait nouveau majeur, dans le prolongement du sujet déjà publié."
+    },
+    {
+      "id": "a4",
+      "score": 8,
+      "raison": "Analyse de sécurité d'OpenAI sur l'érosion de la transparence des raisonnements des modèles de pointe : enjeu de supervision directement pertinent pour la gestion des risques."
+    },
+    {
+      "id": "a8",
+      "score": 8,
+      "raison": "Projet de loi australien rendant obligatoires les règles de sécurité et les audits indépendants des modèles d'IA de pointe : tendance réglementaire."
+    },
+    {
+      "id": "a25",
+      "score": 7,
+      "raison": "Demandes de moratoire sur l'IA à l'école après une plainte liée à Gemini : risque juridique, de réputation et protection des mineurs."
+    },
+    {
+      "id": "a1",
+      "score": 7,
+      "raison": "Nvidia aurait confirmé en privé la faisabilité du suivi des puces contre la contrebande : enjeu de contrôle des exportations (réserve)."
+    },
+    {
+      "id": "a24",
+      "score": 6,
+      "raison": "Déploiement de Gemini 4 Hydrogen, nouveau modèle majeur de Google (réserve)."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a19",
+      "titre": "United Airlines interdit aux agents d'IA de réserver des vols, invoquant la cybersécurité",
+      "texte": "La compagnie ne permettra plus à ses clients d'utiliser des agents d'IA pour réserver des vols et gérer leurs réservations. Elle invoque des risques de cybersécurité."
+    },
+    {
+      "id": "a22",
+      "titre": "La FAA étend l'usage de l'IA pour gérer la congestion du trafic aérien américain",
+      "texte": "L'autorité américaine de l'aviation civile élargit à l'ensemble de l'espace aérien ses conseils fondés sur l'IA. Les compagnies aériennes saluent l'outil, mais le syndicat des contrôleurs aériens n'a pas été associé."
+    },
+    {
+      "id": "a20",
+      "titre": "SoftBank perd plus de 3 milliards de dollars en précommandant des turbines à gaz",
+      "texte": "SoftBank a perdu plus de 3 milliards de dollars après avoir précommandé des turbines à gaz destinées à alimenter des centres de données d'IA. Cette perte pourrait freiner les ambitions de l'IA dans le gaz naturel."
+    },
+    {
+      "id": "a13",
+      "titre": "Nebius finance 40 milliards de dollars d'infrastructures IA par des prépaiements",
+      "texte": "Le fournisseur prévoit de financer son expansion par des prépaiements de clients et des prêts. Des retards dans un centre de données de Microsoft soulèvent des questions sur ce modèle de financement."
+    }
+  ]
+}

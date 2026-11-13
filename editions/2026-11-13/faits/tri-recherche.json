@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a113",
+      "score": 8,
+      "raison": "Effets macroéconomiques des dépenses de défense dans 27 pays de l'UE (1999-2025) : le pic du multiplicateur est décalé à trois ou quatre ans, avec des effets sur les prix. Enjeu budgétaire durable."
+    },
+    {
+      "id": "a119",
+      "score": 7,
+      "raison": "Premier estimé causal de l'effet des températures océaniques sur les revenus de la pêche européenne, sur 2,5 millions d'observations : enjeu climatique concret et durable."
+    },
+    {
+      "id": "a114",
+      "score": 7,
+      "raison": "Bilan de la Réserve fédérale sur l'effet de l'IA sur l'économie américaine (investissements, prix, marché du travail) : réserve."
+    },
+    {
+      "id": "a115",
+      "score": 5,
+      "raison": "Effets de la politique monétaire non conventionnelle sur la composition des dépôts bancaires : réserve."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a118",
+      "titre": "Candidatures à l'enseignement supérieur : l'effet des pairs",
+      "texte": "Une étude NBER de Gazmuri et Prager montre que côtoyer des pairs ayant candidaté à un programme augmente les candidatures. Selon les simulations des auteurs, cet effet suffirait à combler les écarts entre zones urbaines et rurales, et entre genres."
+    },
+    {
+      "id": "a122",
+      "titre": "Influenceurs santé et bien-être : 38 % des publications font la promotion d'un produit",
+      "texte": "Selon Pew Research Center, ces influenceurs promeuvent un produit ou un service dans 38 % de leurs publications, le plus souvent des guides et des contenus d'information. Beaucoup de leurs abonnés passent à l'action."
+    },
+    {
+      "id": "a127",
+      "titre": "Identité des adultes noirs américains : les mères influencent plus que les médias",
+      "texte": "Selon Pew Research Center, les mères arrivent en tête des influences sur la manière dont les adultes noirs américains perçoivent le fait d'être un homme ou une femme noire. Les médias, dont les réseaux sociaux, jouent un rôle moindre."
+    },
+    {
+      "id": "a121",
+      "titre": "Sondages 2026 : le sens du scrutin capté, mais l'avance démocrate sous-estimée",
+      "texte": "Selon une première analyse de Pew Research Center, les sondages préélectoraux ont bien capté la direction du scrutin de 2026. Ils ont en revanche globalement sous-estimé l'ampleur de l'avance des démocrates."
+    }
+  ]
+}

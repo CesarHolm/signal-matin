@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a188",
+      "score": 8,
+      "raison": "Émissions de CO2 des centrales publiques, au cœur des négociations de la COP31 à Antalya."
+    },
+    {
+      "id": "a174",
+      "score": 7,
+      "raison": "Innovation médicale concrète pour le diabète, avec un dispositif sans médicament."
+    },
+    {
+      "id": "a200",
+      "score": 6,
+      "raison": "Permis de construction de réacteurs nucléaires de nouvelle génération au Texas : décision réglementaire concrète."
+    },
+    {
+      "id": "a172",
+      "score": 6,
+      "raison": "Expérience scientifique inédite sur l'asymétrie matière/antimatière."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a173",
+      "titre": "Les Scythes consommaient du cannabis comme stupéfiant il y a 2 800 ans",
+      "texte": "Plus d'un millier de graines de cannabis ont été mises au jour dans un kourgane scythe. Des traces chimiques détectées dans des échantillons de cheveux suggèrent que la plante servait de stupéfiant."
+    },
+    {
+      "id": "a187",
+      "titre": "L'empreinte carbone de la preuve mathématique annoncée par OpenAI",
+      "texte": "OpenAI a annoncé avoir résolu le problème mathématique millénaire des équations de Navier-Stokes. Son empreinte carbone, difficile à estimer précisément, serait du même ordre que celle d'un télescope fonctionnant dix à quinze ans."
+    },
+    {
+      "id": "a194",
+      "titre": "Hubble dresse une galerie de lentilles gravitationnelles pour le télescope Roman",
+      "texte": "Une galerie de lentilles gravitationnelles captées par Hubble montre la diversité de ce phénomène. Elle prépare les observations de suivi du futur télescope Nancy Grace Roman."
+    },
+    {
+      "id": "a180",
+      "titre": "Intelligence émotionnelle : l'écart femmes-hommes tiendrait davantage à l'éducation",
+      "texte": "Selon une vaste étude, les femmes reconnaissent mieux les émotions d'autrui, un avantage qui semble davantage tenir à l'éducation qu'à la biologie. Les parents emploient plus de mots liés aux émotions avec leurs filles qu'avec leurs fils."
+    }
+  ]
+}

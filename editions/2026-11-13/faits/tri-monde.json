@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a94",
+      "score": 9,
+      "raison": "Sommet trilatéral Trump-Xi-Poutine envisagé, sans précédent, en marge de l'APEC à Shenzhen : enjeu géopolitique majeur."
+    },
+    {
+      "id": "a99",
+      "score": 8,
+      "raison": "Menace américaine à peine voilée contre le pouvoir cubain avant la fin du mandat de Donald Trump : enjeu géopolitique majeur."
+    },
+    {
+      "id": "a82",
+      "score": 8,
+      "raison": "Derniers jours des négociations de refonte des relations post-Brexit entre Londres et Bruxelles : enjeu économique et politique pour l'Europe."
+    },
+    {
+      "id": "a103",
+      "score": 7,
+      "raison": "Reprise des frappes houthies contre l'Arabie saoudite : escalade régionale (réserve)."
+    },
+    {
+      "id": "a86",
+      "score": 7,
+      "raison": "Révision des trois documents de sécurité du Japon face à la Chine : évolution de la posture de défense (réserve)."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a108",
+      "titre": "Plus de 80 % des écoles publiques italiennes visées par de fausses alertes à la bombe",
+      "texte": "Jeudi, 1 800 établissements ont reçu de nouvelles menaces, selon Le Grand Continent. Ces alertes à la bombe se sont révélées fausses."
+    },
+    {
+      "id": "a65",
+      "titre": "Effondrement d'un immeuble à Brooklyn : au moins huit morts et des dizaines de blessés",
+      "texte": "Les secouristes continuent de chercher des survivants après l'effondrement de ce bâtiment. Le bilan continue de s'alourdir."
+    },
+    {
+      "id": "a107",
+      "titre": "Une panne Microsoft touche des dizaines de milliers d'utilisateurs",
+      "texte": "Microsoft indique que des serveurs ont été mis hors ligne de manière inattendue, perturbant Outlook, Teams, Copilot et d'autres services."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a35",
+      "score": 8,
+      "raison": "Effondrement sans précédent des exportations françaises vers l'Algérie : conséquences économiques concrètes pour des secteurs entiers et enjeu diplomatique."
+    },
+    {
+      "id": "a34",
+      "score": 8,
+      "raison": "Près de 40 000 enfants handicapés sans AESH à la rentrée 2026 : enjeu social majeur et action en justice en cours."
+    },
+    {
+      "id": "a54",
+      "score": 7,
+      "raison": "Plan de relance agricole de 725 millions d'euros sur dix ans : mesure gouvernementale majeure, débat sur souveraineté et climat."
+    },
+    {
+      "id": "a46",
+      "score": 7,
+      "raison": "Baisse de l'impôt sur le revenu des plus aisés en 2025 : donnée officielle de la DGFiP, sujet fiscal fort."
+    },
+    {
+      "id": "a38",
+      "score": 6,
+      "raison": "Violences policières contre des journalistes : plaintes pénales et engagement du ministre de l'Intérieur."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a56",
+      "titre": "Révision de la Constitution : 110 constitutionnalistes contre le recours à l'article 11",
+      "texte": "110 universitaires rappellent qu'il serait irrégulier de réviser la Constitution par référendum au titre de l'article 11, sans passer par le Parlement. Leur mise en garde, après Richard Ferrand, vise notamment Marine Le Pen et Jean-Luc Mélenchon."
+    },
+    {
+      "id": "a43",
+      "titre": "Affaire Lyhanna : Gérald Darmanin saisit le CSM contre une substitut d'Auch",
+      "texte": "Le garde des Sceaux a saisi le Conseil supérieur de la magistrature après l'enquête administrative de l'Inspection générale judiciaire. La mesure vise une substitut du procureur d'Auch."
+    },
+    {
+      "id": "a59",
+      "titre": "Mouvement étudiant : 5 000 places supplémentaires en licence annoncées",
+      "texte": "Le Premier ministre Sébastien Lecornu a formalisé la création de ces places dans un courrier aux présidents d'universités. Certaines universités restent encore fermées par leur administration."
+    }
+  ]
+}
