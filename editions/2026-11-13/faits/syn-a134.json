@@ -1,0 +1,28 @@
+{
+ "titre": "CEPD : adéquation coréenne, BCR sous-traitants et recrutement par IA",
+ "chapo": "Le CEPD a adopté le 10 novembre 2026 une déclaration sur la Corée du Sud, ses recommandations finales sur les BCR des sous-traitants et le thème de sa sixième action coordonnée.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Le 10 novembre 2026, le Comité européen de la protection des données (CEPD) a adopté trois textes. Le premier est une déclaration sur l'adéquation de la Corée du Sud en matière de protection des données. Le deuxième est la version finale de ses recommandations sur les règles d'entreprise contraignantes, qui concernent les sous-traitants. Le troisième est le choix du thème de la sixième action coordonnée (CEF), qui portera sur la prise de décision automatisée et, en particulier, sur les systèmes de recrutement assistés par l'IA."
+  },
+  {
+   "intertitre": "La Corée du Sud et son adéquation",
+   "texte": "La déclaration du CEPD porte sur le premier réexamen de la décision d'adéquation concernant la République de Corée. Elle évalue les modifications du cadre juridique coréen, aussi bien pour les aspects commerciaux que pour l'accès des autorités publiques coréennes aux données personnelles et leur utilisation. La loi sur la protection des informations à caractère personnel (PIPA) a notamment été modifiée pour introduire un droit général de retirer son consentement, un droit de demander la suspension du traitement des données et un droit de s'opposer à une décision automatisée, y compris lorsqu'elle repose sur des systèmes d'IA, ou d'en demander une explication quand elle a une incidence significative sur les droits ou les obligations des personnes. Le CEPD se félicite aussi des changements apportés aux transferts internationaux : les transferts transfrontières doivent désormais s'appuyer sur des mécanismes spécifiques (articles 28-8 de la PIPA), qui offrent des solutions autres que le consentement. Il salue enfin le renforcement des pouvoirs d'enquête et d'exécution de l'autorité coréenne."
+  },
+  {
+   "intertitre": "Un réexamen tous les quatre ans",
+   "texte": "Le CEPD approuve la proposition de la Commission européenne de consulter le comité institué par l'article 93, paragraphe 1, du RGPD afin de réexaminer cette décision d'adéquation tous les quatre ans. La décision initiale a été adoptée par la Commission le 17 décembre 2021. Le premier réexamen a eu lieu en 2025, avec une réunion en ligne le 17 octobre 2025 à laquelle le CEPD était invité. Le 23 juillet 2026, la Commission a publié son rapport au Parlement européen et au Conseil, accompagné d'un document de travail, et a conclu que la Corée continuait d'assurer un niveau adéquat de protection des données de l'Union transférées vers des entités soumises à son cadre modifié."
+  },
+  {
+   "intertitre": "Les règles d'entreprise contraignantes",
+   "texte": "Après une consultation publique, le CEPD a adopté la version finale de ses recommandations sur la demande d'approbation, ainsi que sur les éléments et principes des règles d'entreprise contraignantes pour les sous-traitants. Ce mécanisme de transfert permet à un groupe d'entreprises de transférer des données personnelles hors d'Europe vers des sous-traitants du même groupe. Il crée des droits opposables et des engagements visant un niveau de protection essentiellement équivalent à celui du RGPD. Les recommandations s'appliquent désormais à tous les titulaires de BCR-P. Ceux-ci, comme les nouveaux demandeurs et ceux dont la demande est en cours, devraient aligner leurs règles sur ces recommandations, soit pendant la procédure de demande, soit lors de leur mise à jour annuelle de 2028, selon leur situation. Le Comité a aussi publié un rapport sur la consultation publique ciblée et une version des recommandations faisant apparaître les modifications."
+  },
+  {
+   "intertitre": "L'action coordonnée de 2027",
+   "texte": "La sixième action coordonnée en matière d'application de la législation se concentrera sur le droit de ne pas faire l'objet d'une décision fondée exclusivement sur un traitement automatisé, ainsi que sur le droit d'accès correspondant, dans le cadre d'outils automatisés de sélection des candidats, y compris ceux reposant sur l'IA. Les autorités de protection des données y participeront sur une base volontaire dans les semaines à venir, et l'action sera lancée au cours de l'année 2027."
+  }
+ ],
+ "synthese": "Le CEPD valide les évolutions du cadre coréen de protection des données et le passage à un réexamen tous les quatre ans de la décision d'adéquation. Il finalise ses recommandations sur les règles d'entreprise contraignantes des sous-traitants et prépare, pour 2027, une action coordonnée sur le recrutement par IA.",
+ "republication": ""
+}

@@ -1,0 +1,24 @@
+{
+ "titre": "COP31 : les centrales publiques réduisent moins vite leurs émissions de CO₂",
+ "chapo": "Une étude portant sur 13 661 centrales dans 134 pays montre que celles détenues par les États pèsent 69 % des émissions de CO₂ et réagissent peu aux politiques climatiques.",
+ "sections": [
+  {
+   "intertitre": "Le constat de l'étude",
+   "texte": "Alors que la COP31 se tient en novembre 2026 à Antalya, en Turquie, Don Grant, avec Minh Anh Ly et Musabber Ali Chisty, a examiné les émissions de CO₂ de 13 661 centrales à combustibles fossiles réparties dans 134 pays. Sur ce total, 5 149 centrales, soit environ 38 %, appartenaient à des États. Elles étaient responsables de 69 % des émissions de l'ensemble. En moyenne, une centrale publique émet environ 910 000 tonnes de CO₂ par an, soit trois fois la moyenne des centrales d'investisseurs privés (290 000 tonnes) et plus de huit fois celle des centrales coopératives (109 000). L'écart tient en partie au fait que les États investissent souvent dans de grandes centrales brûlant du charbon. Or les États contrôlent près des deux tiers des capacités mondiales de production d'électricité. Les centrales constituent la première source mondiale de la pollution carbonée qui réchauffe le climat, et l'efficacité des politiques de tarification, de réglementation et de subvention dépend de la réaction des compagnies d'électricité."
+  },
+  {
+   "intertitre": "Des politiques qui n'agissent pas partout",
+   "texte": "Les chercheurs ont comparé les émissions de 2018 à celles de dix ans plus tôt et passé en revue les politiques nationales de la période. Pour les centrales d'investisseurs, plusieurs politiques ont été associées statistiquement à une baisse : taxes carbone et marchés de quotas, réformes des subventions aux combustibles fossiles, normes de pollution et fermetures de centrales à charbon, normes de portefeuille d'énergies renouvelables et subventions aux renouvelables. Pour les centrales publiques, seules les normes de portefeuille d'énergies renouvelables étaient associées à des baisses significatives ; les autres politiques n'ont guère eu d'effet. Ces différences apparaissent aussi quand on tient compte de la sévérité des politiques et du temps laissé aux producteurs pour s'adapter. Cela ne signifie pas que les centrales publiques enfreignent leurs obligations : elles ont été plus lentes à bouger."
+  },
+  {
+   "intertitre": "Pourquoi les États peinent",
+   "texte": "La propriété publique crée des pressions contradictoires : fournir une électricité abordable, soutenir l'emploi, procurer des recettes fiscales, voire maintenir en activité des centrales au charbon et au gaz dans les pays dépendants de l'extraction fossile. L'exemple d'Eskom, en Afrique du Sud, est cité : son parc vieillissant de centrales à charbon en fait le premier pollueur du pays, mais elle fournit environ 90 % de l'électricité nationale et a parfois enfreint les normes d'émissions lors de pénuries. Ses émissions ont peu baissé dans les années 2010 et reculé d'environ 16 % depuis 2019, en partie à cause des coupures de courant et de l'essor du solaire domestique. Les compagnies privées, qui rendent des comptes à moins de parties prenantes, peuvent réagir plus directement aux incitations financières. Un conflit peut aussi naître quand le gouvernement est à la fois régulateur et propriétaire : les responsables peuvent hésiter à imposer des coûts qui feraient monter les prix de l'électricité ou exigeraient des subventions. L'étude n'a pas mesuré l'application effective des règles et ne peut donc pas établir de traitement de faveur."
+  },
+  {
+   "intertitre": "Ce que les dirigeants peuvent changer",
+   "texte": "Trois pistes sont proposées. D'abord, fixer des objectifs propres aux compagnies publiques, liés à l'évaluation des dirigeants, aux investissements et aux rapports publics, comme en Irlande, où les émissions de la production d'électricité ont baissé de plus d'un quart entre 2019 et 2025. Ensuite, traiter les contraintes financières et politiques : au Maroc, des financements internationaux ont aidé l'agence Masen à développer le solaire en limitant les coûts pour les consommateurs. Enfin, publier chaque année des données comparables centrale par centrale pour repérer les sites dont la pollution reste élevée. La privatisation n'est pas la réponse, puisque les centrales publiques offrent des avantages, comme la coordination des investissements à long terme."
+  }
+ ],
+ "synthese": "Les centrales détenues par les États concentrent l'essentiel des émissions et répondent mal aux politiques climatiques, sauf aux quotas d'énergies renouvelables. Pour tenir leurs engagements, les gouvernements doivent suivre de près leurs propres installations.",
+ "republication": ""
+}

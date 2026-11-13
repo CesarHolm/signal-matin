@@ -1,0 +1,29 @@
+{
+ "titre": "Nvidia : Jensen Huang démissionne, le titre s'effondre",
+ "chapo": "Jensen Huang quitte la direction de Nvidia après des révélations sur ses liaisons, dont une avec une espionne chinoise présumée ; le groupe a perdu plus de mille milliards de dollars en Bourse.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Jensen Huang a démissionné avec effet immédiat de ses fonctions de directeur général, de président et d'administrateur de Nvidia, selon un communiqué du 12 novembre 2026. D'après The Decoder, son départ est intervenu après que le Wall Street Journal a rapporté que le conseil d'administration s'apprêtait à le renvoyer, à la suite de révélations sur deux liaisons extraconjugales, dont l'une avec une espionne chinoise présumée. La directrice financière, Colette Kress, assure l'intérim pendant que le conseil cherche un successeur permanent. Harvey C. Jones, investisseur en capital-risque depuis trente ans selon Al Jazeera, devient le premier président indépendant du conseil."
+  },
+  {
+   "intertitre": "Les révélations à l'origine de la crise",
+   "texte": "L'affaire a commencé le 29 octobre avec un article du New York Times évoquant d'éventuels liens avec le renseignement chinois. La femme visée, Alice Huang, est une ancienne dirigeante de Megaspeed, société basée à Singapour et principal partenaire commercial de Nvidia en Asie du Sud-Est. Fondée en 2023, Megaspeed fait l'objet d'enquêtes visant à déterminer si elle a aidé des entreprises chinoises à accéder à son stock de 4,8 milliards de dollars de puces Nvidia. Le New York Times a ensuite rapporté que M. Huang entretenait aussi une relation extraconjugale avec un vice-président de Nvidia placé sous son autorité. Jeudi, Reuters, citant deux sources, a fait état d'une relation intime avec une seconde salariée de l'entreprise."
+  },
+  {
+   "intertitre": "Enquêtes et enjeux politiques",
+   "texte": "Selon Al Jazeera, la relation avec Alice Huang a déclenché des enquêtes du FBI, du Congrès américain et de Nvidia elle-même, et le groupe fait face à un recours collectif d'actionnaires. Elle ravive aussi des inquiétudes de sécurité nationale, les États-Unis restreignant les ventes de puces à la Chine par crainte que l'armée, les services de renseignement ou les entreprises chinoises n'utilisent ces technologies avancées. Jensen Huang, 63 ans, cofondateur de Nvidia en 1993, est un proche allié du président Donald Trump et plaide pour un assouplissement de ces restrictions. Le président de la commission des Affaires étrangères de la Chambre, Brian Mast, a indiqué que Huang avait accepté de témoigner devant le Congrès."
+  },
+  {
+   "intertitre": "Une sanction immédiate en Bourse",
+   "texte": "The Decoder affirme que Nvidia a perdu environ 1 400 milliards de dollars de valeur depuis l'article du 29 octobre ; The Times of India, de son côté, évoque plus de 1 000 milliards de dollars sur le dernier mois et près de 500 milliards depuis la clôture de la semaine précédente. Jeudi, l'action a chuté jusqu'à 14 % en séance avant de clôturer en baisse de 4,3 %, à 166,19 dollars, soit environ 30 % sous son record du 6 octobre. La capitalisation est passée sous 4 000 milliards de dollars, une première depuis juillet 2025, et le titre se négocie au plus bas multiple des bénéfices attendus depuis 14 ans, selon Reuters. CoreWeave a cédé 8,1 %, Nebius 18 % et Super Micro Computer 12 %, tandis qu'AMD et Broadcom ont gagné plus de 4 % chacun. Résultats trimestriels attendus mardi."
+  },
+  {
+   "intertitre": "Une succession délicate",
+   "texte": "Selon The Decoder, remplacer Huang sera difficile, car Nvidia s'est construite autour de lui : il a consolidé sa position grâce à un réseau d'alliances avec des financeurs et à quelque 300 milliards de dollars de garanties accordées à de petits clients, un édifice que son départ pourrait fragiliser. Microsoft, Amazon, Alphabet, OpenAI et Anthropic dépendent fortement de ses puces, mais sa marge bénéficiaire de 75 % les pousse à développer des alternatives moins chères. Plus de 60 personnes lui rendaient directement compte et aucun plan de succession clair n'existait. Aleksandar Tomic, du Boston College, juge l'effet de la démission d'autant plus marqué que Nvidia a une structure relativement plate, mais voit dans l'événement un simple « ralentisseur » pour une entreprise en position de force."
+  }
+ ],
+ "synthese": "Jensen Huang a quitté Nvidia sous la pression d'un scandale mêlant liaisons extraconjugales, soupçons d'espionnage et enquêtes américaines, entraînant une forte chute de la valeur du groupe. Les sources divergent sur l'ampleur des conséquences pour Nvidia : The Decoder souligne les difficultés de la succession, tandis qu'un universitaire cité par Al Jazeera y voit un simple ralentisseur.",
+ "republication": "",
+ "sources_ecartees": []
+}

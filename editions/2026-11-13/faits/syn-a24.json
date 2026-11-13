@@ -1,0 +1,25 @@
+{
+ "titre": "Google déploie Gemini 4 Hydrogen, qui remplace le modèle 3.8 Flash",
+ "chapo": "Google lance Gemini 4 Hydrogen, un modèle rapide qui prend la place de Gemini 3.8 Flash dans ses produits, avec un accès immédiat et sans abonnement payant obligatoire.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Google poursuit son système de noms tirés des éléments chimiques avec Gemini 4 Hydrogen. Ces noms sont moins parlants que les anciennes appellations Pro et Flash, mais la fonction d'Hydrogen est claire : il remplace les modèles Flash, plus rapides et plus économiques, que la plupart des utilisateurs de l'écosystème Google emploient. Selon Ars Technica, il a pris la place de Gemini 3.8 Flash dans l'ensemble des produits de l'entreprise. Android Headlines précise qu'il arrive quelques jours après Gemini 4 Carbon et qu'il est déployé dans Google Search et dans l'application Gemini."
+  },
+  {
+   "intertitre": "Un accès plus large que pour Argon et Carbon",
+   "texte": "Pour les récentes versions Argon et Carbon, le déploiement s'était fait par étapes, en commençant par des chercheurs en cybersécurité. Même une fois la disponibilité générale ouverte, l'accès restait réservé aux abonnés de l'offre d'IA la plus chère de Google. Pour Hydrogen, les limites sont bien plus souples et l'accès commence immédiatement. D'après Android Headlines, le modèle est disponible pour tous sans abonnement payant."
+  },
+  {
+   "intertitre": "Les performances revendiquées par Google",
+   "texte": "Google affirme que Hydrogen marque une nette progression sur Flash. Le modèle fonctionne selon quatre niveaux de réflexion (faible, moyen, élevé et le nouveau xhigh) et, même au niveau élevé, il est 2,5 fois plus rapide que Gemini 3.8 Flash. Selon l'analyse de Google, il réduit de plus de cinq fois les « affirmations inventées ». En génération de code, son score à Terminal-Bench est plus de trois fois supérieur à celui de 3.8 Flash. Il lui arrive de rivaliser avec Argon : en mode xhigh, il obtient 54 à l'indice Artificial Analysis Intelligence Index, contre 50 pour Argon."
+  },
+  {
+   "intertitre": "Recherche, développeurs et tarifs",
+   "texte": "Selon Android Headlines, Google juge Hydrogen la plus grande amélioration de modèle jamais ajoutée à la Recherche : il fait fonctionner par défaut le mode IA et traite les questions difficiles des aperçus IA. Dans l'application Gemini, il remplace 3.8 Flash pour les tâches courantes, tandis que 3.5 Flash-Lite reste proposé pour les réponses rapides. Les développeurs disposent d'une fenêtre de contexte de 1 million de jetons. L'accès par l'API démarre à 1,50 dollar par million de jetons en entrée et 7,50 dollars en sortie, via Google AI Studio et Gemini pour les entreprises."
+  }
+ ],
+ "synthese": "Gemini 4 Hydrogen succède à 3.8 Flash comme modèle rapide du quotidien chez Google, avec un accès immédiat et plus large que pour Argon et Carbon. Google met en avant sa vitesse, une baisse des affirmations inventées et de bons résultats en code.",
+ "republication": "",
+ "sources_ecartees": []
+}

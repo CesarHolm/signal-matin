@@ -1,0 +1,24 @@
+{
+ "titre": "Texas : feu vert fédéral à quatre réacteurs nucléaires avancés",
+ "chapo": "La NRC a délivré un permis pour quatre réacteurs de nouvelle génération de Dow et X-energy sur la côte texane du Golfe, projet salué par l'industrie et contesté localement.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Cette semaine, la Nuclear Regulatory Commission (NRC) a délivré un permis de construire quatre réacteurs nucléaires de nouvelle génération sur un complexe pétrochimique de la côte rurale du Golfe, au Texas. La centrale Long Mott, développée par le géant de la chimie Dow et la jeune pousse du nucléaire X-energy, est l'un des deux projets phares retenus en 2020 par le département de l'Énergie pour son programme de démonstration de réacteurs avancés. Le projet est à la pointe d'une nouvelle génération de conceptions qui pourraient révolutionner le modèle commercial de l'énergie atomique. Dow prévoit d'installer quatre réacteurs de 80 mégawatts de X-energy sur son site de Seadrift, entre Houston et Corpus Christi. Le NRC a tenu l'échéance de 18 mois de son examen accéléré, mené en application de décrets du président Donald Trump visant à accélérer le secteur de l'énergie. Pour Mike Goff, du département de l'Énergie, cette étape marque un progrès significatif vers le déploiement de réacteurs avancés, et le président du NRC, Ho K. Nieh, y voit la preuve que des examens de sûreté rigoureux peuvent tenir des délais prévisibles. Kreshka Young, de Dow, a assuré en septembre à Port Lavaca que l'entreprise ne prend pas à la légère la responsabilité de posséder une installation nucléaire. Dow doit encore prendre sa décision finale de poursuivre le projet ; si elle le fait, les travaux pourraient commencer avant 2030."
+  },
+  {
+   "intertitre": "La technologie et ses promesses",
+   "texte": "Ces conceptions remplacent les gigantesques chantiers actuels par de petits modules fabriqués en usine, expédiés puis assemblés sur des sites industriels, des centres de données aux usines pétrochimiques. Les unités n'exigeront ni les enceintes de confinement en béton des réacteurs actuels ni la zone de planification d'urgence de 10 milles, grâce à des dispositifs de sécurité inhérents à leur conception. Le Xe-100 refroidit au gaz hélium, au lieu de l'eau, et utilise un combustible en pastilles dans un lit de boulets plutôt que des barres. Selon le NRC, ce « confinement fonctionnel » repose sur la résilience naturelle et la circulation des boulets, ce qui évite l'emballement thermique et dépend moins de pompes ou d'interventions humaines. Il s'appuie sur le combustible TRISO, mis au point en laboratoires du département de l'Énergie. Son PDG, J. Clay Sell, juge le Xe-100 « physiquement impossible à faire fondre »."
+  },
+  {
+   "intertitre": "Les enjeux pour l'industrie",
+   "texte": "Les États-Unis n'ont construit qu'une seule nouvelle centrale en trois décennies, mais les autorités fédérales poussent un renouveau fondé sur ces conceptions. Dans ces conceptions, le refroidissement ne passe pas par l'eau mais par d'autres fluides, du sel fondu au gaz. Le NRC a délivré son premier permis pour un réacteur d'essai avancé en 2023, puis, en mars 2026, son premier pour un réacteur commercial avancé. Pour Martin O'Neal, du Nuclear Energy Institute, un succès offrirait aux autres industries une voie à imiter pour produire leur électricité sur place, et le secteur suit le projet de très près."
+  },
+  {
+   "intertitre": "Les réserves",
+   "texte": "Diane Wilson, ancienne crevettière et directrice de San Antonio Bay Waterkeeper, juge le projet scandaleux. Elle rappelle que le combustible usé sera stocké indéfiniment sur place, faute de site national de stockage permanent. Son organisation avait déposé en 2025 des recours sur la sécurité, rejetés par le NRC. Edwin Lyman, directeur de la sûreté nucléaire à l'Union of Concerned Scientists, estime, comme il l'a dit plus tôt cette année, que l'argument consistant à supprimer le confinement physique est discutable et que l'idée d'un combustible indestructible est un mythe : il aurait des vulnérabilités."
+  }
+ ],
+ "synthese": "Le NRC a autorisé la construction de quatre réacteurs Xe-100 pour Dow au Texas, étape clé pour les petits réacteurs modulaires. Le projet reste soumis à la décision finale de Dow et à de vives critiques sur le stockage des déchets et la sûreté du combustible.",
+ "republication": ""
+}
