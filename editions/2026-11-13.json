@@ -1,0 +1,366 @@
+{
+ "date": "2026-11-13",
+ "nouveaux_mots": [
+  {
+   "mot": "Diligence",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Soin et rapidité dans l'exécution ; en droit, vérifications préalables.",
+   "exemple": "Les diligences menées avant l'acquisition."
+  },
+  {
+   "mot": "Pragmatique",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui privilégie l'action et les résultats concrets.",
+   "exemple": "Une approche pragmatique du problème."
+  },
+  {
+   "mot": "Captieux",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qui cherche à tromper par une apparence de vérité.",
+   "exemple": "Un argument captieux."
+  },
+  {
+   "mot": "Alacrité",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Vivacité gaie et entrain.",
+   "exemple": "Il se mit au travail avec alacrité."
+  },
+  {
+   "mot": "Apophtegme",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Parole mémorable, sentence brève exprimant une vérité.",
+   "exemple": "Il ponctuait ses discours d'apophtegmes."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Prodigue",
+   "definition": "Qui dépense sans compter ; qui donne largement."
+  },
+  {
+   "mot": "Acédie",
+   "definition": "Torpeur de l'âme, dégoût mélancolique pour l'effort et la vie spirituelle."
+  },
+  {
+   "mot": "Pantagruélique",
+   "definition": "Digne de Pantagruel : énorme, gargantuesque (surtout pour un repas)."
+  },
+  {
+   "mot": "Placide",
+   "definition": "Calme, paisible, que rien ne semble troubler."
+  },
+  {
+   "mot": "Thébaïde",
+   "definition": "Lieu isolé et paisible propice à la retraite et à la méditation."
+  }
+ ],
+ "articles": [
+  "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+  "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+  "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+  "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+  "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+  "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+  "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+  "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+  "https://www.publicsenat.fr/actualites/politique/plan-de-relance-agricole-une-des-thematiques-majeures-du-compromis-budgetaire-affirme-sebastien-lecornu",
+  "https://www.franceinfo.fr/economie/impots/pourquoi-les-francais-les-plus-aises-ont-ils-paye-moins-d-impot-sur-le-revenu-en-2025-que-l-annee-precedente_8279105.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/societe/article/2026/11/13/violences-policieres-lors-des-manifestations-laurent-nunez-s-engage-a-proteger-les-journalistes-et-faire-respecter-le-droit-d-informer_6809257_3224.html",
+  "https://www.lemonde.fr/societe/article/2026/11/12/pres-de-40-000-enfants-handicapes-sans-aesh-a-la-rentree-2026-une-action-de-groupe-en-cours-pour-ouvrir-une-breche_6809160_3224.html",
+  "https://www.lemonde.fr/afrique/article/2026/11/12/entre-la-france-et-l-algerie-les-echanges-commerciaux-s-effondrent-nouvel-effet-de-la-crise-entre-les-deux-pays_6809148_3212.html",
+  "https://www.publicsenat.fr/actualites/politique/revision-de-la-constitution-110-constitutionnalistes-rappellent-a-marine-le-pen-et-jean-luc-melenchon-quils-ne-pourront-pas-avoir-recours-au-referendum-via-larticle-11",
+  "https://www.aljazeera.com/news/2026/11/13/trump-moots-toppling-cuba-authorities-before-leaving-office?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+  "https://www.scmp.com/news/china/military/article/3374244/japan-looks-strengthen-defences-and-security-strategy-analysts-warn-escalation",
+  "https://www.politico.eu/article/andy-burnham-discuss-problem-chinese-imports-in-final-days-of-brexit-reset-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.scmp.com/plus/news/china/diplomacy/article/3374199/trump-xi-putin-summit-under-discussion-us-allies-watch",
+  "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3310~6ef5699d9a.en.pdf",
+  "https://www.nber.org/papers/w35994#fromrss",
+  "https://www.nber.org/papers/w35993#fromrss",
+  "https://www.pewresearch.org/short-reads/2026/11/12/download-my-free-guide-what-products-and-services-do-health-and-wellness-influencers-promote/",
+  "https://www.pewresearch.org/short-reads/2026/11/12/many-black-adults-say-close-relationships-influence-their-views-about-being-a-black-man-or-woman/",
+  "https://www.pewresearch.org/short-reads/2026/11/12/a-first-look-at-polling-performance-in-2026/",
+  "https://www.cnil.fr/fr/actualite-du-cepd-adequation-de-la-coree-du-sud-versions-finales-des-bcr-st-et-action-coordonnee-sur",
+  "https://natlawreview.com/article/us-sanctions-international-criminal-court-itself-what-companies-should-do-april?amp",
+  "https://www.amlintelligence.com/2026/11/news-brussels-expects-amla-fee-rules-in-force-only-by-next-summer-as-capitals-stall/",
+  "https://monacolife.net/monaco-celebrates-fatf-grey-list-exit-but-eu-restrictions-remain-why/",
+  "https://theconversation.com/cop31-les-etats-peinent-a-freiner-les-emissions-de-leurs-propres-centrales-electriques-296515",
+  "https://insideclimatenews.org/news/12112026/texas-dow-nuclear-plant-greenlit/",
+  "https://www.sciencesetavenir.fr/sante/diabete-un-implant-controle-la-glycemie-a-coups-de-courant_196090?xtor=RSS-16",
+  "https://www.sciencesetavenir.fr/archeo-paleo/les-scythes-utilisaient-le-cannabis-comme-stupefiant-il-y-a-2800-ans_196093?xtor=RSS-4",
+  "https://theconversation.com/lempreinte-carbone-astronomique-des-preuves-mathematiques-dopenai-294894",
+  "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/"
+ ],
+ "titres": [
+  "Nvidia : Jensen Huang démissionne, le titre s'effondre",
+  "OpenAI : des modèles de pointe moins lisibles, par choix de capacité et de coût",
+  "Nvidia aurait admis en privé pouvoir géolocaliser ses puces",
+  "Google déploie Gemini 4 Hydrogen, qui remplace le modèle 3.8 Flash",
+  "Plan de relance agricole : 725 millions d'euros et un budget en jeu",
+  "Impôt sur le revenu : pourquoi les plus aisés ont payé moins en 2025",
+  "Violences contre des journalistes : Nuñez promet un rappel des règles",
+  "Cuba : Trump veut « régler la question » avant la fin de son mandat",
+  "Yémen : frappes houthies sur l'Arabie saoudite, sanctions de l'ONU prolongées",
+  "Dépenses de défense dans l'UE : effets sur le PIB, les prix et la dette",
+  "Climat et pêche : la chaleur des océans pèse sur les revenus des pêcheurs",
+  "CEPD : adéquation coréenne, BCR sous-traitants et recrutement par IA",
+  "Sanctions américaines contre la CPI elle-même : l'échéance d'avril 2027",
+  "COP31 : les centrales publiques réduisent moins vite leurs émissions de CO₂",
+  "Texas : feu vert fédéral à quatre réacteurs nucléaires avancés"
+ ],
+ "solutions": {
+  "sudoku": [
+   5,
+   2,
+   9,
+   6,
+   1,
+   3,
+   4,
+   7,
+   8,
+   6,
+   4,
+   7,
+   2,
+   5,
+   8,
+   3,
+   9,
+   1,
+   8,
+   1,
+   3,
+   4,
+   7,
+   9,
+   5,
+   2,
+   6,
+   4,
+   8,
+   1,
+   9,
+   3,
+   2,
+   6,
+   5,
+   7,
+   3,
+   6,
+   2,
+   7,
+   8,
+   5,
+   9,
+   1,
+   4,
+   9,
+   7,
+   5,
+   1,
+   4,
+   6,
+   2,
+   8,
+   3,
+   7,
+   5,
+   6,
+   3,
+   9,
+   1,
+   8,
+   4,
+   2,
+   1,
+   3,
+   8,
+   5,
+   2,
+   4,
+   7,
+   6,
+   9,
+   2,
+   9,
+   4,
+   8,
+   6,
+   7,
+   1,
+   3,
+   5
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     8,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     7
+    ],
+    [
+     0,
+     8,
+     6,
+     2
+    ],
+    [
+     1,
+     1,
+     3,
+     3
+    ],
+    [
+     1,
+     4,
+     4,
+     3
+    ],
+    [
+     1,
+     7,
+     9,
+     1
+    ],
+    [
+     4,
+     1,
+     5,
+     2
+    ],
+    [
+     4,
+     3,
+     2,
+     1
+    ],
+    [
+     5,
+     4,
+     3,
+     3
+    ],
+    [
+     6,
+     3,
+     3,
+     1
+    ],
+    [
+     6,
+     8,
+     2,
+     2
+    ],
+    [
+     8,
+     0,
+     2,
+     1
+    ],
+    [
+     8,
+     4,
+     2,
+     3
+    ],
+    [
+     8,
+     8,
+     1,
+     2
+    ],
+    [
+     9,
+     1,
+     1,
+     3
+    ],
+    [
+     9,
+     8,
+     1,
+     2
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    3,
+    1,
+    6,
+    4,
+    2,
+    5
+   ],
+   [
+    1,
+    2,
+    5,
+    3,
+    6,
+    4
+   ],
+   [
+    4,
+    3,
+    2,
+    5,
+    1,
+    6
+   ],
+   [
+    6,
+    5,
+    3,
+    2,
+    4,
+    1
+   ],
+   [
+    2,
+    6,
+    4,
+    1,
+    5,
+    3
+   ],
+   [
+    5,
+    4,
+    1,
+    6,
+    3,
+    2
+   ]
+  ],
+  "compte": [
+   "5 × 4 = 20",
+   "20 + 7 = 27",
+   "27 + 8 = 35",
+   "35 × 25 = 875",
+   "875 + 6 = 881"
+  ]
+ },
+ "reponses_quiz": []
+}
