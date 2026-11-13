@@ -1,0 +1,64 @@
+{
+ "id": "syn-a134",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a134.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : CNIL\nRubrique : RGPD\nDate du flux : 12/11/2026\nTitre d'origine : Actualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA\n\nARTICLE :\nActualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA\n12 novembre 2026\nLe 10 novembre 2026, le Comité européen de la protection des données (CEPD) a adopté une déclaration sur l’adéquation de la Corée du Sud en matière de protection des données, ses recommandations finales sur les règles d’entreprises contraignantes et le thème de la sixième action coordonnée (CEF).\nLa déclaration du CEPD sur le premier réexamen de la décision d’adéquation de la République de Corée porte principalement sur l’évaluation des modifications apportées au cadre juridique coréen en matière de protection des données, tant en ce qui concerne les aspects commerciaux que l’accès des autorités publiques coréennes aux données à caractère personnel et leur utilisation par celles-ci*.\nPar exemple, la loi sur la protection des informations à caractère personnel (PIPA) a été modifiée afin d’introduire un droit général de retirer son consentement, un droit de demander la suspension du traitement des données à caractère personnel, ainsi qu’un droit de s’opposer à une décision automatisée (y compris lorsqu’elle est prise au moyen de systèmes d’IA) ou de demander une explication lorsque la décision a une incidence significative sur les droits ou les obligations des personnes concernées.\nEn outre, en ce qui concerne les transferts ultérieurs, le CEPD se félicite des modifications apportées à la PIPA concernant le régime juridique applicable aux transferts internationaux de données à caractère personnel. Ces modifications précisent que les transferts transfrontières d’informations à caractère personnel doivent s’appuyer sur des mécanismes de transfert spécifiques (articles 28-8 de la PIPA), offrant ainsi des solutions autres que le consentement.\nLe Comité européen de la protection des données se félicite également du renforcement des pouvoirs d’enquête, d’exécution et de de l’autorité coréenne de protection des données.\nLe CEPD approuve la proposition de la Commission de consulter le Comité institué en vertu de l’article 93, paragraphe 1, du RGPD afin de procéder à un réexamen de la décision d’adéquation tous les quatre ans.\nVersion finale des recommandations relatives à l’adoption de règles d’entreprise contraignantes pour les\nÀ la suite d’une consultation publique, le Comité européen de la protection des données a adopté la version finale des recommandations relatives à la demande d’approbation et aux éléments et principes figurant dans les règles d’entreprise contraignantes pour les sous-traitants. Les règles d’entreprise contraignantes pour les sous-traitants sont un mécanisme de transfert qui peut être utilisé par un groupe d’entreprises ou d’entreprises pour transférer des données à caractère personnel en dehors de l’Europe à des sous-traitants appartenant au même groupe. Les règles d’entreprise contraignantes créent des droits opposables et énoncent des engagements visant à garantir un niveau de protection des données essentiellement équivalent à celui prévu par le RGPD.\nLes recommandations s’appliquent désormais à tous les titulaires de BCR-P. Tous les titulaires de BCR-P, ainsi que les nouveaux demandeurs et ceux dont la demande est en cours, devraient aligner leurs BCR-P sur les recommandations, soit au cours de la procédure de demande, soit dans le cadre de leur mise à jour annuelle de 2028, en fonction de leur situation particulière.\nConformément à l’objectif de la déclaration d’Helsinki visant à renforcer le dialogue avec les parties prenantes, le Comité a également publié un rapport présentant les résultats de la consultation publique ciblée, ainsi qu’une version des recommandations faisant apparaître les modifications.\nCadre d’application coordonnée : thème retenu pour 2027\nLe Comité européen de la protection des données a choisi le thème de sa sixième action coordonnée en matière d’application de la législation, qui portera sur la prise de décision automatisée, notamment les systèmes de recrutement assistés par l’IA. Plus précisément, cette action coordonnée se concentrera sur l’application du droit de ne pas faire l’objet d’une décision fondée exclusivement sur un traitement automatisé, ainsi que du droit d’accès correspondant, dans le contexte de l’utilisation d’outils automatisés de sélection des candidats, y compris ceux reposant sur l’IA. Les autorités de protection des données participeront à cette action sur une base volontaire dans les semaines à venir, et l’action elle-même sera lancée au cours de l’année 2027.\nVous trouverez de plus amples informations sur le CEF, ainsi que les rapports relatifs aux actions précédentes du CEF, ici.\n*Note :\nLe 17 décembre 2021, la Commission européenne a adopté une décision d’adéquation reconnaissant que le cadre de protection des données de la République de Corée assure un niveau adéquat de protection des données. L’adoption d’une décision d’adéquation implique :\n- une proposition de la Commission européenne ;\n- un avis du Comité européen de la protection des données ;\n- une approbation des représentants des pays de l’UE ;\n- l’adoption de la décision par la Commission européenne.\nLa Commission est tenue de réexaminer périodiquement les décisions d’adéquation et de communiquer ses conclusions au Parlement européen et au Conseil. Des examens réguliers garantissent le maintien du niveau essentiel d’équivalence.\nLe premier réexamen du fonctionnement de la décision d’adéquation a eu lieu en 2025 et a notamment comporté une réunion de réexamen en ligne le 17 octobre 2025. La Commission a invité le Comité européen de la protection des données à participer à cette réunion, conformément au considérant 221 de la décision d’adéquation concernant la Corée. Le 23 juillet 2026, la Commission européenne a publié le rapport au Parlement européen et au Conseil sur le premier réexamen du fonctionnement de la décision d’adéquation concernant la République de Corée, ainsi qu’un document de travail des services de la Commission [SWD(2026) 231 final]. La Commission a conclu que la République de Corée continuait d’assurer un niveau adéquat de protection des données à caractère personnel de l’Union européenne transférées à des entités situées en République de Corée et soumises à son cadre de protection des données modifié.\nÀ la lumière des résultats de cet examen, le CEPD approuve la proposition de la Commission européenne de passer à un cycle de réexamen de quatre ans pour cette décision d’adéquation.\nIl s’agit d’une traduction automatique d’une consultation publique et elle peut contenir des erreurs. Elle ne remplace pas la version anglaise officielle.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

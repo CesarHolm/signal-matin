@@ -1,0 +1,64 @@
+{
+ "id": "syn-a1",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a1.json",
+ "limite_caracteres": 4076,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4076 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : MIT Technology Review\nRubrique : IA\nDate du flux : 12/11/2026\nAuteur : James O'Donnell\nTitre d'origine : Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility\n\nARTICLE :\nRepresentatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.”\nFoster, a Democrat who serves on the Committee on Science, Space, and Technology, is a cosponsor of the act, which would introduce geotracking requirements to verify the location of advanced AI chips in order to prevent their smuggling to China. It is one of three chip-security bills under consideration for inclusion in the Senate’s National Defense Authorization Act, each of which is drawing renewed attention after Nvidia CEO Jensen Huang’s resignation and reported affair with an alleged Chinese spy.\nWhen the Chip Security Act was introduced, in May 2025, lawmakers said the technology to implement it existed, something Nvidia has not publicly confirmed. In March 2026, the Semiconductor Industry Association, of which Nvidia is a member, explicitly opposed the bill and wrote that its mandates for chip tracking were “new, untested, and potentially infeasible.”\nBut privately, Nvidia representatives working with Foster told the lawmaker that the company could implement them.\n“They never put anything in writing,” Foster says, but during technical discussions on the possibility of such safeguards, their reaction was “yeah, of course we can do this.” This private acknowledgment to Foster goes further than anything Nvidia has previously made public.\nOther technology Nvidia has built for its customers suggests that the company can indeed offer accurate tracking of its chips’ locations. In December 2025, for example, it announced a new tool called Fleet Intelligence that would allow customers to monitor how its advanced chips were performing across different data center locations. In doing so, the tool could indicate which country chips were in, Nvidia confirmed to Reuters, but the company would not elaborate on whether this technology could be used to prevent smuggling.\nNvidia did not respond to requests for comment or confirmation of Foster’s characterization.\nIn early October, when lawmakers were reportedly increasingly concerned about Nvidia’s role in smuggling, MIT Technology Review asked the company if Fleet Intelligence could be used to prevent the practice. It declined to answer directly, instead sending a statement: “Governments and media have found insignificant diversion of controlled US products—a drop in the bucket compared to the ocean of domestic compute China already has.”\nThe recent fallout at Nvidia involves a number of people and companies alleged to be involved in chip smuggling. Alice Huang, with whom Jensen Huang reportedly had an affair, runs Megaspeed, a Singaporean firm now under investigation for smuggling advanced GPUs to China. A US Commerce Department inquiry into the company was reportedly halted after invention by Nvidia. Megaspeed reportedly bought chips from Supermicro, a company that packages Nvidia’s chips onto servers.\nThe Chip Security Act as drafted would require a mechanism to track the locations of chips, either by inspections of facilities, attestations by companies, or ping-based location mechanisms. The ping-based technique, the hardest option to circumvent, would require the GPU to send a signal of its location when it comes online. In September, the Center for Security and Emerging Technology found it would be the most cost-effective option.\nFoster said he did not ask Nvidia’s representatives why they weren’t voluntarily adopting such chip-tracking tools if they could technically do so.\nBut if the requirements of the bill pass as part of the Senate’s National Defense Authorization Act, the new tracking mechanisms would only tell investigators where the chips are, not offer a way to disconnect them if it’s revealed they have been smuggled. Foster told MIT Technology Review he intends to introduce new, stricter legislation in the new year that would offer a workaround. The new rule would require licenses to operate advanced GPUs, and before a GPU could connect, its valid license would need to be verified.\nIn the meantime, the controversy at Nvidia, Foster says, has fueled support among his colleagues for the rules in the bill: “There will be a lot of political pressure, in the wake of everything that’s happened, on the companies to actually do a very good job of the geographic validation of where the chip actually is.”\nDeep Dive\nArtificial intelligence\nDon’t be fooled—LLMs don’t reason\nTen years after AlphaGo’s match against Go champion Lee Sedol, today’s AI still isn’t tapping into the machinery that made that win possible.\n“We were looking at it wrong”: The explosive claim that’s upended the AI world\nAn exclusive interview with Nick Cammarata, the researcher whose 26,000-word viral blog post has AI safety folks celebrating.\nStay connected\nGet the latest updates from\nMIT Technology Review\nDiscover special offers, top stories, upcoming events, and more.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a200",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a200.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Inside Climate News\nRubrique : Climat\nDate du flux : 12/11/2026\nAuteur : Dylan Baddour; Derek Harrison\nTitre d'origine : Feds Greenlight Construction of Advanced Nuclear Reactors in Texas\n\nARTICLE :\nThe Nuclear Regulatory Commission this week issued a permit for construction of four next-generation nuclear reactors at a petrochemical complex on the rural Gulf Coast of Texas.\nThe Long Mott Generating Station, developed by chemical giant Dow and nuclear startup X-energy, is one of two flagship projects selected by the U.S. Energy Department in 2020 for its Advanced Reactor Demonstration Program, intended to kickstart a new era of growth for the nation’s nascent nuclear sector.\n“This milestone marks a significant step forward,” Mike Goff, principal deputy assistant secretary for nuclear energy, said in a press release Monday. “The NRC’s approval demonstrates meaningful progress toward deploying advanced reactors.”\nThe Texas project is at the leading edge of a new generation of reactor designs that could revolutionize the commercial model for atomic energy. They replace the gargantuan construction projects currently required for nuclear power plants with small, modular units that can be produced in factories and then shipped and assembled onsite at industrial installations, from data centers to petrochemical plants.\n“We understand that owning a nuclear facility is a different kind of responsibility,” said Kreshka Young, North American business director for energy and climate at Dow, during a public meeting on the project’s construction permits in the town of Port Lavaca in September. “We do not take that lightly.”\nDow plans to install four 80-megawatt reactors by X-energy at its Seadrift Operations complex, on the Gulf Coast between Houston and Corpus Christi. The units won’t require the towering, concrete containment structures characteristic of existing nuclear reactors, nor the 10-mile emergency planning zone, thanks to what scientists describe as revolutionary safety features inherent in new reactor designs.\nX-energy CEO J. Clay Sell, a former deputy energy secretary, has described the company’s Xe-100 unit as “physically impossible to melt down.”\nDiane Wilson, a retired fourth-generation shrimper from the tiny nearby town of Seadrift and director of San Antonio Bay Waterkeeper, a local environmental organization, remains deeply skeptical. “Frankly, it’s outrageous,” she said. “This is outrageous.”\nSpent fuel from the reactors will be stored indefinitely on-site as nuclear waste, she noted, as the U.S. still lacks a permanent national disposal site.\nIn 2025, Wilson’s organization filed legal challenges to the project’s permit application over safety concerns, which were ultimately dismissed by the NRC. The agency approved Dow’s reactor construction permit after an expedited review under executive orders from President Donald Trump aimed at accelerating the national energy sector.\n“We delivered on the 18-month schedule, proving we can do rigorous safety reviews on predictable timelines that move advanced nuclear technology from design to construction,” said NRC Chairman Ho K. Nieh in a press release.\nDow still needs to make a final decision to proceed with the project, the company said in a release. If it does, construction could begin before 2030.\nIf the project proves successful, it would “provide a pathway other industries can emulate” to install dedicated, onsite power generation, said Martin O’Neal, general counsel for the Nuclear Energy Institute, at the September meeting in Port Lavaca.\nThis story is funded by readers like you.\nOur nonprofit newsroom provides award-winning climate coverage free of charge and advertising. We rely on donations from readers like you to keep going. Please donate now to support our work.\nDonate Now\nThe NRC hosted the meeting to take questions and comments from the public on the Long Mott Generating Station.\n“The nuclear industry is watching this project very closely,” O’Neal said.\nIn the last three decades, the U.S. has built just one new nuclear power plant, but federal authorities have pushed in recent years for an industry revival based on new reactor designs. The NRC issued its first permit for construction of an advanced test reactor in 2023, and its first permit for an advanced commercial reactor in March 2026.\nWhile typical nuclear reactors use water to cool, advanced designs use alternatives, from molten salt to gas. The Xe-100 uses helium gas. Rather than traditional fuel rods, the Xe-100 uses a pelletized fuel form in a moving bed of pebbles.\n“These are new technologies,” said Mehdi Reisi Fard, deputy director of advanced reactors at the NRC, during the public meeting in Port Lavaca in September.\nThe innovations add up to a feature known as “functional containment,” where the natural resilience and circulation of fuel pebbles prevents the kind of runaway warming that could lead the reactor to meltdown.\nCompared with current control systems, functional containment is “less reliant on pumps or human intervention to mitigate anomalies,” Fard explained.\nIt works thanks to a new kind of pelletized nuclear fuel, called TRISO fuel, which has been developed in Energy Department labs over decades.\n“Simply put, TRISO particles cannot melt in a commercial high-temperature reactor,” a DOE webpage says.\nThe new technology enables developers to skip the big, expensive safety features, like the massive concrete casings, that are required for traditional water-cooled reactors.\n“The argument these developers are using is that they don’t need a physical containment because the reactor is so safe,” said Edwin Lyman, director of nuclear power safety with the Union of Concerned Scientists, in an interview earlier this year. “Nuclear designers have been trying to reduce the costs of containment, and one way to do that would be to eliminate it entirely.”\nBut Lyman doesn’t consider the fuel to be as safe as authorities say.\n“It’s just a myth that this fuel is indestructible or meltdown-proof,” he said. “This fuel has vulnerabilities.”\nAbout This Story\nPerhaps you noticed: This story, like all the news we publish, is free to read. That’s because Inside Climate News is a 501c3 nonprofit organization. We do not charge a subscription fee, lock our news behind a paywall, or clutter our website with ads. We make our news on climate and the environment freely available to you and anyone who wants it.\nThat’s not all. We also share our news for free with scores of other media organizations around the country. Many of them can’t afford to do environmental journalism of their own. We’ve built bureaus from coast to coast to report local stories, collaborate with local newsrooms and co-publish articles so that this vital work is shared as widely as possible.\nTwo of us launched ICN in 2007. Six years later we earned a Pulitzer Prize for National Reporting, and now we run the oldest and largest dedicated climate newsroom in the nation. We tell the story in all its complexity. We hold polluters accountable. We expose environmental injustice. We debunk misinformation. We scrutinize solutions and inspire action.\nDonations from readers like you fund every aspect of what we do. If you don’t already, will you support our ongoing work, our reporting on the biggest crisis facing our planet, and help us reach even more readers in more places?\nPlease take a moment to make a tax-deductible donation. Every one of them makes a difference.\nThank you,",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

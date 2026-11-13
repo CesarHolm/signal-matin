@@ -1,0 +1,64 @@
+{
+ "id": "syn-a38",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a38.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Le Monde\nRubrique : France\nDate du flux : 13/11/2026\nAuteur : Le Monde avec AFP\nTitre d'origine : Violences policières lors des manifestations : Laurent Nuñez s’engage à protéger les journalistes et faire respecter le droit d’informer\n\nARTICLE :\nSOURCE 1 (Le Monde) :\n« Laurent Nuñez, rappelez à l’ordre vos forces de l’ordre ! » : les syndicats de journalistes ont demandé au ministre de l’intérieur, dans une lettre ouverte qui lui a été transmise lors d’une rencontre, jeudi 12 novembre, de faire cesser les violences policières contre la profession durant les manifestations.\nSyndicats et directions de médias – dont l’Agence France-Presse (AFP) – ont dénoncé depuis plusieurs jours des violences des forces de l’ordre à l’encontre de journalistes, comme des coups de matraque, voire un tir de LBD, alors que ces derniers étaient identifiables avec un brassard de presse. Plusieurs plaintes pénales ont été déposées par des reporters blessés, dont une plainte collective soutenue par une intersyndicale SNJ, SNJ-CGT, CFDT-journalistes et SGJ-FO.\n« Le ministre nous a promis qu’il y aura une amélioration de la situation sur le terrain dès samedi », a déclaré à l’AFP, à l’issue de la réunion, Agnès Briançon, cosecrétaire générale du Syndicat national des journalistes (SNJ).\nUn cadre légal « exemplaire »\nSelon les représentants syndicaux, Laurent Nuñez a affirmé qu’il demanderait aux préfets de rappeler aux forces engagées sur le terrain les règles du « schéma national du maintien de l’ordre » (SNMO) qui prévoient que les journalistes soient protégés et leur droit d’informer respecté.\n« Le ministre a concédé que ces règles protégeant les journalistes sont connues des CRS ou des gendarmes mobiles, mais qu’elles doivent mieux redescendre auprès d’effectifs qui interviennent en renfort et qui ont moins l’habitude », selon Agnès Briançon. « Nous lui avons dit que le cadre légal français est plutôt exemplaire. Il faut juste l’appliquer », a ajouté le secrétaire général du SNJ-CGT, Pablo Aiquel. « On a été écoutés », a-t-il ajouté.\nL’entourage du ministre a confirmé à l’AFP que le rôle des journalistes au sein du SNMO, qui leur consacre deux pages, serait rappelé aux préfets et aux forces de l’ordre dès vendredi. Le dialogue avec les journalistes va se poursuivre par l’intermédiaire du groupe de contact du ministère de l’intérieur, a-t-on ajouté.\nL’ONG Reporters sans frontières était également présente au ministère. Elle a recensé 71 cas de journalistes entravés dans leur couverture des manifestations en France depuis le début du mouvement lycéen et contre la vie chère. Sur ces 71 cas, 44 sont des violences physiques, dont 29 par les forces de l’ordre.\n\nSOURCE 2 (franceinfo) :\n\"Rappelez à l'ordre vos forces de l'ordre\" : les journalistes demandent à Laurent Nuñez le respect du droit d'informer en manifestation\nLes syndicats et des directions de médias dénoncent depuis plusieurs jours des violences policières à l'encontre de journalistes. Plusieurs plaintes ont été déposées.\nLes syndicats de journalistes ont demandé au ministre de l'Intérieur, Laurent Nuñez, de faire cesser les violences policières contre la profession durant les manifestations, lors d'une réunion où ils affirment avoir reçu des engagements, ont-ils annoncé à l'AFP, jeudi 12 novembre. Syndicats et directions de médias, dont celle de l'Agence France-Presse, ont dénoncé depuis plusieurs jours des violences des forces de l'ordre à l'encontre de journalistes, comme des coups de matraque, voire un tir de LBD, alors que ces derniers étaient identifiables avec un brassard de presse.\nPlusieurs plaintes pénales ont été déposées par des reporters blessés, dont une plainte collective soutenue par une intersyndicale SNJ, SNJ-CGT, CFDT-journalistes et SGJ-FO. \"Laurent Nuñez, rappelez à l'ordre vos forces de l'ordre !\", a demandé cette intersyndicale jeudi, selon une lettre ouverte transmise au ministre lors de la rencontre.\n\"On a été écouté\"\n\"Le ministre nous a promis qu'il y aura une amélioration de la situation sur le terrain dès samedi\", a rapporté à l'AFP Agnès Briançon, co-secrétaire générale du Syndicat national des journalistes (SNJ). Selon les représentants syndicaux, Laurent Nuñez a fait savoir qu'il demanderait aux préfets de rappeler aux forces engagées sur le terrain les règles du Schéma national du maintien de l'ordre (SNMO), qui prévoient que les journalistes soient protégés et leur droit d'informer respecté.\n\"Le ministre a concédé que ces règles protégeant les journalistes sont connues des CRS ou des gendarmes mobiles, mais qu'elles doivent mieux redescendre auprès d'effectifs qui interviennent en renfort et qui ont moins l'habitude\", explique Agnès Briançon. \"Nous lui avons dit que le cadre légal français est plutôt exemplaire. Il faut juste l'appliquer\", a ajouté le secrétaire général du SNJ-CGT, Pablo Aiquel. \"On a été écouté\", a-t-il ajouté.\nL'ONG Reporters sans frontières (RSF) était également présente au ministère. Elle a recensé 71 cas de journalistes entravés dans leur couverture des manifestations en France depuis le début du mouvement lycéen et contre la vie chère. Sur ces 71 cas, 44 sont des violences physiques, dont 29 par les forces de l'ordre.\n\nSOURCE 3 (Ouest-France) :\nLes syndicats de journalistes français ont demandé au gouvernement de faire cesser les violences policières contre la profession durant les manifestations, lors d’une réunion jeudi 12 novembre 2026 où ils disent avoir reçu des engagements, ont-ils annoncé à l’Agence France-Presse (AFP).\nLa mobilisation sociale est forte dans le pays ces dernières semaines, avec un mouvement lycéen et étudiant rejoint par des manifestants protestant contre l’augmentation du coût de la vie dans d’importants cortèges, à six mois de l’élection présidentielle.\nSyndicats et directions de médias, dont celle de l’AFP, ont dénoncé depuis plusieurs jours des violences des forces de l’ordre à l’encontre de journalistes, comme des coups de matraque, voire un tir de LBD, alors que ces derniers étaient identifiables avec un brassard de presse.\nPlusieurs plaintes pénales ont été déposées par des reporters blessés, dont une plainte collective soutenue par une intersyndicale. « Laurent Nuñez, rappelez à l’ordre vos forces de l’ordre ! », a demandé cette intersyndicale, selon une lettre ouverte transmise au ministre de l’Intérieur lors d’une rencontre avec lui jeudi.\nMessage transmis aux préfets\nL’ONG Reporters sans frontières (RSF) était également présente au ministère. Elle a recensé 71 cas de journalistes entravés dans leur couverture des manifestations en France depuis le début du mouvement lycéen et contre la vie chère. Sur ces 71 cas, 44 sont des violences physiques, dont 29 par les forces de l’ordre.\n« Le ministre nous a promis qu’il y aura une amélioration de la situation sur le terrain dès samedi », jour où de nouvelles manifestations sont prévues, a indiqué à l’AFP à l’issue de la réunion Agnès Briançon, cosecrétaire générale du Syndicat national des journalistes (SNJ).\nSelon les représentants syndicaux, Laurent Nuñez a indiqué qu’il demanderait aux préfets de rappeler aux forces engagées sur le terrain les règles du Schéma national du maintien de l’ordre (SNMO), un texte du ministère de l’Intérieur, publié en 2020 et modifié en 2021, qui constitue la doctrine du maintien de l’ordre en France.\nLe SNMO prévoit que les journalistes soient protégés et leur droit d’informer respecté.\n« Nous lui avons dit que le cadre légal français est plutôt exemplaire. Il faut juste l’appliquer », a ajouté le secrétaire général d’un autre syndicat, le SNJ-CGT, Pablo Aiquel. « On a été écouté », a-t-il ajouté.\nL’entourage du ministre a confirmé à l’AFP que le rôle des journalistes au sein du SNMO serait rappelé aux forces de l’ordre, assurant que le dialogue avec les journalistes allait se poursuivre.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

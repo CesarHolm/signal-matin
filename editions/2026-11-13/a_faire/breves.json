@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a8\", \"source\": \"The Decoder\", \"titre\": \"Australia's proposed AI safety bill would force frontier model makers to open up to independent testing\", \"resume\": \"Australia's government, led by Prime Minister Anthony Albanese, wants to enshrine mandatory safety rules for frontier AI companies in law for the first time. A new regulator would enforce independent model audits and impose steep penalties for violations. With this move, Canberra is deliberately prioritizing domestic regulation before entering international talks. The article Australia's proposed AI safety bill would force frontier model makers to open up to independent testing appeared first on The Decoder .\"}, {\"id\": \"a25\", \"source\": \"Ars Technica\", \"titre\": \"Google faces calls for AI moratoriums in schools after Gemini pilot backlash\", \"resume\": \"Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”\"}, {\"id\": \"a35\", \"source\": \"Le Monde\", \"titre\": \"Entre la France et l’Algérie, les échanges commerciaux s’effondrent, nouvel effet de la crise entre les deux pays\", \"resume\": \"Conséquence des tensions diplomatiques entre les deux Etats, les exportations françaises vers l’Algérie subissent une baisse sans précédent. Des secteurs comme les produits sidérurgiques ou alimentaires sont ciblés par les autorités algériennes.\"}, {\"id\": \"a34\", \"source\": \"Le Monde\", \"titre\": \"Près de 40 000 enfants handicapés sans AESH à la rentrée 2026 : une action de groupe en cours pour « ouvrir une brèche »\", \"resume\": \"L’association Une école inclusive pour tous avait lancé, en décembre 2025, une action en justice visant le non-respect par l’Etat de ses obligations dans dix départements. Selon des données du ministère de l’éducation, la situation reste très tendue dans le Val-de-Marne, la Savoie ou le Bas-Rhin.\"}, {\"id\": \"a94\", \"source\": \"South China Morning Post\", \"titre\": \"Trump-Xi-Putin summit under discussion as US allies watch on\", \"resume\": \"The US confirmed the possibility of an unprecedented three-party presidential summit with Russia and China, as President Donald Trump prepares for an Asian tour next week. US Secretary of State Marco Rubio discussed the idea in a phone call with Chinese Foreign Minister Wang Yi on Wednesday, according to the State Department. The meeting would take place alongside the Apec summit in Shenzhen, where Trump is already scheduled to meet Chinese President Xi Jinping. Rubio and Wang “agreed on the...\"}, {\"id\": \"a82\", \"source\": \"Politico Europe\", \"titre\": \"Burnham to discuss ‘problem’ Chinese imports in final days of Brexit reset talks\", \"resume\": \"The British prime minister said there will be \\\"long nights ahead\\\" as he finalizes a reset deal with Brussels.\"}, {\"id\": \"a86\", \"source\": \"South China Morning Post\", \"titre\": \"As Japan looks to strengthen defences and security strategy, analysts warn of escalation\", \"resume\": \"Japan aims to become harder to defeat militarily and less vulnerable to economic pressure from China under plans to overhaul its three key security documents by the end of the year. Analysts said the proposed revisions could make it more difficult for China to achieve its military objectives or use financial leverage on Japan, but that their impact would depend on Tokyo’s ability to translate its plans into practical capabilities. Some also said that stronger Japanese defences could prompt...\"}, {\"id\": \"a174\", \"source\": \"Sciences et Avenir\", \"titre\": \"Diabète : Un implant sans médicament contrôle la glycémie électriquement\", \"resume\": \"Ce dispositif, qui s’active lorsque le niveau de glucose dans le sang est trop élevé après un repas, émet un courant électrique qui transforme l’excès de glucose dans une molécule facilement excrétée dans l’urine.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

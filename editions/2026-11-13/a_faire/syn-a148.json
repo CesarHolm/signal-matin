@@ -1,0 +1,64 @@
+{
+ "id": "syn-a148",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a148.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The National Law Review\nRubrique : Sanctions et export\nDate du flux : 12/11/2026\nAuteur : Adetayo Osuntogun\nTitre d'origine : U.S. Sanctions the International Criminal Court Itself: What Companies Should Do Before the April 2027 Deadline\n\nARTICLE :\nHighlights\n- The U.S. has officially designated the International Criminal Court (ICC) as a sanctioned party.\n- Dealings with the ICC are prohibited unless exempt or licensed by Office of Foreign Assets Control (OFAC).\n- OFAC has issued four general licenses that cover operations and wind-down, information technology (IT) and cloud services, pensions, and certain detainees.\n- Causing violations or supporting blocked persons can trigger enforcement or designation risk.\nOFAC Adds the ICC to the SDN List\nOn Oct. 9, in an unprecedented move, the U.S. government designated the ICC under Executive Order (E.O.) 14203, \"Imposing Sanctions on the International Criminal Court.\" Until now, the program targeted individual ICC officials and certain affiliated organizations. The ICC itself now appears on the OFAC Specially Designated Nationals and Blocked Persons (SDN) List, which generally freezes the court's property and interests in property subject to U.S. jurisdiction and prohibits U.S. persons from dealing with it absent a license from OFAC.\nAt the same time, OFAC issued four general licenses (GLs 13, 14, 15, and 16) that permit certain operational, IT, pension, and detainee-related transactions to continue. The broadest of these, GL 13, expires at 12:01 a.m. EDT on April 7, 2027. Banks, technology and cloud providers, insurers, landlords, professional services firms, nonprofits, and any company with a contractual or payment relationship now need to assess their exposure to dealings that may implicate the ICC.\nBackground: Executive Order 14203 and ICC Sanctions Since 2025\nOn Feb. 6, 2025, President Donald Trump signed E.O. 14203, under the International Emergency Economic Powers Act (IEEPA). The order declares a national emergency with respect to the ICC’s efforts to investigate, arrest, detain, or prosecute \"protected persons,\" a term that covers U.S. persons and citizens or lawful residents of U.S. allies (including Israel) that have not consented to ICC jurisdiction. At the same time, OFAC designated ICC Prosecutor Karim Khan as an SDN.\nOFAC implemented the program through the International Criminal Court-Related Sanctions Regulations, effective July 1, 2025. The regulations incorporated earlier general licenses, including authorizations for certain legal services, payment for legal services from funds originating outside the United States, emergency medical services, official U.S. government business, and certain agricultural, medical, and personal-use software transactions.\nDesignations expanded steadily thereafter. The State Department designated, among others, four ICC judges on June 5, 2025; two additional judges and two deputy prosecutors on Aug. 20, 2025; Palestinian nongovernmental organizations, including the Palestinian Centre for Human Rights, on Sept. 4, 2025; and further individuals on Dec. 18, 2025. Additional ICC officials were reportedly designated in August 2026. According to the State Department, 17 people were sanctioned under E.O. 14203 before the Oct. 9 action.\nWhat the ICC’s SDN Designation Prohibits\nThe State Department designated the ICC pursuant to section 1(a) of E.O. 14203. As a result, subject to applicable licenses and exemptions:\n- Blocking. All property and interests in property of the ICC in the United States or in the possession or control of U.S. persons are blocked and must be reported to OFAC.\n- Prohibited dealings. U.S. persons may not engage in, and transactions within or transiting the United States may not involve, dealings in the ICC’s property or interests in property, including making or receiving any contribution or provision of funds, goods, or services by, to, or for the benefit of the ICC.\n- 50 Percent Rule. Entities owned 50 percent or more, directly or indirectly, individually or in the aggregate, by the ICC or other blocked persons are themselves blocked, even if not listed.\n- Individuals not automatically designated. ICC employees and affiliated organizations are not SDNs merely by association; however, transactions conducted on the court's behalf may involve blocked property and therefore be prohibited.\nOFAC General Licenses 13-16: What Remains Authorized\n- GL 13 – Maintenance or wind-down (expires 12:01 a.m. EDT, April 7, 2027). Authorizes transactions ordinarily incident and necessary to the maintenance or wind-down of operations, contracts, and other agreements involving the ICC, including States Parties' (countries that have signed and ratified the Rome Statute, which created the ICC) contributions, staff salaries, health insurance and medical services, rent, utilities, taxes, insurance, routine commercial services, and payment of invoices for expenses incurred before Oct. 9, 2026. The State Department has said this 180-day license may be adjusted depending on whether States Parties make \"meaningful progress\" toward addressing U.S. concerns.\n- GL 14 – Telecommunications and enterprise software (no stated expiration). Authorizes telecommunications and internet services, enterprise software (e.g., finance, payroll, HR, procurement), cybersecurity, data storage, backup, and related cloud services. It does not authorize exports otherwise controlled under U.S. export control laws.\n- GL 15 – Pension payments (no stated expiration). Authorizes processing of ICC pension payments; payments to separately blocked persons must be deposited into blocked, interest-bearing accounts in the United States.\n- GL 16 – Certain detainees (no stated expiration). Authorizes transactions ordinarily incident and necessary to the continued detention, health, safety, and welfare of nine detainees listed in its annex, which includes former Philippine President Rodrigo Duterte.\nNone of the GLs authorize dealings with people or organizations sanctioned in their own right under E.O. 14203. That includes the judges, prosecutors and NGOs designated in 2025. Each of the GLs permits use of blocked ICC accounts only for the authorized activity.\nCompliance Steps for Banks, Vendors, Tech Providers and Law Firms\n- U.S. financial institutions. Identify and block ICC accounts and file blocking reports with OFAC; confirm that any continued processing fits squarely within GLs 13–16 and document the basis. Expect correspondent-banking inquiries from non-U.S. banks clearing U.S. dollar payments.\n- U.S. person vendors, landlords, and service providers. Inventory contracts with the ICC. Ongoing performance and collection may be permissible under GL 13 only through April 7, 2027. Plan for a possible wind-down if the license is not renewed.\n- U.S. person technology and cloud providers. GL 14 permits many services without a fixed end date, but export control obligations remain, and services must not be provided to separately designated persons.\n- Law firms, NGOs, and academics that are subject to U.S. jurisdiction. Independent advocacy is not prohibited, but providing services to or for the benefit of the ICC or designated persons requires careful analysis under the legal-services authorizations in 31 C.F.R. §§ 528.506–528.507 or a specific license.\n- Non-U.S. persons. Non-U.S. companies may face liability for causing U.S. persons to violate the regulations (for example, by conducting a transaction through a U.S. bank) and risk designation for providing material, financial, or technological support to blocked persons.\n- Conflict-of-laws risk. The European Commission has reaffirmed support for the court, and Belgium has called for EU blocking measures. Multinationals with EU operations should monitor whether the EU Blocking Statute is extended to this program, which could create conflicting compliance obligations.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

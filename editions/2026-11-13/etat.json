@@ -1,15 +1,24 @@
 {
- "tour": 1,
+ "tour": 2,
  "code": 3,
  "a_faire": [
-  "sport",
-  "tri-curiosites",
-  "tri-france",
-  "tri-ia",
-  "tri-monde",
-  "tri-recherche",
-  "tri-veille"
+  "breves",
+  "syn-a1",
+  "syn-a103",
+  "syn-a113",
+  "syn-a119",
+  "syn-a134",
+  "syn-a148",
+  "syn-a188",
+  "syn-a200",
+  "syn-a24",
+  "syn-a38",
+  "syn-a4",
+  "syn-a46",
+  "syn-a5",
+  "syn-a54",
+  "syn-a99"
  ],
  "termine": false,
- "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Collecte des flux\n· Sport\n  sport : 13 résultats, 32 matchs au programme, 119 dépêches\n  210 articles candidats, 3 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n… 7 demande(s) en attente : tri-ia, tri-france, tri-monde, tri-recherche, tri-veille, tri-curiosites, sport\nA_FAIRE 7 : a_faire/tri-ia.json a_faire/tri-france.json a_faire/tri-monde.json a_faire/tri-recherche.json a_faire/tri-veille.json a_faire/tri-curiosites.json a_faire/sport.json\n"
+ "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  210 articles candidats, 3 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 26 candidats → 6 à développer, 4 brèves\n  france : 32 candidats → 5 à développer, 3 brèves\n  monde : 53 candidats → 5 à développer, 3 brèves\n  recherche : 21 candidats → 4 à développer, 4 brèves\n  veille : 35 candidats → 4 à développer, 2 brèves\n  curiosites : 43 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a5 complété par : Al Jazeera, The Times of India\n  a8 écarté des développés : texte trop court (1583 car.)\n  a25 écarté des développés : texte trop court (1679 car.)\n  a24 complété par : Android Headlines\n  a35 écarté des développés : texte trop court (1266 car.)\n  a34 écarté des développés : texte trop court (2383 car.)\n  a54 complété par : Sud Ouest\n  a46 complété par : franceinfo\n  a38 complété par : franceinfo, Ouest-France\n  a94 écarté des développés : texte trop court (499 car.)\n  a99 complété par : Al Jazeera\n  a82 écarté des développés : texte trop court (677 car.)\n  a103 complété par : Al Jazeera\n  a86 écarté des développés : texte trop court (497 car.)\n  a113 : papier lu en PDF (40007 car.)\n  a119 : papier lu en PDF (40007 car.)\n  a174 écarté des développés : texte trop court (213 car.)\n  plan : sans pages, 15 articles (15 longs)\n· Lot 2 : synthèses (Sonnet)\n… 16 demande(s) en attente : breves, syn-a5, syn-a4, syn-a1, syn-a24, syn-a54, syn-a46, syn-a38, syn-a99, syn-a103, syn-a113, syn-a119, syn-a134, syn-a148, syn-a188, syn-a200\nA_FAIRE 16 : a_faire/breves.json a_faire/syn-a5.json a_faire/syn-a4.json a_faire/syn-a1.json a_faire/syn-a24.json a_faire/syn-a54.json a_faire/syn-a46.json a_faire/syn-a38.json a_faire/syn-a99.json a_faire/syn-a103.json a_faire/syn-a113.json a_faire/syn-a119.json a_faire/syn-a134.json a_faire/syn-a148.json a_faire/syn-a188.json a_faire/syn-a200.json\n"
 }

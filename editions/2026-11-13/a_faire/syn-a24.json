@@ -1,0 +1,64 @@
+{
+ "id": "syn-a24",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a24.json",
+ "limite_caracteres": 3010,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 3010 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Ars Technica\nRubrique : IA\nDate du flux : 12/11/2026\nAuteur : Ryan Whitwam\nTitre d'origine : Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash\n\nARTICLE :\nSOURCE 1 (Ars Technica) :\nGoogle is continuing its elemental AI naming scheme with the new Gemini 4 Hydrogen. These names are less descriptive than the Pro/Flash monikers of earlier releases, but Hydrogen’s purpose is clear: It replaces the faster, more economical Flash models most people in Google’s ecosystem use.\nWith Google’s recent Argon and Carbon releases, the rollout was staged and began with cybersecurity researchers. Even when general availability began, Google restricted access to users paying for its most expensive AI subscription. The limits for Hydrogen are much more relaxed, with access beginning immediately. This model has replaced Gemini 3.8 Flash across the company’s products.\nGoogle claims that Hydrogen represents a major improvement versus the previous Flash model. It runs in one of four thinking levels (low, medium, high, and the new xhigh), and even in high mode, it’s 2.5 times faster than Flash 3.8. Plus, it reduces “fabricated claims” by more than 5x, according to Google’s analysis. Users will also see gains in code generation, with Hydrogen more than tripling 3.8 Flash’s score in Terminal-Bench. In some cases, Hydrogen even trades blows with Argon. It managed a score of 54 in the popular Artificial Analysis Intelligence Index with xhigh mode versus 50 for Argon.\n\nSOURCE 2 (Android Headlines) :\nGoogle is retiring its familiar “Flash” name and adopting periodic table elements with the global launch of Gemini 4 Hydrogen. Arriving just days after Gemini 4 Carbon, this fast everyday model is rolling out today across Google Search and the Gemini app. It brings sharper reasoning, cleaner code, and smarter web searches to everyone without requiring a paid plan.\nGoogle called Hydrogen the biggest model upgrade ever added to Search. It now runs AI Mode by default and handles tough questions in AI Overviews, making sense of multi-part queries, typos, and conversational follow-ups. Search pages also get more visual, displaying comparison tables, custom tools, and a wider selection of source links across the web.\nFaster everyday help inside the Gemini app\nInside the Gemini app’s model picker, Hydrogen replaces 3.8 Flash for everyday tasks while 3.5 Flash-Lite stays available for quick replies. Google says the new model sticks closely to formatting rules and tone instructions on the first try, pulling context from Gmail, Google Drive, and connected apps. On the Artificial Analysis Intelligence Index, Hydrogen actually scores slightly higher than Gemini 4 Argon while finishing tasks up to 2.5 times faster than 3.8 Flash.\nDevelopers also get native support for a 1 million-token context window. Plus, they’ll enjoy huge gains on coding tests like Terminal-Bench 4.1. Inside Google Antigravity, a new Orchestrator tool pairs Hydrogen with Gemini 4 Carbon so the faster model handles routine coding and testing steps at lower token costs. API access starts at $1.50 per million input tokens and $7.50 per million output tokens through Google AI Studio and Gemini for business.\nSmart model routing keeps everyday AI fast\nInstead of making one giant model handle every minor request, Google is splitting workloads across specialized Gemini 4 tiers. Hydrogen takes care of fast web research, file summaries, and routine coding with far fewer factual errors, leaving heavy architectural planning to Argon and Carbon. Updated safety filters also cut false refusals on legitimate medical or science questions while keeping automated tools inside user permissions.\nFor most people, the nicest part of this update is that it works automatically in the background. Whether you type a messy question into Google Search or ask the Gemini app to draft an email, replies should feel quicker and far more accurate right away.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

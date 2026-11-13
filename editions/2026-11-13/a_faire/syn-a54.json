@@ -1,0 +1,64 @@
+{
+ "id": "syn-a54",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a54.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Public Sénat\nRubrique : France\nDate du flux : 12/11/2026\nAuteur : Chiara Carbonnet\nTitre d'origine : Plan de relance agricole : « Une des thématiques majeures du compromis budgétaire », affirme Sébastien Lecornu\n\nARTICLE :\nSOURCE 1 (Public Sénat) :\nLes sénateurs ont adouci ce 12 novembre, contre l’avis du gouvernement, le relèvement du taux des cotisations à la CNRACL (Caisse nationale de retraites des agents des collectivités locales). La hausse du coût du travail dans les collectivités et les hôpitaux est limitée à 1,4 milliard d’euros dans la copie sénatoriale, au lieu de 1,8 milliard d’euros dans le texte initial.\nPlan de relance agricole : « Une des thématiques majeures du compromis budgétaire », affirme Sébastien Lecornu\nDévoilé ce jeudi, le plan de relance pour l’agriculture vient compléter les mesures d’aides d’urgence de septembre destinées à compenser les pertes liées aux fortes chaleurs de cet été : « Nous avons travaillé sur deux axes majeurs : le plan d’urgence, annoncé le 4 septembre qui mobilise 1,5 milliard d’euros, et le plan de relance », commence Annie Genevard, ministre de l’Agriculture. Au total, le gouvernement apporte une réponse « à plus de deux milliards d’euros », souligne Sébastien Lecornu, avec un plan de relance sur 10 ans annoncé à « 725 millions d’euros ».\nLe Premier ministre a insisté à plusieurs reprises sur le fait que la question de l’agriculture était majeure : « Personne ne doit enjamber cette question ». Il a précisé qu’elle serait « une des thématiques majeures du compromis budgétaire pour les semaines et les mois qui viennent ».\n« Approfondir l’adaptation de notre agriculture au changement climatique »\nLe premier axe du plan présenté ce jeudi par le gouvernement consiste à approfondir l’adaptation de l’agriculture française au changement climatique. Pour ce faire, la ministre de l’Agriculture Annie Genevard a annoncé mobiliser 100 millions d’euros « pour alimenter un guichet d’équipement qui permettra aux agriculteurs d’acheter divers outils pour protéger les animaux et les cultures face aux fortes chaleurs » comme par exemple « des citernes d’eau », de « la ventilation pour les élevages »…100 millions d’euros serviront également à couvrir à « 80 % environ 1 milliard d’euros de prêts qui permettront une adaptation durable des fermes », précise la ministre.\nLe plan prévoit aussi de prolonger le Fonds hydraulique agricole en 2027, « déjà triplé cette année par le Premier ministre mais qui devait rester temporaire », souligne Annie Genevard. Cela engagera 60 millions d’euros.\nEnfin, un dispositif fiscal doit être créé pour les agriculteurs qui vident leurs stocks de fourrages : si un producteur l’utilise entièrement, « sa dotation pour épargne de précaution pourra être lissée sur trois ans, ce qui évite que son résultat fiscal n’augmente », poursuit-elle.\nSortir de la dépendance aux engrais azotés\nLe second axe de ce plan porte sur l’indépendance et la souveraineté agricole : « L’État mobilisera 400 millions d’euros », annonce la ministre de l’Agriculture. Dans le détail, 200 millions de fonds propres de France 2030, 150 millions de subventions France 2030, 17 millions seront transférés aux régions, 10 millions pour l’ingénierie et un surinvestissement fiscal sera mis en place.\nPour réduire la dépendance de la France aux engrais, « puisqu’on importe plus de 70% de nos engrais azotés », rappelle le ministre délégué à la Transition écologique Mathieu Lefèvre, 25 millions d’euros sont prévus pour « aider les agriculteurs à réduire leurs usages d’engrais et à se tourner vers des intrants moins polluants ». Pour la ministre de l’Agriculture, « il faut qu’on soit capable de produire nos propres engrais pour être moins dépendant ».\nPacte Genevard\nAprès le pacte Dutreil et le pacte Papin, deux dispositifs fiscaux qui facilitent la transmission d’entreprise, le gouvernement a décidé de décliner ce principe pour l’agriculture avec le pacte « Genevard ». « Les nouveaux agriculteurs auront un droit d’enregistrement de 0,1% au lieu de 5% en moyenne y compris et surtout pour le bâti agricole », déclare Annie Genevard. « Un gagne temps » mais aussi « monétaire » selon Mathieu Lefèvre qui explique que « les études qui conduisaient à la procédure d’enregistrement industriel s’élevaient à plusieurs milliers d’euros dans le droit existant ». Là aussi, un suramortissement fiscal entrera en vigueur pour que « le repreneur puisse moderniser son exploitation ».\n« Les mesures à prendre ne peuvent pas attendre l’élection présidentielle »\nLa plupart de ces mesures seront inscrites au projet de loi de finances par amendements. Or, si aucun compromis n’est trouvé avec les oppositions pour voter le budget, ce dernier pourrait passer par la voie des ordonnances, une procédure qui empêche le gouvernement de modifier son texte initial pour y ajouter ces mesures en faveur des agriculteurs. Ainsi, si le budget passe par ordonnances, c’est le texte initial, sans les mesures du plan relance, qui entrera en vigueur.\nMais « les réponses » sur « comment le budget trouve son aboutissement » viendront à l’issue de l’examen par le Sénat du texte, a rétorqué le Premier ministre qui donne alors rendez-vous en « décembre ». Il a réaffirmé qu’il n’y avait « pas de schéma dans lequel il n’y a pas de budget ».\nSi la question agricole sera une question de l’élection présidentielle, « les mesures à prendre ne peuvent pas attendre » : « Personne ne peut expliquer droit dans les yeux aux Françaises et aux Français, avec les taux d’intérêts qui sont les nôtres, mais aussi au monde agricole, que tout ça peut attendre un an, c’est-à-dire une saison (agricole) complète », conclut-il.\n\nSOURCE 2 (Sud Ouest) :\n« Il est évident que là où d’autres thématiques l’année dernière », comme la suspension de la réforme des retraites, « avaient servi de discussion politique sur un compromis budgétaire, il est une évidence que la question agricole va être une des thématiques majeures du compromis budgétaire pour les semaines et les mois qui viennent », a affirmé le Premier ministre Sébastien Lecornu lors d’un point presse.\nDans le même temps, le plan de relance agricole pour 2027, déjà présenté mi-octobre, s’élèvera au final à 725 millions d’euros, a indiqué jeudi la ministre de l’Agriculture Annie Genevard, accompagnée du Premier ministre Sébastien Lecornu, lors des conclusions des Conférences de la souveraineté alimentaire lancées un an plus tôt.\nOrdonnances et 49.3\n« D’aucun dirait : ‘‘Le gouvernement politise la question agricole.’’ Ben non, c’est le monde réel. C’est la sécheresse et toutes les raisons qui nous ont amenés à devoir bâtir (le) plan de relance » agricole, a-t-il fait valoir. « Personne ne peut expliquer droit dans les yeux aux Françaises et aux Français, avec les taux d’intérêt qui sont les nôtres, mais aussi au monde agricole, que tout ça peut attendre un an, c’est-à-dire une saison complète », a-t-il ajouté.\nSi un compromis avec les oppositions était trouvé, le Premier ministre Sébastien Lecornu pourrait activer l’article 49.3 de la Constitution pour faire adopter sans vote le budget, sans risquer la censure. Sinon, il pourrait passer par la voie des ordonnances, une procédure qui l’empêche cependant, a priori, de modifier son texte initial pour y ajouter par exemple des mesures en faveur des agriculteurs ou des lycéens.\n« Responsabilité »\nBalayés par l’Assemblée nationale, les textes budgétaires – projets de budgets de l’État et de la Sécurité sociale – ont repris leur parcours lundi au Sénat, hémicycle dominé par la droite qui entend faire preuve de « responsabilité » face aux finances en berne, sans savoir quel vecteur l’exécutif choisira.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
