@@ -1,0 +1,64 @@
+{
+ "id": "syn-a152",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a152.json",
+ "limite_caracteres": 3696,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 3696 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Sciences et Avenir\nRubrique : Science\nDate du flux : 13/11/2026\nTitre d'origine : Surpoids et obésité : l’IMC montre ses limites, une étude le confirme\n\nARTICLE :\nSOURCE 1 (Sciences et Avenir) :\nLongtemps considéré comme la référence pour définir le surpoids et l'obésité, l'indice de masse corporelle (IMC) présente des limites importantes. Une vaste étude publiée dans Nature, portant sur plus de 844 000 adultes, confirme l'intérêt de lui associer d'autres mesures, comme le tour de taille, pour mieux identifier l'excès de masse grasse et évaluer les risques pour la santé.\n\nSOURCE 2 (L'essentiel) :\nÉvaluer l’obésité au-delà du seul indice de masse corporelle (IMC): une nouvelle étude scientifique, publiée mercredi dans la revue Nature, met en évidence les limites de l’unique mesure de la corpulence. Ses auteurs soutiennent une évaluation plus complète dans la prise en charge de la maladie.\nLe surpoids et l’obésité sont traditionnellement définis à partir de l’IMC, calculé en divisant le poids par la taille au carré. Or, des données suggèrent que le tour de taille permet de mieux apprécier l’accumulation de graisse et le risque cardiovasculaire qui y est associé. Car le poids ou l’IMC peuvent être élevés chez une personne très musclée ou ayant une ossature importante, ou encore chez une femme enceinte.\nEn 2025, une commission d’experts du Lancet a déjà recommandé de compléter l’IMC par d’autres mesures comme le tour de taille et le rapport tour de taille/hauteur pour confirmer le statut d’obésité et évaluer le risque pour la santé d’un individu. Elle a également introduit une distinction entre l’obésité clinique, où l’excès de tissu adipeux provoque déjà un dysfonctionnement d’organes ou l’incapacité à effectuer des activités du quotidien, et l’obésité préclinique, un état de risque potentiel pour la santé.\nCombiner plusieurs mesures au lieu d'une seule\nCertains de ces mêmes chercheurs ont désormais évalué, avec d’autres scientifiques, la pertinence de cette approche combinant plusieurs mesures anthropométriques (tour de taille, répartition des graisses...) par rapport à la classification basée sur l’IMC.\nLeurs travaux s’appuient sur des données de plus de 844 000 adultes provenant de quatre études de cohorte menées sur le long terme en Chine, au Royaume-Uni, aux États-Unis et en Espagne.\nIls concluent que «les résultats confortent l’approche proposée par la commission («Lancet»), qui consiste à associer à l’IMC d’autres mesures anthropométriques, afin d’améliorer la classification de l’obésité et l’évaluation des risques».\nSurdiagnostic et obésité cachée\nL’étude a notamment montré qu’environ 2% des personnes considérées comme obèses en se fondant uniquement sur l’IMC ne présentaient pas d’excès de tissu adipeux suffisamment important pour constituer un risque accru de mortalité. Autrement dit, «on observe un surdiagnostic d’obésité de 2%» en moyenne, souligne Francesco Rubino, chirurgien de l’obésité, auteur principal de l’étude, qui avait également piloté les travaux de la commission «Lancet».\nÀ l’inverse, l’étude met également en évidence une sous-estimation de l’obésité chez les personnes classées en surpoids mais dont le tour de taille révèle un niveau de masse grasse caractéristique de l’obésité. Une «obésité cachée» constatée chez environ 6% des participants en moyenne, avec des variations selon les cohortes, allant de 5,2% à 8,6%.\n«Ces chiffres de 2% et 6% au total peuvent paraître faibles», reconnaît Francesco Rubino, mais, selon lui «si l’on extrapole ces données à la population de certains grands pays, on constate que cette erreur de classification peut concerner des dizaines de millions de personnes».\nL’étude constate par ailleurs que plus de 80% des participants à l’étude présentant une obésité préclinique au début du suivi n’ont pas évolué vers une obésité clinique en dix ans. «Nous avons été habitués, médecins généralistes et spécialistes, à mesurer l’obésité avec une balance et un mètre ruban. C’était tout», rappelle l’expert.\n«Mais l’IMC ne renseigne pas sur la masse grasse. Il n’indique pas si un organe fonctionne correctement ni si une personne est en bonne santé ou non», poursuit-il. Son imprécision représente donc «un problème majeur».\nDiagnostic et prise en charge individualisés\nPourtant, de nombreux systèmes de santé continuent de s’appuyer fortement sur des critères basés sur l’IMC, pour déterminer qui peut recevoir un traitement ou même qui obtient une prise en charge.\nLes auteurs de l’étude estiment que la nouvelle définition de l’obésité est plus adaptée au diagnostic individualisé et, par conséquent, à une prise en charge personnalisée, davantage proportionnée au risque. Reste à voir si les futures stratégies de lutte contre l’obésité s’en empareront.\nEntrons en contact",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

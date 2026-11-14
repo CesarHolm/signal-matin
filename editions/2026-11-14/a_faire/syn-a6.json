@@ -1,0 +1,64 @@
+{
+ "id": "syn-a6",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a6.json",
+ "limite_caracteres": 3981,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3981 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 13/11/2026\nAuteur : Maximilian Schreiner\nTitre d'origine : Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models\n\nARTICLE :\nFormer OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models\nAI researcher Will DePue says a forensic analysis has turned up the first technical evidence that leading Chinese AI labs have access to Nvidia's latest Blackwell hardware despite US export controls. He says senior researchers at OpenAI and Anthropic have already checked the method.\nAccording to a forensic investigation by Will DePue, Chinese AI companies DeepSeek, Moonshot AI, MiniMax, and Ant Group are using Nvidia's export-controlled Blackwell GPUs. DePue played a key role at OpenAI in building the Sora and Sora 2 video models as well as GPT-4o, o3, and GPT-5 before founding the nonprofit research group Unemployment Labs.\nHis analysis, he says, provides the first technical evidence of this access. US officials and news outlets had suspected that DeepSeek and Moonshot AI were using Blackwell chips but never published proof. DePue wrote on X that senior researchers at OpenAI and Anthropic have already independently checked and confirmed his findings. According to DePue, six Chinese models released since April 2026 carry the distinct signature of Nvidia's Blackwell generation, while earlier models such as DeepSeek-V3 and Kimi K2.5 show traces of Nvidia's older Hopper generation.\nThe evidence comes directly from the published language models. An AI model consists of billions of numerical values called weights. Before training starts, PyTorch, the standard software framework, fills these empty slots with random numbers generated from a starting value called a seed. To distribute this massive amount of data quickly, the GPU splits the work across its individual compute cores. Because different chip models have different core counts, the filling process produces a characteristic pattern, according to the report. Older Hopper chips such as the H100 and H800 use 132 compute cores, while the newer Blackwell chips use exactly 148 or 152 cores depending on the model (B200/B300 or GB200/GB300).\nTraining then adjusts these values millions of times, but some slots for unused words or symbols keep their initial random values. Even in heavily trained parts of the model, a faint statistical echo of the initial distribution survives, according to DePue. He says he worked the pattern backward and reproduced the results for DeepSeek-V4-Flash and Kimi K3 exactly on real Blackwell chips. He has published the verification code on GitHub.\nTraining runs costing more than half a billion dollars\nThe analysis maps DeepSeek-V4-Flash and MiniMax-M3 to B200 or B300 chips (148 cores). DeepSeek-V4-Pro, Kimi K3, Kimi K3.1-Pro, and Ant Group's Ling-3.1-flash show, according to the analysis, the 152-core pattern of Nvidia's liquid-cooled GB200 or GB300 flagship rack systems. DePue says chance can be ruled out statistically and that the method correctly identified all 24 control models with known hardware, including Meta's Llama 3.1 (H100).\nDePue's report estimates that the five training runs he examined required about 12,000 Blackwell GPUs combined, as much computing power as roughly 30,000 older H100 chips. Kimi K3 alone required an estimated 4,500 Blackwell processors over about 70 days, and DeepSeek-V4-Pro about 3,000. At a unit price of about $70,000, each of those clusters would cost $200 million to $300 million, and all five systems together more than half a billion dollars.\nThe findings also align with analysis from Dylan Patel, chief analyst at SemiAnalysis. In an interview with Sequoia Capital, Patel said DeepSeek-V3's model architecture was still specifically tailored for Nvidia's Hopper chips, while DeepSeek-V4's architecture was built for Blackwell GPUs and Huawei's Ascend chips. According to DePue's report, models from other Chinese labs, including Alibaba's Qwen3.8 and those from Zhipu, Tencent, Xiaomi, and StepFun, still show only Hopper signatures, while Meituan's LongCat-2.0 points to Huawei hardware.\nThe fingerprint doesn't prove a legal violation\nStrictly speaking, the method shows only which hardware initialized the weights, though the training itself very likely ran on the same systems. The only other technical explanation would be an AMD MI300X, which is also restricted, artificially throttled so it produces the same pattern. DePue says he ruled out AMD for DeepSeek-V4-Flash using tiny rounding differences between the chips.\nThe data doesn't reveal where the GPUs are or who owns them, according to the investigation. Because Chinese companies can rent computing capacity at data centers outside China, the report says its technical evidence shows access to Nvidia's top hardware but does not by itself prove physical smuggling or a violation of US export law.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

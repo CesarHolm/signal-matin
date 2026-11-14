@@ -1,0 +1,64 @@
+{
+ "id": "syn-a54",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a54.json",
+ "limite_caracteres": 4345,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4345 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Public Sénat\nRubrique : France\nDate du flux : 13/11/2026\nAuteur : Romain David\nTitre d'origine : Budget de la Sécu : le Sénat supprime la taxe de 2,05% sur les mutuelles\n\nARTICLE :\nSOURCE 1 (Public Sénat) :\nCe jeudi 12 novembre, les sénateurs ont validé le nouveau mode de calcul des allégements de cotisations patronales sur l’emploi. Les entreprises devront ainsi verser 2,8 milliards d’euros supplémentaires aux organismes sociaux en 2027, soit 900 millions de moins que ce que prévoyait le gouvernement dans son projet de loi de financement de la Sécurité sociale. Et pour cause : la version du Sénat – provisoire à ce stade – prévoit une entrée en vigueur du nouveau mécanisme au 1er avril.\nBudget de la Sécu : le Sénat supprime la taxe de 2,05% sur les mutuelles\nRejeté à une écrasante majorité, par 339 voix pour, et seulement une contre. Ce vendredi 13 novembre, en milieu de matinée, les sénateurs ont supprimé l’article 12 du projet de loi de financement de la Sécurité sociale (PLFSS), qui prévoit de reconduire sur l’année 2027 la taxe de 2,05 % instaurée en 2026 sur les mutuelles, au bénéfice de la branche maladie de la Sécu. Dans un rare moment d’unité gauche-droite, l’ensemble des élus, tous bords confondus, est monté au créneau contre le gouvernement, dénonçant à la fois la reconduction d’une mesure initialement présentée comme « exceptionnelle », et son impact sur les finances des adhérents.\n« Alors que notre pays affiche déjà un taux record de prélèvements obligatoires, l’augmentation continue des tarifs des mutuelles pénaliserait particulièrement le pouvoir d’achat des Français », a épinglé le sénateur LR Serge Berard. « Les assurés ne sont pas dupes, in fine, ce sont eux qui vont payer cette taxe. De grâce, renoncez à cette taxe, ne soyez pas étonnés que les Français perdent confiance en leur gouvernement avec des mesures de cette nature, qui en plus durent dans le temps. »\nUne mesure décriée\nLa communiste Cathy Apourceau-Poly a rappelé « qu’en 2026, le législateur avait prévu un gel des cotisations pour éviter que les organismes ne reportent cette taxe sur leurs adhérents, mais que ce gel a été censuré par le Conseil constitutionnel ». Patrick Kanner, le président du groupe socialiste, a dressé un parallèle entre « l’augmentation de 8,2 % » du montant des cotisations payées en 2024 aux mutuelles par leurs adhérents, contre une hausse « de 5,4 % pour les prestations versées ». « Il y a manifestement pour les mutuelles un gain potentiel », a-t-il raillé.\nPour sa part Edwige Diaz, la présidente du groupe Union nationale pour les territoires, qui rassemble les élus RN et UDR du Sénat, a dénoncé une mesure « qui revient à alourdir le coût du travail », dans la mesure où l’employeur prend en charge une partie du coût de la mutuelle de ses salariés.\nUn rendement de 1 milliard d’euros\nFace à ce chœur des récriminations, la ministre de la Santé, Stéphanie Rist, s’est trouvée bien seule pour défendre la prolongation du dispositif, supposé rapporter la bagatelle de1,12 milliard d’euros dans un contexte de forte dégradation des comptes publics. « Oui, c’est vrai, cette contribution devait être exceptionnelle. Mais il est vrai aussi que depuis 2026 la situation géopolitique et les déficits de notre pays ont évolué. Comme vous le savez nous voulons atteindre un déficit à 5 % ».\nPour éviter d’alourdir l’ardoise, le rapporteur général Olivier Henno a indiqué que la commission des Affaires sociales allait compenser la suppression de cette taxe en proposant un transfert de charges, c’est-à-dire une bascule de certaines dépenses du ressort de l’Assurance maladie obligatoire vers les complémentaires, en particulier en ce qui concerne la prévention. « Cette mesure n’apportera pas le rendement de 1 milliard initialement prévu », lui a répondu Stéphanie Rist.\nL’examen du projet de loi de financement de la Sécurité sociale se poursuit jusqu’en début de semaine prochaine au Sénat, avant un vote solennel prévu mercredi. Le texte fera ensuite son retour à l’Assemblée nationale, où les députés l’ont rejeté en première lecture.\n\nSOURCE 2 (20 Minutes) :\nLe Sénat loin d’être convaincu par plusieurs propositions du budget de la Sécu 2027. Les élus ont affiché leur désaccord avec plusieurs taxes, dont une contribution demandée aux mutuelles, devant rapporter plus d’un milliard d’euros à l’Assurance maladie.\nDominée par une alliance entre la droite et les centristes frileuse face aux mesures fiscales, la chambre haute a affiché ses désaccords avec le gouvernement sur le projet de loi de financement de la Sécurité sociale (PLFSS).\n« Taxe indirecte » sur les consommateurs\nPrincipale décision sénatoriale, le refus quasiment unanime d’une contribution exceptionnelle sur les complémentaires santé, fixée à 2,05 %. Mise en place l’année dernière, elle devait être éphémère mais le gouvernement veut la reconduire pour récupérer 1,1 milliard d’euros.\n« L’augmentation continue des tarifs des mutuelles pénaliserait particulièrement le pouvoir d’achat des Français », a dénoncé le sénateur Serge Bérard (Nouvelle Energie), fustigeant comme la plupart de ses collègues une « taxe indirecte » probablement répercutée par les mutuelles sur leurs adhérents.\nSoucieux de préserver le déficit de la Sécu, les sénateurs assurent qu’ils pourront compenser ce milliard perdu en proposant un transfert de charges de l’Assurance maladie vers les mutuelles, notamment sur les dépenses de prévention. Mais la ministre de la Santé, Stéphanie Rist, a affirmé qu’il serait impossible d’obtenir un tel « rendement », défendant la taxe comme une mesure de « sérieux budgétaire ».",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

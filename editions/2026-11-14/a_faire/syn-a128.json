@@ -1,0 +1,64 @@
+{
+ "id": "syn-a128",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a128.json",
+ "limite_caracteres": 3533,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3533 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : ANI News\nRubrique : Sanctions et export\nDate du flux : 13/11/2026\nAuteur : ANI\nTitre d'origine : Ursula von der Leyen says Europe's inclusion in Ukraine peace talks is \"self-explanatory\"; announces 22nd Russia sanctions package\n\nARTICLE :\nDublin [Ireland], November 13 (ANI): European Commission President Ursula von der Leyen asserted on Friday that Europe's inclusion in ongoing Ukraine peace negotiations is \"self-explanatory\" to protect the bloc's security interests, while announcing that Brussels will unveil a 22nd sanctions package against Russia alongside a 2027 financing plan for Kyiv later this month. \nSpeaking to reporters ahead of the Informal European Council summit in Dublin, von der Leyen welcomed recent diplomatic momentum, including a prisoner exchange, and underscored that European leaders must have a direct voice at the negotiating table as talks progress. \n\"We will also discuss the peace talks. I welcome the exchange of prisoners, and I think it is self-explanatory that Europe is included in the peace talks to safeguard our interests, but also to support Ukraine,\" von der Leyen said. \nTo ensure Kyiv negotiates from a position of strength, the European Commission is preparing a dual track of economic pressure on Moscow and sustained financial backing for Ukraine ahead of the formal European Council summit scheduled for November 26–27. \n\"And in this context, we will come forward as a Commission with a proposal for the financing of the Ukrainian needs in 2027, and with the 22nd sanctions package before the next European Council,\" she stated. \nHer remarks come amid intense diplomatic discussions in the Irish capital, where EU leaders and Ukrainian President Volodymyr Zelenskyy have been coordinating Europe's role in the peace process and debating the appointment of a dedicated European envoy.\nZelenskyy met US President Donald Trump's Special Envoy Steve Witkoff and Jared Kushner in Ireland following their talks with Russian President Vladimir Putin in Moscow, with discussions focusing on a major prisoner exchange, greater European participation in peace negotiations and further diplomatic engagements to end the Ukraine conflict.\nAnnouncing the meeting in a post on X, Zelenskyy said the discussions had resulted in three key outcomes, including preparations for what could become the largest prisoner exchange since the beginning of the war.\nHe also highlighted the need for European representatives to play a more active role in the diplomatic process, stressing that Ukraine wanted Europe to have an equal position at the negotiating table.\n\"First, a humanitarian outcome – prisoners will be released, and we are counting on the largest prisoner exchange since the start of this war. The second outcome – we are involving European representatives even more actively in diplomacy so that they can have an equal seat at the negotiating table. Ukraine always defends the interests of all of Europe,\" he said.\nThe meeting in Ireland followed discussions between Witkoff, Kushner and Putin at the Kremlin in Moscow, where the US envoys reviewed the latest developments in negotiations involving Russia, Ukraine and the United States.\nAccording to a statement issued by the Kremlin, Putin thanked the US envoys for their efforts and asked them to convey his gratitude to Trump for facilitating contacts with the Ukrainian side. He also highlighted progress on humanitarian cooperation, particularly the exchange of detainees.\nDuring the meeting, Witkoff told Putin that Trump considered ending the conflict as quickly as possible a priority.\nHowever, major differences remain over territorial arrangements and future security guarantees. During the Kremlin discussions, Putin reiterated Moscow's opposition to the deployment of foreign troops on Ukrainian territory following a potential peace agreement.\nHighlighting Europe's inclusion in the talks, Kushner wrote on X, \"Both sides have now agreed to expand the next round of negotiations to include our European partners. This will allow us to address the broader postwar European security arrangements alongside the territorial issues between Ukraine and Russia. A lasting end to the fighting requires credible security guarantees, deconfliction mechanisms, and reciprocal de-escalation commitments that reduce the risk of future conflict.\" \nEarlier last month, European Union foreign policy chief Kaja Kallas announced nearly 1,600 sanctions listings targeting Russia’s military-industrial complex and individuals linked to elections in occupied Ukrainian territories, asserting that sustained economic pressure on Moscow was necessary to end the war. (ANI)",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

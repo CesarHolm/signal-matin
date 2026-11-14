@@ -1,0 +1,64 @@
+{
+ "id": "syn-a36",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a36.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : franceinfo\nRubrique : France\nDate du flux : 13/11/2026\nAuteur : Article rédigé par franceinfo France Télévisions\nTitre d'origine : Convergence de différents mots d'ordre, important dispositif policier… A quoi s'attendre pour la journée de mobilisation du samedi 14 novembre ?\n\nARTICLE :\nConvergence de différents mots d'ordre, important dispositif policier… A quoi s'attendre pour la journée de mobilisation du samedi 14 novembre ?\nLa coordination des gilets jaunes et des organisations de jeunesse appellent à défiler samedi \"contre la vie chère\". D'autres manifestations – pour le climat, contre les violences policières ou les violences faites aux mineurs – sont aussi prévues. A Paris, un cortège unique défilera entre les places de la République et de la Nation.\nLa mobilisation va-t-elle reprendre de la vigueur ? La coordination des gilets jaunes et plusieurs organisations de jeunesse ont appelé à manifester dans toute la France \"contre la vie chère\", samedi 14 novembre, pour un cinquième week-end consécutif. La semaine précédente, les manifestations avaient rassemblé 146 000 personnes en France, selon le ministère de l'Intérieur, et 250 000 selon l'intersyndicale de la jeunesse, une mobilisation en recul par rapport aux précédentes journées. La multiplicité des mots d'ordre et l'absence d'encadrement syndical font craindre aux autorités des troubles à l'ordre public dans la capitale. Franceinfo fait le point.\nPas d'appel à la mobilisation de la part des centrales syndicales nationales\nL'appel à manifester est cette fois porté par l'intersyndicale de la jeunesse et les gilets jaunes, et est relayé localement par des unions régionales ou départementales de syndicats de salariés. Les branches d'Ile-de-France de la CGT, de la FSU et de FO participeront ainsi au cortège parisien, assure à l'AFP Vincent Gautheron, secrétaire général de l'union régionale CGT. En revanche, les confédérations syndicales nationales du secteur public et du secteur privé concentrent leur appel à la grève et aux manifestations sur la journée du mardi 17 novembre.\n\"Pour nous, c'est toujours plus inquiétant parce que ça veut dire que les cortèges ne sont pas encadrés\", a estimé vendredi sur LCI le ministre de l'Intérieur. Laurent Nuñez redoute que \"la main [soit] laissée aux organisations syndicales étudiantes, lycéennes, (...) qui ont moins d'expérience, qui ne déclarent pas toujours d'ailleurs\" leurs manifestations.\nDes revendications multiples\nLa coordination des gilets jaunes, qui contribue depuis le 17 octobre à l'organisation de manifestations les samedis dans toute la France pour dénoncer la \"vie chère\", appelle à un \"acte V\". La carte collaborative du mouvement recense jeudi à la mi-journée près de 230 actions pour la journée de samedi.\nLe collectif enfantiste a par ailleurs prévu de manifester le même jour \"contre les violences faites aux enfants et aux ados\". Différentes organisations opposées à la proposition de loi sur la présomption d'usage légitime des armes par les forces de l'ordre dénonceront dans la rue, elles, \"un permis de tuer\". Le mouvement qui a organisé le 26 septembre des marches pour le climat a aussi prévu de défiler samedi \"pour le présent et l'avenir des enfants\".\nLes cortèges devraient donc converger dans certaines villes, notamment Paris, où ils s'élancent tous de la place de la République pour rejoindre la place de la Nation. \"Dans beaucoup d'endroits, par pression des préfectures, toutes les mobilisations auront un parcours commun ou un seul point de rassemblement\", a assuré Benjamin Ball, membre de la coordination des gilets jaunes, à l'AFP. De son côté, Laurent Nuñez assurait vendredi sur LCI prévoir \"entre 50 ou 60 défilés sur l'ensemble du territoire national\".\nDes risques d'\"affrontements avec les forces de l'ordre\", selon le ministre de l'Intérieur\nAu niveau national, il existe \"le risque de voir plusieurs cortèges non autorisés susceptibles de rechercher l'affrontement avec les forces de l'ordre et de se rendre dans les centres-villes\", écrit le ministre de l'Intérieur dans un télégramme aux préfets daté de lundi et consulté par France Télévisions. \"Aussi, je vous demande de ne pas baisser la garde face à des phénomènes plus éclatés voire sporadiques dont le niveau de violence ne baisse pas en intensité\", ajoute Laurent Nuñez.\nDans la capitale, les autorités font état de \"risques de troubles à l'ordre public\", selon une note de la direction du renseignement de la préfecture de police de Paris, consultée par France Télévisions. Entre 30 000 et 60 000 manifestants sont attendus dans la capitale samedi, selon ce document. Parmi eux, 200 à 400 gilets jaunes et 500 à 1 000 militants contre les violences faites aux enfants.\nLa marche contre les violences policières devrait donner \"une très forte coloration anti-police\" à cette nouvelle journée de mobilisation. \"Sujet fédérateur de l'extrême gauche radicale, de l'ultragauche et de la jeunesse des quartiers, une participation importante de cette population est attendue avec des discours hostiles aux forces de l'ordre pouvant se traduire par la constitution d'un bloc radical de 300 à 600 personnes en pré-cortège\", estime la note de la préfecture de police, qui rappelle \"le contexte social marqué par la tenue du procès médiatisé\" du passage à tabac de Michel Zecler par des policiers. Les renseignements anticipent ainsi des \"provocations verbales et physiques contre le dispositif policier, voire des dégradations ou des pillages\".\nQuelque 70 000 policiers et gendarmes mobilisés\nEn vue de cette journée, 70 000 policiers et gendarmes seront mobilisés, a annoncé le ministre de l'Intérieur sur LCI. \"On aura le même dispositif que samedi dernier\" et depuis le 24 octobre, a fait savoir Laurent Nuñez, précisant néanmoins que ce chiffre serait affiné lors d'une réunion vendredi. \"C'est un dispositif qui est mobile, réactif, qui s'adapte à ce que font les groupes à risque, qui s'éclatent en petits groupes et qui essaient de contourner le dispositif des forces de l'ordre\", a-t-il développé.\nDes \"contrôles dans la profondeur qui s'avèrent extrêmement dissuasifs\" seront mis en place, comme lors des samedis précédents, a aussi prévenu le ministre. \"Et comme je le dis à chaque fois, pour tout ce qui est casseurs et pilleurs, on les attend de pied ferme.\"\nPour éviter les débordements, Laurent Nuñez a également demandé aux préfets de \"prendre les mesures de police administrative nécessaires\", tout en mettant en place des contrôles de flux en amont des rassemblements, un prépositionnement de forces mobiles et des \"interventions systématiques en cas d'atteintes contre les personnes et les biens\". Concernant l'usage des grenades policières, il n'y a \"pas de restriction de principe sur les moyens employés mais un usage proportionné conformément au cadre légal et réglementaire en vigueur\", a-t-il rappelé.\n- \n        \nvidéo \"C'est ma façon de me nourrir\" : ces Français tentés de voler en supermarché\n- Laurent Nuñez promet aux policiers une revalorisation de leur prime de risque, les syndicats insatisfaits\n- \n        \nvidéo Voitures en centres-villes : Mulhouse rétropédale et rouvre l'une de ses principales rues commerçantes à la circulation\n- \"Forme de provocation\", \"petite musique de l'extrême droite\"... Les syndicats de l'Education nationale vent debout après les propos de Sébastien Lecornu sur la \"complicité\" d'enseignants lors des violences lycéennes\n- \n        \naudio \"On peut critiquer la police sans forcément lui manquer de respect\" : comment les jeunes candidats à l'école de police vivent le climat ambiant des manifestations lycéennes",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

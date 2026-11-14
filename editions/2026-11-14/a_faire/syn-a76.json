@@ -1,0 +1,64 @@
+{
+ "id": "syn-a76",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a76.json",
+ "limite_caracteres": 2500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 2500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Politico Europe\nRubrique : Europe\nDate du flux : 13/11/2026\nAuteur : Nektaria Stamouli; Hans von der Burchard; Hanne Cokelaere\nTitre d'origine : EU countries to announce deportation hub deal with Rwanda\n\nARTICLE :\nSOURCE 1 (Politico Europe) :\nEU countries are set to announce a deal on Monday to send rejected migrants to a deportation hub in Rwanda, three people familiar with the scheme confirmed.\nAustria, Denmark, Germany, Greece and the Netherlands have been meeting regularly to lay the groundwork for a deal with to set up centers outside EU territory to which they can deport migrants without a legal right to stay in the EU. The deal is part of a broader push by the bloc to gain greater control over who enters the EU — and who gets to stay.\nThe anticipated deal, which is set to be announced in Vienna, would only apply to asylum seekers who have already run through all of their options for securing legal residence in the EU and were rejected.\n\nSOURCE 2 (UA.NEWS) :\nFive EU countries plan to announce Rwanda deportation center deal — Politico Europe\nAustria, Denmark, Germany, Greece and the Netherlands plan to announce in Vienna an agreement with Rwanda to establish a center for the deportation of migrants who have no legal right to remain in the European Union. This was reported by Politico Europe, citing three sources familiar with the scheme.\nPilot center in Rwanda\nThe agreement is expected to be announced on Monday. It will apply only to asylum seekers who have exhausted all options for obtaining legal permission to reside in the EU and have been refused.\nThe five countries have regularly held meetings to prepare a mechanism for establishing centers outside the European Union's territory. They will be able to deport there people who have been ordered to leave the EU. The countries had previously stated that they intended to conclude the first agreements on such centers in 2026 and launch them the following year.\nMore current news is available on the UA.News Telegram channel Telegram.\nConditions and concerns\nThe center in Rwanda is intended to become a pilot project. According to the publication, agreements with other countries and involving other EU members may emerge later.\nA recent reform of EU rules allowed member states to conclude agreements on such centers provided that international human rights standards are observed. At the same time, the details of the scheme, including the nationality of the people who will be transferred, the conditions of their stay and oversight mechanisms, will depend on the specific agreement.\nHuman rights organizations warn that such centers could create risks of human rights violations outside the EU's oversight and legal mechanisms. In 2023, the UK Supreme Court ruled unlawful the British plan to send asylum seekers to Rwanda for the remote processing of their claims. The planned initiative by EU countries concerns people who have already been ordered to leave the bloc's territory.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

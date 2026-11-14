@@ -1,0 +1,64 @@
+{
+ "id": "syn-a44",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a44.json",
+ "limite_caracteres": 2616,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 2616 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : franceinfo\nRubrique : France\nDate du flux : 13/11/2026\nAuteur : Franceinfo Avec Afp\nTitre d'origine : Laurent Nuñez promet aux policiers une revalorisation de leur prime de risque, les syndicats insatisfaits\n\nARTICLE :\nLaurent Nuñez promet aux policiers une revalorisation de leur prime de risque, les syndicats insatisfaits\nCette proposition faite par le ministre de l'Intérieur lors d'une réunion vendredi place Beauvau est jugée \"insuffisante\", voire \"inadmissible\", par les syndicats.\nLe ministre de l'Intérieur a proposé aux syndicats, vendredi 13 novembre, une revalorisation de l'indemnité de sujétion spéciale de la police (ISSP), leur prime de risque, après plus d'un mois de blocages de lycées et d'universités, ainsi que des manifestations, qui ont mobilisé d'importants dispositifs des forces de l'ordre.\n\"Compte tenu des risques inouïs auxquels sont exposés actuellement les policiers et les gendarmes\", rapporte le ministère de l'Intérieur après cette rencontre, Laurent Nuñez \"a tenu à présenter aux organisations représentatives un plan de revalorisation de l'indemnité de sujétion spéciale, qui n'avait pas été revalorisée depuis 2019\".\nCette revalorisation, qui porterait le taux de cette prime à 33,5%, \"se ferait sur trois ans, jusqu'en 2029, avec une première marche en avril 2027. Sur cette base, les discussions se poursuivent\", assure dans un message à la presse le ministère, soulignant le \"contexte budgétaire contraint\".\n\"Ce n'est pas tolérable, c'est même inadmissible\"\n\"Le calendrier ne va pas. C'est insuffisant\", a réagi le secrétaire général d'Unsa Police, Thierry Clair. \"Le ministre nous dit que le sujet est toujours sur la table, qu'il espère faire mieux. On lui souhaite vraiment de faire mieux. Parce que pour le coup, ça ne nous satisfait pas du tout\", a abondé Grégory Joron, secrétaire général d'Un1té.\n\"Ce n'est pas tolérable, c'est même inadmissible. J'allais même dire que c'est indécent de se retrouver dans une telle situation. J'ai l'impression de mendier et, croyez-moi, j'ai presque honte. Je suis triste pour tous mes collègues ce soir, a également lancé le secrétaire général d'Alliance, Fabien Vanhemelryck. Je suis écoeuré.\" Appelant les autres organisations à \"faire front pour défendre le métier de policier\", Alliance a promis de durcir le ton la semaine prochaine, lançant sur X \"un appel à toutes les grèves possibles et imaginables\".\nL'augmentation de la prime ISSP à un taux de 35% est réclamée par tous les syndicats de la police depuis plusieurs mois. Créée en 1958, elle est la résultante de la fusion des primes de risque et de danger. Elle est intégrée dans le calcul de la pension de retraite des fonctionnaires de la police nationale.\n- \n        \nvidéo \"C'est ma façon de me nourrir\" : ces Français tentés de voler en supermarché\n- \n        \nvidéo Voitures en centres-villes : Mulhouse rétropédale et rouvre l'une de ses principales rues commerçantes à la circulation\n- Convergence de différents mots d'ordre, important dispositif policier… A quoi s'attendre pour la journée de mobilisation du samedi 14 novembre ?\n- \"Forme de provocation\", \"petite musique de l'extrême droite\"... Les syndicats de l'Education nationale vent debout après les propos de Sébastien Lecornu sur la \"complicité\" d'enseignants lors des violences lycéennes\n- \n        \naudio \"On peut critiquer la police sans forcément lui manquer de respect\" : comment les jeunes candidats à l'école de police vivent le climat ambiant des manifestations lycéennes",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

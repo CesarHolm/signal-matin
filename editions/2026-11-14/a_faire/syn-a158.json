@@ -1,0 +1,64 @@
+{
+ "id": "syn-a158",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a158.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Conversation\nRubrique : Idées\nDate du flux : 13/11/2026\nAuteur : Chloe N East; Elizabeth Cox\nTitre d'origine : Aux États-Unis, les arrestations d’immigrés n’ont profité ni à l’emploi ni aux salaires des travailleurs nés dans le pays\n\nARTICLE :\nL’ESSENTIEL\n- Aux États-Unis, les pics d’arrestations d’ICE, United States Immigration and Customs Enforcement (Service de l'immigration et des douanes des États-Unis), ont coïncidé avec un recul de 4 % du taux d’emploi des immigrés probablement sans papiers dans leurs secteurs phares.\n- Ce retrait n’a pas profité aux Américains : les employeurs ont réduit leur demande de main-d’œuvre au lieu d’augmenter les salaires.\n- Pour renforcer le marché du travail, les présidents devront donc chercher ailleurs, car immigrés et natifs occupent surtout des postes complémentaires.\nLe président Donald Trump avait fait campagne en promettant de renforcer le marché du travail. Son programme en matière d’immigration, qui comprenait l’engagement de mener la plus vaste campagne d’expulsions de l’histoire des États-Unis, était au cœur de cette promesse.\n« Pendant trop longtemps, Washington a ignoré à quel point l’immigration illégale massive avait artificiellement tiré les salaires vers le bas, au détriment des Américains des classes populaires, et en particulier des jeunes hommes », écrivait, en juillet 2025, sur X le secrétaire au Trésor Scott Bessent, l’équivalent du ministre des finances.\n« Mais avec le président Trump, nous avons désormais une frontière sécurisée, un boom des salaires ouvriers et d’importants investissements issus des accords commerciaux. »\nLe marché du travail raconte une autre histoire. Au cours de la première année du second mandat de Trump, le chômage a augmenté, les embauches ont ralenti et la progression des salaires a marqué le pas. Le secteur de la construction a été particulièrement touché.\nSpécialistes du marché du travail, de l’immigration et des politiques publiques environnementales, nous avons étudié comment ces tendances économiques peuvent être reliées à la campagne d’expulsions massives du second mandat de Trump. Fait notable, si l’emploi des immigrés a reculé dans les zones où l’Immigration and Customs Enforcement (ICE), la police fédérale de l’immigration, a intensifié ses contrôles, ni l’emploi ni les salaires des citoyens états-uniens n’ont progressé.\nUn effet dissuasif sur les travailleurs immigrés\nÀ partir de données couvrant la période d’octobre 2023 à novembre 2025, nous avons examiné les taux d’emploi et les salaires des travailleurs immigrés et des travailleurs nés aux États-Unis dans les zones qui ont connu de brusques pics d’arrestations par l’ICE, puis nous les avons comparés à ceux des zones qui n’en ont pas connu.\nDans les régions où l’ICE a intensifié son activité, nous avons constaté une baisse significative du taux d’emploi des immigrés probablement sans papiers qui n’avaient été ni placés en détention ni expulsés. Ce recul était particulièrement marqué dans les secteurs où ces travailleurs sont très présents, comme l’agriculture, la construction, l’industrie manufacturière et le commerce de gros, où nous avons mesuré une baisse de 4 % du taux d’emploi.\nÀ lire aussi : Pourquoi les travailleurs immigrés sont-ils surreprésentés dans les secteurs « essentiels » ?\nCes immigrés semblaient rester chez eux par peur, une inquiétude largement répandue. Dans une enquête du Pew Research Center (institut d’études et de sondages états-unien) menée à l’été 2025, 43 % des personnes nées à l’étranger disaient craindre d’être expulsées, ou qu’un de leurs proches le soit. Nous parlons d’effet dissuasif, car ces personnes ne sont pas physiquement retirées du marché du travail. Elles ont plutôt modifié leur comportement à cause de l’ICE.\nSous le second mandat de Trump, cet effet dissuasif sur l’emploi est environ deux fois plus fort que celui que nous avions mesuré dans de précédents travaux sur les expulsions massives, consacrés à un programme du premier mandat du président Barack Obama, Secure Communities (qui imposait aux polices locales de transmettre aux autorités fédérales les empreintes digitales de toute personne arrêtée, afin de repérer les immigrés en situation irrégulière).\nComme nous l’avons écrit dans un article complémentaire, cosigné avec la sociologue Caitlin Patler, une explication probable tient au fait que les arrestations de l’ICE depuis le retour de Trump au pouvoir ont été bien plus aveugles et plus visibles : le nombre moyen d’arrestations quotidiennes a dépassé tous les niveaux des dix dernières années. La part des arrestations effectuées dans l’espace public (rues, lieux de travail, tribunaux et parkings d’écoles) a plus que doublé, passant de 19 % à près de 50 % de l’ensemble des interpellations. L’effet d’intimidation a donc probablement été plus étendu.\nDes répercussions plus larges\nPendant sa campagne présidentielle de 2024, Trump s’était engagé à concentrer l’action de l’ICE sur les criminels, en particulier les auteurs de violences. En réalité, nous avons constaté que la part des immigrés arrêtés par l’ICE qui avaient fait l’objet d’une condamnation pénale est tombée à un plancher quasi historique sur cette période, passant d’environ 60 % en janvier 2025 à moins de 30 % à la fin de l’année.\nLes effets économiques ne se sont pas limités aux travailleurs immigrés. Plus largement, de nombreux consommateurs ont levé le pied.\nD’autres chercheurs ont montré que dans les villes où les descentes de l’ICE se sont multipliées en 2025, les dépenses de consommation et l’activité économique ont reculé. En février 2026, par exemple, les autorités de Minneapolis, dans le Minnesota, ont estimé que l’économie de la ville avait perdu 203 millions de dollars (environ 171 millions d’euros) en raison de la baisse des recettes des restaurants, des hôtels et des commerces, ainsi que des salaires perdus. Selon une autre analyse, dans les États où l’ICE a renforcé ses contrôles, le total des dépenses par carte de crédit et de débit a reculé de 1,7 point par rapport aux autres États.\nDes chercheurs ont observé des effets similaires sur la fréquentation piétonne, qui a fortement chuté dans les zones où l’ICE a étendu ses activités. Une étude de la Wharton School (l’école de commerce de l’université de Pennsylvanie) publiée en mai 2026 estimait par exemple que, dans les zones fortement touchées par les opérations de l’ICE, la fréquentation avait baissé de 2,7 % et les dépenses de 6,2 %, chaque semaine.\nEt les travailleurs nés aux États-Unis ?\nLa grande promesse politique de Trump était que les expulsions libéreraient des emplois pour les travailleurs états-uniens. Mais nous avons constaté l’inverse : l’emploi des travailleurs nés aux États-Unis a lui aussi reculé dans les zones où l’ICE était plus active. Et les employeurs n’ont pas réagi en augmentant les salaires pour attirer davantage d’Américains. Leur demande de main-d’œuvre s’est au contraire contractée.\nTout repose sur l’idée que travailleurs nés à l’étranger et travailleurs nés aux États-Unis se disputent directement les mêmes emplois. Or l’exemple de Trump 2 met en évidence une autre dynamique. Comme nous et d’autres économistes l’avons montré, le marché du travail n’est pas un jeu à somme nulle. Les immigrés et les travailleurs nés aux États-Unis ont tendance à occuper des emplois complémentaires plutôt qu’à se disputer des postes identiques.\nLa construction en offre un exemple parlant. Moins d’ouvriers sans papiers sur un chantier, c’est moins de travail pour les électriciens, les couvreurs et les contremaîtres, des postes plus souvent occupés par des travailleurs nés aux États-Unis, qui dépendent de l’avancement de ces projets.\nLe tassement plus général de l’emploi dans le secteur de la construction en 2025 correspond à ce schéma. Il fait aussi écho à des travaux antérieurs montrant que les expulsions de l’ère Obama avaient freiné la construction de logements et fait grimper les prix des maisons neuves.\nLa répression de l’immigration n’a, bien sûr, rien de nouveau dans l’histoire des États-Unis. Au début des années 1930, le président Herbert Hoover (républicain, au pouvoir de 1929 à 1933) a expulsé 400 000 travailleurs mexicains, sans que cela fasse progresser ni les salaires ni l’emploi des travailleurs nés aux États-Unis. Le programme Secure Communities d’Obama, dans les années 2010, a produit des résultats similaires.\nEt comme le montrent nos travaux les plus récents, les expulsions massives ne créent pas de nouvelles possibilités d’emploi pour les citoyens états-uniens. Les présidents qui voudront renforcer le marché du travail devront chercher ailleurs.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

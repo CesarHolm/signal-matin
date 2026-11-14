@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a22\", \"source\": \"Ars Technica\", \"titre\": \"FAA expands AI advice to manage air traffic congestion across entire US airspace\", \"resume\": \"Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.\"}, {\"id\": \"a4\", \"source\": \"The Decoder\", \"titre\": \"Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows\", \"resume\": \"Anthropic's new Claude for Manufacturing plugin connects the AI directly to Autodesk Fusion, Oracle NetSuite, and Infor. Its 17 specialized skills let the AI draft quotes, compare suppliers, and place backup orders when deliveries are delayed, all after human approval. The plugin doesn't control physical machines yet, but Anthropic is separately developing the Model Hardware Standard for that. The article Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows appeared first on The Decoder .\"}, {\"id\": \"a5\", \"source\": \"The Decoder\", \"titre\": \"Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails\", \"resume\": \"US public-sector unions are increasingly pushing through protections against AI surveillance and automated firings. In Oakland, a strike vote forced retraining programs instead of layoffs, and a transport union in Ohio won veto power over autonomous vehicles. California banned so-called bossware. All of this is happening while nearly 70 percent of US government agencies already use generative AI. The article Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails appeared first on The Decoder .\"}, {\"id\": \"a24\", \"source\": \"Le Monde\", \"titre\": \"La lente dérive terroriste de Kevin Tessier, l’auteur de l’attentat de Trappes, vue par ses proches : « Il s’énervait devant la télé, avec des insultes racistes »\", \"resume\": \"Les auditions de ses parents et d’un ami, dont « Le Monde » a pris connaissance, racontent la radicalisation du tueur, entre enfance perturbée, fragilités psychologiques, obsessions racistes liées à l’actualité et altercations violentes.\"}, {\"id\": \"a25\", \"source\": \"Le Monde\", \"titre\": \"Mouvement lycéen : le cri d’alarme des proviseurs, « à bout » face aux violences\", \"resume\": \"Dans une trentaine de villes de France, des membres du personnel de direction se sont rassemblés vendredi. Une manifestation inédite depuis vingt ans, alors que plusieurs dizaines ont été blessés depuis la mi-septembre. Si le SNPDEN-Unsa a souhaité dire « stop » aux lycéens, le syndicat a aussi émis des critiques sur la gestion de crise du gouvernement.\"}, {\"id\": \"a82\", \"source\": \"South China Morning Post\", \"titre\": \"White House confirms US-China-Russia trilateral on Apec sidelines\", \"resume\": \"The White House on Friday confirmed an unprecedented meeting between leaders of the US, China and Russia has been scheduled to take place on the sidelines of the Asia-Pacific Economic Cooperation (Apec) summit in Shenzhen next week. “President Trump will conclude his visit to China with a trilateral meeting between the President of the United States, the President of the People’s Republic of China and the President of the Russian Federation,” said Olivia Wales, the White House assistant press...\"}, {\"id\": \"a70\", \"source\": \"Politico Europe\", \"titre\": \"EU deal on Ukraine talks overshadows AI-focused summit in Dublin\", \"resume\": \"EU leaders have agreed that the E5 format — Germany, France, U.K, Italy and Poland — plus the European Commission and Council will represent the bloc at any future peace negotiations.\"}, {\"id\": \"a154\", \"source\": \"Sciences et Avenir\", \"titre\": \"El Niño est le principal responsable des incendies en Indonésie, conclut un rapport\", \"resume\": \"Depuis plusieurs mois, l'Indonésie est la proie d'incendies monstrueux qui ont détruit près de trois millions d'hectares de terrain depuis le début de l'année 2026. Des catastrophes principalement causées par un El Niño intense a conclu un rapport\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}
