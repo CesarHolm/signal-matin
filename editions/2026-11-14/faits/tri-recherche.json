@@ -1,0 +1,41 @@
+{
+  "developpes": [
+    {
+      "id": "a108",
+      "score": 7,
+      "raison": "Un document de travail NBER montre que la politique monétaire non conventionnelle (taux au zéro et quantitative easing) a attiré des déposants sensibles aux taux, et que la sensibilité des flux et le deposit beta ont augmenté après la normalisation."
+    },
+    {
+      "id": "a112",
+      "score": 6,
+      "raison": "Dans un entretien, la professeure Jeong-In Yun (Université de Corée) analyse le conseil de juristes constitutionnalistes créé après la tentative de loi martiale du 3 décembre 2024 pour défendre le constitutionnalisme coréen."
+    },
+    {
+      "id": "a115",
+      "score": 5,
+      "raison": "Sous-étude d'un essai randomisé par grappes au Mali, qui examine l'impact de l'administration massive d'azithromycine sur la résistance aux antimicrobiens, préoccupation qui subsiste."
+    },
+    {
+      "id": "a110",
+      "score": 5,
+      "raison": "Un travail NBER présente TaskNet, une méthode de construction d'inventaires de tâches professionnelles à partir d'entretiens avec des travailleurs, à grande échelle."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a111",
+      "titre": "Les médias qui couvrent beaucoup la politique ont des audiences très engagées",
+      "texte": "Selon le Pew Research Center, certains médias qui couvrent intensivement la politique comptent dans leur audience une part disproportionnée des Américains les plus engagés dans la vie publique. L'étude relie ainsi les sources d'information aux formes d'engagement civique."
+    },
+    {
+      "id": "a110",
+      "titre": "TaskNet : inventorier les tâches professionnelles à partir d'entretiens",
+      "texte": "Les auteurs présentent TaskNet, une taxonomie des métiers fondée sur des entretiens ouverts avec des travailleurs, et une méthode pour la construire à grande échelle. Ils visent à repérer plus tôt les changements liés à l'IA dans les tâches professionnelles."
+    },
+    {
+      "id": "a114",
+      "titre": "Réserve allemande : pas de retour à la conscription, selon une analyse",
+      "texte": "Le projet de renforcement de la réserve allemande permettrait de convoquer des réservistes sans engagement volontaire préalable. Selon cette analyse publiée dans le Verfassungsblog, il ne s'agit pas pour autant d'un retour à la conscription, le choix de servir comportant des obligations au-delà de la durée du service."
+    }
+  ]
+}

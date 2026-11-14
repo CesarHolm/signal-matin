@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a24",
+      "score": 8,
+      "raison": "Les auditions des proches de l'auteur de l'attentat de Trappes racontent sa radicalisation, entre fragilités psychologiques, obsessions racistes et altercations violentes."
+    },
+    {
+      "id": "a25",
+      "score": 7,
+      "raison": "Des proviseurs se sont rassemblés dans une trentaine de villes, manifestation inédite depuis vingt ans, après des dizaines de blessés dans les établissements depuis mi-septembre."
+    },
+    {
+      "id": "a36",
+      "score": 7,
+      "raison": "La mobilisation du samedi 14 novembre rassemble gilets jaunes et organisations de jeunesse contre la vie chère, dans un contexte de dispositif policier important."
+    },
+    {
+      "id": "a54",
+      "score": 6,
+      "raison": "Le Sénat a supprimé à la quasi-unanimité la taxe de 2,05 % sur les mutuelles prévue dans le budget de la Sécurité sociale, contre l'avis du gouvernement."
+    },
+    {
+      "id": "a44",
+      "score": 5,
+      "raison": "Le ministre de l'Intérieur propose une revalorisation de la prime de risque des policiers, jugée insuffisante, voire inadmissible, par les syndicats."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a46",
+      "titre": "Sonia, héroïne du 13-Novembre : la cagnotte dépasse 500 000 euros",
+      "texte": "La cagnotte lancée pour Sonia, dont les informations avaient permis aux enquêteurs de localiser en novembre 2015 la cachette d'Abdelhamid Abaaoud à Saint-Denis, a atteint plus de 500 000 euros à sa clôture. Cette femme vit depuis sous une nouvelle identité."
+    },
+    {
+      "id": "a48",
+      "titre": "Cures thermales : le Sénat refuse la baisse du remboursement",
+      "texte": "Dans le budget 2027 de la Sécurité sociale, les sénateurs ont amendé le projet de loi pour maintenir le niveau de prise en charge des cures thermales. Ils refusent toute évolution avant l'avis de la Haute Autorité de santé."
+    },
+    {
+      "id": "a28",
+      "titre": "La panne Microsoft interroge la dépendance numérique des entreprises",
+      "texte": "L'arrêt des services Microsoft entre jeudi 12 novembre et vendredi midi a alerté entreprises et salariés sur leur dépendance aux outils numériques. L'impact sur les entreprises reste toutefois limité, selon Le Monde."
+    }
+  ]
+}

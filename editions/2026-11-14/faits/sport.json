@@ -1,0 +1,29 @@
+{
+  "resultats": [
+    {
+      "sport": "Rugby à XV",
+      "affiche": "France – Afrique du Sud",
+      "score": "21-19",
+      "competition": "Championnat des nations, 5e journée de la phase de poules",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Rugby/Actualites/Championnat-des-nations-un-xv-de-france-heroique-vient-a-bout-de-l-afrique-du-sud-a-un-an-de-la-coupe-du-monde/1743534#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Tennis",
+      "affiche": "Svitolina – Sabalenka",
+      "score": "6-3 3-6 6-1",
+      "competition": "Finales WTA (circuit WTA), phase de groupes",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/Elina-svitolina-bat-aryna-sabalenka-et-se-qualifie-en-demi-finales-des-finales-wta-a-ses-depens/1743563#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Tennis",
+      "affiche": "Andreeva – Shnaider",
+      "score": "6-2 6-1",
+      "competition": "Finales WTA (circuit WTA), phase de groupes",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/Mirra-andreeva-se-promene-contre-diana-shnaider-et-termine-la-phase-de-groupes-des-finales-wta-invaincue/1743512#at_medium=RSS_feeds"
+    }
+  ],
+  "a_suivre": []
+}

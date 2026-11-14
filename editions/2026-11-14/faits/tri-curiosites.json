@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a152",
+      "score": 8,
+      "raison": "Une étude publiée dans Nature, portant sur plus de 844 000 adultes, confirme les limites de l'IMC pour définir le surpoids et l'obésité, et l'intérêt d'y associer le tour de taille."
+    },
+    {
+      "id": "a154",
+      "score": 7,
+      "raison": "Un rapport attribue à un El Niño intense les incendies qui ont détruit près de trois millions d'hectares en Indonésie depuis le début de 2026."
+    },
+    {
+      "id": "a158",
+      "score": 6,
+      "raison": "Une analyse fondée sur les données de l'ICE : les pics d'arrestations d'immigrés n'ont profité ni à l'emploi ni aux salaires des travailleurs nés aux États-Unis."
+    },
+    {
+      "id": "a150",
+      "score": 5,
+      "raison": "Le Very Large Telescope révèle un double anneau de débris autour de la naine blanche WD J1328−1450, un aperçu de l'évolution future du Système solaire."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a163",
+      "titre": "Chandra éclaire les éruptions répétées d'une étoile géante",
+      "texte": "Grâce à l'observatoire à rayons X Chandra de la NASA, des astronomes ont identifié ce qui déclenche les éruptions répétées de l'étoile instable AT 2016blu. Celle-ci se trouve dans la galaxie spirale NGC 4559, à environ 30 millions d'années-lumière de la Terre."
+    },
+    {
+      "id": "a166",
+      "titre": "Les mangroves font leur retour à l'échelle mondiale",
+      "texte": "Après des décennies de déclin, ces forêts côtières écologiquement essentielles connaissent une reprise à l'échelle mondiale, selon la NASA."
+    },
+    {
+      "id": "a149",
+      "titre": "La biodiversité marine face aux canicules océaniques",
+      "texte": "Les vagues de chaleur touchent aussi mers et océans : à l'été 2026, les températures des eaux ont battu des records dans le monde. Reste à savoir si la biodiversité marine peut s'adapter à ces conditions."
+    },
+    {
+      "id": "a167",
+      "titre": "Chesapeake : la limite de pêche au menhaden abaissée",
+      "texte": "Lors de sa réunion annuelle du 9 au 12 novembre, la commission des pêches de l'Atlantique a abaissé le plafond de la pêche industrielle au menhaden dans la baie de Chesapeake, sans imposer de baisses plus profondes sur la côte. Les défenseurs de l'environnement restent inquiets."
+    }
+  ]
+}

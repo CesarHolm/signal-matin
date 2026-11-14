@@ -1,0 +1,36 @@
+{
+  "developpes": [
+    {
+      "id": "a122",
+      "score": 8,
+      "raison": "Analyse de l'application du RGPD et de l'AI Act aux outils de transcription par IA et aux enregistrements de réunions (CSE, comptes rendus), avec les exigences de minimisation et le cadre légal de l'enregistrement."
+    },
+    {
+      "id": "a128",
+      "score": 7,
+      "raison": "La présidente de la Commission européenne annonce un 22e paquet de sanctions contre la Russie, et défend l'inclusion de l'Europe dans les pourparlers de paix sur l'Ukraine."
+    },
+    {
+      "id": "a126",
+      "score": 6,
+      "raison": "Tatyana Kim, milliardaire de Wildberries, fait face à des sanctions de l'UE liées aux liens militaires de l'entreprise : une sanction prononcée avec ses motifs."
+    },
+    {
+      "id": "a137",
+      "score": 5,
+      "raison": "Le secrétaire au Trésor reproche au ministère du Commerce d'avoir retardé la mise sur liste noire de Megaspeed, soupçonnée de détourner des puces IA avancées vers la Chine."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a139",
+      "titre": "La Chine prolonge la suspension de ses contrôles à l'exportation des terres rares",
+      "texte": "La Chine a prolongé la suspension de ses contrôles à l'exportation des terres rares, selon une note du cabinet Thompson Hine."
+    },
+    {
+      "id": "a117",
+      "titre": "Pennsylvanie : une loi encadre la publicité trompeuse fondée sur l'IA",
+      "texte": "Le gouverneur de Pennsylvanie a promulgué le 22 octobre 2026 l'Artificial Intelligence Deceptive Advertising Act (SB 806). Contrairement aux lois de New York et de Californie, son obligation de transparence ne se limite pas aux seuls contenus générés par IA."
+    }
+  ]
+}

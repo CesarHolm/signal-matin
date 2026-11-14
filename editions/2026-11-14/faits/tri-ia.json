@@ -1,0 +1,41 @@
+{
+  "developpes": [
+    {
+      "id": "a6",
+      "score": 8,
+      "raison": "Un ancien chercheur d'OpenAI affirme avoir trouvé des empreintes de GPU Blackwell de Nvidia dans les poids de modèles chinois (DeepSeek, Moonshot AI, MiniMax, Ant Group), malgré les contrôles à l'export américains."
+    },
+    {
+      "id": "a22",
+      "score": 7,
+      "raison": "La FAA étend l'usage de l'IA pour gérer la congestion du trafic aérien sur tout l'espace aérien américain ; les compagnies approuvent, mais le syndicat des contrôleurs aériens n'a pas été associé."
+    },
+    {
+      "id": "a4",
+      "score": 6,
+      "raison": "Anthropic propose un plugin qui relie son IA à des logiciels industriels (Autodesk Fusion, Oracle NetSuite, Infor) pour préparer devis et commandes, après validation humaine."
+    },
+    {
+      "id": "a5",
+      "score": 6,
+      "raison": "Près de 70 % des agences fédérales américaines utilisent l'IA générative, et les syndicats du secteur public obtiennent des garde-fous contre la surveillance et les licenciements automatisés."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a17",
+      "titre": "ChatGPT Wallet permet aux agents IA d'acheter et de payer à la place de l'utilisateur",
+      "texte": "ChatGPT Wallet permet aux agents IA de faire des achats et de finaliser le paiement pour le compte de l'utilisateur. Le déploiement démarre par un accès limité aux abonnés Pro aux États-Unis."
+    },
+    {
+      "id": "a15",
+      "titre": "LangChain atteint une valorisation de 3 milliards de dollars",
+      "texte": "La start-up d'agents IA LangChain annonce une valorisation de 3 milliards de dollars. Elle revendique 7 000 clients pour LangSmith, son outil de gestion d'agents indépendant des modèles."
+    },
+    {
+      "id": "a19",
+      "titre": "ElevenLabs lance une application de comptes rendus et de dictée pour les équipes",
+      "texte": "ElevenAI est une nouvelle application destinée aux équipes et aux entreprises, qui combine prise de notes de réunion et dictée. Elle s'adresse à des usages professionnels plutôt qu'au grand public."
+    }
+  ]
+}

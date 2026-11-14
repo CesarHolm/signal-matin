@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a82",
+      "score": 9,
+      "raison": "La Maison Blanche confirme une rencontre inédite entre les présidents américain, chinois et russe en marge du sommet de l'APEC à Shenzhen, la semaine prochaine."
+    },
+    {
+      "id": "a70",
+      "score": 7,
+      "raison": "Les dirigeants européens ont convenu que le format E5 (Allemagne, France, Royaume-Uni, Italie, Pologne), avec la Commission et le Conseil, représentera l'UE dans de futures négociations de paix sur l'Ukraine."
+    },
+    {
+      "id": "a57",
+      "score": 7,
+      "raison": "La FAA a ordonné l'arrêt de tous les décollages vendredi après une panne de communication dans les centres régionaux de contrôle aérien, immobilisant des millions de passagers à travers les États-Unis."
+    },
+    {
+      "id": "a76",
+      "score": 6,
+      "raison": "Autriche, Danemark, Allemagne, Grèce et Pays-Bas veulent rendre opérationnels, dès l'année prochaine, des centres de retour vers le Rwanda."
+    },
+    {
+      "id": "a62",
+      "score": 5,
+      "raison": "Face à l'impasse de la guerre contre l'Iran, Donald Trump privilégie le statu quo, tandis que les élections de mi-mandat réorientent sa stratégie vers la pression économique."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a103",
+      "titre": "Qatar et Turquie signent un pacte de défense mutuelle",
+      "texte": "Doha et Ankara ont signé un pacte de défense mutuelle, qui prévoit une action commune face aux attaques extérieures. Ce partenariat s'approfondit dans un contexte d'instabilité régionale croissante."
+    },
+    {
+      "id": "a106",
+      "titre": "L'offre de pétrole dépasse à nouveau la demande pour la première fois depuis février",
+      "texte": "Selon Le Grand Continent, l'offre mondiale de pétrole dépasse la demande pour la première fois depuis février. Le média s'interroge sur la fin de la crise pétrolière."
+    },
+    {
+      "id": "a88",
+      "titre": "Washington et Pékin tiennent la première réunion de leur Board of Trade",
+      "texte": "Les États-Unis et la Chine ont tenu vendredi la première réunion officielle de leur Board of Trade bilatéral, quelques jours avant le sommet entre Donald Trump et Xi Jinping à Shenzhen. Le représentant américain au commerce dit vouloir poursuivre cet engagement."
+    }
+  ]
+}
