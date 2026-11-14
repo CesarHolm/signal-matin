@@ -1,0 +1,2810 @@
+{
+ "edition": {
+  "date": "2026-11-14",
+  "numero": 17,
+  "secours": false,
+  "numerique": true,
+  "meteo": null,
+  "nouveaux_mots": [
+   {
+    "mot": "Anodin",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Sans importance ni danger ; insignifiant.",
+    "exemple": "Une remarque en apparence anodine."
+   },
+   {
+    "mot": "Éphémère",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui ne dure que très peu de temps.",
+    "exemple": "Une mode éphémère, oubliée l'été suivant."
+   },
+   {
+    "mot": "Inextricable",
+    "nature": "adj.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Qu'on ne peut démêler ; très embrouillé.",
+    "exemple": "Une situation juridique inextricable."
+   },
+   {
+    "mot": "Usufruit",
+    "nature": "n. m.",
+    "niveau": "difficile",
+    "domaine": "pro",
+    "definition": "Droit d'utiliser un bien et d'en percevoir les revenus sans en être propriétaire.",
+    "exemple": "Le démembrement entre usufruit et nue-propriété."
+   },
+   {
+    "mot": "Dirimant",
+    "nature": "adj.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Qui fait obstacle de façon absolue, qui annule.",
+    "exemple": "Un argument dirimant."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Coruscant"
+   },
+   {
+    "mot": "Désintermédiation"
+   },
+   {
+    "mot": "Jurisprudence"
+   },
+   {
+    "mot": "Tropisme"
+   },
+   {
+    "mot": "Inférence"
+   }
+  ],
+  "sport": {
+   "resultats": [
+    {
+     "sport": "Rugby à XV",
+     "affiche": "France – Afrique du Sud",
+     "score": "21-19",
+     "competition": "Championnat des nations, 5e journée de la phase de poules",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Rugby/Actualites/Championnat-des-nations-un-xv-de-france-heroique-vient-a-bout-de-l-afrique-du-sud-a-un-an-de-la-coupe-du-monde/1743534#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Tennis",
+     "affiche": "Svitolina – Sabalenka",
+     "score": "6-3 3-6 6-1",
+     "competition": "Finales WTA (circuit WTA), phase de groupes",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Tennis/Actualites/Elina-svitolina-bat-aryna-sabalenka-et-se-qualifie-en-demi-finales-des-finales-wta-a-ses-depens/1743563#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Tennis",
+     "affiche": "Andreeva – Shnaider",
+     "score": "6-2 6-1",
+     "competition": "Finales WTA (circuit WTA), phase de groupes",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Tennis/Actualites/Mirra-andreeva-se-promene-contre-diana-shnaider-et-termine-la-phase-de-groupes-des-finales-wta-invaincue/1743512#at_medium=RSS_feeds"
+    }
+   ],
+   "a_suivre": [],
+   "periode": [
+    "2026-11-13"
+   ]
+  },
+  "reponses_hier": [
+   {
+    "mot": "Prodigue",
+    "definition": "Qui dépense sans compter ; qui donne largement."
+   },
+   {
+    "mot": "Acédie",
+    "definition": "Torpeur de l'âme, dégoût mélancolique pour l'effort et la vie spirituelle."
+   },
+   {
+    "mot": "Pantagruélique",
+    "definition": "Digne de Pantagruel : énorme, gargantuesque (surtout pour un repas)."
+   },
+   {
+    "mot": "Placide",
+    "definition": "Calme, paisible, que rien ne semble troubler."
+   },
+   {
+    "mot": "Thébaïde",
+    "definition": "Lieu isolé et paisible propice à la retraite et à la méditation."
+   }
+  ],
+  "blocs": [
+   {
+    "id": "ia",
+    "titre": "IA",
+    "developpes": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-13",
+      "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+      "auteur": "Maximilian Schreiner",
+      "titre": "Des puces Nvidia Blackwell décelées dans six modèles d'IA chinois",
+      "chapo": "Selon le chercheur Will DePue, six modèles d'IA chinois portent la signature des puces Blackwell de Nvidia, malgré les contrôles américains à l'exportation.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Will DePue, ancien d'OpenAI où il a joué un rôle clé dans la conception de Sora, de Sora 2, de GPT-4o, d'o3 et de GPT-5, avant de fonder le groupe de recherche à but non lucratif Unemployment Labs, affirme avoir obtenu la première preuve technique que de grands laboratoires chinois ont accès aux puces Blackwell de Nvidia. Les entreprises visées sont DeepSeek, Moonshot AI, MiniMax et Ant Group. Des responsables américains et des médias soupçonnaient déjà DeepSeek et Moonshot AI d'utiliser ces puces, sans jamais publier de preuve. Sur X, DePue écrit que des chercheurs seniors d'OpenAI et d'Anthropic ont vérifié sa méthode de façon indépendante et confirmé ses conclusions."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "Un modèle d'IA se compose de milliards de valeurs numériques, les poids. Avant l'entraînement, le cadre logiciel PyTorch remplit ces emplacements vides avec des nombres aléatoires tirés d'une valeur de départ, la graine. Pour aller vite, le processeur graphique répartit ce travail entre ses unités de calcul. Comme le nombre d'unités varie selon les puces, le remplissage laisse un motif caractéristique : les puces Hopper plus anciennes, comme les H100 et H800, comptent 132 unités, tandis que les Blackwell en comptent exactement 148 ou 152 selon le modèle (B200 ou B300, GB200 ou GB300). L'entraînement modifie ensuite ces valeurs des millions de fois, mais certains emplacements, réservés à des mots ou symboles inutilisés, gardent leur valeur initiale. Même dans les parties très entraînées, un faible écho statistique de la distribution de départ subsiste, d'après DePue. Il dit avoir remonté le motif et reproduit exactement les résultats de DeepSeek-V4-Flash et de Kimi K3 sur de vraies puces Blackwell. Le code de vérification est publié sur GitHub."
+       },
+       {
+        "intertitre": "Les résultats",
+        "texte": "Six modèles chinois sortis depuis avril 2026 portent la signature de Blackwell, alors que des modèles plus anciens, comme DeepSeek-V3 et Kimi K2.5, montrent des traces de Hopper. DeepSeek-V4-Flash et MiniMax-M3 correspondent à des B200 ou B300 (148 unités). DeepSeek-V4-Pro, Kimi K3, Kimi K3.1-Pro et Ling-3.1-flash d'Ant Group présentent le motif à 152 unités des systèmes en rack GB200 ou GB300. DePue assure que le hasard est écarté statistiquement et que la méthode a identifié correctement les 24 modèles témoins dont le matériel est connu, dont Llama 3.1 de Meta (H100). Selon son rapport, les cinq entraînements examinés ont exigé environ 12 000 GPU Blackwell, soit l'équivalent d'environ 30 000 H100. Kimi K3 aurait mobilisé à lui seul 4 500 processeurs Blackwell pendant environ 70 jours, DeepSeek-V4-Pro environ 3 000. À quelque 70 000 dollars l'unité, chacun de ces groupes coûterait de 200 à 300 millions de dollars, et les cinq ensemble plus d'un demi-milliard."
+       },
+       {
+        "intertitre": "Les réserves",
+        "texte": "La méthode indique seulement quel matériel a initialisé les poids, même si l'entraînement a très probablement eu lieu sur les mêmes systèmes. Seule autre explication technique : un AMD MI300X, également soumis à restrictions et bridé, qui produirait le même motif ; DePue l'écarte pour DeepSeek-V4-Flash grâce à de minuscules écarts d'arrondi. Les données ne disent ni où se trouvent les puces ni à qui elles appartiennent. Comme des entreprises chinoises peuvent louer de la capacité dans des centres de données hors de Chine, le rapport reconnaît que la preuve établit un accès au matériel haut de gamme de Nvidia, sans démontrer à elle seule une contrebande ni une violation du droit américain des exportations."
+       }
+      ],
+      "synthese": "Selon DePue, six modèles chinois publiés depuis avril 2026 portent la marque de puces Blackwell de Nvidia, pour des entraînements estimés à plus d'un demi-milliard de dollars. La preuve établit un accès à ce matériel, pas une violation du droit américain des exportations.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a6"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-13",
+      "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+      "auteur": "Manuel Uth",
+      "id": "a5",
+      "titre": "Près de 70 % des agences américaines utilisent l'IA, les syndicats s'organisent",
+      "texte": "Aux États-Unis, près de 70 % des agences publiques utilisent déjà l'IA générative, et les syndicats obtiennent davantage de protections contre la surveillance et les licenciements automatisés. À Oakland, une menace de grève a imposé des formations plutôt que des licenciements ; en Ohio, un syndicat des transports a obtenu un droit de veto sur les véhicules autonomes."
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-13",
+      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+      "auteur": "Manuel Uth",
+      "id": "a4",
+      "titre": "Anthropic lance Claude for Manufacturing, un module qui relie l'IA aux logiciels d'usine",
+      "texte": "Le nouveau plugin Claude for Manufacturing connecte l'IA à Autodesk Fusion, Oracle NetSuite et Infor. Ses 17 compétences spécialisées permettent de rédiger des devis, de comparer des fournisseurs et de passer des commandes de secours en cas de retard de livraison, toujours après validation humaine. Il ne pilote pas encore les machines physiques : Anthropic développe pour cela, séparément, le « Model Hardware Standard »."
+     },
+     {
+      "rubrique": "IA",
+      "source": "Ars Technica",
+      "date": "2026-11-13",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "auteur": "Jeremy Hsu",
+      "id": "a22",
+      "titre": "La FAA étend son outil d'IA contre la saturation du trafic aérien américain",
+      "texte": "La FAA élargit à l'ensemble de l'espace aérien américain l'usage de l'IA pour gérer la congestion du trafic aérien. Les compagnies aériennes ont salué cet outil, mais le syndicat des contrôleurs aériens n'a pas été associé à sa mise en place."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-13",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "auteur": "",
+      "id": "a17",
+      "titre": "ChatGPT Wallet permet aux agents IA d'acheter et de payer à la place de l'utilisateur",
+      "texte": "ChatGPT Wallet permet aux agents IA de faire des achats et de finaliser le paiement pour le compte de l'utilisateur. Le déploiement démarre par un accès limité aux abonnés Pro aux États-Unis."
+     }
+    ]
+   },
+   {
+    "id": "france",
+    "titre": "Actualité France",
+    "developpes": [
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-13",
+      "url": "https://www.franceinfo.fr/societe/manifestations/convergence-de-differents-mots-d-ordre-important-dispositif-policier-a-quoi-s-attendre-pour-la-journee-de-mobilisation-du-samedi-14-novembre_8280806.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "titre": "Mobilisation du 14 novembre : mots d'ordre multiples et 70 000 forces mobilisées",
+      "chapo": "La coordination des gilets jaunes et des organisations de jeunesse appellent à défiler samedi contre la vie chère, avec d'autres cortèges, sous la crainte de troubles à l'ordre public.",
+      "sections": [
+       {
+        "intertitre": "Un cinquième week-end de mobilisation",
+        "texte": "La coordination des gilets jaunes et plusieurs organisations de jeunesse appellent à manifester dans toute la France « contre la vie chère » samedi 14 novembre, pour un cinquième week-end consécutif. La semaine précédente, les manifestations avaient rassemblé 146 000 personnes selon le ministère de l'Intérieur, 250 000 selon l'intersyndicale de la jeunesse, soit une mobilisation en recul par rapport aux journées précédentes. Les gilets jaunes organisent des manifestations les samedis depuis le 17 octobre et appellent à un « acte V » : leur carte collaborative recensait jeudi à la mi-journée près de 230 actions pour samedi."
+       },
+       {
+        "intertitre": "Des revendications et des organisateurs multiples",
+        "texte": "L'appel est porté par l'intersyndicale de la jeunesse et les gilets jaunes, relayé localement par des unions régionales ou départementales de syndicats de salariés. Les branches d'Île-de-France de la CGT, de la FSU et de FO participeront au cortège parisien, selon Vincent Gautheron, secrétaire général de l'union régionale CGT. Les confédérations nationales, elles, concentrent leur appel à la grève et aux manifestations sur le mardi 17 novembre. D'autres rassemblements sont prévus : le collectif enfantiste contre les violences faites aux enfants et aux ados, des organisations opposées à la proposition de loi sur la présomption d'usage légitime des armes par les forces de l'ordre, qui dénoncent « un permis de tuer », et le mouvement des marches pour le climat du 26 septembre. À Paris, tous les cortèges s'élancent de la place de la République vers la place de la Nation. Selon Benjamin Ball, de la coordination des gilets jaunes, de nombreuses préfectures imposent un parcours commun ou un seul point de rassemblement."
+       },
+       {
+        "intertitre": "Les craintes des autorités",
+        "texte": "Pour le ministre de l'Intérieur, Laurent Nuñez, l'absence d'encadrement syndical est « toujours plus inquiétante » : il redoute que la main soit laissée à des organisations étudiantes et lycéennes qui ont moins d'expérience et ne déclarent pas toujours leurs manifestations. Il table sur 50 ou 60 défilés sur le territoire. Dans un télégramme aux préfets, il évoque le risque de cortèges non autorisés susceptibles de rechercher l'affrontement avec les forces de l'ordre. À Paris, une note de la direction du renseignement de la préfecture de police attend de 30 000 à 60 000 manifestants, dont 200 à 400 gilets jaunes et 500 à 1 000 militants contre les violences faites aux enfants. Elle prévoit une « très forte coloration anti-police » pour la marche contre les violences policières, avec un possible bloc radical de 300 à 600 personnes, et rappelle le contexte du procès médiatisé du passage à tabac de Michel Zecler par des policiers. Ce thème fédère l'extrême gauche radicale, l'ultragauche et la jeunesse des quartiers ; les renseignements anticipent des provocations verbales et physiques contre le dispositif policier, voire des dégradations ou des pillages."
+       },
+       {
+        "intertitre": "Le dispositif policier",
+        "texte": "Laurent Nuñez a annoncé 70 000 policiers et gendarmes mobilisés, le même dispositif que le samedi précédent et depuis le 24 octobre, chiffre à affiner lors d'une réunion vendredi. Il le décrit comme mobile, réactif et adapté à ce que font les groupes à risque, qui s'éclatent en petits groupes. Des contrôles « dans la profondeur » seront mis en place, avec contrôles de flux en amont, prépositionnement de forces mobiles et interventions systématiques en cas d'atteintes aux personnes et aux biens. Pour les casseurs et les pilleurs, « on les attend de pied ferme ». Sur les grenades, il n'y a « pas de restriction de principe » mais un usage proportionné au cadre légal."
+       }
+      ],
+      "synthese": "Samedi, plusieurs cortèges aux mots d'ordre différents convergeront, notamment à Paris, sans appel des confédérations syndicales nationales. Les autorités redoutent des troubles et déploient 70 000 policiers et gendarmes, comme les samedis précédents.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a36"
+     },
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-13",
+      "url": "https://www.publicsenat.fr/actualites/economie/budget-de-la-secu-le-senat-supprime-la-taxe-de-205-sur-les-mutuelles",
+      "auteur": "Romain David",
+      "titre": "Budget de la Sécu : le Sénat supprime la taxe de 2,05 % sur les mutuelles",
+      "chapo": "Par 339 voix contre une, les sénateurs ont rejeté vendredi 13 novembre la reconduction en 2027 de la taxe sur les complémentaires santé, que défend la ministre Stéphanie Rist.",
+      "sections": [
+       {
+        "intertitre": "Ce qui a été voté",
+        "texte": "Vendredi 13 novembre, en milieu de matinée, le Sénat a supprimé l'article 12 du projet de loi de financement de la Sécurité sociale (PLFSS) par 339 voix pour et une seule contre. Cet article prévoyait de reconduire en 2027 la taxe de 2,05 % instaurée en 2026 sur les mutuelles, au bénéfice de la branche maladie de la Sécu. Tous bords confondus, les élus sont montés au créneau contre le gouvernement ; Public Sénat parle d'un rare moment d'unité gauche-droite. 20 Minutes décrit une chambre haute dominée par une alliance entre la droite et les centristes, frileuse face aux mesures fiscales, et indique que le refus de cette contribution est sa principale décision."
+       },
+       {
+        "intertitre": "Les arguments des sénateurs",
+        "texte": "Les élus dénoncent d'abord la reconduction d'une mesure présentée comme exceptionnelle, puis son effet sur les adhérents. Le sénateur Serge Berard (LR, selon Public Sénat ; Nouvelle Energie, selon 20 Minutes) a déclaré que l'augmentation continue des tarifs des mutuelles pénaliserait le pouvoir d'achat des Français, dans un pays qui affiche déjà un taux record de prélèvements obligatoires. Il ajoute que les assurés ne sont pas dupes, qu'ils paieront la taxe in fine, et que le gouvernement ne doit pas s'étonner de voir les Français perdre confiance avec des mesures qui durent dans le temps. Selon 20 Minutes, la plupart de ses collègues y voient une « taxe indirecte », probablement répercutée sur les adhérents. La communiste Cathy Apourceau-Poly rappelle qu'en 2026 le législateur avait prévu un gel des cotisations pour éviter que les organismes ne reportent la taxe sur leurs adhérents, mais que ce gel a été censuré par le Conseil constitutionnel. Patrick Kanner, président du groupe socialiste, oppose une hausse de 8,2 % des cotisations payées en 2024 à une hausse de 5,4 % des prestations versées, et y voit « manifestement » un gain potentiel pour les mutuelles. Edwige Diaz, présidente du groupe Union nationale pour les territoires, qui rassemble les élus RN et UDR du Sénat, y voit une mesure qui alourdit le coût du travail, l'employeur finançant une partie de la mutuelle de ses salariés."
+       },
+       {
+        "intertitre": "La défense du gouvernement",
+        "texte": "Face à ce concert de critiques, la ministre de la Santé Stéphanie Rist reconnaît que cette contribution devait être exceptionnelle. Seule à défendre le dispositif, elle explique que la situation géopolitique et les déficits ont évolué depuis 2026 et que le gouvernement veut atteindre un déficit de 5 %. Elle plaide dans un contexte de forte dégradation des comptes publics. La taxe doit rapporter 1,12 milliard d'euros selon Public Sénat, 1,1 milliard selon 20 Minutes. Elle la présente, selon 20 Minutes, comme une mesure de « sérieux budgétaire »."
+       },
+       {
+        "intertitre": "La compensation et la suite",
+        "texte": "Le rapporteur général Olivier Henno indique que la commission des Affaires sociales proposera de compenser cette perte par un transfert de charges : certaines dépenses de l'Assurance maladie obligatoire, en particulier de prévention, basculeraient vers les complémentaires. Stéphanie Rist répond que cette mesure n'apportera pas le rendement d'un milliard initialement prévu. L'examen du PLFSS se poursuit au Sénat jusqu'en début de semaine prochaine, avec un vote solennel mercredi. Le texte reviendra ensuite à l'Assemblée nationale, où les députés l'ont rejeté en première lecture. Jeudi 12 novembre, les sénateurs avaient aussi validé un nouveau mode de calcul des allégements de cotisations patronales : les entreprises verseraient 2,8 milliards d'euros de plus en 2027, soit 900 millions de moins que dans le projet du gouvernement, car la version provisoire du Sénat fixe l'entrée en vigueur au 1er avril."
+       }
+      ],
+      "synthese": "Le Sénat a rejeté presque à l'unanimité une taxe sur les mutuelles que le gouvernement jugeait nécessaire pour ses comptes. Le désaccord sur la compensation entre le Sénat et la ministre reste entier avant le vote solennel de mercredi.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "20 Minutes",
+        "url": "https://www.20minutes.fr/economie/4262692-20261113-budget-secu-senat-oppose-plusieurs-taxes-notamment-mutuelles"
+       }
+      ],
+      "format": "long",
+      "id": "a54"
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-13",
+      "url": "https://www.franceinfo.fr/faits-divers/police/laurent-nunez-promet-aux-policiers-une-revalorisation-de-leur-prime-de-risque-les-syndicats-mecontents_8281625.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "titre": "Police : Nuñez propose de relever la prime de risque, les syndicats refusent",
+      "chapo": "Le ministre de l'Intérieur a présenté vendredi 13 novembre aux syndicats un plan de revalorisation de l'ISSP sur trois ans, jugé insuffisant par les organisations de police.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Vendredi 13 novembre, place Beauvau, Laurent Nuñez a proposé aux syndicats une revalorisation de l'indemnité de sujétion spéciale de la police (ISSP), la prime de risque des policiers. Il a présenté ce plan aux organisations représentatives. Selon le ministère de l'Intérieur, il porterait le taux de la prime à 33,5 %. Il s'étalerait sur trois ans, jusqu'en 2029, avec une première marche en avril 2027. Le ministère précise que les discussions se poursuivent sur cette base et souligne le « contexte budgétaire contraint »."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "Cette proposition intervient après plus d'un mois de blocages de lycées et d'universités, ainsi que de manifestations, qui ont mobilisé d'importants dispositifs des forces de l'ordre. Le ministère invoque les « risques inouïs auxquels sont exposés actuellement les policiers et les gendarmes » et rappelle que l'ISSP n'avait pas été revalorisée depuis 2019. Créée en 1958, cette indemnité résulte de la fusion des primes de risque et de danger et entre dans le calcul de la pension de retraite des fonctionnaires de la police nationale. Tous les syndicats de la police réclament depuis plusieurs mois un taux de 35 %."
+       },
+       {
+        "intertitre": "La réaction des syndicats",
+        "texte": "Les organisations jugent l'offre insuffisante, voire inadmissible. Thierry Clair, secrétaire général d'Unsa Police, estime que « le calendrier ne va pas » et que c'est « insuffisant ». Grégory Joron, secrétaire général d'Un1té, rapporte que le ministre dit que le sujet reste sur la table et qu'il espère faire mieux ; il lui souhaite d'y parvenir, car cela ne le satisfait « pas du tout ». Fabien Vanhemelryck, secrétaire général d'Alliance, juge la situation « inadmissible » et « indécente », dit avoir l'impression de « mendier » et presque honte, se déclare triste pour ses collègues et « écoeuré ». Alliance appelle les autres organisations à « faire front pour défendre le métier de policier » et a lancé sur X « un appel à toutes les grèves possibles et imaginables », annonçant un durcissement la semaine prochaine."
+       }
+      ],
+      "synthese": "Le ministre propose 33,5 % d'ici 2029, quand les syndicats exigent 35 %, et le ministère maintient la discussion ouverte. Le désaccord porte surtout sur le calendrier, et Alliance menace de durcir le mouvement dès la semaine prochaine.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a44"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-13",
+      "url": "https://www.lemonde.fr/campus/article/2026/11/13/mouvement-lyceen-le-cri-d-alarme-des-proviseurs-a-bout-face-aux-violences_6809386_4401467.html",
+      "auteur": "",
+      "id": "a25",
+      "titre": "Mouvement lycéen : des proviseurs rassemblés dans une trentaine de villes",
+      "texte": "Vendredi, des membres de la direction d'établissements se sont rassemblés dans une trentaine de villes de France, une mobilisation inédite depuis vingt ans. Plusieurs dizaines d'entre eux ont été blessés depuis la mi-septembre. Le SNPDEN-Unsa dit « stop » aux lycéens, tout en critiquant la gestion de crise du gouvernement."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-13",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/13/la-lente-derive-terroriste-de-kevin-tessier-l-auteur-de-l-attentat-de-trappes-vue-par-ses-proches-il-s-enervait-devant-la-tele-avec-des-insultes-racistes_6809375_3224.html",
+      "auteur": "Soren Seelow et Jérémie Pham-Lê",
+      "id": "a24",
+      "titre": "Trappes : la dérive terroriste de Kevin Tessier racontée par ses proches",
+      "texte": "Les auditions des parents et d'un ami de Kevin Tessier, auteur de l'attentat de Trappes, retracent sa radicalisation. Le Monde évoque une enfance perturbée, des fragilités psychologiques, des obsessions racistes liées à l'actualité et des altercations violentes."
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-14",
+      "url": "https://www.franceinfo.fr/faits-divers/terrorisme/attaques-du-13-novembre-a-paris/la-cagnotte-pour-sonia-heroine-du-13-novembre-a-atteint-plus-de-500-000-euros-au-moment-de-sa-cloture_8281238.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "id": "a46",
+      "titre": "Sonia, héroïne du 13-Novembre : la cagnotte dépasse 500 000 euros",
+      "texte": "La cagnotte lancée pour Sonia, dont les informations avaient permis aux enquêteurs de localiser en novembre 2015 la cachette d'Abdelhamid Abaaoud à Saint-Denis, a atteint plus de 500 000 euros à sa clôture. Cette femme vit depuis sous une nouvelle identité."
+     }
+    ]
+   },
+   {
+    "id": "monde",
+    "titre": "Actualité Monde",
+    "developpes": [
+     {
+      "rubrique": "États-Unis",
+      "source": "NPR",
+      "date": "2026-11-13",
+      "url": "https://www.npr.org/2026/11/13/nx-s1-6040388/what-we-know-about-the-faa-nationwide-ground-stop",
+      "auteur": "Joel Rose",
+      "titre": "Panne des télécoms de la FAA : arrêt national des départs aux États-Unis",
+      "chapo": "Vendredi 13 novembre, la FAA a interdit tout décollage aux États-Unis pendant plus de quatre heures après une panne de communication ; la cause reste à déterminer.",
+      "sections": [
+       {
+        "intertitre": "Ce qui s'est passé",
+        "texte": "Vendredi après-midi, la Federal Aviation Administration (FAA) a pris une mesure extraordinaire : un arrêt au sol national, qui a laissé des millions de passagers bloqués (NPR). Selon Al Jazeera, il a été décrété à 15 h 54, heure de l'Est, et levé à 20 h 15, soit plus de quatre heures plus tard ; CBS News évoque environ cinq heures. L'agence a parlé d'une « panne temporaire des télécommunications » et d'une mesure de précaution. La panne a touché les 22 centres de contrôle de la circulation aérienne en route. Les vols internationaux étaient traités au cas par cas. Selon CBS News, Markwayne Mullin a précisé que tous les vols étaient localisés, que le président Donald Trump était informé et que « ce n'est pas un autre 11 septembre ». Peu avant, les aéroports O'Hare et Midway, à Chicago, avaient fait l'objet d'un arrêt au sol pour une panne d'équipement (CBS News)."
+       },
+       {
+        "intertitre": "L'ampleur des perturbations",
+        "texte": "Selon FlightAware, plus de 10 000 vols ont été retardés et plus de 4 000 annulés. Au moment de l'ordre, les sources divergent sur les appareils en vol vers les États-Unis : 4 042 selon Flightradar24, cité par Al Jazeera, et environ 3 100 selon ce même site, cité par CBS News. Le ministre des Transports, Sean Duffy, a prévenu que la reprise serait lente et que les compagnies commenceraient à replacer appareils et équipages le samedi matin si besoin. Il a dit qu'il serait lent de tout remettre en ordre et que les passagers devaient se renseigner auprès de leur compagnie. Il espère un retour à la normale pour les départs de Thanksgiving. Les vols au départ de la côte Est pouvaient partir au-dessus de l'Atlantique, d'après une source de CBS News. Amtrak a signalé des messages d'erreur sur son site et son application, et des appels plus nombreux que d'habitude en raison des difficultés du transport aérien, et a invité ses clients à réessayer plus tard."
+       },
+       {
+        "intertitre": "Les causes avancées",
+        "texte": "La cause n'est pas établie. Selon des sources citées par CBS News, une mise à jour du réseau de communications privé reliant le contrôle aérien, exploité par L3Harris, a provoqué un redémarrage, puis un plantage. Sean Duffy invoque un système très ancien et des routeurs saturés de données, qui ont produit des incohérences. Le secrétaire à la Sécurité intérieure assure qu'il n'y a aucun signe de menace, de cyberattaque ni de lien avec Microsoft. Bloomberg, citant un responsable, rapporte que le FBI ne croit pas à une cyberattaque ni à une activité criminelle et que l'enquête examine une mise à jour logicielle. Mullin n'a pas écarté l'IA : un outil prévu pour aider les contrôleurs, le système SMART d'Air Space Intelligence (ASI), contrat de 875 millions de dollars attribué en juin et étendu aux 22 centres le 10 novembre. ASI dément toute responsabilité."
+       },
+       {
+        "intertitre": "Un précédent rare et des réactions",
+        "texte": "Selon Al Jazeera, c'est le premier arrêt national depuis janvier 2023, après la panne d'un système informatique clé de la FAA ; avant cela, il fallait remonter aux attentats du 11 septembre 2001. Robert Sumwalt, ancien président du NTSB, juge l'événement sans précédent, lui qui fut pilote de ligne pendant 24 ans et se trouvait en vol le 11 septembre. Le Congrès a approuvé 12,5 milliards de dollars l'an dernier pour la modernisation, et le ministère des Transports et la Maison-Blanche en demandent 30,1 de plus. Sean Duffy avertit : « vous en aurez d'autres » sans financement. La sénatrice démocrate Tammy Duckworth, qui siège à la sous-commission de l'aviation, réclame une enquête approfondie et des réponses de la FAA, rappelant que la sécurité du ciel repose sur des redondances. Le pilote Kyle Bailey, ancien représentant de l'équipe sécurité de la FAA, juge prudent d'avoir immobilisé les avions et dit que quiconque prétend connaître la cause à ce stade n'est pas honnête."
+       }
+      ],
+      "synthese": "La FAA a levé l'arrêt à 20 h 15, mais retards et annulations se poursuivent. Aucune cause n'est confirmée : le gouvernement évoque une panne de télécommunications et un système vétuste, et exclut à ce stade toute attaque.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss"
+       },
+       {
+        "source": "CBS News",
+        "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+       }
+      ],
+      "format": "long",
+      "id": "a57"
+     },
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-13",
+      "url": "https://www.politico.eu/article/eu-countries-to-announce-deportation-hub-deal-with-rwanda/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Nektaria Stamouli; Hans von der Burchard; Hanne Cokelaere",
+      "titre": "Cinq pays de l'UE vont annoncer un accord avec le Rwanda sur des expulsions",
+      "chapo": "L'Autriche, le Danemark, l'Allemagne, la Grèce et les Pays-Bas doivent annoncer lundi à Vienne un accord pour expulser des migrants déboutés vers un centre au Rwanda.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Selon trois personnes au fait du dossier citées par Politico Europe, cinq pays de l'Union européenne doivent annoncer lundi, à Vienne, un accord avec le Rwanda pour y établir un centre d'expulsion hors du territoire de l'Union. Ces pays, l'Autriche, le Danemark, l'Allemagne, la Grèce et les Pays-Bas, se réunissent régulièrement pour préparer le terrain à la création de centres situés hors du territoire de l'Union, vers lesquels ils pourraient expulser les migrants sans droit légal de rester dans l'Union. L'accord ne concernerait que les demandeurs d'asile déboutés qui ont épuisé toutes leurs possibilités d'obtenir un droit de séjour légal dans l'Union. Il s'inscrit dans un effort plus large du bloc pour mieux contrôler qui entre dans l'Union et qui peut y rester."
+       },
+       {
+        "intertitre": "Le contexte et les limites",
+        "texte": "D'après UA.News, qui reprend l'information de Politico Europe, les cinq pays avaient déclaré vouloir conclure les premiers accords de ce type en 2026 et les mettre en service l'année suivante, soit en 2027. Le centre rwandais serait un projet pilote, selon la publication : d'autres accords, avec d'autres pays et d'autres membres de l'Union, pourraient suivre. Une récente réforme des règles européennes autorise de tels accords à condition que les normes internationales de droits humains soient respectées, mais les détails, dont la nationalité des personnes transférées, les conditions de séjour et les mécanismes de contrôle, dépendront de chaque accord. Des organisations de défense des droits humains redoutent des violations hors de portée des mécanismes de contrôle de l'Union. En 2023, la Cour suprême britannique a jugé illégal le plan du Royaume-Uni d'envoyer des demandeurs d'asile au Rwanda pour y traiter leurs dossiers à distance ; UA.News souligne que l'initiative européenne vise des personnes déjà sommées de quitter le territoire."
+       }
+      ],
+      "synthese": "Cinq pays de l'Union doivent annoncer lundi un centre d'expulsion au Rwanda, conçu comme un projet pilote pour des migrants déboutés. Les modalités restent à préciser, et des organisations de défense des droits humains alertent sur les risques.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "UA.NEWS",
+        "url": "https://ua.news/en/dovkolo-svitu/piat-krayin-es-planuiut-ogolositi-ugodu-z-ruandoiu-pro-tsentri-deportatsiyi-politico-europe"
+       }
+      ],
+      "format": "long",
+      "id": "a76"
+     },
+     {
+      "rubrique": "États-Unis",
+      "source": "NPR",
+      "date": "2026-11-13",
+      "url": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+      "auteur": "Aya Batrawy",
+      "titre": "Iran : Trump mise sur le statu quo, neuf mois après le début de la guerre",
+      "chapo": "Neuf mois après le début de la guerre, Trump dispose de peu d'options et semble vouloir maintenir la pression économique sur l'Iran, au risque d'une escalade.",
+      "sections": [
+       {
+        "intertitre": "Un président aux options réduites",
+        "texte": "Jeudi, Donald Trump a écarté la nécessité d'un accord avec l'Iran, en rappelant que les États-Unis détiennent des milliards de dollars iraniens gelés à l'étranger : « Nous n'avons pas besoin d'un accord avec l'Iran. Ces jours sont loin derrière nous. Nous avons leur argent », a-t-il écrit sur Truth Social. Les négociations sont bloquées, le Qatar tentant de rapprocher les positions. Après avoir reçu le Premier ministre qatari à la Maison-Blanche, Trump a dit que ses alliés arabes du Golfe préfèrent le statu quo d'une pression économique continue, et qu'une attaque semble à ce stade « assez improbable », même si les États-Unis restent « prêts à tirer ». C'est un revirement par rapport à ses menaces de frappes rapides et intenses, avant ses deux revers électoraux : le Premier ministre israélien Benjamin Netanyahu, son allié de guerre, est sur le point d'être évincé après les élections en Israël, et le parti de Trump a perdu sa majorité au Congrès lors des élections de mi-mandat."
+       },
+       {
+        "intertitre": "Ormuz et frappes limitées",
+        "texte": "Le détroit d'Ormuz, libre avant la guerre, reste sous la coupe de l'Iran, dont les comptes officiels diffusent des vidéos d'attaques contre des navires accusés d'enfreindre les nouvelles règles imposant une autorisation de passage. Les États-Unis escortent des pétroliers par un itinéraire proche des côtes d'Oman, ce qui aide les États arabes à exporter leur pétrole mais ne règle pas le retour aux niveaux de production d'avant-guerre du gaz naturel liquéfié, des engrais ou de l'aluminium, ni les importations du Koweït, du Qatar et de Bahreïn. Selon le FMI, les pays arabes du Golfe sont en récession malgré la hausse des cours du pétrole : le Koweït, le Qatar et l'Irak se contractent d'environ 16 % cette année, Bahreïn de 11 %. Sur le plan militaire, un troisième porte-avions, avec des milliers de soldats, est envoyé dans la région. Des frappes limitées se poursuivent : vendredi, selon les médias iraniens, les États-Unis ont touché une île iranienne du détroit où l'Iran dispose de radars et de sites de lancement de drones, et les Gardiens de la révolution affirment avoir riposté contre un radar d'alerte américain à Bahreïn."
+       },
+       {
+        "intertitre": "Une économie iranienne exsangue",
+        "texte": "Le secrétaire d'État Marco Rubio juge qu'aucune action militaire n'est nécessaire à ce stade, car les sanctions économiques font leur effet : « Tôt ou tard, il faut manger, il faut pouvoir payer ses propres combattants et ses forces de sécurité. » Un blocus naval américain empêche les navires iraniens de transporter du pétrole vers des pays comme la Chine ; selon l'armée américaine, il a privé l'Iran d'au moins 25 milliards de dollars de revenus. Les Émirats arabes unis, qui comptaient parmi les principaux partenaires commerciaux de Téhéran, ont rompu cet été tous leurs liens économiques et commerciaux avec l'Iran, dont des comptes bancaires locaux auraient servi au guide suprême et aux Gardiens de la révolution."
+       },
+       {
+        "intertitre": "Le Yémen et l'impasse diplomatique",
+        "texte": "La guerre a relancé le conflit ouvert entre l'Arabie saoudite et les Houthis au Yémen, soutenus par l'Iran sans en être un relais direct. Les Houthis affirment que des frappes saoudiennes ont tué des dizaines de personnes, dont près de 60 le week-end dernier près de Sanaa. L'Arabie saoudite subit des attaques quotidiennes de missiles et de drones, dont certaines ont touché son oléoduc est-ouest, qui contourne Ormuz, et le siège d'Aramco à Riyad. Le Pakistan, la Turquie et l'Égypte apportent un soutien défensif à Riyad, les États-Unis du renseignement. L'ONU compte quelque 330 000 déplacés. Côté diplomatique, l'Iran se dit prêt à une pause à court terme des attaques de navires, mais pose sept exigences avant des pourparlers directs sur son programme nucléaire : levée des sanctions, fin du blocus, dégel de ses avoirs et cessez-le-feu sur tous les fronts, y compris au Liban et à Gaza. Rubio les juge « absurdes », et Mohsen Rezaei refuse de retirer « la moindre parcelle » de matière nucléaire enrichie."
+       }
+      ],
+      "synthese": "Faute de marge de manœuvre, Trump laisse jouer sanctions et blocus, tandis que l'Iran refuse de céder sur ses sept exigences. Ce statu quo, qui pèse sur le Golfe et nourrit la guerre au Yémen, laisse subsister un risque d'escalade.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a62"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-13",
+      "url": "https://www.politico.eu/article/eu-deal-on-ukraine-talks-overshadows-ai-focused-summit-in-dublin/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Nicholas Vinocur; Jacopo Barigazzi; Hans von der Burchard",
+      "id": "a70",
+      "titre": "Ukraine : l'accord européen sur les négociations éclipse le sommet sur l'IA à Dublin",
+      "texte": "Les dirigeants européens ont convenu que le format E5 — Allemagne, France, Royaume-Uni, Italie et Pologne — avec la Commission européenne et le Conseil représentera l'UE dans de futures négociations de paix. Cet accord éclipse le sommet consacré à l'intelligence artificielle, organisé à Dublin."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-14",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374415/white-house-confirms-us-china-russia-trilateral-apec-sidelines",
+      "auteur": "",
+      "id": "a82",
+      "titre": "La Maison-Blanche confirme une rencontre trilatérale États-Unis, Chine et Russie à l'Apec",
+      "texte": "La Maison-Blanche a confirmé vendredi une rencontre inédite entre les présidents américain, chinois et russe, prévue en marge du sommet de l'Apec à Shenzhen la semaine prochaine. Selon elle, Donald Trump clôturera sa visite en Chine par cette réunion trilatérale."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-13",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
+      "auteur": "",
+      "id": "a103",
+      "titre": "Qatar et Turquie signent un pacte de défense mutuelle",
+      "texte": "Doha et Ankara ont signé un pacte de défense mutuelle, qui prévoit une action commune face aux attaques extérieures. Ce partenariat s'approfondit dans un contexte d'instabilité régionale croissante."
+     }
+    ]
+   },
+   {
+    "id": "recherche",
+    "titre": "Recherche & travaux d'experts",
+    "developpes": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35985#fromrss",
+      "auteur": "Philip Strahan; Tuo Yang",
+      "titre": "Politiques non conventionnelles : des dépôts bancaires plus coûteux à retenir",
+      "chapo": "Taux zéro et achats d'obligations de la Fed ont attiré des déposants sensibles aux taux, rendant les dépôts plus coûteux à retenir ensuite, selon deux économistes.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "Après la crise financière mondiale, les banques centrales ont engagé deux politiques non conventionnelles : maintenir le taux directeur à court terme à sa borne zéro (ZLB) pendant une période prolongée, et mener des achats massifs d'obligations (assouplissement quantitatif, ou QE) pour abaisser directement les taux longs. Philip Strahan et Tuo Yang, de Boston College, se demandent comment ces deux volets ont modifié la composition des dépôts bancaires, et ce qu'il en est advenu pour les banques lorsque la politique monétaire est revenue à la normale. Leur difficulté tient au fait que le QE recouvre par construction la période de taux zéro, puisque les banques centrales n'y recourent qu'une fois l'outil standard épuisé."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "Les deux volets ont déplacé les dépôts vers des clients plus sensibles aux taux. Le taux zéro a comprimé les écarts de rémunération, entre banques comme entre banques et fonds monétaires, si bien que ces clients n'avaient plus intérêt à chercher du rendement ailleurs : la composition des dépôts a basculé des dépôts à terme rémunérés vers les comptes courants non rémunérés. Le QE a attiré de gros déposants, souvent non assurés. Les dépôts ont crû de 42 % entre 2010 et 2015, contre 26 % pour le PIB nominal. Après la sortie du taux zéro, fin 2015 puis en 2022, la sensibilité des flux de dépôts aux taux et le « bêta de dépôt » ont augmenté avec l'exposition au QE et au taux zéro. Une exposition au QE supérieure d'un écart type à la moyenne rend la sensibilité environ 50 % plus forte (0,24 contre 0,44). Un écart type d'exposition au taux zéro ajoute 0,019 au bêta, pour une moyenne d'environ 0,3."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "L'échantillon couvre 2001 à 2025 et s'appuie sur les rapports prudentiels des banques (FFIEC), les dépôts par agence (FDIC), les opérations de la Fed de New York et des séries de la FRED. L'exposition au QE est mesurée par un instrument construit sur les achats de la Fed auprès des courtiers primaires : les banques qui recoupent fortement leurs marchés reçoivent des dépôts. Le « Rate Gap » compare le taux versé par une banque à celui de ses concurrentes. L'exposition au taux zéro est la croissance des dépôts pendant cette période, rapportée aux actifs, avec un instrument de type Bartik. Les estimations portent sur les deux cycles de hausse qui ont suivi : 2016T1-2020T1 et 2022T2-2025T4."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Selon les auteurs, ces dépôts restaient stables tant que les taux demeuraient comprimés. Quand la politique s'est normalisée, les banques les plus exposées ont dû relever davantage leurs taux pour les conserver, faute de quoi ils seraient partis vers les fonds monétaires ou d'autres banques. Conserver ses dépôts est ainsi devenu plus coûteux et plus risqué. La couverture naturelle dont bénéficiaient les banques, grâce à des dépôts rémunérés sous le marché, s'en trouve érodée. Les auteurs concluent que les décideurs devraient tenir compte des effets sur la stabilité du financement bancaire si de futures circonstances exigeaient de nouvelles mesures non conventionnelles."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Les auteurs relèvent que l'exposition au taux zéro est endogène : les banques choisissent le volume de dépôts levés selon leurs occasions de prêt, ce qui pourrait fausser les estimations ; ils y répondent par l'instrument Bartik. Les effets restent plus faibles pour le taux zéro que pour le QE sur la sensibilité des flux, et l'effet de l'exposition au taux zéro sur les dépôts non assurés n'est pas significatif en MCO. Chez les grandes banques, la somme des termes directs et d'interaction n'est pas significativement différente de zéro (p = 0,274), alors que la sensibilité estimée est plus forte chez les petites banques, définies par moins de 10 milliards de dollars d'actifs fin 2008."
+       }
+      ],
+      "synthese": "Le taux zéro et le QE ont attiré des déposants sensibles aux taux, ce qui a rendu les dépôts plus coûteux et plus risqués à retenir quand les taux ont remonté. Les auteurs invitent à en tenir compte dans toute future politique non conventionnelle.",
+      "republication": "",
+      "reference": "Philip Strahan et Tuo Yang (Boston College), NBER Working Paper n° 35985, novembre 2026 : document de travail non relu par des pairs.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a108"
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-13",
+      "url": "https://verfassungsblog.de/korea-scholactivism/",
+      "auteur": "Jeong-In Yun; Mathias Hong",
+      "titre": "Corée du Sud : les constitutionnalistes face à la loi martiale de Yoon",
+      "chapo": "Dans un entretien, la juriste Jeong-In Yun explique pourquoi un conseil de 110 constitutionnalistes s'est engagé publiquement après la loi martiale de décembre 2024.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "Le 3 décembre 2024, le président Yoon Suk Yeol a proclamé la loi martiale et ordonné à l'armée et à la police d'occuper l'Assemblée nationale, pour empêcher les députés d'abroger sa déclaration, sans y parvenir. Le Verfassungsblog interroge Jeong-In Yun, professeure à la Korea University et membre du groupe de travail qui a préparé le rapport du conseil, sur ce qu'elle appelle le « K-Scholactivism ». La question est celle de la tension entre neutralité scientifique et engagement public sur des sujets politiquement brûlants : le conseil relevait-il d'un « scholactivisme » légitime ?"
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "Pour Jeong-In Yun, la destitution du président n'était pas juridiquement douteuse : en proclamant la loi martiale, Yoon a clairement outrepassé ses pouvoirs d'exception, s'est affranchi des procédures et des exigences de fond, et les mesures allaient même au-delà du cadre de la loi martiale en vigueur, en interdisant l'activité de l'Assemblée, des organes locaux et des partis. Elle précise que seule une petite minorité d'universitaires s'y est opposée, dont le professeur émérite Huh Young, le plus connu d'entre eux, dont elle juge les arguments absurdes. Le 4 avril 2025, la Cour constitutionnelle a confirmé la destitution à l'unanimité. Elle explique la mobilisation populaire par deux raisons : une densité exceptionnelle de crises politiques graves dans l'histoire moderne du pays, jusqu'à la transition démocratique de la fin des années 1980, et le sentiment que la démocratie, conquise au prix de lourds sacrifices, n'est pas acquise."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "Deux jours après la proclamation, les constitutionnalistes ont commencé à s'organiser. Le 25 décembre, 110 d'entre eux, venus de tout le pays, ont fondé officiellement le « Constitutional Scholars Council for Enhancement of Korean Constitutionalism ». Le conseil a proposé publiquement des solutions constitutionnelles, organisé des forums et des séminaires en ligne et sur place, et publié des déclarations communes ainsi que 19 communiqués de presse, que les médias ont fini par citer. Jeong-In Yun avait été sollicitée pour rejoindre un groupe de travail de cinq jeunes professeurs. Fin juillet 2025, après plus de six mois de travail, le conseil a annoncé sa dissolution, la destitution étant acquise et une procédure pénale engagée contre l'ex-président."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Selon l'interviewée, la crise se situait sur un tout autre plan qu'une querelle politique ordinaire : une menace existentielle pour l'ordre constitutionnel. Des notes d'un ancien officier révélaient des projets d'arrestations massives, de détention et de torture, et la déclaration était plus sévère que celles des époques autoritaires de Park (1961-1979) et de Chun (1980-1987). Une motion de destitution déposée le 4 décembre avait en outre échoué ce week-end-là, laissant à Yoon le commandement de l'armée. Les risques ne touchaient donc pas seulement la carrière, mais la vie des universitaires. Elle en conclut que défendre la justice et la vérité, quand elles sont gravement attaquées, ne contredit pas l'éthique scientifique, et que les constitutionnalistes devaient, en temps de crise grave, éclairer citoyens et institutions sur la Constitution."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Jeong-In Yun reconnaît comprendre les arguments des critiques du scholactivisme : les chercheurs devraient rester tournés vers la connaissance et n'analyser qu'après coup. Elle admet aussi qu'il existe en Corée des critiques justifiées contre les universitaires trop présents dans la politique quotidienne, qui négligent leur enseignement et leur recherche. D'où le caractère temporaire du conseil, créé pour cette crise seulement, mais constitué sans hésiter, selon elle."
+       }
+      ],
+      "synthese": "Pour Jeong-In Yun, l'engagement du conseil se justifiait par la gravité exceptionnelle de la crise et par la mémoire autoritaire coréenne. Elle y voit une réponse de citoyens autant que de juristes, limitée dans le temps.",
+      "republication": "",
+      "reference": "Entretien de Mathias Hong avec Jeong-In Yun (Korea University), Verfassungsblog, 13 novembre 2026 : entretien publié sur un blog juridique, non un article revu par des pairs.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a112"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Social",
+      "source": "Pew Research Center",
+      "date": "2026-11-13",
+      "url": "https://www.pewresearch.org/short-reads/2026/11/13/where-americans-get-news-relates-to-how-they-engage-in-public-life/",
+      "auteur": "",
+      "id": "a111",
+      "titre": "Les médias qui couvrent beaucoup la politique ont des audiences très engagées",
+      "texte": "Selon le Pew Research Center, certains médias qui couvrent intensivement la politique comptent dans leur audience une part disproportionnée des Américains les plus engagés dans la vie publique. L'étude relie ainsi les sources d'information aux formes d'engagement civique."
+     },
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35987#fromrss",
+      "auteur": "",
+      "id": "a110",
+      "titre": "TaskNet : inventorier les tâches professionnelles à partir d'entretiens",
+      "texte": "Les auteurs présentent TaskNet, une taxonomie des métiers fondée sur des entretiens ouverts avec des travailleurs, et une méthode pour la construire à grande échelle. Ils visent à repérer plus tôt les changements liés à l'IA dans les tâches professionnelles."
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-13",
+      "url": "https://verfassungsblog.de/reserve-bundeswehr-starkung/",
+      "auteur": "",
+      "id": "a114",
+      "titre": "Réserve allemande : pas de retour à la conscription, selon une analyse",
+      "texte": "Le projet de renforcement de la réserve allemande permettrait de convoquer des réservistes sans engagement volontaire préalable. Selon cette analyse publiée dans le Verfassungsblog, il ne s'agit pas pour autant d'un retour à la conscription, le choix de servir comportant des obligations au-delà de la durée du service."
+     }
+    ]
+   },
+   {
+    "id": "veille",
+    "titre": "Veille réglementaire",
+    "developpes": [
+     {
+      "rubrique": "Conformité",
+      "source": "Village de la Justice",
+      "date": "2026-11-13",
+      "url": "https://www.village-justice.com/articles/enregistrement-des-reunions-transcription-epreuve-rgpd-act,59971.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+      "auteur": "Jérémie Terral",
+      "titre": "Transcription de réunions par IA : ce que disent le RGPD et l'AI Act",
+      "chapo": "Confier l'audio d'une réunion à une IA de transcription met en jeu le droit du travail, le RGPD et l'AI Act, selon une analyse de Jérémie Terral.",
+      "sections": [
+       {
+        "intertitre": "Ce qui change",
+        "texte": "Dès qu'un enregistrement de réunion (CSE, négociation, comité de direction, audition) est confié à une IA pour la reconnaissance vocale, la séparation des locuteurs et la synthèse, trois corpus s'appliquent : le droit social et pénal français, le RGPD et l'AI Act. Les « bots » de visioconférence qui rejoignent seuls les réunions posent des difficultés de conformité, alors que l'IA permet en moyenne de diviser par deux le temps de rédaction d'un procès-verbal après réécoute humaine. Pour le CSE, l'article D2315-27 du Code du travail permet à l'employeur ou à la délégation du personnel de décider d'enregistrer les séances. L'employeur ne peut s'y opposer dans son principe si la délégation l'a décidé à la majorité, sauf informations confidentielles dûment déclarées comme telles, et tout transcripteur extérieur est tenu à la même discrétion que les élus."
+       },
+       {
+        "intertitre": "Qui est concerné",
+        "texte": "Hors CSE, l'enregistrement d'une réunion, d'un entretien ou d'une visioconférence suppose une information préalable : l'article L1222-4 interdit de collecter sur un salarié une information par un dispositif ignoré de lui. La voix est une donnée personnelle selon la CNIL. Enregistrer à l'insu des participants des propos privés ou confidentiels reste puni par les articles 226-1 et 226-2 du Code pénal. L'arrêt de l'Assemblée plénière du 22 décembre 2023 permet certes au juge d'admettre une preuve déloyale si elle est indispensable et proportionnée, mais, selon l'auteur, cela ne fonde pas un traitement au sens de l'article 6 du RGPD. Sont visés directions juridiques, DRH et secrétaires d'instances."
+       },
+       {
+        "intertitre": "Le calendrier",
+        "texte": "Depuis le 2 février 2025, les interdictions de l'article 5 de l'AI Act s'appliquent, avec des amendes pouvant atteindre 35 millions d'euros ou 7 % du chiffre d'affaires mondial. Parmi elles, l'inférence des émotions d'une personne au travail est interdite, sauf raisons médicales ou de sécurité. Un bot qui attribue un score de sentiment ou un profil comportemental lors d'une réunion interne, d'un entretien d'évaluation ou d'une séance de CSE est donc proscrit. La simple conversion de la parole en texte, la séparation neutre des tours de parole et une synthèse fidèle restent licites sous réserve du RGPD. Les obligations de transparence de l'article 50 s'appliquent à compter du 2 août 2026 : informer les personnes qui interagissent avec une IA et signaler les contenus synthétiques."
+       },
+       {
+        "intertitre": "Les points de vigilance",
+        "texte": "L'Annexe III, point 4, classe à haut risque les systèmes d'IA utilisés pour le recrutement ou pour décider de promotions et de licenciements ; si une transcription alimente une décision RH, un contrôle humain effectif (article 14) est requis. Côté RGPD, l'auteur met en garde contre les services grand public qui réutilisent les fichiers pour réentraîner leurs modèles. Il recommande un accord de traitement excluant tout entraînement (Zero Data Retention), le dépôt ponctuel du seul fichier audio plutôt qu'un bot réclamant l'accès aux agendas, et la suppression de l'audio et de la transcription une fois le procès-verbal approuvé. Il distingue l'hébergement européen du stockage (OVHcloud, chiffrement AES-256 et TLS 1.3) de l'inférence chez un fournisseur de maison mère américaine, qui n'échappe pas par nature au Cloud Act. Le risque est neutralisé par trois garanties : calcul dans l'Union, mode Zero Data Retention, suppression du fichier source."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Un texte généré par IA ne vaut jamais, seul, procès-verbal faisant foi : aucun moteur n'atteint une infaillibilité absolue, et une négation omise ou une étiquette de locuteur inversée peut changer le sens d'un engagement. L'auteur propose cinq pratiques : formaliser l'information et la purge dans le règlement intérieur, relire intégralement la pré-transcription au casque (environ 2 à 3 heures par heure d'audio, contre 4 à 7 heures de frappe manuelle), contrôler et coder les étiquettes d'intervenants, exporter en .docx horodaté, et graduer la certification selon l'enjeu jusqu'au constat d'un commissaire de justice."
+       }
+      ],
+      "synthese": "La transcription par IA reste licite si elle se limite au texte et à une synthèse fidèle, avec information préalable, hébergement et contrats maîtrisés, et suppression de l'audio. L'analyse des émotions au travail est interdite et la relecture humaine demeure indispensable.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a122"
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "ANI News",
+      "date": "2026-11-13",
+      "url": "https://www.aninews.in/news/world/europe/ursula-von-der-leyen-says-europes-inclusion-in-ukraine-peace-talks-is-self-explanatory-announces-22nd-russia-sanctions-package20261113180600",
+      "auteur": "",
+      "titre": "Ukraine : von der Leyen annonce un 22e paquet de sanctions contre la Russie",
+      "chapo": "À Dublin, la présidente de la Commission juge évident que l'Europe participe aux pourparlers de paix et annonce un 22e paquet de sanctions et un plan de financement 2027 pour Kiev.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Le vendredi 13 novembre, avant le sommet européen informel de Dublin, la présidente de la Commission européenne, Ursula von der Leyen, a déclaré qu'il allait « de soi » que l'Europe soit associée aux négociations de paix sur l'Ukraine, pour défendre ses intérêts comme pour soutenir Kiev. Elle a salué l'échange de prisonniers. La Commission présentera avant le prochain Conseil européen, prévu les 26 et 27 novembre, une proposition de financement des besoins de l'Ukraine pour 2027 ainsi qu'un 22e paquet de sanctions contre la Russie. Bruxelles prépare ainsi une double voie, pression économique sur Moscou et soutien financier durable à Kiev, afin que l'Ukraine négocie en position de force."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "À Dublin, les dirigeants de l'Union et le président ukrainien Volodymyr Zelensky coordonnent le rôle de l'Europe dans le processus de paix et débattent de la nomination d'un envoyé européen dédié. Zelensky a rencontré en Irlande Steve Witkoff, envoyé spécial du président américain Donald Trump, et Jared Kushner, après leurs entretiens avec Vladimir Poutine à Moscou. Les émissaires américains y ont fait le point sur les négociations entre la Russie, l'Ukraine et les États-Unis. Selon le Kremlin, Poutine les a remerciés de leurs efforts, les a priés de transmettre sa gratitude à Trump pour avoir facilité les contacts avec la partie ukrainienne, et a mis en avant les progrès de la coopération humanitaire, notamment l'échange de détenus. Witkoff lui a indiqué que Trump faisait de la fin rapide du conflit une priorité. Le mois précédent, la cheffe de la diplomatie de l'UE, Kaja Kallas, avait annoncé près de 1 600 inscriptions sur les listes de sanctions, visant le complexe militaro-industriel russe et des personnes liées aux élections dans les territoires ukrainiens occupés."
+       },
+       {
+        "intertitre": "Ce que ça change",
+        "texte": "Zelensky a cité trois résultats de la rencontre, dont deux précisés dans son message sur X : des prisonniers seront libérés, avec l'espoir du plus grand échange depuis le début de la guerre, et les représentants européens seront impliqués plus activement, à égalité à la table des négociations. Kushner a écrit que les deux parties avaient convenu d'élargir le prochain cycle de négociations aux partenaires européens, afin de traiter la sécurité européenne d'après-guerre en même temps que les questions territoriales entre l'Ukraine et la Russie. Il juge qu'une fin durable des combats exige des garanties de sécurité crédibles, des mécanismes de déconfliction et des engagements réciproques de désescalade. Zelensky a ajouté que l'Ukraine défendait toujours les intérêts de toute l'Europe."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "De profondes divergences subsistent sur les arrangements territoriaux et les garanties de sécurité futures. Lors de la rencontre au Kremlin, Poutine a réaffirmé l'opposition de Moscou au déploiement de troupes étrangères sur le sol ukrainien après un éventuel accord de paix."
+       }
+      ],
+      "synthese": "L'Europe devrait être associée au prochain cycle de pourparlers, tandis que Bruxelles prépare sanctions et financement avant le sommet des 26 et 27 novembre. Les désaccords sur le territoire et les garanties de sécurité demeurent.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a128"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Sanctions et export",
+      "source": "Thompson Hine",
+      "date": "2026-11-13",
+      "url": "https://www.thompsonhinesmartrade.com/2026/11/china-extends-suspension-of-rare-earth-export-controls/",
+      "auteur": "",
+      "id": "a139",
+      "titre": "La Chine prolonge la suspension de ses contrôles à l'exportation des terres rares",
+      "texte": "La Chine a prolongé la suspension de ses contrôles à l'exportation des terres rares, selon une note du cabinet Thompson Hine."
+     },
+     {
+      "rubrique": "Réglementation",
+      "source": "Covington Global Policy Watch",
+      "date": "2026-11-13",
+      "url": "https://www.globalpolicywatch.com/2026/11/pennsylvania-enacts-artificial-intelligence-deceptive-advertising-act/",
+      "auteur": "",
+      "id": "a117",
+      "titre": "Pennsylvanie : une loi encadre la publicité trompeuse fondée sur l'IA",
+      "texte": "Le gouverneur de Pennsylvanie a promulgué le 22 octobre 2026 l'Artificial Intelligence Deceptive Advertising Act (SB 806). Contrairement aux lois de New York et de Californie, son obligation de transparence ne se limite pas aux seuls contenus générés par IA."
+     }
+    ]
+   },
+   {
+    "id": "curiosites",
+    "titre": "Curiosités",
+    "developpes": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-13",
+      "url": "https://www.sciencesetavenir.fr/sante/obesite-une-etude-confirme-les-limites-de-l-imc-pour-evaluer-l-exces-de-graisse_196082?xtor=RSS-16",
+      "auteur": "",
+      "titre": "Obésité : une étude de Nature confirme les limites de l'IMC",
+      "chapo": "Une vaste étude publiée dans Nature, portant sur plus de 844 000 adultes, confirme l'intérêt d'associer à l'IMC d'autres mesures, comme le tour de taille, pour classer l'obésité.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est établi",
+        "texte": "Une nouvelle étude scientifique, publiée mercredi dans la revue Nature, met en évidence les limites de l'indice de masse corporelle (IMC) comme mesure unique de la corpulence. Ses auteurs soutiennent une évaluation plus complète dans la prise en charge de la maladie. Le surpoids et l'obésité sont traditionnellement définis à partir de l'IMC, calculé en divisant le poids par la taille au carré. Or le poids ou l'IMC peuvent être élevés chez une personne très musclée, ayant une ossature importante, ou encore chez une femme enceinte."
+       },
+       {
+        "intertitre": "Le contexte et la méthode",
+        "texte": "En 2025, une commission d'experts du Lancet a recommandé de compléter l'IMC par d'autres mesures, comme le tour de taille et le rapport tour de taille/hauteur, pour confirmer le statut d'obésité et évaluer le risque pour la santé d'un individu. Elle a aussi distingué l'obésité clinique, où l'excès de tissu adipeux provoque déjà un dysfonctionnement d'organes ou l'incapacité à effectuer des activités du quotidien, et l'obésité préclinique, un état de risque potentiel. Certains de ces chercheurs ont désormais évalué cette approche, avec d'autres scientifiques, à partir des données de plus de 844 000 adultes issues de quatre études de cohorte menées sur le long terme en Chine, au Royaume-Uni, aux États-Unis et en Espagne."
+       },
+       {
+        "intertitre": "Surdiagnostic et obésité cachée",
+        "texte": "Environ 2 % des personnes jugées obèses d'après le seul IMC ne présentaient pas un excès de tissu adipeux suffisant pour accroître le risque de mortalité : « un surdiagnostic d'obésité de 2 % », selon Francesco Rubino, chirurgien de l'obésité et auteur principal de l'étude, qui avait aussi piloté les travaux de la commission du Lancet. À l'inverse, environ 6 % des participants, classés en surpoids, avaient un tour de taille révélant un niveau de masse grasse caractéristique de l'obésité : cette « obésité cachée » varie de 5,2 % à 8,6 % selon les cohortes. Ces chiffres peuvent paraître faibles, reconnaît-il, mais extrapolés à la population de certains grands pays, l'erreur de classification peut concerner des dizaines de millions de personnes. Par ailleurs, plus de 80 % des participants en obésité préclinique au début du suivi n'avaient pas évolué vers une obésité clinique dix ans plus tard."
+       },
+       {
+        "intertitre": "Ce que ça change",
+        "texte": "Selon Francesco Rubino, l'IMC ne renseigne pas sur la masse grasse, ni sur le bon fonctionnement d'un organe, ni sur l'état de santé d'une personne : son imprécision est « un problème majeur ». De nombreux systèmes de santé s'appuient pourtant encore fortement sur des critères fondés sur l'IMC pour décider qui peut recevoir un traitement ou être pris en charge. Les auteurs jugent la nouvelle définition mieux adaptée à un diagnostic individualisé et à une prise en charge davantage proportionnée au risque. Reste à voir si les futures stratégies de lutte contre l'obésité s'en empareront."
+       }
+      ],
+      "synthese": "L'étude conforte l'approche du Lancet : associer à l'IMC le tour de taille et d'autres mesures corrige à la fois un surdiagnostic d'environ 2 % et une obésité cachée d'environ 6 %. Elle plaide pour un diagnostic individualisé et une prise en charge proportionnée au risque, mais son adoption par les systèmes de santé reste incertaine.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "L'essentiel",
+        "url": "https://www.lessentiel.lu/story/sante-une-etude-confirme-les-limites-de-l-imc-pour-evaluer-l-obesite-103665977"
+       }
+      ],
+      "format": "long",
+      "id": "a152"
+     },
+     {
+      "rubrique": "Idées",
+      "source": "The Conversation",
+      "date": "2026-11-13",
+      "url": "https://theconversation.com/aux-etats-unis-les-arrestations-dimmigres-nont-profite-ni-a-lemploi-ni-aux-salaires-des-travailleurs-nes-dans-le-pays-296559",
+      "auteur": "Chloe N East; Elizabeth Cox",
+      "titre": "États-Unis : les arrestations d'immigrés n'ont aidé ni l'emploi ni les salaires",
+      "chapo": "Selon deux chercheurs, les pics d'arrestations de l'ICE ont fait reculer l'emploi des immigrés sans que les travailleurs nés aux États-Unis y gagnent en emploi ou en salaire.",
+      "sections": [
+       {
+        "intertitre": "La promesse et ce que montre le marché du travail",
+        "texte": "Donald Trump avait fait campagne en promettant de renforcer le marché du travail, au moyen notamment de la plus vaste campagne d'expulsions de l'histoire des États-Unis. En juillet 2025, le secrétaire au Trésor Scott Bessent affirmait que l'immigration illégale massive avait artificiellement tiré les salaires vers le bas et évoquait un « boom des salaires ouvriers ». Or, selon les deux auteures de l'analyse, Chloe N East et Elizabeth Cox, le chômage a augmenté durant la première année du second mandat, les embauches ont ralenti et la progression des salaires a marqué le pas, la construction étant particulièrement touchée."
+       },
+       {
+        "intertitre": "Un effet dissuasif sur les immigrés",
+        "texte": "À partir de données allant d'octobre 2023 à novembre 2025, elles ont comparé les zones ayant connu de brusques pics d'arrestations par l'ICE (la police fédérale de l'immigration) à celles qui n'en ont pas connu. Dans les premières, le taux d'emploi des immigrés probablement sans papiers, ni détenus ni expulsés, a nettement baissé, de 4 % dans les secteurs où ils sont très présents : agriculture, construction, industrie manufacturière et commerce de gros. Ils semblent rester chez eux par peur : dans une enquête du Pew Research Center menée à l'été 2025, 43 % des personnes nées à l'étranger craignaient d'être expulsées, ou qu'un proche le soit. Cet effet est environ deux fois plus fort que celui mesuré pour le programme Secure Communities, sous Barack Obama. Il ne s'agit pas d'un retrait physique du marché du travail : ces personnes ont modifié leur comportement. Les auteures l'expliquent probablement par des arrestations plus aveugles et plus visibles : la part des interpellations dans l'espace public est passée de 19 % à près de 50 %, et alors que Trump s'était engagé en 2024 à cibler les criminels, la part des personnes arrêtées ayant une condamnation pénale est passée d'environ 60 % en janvier 2025 à moins de 30 % fin 2025."
+       },
+       {
+        "intertitre": "Des répercussions plus larges",
+        "texte": "Les effets ne se limitent pas aux immigrés. D'autres chercheurs ont relevé un recul de la consommation et de l'activité dans les villes touchées par les descentes de l'ICE en 2025. En février 2026, les autorités de Minneapolis ont estimé que l'économie de la ville avait perdu 203 millions de dollars (environ 171 millions d'euros), entre baisse des recettes des restaurants, hôtels et commerces et salaires perdus. Selon une autre analyse, les dépenses par carte ont reculé de 1,7 point dans les États où l'ICE a renforcé ses contrôles. Une étude de la Wharton School publiée en mai 2026 évalue la baisse hebdomadaire à 2,7 % pour la fréquentation et à 6,2 % pour les dépenses dans les zones fortement touchées."
+       },
+       {
+        "intertitre": "Pas de gain pour les travailleurs nés aux États-Unis",
+        "texte": "L'emploi des travailleurs nés aux États-Unis a lui aussi reculé là où l'ICE était plus active, et les employeurs n'ont pas augmenté les salaires : leur demande de main-d'œuvre s'est contractée. Les auteures rappellent que le marché du travail n'est pas un jeu à somme nulle : immigrés et natifs occupent surtout des emplois complémentaires. Le tassement de l'emploi dans la construction en 2025 correspond à ce schéma, et des travaux antérieurs montrent que les expulsions de l'ère Obama avaient freiné la construction de logements et fait grimper le prix des maisons neuves. Dans ce secteur, moins d'ouvriers sans papiers sur un chantier, c'est moins de travail pour les électriciens, les couvreurs et les contremaîtres. Elles citent aussi l'expulsion de 400 000 travailleurs mexicains sous Herbert Hoover au début des années 1930 et Secure Communities, sans progression de l'emploi ni des salaires des natifs."
+       }
+      ],
+      "synthese": "D'après cette analyse, les pics d'arrestations de l'ICE ont freiné l'emploi des immigrés sans créer d'emplois ni de hausses de salaires pour les Américains nés dans le pays. Les auteures en concluent que les présidents qui veulent renforcer le marché du travail devront chercher ailleurs.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a158"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-13",
+      "url": "https://www.sciencesetavenir.fr/nature-environnement/el-nino-principal-responsable-des-incendies-en-indonesie-selon-un-rapport_196111?xtor=RSS-15",
+      "auteur": "",
+      "id": "a154",
+      "titre": "Incendies en Indonésie : El Niño principal responsable, selon un rapport",
+      "texte": "Depuis le début de l'année 2026, les incendies ont détruit près de trois millions d'hectares de terrain en Indonésie. Un rapport conclut que ces catastrophes sont principalement causées par un El Niño intense."
+     },
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-13",
+      "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+      "auteur": "",
+      "id": "a163",
+      "titre": "Chandra éclaire les éruptions répétées d'une étoile géante",
+      "texte": "Grâce à l'observatoire à rayons X Chandra de la NASA, des astronomes ont identifié ce qui déclenche les éruptions répétées de l'étoile instable AT 2016blu. Celle-ci se trouve dans la galaxie spirale NGC 4559, à environ 30 millions d'années-lumière de la Terre."
+     },
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-13",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+      "auteur": "",
+      "id": "a166",
+      "titre": "Les mangroves font leur retour à l'échelle mondiale",
+      "texte": "Après des décennies de déclin, ces forêts côtières écologiquement essentielles connaissent une reprise à l'échelle mondiale, selon la NASA."
+     },
+     {
+      "rubrique": "Science",
+      "source": "CNRS Le journal",
+      "date": "2026-11-14",
+      "url": "https://lejournal.cnrs.fr/videos/la-biodiversite-face-aux-canicules-marines",
+      "auteur": "",
+      "id": "a149",
+      "titre": "La biodiversité marine face aux canicules océaniques",
+      "texte": "Les vagues de chaleur touchent aussi mers et océans : à l'été 2026, les températures des eaux ont battu des records dans le monde. Reste à savoir si la biodiversité marine peut s'adapter à ces conditions."
+     }
+    ]
+   }
+  ],
+  "titres_blocs": {
+   "ia": "IA",
+   "france": "Actualité France",
+   "monde": "Actualité Monde",
+   "recherche": "Recherche & travaux d'experts",
+   "veille": "Veille réglementaire",
+   "curiosites": "Curiosités"
+  },
+  "pages": 0,
+  "sequence": [
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-13",
+     "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+     "auteur": "Maximilian Schreiner",
+     "titre": "Des puces Nvidia Blackwell décelées dans six modèles d'IA chinois",
+     "chapo": "Selon le chercheur Will DePue, six modèles d'IA chinois portent la signature des puces Blackwell de Nvidia, malgré les contrôles américains à l'exportation.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Will DePue, ancien d'OpenAI où il a joué un rôle clé dans la conception de Sora, de Sora 2, de GPT-4o, d'o3 et de GPT-5, avant de fonder le groupe de recherche à but non lucratif Unemployment Labs, affirme avoir obtenu la première preuve technique que de grands laboratoires chinois ont accès aux puces Blackwell de Nvidia. Les entreprises visées sont DeepSeek, Moonshot AI, MiniMax et Ant Group. Des responsables américains et des médias soupçonnaient déjà DeepSeek et Moonshot AI d'utiliser ces puces, sans jamais publier de preuve. Sur X, DePue écrit que des chercheurs seniors d'OpenAI et d'Anthropic ont vérifié sa méthode de façon indépendante et confirmé ses conclusions."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "Un modèle d'IA se compose de milliards de valeurs numériques, les poids. Avant l'entraînement, le cadre logiciel PyTorch remplit ces emplacements vides avec des nombres aléatoires tirés d'une valeur de départ, la graine. Pour aller vite, le processeur graphique répartit ce travail entre ses unités de calcul. Comme le nombre d'unités varie selon les puces, le remplissage laisse un motif caractéristique : les puces Hopper plus anciennes, comme les H100 et H800, comptent 132 unités, tandis que les Blackwell en comptent exactement 148 ou 152 selon le modèle (B200 ou B300, GB200 ou GB300). L'entraînement modifie ensuite ces valeurs des millions de fois, mais certains emplacements, réservés à des mots ou symboles inutilisés, gardent leur valeur initiale. Même dans les parties très entraînées, un faible écho statistique de la distribution de départ subsiste, d'après DePue. Il dit avoir remonté le motif et reproduit exactement les résultats de DeepSeek-V4-Flash et de Kimi K3 sur de vraies puces Blackwell. Le code de vérification est publié sur GitHub."
+      },
+      {
+       "intertitre": "Les résultats",
+       "texte": "Six modèles chinois sortis depuis avril 2026 portent la signature de Blackwell, alors que des modèles plus anciens, comme DeepSeek-V3 et Kimi K2.5, montrent des traces de Hopper. DeepSeek-V4-Flash et MiniMax-M3 correspondent à des B200 ou B300 (148 unités). DeepSeek-V4-Pro, Kimi K3, Kimi K3.1-Pro et Ling-3.1-flash d'Ant Group présentent le motif à 152 unités des systèmes en rack GB200 ou GB300. DePue assure que le hasard est écarté statistiquement et que la méthode a identifié correctement les 24 modèles témoins dont le matériel est connu, dont Llama 3.1 de Meta (H100). Selon son rapport, les cinq entraînements examinés ont exigé environ 12 000 GPU Blackwell, soit l'équivalent d'environ 30 000 H100. Kimi K3 aurait mobilisé à lui seul 4 500 processeurs Blackwell pendant environ 70 jours, DeepSeek-V4-Pro environ 3 000. À quelque 70 000 dollars l'unité, chacun de ces groupes coûterait de 200 à 300 millions de dollars, et les cinq ensemble plus d'un demi-milliard."
+      },
+      {
+       "intertitre": "Les réserves",
+       "texte": "La méthode indique seulement quel matériel a initialisé les poids, même si l'entraînement a très probablement eu lieu sur les mêmes systèmes. Seule autre explication technique : un AMD MI300X, également soumis à restrictions et bridé, qui produirait le même motif ; DePue l'écarte pour DeepSeek-V4-Flash grâce à de minuscules écarts d'arrondi. Les données ne disent ni où se trouvent les puces ni à qui elles appartiennent. Comme des entreprises chinoises peuvent louer de la capacité dans des centres de données hors de Chine, le rapport reconnaît que la preuve établit un accès au matériel haut de gamme de Nvidia, sans démontrer à elle seule une contrebande ni une violation du droit américain des exportations."
+      }
+     ],
+     "synthese": "Selon DePue, six modèles chinois publiés depuis avril 2026 portent la marque de puces Blackwell de Nvidia, pour des entraînements estimés à plus d'un demi-milliard de dollars. La preuve établit un accès à ce matériel, pas une violation du droit américain des exportations.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a6"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-13",
+      "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+      "auteur": "Manuel Uth",
+      "id": "a5",
+      "titre": "Près de 70 % des agences américaines utilisent l'IA, les syndicats s'organisent",
+      "texte": "Aux États-Unis, près de 70 % des agences publiques utilisent déjà l'IA générative, et les syndicats obtiennent davantage de protections contre la surveillance et les licenciements automatisés. À Oakland, une menace de grève a imposé des formations plutôt que des licenciements ; en Ohio, un syndicat des transports a obtenu un droit de veto sur les véhicules autonomes."
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-13",
+      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+      "auteur": "Manuel Uth",
+      "id": "a4",
+      "titre": "Anthropic lance Claude for Manufacturing, un module qui relie l'IA aux logiciels d'usine",
+      "texte": "Le nouveau plugin Claude for Manufacturing connecte l'IA à Autodesk Fusion, Oracle NetSuite et Infor. Ses 17 compétences spécialisées permettent de rédiger des devis, de comparer des fournisseurs et de passer des commandes de secours en cas de retard de livraison, toujours après validation humaine. Il ne pilote pas encore les machines physiques : Anthropic développe pour cela, séparément, le « Model Hardware Standard »."
+     },
+     {
+      "rubrique": "IA",
+      "source": "Ars Technica",
+      "date": "2026-11-13",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "auteur": "Jeremy Hsu",
+      "id": "a22",
+      "titre": "La FAA étend son outil d'IA contre la saturation du trafic aérien américain",
+      "texte": "La FAA élargit à l'ensemble de l'espace aérien américain l'usage de l'IA pour gérer la congestion du trafic aérien. Les compagnies aériennes ont salué cet outil, mais le syndicat des contrôleurs aériens n'a pas été associé à sa mise en place."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-13",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "auteur": "",
+      "id": "a17",
+      "titre": "ChatGPT Wallet permet aux agents IA d'acheter et de payer à la place de l'utilisateur",
+      "texte": "ChatGPT Wallet permet aux agents IA de faire des achats et de finaliser le paiement pour le compte de l'utilisateur. Le déploiement démarre par un accès limité aux abonnés Pro aux États-Unis."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-13",
+     "url": "https://www.franceinfo.fr/societe/manifestations/convergence-de-differents-mots-d-ordre-important-dispositif-policier-a-quoi-s-attendre-pour-la-journee-de-mobilisation-du-samedi-14-novembre_8280806.html#xtor=RSS-3-[lestitres]",
+     "auteur": "",
+     "titre": "Mobilisation du 14 novembre : mots d'ordre multiples et 70 000 forces mobilisées",
+     "chapo": "La coordination des gilets jaunes et des organisations de jeunesse appellent à défiler samedi contre la vie chère, avec d'autres cortèges, sous la crainte de troubles à l'ordre public.",
+     "sections": [
+      {
+       "intertitre": "Un cinquième week-end de mobilisation",
+       "texte": "La coordination des gilets jaunes et plusieurs organisations de jeunesse appellent à manifester dans toute la France « contre la vie chère » samedi 14 novembre, pour un cinquième week-end consécutif. La semaine précédente, les manifestations avaient rassemblé 146 000 personnes selon le ministère de l'Intérieur, 250 000 selon l'intersyndicale de la jeunesse, soit une mobilisation en recul par rapport aux journées précédentes. Les gilets jaunes organisent des manifestations les samedis depuis le 17 octobre et appellent à un « acte V » : leur carte collaborative recensait jeudi à la mi-journée près de 230 actions pour samedi."
+      },
+      {
+       "intertitre": "Des revendications et des organisateurs multiples",
+       "texte": "L'appel est porté par l'intersyndicale de la jeunesse et les gilets jaunes, relayé localement par des unions régionales ou départementales de syndicats de salariés. Les branches d'Île-de-France de la CGT, de la FSU et de FO participeront au cortège parisien, selon Vincent Gautheron, secrétaire général de l'union régionale CGT. Les confédérations nationales, elles, concentrent leur appel à la grève et aux manifestations sur le mardi 17 novembre. D'autres rassemblements sont prévus : le collectif enfantiste contre les violences faites aux enfants et aux ados, des organisations opposées à la proposition de loi sur la présomption d'usage légitime des armes par les forces de l'ordre, qui dénoncent « un permis de tuer », et le mouvement des marches pour le climat du 26 septembre. À Paris, tous les cortèges s'élancent de la place de la République vers la place de la Nation. Selon Benjamin Ball, de la coordination des gilets jaunes, de nombreuses préfectures imposent un parcours commun ou un seul point de rassemblement."
+      },
+      {
+       "intertitre": "Les craintes des autorités",
+       "texte": "Pour le ministre de l'Intérieur, Laurent Nuñez, l'absence d'encadrement syndical est « toujours plus inquiétante » : il redoute que la main soit laissée à des organisations étudiantes et lycéennes qui ont moins d'expérience et ne déclarent pas toujours leurs manifestations. Il table sur 50 ou 60 défilés sur le territoire. Dans un télégramme aux préfets, il évoque le risque de cortèges non autorisés susceptibles de rechercher l'affrontement avec les forces de l'ordre. À Paris, une note de la direction du renseignement de la préfecture de police attend de 30 000 à 60 000 manifestants, dont 200 à 400 gilets jaunes et 500 à 1 000 militants contre les violences faites aux enfants. Elle prévoit une « très forte coloration anti-police » pour la marche contre les violences policières, avec un possible bloc radical de 300 à 600 personnes, et rappelle le contexte du procès médiatisé du passage à tabac de Michel Zecler par des policiers. Ce thème fédère l'extrême gauche radicale, l'ultragauche et la jeunesse des quartiers ; les renseignements anticipent des provocations verbales et physiques contre le dispositif policier, voire des dégradations ou des pillages."
+      },
+      {
+       "intertitre": "Le dispositif policier",
+       "texte": "Laurent Nuñez a annoncé 70 000 policiers et gendarmes mobilisés, le même dispositif que le samedi précédent et depuis le 24 octobre, chiffre à affiner lors d'une réunion vendredi. Il le décrit comme mobile, réactif et adapté à ce que font les groupes à risque, qui s'éclatent en petits groupes. Des contrôles « dans la profondeur » seront mis en place, avec contrôles de flux en amont, prépositionnement de forces mobiles et interventions systématiques en cas d'atteintes aux personnes et aux biens. Pour les casseurs et les pilleurs, « on les attend de pied ferme ». Sur les grenades, il n'y a « pas de restriction de principe » mais un usage proportionné au cadre légal."
+      }
+     ],
+     "synthese": "Samedi, plusieurs cortèges aux mots d'ordre différents convergeront, notamment à Paris, sans appel des confédérations syndicales nationales. Les autorités redoutent des troubles et déploient 70 000 policiers et gendarmes, comme les samedis précédents.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a36"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "Public Sénat",
+     "date": "2026-11-13",
+     "url": "https://www.publicsenat.fr/actualites/economie/budget-de-la-secu-le-senat-supprime-la-taxe-de-205-sur-les-mutuelles",
+     "auteur": "Romain David",
+     "titre": "Budget de la Sécu : le Sénat supprime la taxe de 2,05 % sur les mutuelles",
+     "chapo": "Par 339 voix contre une, les sénateurs ont rejeté vendredi 13 novembre la reconduction en 2027 de la taxe sur les complémentaires santé, que défend la ministre Stéphanie Rist.",
+     "sections": [
+      {
+       "intertitre": "Ce qui a été voté",
+       "texte": "Vendredi 13 novembre, en milieu de matinée, le Sénat a supprimé l'article 12 du projet de loi de financement de la Sécurité sociale (PLFSS) par 339 voix pour et une seule contre. Cet article prévoyait de reconduire en 2027 la taxe de 2,05 % instaurée en 2026 sur les mutuelles, au bénéfice de la branche maladie de la Sécu. Tous bords confondus, les élus sont montés au créneau contre le gouvernement ; Public Sénat parle d'un rare moment d'unité gauche-droite. 20 Minutes décrit une chambre haute dominée par une alliance entre la droite et les centristes, frileuse face aux mesures fiscales, et indique que le refus de cette contribution est sa principale décision."
+      },
+      {
+       "intertitre": "Les arguments des sénateurs",
+       "texte": "Les élus dénoncent d'abord la reconduction d'une mesure présentée comme exceptionnelle, puis son effet sur les adhérents. Le sénateur Serge Berard (LR, selon Public Sénat ; Nouvelle Energie, selon 20 Minutes) a déclaré que l'augmentation continue des tarifs des mutuelles pénaliserait le pouvoir d'achat des Français, dans un pays qui affiche déjà un taux record de prélèvements obligatoires. Il ajoute que les assurés ne sont pas dupes, qu'ils paieront la taxe in fine, et que le gouvernement ne doit pas s'étonner de voir les Français perdre confiance avec des mesures qui durent dans le temps. Selon 20 Minutes, la plupart de ses collègues y voient une « taxe indirecte », probablement répercutée sur les adhérents. La communiste Cathy Apourceau-Poly rappelle qu'en 2026 le législateur avait prévu un gel des cotisations pour éviter que les organismes ne reportent la taxe sur leurs adhérents, mais que ce gel a été censuré par le Conseil constitutionnel. Patrick Kanner, président du groupe socialiste, oppose une hausse de 8,2 % des cotisations payées en 2024 à une hausse de 5,4 % des prestations versées, et y voit « manifestement » un gain potentiel pour les mutuelles. Edwige Diaz, présidente du groupe Union nationale pour les territoires, qui rassemble les élus RN et UDR du Sénat, y voit une mesure qui alourdit le coût du travail, l'employeur finançant une partie de la mutuelle de ses salariés."
+      },
+      {
+       "intertitre": "La défense du gouvernement",
+       "texte": "Face à ce concert de critiques, la ministre de la Santé Stéphanie Rist reconnaît que cette contribution devait être exceptionnelle. Seule à défendre le dispositif, elle explique que la situation géopolitique et les déficits ont évolué depuis 2026 et que le gouvernement veut atteindre un déficit de 5 %. Elle plaide dans un contexte de forte dégradation des comptes publics. La taxe doit rapporter 1,12 milliard d'euros selon Public Sénat, 1,1 milliard selon 20 Minutes. Elle la présente, selon 20 Minutes, comme une mesure de « sérieux budgétaire »."
+      },
+      {
+       "intertitre": "La compensation et la suite",
+       "texte": "Le rapporteur général Olivier Henno indique que la commission des Affaires sociales proposera de compenser cette perte par un transfert de charges : certaines dépenses de l'Assurance maladie obligatoire, en particulier de prévention, basculeraient vers les complémentaires. Stéphanie Rist répond que cette mesure n'apportera pas le rendement d'un milliard initialement prévu. L'examen du PLFSS se poursuit au Sénat jusqu'en début de semaine prochaine, avec un vote solennel mercredi. Le texte reviendra ensuite à l'Assemblée nationale, où les députés l'ont rejeté en première lecture. Jeudi 12 novembre, les sénateurs avaient aussi validé un nouveau mode de calcul des allégements de cotisations patronales : les entreprises verseraient 2,8 milliards d'euros de plus en 2027, soit 900 millions de moins que dans le projet du gouvernement, car la version provisoire du Sénat fixe l'entrée en vigueur au 1er avril."
+      }
+     ],
+     "synthese": "Le Sénat a rejeté presque à l'unanimité une taxe sur les mutuelles que le gouvernement jugeait nécessaire pour ses comptes. Le désaccord sur la compensation entre le Sénat et la ministre reste entier avant le vote solennel de mercredi.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "20 Minutes",
+       "url": "https://www.20minutes.fr/economie/4262692-20261113-budget-secu-senat-oppose-plusieurs-taxes-notamment-mutuelles"
+      }
+     ],
+     "format": "long",
+     "id": "a54"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-13",
+     "url": "https://www.franceinfo.fr/faits-divers/police/laurent-nunez-promet-aux-policiers-une-revalorisation-de-leur-prime-de-risque-les-syndicats-mecontents_8281625.html#xtor=RSS-3-[lestitres]",
+     "auteur": "",
+     "titre": "Police : Nuñez propose de relever la prime de risque, les syndicats refusent",
+     "chapo": "Le ministre de l'Intérieur a présenté vendredi 13 novembre aux syndicats un plan de revalorisation de l'ISSP sur trois ans, jugé insuffisant par les organisations de police.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Vendredi 13 novembre, place Beauvau, Laurent Nuñez a proposé aux syndicats une revalorisation de l'indemnité de sujétion spéciale de la police (ISSP), la prime de risque des policiers. Il a présenté ce plan aux organisations représentatives. Selon le ministère de l'Intérieur, il porterait le taux de la prime à 33,5 %. Il s'étalerait sur trois ans, jusqu'en 2029, avec une première marche en avril 2027. Le ministère précise que les discussions se poursuivent sur cette base et souligne le « contexte budgétaire contraint »."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "Cette proposition intervient après plus d'un mois de blocages de lycées et d'universités, ainsi que de manifestations, qui ont mobilisé d'importants dispositifs des forces de l'ordre. Le ministère invoque les « risques inouïs auxquels sont exposés actuellement les policiers et les gendarmes » et rappelle que l'ISSP n'avait pas été revalorisée depuis 2019. Créée en 1958, cette indemnité résulte de la fusion des primes de risque et de danger et entre dans le calcul de la pension de retraite des fonctionnaires de la police nationale. Tous les syndicats de la police réclament depuis plusieurs mois un taux de 35 %."
+      },
+      {
+       "intertitre": "La réaction des syndicats",
+       "texte": "Les organisations jugent l'offre insuffisante, voire inadmissible. Thierry Clair, secrétaire général d'Unsa Police, estime que « le calendrier ne va pas » et que c'est « insuffisant ». Grégory Joron, secrétaire général d'Un1té, rapporte que le ministre dit que le sujet reste sur la table et qu'il espère faire mieux ; il lui souhaite d'y parvenir, car cela ne le satisfait « pas du tout ». Fabien Vanhemelryck, secrétaire général d'Alliance, juge la situation « inadmissible » et « indécente », dit avoir l'impression de « mendier » et presque honte, se déclare triste pour ses collègues et « écoeuré ». Alliance appelle les autres organisations à « faire front pour défendre le métier de policier » et a lancé sur X « un appel à toutes les grèves possibles et imaginables », annonçant un durcissement la semaine prochaine."
+      }
+     ],
+     "synthese": "Le ministre propose 33,5 % d'ici 2029, quand les syndicats exigent 35 %, et le ministère maintient la discussion ouverte. Le désaccord porte surtout sur le calendrier, et Alliance menace de durcir le mouvement dès la semaine prochaine.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a44"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "france",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-13",
+      "url": "https://www.lemonde.fr/campus/article/2026/11/13/mouvement-lyceen-le-cri-d-alarme-des-proviseurs-a-bout-face-aux-violences_6809386_4401467.html",
+      "auteur": "",
+      "id": "a25",
+      "titre": "Mouvement lycéen : des proviseurs rassemblés dans une trentaine de villes",
+      "texte": "Vendredi, des membres de la direction d'établissements se sont rassemblés dans une trentaine de villes de France, une mobilisation inédite depuis vingt ans. Plusieurs dizaines d'entre eux ont été blessés depuis la mi-septembre. Le SNPDEN-Unsa dit « stop » aux lycéens, tout en critiquant la gestion de crise du gouvernement."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-13",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/13/la-lente-derive-terroriste-de-kevin-tessier-l-auteur-de-l-attentat-de-trappes-vue-par-ses-proches-il-s-enervait-devant-la-tele-avec-des-insultes-racistes_6809375_3224.html",
+      "auteur": "Soren Seelow et Jérémie Pham-Lê",
+      "id": "a24",
+      "titre": "Trappes : la dérive terroriste de Kevin Tessier racontée par ses proches",
+      "texte": "Les auditions des parents et d'un ami de Kevin Tessier, auteur de l'attentat de Trappes, retracent sa radicalisation. Le Monde évoque une enfance perturbée, des fragilités psychologiques, des obsessions racistes liées à l'actualité et des altercations violentes."
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-14",
+      "url": "https://www.franceinfo.fr/faits-divers/terrorisme/attaques-du-13-novembre-a-paris/la-cagnotte-pour-sonia-heroine-du-13-novembre-a-atteint-plus-de-500-000-euros-au-moment-de-sa-cloture_8281238.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "id": "a46",
+      "titre": "Sonia, héroïne du 13-Novembre : la cagnotte dépasse 500 000 euros",
+      "texte": "La cagnotte lancée pour Sonia, dont les informations avaient permis aux enquêteurs de localiser en novembre 2015 la cachette d'Abdelhamid Abaaoud à Saint-Denis, a atteint plus de 500 000 euros à sa clôture. Cette femme vit depuis sous une nouvelle identité."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "États-Unis",
+     "source": "NPR",
+     "date": "2026-11-13",
+     "url": "https://www.npr.org/2026/11/13/nx-s1-6040388/what-we-know-about-the-faa-nationwide-ground-stop",
+     "auteur": "Joel Rose",
+     "titre": "Panne des télécoms de la FAA : arrêt national des départs aux États-Unis",
+     "chapo": "Vendredi 13 novembre, la FAA a interdit tout décollage aux États-Unis pendant plus de quatre heures après une panne de communication ; la cause reste à déterminer.",
+     "sections": [
+      {
+       "intertitre": "Ce qui s'est passé",
+       "texte": "Vendredi après-midi, la Federal Aviation Administration (FAA) a pris une mesure extraordinaire : un arrêt au sol national, qui a laissé des millions de passagers bloqués (NPR). Selon Al Jazeera, il a été décrété à 15 h 54, heure de l'Est, et levé à 20 h 15, soit plus de quatre heures plus tard ; CBS News évoque environ cinq heures. L'agence a parlé d'une « panne temporaire des télécommunications » et d'une mesure de précaution. La panne a touché les 22 centres de contrôle de la circulation aérienne en route. Les vols internationaux étaient traités au cas par cas. Selon CBS News, Markwayne Mullin a précisé que tous les vols étaient localisés, que le président Donald Trump était informé et que « ce n'est pas un autre 11 septembre ». Peu avant, les aéroports O'Hare et Midway, à Chicago, avaient fait l'objet d'un arrêt au sol pour une panne d'équipement (CBS News)."
+      },
+      {
+       "intertitre": "L'ampleur des perturbations",
+       "texte": "Selon FlightAware, plus de 10 000 vols ont été retardés et plus de 4 000 annulés. Au moment de l'ordre, les sources divergent sur les appareils en vol vers les États-Unis : 4 042 selon Flightradar24, cité par Al Jazeera, et environ 3 100 selon ce même site, cité par CBS News. Le ministre des Transports, Sean Duffy, a prévenu que la reprise serait lente et que les compagnies commenceraient à replacer appareils et équipages le samedi matin si besoin. Il a dit qu'il serait lent de tout remettre en ordre et que les passagers devaient se renseigner auprès de leur compagnie. Il espère un retour à la normale pour les départs de Thanksgiving. Les vols au départ de la côte Est pouvaient partir au-dessus de l'Atlantique, d'après une source de CBS News. Amtrak a signalé des messages d'erreur sur son site et son application, et des appels plus nombreux que d'habitude en raison des difficultés du transport aérien, et a invité ses clients à réessayer plus tard."
+      },
+      {
+       "intertitre": "Les causes avancées",
+       "texte": "La cause n'est pas établie. Selon des sources citées par CBS News, une mise à jour du réseau de communications privé reliant le contrôle aérien, exploité par L3Harris, a provoqué un redémarrage, puis un plantage. Sean Duffy invoque un système très ancien et des routeurs saturés de données, qui ont produit des incohérences. Le secrétaire à la Sécurité intérieure assure qu'il n'y a aucun signe de menace, de cyberattaque ni de lien avec Microsoft. Bloomberg, citant un responsable, rapporte que le FBI ne croit pas à une cyberattaque ni à une activité criminelle et que l'enquête examine une mise à jour logicielle. Mullin n'a pas écarté l'IA : un outil prévu pour aider les contrôleurs, le système SMART d'Air Space Intelligence (ASI), contrat de 875 millions de dollars attribué en juin et étendu aux 22 centres le 10 novembre. ASI dément toute responsabilité."
+      },
+      {
+       "intertitre": "Un précédent rare et des réactions",
+       "texte": "Selon Al Jazeera, c'est le premier arrêt national depuis janvier 2023, après la panne d'un système informatique clé de la FAA ; avant cela, il fallait remonter aux attentats du 11 septembre 2001. Robert Sumwalt, ancien président du NTSB, juge l'événement sans précédent, lui qui fut pilote de ligne pendant 24 ans et se trouvait en vol le 11 septembre. Le Congrès a approuvé 12,5 milliards de dollars l'an dernier pour la modernisation, et le ministère des Transports et la Maison-Blanche en demandent 30,1 de plus. Sean Duffy avertit : « vous en aurez d'autres » sans financement. La sénatrice démocrate Tammy Duckworth, qui siège à la sous-commission de l'aviation, réclame une enquête approfondie et des réponses de la FAA, rappelant que la sécurité du ciel repose sur des redondances. Le pilote Kyle Bailey, ancien représentant de l'équipe sécurité de la FAA, juge prudent d'avoir immobilisé les avions et dit que quiconque prétend connaître la cause à ce stade n'est pas honnête."
+      }
+     ],
+     "synthese": "La FAA a levé l'arrêt à 20 h 15, mais retards et annulations se poursuivent. Aucune cause n'est confirmée : le gouvernement évoque une panne de télécommunications et un système vétuste, et exclut à ce stade toute attaque.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss"
+      },
+      {
+       "source": "CBS News",
+       "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+      }
+     ],
+     "format": "long",
+     "id": "a57"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "Europe",
+     "source": "Politico Europe",
+     "date": "2026-11-13",
+     "url": "https://www.politico.eu/article/eu-countries-to-announce-deportation-hub-deal-with-rwanda/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "auteur": "Nektaria Stamouli; Hans von der Burchard; Hanne Cokelaere",
+     "titre": "Cinq pays de l'UE vont annoncer un accord avec le Rwanda sur des expulsions",
+     "chapo": "L'Autriche, le Danemark, l'Allemagne, la Grèce et les Pays-Bas doivent annoncer lundi à Vienne un accord pour expulser des migrants déboutés vers un centre au Rwanda.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Selon trois personnes au fait du dossier citées par Politico Europe, cinq pays de l'Union européenne doivent annoncer lundi, à Vienne, un accord avec le Rwanda pour y établir un centre d'expulsion hors du territoire de l'Union. Ces pays, l'Autriche, le Danemark, l'Allemagne, la Grèce et les Pays-Bas, se réunissent régulièrement pour préparer le terrain à la création de centres situés hors du territoire de l'Union, vers lesquels ils pourraient expulser les migrants sans droit légal de rester dans l'Union. L'accord ne concernerait que les demandeurs d'asile déboutés qui ont épuisé toutes leurs possibilités d'obtenir un droit de séjour légal dans l'Union. Il s'inscrit dans un effort plus large du bloc pour mieux contrôler qui entre dans l'Union et qui peut y rester."
+      },
+      {
+       "intertitre": "Le contexte et les limites",
+       "texte": "D'après UA.News, qui reprend l'information de Politico Europe, les cinq pays avaient déclaré vouloir conclure les premiers accords de ce type en 2026 et les mettre en service l'année suivante, soit en 2027. Le centre rwandais serait un projet pilote, selon la publication : d'autres accords, avec d'autres pays et d'autres membres de l'Union, pourraient suivre. Une récente réforme des règles européennes autorise de tels accords à condition que les normes internationales de droits humains soient respectées, mais les détails, dont la nationalité des personnes transférées, les conditions de séjour et les mécanismes de contrôle, dépendront de chaque accord. Des organisations de défense des droits humains redoutent des violations hors de portée des mécanismes de contrôle de l'Union. En 2023, la Cour suprême britannique a jugé illégal le plan du Royaume-Uni d'envoyer des demandeurs d'asile au Rwanda pour y traiter leurs dossiers à distance ; UA.News souligne que l'initiative européenne vise des personnes déjà sommées de quitter le territoire."
+      }
+     ],
+     "synthese": "Cinq pays de l'Union doivent annoncer lundi un centre d'expulsion au Rwanda, conçu comme un projet pilote pour des migrants déboutés. Les modalités restent à préciser, et des organisations de défense des droits humains alertent sur les risques.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "UA.NEWS",
+       "url": "https://ua.news/en/dovkolo-svitu/piat-krayin-es-planuiut-ogolositi-ugodu-z-ruandoiu-pro-tsentri-deportatsiyi-politico-europe"
+      }
+     ],
+     "format": "long",
+     "id": "a76"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "États-Unis",
+     "source": "NPR",
+     "date": "2026-11-13",
+     "url": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+     "auteur": "Aya Batrawy",
+     "titre": "Iran : Trump mise sur le statu quo, neuf mois après le début de la guerre",
+     "chapo": "Neuf mois après le début de la guerre, Trump dispose de peu d'options et semble vouloir maintenir la pression économique sur l'Iran, au risque d'une escalade.",
+     "sections": [
+      {
+       "intertitre": "Un président aux options réduites",
+       "texte": "Jeudi, Donald Trump a écarté la nécessité d'un accord avec l'Iran, en rappelant que les États-Unis détiennent des milliards de dollars iraniens gelés à l'étranger : « Nous n'avons pas besoin d'un accord avec l'Iran. Ces jours sont loin derrière nous. Nous avons leur argent », a-t-il écrit sur Truth Social. Les négociations sont bloquées, le Qatar tentant de rapprocher les positions. Après avoir reçu le Premier ministre qatari à la Maison-Blanche, Trump a dit que ses alliés arabes du Golfe préfèrent le statu quo d'une pression économique continue, et qu'une attaque semble à ce stade « assez improbable », même si les États-Unis restent « prêts à tirer ». C'est un revirement par rapport à ses menaces de frappes rapides et intenses, avant ses deux revers électoraux : le Premier ministre israélien Benjamin Netanyahu, son allié de guerre, est sur le point d'être évincé après les élections en Israël, et le parti de Trump a perdu sa majorité au Congrès lors des élections de mi-mandat."
+      },
+      {
+       "intertitre": "Ormuz et frappes limitées",
+       "texte": "Le détroit d'Ormuz, libre avant la guerre, reste sous la coupe de l'Iran, dont les comptes officiels diffusent des vidéos d'attaques contre des navires accusés d'enfreindre les nouvelles règles imposant une autorisation de passage. Les États-Unis escortent des pétroliers par un itinéraire proche des côtes d'Oman, ce qui aide les États arabes à exporter leur pétrole mais ne règle pas le retour aux niveaux de production d'avant-guerre du gaz naturel liquéfié, des engrais ou de l'aluminium, ni les importations du Koweït, du Qatar et de Bahreïn. Selon le FMI, les pays arabes du Golfe sont en récession malgré la hausse des cours du pétrole : le Koweït, le Qatar et l'Irak se contractent d'environ 16 % cette année, Bahreïn de 11 %. Sur le plan militaire, un troisième porte-avions, avec des milliers de soldats, est envoyé dans la région. Des frappes limitées se poursuivent : vendredi, selon les médias iraniens, les États-Unis ont touché une île iranienne du détroit où l'Iran dispose de radars et de sites de lancement de drones, et les Gardiens de la révolution affirment avoir riposté contre un radar d'alerte américain à Bahreïn."
+      },
+      {
+       "intertitre": "Une économie iranienne exsangue",
+       "texte": "Le secrétaire d'État Marco Rubio juge qu'aucune action militaire n'est nécessaire à ce stade, car les sanctions économiques font leur effet : « Tôt ou tard, il faut manger, il faut pouvoir payer ses propres combattants et ses forces de sécurité. » Un blocus naval américain empêche les navires iraniens de transporter du pétrole vers des pays comme la Chine ; selon l'armée américaine, il a privé l'Iran d'au moins 25 milliards de dollars de revenus. Les Émirats arabes unis, qui comptaient parmi les principaux partenaires commerciaux de Téhéran, ont rompu cet été tous leurs liens économiques et commerciaux avec l'Iran, dont des comptes bancaires locaux auraient servi au guide suprême et aux Gardiens de la révolution."
+      },
+      {
+       "intertitre": "Le Yémen et l'impasse diplomatique",
+       "texte": "La guerre a relancé le conflit ouvert entre l'Arabie saoudite et les Houthis au Yémen, soutenus par l'Iran sans en être un relais direct. Les Houthis affirment que des frappes saoudiennes ont tué des dizaines de personnes, dont près de 60 le week-end dernier près de Sanaa. L'Arabie saoudite subit des attaques quotidiennes de missiles et de drones, dont certaines ont touché son oléoduc est-ouest, qui contourne Ormuz, et le siège d'Aramco à Riyad. Le Pakistan, la Turquie et l'Égypte apportent un soutien défensif à Riyad, les États-Unis du renseignement. L'ONU compte quelque 330 000 déplacés. Côté diplomatique, l'Iran se dit prêt à une pause à court terme des attaques de navires, mais pose sept exigences avant des pourparlers directs sur son programme nucléaire : levée des sanctions, fin du blocus, dégel de ses avoirs et cessez-le-feu sur tous les fronts, y compris au Liban et à Gaza. Rubio les juge « absurdes », et Mohsen Rezaei refuse de retirer « la moindre parcelle » de matière nucléaire enrichie."
+      }
+     ],
+     "synthese": "Faute de marge de manœuvre, Trump laisse jouer sanctions et blocus, tandis que l'Iran refuse de céder sur ses sept exigences. Ce statu quo, qui pèse sur le Golfe et nourrit la guerre au Yémen, laisse subsister un risque d'escalade.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a62"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "monde",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-13",
+      "url": "https://www.politico.eu/article/eu-deal-on-ukraine-talks-overshadows-ai-focused-summit-in-dublin/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Nicholas Vinocur; Jacopo Barigazzi; Hans von der Burchard",
+      "id": "a70",
+      "titre": "Ukraine : l'accord européen sur les négociations éclipse le sommet sur l'IA à Dublin",
+      "texte": "Les dirigeants européens ont convenu que le format E5 — Allemagne, France, Royaume-Uni, Italie et Pologne — avec la Commission européenne et le Conseil représentera l'UE dans de futures négociations de paix. Cet accord éclipse le sommet consacré à l'intelligence artificielle, organisé à Dublin."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-14",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374415/white-house-confirms-us-china-russia-trilateral-apec-sidelines",
+      "auteur": "",
+      "id": "a82",
+      "titre": "La Maison-Blanche confirme une rencontre trilatérale États-Unis, Chine et Russie à l'Apec",
+      "texte": "La Maison-Blanche a confirmé vendredi une rencontre inédite entre les présidents américain, chinois et russe, prévue en marge du sommet de l'Apec à Shenzhen la semaine prochaine. Selon elle, Donald Trump clôturera sa visite en Chine par cette réunion trilatérale."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-13",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
+      "auteur": "",
+      "id": "a103",
+      "titre": "Qatar et Turquie signent un pacte de défense mutuelle",
+      "texte": "Doha et Ankara ont signé un pacte de défense mutuelle, qui prévoit une action commune face aux attaques extérieures. Ce partenariat s'approfondit dans un contexte d'instabilité régionale croissante."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Économie et social",
+     "source": "NBER",
+     "date": null,
+     "url": "https://www.nber.org/papers/w35985#fromrss",
+     "auteur": "Philip Strahan; Tuo Yang",
+     "titre": "Politiques non conventionnelles : des dépôts bancaires plus coûteux à retenir",
+     "chapo": "Taux zéro et achats d'obligations de la Fed ont attiré des déposants sensibles aux taux, rendant les dépôts plus coûteux à retenir ensuite, selon deux économistes.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "Après la crise financière mondiale, les banques centrales ont engagé deux politiques non conventionnelles : maintenir le taux directeur à court terme à sa borne zéro (ZLB) pendant une période prolongée, et mener des achats massifs d'obligations (assouplissement quantitatif, ou QE) pour abaisser directement les taux longs. Philip Strahan et Tuo Yang, de Boston College, se demandent comment ces deux volets ont modifié la composition des dépôts bancaires, et ce qu'il en est advenu pour les banques lorsque la politique monétaire est revenue à la normale. Leur difficulté tient au fait que le QE recouvre par construction la période de taux zéro, puisque les banques centrales n'y recourent qu'une fois l'outil standard épuisé."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "Les deux volets ont déplacé les dépôts vers des clients plus sensibles aux taux. Le taux zéro a comprimé les écarts de rémunération, entre banques comme entre banques et fonds monétaires, si bien que ces clients n'avaient plus intérêt à chercher du rendement ailleurs : la composition des dépôts a basculé des dépôts à terme rémunérés vers les comptes courants non rémunérés. Le QE a attiré de gros déposants, souvent non assurés. Les dépôts ont crû de 42 % entre 2010 et 2015, contre 26 % pour le PIB nominal. Après la sortie du taux zéro, fin 2015 puis en 2022, la sensibilité des flux de dépôts aux taux et le « bêta de dépôt » ont augmenté avec l'exposition au QE et au taux zéro. Une exposition au QE supérieure d'un écart type à la moyenne rend la sensibilité environ 50 % plus forte (0,24 contre 0,44). Un écart type d'exposition au taux zéro ajoute 0,019 au bêta, pour une moyenne d'environ 0,3."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "L'échantillon couvre 2001 à 2025 et s'appuie sur les rapports prudentiels des banques (FFIEC), les dépôts par agence (FDIC), les opérations de la Fed de New York et des séries de la FRED. L'exposition au QE est mesurée par un instrument construit sur les achats de la Fed auprès des courtiers primaires : les banques qui recoupent fortement leurs marchés reçoivent des dépôts. Le « Rate Gap » compare le taux versé par une banque à celui de ses concurrentes. L'exposition au taux zéro est la croissance des dépôts pendant cette période, rapportée aux actifs, avec un instrument de type Bartik. Les estimations portent sur les deux cycles de hausse qui ont suivi : 2016T1-2020T1 et 2022T2-2025T4."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Selon les auteurs, ces dépôts restaient stables tant que les taux demeuraient comprimés. Quand la politique s'est normalisée, les banques les plus exposées ont dû relever davantage leurs taux pour les conserver, faute de quoi ils seraient partis vers les fonds monétaires ou d'autres banques. Conserver ses dépôts est ainsi devenu plus coûteux et plus risqué. La couverture naturelle dont bénéficiaient les banques, grâce à des dépôts rémunérés sous le marché, s'en trouve érodée. Les auteurs concluent que les décideurs devraient tenir compte des effets sur la stabilité du financement bancaire si de futures circonstances exigeaient de nouvelles mesures non conventionnelles."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Les auteurs relèvent que l'exposition au taux zéro est endogène : les banques choisissent le volume de dépôts levés selon leurs occasions de prêt, ce qui pourrait fausser les estimations ; ils y répondent par l'instrument Bartik. Les effets restent plus faibles pour le taux zéro que pour le QE sur la sensibilité des flux, et l'effet de l'exposition au taux zéro sur les dépôts non assurés n'est pas significatif en MCO. Chez les grandes banques, la somme des termes directs et d'interaction n'est pas significativement différente de zéro (p = 0,274), alors que la sensibilité estimée est plus forte chez les petites banques, définies par moins de 10 milliards de dollars d'actifs fin 2008."
+      }
+     ],
+     "synthese": "Le taux zéro et le QE ont attiré des déposants sensibles aux taux, ce qui a rendu les dépôts plus coûteux et plus risqués à retenir quand les taux ont remonté. Les auteurs invitent à en tenir compte dans toute future politique non conventionnelle.",
+     "republication": "",
+     "reference": "Philip Strahan et Tuo Yang (Boston College), NBER Working Paper n° 35985, novembre 2026 : document de travail non relu par des pairs.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a108"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Droit",
+     "source": "Verfassungsblog",
+     "date": "2026-11-13",
+     "url": "https://verfassungsblog.de/korea-scholactivism/",
+     "auteur": "Jeong-In Yun; Mathias Hong",
+     "titre": "Corée du Sud : les constitutionnalistes face à la loi martiale de Yoon",
+     "chapo": "Dans un entretien, la juriste Jeong-In Yun explique pourquoi un conseil de 110 constitutionnalistes s'est engagé publiquement après la loi martiale de décembre 2024.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "Le 3 décembre 2024, le président Yoon Suk Yeol a proclamé la loi martiale et ordonné à l'armée et à la police d'occuper l'Assemblée nationale, pour empêcher les députés d'abroger sa déclaration, sans y parvenir. Le Verfassungsblog interroge Jeong-In Yun, professeure à la Korea University et membre du groupe de travail qui a préparé le rapport du conseil, sur ce qu'elle appelle le « K-Scholactivism ». La question est celle de la tension entre neutralité scientifique et engagement public sur des sujets politiquement brûlants : le conseil relevait-il d'un « scholactivisme » légitime ?"
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "Pour Jeong-In Yun, la destitution du président n'était pas juridiquement douteuse : en proclamant la loi martiale, Yoon a clairement outrepassé ses pouvoirs d'exception, s'est affranchi des procédures et des exigences de fond, et les mesures allaient même au-delà du cadre de la loi martiale en vigueur, en interdisant l'activité de l'Assemblée, des organes locaux et des partis. Elle précise que seule une petite minorité d'universitaires s'y est opposée, dont le professeur émérite Huh Young, le plus connu d'entre eux, dont elle juge les arguments absurdes. Le 4 avril 2025, la Cour constitutionnelle a confirmé la destitution à l'unanimité. Elle explique la mobilisation populaire par deux raisons : une densité exceptionnelle de crises politiques graves dans l'histoire moderne du pays, jusqu'à la transition démocratique de la fin des années 1980, et le sentiment que la démocratie, conquise au prix de lourds sacrifices, n'est pas acquise."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "Deux jours après la proclamation, les constitutionnalistes ont commencé à s'organiser. Le 25 décembre, 110 d'entre eux, venus de tout le pays, ont fondé officiellement le « Constitutional Scholars Council for Enhancement of Korean Constitutionalism ». Le conseil a proposé publiquement des solutions constitutionnelles, organisé des forums et des séminaires en ligne et sur place, et publié des déclarations communes ainsi que 19 communiqués de presse, que les médias ont fini par citer. Jeong-In Yun avait été sollicitée pour rejoindre un groupe de travail de cinq jeunes professeurs. Fin juillet 2025, après plus de six mois de travail, le conseil a annoncé sa dissolution, la destitution étant acquise et une procédure pénale engagée contre l'ex-président."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Selon l'interviewée, la crise se situait sur un tout autre plan qu'une querelle politique ordinaire : une menace existentielle pour l'ordre constitutionnel. Des notes d'un ancien officier révélaient des projets d'arrestations massives, de détention et de torture, et la déclaration était plus sévère que celles des époques autoritaires de Park (1961-1979) et de Chun (1980-1987). Une motion de destitution déposée le 4 décembre avait en outre échoué ce week-end-là, laissant à Yoon le commandement de l'armée. Les risques ne touchaient donc pas seulement la carrière, mais la vie des universitaires. Elle en conclut que défendre la justice et la vérité, quand elles sont gravement attaquées, ne contredit pas l'éthique scientifique, et que les constitutionnalistes devaient, en temps de crise grave, éclairer citoyens et institutions sur la Constitution."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Jeong-In Yun reconnaît comprendre les arguments des critiques du scholactivisme : les chercheurs devraient rester tournés vers la connaissance et n'analyser qu'après coup. Elle admet aussi qu'il existe en Corée des critiques justifiées contre les universitaires trop présents dans la politique quotidienne, qui négligent leur enseignement et leur recherche. D'où le caractère temporaire du conseil, créé pour cette crise seulement, mais constitué sans hésiter, selon elle."
+      }
+     ],
+     "synthese": "Pour Jeong-In Yun, l'engagement du conseil se justifiait par la gravité exceptionnelle de la crise et par la mémoire autoritaire coréenne. Elle y voit une réponse de citoyens autant que de juristes, limitée dans le temps.",
+     "republication": "",
+     "reference": "Entretien de Mathias Hong avec Jeong-In Yun (Korea University), Verfassungsblog, 13 novembre 2026 : entretien publié sur un blog juridique, non un article revu par des pairs.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a112"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "recherche",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Social",
+      "source": "Pew Research Center",
+      "date": "2026-11-13",
+      "url": "https://www.pewresearch.org/short-reads/2026/11/13/where-americans-get-news-relates-to-how-they-engage-in-public-life/",
+      "auteur": "",
+      "id": "a111",
+      "titre": "Les médias qui couvrent beaucoup la politique ont des audiences très engagées",
+      "texte": "Selon le Pew Research Center, certains médias qui couvrent intensivement la politique comptent dans leur audience une part disproportionnée des Américains les plus engagés dans la vie publique. L'étude relie ainsi les sources d'information aux formes d'engagement civique."
+     },
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35987#fromrss",
+      "auteur": "",
+      "id": "a110",
+      "titre": "TaskNet : inventorier les tâches professionnelles à partir d'entretiens",
+      "texte": "Les auteurs présentent TaskNet, une taxonomie des métiers fondée sur des entretiens ouverts avec des travailleurs, et une méthode pour la construire à grande échelle. Ils visent à repérer plus tôt les changements liés à l'IA dans les tâches professionnelles."
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-13",
+      "url": "https://verfassungsblog.de/reserve-bundeswehr-starkung/",
+      "auteur": "",
+      "id": "a114",
+      "titre": "Réserve allemande : pas de retour à la conscription, selon une analyse",
+      "texte": "Le projet de renforcement de la réserve allemande permettrait de convoquer des réservistes sans engagement volontaire préalable. Selon cette analyse publiée dans le Verfassungsblog, il ne s'agit pas pour autant d'un retour à la conscription, le choix de servir comportant des obligations au-delà de la durée du service."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Conformité",
+     "source": "Village de la Justice",
+     "date": "2026-11-13",
+     "url": "https://www.village-justice.com/articles/enregistrement-des-reunions-transcription-epreuve-rgpd-act,59971.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+     "auteur": "Jérémie Terral",
+     "titre": "Transcription de réunions par IA : ce que disent le RGPD et l'AI Act",
+     "chapo": "Confier l'audio d'une réunion à une IA de transcription met en jeu le droit du travail, le RGPD et l'AI Act, selon une analyse de Jérémie Terral.",
+     "sections": [
+      {
+       "intertitre": "Ce qui change",
+       "texte": "Dès qu'un enregistrement de réunion (CSE, négociation, comité de direction, audition) est confié à une IA pour la reconnaissance vocale, la séparation des locuteurs et la synthèse, trois corpus s'appliquent : le droit social et pénal français, le RGPD et l'AI Act. Les « bots » de visioconférence qui rejoignent seuls les réunions posent des difficultés de conformité, alors que l'IA permet en moyenne de diviser par deux le temps de rédaction d'un procès-verbal après réécoute humaine. Pour le CSE, l'article D2315-27 du Code du travail permet à l'employeur ou à la délégation du personnel de décider d'enregistrer les séances. L'employeur ne peut s'y opposer dans son principe si la délégation l'a décidé à la majorité, sauf informations confidentielles dûment déclarées comme telles, et tout transcripteur extérieur est tenu à la même discrétion que les élus."
+      },
+      {
+       "intertitre": "Qui est concerné",
+       "texte": "Hors CSE, l'enregistrement d'une réunion, d'un entretien ou d'une visioconférence suppose une information préalable : l'article L1222-4 interdit de collecter sur un salarié une information par un dispositif ignoré de lui. La voix est une donnée personnelle selon la CNIL. Enregistrer à l'insu des participants des propos privés ou confidentiels reste puni par les articles 226-1 et 226-2 du Code pénal. L'arrêt de l'Assemblée plénière du 22 décembre 2023 permet certes au juge d'admettre une preuve déloyale si elle est indispensable et proportionnée, mais, selon l'auteur, cela ne fonde pas un traitement au sens de l'article 6 du RGPD. Sont visés directions juridiques, DRH et secrétaires d'instances."
+      },
+      {
+       "intertitre": "Le calendrier",
+       "texte": "Depuis le 2 février 2025, les interdictions de l'article 5 de l'AI Act s'appliquent, avec des amendes pouvant atteindre 35 millions d'euros ou 7 % du chiffre d'affaires mondial. Parmi elles, l'inférence des émotions d'une personne au travail est interdite, sauf raisons médicales ou de sécurité. Un bot qui attribue un score de sentiment ou un profil comportemental lors d'une réunion interne, d'un entretien d'évaluation ou d'une séance de CSE est donc proscrit. La simple conversion de la parole en texte, la séparation neutre des tours de parole et une synthèse fidèle restent licites sous réserve du RGPD. Les obligations de transparence de l'article 50 s'appliquent à compter du 2 août 2026 : informer les personnes qui interagissent avec une IA et signaler les contenus synthétiques."
+      },
+      {
+       "intertitre": "Les points de vigilance",
+       "texte": "L'Annexe III, point 4, classe à haut risque les systèmes d'IA utilisés pour le recrutement ou pour décider de promotions et de licenciements ; si une transcription alimente une décision RH, un contrôle humain effectif (article 14) est requis. Côté RGPD, l'auteur met en garde contre les services grand public qui réutilisent les fichiers pour réentraîner leurs modèles. Il recommande un accord de traitement excluant tout entraînement (Zero Data Retention), le dépôt ponctuel du seul fichier audio plutôt qu'un bot réclamant l'accès aux agendas, et la suppression de l'audio et de la transcription une fois le procès-verbal approuvé. Il distingue l'hébergement européen du stockage (OVHcloud, chiffrement AES-256 et TLS 1.3) de l'inférence chez un fournisseur de maison mère américaine, qui n'échappe pas par nature au Cloud Act. Le risque est neutralisé par trois garanties : calcul dans l'Union, mode Zero Data Retention, suppression du fichier source."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Un texte généré par IA ne vaut jamais, seul, procès-verbal faisant foi : aucun moteur n'atteint une infaillibilité absolue, et une négation omise ou une étiquette de locuteur inversée peut changer le sens d'un engagement. L'auteur propose cinq pratiques : formaliser l'information et la purge dans le règlement intérieur, relire intégralement la pré-transcription au casque (environ 2 à 3 heures par heure d'audio, contre 4 à 7 heures de frappe manuelle), contrôler et coder les étiquettes d'intervenants, exporter en .docx horodaté, et graduer la certification selon l'enjeu jusqu'au constat d'un commissaire de justice."
+      }
+     ],
+     "synthese": "La transcription par IA reste licite si elle se limite au texte et à une synthèse fidèle, avec information préalable, hébergement et contrats maîtrisés, et suppression de l'audio. L'analyse des émotions au travail est interdite et la relecture humaine demeure indispensable.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a122"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Sanctions et export",
+     "source": "ANI News",
+     "date": "2026-11-13",
+     "url": "https://www.aninews.in/news/world/europe/ursula-von-der-leyen-says-europes-inclusion-in-ukraine-peace-talks-is-self-explanatory-announces-22nd-russia-sanctions-package20261113180600",
+     "auteur": "",
+     "titre": "Ukraine : von der Leyen annonce un 22e paquet de sanctions contre la Russie",
+     "chapo": "À Dublin, la présidente de la Commission juge évident que l'Europe participe aux pourparlers de paix et annonce un 22e paquet de sanctions et un plan de financement 2027 pour Kiev.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Le vendredi 13 novembre, avant le sommet européen informel de Dublin, la présidente de la Commission européenne, Ursula von der Leyen, a déclaré qu'il allait « de soi » que l'Europe soit associée aux négociations de paix sur l'Ukraine, pour défendre ses intérêts comme pour soutenir Kiev. Elle a salué l'échange de prisonniers. La Commission présentera avant le prochain Conseil européen, prévu les 26 et 27 novembre, une proposition de financement des besoins de l'Ukraine pour 2027 ainsi qu'un 22e paquet de sanctions contre la Russie. Bruxelles prépare ainsi une double voie, pression économique sur Moscou et soutien financier durable à Kiev, afin que l'Ukraine négocie en position de force."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "À Dublin, les dirigeants de l'Union et le président ukrainien Volodymyr Zelensky coordonnent le rôle de l'Europe dans le processus de paix et débattent de la nomination d'un envoyé européen dédié. Zelensky a rencontré en Irlande Steve Witkoff, envoyé spécial du président américain Donald Trump, et Jared Kushner, après leurs entretiens avec Vladimir Poutine à Moscou. Les émissaires américains y ont fait le point sur les négociations entre la Russie, l'Ukraine et les États-Unis. Selon le Kremlin, Poutine les a remerciés de leurs efforts, les a priés de transmettre sa gratitude à Trump pour avoir facilité les contacts avec la partie ukrainienne, et a mis en avant les progrès de la coopération humanitaire, notamment l'échange de détenus. Witkoff lui a indiqué que Trump faisait de la fin rapide du conflit une priorité. Le mois précédent, la cheffe de la diplomatie de l'UE, Kaja Kallas, avait annoncé près de 1 600 inscriptions sur les listes de sanctions, visant le complexe militaro-industriel russe et des personnes liées aux élections dans les territoires ukrainiens occupés."
+      },
+      {
+       "intertitre": "Ce que ça change",
+       "texte": "Zelensky a cité trois résultats de la rencontre, dont deux précisés dans son message sur X : des prisonniers seront libérés, avec l'espoir du plus grand échange depuis le début de la guerre, et les représentants européens seront impliqués plus activement, à égalité à la table des négociations. Kushner a écrit que les deux parties avaient convenu d'élargir le prochain cycle de négociations aux partenaires européens, afin de traiter la sécurité européenne d'après-guerre en même temps que les questions territoriales entre l'Ukraine et la Russie. Il juge qu'une fin durable des combats exige des garanties de sécurité crédibles, des mécanismes de déconfliction et des engagements réciproques de désescalade. Zelensky a ajouté que l'Ukraine défendait toujours les intérêts de toute l'Europe."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "De profondes divergences subsistent sur les arrangements territoriaux et les garanties de sécurité futures. Lors de la rencontre au Kremlin, Poutine a réaffirmé l'opposition de Moscou au déploiement de troupes étrangères sur le sol ukrainien après un éventuel accord de paix."
+      }
+     ],
+     "synthese": "L'Europe devrait être associée au prochain cycle de pourparlers, tandis que Bruxelles prépare sanctions et financement avant le sommet des 26 et 27 novembre. Les désaccords sur le territoire et les garanties de sécurité demeurent.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a128"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "veille",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Sanctions et export",
+      "source": "Thompson Hine",
+      "date": "2026-11-13",
+      "url": "https://www.thompsonhinesmartrade.com/2026/11/china-extends-suspension-of-rare-earth-export-controls/",
+      "auteur": "",
+      "id": "a139",
+      "titre": "La Chine prolonge la suspension de ses contrôles à l'exportation des terres rares",
+      "texte": "La Chine a prolongé la suspension de ses contrôles à l'exportation des terres rares, selon une note du cabinet Thompson Hine."
+     },
+     {
+      "rubrique": "Réglementation",
+      "source": "Covington Global Policy Watch",
+      "date": "2026-11-13",
+      "url": "https://www.globalpolicywatch.com/2026/11/pennsylvania-enacts-artificial-intelligence-deceptive-advertising-act/",
+      "auteur": "",
+      "id": "a117",
+      "titre": "Pennsylvanie : une loi encadre la publicité trompeuse fondée sur l'IA",
+      "texte": "Le gouverneur de Pennsylvanie a promulgué le 22 octobre 2026 l'Artificial Intelligence Deceptive Advertising Act (SB 806). Contrairement aux lois de New York et de Californie, son obligation de transparence ne se limite pas aux seuls contenus générés par IA."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Science",
+     "source": "Sciences et Avenir",
+     "date": "2026-11-13",
+     "url": "https://www.sciencesetavenir.fr/sante/obesite-une-etude-confirme-les-limites-de-l-imc-pour-evaluer-l-exces-de-graisse_196082?xtor=RSS-16",
+     "auteur": "",
+     "titre": "Obésité : une étude de Nature confirme les limites de l'IMC",
+     "chapo": "Une vaste étude publiée dans Nature, portant sur plus de 844 000 adultes, confirme l'intérêt d'associer à l'IMC d'autres mesures, comme le tour de taille, pour classer l'obésité.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est établi",
+       "texte": "Une nouvelle étude scientifique, publiée mercredi dans la revue Nature, met en évidence les limites de l'indice de masse corporelle (IMC) comme mesure unique de la corpulence. Ses auteurs soutiennent une évaluation plus complète dans la prise en charge de la maladie. Le surpoids et l'obésité sont traditionnellement définis à partir de l'IMC, calculé en divisant le poids par la taille au carré. Or le poids ou l'IMC peuvent être élevés chez une personne très musclée, ayant une ossature importante, ou encore chez une femme enceinte."
+      },
+      {
+       "intertitre": "Le contexte et la méthode",
+       "texte": "En 2025, une commission d'experts du Lancet a recommandé de compléter l'IMC par d'autres mesures, comme le tour de taille et le rapport tour de taille/hauteur, pour confirmer le statut d'obésité et évaluer le risque pour la santé d'un individu. Elle a aussi distingué l'obésité clinique, où l'excès de tissu adipeux provoque déjà un dysfonctionnement d'organes ou l'incapacité à effectuer des activités du quotidien, et l'obésité préclinique, un état de risque potentiel. Certains de ces chercheurs ont désormais évalué cette approche, avec d'autres scientifiques, à partir des données de plus de 844 000 adultes issues de quatre études de cohorte menées sur le long terme en Chine, au Royaume-Uni, aux États-Unis et en Espagne."
+      },
+      {
+       "intertitre": "Surdiagnostic et obésité cachée",
+       "texte": "Environ 2 % des personnes jugées obèses d'après le seul IMC ne présentaient pas un excès de tissu adipeux suffisant pour accroître le risque de mortalité : « un surdiagnostic d'obésité de 2 % », selon Francesco Rubino, chirurgien de l'obésité et auteur principal de l'étude, qui avait aussi piloté les travaux de la commission du Lancet. À l'inverse, environ 6 % des participants, classés en surpoids, avaient un tour de taille révélant un niveau de masse grasse caractéristique de l'obésité : cette « obésité cachée » varie de 5,2 % à 8,6 % selon les cohortes. Ces chiffres peuvent paraître faibles, reconnaît-il, mais extrapolés à la population de certains grands pays, l'erreur de classification peut concerner des dizaines de millions de personnes. Par ailleurs, plus de 80 % des participants en obésité préclinique au début du suivi n'avaient pas évolué vers une obésité clinique dix ans plus tard."
+      },
+      {
+       "intertitre": "Ce que ça change",
+       "texte": "Selon Francesco Rubino, l'IMC ne renseigne pas sur la masse grasse, ni sur le bon fonctionnement d'un organe, ni sur l'état de santé d'une personne : son imprécision est « un problème majeur ». De nombreux systèmes de santé s'appuient pourtant encore fortement sur des critères fondés sur l'IMC pour décider qui peut recevoir un traitement ou être pris en charge. Les auteurs jugent la nouvelle définition mieux adaptée à un diagnostic individualisé et à une prise en charge davantage proportionnée au risque. Reste à voir si les futures stratégies de lutte contre l'obésité s'en empareront."
+      }
+     ],
+     "synthese": "L'étude conforte l'approche du Lancet : associer à l'IMC le tour de taille et d'autres mesures corrige à la fois un surdiagnostic d'environ 2 % et une obésité cachée d'environ 6 %. Elle plaide pour un diagnostic individualisé et une prise en charge proportionnée au risque, mais son adoption par les systèmes de santé reste incertaine.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "L'essentiel",
+       "url": "https://www.lessentiel.lu/story/sante-une-etude-confirme-les-limites-de-l-imc-pour-evaluer-l-obesite-103665977"
+      }
+     ],
+     "format": "long",
+     "id": "a152"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Idées",
+     "source": "The Conversation",
+     "date": "2026-11-13",
+     "url": "https://theconversation.com/aux-etats-unis-les-arrestations-dimmigres-nont-profite-ni-a-lemploi-ni-aux-salaires-des-travailleurs-nes-dans-le-pays-296559",
+     "auteur": "Chloe N East; Elizabeth Cox",
+     "titre": "États-Unis : les arrestations d'immigrés n'ont aidé ni l'emploi ni les salaires",
+     "chapo": "Selon deux chercheurs, les pics d'arrestations de l'ICE ont fait reculer l'emploi des immigrés sans que les travailleurs nés aux États-Unis y gagnent en emploi ou en salaire.",
+     "sections": [
+      {
+       "intertitre": "La promesse et ce que montre le marché du travail",
+       "texte": "Donald Trump avait fait campagne en promettant de renforcer le marché du travail, au moyen notamment de la plus vaste campagne d'expulsions de l'histoire des États-Unis. En juillet 2025, le secrétaire au Trésor Scott Bessent affirmait que l'immigration illégale massive avait artificiellement tiré les salaires vers le bas et évoquait un « boom des salaires ouvriers ». Or, selon les deux auteures de l'analyse, Chloe N East et Elizabeth Cox, le chômage a augmenté durant la première année du second mandat, les embauches ont ralenti et la progression des salaires a marqué le pas, la construction étant particulièrement touchée."
+      },
+      {
+       "intertitre": "Un effet dissuasif sur les immigrés",
+       "texte": "À partir de données allant d'octobre 2023 à novembre 2025, elles ont comparé les zones ayant connu de brusques pics d'arrestations par l'ICE (la police fédérale de l'immigration) à celles qui n'en ont pas connu. Dans les premières, le taux d'emploi des immigrés probablement sans papiers, ni détenus ni expulsés, a nettement baissé, de 4 % dans les secteurs où ils sont très présents : agriculture, construction, industrie manufacturière et commerce de gros. Ils semblent rester chez eux par peur : dans une enquête du Pew Research Center menée à l'été 2025, 43 % des personnes nées à l'étranger craignaient d'être expulsées, ou qu'un proche le soit. Cet effet est environ deux fois plus fort que celui mesuré pour le programme Secure Communities, sous Barack Obama. Il ne s'agit pas d'un retrait physique du marché du travail : ces personnes ont modifié leur comportement. Les auteures l'expliquent probablement par des arrestations plus aveugles et plus visibles : la part des interpellations dans l'espace public est passée de 19 % à près de 50 %, et alors que Trump s'était engagé en 2024 à cibler les criminels, la part des personnes arrêtées ayant une condamnation pénale est passée d'environ 60 % en janvier 2025 à moins de 30 % fin 2025."
+      },
+      {
+       "intertitre": "Des répercussions plus larges",
+       "texte": "Les effets ne se limitent pas aux immigrés. D'autres chercheurs ont relevé un recul de la consommation et de l'activité dans les villes touchées par les descentes de l'ICE en 2025. En février 2026, les autorités de Minneapolis ont estimé que l'économie de la ville avait perdu 203 millions de dollars (environ 171 millions d'euros), entre baisse des recettes des restaurants, hôtels et commerces et salaires perdus. Selon une autre analyse, les dépenses par carte ont reculé de 1,7 point dans les États où l'ICE a renforcé ses contrôles. Une étude de la Wharton School publiée en mai 2026 évalue la baisse hebdomadaire à 2,7 % pour la fréquentation et à 6,2 % pour les dépenses dans les zones fortement touchées."
+      },
+      {
+       "intertitre": "Pas de gain pour les travailleurs nés aux États-Unis",
+       "texte": "L'emploi des travailleurs nés aux États-Unis a lui aussi reculé là où l'ICE était plus active, et les employeurs n'ont pas augmenté les salaires : leur demande de main-d'œuvre s'est contractée. Les auteures rappellent que le marché du travail n'est pas un jeu à somme nulle : immigrés et natifs occupent surtout des emplois complémentaires. Le tassement de l'emploi dans la construction en 2025 correspond à ce schéma, et des travaux antérieurs montrent que les expulsions de l'ère Obama avaient freiné la construction de logements et fait grimper le prix des maisons neuves. Dans ce secteur, moins d'ouvriers sans papiers sur un chantier, c'est moins de travail pour les électriciens, les couvreurs et les contremaîtres. Elles citent aussi l'expulsion de 400 000 travailleurs mexicains sous Herbert Hoover au début des années 1930 et Secure Communities, sans progression de l'emploi ni des salaires des natifs."
+      }
+     ],
+     "synthese": "D'après cette analyse, les pics d'arrestations de l'ICE ont freiné l'emploi des immigrés sans créer d'emplois ni de hausses de salaires pour les Américains nés dans le pays. Les auteures en concluent que les présidents qui veulent renforcer le marché du travail devront chercher ailleurs.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a158"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-13",
+      "url": "https://www.sciencesetavenir.fr/nature-environnement/el-nino-principal-responsable-des-incendies-en-indonesie-selon-un-rapport_196111?xtor=RSS-15",
+      "auteur": "",
+      "id": "a154",
+      "titre": "Incendies en Indonésie : El Niño principal responsable, selon un rapport",
+      "texte": "Depuis le début de l'année 2026, les incendies ont détruit près de trois millions d'hectares de terrain en Indonésie. Un rapport conclut que ces catastrophes sont principalement causées par un El Niño intense."
+     },
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-13",
+      "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+      "auteur": "",
+      "id": "a163",
+      "titre": "Chandra éclaire les éruptions répétées d'une étoile géante",
+      "texte": "Grâce à l'observatoire à rayons X Chandra de la NASA, des astronomes ont identifié ce qui déclenche les éruptions répétées de l'étoile instable AT 2016blu. Celle-ci se trouve dans la galaxie spirale NGC 4559, à environ 30 millions d'années-lumière de la Terre."
+     },
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-13",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+      "auteur": "",
+      "id": "a166",
+      "titre": "Les mangroves font leur retour à l'échelle mondiale",
+      "texte": "Après des décennies de déclin, ces forêts côtières écologiquement essentielles connaissent une reprise à l'échelle mondiale, selon la NASA."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "CNRS Le journal",
+      "date": "2026-11-14",
+      "url": "https://lejournal.cnrs.fr/videos/la-biodiversite-face-aux-canicules-marines",
+      "auteur": "",
+      "id": "a149",
+      "titre": "La biodiversité marine face aux canicules océaniques",
+      "texte": "Les vagues de chaleur touchent aussi mers et océans : à l'été 2026, les températures des eaux ont battu des records dans le monde. Reste à savoir si la biodiversité marine peut s'adapter à ces conditions."
+     }
+    ]
+   },
+   {
+    "type": "solutions",
+    "bloc": "",
+    "taille": 1
+   }
+  ],
+  "jeux": {
+   "sudoku": {
+    "grille": [
+     3,
+     0,
+     8,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     4,
+     3,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5,
+     0,
+     6,
+     0,
+     0,
+     0,
+     8,
+     0,
+     0,
+     0,
+     9,
+     8,
+     0,
+     4,
+     2,
+     0,
+     0,
+     9,
+     0,
+     0,
+     0,
+     5,
+     0,
+     7,
+     0,
+     8,
+     0,
+     3,
+     0,
+     4,
+     2,
+     0,
+     0,
+     9,
+     0,
+     0,
+     0,
+     0,
+     1,
+     7,
+     0,
+     0,
+     0,
+     0,
+     0,
+     7,
+     0,
+     0,
+     0,
+     0,
+     4,
+     0,
+     0,
+     0,
+     0,
+     8,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "solution": [
+     3,
+     7,
+     8,
+     2,
+     5,
+     9,
+     1,
+     6,
+     4,
+     6,
+     1,
+     4,
+     3,
+     7,
+     8,
+     2,
+     9,
+     5,
+     9,
+     2,
+     5,
+     4,
+     6,
+     1,
+     7,
+     3,
+     8,
+     7,
+     5,
+     1,
+     9,
+     8,
+     6,
+     4,
+     2,
+     3,
+     4,
+     9,
+     2,
+     1,
+     3,
+     5,
+     8,
+     7,
+     6,
+     8,
+     6,
+     3,
+     7,
+     4,
+     2,
+     5,
+     1,
+     9,
+     5,
+     4,
+     9,
+     6,
+     1,
+     7,
+     3,
+     8,
+     2,
+     2,
+     8,
+     7,
+     5,
+     9,
+     3,
+     6,
+     4,
+     1,
+     1,
+     3,
+     6,
+     8,
+     2,
+     4,
+     9,
+     5,
+     7
+    ]
+   },
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "indices": [
+     [
+      0,
+      0,
+      8
+     ],
+     [
+      2,
+      7,
+      12
+     ],
+     [
+      2,
+      8,
+      8
+     ],
+     [
+      5,
+      9,
+      9
+     ],
+     [
+      4,
+      1,
+      12
+     ],
+     [
+      4,
+      3,
+      5
+     ],
+     [
+      7,
+      4,
+      5
+     ],
+     [
+      7,
+      5,
+      6
+     ],
+     [
+      3,
+      7,
+      10
+     ],
+     [
+      7,
+      1,
+      6
+     ],
+     [
+      9,
+      3,
+      3
+     ],
+     [
+      9,
+      1,
+      6
+     ],
+     [
+      8,
+      4,
+      2
+     ],
+     [
+      8,
+      6,
+      3
+     ],
+     [
+      9,
+      5,
+      5
+     ]
+    ],
+    "rectangles": [
+     [
+      0,
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      4,
+      3,
+      4
+     ],
+     [
+      0,
+      8,
+      8,
+      1
+     ],
+     [
+      0,
+      9,
+      9,
+      1
+     ],
+     [
+      2,
+      0,
+      4,
+      3
+     ],
+     [
+      2,
+      3,
+      5,
+      1
+     ],
+     [
+      3,
+      4,
+      5,
+      1
+     ],
+     [
+      3,
+      5,
+      6,
+      1
+     ],
+     [
+      3,
+      6,
+      5,
+      2
+     ],
+     [
+      6,
+      0,
+      2,
+      3
+     ],
+     [
+      7,
+      3,
+      3,
+      1
+     ],
+     [
+      8,
+      0,
+      2,
+      3
+     ],
+     [
+      8,
+      4,
+      2,
+      1
+     ],
+     [
+      8,
+      6,
+      1,
+      3
+     ],
+     [
+      9,
+      5,
+      1,
+      5
+     ]
+    ]
+   },
+   "futoshiki": {
+    "n": 6,
+    "donnes": [
+     [
+      1,
+      3,
+      1
+     ],
+     [
+      2,
+      0,
+      4
+     ],
+     [
+      4,
+      2,
+      1
+     ],
+     [
+      5,
+      2,
+      5
+     ],
+     [
+      3,
+      4,
+      4
+     ],
+     [
+      0,
+      1,
+      5
+     ]
+    ],
+    "signes": [
+     [
+      [
+       4,
+       0
+      ],
+      [
+       4,
+       1
+      ]
+     ],
+     [
+      [
+       3,
+       0
+      ],
+      [
+       2,
+       0
+      ]
+     ],
+     [
+      [
+       3,
+       0
+      ],
+      [
+       4,
+       0
+      ]
+     ],
+     [
+      [
+       0,
+       2
+      ],
+      [
+       0,
+       3
+      ]
+     ],
+     [
+      [
+       4,
+       2
+      ],
+      [
+       4,
+       3
+      ]
+     ],
+     [
+      [
+       4,
+       4
+      ],
+      [
+       3,
+       4
+      ]
+     ],
+     [
+      [
+       4,
+       2
+      ],
+      [
+       3,
+       2
+      ]
+     ],
+     [
+      [
+       1,
+       1
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     [
+      [
+       4,
+       4
+      ],
+      [
+       4,
+       3
+      ]
+     ],
+     [
+      [
+       1,
+       2
+      ],
+      [
+       0,
+       2
+      ]
+     ],
+     [
+      [
+       4,
+       4
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     [
+      [
+       4,
+       5
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     [
+      [
+       5,
+       3
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     [
+      [
+       3,
+       4
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     [
+      [
+       3,
+       5
+      ],
+      [
+       3,
+       4
+      ]
+     ],
+     [
+      [
+       4,
+       3
+      ],
+      [
+       3,
+       3
+      ]
+     ]
+    ],
+    "solution": [
+     [
+      2,
+      5,
+      4,
+      6,
+      1,
+      3
+     ],
+     [
+      6,
+      4,
+      3,
+      1,
+      2,
+      5
+     ],
+     [
+      4,
+      1,
+      2,
+      3,
+      5,
+      6
+     ],
+     [
+      3,
+      2,
+      6,
+      5,
+      4,
+      1
+     ],
+     [
+      5,
+      6,
+      1,
+      4,
+      3,
+      2
+     ],
+     [
+      1,
+      3,
+      5,
+      2,
+      6,
+      4
+     ]
+    ]
+   },
+   "compte": {
+    "plaques": [
+     50,
+     4,
+     5,
+     1,
+     8,
+     10
+    ],
+    "cible": 225,
+    "solution": [
+     "1 + 50 = 51",
+     "51 − 10 = 41",
+     "41 + 8 = 49",
+     "49 − 4 = 45",
+     "45 × 5 = 225"
+    ]
+   }
+  },
+  "quiz": [],
+  "solutions_hier": {
+   "sudoku": [
+    5,
+    2,
+    9,
+    6,
+    1,
+    3,
+    4,
+    7,
+    8,
+    6,
+    4,
+    7,
+    2,
+    5,
+    8,
+    3,
+    9,
+    1,
+    8,
+    1,
+    3,
+    4,
+    7,
+    9,
+    5,
+    2,
+    6,
+    4,
+    8,
+    1,
+    9,
+    3,
+    2,
+    6,
+    5,
+    7,
+    3,
+    6,
+    2,
+    7,
+    8,
+    5,
+    9,
+    1,
+    4,
+    9,
+    7,
+    5,
+    1,
+    4,
+    6,
+    2,
+    8,
+    3,
+    7,
+    5,
+    6,
+    3,
+    9,
+    1,
+    8,
+    4,
+    2,
+    1,
+    3,
+    8,
+    5,
+    2,
+    4,
+    7,
+    6,
+    9,
+    2,
+    9,
+    4,
+    8,
+    6,
+    7,
+    1,
+    3,
+    5
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      8,
+      1
+     ],
+     [
+      0,
+      1,
+      1,
+      7
+     ],
+     [
+      0,
+      8,
+      6,
+      2
+     ],
+     [
+      1,
+      1,
+      3,
+      3
+     ],
+     [
+      1,
+      4,
+      4,
+      3
+     ],
+     [
+      1,
+      7,
+      9,
+      1
+     ],
+     [
+      4,
+      1,
+      5,
+      2
+     ],
+     [
+      4,
+      3,
+      2,
+      1
+     ],
+     [
+      5,
+      4,
+      3,
+      3
+     ],
+     [
+      6,
+      3,
+      3,
+      1
+     ],
+     [
+      6,
+      8,
+      2,
+      2
+     ],
+     [
+      8,
+      0,
+      2,
+      1
+     ],
+     [
+      8,
+      4,
+      2,
+      3
+     ],
+     [
+      8,
+      8,
+      1,
+      2
+     ],
+     [
+      9,
+      1,
+      1,
+      3
+     ],
+     [
+      9,
+      8,
+      1,
+      2
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     3,
+     1,
+     6,
+     4,
+     2,
+     5
+    ],
+    [
+     1,
+     2,
+     5,
+     3,
+     6,
+     4
+    ],
+    [
+     4,
+     3,
+     2,
+     5,
+     1,
+     6
+    ],
+    [
+     6,
+     5,
+     3,
+     2,
+     4,
+     1
+    ],
+    [
+     2,
+     6,
+     4,
+     1,
+     5,
+     3
+    ],
+    [
+     5,
+     4,
+     1,
+     6,
+     3,
+     2
+    ]
+   ],
+   "compte": [
+    "5 × 4 = 20",
+    "20 + 7 = 27",
+    "27 + 8 = 35",
+    "35 × 25 = 875",
+    "875 + 6 = 881"
+   ],
+   "quiz": []
+  },
+  "avertissements": [
+   "Flux indisponibles : EDPB, ESA"
+  ],
+  "indisponibles": [],
+  "non_rediges": {}
+ },
+ "memoire": {
+  "date": "2026-11-14",
+  "nouveaux_mots": [
+   {
+    "mot": "Anodin",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Sans importance ni danger ; insignifiant.",
+    "exemple": "Une remarque en apparence anodine."
+   },
+   {
+    "mot": "Éphémère",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui ne dure que très peu de temps.",
+    "exemple": "Une mode éphémère, oubliée l'été suivant."
+   },
+   {
+    "mot": "Inextricable",
+    "nature": "adj.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Qu'on ne peut démêler ; très embrouillé.",
+    "exemple": "Une situation juridique inextricable."
+   },
+   {
+    "mot": "Usufruit",
+    "nature": "n. m.",
+    "niveau": "difficile",
+    "domaine": "pro",
+    "definition": "Droit d'utiliser un bien et d'en percevoir les revenus sans en être propriétaire.",
+    "exemple": "Le démembrement entre usufruit et nue-propriété."
+   },
+   {
+    "mot": "Dirimant",
+    "nature": "adj.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Qui fait obstacle de façon absolue, qui annule.",
+    "exemple": "Un argument dirimant."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Coruscant",
+    "definition": "Qui brille d'un vif éclat ; au figuré, brillant, éclatant."
+   },
+   {
+    "mot": "Désintermédiation",
+    "definition": "Recul du rôle des intermédiaires (banques, distributeurs) au profit de relations directes."
+   },
+   {
+    "mot": "Jurisprudence",
+    "definition": "Ensemble des décisions de justice qui font référence."
+   },
+   {
+    "mot": "Tropisme",
+    "definition": "Réaction d'orientation d'un organisme vers un stimulus ; au figuré, attirance instinctive."
+   },
+   {
+    "mot": "Inférence",
+    "definition": "Opération qui tire une conclusion à partir de données ; en IA, production d'un résultat par un modèle."
+   }
+  ],
+  "articles": [
+   "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+   "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+   "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+   "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+   "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+   "https://www.franceinfo.fr/societe/manifestations/convergence-de-differents-mots-d-ordre-important-dispositif-policier-a-quoi-s-attendre-pour-la-journee-de-mobilisation-du-samedi-14-novembre_8280806.html#xtor=RSS-3-[lestitres]",
+   "https://www.publicsenat.fr/actualites/economie/budget-de-la-secu-le-senat-supprime-la-taxe-de-205-sur-les-mutuelles",
+   "https://www.franceinfo.fr/faits-divers/police/laurent-nunez-promet-aux-policiers-une-revalorisation-de-leur-prime-de-risque-les-syndicats-mecontents_8281625.html#xtor=RSS-3-[lestitres]",
+   "https://www.lemonde.fr/campus/article/2026/11/13/mouvement-lyceen-le-cri-d-alarme-des-proviseurs-a-bout-face-aux-violences_6809386_4401467.html",
+   "https://www.lemonde.fr/societe/article/2026/11/13/la-lente-derive-terroriste-de-kevin-tessier-l-auteur-de-l-attentat-de-trappes-vue-par-ses-proches-il-s-enervait-devant-la-tele-avec-des-insultes-racistes_6809375_3224.html",
+   "https://www.franceinfo.fr/faits-divers/terrorisme/attaques-du-13-novembre-a-paris/la-cagnotte-pour-sonia-heroine-du-13-novembre-a-atteint-plus-de-500-000-euros-au-moment-de-sa-cloture_8281238.html#xtor=RSS-3-[lestitres]",
+   "https://www.npr.org/2026/11/13/nx-s1-6040388/what-we-know-about-the-faa-nationwide-ground-stop",
+   "https://www.politico.eu/article/eu-countries-to-announce-deportation-hub-deal-with-rwanda/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+   "https://www.politico.eu/article/eu-deal-on-ukraine-talks-overshadows-ai-focused-summit-in-dublin/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "https://www.scmp.com/news/china/diplomacy/article/3374415/white-house-confirms-us-china-russia-trilateral-apec-sidelines",
+   "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
+   "https://www.nber.org/papers/w35985#fromrss",
+   "https://verfassungsblog.de/korea-scholactivism/",
+   "https://www.pewresearch.org/short-reads/2026/11/13/where-americans-get-news-relates-to-how-they-engage-in-public-life/",
+   "https://www.nber.org/papers/w35987#fromrss",
+   "https://verfassungsblog.de/reserve-bundeswehr-starkung/",
+   "https://www.village-justice.com/articles/enregistrement-des-reunions-transcription-epreuve-rgpd-act,59971.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+   "https://www.aninews.in/news/world/europe/ursula-von-der-leyen-says-europes-inclusion-in-ukraine-peace-talks-is-self-explanatory-announces-22nd-russia-sanctions-package20261113180600",
+   "https://www.thompsonhinesmartrade.com/2026/11/china-extends-suspension-of-rare-earth-export-controls/",
+   "https://www.globalpolicywatch.com/2026/11/pennsylvania-enacts-artificial-intelligence-deceptive-advertising-act/",
+   "https://www.sciencesetavenir.fr/sante/obesite-une-etude-confirme-les-limites-de-l-imc-pour-evaluer-l-exces-de-graisse_196082?xtor=RSS-16",
+   "https://theconversation.com/aux-etats-unis-les-arrestations-dimmigres-nont-profite-ni-a-lemploi-ni-aux-salaires-des-travailleurs-nes-dans-le-pays-296559",
+   "https://www.sciencesetavenir.fr/nature-environnement/el-nino-principal-responsable-des-incendies-en-indonesie-selon-un-rapport_196111?xtor=RSS-15",
+   "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+   "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+   "https://lejournal.cnrs.fr/videos/la-biodiversite-face-aux-canicules-marines"
+  ],
+  "titres": [
+   "Des puces Nvidia Blackwell décelées dans six modèles d'IA chinois",
+   "Mobilisation du 14 novembre : mots d'ordre multiples et 70 000 forces mobilisées",
+   "Budget de la Sécu : le Sénat supprime la taxe de 2,05 % sur les mutuelles",
+   "Police : Nuñez propose de relever la prime de risque, les syndicats refusent",
+   "Panne des télécoms de la FAA : arrêt national des départs aux États-Unis",
+   "Cinq pays de l'UE vont annoncer un accord avec le Rwanda sur des expulsions",
+   "Iran : Trump mise sur le statu quo, neuf mois après le début de la guerre",
+   "Politiques non conventionnelles : des dépôts bancaires plus coûteux à retenir",
+   "Corée du Sud : les constitutionnalistes face à la loi martiale de Yoon",
+   "Transcription de réunions par IA : ce que disent le RGPD et l'AI Act",
+   "Ukraine : von der Leyen annonce un 22e paquet de sanctions contre la Russie",
+   "Obésité : une étude de Nature confirme les limites de l'IMC",
+   "États-Unis : les arrestations d'immigrés n'ont aidé ni l'emploi ni les salaires"
+  ],
+  "solutions": {
+   "sudoku": [
+    3,
+    7,
+    8,
+    2,
+    5,
+    9,
+    1,
+    6,
+    4,
+    6,
+    1,
+    4,
+    3,
+    7,
+    8,
+    2,
+    9,
+    5,
+    9,
+    2,
+    5,
+    4,
+    6,
+    1,
+    7,
+    3,
+    8,
+    7,
+    5,
+    1,
+    9,
+    8,
+    6,
+    4,
+    2,
+    3,
+    4,
+    9,
+    2,
+    1,
+    3,
+    5,
+    8,
+    7,
+    6,
+    8,
+    6,
+    3,
+    7,
+    4,
+    2,
+    5,
+    1,
+    9,
+    5,
+    4,
+    9,
+    6,
+    1,
+    7,
+    3,
+    8,
+    2,
+    2,
+    8,
+    7,
+    5,
+    9,
+    3,
+    6,
+    4,
+    1,
+    1,
+    3,
+    6,
+    8,
+    2,
+    4,
+    9,
+    5,
+    7
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      4,
+      3,
+      4
+     ],
+     [
+      0,
+      8,
+      8,
+      1
+     ],
+     [
+      0,
+      9,
+      9,
+      1
+     ],
+     [
+      2,
+      0,
+      4,
+      3
+     ],
+     [
+      2,
+      3,
+      5,
+      1
+     ],
+     [
+      3,
+      4,
+      5,
+      1
+     ],
+     [
+      3,
+      5,
+      6,
+      1
+     ],
+     [
+      3,
+      6,
+      5,
+      2
+     ],
+     [
+      6,
+      0,
+      2,
+      3
+     ],
+     [
+      7,
+      3,
+      3,
+      1
+     ],
+     [
+      8,
+      0,
+      2,
+      3
+     ],
+     [
+      8,
+      4,
+      2,
+      1
+     ],
+     [
+      8,
+      6,
+      1,
+      3
+     ],
+     [
+      9,
+      5,
+      1,
+      5
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     2,
+     5,
+     4,
+     6,
+     1,
+     3
+    ],
+    [
+     6,
+     4,
+     3,
+     1,
+     2,
+     5
+    ],
+    [
+     4,
+     1,
+     2,
+     3,
+     5,
+     6
+    ],
+    [
+     3,
+     2,
+     6,
+     5,
+     4,
+     1
+    ],
+    [
+     5,
+     6,
+     1,
+     4,
+     3,
+     2
+    ],
+    [
+     1,
+     3,
+     5,
+     2,
+     6,
+     4
+    ]
+   ],
+   "compte": [
+    "1 + 50 = 51",
+    "51 − 10 = 41",
+    "41 + 8 = 49",
+    "49 − 4 = 45",
+    "45 × 5 = 225"
+   ]
+  },
+  "reponses_quiz": []
+ },
+ "essai": false
+}
