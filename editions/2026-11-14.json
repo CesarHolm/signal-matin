@@ -1,0 +1,355 @@
+{
+ "date": "2026-11-14",
+ "nouveaux_mots": [
+  {
+   "mot": "Anodin",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Sans importance ni danger ; insignifiant.",
+   "exemple": "Une remarque en apparence anodine."
+  },
+  {
+   "mot": "Éphémère",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui ne dure que très peu de temps.",
+   "exemple": "Une mode éphémère, oubliée l'été suivant."
+  },
+  {
+   "mot": "Inextricable",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qu'on ne peut démêler ; très embrouillé.",
+   "exemple": "Une situation juridique inextricable."
+  },
+  {
+   "mot": "Usufruit",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Droit d'utiliser un bien et d'en percevoir les revenus sans en être propriétaire.",
+   "exemple": "Le démembrement entre usufruit et nue-propriété."
+  },
+  {
+   "mot": "Dirimant",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Qui fait obstacle de façon absolue, qui annule.",
+   "exemple": "Un argument dirimant."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Coruscant",
+   "definition": "Qui brille d'un vif éclat ; au figuré, brillant, éclatant."
+  },
+  {
+   "mot": "Désintermédiation",
+   "definition": "Recul du rôle des intermédiaires (banques, distributeurs) au profit de relations directes."
+  },
+  {
+   "mot": "Jurisprudence",
+   "definition": "Ensemble des décisions de justice qui font référence."
+  },
+  {
+   "mot": "Tropisme",
+   "definition": "Réaction d'orientation d'un organisme vers un stimulus ; au figuré, attirance instinctive."
+  },
+  {
+   "mot": "Inférence",
+   "definition": "Opération qui tire une conclusion à partir de données ; en IA, production d'un résultat par un modèle."
+  }
+ ],
+ "articles": [
+  "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+  "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+  "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+  "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+  "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+  "https://www.franceinfo.fr/societe/manifestations/convergence-de-differents-mots-d-ordre-important-dispositif-policier-a-quoi-s-attendre-pour-la-journee-de-mobilisation-du-samedi-14-novembre_8280806.html#xtor=RSS-3-[lestitres]",
+  "https://www.publicsenat.fr/actualites/economie/budget-de-la-secu-le-senat-supprime-la-taxe-de-205-sur-les-mutuelles",
+  "https://www.franceinfo.fr/faits-divers/police/laurent-nunez-promet-aux-policiers-une-revalorisation-de-leur-prime-de-risque-les-syndicats-mecontents_8281625.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/campus/article/2026/11/13/mouvement-lyceen-le-cri-d-alarme-des-proviseurs-a-bout-face-aux-violences_6809386_4401467.html",
+  "https://www.lemonde.fr/societe/article/2026/11/13/la-lente-derive-terroriste-de-kevin-tessier-l-auteur-de-l-attentat-de-trappes-vue-par-ses-proches-il-s-enervait-devant-la-tele-avec-des-insultes-racistes_6809375_3224.html",
+  "https://www.franceinfo.fr/faits-divers/terrorisme/attaques-du-13-novembre-a-paris/la-cagnotte-pour-sonia-heroine-du-13-novembre-a-atteint-plus-de-500-000-euros-au-moment-de-sa-cloture_8281238.html#xtor=RSS-3-[lestitres]",
+  "https://www.npr.org/2026/11/13/nx-s1-6040388/what-we-know-about-the-faa-nationwide-ground-stop",
+  "https://www.politico.eu/article/eu-countries-to-announce-deportation-hub-deal-with-rwanda/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
+  "https://www.politico.eu/article/eu-deal-on-ukraine-talks-overshadows-ai-focused-summit-in-dublin/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.scmp.com/news/china/diplomacy/article/3374415/white-house-confirms-us-china-russia-trilateral-apec-sidelines",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
+  "https://www.nber.org/papers/w35985#fromrss",
+  "https://verfassungsblog.de/korea-scholactivism/",
+  "https://www.pewresearch.org/short-reads/2026/11/13/where-americans-get-news-relates-to-how-they-engage-in-public-life/",
+  "https://www.nber.org/papers/w35987#fromrss",
+  "https://verfassungsblog.de/reserve-bundeswehr-starkung/",
+  "https://www.village-justice.com/articles/enregistrement-des-reunions-transcription-epreuve-rgpd-act,59971.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux",
+  "https://www.aninews.in/news/world/europe/ursula-von-der-leyen-says-europes-inclusion-in-ukraine-peace-talks-is-self-explanatory-announces-22nd-russia-sanctions-package20261113180600",
+  "https://www.thompsonhinesmartrade.com/2026/11/china-extends-suspension-of-rare-earth-export-controls/",
+  "https://www.globalpolicywatch.com/2026/11/pennsylvania-enacts-artificial-intelligence-deceptive-advertising-act/",
+  "https://www.sciencesetavenir.fr/sante/obesite-une-etude-confirme-les-limites-de-l-imc-pour-evaluer-l-exces-de-graisse_196082?xtor=RSS-16",
+  "https://theconversation.com/aux-etats-unis-les-arrestations-dimmigres-nont-profite-ni-a-lemploi-ni-aux-salaires-des-travailleurs-nes-dans-le-pays-296559",
+  "https://www.sciencesetavenir.fr/nature-environnement/el-nino-principal-responsable-des-incendies-en-indonesie-selon-un-rapport_196111?xtor=RSS-15",
+  "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+  "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+  "https://lejournal.cnrs.fr/videos/la-biodiversite-face-aux-canicules-marines"
+ ],
+ "titres": [
+  "Des puces Nvidia Blackwell décelées dans six modèles d'IA chinois",
+  "Mobilisation du 14 novembre : mots d'ordre multiples et 70 000 forces mobilisées",
+  "Budget de la Sécu : le Sénat supprime la taxe de 2,05 % sur les mutuelles",
+  "Police : Nuñez propose de relever la prime de risque, les syndicats refusent",
+  "Panne des télécoms de la FAA : arrêt national des départs aux États-Unis",
+  "Cinq pays de l'UE vont annoncer un accord avec le Rwanda sur des expulsions",
+  "Iran : Trump mise sur le statu quo, neuf mois après le début de la guerre",
+  "Politiques non conventionnelles : des dépôts bancaires plus coûteux à retenir",
+  "Corée du Sud : les constitutionnalistes face à la loi martiale de Yoon",
+  "Transcription de réunions par IA : ce que disent le RGPD et l'AI Act",
+  "Ukraine : von der Leyen annonce un 22e paquet de sanctions contre la Russie",
+  "Obésité : une étude de Nature confirme les limites de l'IMC",
+  "États-Unis : les arrestations d'immigrés n'ont aidé ni l'emploi ni les salaires"
+ ],
+ "solutions": {
+  "sudoku": [
+   3,
+   7,
+   8,
+   2,
+   5,
+   9,
+   1,
+   6,
+   4,
+   6,
+   1,
+   4,
+   3,
+   7,
+   8,
+   2,
+   9,
+   5,
+   9,
+   2,
+   5,
+   4,
+   6,
+   1,
+   7,
+   3,
+   8,
+   7,
+   5,
+   1,
+   9,
+   8,
+   6,
+   4,
+   2,
+   3,
+   4,
+   9,
+   2,
+   1,
+   3,
+   5,
+   8,
+   7,
+   6,
+   8,
+   6,
+   3,
+   7,
+   4,
+   2,
+   5,
+   1,
+   9,
+   5,
+   4,
+   9,
+   6,
+   1,
+   7,
+   3,
+   8,
+   2,
+   2,
+   8,
+   7,
+   5,
+   9,
+   3,
+   6,
+   4,
+   1,
+   1,
+   3,
+   6,
+   8,
+   2,
+   4,
+   9,
+   5,
+   7
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     2,
+     4
+    ],
+    [
+     0,
+     4,
+     3,
+     4
+    ],
+    [
+     0,
+     8,
+     8,
+     1
+    ],
+    [
+     0,
+     9,
+     9,
+     1
+    ],
+    [
+     2,
+     0,
+     4,
+     3
+    ],
+    [
+     2,
+     3,
+     5,
+     1
+    ],
+    [
+     3,
+     4,
+     5,
+     1
+    ],
+    [
+     3,
+     5,
+     6,
+     1
+    ],
+    [
+     3,
+     6,
+     5,
+     2
+    ],
+    [
+     6,
+     0,
+     2,
+     3
+    ],
+    [
+     7,
+     3,
+     3,
+     1
+    ],
+    [
+     8,
+     0,
+     2,
+     3
+    ],
+    [
+     8,
+     4,
+     2,
+     1
+    ],
+    [
+     8,
+     6,
+     1,
+     3
+    ],
+    [
+     9,
+     5,
+     1,
+     5
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    2,
+    5,
+    4,
+    6,
+    1,
+    3
+   ],
+   [
+    6,
+    4,
+    3,
+    1,
+    2,
+    5
+   ],
+   [
+    4,
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   [
+    3,
+    2,
+    6,
+    5,
+    4,
+    1
+   ],
+   [
+    5,
+    6,
+    1,
+    4,
+    3,
+    2
+   ],
+   [
+    1,
+    3,
+    5,
+    2,
+    6,
+    4
+   ]
+  ],
+  "compte": [
+   "1 + 50 = 51",
+   "51 − 10 = 41",
+   "41 + 8 = 49",
+   "49 − 4 = 45",
+   "45 × 5 = 225"
+  ]
+ },
+ "reponses_quiz": []
+}
