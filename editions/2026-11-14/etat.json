@@ -1,0 +1,15 @@
+{
+ "tour": 1,
+ "code": 3,
+ "a_faire": [
+  "sport",
+  "tri-curiosites",
+  "tri-france",
+  "tri-ia",
+  "tri-monde",
+  "tri-recherche",
+  "tri-veille"
+ ],
+ "termine": false,
+ "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Collecte des flux\n· Sport\n  sport : 22 résultats, 20 matchs au programme, 131 dépêches\n  183 articles candidats, 2 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n… 7 demande(s) en attente : tri-ia, tri-france, tri-monde, tri-recherche, tri-veille, tri-curiosites, sport\nA_FAIRE 7 : a_faire/tri-ia.json a_faire/tri-france.json a_faire/tri-monde.json a_faire/tri-recherche.json a_faire/tri-veille.json a_faire/tri-curiosites.json a_faire/sport.json\n"
+}
