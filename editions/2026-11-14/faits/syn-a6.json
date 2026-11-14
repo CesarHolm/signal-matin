@@ -1,0 +1,24 @@
+{
+ "titre": "Des puces Nvidia Blackwell décelées dans six modèles d'IA chinois",
+ "chapo": "Selon le chercheur Will DePue, six modèles d'IA chinois portent la signature des puces Blackwell de Nvidia, malgré les contrôles américains à l'exportation.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Will DePue, ancien d'OpenAI où il a joué un rôle clé dans la conception de Sora, de Sora 2, de GPT-4o, d'o3 et de GPT-5, avant de fonder le groupe de recherche à but non lucratif Unemployment Labs, affirme avoir obtenu la première preuve technique que de grands laboratoires chinois ont accès aux puces Blackwell de Nvidia. Les entreprises visées sont DeepSeek, Moonshot AI, MiniMax et Ant Group. Des responsables américains et des médias soupçonnaient déjà DeepSeek et Moonshot AI d'utiliser ces puces, sans jamais publier de preuve. Sur X, DePue écrit que des chercheurs seniors d'OpenAI et d'Anthropic ont vérifié sa méthode de façon indépendante et confirmé ses conclusions."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Un modèle d'IA se compose de milliards de valeurs numériques, les poids. Avant l'entraînement, le cadre logiciel PyTorch remplit ces emplacements vides avec des nombres aléatoires tirés d'une valeur de départ, la graine. Pour aller vite, le processeur graphique répartit ce travail entre ses unités de calcul. Comme le nombre d'unités varie selon les puces, le remplissage laisse un motif caractéristique : les puces Hopper plus anciennes, comme les H100 et H800, comptent 132 unités, tandis que les Blackwell en comptent exactement 148 ou 152 selon le modèle (B200 ou B300, GB200 ou GB300). L'entraînement modifie ensuite ces valeurs des millions de fois, mais certains emplacements, réservés à des mots ou symboles inutilisés, gardent leur valeur initiale. Même dans les parties très entraînées, un faible écho statistique de la distribution de départ subsiste, d'après DePue. Il dit avoir remonté le motif et reproduit exactement les résultats de DeepSeek-V4-Flash et de Kimi K3 sur de vraies puces Blackwell. Le code de vérification est publié sur GitHub."
+  },
+  {
+   "intertitre": "Les résultats",
+   "texte": "Six modèles chinois sortis depuis avril 2026 portent la signature de Blackwell, alors que des modèles plus anciens, comme DeepSeek-V3 et Kimi K2.5, montrent des traces de Hopper. DeepSeek-V4-Flash et MiniMax-M3 correspondent à des B200 ou B300 (148 unités). DeepSeek-V4-Pro, Kimi K3, Kimi K3.1-Pro et Ling-3.1-flash d'Ant Group présentent le motif à 152 unités des systèmes en rack GB200 ou GB300. DePue assure que le hasard est écarté statistiquement et que la méthode a identifié correctement les 24 modèles témoins dont le matériel est connu, dont Llama 3.1 de Meta (H100). Selon son rapport, les cinq entraînements examinés ont exigé environ 12 000 GPU Blackwell, soit l'équivalent d'environ 30 000 H100. Kimi K3 aurait mobilisé à lui seul 4 500 processeurs Blackwell pendant environ 70 jours, DeepSeek-V4-Pro environ 3 000. À quelque 70 000 dollars l'unité, chacun de ces groupes coûterait de 200 à 300 millions de dollars, et les cinq ensemble plus d'un demi-milliard."
+  },
+  {
+   "intertitre": "Les réserves",
+   "texte": "La méthode indique seulement quel matériel a initialisé les poids, même si l'entraînement a très probablement eu lieu sur les mêmes systèmes. Seule autre explication technique : un AMD MI300X, également soumis à restrictions et bridé, qui produirait le même motif ; DePue l'écarte pour DeepSeek-V4-Flash grâce à de minuscules écarts d'arrondi. Les données ne disent ni où se trouvent les puces ni à qui elles appartiennent. Comme des entreprises chinoises peuvent louer de la capacité dans des centres de données hors de Chine, le rapport reconnaît que la preuve établit un accès au matériel haut de gamme de Nvidia, sans démontrer à elle seule une contrebande ni une violation du droit américain des exportations."
+  }
+ ],
+ "synthese": "Selon DePue, six modèles chinois publiés depuis avril 2026 portent la marque de puces Blackwell de Nvidia, pour des entraînements estimés à plus d'un demi-milliard de dollars. La preuve établit un accès à ce matériel, pas une violation du droit américain des exportations.",
+ "republication": ""
+}

@@ -1,0 +1,28 @@
+{
+ "titre": "Transcription de réunions par IA : ce que disent le RGPD et l'AI Act",
+ "chapo": "Confier l'audio d'une réunion à une IA de transcription met en jeu le droit du travail, le RGPD et l'AI Act, selon une analyse de Jérémie Terral.",
+ "sections": [
+  {
+   "intertitre": "Ce qui change",
+   "texte": "Dès qu'un enregistrement de réunion (CSE, négociation, comité de direction, audition) est confié à une IA pour la reconnaissance vocale, la séparation des locuteurs et la synthèse, trois corpus s'appliquent : le droit social et pénal français, le RGPD et l'AI Act. Les « bots » de visioconférence qui rejoignent seuls les réunions posent des difficultés de conformité, alors que l'IA permet en moyenne de diviser par deux le temps de rédaction d'un procès-verbal après réécoute humaine. Pour le CSE, l'article D2315-27 du Code du travail permet à l'employeur ou à la délégation du personnel de décider d'enregistrer les séances. L'employeur ne peut s'y opposer dans son principe si la délégation l'a décidé à la majorité, sauf informations confidentielles dûment déclarées comme telles, et tout transcripteur extérieur est tenu à la même discrétion que les élus."
+  },
+  {
+   "intertitre": "Qui est concerné",
+   "texte": "Hors CSE, l'enregistrement d'une réunion, d'un entretien ou d'une visioconférence suppose une information préalable : l'article L1222-4 interdit de collecter sur un salarié une information par un dispositif ignoré de lui. La voix est une donnée personnelle selon la CNIL. Enregistrer à l'insu des participants des propos privés ou confidentiels reste puni par les articles 226-1 et 226-2 du Code pénal. L'arrêt de l'Assemblée plénière du 22 décembre 2023 permet certes au juge d'admettre une preuve déloyale si elle est indispensable et proportionnée, mais, selon l'auteur, cela ne fonde pas un traitement au sens de l'article 6 du RGPD. Sont visés directions juridiques, DRH et secrétaires d'instances."
+  },
+  {
+   "intertitre": "Le calendrier",
+   "texte": "Depuis le 2 février 2025, les interdictions de l'article 5 de l'AI Act s'appliquent, avec des amendes pouvant atteindre 35 millions d'euros ou 7 % du chiffre d'affaires mondial. Parmi elles, l'inférence des émotions d'une personne au travail est interdite, sauf raisons médicales ou de sécurité. Un bot qui attribue un score de sentiment ou un profil comportemental lors d'une réunion interne, d'un entretien d'évaluation ou d'une séance de CSE est donc proscrit. La simple conversion de la parole en texte, la séparation neutre des tours de parole et une synthèse fidèle restent licites sous réserve du RGPD. Les obligations de transparence de l'article 50 s'appliquent à compter du 2 août 2026 : informer les personnes qui interagissent avec une IA et signaler les contenus synthétiques."
+  },
+  {
+   "intertitre": "Les points de vigilance",
+   "texte": "L'Annexe III, point 4, classe à haut risque les systèmes d'IA utilisés pour le recrutement ou pour décider de promotions et de licenciements ; si une transcription alimente une décision RH, un contrôle humain effectif (article 14) est requis. Côté RGPD, l'auteur met en garde contre les services grand public qui réutilisent les fichiers pour réentraîner leurs modèles. Il recommande un accord de traitement excluant tout entraînement (Zero Data Retention), le dépôt ponctuel du seul fichier audio plutôt qu'un bot réclamant l'accès aux agendas, et la suppression de l'audio et de la transcription une fois le procès-verbal approuvé. Il distingue l'hébergement européen du stockage (OVHcloud, chiffrement AES-256 et TLS 1.3) de l'inférence chez un fournisseur de maison mère américaine, qui n'échappe pas par nature au Cloud Act. Le risque est neutralisé par trois garanties : calcul dans l'Union, mode Zero Data Retention, suppression du fichier source."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Un texte généré par IA ne vaut jamais, seul, procès-verbal faisant foi : aucun moteur n'atteint une infaillibilité absolue, et une négation omise ou une étiquette de locuteur inversée peut changer le sens d'un engagement. L'auteur propose cinq pratiques : formaliser l'information et la purge dans le règlement intérieur, relire intégralement la pré-transcription au casque (environ 2 à 3 heures par heure d'audio, contre 4 à 7 heures de frappe manuelle), contrôler et coder les étiquettes d'intervenants, exporter en .docx horodaté, et graduer la certification selon l'enjeu jusqu'au constat d'un commissaire de justice."
+  }
+ ],
+ "synthese": "La transcription par IA reste licite si elle se limite au texte et à une synthèse fidèle, avec information préalable, hébergement et contrats maîtrisés, et suppression de l'audio. L'analyse des émotions au travail est interdite et la relecture humaine demeure indispensable.",
+ "republication": ""
+}

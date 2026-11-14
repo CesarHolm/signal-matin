@@ -1,0 +1,44 @@
+{
+  "breves": [
+    {
+      "id": "a22",
+      "titre": "La FAA étend son outil d'IA contre la saturation du trafic aérien américain",
+      "texte": "La FAA élargit à l'ensemble de l'espace aérien américain l'usage de l'IA pour gérer la congestion du trafic aérien. Les compagnies aériennes ont salué cet outil, mais le syndicat des contrôleurs aériens n'a pas été associé à sa mise en place."
+    },
+    {
+      "id": "a4",
+      "titre": "Anthropic lance Claude for Manufacturing, un module qui relie l'IA aux logiciels d'usine",
+      "texte": "Le nouveau plugin Claude for Manufacturing connecte l'IA à Autodesk Fusion, Oracle NetSuite et Infor. Ses 17 compétences spécialisées permettent de rédiger des devis, de comparer des fournisseurs et de passer des commandes de secours en cas de retard de livraison, toujours après validation humaine. Il ne pilote pas encore les machines physiques : Anthropic développe pour cela, séparément, le « Model Hardware Standard »."
+    },
+    {
+      "id": "a5",
+      "titre": "Près de 70 % des agences américaines utilisent l'IA, les syndicats s'organisent",
+      "texte": "Aux États-Unis, près de 70 % des agences publiques utilisent déjà l'IA générative, et les syndicats obtiennent davantage de protections contre la surveillance et les licenciements automatisés. À Oakland, une menace de grève a imposé des formations plutôt que des licenciements ; en Ohio, un syndicat des transports a obtenu un droit de veto sur les véhicules autonomes."
+    },
+    {
+      "id": "a24",
+      "titre": "Trappes : la dérive terroriste de Kevin Tessier racontée par ses proches",
+      "texte": "Les auditions des parents et d'un ami de Kevin Tessier, auteur de l'attentat de Trappes, retracent sa radicalisation. Le Monde évoque une enfance perturbée, des fragilités psychologiques, des obsessions racistes liées à l'actualité et des altercations violentes."
+    },
+    {
+      "id": "a25",
+      "titre": "Mouvement lycéen : des proviseurs rassemblés dans une trentaine de villes",
+      "texte": "Vendredi, des membres de la direction d'établissements se sont rassemblés dans une trentaine de villes de France, une mobilisation inédite depuis vingt ans. Plusieurs dizaines d'entre eux ont été blessés depuis la mi-septembre. Le SNPDEN-Unsa dit « stop » aux lycéens, tout en critiquant la gestion de crise du gouvernement."
+    },
+    {
+      "id": "a82",
+      "titre": "La Maison-Blanche confirme une rencontre trilatérale États-Unis, Chine et Russie à l'Apec",
+      "texte": "La Maison-Blanche a confirmé vendredi une rencontre inédite entre les présidents américain, chinois et russe, prévue en marge du sommet de l'Apec à Shenzhen la semaine prochaine. Selon elle, Donald Trump clôturera sa visite en Chine par cette réunion trilatérale."
+    },
+    {
+      "id": "a70",
+      "titre": "Ukraine : l'accord européen sur les négociations éclipse le sommet sur l'IA à Dublin",
+      "texte": "Les dirigeants européens ont convenu que le format E5 — Allemagne, France, Royaume-Uni, Italie et Pologne — avec la Commission européenne et le Conseil représentera l'UE dans de futures négociations de paix. Cet accord éclipse le sommet consacré à l'intelligence artificielle, organisé à Dublin."
+    },
+    {
+      "id": "a154",
+      "titre": "Incendies en Indonésie : El Niño principal responsable, selon un rapport",
+      "texte": "Depuis le début de l'année 2026, les incendies ont détruit près de trois millions d'hectares de terrain en Indonésie. Un rapport conclut que ces catastrophes sont principalement causées par un El Niño intense."
+    }
+  ]
+}

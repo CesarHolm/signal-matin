@@ -1,0 +1,29 @@
+{
+ "titre": "Politiques non conventionnelles : des dépôts bancaires plus coûteux à retenir",
+ "chapo": "Taux zéro et achats d'obligations de la Fed ont attiré des déposants sensibles aux taux, rendant les dépôts plus coûteux à retenir ensuite, selon deux économistes.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Après la crise financière mondiale, les banques centrales ont engagé deux politiques non conventionnelles : maintenir le taux directeur à court terme à sa borne zéro (ZLB) pendant une période prolongée, et mener des achats massifs d'obligations (assouplissement quantitatif, ou QE) pour abaisser directement les taux longs. Philip Strahan et Tuo Yang, de Boston College, se demandent comment ces deux volets ont modifié la composition des dépôts bancaires, et ce qu'il en est advenu pour les banques lorsque la politique monétaire est revenue à la normale. Leur difficulté tient au fait que le QE recouvre par construction la période de taux zéro, puisque les banques centrales n'y recourent qu'une fois l'outil standard épuisé."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Les deux volets ont déplacé les dépôts vers des clients plus sensibles aux taux. Le taux zéro a comprimé les écarts de rémunération, entre banques comme entre banques et fonds monétaires, si bien que ces clients n'avaient plus intérêt à chercher du rendement ailleurs : la composition des dépôts a basculé des dépôts à terme rémunérés vers les comptes courants non rémunérés. Le QE a attiré de gros déposants, souvent non assurés. Les dépôts ont crû de 42 % entre 2010 et 2015, contre 26 % pour le PIB nominal. Après la sortie du taux zéro, fin 2015 puis en 2022, la sensibilité des flux de dépôts aux taux et le « bêta de dépôt » ont augmenté avec l'exposition au QE et au taux zéro. Une exposition au QE supérieure d'un écart type à la moyenne rend la sensibilité environ 50 % plus forte (0,24 contre 0,44). Un écart type d'exposition au taux zéro ajoute 0,019 au bêta, pour une moyenne d'environ 0,3."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "L'échantillon couvre 2001 à 2025 et s'appuie sur les rapports prudentiels des banques (FFIEC), les dépôts par agence (FDIC), les opérations de la Fed de New York et des séries de la FRED. L'exposition au QE est mesurée par un instrument construit sur les achats de la Fed auprès des courtiers primaires : les banques qui recoupent fortement leurs marchés reçoivent des dépôts. Le « Rate Gap » compare le taux versé par une banque à celui de ses concurrentes. L'exposition au taux zéro est la croissance des dépôts pendant cette période, rapportée aux actifs, avec un instrument de type Bartik. Les estimations portent sur les deux cycles de hausse qui ont suivi : 2016T1-2020T1 et 2022T2-2025T4."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Selon les auteurs, ces dépôts restaient stables tant que les taux demeuraient comprimés. Quand la politique s'est normalisée, les banques les plus exposées ont dû relever davantage leurs taux pour les conserver, faute de quoi ils seraient partis vers les fonds monétaires ou d'autres banques. Conserver ses dépôts est ainsi devenu plus coûteux et plus risqué. La couverture naturelle dont bénéficiaient les banques, grâce à des dépôts rémunérés sous le marché, s'en trouve érodée. Les auteurs concluent que les décideurs devraient tenir compte des effets sur la stabilité du financement bancaire si de futures circonstances exigeaient de nouvelles mesures non conventionnelles."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Les auteurs relèvent que l'exposition au taux zéro est endogène : les banques choisissent le volume de dépôts levés selon leurs occasions de prêt, ce qui pourrait fausser les estimations ; ils y répondent par l'instrument Bartik. Les effets restent plus faibles pour le taux zéro que pour le QE sur la sensibilité des flux, et l'effet de l'exposition au taux zéro sur les dépôts non assurés n'est pas significatif en MCO. Chez les grandes banques, la somme des termes directs et d'interaction n'est pas significativement différente de zéro (p = 0,274), alors que la sensibilité estimée est plus forte chez les petites banques, définies par moins de 10 milliards de dollars d'actifs fin 2008."
+  }
+ ],
+ "synthese": "Le taux zéro et le QE ont attiré des déposants sensibles aux taux, ce qui a rendu les dépôts plus coûteux et plus risqués à retenir quand les taux ont remonté. Les auteurs invitent à en tenir compte dans toute future politique non conventionnelle.",
+ "republication": "",
+ "reference": "Philip Strahan et Tuo Yang (Boston College), NBER Working Paper n° 35985, novembre 2026 : document de travail non relu par des pairs."
+}
