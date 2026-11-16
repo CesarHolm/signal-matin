@@ -1,0 +1,26 @@
+{
+ "titre": "OpenAI réorganise sa robotique, convaincue que ses modèles généraux suffisent",
+ "chapo": "OpenAI a replacé ses chercheurs en robotique dans d'autres équipes, pariant que des modèles généralistes comme GPT-6 Astra peuvent piloter directement des robots.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "OpenAI a confirmé à Fortune la réorganisation de son équipe de robotique. Les chercheurs rejoignent l'équipe de recherche principale, dirigée par Mark Chen, directeur de la recherche, tandis que les équipes de robotique appliquée et de matériel passent dans l'organisation Applied de Greg Brockman, président. Un porte-parole présente la robotique comme un volet central de la vision de long terme et dit que la réorganisation en témoigne. The Decoder a corrigé son titre : OpenAI précise que la robotique continue. La décision est intervenue si tard que OpenAI avait déjà réservé un stand (n° 208) au congrès académique de robotique CoRL, à Austin : Fortune l'a trouvé vide, sans logo, même si quelques anciens membres de l'équipe, restés sur place, attiraient encore du monde. Selon Fortune, la question la plus débattue du congrès était de savoir quelle expertise en robotique garderait sa valeur à mesure que les modèles généralistes progressent."
+  },
+  {
+   "intertitre": "Le pari des modèles généralistes",
+   "texte": "Selon OpenAI, les chercheurs pensaient en début d'année progresser en s'appuyant sur des modèles comme Sora ; les modèles généralistes, GPT-6 Astra en tête, ont ensuite montré qu'ils s'appliquent directement à la robotique. Guanya Shi, de Carnegie Mellon, y lit un signe que la robotique n'est plus « un problème spécial ». Dans une étude de Nvidia, un agent animé par Astra réussit 74,8 % des tâches d'un banc d'essai simulé, contre 51 % pour les meilleurs modèles spécialisés ; le robot était simulé. Sur StationeryBench, avec des bras robotisés YAM, Astra termine 7 tâches sur 100 et MolmoAct2 d'Ai2 aucune ; le score moyen de progression est de 46 contre 12. Sur un robot humanoïde, Astra a navigué dans une cuisine et l'a rangée. Yoav Artzi, de Cornell et de Google DeepMind, voit en Astra un bond majeur en compréhension spatiale : sur le test REMAP, encore inédit, le modèle approcherait la précision humaine, et OpenAI aurait pu l'entraîner avec beaucoup de données 3D, comme des scènes Blender."
+  },
+  {
+   "intertitre": "Les réserves",
+   "texte": "On ignore quelle part de données de robotique OpenAI et d'autres ont intégrée à l'entraînement. D'autres grands modèles, chez Anthropic et Google, ont aussi progressé récemment en robotique. Les modèles spécialisés pourraient garder l'avantage en coût, fiabilité, vitesse et consommation d'énergie. Selon Shi, les progrès des modèles généralistes en raisonnement spatial leur permettent déjà de gérer une bouteille déplacée, un éclairage modifié ou l'étape d'une tâche qui a échoué. Il voit encore un besoin de petits modèles embarqués, car les grands modèles sont lents et hébergés dans le cloud. Russ Tedrake, du MIT et de Walden Robotics, rappelle que les entreprises de robotique ont l'avantage du déploiement réel, comme en usine. Pete Florence, cofondateur de Generalist, start-up qui entraîne des modèles généralistes pour robots, juge incertain qu'un modèle existant domine à long terme : il peut y avoir plusieurs points de départ pour faire grandir l'intelligence. Selon Fortune, cette approche remet en cause les hypothèses de nombreuses start-up de robotique, qui ont levé des milliards en pariant que les robots ont besoin de leur propre cerveau."
+  },
+  {
+   "intertitre": "Une histoire compliquée",
+   "texte": "OpenAI avait fermé sa division robotique en 2020 : selon son cofondateur Wojciech Zaremba, les données de robots manquaient et les grands modèles de langage offraient une voie plus rapide vers l'AGI. L'équipe a été reconstituée en 2024 avec un partenariat avec Figure, terminé en février 2025. OpenAI développe désormais son propre robot humanoïde, et Sam Altman viserait une première démonstration publique de robot en 2027. OpenAI subit aussi une pression financière : Fortune cite 10,9 milliards de dollars de pertes d'exploitation au dernier trimestre, et une possible introduction en Bourse début 2027. Altman avait demandé à l'entreprise d'abandonner les « projets annexes » ; Sora en fait partie, au profit d'activités plus rentables. Selon The Decoder, OpenAI a perdu du terrain face à Anthropic dans son cœur de métier."
+  }
+ ],
+ "synthese": "OpenAI disperse ses chercheurs en robotique en pariant sur les modèles généralistes, tout en affirmant poursuivre ses ambitions. Des experts jugent les modèles spécialisés encore utiles.",
+ "republication": "",
+ "reference": "",
+ "sources_ecartees": []
+}

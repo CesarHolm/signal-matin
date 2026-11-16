@@ -1,0 +1,28 @@
+{
+ "titre": "Meituan publie LongCat-2.5, un modèle d'agent entraîné sans puces Nvidia",
+ "chapo": "Le groupe chinois de livraison de repas Meituan met en accès libre les poids de LongCat-2.5, un modèle pour agents entraîné uniquement sur des puces chinoises.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "L'équipe LongCat de Meituan a publié les poids de LongCat-2.5, une semaine après la présentation officielle du modèle. Conçu pour des agents qui mènent seuls de longues tâches en plusieurs étapes, notamment en programmation, il s'approcherait selon Meituan des meilleurs modèles occidentaux sur plusieurs tests. Il s'agit d'un modèle à mélange d'experts : sur 1,6 trillion de paramètres, environ 48 milliards sont actifs pour chaque jeton. Via l'API, il traite jusqu'à un million de jetons à la fois et produit des réponses de 128 000 jetons au plus. Il comprend le texte, les images et la vidéo, répond en texte et permet d'activer ou non le raisonnement."
+  },
+  {
+   "intertitre": "Les images converties en jetons",
+   "texte": "LongCat-2.5 prolonge LongCat-2.0 en y ajoutant la compréhension d'images. Plutôt que de greffer après coup un encodeur d'images distinct, le modèle convertit les images en jetons traités avec le texte, selon une approche tirée du modèle de recherche LongCat-Next, qui vise à améliorer le codage visuel, le design et les tâches en 3D. Pour l'apprentissage par renforcement, l'équipe a utilisé de vraies tâches logicielles issues de demandes de fusion GitHub et des échecs d'agents recréés. Pour s'assurer que le modèle résout réellement les tâches, elle a coupé l'accès à Internet, supprimé l'historique Git et les fichiers en cache, et fait vérifier les solutions par un modèle de langage. Les capacités de plusieurs modèles enseignants spécialisés ont aussi été distillées."
+  },
+  {
+   "intertitre": "Un déploiement sur 194 puces Huawei",
+   "texte": "Meituan quantifie les poids et les activations des experts sur 4 bits, format que les puces chinoises traitent nativement. Lors de ses tests de charge, le débit augmente de 43,3 % pour le traitement des requêtes et de 42,77 % pour la génération, par rapport à une version en 8 bits ; la précision resterait équivalente à celle du modèle non compressé. Le guide d'auto-hébergement décrit un cluster de 194 accélérateurs Huawei Ascend de la série Atlas A2 : deux pour les images, 64 pour la lecture des requêtes et 128 pour la génération. Aucune consigne n'est donnée pour les GPU Nvidia."
+  },
+  {
+   "intertitre": "Des résultats contrastés",
+   "texte": "LongCat-2.5 obtient 88,4 points sur Terminal Bench v2.1, contre 89,1 pour Claude Opus 5, 88,8 pour GPT-5.6 Sol et 90,6 pour Deepseek-V4.1-Flash. Sur DeepSWE, il passe de 9,7 à 64,6 points mais reste derrière tous les modèles du tableau sauf Claude Opus 4.8, Deepseek-V4.1-Flash menant avec 74,2. Sur Terminal Bench v4.0, plus difficile, il atteint 38,5 points, devant GPT-5.6 Sol (37,3) mais loin d'Opus 5 (53,9). Son 91,9 sur BrowseComp est le meilleur score du tableau, mais Meituan a lancé ce test dans son propre environnement."
+  },
+  {
+   "intertitre": "Licence, prix et contexte",
+   "texte": "Les poids sont sous licence MIT, qui autorise usage commercial, modification et redistribution. Le modèle est testable sur longcat.ai et son API accepte les formats OpenAI et Anthropic. Au lancement, un tarif promotionnel équivaut à environ 0,27 € par million de jetons en entrée et 1,07 € en sortie. Meituan indique avoir entraîné le prédécesseur LongCat-2.0 fin juin, entièrement sur un cluster de plus de 50 000 puces chinoises ; il avait auparavant tourné de façon anonyme sous le nom « Owl Alpha » sur OpenRouter. Les modèles chinois à poids ouverts comme Kimi K3.1 et GLM-5.3 ont largement rattrapé les meilleurs modèles américains sur les tests courants. Des modèles ouverts optimisés d'emblée pour les puces chinoises rendent ce matériel plus attractif hors de Chine. Meituan travaille aussi sur des générateurs d'images : LongCat-Image, publié en source ouverte, n'a besoin que de 6 milliards de paramètres."
+  }
+ ],
+ "synthese": "Meituan livre en licence MIT un modèle d'agent de 1,6 trillion de paramètres, entraîné et déployé sur du matériel chinois. Ses scores sont proches de ceux des meilleurs modèles occidentaux sur certains tests, plus faibles sur d'autres.",
+ "republication": ""
+}
