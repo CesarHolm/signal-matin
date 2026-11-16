@@ -1,0 +1,352 @@
+{
+ "date": "2026-11-16",
+ "nouveaux_mots": [
+  {
+   "mot": "Inflation",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Hausse générale et durable des prix.",
+   "exemple": "L'inflation a ralenti ce trimestre."
+  },
+  {
+   "mot": "Ambivalent",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui présente deux aspects, deux sentiments opposés.",
+   "exemple": "Il a un rapport ambivalent à la ville."
+  },
+  {
+   "mot": "Spécieux",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qui n'a que l'apparence de la vérité.",
+   "exemple": "Un raisonnement spécieux."
+  },
+  {
+   "mot": "Épigone",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Disciple sans originalité d'un maître.",
+   "exemple": "Les épigones de Proust."
+  },
+  {
+   "mot": "Stochastique",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Qui relève du hasard, des probabilités.",
+   "exemple": "Un modèle stochastique."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Cacochyme",
+   "definition": "D'une santé faible et chancelante ; décrépit (souvent ironique)."
+  },
+  {
+   "mot": "Ergastule",
+   "definition": "Dans l'Antiquité romaine, prison souterraine pour esclaves ; par extension, lieu d'enfermement pénible."
+  },
+  {
+   "mot": "Prosopopée",
+   "definition": "Figure qui fait parler un absent, un mort ou une chose."
+  },
+  {
+   "mot": "Ténu",
+   "definition": "Très mince, très fin ; par extension, faible, à peine perceptible."
+  },
+  {
+   "mot": "Équivoque",
+   "definition": "Qui peut s'interpréter de plusieurs façons ; ambigu, douteux."
+  }
+ ],
+ "articles": [
+  "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+  "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+  "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+  "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+  "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+  "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+  "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/des-courriers-ont-pu-etre-lus-ce-que-l-on-sait-de-la-cyberattaque-contre-maileva-filiale-de-la-poste-qui-a-conduit-au-vol-de-donnees-de-22-millions-de-personnes_8283266.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/economie/transports/mobilisation-du-17-novembre/la-cfdt-rejoint-la-mobilisation-du-17-novembre-parce-que-nos-revendications-n-ont-pas-abouti-explique-le-syndicat_8283890.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/societe/pauvrete/presidentielle-2027-la-pauvrete-requiert-des-solutions-structurelles-selon-les-restos-du-coeur_8283881.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/politique/article/2026/11/15/elections-legislatives-le-chantier-sans-cesse-repousse-du-redecoupage-electoral_6811034_823448.html",
+  "https://www.lemonde.fr/politique/article/2026/11/15/fractures-francaises-un-paysage-politique-clive-dans-lequel-l-election-presidentielle-n-est-plus-vue-comme-une-solution_6811038_823448.html",
+  "https://www.lemonde.fr/societe/article/2026/11/15/a-paris-les-rassemblements-interdits-de-lundi-a-vendredi-autour-de-certains-lycees-et-universites_6811050_3224.html",
+  "https://www.scmp.com/news/china/diplomacy/article/3374523/china-us-russia-trilateral-set-thursday-beijing",
+  "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/16/czechs-rally-against-govt-threat-to-media-independence?traffic_source=rss",
+  "https://www.nber.org/papers/w35986#fromrss",
+  "https://ourworldindata.org/no-matter-how-you-ask-more-americans-are-negative-than-positive-about-ai",
+  "https://www.npr.org/2026/11/14/nx-s1-6040379/commerce-department-under-pressure-for-delaying-export-controls-on-nvidia-chips",
+  "https://euperspectives.eu/2026/11/eu-russia-sanctions-enforcement-loopholes-trade-court-of-auditors/",
+  "https://shipandbunker.com/news/world/712270-interview-peninsula-says-diverging-us-and-eu-sanctions-rules-mean-bunker-suppliers-must-clear-every-deal-twice",
+  "https://www.mediapart.fr/journal/france/141126/delinquance-en-col-blanc-et-justice-negociee-le-patron-du-pnf-repond-aux-critiques",
+  "https://theconversation.com/cop31-la-bourse-ne-recompense-plus-la-decouverte-de-reserves-dhydrocarbures-en-cas-dexposition-aux-risques-reglementaires-environnementaux-285014",
+  "https://theconversation.com/est-il-encore-possible-de-stabiliser-la-dette-publique-francaise-296298",
+  "https://www.sciencesetavenir.fr/sante/une-radiotherapie-ultraciblee-contre-les-tumeurs-agressives_195864?xtor=RSS-16",
+  "https://www.sciencesetavenir.fr/sante/cancer-du-pancreas-la-percee-du-daraxonrasib_195859?xtor=RSS-16",
+  "https://www.sciencesetavenir.fr/sante/temps-d-ecran-des-enfants-pourquoi-le-compteur-ne-dit-pas-tout_195874?xtor=RSS-16",
+  "https://insideclimatenews.org/news/14112026/georgia-power-grid-expansion-gas/"
+ ],
+ "titres": [
+  "Meituan publie LongCat-2.5, un modèle d'agent entraîné sans puces Nvidia",
+  "Australie : l'IA touche d'abord les jeunes actifs, selon la banque centrale",
+  "OpenAI réorganise sa robotique, convaincue que ses modèles généraux suffisent",
+  "Maileva, filiale de La Poste : les données de 22 millions de personnes volées",
+  "Fonction publique : la CFDT rejoint la mobilisation du 17 novembre",
+  "Présidentielle 2027 : les Restos du Coeur réclament des solutions structurelles",
+  "Trump, Xi et Poutine se réuniront jeudi à Shenzhen, en marge du sommet de l'Apec",
+  "L'Estonie fermera tous ses points de passage avec la Russie dès le 1er décembre",
+  "Bihar : stage de théâtre réduit les biais policiers face aux violences de genre",
+  "Puces Nvidia : le département du Commerce critiqué pour son inaction",
+  "Sanctions contre la Russie : des failles dans leur application nationale",
+  "Pétrole et gaz : les réserves ne font plus toujours monter l'action en bourse",
+  "Dette publique française : est-il encore possible de la stabiliser ?"
+ ],
+ "solutions": {
+  "sudoku": [
+   3,
+   1,
+   4,
+   7,
+   9,
+   2,
+   8,
+   5,
+   6,
+   6,
+   5,
+   2,
+   3,
+   1,
+   8,
+   4,
+   9,
+   7,
+   9,
+   8,
+   7,
+   4,
+   6,
+   5,
+   2,
+   1,
+   3,
+   1,
+   7,
+   3,
+   9,
+   4,
+   6,
+   5,
+   2,
+   8,
+   2,
+   4,
+   5,
+   8,
+   7,
+   3,
+   1,
+   6,
+   9,
+   8,
+   9,
+   6,
+   2,
+   5,
+   1,
+   7,
+   3,
+   4,
+   7,
+   3,
+   9,
+   5,
+   2,
+   4,
+   6,
+   8,
+   1,
+   4,
+   2,
+   1,
+   6,
+   8,
+   9,
+   3,
+   7,
+   5,
+   5,
+   6,
+   8,
+   1,
+   3,
+   7,
+   9,
+   4,
+   2
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     7,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     4
+    ],
+    [
+     0,
+     5,
+     3,
+     3
+    ],
+    [
+     0,
+     8,
+     5,
+     2
+    ],
+    [
+     1,
+     1,
+     5,
+     2
+    ],
+    [
+     1,
+     3,
+     6,
+     2
+    ],
+    [
+     3,
+     5,
+     3,
+     2
+    ],
+    [
+     3,
+     7,
+     7,
+     1
+    ],
+    [
+     5,
+     8,
+     2,
+     2
+    ],
+    [
+     6,
+     1,
+     1,
+     2
+    ],
+    [
+     6,
+     5,
+     4,
+     2
+    ],
+    [
+     7,
+     0,
+     2,
+     4
+    ],
+    [
+     7,
+     4,
+     3,
+     1
+    ],
+    [
+     7,
+     8,
+     3,
+     2
+    ],
+    [
+     9,
+     0,
+     1,
+     4
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    5,
+    4,
+    2,
+    3,
+    6,
+    1
+   ],
+   [
+    2,
+    5,
+    4,
+    1,
+    3,
+    6
+   ],
+   [
+    3,
+    6,
+    1,
+    5,
+    4,
+    2
+   ],
+   [
+    6,
+    1,
+    3,
+    4,
+    2,
+    5
+   ],
+   [
+    4,
+    2,
+    5,
+    6,
+    1,
+    3
+   ],
+   [
+    1,
+    3,
+    6,
+    2,
+    5,
+    4
+   ]
+  ],
+  "compte": [
+   "2 × 10 = 20",
+   "20 − 10 = 10",
+   "10 + 8 = 18",
+   "18 − 2 = 16",
+   "16 × 7 = 112"
+  ]
+ },
+ "reponses_quiz": []
+}
