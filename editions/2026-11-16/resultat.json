@@ -1,0 +1,2845 @@
+{
+ "edition": {
+  "date": "2026-11-16",
+  "numero": 18,
+  "secours": false,
+  "numerique": true,
+  "meteo": null,
+  "nouveaux_mots": [
+   {
+    "mot": "Inflation",
+    "nature": "n. f.",
+    "niveau": "facile",
+    "domaine": "pro",
+    "definition": "Hausse générale et durable des prix.",
+    "exemple": "L'inflation a ralenti ce trimestre."
+   },
+   {
+    "mot": "Ambivalent",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui présente deux aspects, deux sentiments opposés.",
+    "exemple": "Il a un rapport ambivalent à la ville."
+   },
+   {
+    "mot": "Spécieux",
+    "nature": "adj.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Qui n'a que l'apparence de la vérité.",
+    "exemple": "Un raisonnement spécieux."
+   },
+   {
+    "mot": "Épigone",
+    "nature": "n. m.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Disciple sans originalité d'un maître.",
+    "exemple": "Les épigones de Proust."
+   },
+   {
+    "mot": "Stochastique",
+    "nature": "adj.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Qui relève du hasard, des probabilités.",
+    "exemple": "Un modèle stochastique."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Cacochyme"
+   },
+   {
+    "mot": "Ergastule"
+   },
+   {
+    "mot": "Prosopopée"
+   },
+   {
+    "mot": "Ténu"
+   },
+   {
+    "mot": "Équivoque"
+   }
+  ],
+  "sport": {
+   "resultats": [
+    {
+     "sport": "Football",
+     "affiche": "France – Turquie",
+     "score": "2-1",
+     "competition": "Ligue des nations (sélections), phase de groupes",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401861177/turkiye-france"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Espagne – Angleterre",
+     "score": "2-3",
+     "competition": "Ligue des nations (sélections), phase de groupes",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401861175/england-spain"
+    },
+    {
+     "sport": "Tennis",
+     "affiche": "Shelton – Fils",
+     "score": "6-2 3-6 6-3",
+     "competition": "Finales ATP de Turin (circuit ATP), premier match de poule",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-apres-sa-defaite-contre-ben-shelton-aux-finales-atp-il-faut-rester-en-vie/1743941#at_medium=RSS_feeds"
+    }
+   ],
+   "a_suivre": [
+    {
+     "sport": "Football",
+     "affiche": "Allemagne – Pays-Bas",
+     "competition": "Ligue des nations (sélections)",
+     "heure": "20 h 45",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401861185/netherlands-germany"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Suisse – Écosse",
+     "competition": "Ligue des nations (sélections)",
+     "heure": "20 h 45",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401861186/scotland-switzerland"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Grèce – Serbie",
+     "competition": "Ligue des nations (sélections)",
+     "heure": "20 h 45",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401861188/serbia-greece"
+    }
+   ],
+   "periode": [
+    "2026-11-14",
+    "2026-11-15"
+   ]
+  },
+  "reponses_hier": [
+   {
+    "mot": "Coruscant",
+    "definition": "Qui brille d'un vif éclat ; au figuré, brillant, éclatant."
+   },
+   {
+    "mot": "Désintermédiation",
+    "definition": "Recul du rôle des intermédiaires (banques, distributeurs) au profit de relations directes."
+   },
+   {
+    "mot": "Jurisprudence",
+    "definition": "Ensemble des décisions de justice qui font référence."
+   },
+   {
+    "mot": "Tropisme",
+    "definition": "Réaction d'orientation d'un organisme vers un stimulus ; au figuré, attirance instinctive."
+   },
+   {
+    "mot": "Inférence",
+    "definition": "Opération qui tire une conclusion à partir de données ; en IA, production d'un résultat par un modèle."
+   }
+  ],
+  "blocs": [
+   {
+    "id": "ia",
+    "titre": "IA",
+    "developpes": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-15",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "auteur": "Jonathan Kemper",
+      "titre": "Meituan publie LongCat-2.5, un modèle d'agent entraîné sans puces Nvidia",
+      "chapo": "Le groupe chinois de livraison de repas Meituan met en accès libre les poids de LongCat-2.5, un modèle pour agents entraîné uniquement sur des puces chinoises.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "L'équipe LongCat de Meituan a publié les poids de LongCat-2.5, une semaine après la présentation officielle du modèle. Conçu pour des agents qui mènent seuls de longues tâches en plusieurs étapes, notamment en programmation, il s'approcherait selon Meituan des meilleurs modèles occidentaux sur plusieurs tests. Il s'agit d'un modèle à mélange d'experts : sur 1,6 trillion de paramètres, environ 48 milliards sont actifs pour chaque jeton. Via l'API, il traite jusqu'à un million de jetons à la fois et produit des réponses de 128 000 jetons au plus. Il comprend le texte, les images et la vidéo, répond en texte et permet d'activer ou non le raisonnement."
+       },
+       {
+        "intertitre": "Les images converties en jetons",
+        "texte": "LongCat-2.5 prolonge LongCat-2.0 en y ajoutant la compréhension d'images. Plutôt que de greffer après coup un encodeur d'images distinct, le modèle convertit les images en jetons traités avec le texte, selon une approche tirée du modèle de recherche LongCat-Next, qui vise à améliorer le codage visuel, le design et les tâches en 3D. Pour l'apprentissage par renforcement, l'équipe a utilisé de vraies tâches logicielles issues de demandes de fusion GitHub et des échecs d'agents recréés. Pour s'assurer que le modèle résout réellement les tâches, elle a coupé l'accès à Internet, supprimé l'historique Git et les fichiers en cache, et fait vérifier les solutions par un modèle de langage. Les capacités de plusieurs modèles enseignants spécialisés ont aussi été distillées."
+       },
+       {
+        "intertitre": "Un déploiement sur 194 puces Huawei",
+        "texte": "Meituan quantifie les poids et les activations des experts sur 4 bits, format que les puces chinoises traitent nativement. Lors de ses tests de charge, le débit augmente de 43,3 % pour le traitement des requêtes et de 42,77 % pour la génération, par rapport à une version en 8 bits ; la précision resterait équivalente à celle du modèle non compressé. Le guide d'auto-hébergement décrit un cluster de 194 accélérateurs Huawei Ascend de la série Atlas A2 : deux pour les images, 64 pour la lecture des requêtes et 128 pour la génération. Aucune consigne n'est donnée pour les GPU Nvidia."
+       },
+       {
+        "intertitre": "Des résultats contrastés",
+        "texte": "LongCat-2.5 obtient 88,4 points sur Terminal Bench v2.1, contre 89,1 pour Claude Opus 5, 88,8 pour GPT-5.6 Sol et 90,6 pour Deepseek-V4.1-Flash. Sur DeepSWE, il passe de 9,7 à 64,6 points mais reste derrière tous les modèles du tableau sauf Claude Opus 4.8, Deepseek-V4.1-Flash menant avec 74,2. Sur Terminal Bench v4.0, plus difficile, il atteint 38,5 points, devant GPT-5.6 Sol (37,3) mais loin d'Opus 5 (53,9). Son 91,9 sur BrowseComp est le meilleur score du tableau, mais Meituan a lancé ce test dans son propre environnement."
+       },
+       {
+        "intertitre": "Licence, prix et contexte",
+        "texte": "Les poids sont sous licence MIT, qui autorise usage commercial, modification et redistribution. Le modèle est testable sur longcat.ai et son API accepte les formats OpenAI et Anthropic. Au lancement, un tarif promotionnel équivaut à environ 0,27 € par million de jetons en entrée et 1,07 € en sortie. Meituan indique avoir entraîné le prédécesseur LongCat-2.0 fin juin, entièrement sur un cluster de plus de 50 000 puces chinoises ; il avait auparavant tourné de façon anonyme sous le nom « Owl Alpha » sur OpenRouter. Les modèles chinois à poids ouverts comme Kimi K3.1 et GLM-5.3 ont largement rattrapé les meilleurs modèles américains sur les tests courants. Des modèles ouverts optimisés d'emblée pour les puces chinoises rendent ce matériel plus attractif hors de Chine. Meituan travaille aussi sur des générateurs d'images : LongCat-Image, publié en source ouverte, n'a besoin que de 6 milliards de paramètres."
+       }
+      ],
+      "synthese": "Meituan livre en licence MIT un modèle d'agent de 1,6 trillion de paramètres, entraîné et déployé sur du matériel chinois. Ses scores sont proches de ceux des meilleurs modèles occidentaux sur certains tests, plus faibles sur d'autres.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a4"
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-15",
+      "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+      "auteur": "Manuel Uth",
+      "titre": "Australie : l'IA touche d'abord les jeunes actifs, selon la banque centrale",
+      "chapo": "Une analyse pour la banque centrale australienne montre que l'IA a peu supprimé d'emplois, mais que les jeunes entrant dans les métiers très exposés s'en sortent moins bien.",
+      "sections": [
+       {
+        "intertitre": "Ce que montre l'analyse de la RBA",
+        "texte": "Selon The Decoder, l'IA n'a jusqu'ici supprimé que très peu d'emplois en Australie, mais les jeunes qui entrent sur le marché du travail dans des domaines très exposés, comme le développement logiciel, s'en sortent moins bien. Mike Major, auteur de l'analyse pour la banque centrale (RBA), a bâti un système de suivi centré sur les débutants et sur les métiers très exposés : programmation, travail administratif, service client. Les offres d'emploi ont reculé dans tous les groupes depuis le lancement de ChatGPT fin 2022, le plus fortement dans le groupe le plus exposé, où les 15-24 ans et les jeunes diplômés ont des taux d'emploi plus faibles et un chômage plus élevé que leurs aînés."
+       },
+       {
+        "intertitre": "Les réserves de l'auteur",
+        "texte": "Mike Major met en garde contre toute conclusion hâtive : l'étude n'établit pas de causalité directe et mesure une exposition théorique, non l'usage réel de l'IA par les entreprises. Le cycle conjoncturel après la pandémie ou le télétravail pourraient aussi expliquer ces chiffres. D'après SEEK, l'IA complète le travail existant tout en créant une demande de compétences en IA."
+       },
+       {
+        "intertitre": "Ce que disent d'autres études",
+        "texte": "Une étude de Stanford d'août 2025, fondée sur des millions de fiches de paie américaines, relève que l'emploi des 22-25 ans dans les métiers exposés a baissé de 13 % en valeur relative depuis fin 2022, et de près de 20 % chez les jeunes développeurs, tandis que les salariés plus expérimentés se maintenaient. Une étude d'Anthropic de mars 2026 note un recul des embauches des 22-25 ans (taux d'accès à l'emploi en baisse d'environ 14 %), sans hausse systématique du chômage global. Chez Anthropic, la part des juniors dans les embauches techniques est passée de 27 % à 9 % depuis début 2025 ; l'entreprise se dit un cas particulier. Des chercheurs redoutent une « tragédie des biens communs cognitifs » : sans postes de débutants, les professionnels expérimentés manqueraient plus tard."
+       },
+       {
+        "intertitre": "Des facteurs autres que l'IA",
+        "texte": "Au Danemark, une étude sur 25 000 travailleurs ne voit aucun effet sur l'ensemble de l'économie : malgré 64 % d'adoption de l'IA, ni salaires ni heures travaillées n'ont changé de façon mesurable, et le temps économisé n'atteint que 2,8 %. Une analyse de janvier 2026 sur 10,6 millions de profils LinkedIn, menée par Morgan Frank (université de Pittsburgh), relève que les difficultés des métiers exposés ont commencé début 2022, avant ChatGPT. Enfin, selon le Forum économique mondial, 77 % des entreprises sondées privilégient la formation aux suppressions de postes."
+       }
+      ],
+      "synthese": "Les données australiennes, américaines et celles d'Anthropic convergent : ce sont d'abord les jeunes des métiers exposés qui souffrent, sans effet net sur l'économie entière. La causalité reste toutefois discutée, car d'autres facteurs, antérieurs à ChatGPT, pèsent aussi.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a3"
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-14",
+      "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+      "auteur": "Matthias Bastian",
+      "titre": "OpenAI réorganise sa robotique, convaincue que ses modèles généraux suffisent",
+      "chapo": "OpenAI a replacé ses chercheurs en robotique dans d'autres équipes, pariant que des modèles généralistes comme GPT-6 Astra peuvent piloter directement des robots.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "OpenAI a confirmé à Fortune la réorganisation de son équipe de robotique. Les chercheurs rejoignent l'équipe de recherche principale, dirigée par Mark Chen, directeur de la recherche, tandis que les équipes de robotique appliquée et de matériel passent dans l'organisation Applied de Greg Brockman, président. Un porte-parole présente la robotique comme un volet central de la vision de long terme et dit que la réorganisation en témoigne. The Decoder a corrigé son titre : OpenAI précise que la robotique continue. La décision est intervenue si tard que OpenAI avait déjà réservé un stand (n° 208) au congrès académique de robotique CoRL, à Austin : Fortune l'a trouvé vide, sans logo, même si quelques anciens membres de l'équipe, restés sur place, attiraient encore du monde. Selon Fortune, la question la plus débattue du congrès était de savoir quelle expertise en robotique garderait sa valeur à mesure que les modèles généralistes progressent."
+       },
+       {
+        "intertitre": "Le pari des modèles généralistes",
+        "texte": "Selon OpenAI, les chercheurs pensaient en début d'année progresser en s'appuyant sur des modèles comme Sora ; les modèles généralistes, GPT-6 Astra en tête, ont ensuite montré qu'ils s'appliquent directement à la robotique. Guanya Shi, de Carnegie Mellon, y lit un signe que la robotique n'est plus « un problème spécial ». Dans une étude de Nvidia, un agent animé par Astra réussit 74,8 % des tâches d'un banc d'essai simulé, contre 51 % pour les meilleurs modèles spécialisés ; le robot était simulé. Sur StationeryBench, avec des bras robotisés YAM, Astra termine 7 tâches sur 100 et MolmoAct2 d'Ai2 aucune ; le score moyen de progression est de 46 contre 12. Sur un robot humanoïde, Astra a navigué dans une cuisine et l'a rangée. Yoav Artzi, de Cornell et de Google DeepMind, voit en Astra un bond majeur en compréhension spatiale : sur le test REMAP, encore inédit, le modèle approcherait la précision humaine, et OpenAI aurait pu l'entraîner avec beaucoup de données 3D, comme des scènes Blender."
+       },
+       {
+        "intertitre": "Les réserves",
+        "texte": "On ignore quelle part de données de robotique OpenAI et d'autres ont intégrée à l'entraînement. D'autres grands modèles, chez Anthropic et Google, ont aussi progressé récemment en robotique. Les modèles spécialisés pourraient garder l'avantage en coût, fiabilité, vitesse et consommation d'énergie. Selon Shi, les progrès des modèles généralistes en raisonnement spatial leur permettent déjà de gérer une bouteille déplacée, un éclairage modifié ou l'étape d'une tâche qui a échoué. Il voit encore un besoin de petits modèles embarqués, car les grands modèles sont lents et hébergés dans le cloud. Russ Tedrake, du MIT et de Walden Robotics, rappelle que les entreprises de robotique ont l'avantage du déploiement réel, comme en usine. Pete Florence, cofondateur de Generalist, start-up qui entraîne des modèles généralistes pour robots, juge incertain qu'un modèle existant domine à long terme : il peut y avoir plusieurs points de départ pour faire grandir l'intelligence. Selon Fortune, cette approche remet en cause les hypothèses de nombreuses start-up de robotique, qui ont levé des milliards en pariant que les robots ont besoin de leur propre cerveau."
+       },
+       {
+        "intertitre": "Une histoire compliquée",
+        "texte": "OpenAI avait fermé sa division robotique en 2020 : selon son cofondateur Wojciech Zaremba, les données de robots manquaient et les grands modèles de langage offraient une voie plus rapide vers l'AGI. L'équipe a été reconstituée en 2024 avec un partenariat avec Figure, terminé en février 2025. OpenAI développe désormais son propre robot humanoïde, et Sam Altman viserait une première démonstration publique de robot en 2027. OpenAI subit aussi une pression financière : Fortune cite 10,9 milliards de dollars de pertes d'exploitation au dernier trimestre, et une possible introduction en Bourse début 2027. Altman avait demandé à l'entreprise d'abandonner les « projets annexes » ; Sora en fait partie, au profit d'activités plus rentables. Selon The Decoder, OpenAI a perdu du terrain face à Anthropic dans son cœur de métier."
+       }
+      ],
+      "synthese": "OpenAI disperse ses chercheurs en robotique en pariant sur les modèles généralistes, tout en affirmant poursuivre ses ambitions. Des experts jugent les modèles spécialisés encore utiles.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Fortune",
+        "url": "http://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+       }
+      ],
+      "format": "long",
+      "id": "a8"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-16",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "auteur": "",
+      "id": "a12",
+      "titre": "Bharat Semi lève 24 millions de dollars pour ses capteurs IA",
+      "texte": "La start-up indienne de puces affirme avoir décroché des contrats de conception pour sa technologie de capteurs IA, avec notamment General Atomics. Elle vise le marché mondial des capteurs IA."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-16",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "auteur": "",
+      "id": "a11",
+      "titre": "Apple lance une application pour une étude sur l'usage de l'IA en santé",
+      "texte": "Apple présente une application destinée à une étude sur la façon dont les gens utilisent l'IA pour leurs questions de santé. Elle doit répondre à des questions médicales du quotidien."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-14",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "auteur": "",
+      "id": "a17",
+      "titre": "IA : la liste des projets et start-up qui n'ont pas abouti",
+      "texte": "Une liste évolutive recense les projets d'IA qui ont fermé ou déçu, des retards à répétition de la Siri d'Apple au lancement compliqué de la « super app » d'OpenAI."
+     }
+    ]
+   },
+   {
+    "id": "france",
+    "titre": "Actualité France",
+    "developpes": [
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-15",
+      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/des-courriers-ont-pu-etre-lus-ce-que-l-on-sait-de-la-cyberattaque-contre-maileva-filiale-de-la-poste-qui-a-conduit-au-vol-de-donnees-de-22-millions-de-personnes_8283266.html#xtor=RSS-3-[lestitres]",
+      "auteur": "Fabien Jannic-Cherbonnel",
+      "titre": "Maileva, filiale de La Poste : les données de 22 millions de personnes volées",
+      "chapo": "Maileva, filiale du groupe La Poste, a annoncé samedi 14 novembre une cyberattaque de grande ampleur ayant permis le vol des coordonnées de 22 millions de personnes ; une enquête est ouverte.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "C'est l'une des cyberattaques les plus importantes commises en France. Maileva a annoncé samedi 14 novembre avoir été touchée par une attaque de grande ampleur, qui a conduit au vol des coordonnées de 22 millions de personnes, toutes « destinataires des entreprises clientes de Maileva ». La Poste précise que l'attaque a eu lieu mi-septembre. L'entreprise n'a pas communiqué précisément sur la méthode d'intrusion. Antoine Hautin, secrétaire général de l'entreprise de cybersécurité Almond, y voit « un scénario de cyberattaque classique », où les pirates attaquent un prestataire pour récupérer des bases de données."
+       },
+       {
+        "intertitre": "Une plateforme au coeur du courrier d'entreprise",
+        "texte": "Maileva est une plateforme en ligne spécialisée dans l'envoi et la gestion de courriers et de documents professionnels. Filiale de Docaposte, elle-même filiale de La Poste, elle revendique plus de 70 000 utilisateurs et 180 millions de documents (bulletins de salaire, factures, recommandés) envoyés en 2024. Elle imprime et expédie des courriers pour de grandes entreprises et des institutions publiques, comme des bailleurs sociaux et des hôpitaux. Fin septembre, Docaposte avait suspendu ses services pendant six jours après une tentative de détournement de la plateforme, avec des « tentatives d'accès non autorisées », selon le site Solutions numériques et cybersécurités. Pour Antoine Hautin, Maileva présente « un risque systémique », car elle est utilisée par des dizaines de milliers d'organisations."
+       },
+       {
+        "intertitre": "Les données exposées",
+        "texte": "Les données exposées sont le prénom, le nom et l'adresse postale des personnes concernées. Début novembre, des bailleurs sociaux, dont Flandre Opale Habitat et Altéal, ont signalé une fuite liée à cette attaque. Flandre Opale Habitat indique que des informations administratives ou financières, comme un montant de facture, ont aussi été récupérées, et que des données personnelles contenues dans des courriers envoyés au cours des dix dernières années ont pu être consultées sans autorisation. L'hôpital Foch de Suresnes a prévenu ses patients que des courriers de relance de paiement « ont pu être lus par un pirate informatique », sans mention de la nature des soins ni de coordonnées bancaires. Selon le règlement européen sur la protection des données personnelles, les entreprises concernées doivent prévenir leurs clients."
+       },
+       {
+        "intertitre": "Les risques pour les personnes concernées",
+        "texte": "Le principal risque est la réception de courriers frauduleux ressemblant à des lettres légitimes : selon Antoine Hautin, l'intelligence artificielle permet d'automatiser facilement les campagnes de fraude. Face à une demande inhabituelle, il conseille de contacter l'émetteur par un autre canal ; l'hôpital Foch invite à se méfier de toute demande d'argent semblant venir de l'établissement. Les données alimenteront aussi des bases géantes sur le dark web : plus la fuite est récente, plus les informations sont fiables, ce qui permet de tenir une fiche sur chaque citoyen, avec par exemple ses liens avec un hôpital ou un bailleur social."
+       },
+       {
+        "intertitre": "L'enquête et le contexte",
+        "texte": "Maileva a notifié la Cnil, déposé plainte et informé toutes les entreprises concernées. Le parquet de Paris a confirmé dimanche que la brigade de lutte contre la cybercriminalité était chargée de l'enquête, ouverte pour « atteinte à un système de traitement automatisé de données ». La Poste avait déjà subi en décembre 2025 une cyberattaque massive, revendiquée par des hackeurs prorusses, qui avait perturbé la Banque postale et le suivi des colis. Début novembre, Crédit Mutuel Arkéa a fait état d'une attaque de l'ordre de 100 millions d'euros, et France Travail avait été visé début 2024, avec un risque pour les données de 43 millions de personnes. Le ministre des Comptes publics, David Amiel, a évoqué dimanche sur franceinfo une multiplication des cyberattaques et appelé à investir dans la cybersécurité."
+       }
+      ],
+      "synthese": "L'attaque contre Maileva, qui touche les destinataires de courriers de nombreuses organisations, expose 22 millions de personnes à un risque de fraude. L'enquête vient de s'ouvrir, dans un contexte de multiplication des attaques informatiques.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a34"
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-15",
+      "url": "https://www.franceinfo.fr/economie/transports/mobilisation-du-17-novembre/la-cfdt-rejoint-la-mobilisation-du-17-novembre-parce-que-nos-revendications-n-ont-pas-abouti-explique-le-syndicat_8283890.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "titre": "Fonction publique : la CFDT rejoint la mobilisation du 17 novembre",
+      "chapo": "La CFDT se joint à l'appel à la grève dans le public mardi 17 novembre, ses revendications salariales n'ayant pas abouti après la réunion avec le Premier ministre.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "La CFDT a annoncé vendredi 13 novembre qu'elle se joignait à l'appel à la grève et à la mobilisation dans le public le mardi 17 novembre. Dimanche sur franceinfo, Laure Revel, secrétaire générale de la CFDT fonction publique, a justifié ce choix : « nos revendications n'ont pas abouti » sur les revalorisations salariales. Le syndicat avait d'abord opté pour la négociation, avec deux rendez-vous avec le gouvernement, en poussant ses revendications, mais « ça n'a pas répondu aux attentes »."
+       },
+       {
+        "intertitre": "Le contexte : une réunion jugée décevante",
+        "texte": "L'intersyndicale de la fonction publique est sortie déçue de la réunion de vendredi avec Sébastien Lecornu. Le Premier ministre y a annoncé l'ouverture d'une discussion d'un mois pour revaloriser les bas salaires, des mesures qui, selon les syndicats, « ne répondent pas à l'urgence » de la situation. Laure Revel rappelle que les représentants des agents publics n'avaient pas été reçus par le Premier ministre depuis 2008, et que ces revendications « ne sont pas de la semaine dernière » : le syndicat les porte depuis plusieurs mois, voire plusieurs années. À ses yeux, ne pas y répondre a été un choix du gouvernement."
+       },
+       {
+        "intertitre": "Pouvoir d'achat et attractivité",
+        "texte": "Laure Revel affirme que, depuis 2017, l'inflation a été trois à quatre fois plus élevée que l'augmentation du point d'indice des agents : toutes les catégories subissent donc une baisse de pouvoir d'achat. Elle évoque aussi, pour l'ensemble des services publics, un « vrai déficit d'attractivité », avec deux millions d'agents qui partiront à la retraite d'ici une dizaine d'années."
+       },
+       {
+        "intertitre": "Un message aux candidats",
+        "texte": "À moins de six mois du premier tour de la présidentielle, le 18 avril 2027, elle espère que les candidats entendront ces revendications, qui visent aussi la sauvegarde du service public. Elle observe que l'on parle beaucoup de baisse des effectifs sans que les candidats disent concrètement ce qui sera abandonné, ni quelles sont les perspectives pour les agents publics."
+       }
+      ],
+      "synthese": "Faute d'avancée jugée suffisante sur les salaires, la CFDT se joint à la grève du 17 novembre dans la fonction publique, après une réunion avec le Premier ministre jugée décevante. Elle interpelle aussi les candidats à la présidentielle sur l'avenir du service public.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a33"
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-15",
+      "url": "https://www.franceinfo.fr/societe/pauvrete/presidentielle-2027-la-pauvrete-requiert-des-solutions-structurelles-selon-les-restos-du-coeur_8283881.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "titre": "Présidentielle 2027 : les Restos du Coeur réclament des solutions structurelles",
+      "chapo": "À la veille d'un débat télévisé avec cinq candidats, le président des Restos du Coeur juge que la réponse de l'association face à la précarité atteint ses limites et formule neuf objectifs.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Dans une tribune publiée dimanche 15 novembre par le quotidien Ouest France, Jean-Michel Richard, président des Restos du Coeur, estime que « la pauvreté atteint des niveaux inédits depuis des décennies » en France. Selon lui, cette « urgence sociale » appelle des « solutions structurelles », alors que « la multiplication des crises depuis 2023 frappe violemment les personnes en situation de précarité ». Il affirme que « la réponse que Les Restos du coeur apportent à la précarité en France est essentielle, mais elle atteint ses limites »."
+       },
+       {
+        "intertitre": "Les chiffres de l'association",
+        "texte": "Pour étayer ce constat, Jean-Michel Richard cite l'activité de l'an dernier : 1,4 million de personnes accueillies et 186 millions de repas distribués, contre 161 millions l'année précédente. Le nombre de repas distribués a donc augmenté de 25 millions d'une année sur l'autre. C'est sur ces chiffres que le président de l'association fondée par Coluche appuie son constat : la réponse des Restos est « essentielle », mais elle « atteint ses limites »."
+       },
+       {
+        "intertitre": "Le contexte : un débat avec cinq candidats",
+        "texte": "La tribune paraît à la veille d'un débat télévisé consacré aux enjeux de solidarité, de pouvoir d'achat et de lutte contre la pauvreté. Il réunira lundi cinq candidats à la présidentielle : Marine Le Pen, Jean-Luc Mélenchon, Raphaël Glucksmann, Bruno Retailleau et Gabriel Attal. Filmé dans un entrepôt des Restos du Coeur, il sera diffusé sur LCI et en partie dans le JT de TF1. Il précède le lancement de la 42e campagne de l'association, qui veut « remettre la lutte contre la pauvreté au coeur » de la campagne présidentielle."
+       },
+       {
+        "intertitre": "Les neuf objectifs incontournables",
+        "texte": "Jean-Michel Richard liste « neuf objectifs incontournables » pour le prochain quinquennat. Il demande qu'un objectif chiffré de réduction de la pauvreté soit fixé, assorti d'une stratégie nationale prévoyant que plus d'un million de personnes sortent de la pauvreté d'ici 2030. Il réclame une politique publique coordonnée pour aller vers un accès universel à l'alimentation, fait de la lutte contre la pauvreté des enfants et des familles une priorité et propose de créer un droit à l'accompagnement pour sortir durablement de la précarité. Il demande enfin de consolider le financement du monde associatif et d'assurer un cadre fiscal favorable au don et au mécénat. La liste mêle ainsi des objectifs de résultats, des droits et des moyens de financement."
+       },
+       {
+        "intertitre": "L'enjeu",
+        "texte": "Pour l'association, l'enjeu est de remettre la lutte contre la pauvreté au coeur de la campagne présidentielle. Son président estime que la situation, qu'il décrit comme inédite depuis des décennies, appelle des solutions structurelles, parmi lesquelles une stratégie nationale et une politique publique coordonnée, la réponse des Restos du Coeur, bien qu'essentielle, atteignant ses limites."
+       }
+      ],
+      "synthese": "Les Restos du Coeur, qui ont servi 186 millions de repas l'an dernier, demandent aux candidats de fixer des objectifs chiffrés contre la pauvreté. Cinq candidats en débattront lundi, filmés dans un entrepôt de l'association.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/societe/pauvrete/presidentielle-2027-la-pauvrete-requiert-des-solutions-structurelles-selon-les-restos-du-coeur_8283881.html"
+       }
+      ],
+      "format": "long",
+      "id": "a32"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-15",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/15/elections-legislatives-le-chantier-sans-cesse-repousse-du-redecoupage-electoral_6811034_823448.html",
+      "auteur": "",
+      "id": "a20",
+      "titre": "Législatives : le redécoupage électoral, un chantier sans cesse repoussé",
+      "texte": "Si des élections législatives sont organisées en 2027 après la présidentielle, elles reposeront sur une carte électorale qui n’a plus été retouchée depuis 2009. Les autorités politiques tardent à lancer ce chantier à haut risque, même si une commission dédiée s’est remise au travail."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-15",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/15/fractures-francaises-un-paysage-politique-clive-dans-lequel-l-election-presidentielle-n-est-plus-vue-comme-une-solution_6811038_823448.html",
+      "auteur": "",
+      "id": "a19",
+      "titre": "« Fractures françaises » : une société en colère, un clivage gauche-droite net",
+      "texte": "Cette grande enquête annuelle sur les valeurs des Français, réalisée par Ipsos BVA-CESI pour Le Monde, le Cevipof, la Fondation Jean Jaurès et l’Institut Montaigne, dresse un instantané de l’humeur politique à l’approche de la présidentielle. Elle décrit une société de plus en plus en colère, avec un retour très net du clivage gauche-droite, dans un paysage où l’élection présidentielle n’est plus vue comme une solution."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-15",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/15/a-paris-les-rassemblements-interdits-de-lundi-a-vendredi-autour-de-certains-lycees-et-universites_6811050_3224.html",
+      "auteur": "",
+      "id": "a26",
+      "titre": "Paris : rassemblements interdits autour de certains lycées et universités",
+      "texte": "Le préfet de police interdit les rassemblements de lundi à vendredi autour de certains lycées et universités. Il estime que les blocages sont le plus souvent le fait d'une minorité d'élèves."
+     }
+    ]
+   },
+   {
+    "id": "monde",
+    "titre": "Actualité Monde",
+    "developpes": [
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-16",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374523/china-us-russia-trilateral-set-thursday-beijing",
+      "auteur": "",
+      "titre": "Trump, Xi et Poutine se réuniront jeudi à Shenzhen, en marge du sommet de l'Apec",
+      "chapo": "Pékin annonce la première rencontre à trois des dirigeants des États-Unis, de Chine et de Russie, avec la menace nucléaire en tête d'un ordre du jour chargé.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Pékin a indiqué lundi que Xi Jinping, Donald Trump et Vladimir Poutine tiendront jeudi, à Shenzhen, une réunion trilatérale en marge du sommet des dirigeants de l'Apec. Selon le South China Morning Post, ce sera la première fois que les dirigeants des trois principales puissances nucléaires et géopolitiques siègent ensemble sous cette forme. La Maison-Blanche l'a confirmé, après avoir confirmé vendredi la présence de Trump au sommet, qui se tient les 18 et 19 novembre. Selon la Maison-Blanche, les échanges porteront sur la prolifération nucléaire, mais ils interviennent dans un contexte de fortes turbulences : guerre de la Russie en Ukraine, guerre américano-israélienne contre l'Iran et tensions commerciales entre Washington et Pékin. Simon Mabon, professeur de politique internationale à l'université de Lancaster, s'attend à de belles photos et à une rhétorique grandiloquente de Trump."
+       },
+       {
+        "intertitre": "Le nucléaire en tête",
+        "texte": "Pour Moscou et Washington, le sujet principal est le traité New Start, expiré en février : signé en 2010, il plafonnait les arsenaux stratégiques américain et russe. La Russie possède le plus d'ogives, devant les États-Unis puis la Chine, qui renforce rapidement son arsenal. Trump avait refusé la proposition russe de prolonger le traité et exige un accord « nouveau, amélioré et modernisé » incluant Pékin. La Chine serait réticente à rejoindre un accord auquel elle n'a pas participé ; son ministère des Affaires étrangères jugeait le mois dernier qu'il ne serait « ni juste, ni raisonnable, ni réaliste » de lui demander de rejoindre ces négociations à ce stade. Un haut responsable de l'administration Trump a dit à Reuters que le sujet ouvrirait la conversation, mais que « nous ne nous attendons à aucune sorte d'accord »."
+       },
+       {
+        "intertitre": "Iran, commerce et Ukraine",
+        "texte": "Les dirigeants doivent aussi évoquer la guerre contre l'Iran lancée par les États-Unis et Israël le 28 février : les frappes de grande ampleur ont cessé pour l'instant, mais le conflit reste dans l'impasse. Après plus de cent jours, le détroit d'Ormuz reste fermé ; un tiers du pétrole brut chinois y transitait avant la guerre. Le commerce pèse aussi sur les relations sino-américaines : taxes de 145 % côté américain l'an dernier, 125 % en représailles, puis baisses et accords. La Russie a profité de la hausse des prix de l'énergie et d'un allègement des sanctions américaines, surtout pour le diesel. Le scandale récent chez Nvidia a conduit Washington à accuser Pékin d'espionner son PDG Jensen Huang, ce que la Chine dément. L'Ukraine, elle, ne devrait pas être abordée, selon un responsable américain : la Chine n'est pas partie à la voie de négociation menée par les émissaires Steve Witkoff et Jared Kushner, qui visitent l'Ukraine et la Russie cette semaine. Pékin, allié de Moscou, estime que la guerre en Ukraine est une affaire européenne."
+       },
+       {
+        "intertitre": "Ce que veut chacun",
+        "texte": "Pour Poutine, la réunion offrirait une image favorable et une position de « premier parmi ses pairs » à valoriser chez lui, selon l'analyste Alexander Bratersky. La Chine veut une issue à la guerre en Iran, qui pèse sur ses approvisionnements énergétiques, et éviter un traité nucléaire qu'elle n'a pas contribué à bâtir. Trump veut un traité incluant Chine et Russie, selon l'administration ; pour Simon Mabon, de l'université de Lancaster, la rencontre sera plus théâtrale que pacificatrice, et aucun des trois ne peut mettre fin aux conflits en Iran ou en Ukraine."
+       },
+       {
+        "intertitre": "Un nouveau Yalta ?",
+        "texte": "Pyotr Tolstoï, président de la commission des affaires étrangères du Parlement russe, évoque un possible « nouveau Yalta », en référence à la conférence de 1945. Le porte-parole du Kremlin, Dmitri Peskov, juge la rencontre « extrêmement importante » mais précise que d'éventuels accords ne pourront être imposés à d'autres nations. Les experts notent aussi que la lourde défaite du Parti républicain aux élections de mi-mandat de la semaine dernière pourrait affaiblir Trump : un Congrès à majorité démocrate soutiendrait plus fermement l'Ukraine. Al Jazeera rappelle que Yalta avait vu Staline, Roosevelt et Churchill se partager l'Allemagne et fonder l'ONU."
+       }
+      ],
+      "synthese": "La réunion de Shenzhen sera une première à trois sur fond de guerre en Iran et de tensions commerciales. Le nucléaire domine l'agenda, mais aucun accord n'est attendu.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect"
+       }
+      ],
+      "format": "long",
+      "id": "a70"
+     },
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-15",
+      "url": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Chris Lunday",
+      "titre": "L'Estonie fermera tous ses points de passage avec la Russie dès le 1er décembre",
+      "chapo": "Tallinn accuse le renseignement militaire russe (GRU) d'avoir commandité une tentative d'incendie contre le fabricant de drones Threod Systems, et ferme la frontière.",
+      "sections": [
+       {
+        "intertitre": "Le déclencheur",
+        "texte": "Des intrus ont été découverts peu après 3 h du matin, samedi, chez Threod Systems à Viimsi, près de Tallinn, alors qu'ils tentaient de pénétrer dans le bâtiment pour y mettre le feu et provoquer une explosion, a indiqué dimanche la procureure générale Astrid Asi. Threod Systems fabrique des drones de reconnaissance et d'attaque. Le service de sécurité intérieure Kapo parle d'une attaque menée dans le but de causer une explosion et d'incendier le bâtiment. Selon la presse relayée par The Guardian, aucun blessé ni dégât n'a été signalé après la réaction de l'équipe de sécurité de l'entreprise ; le Premier ministre Kristen Michal dit que des dégâts importants ont été évités grâce au renforcement de la sécurité et à la réaction rapide des forces de l'ordre."
+       },
+       {
+        "intertitre": "La décision de fermer la frontière",
+        "texte": "Dimanche, le ministre des Affaires étrangères Margus Tsahkna a écrit sur X que, face à des preuves claires de la commande de l'attaque par le GRU, l'Estonie fermerait tous ses points de passage avec la Russie à partir du 1er décembre. Il a informé ses homologues finlandais, letton et lituanien. L'Estonie compte trois points de passage, à Narva, Luhamaa et Koidula ; la Russie avait déjà suspendu la circulation des véhicules à Narva en février 2024, les piétons pouvant encore passer. Selon The Guardian, les autorités n'ont pas précisé la durée de la fermeture. Michal affirme qu'elle est nécessaire pour réduire le risque de nouvelles attaques et envoyer un message clair : les attaques contre l'industrie de défense estonienne et ses capacités de défense sont inacceptables. Ces points de passage comptent parmi les rares liaisons terrestres restantes entre les deux pays et permettent la circulation des personnes et des marchandises."
+       },
+       {
+        "intertitre": "Les interpellations",
+        "texte": "Les forces de sécurité ont arrêté huit personnes qui vivent en Lettonie, selon la procureure Astrid Asi citée par France 24. Selon la radiotélévision publique ERR, rapportée par The Guardian, les autorités ont demandé qu'un tribunal maintienne cinq d'entre elles en détention. Politico et France 24 parlent d'intrus ou d'attaquants arrêtés, The Guardian de huit personnes détenues pendant l'attaque. Michal souligne que ces arrestations ont suivi des avertissements adressés à l'industrie de la défense : la préparation, dit-il, a clairement payé."
+       },
+       {
+        "intertitre": "Un contexte de tensions",
+        "texte": "Pour Michal, l'incident s'inscrit dans la guerre hybride menée par la Russie contre l'Europe, dont le but est de réduire le soutien à l'Ukraine et d'accroître la pression sur la Russie. « Le but de la Russie est de nous faire peur, de nous faire hésiter et d'affaiblir notre soutien à l'Ukraine », dit-il ; la réponse de l'Estonie sera inverse : renforcer sa sécurité, travailler plus étroitement avec les entreprises et les alliés, accroître la pression sur Moscou et continuer d'aider Kyiv. Tsahkna avertit que la Russie doit comprendre que les actions hostiles contre l'Estonie ont des conséquences et que les tentatives d'intimidation ne resteront pas sans réponse. En août, l'entreprise de défense Milrem, établie à Tallinn, avait été visée par une tentative d'incendie, et des ressortissants lettons avaient été arrêtés. En septembre, la Kapo se disait convaincue d'une attaque préparée pour le compte des services spéciaux russes ; l'Estonie avait convoqué le chargé d'affaires russe, et le Kremlin avait démenti tout lien, parlant d'accusation « sans fondement » et irréfléchie. La Kapo y voyait un schéma d'attaques russes visant les entreprises de défense et de drones, en particulier celles liées à l'Ukraine. Plusieurs services de renseignement européens mettent en garde contre des attaques possibles et contre les tentatives russes de recruter des citoyens de l'UE et de l'Otan, par messagerie en ligne, pour commettre des sabotages."
+       },
+       {
+        "intertitre": "La réaction de Moscou",
+        "texte": "La porte-parole du ministère russe des Affaires étrangères, Maria Zakharova, a déclaré à l'agence TASS que Moscou vérifierait si l'Estonie prévoit bien de fermer tous les points de passage. Si tel est le cas, a-t-elle ajouté, ce serait un nouvel accès de russophobie agressive et débridée."
+       }
+      ],
+      "synthese": "L'Estonie ferme sa frontière avec la Russie le 1er décembre après une tentative d'incendie qu'elle attribue au GRU. Moscou promet de vérifier l'annonce et dénonce de la russophobie.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "France 24",
+        "url": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory"
+       },
+       {
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker"
+       }
+      ],
+      "format": "long",
+      "id": "a65"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-16",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
+      "auteur": "Kristina Harazim; Leena Fraihat",
+      "id": "a89",
+      "titre": "Guerre en Iran : un troisième porte-avions américain au Moyen-Orient",
+      "texte": "Le porte-avions USS Theodore Roosevelt est arrivé au Moyen-Orient, a indiqué un responsable américain à Al Jazeera. Il rejoint deux autres porte-avions de la zone du Commandement central américain. De son côté, Kazem Gharibabadi, vice-ministre iranien des Affaires étrangères chargé des questions juridiques et internationales, affirme que Téhéran « n'attendra pas que les États-Unis attaquent en premier » et laisse entendre que Washington pourrait gagner du temps par la diplomatie pour préparer une nouvelle attaque."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-16",
+      "url": "https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions?traffic_source=rss",
+      "auteur": "",
+      "id": "a85",
+      "titre": "États-Unis : Trump demande 50 milliards pour les infrastructures aériennes",
+      "texte": "Après un arrêt national du trafic aérien, Donald Trump demande 50 milliards de dollars pour moderniser les infrastructures. Les élus démocrates réclament davantage de transparence avant toute nouvelle dépense."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-16",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/czechs-rally-against-govt-threat-to-media-independence?traffic_source=rss",
+      "auteur": "",
+      "id": "a86",
+      "titre": "Tchéquie : manifestation à Prague contre un projet visant les médias publics",
+      "texte": "À Prague, des manifestants se sont rassemblés contre un projet de transfert du financement des médias publics vers l'État. Ils craignent une influence du gouvernement sur l'information."
+     }
+    ]
+   },
+   {
+    "id": "recherche",
+    "titre": "Recherche & travaux d'experts",
+    "developpes": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w35986#fromrss",
+      "auteur": "Sofia Amaral; Girija Borker; Nishith Prakash; María Micaela Sviatschi",
+      "titre": "Bihar : stage de théâtre réduit les biais policiers face aux violences de genre",
+      "chapo": "Un essai randomisé auprès de 2 500 policiers du Bihar montre qu'une formation de trois jours par les arts de l'expression améliore l'accueil des victimes de violences de genre.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "Les agents de première ligne disposent d'un large pouvoir d'appréciation sur l'accès des citoyens aux services publics, mais on sait peu si leurs attitudes peuvent évoluer chez des fonctionnaires déjà en poste. La police est un cas aigu : elle décide de prendre ou non une plainte au sérieux et n'a pas de substitut privé. Pour les violences fondées sur le genre, marquées par la stigmatisation, les réactions dédaigneuses et le fait de blâmer la victime font baisser les signalements. Au Bihar, 40 % des femmes de 18 à 49 ans déclarent des violences physiques ou sexuelles de leur conjoint, mais 2 % seulement des victimes sollicitent la police. Cet écart persiste malgré des lois protectrices et un quota de 35 % de femmes au recrutement. Le Bihar est l'État le plus pauvre de l'Inde, avec un PIB par habitant de 925 dollars."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "Environ sept mois après la mesure initiale, les officiers formés montrent des attitudes plus favorables, plus d'empathie et de meilleures connaissances juridiques ; l'effet sur l'indice d'attitudes est de 0,082 écart-type. Environ un an plus tard, dans des audits standardisés où de fausses victimes se présentent au commissariat, les officiers des postes traités ont 15 points de pourcentage de moins de risque de blâmer la victime, classent moins de plaintes sans suite et orientent davantage. Les registres administratifs indiquent un délai d'enregistrement réduit de 41 %, puis, à plus long terme, davantage de signalements de violences par les citoyens. Huit mois après la formation, les jeunes policières travaillant avec des supérieurs formés déclarent moins d'anxiété (-0,39 écart-type) et moins de harcèlement (-0,06)."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "Avec la police du Bihar, les auteurs ont mené un essai contrôlé randomisé en grappes dans 417 postes de douze districts, auprès d'environ 2 500 officiers supérieurs en activité, au service de 42 millions d'habitants. Les 217 postes traités ont reçu une formation de trois jours inspirée du Théâtre de l'opprimé : jeux de rôle et mises en situation où les officiers adoptent le point de vue des victimes, puis réflexion collective et engagements de changement de pratiques. Le dispositif découle de dix-huit mois d'enquête de terrain. Les données combinent enquêtes, audits de victimes simulées et environ 500 000 dossiers de police. Les mutations d'officiers servent à distinguer un changement durable chez l'individu d'une diffusion des normes dans le poste."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Les biais des agents publics sont modifiables, et on peut améliorer le service rendu en agissant sur ceux qui sont déjà en place, sans changer le personnel. Les officiers formés qui rejoignent un poste de contrôle gardent leurs progrès, et les officiers non formés qui arrivent dans un poste traité s'améliorent aussi : les auteurs y voient un changement individuel durable combiné à une diffusion des normes au sein du poste. La hausse des signalements n'apparaît qu'après l'amélioration de la conduite des officiers, ce qui correspond à une confiance rebâtie peu à peu. Le coût est d'environ 108 dollars par officier, soit 136 560 euros au total, moins d'un centime de dollar par habitant concerné. Aucun effet n'a été détecté sur la dépression ou l'anxiété des officiers."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Les mutations ne sont pas attribuées au hasard : elles peuvent tenir à des raisons administratives, politiques ou disciplinaires, et les auteurs ne parlent donc que d'indices sur la persistance et la diffusion. Le programme formant un seul bloc, ils n'ont pas pu séparer expérimentalement les deux canaux. Les comparaisons de coût avec d'autres programmes restent approximatives."
+       }
+      ],
+      "synthese": "Une formation de trois jours par le théâtre a rendu les policiers du Bihar moins enclins à blâmer les victimes et plus rapides à enregistrer les plaintes, avec des effets qui semblent durer et se diffuser. Les auteurs soulignent toutefois que les preuves sur les mutations restent indicatives.",
+      "republication": "",
+      "reference": "Sofia Amaral, Girija Borker (Banque mondiale), Nishith Prakash (Northeastern University), María Micaela Sviatschi (Princeton University et NBER), NBER Working Paper n° 35986, novembre 2026 ; document de travail non relu par des pairs.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a99"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Données",
+      "source": "Our World in Data",
+      "date": "2026-11-16",
+      "url": "https://ourworldindata.org/no-matter-how-you-ask-more-americans-are-negative-than-positive-about-ai",
+      "auteur": "",
+      "id": "a102",
+      "titre": "IA : plus d'Américains négatifs que positifs, quelle que soit la question",
+      "texte": "Cinq enquêtes de qualité interrogent les Américains sur l'IA de différentes façons. Leur formulation compte, mais l'image d'ensemble reste cohérente : les opinions négatives dominent."
+     }
+    ]
+   },
+   {
+    "id": "veille",
+    "titre": "Veille réglementaire",
+    "developpes": [
+     {
+      "rubrique": "Sanctions et export",
+      "source": "NPR",
+      "date": "2026-11-14",
+      "url": "https://www.npr.org/2026/11/14/nx-s1-6040379/commerce-department-under-pressure-for-delaying-export-controls-on-nvidia-chips",
+      "auteur": "Sarah Robbins",
+      "titre": "Puces Nvidia : le département du Commerce critiqué pour son inaction",
+      "chapo": "Le département du Commerce et son secrétaire Howard Lutnick sont accusés de ne pas avoir resserré le contrôle des exportations de puces Nvidia vers la Chine malgré les alertes sécuritaires.",
+      "sections": [
+       {
+        "intertitre": "Le déclencheur",
+        "texte": "La pression monte sur le département américain du Commerce et sur son secrétaire, Howard Lutnick, qui doivent expliquer pourquoi des puces de Nvidia ont pu être exportées vers la Chine malgré les inquiétudes de sécurité nationale de membres du cabinet et des agences de renseignement. Le secrétaire au Trésor, Scott Bessent, accuse ce département de ne pas avoir inscrit Megaspeed, une société basée à Singapour et soupçonnée de liens avec le renseignement chinois, sur la liste fédérale des entités soumises à restrictions commerciales. Selon lui, d'autres étaient favorables à cette inscription depuis des mois, mais c'est le Commerce, par son Bureau de l'industrie et de la sécurité (BIS), qui « tient le stylo » : il faut l'interroger sur ses procédures internes."
+       },
+       {
+        "intertitre": "Les reproches de Liza Tobin",
+        "texte": "Invitée de NPR, Liza Tobin, ancienne directrice Chine du Conseil de sécurité nationale sous la première administration Trump puis sous celle de Biden, rappelle que le Congrès a confié au Commerce l'autorité légale de réguler l'exportation de ces puces d'intelligence artificielle : il écrit les règles et joue aussi un rôle de police. Pour elle, le scandale est désormais exposé et Lutnick en est le centre, faute d'avoir fait appliquer ces règles. Elle estime que le Congrès éclaircira ses motivations, et se demande s'il a profité d'une forme de capture réglementaire. Elle avance que les autres conseillers du président, dont Scott Bessent, le conseiller technologique Michael Kratsios, Marco Rubio et le directeur du renseignement national Jay Clayton, plaidaient tous pour fermer ces failles et empêcher la Chine d'accéder à la puissance de calcul américaine."
+       },
+       {
+        "intertitre": "Un possible conflit d'intérêts",
+        "texte": "L'animateur Rob Schmitz souligne que Cantor Fitzgerald, société dirigée par les fils de Lutnick, Brandon et Kyle, aide à placer des entreprises exploitant des centres de données en Asie et a donc un intérêt financier à des restrictions plus souples, que Lutnick était chargé de mettre en oeuvre. Liza Tobin juge que cela ressemble absolument à un conflit d'intérêts. Elle rappelle que le président avait autorisé la vente de la génération précédente de puces Nvidia, les H200, moins puissantes, mais pas celle des Blackwell, alors les plus avancées. Or, selon elle, beaucoup de puces Blackwell ont été soit introduites en contrebande, soit rendues accessibles à des développeurs chinois d'IA via des centres de données en Malaisie. Elle affirme que le président a demandé trois fois à Lutnick de traiter le problème et que celui-ci a traîné les pieds."
+       },
+       {
+        "intertitre": "Les enjeux militaires et le rôle de Jensen Huang",
+        "texte": "Selon Liza Tobin, le président apprécie les hommes riches et puissants comme Jensen Huang, de Nvidia, qui aurait eu un accès privilégié à la Maison Blanche et presque joué le rôle de directeur technique des États-Unis. Elle résume sa thèse ainsi : vendre ces puces jugées dépassées à la Chine pour la maintenir dépendante de la technologie américaine. Elle met en garde : ces puces ont des usages militaires. La Chine, dit-elle, reste loin de pouvoir produire des puces du niveau de celles de Nvidia, et ses développeurs d'IA les convoitent pour le guidage de missiles, les missiles hypersoniques ou la guerre sous-marine. Elle prévoit que le nouveau Congrès se concentrera sur le dossier et convoquera les responsables pour les presser de fermer les failles."
+       },
+       {
+        "intertitre": "La réponse du Commerce",
+        "texte": "NPR a sollicité la Maison Blanche et le département du Commerce. Un porte-parole de ce dernier a répondu que le secrétaire s'est pleinement conformé à son accord de déontologie, y compris à toutes les obligations de cession et de déport, et continuera de le faire. Il a cédé tous ses intérêts financiers dans Cantor Fitzgerald, Newmark et BGC."
+       }
+      ],
+      "synthese": "Le département du Commerce est mis en cause pour avoir tardé à fermer les failles sur les puces Nvidia, tandis que Liza Tobin attend des auditions au Congrès. Le Commerce affirme que Howard Lutnick respecte son accord de déontologie et s'est défait de ses intérêts financiers.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a118"
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "EU Perspectives",
+      "date": "2026-11-14",
+      "url": "https://euperspectives.eu/2026/11/eu-russia-sanctions-enforcement-loopholes-trade-court-of-auditors/",
+      "auteur": "Media Networks; Anna Marvanová",
+      "titre": "Sanctions contre la Russie : des failles dans leur application nationale",
+      "chapo": "Un rapport de la Cour des comptes européenne montre que les pratiques nationales divergentes ouvrent des brèches dans les sanctions commerciales de l'UE contre la Russie.",
+      "sections": [
+       {
+        "intertitre": "Ce que pointe le rapport",
+        "texte": "L'Union européenne peut adopter des règles communes aux 27 États membres, mais leur application varie d'un pays à l'autre. Près de cinq ans après le début de l'invasion à grande échelle de l'Ukraine par la Russie, faire respecter les sanctions commerciales de façon homogène reste difficile. Certains pays contrôlent plus rigoureusement leurs douanes, interprètent les exemptions différemment et ne partagent pas toujours l'information. Un rapport de la Cour des comptes européenne (ECA) avertit que ces écarts créent des occasions de contournement. Les auditeurs parlent de « forum shopping » : des entreprises choisissent où opérer selon les conditions les plus favorables, par exemple des contrôles moins stricts ou une lecture plus indulgente des règles."
+       },
+       {
+        "intertitre": "Une règle, 27 façons de l'appliquer",
+        "texte": "Le problème ne tient pas seulement à une moindre volonté de certains pays. Des autorités nationales manquent aussi de personnel, d'équipements techniques ou de capacités administratives, ce qui limite leur surveillance des flux commerciaux. La rédaction des textes européens complique encore les choses : la terminologie des règles sur les sanctions diffère parfois de celle de la législation douanière, et certaines dispositions sont ambiguës. Les auditeurs y voient un paradoxe : une formulation souple facilite l'accord politique entre États, mais elle peut aussi créer des failles exploitables par les entreprises. Selon le rapport, cela peut aboutir à une application inégale des mesures."
+       },
+       {
+        "intertitre": "Des sanctions qui produisent des effets",
+        "texte": "La critique des auditeurs ne signifie pas que les sanctions sont inefficaces. Le commerce de biens entre l'UE et la Russie est passé de 257,5 milliards d'euros en 2021 à 58,1 milliards en 2025. Les exportations de l'UE vers la Russie ont reculé de 99 à 30,2 milliards d'euros, soit 69 %, et les importations de 163,6 à 27,9 milliards, soit 83 %. D'après les estimations de la Commission européenne, les interdictions et restrictions à l'exportation de biens et de technologies ont eu un effet économique de 49 milliards d'euros en juillet 2026, et les restrictions à l'importation d'environ 110 milliards. Le commerce direct d'articles critiques ou prioritaires, y compris les biens à double usage, a presque cessé depuis 2023. Moscou a néanmoins réorienté une partie de ses approvisionnements par des pays tiers, notamment la Chine : les sanctions n'ont pas stoppé ce commerce, mais en ont changé les routes et renchéri les importations. Les auditeurs notent que l'UE manque parfois de données fiables sur les flux entre la Russie et les pays tiers, ce qui complique l'évaluation des mesures anti-contournement."
+       },
+       {
+        "intertitre": "Les limites de la coopération",
+        "texte": "Depuis le début de l'invasion, la Commission a construit un cadre de coopération étendu : elle publie des orientations, répond aux questions des autorités nationales et gère des systèmes d'échange d'informations sur les transactions suspectes. Les auditeurs jugent cela insuffisant. Les orientations de la Commission n'ont pas de force juridique contraignante et ne peuvent donc garantir une approche cohérente. Les pays utilisent inégalement les systèmes d'échange, et certaines douanes n'ont même pas accès à toutes les bases de données centrales. Fin 2024, cinq États membres avaient assisté à moins de la moitié des réunions d'un mécanisme clé de coordination de l'application des sanctions ; le rapport ne les nomme pas."
+       },
+       {
+        "intertitre": "Un désaccord sur l'évaluation",
+        "texte": "Les auditeurs demandent à la Commission de définir des critères clairs pour mesurer l'efficacité des sanctions commerciales et de les évaluer régulièrement. Selon eux, le suivi actuel des flux et de l'impact économique ne montre pas si les sanctions limitent réellement la capacité de la Russie à poursuivre la guerre. La Commission accepte d'améliorer la collecte et l'analyse des données, mais refuse des critères communs : pour elle, « l'appréciation de leur nécessité, de leur opportunité ou de leur efficacité est de nature politique, non technique », et relève des États membres et du Conseil de l'UE."
+       }
+      ],
+      "synthese": "Les sanctions ont fortement réduit les échanges avec la Russie, mais leur application inégale entre les 27 laisse des failles. Une politique commune ne vaut que par l'action des pays chargés de la faire respecter.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a110"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Sanctions et export",
+      "source": "Ship & Bunker",
+      "date": "2026-11-16",
+      "url": "https://shipandbunker.com/news/world/712270-interview-peninsula-says-diverging-us-and-eu-sanctions-rules-mean-bunker-suppliers-must-clear-every-deal-twice",
+      "auteur": "",
+      "id": "a109",
+      "titre": "Sanctions : les fournisseurs de soute doivent valider chaque contrat deux fois",
+      "texte": "Selon Peninsula, les règles américaines et européennes sur les sanctions divergent. Les fournisseurs de soute maritime doivent donc contrôler chaque transaction deux fois."
+     },
+     {
+      "rubrique": "Anti-corruption",
+      "source": "Mediapart",
+      "date": "2026-11-14",
+      "url": "https://www.mediapart.fr/journal/france/141126/delinquance-en-col-blanc-et-justice-negociee-le-patron-du-pnf-repond-aux-critiques",
+      "auteur": "",
+      "id": "a108",
+      "titre": "Le patron du PNF répond aux critiques sur la justice négociée",
+      "texte": "Le chef du Parquet national financier répond aux critiques sur la délinquance en col blanc et le recours à la justice négociée. Le sujet touche à la politique pénale en matière de corruption et de fraude financière."
+     }
+    ]
+   },
+   {
+    "id": "curiosites",
+    "titre": "Curiosités",
+    "developpes": [
+     {
+      "rubrique": "Idées",
+      "source": "The Conversation",
+      "date": "2026-11-15",
+      "url": "https://theconversation.com/cop31-la-bourse-ne-recompense-plus-la-decouverte-de-reserves-dhydrocarbures-en-cas-dexposition-aux-risques-reglementaires-environnementaux-285014",
+      "auteur": "Diana Castro Herrera; Fernando Pérez de Gracia; Juan Equiza Goñi; Juncal Cuñado",
+      "titre": "Pétrole et gaz : les réserves ne font plus toujours monter l'action en bourse",
+      "chapo": "Une étude sur seize majors pétrogazières montre que la découverte de réserves ne profite plus aux cours quand le risque réglementaire climatique est élevé.",
+      "sections": [
+       {
+        "intertitre": "Le paradoxe",
+        "texte": "Malgré la transition vers une économie bas carbone et la COP31, qui se tient en Turquie jusqu'au 20 novembre, le pétrole et le gaz attirent toujours les investisseurs : en 2026, les investissements mondiaux devraient atteindre un peu moins de 500 milliards de dollars américains pour le pétrole et près de 330 milliards pour le gaz (298,6 milliards d'euros). Les entreprises continuent de découvrir et de développer de nouvelles réserves, alors que près de 60 % des réserves mondiales devraient rester dans le sol d'ici 2050 pour contenir la hausse de la température moyenne à 1,5 °C. Les scientifiques estiment que 58 % des réserves de pétrole et 56 % de celles de gaz ne doivent pas être extraits. D'où la question des auteurs : ces réserves garderont-elles leur valeur si des réglementations climatiques limitent leur exploitation ?"
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "Les auteurs ont analysé conjointement les réserves, l'exposition au risque réglementaire climatique et les performances boursières de seize grandes entreprises pétrogazières internationales, dont TotalEnergies, British Petroleum, Eni et Petrobras, entre 2002 et 2022. L'exposition au risque climatique a été mesurée avec l'indicateur de Zacharias Sautner, Laurence van Lent, Grigory Vilkov et Ruishen Zhang, fondé sur les échanges entre dirigeants et analystes financiers. L'incertitude des politiques climatiques a été évaluée avec l'indice CPU de Konstantinos Gavriilidis, construit à partir d'articles de presse. Les rendements boursiers sont calculés d'après l'évolution annuelle du cours, après déduction du taux sans risque."
+       },
+       {
+        "intertitre": "Les résultats",
+        "texte": "Une même réserve peut être perçue comme un actif créateur de valeur ou comme une source de risque, selon la crédibilité des réglementations climatiques, surtout depuis l'accord de Paris. Traditionnellement, une découverte augmentait la valeur d'une entreprise du secteur ; or, lorsque celle-ci est fortement exposée au risque réglementaire, les marchés ne réagissent pas forcément positivement à la hausse de ses réserves. Deux groupes américains l'illustrent. En 2014, Devon Energy détenait 2 176 millions de barils équivalents pétrole, contre 630 millions pour Pioneer Natural Resources. En 2015, l'exposition climatique a augmenté pour les deux, mais le rendement boursier annuel a été de -47,74 % pour Devon Energy, contre -15,79 % pour Pioneer."
+       },
+       {
+        "intertitre": "Tri des investisseurs et actifs échoués",
+        "texte": "Cette moindre valorisation peut expliquer que des investisseurs réduisent leur exposition aux entreprises très dépendantes des fossiles, ce qu'on appelle le screening. BNP Paribas a cessé de financer de nouveaux projets pétrogaziers, et le New York State Common Retirement Fund, troisième fonds de pension public américain, a acté le désinvestissement de plusieurs géants pétroliers, d'abord ExxonMobil. Les investissements des supermajors peuvent devenir des « actifs échoués » : ils perdent une partie de leur valeur ou deviennent financièrement non viables. Des réserves existent alors toujours sur le plan géologique, mais ne représentent plus de valeur économique, par exemple du fait de taxes carbone, d'interdictions d'exploiter ou d'une baisse durable de la demande. En 2020, TotalEnergies a annoncé une dépréciation de 7 milliards de dollars de ses actifs pétroliers au Canada, dont 5,5 milliards liés à la révision de la valorisation de ses réserves."
+       },
+       {
+        "intertitre": "Et maintenant ?",
+        "texte": "Plusieurs pays ont assoupli des politiques climatiques ou retardé de nouvelles règles. Les États-Unis ont annulé en 2025 une redevance sur certaines émissions de méthane des installations pétrolières et gazières, et le Canada a renoncé à son plafonnement des émissions du secteur, présenté en 2024. À court terme, cela peut réduire la perception du risque réglementaire et soutenir la valorisation des entreprises riches en réserves. Mais les incertitudes demeurent : si les réglementations se durcissent de nouveau, les marchés pourraient de nouveau voir une partie des réserves comme des actifs échoués. Les élections de mi-mandat aux États-Unis pourraient indiquer l'orientation de leur politique climatique."
+       }
+      ],
+      "synthese": "Entre 2002 et 2022, l'exposition au risque réglementaire climatique a changé la façon dont la bourse valorise les réserves des majors. Un durcissement futur des règles pourrait en faire des actifs échoués.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a138"
+     },
+     {
+      "rubrique": "Idées",
+      "source": "The Conversation",
+      "date": "2026-11-15",
+      "url": "https://theconversation.com/est-il-encore-possible-de-stabiliser-la-dette-publique-francaise-296298",
+      "auteur": "François Langot",
+      "titre": "Dette publique française : est-il encore possible de la stabiliser ?",
+      "chapo": "À 119 % du PIB, la dette atteint un record ; l'économiste François Langot examine ce qu'il faudrait pour la stabiliser et pourquoi une règle budgétaire serait utile.",
+      "sections": [
+       {
+        "intertitre": "L'écart à combler",
+        "texte": "La dette publique atteint 3 595 milliards d'euros, soit 119 % du PIB. Pour juger du risque d'emballement, l'auteur compare le déficit actuel à celui qui la stabiliserait. En 2027, ce déficit stabilisant serait de 3,3 % du PIB, alors que le gouvernement prévoit 5 %, soit 1,7 point d'écart. Ce déficit ne dépend que de la croissance du PIB (réelle et inflation) et du niveau de dette visé. En 2019, avec 2,8 % de croissance et une dette de 98,5 %, il était de 2,7 %, proche du déficit effectif de 3 %, et la dette est restée autour de 98 %. En 2026, la croissance est tombée à 1,35 % : le déficit stabilisant n'était plus que de 1,5 %, très loin des 5,4 % attendus, d'où une hausse de près de 4 points de la dette."
+       },
+       {
+        "intertitre": "Des intérêts qui pèsent sur le reste",
+        "texte": "Le taux d'intérêt ne change pas le déficit stabilisant, mais il détermine ce qui reste pour les autres dépenses une fois les intérêts payés. Quand le taux est inférieur à la croissance, l'État peut stabiliser sa dette en dépensant plus qu'il ne prélève hors intérêts, comme en 2019 (taux de 1,5 %). Quand ils sont égaux, il faut l'équilibre hors intérêts, comme en 2025 (environ 2 %). Quand le taux dépasse la croissance, il faut un excédent, comme entre 1996 et 1998 (taux de 6 à 7 %). En 2027, avec un taux de 2,4 %, les intérêts absorberaient 2,8 points : il ne resterait que 0,5 point de déficit hors intérêts compatible avec une dette stable, alors que le budget en prévoit 2,2. La France emprunte aujourd'hui à plus de 5 % à dix ans, plus du double du taux sur sa dette passée, et la charge d'intérêts a augmenté de 11 % en 2025."
+       },
+       {
+        "intertitre": "Trois arbitrages pour le gouvernement",
+        "texte": "Le premier porte sur la composition de l'effort. Pour la dette, un euro d'économie et un euro de recette valent la même chose comptablement, mais leurs effets sur la croissance diffèrent : selon le Cepremap, un euro d'économie sur la consommation publique réduirait le PIB de 89 centimes la première année, alors que des économies sur les transferts soutiendraient l'activité à trois ans. Sur les 57 milliards d'économies du budget 2025, la baisse effective du déficit hors intérêts n'atteindrait que 33 milliards. Le deuxième porte sur le rythme : un ajustement rapide réduit plus tôt la dette, mais freine l'activité, et cet effet croît avec la dette. À 119 % du PIB, avec 55 centimes de PIB perdus par euro économisé, un effort de 1 point de PIB ne baisse le ratio que de 0,1 point, contre 0,3 point à 60 %. Le troisième porte sur l'objectif : une dette plus basse impose des déficits plus faibles mais réduit à terme les intérêts."
+       },
+       {
+        "intertitre": "Pourquoi une règle budgétaire",
+        "texte": "Quand le taux nominal dépasse la croissance, la dette se nourrit de ses intérêts : c'est l'effet « boule de neige ». En 2026, l'écart ajoute près d'un point de PIB à la dette, en plus des 3 points dus au déficit hors intérêts. Une règle sur le déficit total, comme les 3 % de Maastricht, garantit la stabilité mais impose de compenser toute hausse des intérêts. Une règle sur la croissance des dépenses, comme le cadre européen réformé en 2024, laisse plus jouer la conjoncture, mais n'est efficace qu'avec des hypothèses réalistes. Selon les travaux de l'i-MIP, ramener en cinq ans les dépenses de 57,3 % à 54,4 % du PIB, sans hausse d'impôts, stabiliserait la dette pour environ 0,15 point de croissance par an ; encadrée par une règle, cette consolidation réduit la dette de 1,2 point de plus et pèse moins (0,13 point par an)."
+       },
+       {
+        "intertitre": "La prime de risque et le seuil d'emballement",
+        "texte": "La prime de risque, écart de taux à dix ans avec l'Allemagne, était de 80 points de base fin août 2026, puis de 171 le 22 octobre. Si les marchés exigent un taux plus élevé quand la dette monte, la dette a deux équilibres : l'un stable, l'autre un seuil au-delà duquel elle s'emballe. Dans l'exemple chiffré de l'auteur (dette de 119 %, croissance de 2,8 %, excédent hors intérêts limité à 3 %), le seuil se situe vers 155 % et la stabilisation devient impossible au-delà de 176 %, avec un taux de seulement 3,4 %. Une règle crédible éloigne ce seuil : une prime réduite de 0,1 point représenterait environ 3,6 milliards d'euros d'intérêts économisés par an."
+       }
+      ],
+      "synthese": "Stabiliser la dette devient plus difficile à mesure que les intérêts et la prime de risque augmentent. Une règle budgétaire crédible rendrait cette stabilisation moins coûteuse.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a139"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-15",
+      "url": "https://www.sciencesetavenir.fr/sante/une-radiotherapie-ultraciblee-contre-les-tumeurs-agressives_195864?xtor=RSS-16",
+      "auteur": "",
+      "id": "a131",
+      "titre": "Cancer de la prostate : une radiothérapie ultraciblée contre les tumeurs agressives",
+      "texte": "Le Pluvicto promet de traquer les cellules cancéreuses pour mieux les détruire. Ce médicament repose sur le principe de la théranostique, à mi-chemin entre diagnostic et traitement."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-14",
+      "url": "https://www.sciencesetavenir.fr/sante/cancer-du-pancreas-la-percee-du-daraxonrasib_195859?xtor=RSS-16",
+      "auteur": "",
+      "id": "a134",
+      "titre": "Cancer du pancréas : un médicament semble faire reculer la maladie",
+      "texte": "Pour la première fois, un médicament semble parvenir à faire reculer significativement l’un des cancers les plus redoutables. Une avancée que les spécialistes n’attendaient plus vraiment."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-15",
+      "url": "https://www.sciencesetavenir.fr/sante/temps-d-ecran-des-enfants-pourquoi-le-compteur-ne-dit-pas-tout_195874?xtor=RSS-16",
+      "auteur": "",
+      "id": "a132",
+      "titre": "Écrans et enfants : la science nuance le débat",
+      "texte": "Une heure d'écran supplémentaire affecte-t-elle les capacités cognitives des enfants ? Plusieurs études trouvent des associations négatives, mais leurs résultats ne démontrent pas une responsabilité directe des écrans."
+     },
+     {
+      "rubrique": "Climat",
+      "source": "Inside Climate News",
+      "date": "2026-11-14",
+      "url": "https://insideclimatenews.org/news/14112026/georgia-power-grid-expansion-gas/",
+      "auteur": "",
+      "id": "a149",
+      "titre": "Géorgie : le gaz en tête des options de Georgia Power",
+      "texte": "Le principal fournisseur d'électricité de Géorgie prépare l'ajout de 2 000 à 6 000 mégawatts pour 2032 et 2033, pour répondre à la croissance des data centers et de l'électrification. Il étudie notamment le gaz naturel."
+     }
+    ]
+   }
+  ],
+  "titres_blocs": {
+   "ia": "IA",
+   "france": "Actualité France",
+   "monde": "Actualité Monde",
+   "recherche": "Recherche & travaux d'experts",
+   "veille": "Veille réglementaire",
+   "curiosites": "Curiosités"
+  },
+  "pages": 0,
+  "sequence": [
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-15",
+     "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+     "auteur": "Jonathan Kemper",
+     "titre": "Meituan publie LongCat-2.5, un modèle d'agent entraîné sans puces Nvidia",
+     "chapo": "Le groupe chinois de livraison de repas Meituan met en accès libre les poids de LongCat-2.5, un modèle pour agents entraîné uniquement sur des puces chinoises.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "L'équipe LongCat de Meituan a publié les poids de LongCat-2.5, une semaine après la présentation officielle du modèle. Conçu pour des agents qui mènent seuls de longues tâches en plusieurs étapes, notamment en programmation, il s'approcherait selon Meituan des meilleurs modèles occidentaux sur plusieurs tests. Il s'agit d'un modèle à mélange d'experts : sur 1,6 trillion de paramètres, environ 48 milliards sont actifs pour chaque jeton. Via l'API, il traite jusqu'à un million de jetons à la fois et produit des réponses de 128 000 jetons au plus. Il comprend le texte, les images et la vidéo, répond en texte et permet d'activer ou non le raisonnement."
+      },
+      {
+       "intertitre": "Les images converties en jetons",
+       "texte": "LongCat-2.5 prolonge LongCat-2.0 en y ajoutant la compréhension d'images. Plutôt que de greffer après coup un encodeur d'images distinct, le modèle convertit les images en jetons traités avec le texte, selon une approche tirée du modèle de recherche LongCat-Next, qui vise à améliorer le codage visuel, le design et les tâches en 3D. Pour l'apprentissage par renforcement, l'équipe a utilisé de vraies tâches logicielles issues de demandes de fusion GitHub et des échecs d'agents recréés. Pour s'assurer que le modèle résout réellement les tâches, elle a coupé l'accès à Internet, supprimé l'historique Git et les fichiers en cache, et fait vérifier les solutions par un modèle de langage. Les capacités de plusieurs modèles enseignants spécialisés ont aussi été distillées."
+      },
+      {
+       "intertitre": "Un déploiement sur 194 puces Huawei",
+       "texte": "Meituan quantifie les poids et les activations des experts sur 4 bits, format que les puces chinoises traitent nativement. Lors de ses tests de charge, le débit augmente de 43,3 % pour le traitement des requêtes et de 42,77 % pour la génération, par rapport à une version en 8 bits ; la précision resterait équivalente à celle du modèle non compressé. Le guide d'auto-hébergement décrit un cluster de 194 accélérateurs Huawei Ascend de la série Atlas A2 : deux pour les images, 64 pour la lecture des requêtes et 128 pour la génération. Aucune consigne n'est donnée pour les GPU Nvidia."
+      },
+      {
+       "intertitre": "Des résultats contrastés",
+       "texte": "LongCat-2.5 obtient 88,4 points sur Terminal Bench v2.1, contre 89,1 pour Claude Opus 5, 88,8 pour GPT-5.6 Sol et 90,6 pour Deepseek-V4.1-Flash. Sur DeepSWE, il passe de 9,7 à 64,6 points mais reste derrière tous les modèles du tableau sauf Claude Opus 4.8, Deepseek-V4.1-Flash menant avec 74,2. Sur Terminal Bench v4.0, plus difficile, il atteint 38,5 points, devant GPT-5.6 Sol (37,3) mais loin d'Opus 5 (53,9). Son 91,9 sur BrowseComp est le meilleur score du tableau, mais Meituan a lancé ce test dans son propre environnement."
+      },
+      {
+       "intertitre": "Licence, prix et contexte",
+       "texte": "Les poids sont sous licence MIT, qui autorise usage commercial, modification et redistribution. Le modèle est testable sur longcat.ai et son API accepte les formats OpenAI et Anthropic. Au lancement, un tarif promotionnel équivaut à environ 0,27 € par million de jetons en entrée et 1,07 € en sortie. Meituan indique avoir entraîné le prédécesseur LongCat-2.0 fin juin, entièrement sur un cluster de plus de 50 000 puces chinoises ; il avait auparavant tourné de façon anonyme sous le nom « Owl Alpha » sur OpenRouter. Les modèles chinois à poids ouverts comme Kimi K3.1 et GLM-5.3 ont largement rattrapé les meilleurs modèles américains sur les tests courants. Des modèles ouverts optimisés d'emblée pour les puces chinoises rendent ce matériel plus attractif hors de Chine. Meituan travaille aussi sur des générateurs d'images : LongCat-Image, publié en source ouverte, n'a besoin que de 6 milliards de paramètres."
+      }
+     ],
+     "synthese": "Meituan livre en licence MIT un modèle d'agent de 1,6 trillion de paramètres, entraîné et déployé sur du matériel chinois. Ses scores sont proches de ceux des meilleurs modèles occidentaux sur certains tests, plus faibles sur d'autres.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a4"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-15",
+     "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+     "auteur": "Manuel Uth",
+     "titre": "Australie : l'IA touche d'abord les jeunes actifs, selon la banque centrale",
+     "chapo": "Une analyse pour la banque centrale australienne montre que l'IA a peu supprimé d'emplois, mais que les jeunes entrant dans les métiers très exposés s'en sortent moins bien.",
+     "sections": [
+      {
+       "intertitre": "Ce que montre l'analyse de la RBA",
+       "texte": "Selon The Decoder, l'IA n'a jusqu'ici supprimé que très peu d'emplois en Australie, mais les jeunes qui entrent sur le marché du travail dans des domaines très exposés, comme le développement logiciel, s'en sortent moins bien. Mike Major, auteur de l'analyse pour la banque centrale (RBA), a bâti un système de suivi centré sur les débutants et sur les métiers très exposés : programmation, travail administratif, service client. Les offres d'emploi ont reculé dans tous les groupes depuis le lancement de ChatGPT fin 2022, le plus fortement dans le groupe le plus exposé, où les 15-24 ans et les jeunes diplômés ont des taux d'emploi plus faibles et un chômage plus élevé que leurs aînés."
+      },
+      {
+       "intertitre": "Les réserves de l'auteur",
+       "texte": "Mike Major met en garde contre toute conclusion hâtive : l'étude n'établit pas de causalité directe et mesure une exposition théorique, non l'usage réel de l'IA par les entreprises. Le cycle conjoncturel après la pandémie ou le télétravail pourraient aussi expliquer ces chiffres. D'après SEEK, l'IA complète le travail existant tout en créant une demande de compétences en IA."
+      },
+      {
+       "intertitre": "Ce que disent d'autres études",
+       "texte": "Une étude de Stanford d'août 2025, fondée sur des millions de fiches de paie américaines, relève que l'emploi des 22-25 ans dans les métiers exposés a baissé de 13 % en valeur relative depuis fin 2022, et de près de 20 % chez les jeunes développeurs, tandis que les salariés plus expérimentés se maintenaient. Une étude d'Anthropic de mars 2026 note un recul des embauches des 22-25 ans (taux d'accès à l'emploi en baisse d'environ 14 %), sans hausse systématique du chômage global. Chez Anthropic, la part des juniors dans les embauches techniques est passée de 27 % à 9 % depuis début 2025 ; l'entreprise se dit un cas particulier. Des chercheurs redoutent une « tragédie des biens communs cognitifs » : sans postes de débutants, les professionnels expérimentés manqueraient plus tard."
+      },
+      {
+       "intertitre": "Des facteurs autres que l'IA",
+       "texte": "Au Danemark, une étude sur 25 000 travailleurs ne voit aucun effet sur l'ensemble de l'économie : malgré 64 % d'adoption de l'IA, ni salaires ni heures travaillées n'ont changé de façon mesurable, et le temps économisé n'atteint que 2,8 %. Une analyse de janvier 2026 sur 10,6 millions de profils LinkedIn, menée par Morgan Frank (université de Pittsburgh), relève que les difficultés des métiers exposés ont commencé début 2022, avant ChatGPT. Enfin, selon le Forum économique mondial, 77 % des entreprises sondées privilégient la formation aux suppressions de postes."
+      }
+     ],
+     "synthese": "Les données australiennes, américaines et celles d'Anthropic convergent : ce sont d'abord les jeunes des métiers exposés qui souffrent, sans effet net sur l'économie entière. La causalité reste toutefois discutée, car d'autres facteurs, antérieurs à ChatGPT, pèsent aussi.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a3"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-14",
+     "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+     "auteur": "Matthias Bastian",
+     "titre": "OpenAI réorganise sa robotique, convaincue que ses modèles généraux suffisent",
+     "chapo": "OpenAI a replacé ses chercheurs en robotique dans d'autres équipes, pariant que des modèles généralistes comme GPT-6 Astra peuvent piloter directement des robots.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "OpenAI a confirmé à Fortune la réorganisation de son équipe de robotique. Les chercheurs rejoignent l'équipe de recherche principale, dirigée par Mark Chen, directeur de la recherche, tandis que les équipes de robotique appliquée et de matériel passent dans l'organisation Applied de Greg Brockman, président. Un porte-parole présente la robotique comme un volet central de la vision de long terme et dit que la réorganisation en témoigne. The Decoder a corrigé son titre : OpenAI précise que la robotique continue. La décision est intervenue si tard que OpenAI avait déjà réservé un stand (n° 208) au congrès académique de robotique CoRL, à Austin : Fortune l'a trouvé vide, sans logo, même si quelques anciens membres de l'équipe, restés sur place, attiraient encore du monde. Selon Fortune, la question la plus débattue du congrès était de savoir quelle expertise en robotique garderait sa valeur à mesure que les modèles généralistes progressent."
+      },
+      {
+       "intertitre": "Le pari des modèles généralistes",
+       "texte": "Selon OpenAI, les chercheurs pensaient en début d'année progresser en s'appuyant sur des modèles comme Sora ; les modèles généralistes, GPT-6 Astra en tête, ont ensuite montré qu'ils s'appliquent directement à la robotique. Guanya Shi, de Carnegie Mellon, y lit un signe que la robotique n'est plus « un problème spécial ». Dans une étude de Nvidia, un agent animé par Astra réussit 74,8 % des tâches d'un banc d'essai simulé, contre 51 % pour les meilleurs modèles spécialisés ; le robot était simulé. Sur StationeryBench, avec des bras robotisés YAM, Astra termine 7 tâches sur 100 et MolmoAct2 d'Ai2 aucune ; le score moyen de progression est de 46 contre 12. Sur un robot humanoïde, Astra a navigué dans une cuisine et l'a rangée. Yoav Artzi, de Cornell et de Google DeepMind, voit en Astra un bond majeur en compréhension spatiale : sur le test REMAP, encore inédit, le modèle approcherait la précision humaine, et OpenAI aurait pu l'entraîner avec beaucoup de données 3D, comme des scènes Blender."
+      },
+      {
+       "intertitre": "Les réserves",
+       "texte": "On ignore quelle part de données de robotique OpenAI et d'autres ont intégrée à l'entraînement. D'autres grands modèles, chez Anthropic et Google, ont aussi progressé récemment en robotique. Les modèles spécialisés pourraient garder l'avantage en coût, fiabilité, vitesse et consommation d'énergie. Selon Shi, les progrès des modèles généralistes en raisonnement spatial leur permettent déjà de gérer une bouteille déplacée, un éclairage modifié ou l'étape d'une tâche qui a échoué. Il voit encore un besoin de petits modèles embarqués, car les grands modèles sont lents et hébergés dans le cloud. Russ Tedrake, du MIT et de Walden Robotics, rappelle que les entreprises de robotique ont l'avantage du déploiement réel, comme en usine. Pete Florence, cofondateur de Generalist, start-up qui entraîne des modèles généralistes pour robots, juge incertain qu'un modèle existant domine à long terme : il peut y avoir plusieurs points de départ pour faire grandir l'intelligence. Selon Fortune, cette approche remet en cause les hypothèses de nombreuses start-up de robotique, qui ont levé des milliards en pariant que les robots ont besoin de leur propre cerveau."
+      },
+      {
+       "intertitre": "Une histoire compliquée",
+       "texte": "OpenAI avait fermé sa division robotique en 2020 : selon son cofondateur Wojciech Zaremba, les données de robots manquaient et les grands modèles de langage offraient une voie plus rapide vers l'AGI. L'équipe a été reconstituée en 2024 avec un partenariat avec Figure, terminé en février 2025. OpenAI développe désormais son propre robot humanoïde, et Sam Altman viserait une première démonstration publique de robot en 2027. OpenAI subit aussi une pression financière : Fortune cite 10,9 milliards de dollars de pertes d'exploitation au dernier trimestre, et une possible introduction en Bourse début 2027. Altman avait demandé à l'entreprise d'abandonner les « projets annexes » ; Sora en fait partie, au profit d'activités plus rentables. Selon The Decoder, OpenAI a perdu du terrain face à Anthropic dans son cœur de métier."
+      }
+     ],
+     "synthese": "OpenAI disperse ses chercheurs en robotique en pariant sur les modèles généralistes, tout en affirmant poursuivre ses ambitions. Des experts jugent les modèles spécialisés encore utiles.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Fortune",
+       "url": "http://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+      }
+     ],
+     "format": "long",
+     "id": "a8"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-16",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "auteur": "",
+      "id": "a12",
+      "titre": "Bharat Semi lève 24 millions de dollars pour ses capteurs IA",
+      "texte": "La start-up indienne de puces affirme avoir décroché des contrats de conception pour sa technologie de capteurs IA, avec notamment General Atomics. Elle vise le marché mondial des capteurs IA."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-16",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "auteur": "",
+      "id": "a11",
+      "titre": "Apple lance une application pour une étude sur l'usage de l'IA en santé",
+      "texte": "Apple présente une application destinée à une étude sur la façon dont les gens utilisent l'IA pour leurs questions de santé. Elle doit répondre à des questions médicales du quotidien."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-14",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "auteur": "",
+      "id": "a17",
+      "titre": "IA : la liste des projets et start-up qui n'ont pas abouti",
+      "texte": "Une liste évolutive recense les projets d'IA qui ont fermé ou déçu, des retards à répétition de la Siri d'Apple au lancement compliqué de la « super app » d'OpenAI."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-15",
+     "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/des-courriers-ont-pu-etre-lus-ce-que-l-on-sait-de-la-cyberattaque-contre-maileva-filiale-de-la-poste-qui-a-conduit-au-vol-de-donnees-de-22-millions-de-personnes_8283266.html#xtor=RSS-3-[lestitres]",
+     "auteur": "Fabien Jannic-Cherbonnel",
+     "titre": "Maileva, filiale de La Poste : les données de 22 millions de personnes volées",
+     "chapo": "Maileva, filiale du groupe La Poste, a annoncé samedi 14 novembre une cyberattaque de grande ampleur ayant permis le vol des coordonnées de 22 millions de personnes ; une enquête est ouverte.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "C'est l'une des cyberattaques les plus importantes commises en France. Maileva a annoncé samedi 14 novembre avoir été touchée par une attaque de grande ampleur, qui a conduit au vol des coordonnées de 22 millions de personnes, toutes « destinataires des entreprises clientes de Maileva ». La Poste précise que l'attaque a eu lieu mi-septembre. L'entreprise n'a pas communiqué précisément sur la méthode d'intrusion. Antoine Hautin, secrétaire général de l'entreprise de cybersécurité Almond, y voit « un scénario de cyberattaque classique », où les pirates attaquent un prestataire pour récupérer des bases de données."
+      },
+      {
+       "intertitre": "Une plateforme au coeur du courrier d'entreprise",
+       "texte": "Maileva est une plateforme en ligne spécialisée dans l'envoi et la gestion de courriers et de documents professionnels. Filiale de Docaposte, elle-même filiale de La Poste, elle revendique plus de 70 000 utilisateurs et 180 millions de documents (bulletins de salaire, factures, recommandés) envoyés en 2024. Elle imprime et expédie des courriers pour de grandes entreprises et des institutions publiques, comme des bailleurs sociaux et des hôpitaux. Fin septembre, Docaposte avait suspendu ses services pendant six jours après une tentative de détournement de la plateforme, avec des « tentatives d'accès non autorisées », selon le site Solutions numériques et cybersécurités. Pour Antoine Hautin, Maileva présente « un risque systémique », car elle est utilisée par des dizaines de milliers d'organisations."
+      },
+      {
+       "intertitre": "Les données exposées",
+       "texte": "Les données exposées sont le prénom, le nom et l'adresse postale des personnes concernées. Début novembre, des bailleurs sociaux, dont Flandre Opale Habitat et Altéal, ont signalé une fuite liée à cette attaque. Flandre Opale Habitat indique que des informations administratives ou financières, comme un montant de facture, ont aussi été récupérées, et que des données personnelles contenues dans des courriers envoyés au cours des dix dernières années ont pu être consultées sans autorisation. L'hôpital Foch de Suresnes a prévenu ses patients que des courriers de relance de paiement « ont pu être lus par un pirate informatique », sans mention de la nature des soins ni de coordonnées bancaires. Selon le règlement européen sur la protection des données personnelles, les entreprises concernées doivent prévenir leurs clients."
+      },
+      {
+       "intertitre": "Les risques pour les personnes concernées",
+       "texte": "Le principal risque est la réception de courriers frauduleux ressemblant à des lettres légitimes : selon Antoine Hautin, l'intelligence artificielle permet d'automatiser facilement les campagnes de fraude. Face à une demande inhabituelle, il conseille de contacter l'émetteur par un autre canal ; l'hôpital Foch invite à se méfier de toute demande d'argent semblant venir de l'établissement. Les données alimenteront aussi des bases géantes sur le dark web : plus la fuite est récente, plus les informations sont fiables, ce qui permet de tenir une fiche sur chaque citoyen, avec par exemple ses liens avec un hôpital ou un bailleur social."
+      },
+      {
+       "intertitre": "L'enquête et le contexte",
+       "texte": "Maileva a notifié la Cnil, déposé plainte et informé toutes les entreprises concernées. Le parquet de Paris a confirmé dimanche que la brigade de lutte contre la cybercriminalité était chargée de l'enquête, ouverte pour « atteinte à un système de traitement automatisé de données ». La Poste avait déjà subi en décembre 2025 une cyberattaque massive, revendiquée par des hackeurs prorusses, qui avait perturbé la Banque postale et le suivi des colis. Début novembre, Crédit Mutuel Arkéa a fait état d'une attaque de l'ordre de 100 millions d'euros, et France Travail avait été visé début 2024, avec un risque pour les données de 43 millions de personnes. Le ministre des Comptes publics, David Amiel, a évoqué dimanche sur franceinfo une multiplication des cyberattaques et appelé à investir dans la cybersécurité."
+      }
+     ],
+     "synthese": "L'attaque contre Maileva, qui touche les destinataires de courriers de nombreuses organisations, expose 22 millions de personnes à un risque de fraude. L'enquête vient de s'ouvrir, dans un contexte de multiplication des attaques informatiques.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a34"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-15",
+     "url": "https://www.franceinfo.fr/economie/transports/mobilisation-du-17-novembre/la-cfdt-rejoint-la-mobilisation-du-17-novembre-parce-que-nos-revendications-n-ont-pas-abouti-explique-le-syndicat_8283890.html#xtor=RSS-3-[lestitres]",
+     "auteur": "",
+     "titre": "Fonction publique : la CFDT rejoint la mobilisation du 17 novembre",
+     "chapo": "La CFDT se joint à l'appel à la grève dans le public mardi 17 novembre, ses revendications salariales n'ayant pas abouti après la réunion avec le Premier ministre.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "La CFDT a annoncé vendredi 13 novembre qu'elle se joignait à l'appel à la grève et à la mobilisation dans le public le mardi 17 novembre. Dimanche sur franceinfo, Laure Revel, secrétaire générale de la CFDT fonction publique, a justifié ce choix : « nos revendications n'ont pas abouti » sur les revalorisations salariales. Le syndicat avait d'abord opté pour la négociation, avec deux rendez-vous avec le gouvernement, en poussant ses revendications, mais « ça n'a pas répondu aux attentes »."
+      },
+      {
+       "intertitre": "Le contexte : une réunion jugée décevante",
+       "texte": "L'intersyndicale de la fonction publique est sortie déçue de la réunion de vendredi avec Sébastien Lecornu. Le Premier ministre y a annoncé l'ouverture d'une discussion d'un mois pour revaloriser les bas salaires, des mesures qui, selon les syndicats, « ne répondent pas à l'urgence » de la situation. Laure Revel rappelle que les représentants des agents publics n'avaient pas été reçus par le Premier ministre depuis 2008, et que ces revendications « ne sont pas de la semaine dernière » : le syndicat les porte depuis plusieurs mois, voire plusieurs années. À ses yeux, ne pas y répondre a été un choix du gouvernement."
+      },
+      {
+       "intertitre": "Pouvoir d'achat et attractivité",
+       "texte": "Laure Revel affirme que, depuis 2017, l'inflation a été trois à quatre fois plus élevée que l'augmentation du point d'indice des agents : toutes les catégories subissent donc une baisse de pouvoir d'achat. Elle évoque aussi, pour l'ensemble des services publics, un « vrai déficit d'attractivité », avec deux millions d'agents qui partiront à la retraite d'ici une dizaine d'années."
+      },
+      {
+       "intertitre": "Un message aux candidats",
+       "texte": "À moins de six mois du premier tour de la présidentielle, le 18 avril 2027, elle espère que les candidats entendront ces revendications, qui visent aussi la sauvegarde du service public. Elle observe que l'on parle beaucoup de baisse des effectifs sans que les candidats disent concrètement ce qui sera abandonné, ni quelles sont les perspectives pour les agents publics."
+      }
+     ],
+     "synthese": "Faute d'avancée jugée suffisante sur les salaires, la CFDT se joint à la grève du 17 novembre dans la fonction publique, après une réunion avec le Premier ministre jugée décevante. Elle interpelle aussi les candidats à la présidentielle sur l'avenir du service public.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a33"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-15",
+     "url": "https://www.franceinfo.fr/societe/pauvrete/presidentielle-2027-la-pauvrete-requiert-des-solutions-structurelles-selon-les-restos-du-coeur_8283881.html#xtor=RSS-3-[lestitres]",
+     "auteur": "",
+     "titre": "Présidentielle 2027 : les Restos du Coeur réclament des solutions structurelles",
+     "chapo": "À la veille d'un débat télévisé avec cinq candidats, le président des Restos du Coeur juge que la réponse de l'association face à la précarité atteint ses limites et formule neuf objectifs.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Dans une tribune publiée dimanche 15 novembre par le quotidien Ouest France, Jean-Michel Richard, président des Restos du Coeur, estime que « la pauvreté atteint des niveaux inédits depuis des décennies » en France. Selon lui, cette « urgence sociale » appelle des « solutions structurelles », alors que « la multiplication des crises depuis 2023 frappe violemment les personnes en situation de précarité ». Il affirme que « la réponse que Les Restos du coeur apportent à la précarité en France est essentielle, mais elle atteint ses limites »."
+      },
+      {
+       "intertitre": "Les chiffres de l'association",
+       "texte": "Pour étayer ce constat, Jean-Michel Richard cite l'activité de l'an dernier : 1,4 million de personnes accueillies et 186 millions de repas distribués, contre 161 millions l'année précédente. Le nombre de repas distribués a donc augmenté de 25 millions d'une année sur l'autre. C'est sur ces chiffres que le président de l'association fondée par Coluche appuie son constat : la réponse des Restos est « essentielle », mais elle « atteint ses limites »."
+      },
+      {
+       "intertitre": "Le contexte : un débat avec cinq candidats",
+       "texte": "La tribune paraît à la veille d'un débat télévisé consacré aux enjeux de solidarité, de pouvoir d'achat et de lutte contre la pauvreté. Il réunira lundi cinq candidats à la présidentielle : Marine Le Pen, Jean-Luc Mélenchon, Raphaël Glucksmann, Bruno Retailleau et Gabriel Attal. Filmé dans un entrepôt des Restos du Coeur, il sera diffusé sur LCI et en partie dans le JT de TF1. Il précède le lancement de la 42e campagne de l'association, qui veut « remettre la lutte contre la pauvreté au coeur » de la campagne présidentielle."
+      },
+      {
+       "intertitre": "Les neuf objectifs incontournables",
+       "texte": "Jean-Michel Richard liste « neuf objectifs incontournables » pour le prochain quinquennat. Il demande qu'un objectif chiffré de réduction de la pauvreté soit fixé, assorti d'une stratégie nationale prévoyant que plus d'un million de personnes sortent de la pauvreté d'ici 2030. Il réclame une politique publique coordonnée pour aller vers un accès universel à l'alimentation, fait de la lutte contre la pauvreté des enfants et des familles une priorité et propose de créer un droit à l'accompagnement pour sortir durablement de la précarité. Il demande enfin de consolider le financement du monde associatif et d'assurer un cadre fiscal favorable au don et au mécénat. La liste mêle ainsi des objectifs de résultats, des droits et des moyens de financement."
+      },
+      {
+       "intertitre": "L'enjeu",
+       "texte": "Pour l'association, l'enjeu est de remettre la lutte contre la pauvreté au coeur de la campagne présidentielle. Son président estime que la situation, qu'il décrit comme inédite depuis des décennies, appelle des solutions structurelles, parmi lesquelles une stratégie nationale et une politique publique coordonnée, la réponse des Restos du Coeur, bien qu'essentielle, atteignant ses limites."
+      }
+     ],
+     "synthese": "Les Restos du Coeur, qui ont servi 186 millions de repas l'an dernier, demandent aux candidats de fixer des objectifs chiffrés contre la pauvreté. Cinq candidats en débattront lundi, filmés dans un entrepôt de l'association.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "franceinfo",
+       "url": "https://www.franceinfo.fr/societe/pauvrete/presidentielle-2027-la-pauvrete-requiert-des-solutions-structurelles-selon-les-restos-du-coeur_8283881.html"
+      }
+     ],
+     "format": "long",
+     "id": "a32"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "france",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-15",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/15/elections-legislatives-le-chantier-sans-cesse-repousse-du-redecoupage-electoral_6811034_823448.html",
+      "auteur": "",
+      "id": "a20",
+      "titre": "Législatives : le redécoupage électoral, un chantier sans cesse repoussé",
+      "texte": "Si des élections législatives sont organisées en 2027 après la présidentielle, elles reposeront sur une carte électorale qui n’a plus été retouchée depuis 2009. Les autorités politiques tardent à lancer ce chantier à haut risque, même si une commission dédiée s’est remise au travail."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-15",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/15/fractures-francaises-un-paysage-politique-clive-dans-lequel-l-election-presidentielle-n-est-plus-vue-comme-une-solution_6811038_823448.html",
+      "auteur": "",
+      "id": "a19",
+      "titre": "« Fractures françaises » : une société en colère, un clivage gauche-droite net",
+      "texte": "Cette grande enquête annuelle sur les valeurs des Français, réalisée par Ipsos BVA-CESI pour Le Monde, le Cevipof, la Fondation Jean Jaurès et l’Institut Montaigne, dresse un instantané de l’humeur politique à l’approche de la présidentielle. Elle décrit une société de plus en plus en colère, avec un retour très net du clivage gauche-droite, dans un paysage où l’élection présidentielle n’est plus vue comme une solution."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-15",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/15/a-paris-les-rassemblements-interdits-de-lundi-a-vendredi-autour-de-certains-lycees-et-universites_6811050_3224.html",
+      "auteur": "",
+      "id": "a26",
+      "titre": "Paris : rassemblements interdits autour de certains lycées et universités",
+      "texte": "Le préfet de police interdit les rassemblements de lundi à vendredi autour de certains lycées et universités. Il estime que les blocages sont le plus souvent le fait d'une minorité d'élèves."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "Chine",
+     "source": "South China Morning Post",
+     "date": "2026-11-16",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374523/china-us-russia-trilateral-set-thursday-beijing",
+     "auteur": "",
+     "titre": "Trump, Xi et Poutine se réuniront jeudi à Shenzhen, en marge du sommet de l'Apec",
+     "chapo": "Pékin annonce la première rencontre à trois des dirigeants des États-Unis, de Chine et de Russie, avec la menace nucléaire en tête d'un ordre du jour chargé.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Pékin a indiqué lundi que Xi Jinping, Donald Trump et Vladimir Poutine tiendront jeudi, à Shenzhen, une réunion trilatérale en marge du sommet des dirigeants de l'Apec. Selon le South China Morning Post, ce sera la première fois que les dirigeants des trois principales puissances nucléaires et géopolitiques siègent ensemble sous cette forme. La Maison-Blanche l'a confirmé, après avoir confirmé vendredi la présence de Trump au sommet, qui se tient les 18 et 19 novembre. Selon la Maison-Blanche, les échanges porteront sur la prolifération nucléaire, mais ils interviennent dans un contexte de fortes turbulences : guerre de la Russie en Ukraine, guerre américano-israélienne contre l'Iran et tensions commerciales entre Washington et Pékin. Simon Mabon, professeur de politique internationale à l'université de Lancaster, s'attend à de belles photos et à une rhétorique grandiloquente de Trump."
+      },
+      {
+       "intertitre": "Le nucléaire en tête",
+       "texte": "Pour Moscou et Washington, le sujet principal est le traité New Start, expiré en février : signé en 2010, il plafonnait les arsenaux stratégiques américain et russe. La Russie possède le plus d'ogives, devant les États-Unis puis la Chine, qui renforce rapidement son arsenal. Trump avait refusé la proposition russe de prolonger le traité et exige un accord « nouveau, amélioré et modernisé » incluant Pékin. La Chine serait réticente à rejoindre un accord auquel elle n'a pas participé ; son ministère des Affaires étrangères jugeait le mois dernier qu'il ne serait « ni juste, ni raisonnable, ni réaliste » de lui demander de rejoindre ces négociations à ce stade. Un haut responsable de l'administration Trump a dit à Reuters que le sujet ouvrirait la conversation, mais que « nous ne nous attendons à aucune sorte d'accord »."
+      },
+      {
+       "intertitre": "Iran, commerce et Ukraine",
+       "texte": "Les dirigeants doivent aussi évoquer la guerre contre l'Iran lancée par les États-Unis et Israël le 28 février : les frappes de grande ampleur ont cessé pour l'instant, mais le conflit reste dans l'impasse. Après plus de cent jours, le détroit d'Ormuz reste fermé ; un tiers du pétrole brut chinois y transitait avant la guerre. Le commerce pèse aussi sur les relations sino-américaines : taxes de 145 % côté américain l'an dernier, 125 % en représailles, puis baisses et accords. La Russie a profité de la hausse des prix de l'énergie et d'un allègement des sanctions américaines, surtout pour le diesel. Le scandale récent chez Nvidia a conduit Washington à accuser Pékin d'espionner son PDG Jensen Huang, ce que la Chine dément. L'Ukraine, elle, ne devrait pas être abordée, selon un responsable américain : la Chine n'est pas partie à la voie de négociation menée par les émissaires Steve Witkoff et Jared Kushner, qui visitent l'Ukraine et la Russie cette semaine. Pékin, allié de Moscou, estime que la guerre en Ukraine est une affaire européenne."
+      },
+      {
+       "intertitre": "Ce que veut chacun",
+       "texte": "Pour Poutine, la réunion offrirait une image favorable et une position de « premier parmi ses pairs » à valoriser chez lui, selon l'analyste Alexander Bratersky. La Chine veut une issue à la guerre en Iran, qui pèse sur ses approvisionnements énergétiques, et éviter un traité nucléaire qu'elle n'a pas contribué à bâtir. Trump veut un traité incluant Chine et Russie, selon l'administration ; pour Simon Mabon, de l'université de Lancaster, la rencontre sera plus théâtrale que pacificatrice, et aucun des trois ne peut mettre fin aux conflits en Iran ou en Ukraine."
+      },
+      {
+       "intertitre": "Un nouveau Yalta ?",
+       "texte": "Pyotr Tolstoï, président de la commission des affaires étrangères du Parlement russe, évoque un possible « nouveau Yalta », en référence à la conférence de 1945. Le porte-parole du Kremlin, Dmitri Peskov, juge la rencontre « extrêmement importante » mais précise que d'éventuels accords ne pourront être imposés à d'autres nations. Les experts notent aussi que la lourde défaite du Parti républicain aux élections de mi-mandat de la semaine dernière pourrait affaiblir Trump : un Congrès à majorité démocrate soutiendrait plus fermement l'Ukraine. Al Jazeera rappelle que Yalta avait vu Staline, Roosevelt et Churchill se partager l'Allemagne et fonder l'ONU."
+      }
+     ],
+     "synthese": "La réunion de Shenzhen sera une première à trois sur fond de guerre en Iran et de tensions commerciales. Le nucléaire domine l'agenda, mais aucun accord n'est attendu.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect"
+      }
+     ],
+     "format": "long",
+     "id": "a70"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "Europe",
+     "source": "Politico Europe",
+     "date": "2026-11-15",
+     "url": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "auteur": "Chris Lunday",
+     "titre": "L'Estonie fermera tous ses points de passage avec la Russie dès le 1er décembre",
+     "chapo": "Tallinn accuse le renseignement militaire russe (GRU) d'avoir commandité une tentative d'incendie contre le fabricant de drones Threod Systems, et ferme la frontière.",
+     "sections": [
+      {
+       "intertitre": "Le déclencheur",
+       "texte": "Des intrus ont été découverts peu après 3 h du matin, samedi, chez Threod Systems à Viimsi, près de Tallinn, alors qu'ils tentaient de pénétrer dans le bâtiment pour y mettre le feu et provoquer une explosion, a indiqué dimanche la procureure générale Astrid Asi. Threod Systems fabrique des drones de reconnaissance et d'attaque. Le service de sécurité intérieure Kapo parle d'une attaque menée dans le but de causer une explosion et d'incendier le bâtiment. Selon la presse relayée par The Guardian, aucun blessé ni dégât n'a été signalé après la réaction de l'équipe de sécurité de l'entreprise ; le Premier ministre Kristen Michal dit que des dégâts importants ont été évités grâce au renforcement de la sécurité et à la réaction rapide des forces de l'ordre."
+      },
+      {
+       "intertitre": "La décision de fermer la frontière",
+       "texte": "Dimanche, le ministre des Affaires étrangères Margus Tsahkna a écrit sur X que, face à des preuves claires de la commande de l'attaque par le GRU, l'Estonie fermerait tous ses points de passage avec la Russie à partir du 1er décembre. Il a informé ses homologues finlandais, letton et lituanien. L'Estonie compte trois points de passage, à Narva, Luhamaa et Koidula ; la Russie avait déjà suspendu la circulation des véhicules à Narva en février 2024, les piétons pouvant encore passer. Selon The Guardian, les autorités n'ont pas précisé la durée de la fermeture. Michal affirme qu'elle est nécessaire pour réduire le risque de nouvelles attaques et envoyer un message clair : les attaques contre l'industrie de défense estonienne et ses capacités de défense sont inacceptables. Ces points de passage comptent parmi les rares liaisons terrestres restantes entre les deux pays et permettent la circulation des personnes et des marchandises."
+      },
+      {
+       "intertitre": "Les interpellations",
+       "texte": "Les forces de sécurité ont arrêté huit personnes qui vivent en Lettonie, selon la procureure Astrid Asi citée par France 24. Selon la radiotélévision publique ERR, rapportée par The Guardian, les autorités ont demandé qu'un tribunal maintienne cinq d'entre elles en détention. Politico et France 24 parlent d'intrus ou d'attaquants arrêtés, The Guardian de huit personnes détenues pendant l'attaque. Michal souligne que ces arrestations ont suivi des avertissements adressés à l'industrie de la défense : la préparation, dit-il, a clairement payé."
+      },
+      {
+       "intertitre": "Un contexte de tensions",
+       "texte": "Pour Michal, l'incident s'inscrit dans la guerre hybride menée par la Russie contre l'Europe, dont le but est de réduire le soutien à l'Ukraine et d'accroître la pression sur la Russie. « Le but de la Russie est de nous faire peur, de nous faire hésiter et d'affaiblir notre soutien à l'Ukraine », dit-il ; la réponse de l'Estonie sera inverse : renforcer sa sécurité, travailler plus étroitement avec les entreprises et les alliés, accroître la pression sur Moscou et continuer d'aider Kyiv. Tsahkna avertit que la Russie doit comprendre que les actions hostiles contre l'Estonie ont des conséquences et que les tentatives d'intimidation ne resteront pas sans réponse. En août, l'entreprise de défense Milrem, établie à Tallinn, avait été visée par une tentative d'incendie, et des ressortissants lettons avaient été arrêtés. En septembre, la Kapo se disait convaincue d'une attaque préparée pour le compte des services spéciaux russes ; l'Estonie avait convoqué le chargé d'affaires russe, et le Kremlin avait démenti tout lien, parlant d'accusation « sans fondement » et irréfléchie. La Kapo y voyait un schéma d'attaques russes visant les entreprises de défense et de drones, en particulier celles liées à l'Ukraine. Plusieurs services de renseignement européens mettent en garde contre des attaques possibles et contre les tentatives russes de recruter des citoyens de l'UE et de l'Otan, par messagerie en ligne, pour commettre des sabotages."
+      },
+      {
+       "intertitre": "La réaction de Moscou",
+       "texte": "La porte-parole du ministère russe des Affaires étrangères, Maria Zakharova, a déclaré à l'agence TASS que Moscou vérifierait si l'Estonie prévoit bien de fermer tous les points de passage. Si tel est le cas, a-t-elle ajouté, ce serait un nouvel accès de russophobie agressive et débridée."
+      }
+     ],
+     "synthese": "L'Estonie ferme sa frontière avec la Russie le 1er décembre après une tentative d'incendie qu'elle attribue au GRU. Moscou promet de vérifier l'annonce et dénonce de la russophobie.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "France 24",
+       "url": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory"
+      },
+      {
+       "source": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker"
+      }
+     ],
+     "format": "long",
+     "id": "a65"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "monde",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-16",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
+      "auteur": "Kristina Harazim; Leena Fraihat",
+      "id": "a89",
+      "titre": "Guerre en Iran : un troisième porte-avions américain au Moyen-Orient",
+      "texte": "Le porte-avions USS Theodore Roosevelt est arrivé au Moyen-Orient, a indiqué un responsable américain à Al Jazeera. Il rejoint deux autres porte-avions de la zone du Commandement central américain. De son côté, Kazem Gharibabadi, vice-ministre iranien des Affaires étrangères chargé des questions juridiques et internationales, affirme que Téhéran « n'attendra pas que les États-Unis attaquent en premier » et laisse entendre que Washington pourrait gagner du temps par la diplomatie pour préparer une nouvelle attaque."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-16",
+      "url": "https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions?traffic_source=rss",
+      "auteur": "",
+      "id": "a85",
+      "titre": "États-Unis : Trump demande 50 milliards pour les infrastructures aériennes",
+      "texte": "Après un arrêt national du trafic aérien, Donald Trump demande 50 milliards de dollars pour moderniser les infrastructures. Les élus démocrates réclament davantage de transparence avant toute nouvelle dépense."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-16",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/czechs-rally-against-govt-threat-to-media-independence?traffic_source=rss",
+      "auteur": "",
+      "id": "a86",
+      "titre": "Tchéquie : manifestation à Prague contre un projet visant les médias publics",
+      "texte": "À Prague, des manifestants se sont rassemblés contre un projet de transfert du financement des médias publics vers l'État. Ils craignent une influence du gouvernement sur l'information."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Économie et social",
+     "source": "NBER",
+     "date": null,
+     "url": "https://www.nber.org/papers/w35986#fromrss",
+     "auteur": "Sofia Amaral; Girija Borker; Nishith Prakash; María Micaela Sviatschi",
+     "titre": "Bihar : stage de théâtre réduit les biais policiers face aux violences de genre",
+     "chapo": "Un essai randomisé auprès de 2 500 policiers du Bihar montre qu'une formation de trois jours par les arts de l'expression améliore l'accueil des victimes de violences de genre.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "Les agents de première ligne disposent d'un large pouvoir d'appréciation sur l'accès des citoyens aux services publics, mais on sait peu si leurs attitudes peuvent évoluer chez des fonctionnaires déjà en poste. La police est un cas aigu : elle décide de prendre ou non une plainte au sérieux et n'a pas de substitut privé. Pour les violences fondées sur le genre, marquées par la stigmatisation, les réactions dédaigneuses et le fait de blâmer la victime font baisser les signalements. Au Bihar, 40 % des femmes de 18 à 49 ans déclarent des violences physiques ou sexuelles de leur conjoint, mais 2 % seulement des victimes sollicitent la police. Cet écart persiste malgré des lois protectrices et un quota de 35 % de femmes au recrutement. Le Bihar est l'État le plus pauvre de l'Inde, avec un PIB par habitant de 925 dollars."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "Environ sept mois après la mesure initiale, les officiers formés montrent des attitudes plus favorables, plus d'empathie et de meilleures connaissances juridiques ; l'effet sur l'indice d'attitudes est de 0,082 écart-type. Environ un an plus tard, dans des audits standardisés où de fausses victimes se présentent au commissariat, les officiers des postes traités ont 15 points de pourcentage de moins de risque de blâmer la victime, classent moins de plaintes sans suite et orientent davantage. Les registres administratifs indiquent un délai d'enregistrement réduit de 41 %, puis, à plus long terme, davantage de signalements de violences par les citoyens. Huit mois après la formation, les jeunes policières travaillant avec des supérieurs formés déclarent moins d'anxiété (-0,39 écart-type) et moins de harcèlement (-0,06)."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "Avec la police du Bihar, les auteurs ont mené un essai contrôlé randomisé en grappes dans 417 postes de douze districts, auprès d'environ 2 500 officiers supérieurs en activité, au service de 42 millions d'habitants. Les 217 postes traités ont reçu une formation de trois jours inspirée du Théâtre de l'opprimé : jeux de rôle et mises en situation où les officiers adoptent le point de vue des victimes, puis réflexion collective et engagements de changement de pratiques. Le dispositif découle de dix-huit mois d'enquête de terrain. Les données combinent enquêtes, audits de victimes simulées et environ 500 000 dossiers de police. Les mutations d'officiers servent à distinguer un changement durable chez l'individu d'une diffusion des normes dans le poste."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Les biais des agents publics sont modifiables, et on peut améliorer le service rendu en agissant sur ceux qui sont déjà en place, sans changer le personnel. Les officiers formés qui rejoignent un poste de contrôle gardent leurs progrès, et les officiers non formés qui arrivent dans un poste traité s'améliorent aussi : les auteurs y voient un changement individuel durable combiné à une diffusion des normes au sein du poste. La hausse des signalements n'apparaît qu'après l'amélioration de la conduite des officiers, ce qui correspond à une confiance rebâtie peu à peu. Le coût est d'environ 108 dollars par officier, soit 136 560 euros au total, moins d'un centime de dollar par habitant concerné. Aucun effet n'a été détecté sur la dépression ou l'anxiété des officiers."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Les mutations ne sont pas attribuées au hasard : elles peuvent tenir à des raisons administratives, politiques ou disciplinaires, et les auteurs ne parlent donc que d'indices sur la persistance et la diffusion. Le programme formant un seul bloc, ils n'ont pas pu séparer expérimentalement les deux canaux. Les comparaisons de coût avec d'autres programmes restent approximatives."
+      }
+     ],
+     "synthese": "Une formation de trois jours par le théâtre a rendu les policiers du Bihar moins enclins à blâmer les victimes et plus rapides à enregistrer les plaintes, avec des effets qui semblent durer et se diffuser. Les auteurs soulignent toutefois que les preuves sur les mutations restent indicatives.",
+     "republication": "",
+     "reference": "Sofia Amaral, Girija Borker (Banque mondiale), Nishith Prakash (Northeastern University), María Micaela Sviatschi (Princeton University et NBER), NBER Working Paper n° 35986, novembre 2026 ; document de travail non relu par des pairs.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a99"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "recherche",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Données",
+      "source": "Our World in Data",
+      "date": "2026-11-16",
+      "url": "https://ourworldindata.org/no-matter-how-you-ask-more-americans-are-negative-than-positive-about-ai",
+      "auteur": "",
+      "id": "a102",
+      "titre": "IA : plus d'Américains négatifs que positifs, quelle que soit la question",
+      "texte": "Cinq enquêtes de qualité interrogent les Américains sur l'IA de différentes façons. Leur formulation compte, mais l'image d'ensemble reste cohérente : les opinions négatives dominent."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Sanctions et export",
+     "source": "NPR",
+     "date": "2026-11-14",
+     "url": "https://www.npr.org/2026/11/14/nx-s1-6040379/commerce-department-under-pressure-for-delaying-export-controls-on-nvidia-chips",
+     "auteur": "Sarah Robbins",
+     "titre": "Puces Nvidia : le département du Commerce critiqué pour son inaction",
+     "chapo": "Le département du Commerce et son secrétaire Howard Lutnick sont accusés de ne pas avoir resserré le contrôle des exportations de puces Nvidia vers la Chine malgré les alertes sécuritaires.",
+     "sections": [
+      {
+       "intertitre": "Le déclencheur",
+       "texte": "La pression monte sur le département américain du Commerce et sur son secrétaire, Howard Lutnick, qui doivent expliquer pourquoi des puces de Nvidia ont pu être exportées vers la Chine malgré les inquiétudes de sécurité nationale de membres du cabinet et des agences de renseignement. Le secrétaire au Trésor, Scott Bessent, accuse ce département de ne pas avoir inscrit Megaspeed, une société basée à Singapour et soupçonnée de liens avec le renseignement chinois, sur la liste fédérale des entités soumises à restrictions commerciales. Selon lui, d'autres étaient favorables à cette inscription depuis des mois, mais c'est le Commerce, par son Bureau de l'industrie et de la sécurité (BIS), qui « tient le stylo » : il faut l'interroger sur ses procédures internes."
+      },
+      {
+       "intertitre": "Les reproches de Liza Tobin",
+       "texte": "Invitée de NPR, Liza Tobin, ancienne directrice Chine du Conseil de sécurité nationale sous la première administration Trump puis sous celle de Biden, rappelle que le Congrès a confié au Commerce l'autorité légale de réguler l'exportation de ces puces d'intelligence artificielle : il écrit les règles et joue aussi un rôle de police. Pour elle, le scandale est désormais exposé et Lutnick en est le centre, faute d'avoir fait appliquer ces règles. Elle estime que le Congrès éclaircira ses motivations, et se demande s'il a profité d'une forme de capture réglementaire. Elle avance que les autres conseillers du président, dont Scott Bessent, le conseiller technologique Michael Kratsios, Marco Rubio et le directeur du renseignement national Jay Clayton, plaidaient tous pour fermer ces failles et empêcher la Chine d'accéder à la puissance de calcul américaine."
+      },
+      {
+       "intertitre": "Un possible conflit d'intérêts",
+       "texte": "L'animateur Rob Schmitz souligne que Cantor Fitzgerald, société dirigée par les fils de Lutnick, Brandon et Kyle, aide à placer des entreprises exploitant des centres de données en Asie et a donc un intérêt financier à des restrictions plus souples, que Lutnick était chargé de mettre en oeuvre. Liza Tobin juge que cela ressemble absolument à un conflit d'intérêts. Elle rappelle que le président avait autorisé la vente de la génération précédente de puces Nvidia, les H200, moins puissantes, mais pas celle des Blackwell, alors les plus avancées. Or, selon elle, beaucoup de puces Blackwell ont été soit introduites en contrebande, soit rendues accessibles à des développeurs chinois d'IA via des centres de données en Malaisie. Elle affirme que le président a demandé trois fois à Lutnick de traiter le problème et que celui-ci a traîné les pieds."
+      },
+      {
+       "intertitre": "Les enjeux militaires et le rôle de Jensen Huang",
+       "texte": "Selon Liza Tobin, le président apprécie les hommes riches et puissants comme Jensen Huang, de Nvidia, qui aurait eu un accès privilégié à la Maison Blanche et presque joué le rôle de directeur technique des États-Unis. Elle résume sa thèse ainsi : vendre ces puces jugées dépassées à la Chine pour la maintenir dépendante de la technologie américaine. Elle met en garde : ces puces ont des usages militaires. La Chine, dit-elle, reste loin de pouvoir produire des puces du niveau de celles de Nvidia, et ses développeurs d'IA les convoitent pour le guidage de missiles, les missiles hypersoniques ou la guerre sous-marine. Elle prévoit que le nouveau Congrès se concentrera sur le dossier et convoquera les responsables pour les presser de fermer les failles."
+      },
+      {
+       "intertitre": "La réponse du Commerce",
+       "texte": "NPR a sollicité la Maison Blanche et le département du Commerce. Un porte-parole de ce dernier a répondu que le secrétaire s'est pleinement conformé à son accord de déontologie, y compris à toutes les obligations de cession et de déport, et continuera de le faire. Il a cédé tous ses intérêts financiers dans Cantor Fitzgerald, Newmark et BGC."
+      }
+     ],
+     "synthese": "Le département du Commerce est mis en cause pour avoir tardé à fermer les failles sur les puces Nvidia, tandis que Liza Tobin attend des auditions au Congrès. Le Commerce affirme que Howard Lutnick respecte son accord de déontologie et s'est défait de ses intérêts financiers.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a118"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Sanctions et export",
+     "source": "EU Perspectives",
+     "date": "2026-11-14",
+     "url": "https://euperspectives.eu/2026/11/eu-russia-sanctions-enforcement-loopholes-trade-court-of-auditors/",
+     "auteur": "Media Networks; Anna Marvanová",
+     "titre": "Sanctions contre la Russie : des failles dans leur application nationale",
+     "chapo": "Un rapport de la Cour des comptes européenne montre que les pratiques nationales divergentes ouvrent des brèches dans les sanctions commerciales de l'UE contre la Russie.",
+     "sections": [
+      {
+       "intertitre": "Ce que pointe le rapport",
+       "texte": "L'Union européenne peut adopter des règles communes aux 27 États membres, mais leur application varie d'un pays à l'autre. Près de cinq ans après le début de l'invasion à grande échelle de l'Ukraine par la Russie, faire respecter les sanctions commerciales de façon homogène reste difficile. Certains pays contrôlent plus rigoureusement leurs douanes, interprètent les exemptions différemment et ne partagent pas toujours l'information. Un rapport de la Cour des comptes européenne (ECA) avertit que ces écarts créent des occasions de contournement. Les auditeurs parlent de « forum shopping » : des entreprises choisissent où opérer selon les conditions les plus favorables, par exemple des contrôles moins stricts ou une lecture plus indulgente des règles."
+      },
+      {
+       "intertitre": "Une règle, 27 façons de l'appliquer",
+       "texte": "Le problème ne tient pas seulement à une moindre volonté de certains pays. Des autorités nationales manquent aussi de personnel, d'équipements techniques ou de capacités administratives, ce qui limite leur surveillance des flux commerciaux. La rédaction des textes européens complique encore les choses : la terminologie des règles sur les sanctions diffère parfois de celle de la législation douanière, et certaines dispositions sont ambiguës. Les auditeurs y voient un paradoxe : une formulation souple facilite l'accord politique entre États, mais elle peut aussi créer des failles exploitables par les entreprises. Selon le rapport, cela peut aboutir à une application inégale des mesures."
+      },
+      {
+       "intertitre": "Des sanctions qui produisent des effets",
+       "texte": "La critique des auditeurs ne signifie pas que les sanctions sont inefficaces. Le commerce de biens entre l'UE et la Russie est passé de 257,5 milliards d'euros en 2021 à 58,1 milliards en 2025. Les exportations de l'UE vers la Russie ont reculé de 99 à 30,2 milliards d'euros, soit 69 %, et les importations de 163,6 à 27,9 milliards, soit 83 %. D'après les estimations de la Commission européenne, les interdictions et restrictions à l'exportation de biens et de technologies ont eu un effet économique de 49 milliards d'euros en juillet 2026, et les restrictions à l'importation d'environ 110 milliards. Le commerce direct d'articles critiques ou prioritaires, y compris les biens à double usage, a presque cessé depuis 2023. Moscou a néanmoins réorienté une partie de ses approvisionnements par des pays tiers, notamment la Chine : les sanctions n'ont pas stoppé ce commerce, mais en ont changé les routes et renchéri les importations. Les auditeurs notent que l'UE manque parfois de données fiables sur les flux entre la Russie et les pays tiers, ce qui complique l'évaluation des mesures anti-contournement."
+      },
+      {
+       "intertitre": "Les limites de la coopération",
+       "texte": "Depuis le début de l'invasion, la Commission a construit un cadre de coopération étendu : elle publie des orientations, répond aux questions des autorités nationales et gère des systèmes d'échange d'informations sur les transactions suspectes. Les auditeurs jugent cela insuffisant. Les orientations de la Commission n'ont pas de force juridique contraignante et ne peuvent donc garantir une approche cohérente. Les pays utilisent inégalement les systèmes d'échange, et certaines douanes n'ont même pas accès à toutes les bases de données centrales. Fin 2024, cinq États membres avaient assisté à moins de la moitié des réunions d'un mécanisme clé de coordination de l'application des sanctions ; le rapport ne les nomme pas."
+      },
+      {
+       "intertitre": "Un désaccord sur l'évaluation",
+       "texte": "Les auditeurs demandent à la Commission de définir des critères clairs pour mesurer l'efficacité des sanctions commerciales et de les évaluer régulièrement. Selon eux, le suivi actuel des flux et de l'impact économique ne montre pas si les sanctions limitent réellement la capacité de la Russie à poursuivre la guerre. La Commission accepte d'améliorer la collecte et l'analyse des données, mais refuse des critères communs : pour elle, « l'appréciation de leur nécessité, de leur opportunité ou de leur efficacité est de nature politique, non technique », et relève des États membres et du Conseil de l'UE."
+      }
+     ],
+     "synthese": "Les sanctions ont fortement réduit les échanges avec la Russie, mais leur application inégale entre les 27 laisse des failles. Une politique commune ne vaut que par l'action des pays chargés de la faire respecter.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a110"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "veille",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Sanctions et export",
+      "source": "Ship & Bunker",
+      "date": "2026-11-16",
+      "url": "https://shipandbunker.com/news/world/712270-interview-peninsula-says-diverging-us-and-eu-sanctions-rules-mean-bunker-suppliers-must-clear-every-deal-twice",
+      "auteur": "",
+      "id": "a109",
+      "titre": "Sanctions : les fournisseurs de soute doivent valider chaque contrat deux fois",
+      "texte": "Selon Peninsula, les règles américaines et européennes sur les sanctions divergent. Les fournisseurs de soute maritime doivent donc contrôler chaque transaction deux fois."
+     },
+     {
+      "rubrique": "Anti-corruption",
+      "source": "Mediapart",
+      "date": "2026-11-14",
+      "url": "https://www.mediapart.fr/journal/france/141126/delinquance-en-col-blanc-et-justice-negociee-le-patron-du-pnf-repond-aux-critiques",
+      "auteur": "",
+      "id": "a108",
+      "titre": "Le patron du PNF répond aux critiques sur la justice négociée",
+      "texte": "Le chef du Parquet national financier répond aux critiques sur la délinquance en col blanc et le recours à la justice négociée. Le sujet touche à la politique pénale en matière de corruption et de fraude financière."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Idées",
+     "source": "The Conversation",
+     "date": "2026-11-15",
+     "url": "https://theconversation.com/cop31-la-bourse-ne-recompense-plus-la-decouverte-de-reserves-dhydrocarbures-en-cas-dexposition-aux-risques-reglementaires-environnementaux-285014",
+     "auteur": "Diana Castro Herrera; Fernando Pérez de Gracia; Juan Equiza Goñi; Juncal Cuñado",
+     "titre": "Pétrole et gaz : les réserves ne font plus toujours monter l'action en bourse",
+     "chapo": "Une étude sur seize majors pétrogazières montre que la découverte de réserves ne profite plus aux cours quand le risque réglementaire climatique est élevé.",
+     "sections": [
+      {
+       "intertitre": "Le paradoxe",
+       "texte": "Malgré la transition vers une économie bas carbone et la COP31, qui se tient en Turquie jusqu'au 20 novembre, le pétrole et le gaz attirent toujours les investisseurs : en 2026, les investissements mondiaux devraient atteindre un peu moins de 500 milliards de dollars américains pour le pétrole et près de 330 milliards pour le gaz (298,6 milliards d'euros). Les entreprises continuent de découvrir et de développer de nouvelles réserves, alors que près de 60 % des réserves mondiales devraient rester dans le sol d'ici 2050 pour contenir la hausse de la température moyenne à 1,5 °C. Les scientifiques estiment que 58 % des réserves de pétrole et 56 % de celles de gaz ne doivent pas être extraits. D'où la question des auteurs : ces réserves garderont-elles leur valeur si des réglementations climatiques limitent leur exploitation ?"
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "Les auteurs ont analysé conjointement les réserves, l'exposition au risque réglementaire climatique et les performances boursières de seize grandes entreprises pétrogazières internationales, dont TotalEnergies, British Petroleum, Eni et Petrobras, entre 2002 et 2022. L'exposition au risque climatique a été mesurée avec l'indicateur de Zacharias Sautner, Laurence van Lent, Grigory Vilkov et Ruishen Zhang, fondé sur les échanges entre dirigeants et analystes financiers. L'incertitude des politiques climatiques a été évaluée avec l'indice CPU de Konstantinos Gavriilidis, construit à partir d'articles de presse. Les rendements boursiers sont calculés d'après l'évolution annuelle du cours, après déduction du taux sans risque."
+      },
+      {
+       "intertitre": "Les résultats",
+       "texte": "Une même réserve peut être perçue comme un actif créateur de valeur ou comme une source de risque, selon la crédibilité des réglementations climatiques, surtout depuis l'accord de Paris. Traditionnellement, une découverte augmentait la valeur d'une entreprise du secteur ; or, lorsque celle-ci est fortement exposée au risque réglementaire, les marchés ne réagissent pas forcément positivement à la hausse de ses réserves. Deux groupes américains l'illustrent. En 2014, Devon Energy détenait 2 176 millions de barils équivalents pétrole, contre 630 millions pour Pioneer Natural Resources. En 2015, l'exposition climatique a augmenté pour les deux, mais le rendement boursier annuel a été de -47,74 % pour Devon Energy, contre -15,79 % pour Pioneer."
+      },
+      {
+       "intertitre": "Tri des investisseurs et actifs échoués",
+       "texte": "Cette moindre valorisation peut expliquer que des investisseurs réduisent leur exposition aux entreprises très dépendantes des fossiles, ce qu'on appelle le screening. BNP Paribas a cessé de financer de nouveaux projets pétrogaziers, et le New York State Common Retirement Fund, troisième fonds de pension public américain, a acté le désinvestissement de plusieurs géants pétroliers, d'abord ExxonMobil. Les investissements des supermajors peuvent devenir des « actifs échoués » : ils perdent une partie de leur valeur ou deviennent financièrement non viables. Des réserves existent alors toujours sur le plan géologique, mais ne représentent plus de valeur économique, par exemple du fait de taxes carbone, d'interdictions d'exploiter ou d'une baisse durable de la demande. En 2020, TotalEnergies a annoncé une dépréciation de 7 milliards de dollars de ses actifs pétroliers au Canada, dont 5,5 milliards liés à la révision de la valorisation de ses réserves."
+      },
+      {
+       "intertitre": "Et maintenant ?",
+       "texte": "Plusieurs pays ont assoupli des politiques climatiques ou retardé de nouvelles règles. Les États-Unis ont annulé en 2025 une redevance sur certaines émissions de méthane des installations pétrolières et gazières, et le Canada a renoncé à son plafonnement des émissions du secteur, présenté en 2024. À court terme, cela peut réduire la perception du risque réglementaire et soutenir la valorisation des entreprises riches en réserves. Mais les incertitudes demeurent : si les réglementations se durcissent de nouveau, les marchés pourraient de nouveau voir une partie des réserves comme des actifs échoués. Les élections de mi-mandat aux États-Unis pourraient indiquer l'orientation de leur politique climatique."
+      }
+     ],
+     "synthese": "Entre 2002 et 2022, l'exposition au risque réglementaire climatique a changé la façon dont la bourse valorise les réserves des majors. Un durcissement futur des règles pourrait en faire des actifs échoués.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a138"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Idées",
+     "source": "The Conversation",
+     "date": "2026-11-15",
+     "url": "https://theconversation.com/est-il-encore-possible-de-stabiliser-la-dette-publique-francaise-296298",
+     "auteur": "François Langot",
+     "titre": "Dette publique française : est-il encore possible de la stabiliser ?",
+     "chapo": "À 119 % du PIB, la dette atteint un record ; l'économiste François Langot examine ce qu'il faudrait pour la stabiliser et pourquoi une règle budgétaire serait utile.",
+     "sections": [
+      {
+       "intertitre": "L'écart à combler",
+       "texte": "La dette publique atteint 3 595 milliards d'euros, soit 119 % du PIB. Pour juger du risque d'emballement, l'auteur compare le déficit actuel à celui qui la stabiliserait. En 2027, ce déficit stabilisant serait de 3,3 % du PIB, alors que le gouvernement prévoit 5 %, soit 1,7 point d'écart. Ce déficit ne dépend que de la croissance du PIB (réelle et inflation) et du niveau de dette visé. En 2019, avec 2,8 % de croissance et une dette de 98,5 %, il était de 2,7 %, proche du déficit effectif de 3 %, et la dette est restée autour de 98 %. En 2026, la croissance est tombée à 1,35 % : le déficit stabilisant n'était plus que de 1,5 %, très loin des 5,4 % attendus, d'où une hausse de près de 4 points de la dette."
+      },
+      {
+       "intertitre": "Des intérêts qui pèsent sur le reste",
+       "texte": "Le taux d'intérêt ne change pas le déficit stabilisant, mais il détermine ce qui reste pour les autres dépenses une fois les intérêts payés. Quand le taux est inférieur à la croissance, l'État peut stabiliser sa dette en dépensant plus qu'il ne prélève hors intérêts, comme en 2019 (taux de 1,5 %). Quand ils sont égaux, il faut l'équilibre hors intérêts, comme en 2025 (environ 2 %). Quand le taux dépasse la croissance, il faut un excédent, comme entre 1996 et 1998 (taux de 6 à 7 %). En 2027, avec un taux de 2,4 %, les intérêts absorberaient 2,8 points : il ne resterait que 0,5 point de déficit hors intérêts compatible avec une dette stable, alors que le budget en prévoit 2,2. La France emprunte aujourd'hui à plus de 5 % à dix ans, plus du double du taux sur sa dette passée, et la charge d'intérêts a augmenté de 11 % en 2025."
+      },
+      {
+       "intertitre": "Trois arbitrages pour le gouvernement",
+       "texte": "Le premier porte sur la composition de l'effort. Pour la dette, un euro d'économie et un euro de recette valent la même chose comptablement, mais leurs effets sur la croissance diffèrent : selon le Cepremap, un euro d'économie sur la consommation publique réduirait le PIB de 89 centimes la première année, alors que des économies sur les transferts soutiendraient l'activité à trois ans. Sur les 57 milliards d'économies du budget 2025, la baisse effective du déficit hors intérêts n'atteindrait que 33 milliards. Le deuxième porte sur le rythme : un ajustement rapide réduit plus tôt la dette, mais freine l'activité, et cet effet croît avec la dette. À 119 % du PIB, avec 55 centimes de PIB perdus par euro économisé, un effort de 1 point de PIB ne baisse le ratio que de 0,1 point, contre 0,3 point à 60 %. Le troisième porte sur l'objectif : une dette plus basse impose des déficits plus faibles mais réduit à terme les intérêts."
+      },
+      {
+       "intertitre": "Pourquoi une règle budgétaire",
+       "texte": "Quand le taux nominal dépasse la croissance, la dette se nourrit de ses intérêts : c'est l'effet « boule de neige ». En 2026, l'écart ajoute près d'un point de PIB à la dette, en plus des 3 points dus au déficit hors intérêts. Une règle sur le déficit total, comme les 3 % de Maastricht, garantit la stabilité mais impose de compenser toute hausse des intérêts. Une règle sur la croissance des dépenses, comme le cadre européen réformé en 2024, laisse plus jouer la conjoncture, mais n'est efficace qu'avec des hypothèses réalistes. Selon les travaux de l'i-MIP, ramener en cinq ans les dépenses de 57,3 % à 54,4 % du PIB, sans hausse d'impôts, stabiliserait la dette pour environ 0,15 point de croissance par an ; encadrée par une règle, cette consolidation réduit la dette de 1,2 point de plus et pèse moins (0,13 point par an)."
+      },
+      {
+       "intertitre": "La prime de risque et le seuil d'emballement",
+       "texte": "La prime de risque, écart de taux à dix ans avec l'Allemagne, était de 80 points de base fin août 2026, puis de 171 le 22 octobre. Si les marchés exigent un taux plus élevé quand la dette monte, la dette a deux équilibres : l'un stable, l'autre un seuil au-delà duquel elle s'emballe. Dans l'exemple chiffré de l'auteur (dette de 119 %, croissance de 2,8 %, excédent hors intérêts limité à 3 %), le seuil se situe vers 155 % et la stabilisation devient impossible au-delà de 176 %, avec un taux de seulement 3,4 %. Une règle crédible éloigne ce seuil : une prime réduite de 0,1 point représenterait environ 3,6 milliards d'euros d'intérêts économisés par an."
+      }
+     ],
+     "synthese": "Stabiliser la dette devient plus difficile à mesure que les intérêts et la prime de risque augmentent. Une règle budgétaire crédible rendrait cette stabilisation moins coûteuse.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a139"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-15",
+      "url": "https://www.sciencesetavenir.fr/sante/une-radiotherapie-ultraciblee-contre-les-tumeurs-agressives_195864?xtor=RSS-16",
+      "auteur": "",
+      "id": "a131",
+      "titre": "Cancer de la prostate : une radiothérapie ultraciblée contre les tumeurs agressives",
+      "texte": "Le Pluvicto promet de traquer les cellules cancéreuses pour mieux les détruire. Ce médicament repose sur le principe de la théranostique, à mi-chemin entre diagnostic et traitement."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-14",
+      "url": "https://www.sciencesetavenir.fr/sante/cancer-du-pancreas-la-percee-du-daraxonrasib_195859?xtor=RSS-16",
+      "auteur": "",
+      "id": "a134",
+      "titre": "Cancer du pancréas : un médicament semble faire reculer la maladie",
+      "texte": "Pour la première fois, un médicament semble parvenir à faire reculer significativement l’un des cancers les plus redoutables. Une avancée que les spécialistes n’attendaient plus vraiment."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-15",
+      "url": "https://www.sciencesetavenir.fr/sante/temps-d-ecran-des-enfants-pourquoi-le-compteur-ne-dit-pas-tout_195874?xtor=RSS-16",
+      "auteur": "",
+      "id": "a132",
+      "titre": "Écrans et enfants : la science nuance le débat",
+      "texte": "Une heure d'écran supplémentaire affecte-t-elle les capacités cognitives des enfants ? Plusieurs études trouvent des associations négatives, mais leurs résultats ne démontrent pas une responsabilité directe des écrans."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Climat",
+      "source": "Inside Climate News",
+      "date": "2026-11-14",
+      "url": "https://insideclimatenews.org/news/14112026/georgia-power-grid-expansion-gas/",
+      "auteur": "",
+      "id": "a149",
+      "titre": "Géorgie : le gaz en tête des options de Georgia Power",
+      "texte": "Le principal fournisseur d'électricité de Géorgie prépare l'ajout de 2 000 à 6 000 mégawatts pour 2032 et 2033, pour répondre à la croissance des data centers et de l'électrification. Il étudie notamment le gaz naturel."
+     }
+    ]
+   },
+   {
+    "type": "solutions",
+    "bloc": "",
+    "taille": 1
+   }
+  ],
+  "jeux": {
+   "sudoku": {
+    "grille": [
+     3,
+     0,
+     4,
+     7,
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3,
+     0,
+     0,
+     0,
+     9,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     9,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     5,
+     0,
+     7,
+     0,
+     0,
+     0,
+     0,
+     0,
+     9,
+     6,
+     0,
+     0,
+     1,
+     7,
+     0,
+     0,
+     0,
+     0,
+     9,
+     5,
+     0,
+     0,
+     0,
+     8,
+     0,
+     0,
+     2,
+     0,
+     6,
+     0,
+     0,
+     0,
+     7,
+     5,
+     5,
+     0,
+     0,
+     0,
+     3,
+     0,
+     9,
+     0,
+     0
+    ],
+    "solution": [
+     3,
+     1,
+     4,
+     7,
+     9,
+     2,
+     8,
+     5,
+     6,
+     6,
+     5,
+     2,
+     3,
+     1,
+     8,
+     4,
+     9,
+     7,
+     9,
+     8,
+     7,
+     4,
+     6,
+     5,
+     2,
+     1,
+     3,
+     1,
+     7,
+     3,
+     9,
+     4,
+     6,
+     5,
+     2,
+     8,
+     2,
+     4,
+     5,
+     8,
+     7,
+     3,
+     1,
+     6,
+     9,
+     8,
+     9,
+     6,
+     2,
+     5,
+     1,
+     7,
+     3,
+     4,
+     7,
+     3,
+     9,
+     5,
+     2,
+     4,
+     6,
+     8,
+     1,
+     4,
+     2,
+     1,
+     6,
+     8,
+     9,
+     3,
+     7,
+     5,
+     5,
+     6,
+     8,
+     1,
+     3,
+     7,
+     9,
+     4,
+     2
+    ]
+   },
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "indices": [
+     [
+      6,
+      0,
+      7
+     ],
+     [
+      0,
+      4,
+      4
+     ],
+     [
+      0,
+      7,
+      9
+     ],
+     [
+      3,
+      9,
+      10
+     ],
+     [
+      4,
+      2,
+      10
+     ],
+     [
+      5,
+      4,
+      12
+     ],
+     [
+      4,
+      5,
+      6
+     ],
+     [
+      9,
+      7,
+      7
+     ],
+     [
+      5,
+      8,
+      4
+     ],
+     [
+      6,
+      2,
+      2
+     ],
+     [
+      7,
+      6,
+      8
+     ],
+     [
+      7,
+      2,
+      8
+     ],
+     [
+      9,
+      4,
+      3
+     ],
+     [
+      8,
+      8,
+      6
+     ],
+     [
+      9,
+      2,
+      4
+     ]
+    ],
+    "rectangles": [
+     [
+      0,
+      0,
+      7,
+      1
+     ],
+     [
+      0,
+      1,
+      1,
+      4
+     ],
+     [
+      0,
+      5,
+      3,
+      3
+     ],
+     [
+      0,
+      8,
+      5,
+      2
+     ],
+     [
+      1,
+      1,
+      5,
+      2
+     ],
+     [
+      1,
+      3,
+      6,
+      2
+     ],
+     [
+      3,
+      5,
+      3,
+      2
+     ],
+     [
+      3,
+      7,
+      7,
+      1
+     ],
+     [
+      5,
+      8,
+      2,
+      2
+     ],
+     [
+      6,
+      1,
+      1,
+      2
+     ],
+     [
+      6,
+      5,
+      4,
+      2
+     ],
+     [
+      7,
+      0,
+      2,
+      4
+     ],
+     [
+      7,
+      4,
+      3,
+      1
+     ],
+     [
+      7,
+      8,
+      3,
+      2
+     ],
+     [
+      9,
+      0,
+      1,
+      4
+     ]
+    ]
+   },
+   "futoshiki": {
+    "n": 6,
+    "donnes": [
+     [
+      3,
+      3,
+      4
+     ],
+     [
+      5,
+      3,
+      2
+     ],
+     [
+      4,
+      4,
+      1
+     ],
+     [
+      1,
+      5,
+      6
+     ],
+     [
+      0,
+      2,
+      2
+     ],
+     [
+      2,
+      0,
+      3
+     ],
+     [
+      4,
+      5,
+      3
+     ]
+    ],
+    "signes": [
+     [
+      [
+       1,
+       4
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     [
+      [
+       2,
+       0
+      ],
+      [
+       3,
+       0
+      ]
+     ],
+     [
+      [
+       0,
+       5
+      ],
+      [
+       0,
+       4
+      ]
+     ],
+     [
+      [
+       3,
+       3
+      ],
+      [
+       2,
+       3
+      ]
+     ],
+     [
+      [
+       1,
+       3
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     [
+      [
+       2,
+       2
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     [
+      [
+       3,
+       4
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     [
+      [
+       2,
+       5
+      ],
+      [
+       3,
+       5
+      ]
+     ],
+     [
+      [
+       1,
+       4
+      ],
+      [
+       0,
+       4
+      ]
+     ],
+     [
+      [
+       5,
+       0
+      ],
+      [
+       4,
+       0
+      ]
+     ],
+     [
+      [
+       3,
+       1
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ]
+     ],
+     [
+      [
+       2,
+       5
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     [
+      [
+       2,
+       5
+      ],
+      [
+       1,
+       5
+      ]
+     ],
+     [
+      [
+       0,
+       5
+      ],
+      [
+       1,
+       5
+      ]
+     ],
+     [
+      [
+       5,
+       3
+      ],
+      [
+       5,
+       4
+      ]
+     ]
+    ],
+    "solution": [
+     [
+      5,
+      4,
+      2,
+      3,
+      6,
+      1
+     ],
+     [
+      2,
+      5,
+      4,
+      1,
+      3,
+      6
+     ],
+     [
+      3,
+      6,
+      1,
+      5,
+      4,
+      2
+     ],
+     [
+      6,
+      1,
+      3,
+      4,
+      2,
+      5
+     ],
+     [
+      4,
+      2,
+      5,
+      6,
+      1,
+      3
+     ],
+     [
+      1,
+      3,
+      6,
+      2,
+      5,
+      4
+     ]
+    ]
+   },
+   "compte": {
+    "plaques": [
+     7,
+     10,
+     2,
+     10,
+     8,
+     2
+    ],
+    "cible": 112,
+    "solution": [
+     "2 × 10 = 20",
+     "20 − 10 = 10",
+     "10 + 8 = 18",
+     "18 − 2 = 16",
+     "16 × 7 = 112"
+    ]
+   }
+  },
+  "quiz": [],
+  "solutions_hier": {
+   "sudoku": [
+    3,
+    7,
+    8,
+    2,
+    5,
+    9,
+    1,
+    6,
+    4,
+    6,
+    1,
+    4,
+    3,
+    7,
+    8,
+    2,
+    9,
+    5,
+    9,
+    2,
+    5,
+    4,
+    6,
+    1,
+    7,
+    3,
+    8,
+    7,
+    5,
+    1,
+    9,
+    8,
+    6,
+    4,
+    2,
+    3,
+    4,
+    9,
+    2,
+    1,
+    3,
+    5,
+    8,
+    7,
+    6,
+    8,
+    6,
+    3,
+    7,
+    4,
+    2,
+    5,
+    1,
+    9,
+    5,
+    4,
+    9,
+    6,
+    1,
+    7,
+    3,
+    8,
+    2,
+    2,
+    8,
+    7,
+    5,
+    9,
+    3,
+    6,
+    4,
+    1,
+    1,
+    3,
+    6,
+    8,
+    2,
+    4,
+    9,
+    5,
+    7
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      4,
+      3,
+      4
+     ],
+     [
+      0,
+      8,
+      8,
+      1
+     ],
+     [
+      0,
+      9,
+      9,
+      1
+     ],
+     [
+      2,
+      0,
+      4,
+      3
+     ],
+     [
+      2,
+      3,
+      5,
+      1
+     ],
+     [
+      3,
+      4,
+      5,
+      1
+     ],
+     [
+      3,
+      5,
+      6,
+      1
+     ],
+     [
+      3,
+      6,
+      5,
+      2
+     ],
+     [
+      6,
+      0,
+      2,
+      3
+     ],
+     [
+      7,
+      3,
+      3,
+      1
+     ],
+     [
+      8,
+      0,
+      2,
+      3
+     ],
+     [
+      8,
+      4,
+      2,
+      1
+     ],
+     [
+      8,
+      6,
+      1,
+      3
+     ],
+     [
+      9,
+      5,
+      1,
+      5
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     2,
+     5,
+     4,
+     6,
+     1,
+     3
+    ],
+    [
+     6,
+     4,
+     3,
+     1,
+     2,
+     5
+    ],
+    [
+     4,
+     1,
+     2,
+     3,
+     5,
+     6
+    ],
+    [
+     3,
+     2,
+     6,
+     5,
+     4,
+     1
+    ],
+    [
+     5,
+     6,
+     1,
+     4,
+     3,
+     2
+    ],
+    [
+     1,
+     3,
+     5,
+     2,
+     6,
+     4
+    ]
+   ],
+   "compte": [
+    "1 + 50 = 51",
+    "51 − 10 = 41",
+    "41 + 8 = 49",
+    "49 − 4 = 45",
+    "45 × 5 = 225"
+   ],
+   "quiz": []
+  },
+  "avertissements": [
+   "Flux indisponibles : EDPB, ESA"
+  ],
+  "indisponibles": [],
+  "non_rediges": {}
+ },
+ "memoire": {
+  "date": "2026-11-16",
+  "nouveaux_mots": [
+   {
+    "mot": "Inflation",
+    "nature": "n. f.",
+    "niveau": "facile",
+    "domaine": "pro",
+    "definition": "Hausse générale et durable des prix.",
+    "exemple": "L'inflation a ralenti ce trimestre."
+   },
+   {
+    "mot": "Ambivalent",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui présente deux aspects, deux sentiments opposés.",
+    "exemple": "Il a un rapport ambivalent à la ville."
+   },
+   {
+    "mot": "Spécieux",
+    "nature": "adj.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Qui n'a que l'apparence de la vérité.",
+    "exemple": "Un raisonnement spécieux."
+   },
+   {
+    "mot": "Épigone",
+    "nature": "n. m.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Disciple sans originalité d'un maître.",
+    "exemple": "Les épigones de Proust."
+   },
+   {
+    "mot": "Stochastique",
+    "nature": "adj.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Qui relève du hasard, des probabilités.",
+    "exemple": "Un modèle stochastique."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Cacochyme",
+    "definition": "D'une santé faible et chancelante ; décrépit (souvent ironique)."
+   },
+   {
+    "mot": "Ergastule",
+    "definition": "Dans l'Antiquité romaine, prison souterraine pour esclaves ; par extension, lieu d'enfermement pénible."
+   },
+   {
+    "mot": "Prosopopée",
+    "definition": "Figure qui fait parler un absent, un mort ou une chose."
+   },
+   {
+    "mot": "Ténu",
+    "definition": "Très mince, très fin ; par extension, faible, à peine perceptible."
+   },
+   {
+    "mot": "Équivoque",
+    "definition": "Qui peut s'interpréter de plusieurs façons ; ambigu, douteux."
+   }
+  ],
+  "articles": [
+   "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+   "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+   "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+   "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+   "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+   "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/des-courriers-ont-pu-etre-lus-ce-que-l-on-sait-de-la-cyberattaque-contre-maileva-filiale-de-la-poste-qui-a-conduit-au-vol-de-donnees-de-22-millions-de-personnes_8283266.html#xtor=RSS-3-[lestitres]",
+   "https://www.franceinfo.fr/economie/transports/mobilisation-du-17-novembre/la-cfdt-rejoint-la-mobilisation-du-17-novembre-parce-que-nos-revendications-n-ont-pas-abouti-explique-le-syndicat_8283890.html#xtor=RSS-3-[lestitres]",
+   "https://www.franceinfo.fr/societe/pauvrete/presidentielle-2027-la-pauvrete-requiert-des-solutions-structurelles-selon-les-restos-du-coeur_8283881.html#xtor=RSS-3-[lestitres]",
+   "https://www.lemonde.fr/politique/article/2026/11/15/elections-legislatives-le-chantier-sans-cesse-repousse-du-redecoupage-electoral_6811034_823448.html",
+   "https://www.lemonde.fr/politique/article/2026/11/15/fractures-francaises-un-paysage-politique-clive-dans-lequel-l-election-presidentielle-n-est-plus-vue-comme-une-solution_6811038_823448.html",
+   "https://www.lemonde.fr/societe/article/2026/11/15/a-paris-les-rassemblements-interdits-de-lundi-a-vendredi-autour-de-certains-lycees-et-universites_6811050_3224.html",
+   "https://www.scmp.com/news/china/diplomacy/article/3374523/china-us-russia-trilateral-set-thursday-beijing",
+   "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
+   "https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions?traffic_source=rss",
+   "https://www.aljazeera.com/video/newsfeed/2026/11/16/czechs-rally-against-govt-threat-to-media-independence?traffic_source=rss",
+   "https://www.nber.org/papers/w35986#fromrss",
+   "https://ourworldindata.org/no-matter-how-you-ask-more-americans-are-negative-than-positive-about-ai",
+   "https://www.npr.org/2026/11/14/nx-s1-6040379/commerce-department-under-pressure-for-delaying-export-controls-on-nvidia-chips",
+   "https://euperspectives.eu/2026/11/eu-russia-sanctions-enforcement-loopholes-trade-court-of-auditors/",
+   "https://shipandbunker.com/news/world/712270-interview-peninsula-says-diverging-us-and-eu-sanctions-rules-mean-bunker-suppliers-must-clear-every-deal-twice",
+   "https://www.mediapart.fr/journal/france/141126/delinquance-en-col-blanc-et-justice-negociee-le-patron-du-pnf-repond-aux-critiques",
+   "https://theconversation.com/cop31-la-bourse-ne-recompense-plus-la-decouverte-de-reserves-dhydrocarbures-en-cas-dexposition-aux-risques-reglementaires-environnementaux-285014",
+   "https://theconversation.com/est-il-encore-possible-de-stabiliser-la-dette-publique-francaise-296298",
+   "https://www.sciencesetavenir.fr/sante/une-radiotherapie-ultraciblee-contre-les-tumeurs-agressives_195864?xtor=RSS-16",
+   "https://www.sciencesetavenir.fr/sante/cancer-du-pancreas-la-percee-du-daraxonrasib_195859?xtor=RSS-16",
+   "https://www.sciencesetavenir.fr/sante/temps-d-ecran-des-enfants-pourquoi-le-compteur-ne-dit-pas-tout_195874?xtor=RSS-16",
+   "https://insideclimatenews.org/news/14112026/georgia-power-grid-expansion-gas/"
+  ],
+  "titres": [
+   "Meituan publie LongCat-2.5, un modèle d'agent entraîné sans puces Nvidia",
+   "Australie : l'IA touche d'abord les jeunes actifs, selon la banque centrale",
+   "OpenAI réorganise sa robotique, convaincue que ses modèles généraux suffisent",
+   "Maileva, filiale de La Poste : les données de 22 millions de personnes volées",
+   "Fonction publique : la CFDT rejoint la mobilisation du 17 novembre",
+   "Présidentielle 2027 : les Restos du Coeur réclament des solutions structurelles",
+   "Trump, Xi et Poutine se réuniront jeudi à Shenzhen, en marge du sommet de l'Apec",
+   "L'Estonie fermera tous ses points de passage avec la Russie dès le 1er décembre",
+   "Bihar : stage de théâtre réduit les biais policiers face aux violences de genre",
+   "Puces Nvidia : le département du Commerce critiqué pour son inaction",
+   "Sanctions contre la Russie : des failles dans leur application nationale",
+   "Pétrole et gaz : les réserves ne font plus toujours monter l'action en bourse",
+   "Dette publique française : est-il encore possible de la stabiliser ?"
+  ],
+  "solutions": {
+   "sudoku": [
+    3,
+    1,
+    4,
+    7,
+    9,
+    2,
+    8,
+    5,
+    6,
+    6,
+    5,
+    2,
+    3,
+    1,
+    8,
+    4,
+    9,
+    7,
+    9,
+    8,
+    7,
+    4,
+    6,
+    5,
+    2,
+    1,
+    3,
+    1,
+    7,
+    3,
+    9,
+    4,
+    6,
+    5,
+    2,
+    8,
+    2,
+    4,
+    5,
+    8,
+    7,
+    3,
+    1,
+    6,
+    9,
+    8,
+    9,
+    6,
+    2,
+    5,
+    1,
+    7,
+    3,
+    4,
+    7,
+    3,
+    9,
+    5,
+    2,
+    4,
+    6,
+    8,
+    1,
+    4,
+    2,
+    1,
+    6,
+    8,
+    9,
+    3,
+    7,
+    5,
+    5,
+    6,
+    8,
+    1,
+    3,
+    7,
+    9,
+    4,
+    2
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      7,
+      1
+     ],
+     [
+      0,
+      1,
+      1,
+      4
+     ],
+     [
+      0,
+      5,
+      3,
+      3
+     ],
+     [
+      0,
+      8,
+      5,
+      2
+     ],
+     [
+      1,
+      1,
+      5,
+      2
+     ],
+     [
+      1,
+      3,
+      6,
+      2
+     ],
+     [
+      3,
+      5,
+      3,
+      2
+     ],
+     [
+      3,
+      7,
+      7,
+      1
+     ],
+     [
+      5,
+      8,
+      2,
+      2
+     ],
+     [
+      6,
+      1,
+      1,
+      2
+     ],
+     [
+      6,
+      5,
+      4,
+      2
+     ],
+     [
+      7,
+      0,
+      2,
+      4
+     ],
+     [
+      7,
+      4,
+      3,
+      1
+     ],
+     [
+      7,
+      8,
+      3,
+      2
+     ],
+     [
+      9,
+      0,
+      1,
+      4
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     5,
+     4,
+     2,
+     3,
+     6,
+     1
+    ],
+    [
+     2,
+     5,
+     4,
+     1,
+     3,
+     6
+    ],
+    [
+     3,
+     6,
+     1,
+     5,
+     4,
+     2
+    ],
+    [
+     6,
+     1,
+     3,
+     4,
+     2,
+     5
+    ],
+    [
+     4,
+     2,
+     5,
+     6,
+     1,
+     3
+    ],
+    [
+     1,
+     3,
+     6,
+     2,
+     5,
+     4
+    ]
+   ],
+   "compte": [
+    "2 × 10 = 20",
+    "20 − 10 = 10",
+    "10 + 8 = 18",
+    "18 − 2 = 16",
+    "16 × 7 = 112"
+   ]
+  },
+  "reponses_quiz": []
+ },
+ "essai": false
+}
