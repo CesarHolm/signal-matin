@@ -1,0 +1,64 @@
+{
+ "id": "syn-a34",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a34.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : franceinfo\nRubrique : France\nDate du flux : 15/11/2026\nAuteur : Fabien Jannic-Cherbonnel\nTitre d'origine : \"Des courriers ont pu être lus\" : ce que l'on sait de la cyberattaque contre Maileva, filiale de La Poste, qui a conduit au vol de données de 22 millions de personnes\n\nARTICLE :\n\"Des courriers ont pu être lus\" : ce que l'on sait de la cyberattaque contre Maileva, filiale de La Poste, qui a conduit au vol de données de 22 millions de personnes\nLa brigade de lutte contre la cybercriminalité a été chargée de l'enquête, a confirmé dimanche le parquet de Paris. Les investigations ont été ouvertes pour \"atteinte à un système de traitement automatisé de données\" par la section cybercriminalité du parquet parisien.\nC'est l'une des cyberattaques les plus importantes commises en France. Maileva, une filiale du groupe La Poste, a annoncé samedi 14 novembre avoir été touchée par une cyberattaque de grande ampleur. Selon l'entreprise, les coordonnées de 22 millions de personnes ont été dérobées. Franceinfo vous explique ce que l'on sait de l'incident.\nUne plateforme spécialisée dans l'envoi de courriers pour les entreprises\nMaileva, plateforme française en ligne spécialisée dans l'envoi et la gestion de courriers et de documents professionnels, est une filiale de Docaposte, elle-même filiale du groupe La Poste. Elle revendique plus de 70 000 utilisateurs, et 180 millions de documents (bulletins de salaire, factures, recommandés…) envoyés en 2024, selon son site internet. Elle imprime et expédie des courriers pour de nombreuses grandes entreprises, mais aussi des institutions publiques, comme des bailleurs sociaux et des hôpitaux.\nLa Poste a annoncé samedi soir que Maileva avait été victime mi-septembre d'une cyberattaque de grande ampleur. L'entreprise n'a pas communiqué précisément sur la méthode d'intrusion des hackeurs. \"C'est un scénario de cyberattaque classique, dans lequel les pirates ont attaqué un prestataire [Maileva] dans le but de récupérer des bases de données\", souligne auprès de franceinfo Antoine Hautin, secrétaire général de l'entreprise de cybersécurité Almond.\nFin septembre, Docaposte avait suspendu les services de Maileva pendant six jours après une tentative de détournement de la plateforme, expliquait le 30 septembre le site spécialisé Solutions numériques et cybersécurités. L'entreprise avait alors fait état de \"tentatives d'accès non autorisées à la plateforme\", sans donner plus de détails.\nDes noms et adresses postales ont fuité\nLa Poste a annoncé à l'AFP que les coordonnées de 22 millions de personnes avaient été collectées. Toutes sont des \"destinataires des entreprises clientes de Maileva\". Plusieurs bailleurs sociaux, comme Flandre Opale Habitat et Altéal ont signalé une fuite de données, liée à cette cyberattaque, début novembre. Les données exposées sont le prénom, le nom et l'adresse postale des personnes concernées. \"Des informations administratives ou financières, comme un montant de facture\", ont également été récupérées, précise Flandre Opale Habitat. \"Cet incident pourrait avoir entraîné un accès non autorisé à des données personnelles contenues dans des courriers envoyés au cours des dix dernières années\", ajoute le bailleur.\nL'hôpital Foch de Suresnes, situé dans les Hauts-de-Seine, a aussi prévenu ses patients début novembre que \"des courriers de relance de paiement\" ont \"pu être lus par un pirate informatique\". \"Ces courriers ne mentionnent ni la nature de vos soins, ni vos coordonnées bancaires\", ajoute l'établissement, qui appelle à se méfier de \"toute demande d'argent qui semblerait venir de l'hôpital\".\nLa quantité de données volées est importante. \"Maileva est un fournisseur qui présente un risque systémique, car il est utilisé par des dizaines de milliers d'organisations\", rappelle Antoine Hautin. Les clients des entreprises concernées par la fuite de données doivent être prévenus par ces dernières, selon le règlement européen général sur la protection des données personnelles.\nUn risque de réception de courriers frauduleux\nL'un des risques principaux est l'envoi de courriers frauduleux aux personnes dont les coordonnées ont été dérobées. \"Il faut faire attention aux courriers reçus qui peuvent ressembler à des lettres légitimes, car avec l'intelligence artificielle, on peut facilement automatiser les campagnes de fraude\", souligne Antoine Hautin. En cas de \"demande inhabituelle\", le spécialiste conseille \"de contacter l'émetteur par un autre canal\".\nLes données dérobées serviront à alimenter \"des bases de données géantes sur le dark web\", note Antoine Hautin. \"Plus la fuite est récente, plus les informations sont fiables, il est donc possible d'alimenter en continu une sorte de fiche sur chaque citoyen, avec des informations précises comme vos liens avec un hôpital ou un bailleur social\", détaille le vice-président d'Almond.\nUne enquête en cours\nDans son communiqué, Maileva a précisé avoir notifié la Commission nationale de l'informatique et des libertés et déposé une plainte. \"Conformément à la réglementation, toutes les entreprises concernées ont été informées de l'incident par Maileva\", a ajouté l'entreprise.\nLa brigade de lutte contre la cybercriminalité a été chargée de l'enquête, a confirmé dimanche le parquet de Paris, sollicité par l'AFP. Les investigations ont été ouvertes pour \"atteinte à un système de traitement automatisé de données\" par la section cybercriminalité du parquet parisien.\nCe n'est pas la première fois que le groupe La Poste est touché par une cyberattaque d'ampleur. En décembre 2025, quelques jours avant Noël, l'entreprise avait été victime d'une cyberattaque massive, revendiquée par des hackeurs prorusses, contre ses services en ligne. L'accès à la Banque postale et aux services de suivi des colis avait été perturbé pendant plusieurs jours.\nAu-delà de La Poste, les attaques informatiques se sont multipliées ces derniers mois contre des entreprises ou organismes publics. Début novembre, Crédit Mutuel Arkéa a déclaré avoir été la cible d'une cyberattaque d'un montant de l'ordre de 100 millions d'euros. France Travail avait fait l'objet d'une attaque massive début 2024, avec un risque de divulgation de données personnelles concernant 43 millions de personnes.\n\"On vit un moment de multiplication des cyberattaques\" a rappelé le ministre des Comptes publics David Amiel sur franceinfo dimanche. \"Pendant trop longtemps, les questions de cybersécurité ont été reléguées à l'arrière-plan\", a-t-il regretté, appelant à des investissements sur ce sujet.\n- \n        \nvidéo Maileva, filiale de La Poste, victime d'un vol massif de données personnelles\n- \n        \nvidéo Maileva, une filiale du groupe La Poste victime d'un vol de données touchant 22 millions de personnes\n- Victime d'une cyberattaque, Maileva, une filiale du groupe La Poste, annonce un vol de données touchant 22 millions de personnes\n- Un fabricant allemand de drones, fournisseur de l'Ukraine, visé par une cyberattaque fin octobre\n- La panne mondiale d'Outlook \"montre la fragilité de notre monde interconnecté\", souligne l'ancien patron de Microsoft France",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

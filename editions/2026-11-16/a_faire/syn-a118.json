@@ -1,0 +1,64 @@
+{
+ "id": "syn-a118",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a118.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : NPR\nRubrique : Sanctions et export\nDate du flux : 14/11/2026\nAuteur : Sarah Robbins\nTitre d'origine : Commerce Department under pressure for delaying export controls on Nvidia chips\n\nARTICLE :\nCommerce Department under pressure for delaying export controls on Nvidia chips\nThe U.S. Commerce Department is under scrutiny for clearing Chinese companies to handle Nvidia chips, despite national security concerns from cabinet officials and U.S. intelligence agencies.\nROB SCHMITZ, HOST:\nPressure is growing on the Commerce Department and its Secretary Howard Lutnick over why Nvidia's chips have been allowed to be exported to China, despite national security concerns from cabinet officials and intelligence agencies.\n(SOUNDBITE OF ARCHIVED RECORDING)\nSCOTT BESSENT: They were in favor of putting Megaspeed on the entity list for months, but commerce has the pin. Commerce BIS has the pin, and you will have to ask them about their internal processes.\nSCHMITZ: That is Treasury Secretary Scott Bessent accusing Lutnick's department of not putting Megaspeed, a Singapore-based firm with suspected Chinese intelligence ties, on the federal trade restriction list. Liza Tobin is former China director for the National Security Council in the first Trump and Biden administrations. She's here with us now to discuss this. Welcome.\nLIZA TOBIN: Thanks for having me, Rob.\nSCHMITZ: So you're watching this situation unfold very closely. Tell me your reaction to these accusations against Secretary Lutnick.\nTOBIN: Commerce has the pen. Commerce is the agency that has been given the statutory authority by the Congress to regulate the export of these AI chips. They're the ones that write the rules. They also have a law enforcement role. Right now, the whole cover has been blown off this scandal, and Lutnick is there at the center, and it's clear that he just didn't do his job in enforcing those rules.\nSCHMITZ: Why do you think that is?\nTOBIN: So that is the trillion-dollar question. I think we're going to find out a lot more as Congress starts to dig into this. I think we're going to learn a lot more about, was Howard Lutnick benefiting from this regulatory capture? You know, he...\nSCHMITZ: Well, I mean, we do know that Cantor Fitzgerald, a firm run by Lutnick's sons Brandon and Kyle, helps place companies that run data centers in Asia, and their firm has a financial interest in looser chip restrictions that Lutnick himself was in charge of implementing. That seems like a conflict of interest, no?\nTOBIN: It absolutely looks like a conflict of interest. And what's clear is that the rest of the president's advisors - Scott Bessent, the tech advisor Michael Kratsios, the director of national intelligence Jay Clayton, Marco Rubio, and others - were all on one side of this issue, advising the president - Mr. President, we've got to close these loopholes and prevent China from accessing our compute. Remember, the president had changed the policy to say, we can sell the previous generation of Nvidia chips, the so-called H 200...\nSCHMITZ: The less powerful chips.\nTOBIN: That's right. But the president said we are not going to sell the Blackwell chips, at the time the most advanced. Now we know that a whole lot of these Blackwell chips have either been smuggled or they're being accessed by Chinese AI developers overseas in data centers in Malaysia. So you're absolutely right to point to Cantor's interest in seeing that data center trade continue to grow. He disobeyed the president. The president told him to address this three times, so when is that going to happen?\nSCHMITZ: I want to - and I want to ask you about that. I mean, this is the Trump administration. The buck stops with President Trump. How much should we be looking at whether President Trump allowed this to happen?\nTOBIN: I was advising President Trump when he made the difficult decision to initially put export controls on ships going to Huawei, this giant Chinese telecom. It was a difficult decision because no one knew what the implications would be. It was kind of the first time doing such a dramatic policy move, but he made that decision himself. So I don't think the president is sort of deeply wedded to one view or the other, but he has been persuaded that it's now a good idea to close these loopholes. He told Lutnick to do that, and he was dragging his feet. And so I think the Congress is going to be, you know, calling him in to testify.\nSCHMITZ: OK, so you seem to be focused here on Howard Lutnick and his culpability in all of this. What do we know about the relationship between Jensen Huang, the former CEO now of Invidia, and Secretary Lutnick?\nTOBIN: We know the president likes very wealthy and powerful men and geniuses like Jensen Huang. And so he sort of got his ticket into the White House. Jensen was in the cool kids club. Everybody wanted to be in the same room as Jensen Huang. In some ways, he was more powerful than the cabinet secretaries himself. I thought of Jensen Huang as almost, like, the chief technology officer of the United States. He was in explaining AI, explaining chips. It was Jensen Huang's view of the world, telling the president, hey, it's a good idea to sell American technology. These are just kind of old, outdated chips. It's a good idea to sell these chips to China and keep China addicted to our tech stack.\nSCHMITZ: It's important to point out here that these chips are not just being used for AI chatbots. They have military applications.\nTOBIN: China has a long track record of using American technology to advance its own military ambitions. The thing that we have to remember is that China is really good at making a lot of kinds of technology, but they still are nowhere close to being able to produce chips anywhere close to the level of Nvidia's most advanced chips. Anyone in China that wants to be doing cutting-edge AI really wants these chips. And what are they going to use them for? Better missile guidance, its hypersonic missiles, its undersea warfare. It's only a matter of time before China develops its own cyber-capable models that can launch massive disruptive AI-disabled attacks. And by giving them access to the best American chips, it allows them to get there faster. The race to lead in AI is one that is winnable for the United States, but only if we have a government that's taking it seriously and actually has a strategy. I do think that the new Congress coming in is going to be hyperfocused on this issue. They're going to be calling all these folks in to testify, and they're going to put a lot of pressure on them to close the loopholes.\nSCHMITZ: That is Liza Tobin, former China director for the National Security Council. Thank you.\nTOBIN: Thanks for having me, Rob.\n(SOUNDBITE OF MUSIC)\nSCHMITZ: We reached out to the White House and the Commerce Department for a response to Liza Tobin's comments. A spokesperson for the Commerce Department sent us this statement. Quote, \"the secretary has fully complied with the terms of his ethics agreement, including all divestiture and recusal requirements, and will continue to do so. He has divested all financial interests in Cantor Fitzgerald, Newmark, and BGC.\"\n(SOUNDBITE OF MUSIC)\nCopyright © 2026 NPR. All rights reserved. Visit our website terms of use and permissions pages at www.npr.org for further information.\nAccuracy and availability of transcripts for NPR programming may vary. Transcript text may also be revised to correct errors or match updates to audio. Audio may be edited after its original broadcast or publication. The authoritative record of NPR’s programming is the audio record.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

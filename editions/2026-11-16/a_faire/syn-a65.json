@@ -1,0 +1,64 @@
+{
+ "id": "syn-a65",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a65.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Politico Europe\nRubrique : Europe\nDate du flux : 15/11/2026\nAuteur : Chris Lunday\nTitre d'origine : Estonia to close border with Russia after ‘sabotage attack’ on defense firm\n\nARTICLE :\nSOURCE 1 (Politico Europe) :\nEstonia says it will close its border with Russia from the start of December after accusing Russia's military intelligence service of ordering an attempted arson attack on an Estonian drone maker.\nIntruders were found at Threod Systems in Viimsi, outside Tallinn, shortly after 3 a.m. on Saturday trying to break into the building with the aim of setting it on fire and causing an explosion, Prosecutor General Astrid Asi said Sunday.\nFollowing the incident, Estonian Foreign Minister Margus Tsahkna wrote on X: \"Following clear evidence that Russia’s military intelligence service GRU ordered a sabotage attack against an Estonian defense industry company, Estonia will close all Estonian-Russian border crossing points as of 1 December.\"\n\nSOURCE 2 (France 24) :\nEstonia to close Russian border crossings after 'sabotage' attempt at drone factory\nEstonia will close all its border crossing points with Russia from December 1, its foreign minister said on Sunday, following a suspected sabotage attack on an Estonian defence company that Tallinn blamed on Moscow.\nEstonia said Sunday it would close its border with Russia after stopping what it said was an attempted arson attack by Russia's GRU military intelligence on a drone factory.\nThe move marked a sharp escalation in tensions between Estonia and Russia, which Tallinn sees as part of a broader campaign of hostile activity linked to Moscow's war against Ukraine.\n\"Estonia will close all Estonian-Russian border crossing points as of 1 December,\" Foreign Minister Margus Tsahkna posted on X, citing \"clear evidence\" that the GRU had ordered the attack.\nMoscow said it would verify whether Estonia was indeed planning to shut all crossings. \"We will verify all this to see if it's true,\" Russian foreign ministry spokeswoman Maria Zakharova told TASS news agency.\n\"But if these are their (Estonia's) real plans, then it will be seen as yet another bout of aggressive and unbridled Russophobia,\" she added.\nTo display this content from X (Twitter), you must enable advertisement tracking and audience measurement.\nEarlier Sunday, Prime Minister Kristen Michal wrote on X that the GRU had ordered a \"sabotage attempt\" at the Estonian defence company Threod Systems on Saturday night.\n\"Extensive damage was averted thanks to heightened security measures and a swift reaction by law enforcement. The attackers have been detained,\" he added.\nThe foiled attack happened in Viimsi, north of the capital, Tallinn.\nTsahkna, in his later post, said: \"Russia must understand that hostile actions against Estonia come with consequences.\n\"Attempts to intimidate, destabilise, or undermine our security will not go unanswered.\"\nHe also said he had informed his Finnish, Latvian, and Lithuanian counterparts of the decision.\nRead moreEurope faces threat of organised sabotage, terrorist attacks: Estonian FM Tsahkna\nSecurity forces arrested eight individuals who live in Latvia, chief prosecutor Astrid Asi told journalists.\nMichal called the incident \"part of Russia's broader hybrid war against Europe, with the aim of decreasing support to Ukraine and pressure on Russia\".\n\"We will not be intimidated,\" he added.\nThreod Systems manufactures reconnaissance and attack drones.\nIn August, the defence subcontractor Milrem, based in Tallinn, was targeted in an attempted arson attack and Latvian nationals were arrested.\nEstonia, a member of the European Union and NATO, currently has three crossing points with Russia at Narva, Luhamaa and Koidula, that allow the movement of people and goods between the two countries.\nRussia suspended vehicle traffic through Narva in February 2024, although pedestrians were still allowed to pass.\nThe crossings are among the few remaining overland links between Russia and\n(FRANCE 24 with AFP)\n\nSOURCE 3 (The Guardian) :\nEstonia will close all its border crossings with Russia from 1 December after a suspected sabotage attack on a drone maker in the Baltic state over the weekend, which authorities said was ordered by Russia’s GRU military intelligence service.\nOn Saturday morning, eight people were detained during an attempted attack on Threod Systems, a defence company that manufactures long-range attack and reconnaissance drones. No injuries or damage were reported after the company’s security team responded to the incident.\nEstonia’s internal security service, Kapo, said on Sunday the attack was carried out “with the aim of causing an explosion and setting the building on fire”. Authorities have requested a court order for five of those detained to remain in custody, Estonia’s public broadcaster ERR reported.\nThe Estonian prime minister, Kristen Michal, said the border closure was needed to reduce the risk of further attacks and “send a clear message that attacks on Estonia’s defence industry and defence capabilities” were unacceptable.\nHe linked the attacks with Estonia’s continuing support for Ukraine. “Russia’s aim is to make us afraid, make us hesitate and weaken our support for Ukraine,” Michal said.\n“Estonia’s response is the opposite. We will strengthen our security, work even more closely with businesses and our allies, increase pressure on Russia and continue supporting Ukraine.”\nThe Estonian foreign minister, Margus Tsahkna, echoed the warning, saying: “Russia must understand that hostile actions against Estonia come with consequences. Attempts to intimidate, destabilise or undermine our security will not go unanswered.”\nEstonia operates three border crossings with Russia – Narva in the north, and Koidula and Luhamaa in the south. The authorities did not specify how long the closure would be.\nIt is the second attempted attack on an Estonian defence company that authorities have attributed to Russia, after an arson attack at Milrem Robotics in August.\nIn September, Kapo said it was confident that the incident was “a deliberate and pre-planned attack carried out on behalf of Russian special services”.\nThe agency also said it fitted a pattern of Russian attacks targeting defence and drone companies, particularly those with links to Ukraine.\nAt the time Estonia summoned Russia’s chargé d’affaires over the attack, but the Kremlin denied any link to Russia, saying it was a “baseless” and “ill-considered” accusation “with absolutely no relation to reality”.\nSeveral European intelligence services have repeatedly warned of potential attacks on defence companies and growing Russian attempts to recruit citizens in EU and Nato countries – on online messaging platforms – to carry out acts of sabotage.\nMichal noted that the weekend’s arrests came after security agencies told the defence industry of potential risks. “We do not warn about these threats without reason. Preparedness matters, and this time it clearly paid off,” he said.\nThe Russian foreign ministry spokesperson, Maria Zakharova, told state news agency Tass: “If these [border closures] are their real plans, then they fit into yet another bout of aggressive and unrestrained Russophobia.”",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

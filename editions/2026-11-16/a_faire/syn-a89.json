@@ -1,0 +1,64 @@
+{
+ "id": "syn-a89",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a89.json",
+ "limite_caracteres": 4188,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4188 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Al Jazeera\nRubrique : Monde\nDate du flux : 16/11/2026\nAuteur : Kristina Harazim; Leena Fraihat\nTitre d'origine : Iran war live: Third US carrier arrives, Iran warns it could strike first\n\nARTICLE :\nSOURCE 1 (Al Jazeera) :\nThe USS Theodore Roosevelt has arrived in the Middle East, a US official told Al Jazeera. The aircraft carrier joins two others operating in the US Central Command area.\nKazem Gharibabadi, Iran’s deputy foreign minister for legal and international affairs, says Tehran “will not wait for the US to attack first” and suggests Washington might be buying time through diplomacy to prepare for another attack.\n\nSOURCE 2 (Iran International) :\n“The Iranian people and the Israeli people, we love each other, we support each other,” Haddad said in Iran International’s Washington studio. “Every place I went for a demonstration, for a protest, I had Iranians at my back helping me.”\nHaddad, a Christian from Nazareth and a volunteer Israeli army veteran, is one of Israel’s best-known advocates abroad. He ran second on Amcha Yisrael, a new right-wing list led by retired Brigadier General Ofer Winter, in Israel’s October 27 election. The list won 1.68 percent of the vote and no seats.\n‘The same mission’\nHaddad said he wanted to turn the ties between ordinary Israelis and Iranians into a common campaign.\n“My plan is to take that relationship between the Israeli people and the Iranian people and strengthen it, and with the numbers, together we serve the same mission, which is one: destroying the IRGC and bringing security to Israel and the entire Middle East,” he said.\nIsrael has fought on what Haddad called seven fronts since the Hamas-led attack of October 7, 2023, including direct war with the Islamic Republic. In his view, Israel won militarily but stopped short of finishing the job, and the reason was the battle for public opinion.\n“You know why we were stopped? Because of the public diplomacy and anti-Israel propaganda,” he said. “The way to fight the IRGC and to destroy the IRGC is through public diplomacy.”\nHe said Israel’s own government had fallen short. “We could have done more for Israeli public diplomacy. We could have done more for the Iranian people’s public diplomacy, and especially for the Iranian people against the IRGC,” he said.\nHe accused Qatar, which has hosted Hamas’s political office and funds Al Jazeera, of dominating that arena. “We completely gave that arena to Qatar, and they are shifting the narrative,” he said.\nAn Arab in the Israeli army\nHaddad served in the Golani Brigade and was badly wounded by a Hezbollah anti-tank missile in the 2006 Lebanon war. “It was my Jewish brothers in arms who saved my life and who brought me back to Israel,” he said.\nArab citizens, about a fifth of Israel’s population, are exempt from compulsory service, and Haddad volunteered.\n“I, as an Arab, was a commander over Jewish soldiers in the IDF,” he said, rejecting the charge that Israel is an apartheid state.\nIn 2024 he lit a torch at Israel’s official Independence Day ceremony. “This is something huge for an Israeli, yes, but for an Arab Israeli, it’s absolutely crazy,” he said.\nCriticism of Arab-led parties\nArab-led parties won a record 19 seats in the October 27 election, and their backing helped opposition leader Gadi Eisenkot win the mandate to form a government. Haddad said the result showed Israel’s democracy works, but he accused the parties’ leaders of neglecting their own voters.\n“When the election comes, all the leaders stop talking about Gaza, stop talking about Jenin and Ramallah, and finally they start talking again about Nazareth and Haifa,” he said. “They’re lying to us, time after time.”\nHe singled out Ahmad Tibi, the veteran head of Ta’al. “He tells you that Israel is an apartheid state. He tells you that he doesn’t want Israel as a Jewish state,”\nHe also said Tibi was protected by his parliamentary immunity. “He hit a cop, but because he’s a politician, he has immunity. No one can do anything to him,” Haddad said.\nHaddad said he had once been kept out of a Knesset committee session chaired by Joint List lawmaker Aida Touma-Sliman on the claim that Israel is an apartheid state.\n“I told her, ‘You guys are actually the apartheid, because you don’t want to listen to me, and I’m one of you, an Arab just like you,’” he said. “Pure apartheid toward me.”\nHe also cited Sami Abu Shehadeh, head of the Balad party, who withdrew from the election in October after the Central Elections Committee voted to bar him over remarks after the October 7 attack.\n“They don’t want to set a precedent,” Haddad said of the Supreme Court, which recommended the withdrawal rather than ruling. “I’m all for freedom of speech, until you start to incite to terrorism.”\nTeaching children to die\nHaddad said the Guards’ proxies indoctrinate children from an early age, and that education can work in both directions. He praised the United Arab Emirates, which designated the Muslim Brotherhood a terrorist group in 2014 and later began teaching the Holocaust in schools.\nOf children raised by Hamas in Gaza and Hezbollah in Lebanon, he said: “When you arrive at age 12, you’re already serving in their terrorist organization, completely brainwashed. When you arrive at age 16, you’re ready to die.”\nHaddad said he hoped Israelis and Iranians would build a common front.\n\"Together, the people of Israel and the people of Iran, we can actually do it,\" he said.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

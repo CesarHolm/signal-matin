@@ -1,0 +1,64 @@
+{
+ "id": "syn-a138",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a138.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Conversation\nRubrique : Idées\nDate du flux : 15/11/2026\nAuteur : Diana Castro Herrera; Fernando Pérez de Gracia; Juan Equiza Goñi; Juncal Cuñado\nTitre d'origine : COP31 : la Bourse ne récompense plus la découverte de réserves d’hydrocarbures en cas d’exposition aux risques réglementaires environnementaux\n\nARTICLE :\nL’ESSENTIEL\n- Près de 60 % des réserves mondiales de pétrole et de gaz fossile devraient rester dans le sol d’ici à 2050 pour tenir l’objectif de contenir la hausse de température moyenne de la planète à 1,5 °C.\n- Une étude, portant sur 16 majors pétrolières, souligne que leurs réserves pèsent sur leurs performances boursières lorsque la réglementation se durcit.\n- Ces investissements dans les hydrocarbures deviennent non viables, des actifs dits « échoués ».\nMalgré la transition vers une économie bas carbone et la COP31, qui se tient en Turquie jusqu’au 20 novembre, l’industrie du pétrole et du gaz continue d’attirer d’importants appétits des investisseurs. En 2026, les investissements mondiaux dans le pétrole devraient s’établir à un peu moins de 500 milliards de dollars états-uniens tandis que ceux consacrés au gaz devraient s’établir à près de 330 milliards de dollars (298,6 milliards d’euros).\nCette situation soulève un paradoxe. Alors que la transition énergétique vise à réduire la dépendance aux énergies fossiles, les entreprises continuent de découvrir et de développer de nouvelles réserves d’hydrocarbure. Une question se pose alors : ces réserves conserveront-elles la même valeur si de futures réglementations climatiques limitent leur exploitation ?\nPour répondre à cette question, dans notre étude, nous avons analysé conjointement les réserves, l’exposition au risque réglementaire lié au changement climatique et les performances boursières de seize grandes entreprises pétrolières et gazières internationales – dont TotalEnergies, British Petroleum, Eni ou Petrobras – entre 2002 et 2022.\nNos résultats ? Une même réserve d’hydrocarbure peut être perçue comme un actif créateur de valeur ou comme une source de risque selon la crédibilité des réglementations climatiques, notamment depuis l’accord de Paris sur le climat en 2015.\nComment nous avons procédé\nPour mesurer l’exposition des entreprises aux risques climatiques, nous avons utilisé l’indicateur développé par Zacharias Sautner, Laurence van Lent, Grigory Vilkov et Ruishen Zhang. Ce dernier repose sur l’analyse des échanges entre les dirigeants d’entreprise et les analystes financiers. Nous avons également utilisé l’indice d’incertitude des politiques climatiques (CPU) de Konstantinos Gavriilidis, construit à partir d’articles de presse, afin d’évaluer l’incertitude entourant les politiques climatiques.\nLes réserves de pétrole et de gaz ont été mesurées en barils équivalents de pétrole, tandis que les rendements boursiers ont été calculés à partir de l’évolution annuelle du cours des actions de chaque entreprise, après déduction du taux de rendement sans risque.\nNous avons ensuite réalisé des analyses statistiques pour examiner comment l’exposition aux risques climatiques influence la relation entre les réserves de pétrole et de gaz et les rendements boursiers, et si l’incertitude liée aux politiques climatiques modifie cette relation.\nLes réglementations environnementales\nLes réserves de pétrole et de gaz ne sont plus toujours une bonne nouvelle pour la bourse.\nTraditionnellement, la découverte de nouvelles réserves augmentait la valeur d’une entreprise du secteur. Aujourd’hui, la transition énergétique modifie progressivement cette logique. Depuis l’accord de Paris en 2015, les scientifiques prônent l’idée que 58 % des réserves mondiales de pétrole et 56 % de gaz fossile ne doivent pas être extraits d’ici 2050.\nDans notre étude, nous soulignons que lorsqu’une entreprise est fortement exposée au risque réglementaire lié au changement climatique, les marchés boursiers ne réagissent pas forcément positivement à l’augmentation de ses réserves en hydrocarbures. Pourtant, les réserves demeurent un élément central dans ce secteur. TotalEnergies vient par exemple d'annoncer en grande pompe le développement d'un champ gazier au Nigéria.\nExemples de Devon Energy et Pioneer Natural Resources\nConséquence : Les investisseurs accordent davantage de crédit à la possibilité qu’une partie de ces réserves ne puisse finalement jamais être exploitée. C’est le cas pour deux majors pétrolières états-uniennes : Devon Energy et Pioneer Natural Resources.\nCes deux graphiques illustrent comment des réserves d’hydrocarbures plus importantes peuvent être associées à des rendements boursiers plus faibles quand les risques climatiques s’intensifient. En 2014, avant l’adoption de l’accord de Paris, Devon Energy détenait des réserves d’hydrocarbures de 2 176 millions de barils équivalents pétrole, contre 630 millions de barils équivalents pétrole pour Pioneer Natural Resources.\nEn 2015, année de l’adoption de l’accord de Paris, l’exposition climatique augmentait pour les deux entreprises, mais le rendement boursier annuel était plus négatif pour Devon Energy, à – 47,74 %, contre – 15,79 % pour Pioneer Natural Resources.\nLa réduction de l’exposition\nCette moindre valorisation peut contribuer à expliquer pourquoi certains investisseurs réduisent progressivement leur exposition aux entreprises fortement dépendantes des combustibles fossiles. C’est ce qu’on appelle le screening, ou tri.\nPar exemple, BNP Paribas a cessé de financer de nouveaux projets pétrogaziers. Le New York State Common Retirement Fund, le troisième plus grand fonds de pension public états-unien, a acté le désinvestissement de ses parts dans plusieurs géants pétroliers, au premier rang desquels figure ExxonMobil.\n« Actif échoué »\nLes investissements des supermajors dans les infrastructures pétrolières ou gazières, les gisements ou les équipements peuvent devenir des actifs échoués, ou stranded asset. Concrètement, ces actifs perdent une partie de leur valeur ou deviennent financièrement non viables.\nUne partie des réserves peut rester définitivement sous terre. C’est bien la logique des Accords de Paris. Bien qu’elles existent toujours sur le plan géologique, elles cessent de représenter une valeur économique pour l’entreprise.\nCette situation peut résulter de politiques climatiques qui limitent progressivement l’exploitation des énergies fossiles : taxes carbone, interdiction d’exploiter certains gisements ou baisse durable de la demande liée à l’électrification et au développement des énergies renouvelables.\nPar exemple, en 2020, le groupe français TotalEnergies a annoncé une dépréciation de 7 milliards de dollars de ses actifs pétroliers situés au Canada, dont 5,5 milliards directement liés à la révision de la valorisation de ses réserves dans le cadre de ses ambitions climatiques. Le groupe estimait qu’une partie de ces réserves pourrait ne pas être exploitée d’ici à 2050.\nQue peut-il se passer maintenant ?\nCes dernières années, plusieurs pays ont assoupli certaines politiques climatiques ou retardé l’adoption de nouvelles réglementations concernant le secteur pétrolier et gazier. C’est le cas des États-Unis qui a annulé en 2025 une réglementation imposant une redevance sur certaines émissions de méthane des installations pétrolières et gazières. Le gouvernement fédéral du Canada a renoncé à son projet de plafonnement des émissions de gaz à effet de serre du secteur d’hydrocarbures, initialement présenté en 2024.\nÀ court terme, cette évolution peut réduire la perception du risque réglementaire et soutenir la valorisation boursière des entreprises disposant d’importantes réserves.\nCependant, les incertitudes entourant les futures politiques climatiques demeurent. Si les réglementations visant à réduire les émissions se renforcent de nouveau dans les prochaines années, les marchés pourraient à nouveau considérer qu’une partie de ces réserves constitue un actif échoué. Par exemple, les élections de mi-mandat aux États-Unis pourraient nous donner des indications sur l’orientation future de la politique climatique états-unienne…",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

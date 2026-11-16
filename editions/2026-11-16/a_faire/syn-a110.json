@@ -1,0 +1,64 @@
+{
+ "id": "syn-a110",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a110.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : EU Perspectives\nRubrique : Sanctions et export\nDate du flux : 14/11/2026\nAuteur : Media Networks; Anna Marvanová\nTitre d'origine : Cracks in the EU’s sanctions wall against Russia leave room for companies to exploit\n\nARTICLE :\nThe EU can adopt common rules for all 27 member states. But when it comes to enforcement, each country plays by slightly different rules. And companies looking to get around sanctions can find openings in those differences.\nNearly five years after Russia launched its full-scale invasion of Ukraine, consistently enforcing EU trade sanctions remains a challenge. Some countries carry out customs checks more rigorously than others. They interpret exemptions differently and do not always share information. As a result, weaker enforcement in one member state can undermine the efforts of the entire Union.\nA new report by the European Court of Auditors (ECA) highlights the problem. Auditors warn that differences between national practices create opportunities to circumvent trade sanctions. These sanctions form part of the EU’s common foreign and security policy. But individual member states and their customs authorities bear much of the\nThis is where the auditors see a major weakness. “Divergences in member states’ practices create opportunities for ‘forum shopping’, which can facilitate circumvention,” the auditors write.\nYou might be interested\nThe term forum shopping comes from the legal world. It describes how a claimant chooses the jurisdiction most likely to favour their interests. Applied more broadly, it means companies choosing where to do business based on the most favourable conditions, such as less stringent checks or a more lenient interpretation of sanctions rules. Such differences can make it easier to sidestep restrictions that should apply across the EU.\nOne set of rules, 27 different approaches\nThe problem is not simply that some countries are less willing to enforce the rules. Some national authorities also lack staff, technical equipment or administrative capacity. This affects how thoroughly they can monitor trade flows.\nThe wording of EU legislation adds another complication. Sanctions rules sometimes use different terminology from customs legislation. Some provisions are also ambiguous, leaving room for different interpretations.\nDivergences in member states’ practices create opportunities for ‘forum shopping’, which can facilitate circumvention. — The European Court of Auditors\nThe auditors point to a paradox built into the negotiations themselves. Flexible wording can make it easier for member states to reach a political agreement. But in practice, it can also create loopholes that businesses can exploit.\n“The trade-off is clear: it can lead to the uneven implementation of the measures and increase the risk that economic operators may be able to exploit loopholes across borders,” the report says. In other words, the very compromises that make common rules possible can also undermine their consistent application.\nSanctions are working\nThe auditors’ criticism does not mean EU sanctions are ineffective. Their impact on trade between the EU and Russia has been substantial. In 2025, total trade in goods between the two amounted to €58.1 billion, down from €257.5 billion in 2021. EU exports to Russia fell from €99 billion to €30.2 billion, a drop of 69 per cent. Imports from Russia declined even more sharply, falling 83 per cent from €163.6 billion to €27.9 billion.\nAccording to European Commission estimates, export bans and restrictions on goods and technology had an economic impact of €49 billion by July 2026. Import restrictions accounted for approximately €110 billion.\nThe impact has been particularly significant on goods Russia needs for its military capabilities. Direct trade in critical and high-priority items, including dual-use goods, has almost come to a halt since 2023.\nMoscow has nevertheless rerouted some supplies through third countries, particularly China. Sanctions have not stopped this trade altogether. Instead, they have changed its routes and made imports more expensive.\nThe EU is also trying to counter these practices through measures targeting sanctions circumvention. But their effectiveness varies. The auditors warn that the bloc does not always have sufficiently reliable data on trade flows between Russia and third countries. This makes it difficult to assess how far it has succeeded in curbing circumvention.\nBrussels cannot enforce cooperation\nSince the invasion began, the European Commission has built an extensive framework for cooperation. It issues guidance, answers questions from national authorities and runs systems for sharing information about suspicious trade transactions.\nBut the auditors say these efforts are not enough. Commission guidance is not legally binding. It therefore cannot guarantee a consistent approach across all member states.\nCountries also make uneven use of information-sharing systems. Some customs authorities do not even have access to all central databases. This makes it harder to share intelligence about risky shipments and coordinate checks across borders.\nThe auditors also point to weak participation by some countries in joint coordination meetings. By the end of 2024, five member states had attended fewer than half the meetings of one key sanctions enforcement coordination mechanism. The report does not name the countries.\nWho decides whether sanctions are working?\nThe auditors want the Commission to introduce clear criteria for assessing the effectiveness of trade sanctions. They also recommend regular evaluations based on those criteria. Current monitoring of trade flows and economic impact, they argue, does not show whether sanctions are actually limiting Russia’s ability to continue its war.\nThe Commission disagrees. It accepts the recommendation to improve data collection and analysis. However, it rejects the proposal for common criteria to assess the overall effectiveness of sanctions. Its argument is that sanctions are an instrument of the EU’s common foreign and security policy. Deciding whether they remain necessary or effective is therefore not simply a technical exercise.\n“The assessments of their continued need, desirability or effectiveness are political, not technical in nature,” the Commission says in its response to the auditors. The Commission believes that member states and the Council of the EU should make the final judgement on their effectiveness.\nThe auditors have exposed weaknesses in a system designed to restrict Russia’s access to European technology and goods vital to its military industry. The Commission itself stresses that the system depends on cooperation from every member state.\nAnd that is the central problem: a common sanctions policy can only be as effective as the countries responsible for enforcing it.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

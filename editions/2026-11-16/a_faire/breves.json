@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a19\", \"source\": \"Le Monde\", \"titre\": \"« Fractures françaises » : un paysage politique clivé, dans lequel l’élection présidentielle n’est plus vue comme une solution\", \"resume\": \"Réalisée par Ipsos BVA-CESI Ecole d’ingénieurs pour « Le Monde », le Cevipof, la Fondation Jean Jaurès et l’Institut Montaigne, cette grande enquête annuelle sur les valeurs des Français donne un instantané précieux de l’humeur politique du pays à l’approche du scrutin. La société y apparaît de plus en plus en colère, avec un retour du clivage gauche-droite très net.\"}, {\"id\": \"a20\", \"source\": \"Le Monde\", \"titre\": \"Elections législatives : le chantier sans cesse repoussé du redécoupage électoral\", \"resume\": \"Si des élections législatives sont organisées en 2027 après la présidentielle, elles reposeront sur une carte électorale qui n’a plus été retouchée depuis 2009. Alors que les autorités politiques tardent à se lancer dans ce chantier à haut risque, une commission dédiée s’est remise au travail.\"}, {\"id\": \"a111\", \"source\": \"Report.az\", \"titre\": \"Von der Leyen: EU to present 22nd sanctions package against Russia\", \"resume\": \"Von der Leyen: EU to present 22nd sanctions package against Russia Report.az\"}, {\"id\": \"a134\", \"source\": \"Sciences et Avenir\", \"titre\": \"Un nouvel espoir contre le cancer du pancréas\", \"resume\": \"C’est une avancée que les spécialistes n’attendaient plus vraiment. Pour la première fois, un médicament semble parvenir à faire reculer significativement l’un des cancers les plus redoutables.\"}, {\"id\": \"a131\", \"source\": \"Sciences et Avenir\", \"titre\": \"Cancer de la prostate : une radiothérapie ultraciblée contre les tumeurs agressives\", \"resume\": \"Traquer les cellules cancéreuses pour mieux les détruire : c'est la promesse du Pluvicto, un médicament qui repose sur le principe de la théranostique, à mi-chemin entre diagnostic et traitement.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

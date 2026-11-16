@@ -1,0 +1,64 @@
+{
+ "id": "syn-a4",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a4.json",
+ "limite_caracteres": 3990,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3990 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 15/11/2026\nAuteur : Jonathan Kemper\nTitre d'origine : Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU\n\nARTICLE :\nMeituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU\nMeituan releases the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents. It was trained entirely on Chinese hardware and performs at the level US models like Claude Opus 5 reached a few months ago on coding benchmarks.\nThe LongCat team at Chinese food delivery company Meituan has released the weights for LongCat-2.5, one week after the model's official unveiling. LongCat-2.5 is built for agents that work through long, multi-step tasks autonomously, particularly coding. According to Meituan, it comes close to top Western models on several benchmarks.\nLongCat-2.5 is a mixture-of-experts model that activates only a subset of its specialized subnetworks for each token it processes. Out of 1.6 trillion total parameters, roughly 48 billion are active per token. Through the API, the model handles up to one million tokens at once and generates responses up to 128,000 tokens long. It understands text, images, and video, responds in text, and lets users toggle reasoning on and off.\nLongCat-2.5 converts images into tokens\nLongCat-2.5 builds on its predecessor LongCat-2.0 and adds image understanding. Many multimodal models bolt on a separate image encoder after the fact. LongCat-2.5 instead converts images into tokens that the model processes alongside text, as is standard practice for today's LLMs. The approach draws on the research model LongCat-Next and aims to improve visual coding, design, and 3D tasks.\nFor reinforcement learning, the team used real software tasks from GitHub pull requests along with recreated agent failures. To make sure the model actually solved the tasks during training, the developers blocked internet access in the training environments, removed Git history and cached files, and had a language model check its solutions for tricks. The team also distilled the capabilities of several specialized teacher models for agent work, reasoning, and dialog into LongCat-2.5.\nA sample deployment runs on 194 Huawei chips\nMeituan quantizes the experts' weights and activations to 4-bit precision, which Chinese chips can process natively. In Meituan's load tests, throughput rises 43.3 percent for prompt processing and 42.77 percent for response generation compared with an 8-bit version. Meituan says accuracy stays on par with the uncompressed model.\nThis version is available in a separate repository. The self-hosting guide describes a cluster of 194 Huawei Ascend accelerators from the Atlas A2 series. Two handle image processing, 64 handle prompt ingestion, and 128 handle response generation. There's no guidance for Nvidia GPUs.\nLongCat-2.5 trails Opus 5 slightly on terminal tasks\nThe LongCat team reports 88.4 points on Terminal Bench v2.1, a benchmark that measures how well agents solve command-line tasks. Meituan lists Claude Opus 5 at 89.1, GPT-5.6 Sol at 88.8, and Deepseek-V4.1-Flash at the top of the table with 90.6.\nDeepSWE tests how well models fix bugs in real code repositories. Here LongCat-2.5 jumps from 9.7 to 64.6 points, placing it behind every other model in the table except Claude Opus 4.8, with Deepseek-V4.1-Flash leading at 74.2 and GPT-5.6 Sol at 72.7. The more recent Claude Opus 5.5 and GPT-6.1 Sol are not included in the table.\nTerminal Bench v4.0, the harder variant, puts LongCat-2.5 at 38.5 points, slightly above GPT-5.6 Sol's 37.3 but well below Opus 5's 53.9. The model posts 91.9 on the web search benchmark BrowseComp, the highest score in the table, though Meituan ran this test in its own environment.\nThe weights are available under the MIT license, which allows commercial use, modification, and redistribution. Users can also try LongCat-2.5 in a chat interface at https://longcat.ai/. Its API supports both the OpenAI and Anthropic formats and plugs into agent harnesses like Claude Code, Codex, and Hermes. At launch, Meituan is charging a limited-time promotional price equivalent to roughly €0.27 per million input tokens and €1.07 per million output tokens.\nMeituan says it trained the predecessor LongCat-2.0 in late June entirely on a cluster of more than 50,000 Chinese AI chips. Before that, the model ran anonymously as \"Owl Alpha\" on OpenRouter. Chinese open-weight models like Kimi K3.1 and GLM-5.3 have largely caught up with top US models on common benchmarks.\nOpen-weight models optimized for Chinese chips from the start make that hardware more attractive outside China too. Beyond multimodal agent models, Meituan is also working on image generators. The company previously released LongCat-Image, an open-source text-to-image model that gets by with just 6 billion parameters and prioritizes efficiency over sheer model size.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

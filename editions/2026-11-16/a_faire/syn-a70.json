@@ -1,0 +1,64 @@
+{
+ "id": "syn-a70",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a70.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : South China Morning Post\nRubrique : Chine\nDate du flux : 16/11/2026\nTitre d'origine : China-US-Russia trilateral set for Thursday on Apec sidelines: Beijing\n\nARTICLE :\nSOURCE 1 (South China Morning Post) :\nThe state leaders of China, the United States and Russia will hold a trilateral meeting in the southern Chinese city of Shenzhen on Thursday on the sidelines of the Apec leaders’ summit, Beijing said on Monday. The high-stakes meeting between Chinese President Xi Jinping and his counterparts Donald Trump and Vladimir Putin will mark the first time the leaders of the world’s three foremost nuclear and geopolitical powers sit down together in a three-way format. The announcement follows...\n\nSOURCE 2 (Al Jazeera) :\nUS President Donald Trump, China’s President Xi Jinping and Russia’s President Vladimir Putin will hold their first trilateral meeting on the sidelines of the Asia-Pacific Economic Cooperation (APEC) summit in China’s Shenzhen, the White House has confirmed.\nOn Friday, Washington also confirmed Trump’s attendance at the summit, which will take place from November 18-19.\nTalks will focus on nuclear proliferation, the White House said. But they come amid significant global turbulence: Russia’s war in Ukraine, the US-Israeli war on Iran and ongoing trade tensions between Washington and Beijing.\n“I think what we’ll see is some pretty impressive photo-ops with a lot of really bombastic rhetoric from Trump,” Simon Mabon, a professor of international politics at the UK’s Lancaster University, told Al Jazeera. However, he added, the three “collectively or unilaterally, are not able to bring about an end to the conflict in Iran or Ukraine”.\nSo what does each side want and what will be the likely outcome?\nHere’s what we know:\nWhat’s on the agenda?\nEach leader has his own priorities, but there are some issues all will want to discuss.\nNew nuclear treaty\nA top issue for Russia and the US is the New Strategic Arms Reduction Treaty (New START), which lapsed in February. The treaty was first signed in 2010 and caps US and Russian strategic nuclear arsenals.\nRussia currently possesses the largest number of warheads, followed by the US and then China, which is rapidly building up its own arsenal.\nTrump previously rejected Russia’s proposal to extend the treaty after it expired, demanding instead a “new, improved and modernised” deal that includes Beijing.\nChina is understood, however, to be reluctant to join an agreement it was not involved in forming.\nA senior Trump administration official told Reuters this topic will start the conversation but that “we do not expect to get any kind of agreement”.\nUS-Israel war on Iran\nOfficials also say the world leaders will discuss the Iran war, which the US and Israel launched on February 28. While full-scale strikes have, for now, ceased, the conflict remains in a deadlock.\nAfter more than 100 days, the critical Strait of Hormuz remains closed, and oil and gas prices are still volatile as ships in the strait continue to face Iranian strikes and seamines. One-third of China’s crude oil supply transited the strait before the war. The conflict is also hampering demand for Chinese exports.\nRussia, meanwhile, has profited from rising energy prices and recent sanctions relief from Washington amid supply crunches – particularly of diesel.\nChina-US trade rivalry\nTrade wars and the race to control microchips used to power artificial intelligence are straining relations between Beijing and Washington.\nTrump hit China with a 145 percent tax hike last year, while Beijing retaliated by imposing 125 percent levies on US imports. Tensions mounted further over China’s restrictions on exports of rare earth minerals needed to manufacture advanced chips and other technology.\nThe two countries have since reduced tariffs and struck several deals following Trump and Xi’s meetings in South Korea and Washington However, the recent scandal at chip firm Nvidia has prompted the US to allege that China was spying on CEO Jensen Huang. Beijing denies this.\nWill the Ukraine war be discussed?\nIt is very unlikely. A Trump administration official told reporters the US president will not bring up Russia’s war on Ukraine, although Kremlin officials previously suggested the conflict could be discussed.\nChina, an ally of Moscow’s, has said the Ukraine war is a European issue.\nUS officials also note that Washington is pursuing peace talks, with US envoys Steve Witkoff and Jared Kushner visiting both Ukraine and Russia this week. “China is not really a part of that track, so it doesn’t seem appropriate to have the Ukraine discussion there,” an official told reporters.\nPresident Trump has accused Ukraine’s President Volodymyr Zelenskyy of “not wanting” to end the war, while Kyiv has reiterated allegations that the US has restricted its Starlink satellite connection that allows it to operate attack drones. Trump has also blamed Ukraine for soaring diesel prices because of its strikes on Russian oil facilities.\nAt the same time, Trump has feted Putin, agreed to allow Russian diesel into global and US markets, and lifted oil sanctions on Moscow.\nWhat does each side want from this meeting?\nRussia\nFor President Putin, the meeting could provide a positive photo opportunity and a platform to project power while sidelining the Ukraine conflict, analysts say.\nIt will give him a “first among equals” position that he can display at home to show that he can influence Europe’s security architecture following the Ukraine war, Alexander Bratersky, a Moscow-based journalist and political analyst, told Al Jazeera.\nChina\nBeijing has already been pushing for a resolution to the US war on Iran, which has impacted its own energy supplies.\nChina will also want to avoid being pulled into a nuclear treaty it had no part in establishing.\nLast month, China’s Foreign Ministry said it would be “neither fair, reasonable nor realistic to ask China to join the so-called trilateral nuclear disarmament negotiations at this stage”.\nUS\nTrump’s priority is to include both China and Russia in a new nuclear proliferation treaty, according to administration officials. “The president has made it clear that, among other topics, he will discuss the reduction of nuclear weapons in the world. This proliferation, President Trump believes, is very dangerous,” Olivia Wales, a White House spokesperson, told reporters.\nThe president could also use the meeting to project his administration’s diplomatic influence, as Iran refuses to capitulate to US demands for ending the war and hand Washington a win.\nTrump has also sought closer ties with Xi, Putin and North Korea’s Kim Jong Un, all seen as “strongmen”, and is likely to be perceived as influential in such circles, analysts say.\n“I think it will be more performative – Donald Trump playing global statesman rather than peacemaker,” said Mabon.\nTrump’s Republican Party’s crushing defeat in midterm elections last week could undermine his leverage, experts note, as a new Democrat-led Congress is likely to support Ukraine more staunchly.\nIs this the start of a new Yalta?\nPyotr Tolstoy, chairman of the Russian parliament’s foreign affairs committee said it could lead to a “new Yalta”.\nThe 1945 conference in Yalta, in the then Soviet Union, saw USSR President Joseph Stalin, the US’s Franklin D Roosevelt, and the United Kingdom’s Winston Churchill divide Germany and establish the United Nations in what was seen as the template for a new world order.\nKremlin spokesman Dmitry Peskov, called the trilateral meeting now taking place between the leaders of the US, China and Russia as “extremely significant” but pointed out that any agreements reached at the meeting cannot be imposed on other nations.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

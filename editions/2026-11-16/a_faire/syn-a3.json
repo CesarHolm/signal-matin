@@ -1,0 +1,64 @@
+{
+ "id": "syn-a3",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a3.json",
+ "limite_caracteres": 3044,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3044 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 15/11/2026\nAuteur : Manuel Uth\nTitre d'origine : Australia's central bank finds AI hitting young workers first, especially in software and customer service\n\nARTICLE :\nAustralia's central bank finds AI hitting young workers first, especially in software and customer service\nAI has barely displaced any jobs in Australia so far, but young workers entering highly exposed fields like software development are faring worse.\nAn analysis by Mike Major for Australia's central bank (RBA) built a monitoring system that focuses on the areas where effects are likely to appear first, namely entry-level workers and highly AI-exposed occupations such as programming, clerical work, and customer service.\nAccording to the analysis, job postings have fallen across all groups since ChatGPT launched in late 2022, with the steepest drop in the highest-exposure group. In that group, workers aged 15 to 24 and young college graduates have weaker employment rates and higher unemployment than older workers.\nMajor cautions against drawing early conclusions, since the study does not establish direct causation and measures only theoretical exposure, not actual use by companies. Post-pandemic shifts in the business cycle or in remote work could also be driving the numbers. According to SEEK data, AI is complementing existing work while also creating new demand for AI skills.\nOther studies paint a similar picture, with caveats\nAn August 2025 Stanford study based on millions of US payroll records found a similar pattern, with employment among 22- to 25-year-olds in AI-exposed occupations down 13 percent in relative terms since late 2022 and nearly 20 percent among young software developers. More experienced workers in the same occupations held steady or gained ground.\nA March 2026 Anthropic study also found signs of declining hiring among 22- to 25-year-olds in exposed occupations, with job-finding rates down about 14 percent. It found no systematic rise in overall unemployment, however. Theoretical automation potential and actual AI use are far apart, according to the study.\nAnthropic offers a company-level example. According to an internal review, the share of junior hires in technical roles has fallen from 27 percent to 9 percent since early 2025. In August 2026, AI agents across the company were already logging six times as many hours as human employees. Anthropic concedes that, as an extremely AI-intensive software company, it is a special case. Even so, researchers warn of a \"tragedy of the cognitive commons\", in which disappearing junior roles lead to a future shortage of experienced professionals, assuming those professionals are still needed.\nA large study of 25,000 workers in Denmark confirms the lack of economy-wide impact. Despite a 64 percent AI adoption rate, researchers found no measurable changes in wages or hours worked. Workers saved an average of just 2.8 percent of their working time.\nA January 2026 analysis of 10.6 million LinkedIn profiles and US unemployment data, however, cautions against blaming the downturn on AI alone. The research team led by Morgan Frank at the University of Pittsburgh found that the problems in exposed occupations started in early 2022, months before ChatGPT launched. Macroeconomic factors like the Fed's shift in interest rate policy or a correction after pandemic-era hiring surges may play a bigger role than previously assumed.\nAt the same time, AI is creating new demand. According to the World Economic Forum's \"Future of Jobs Report 2025\", 77 percent of surveyed companies are prioritizing upskilling over job cuts. WEF researchers project a net gain of 78 million jobs by 2030. According to LinkedIn, AI-related job postings grew sixfold in one year.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
