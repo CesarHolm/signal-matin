@@ -1,0 +1,54 @@
+{
+  "resultats": [
+    {
+      "sport": "Football",
+      "affiche": "France – Turquie",
+      "score": "2-1",
+      "competition": "Ligue des nations (sélections), phase de groupes",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401861177/turkiye-france"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Espagne – Angleterre",
+      "score": "2-3",
+      "competition": "Ligue des nations (sélections), phase de groupes",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401861175/england-spain"
+    },
+    {
+      "sport": "Tennis",
+      "affiche": "Shelton – Fils",
+      "score": "6-2 3-6 6-3",
+      "competition": "Finales ATP de Turin (circuit ATP), premier match de poule",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/Arthur-fils-apres-sa-defaite-contre-ben-shelton-aux-finales-atp-il-faut-rester-en-vie/1743941#at_medium=RSS_feeds"
+    }
+  ],
+  "a_suivre": [
+    {
+      "sport": "Football",
+      "affiche": "Allemagne – Pays-Bas",
+      "competition": "Ligue des nations (sélections)",
+      "heure": "20 h 45",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401861185/netherlands-germany"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Suisse – Écosse",
+      "competition": "Ligue des nations (sélections)",
+      "heure": "20 h 45",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401861186/scotland-switzerland"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Grèce – Serbie",
+      "competition": "Ligue des nations (sélections)",
+      "heure": "20 h 45",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401861188/serbia-greece"
+    }
+  ]
+}

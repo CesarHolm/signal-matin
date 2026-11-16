@@ -1,0 +1,36 @@
+{
+  "developpes": [
+    {
+      "id": "a111",
+      "score": 9,
+      "raison": "Évolution réglementaire majeure : la Commission européenne annonce la présentation d'un 22e paquet de sanctions contre la Russie."
+    },
+    {
+      "id": "a118",
+      "score": 8,
+      "raison": "Contrôle des exportations : pression sur le département du Commerce américain, qui tarde à appliquer des restrictions d'exportation sur les puces Nvidia."
+    },
+    {
+      "id": "a110",
+      "score": 7,
+      "raison": "Réserve : failles du régime européen de sanctions contre la Russie, que les entreprises peuvent exploiter."
+    },
+    {
+      "id": "a112",
+      "score": 6,
+      "raison": "Réserve : Bruxelles s'apprête à confronter Pékin sur son soutien à l'économie de guerre russe, enjeu de sanctions et de conformité."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a109",
+      "titre": "Sanctions : les fournisseurs de soute doivent valider chaque contrat deux fois",
+      "texte": "Selon Peninsula, les règles américaines et européennes sur les sanctions divergent. Les fournisseurs de soute maritime doivent donc contrôler chaque transaction deux fois."
+    },
+    {
+      "id": "a108",
+      "titre": "Le patron du PNF répond aux critiques sur la justice négociée",
+      "texte": "Le chef du Parquet national financier répond aux critiques sur la délinquance en col blanc et le recours à la justice négociée. Le sujet touche à la politique pénale en matière de corruption et de fraude financière."
+    }
+  ]
+}

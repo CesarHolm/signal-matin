@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a34",
+      "score": 9,
+      "raison": "Vol de données touchant 22 millions de personnes, chez une filiale de La Poste : enjeu de sécurité des données pour tous."
+    },
+    {
+      "id": "a33",
+      "score": 8,
+      "raison": "La CFDT rejoint la mobilisation du 17 novembre dans la fonction publique : conflit social et revalorisation des bas salaires."
+    },
+    {
+      "id": "a19",
+      "score": 8,
+      "raison": "Enquête annuelle sur les valeurs des Français : colère, clivage gauche-droite et présidentielle moins vue comme une solution."
+    },
+    {
+      "id": "a20",
+      "score": 7,
+      "raison": "Réserve : redécoupage électoral en suspens avant les législatives de 2027."
+    },
+    {
+      "id": "a32",
+      "score": 6,
+      "raison": "Réserve : pauvreté et présidentielle 2027, selon les Restos du Coeur."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a26",
+      "titre": "Paris : rassemblements interdits autour de certains lycées et universités",
+      "texte": "Le préfet de police interdit les rassemblements de lundi à vendredi autour de certains lycées et universités. Il estime que les blocages sont le plus souvent le fait d'une minorité d'élèves."
+    },
+    {
+      "id": "a27",
+      "titre": "A13 : fermeture de huit mois entre Paris et Caen dès lundi",
+      "texte": "Une portion de l'autoroute A13 doit fermer pendant huit mois, à partir du 16 novembre, pour consolider un tunnel. Des craintes de congestion sont exprimées."
+    },
+    {
+      "id": "a42",
+      "titre": "Parkinson : une hausse marquée, surtout dans certains départements",
+      "texte": "La maladie touche près de 300 000 personnes en France et augmente fortement, surtout à cause du vieillissement. Les métaux lourds et les pesticides dans l'environnement jouent aussi un rôle."
+    }
+  ]
+}

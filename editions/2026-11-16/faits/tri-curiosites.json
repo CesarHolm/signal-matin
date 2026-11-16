@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a134",
+      "score": 9,
+      "raison": "Avancée contre un cancer parmi les plus redoutables : fait de santé à intérêt durable."
+    },
+    {
+      "id": "a138",
+      "score": 8,
+      "raison": "Réserves des majors pétrolières, actifs échoués et risques réglementaires : enjeu de conformité, en lien avec la COP31."
+    },
+    {
+      "id": "a131",
+      "score": 7,
+      "raison": "Réserve : radiothérapie ciblée contre les cancers de la prostate agressifs."
+    },
+    {
+      "id": "a139",
+      "score": 6,
+      "raison": "Réserve : dynamique et stabilisation de la dette publique française."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a132",
+      "titre": "Écrans et enfants : la science nuance le débat",
+      "texte": "Une heure d'écran supplémentaire affecte-t-elle les capacités cognitives des enfants ? Plusieurs études trouvent des associations négatives, mais leurs résultats ne démontrent pas une responsabilité directe des écrans."
+    },
+    {
+      "id": "a149",
+      "titre": "Géorgie : le gaz en tête des options de Georgia Power",
+      "texte": "Le principal fournisseur d'électricité de Géorgie prépare l'ajout de 2 000 à 6 000 mégawatts pour 2032 et 2033, pour répondre à la croissance des data centers et de l'électrification. Il étudie notamment le gaz naturel."
+    },
+    {
+      "id": "a135",
+      "titre": "Feux d'artifice : quelques minutes de fête, des coûts durables",
+      "texte": "La pollution de l'air, les blessures et le stress des animaux pèsent sur la collectivité, alors que le plaisir ne dure que quelques minutes. En Angleterre, 123 admissions hospitalières en 2024-2025 y sont liées."
+    },
+    {
+      "id": "a154",
+      "titre": "Mirra Andreeva, 19 ans, sacrée au Masters WTA",
+      "texte": "La numéro 3 mondiale s'est imposée en finale face à l'Ukrainienne Elina Svitolina, 6e au classement WTA, en deux manches (7-5, 6-3), dimanche soir."
+    }
+  ]
+}

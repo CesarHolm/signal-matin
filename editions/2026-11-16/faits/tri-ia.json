@@ -1,0 +1,36 @@
+{
+  "developpes": [
+    {
+      "id": "a4",
+      "score": 8,
+      "raison": "Modèle de 1,6 billion de paramètres, entraîné sur du matériel chinois et déployé sur des puces Huawei : enjeu de souveraineté des chaînes de calcul pour l'IA."
+    },
+    {
+      "id": "a3",
+      "score": 7,
+      "raison": "La banque centrale australienne observe un effet de l'IA sur l'emploi des jeunes entrants dans le logiciel et le service client."
+    },
+    {
+      "id": "a8",
+      "score": 7,
+      "raison": "OpenAI dissout son équipe robotique autonome : les modèles généralistes remplacent les IA spécialisées, signal stratégique pour le secteur."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a12",
+      "titre": "Bharat Semi lève 24 millions de dollars pour ses capteurs IA",
+      "texte": "La start-up indienne de puces affirme avoir décroché des contrats de conception pour sa technologie de capteurs IA, avec notamment General Atomics. Elle vise le marché mondial des capteurs IA."
+    },
+    {
+      "id": "a11",
+      "titre": "Apple lance une application pour une étude sur l'usage de l'IA en santé",
+      "texte": "Apple présente une application destinée à une étude sur la façon dont les gens utilisent l'IA pour leurs questions de santé. Elle doit répondre à des questions médicales du quotidien."
+    },
+    {
+      "id": "a17",
+      "titre": "IA : la liste des projets et start-up qui n'ont pas abouti",
+      "texte": "Une liste évolutive recense les projets d'IA qui ont fermé ou déçu, des retards à répétition de la Siri d'Apple au lancement compliqué de la « super app » d'OpenAI."
+    }
+  ]
+}

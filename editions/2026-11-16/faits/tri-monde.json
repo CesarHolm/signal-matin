@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a89",
+      "score": 9,
+      "raison": "Escalade autour de l'Iran : arrivée d'un troisième porte-avions américain au Moyen-Orient et menace iranienne de frapper en premier, risque majeur de conflit régional."
+    },
+    {
+      "id": "a70",
+      "score": 8,
+      "raison": "Rencontre trilatérale Chine, États-Unis et Russie prévue jeudi à Shenzhen en marge du sommet de l'APEC, sur fond de risque nucléaire et de tensions diplomatiques."
+    },
+    {
+      "id": "a65",
+      "score": 7,
+      "raison": "L'Estonie ferme sa frontière avec la Russie à partir du 1er décembre, après une tentative d'incendie attribuée par Tallinn au renseignement militaire russe."
+    },
+    {
+      "id": "a81",
+      "score": 6,
+      "raison": "Réserve : progression des Houthis au Yémen, menace sur Aden, dernier grand bastion du gouvernement."
+    },
+    {
+      "id": "a66",
+      "score": 5,
+      "raison": "Réserve : frappes de drones contre trois navires commerciaux près des côtes roumaines en mer Noire."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a85",
+      "titre": "États-Unis : Trump demande 50 milliards pour les infrastructures aériennes",
+      "texte": "Après un arrêt national du trafic aérien, Donald Trump demande 50 milliards de dollars pour moderniser les infrastructures. Les élus démocrates réclament davantage de transparence avant toute nouvelle dépense."
+    },
+    {
+      "id": "a86",
+      "titre": "Tchéquie : manifestation à Prague contre un projet visant les médias publics",
+      "texte": "À Prague, des manifestants se sont rassemblés contre un projet de transfert du financement des médias publics vers l'État. Ils craignent une influence du gouvernement sur l'information."
+    },
+    {
+      "id": "a57",
+      "titre": "Alaska : une démocrate élue gouverneure après plus de vingt ans",
+      "texte": "Jonathan Kreiss-Tomkins remporte le poste de gouverneur de l'Alaska. C'est la première fois depuis plus de vingt ans que les électeurs de cet État choisissent un démocrate à ce poste."
+    }
+  ]
+}
