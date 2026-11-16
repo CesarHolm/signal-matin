@@ -1,0 +1,60 @@
+{
+ "id": "tri-recherche",
+ "modele": "haiku",
+ "sortie": "faits/tri-recherche.json",
+ "limite_caracteres": null,
+ "systeme": "Tu es le secrétaire de rédaction d'un journal personnel imprimé chaque matin pour un lecteur francophone exigeant (consultant en conformité réglementaire et gestion des risques).\n\nPour un bloc du journal, tu reçois une liste d'articles candidats (identifiant, rubrique, source, nature, titre, date, résumé du flux RSS). Tu dois :\n1. Classer, par ordre de priorité décroissante, jusqu'à 6 articles à développer (synthèse d'un quart ou d'une demi-page selon leur longueur). Le journal en publiera au moins 2 par bloc, et davantage selon la place disponible ; attribue à chacun un « score » de 1 à 10 (9 ou 10 : sujet essentiel du jour, à ne pas manquer).\n2. Choisir jusqu'à 6 autres articles pour des brèves, classés par priorité, et rédiger chaque brève (le journal en publie 3 par bloc, davantage s'il reste de la place).\n\nCritères de sélection, par ordre de priorité :\n- Importance : portée réelle de l'information, conséquences concrètes, intérêt durable.\n- Nouveauté : un fait nouveau prime sur un commentaire ; écarte les republications d'articles anciens, les contenus promotionnels, les cas clients publicitaires et les annonces de numéros de magazine.\n- Diversité : un même événement ou sujet ne donne qu'UN seul article développé (garde le meilleur) et au plus une brève complémentaire ; plusieurs articles sur un même fait d'actualité (ex. réactions, enquête, suites judiciaires) comptent comme un seul sujet. Équilibre les rubriques du bloc.\n- Le FOOTBALL est TOTALEMENT EXCLU, dans tous les blocs (ni brève ni développé), y compris les transferts, les clubs et les sélections.\n- Bloc avec rubrique sport : L'actualité sportive n'est traitée qu'en brèves (savoir ce qui s'est passé). Les articles de nature « methode » (méthodes d'entraînement) sont prioritaires pour les articles développés s'ils sont intéressants ; à défaut, développe des articles de science grand public.\n\nRègles des brèves :\n- « titre » : en français, factuel, 90 caractères maximum.\n- « texte » : 1 à 2 phrases en français, environ 250 caractères, uniquement d'après le titre et le résumé fournis. N'ajoute aucune information extérieure. Si le résumé est trop pauvre pour une brève fiable, choisis un autre article.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"developpes\": [{\"id\": \"a12\", \"score\": 8, \"raison\": \"…\"}, …], \"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}, …]}",
+ "contenu": "{\"bloc\": \"Recherche & travaux d'experts\", \"rubriques\": [\"Données\", \"Mathématiques\", \"Social\", \"Économie et social\"], \"candidats\": [{\"id\": \"a99\", \"rubrique\": \"Économie et social\", \"source\": \"NBER\", \"nature\": \"actu\", \"titre\": \"Debiasing Law Enforcement Officers: Evidence from an Expressive Arts Intervention in India -- by Sofia Amaral, Girija Borker, Nishith Prakash, María Micaela Sviatschi\", \"date\": \"inconnue\", \"resume\": \"Frontline state agents exercise substantial discretion over citizens’ access to public services, yet little is known about whether the attitudes and beliefs shaping this discretion can be changed among incumbent bureaucrats. Partnering with the Bihar Police - one of India’s largest states that operates under comparatively severe policing capacity constraints, we conduct a cluster randomized controlled trial across 417 police stations and roughly 2,500 active duty senior field police officers to evaluate a three-day expressive arts intervention, grounded in the Theatre of the Oppressed, designe\"}, {\"id\": \"a100\", \"rubrique\": \"Social\", \"source\": \"Pew Research Center\", \"nature\": \"actu\", \"titre\": \"📸🚗 What we know about Flock cameras\", \"date\": \"2026-11-14 13:00\", \"resume\": \"Weekly Roundup The latest findings from Pew Research Center · Subscribe ↗ From our research The share of Americans who say they dislike political leaders who support building data centers in their area.\"}, {\"id\": \"a101\", \"rubrique\": \"Mathématiques\", \"source\": \"Terence Tao\", \"nature\": \"actu\", \"titre\": \"Introducing MathHelm: A Place to discuss AI-generated papers\", \"date\": \"2026-11-14 04:19\", \"resume\": \"[This is a guest post by the MathHelm scientific committee, whose membership is listed at the bottom of this post. -T.] Mathematics depends on our regular conversations with colleagues and with the wider public. They help us share ideas, deepen our collective understanding, see where the field stands, and decide what to explore next. They […]\"}, {\"id\": \"a102\", \"rubrique\": \"Données\", \"source\": \"Our World in Data\", \"nature\": \"actu\", \"titre\": \"No matter how you ask, more Americans are negative than positive about AI\", \"date\": \"2026-11-16 01:00\", \"resume\": \"Five high-quality surveys ask about AI in different ways. Their wording matters, but the overall picture is consistent.\"}], \"consigne_edition\": \"Édition numérique, lue sur téléphone. Règles de sélection, dans cet ordre : (1) le sujet doit relever de la consigne du bloc : n'inclus aucun article hors sujet, ni en article ni en brève, même s'il en reste peu ; il n'y a pas de minimum et des listes vides sont acceptables ; (2) classe ensuite par importance, puis nouveauté, puis diversité. Le bloc publie au plus 2 article(s) long(s) et 4 brève(s). Article long : sujet important ou fondamental pour le lecteur. Brève : information intéressante à savoir, sans plus. Dans « developpes », classe jusqu'à 4 articles : les 2 premiers seront publiés, les suivants servent de réserve si un texte est inaccessible. Le score sert seulement à ordonner. Dans « breves », jusqu'à 4 brèves de 2 à 3 phrases (environ 450 caractères), uniquement d'après le titre et le résumé fournis ; plus courtes si le résumé est pauvre. Varie les sources (pas plus de 3 articles d'une même source).\", \"consigne_du_bloc\": \"UNIQUEMENT des travaux de recherche (papiers, documents de travail, articles de revue) ou des analyses de chercheurs fondées sur leurs travaux : économie, finance, social, droit, santé publique, climat, astronomie, mathématiques. Écarte les actualités institutionnelles (discours, nominations, agendas, newsletters, appels à contributions) et la vulgarisation sans travail de recherche identifié. Brèves : uniquement les conclusions du travail, avec l'institution ou la revue, d'après le résumé fourni.\", \"sujets_deja_publies_recemment\": [\"Anthropic lance Claude Fable 5.2 et Mythos 5.2, en tête des classements\", \"Nvidia : la liaison de Jensen Huang fragilise son lobbying sur les puces\", \"Scott Wiener, successeur de Pelosi, veut réguler l'IA au Congrès\", \"Google lance deux nouvelles variantes de puces TPU de huitième génération\", \"Cyberattaque contre des frigos : la France accuse l'Iran\", \"Smic revalorisé de 1,6 % dès le 1er décembre : ce qu'annonce Lecornu\", \"La Cour des comptes propose 32 à 38 milliards d'euros d'économies\", \"Iran : Trump voit un « élan positif » après un entretien avec le Premier ministre qatari\", \"Abu Dhabi : Russes, Ukrainiens et Américains se retrouvent pour de nouveaux pourparlers\", \"Massie redépose une procédure de destitution contre Pete Hegseth\", \"Ciblage de la pauvreté : trois méthodes, trois définitions du besoin\", \"Supervision bancaire : ce qui fait corriger les failles de risque de crédit\", \"Cybersécurité : la CNIL sanctionne dix collectivités et établissements publics\", \"NIS 2 : les députés examinent le projet de loi sur la cybersécurité\", \"Émissions de CO2 fossiles : léger recul en 2026, dû au choc pétrolier\", \"La vie est-elle née dans un « monde ARN » ? Atouts et limites de l'hypothèse\", \"New York : la loi RAISE soumet les grands développeurs d'IA à un registre\", \"Appel de Paris : huit pays et les labos d'IA s'engagent sur l'arrêt d'urgence\", \"Anthropic lance sa tournée d'introduction en Bourse, à 1 020 Md$ de valorisation\", \"Google ouvre Gemini 4 Carbon à tous, au moment où Fable 5.2 arrive\", \"Teddy Riner candidat à la présidentielle : ballon d'essai ou signe de crise ?\", \"Cyberattaque contre les frigos : la France accuse l'unité iranienne Shahid Kaveh\", \"Cour suprême : les juges divisés sur le pouvoir d'amende des agences fédérales\", \"Programmes « Graduation » contre la pauvreté : bilan de 49 études\", \"Alcool au volant : une condamnation fait reculer l'emploi de 6 à 7 points\", \"Cyberattaque contre les frigos des supermarchés : la France accuse l'Iran\", \"Prince Group : 45 nouvelles sanctions américaines contre les arnaques\", \"Les chauves-souris seraient nées en Europe, dans des forêts subtropicales\", \"Origine de la vie : l'hypothèse d'une bulle avant la chimie\", \"Anthropic affirme avoir porté Claude sur des puces AMD en trois jours\", \"Applications créées avec Grok : près de 95 % sont ouvertes à tous\", \"Des firmes américaines vendraient 500 M$ de données d'IA à la Chine\", \"110 constitutionnalistes jugent irrégulier le référendum voulu par Le Pen\", \"Attentat de Trappes : le tireur assume le caractère raciste de ses actes\", \"Journalistes : quatre syndicats portent plainte contre X après des entraves\", \"Russie et Ukraine : échange de prisonniers convenu, sans percée à Abou Dhabi\", \"Retraités conseillés : deux tiers du portefeuille en actions, un choix défendable ?\", \"Vaccin antipneumococcique en crise humanitaire : une dose unique suffit-elle ?\", \"Sanctions UE : 145 nouvelles inscriptions visant la Russie, dont 50 banques\", \"Une université chinoise sur liste noire a acheté des puces Nvidia H200\"]}",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "developpes": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "score": {
+       "type": "integer"
+      },
+      "raison": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "score"
+     ]
+    }
+   },
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "developpes",
+   "breves"
+  ]
+ }
+}
