@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a100", "score": 8, "raison": "Premiers pourparlers sur l'Ukraine entre Américains et Européens : Kushner annonce des progrès vers un accord, mais Moscou n'a pas accepté la participation européenne aux prochaines discussions."},
+    {"id": "a87", "score": 8, "raison": "Rencontre trilatérale Xi Jinping – Poutine – Trump à Shenzhen, en marge de l'APEC : sommet inédit, que les analystes ne décrivent ni comme un « Yalta 2.0 » ni comme un redessinage de l'ordre mondial."},
+    {"id": "a97", "score": 7, "raison": "L'armée yéménite revendique 661 attaques contre les Houthis, qui progressent vers Aden ; les forces gouvernementales se repositionnent pour défendre la ville."},
+    {"id": "a83", "score": 7, "raison": "Cinq pays européens (Allemagne, Autriche, Danemark, Grèce, Pays-Bas) projettent une plateforme de renvoi au Rwanda pour les demandeurs d'asile déboutés, avec une ouverture prévue en 2027 : bascule de la politique migratoire européenne."},
+    {"id": "a66", "score": 6, "raison": "Négociations à Genève sur les armes autonomes capables de sélectionner et de frapper des cibles sans intervention humaine ; les États-Unis, la Russie et Israël résistent à des contrôles juridiquement contraignants."}
+  ],
+  "breves": [
+    {"id": "a94", "titre": "Trump évoque une rencontre avec Kim Jong-un en Chine", "texte": "Donald Trump a déclaré qu'il pourrait rencontrer le dirigeant nord-coréen Kim Jong-un en Chine cette semaine, et qu'il comptait aborder la guerre en Ukraine avec Xi Jinping et Vladimir Poutine à Shenzhen. Trump et Kim se sont rencontrés trois fois pendant le premier mandat du président américain."},
+    {"id": "a77", "titre": "Kallas cherche un rôle dans les pourparlers de paix sur l'Ukraine", "texte": "La plus haute diplomate de l'UE affirme que les ministres des Affaires étrangères veulent un rôle plus direct dans les négociations, après que les dirigeants ont confié ce dossier à une équipe de conseillers à la sécurité nationale."},
+    {"id": "a102", "titre": "Éthiopie : des affrontements à Moyale perturbent les moyens de subsistance", "texte": "Le différend frontalier non résolu entre l'Oromia et la région Somali alimente de nouvelles violences à Moyale, qui ont déplacé des milliers de personnes."}
+  ]
+}

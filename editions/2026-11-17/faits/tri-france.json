@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a28", "score": 9, "raison": "Débat télévisé entre les cinq candidats à la présidentielle 2027 (TF1 puis LCI) : leurs propositions sont contestées sur leur financement. Fait politique majeur du jour."},
+    {"id": "a40", "score": 8, "raison": "Mobilisation nationale de mardi : grèves annoncées dans la fonction publique et les transports, dizaines de manifestations. Impact concret pour les lecteurs."},
+    {"id": "a31", "score": 8, "raison": "Renault annonce un plan de départs volontaires concernant 1 000 personnes et 2 000 créations de postes d'ici deux à trois ans, sur une dizaine de sites en France. Enjeu économique et social majeur."},
+    {"id": "a33", "score": 7, "raison": "Deux figures du narcobanditisme marseillais condamnées à la réclusion criminelle à perpétuité pour l'assassinat de trois concurrents, dont le frère du militant Amine Kessaci."},
+    {"id": "a45", "score": 7, "raison": "Fermeture de l'A13 à la sortie de Paris jusqu'à fin août 2027 : bouchons dès le premier jour et inquiétude des communes voisines."}
+  ],
+  "breves": [
+    {"id": "a53", "titre": "Fractures françaises : un bloc central qui peine à s'unifier", "texte": "L'enquête annuelle Ipsos BVA-CESI, publiée pour Le Monde, le Cevipof, la Fondation Jean-Jaurès et l'Institut Montaigne, dresse le portrait d'une société en colère, marquée politiquement. Elle montre moins un clivage net droite-gauche qu'un bloc central qui peine à se rallier derrière une personnalité politique."},
+    {"id": "a49", "titre": "« Rhum Express » : jusqu'à 50 litres par mètre carré attendus en Bretagne", "texte": "Jusqu'à 50 litres d'eau par mètre carré sont attendus localement en Bretagne d'ici mardi matin. Les pluies doivent ensuite traverser une grande partie du pays : l'humidité vient des Antilles, portée par un phénomène surnommé le « Rhum Express »."},
+    {"id": "a52", "titre": "Cannabis thérapeutique : le Sénat réclame l'application de la loi", "texte": "Les sénateurs ont adopté un amendement de la socialiste Marion Canalès demandant au gouvernement un rapport sur l'expérimentation du cannabis thérapeutique, qui attend toujours son décret d'application. Elle alerte sur « des dizaines de milliers de patients qui souffrent »."}
+  ]
+}

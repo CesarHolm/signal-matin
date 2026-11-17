@@ -1,0 +1,12 @@
+{
+  "developpes": [
+    {"id": "a137", "score": 8, "raison": "Directive NIS 2 : les députés modifient le texte pour protéger les éditeurs de logiciels. Évolution réglementaire directe pour les dispositifs de conformité."},
+    {"id": "a140", "score": 7, "raison": "Sanctions UE visant la directrice générale de Wildberries et des facilitateurs de la flotte fantôme russe : sanction nominative et lutte contre le contournement des sanctions."},
+    {"id": "a144", "score": 6, "raison": "Règle américaine durcissant les licences d'exportation de puces d'IA lorsque le calcul à distance peut profiter à des entreprises chinoises : évolution réglementaire export à suivre."},
+    {"id": "a149", "score": 6, "raison": "Une filiale italienne de Revolut placée sous supervision judiciaire pour des défaillances de lutte contre le blanchiment : sanction concrète, en second rang du périmètre LCB-FT."}
+  ],
+  "breves": [
+    {"id": "a139", "titre": "Nouvelles sanctions UE contre des propagandistes et pirates russes", "texte": "L'UE élargit ses sanctions à des propagandistes et des pirates informatiques liés à Moscou, alors que des milliers de faux comptes ciblent des électeurs."},
+    {"id": "a147", "titre": "Nouvelle règle américaine sur les puces : la maison mère de TikTok exemptée", "texte": "Selon Reason Magazine, la nouvelle règle américaine sur les exportations de puces d'IA vise la Chine, mais exempte la maison mère de TikTok."}
+  ]
+}

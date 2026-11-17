@@ -1,0 +1,13 @@
+{
+  "developpes": [
+    {"id": "a120", "score": 7, "raison": "Expérience randomisée sur 7,2 millions de passagers Lyft : l'ajout d'une offre premium fait monter la demande pour l'option la moins chère et pour le renoncement à l'achat, contrairement à la théorie de la demande rationnelle. Publication NBER."},
+    {"id": "a133", "score": 6, "raison": "Étude observationnelle sur quatre décennies de transition alimentaire en Chine (PLOS Medicine) : associations entre types de consommation et taille des enfants et adolescents, avec un score construit par les auteurs."},
+    {"id": "a113", "score": 6, "raison": "Estimation par calibration de l'effet du passage du programme 340B à un modèle de remboursement (pilote HRSA) sur les recettes nettes des établissements habilités : enjeu de financement hospitalier. Publication NBER."},
+    {"id": "a126", "score": 5, "raison": "Analyse juridique de la suspension temporaire des deux juges qui exerçaient la présidence et la vice-présidence du Tribunal constitutionnel polonais, et des difficultés de restauration d'un tribunal indépendant (Verfassungsblog)."}
+  ],
+  "breves": [
+    {"id": "a121", "titre": "Immigration temporaire très qualifiée : effets sur les salaires des natifs", "texte": "En 2019, environ 1,2 million de travailleurs étrangers étaient employés via des programmes temporaires très qualifiés (H-1B, OPT), selon l'étude de George J. Borjas publiée par le NBER. Les natifs des groupes de compétences les plus exposés ont connu une croissance plus lente des salaires et un recul relatif du travail à temps plein toute l'année."},
+    {"id": "a130", "titre": "Argentine : le budget des universités a perdu plus d'un cinquième de sa valeur réelle", "texte": "Depuis décembre 2023, le budget des universités nationales argentines a perdu plus d'un cinquième de sa valeur réelle, et le financement est passé d'environ 0,72 % à 0,53 % du PIB. En mai 2026, les salaires universitaires avaient perdu plus d'un tiers de leur pouvoir d'achat (Verfassungsblog)."},
+    {"id": "a125", "titre": "Réforme du renseignement allemand : des pouvoirs d'IA jugés mal encadrés", "texte": "Le projet de réforme du droit des services de renseignement, adopté par le Bundestag après un débat controversé, prévoit de nouveaux pouvoirs liés à l'IA. Selon les auteurs de Verfassungsblog, il invoque la « Zeitenwende » pour s'affranchir de nombreuses exigences établies, et le législateur encadre de façon peu compréhensible le BND et le BfV différemment."}
+  ]
+}

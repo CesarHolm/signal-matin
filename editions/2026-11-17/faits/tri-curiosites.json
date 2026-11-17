@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a157", "score": 8, "raison": "Résultats définitifs d'un grand relevé de galaxies sur vingt ans, qui ne cadrent pas avec la théorie cosmologique dominante : fait nouveau, compréhensible pour un lecteur non spécialiste."},
+    {"id": "a169", "score": 7, "raison": "Travail de recherche sur El Niño, dont les effets économiques se répercutent sur les bilans bancaires : lien concret entre climat et risque financier."},
+    {"id": "a159", "score": 6, "raison": "Étude de l'université d'Oxford publiée dans la revue Science : des oiseaux marins souffrent d'un décalage horaire après leurs longues chasses en mer."},
+    {"id": "a163", "score": 6, "raison": "Interdiction en France de la pêche de loisir de l'anguille jaune en eau douce, face à l'effondrement des populations européennes : mesure réglementaire concrète."}
+  ],
+  "breves": [
+    {"id": "a177", "titre": "Perseverance trouve des roches claires et anciennes sur « Idubi », sur Mars", "texte": "Dans la zone « Idubi », croûte martienne ancienne hors du cratère Jezero, l'équipe du rover Perseverance étudie un groupe de roches très claires. Ces roches seraient les vestiges de systèmes aqueux anciens, selon le compte rendu signé par la chercheuse Candice Bedford (Purdue University), daté du 16 novembre 2026."},
+    {"id": "a168", "titre": "Un best-seller de 1579 offrait déjà sa dose quotidienne de « brain rot »", "texte": "Mille choses remarquables, recueil de curiosités et d'astuces du quotidien rédigé par l'écrivain anglais Thomas Lupton, a connu un immense succès jusqu'au milieu du XIXe siècle. Ces « trucs » étaient souvent fantaisistes, voire dangereux, mais certains reflétaient les connaissances de l'époque."},
+    {"id": "a188", "titre": "Johanne Defay, vice-championne du monde de surf", "texte": "La Réunionnaise, déjà médaillée de bronze aux Jeux de Paris 2024, a décroché l'argent dimanche lors des championnats du monde de surf à Punta Rocas, au Pérou."},
+    {"id": "a184", "titre": "Au Puncak Jaya, les dernières glaces ne forment plus que des plaques", "texte": "Au sommet de ce pic indonésien, la glace n'est plus qu'un ensemble de plaques éparses, trop petites pour s'écouler comme des glaciers."}
+  ]
+}
