@@ -1,0 +1,340 @@
+{
+ "date": "2026-11-17",
+ "nouveaux_mots": [
+  {
+   "mot": "Insidieux",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui agit de façon sournoise, sans qu'on s'en aperçoive.",
+   "exemple": "Une fatigue insidieuse."
+  },
+  {
+   "mot": "Ubiquité",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Capacité d'être présent en plusieurs lieux à la fois.",
+   "exemple": "L'ubiquité du smartphone dans nos vies."
+  },
+  {
+   "mot": "Opposabilité",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "pro",
+   "definition": "Qualité d'un acte qui peut être invoqué à l'égard des tiers.",
+   "exemple": "L'opposabilité d'un contrat aux créanciers."
+  },
+  {
+   "mot": "Gongorisme",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Style précieux et recherché à l'excès.",
+   "exemple": "Une prose qui frôle le gongorisme."
+  },
+  {
+   "mot": "Impétrant",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Personne qui obtient un titre, un diplôme.",
+   "exemple": "La signature de l'impétrant au bas du diplôme."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Fébrile",
+   "definition": "Qui manifeste une agitation nerveuse, une excitation inquiète."
+  },
+  {
+   "mot": "Obsolescence",
+   "definition": "Fait de devenir périmé, dépassé, en particulier pour un équipement ou une technique."
+  },
+  {
+   "mot": "Psittacisme",
+   "definition": "Répétition mécanique de mots sans les comprendre."
+  },
+  {
+   "mot": "Ergoter",
+   "definition": "Chicaner sur des détails, contester pour des riens."
+  },
+  {
+   "mot": "Algorithme",
+   "definition": "Suite finie d'instructions permettant de résoudre un problème."
+  }
+ ],
+ "articles": [
+  "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+  "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+  "https://www.actuia.com/actualite/openai-cursor-et-la-clause-invisible/",
+  "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
+  "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
+  "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+  "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+  "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+  "https://www.lemonde.fr/election-presidentielle-2027/live/2026/11/16/en-direct-debat-de-la-presidentielle-2027-les-cinq-candidats-s-affrontent-sur-les-retraites-marine-le-pen-cible-la-ligue-des-droits-de-l-homme-un-ramassis-de-gauchistes_6811633_6205049.html",
+  "https://www.franceinfo.fr/societe/manifestations/greves-dans-la-fonction-publique-mouvement-lyceen-manifestations-a-quoi-s-attendre-pour-la-mobilisation-du-17-novembre_8284415.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/economie/transports/c-est-pire-que-d-habitude-ca-va-etre-un-bazar-la-fermeture-de-l-a13-pour-neuf-mois-provoque-deja-des-bouchons-en-ile-de-france-et-inquiete-les-communes_8285477.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/societe/article/2026/11/16/narcobanditisme-pourquoi-amine-oualane-et-karim-harrat-sont-condamnes-a-la-reclusion-criminelle-a-perpetuite_6812326_3224.html",
+  "https://www.lemonde.fr/economie/article/2026/11/16/renault-va-supprimer-plus-d-un-millier-de-postes-en-france-pour-etre-plus-competitif-face-a-la-concurrence-chinoise_6812360_3234.html",
+  "https://www.publicsenat.fr/actualites/politique/enquete-fractures-francaises-y-a-t-il-un-retour-net-du-clivage-droite-gauche",
+  "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates?traffic_source=rss",
+  "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones",
+  "https://www.politico.eu/article/5-countries-announce-plan-to-deport-failed-asylum-seekers-to-rwanda/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
+  "https://www.scmp.com/opinion/china-opinion/article/3374548/xi-putin-trump-meeting-shenzhen-no-yalta-20",
+  "https://www.nber.org/papers/w36013#fromrss",
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004958",
+  "https://www.nber.org/papers/w36014#fromrss",
+  "https://verfassungsblog.de/resisting-the-chainsaw/",
+  "https://verfassungsblog.de/geheimdienstreform-zeitenwende-ki-befugnisse/",
+  "https://goodtech.info/transposition-nis-2-assemblee-nationale-preserve-logiciels-libres-april/",
+  "https://www.dw.com/en/eu-sanctions-wildberries-ceo-tatyana-kim-russias-richest-woman/a-79962532",
+  "https://euobserver.com/249258/more-eu-sanctions-on-russian-propagandists-and-hackers-as-thousands-of-fake-accounts-target-voters/",
+  "https://reason.com/2026/11/16/trumps-new-chip-export-rule-targets-china-but-exempts-tiktoks-parent-company/",
+  "https://www.quantamagazine.org/what-makes-up-the-cosmos-a-20-year-survey-hints-that-something-is-missing-20261116/",
+  "https://theconversation.com/el-nino-sintensifie-le-signe-avant-coureur-dune-crise-bancaire-silencieuse-294579",
+  "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
+  "https://theconversation.com/des-siecles-avant-tiktok-ce-best-seller-de-1579-offrait-aux-lecteurs-leur-dose-quotidienne-de-brain-rot-296317",
+  "https://www.franceinfo.fr/sports/surf/la-reunionnaise-johanne-defay-devient-vice-championne-du-monde-de-surf_8285201.html#xtor=RSS-3-%5Bsports%5D",
+  "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/"
+ ],
+ "titres": [
+  "La Californie poursuit OpenAI après les incidents d'agents autonomes",
+  "Puces d'IA : Washington durcit les contrôles sur l'accès à distance",
+  "Cursor, OpenAI et la clause invisible : la fragilité de l'accès aux modèles",
+  "Alibaba lance Qwen4-Max, un modèle haut de gamme à bien moindre coût",
+  "Présidentielle 2027 : cinq candidats débattent de la vie chère sur TF1 et LCI",
+  "Grève du 17 novembre : fonction publique, transports, cortèges",
+  "A13 fermée neuf mois à Paris : bouchons dès le premier jour, communes inquiètes",
+  "Ukraine : nouveaux pourparlers avec les États-Unis et l'Europe, frappes sur Kiev",
+  "Armes autonomes : l'ONU cherche à encadrer les « robots tueurs » à Genève",
+  "Un produit premium fait choisir l'offre bon marché : l'effet « anti-compromis »",
+  "Chine : fruits, noix, œufs et lait associés à une plus grande taille des jeunes",
+  "NIS 2 : les députés retirent la mention des éditeurs de logiciels",
+  "L'UE sanctionne Tatyana Kim, dirigeante de Wildberries, et la flotte fantôme",
+  "Énergie noire : vingt ans de relevés laissent penser que le modèle est incomplet",
+  "El Niño et les banques : un risque de crise bancaire silencieuse"
+ ],
+ "solutions": {
+  "sudoku": [
+   4,
+   9,
+   5,
+   6,
+   3,
+   2,
+   7,
+   8,
+   1,
+   1,
+   8,
+   7,
+   9,
+   5,
+   4,
+   3,
+   2,
+   6,
+   2,
+   3,
+   6,
+   7,
+   1,
+   8,
+   9,
+   4,
+   5,
+   9,
+   4,
+   3,
+   2,
+   7,
+   6,
+   5,
+   1,
+   8,
+   8,
+   7,
+   2,
+   1,
+   9,
+   5,
+   6,
+   3,
+   4,
+   5,
+   6,
+   1,
+   8,
+   4,
+   3,
+   2,
+   9,
+   7,
+   6,
+   1,
+   4,
+   5,
+   2,
+   9,
+   8,
+   7,
+   3,
+   3,
+   2,
+   8,
+   4,
+   6,
+   7,
+   1,
+   5,
+   9,
+   7,
+   5,
+   9,
+   3,
+   8,
+   1,
+   4,
+   6,
+   2
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     4,
+     3
+    ],
+    [
+     0,
+     3,
+     8,
+     1
+    ],
+    [
+     0,
+     4,
+     2,
+     4
+    ],
+    [
+     0,
+     8,
+     10,
+     1
+    ],
+    [
+     0,
+     9,
+     7,
+     1
+    ],
+    [
+     2,
+     4,
+     3,
+     3
+    ],
+    [
+     2,
+     7,
+     8,
+     1
+    ],
+    [
+     4,
+     0,
+     4,
+     3
+    ],
+    [
+     5,
+     4,
+     3,
+     3
+    ],
+    [
+     7,
+     9,
+     3,
+     1
+    ],
+    [
+     8,
+     0,
+     2,
+     6
+    ],
+    [
+     8,
+     6,
+     2,
+     1
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    1,
+    6,
+    4,
+    5,
+    3,
+    2
+   ],
+   [
+    5,
+    2,
+    1,
+    6,
+    4,
+    3
+   ],
+   [
+    2,
+    4,
+    6,
+    3,
+    5,
+    1
+   ],
+   [
+    4,
+    5,
+    3,
+    1,
+    2,
+    6
+   ],
+   [
+    6,
+    3,
+    5,
+    2,
+    1,
+    4
+   ],
+   [
+    3,
+    1,
+    2,
+    4,
+    6,
+    5
+   ]
+  ],
+  "compte": [
+   "3 × 5 = 15",
+   "15 − 9 = 6",
+   "6 × 6 = 36",
+   "36 + 100 = 136"
+  ]
+ },
+ "reponses_quiz": []
+}
