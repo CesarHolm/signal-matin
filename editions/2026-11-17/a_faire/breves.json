@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a7\", \"source\": \"The Decoder\", \"titre\": \"Google warns that fully automated cyberattacks have arrived and will get worse fast\", \"resume\": \"Google's Threat Intelligence Group has for the first time caught attackers finding and exploiting security vulnerabilities with no human involvement at all. An AI framework called \\\"exploit_agent,\\\" found on an exposed server, automatically compared code before and after patches, built exploits, and ran them on its own. The article Google warns that fully automated cyberattacks have arrived and will get worse fast appeared first on The Decoder .\"}, {\"id\": \"a31\", \"source\": \"Le Monde\", \"titre\": \"Renault va supprimer plus d’un millier de postes en France pour être plus compétitif face à la concurrence chinoise\", \"resume\": \"Le groupe automobile français a annoncé un plan de départs volontaires concernant 1 000 personnes ainsi que 2 000 créations de postes d’ici deux à trois ans. Une dizaine de sites seront concernés par ce double mouvement, partout dans l’Hexagone.\"}, {\"id\": \"a33\", \"source\": \"Le Monde\", \"titre\": \"Narcobanditisme : pourquoi Amine Oualane et Karim Harrat sont condamnés à la réclusion criminelle à perpétuité\", \"resume\": \"Les deux hommes sont reconnus coupables d’avoir organisé l’assassinat de trois concurrents, dont le frère du militant Amine Kessaci, qui voit dans le verdict « un message à la narcocratie ».\"}, {\"id\": \"a87\", \"source\": \"South China Morning Post\", \"titre\": \"Xi-Putin-Trump meeting in Shenzhen is no Yalta 2.0\", \"resume\": \"As leaders from across the Asia-Pacific converge on Shenzhen this week for the annual Apec Economic Leaders’ Meeting, global attention has zeroed in on a planned, unprecedented sideline gathering: a trilateral summit bringing together President Xi Jinping, Russian President Vladimir Putin and US President Donald Trump. At a moment when the international order is strained by protracted regional wars, supply chain fragmentation and eroding strategic trust, any direct engagement among Beijing,...\"}, {\"id\": \"a97\", \"source\": \"Al Jazeera\", \"titre\": \"Yemeni army reports 661 attacks on Houthis as group advances towards Aden\", \"resume\": \"Yemen's army reports 173 Houthi fighters killed or wounded as government forces reposition to defend Aden.\"}, {\"id\": \"a83\", \"source\": \"Politico Europe\", \"titre\": \"5 countries announce plan to deport failed asylum-seekers to Rwanda\", \"resume\": \"Austria, Denmark, Germany, Greece and the Netherlands plan to open the deportation hubs in 2027.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

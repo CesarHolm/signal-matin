@@ -1,0 +1,64 @@
+{
+ "id": "syn-a169",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a169.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Conversation\nRubrique : Idées\nDate du flux : 16/11/2026\nAuteur : Clément Mathonnat; Maxime Fajeau; Olivier Damette; Rémi Generoso\nTitre d'origine : El Niño s’intensifie. Le signe avant-coureur d’une crise bancaire silencieuse ?\n\nARTICLE :\nL’ESSENTIEL\n- Tandis qu’El Niño pourrait atteindre une intensité exceptionnelle cet hiver et les suivants, ses conséquences ne concernent pas seulement le climat.\n- L’activité économique est affectée. Nos recherches montrent que cela finit, par ricochet, par se retrouver dans le bilan de certains établissements bancaires.\n- La crise climatique n’est-elle que le prélude d’une crise bancaire ? Plus l’importance d’El Niño croît, plus les dommages pourraient altérer le système financier. Jusqu’au krack ?\nL’épisode El Niño en cours pourrait devenir l’un des plus intenses observés depuis plusieurs décennies. Selon le Climate Prediction Center de la NOAA, il existe plus de 90 % de chances qu’il atteigne une très forte intensité au cours de l’automne et de l’hiver 2026-2027. Si ses conséquences agricoles et humanitaires sont régulièrement commentées, ses effets sur les banques restent beaucoup moins connus.\nEl Niño désigne une hausse anormale de la température des eaux du Pacifique équatorial. Il appartient à un cycle plus large, appelé « El Niño-Oscillation australe » (ou ENSO), qui alterne entre une phase chaude, El Niño, une phase froide, La Niña, et des périodes neutres. ENSO constitue le principal moteur de la variabilité climatique d’une année à l’autre à l’échelle planétaire.\nLa figure 1 montre l’opposition entre le réchauffement des eaux de surface pendant El Niño et leur refroidissement pendant La Niña. En modifiant la circulation atmosphérique, ces anomalies influencent le climat de régions situées à plusieurs milliers de kilomètres. Ces relations à distance, que les climatologues appellent des téléconnexions, ne produisent toutefois pas partout les mêmes effets.\nUne dégradation des capacités de remboursement\nCes téléconnexions sont essentielles pour comprendre les conséquences d’ENSO sur les banques. Ces établissements financiers sont affectés par l’intermédiaire des ménages, des entreprises et des exploitations agricoles qu’elles financent. Une sécheresse, des températures anormalement élevées ou des pluies extrêmes peuvent réduire les revenus des emprunteurs et dégrader leur capacité de remboursement. Dans le même temps, les logements, les terrains agricoles ou les locaux commerciaux utilisés comme garanties peuvent perdre de leur valeur. Les banques sont alors confrontées à une hausse du risque de défaut au moment même où la protection offerte par les garanties diminue.\nUne telle crise se développe progressivement. Les premières difficultés ne conduisent pas immédiatement à des défauts de paiement. Lorsque le choc persiste, les retards de remboursement et les saisies augmentent. Les banques constituent davantage de provisions, ce qui réduit leur rentabilité et leur capacité à absorber de nouvelles pertes. Elles se rapprochent ainsi de l’insolvabilité, sans retrait massif des dépôts ni crise bancaire immédiatement visible.\nDes prêts moins performants\nDans un article publié dans Ecological Economics, nous avons étudié les effets d’ENSO sur le secteur bancaire de 51 pays entre 2000 et 2020. À court terme, El Niño rapproche les banques les plus exposées du seuil d’insolvabilité, autrement dit réduit leur « distance à la faillite », surtout en Amérique latine ou dans les Caraïbes et, dans une moindre mesure, en Afrique subsaharienne. La hausse des prêts non performants constitue l’un des principaux canaux de transmission.\nDans un document de travail disponible sur SSRN, nous étudions le cas des États-Unis en suivant l’évolution de la situation financière des banques et en tenant compte de leur implantation géographique. L’analyse couvre près de 10 000 établissements entre 1994 et 2023, soit plus de 800 000 observations trimestrielles. Nous combinons leurs données de bilan et de compte de résultat avec la localisation de leurs agences, la répartition de leurs dépôts et des estimations locales des anomalies de température provoquées par ENSO.\nDeux banques confrontées au même épisode dans le Pacifique ne subissent pas nécessairement le même choc. Les perturbations provoquées par ENSO varient fortement d’un territoire à l’autre et peuvent se traduire ici par une sécheresse, ailleurs par des pluies inhabituelles ou des températures extrêmes. L’exposition de chaque banque dépend donc de la localisation de ses agences, du poids de ces territoires dans la collecte de ses dépôts et de la composition de son portefeuille de prêts, notamment entre immobilier résidentiel, immobilier commercial, prêts aux entreprises et crédit à la consommation. Un même épisode climatique d’ampleur mondiale produit ainsi des risques très différents selon l’implantation géographique et le modèle d’activité de chaque établissement, ce qu’une moyenne nationale ne permet pas de saisir.\nDes conséquences post-médiatisation\nLes résultats obtenus pour les États-Unis montrent que ces effets passent principalement par le crédit. Après les épisodes les plus marqués, les prêts non performants et les saisies augmentent, tandis que la rentabilité et la solvabilité des banques diminuent, les rapprochant du seuil de défaillance. Cette détérioration atteint généralement son maximum environ deux ans après le choc initial. Un événement climatique peut ainsi avoir disparu de l’actualité bien avant que ses effets les plus importants n’apparaissent dans les bilans bancaires.\nLes établissements fortement engagés dans le crédit et ceux dont les prêts sont concentrés dans l’immobilier apparaissent particulièrement sensibles. Les revenus de l’emprunteur peuvent se dégrader au moment même où la valeur du logement, du terrain ou du local commercial servant de garantie est affectée. La taille de la banque n’offre pas nécessairement une protection. La diversification perd une partie de son efficacité lorsqu’un même phénomène touche simultanément plusieurs territoires et plusieurs catégories d’emprunteurs. De même, une capitalisation élevée permet d’absorber des pertes, mais n’empêche pas la qualité des prêts de se détériorer.\nMesurer la sensibilité climatique\nCes résultats invitent à considérer les chocs climatiques comme des sources potentielles d’instabilité financière. Dans la pratique, les premiers stress tests supervisés ont surtout soumis les banques à quelques aléas physiques précis et à des horizons courts, par exemple des ouragans, des inondations ou des épisodes de sécheresse et de chaleur. Ils saisissent plus difficilement les effets persistants d’anomalies de températures ou de précipitations comme celles induites par ENSO, qui peuvent affaiblir progressivement les emprunteurs et finir par peser sur les banques. L’évaluation du risque devrait donc prendre en compte la localisation précise des prêts, la nature des garanties et la sensibilité climatique des activités financées.\nIl serait donc imprudent d’attendre que les pertes apparaissent pour agir. El Niño fournit un signal disponible en amont. Les prévisions climatiques pourraient être rapprochées des données géographiques sur les portefeuilles afin d’identifier plus tôt les concentrations de risques et les zones justifiant une surveillance renforcée.\nNotre étude sur le cas des États-Unis apporte enfin une nuance importante. Les deux phases d’ENSO ne constituent pas le simple miroir l’une de l’autre. Si les effets d’El Niño sont bien réels, les effets bancaires les plus importants apparaissent historiquement pendant La Niña. Les conditions chaudes et sèches qu’elle engendre dans certaines parties du pays affectent fortement les revenus agricoles, les ressources en eau et certains marchés immobiliers.\nLe puissant El Niño actuel rappelle ainsi que les oscillations du climat sont aussi des chocs financiers. La Niña pourrait toutefois, lorsqu’elle surviendra, se révéler plus redoutable encore pour les banques américaines.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

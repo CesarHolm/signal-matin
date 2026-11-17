@@ -1,0 +1,64 @@
+{
+ "id": "syn-a4",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a4.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : ActuIA\nRubrique : IA\nDate du flux : 16/11/2026\nAuteur : Stephane Nachez\nTitre d'origine : OpenAI, Cursor et la clause invisible\n\nARTICLE :\nLe jeudi 12 novembre, jour où ses modèles devaient quitter Cursor, OpenAI a ajouté une ligne en tête de son annonce du 28 août : l'accès est « temporairement prolongé » au-delà de cette date, et d'autres informations suivront. Aucune nouvelle échéance n'est donnée. GPT-5.6 Sol, Terra et Luna figuraient toujours, le dimanche 15 novembre, dans la documentation de Cursor, avec leurs tarifs. Sur le forum officiel de l'éditeur, un utilisateur avait demandé le 12 si c'était bien le dernier jour. Personne chez Cursor ne lui avait répondu. Son blog n'avait rien publié sur le sujet.\nUne clause de changement de contrôle, activée en quatorze jours\nSpaceX a finalisé le 14 août le rachat d'Anysphere, l'éditeur de Cursor, pour 60 milliards de dollars en actions. Le 28 août, OpenAI a annoncé qu'elle mettrait fin au contrat qui fournit ses modèles à l'outil. Son accord sur mesure avec Cursor lui laissait une fenêtre limitée pour résilier après un changement de contrôle. Elle l'a utilisée, avec « le préavis maximal prévu par notre contrat », soit 76 jours, et ne livrera plus de nouveaux modèles à Cursor. Le motif affiché est la conformité. OpenAI dit douter que SpaceX respecte ses conditions d'utilisation. Elle affirme que Twitter, absorbé depuis par SpaceX, a rompu un contrat avec elle, et que Musk a reconnu sous serment que xAI les avait enfreintes.\nCursor range désormais Grok parmi ses propres modèles\nL'autre lecture est commerciale. Depuis février, xAI appartient à SpaceX, et Cursor range parmi ses propres modèles les Grok de sa maison mère, à côté de son Composer. OpenAI vend de son côté Codex, concurrent direct de l'éditeur. Michael Truell, le PDG de Cursor, a répondu sur X que les modèles d'OpenAI ne servaient qu'environ 5 % du trafic de ses utilisateurs, et que Cursor avait tenu leur plateforme pour une « infrastructure neutre ». Elon Musk a fait savoir qu'il s'en moquait.\nLes deux motifs ne s'excluent pas. Pour le client, ils comptent moins que le mécanisme : son accès dépend d'une clause d'un contrat entre son fournisseur et le fournisseur de celui-ci, qu'il n'a jamais lu.\nLa roue de secours laisse de côté l'essentiel\nLa perte est faible pour qui se contente des modèles d'Anthropic, de Google ou de Cursor. Elle pèse sur les équipes qui ont réglé leurs instructions d'agents sur GPT et devront les réajuster, puis les revalider. La page d'aide d'OpenAI suggère une clé API personnelle ou son extension Codex. La clé personnelle ne fonctionne que dans le chat et l'agent locaux de l'application de bureau. En sont exclus la complétion Tab, le mode Auto, les agents dans le cloud, les automatisations et la ligne de commande, c'est-à-dire ce qu'une équipe industrialise. Le sursis du 12 novembre ne change rien à ces limites. Il en ajoute une : la date de la coupure n'est plus connue du tout.\nZéro préavis quand l'État s'en mêle\nLe 12 juin, Anthropic a reçu du gouvernement américain une directive de contrôle à l'exportation qui interdisait à tout ressortissant étranger, où qu'il se trouve, l'accès à Claude Fable 5 et Mythos 5, sortis trois jours plus tôt. La directive prenait effet immédiatement. Faute de pouvoir vérifier la nationalité de ses utilisateurs en temps réel, l'entreprise a retiré les deux modèles à tous ses clients. Le département du Commerce a levé ces contrôles le 30 juin, et l'accès a été rétabli le 1er juillet, après dix-neuf jours d'interruption. Pour une entreprise française, la catégorie visée englobait ses développeurs.\nLes fournisseurs coupent aussi de leur propre chef. En juin 2025, Anthropic avait retiré à Windsurf l'essentiel de sa capacité Claude avec moins de cinq jours de préavis ; en janvier 2026, elle a fermé à xAI l'accès à Claude que ses ingénieurs utilisaient via Cursor. Les retraits programmés suivent leur propre calendrier : OpenAI arrêtera GPT-4o et GPT-4.1 le 14 janvier, trois mois avant Azure. Le préavis va donc de zéro à onze semaines selon que la décision vient d'un État, d'un fournisseur ou d'un contrat. Aucun de ces délais n'a été négocié par les clients finaux.\nLe contrat-cadre, seul endroit où négocier\nLes conditions générales de Cursor, mises à jour le 3 septembre, autorisent l'éditeur à modifier ou interrompre tout ou partie du service à tout moment, sans engager sa responsabilité, et ne prévoient aucun niveau de service. Elles s'effacent devant un contrat-cadre quand le client en a signé un. C'est là que l'acheteur doit écrire la liste des modèles couverts, un préavis de retrait au moins égal à celui dont l'éditeur bénéficie lui-même, une sortie sans pénalité, et l'obligation d'être prévenu quand un contrat amont prévoit une résiliation en cas de changement de contrôle. Le Data Act européen, applicable depuis septembre 2025, n'y suppléera pas. Il organise le départ du client qui change de fournisseur, pas l'abandon du client par son fournisseur, et nul n'a encore tranché si une API de modèle relève de son champ.\nLe routage construit pour la marge sert aussi la continuité\nCursor a encaissé l'annonce parce qu'il était déjà multi-modèles. Chez les éditeurs français, la dépendance est la règle. Dans l'étude annuelle de Numeum et EY, 88 % d'entre eux utilisent des modèles tiers dans leurs produits, et 41 % rien d'autre. Interrogé par LeMagIT, Jean-Philippe Couturier, de Numeum, dit du routage entre modèles que « c'est une priorité pour tout le monde ». La raison invoquée est la marge brute, que la facture de tokens entame. Peu importe : un logiciel capable d'envoyer chaque requête au modèle adapté à la tâche l'est aussi de contourner un modèle disparu, pourvu que la bascule ait été testée avant d'en avoir besoin.\nReste le fournisseur qui s'est proposé pour combler le vide. Le 29 août, Tom Brown, cofondateur d'Anthropic, a promis de continuer à augmenter le calcul consacré à Claude dans Cursor. Le 6 mai, Anthropic avait annoncé un accord pour utiliser toute la capacité de Colossus 1, un centre de calcul de SpaceX. Elon Musk a alors précisé que SpaceX se réservait le droit de reprendre ce calcul si l'IA d'Anthropic « se livre à des actions qui nuisent à l'humanité ».\nCitations traduites de l'anglais par ActuIA.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

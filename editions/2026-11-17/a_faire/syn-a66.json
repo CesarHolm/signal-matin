@@ -1,0 +1,64 @@
+{
+ "id": "syn-a66",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a66.json",
+ "limite_caracteres": 3468,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3468 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : NPR\nRubrique : États-Unis\nDate du flux : 16/11/2026\nAuteur : Imogen Foulkes\nTitre d'origine : U.N. talks seek to rein in 'killer robots' as fears over AI weapons grow\n\nARTICLE :\nU.N. talks seek to rein in 'killer robots' as fears over AI weapons grow\nGENEVA — Negotiations on possible rules for the use of lethal autonomous weapons, also known as 'killer robots' are underway at the United Nations in Geneva.\nSupporters of controls on autonomous weapons say this week's U.N. conference on Certain Conventional Weapons (or CCW), which meets just once every five years, is the last best chance to agree rules before it is too late.\nWarfare technology has advanced rapidly in the last few years, with some experts warning that the world is just months away from having weapons that can choose targets and make the decision to kill autonomously.\nIn Ukraine and Gaza, AI-assisted weapons have already been used to take out targets, with Ukrainian civilians reporting being 'hunted' by drones as they shop or go to school. But these are still controlled remotely by humans.\nHumanitarian organizations say the decision to kill – and responsibility for that choice – must stay in human hands. Ahead of this week's meeting, the United Nations, the International Committee of the Red Cross and the Pope have all called for legally binding rules. U.N. Secretary-General Antonio Guterres warned that allowing fully autonomous weapons to kill would be 'crossing a moral red line'.\nWhat are the risks?\nThe Red Cross is especially worried that existing rules of war – the Geneva Conventions – cannot be fully respected by autonomous weapons. War is often chaotic and confusing, and the situation can change rapidly. Under the Conventions, soldiers who are wounded or in the process of surrendering can no longer be targeted.\nGeorgia Haines, a legal adviser with the Red Cross, worries that autonomous weapons will not be able to distinguish between a soldier who is still fighting, one who is wounded and one who wants to surrender.\n'The risk is that, based on the technology we are seeing, they are not able to understand in the same way that a human is the contextual signals. And so the risks are incredibly high that there will be a misidentification of a target.'\nMeanwhile, human rights groups warn that the technology behind AI-assisted weapons is becoming increasingly cheap and easy to use. The more it is adopted by the military, the greater the danger of proliferation and its use by terrorist groups or law enforcement agencies in repressive regimes. In theory, a swarm of autonomous drones could be programmed to kill everyone wearing a red sweater, everyone carrying a poster or even everyone speaking a certain language.\nMany of the countries now meeting in Geneva take such concerns very seriously. At least 50, including Ireland, Italy, Brazil, Mexico, France and Germany, are calling for a strict timetable to agree on binding rules governing autonomous weapons.\nBut among states that are already developing and using semi-autonomous weapons, there is pushback. The United States, Russia and Israel have indicated they are set to oppose legally binding rules, with Washington proposing a five-year timetable to draft non-binding guidelines instead.\nThe U.S. is traditionally a late adopter of international treaties. It did not ratify the Ottawa Convention on landmines, for example, although it did, over time, stop deploying them and reduce its stockpiles.\nUnder President Trump, doubts about international law have grown. Washington has imposed sweeping sanctions on the International Criminal Court, and just this weekend, Secretary of State Marco Rubio, in a keynote speech to the Federalist Society, warned against \"quoting laws to men with swords.\"\nThe problem for states meeting in Geneva is that U.N. negotiations on limiting specific weapons are supposed to be conducted by consensus. This was achieved in 1995, when countries agreed to a ban on blinding lasers, but other agreements have proved elusive. With landmines, countries frustrated by the delay finally took negotiations outside the U.N. process to create the Ottawa Convention.\nThis week, there may be a compromise: a longer or even open-ended negotiating period to come up with rules that individual states can adopt as binding or non-binding. For diplomats supporting such a solution, it is a way to ensure at least some progress. For campaigners, it is less than ideal, with one likening it to kicking a very dangerous can down the road.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
