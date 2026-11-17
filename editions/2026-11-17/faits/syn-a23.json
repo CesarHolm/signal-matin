@@ -1,0 +1,20 @@
+{
+ "titre": "Puces d'IA : Washington durcit les contrôles sur l'accès à distance",
+ "chapo": "L'administration Trump prépare une règle provisoire imposant des licences pour les puces et serveurs d'IA destinés aux centres de données pouvant servir des entreprises chinoises.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Selon TechCrunch, l'administration Trump s'apprête à publier lundi de nouveaux contrôles à l'exportation visant les puces d'IA et les centres de données hors des États-Unis. Le département du Commerce exigera une licence pour exporter, réexporter ou transférer des puces et serveurs d'IA vers tout centre de données dans le monde susceptible de fournir de la puissance de calcul à des entreprises de Chine ou d'autres pays soumis à restrictions. Sont visées les sociétés du groupe D:5 des pays sous embargo, qui comprend la Chine, la Russie, l'Iran, la Corée du Nord et dix-huit autres. Le texte vise à empêcher ces entreprises de contourner les règles en accédant à distance à des infrastructures situées ailleurs."
+  },
+  {
+   "intertitre": "Le champ d'application",
+   "texte": "La règle s'applique aux centres de données ou réseaux capables de fournir plus de 12 millions de TPP, une mesure de puissance de calcul utilisée par les États-Unis, soit à peu près la puissance maximale d'environ 750 puces Nvidia H100 ou H200. Elle couvre aussi l'accès indirect par des intermédiaires, et exportateurs comme exploitants doivent surveiller la structure de propriété et les activités de leurs clients. De nouvelles licences sont également requises pour les puces avancées à destination de la Malaisie, de Singapour, de l'Indonésie, de la Thaïlande et du Brésil, jugés à risque de détournement supérieur à la normale, sauf pour les sociétés américaines. Les exploitants existants ont 90 jours pour obtenir leurs licences. Les systèmes de recommandation commerciaux, comme ceux du commerce en ligne ou des réseaux sociaux, sont exclus."
+  },
+  {
+   "intertitre": "Le contexte",
+   "texte": "La mesure intervient quelques jours après la démission du cofondateur de Nvidia, Jensen Huang, dans un scandale impliquant une espionne chinoise présumée liée à un client du fabricant, Megaspeed. Selon les informations rapportées, Washington voudrait inscrire cette société sur une liste spéciale, car il la soupçonne d'avoir acheté des milliers de puces Nvidia pour fournir du calcul à des entreprises chinoises. Reuters a indiqué la semaine dernière que les entreprises chinoises d'IA cherchent à sécuriser de la capacité de calcul à l'étranger. La règle abroge aussi la « règle de diffusion de l'IA » de l'administration Biden de janvier 2025, que l'administration Trump jugeait trop contraignante pour les entreprises américaines et leurs alliés."
+  }
+ ],
+ "synthese": "Cette règle provisoire prolonge les contrôles existants pour empêcher l'entraînement de modèles avancés par des entreprises de pays préoccupants. Le texte invoque les usages militaires et de renseignement que ces modèles pourraient permettre.",
+ "republication": ""
+}

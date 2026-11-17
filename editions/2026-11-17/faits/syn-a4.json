@@ -1,0 +1,24 @@
+{
+ "titre": "Cursor, OpenAI et la clause invisible : la fragilité de l'accès aux modèles",
+ "chapo": "La fin annoncée des modèles d'OpenAI dans Cursor, après le rachat par SpaceX, rappelle que l'accès d'un client aux modèles d'IA dépend de contrats qu'il n'a pas lus.",
+ "sections": [
+  {
+   "intertitre": "Ce qui s'est passé",
+   "texte": "SpaceX a finalisé le 14 août le rachat d'Anysphere, l'éditeur de Cursor, pour 60 milliards de dollars en actions. Le 28 août, OpenAI a annoncé qu'elle mettrait fin au contrat fournissant ses modèles à l'outil, en utilisant la fenêtre de résiliation que son accord sur mesure lui laissait après un changement de contrôle, avec le préavis maximal de 76 jours. Le jeudi 12 novembre, jour prévu du départ, OpenAI a ajouté en tête de son annonce que l'accès était « temporairement prolongé », sans nouvelle échéance. GPT-5.6 Sol, Terra et Luna figuraient encore le 15 novembre dans la documentation de Cursor. Un utilisateur a demandé le 12 sur le forum officiel si c'était le dernier jour, sans réponse, et le blog de Cursor n'a rien publié. OpenAI invoque la conformité : elle doute que SpaceX respecte ses conditions d'utilisation, affirme que Twitter, absorbé depuis par SpaceX, a rompu un contrat avec elle, et que Musk a reconnu sous serment que xAI les avait enfreintes."
+  },
+  {
+   "intertitre": "Le contexte commercial",
+   "texte": "L'autre lecture est commerciale : xAI appartient à SpaceX depuis février, Cursor range les Grok de sa maison mère parmi ses propres modèles, à côté de son Composer, et OpenAI vend Codex, concurrent direct. Le PDG de Cursor, Michael Truell, a répondu sur X que les modèles d'OpenAI ne représentaient qu'environ 5 % du trafic et que Cursor tenait leur plateforme pour une « infrastructure neutre » ; Elon Musk a fait savoir qu'il s'en moquait. Les deux motifs ne s'excluent pas. La perte est faible pour qui utilise les modèles d'Anthropic, de Google ou de Cursor, mais elle pèse sur les équipes ayant réglé leurs agents sur GPT. La clé API personnelle suggérée par OpenAI ne fonctionne que dans le chat et l'agent locaux de l'application de bureau, à l'exclusion de la complétion Tab, du mode Auto, des agents dans le cloud, des automatisations et de la ligne de commande."
+  },
+  {
+   "intertitre": "Des préavis très variables",
+   "texte": "Le 12 juin, Anthropic a reçu du gouvernement américain une directive d'exportation interdisant à tout ressortissant étranger l'accès à Claude Fable 5 et Mythos 5, sortis trois jours plus tôt. Faute de pouvoir vérifier la nationalité de ses utilisateurs, elle a retiré les deux modèles à tous ses clients ; le département du Commerce a levé les contrôles le 30 juin et l'accès est revenu le 1er juillet, après dix-neuf jours. Les fournisseurs coupent aussi d'eux-mêmes : Anthropic a retiré à Windsurf l'essentiel de sa capacité Claude en juin 2025 avec moins de cinq jours de préavis, puis fermé en janvier 2026 à xAI l'accès à Claude que ses ingénieurs utilisaient via Cursor. OpenAI arrêtera GPT-4o et GPT-4.1 le 14 janvier, trois mois avant Azure. Le préavis va de zéro à onze semaines selon l'origine de la décision, sans négociation par les clients finaux."
+  },
+  {
+   "intertitre": "Les parades",
+   "texte": "Les conditions de Cursor, mises à jour le 3 septembre, l'autorisent à interrompre le service à tout moment sans responsabilité ni niveau de service, sauf contrat-cadre : c'est là que l'acheteur doit fixer les modèles couverts, un préavis au moins égal à celui de l'éditeur, une sortie sans pénalité et l'information en cas de résiliation amont. Le Data Act européen, applicable depuis septembre 2025, n'y suppléera pas : il organise le départ du client qui change de fournisseur, pas l'abandon du client par son fournisseur, et nul n'a tranché si une API de modèle relève de son champ. Côté éditeurs français, 88 % utilisent des modèles tiers et 41 % rien d'autre (étude Numeum et EY) ; Jean-Philippe Couturier, de Numeum, juge le routage entre modèles prioritaire pour tout le monde ; justifié par la marge brute, il permet aussi de contourner un modèle disparu, si la bascule est testée. Reste un fournisseur proposé pour combler le vide : Tom Brown, cofondateur d'Anthropic, a promis le 29 août d'augmenter le calcul consacré à Claude dans Cursor, alors que SpaceX s'est réservé le droit de reprendre le calcul de Colossus 1 utilisé par Anthropic si son IA « se livre à des actions qui nuisent à l'humanité »."
+  }
+ ],
+ "synthese": "L'accès aux modèles d'IA peut s'interrompre sur décision d'un État, d'un fournisseur ou d'un contrat amont, avec un préavis allant de zéro à onze semaines. Le contrat-cadre et le routage entre modèles testé à l'avance sont les principales protections.",
+ "republication": ""
+}

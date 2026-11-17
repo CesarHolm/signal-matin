@@ -1,0 +1,29 @@
+{
+ "titre": "Un produit premium fait choisir l'offre bon marché : l'effet « anti-compromis »",
+ "chapo": "Une expérience grandeur nature menée avec Lyft auprès de 7,2 millions de clients montre qu'ajouter une offre chère pousse des clients vers l'option la moins chère, voire vers l'abstention.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Pour la théorie économique classique, un nouveau produit ne peut que prendre de la demande aux produits existants, à la concurrence ou à l'abstention d'achat ; il ne peut pas rendre une option existante plus attrayante. Les auteurs testent cette propriété, dite de régularité, en conditions réelles, alors que la plupart des violations connues (effets de compromis et de leurre) viennent d'expériences en laboratoire, dont on ignore si elles survivent sur de vrais marchés. Dans les effets de compromis et de leurre, ajouter un produit haut de gamme devrait favoriser les options plus chères ; ici, l'enjeu est de savoir si l'on observe le contraire, ou rien, dans une application de réservation de courses utilisée par des millions de personnes."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Ajouter l'option premium « Fast Pass » augmente la demande pour l'option la moins chère, « Wait & Save », et pour la non-commande, tandis que la part de « Standard » baisse. À la première session, la part de Standard recule de 2,4 points avec le prix bas, de 1,8 avec le prix moyen et de 1,4 avec le prix élevé ; Wait & Save gagne 0,2 et 0,3 point aux prix moyen et élevé, sans effet au prix bas. Cela représente environ 1,5 % de demande en plus pour Wait & Save (base de 10,7 %) et 0,41 % de non-achats en plus (base de 40,6 %). L'effet croît avec le prix du Fast Pass et avec l'exposition : sur l'ensemble des sessions, la hausse de Wait & Save est de 4 à 5 fois supérieure. Il persiste aussi quand le Fast Pass n'est pas affiché, mais en étant alors plus faible : environ un tiers pour Wait & Save. Au prix élevé, seuls 1 % des clients choisissent le Fast Pass."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "L'expérience de terrain a eu lieu avec Lyft du 5 novembre 2020 au 20 janvier 2021 ; les clients ignoraient participer à une étude. Elle porte sur 7 242 942 clients et 47 616 543 sessions. Les témoins (1 013 072) voyaient Wait & Save et Standard ; les autres voyaient en plus le Fast Pass, à délai de prise en charge plus court et plus cher, à trois niveaux de prix (bas, moyen, élevé, ce dernier avec une majoration environ quatre fois celle du bas). Le Fast Pass n'était proposé que lorsqu'un chauffeur se trouvait à proximité, soit environ 33 % des sessions traitées. Les auteurs comparent les groupes sur la première session, puis sur toutes les sessions, et confrontent ces résultats à des théories rationnelles, jugées incapables de les expliquer."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Selon les auteurs, un prix très élevé et inattendu attire l'attention sur les prix : le client se rappelle des courses chères passées, perçoit une plus grande variation de prix et devient plus sensible au prix. Le modèle fondé sur la saillance prédit les quatre constats, y compris la persistance sans Fast Pass, car la mémoire garde la trace des prix élevés. Pour les entreprises, élargir la gamme de prix affichés peut rendre les clients attentifs au prix plutôt qu'à la qualité : pour 100 sessions traitées au prix élevé, le Fast Pass gagne 1,1 client mais 0,3 cesse d'acheter, et ces courses perdues annulent à elles seules une majoration d'environ un quart du tarif. Un modèle de demande qui impose la régularité manquerait ce coût."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Les auteurs notent que l'analyse de toutes les sessions est moins nette sur le plan de l'identification, puisque voir le Fast Pass peut modifier la fréquence d'ouverture de l'application ; ils estiment toutefois que cela n'explique pas les résultats. Lyft n'a pas enregistré les cas où le Fast Pass aurait été indisponible chez les témoins, ce qui impose une comparaison entre niveaux de prix. Pour la première session, ils n'ont plus les données détaillées permettant de calculer la disponibilité exacte, et l'analyse montrant que la randomisation a bien fonctionné est seulement mentionnée, disponible sur demande. Le modèle est présenté comme stylisé."
+  }
+ ],
+ "synthese": "Une offre premium très chère peut déplacer les clients vers le bas de la gamme et hors du marché, plus encore quand son prix monte et que l'exposition se répète. Les auteurs l'expliquent par une attention accrue aux prix, entretenue par la mémoire.",
+ "republication": "",
+ "reference": "Nicola Gennaioli (Université Bocconi), John A. List (Université de Chicago, Australian National University et NBER), Matthias Rodemeier (Université Bocconi) et Gregory K. Sun (Université Washington de Saint-Louis), NBER Working Paper n° 36013, novembre 2026 : document de travail (working paper) du NBER."
+}

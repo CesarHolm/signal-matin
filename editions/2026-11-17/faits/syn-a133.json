@@ -1,0 +1,29 @@
+{
+ "titre": "Chine : fruits, noix, œufs et lait associés à une plus grande taille des jeunes",
+ "chapo": "Une étude sur quatre décennies de transition alimentaire en Chine relie les habitudes de consommation à la taille de 1,7 million d'élèves, sans pouvoir établir de lien de cause à effet.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "La taille est un marqueur reconnu de la nutrition et de la santé dans les premières années de vie. Entre 1985 et 2019, les Chinois de 19 ans ont gagné près de 9 cm, la plus forte hausse parmi près de 200 pays et régions, les jeunes Chinoises se classant troisièmes. Cette progression s'est accompagnée d'un profond changement de l'alimentation, mais les configurations alimentaires qui l'ont soutenue restent mal connues : les travaux antérieurs s'intéressaient surtout à des nutriments isolés ou à des associations de court terme. Les auteurs cherchent donc des habitudes de consommation associées à une plus grande taille et à de moindres charges environnementales et économiques, et veulent bâtir un score simple, le Food Consumption–Height (FCH), pour quantifier ce lien."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Des années 1980 aux années 2020, l'alimentation s'est diversifiée : hausse de la consommation de fruits de mer, d'huiles, de bœuf et mouton, de volaille, d'œufs, de porc, de noix, de fruits, de légumineuses et de lait, baisse de celle des céréales, des légumes et champignons et du sucre. Le score moyen de taille, exprimé en écart-type par rapport à la référence, est passé de -1,1 en 1985 à -0,5 en 2000, puis à 0,1 en 2019. Les œufs et les produits de la mer restent associés à la taille à toutes les périodes ; le lait et les fruits gagnent en importance après 2000. Neuf profils alimentaires ont été repérés. Celui des fruits, noix, œufs et lait (« FUEL ») montre l'association la plus forte et la plus constante en 2011-2023 (ρ = 0,518 ; IC à 95 % [0,453 ; 0,580]), avec moins d'émissions, d'acidification et d'eutrophisation, et le coût le plus avantageux. Protéines, calcium et zinc sont associés positivement à la taille, les glucides négativement. Le score FCH est lié à la taille (β = 0,075 ; IC à 95 % [0,069 ; 0,082])."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "L'étude observationnelle combine les tailles d'environ 1,7 million d'élèves de 7 à 18 ans de l'Enquête nationale chinoise sur la constitution et la santé des élèves (1985-2019) et les données provinciales de consommation alimentaire du Bureau national des statistiques (1985-2023), réparties en trois phases : 1985-1999, 2000-2010 et 2011-2023. Régression à réseau élastique, régression par somme pondérée de quantiles et analyse en composantes principales ont identifié aliments et profils, avec ajustement sur le PIB par habitant, le niveau d'éducation, l'ensoleillement et la température. Le score FCH s'appuie sur l'apprentissage automatique et des pondérations issues de la méthode SHAP. Il a été validé de façon préliminaire auprès de 3 917 jeunes de 10 à 16 ans de l'enquête de Guangzhou."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Selon les auteurs, les profils liés à une plus grande taille sont compatibles avec des charges environnementales et économiques relativement favorables. Ils sont aussi plus riches en calcium, avec un meilleur rapport calcium-phosphore, ce qui suggère que la qualité nutritionnelle, au-delà de l'apport énergétique total, pourrait expliquer ces associations. Le score FCH pourrait servir d'outil simple pour comparer, au niveau des populations, alimentation et croissance, et éclairer des stratégies alimentaires favorisant une croissance saine dans des limites soutenables."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Les auteurs reconnaissent que l'étude est observationnelle et repose sur des données de consommation de population, non sur ce que mangent les enfants, ce qui limite toute conclusion causale. La validation de Guangzhou est également observationnelle. Plusieurs groupes d'aliments (légumineuses, lait, fruits, noix) n'étaient pas déclarés séparément avant 2000. L'étude n'a ni protocole écrit ni enregistrement préalable. Des études longitudinales et des essais randomisés seront nécessaires pour confirmer ces résultats."
+  }
+ ],
+ "synthese": "En Chine, la hausse de la taille des jeunes va de pair avec une alimentation plus variée, et le profil fruits, noix, œufs et lait y est le plus nettement associé. Il s'agit d'une association de population, qui ne prouve pas que ces aliments fassent grandir.",
+ "republication": "",
+ "reference": "Tianze Li, Jiajia Dang, Yan Li, Wenhua Ling, Leah Li, Cunrui Huang, Yit Siew Chin, Yueqin Zhou, Shiyun Luo, Shan Cai, Peijin Hu, Jun Ma, Min Xia, Yanna Zhu et Yi Song, PLOS Medicine 23(11) : e1004958, publié le 16 novembre 2026 : article de revue relu par des pairs, étude observationnelle."
+}

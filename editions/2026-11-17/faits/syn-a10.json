@@ -1,0 +1,28 @@
+{
+ "titre": "Alibaba lance Qwen4-Max, un modèle haut de gamme à bien moindre coût",
+ "chapo": "Alibaba présente Qwen4-Max, un modèle à architecture hybride qui vise le travail professionnel et se place deuxième de son classement, à prix nettement réduit.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Alibaba a lancé Qwen4-Max, son nouveau modèle phare, présenté comme une réponse à Opus 5.5, GPT-6 et Kimi K3.1 Pro. Il associe une architecture plus efficace à des prix nettement plus bas et cible le travail professionnel dans l'industrie, la science et la finance. Selon l'équipe Qwen, ce modèle à mélange d'experts compte 2,4 billions de paramètres mais n'en active que 71 milliards par jeton. Il traite les images de façon native et offre une fenêtre de contexte d'un million de jetons. Il est disponible via QwenCloud, QwenWork, Qoder et QwenStudio, et Alibaba prévoit de publier plus tard des modèles Qwen4 plus petits en open source."
+  },
+  {
+   "intertitre": "Une architecture qui allège les longs textes",
+   "texte": "Qwen4-Max inaugure l'architecture revue de la série Qwen4. Au lieu de s'appuyer uniquement sur des couches d'attention classiques, Alibaba combine deux méthodes : trois couches compressent le contexte antérieur en un état condensé, puis une quatrième ne retient que les parties utiles. Cela réduit fortement le calcul sur les longues entrées, le modèle n'accordant plus la même attention à chaque partie du contexte. L'architecture ajoute quatre connexions parallèles entre couches, dotées de portes dynamiques censées stabiliser la circulation de l'information, ainsi qu'une couche d'embeddings de N-grammes de 328 milliards de paramètres. Selon Alibaba, l'entraînement s'est déroulé de façon stable, sans pic soudain de la perte. Le modèle de base progresse de 5 à 13 % sur son prédécesseur Qwen3.8-Max-Base, en activant 25 % de paramètres en moins par jeton."
+  },
+  {
+   "intertitre": "Des coûts par tâche divisés par trois",
+   "texte": "Au plus haut niveau de raisonnement, Qwen4-Max obtient 43 points à l'Artificial Analysis Intelligence Index : neuf de plus que Qwen3.8-Max, trois de moins que Kimi K3.1 Pro (46 points), premier modèle chinois. Artificial Analysis chiffre son coût à 3,27 dollars par tâche, contre 10,02 pour Qwen3.8-Max et 3,68 pour Kimi K3.1 Pro. Les économies viennent de prix des jetons inférieurs de 25 %, d'un accès au cache moins cher de 70 % et d'une moindre consommation : environ 105 000 jetons de sortie par tâche, contre 171 000. Sur Work360, le test interne d'Alibaba, le coût moyen par tâche passe de 4,43 à 1,67 dollar (-62 %) et le score de 47,74 à 52,69. Via son API, Alibaba facture 1,50 dollar par million de jetons d'entrée et 4,50 dollars par million de jetons de sortie."
+  },
+  {
+   "intertitre": "Live Delivery et premiers usages",
+   "texte": "Alibaba construit cette version autour d'agents menant seuls de longues tâches. Sa fonction « Live Delivery » livre tôt une première version exploitable, enrichie ensuite par passes successives ; l'utilisateur peut corriger la trajectoire à tout moment, et un module open source accompagne la fonction. Selon Alibaba, des partenaires automobiles, SANF et Pacific Union, auraient ramené la programmation manuelle d'une pièce d'environ 475 à 24 minutes. En finance, le modèle exploite 90 outils MCP et produit des fichiers Excel et PowerPoint vérifiables. Avec le solveur interne MindOpt, il a réduit de 10,42 % en moyenne le coût d'allocation de tâches d'annotation. Associé à Mira, de la start-up Deep Principle, il a conçu et testé en 48 heures un liquide de refroidissement pour puces de centres de données, parmi 2,7 millions de molécules candidates. Avec PharmMaster, de DP Technology, il a optimisé 24 molécules visant une réaction inflammatoire liée à la maladie d'Alzheimer."
+  },
+  {
+   "intertitre": "Les réserves",
+   "texte": "Les résultats sur les tests externes sont contrastés. Qwen4-Max réalise 46,7 points sur Agents' Last Exam v1.1, le meilleur score du groupe de comparaison, mais reste derrière Opus 5.5 et les modèles GPT sur Humanity's Last Exam. Sur Terminal-Bench 4.0, il obtient 48 %, contre 67 % pour Kimi K3.1 Pro. Tencent Hy4 coûte bien moins (1,03 dollar par tâche) mais marque huit points de moins sur l'indice. La plupart des chiffres d'usage proviennent d'Alibaba. Sur la sécurité, la part de code à la fois fonctionnel et sûr passe de 22 à 31,8 %, et l'entreprise affirme n'avoir relevé aucun gain réel en risques chimiques, biologiques, radiologiques et nucléaires."
+  }
+ ],
+ "synthese": "Qwen4-Max place Alibaba au deuxième rang de l'indice d'Artificial Analysis pour environ le tiers du coût par tâche de son prédécesseur. Ses résultats restent inégaux selon les tests, et beaucoup de chiffres d'usage viennent d'Alibaba.",
+ "republication": ""
+}

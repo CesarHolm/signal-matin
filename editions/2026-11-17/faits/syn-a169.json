@@ -1,0 +1,24 @@
+{
+ "titre": "El Niño et les banques : un risque de crise bancaire silencieuse",
+ "chapo": "Des chercheurs montrent que les épisodes El Niño dégradent, avec retard, la solvabilité de certaines banques, alors que le phénomène en cours pourrait être très intense.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Selon le Climate Prediction Center de la NOAA, l'épisode El Niño en cours a plus de 90 % de chances d'atteindre une très forte intensité durant l'automne et l'hiver 2026-2027, ce qui en ferait l'un des plus intenses observés depuis plusieurs décennies. Ses conséquences agricoles et humanitaires sont souvent commentées, mais ses effets sur les banques le sont beaucoup moins. El Niño désigne une hausse anormale de la température des eaux du Pacifique équatorial. Il appartient au cycle « El Niño-Oscillation australe » (ENSO), qui alterne phase chaude (El Niño), phase froide (La Niña) et périodes neutres, et qui constitue le principal moteur de la variabilité climatique d'une année à l'autre à l'échelle planétaire."
+  },
+  {
+   "intertitre": "Le mécanisme",
+   "texte": "Par des téléconnexions, c'est-à-dire des influences à distance qui ne produisent pas partout les mêmes effets (les anomalies de température des eaux modifient la circulation atmosphérique et influencent le climat de régions situées à plusieurs milliers de kilomètres), ENSO touche les ménages, les entreprises et les exploitations agricoles que les banques financent. Sécheresse, températures anormalement élevées ou pluies extrêmes peuvent réduire les revenus des emprunteurs et leur capacité de remboursement, tandis que les logements, terrains agricoles ou locaux commerciaux donnés en garantie peuvent perdre de la valeur. Le risque de défaut augmente donc au moment où la protection offerte par les garanties diminue. La crise se développe progressivement : retards de remboursement et saisies augmentent, les banques constituent davantage de provisions, leur rentabilité baisse et elles se rapprochent de l'insolvabilité, sans retrait massif des dépôts ni crise immédiatement visible."
+  },
+  {
+   "intertitre": "Ce que montrent les études",
+   "texte": "Dans un article publié dans Ecological Economics, les auteurs ont étudié le secteur bancaire de 51 pays entre 2000 et 2020. À court terme, El Niño réduit la « distance à la faillite » des banques les plus exposées, surtout en Amérique latine et dans les Caraïbes, et dans une moindre mesure en Afrique subsaharienne ; la hausse des prêts non performants est l'un des principaux canaux de transmission. Un document de travail disponible sur SSRN porte sur les États-Unis : près de 10 000 établissements entre 1994 et 2023, soit plus de 800 000 observations trimestrielles, croisées avec la localisation des agences, la répartition des dépôts et des estimations locales des anomalies de température dues à ENSO. Après les épisodes les plus marqués, les prêts non performants et les saisies augmentent, la rentabilité et la solvabilité diminuent, avec un maximum environ deux ans après le choc initial. Les banques très engagées dans le crédit ou concentrées dans l'immobilier sont les plus sensibles ; la taille ne protège pas nécessairement, la diversification perd de son efficacité quand un même phénomène touche plusieurs territoires et catégories d'emprunteurs, et une forte capitalisation absorbe les pertes sans empêcher la détérioration de la qualité des prêts."
+  },
+  {
+   "intertitre": "Les enjeux et les nuances",
+   "texte": "Les premiers stress tests supervisés ont surtout soumis les banques à quelques aléas précis et à des horizons courts, comme des ouragans ou des inondations, et saisissent mal les anomalies persistantes de température ou de précipitations. Les auteurs jugent imprudent d'attendre l'apparition des pertes : les prévisions climatiques pourraient être rapprochées des données géographiques sur les portefeuilles pour repérer plus tôt les concentrations de risques et les zones justifiant une surveillance renforcée. L'évaluation devrait tenir compte de la localisation précise des prêts, de la nature des garanties et de la sensibilité climatique des activités financées. Nuance importante pour les États-Unis : les deux phases d'ENSO ne sont pas symétriques, et les effets bancaires les plus importants apparaissent historiquement pendant La Niña, dont les conditions chaudes et sèches pèsent sur les revenus agricoles, les ressources en eau et certains marchés immobiliers."
+  }
+ ],
+ "synthese": "Les chocs climatiques liés à ENSO peuvent fragiliser les banques par le crédit, avec un effet qui culmine environ deux ans après l'épisode. Selon les auteurs, le puissant El Niño actuel en est un signal avancé, mais La Niña pourrait se révéler plus redoutable encore pour les banques américaines.",
+ "republication": ""
+}
