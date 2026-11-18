@@ -1,25 +1,7 @@
 {
- "tour": 2,
- "code": 3,
- "a_faire": [
-  "breves",
-  "syn-a10",
-  "syn-a107",
-  "syn-a11",
-  "syn-a111",
-  "syn-a134",
-  "syn-a142",
-  "syn-a145",
-  "syn-a15",
-  "syn-a161",
-  "syn-a189",
-  "syn-a210",
-  "syn-a45",
-  "syn-a55",
-  "syn-a60",
-  "syn-a69",
-  "syn-a9"
- ],
- "termine": false,
- "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  220 articles candidats, 3 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 34 candidats → 6 à développer, 4 brèves\n  france : 34 candidats → 5 à développer, 3 brèves\n  monde : 51 candidats → 5 à développer, 3 brèves\n  recherche : 24 candidats → 4 à développer, 4 brèves\n  veille : 35 candidats → 4 à développer, 2 brèves\n  curiosites : 42 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a15 complété par : shattered.io\n  a36 écarté des développés : texte trop court (1713 car.)\n  a111 complété par : Al Jazeera\n  a145 complété par : CNIL\n  a171 écarté des développés : texte trop court (83 car.)\n  a161 complété par : RTE.ie\n  plan : sans pages, 16 articles (16 longs)\n· Lot 2 : synthèses (Sonnet)\n… 17 demande(s) en attente : breves, syn-a11, syn-a10, syn-a9, syn-a15, syn-a55, syn-a45, syn-a60, syn-a69, syn-a107, syn-a111, syn-a134, syn-a142, syn-a145, syn-a161, syn-a189, syn-a210\nA_FAIRE 17 : a_faire/breves.json a_faire/syn-a11.json a_faire/syn-a10.json a_faire/syn-a9.json a_faire/syn-a15.json a_faire/syn-a55.json a_faire/syn-a45.json a_faire/syn-a60.json a_faire/syn-a69.json a_faire/syn-a107.json a_faire/syn-a111.json a_faire/syn-a134.json a_faire/syn-a142.json a_faire/syn-a145.json a_faire/syn-a161.json a_faire/syn-a189.json a_faire/syn-a210.json\n"
+ "tour": 3,
+ "code": 0,
+ "a_faire": [],
+ "termine": true,
+ "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  220 articles candidats, 3 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 34 candidats → 6 à développer, 4 brèves\n  france : 34 candidats → 5 à développer, 3 brèves\n  monde : 51 candidats → 5 à développer, 3 brèves\n  recherche : 24 candidats → 4 à développer, 4 brèves\n  veille : 35 candidats → 4 à développer, 2 brèves\n  curiosites : 42 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a36 écarté des développés : texte trop court (1713 car.)\n  a171 écarté des développés : texte trop court (83 car.)\n  plan : sans pages, 16 articles (16 longs)\n· Lot 2 : synthèses (Sonnet)\n! Flux indisponibles : Google DeepMind, EDPB, ESA\n✓ Édition prête : 16 articles, 20 brèves\n=== agent ===\n✓ Version numérique : /home/runner/work/signal-matin/signal-matin/output/mobile/2026-11-18-signal-matin.html\n· Envoi via Resend (HTTPS)\n✓ E-mail envoyé (1 destinataire(s))\n"
 }
