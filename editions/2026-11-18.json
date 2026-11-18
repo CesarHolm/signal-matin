@@ -1,0 +1,361 @@
+{
+ "date": "2026-11-18",
+ "nouveaux_mots": [
+  {
+   "mot": "Gouvernance",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Ensemble des règles et instances qui encadrent les décisions d'une organisation.",
+   "exemple": "Revoir la gouvernance des données."
+  },
+  {
+   "mot": "Fustiger",
+   "nature": "v. tr.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Critiquer violemment.",
+   "exemple": "L'éditorial fustige l'inaction du gouvernement."
+  },
+  {
+   "mot": "Hiératique",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "D'une raideur solennelle, majestueuse.",
+   "exemple": "Une posture hiératique."
+  },
+  {
+   "mot": "Hapax",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Mot ou forme dont on ne connaît qu'une seule occurrence.",
+   "exemple": "Ce terme est un hapax dans l'œuvre de Rabelais."
+  },
+  {
+   "mot": "Pétrichor",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Odeur de la terre sèche après la pluie.",
+   "exemple": "Le pétrichor annonçait la fin de l'orage."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Frugal",
+   "definition": "Qui se contente de peu, notamment pour la nourriture ; simple et peu abondant."
+  },
+  {
+   "mot": "Opportun",
+   "definition": "Qui convient au moment, aux circonstances."
+  },
+  {
+   "mot": "Sporadique",
+   "definition": "Qui se produit de façon irrégulière, isolée, par intervalles."
+  },
+  {
+   "mot": "Algorithme",
+   "definition": "Suite finie d'instructions permettant de résoudre un problème."
+  },
+  {
+   "mot": "Fat",
+   "definition": "Vaniteux, satisfait de lui-même de façon ridicule."
+  }
+ ],
+ "articles": [
+  "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
+  "https://www.actuia.com/actualite/anthropic-900-milliards-de-dollars-pour-combien-de-mois-davance/",
+  "https://www.actuia.com/actualite/affaire-jensen-huang-washington-sattaque-aux-gpu-nvidia-loues-a-la-chine/",
+  "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
+  "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+  "https://www.actuia.com/actualite/genesis-ai-leve-500-millions-de-dollars-pour-mettre-ses-robots-eno-a-lusine/",
+  "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+  "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+  "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-guerre-en-ukraine-la-russie-estime-que-la-presence-de-soldats-francais-sur-le-terrain-equivaut-a-une-participation-directe-au-conflit_8286344.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/politique/article/2026/11/18/presidentielle-2027-gerald-darmanin-appelle-bruno-retailleau-et-gabriel-attal-a-s-effacer-derriere-edouard-philippe-pour-barrer-la-route-a-jean-luc-melenchon_6813056_823448.html",
+  "https://www.publicsenat.fr/actualites/politique/blocages-duniversites-le-ministre-de-lenseignement-superieur-sattend-a-un-taux-dechec-encore-plus-important-cette-annee",
+  "https://www.lemonde.fr/politique/article/2026/11/17/manifestations-du-17-novembre-de-paris-a-lyon-un-mouvement-qui-regarde-vers-la-presidentielle-on-envoie-un-message-au-prochain-locataire-de-l-elysee_6813043_823448.html",
+  "https://www.publicsenat.fr/actualites/economie/pouvoir-dachat-roland-lescure-le-ministre-de-leconomie-exclut-une-hausse-du-cheque-energie",
+  "https://www.lemonde.fr/societe/article/2026/11/18/loi-relance-du-logement-l-assemblee-nationale-valide-le-lancement-du-programme-anru-3-pour-la-periode-2026-2040_6813057_3224.html",
+  "https://www.npr.org/2026/11/17/nx-s1-6044255/us-iran-war-latest-bahrain",
+  "https://www.aljazeera.com/news/2026/11/18/what-is-trump-hoping-to-achieve-at-apec-meeting-in-china?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action?traffic_source=rss",
+  "https://www.scmp.com/news/china/diplomacy/article/3374808/trump-claims-us-will-have-enough-rare-earths-10-months-experts-call-it-unrealistic",
+  "https://www.scmp.com/news/china/diplomacy/article/3374810/chiles-kast-meets-chinas-xi-first-time-steady-ties-strained-us-pressure",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/18/eisenkot-ally-elected-knesset-speaker-with-arab-blocs-backing?traffic_source=rss",
+  "https://verfassungsblog.de/the-great-norwegian-reset/",
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005073",
+  "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3311~66cc2a4d65.en.pdf",
+  "https://www.nber.org/papers/w36007#fromrss",
+  "https://www.nber.org/papers/w36008#fromrss",
+  "https://www.pewresearch.org/short-reads/2026/11/17/younger-and-lgbtq-adults-in-the-us-stand-out-for-finding-friendship-online/",
+  "https://www.cnil.fr/fr/38-sanctions-simplifiees",
+  "https://www.wsj.com/article/eu-sanctions-irish-journalist-over-russian-disinformation-d1c310c7",
+  "https://www.intellinews.com/eu-sanctions-list-wildberries-founder-kim-and-ozon-investor-chachava-485948/",
+  "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+  "https://theconversation.com/quand-une-doctorante-decouvre-un-nouveau-compartiment-indispensable-a-la-croissance-de-lovocyte-292287",
+  "https://www.carbonbrief.org/revealed-russia-saudi-arabia-and-australia-are-largest-co2-exporters-of-all-time",
+  "https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/",
+  "https://www.franceinfo.fr/dakar/fernando-alonso-fera-son-retour-sur-le-dakar-en-2027-chez-aston-martin_8224909.html#xtor=RSS-3-%5Bsports%5D",
+  "https://theconversation.com/le-rhum-ou-pourquoi-une-origine-na-pas-besoin-dappellation-pour-avoir-de-la-valeur-296072",
+  "https://www.sciencesetavenir.fr/sante/violences-precarite-isolement-l-environnement-pese-sur-la-sante-mentale-des-enfants_196170?xtor=RSS-16"
+ ],
+ "titres": [
+  "OpenAI lance GPT-6.2 Astra et Sol : prix en baisse, gains inégaux",
+  "Anthropic : 900 milliards d'engagements pour quelques mois d'avance ?",
+  "Nvidia : Washington soumet à licence les puces louées à des groupes chinois",
+  "Images d'abus d'enfants générées par IA : les signalements ont explosé",
+  "Ukraine : Paris dément être cobelligérant après les accusations de Moscou",
+  "Darmanin appelle Retailleau et Attal à s'effacer derrière Edouard Philippe",
+  "Blocages d'universités : le ministre redoute plus d'échecs en licence",
+  "Iran : troisième attaque contre Bahreïn, siège de la 5e flotte américaine",
+  "Sommet de l'APEC à Shenzhen : ce que Trump peut espérer de Xi et de Poutine",
+  "Gaza : le Conseil de la paix avertit que le cessez-le-feu risque de s'effondrer",
+  "Norvège : la Cour suprême impose d'évaluer les émissions de combustion",
+  "Gonorrhée : à quel prix un test de résistance reste-t-il rentable ?",
+  "CNIL : 38 sanctions simplifiées entre juin et octobre 2026",
+  "L'UE sanctionne le journaliste irlandais Chay Bowes pour désinformation russe",
+  "Le corps de Zollo, un nouveau compartiment qui aide l'ovocyte à grandir",
+  "Russie, Arabie saoudite et Australie, premiers exportateurs de CO2 de l'histoire"
+ ],
+ "solutions": {
+  "sudoku": [
+   7,
+   4,
+   5,
+   3,
+   1,
+   2,
+   8,
+   9,
+   6,
+   8,
+   6,
+   1,
+   5,
+   9,
+   4,
+   3,
+   2,
+   7,
+   2,
+   9,
+   3,
+   6,
+   7,
+   8,
+   5,
+   4,
+   1,
+   5,
+   7,
+   4,
+   1,
+   6,
+   3,
+   9,
+   8,
+   2,
+   1,
+   2,
+   9,
+   4,
+   8,
+   5,
+   7,
+   6,
+   3,
+   6,
+   3,
+   8,
+   9,
+   2,
+   7,
+   1,
+   5,
+   4,
+   9,
+   1,
+   2,
+   7,
+   5,
+   6,
+   4,
+   3,
+   8,
+   4,
+   8,
+   7,
+   2,
+   3,
+   9,
+   6,
+   1,
+   5,
+   3,
+   5,
+   6,
+   8,
+   4,
+   1,
+   2,
+   7,
+   9
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     6,
+     2
+    ],
+    [
+     0,
+     2,
+     5,
+     2
+    ],
+    [
+     0,
+     4,
+     6,
+     1
+    ],
+    [
+     0,
+     5,
+     5,
+     2
+    ],
+    [
+     0,
+     7,
+     10,
+     1
+    ],
+    [
+     0,
+     8,
+     9,
+     1
+    ],
+    [
+     0,
+     9,
+     6,
+     1
+    ],
+    [
+     5,
+     2,
+     5,
+     2
+    ],
+    [
+     5,
+     5,
+     4,
+     2
+    ],
+    [
+     6,
+     0,
+     4,
+     2
+    ],
+    [
+     6,
+     4,
+     3,
+     1
+    ],
+    [
+     6,
+     9,
+     2,
+     1
+    ],
+    [
+     8,
+     9,
+     2,
+     1
+    ],
+    [
+     9,
+     4,
+     1,
+     3
+    ],
+    [
+     9,
+     8,
+     1,
+     1
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    2,
+    3,
+    6,
+    5,
+    1,
+    4
+   ],
+   [
+    6,
+    2,
+    5,
+    4,
+    3,
+    1
+   ],
+   [
+    3,
+    1,
+    2,
+    6,
+    4,
+    5
+   ],
+   [
+    1,
+    4,
+    3,
+    2,
+    5,
+    6
+   ],
+   [
+    5,
+    6,
+    4,
+    1,
+    2,
+    3
+   ],
+   [
+    4,
+    5,
+    1,
+    3,
+    6,
+    2
+   ]
+  ],
+  "compte": [
+   "75 + 2 = 77",
+   "77 + 4 = 81",
+   "81 × 8 = 648",
+   "648 + 3 = 651"
+  ]
+ },
+ "reponses_quiz": []
+}
