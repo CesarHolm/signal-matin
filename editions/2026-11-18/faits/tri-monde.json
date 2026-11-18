@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a69", "score": 9, "raison": "Escalade au Moyen-Orient : des drones iraniens visent une base radar américaine à Bahreïn, et les États-Unis ripostent sur des cibles iraniennes le long d'une route maritime stratégique."},
+    {"id": "a107", "score": 8, "raison": "Sommet de l'APEC à Shenzhen : Trump doit rencontrer Xi pour la troisième fois cette année, avec un sommet trilatéral prévu avec Poutine."},
+    {"id": "a111", "score": 7, "raison": "Gaza : le Board of Peace, dirigé par les États-Unis, met en garde contre un effondrement imminent du cessez-le-feu faute d'action, sur fond de combats et de retards dans l'application de l'accord de 2025."},
+    {"id": "a85", "score": 7, "raison": "Ukraine : Washington critique les frappes profondes ukrainiennes avant de nouvelles discussions de paix avec la Russie ; Boris Pistorius qualifie cette critique de « chose stupide »."},
+    {"id": "a82", "score": 6, "raison": "Royaume-Uni : des eurosceptiques de longue date se mobilisent contre la nouvelle relation avec l'UE voulue par le premier ministre Burnham."}
+  ],
+  "breves": [
+    {"id": "a95", "titre": "Terres rares : Trump promet un rattrapage en dix mois, des experts jugent cela irréaliste", "texte": "Trump affirme que les États-Unis rattraperont la Chine sur les terres rares « dans les 10 mois ». Des experts y voient une esbroufe diplomatique, face à la domination chinoise de longue date sur les chaînes d'approvisionnement."},
+    {"id": "a94", "titre": "Chili : le président Kast rencontre Xi Jinping pour apaiser des relations tendues", "texte": "Premier entretien entre les deux dirigeants depuis l'arrivée au pouvoir de José Antonio Kast en mars, à Shenzhen, la veille du sommet de l'APEC. Des différends sur un câble sous-marin chinois et sur un organe de l'ONU avaient tendu les liens."},
+    {"id": "a114", "titre": "Israël : un allié de Gadi Eisenkot élu président de la Knesset avec le bloc arabe", "texte": "Le Parlement israélien a élu Matan Kahana à sa présidence avec le soutien des partis arabes. C'est un allié de Gadi Eisenkot."}
+  ]
+}

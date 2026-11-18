@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a189", "score": 8, "raison": "Découverte scientifique grand public : un nouveau compartiment d'ARN et de protéines, le « corps de Zollo », dans les petits ovocytes de souris, avec des implications possibles pour la fertilité féminine."},
+    {"id": "a210", "score": 7, "raison": "Classement historique des plus gros exportateurs de CO2 (Russie, Arabie saoudite, Australie), un chiffre qui parle au grand public."},
+    {"id": "a183", "score": 7, "raison": "Consommation d'antibiotiques en recul en France en 2025, mais antibiorésistance en progression : un constat à double lecture."},
+    {"id": "a194", "score": 6, "raison": "Pollution de l'air transportée sur des milliers de kilomètres jusqu'au Groenland, mesurée dans les moulins glaciaires."}
+  ],
+  "breves": [
+    {"id": "a203", "titre": "Le télescope Chandra de la NASA publie un album de sons d'étoiles naissantes", "texte": "Quatre nouvelles sonifications transforment en sons les données d'étoiles en cours de formation, captées par Chandra et d'autres télescopes de la NASA."},
+    {"id": "a223", "titre": "Fernando Alonso fera son retour sur le Dakar en 2027 chez Aston Martin", "texte": "L'actuel pilote de Formule 1 revient au rallye-raid, sept ans après sa première participation. Sébastien Loeb et le Brésilien Lucas Moraes, champion du monde en titre de rallye-raid, seront aussi alignés chez Aston Martin."},
+    {"id": "a193", "titre": "Rhum : la réputation pèse davantage sur les prix que l'origine géographique", "texte": "Une étude portant sur plus de 4 000 rhums montre que la réputation culturelle peut peser davantage sur les prix que l'origine géographique précise. Le marché du rhum n'a pas d'indication géographique protégée, sans que cela pose vraiment problème."},
+    {"id": "a181", "titre": "Santé mentale : plus d'un jeune sur trois présente une difficulté psychique élevée", "texte": "Selon une enquête dévoilée par Unicef France, plus d'un jeune sur trois présente au moins une difficulté psychique élevée. Pour 22 % d'entre eux, ces difficultés ont des conséquences dans la vie quotidienne."}
+  ]
+}

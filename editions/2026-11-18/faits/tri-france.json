@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a36", "score": 8, "raison": "Mobilisation du 17 novembre : 146 000 manifestants selon le ministère de l'Intérieur, plus de 500 000 selon la CGT ; les regards se tournent vers la présidentielle d'avril 2027."},
+    {"id": "a55", "score": 8, "raison": "Dizaines de militaires français en Ukraine pour de la maintenance et de la formation, selon RFI et Le Monde ; le gouvernement exclut toute cobelligérance."},
+    {"id": "a45", "score": 7, "raison": "Présidentielle 2027 : Gérald Darmanin appelle Bruno Retailleau et Gabriel Attal à s'effacer derrière Édouard Philippe pour barrer la route à Jean-Luc Mélenchon."},
+    {"id": "a60", "score": 7, "raison": "Crise universitaire : le ministre de l'Enseignement supérieur anticipe un taux d'échec en licence plus élevé, un conflit touchant 20 à 30 % des établissements chaque jour."},
+    {"id": "a68", "score": 6, "raison": "Budget 2027 de la Sécurité sociale : le Sénat rétablit la réforme des retraites de 2023 (âge légal à 64 ans) que le texte suspendait."}
+  ],
+  "breves": [
+    {"id": "a59", "titre": "Pouvoir d'achat : le ministre de l'Économie exclut une hausse du chèque énergie", "texte": "Auditionné par une commission parlementaire, Roland Lescure défend un retrait de l'engagement financier de l'État dans le soutien aux politiques de décarbonation et de pouvoir d'achat énergétique. Il affirme que l'objectif n'est pas de soutenir moins, mais de soutenir mieux."},
+    {"id": "a46", "titre": "Logement : l'Assemblée valide le programme ANRU 3 pour 2026-2040", "texte": "Le programme ANRU 3, qui vise notamment 150 quartiers prioritaires, est lancé dans le cadre de la loi « relance du logement ». Certains députés jugent insuffisant le financement de 5 milliards d'euros prévu pour démarrer."},
+    {"id": "a38", "titre": "Procès de « la petite inconnue de l'A10 » : la mère condamnée à vingt ans", "texte": "Les parents de « la petite inconnue de l'A10 » ont été condamnés en cour d'assises : la mère à vingt ans de réclusion, le père à quinze ans. Les deux accusés sont incarcérés immédiatement, trente-neuf ans après les faits."}
+  ]
+}

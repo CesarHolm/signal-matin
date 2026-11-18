@@ -1,0 +1,12 @@
+{
+  "developpes": [
+    {"id": "a145", "score": 8, "raison": "CNIL : 38 nouvelles sanctions en procédure simplifiée entre juin et octobre 2026 (cookies, sécurité des données, prospection, non-coopération), dont 23 issues de plaintes."},
+    {"id": "a171", "score": 7, "raison": "Règle finale américaine instaurant des contrôles à l'exportation sur les semi-conducteurs avancés : un changement réglementaire direct pour les acteurs de la filière."},
+    {"id": "a161", "score": 6, "raison": "L'UE sanctionne un journaliste irlandais pour désinformation russe : une mesure de sanction motivée par la désinformation."},
+    {"id": "a179", "score": 5, "raison": "Reporting de durabilité (CSRD) : ESRS simplifiés, normes non européennes et audit, prochains défis pour les entreprises."}
+  ],
+  "breves": [
+    {"id": "a157", "titre": "UE : sanctions contre le fondateur de Wildberries Kim et l'investisseur d'Ozon Chachava", "texte": "L'Union européenne a ajouté à sa liste de sanctions le fondateur de Wildberries, Kim, et l'investisseur d'Ozon, Chachava."},
+    {"id": "a169", "titre": "Nvidia crée un comité de contrôle des exportations au conseil d'administration", "texte": "Le conseil d'administration de Nvidia a mis en place un comité de supervision de la sécurité nationale et du contrôle des exportations."}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "resultats": [
+    {"sport": "Football", "affiche": "Danemark – Norvège", "score": "2-3", "competition": "Ligue des nations (équipes nationales), phase de groupes, dernière journée", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401861194/norway-denmark"},
+    {"sport": "Football", "affiche": "Pays de Galles – Portugal", "score": "2-3", "competition": "Ligue des nations (équipes nationales), phase de groupes, dernière journée", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401861189/portugal-wales"},
+    {"sport": "Tennis", "affiche": "Fils – Jodar", "score": "4-6 6-2 6-2", "competition": "Finales ATP (circuit ATP), phase de groupes", "source": "L'Équipe", "url": "https://www.lequipe.fr/Tennis/Actualites/Une-victoire-qui-relance-tout-arthur-fils-s-impose-contre-rafael-jodar-et-se-replace-pour-la-qualification-en-demi-finales-des-finales-atp/1744255#at_medium=RSS_feeds"},
+    {"sport": "Basket", "affiche": "Barcelone – Paris", "score": "86-89", "competition": "Euroligue (coupe d'Europe des clubs)", "source": "L'Équipe", "url": "https://www.lequipe.fr/Basket/Actualites/Nadir-hifi-offre-une-cinquieme-victoire-de-suite-a-paris-vainqueur-a-barcelone-en-euroligue/1744363#at_medium=RSS_feeds"}
+  ],
+  "a_suivre": []
+}

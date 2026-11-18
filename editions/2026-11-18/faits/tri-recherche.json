@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a134", "score": 8, "raison": "Arrêt de la Cour suprême norvégienne du 13 novembre 2026 (affaire North Sea Fields) : les études d'impact environnemental doivent couvrir les émissions en aval de la combustion du pétrole et du gaz (scope 3)."},
+    {"id": "a142", "score": 8, "raison": "Modélisation économique de la valeur d'un test de résistance de la gonorrhée aux États-Unis, alors que la résistance progresse face à la ceftriaxone, seul traitement de première intention recommandé."},
+    {"id": "a125", "score": 7, "raison": "Essai randomisé en Inde : les entreprises sociales qui mesurent leur impact connaissent une croissance du chiffre d'affaires presque double et lèvent deux fois plus de capital que les témoins."},
+    {"id": "a129", "score": 6, "raison": "Lois de scolarité obligatoire, niveau d'études et écart de préférences partisanes entre hommes et femmes aux États-Unis : un lien établi par des stratégies économétriques."}
+  ],
+  "breves": [
+    {"id": "a121", "titre": "Zone euro : une politique monétaire restrictive freine l'innovation des entreprises", "texte": "Selon un document de travail de la BCE, lorsque les marchés de capitaux sont imparfaitement intégrés, un resserrement monétaire renforce les contraintes de financement et amplifie le recul de l'innovation. L'assouplissement agit en sens inverse."},
+    {"id": "a123", "titre": "Impôts : l'iniquité horizontale rivalise avec l'iniquité verticale dans 29 pays", "texte": "Dans 29 pays en développement, l'iniquité entre contribuables aux revenus comparables est du même ordre que l'iniquité verticale, selon une étude NBER. Les réformes progressives qui pèsent surtout sur les salariés l'aggravent."},
+    {"id": "a124", "titre": "Phelps-Winter : relever les taux d'intérêt peut faire monter les prix", "texte": "Dans un modèle de marché de clientèle, Greenwald et Stiglitz (NBER) montrent que la hausse des taux conduit les entreprises à privilégier leurs profits immédiats, ce qui fait monter les prix. Cet effet existe même lorsque la demande globale baisse."},
+    {"id": "a132", "titre": "Un quart des Américains ont des amis rencontrés en ligne, selon Pew", "texte": "Selon le Pew Research Center, environ un quart des Américains ont des amis rencontrés en ligne, et la plupart les ont ensuite rencontrés en personne. Les adultes jeunes et LGBTQ se distinguent sur ce point."}
+  ]
+}
