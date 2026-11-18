@@ -1,0 +1,64 @@
+{
+ "id": "syn-a210",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a210.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Carbon Brief\nRubrique : Climat\nDate du flux : 17/11/2026\nAuteur : Simon Evans\nTitre d'origine : Revealed: Russia, Saudi Arabia and Australia are largest CO2 exporters of all time\n\nARTICLE :\nRussia, Saudi Arabia and COP31 co-president Australia are the largest exporters of carbon dioxide (CO2) emissions in history, reveals Carbon Brief analysis.\nSince 1850, the three nations – and other major fossil-fuel exporters – have exported hundreds of billions of tonnes of CO2 in the form of gas, oil and coal that has been burned in other countries.\nCarbon Brief’s analysis of extraction-based CO2 emissions is based on figures compiled by Robbie Andrew, a senior researcher at Norwegian climate institute CICERO.\nIt shows that Australia is responsible for more than twice as much global warming when including emissions from its fossil-fuel exports, while Saudi Arabia has caused more than four times as much.\nAustralia has been under pressure for continuing to expand its fossil-fuel production ahead of the UN climate summit in Antalya, where it is co-president with host nation Turkey.\nIn contrast, nations that are heavily reliant on energy imports – such as Japan or Germany – have are responsible for far lower shares of planet-warming emissions, if responsibility passes to fossil-fuel producers.\nThere are many different ways to assign historical responsibility for current global warming.\nCarbon Brief has previously published analysis based on territorial emissions, the consumption of imported goods, according to colonial rule or based on historical emissions per capita.\nHistorical responsibility\nThis year is expected to be around 1.5C hotter than pre-industrial temperatures. Next year is forecast to be the hottest on record, at around 1.7C of warming.\nThis year-to-year variation is due to natural variability, such as El Niño. However, approximately 100% of global warming to date is the result of human-caused greenhouse gas emissions.\nThe burning of fossil fuels since the industrial revolution is the largest contributor to this.\nSince there is a direct link between each tonne of CO2 and each fraction of a degree of warming, historical fossil-fuel emissions can be tied to responsibility for current climate change.\nThis is typically calculated on the basis of historical territorial CO2 emissions, according to where in the world the fossil fuels are burned. It is also possible to assign historical responsibility on a “consumption” basis, according to where goods are used.\nHistorical emissions are often counted by country, but this puts the focus on populous nations. Alternatively, responsibility can be assigned per capita, based on today’s populations.\nA less-familiar way to look at the question of historical responsibility is to consider where fossil fuels are extracted. This puts the spotlight on major fossil-fuel exporters.\nThe figure below shows that Russia, Saudi Arabia and Australia are the largest CO2 exporters of all time, based on emissions from exported fossil fuels since 1850.\n(The allocation is based on extraction taking place within current national borders. Emissions under the former USSR, Czechoslovakia and Yugoslavia are allocated among constituent countries, based on their share of emissions at the time of separation.)\nOther major CO2 exporters, based on their overseas sales of fossil fuels since 1850, include Venezuela, Iran, Norway, the United Arab Emirates and Canada.\nBetween them, these major coal, oil and gas producers have exported hundreds of billions of tonnes of CO2 over the past 175 years, according to Carbon Brief’s analysis.\nExtraction-based accounting\nThe analysis shows that overall, the US and China retain the largest responsibility for historical warming under extraction-based accounting, despite having been net CO2 importers since 1850.\nThe US has large resources of coal, oil and gas, but was nevertheless a major oil importer until after the shale revolution in the early 2000s.\nChina remains a major oil and gas importer, describing itself as “rich in coal, lacking oil and gas”.\nRussia remains in third place, as shown in the figure below, despite gaining responsibility for an extra 69bn tonnes of CO2 from exported fossil fuels.\nThe UK becomes the fourth-largest historical emitter, climbing above Germany due to the latter’s reliance on fossil-fuel imports.\nSaudi Arabia becomes responsible for the world’s fifth-largest share of historical warming when including its fossil-fuel exports, which increase its cumulative emissions more than fourfold.\nAustralia also climbs up the rankings, becoming one of the top-ten largest emitters when including its fossil-fuel exports. This more than doubles its share of historical emissions.\nNations that drop down the rankings under extraction-based accounting, due to their reliance on fossil-fuel imports, include Germany, India, France and COP31 host Turkey.\nJapan is a particularly notable example, as it is almost completely reliant on fossil-fuel imports. The nation is the sixth-largest emitter on a territorial basis and the 34th-largest on an extraction basis.\nPer-capita accounting\nWhen considering population sizes, major fossil-fuel exporters have the highest extraction-based CO2 emissions since 1850, as shown in the figure below.\nSmall nations that export large amounts of oil and gas are particularly prominent on this list, including Brunei, Kuwait, Qatar, Norway and Trinidad and Tobago.\nAndrew tells Carbon Brief that while the extraction-based accounting offers an alternative perspective on historical responsibility for warming, it also raises complex questions. He explains:\n“At the end of the day, it’s not solely the responsibility of extracting countries that fuels are combusted; it’s joint responsibility between extractors, producers and consumers.”\nHe adds that responsibility for past decisions is shared by many actors. For example, he notes that oil production in the Middle East was historically “developed by and for western powers”.\nAbout the data\nNational emissions under extraction-based accounting come from a dataset developed by Robbie Andrew and covering the period from 1850-2025.\nEmissions are allocated to the country that extracted the relevant fossil fuels, regardless of where the coal, oil or gas was burned.\nThe allocation is based on current national borders. Emissions that took place within the former USSR, Czechoslovakia and Yugoslavia are allocated among their present-day constituent countries, based on the relative shares of emissions at the time of separation.\nAndrew notes that the dataset is a draft release, based on available data.\nPopulation data for 2025 is taken from the UN Population Fund.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

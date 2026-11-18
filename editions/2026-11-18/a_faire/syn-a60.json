@@ -1,0 +1,64 @@
+{
+ "id": "syn-a60",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a60.json",
+ "limite_caracteres": 4174,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4174 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Public Sénat\nRubrique : France\nDate du flux : 17/11/2026\nAuteur : Simon Barbarit\nTitre d'origine : Blocages d’universités : le ministre de l’Enseignement supérieur s’attend « à un taux d’échec en licence encore plus important cette année »\n\nARTICLE :\nLes directeurs de campagne de Gabriel Attal, Bruno Retailleau et David Lisnard se sont entendus, en l’absence des représentants d’Edouard Philippe, pour organiser une primaire la plus ouverte possible, par vote électronique, avec participation qui pourrait être de 2 euros. Elle pourrait avoir lieu soit les 17 et 24 janvier, soit les 24 et 31 janvier. Mais « aucun accord n’a été conclu à ce stade », prévient Nouvelle Energie et la question du périmètre reste à éclaircir.\nBlocages d’universités : le ministre de l’Enseignement supérieur s’attend « à un taux d’échec en licence encore plus important cette année »\n« C’est un niveau de tension inédit que traverse actuellement le monde de l’enseignement supérieur, inédit par l’ampleur et la violence ». En introduction de son audition devant la commission de la culture et de l’éducation du Sénat, il a d’abord apporté son soutien aux personnels enseignants, notamment aux « nombreux présidents d’université menacés de mort ».\nL’audition du ministre se déroulait à quelques jours de l’examen en séance publique des crédits de l’enseignement supérieur. « On ne peut pas dire que le budget baisse. Il y a un vrai effort fait par le gouvernement, » a assuré le ministre en réponse aux élus de gauche qui comparaient cette hausse des crédits avec l’inflation. En réponse aux revendications étudiantes, le gouvernement a annoncé à la fin du mois dernier l’ouverture de 15 000 places supplémentaires dans le supérieur, fléchées prioritairement vers les filières courtes et techniques, comme les BTS et les DUT, ou encore les études de santé. L’Île-de-France, où les besoins sont les plus urgents, sera la plus concernée. Le gouvernement compte aussi agir au niveau des bourses étudiantes en les indexant sur l’inflation. Sans oublier la pérennisation du repas à 1 euro pour tous les étudiants l’année prochaine.\nDans le détail, les crédits de paiement des quatre programmes du ministère atteignent 29,5 milliards d’euros. « Une progression de 500 millions d’euros par rapport au projet de loi de finances initial de 2026 », a-t-il précisé. Le budget de la mission interministérielle « Recherche et enseignement supérieur » atteindra 32,1 milliards d’euros. Le projet de loi de finances pour 2027 prévoit un milliard d’euros pour l’Agence nationale de la recherche, alors que la loi de programmation de la recherche, votée en 2020, prévoyait d’aller au-delà.\n« Il n’est pas question d’augmenter les frais de scolarité »\nInterrogé par le sénateur socialiste Yan Chantrel, le ministre de l’Enseignement supérieur a réagi aux propositions de la droite sénatoriale. Une commission d’enquête récente, dont la rapporteure est Laurence Garnier (LR), a préconisé une hausse des frais d’inscription à l’université. Au début du mois, c’est le rapport de la sénatrice divers droite Vanina Paoli-Gagin, adopté en commission des finances, qui s’est prononcé en faveur d’une réforme des bourses, financée aussi par une hausse des droits d’inscription pour les familles les plus aisées.\n« Il n’est pas question d’augmenter les frais de scolarité s’agissant de la licence, du master et du doctorat », a réaffirmé le ministre. Mais « à titre personnel », Philippe Baptiste est favorable à un système mis en place par Sciences Po « où des élèves bénéficient d’une gratuité complète et d’autres contribuent à une partie plus significative, progressivement en fonction des revenus ».\nMême raisonnement pour le repas à 1 euro. « J’étais contre la mesure qui va bénéficier à tout le monde. J’aurais préféré que l’effort soit porté sur les boursiers », a-t-il confessé.\n« Il faut arrêter le blocage ! Ce n’est pas possible »\nAlors que « le conflit social touche 20 à 30 % des établissements supérieurs chaque jour », le ministre s’est inquiété des conséquences sur la réussite des étudiants. « Quand on sait que les étudiants en première année de licence sont les plus fragiles, qu’il y en a un sur deux qui ne va pas réussir sa première année de licence, je m’attends, malheureusement, à un taux d’échec encore plus important cette année. Quelles que soient les opinions politiques, il faut arrêter le blocage ! Ce n’est pas possible. »\nPhilippe Baptiste a également tué dans l’œuf un certain nombre de revendications étudiantes telles que « le 10 sur 20 pour tous ou le semestre blanc ». « C’est contraire à la loi qui exige une évaluation individuelle des étudiants », a-t-il notamment justifié.\nQuant au remplacement de Parcoursup, cette plateforme d’orientation et de sélection dans le supérieur, critiquée depuis plusieurs années pour son opacité, Philippe Baptiste a évoqué quelques pistes. « Est-ce qu’on veut interdire [les quotas d’étudiants en provenance d’autres académies ? Est-ce qu’on veut ouvrir plus ? Le risque, c’est de dévaloriser un certain nombre de formations hors Paris. Est-ce qu’il faut plus de sélection ? Moins de sélection ? Plus ou moins de boursiers ? […] Avant de défendre un projet de loi, j’ai besoin d’un minimum de compromis dans la classe politique, sinon on n’y arrivera pas », a-t-il indiqué avant d’affirmer qu’il n’était pas possible d’ouvrir 250 000 places supplémentaires dans l’enseignement supérieur en quelques mois, comme le demandent les syndicats.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a36\", \"source\": \"Le Monde\", \"titre\": \"Manifestations du 17 novembre : de Paris à Lyon, un mouvement qui regarde vers la présidentielle, « on envoie un message au prochain locataire de l’Elysée »\", \"resume\": \"Mardi, les cortèges ont rassemblé 146 000 personnes dans différentes villes de France, selon le ministère de l’intérieur, plus de 500 000 selon la CGT. Alors que la mobilisation semble s’essouffler, les regards se tournent peu à peu vers le scrutin présidentiel d’avril 2027.\"}, {\"id\": \"a171\", \"source\": \"Manufacturing Dive\", \"titre\": \"DOC final rule places export controls on advanced semiconductors\", \"resume\": \"DOC final rule places export controls on advanced semiconductors Manufacturing Dive\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}
