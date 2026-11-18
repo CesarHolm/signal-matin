@@ -1,0 +1,28 @@
+{
+ "titre": "Nvidia : Washington soumet à licence les puces louées à des groupes chinois",
+ "chapo": "Quatre jours après le départ de Jensen Huang, le BIS américain a publié une règle provisoire qui vise les centres de données louant de la puissance de calcul à des entreprises chinoises.",
+ "sections": [
+  {
+   "intertitre": "Ce que prévoit la règle du 16 novembre",
+   "texte": "Le 16 novembre 2026, le BIS, qui administre les contrôles à l'exportation au département du Commerce, a publié une règle provisoire. Une licence devient nécessaire pour envoyer des puces d'IA avancées vers un centre de données qui donne accès à plus de 12 millions de TPP (l'unité de puissance de calcul des contrôles américains) à des sociétés dont le siège ou la maison mère est en Chine, à Macao ou dans un pays sous embargo sur les armes. Ce seuil, apprécié sur l'ensemble des sites reliés entre eux, équivaut à 750 H100. Second volet : toute puce avancée expédiée à Singapour, en Malaisie, en Indonésie, en Thaïlande ou au Brésil exige une licence, ces pays étant jugés plus exposés au détournement ; les sociétés américaines en sont dispensées, contre une déclaration mensuelle. Il vise le montage décrit dans le dossier Megaspeed, opérateur singapourien : des GPU Nvidia installés en Malaisie et loués à Alibaba."
+  },
+  {
+   "intertitre": "Une faille traitée par les livraisons",
+   "texte": "Jusqu'ici, le droit américain regardait où allaient les puces. Le Remote Access Security Act, adopté par la Chambre le 12 janvier par 369 voix contre 22, attend toujours le Sénat ; Washington a donc choisi la voie réglementaire. La règle ne débranche rien : le BIS conditionne des livraisons de puces et ne délivre pas de licence pour une connexion à distance. Les centres de données qui servent déjà des groupes chinois au-delà du seuil ont 90 jours après l'entrée en vigueur pour obtenir une licence, sous peine de restrictions sur leurs approvisionnements futurs. Elle entre en vigueur à sa publication au Federal Register, les commentaires sont ouverts 60 jours et le texte peut encore changer. Singapour dit étudier la règle et ne pas tolérer qu'une société utilise son implantation pour contourner les contrôles d'autres pays. L'obligation liée à l'accès distant ne dépend pas du pays d'installation : un opérateur européen serait concerné au même titre qu'un opérateur malaisien."
+  },
+  {
+   "intertitre": "Un départ sans motif écrit",
+   "texte": "Le 12 novembre, le conseil d'administration de Nvidia a accepté la démission de Jensen Huang, cofondateur et directeur général depuis 1993, avec effet immédiat, et confié l'intérim à Colette Kress, directrice financière. Le document déposé auprès de la SEC ne donne aucun motif. Le 29 octobre, le New York Times avait rapporté que, pour des responsables américains, Alice Huang, ancienne dirigeante de Megaspeed, transmettrait des informations à Pékin ; le récit repose sur des sources anonymes. Le 8 novembre, Jensen Huang a reconnu une infidélité envers son épouse sans nommer personne, et le conseil a lancé une enquête, disant n'avoir « aucune raison de croire » à une compromission de la sécurité nationale. Rien de public ne permet d'attribuer le départ à l'espionnage plutôt qu'à la gouvernance."
+  },
+  {
+   "intertitre": "Megaspeed : soupçons et démentis",
+   "texte": "Bloomberg attribue à Megaspeed environ 136 000 puces importées en Malaisie et en Indonésie, sans commune mesure avec le seuil. Aucun chiffre ne mesure toutefois ce qui serait arrivé en Chine, et le soupçon de détournement reste sans preuve publique. Megaspeed dément tout transfert illicite, Nvidia dit n'avoir trouvé aucune trace de détournement et Pékin dénonce des calomnies. Singapour poursuit son enquête sur Megaspeed et six autres personnes ; Alice Huang, faute de preuves suffisantes, n'est pas poursuivie, mais a reçu un avertissement et une interdiction d'entrée. Le gain chinois le mieux documenté est une location : Bloomberg a décrit en août comment Alibaba exploite des puces Nvidia installées en Malaisie par Megaspeed."
+  },
+  {
+   "intertitre": "La succession sous pression",
+   "texte": "Une pétition « Stand with Jensen » revendique plus de 180 000 signatures, non vérifiées, et deux actionnaires ont demandé au conseil de ne pas écarter un retour de Jensen Huang. Selon Reuters, le conseil ne l'envisage pas. Le secrétaire au Trésor, Scott Bessent, souhaite un recrutement hors de l'entreprise et attend des réponses sous dix jours."
+  }
+ ],
+ "synthese": "Washington cible désormais l'usage des puces, et non plus seulement leur destination, mais la règle n'agit que sur les livraisons à venir. Le départ de Jensen Huang reste sans motif écrit, et la nature des informations éventuellement transmises ou le nombre de puces parvenues en Chine restent inconnus.",
+ "republication": ""
+}

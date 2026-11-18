@@ -1,0 +1,25 @@
+{
+ "titre": "Le corps de Zollo, un nouveau compartiment qui aide l'ovocyte à grandir",
+ "chapo": "Une doctorante, Noemi Zollo, a repéré dans les ovocytes de souris une structure d'ARN et de protéines qui favorise la synthèse de protéines pendant la croissance de la cellule.",
+ "sections": [
+  {
+   "intertitre": "La question et l'observation de départ",
+   "texte": "L'ovule naît d'une cellule, l'ovocyte, qui grossit dans l'ovaire avant d'en être expulsée pour rencontrer un spermatozoïde. Comment grossit-il ? Tout part de la curiosité de Noemi Zollo, alors étudiante en thèse, qui observe un amas d'ARN collé au noyau des petits ovocytes de souris, mais absent des gros. De tels regroupements sont possibles grâce à des condensats, structures réunissant ARN et protéines associées. Parmi eux figure le corps de Balbiani, décrit dès le XIXe siècle dans les ovocytes dormants de vertébrés : supercondensat contenant aussi de nombreux organites, qu'il stocke et préserve. L'amas observé par Noemi renferme lui aussi des organites : mitochondries, Golgi, réticulum endoplasmique et lysosomes. Il est nommé « corps de Zollo » (Zollo Body), d'après son nom."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Trois questions guident la thèse : composition, caractérisation, fonctions. À Barcelone, l'équipe rencontre Gabriele Zaffagnini et Elvan Böke, qui caractérisent un autre supercondensat d'organites, présent après la croissance de l'ovocyte et chargé de dégrader les protéines non fonctionnelles. Inspirée par ce travail, l'équipe isole le corps de Zollo en « déchirant » mécaniquement les ovocytes avec une pipette très fine. Il n'y a que 30 ovocytes au stade Zollo Body par souris et la pipette ne doit pas se boucher : le talent de dissection de Noemi a été décisif. Les échantillons partent à Barcelone, où les protéines sont digérées en peptides, séquencées puis quantifiées."
+  },
+  {
+   "intertitre": "Les résultats",
+   "texte": "L'analyse confirme l'enrichissement en mitochondries, Golgi et réticulum endoplasmique, et révèle des protéines ribosomales et des protéines de la machinerie de synthèse protéique, d'où l'hypothèse d'une fonction de synthèse. L'équipe met en évidence une traduction locale des protéines dans le corps de Zollo et montre indirectement que la quantité totale de protéines augmente très nettement quand l'ovocyte grossit brutalement en fin de croissance. Or des cellules forcées à grossir de façon non physiologique voient leur cytoplasme se diluer et leur viabilité chuter ; l'ovocyte, lui, grossit vite sans diluer ses protéines. Christopher Thomas, passé du laboratoire de Melina Schuh (Institut Max-Planck, Göttingen) à l'Institut de biologie du développement de Marseille, met au point un suivi par microscopie de la croissance folliculaire in vitro. Il observe la formation du corps de Zollo dans l'ovocyte entouré de ses cellules folliculaires. Des inhibiteurs de la synthèse des protéines restent sans effet, mais un inhibiteur de DDX5, protéine présente dans le corps de Zollo, le dissout en quelques heures et stoppe la croissance de l'ovocyte et du follicule. Fonction proposée : permettre une synthèse efficace de protéines et favoriser la croissance en taille, sans diluer le cytoplasme. Les corps de Balbiani et de Zollo se ressemblent donc par leur architecture, mais l'un est associé à la dormance et à la protection des ARN en début d'ovogenèse, l'autre à un métabolisme élevé et à une croissance rapide en fin d'ovogenèse."
+  },
+  {
+   "intertitre": "Les questions ouvertes et la fertilité",
+   "texte": "Il reste des questions : rôle de « mètre étalon », puisque le corps grossit proportionnellement à l'ovocyte, ou autres fonctions. Elsa Labrune, des Hospices civils de Lyon, a détecté dans des ovocytes humains une structure qui ressemblerait au corps de Zollo ; reste à savoir s'il s'agit de la même et si elle accompagne aussi la croissance. L'enjeu touche la préservation de la fertilité : chez la souris, le corps de Zollo est dissous par des substances agissant sur les microtubules. Or les taxanes, très utilisées en chimiothérapie, agissent sur ces éléments du cytosquelette et pourraient abîmer le stock d'ovocytes en croissance. Les auteurs jugent donc essentiel que les femmes n'ayant pas encore eu d'enfant et traitées pour un cancer soient informées, en consultation d'oncofertilité, des options de préservation avant les traitements, ce qui ne semble pas encore systématique."
+  }
+ ],
+ "synthese": "Chez la souris, le corps de Zollo apparaît comme un compartiment qui soutient la synthèse de protéines et donc la croissance de l'ovocyte sans dilution du cytoplasme. Une structure semblable pourrait exister dans l'ovocyte humain, ce qui pose la question de l'effet de certaines chimiothérapies sur la fertilité.",
+ "republication": "",
+ "sources_ecartees": []
+}
