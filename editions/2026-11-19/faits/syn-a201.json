@@ -1,0 +1,29 @@
+{
+ "titre": "Terres rares : 17 éléments ni rares, ni des terres, mais stratégiques",
+ "chapo": "Les terres rares, 17 éléments chimiques devenus des ressources stratégiques, sont dominées par la Chine ; la France a aussi des atouts.",
+ "sections": [
+  {
+   "intertitre": "De quoi parle-t-on",
+   "texte": "Le terme « terres rares » désigne un ensemble de 17 éléments chimiques : 15 lanthanides, du lanthane (57La) au lutétium (71Lu), ainsi que le scandium (21Sc) et l'yttrium (39Y). Ce ne sont pas des « terres » et elles ne sont pas « rares », mais relativement abondantes dans la croûte terrestre. Elles se trouvent surtout dans la bastnaésite, la monazite et le xénotime, qui contiennent aussi des éléments radioactifs ; leur extraction est complexe et coûteuse. Selon leur masse atomique, on distingue les légères (lanthane, cérium, praséodyme, néodyme, samarium) des lourdes (europium, gadolinium, terbium, dysprosium, holmium, erbium, thulium, ytterbium, lutécium, yttrium). Le prométhium, instable, et le scandium en sont exclus. Les légères sont plus abondantes et plus faciles à extraire que les lourdes, plus stratégiques. Toutes figurent sur la liste européenne des métaux critiques."
+  },
+  {
+   "intertitre": "Des « vitamines de l'ère moderne »",
+   "texte": "Ce surnom tient à leurs propriétés catalytiques, optiques, magnétiques et électroniques exceptionnelles. Elles servent l'énergie bas carbone, la défense, l'électronique (écrans LCD, LED, disques durs, smartphones) et le médical (IRM, lasers). Le premier secteur est celui des aimants permanents, surtout néodyme-fer-bore (NdFeB), pour les moteurs de véhicules électriques et les éoliennes. Catalyseurs automobiles, poudres de polissage et alliages emploient des terres rares plus abondantes et moins chères, surtout lanthane et cérium. La plus forte demande porte sur le néodyme, près du tiers du total, devant le cérium, le lanthane, le praséodyme et l'yttrium ; les autres, environ 5 %."
+  },
+  {
+   "intertitre": "La Chine, acteur dominant",
+   "texte": "Selon l'Union européenne, la production mondiale était de 278 000 tonnes de concentrés d'oxydes en 2021, plus du double de 2010 (129 000 t). Le marché reste modeste face au fer (2 500 millions de tonnes en 2023) mais très supérieur au platine (183 000 tonnes en 2022). La Chine assurait près de 60 % de la production en 2021 et environ 70 % de l'extraction mondiale en 2023, et concentre 85 à 90 % des capacités de raffinage et de séparation. Elle peut donc réduire l'approvisionnement, comme en 2011, ou le couper. États-Unis, Australie, Canada et Europe cherchent à diversifier leur production : les États-Unis ont rouvert en 2018 la mine de Mountain Pass, en Californie, et visent de nouvelles ressources, notamment au Groenland (stock important mais difficile à exploiter)."
+  },
+  {
+   "intertitre": "Produire et recycler",
+   "texte": "La production commence par la prospection et l'exploitation minière, puis des traitements chimiques séparent ces éléments aux propriétés proches, puis l'affinage et la purification. En France, l'usine Solvay de La Rochelle, en service depuis 1948, a un savoir-faire historique de séparation et de purification : seul site européen à traiter l'ensemble des terres rares en quantité. Moins de 1 % des terres rares est recyclé, car elles se trouvent souvent dans des structures complexes et des alliages. Caremag, filiale de Carester, construit près de Lacq (Pyrénées-Atlantiques) une usine de recyclage d'aimants et de raffinage de concentrés miniers, visant environ 600 tonnes d'oxydes de terres rares lourdes (dysprosium, terbium), soit environ 15 % de la production mondiale actuelle, avec 5 000 tonnes de concentrés raffinés et 2 000 tonnes d'aimants recyclés par an. Carester et Solvay ont signé en 2024 un protocole d'accord pour un partenariat stratégique."
+  },
+  {
+   "intertitre": "Les impacts environnementaux",
+   "texte": "L'exploitation contribue à la destruction des écosystèmes, à la contamination des sols et des eaux et à la production de déchets toxiques. L'usage a aussi des effets : le gadolinium employé comme agent de contraste en IRM se retrouve dans les cours d'eau. Leur toxicité, encore mal connue, fait l'objet de nombreuses recherches. Elles ont pu servir d'engrais mais affectent la croissance des plantes ; certaines peuvent toutefois être extraites par des plantes qui les accumulent, puis valorisées par l'agromine, qui associe cette phytoextraction au traitement des tissus végétaux."
+  }
+ ],
+ "synthese": "Ces 17 éléments, relativement abondants mais difficiles à extraire et à séparer, servent l'énergie bas carbone, la défense, l'électronique et la médecine. La Chine domine leur extraction et leur raffinage ; la France, avec Solvay et Caremag, a des atouts, malgré un recyclage inférieur à 1 % et des impacts environnementaux notables.",
+ "republication": "",
+ "sources_ecartees": []
+}

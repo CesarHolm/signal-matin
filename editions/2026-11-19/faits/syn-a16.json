@@ -1,0 +1,25 @@
+{
+ "titre": "OpenAI ouvre ses systèmes à quatre auditeurs indépendants, sur place",
+ "chapo": "OpenAI donne à Apollo Research, METR, Transluce et Goodfire un accès direct à ses systèmes internes pour examiner les risques de sécurité et le comportement de ses modèles.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "OpenAI a annoncé le lundi 16 novembre un programme pilote d'« évaluations embarquées » : quatre organisations extérieures d'audit, Apollo Research, METR, Transluce et Goodfire, travaillent directement dans ses locaux. Selon leur mission, elles accèdent à des modèles non publiés, au code source, aux données d'entraînement et aux systèmes de surveillance, et peuvent s'entretenir confidentiellement avec des développeurs. Il prolonge un premier examen sur place de ses dispositifs de surveillance et tient les engagements du « White House Accord on Super Intelligence ». Selon la SOURCE 2, ces évaluateurs examinent des entraînements en cours et des déploiements internes, là où les modèles non finalisés montrent d'abord des comportements à risque, et non des agents conversationnels déjà achevés."
+  },
+  {
+   "intertitre": "Quatre missions distinctes",
+   "texte": "Apollo Research cherche si des modèles agissent en secret contre leurs concepteurs. D'après la SOURCE 2, elle place six personnes chez OpenAI pendant quatre mois pour évaluer quatre affirmations sur la « subversion » : l'entraînement la récompense-t-il, les tests d'attaque la provoquent-ils, apparaît-elle à l'usage interne, les journaux de raisonnement la révèlent-ils. METR examine les dérives de l'IA lors du plus grand entraînement par renforcement d'OpenAI, méthode où les modèles apprennent par récompenses, pour y chercher un désalignement non détecté. Goodfire analyse le fonctionnement interne des modèles par des méthodes d'interprétabilité, et Transluce évalue les contrôles de sécurité appliqués après l'entraînement; un suivi de huit semaines est prévu début 2027. Apollo et Goodfire reçoivent des paiements d'OpenAI sans lien avec leurs conclusions, tandis que METR et Transluce ne touchent aucune rémunération mais utilisent de la puissance de calcul ou des crédits d'API d'OpenAI."
+  },
+  {
+   "intertitre": "Les règles d'accès et de publication",
+   "texte": "Un comité de sécurité indépendant supervise l'ensemble, reçoit les rapports non expurgés et arbitre les litiges ; la SOURCE 2 le désigne comme le Safety and Security Committee du conseil de la fondation OpenAI. Les auditeurs publient leurs conclusions eux-mêmes, mais OpenAI peut en retirer les éléments confidentiels et en différer la parution pour corriger d'abord les risques. Selon les documents de protocole publiés le 16 novembre par OpenAI et Apollo, les évaluateurs travaillent sur du matériel d'OpenAI, par des canaux surveillés, sans accès libre à sa messagerie interne. Les entretiens formels sont approuvés par des responsables d'OpenAI et restent confidentiels sauf attestation écrite de l'entreprise, dont les évaluateurs peuvent signaler publiquement le refus. Chez Apollo, OpenAI ne peut pas expurger les verdicts, et Apollo peut dire quelles données ont été retenues. OpenAI garde toutefois le droit de mettre fin à une évaluation, qu'Apollo pourrait alors rendre publique avec ses motifs ; Apollo ne peut saisir directement des régulateurs qu'en cas de risque catastrophique imminent non corrigé dans un délai convenu."
+  },
+  {
+   "intertitre": "Un accès jugé insuffisant",
+   "texte": "Selon la SOURCE 2, des chercheurs indépendants et Tomek Korbak, ancien interlocuteur technique d'OpenAI auprès des auditeurs, licencié après l'enquête sur une intrusion chez Hugging Face, critiquent le dispositif. Trois salariés ont été licenciés pour une présumée mauvaise gestion d'informations sensibles. Korbak a écrit sur X qu'un audit embarqué efficace exige un accès équivalent à celui des salariés et a qualifié la promesse faite en septembre par Sam Altman d'« exagération maladroite » que l'entreprise voudrait discrètement retirer. Lama Ahmad, responsable des garanties de pointe, affirme que l'entreprise partage ses outils les plus sensibles, et le porte-parole Gaby Raila indique qu'aucune norme sectorielle n'existe encore et que les pratiques d'accès évolueront. OpenAI cite des obstacles de cybersécurité, de propriété intellectuelle et de vie privée. Elle attend des frictions initiales et envisage d'autres audits, sur la culture d'entreprise et les processus internes."
+  }
+ ],
+ "synthese": "OpenAI laisse quatre organisations indépendantes travailler sur place sur ses modèles, ses données et ses outils de surveillance, mais garde la main sur le matériel, les entretiens, la publication et la fin des missions. Ses critiques jugent cet accès en deçà de la promesse de septembre.",
+ "republication": "",
+ "sources_ecartees": []
+}

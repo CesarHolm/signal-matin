@@ -1,0 +1,29 @@
+{
+ "titre": "Exportations de GPU : les États-Unis encadrent les centres de données étrangers",
+ "chapo": "Une règle du BIS impose des licences pour les GPU avancés livrés aux centres de données servant des clients chinois et élargit les contrôles à cinq pays.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Le 16 novembre 2026, le Bureau de l'industrie et de la sécurité (BIS) du département du Commerce américain a publié une règle provisoire définitive, « Addressing Remote Access to Advanced Semiconductors ». Skadden y voit l'effort le plus important à ce jour de l'administration Trump en la matière. La règle doit prendre effet à sa publication au Federal Register, attendue le 19 novembre 2026, suivie de 60 jours de commentaires. Elle impose des licences pour les processeurs graphiques (GPU) avancés fournis à des centres de données étrangers, étend les contrôles à cinq pays supplémentaires, durcit les exigences sur la fabrication de semi-conducteurs et abroge la règle de diffusion de l'IA (AI Diffusion Rule)."
+  },
+  {
+   "intertitre": "Le contrôle des centres de données",
+   "texte": "Auparavant, une licence était requise pour les GPU avancés et les ordinateurs qui en contiennent, d'une part vers environ 40 pays dits couverts, d'autre part, dans le monde entier, pour les entreprises dont le siège (ou la société mère ultime) est en Chine, dans d'autres pays du groupe D:5 ou à Macao, dits pays interdits. Le nouvel article 744.24 des règles américaines d'exportation (EAR) impose une licence mondiale lorsqu'il y a « connaissance » que les GPU iront à des centres de données fournissant, ou prévoyant de fournir, des volumes significatifs de calcul, soit plus de 12 millions de « TPP agrégé » (performance totale de traitement), à des entreprises des pays interdits. Le seuil vaut pour l'accès direct ou indirect, dans un centre ou des centres liés. Les demandes seront examinées au cas par cas, ce qui, note Skadden, laisse le BIS ouvert à délivrer des licences."
+  },
+  {
+   "intertitre": "Diligence et délai de 90 jours",
+   "texte": "Avant de fournir des GPU à un centre de données étranger, les exportateurs doivent s'informer sur ses clients pour déterminer si une licence est requise, selon les liens de propriété ou de contrôle avec des personnes rattachées aux pays interdits. Si le centre ne fournit pas ces informations, le fournisseur est présumé avoir « connaissance » d'une obligation de licence. Les centres qui fournissaient déjà un calcul significatif à des entreprises visées avant l'entrée en vigueur doivent obtenir une licence du BIS sous 90 jours, faute de quoi ils s'exposent à de « futures restrictions à l'exportation ». L'obligation ne s'applique pas lorsque la puissance n'est fournie que pour un « système de recommandation commercial » et que des informations précises sont transmises au BIS, exception qui peut profiter à certaines plateformes sociales et de commerce en ligne."
+  },
+  {
+   "intertitre": "Cinq pays à risque de détournement, et les puces",
+   "texte": "La règle exige aussi une licence pour les livraisons de GPU avancés vers ou dans l'Indonésie, la Malaisie, Singapour, la Thaïlande et le Brésil, que le BIS décrit comme présentant un risque de détournement supérieur à la normale. Environ 45 pays sont ainsi couverts, quel que soit l'utilisateur final ; pour les cinq nouveaux, aucune licence si le destinataire ou l'utilisateur final a son siège aux États-Unis, sous réserve de déclarations. Côté fabrication, elle restreint la possibilité, pour les fondeurs et sociétés d'assemblage et de test, de contester le classement de certaines puces avancées sous l'ECCN 3A090.a. Elle abroge l'AI Diffusion Rule de l'administration Biden (niveaux par pays, contrôles sur les poids de modèles) ; le BIS avait annoncé en mai 2025 ne pas l'appliquer, l'abrogation formalise donc une position existante. Les Émirats arabes unis gardent un traitement favorable : licence requise, mais présomption d'approbation."
+  },
+  {
+   "intertitre": "Les questions ouvertes",
+   "texte": "Skadden conseille d'évaluer l'exposition, de revoir la propriété des clients et les allocations de calcul, et de déterminer si les activités actuelles exigent une autorisation sous 90 jours. Restent en suspens les critères d'examen « au cas par cas », le détail de l'exception pour les systèmes de recommandation et le sort des centres qui demandent une licence sans l'obtenir dans le délai. Le cabinet suggère de les soulever pendant la période de commentaires."
+  }
+ ],
+ "synthese": "Les États-Unis étendent leur contrôle des GPU avancés aux centres de données étrangers servant des clients chinois et à cinq pays jugés exposés au détournement, tout en abrogeant formellement la règle de diffusion de l'IA. Exportateurs et exploitants doivent renforcer leurs vérifications et agir sous 90 jours.",
+ "republication": "",
+ "sources_ecartees": []
+}

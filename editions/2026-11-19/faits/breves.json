@@ -1,0 +1,34 @@
+{
+  "breves": [
+    {
+      "id": "a34",
+      "titre": "Des réponses erratiques de Muse inquiètent les salariés de Meta",
+      "texte": "Selon des échanges internes, des atteintes à la vie privée liées à Muse inquiètent des salariés de Meta. Des réponses erratiques de l'outil affichent des soldes bancaires et bitcoin aléatoires, que Meta dit non réels."
+    },
+    {
+      "id": "a110",
+      "titre": "Relations Trump-Xi mises à l'épreuve, pressions à Washington sur la Chine",
+      "texte": "Les relations personnelles entre Donald Trump et Xi Jinping sont mises à rude épreuve, alors que le Congrès fait pression sur les restrictions visant les puces d'IA. Des appels se multiplient à Washington pour une politique plus ferme envers la Chine. Les deux dirigeants doivent tenir des discussions formelles jeudi en marge du sommet Apec à Shenzhen."
+    },
+    {
+      "id": "a165",
+      "titre": "Cybersécurité : les députés votent le projet de loi transposant NIS 2",
+      "texte": "Les députés ont voté le projet de loi de transposition de NIS 2, qui renforce les exigences pour les organisations. Le texte fait de la cybersécurité un enjeu de souveraineté."
+    },
+    {
+      "id": "a191",
+      "titre": "CS3D : 500 contributions à la consultation sur les lignes directrices",
+      "texte": "La consultation sur les lignes directrices de la CS3D a reçu 500 contributions. AEF info en présente les principaux enjeux."
+    },
+    {
+      "id": "a195",
+      "titre": "Voyager 1 s'apprête à franchir une distance record au-delà du Système solaire",
+      "texte": "Lancée il y a près de 50 ans, la sonde Voyager 1 doit franchir le cap d'un jour-lumière le 18 novembre à 11 h 16, heure française. Cet exploit confirme son statut d'objet le plus lointain envoyé par l'humanité."
+    },
+    {
+      "id": "a196",
+      "titre": "Dinosaures : des traces de sang fossilisées agitent la communauté paléontologique",
+      "texte": "Une équipe internationale affirme avoir identifié pour la première fois de manière formelle des traces de globules rouges minéralisés dans un fossile de dinosaure vieux de 115 millions d'années. Si la découverte se confirme, elle pourrait bousculer la science des animaux disparus."
+    }
+  ]
+}
