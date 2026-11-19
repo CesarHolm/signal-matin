@@ -1,0 +1,366 @@
+{
+ "date": "2026-11-19",
+ "nouveaux_mots": [
+  {
+   "mot": "Opiniâtre",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Tenace, obstiné dans ses efforts.",
+   "exemple": "Un travail opiniâtre de plusieurs années."
+  },
+  {
+   "mot": "Nuance",
+   "nature": "n. f.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Différence fine entre des choses proches.",
+   "exemple": "Toute la nuance entre prudence et frilosité."
+  },
+  {
+   "mot": "Vilipender",
+   "nature": "v. tr.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Dénoncer comme méprisable.",
+   "exemple": "Vilipendé par la presse."
+  },
+  {
+   "mot": "Apodictique",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "D'une évidence logique indiscutable.",
+   "exemple": "Une démonstration apodictique."
+  },
+  {
+   "mot": "Synallagmatique",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Se dit d'un contrat créant des obligations réciproques.",
+   "exemple": "La vente est un contrat synallagmatique."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Sporadique",
+   "definition": "Qui se produit de façon irrégulière, isolée, par intervalles."
+  },
+  {
+   "mot": "Indulgent",
+   "definition": "Porté à excuser les fautes, à pardonner."
+  },
+  {
+   "mot": "Captation",
+   "definition": "Fait de s'approprier quelque chose, souvent de façon détournée."
+  },
+  {
+   "mot": "Hypallage",
+   "definition": "Figure qui attribue à un mot ce qui convient logiquement à un autre mot de la phrase."
+  },
+  {
+   "mot": "Ostentatoire",
+   "definition": "Qui est fait avec ostentation, pour être remarqué."
+  }
+ ],
+ "articles": [
+  "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+  "https://www.actuia.com/actualite/lappel-de-paris-laisse-aux-developpeurs-le-pouvoir-darreter-leurs-ia/",
+  "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+  "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
+  "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+  "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+  "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+  "https://www.actuia.com/actualite/h-company-rend-ses-agents-dia-disponibles-sur-le-cloud-souverain-europeen-daws/",
+  "https://www.publicsenat.fr/actualites/politique/nada-aucun-signe-face-au-risque-de-censure-sur-le-budget-les-socialistes-denoncent-labsence-de-dialogue-avec-sebastien-lecornu",
+  "https://www.lemonde.fr/societe/article/2026/11/18/suppression-de-l-interdiction-de-louer-les-passoires-thermiques-a-l-assemblee-fortes-tensions-sur-la-crise-du-logement_6813194_3224.html",
+  "https://www.publicsenat.fr/actualites/politique/soldats-francais-en-ukraine-la-ministre-deleguee-aupres-de-la-ministre-des-armees-auditionnee-au-senat-le-25-novembre-prochain",
+  "https://www.lemonde.fr/societe/article/2026/11/18/un-policier-condamne-en-appel-a-huit-ans-de-prison-pour-le-meurtre-d-olivio-gomes-en-2020_6813196_3224.html",
+  "https://www.franceinfo.fr/economie/disparites-salariales/la-vaccination-face-a-la-grippe-permet-d-eviter-9-000-hospitalisations-chez-les-plus-de-65-ans-chaque-annee-selon-sante-publique-france_8288957.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/economie/transports/pour-relancer-les-trains-de-nuit-l-etat-va-louer-des-locomotives-neuves-et-renover-les-vieux-corail-de-la-sncf_8289017.html#xtor=RSS-3-[lestitres]",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/19/hegseth-unveils-new-us-venezuela-military-deal?traffic_source=rss",
+  "https://www.politico.com/news/2026/11/17/mary-peltola-wins-alaska-senate-01172129",
+  "https://www.politico.eu/article/eu-lawmakers-accuse-chinese-officials-of-intimidation-over-taiwan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.scmp.com/news/china/diplomacy/article/3374969/xi-trump-ties-tested-calls-grow-washington-tougher-china-policy",
+  "https://www.scmp.com/news/us/article/3374967/huawei-case-enters-jury-deliberations-after-2-month-battle-us-courtroom",
+  "https://www.scmp.com/news/us/article/3374807/us-panel-urges-congress-punish-china-over-panama-flagged-ship-detentions",
+  "https://www.nber.org/papers/w36011#fromrss",
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005303",
+  "https://www.nber.org/papers/w36010#fromrss",
+  "https://www.pewresearch.org/short-reads/2026/11/18/islam-will-soon-be-the-worlds-largest-religion-but-christianity-will-keep-growing-too/",
+  "https://www.eunews.it/en/2026/11/18/the-european-commission-establishes-the-eu-sanctions-office/",
+  "https://www.skadden.com/insights/publications/2026/11/ai-diffusion-2-bis-introduces-new-export-controls",
+  "https://www.aefinfo.fr/depeche/760326-les-principaux-enjeux-souleves-par-les-500-contributions-a-la-consultation-sur-les-lignes-directrices-de-la-cs3d",
+  "https://www.usine-digitale.fr/cybersecurite/la-cybersecurite-devient-un-enjeu-de-souverainete-les-deputes-votent-le-projet-de-loi-de-transposition-de-nis-2-et-renforcent-les-exigences-pour-les-organisations.KARHGZ7JSFGNTASGD2LOT2AEEU.html",
+  "https://insideclimatenews.org/news/18112026/cop31-russia-saudi-arabia-india-blocking-progress/",
+  "https://theconversation.com/les-terres-rares-ne-sont-ni-rares-ni-meme-des-terres-alors-quest-ce-que-cest-288663",
+  "https://www.sciencesetavenir.fr/archeo-paleo/paleontologie/dinosaures-des-traces-de-sang-fossilisees-affolent-la-communaute-paleontologique_196200?xtor=RSS-4",
+  "https://www.sciencesetavenir.fr/espace/systeme-solaire/voyager-s-apprete-a-franchir-une-distance-record-au-dela-du-systeme-solaire_196162?xtor=RSS-9",
+  "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+  "https://aeon.co/videos/a-physicists-audacious-plan-to-teach-birds-long-lost-songs"
+ ],
+ "titres": [
+  "Anthropic entre en Bourse à 83 dollars l'action, au-dessus de la fourchette",
+  "Appel de Paris sur l'IA : les développeurs gardent seuls le pouvoir d'arrêt",
+  "OpenAI ouvre ses systèmes à quatre auditeurs indépendants, sur place",
+  "IA : des modèles du commerce désignent civils et médecins comme cibles de drones",
+  "Budget 2027 : les socialistes déplorent le silence de Sébastien Lecornu",
+  "L'Assemblée vote la fin de l'interdiction de louer les passoires thermiques",
+  "Soldats français en Ukraine : le Sénat réclame des explications",
+  "Venezuela : Hegseth annonce un accord militaire avec Caracas",
+  "Alaska : la démocrate Mary Peltola détrône le sénateur républicain Dan Sullivan",
+  "Taïwan : des eurodéputés accusent des responsables chinois d'intimidation",
+  "Dette durable : l'investissement précède-t-il la gouvernance durable ?",
+  "Tuberculose au Brésil : l'abandon du traitement augmente la mortalité à 5 ans",
+  "La Commission européenne crée un Bureau des sanctions de l'UE",
+  "Exportations de GPU : les États-Unis encadrent les centres de données étrangers",
+  "COP31 : d'anciens diplomates accusent trois pays de bloquer le GIEC",
+  "Terres rares : 17 éléments ni rares, ni des terres, mais stratégiques"
+ ],
+ "solutions": {
+  "sudoku": [
+   5,
+   4,
+   7,
+   6,
+   9,
+   1,
+   8,
+   2,
+   3,
+   6,
+   2,
+   1,
+   3,
+   8,
+   7,
+   4,
+   5,
+   9,
+   3,
+   9,
+   8,
+   4,
+   5,
+   2,
+   1,
+   7,
+   6,
+   8,
+   5,
+   2,
+   9,
+   4,
+   6,
+   7,
+   3,
+   1,
+   1,
+   6,
+   3,
+   7,
+   2,
+   8,
+   5,
+   9,
+   4,
+   9,
+   7,
+   4,
+   5,
+   1,
+   3,
+   6,
+   8,
+   2,
+   4,
+   1,
+   5,
+   8,
+   3,
+   9,
+   2,
+   6,
+   7,
+   7,
+   8,
+   9,
+   2,
+   6,
+   4,
+   3,
+   1,
+   5,
+   2,
+   3,
+   6,
+   1,
+   7,
+   5,
+   9,
+   4,
+   8
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     2,
+     5
+    ],
+    [
+     0,
+     5,
+     9,
+     1
+    ],
+    [
+     0,
+     6,
+     4,
+     2
+    ],
+    [
+     0,
+     8,
+     5,
+     2
+    ],
+    [
+     2,
+     0,
+     5,
+     1
+    ],
+    [
+     2,
+     1,
+     3,
+     4
+    ],
+    [
+     4,
+     6,
+     6,
+     2
+    ],
+    [
+     5,
+     1,
+     4,
+     1
+    ],
+    [
+     5,
+     2,
+     3,
+     3
+    ],
+    [
+     5,
+     8,
+     4,
+     2
+    ],
+    [
+     7,
+     0,
+     2,
+     1
+    ],
+    [
+     8,
+     2,
+     2,
+     2
+    ],
+    [
+     8,
+     4,
+     2,
+     1
+    ],
+    [
+     9,
+     0,
+     1,
+     2
+    ],
+    [
+     9,
+     5,
+     1,
+     1
+    ],
+    [
+     9,
+     8,
+     1,
+     2
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    4,
+    5,
+    1,
+    2,
+    3,
+    6
+   ],
+   [
+    5,
+    4,
+    2,
+    1,
+    6,
+    3
+   ],
+   [
+    1,
+    2,
+    6,
+    3,
+    5,
+    4
+   ],
+   [
+    2,
+    1,
+    3,
+    6,
+    4,
+    5
+   ],
+   [
+    6,
+    3,
+    4,
+    5,
+    2,
+    1
+   ],
+   [
+    3,
+    6,
+    5,
+    4,
+    1,
+    2
+   ]
+  ],
+  "compte": [
+   "6 − 3 = 3",
+   "3 + 9 = 12",
+   "12 + 9 = 21",
+   "21 × 8 = 168",
+   "168 − 5 = 163"
+  ]
+ },
+ "reponses_quiz": []
+}
