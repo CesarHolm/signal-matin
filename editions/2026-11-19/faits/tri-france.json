@@ -1,0 +1,14 @@
+{
+ "developpes": [
+  {"id": "a62", "score": 8, "raison": "Les socialistes dénoncent l'absence de dialogue de Matignon sur le budget, alors que le risque de censure grandit à l'approche de l'examen au Sénat : enjeu politique et budgétaire central. Source : Public Sénat."},
+  {"id": "a39", "score": 8, "raison": "Un amendement adopté avec les voix de la droite et du RN supprime l'obligation de rénover les passoires thermiques louées, recul très contesté qui met en péril le projet de loi logement. Source : Le Monde."},
+  {"id": "a67", "score": 7, "raison": "Révélations sur la présence de soldats français en Ukraine : la France est directement concernée, et la ministre déléguée sera auditionnée au Sénat le 25 novembre. Source : Public Sénat."},
+  {"id": "a55", "score": 6, "raison": "Enquête de L'Œil du 20 heures : des produits « fabriqués en Israël » vendus en supermarché proviennent d'usines situées dans des colonies israéliennes en territoire occupé. Source : franceinfo. Réserve."},
+  {"id": "a69", "score": 6, "raison": "Le nouveau Défenseur des droits déclare avoir reçu 106 saisines relatives au maintien de l'ordre, dont 39 pour violences avec armes : sujet de libertés publiques. Source : Public Sénat. Réserve."}
+ ],
+ "breves": [
+  {"id": "a44", "titre": "Un policier condamné en appel à huit ans de prison pour le meurtre d'Olivio Gomes", "texte": "En appel, le policier Gilles Guilbert a été condamné à huit ans de prison pour le meurtre d'Olivio Gomes en 2020. Trois coups de feu avaient été tirés en direction de la victime, prise en filature par trois policiers de la BAC, et le policier a reconnu des tirs qui n'étaient pas « nécessaires »."},
+  {"id": "a53", "titre": "La vaccination antigrippale évite 9 000 hospitalisations chez les plus de 65 ans", "texte": "Selon Santé publique France, la vaccination contre la grippe permet d'éviter chaque année 9 000 hospitalisations chez les plus de 65 ans. La grippe est responsable de 44 000 hospitalisations par an dans cette tranche d'âge, surtout chez les plus de 75 ans."},
+  {"id": "a57", "titre": "Trains de nuit : l'État loue 27 locomotives et fait rénover les Corail", "texte": "Le gouvernement a conclu un accord avec Alpha Trains pour 27 locomotives. Il a aussi demandé une « refonte complète » de 180 voitures Corail, qui datent des années 1980."}
+ ]
+}

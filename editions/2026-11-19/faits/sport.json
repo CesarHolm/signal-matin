@@ -1,0 +1,12 @@
+{
+ "resultats": [
+  {"sport": "Tennis", "affiche": "Alcaraz – Medvedev", "score": "6-2 6-4", "competition": "Finales ATP de Turin (circuit ATP), phase de groupes", "source": "L'Équipe", "url": "https://www.lequipe.fr/Tennis/Actualites/En-surclassant-daniil-medvedev-carlos-alcaraz-met-un-pied-dans-le-dernier-carre-des-finales-atp/1744447#at_medium=RSS_feeds"},
+  {"sport": "Tennis", "affiche": "Tiafoe – Cobolli", "score": "7-6 [6], 6-0", "competition": "Finales ATP de Turin (circuit ATP), phase de groupes", "source": "L'Équipe", "url": "https://www.lequipe.fr/Tennis/Actualites/Frances-tiafoe-maitrise-flavio-cobolli-carlos-alcaraz-directement-qualifie-pour-le-dernier-carre-des-finales-atp/1744542#at_medium=RSS_feeds"},
+  {"sport": "Basket", "affiche": "Besiktas – Real Madrid", "score": "83-79", "competition": "Euroligue (coupe d'Europe des clubs), 12e journée", "source": "L'Équipe", "url": "https://www.lequipe.fr/Basket/Actualites/Malgre-un-grand-theo-maledon-le-real-madrid-surpris-par-besiktas-en-euroligue/1744532#at_medium=RSS_feeds"},
+  {"sport": "Basket", "affiche": "Cibona Zagreb – Strasbourg", "score": "101-79", "competition": "Ligue des champions (coupe d'Europe des clubs), 4e journée", "source": "L'Équipe", "url": "https://www.lequipe.fr/Basket/Actualites/Strasbourg-s-ecroule-face-au-cibona-zagreb-en-ligue-des-champions/1744560#at_medium=RSS_feeds"},
+  {"sport": "Football", "affiche": "PSG – Chelsea", "score": "0-1", "competition": "Ligue des champions féminine (coupe d'Europe des clubs), phase de ligue", "source": "L'Équipe", "url": "https://www.lequipe.fr/Football/Actualites/Le-psg-se-fait-surprendre-dans-les-dernieres-minutes-face-a-chelsea/1744553#at_medium=RSS_feeds"}
+ ],
+ "a_suivre": [
+  {"sport": "Formule 1", "affiche": "Week-end du Grand Prix de Las Vegas", "competition": "Championnat du monde de Formule 1", "source": "ESPN", "url": "https://www.espn.com/f1/race/_/id/600057449"}
+ ]
+}

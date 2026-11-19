@@ -1,0 +1,14 @@
+{
+ "developpes": [
+  {"id": "a195", "score": 8, "raison": "Voyager 1 franchit un jour-lumière, distance jamais atteinte par un objet fabriqué par l'humanité : jalon spatial majeur, compréhensible pour un non-spécialiste. Source : Sciences et Avenir."},
+  {"id": "a221", "score": 7, "raison": "D'anciens diplomates du climat accusent trois pays de bloquer le financement de la science qui guide les négociateurs de la COP31 : enjeu de fond pour la gouvernance climatique. Source : Inside Climate News."},
+  {"id": "a196", "score": 6, "raison": "Des traces de globules rouges minéralisés seraient identifiées pour la première fois dans un fossile de dinosaure vieux de 115 millions d'années, sous réserve de confirmation. Source : Sciences et Avenir. Réserve."},
+  {"id": "a201", "score": 6, "raison": "Explication des terres rares, ensemble de 17 éléments devenus ressources stratégiques : curiosité scientifique aux enjeux d'approvisionnement. Source : The Conversation. Réserve."}
+ ],
+ "breves": [
+  {"id": "a218", "titre": "Une étoile fusionne avec une supergéante à la périphérie d'Andromède", "texte": "Des chercheurs ont identifié, pour la première fois de manière formelle, la fusion d'une étoile un peu moins massive que le Soleil avec une étoile supergéante, à la périphérie de la galaxie voisine d'Andromède. Surnommée Bao, l'étoile issue de cette fusion pourrait être « rajeunie ». La découverte, financée par la NASA, a été confortée par des observations rapides du télescope James Webb."},
+  {"id": "a211", "titre": "Un physicien veut faire revivre les chants d'oiseaux menacés", "texte": "Lorsque les populations d'oiseaux déclinent, certains chants risquent de disparaître à jamais. Un physicien s'est donné pour mission de faire revivre ces mélodies perdues, selon une vidéo publiée par Aeon."},
+  {"id": "a225", "titre": "Cour des comptes : l'impact économique des JO 2024 est « très limité »", "texte": "Selon un rapport de la Cour des comptes publié mercredi soir, les conséquences économiques des Jeux de Paris 2024 sont « très limitées » et le bilan de leur héritage « mitigé »."},
+  {"id": "a231", "titre": "Marie Graftiaux veut faire entrer la trisomie aux Jeux paralympiques", "texte": "Sept fois championne du monde de para natation adaptée, Marie Graftiaux milite pour une catégorie adaptée à la trisomie aux Jeux paralympiques. Elle a écrit un livre, « Plonge, nage et vis », et l'a envoyé à Léon Marchand, qu'elle aimerait rencontrer."}
+ ]
+}

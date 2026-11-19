@@ -1,0 +1,14 @@
+{
+ "developpes": [
+  {"id": "a110", "score": 8, "raison": "À la veille des discussions formelles entre Trump et Xi à Shenzhen, la relation personnelle des deux dirigeants est mise à l'épreuve par la pression du Congrès sur les restrictions aux puces d'IA et sur la politique envers la Chine. Angle distinct de l'annonce du sommet, déjà publiée. Source : South China Morning Post."},
+  {"id": "a116", "score": 7, "raison": "Pete Hegseth a dévoilé un nouvel accord militaire avec le Venezuela, lors de sa première visite depuis la capture de Nicolas Maduro par les États-Unis. Source : Al Jazeera."},
+  {"id": "a89", "score": 7, "raison": "Mary Peltola bat le sénateur Dan Sullivan en Alaska, premier succès démocrate dans cet État depuis 18 ans ; Politico évoque une majorité démocrate de 56 sièges au Sénat (chiffre à vérifier avant publication). Source : Politico."},
+  {"id": "a90", "score": 6, "raison": "Des eurodéputés accusent des responsables chinois d'intimidation à propos de Taïwan ; la présidente du Parlement européen, Roberta Metsola, est en contact avec les autorités chinoises. Source : Politico Europe. Réserve."},
+  {"id": "a93", "score": 6, "raison": "Les Européens peinent à s'accorder sur le discours à tenir face à la Russie : certains gouvernements privilégient des cessez-le-feu partiels, tandis que Kaja Kallas plaide pour une ligne plus dure. Source : Politico Europe. Réserve."}
+ ],
+ "breves": [
+  {"id": "a111", "titre": "Affaire Huawei : le jury délibère après deux mois de procès aux États-Unis", "texte": "Les jurés ont commencé à délibérer mercredi dans le procès pénal engagé par le gouvernement américain contre Huawei, après deux mois d'audience. Le groupe est poursuivi pour douze chefs d'accusation, dont complot de racketeering, vol de secrets commerciaux, fraude bancaire et entrave à la justice."},
+  {"id": "a108", "titre": "Une commission américaine réclame des sanctions contre la Chine pour les navires panaméens", "texte": "Dans son rapport annuel au Congrès, la commission bipartisane US-China Economic and Security Review Commission demande de qualifier de « coercition économique » la détention par Pékin de centaines de navires battant pavillon panaméen. Elle propose que le président puisse répondre par des sanctions, près de dix mois après que la Cour suprême du Panama a retiré à une filiale de CK Hutchison le droit d'exploiter deux ports du canal."},
+  {"id": "a115", "titre": "La CIJ doit se prononcer sur le génocide des Rohingyas au Myanmar", "texte": "La Cour internationale de justice doit rendre sa décision dans l'affaire opposant la Gambie au Myanmar pour génocide. La Gambie accuse le Myanmar d'un génocide à la suite de la répression militaire de 2017, qui a déplacé au moins 730 000 Rohingyas."}
+ ]
+}

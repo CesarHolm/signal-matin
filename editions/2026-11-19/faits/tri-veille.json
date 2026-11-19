@@ -1,0 +1,12 @@
+{
+ "developpes": [
+  {"id": "a165", "score": 9, "raison": "Les députés votent le projet de loi de transposition de NIS 2, qui renforce les exigences pour les organisations ; le texte est présenté comme un enjeu de souveraineté. Évolution réglementaire directe. Source : L'Usine Digitale."},
+  {"id": "a171", "score": 8, "raison": "La Commission européenne crée un Office des sanctions (EU Sanctions Office) pour renforcer l'application des sanctions, et nomme un envoyé, Lars Danielsson (selon INSIGHT EU MONITORING, a169). Même fait que a169, a173 et a174. Divergence à vérifier : MLex (a170) écrit que l'office sera établi en janvier, alors que les autres sources le donnent comme créé le 18 novembre. Source retenue : Eunews."},
+  {"id": "a191", "score": 7, "raison": "Analyse des principaux enjeux soulevés par les 500 contributions à la consultation sur les lignes directrices de la CS3D (devoir de vigilance) : elle éclaire la future doctrine d'application. Source : AEF info. Réserve."},
+  {"id": "a176", "score": 7, "raison": "Le BIS, l'administration américaine du commerce, introduit de nouveaux contrôles à l'exportation sur les GPU avancés et les data centers à l'étranger (« AI Diffusion 2.0 ») : enjeu export pour les entreprises. Cas proches à regrouper : a177 (CSIS, accès à distance) et a180 (StoneX). Source : Skadden. Réserve."}
+ ],
+ "breves": [
+  {"id": "a175", "titre": "Sanctions américaines contre trois Libanais et des entités liées au Hezbollah", "texte": "Les États-Unis ont sanctionné trois personnes de nationalité libanaise ainsi que des entités, pour des liens financiers présumés avec le Hezbollah. Le motif retenu est financier, selon The Tribune."},
+  {"id": "a172", "titre": "Wildberries étend ses activités en Géorgie malgré les sanctions européennes", "texte": "Selon une étude publiée par SOVA, la plateforme Wildberries élargit ses opérations en Géorgie, malgré les sanctions de l'Union européenne."}
+ ]
+}

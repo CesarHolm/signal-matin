@@ -1,0 +1,12 @@
+{
+ "developpes": [
+  {"id": "a134", "score": 8, "raison": "Étude causale sur 3 944 émissions d'obligations durables de sociétés cotées (2013-2022) : une hausse de 1 % de la dette durable accroît de 9,2 % la probabilité d'adopter une gouvernance durable, qui améliore la performance environnementale de 16 % ; effet limité aux entreprises non financières. Très pertinent pour la conformité CSRD et la gouvernance ESG. Source : NBER."},
+  {"id": "a154", "score": 7, "raison": "Émulation d'essai cible sur des patients tuberculeux au Brésil : le travail vise à estimer la surmortalité à cinq ans liée à l'abandon du suivi pendant le traitement, et à identifier les populations les plus exposées. Santé publique. Source : PLOS Medicine."},
+  {"id": "a132", "score": 7, "raison": "Essai randomisé auprès d'entreprises sociales en Inde : celles qui ont mis en place une mesure d'impact ont presque doublé leur croissance de revenus et leur levée de capitaux ; les investisseurs réagissent aux indicateurs chiffrés, pas aux déclarations qualitatives. Source : NBER."},
+  {"id": "a155", "score": 6, "raison": "Étude de cohorte nationale britannique (UK Biobank) sur la température estivale, les vagues de chaleur et la survie des patients atteints de maladies cardiovasculaires : enjeu climat et santé. Source : PLOS Climate."}
+ ],
+ "breves": [
+  {"id": "a133", "titre": "Les jeunes adultes prennent davantage de risques financiers quand leurs objectifs de vie semblent hors d'atteinte", "texte": "Selon une étude du NBER, les personnes qui accordent plus d'importance à des objectifs difficiles à atteindre, comme l'achat d'un logement ou le mariage, recourent davantage à des placements risqués de type pari. Le travail combine une enquête originale avec des millions de données liées à un bureau de crédit, un opérateur télécom et un émetteur de cartes en Corée."},
+  {"id": "a143", "titre": "Les musulmans devraient devancer les chrétiens dès 2035", "texte": "Selon le Pew Research Center, les musulmans seront plus nombreux que les chrétiens dès 2035, sous l'effet d'une fécondité plus élevée. Les deux groupes devraient néanmoins continuer à croître dans les décennies suivantes."}
+ ]
+}
