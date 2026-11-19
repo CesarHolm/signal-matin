@@ -1,0 +1,64 @@
+{
+ "id": "syn-a176",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a176.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Skadden, Arps, Slate, Meagher & Flom\nRubrique : Sanctions et export\nDate du flux : 19/11/2026\nAuteur : Brian J Egan Michael E Leiter Khalil N Maalouf William Chandler Dimitri Vallejo Victoria Watson\nTitre d'origine : ‘AI Diffusion’ 2.0: BIS Introduces New Export Controls on Advanced GPUs and Overseas Data Centers\n\nARTICLE :\n- What’s new: BIS issued an interim final rule establishing new licensing requirements for advanced GPUs supplied to overseas data centers serving China and other restricted-country customers. The interim final rule also expands controls over shipments of advanced GPUs to all end users in five additional countries, tightens semiconductor manufacturing requirements and formally rescinds the AI Diffusion Rule.\n- Why it matters: The rule expands restrictions on advanced computing infrastructure related to AI worldwide, creating significant know-your-customer obligations for shipments of covered GPUs to data centers. The rule also creates new licensing requirements for shipments of GPUs to countries suspected of diversion. Exporters and data center operators face heightened customer due diligence expectations.\n- What to do next: Companies should consider assessing their exposure to the new licensing requirements, reviewing customer ownership and computing allocations, and determining whether existing operations require authorization within 90 days.\n__________\nBackground\nOn November 16, 2026, the U.S. Department of Commerce’s Bureau of Industry and Security (BIS) released an interim final rule (IFR) titled “Addressing Remote Access to Advanced Semiconductors,” marking the Trump administration’s most significant efforts to date to regulate exports of artificial intelligence (AI)-related technology. The IFR is scheduled to take effect upon publication in the Federal Register, expected on November 19, 2026. Public comments are due 60 days after publication.\nSummary of the New Requirements\nPrior to the IFR, U.S. export controls required licenses for exports, reexports and transfers (in-country) of advanced graphics processing unit (GPU) semiconductors and computers containing those GPUs (a) to approximately 40 countries worldwide (the Covered Countries) and, (b) on a global basis, for companies headquartered (or whose ultimate parent company is headquartered) in China, other Group D:5 Countries and Macau (together, the Prohibited Countries). The IFR adds five new jurisdictions to the list of Covered Countries and imposes additional global restrictions for data centers providing GPU access to users headquartered in Prohibited Countries. These changes expand licensing requirements and heighten customer due diligence expectations, and they will require companies to reassess existing customer relationships and computing arrangements. The IFR also formally rescinds the Biden administration’s AI Diffusion Rule, which BIS announced in May 2025 it would not enforce.\nAccess-based controls for overseas data centers. New Section 744.24 of the U.S. Export Administration Regulations (EAR) establishes a worldwide licensing requirement for exports, reexports and transfers of covered advanced GPUs where there is “knowledge” that the items are destined for data centers providing or intending to provide “significant volumes” of compute access — more than 12 million “aggregate TPP” (i.e., total processing performance) — to or for companies headquartered (or whose ultimate parent company is headquartered) in Prohibited Countries. The threshold encompasses direct and indirect access, whether at one data center or through “linked data centers,” including digitally linked facilities. License applications will be reviewed on “a case-by-case basis,” meaning that BIS will be open to issuing licenses.\nBefore supplying covered advanced GPUs to foreign data centers, exporters, reexporters and transferors are expected to obtain sufficient information about those data centers’ customers to determine whether a license requirement is triggered based on direct or indirect ownership or control relationships by persons connected to the Prohibited Countries. If a foreign data center declines or is unable to provide information sufficient to verify compliance, the rule presumes “knowledge” that a licensing requirement is triggered for the advanced GPU supplier. Data centers already providing significant computing power to covered companies before the effective date of the IFR must obtain licenses from BIS within 90 days to continue providing those services or face “future export restrictions.” The licensing requirement does not apply where computing power is provided only for a “commercial recommender system” and specified information is submitted to BIS, an exception that may benefit some social media and e-commerce platform companies that would otherwise be impacted by the rule.\nNew license requirement for diversion-risk destinations. The IFR imposes a new license requirement for shipments of advanced GPUs to or within Indonesia, Malaysia, Singapore, Thailand and Brazil, which BIS describes as presenting “a higher-than-normal risk of diversion.” With this change, a license is now required for shipments of covered GPUs to approximately 45 Covered Countries, regardless of the end user, and it applies in addition to the new global data center control. The requirement does not apply for the five newly added Covered Countries when the ultimate consignee or end user is headquartered (or has an ultimate parent company headquartered) in the U.S., provided that certain reporting requirements are met.\nSemiconductor manufacturing. The rule narrows existing pathways for front-end fabricators and outsourced semiconductor assembly and test (OSAT) companies to rebut the presumption that certain advanced-node logic chips, including applicable advanced logic integrated circuits, are classified under ECCN 3A090.a1 when their designers are located (or have ultimate parents headquartered) in Country Groups D:1, D:4 or D:5 or the five newly covered countries. It also establishes a worldwide licensing requirement for exports, reexports or transfers by these manufacturers of covered chips subject to the EAR and classified under ECCN 3A090.a when the designer is neither an Approved nor Authorized IC Designer.\nAI Diffusion Rule. The rule formally rescinds the Biden administration’s AI Diffusion Rule, including its country-tier framework for shipments of advanced GPUs, its controls on AI model weights, and related license exceptions and authorizations. Because BIS had already announced that it would not enforce that rule, the rescission largely formalizes the existing position and clarifies the EAR provisions that remain applicable.\nTreatment of the UAE. The rule preserves the United Arab Emirates’ (UAE’s) favorable treatment under BIS’s July 2026 amendments to its country groups. Most transfers of covered advanced GPUs to or within the UAE require licenses, with applications reviewed under a presumption of approval. This license requirement does not apply where the ultimate consignee and all end users are listed in Supplement No. 8 to Part 740 and approved to receive covered items without a license.2\nOpen Questions and Next Steps\nThe rule leaves several key questions unresolved, including the factors to be considered by BIS in reviewing data center license applications on a “case-by-case” basis, the specifics of the “commercial recommender system” exception and the consequences for data centers that apply for but do not receive licenses within the IFR’s 90-day window. Companies should consider raising these issues during the 60-day comment period.\n______________\n1 Export Control Classification Number (ECCN) 3A090.a covers certain advanced computing integrated circuits, including high-performance GPUs, that meet specified thresholds for total processing performance and performance density under the EAR.\n2 The UAE also benefits from expanded license exception eligibility under the July amendments, including License Exception Strategic Trade Authorization (STA) for eligible items destined for entities specifically approved to use that exception. These authorizations do not override applicable Part 744 end-use and end-user restrictions, including the new data center controls.\nThis memorandum is provided by Skadden, Arps, Slate, Meagher & Flom LLP and its affiliates for educational and informational purposes only and is not intended and should not be construed as legal advice. This memorandum is considered advertising under applicable state laws.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

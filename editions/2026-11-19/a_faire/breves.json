@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a34\", \"source\": \"Ars Technica\", \"titre\": \"Muse privacy invasions are freaking out Meta staffers, internal chats show\", \"resume\": \"Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.\"}, {\"id\": \"a110\", \"source\": \"South China Morning Post\", \"titre\": \"Xi-Trump ties tested as calls grow in Washington for tougher China policy\", \"resume\": \"The personal rapport between US President Donald Trump and Chinese leader Xi Jinping is being put to its sternest test yet amid growing congressional pressure over AI chip curbs and broader calls in Washington for a more assertive policy on China, according to experts. The two leaders are set to hold formal talks on Thursday on the sidelines of the Asia-Pacific Economic Cooperation (Apec) summit in Shenzhen. While Trump may want to preserve a cordial rapport with Xi and a tactical thaw between...\"}, {\"id\": \"a165\", \"source\": \"L'Usine Digitale\", \"titre\": \"« La cybersécurité devient un enjeu de souveraineté » : Les députés votent le projet de loi de transposition de NIS 2 et renforcent les exigences pour les organisations\", \"resume\": \"« La cybersécurité devient un enjeu de souveraineté » : Les députés votent le projet de loi de transposition de NIS 2 et renforcent les exigences pour les organisations L'Usine Digitale\"}, {\"id\": \"a191\", \"source\": \"AEF info\", \"titre\": \"Les principaux enjeux soulevés par les 500 contributions à la consultation sur les lignes directrices de la CS3D\", \"resume\": \"Les principaux enjeux soulevés par les 500 contributions à la consultation sur les lignes directrices de la CS3D AEF info\"}, {\"id\": \"a195\", \"source\": \"Sciences et Avenir\", \"titre\": \"Voyager 1 s'apprête à franchir une distance record au-delà du Système solaire\", \"resume\": \"Lancé il y a près de 50 ans, Voyager 1 est sur le point d'atteindre un point particulier de l'espace interstellaire. La sonde américaine va en effet franchir le cap d'un jour-lumière ce 18 novembre à 11h16, heure française. Cet exploit technologique réaffirme son statut d'objet le plus lointain envoyé par l'humanité, aux confins de notre système solaire.\"}, {\"id\": \"a196\", \"source\": \"Sciences et Avenir\", \"titre\": \"Dinosaures : des traces de sang fossilisées agitent la communauté paléontologique\", \"resume\": \"Une équipe internationale affirme avoir identifié, pour la première fois de manière formelle, des traces de globules rouges minéralisés dans un fossile de dinosaure vieux de 115 millions d’années. Si cette découverte se confirme, la science des animaux disparus depuis des temps immémoriaux pourrait bien connaître une petite révolution.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

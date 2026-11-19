@@ -1,0 +1,64 @@
+{
+ "id": "syn-a27",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a27.json",
+ "limite_caracteres": 4328,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4328 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : TechCrunch\nRubrique : IA\nDate du flux : 18/11/2026\nAuteur : Marina Temkin\nTitre d'origine : Anthropic reportedly prices IPO at $83 a share, above projected range\n\nARTICLE :\nSOURCE 1 (TechCrunch) :\nAnthropic has reportedly priced its long-awaited IPO at $83 per share, above its initial range of $70 to $78, signaling strong investor appetite for one of the companies at the center of the AI boom, despite market jitters following the departure of Nvidia CEO Jensen Huang, which shook confidence in the industry.\nAt the IPO price, Anthropic is reportedly valued at $1.5 trillion on a fully diluted basis, a significant increase from the $965 billion the company reached in May when it raised $65 billion in its last private market round, but below the $2 trillion it was reportedly aiming for several months ago.\nAnthropic will begin its life as a public company on Thursday, trading on Nasdaq under the ticker symbol “ANT.” A strong first day of trading would signal that investors remain optimistic about AI adoption, despite recent volatility in AI-driven stocks.\nThe company’s performance is expected to set expectations for private AI companies, including Anthropic’s main rival OpenAI, which was last reportedly valued at $1.25 billion but has yet to announce plans for an IPO.\nAlthough none of Anthropic’s venture capital investors holds more than a 5% stake in the company, the IPO is a massive windfall for its numerous backers. Investors that own approximately 1% of the company reportedly include Sequoia and former Google CEO Eric Schmidt. Singaporean sovereign wealth fund GIC also holds about a 1% stake in the company, according to a person familiar with the matter. Other backers set to make billions are Iconiq, Menlo Ventures, Coatue, and Sound Ventures, a firm launched by Guy Oseary and actor Ashton Kutcher, and Spark Ventures, the only VC firm known to hold a board seat at the company.\nSome of the company’s existing investors, namely Sequoia, Iconiq, Lightspeed, Accel, and Altimeter Capital Management, are so enthusiastic about Anthropic’s future that they were reportedly planning to buy billions of dollars’ worth of the company’s shares in the IPO.\nYet the investors’ holdings in Anthropic pale in comparison to those of the Claude maker’s strategic partners, Amazon, which owns nearly 15% of the company, and Google, which holds almost 14%. A group of major tech companies, including AMD, Broadcom, Google, Micron, Microsoft, Nvidia, and TSMC Partners, have also agreed to purchase $26 billion worth of non-voting shares through a private placement alongside the IPO.\nThe company’s seven co-founders, including CEO Dario Amodei, each sold nearly 3.4 million shares in the IPO, according to the S-1 filing, bringing in about $282 million for each.\n\nSOURCE 2 (Yahoo Finance) :\nOAKLAND, Calif. (AP) — Anthropic priced its initial public offering at $83 per share Wednesday, valuing the artificial intelligence giant at $1.5 trillion in the biggest Wall Street debut of all time.\nThe pricing above the range initially projected by the company signals broad investor enthusiasm for AI stocks even amid some uncertainty in the market stemming from the ouster of Nvidia's CEO and worries about an AI bubble.\nAnthropic said the offering consists of 980 million shares, roughly 956 million sold by the company and the rest by selling stockholders. Proceeds totaling $81 billion put Anthropic's IPO ahead of SpaceX, which raised about $75 billion in June.\nThe San Francisco-based maker of the Claude AI tool is set to make its debut Thursday on Wall Street. The company had set a price range of $70 to $78 per share, initially offering 825 million shares. The stock will begin trading on the Nasdaq under the ticker symbol \"ANT.\"\nAnthropic decided to barrel ahead with the IPO despite jitters among some investors over market volatility, a potential regulatory crackdown by a Democratic-led Congress next year and growing anti-AI sentiment among the public. Then there's the spectacular downfall of one of the industry's biggest cheerleaders, former Nvidia CEO Jensen Huang, over extramarital affairs, including one with an alleged Chinese spy.\n\"This is strong appetite for this major AI IPO in Anthropic, and it's a big win for the tech sector after a white-knuckle time with Nvidia. The pricing shows strong demand among investors,\" said Dan Ives, partner and senior managing director at Yorkville Ives & Co.\nThe company's rival, OpenAI, is not planning to go public until next year.\nIPO offers a way to raise money without going deeper into debt\nAnthropic already has taken on $6.2 billion in debt, which it acknowledges in financial filings is \"substantial.\" Adding to the strain, the company is unprofitable, at least under standard accounting rules, suggesting that its resources to pay interest and principal are limited.\nWhile the company has ample cash for now, it will likely run through it quickly if it cannot raise more soon, given its outsize spending plans. The company said it has already signed leases and other deals requiring it to spend $900 billion on computing power and infrastructure in the coming years, including $70 billion in the next 12 months.\nAn IPO is essentially a way to raise money, instead of going into further debt. And borrowing has gotten more expensive. That's partly due to inflation fears and partly due to the sector's massive cash needs, which have drawn comparisons to the Gilded Age splurge on railroads. Lenders fear that AI companies have taken on too much debt to expand while having no clear path to profitability.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

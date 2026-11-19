@@ -1,0 +1,64 @@
+{
+ "id": "syn-a67",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a67.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Public Sénat\nRubrique : France\nDate du flux : 18/11/2026\nAuteur : Rédaction Public Sénat\nTitre d'origine : Soldats français en Ukraine : la ministre déléguée auprès de la ministre des Armées auditionnée au Sénat, le 25 novembre prochain\n\nARTICLE :\nSOURCE 1 (Public Sénat) :\nA la peine dans les sondages, Edouard Philippe présente un projet de droite classique et d’inspiration libérale, qu’il « assume massivement ». Des « réformes radicales », entre division par deux du nombre de titres de séjour, recours à la reconnaissance faciale ciblée et encadrée, indemnisation chômage limitée à 12 mois et règle d’or budgétaire pour ramener le déficit sous les 3 %. De quoi, espère le candidat Horizons, rassembler la droite et le centre, sans passer par la case primaire.\nSoldats français en Ukraine : la ministre déléguée auprès de la ministre des Armées auditionnée au Sénat, le 25 novembre prochain\n« Je n’étais pas au courant ». Le président de la commission des affaires étrangères, de la défense et des forces armées du Sénat, Cédric Perrin (LR), a réagi au micro de Public Sénat aux révélations de RFI sur la présence de soldats français en Ukraine. D’après Radio France internationale, la force nommée « Volia » et dirigée par un général français s’appuie sur le détachement Gerfaut officiellement déployé en Pologne dans le cadre de la mission européenne EUMAM-Ukraine destinée à soutenir les actions de formation des soldats ukrainiens.\nL’article 35 de la Constitution impose au gouvernement d’informer le Parlement de sa décision de faire intervenir les forces armées à l’étranger. Une information qui peut donner lieu à un débat qui n’est suivi d’aucun vote. « La question qui doit se poser ici, c’est: est-ce que c’était une opération extérieure ou non ? De mon point de vue, ce n’en était pas une », a expliqué Cédric Perrin, comparant avec des opérations de formation des forces armées sénégalaises, djiboutiennes ou centrafricaines, qui n’ont pas donné lieu au déclenchement de l’article 35.\n« Le gouvernement a fait preuve de beaucoup d’amateurisme dans cette affaire »\nToutefois, d’un point de vue politique, pour le sénateur, cette information aurait « nécessité a minima une communication du gouvernement aux commissions concernées ou aux présidents des assemblées concernées ». « Ça me semblait la moindre des choses. Je pense que le gouvernement a fait preuve de beaucoup d’amateurisme dans cette affaire. Ça dénote aussi une certaine forme de mépris du Parlement », a-t-il déploré.\nLa ministre déléguée auprès de la ministre des Armées et des Anciens combattants, Alice Rufo, sera auditionnée mercredi prochain à 8 h 30 par la commission des affaires étrangères, de la défense et des forces armées du Sénat, a annoncé Cédric Perrin. L’audition se tiendra à huis clos. Les sénateurs chercheront à savoir « concrètement l’implication des forces françaises conventionnelles en Ukraine ».\n\nSOURCE 2 (laclepublique.fr) :\n« Je n’étais pas au courant. » C’est ainsi que Cédric Perrin, président de la commission des affaires étrangères et de la défense du Sénat, a réagi ce mercredi 18 novembre aux révélations sur la présence de militaires français en Ukraine.\nDeux jours plus tôt, RFI révélait l’existence d’une mission confidentielle baptisée Volia. Depuis plusieurs mois, selon les informations de la presse, de petits détachements français se relaient sur le territoire ukrainien pour former des militaires et participer à l’entretien des équipements livrés par la France.\nLe gouvernement reconnaît désormais cette présence. Alice Rufo, ministre déléguée aux Armées, a précisé mercredi sur RMC que ces personnels ne constituaient pas des unités combattantes et intervenaient loin du front. Elle sera auditionnée le 25 novembre à huis clos par les sénateurs.\nL’affaire soulève une question qui dépasse largement le soutien à l’Ukraine : qui décide du moment à partir duquel un engagement militaire français mérite d’être soumis au contrôle du Parlement ?\nTrois jours, quatre mois\nJusqu’en 2008, la Constitution ne prévoyait l’autorisation du Parlement que pour les déclarations de guerre. Or, sous la Ve République, la France n’a jamais formellement déclaré la guerre. Elle a pourtant engagé ses forces dans de nombreux conflits.\nLa révision constitutionnelle de 2008 a instauré deux échéances. Le gouvernement doit informer le Parlement dans les trois jours suivant le début d’une intervention militaire à l’étranger et solliciter son autorisation pour la poursuivre au-delà de quatre mois.\nDepuis cette réforme, la procédure d’autorisation a été utilisée à sept reprises, notamment pour les interventions en Afghanistan, en Libye, au Mali et en Irak. La dernière remonte au 25 novembre 2015, pour l’engagement des forces aériennes françaises en Syrie.\nOnze ans sans nouveau vote au titre de l’article 35.\nEn janvier 2026, la France a encore mené, conjointement avec le Royaume-Uni, des frappes contre l’État islamique en Syrie. Comme le relève un rapport de l’Assemblée nationale publié en février, l’autorisation accordée en 2015 restait valable : la Constitution n’impose aucun renouvellement périodique.\nLe Parlement peut néanmoins se prononcer par d’autres moyens. En mars 2024, les élus avaient ainsi voté sur la politique française de soutien à l’Ukraine à l’occasion de la présentation de l’accord de sécurité entre les deux pays.\nUne frontière que l’exécutif trace lui-même\nToute présence militaire à l’étranger ne constitue évidemment pas une intervention au sens de la Constitution. Des soldats français participent régulièrement à des exercices internationaux ou assurent des missions de formation.\nMais la distinction devient plus délicate lorsque ces activités se déroulent dans un pays en guerre.\nPour déterminer si l’article 35 s’applique, le gouvernement tient notamment compte de trois critères : l’importance des moyens engagés, les risques auxquels sont exposés les militaires et l’existence d’une intention de combattre.\nCes difficultés de qualification sont bien antérieures à l’affaire Volia.\nEn avril 2026, un rapport de la commission des finances du Sénat relevait que les missions françaises de réassurance sur le flanc oriental de l’OTAN n’étaient pas classées parmi les opérations extérieures (OPEX), notamment pour éviter d’envoyer le signal d’un affrontement direct avec la Russie.\nCette classification administrative, qui détermine certains droits supplémentaires des militaires en cas de blessure ou de décès, est distincte de l’application de l’article 35. Mais elle illustre combien la dénomination d’une mission peut aussi répondre à des considérations diplomatiques.\nLe secret militaire n’impose pas le silence parlementaire\nLe soutien apporté sur place aux Ukrainiens répond à une logique opérationnelle compréhensible. Réparer un équipement au sein du pays évite de devoir l’acheminer jusqu’en Pologne. Le 9 novembre, l’Union européenne a d’ailleurs décidé d’établir une présence en Ukraine pour mieux coordonner ses activités de formation militaire.\nReste la question du risque. Les personnels français évoluent sur le territoire d’un pays régulièrement frappé par des missiles et des drones russes.\nCédric Perrin estime lui-même que la mission ne relève pas nécessairement de l’article 35. Il considère néanmoins que les commissions compétentes auraient dû être informées.\nUne telle communication confidentielle était possible dès le début de la mission, sans dévoiler les effectifs, les déplacements ou les lieux d’intervention au public. Elle ne nécessitait aucune réforme constitutionnelle ni autorisation préalable.\nAlors que la France participe aux discussions sur les futures garanties de sécurité de l’Ukraine, la distinction mérite d’être clarifiée.\nLe Parlement n’a pas vocation à diriger les opérations militaires. Il doit, en revanche, pouvoir comprendre quels risques la France accepte de prendre avant d’avoir à en assumer les conséquences.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

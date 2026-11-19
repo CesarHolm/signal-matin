@@ -1,0 +1,64 @@
+{
+ "id": "syn-a221",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a221.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Inside Climate News\nRubrique : Climat\nDate du flux : 18/11/2026\nAuteur : Bob Berwyn; Derek Harrison\nTitre d'origine : Former Climate Diplomats Blame Three Nations for Research Funding Stalemate\n\nARTICLE :\nANTALYA, Turkey—The science that guides negotiators and policymakers at the United Nations’ COP31 climate change conference is “under a serious and highly politicized attack,” said Laurence Tubiana, a veteran French climate diplomat and one of the architects of the 2015 Paris climate agreement.\nThe Intergovernmental Panel on Climate Change, established in 1988 to inform international climate negotiations, regularly assesses thousands of studies on rising temperatures, sea level rise, melting ice and strategies for adapting to the increasingly intense impacts of global warming.\nBut three countries—Russia and Saudi Arabia, both major fossil fuel producers, and India, which accounts for an estimated 14 percent of global coal consumption—are blocking progress on future reports, according to scientists on the panel and independent observers.\nThose countries “are doing everything they can to slow the process,” Tubiana said. They are becoming less discreet about their efforts, she said, as they increasingly view their economies as threatened by a conditional agreement to transition away from coal, oil and gas reached during COP28, the 2023 Conference of the Parties conference in Dubai.\nThe science panel’s current impasse is especially troubling, “because we know climate problems are accelerating, and we need a lot of data and communication to understand what’s happening at this COP,” said Mary Robinson, former president of Ireland and former United Nations special envoy on climate change.\nRobinson said this isn’t the first time countries have tried to obstruct science. Recent examples include attacks seeking to undermine a recent United Nations Environment Programme report on “overshoot,” which concludes that there is no way to avoid passing the 2.7 degree Fahrenheit warming target in the Paris Agreement.\nFossil fuels account for an estimated 80 percent to 90 percent of planet-heating carbon dioxide emissions, according to the IPCC’s 2023 assessment.\nThe international climate science panel relies on voluntary donations from member countries to fund its work, including periodic assessments, some of which inform steps required under the Paris Agreement. The panel has yet to set a budget for next year, potentially delaying a scientific report needed ahead of next year’s U.N. climate conference.\n“Since Russia’s invasion of Ukraine in 2022, the oil and gas sector has become much more aggressive,” Tubiana said. “I think this is partly because it sees its dominance over energy starting to erode.”\nOil and gas companies are losing ground in transport as electric-vehicle adoption in Asia surges faster than expected, she said, adding that reports from the International Energy Agency show demand for fossil fuels is set to slow.\n“Investors hear the message that the decline is coming, and those governments have pushed back,” she said.\nThis story is funded by readers like you.\nOur nonprofit newsroom provides award-winning climate coverage free of charge and advertising. We rely on donations from readers like you to keep going. Please donate now to support our work.\nDonate Now\nThe 2023 IPCC report concluded that existing and planned fossil fuel infrastructure would push global warming beyond the Paris Agreement goal of limiting warming as close as possible to 2.7 degrees Fahrenheit above the preindustrial average.\nTubiana said a growing number of countries view the transition away from fossil fuels as a path to greater energy independence and security, while those opposed to the shift are becoming “more angry and vocal.”\n“The danger,” she said, “is that they take other countries along with them that aren’t necessarily committed to that position.”\nThe latest draft of the conference’s decision document highlights the assessments’ importance to the negotiations. Some countries also want to include language that could help break the science panel’s deadlock, but the same countries stalling the IPCC are resisting that effort.\nIn particular, the climate, environment and energy ministers participating in the current round of talks could help the IPCC get over the political hurdles it faces, said Bill Hare, CEO of Climate Analytics, an international climate science and policy institute.\nHare said the countries participating in the U.N. talks should advocate for continued support for the IPCC. If the panel can’t deliver the needed climate science “because of political obstacles created by a small number of countries, it would be a historic setback for the connection between science and the international climate process.”\nRobinson said some of the world’s least developed countries and small island states “desperately need” the international panel’s reports because they can’t do their own climate assessments.\n“We need the authoritative, legitimate IPCC science, which has guided us from the beginning in this whole climate process,” she said. “It’s just a sign of the difficult times we’re in that we have to fight for it. I can hardly believe it.”\nAbout This Story\nPerhaps you noticed: This story, like all the news we publish, is free to read. That’s because Inside Climate News is a 501c3 nonprofit organization. We do not charge a subscription fee, lock our news behind a paywall, or clutter our website with ads. We make our news on climate and the environment freely available to you and anyone who wants it.\nThat’s not all. We also share our news for free with scores of other media organizations around the country. Many of them can’t afford to do environmental journalism of their own. We’ve built bureaus from coast to coast to report local stories, collaborate with local newsrooms and co-publish articles so that this vital work is shared as widely as possible.\nTwo of us launched ICN in 2007. Six years later we earned a Pulitzer Prize for National Reporting, and now we run the oldest and largest dedicated climate newsroom in the nation. We tell the story in all its complexity. We hold polluters accountable. We expose environmental injustice. We debunk misinformation. We scrutinize solutions and inspire action.\nDonations from readers like you fund every aspect of what we do. If you don’t already, will you support our ongoing work, our reporting on the biggest crisis facing our planet, and help us reach even more readers in more places?\nPlease take a moment to make a tax-deductible donation. Every one of them makes a difference.\nThank you,",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

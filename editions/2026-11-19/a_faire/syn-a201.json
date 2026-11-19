@@ -1,0 +1,64 @@
+{
+ "id": "syn-a201",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a201.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Conversation\nRubrique : Idées\nDate du flux : 18/11/2026\nAuteur : Baptiste LAUBIE; Marie-Odile Simonnot\nTitre d'origine : Les terres rares ne sont ni rares, ni même des terres, alors qu’est-ce que c’est ?\n\nARTICLE :\nL’ESSENTIEL\n- Le terme « terres rares » désigne un ensemble de 17 éléments chimiques.\n- Ils ont des propriétés très intéressantes pour de nombreuses applications industrielles, ils sont donc devenus des ressources stratégiques majeures.\n- La Chine est l’un des acteurs majeurs du domaine mais la France a également des atouts.\nQualifiées de « vitamines de l’ère moderne » en raison de leurs propriétés catalytiques, optiques, magnétiques et électroniques exceptionnelles, les terres rares présentent un intérêt stratégique pour de nombreuses technologies actuelles, dans les secteurs de l’énergie bas carbone, de la défense, de l’électronique (écrans LCD, LED, composants de disques durs et de smartphones) et du médical (IRM, lasers). Le secteur le plus important est celui des aimants permanents, surtout néodyme-fer-bore (NdFeB), pour les moteurs des véhicules électriques ou les équipements des éoliennes. Les autres secteurs, comme les catalyseurs pour l’automobile, les poudres de polissage ou les alliages nécessitent des terres rares plus abondantes et moins coûteuses que le néodyme, surtout le lanthane et le cérium.\nAinsi, la plus forte demande concerne le néodyme (près du tiers du total), suivi du cérium, du lanthane, du praséodyme et de l’yttrium, les autres terres rares représentant environ 5 % de la demande.\nLa Chine comme principal acteur\nSelon l’Union européenne, la production mondiale était de 278 000 tonnes de concentrés d’oxydes de terres rares en 2021, soit plus du double de celle de 2010 (129 000 tonnes). Le marché est faible par rapport à des métaux très répandus comme le fer (2 500 millions de tonnes en 2023) mais très supérieur à des métaux rares comme le platine (183 000 tonnes en 2022). La production est dominée par la Chine, avec près de 60 % en 2021, et environ 70 % de l’extraction mondiale en 2023 – une domination qui s’étend plus largement encore au raffinage et à la séparation, où la Chine concentre 85 à 90 % des capacités mondiales. Cette situation lui confère le pouvoir de diminuer l’approvisionnement, comme cela s’est produit en 2011, voire de le couper. Aussi, les États-Unis, l’Australie, le Canada et les pays d’Europe cherchent à diversifier leur production pour réduire leur dépendance. Les États-Unis ont rouvert en 2018 la mine de Mountain Pass en Californie, et visent de nouvelles ressources, notamment au Groenland, qui possèdent un stock important mais difficilement exploitable.\nMais que sont exactement les terres rares, et pourquoi sont-elles si difficiles à extraire ? Le terme « terres rares » désigne un ensemble de 17 éléments chimiques, comprenant 15 lanthanides (du lanthane 57La au lutétium 71Lu) ainsi que le scandium (21Sc) et l’yttrium (39Y). Ce ne sont pas des « terres » et elles ne sont pas « rares », mais relativement abondantes dans la croûte terrestre.\nCes éléments se trouvent dans différents minéraux porteurs, principalement la bastnaésite, la monazite et le xénotime, qui contiennent aussi des éléments radioactifs. Leur extraction est complexe et coûteuse.\nEn les classant selon leur masse atomique, on distingue les terres rares légères : lanthane, cérium, praséodyme, néodyme, et samarium des terres rares lourdes : europium, gadolinium, terbium, dysprosium, holmium, erbium, thulium, ytterbium, lutécium et yttrium. N’entrent pas dans cette classification le prométhium, élément instable, ni le scandium. Les légères sont plus abondantes et plus facilement extractibles que les lourdes, qui sont, elles, plus stratégiques. Elles sont toutes répertoriées dans la liste des métaux critiques et stratégiques de la Commission européenne.\nComment produit-on les terres rares ?\nLa production de terres rares commence par la prospection et l’exploitation minière, puis implique des traitements chimiques pour séparer ces éléments dont les propriétés sont proches. Elle se termine par l’affinage et la purification pour obtenir des composés possédant les spécificités requises pour les différentes applications. En France, l’usine Solvay à La Rochelle, mise en service en 1948, possède un savoir-faire historique en séparation et purification, qui en fait aujourd’hui le seul site européen à traiter l’ensemble des terres rares en quantité.\nActuellement, moins de 1 % des terres rares est recyclé. Le recyclage est difficile car ces éléments se trouvent souvent dans des structures complexes et des alliages. Des efforts sont faits en ce sens ; une usine de recyclage d’aimants et de raffinage de concentrés miniers de la société Caremag, filiale de Carester, est en construction près de Lacq (Pyrénées-Atlantiques) ; elle vise à produire environ 600 tonnes d’oxydes de terres rares lourdes (dysprosium, terbium), soit environ 15 % de la production mondiale actuelle de ces éléments, par raffinage (5 000 tonnes de concentrés par an) et par recyclage (2000 tonnes d’aimants par an). Un protocole d’accord a été signé entre Carester et Solvay en 2024 en vue de créer un partenariat stratégique.\nOn connaît bien aujourd’hui les impacts environnementaux des terres rares, dont l’exploitation contribue à la destruction des écosystèmes, à la contamination des sols et des eaux et à la production de déchets toxiques. Leur utilisation n’est pas non plus sans effet, par exemple, le gadolinium utilisé comme agent de contraste en IRM se retrouve dans les cours d’eau. La toxicité des terres, encore mal connue, fait l’objet de nombreuses recherches. Les terres rares, bien qu’elles aient pu être utilisées comme engrais, affectent la croissance des plantes ; néanmoins, certaines peuvent être phytoextraites et valorisées par agromine. L’agromine combine la phytoextraction, ici de terres rares, à partir de plantes capables de les accumuler et le traitement des tissus des plantes pour récupérer ces éléments d’intérêt.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

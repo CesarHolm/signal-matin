@@ -1,0 +1,64 @@
+{
+ "id": "syn-a116",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a116.json",
+ "limite_caracteres": 2988,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 2988 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Al Jazeera\nRubrique : Monde\nDate du flux : 19/11/2026\nTitre d'origine : Hegseth unveils new US-Venezuela military deal\n\nARTICLE :\nSOURCE 1 (Al Jazeera) :\nPete Hegseth has unveiled a new military deal with Venezuela in his first visit since the US capture of Nicolas Maduro.\n\nSOURCE 2 (CNN) :\nThe United States has signed a new agreement to reestablish military ties with Venezuela more than 10 months after toppling its leader in a military raid, US Secretary of Defense Pete Hegseth announced during his first trip to the South American nation on Wednesday.\n“Venezuela has gone from our most aggressive regional threat to a compliant security partner,” Hegseth said outside the US Embassy in Caracas.\nThe Pentagon chief described the deal as “historic,” saying it would allow American and Venezuelan forces to train together and share intelligence, defense equipment and other capabilities.\nHe insisted that the partnership would not be “cosmetic” and would require defense and security reforms in Venezuela to modernize its military and eliminate “persistent threats” to both nations.\nThe timeline and scope of the deal remain unclear.\nThe Defense Department has not responded to questions about the agreement or Hegseth’s trip, nor did it provide a daily schedule for the secretary on the day of his visit.\nHegseth appeared to have signed the agreement earlier at the Venezuelan presidential palace with Defense Minister Gustavo Gonzalez Lopez, according to footage broadcast on state TV.\nIn a televised meeting with Venezuela’s acting President Delcy Rodriguez, Hegseth said the US looks forward to deepening their defense cooperation “to ensure the Venezuelan people are not threatened by foreign actors or narco-terrorists or criminals and that they are safe and secure inside sovereign borders.”\nRodriguez said their renewed “technical-military cooperation” is meant to confront common threats and make the region safer.\nBoth Hegseth and Rodriguez underscored their countries’ remarkable turn in relations since the US captured Venezuela’s authoritarian leader Nicolas Maduro on January 3.\n“The weight of this moment does not escape me,” Hegseth said outside the embassy. “Just one year ago, my presence here, our presence here would have been deemed impossible.”\nRodriguez said, “We have turned very difficult and very harsh moments for our people … into an extraordinary space for cooperation and the mutual benefit of our countries.”\nSince Maduro’s capture, the US has been working with the acting Venezuelan government on the country’s democratic transition and political reconciliation.\nRodriguez has met just about every demand from Washington, including releasing hundreds of political prisoners and making it easier for US companies to invest in the country.\nWednesday’s military deal is the latest effort by the Trump administration to bolster security cooperation with Latin American countries with the aim of combating what it calls “designated terrorist organizations” in the region.\nHegseth traveled to Colombia later on Wednesday and was expected to discuss security ties and deliver military equipment, according to the Colombian defense minister.\nThat visit comes amid a New York Times report that said Colombian President Abelardo de la Espriella this week rejected a US plan for joint anti-crime operations on Colombian soil.\nA source from Colombia’s Ministry of Defense told CNN that while the government supports increased military cooperation and the intelligence sharing to combat drug cartels and terrorist organizations, it cannot greenlight operations involving foreign forces on the ground, as this requires legislative authorization.\nHegseth is also expected to travel to Ecuador and Honduras as part of a tour of Latin America.\nCNN’s Anabella Gonzalez, Mauricio Torres, Fernando Ramos and Haley Britzky contributed to this report.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

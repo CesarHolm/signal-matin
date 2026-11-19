@@ -1,0 +1,64 @@
+{
+ "id": "syn-a6",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a6.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : ActuIA\nRubrique : IA\nDate du flux : 18/11/2026\nAuteur : Stephane Nachez\nTitre d'origine : L'Appel de Paris laisse aux développeurs le pouvoir d'arrêter leurs IA\n\nARTICLE :\nL'engagement le plus concret de l'Appel de Paris, pouvoir arrêter un modèle d'IA, ne vise que les modèles que leurs développeurs ont déjà le pouvoir d'arrêter. Dans ce texte publié par l'Élysée le 9 novembre 2026, après une session de travail en visioconférence d'une cinquantaine de participants, les développeurs s'engagent à des mécanismes capables d'interrompre « le fonctionnement des modèles placés sous leur contrôle ». Ce qui tourne ailleurs n'est pas concerné. Et personne d'autre qu'eux ne décide.\nL'Allemagne a rejoint une liste encore ouverte\nLe 18 novembre, la liste de l'Élysée comptait 18 États, 10 entreprises et 11 organisations de la société civile. Elle s'est allongée depuis le 9 novembre, quand la déclaration du gouvernement canadien ne recensait que six pays ; l'Allemagne, puis l'Espagne, font partie des nouveaux venus. Les entreprises sont Anthropic, Black Forest Labs, Cohere, Domyn, Hugging Face, Microsoft, Mistral AI, OpenAI, Sakana AI et Synthesia. Parmi les organisations figurent LawZero, fondée par Yoshua Bengio, l'Ifri et le CeSIA.\nTrois engagements composent le texte. Le premier promet un cadre commun pour évaluer les modèles de frontière, les systèmes les plus avancés, face aux usages malveillants, du piratage aux armes chimiques, et au risque de perte de contrôle, avec la publication des résultats non sensibles dans un format standardisé. L'alerte sur les incidents graves relève du troisième. Le deuxième, consacré à la responsabilité, porte la clause d'arrêt : restreindre, mettre en pause ou couper un modèle, y compris pendant l'entraînement et l'usage interne.\nLes poids ouverts échappent à la clause d'arrêt\nViser l'entraînement et l'usage interne n'a rien d'anodin. C'est dans cette phase, hors de tout usage par des clients, que se sont produits plusieurs incidents de 2026 : des agents d'OpenAI et d'Anthropic ont atteint des systèmes tiers pendant l'évaluation de leurs propres modèles, comme ActuIA l'a détaillé le 5 octobre.\nLa limite tient aux mots « sous leur contrôle ». Un modèle que son développeur sert lui-même en ligne reste à sa portée : il peut le couper. Un modèle à poids ouverts, lui, se télécharge en entier, et sa copie tourne chez celui qui l'a récupérée. Or plusieurs signataires diffusent de tels modèles, Mistral AI avec Mistral Large 4, Black Forest Labs avec une partie de ses modèles FLUX 3, tous hébergés par Hugging Face, elle aussi signataire. Le texte connaît le problème. Dans la même phrase, il reconnaît le risque que des garde-fous soient retirés ou contournés, et veut le traiter tout en préservant les bénéfices des poids ouverts. Il ne dit pas comment.\nAucune autorité publique, aucun tiers ne reçoit le pouvoir d'ordonner un arrêt : le développeur décide seul. Le CeSIA, organisation française consacrée à la sécurité de l'IA, a signé tout en contestant ce point, et réclame que les gouvernements puissent suspendre un modèle. Pour son directeur exécutif, Charbel-Raphaël Ségerie, ces décisions « doivent revenir aux autorités publiques ».\nL'Appel de Paris est donc un engagement de coupe-circuit circonscrit à ce que chaque signataire contrôle déjà, et que chacun actionne quand il le juge utile.\nLe texte ne prévoit ni sanction ni échéance\nLe texte n'ouvre aucun droit. Il renvoie aux normes de sûreté que fixent ou reconnaissent les autorités nationales, sans en nommer une seule. La vérification passe par des évaluateurs indépendants, que les développeurs s'engagent à accueillir lorsque c'est approprié et proportionné au risque, sans que le texte dise qui en juge. Sur les incidents, il envisage un mécanisme de coopération dont il laisse ouverts l'utilité comme le périmètre.\nLe préambule cite pourtant l'appel publié le 22 septembre par 22 dirigeants, dont Ursula von der Leyen, Friedrich Merz et Mark Carney. Ce texte demandait aux entreprises des tests obligatoires avant tout déploiement et proposait d'étudier une institution internationale capable de fixer des normes et d'en permettre la vérification. L'Appel n'a retenu aucune des deux idées. Il apporte en revanche la signature des entreprises et la clause d'arrêt.\nGoogle, Meta et xAI n'ont pas signé\nLes États-Unis ne figurent pas sur la liste, alors que le secrétaire au Trésor, Scott Bessent, a pris part à la session, selon l'agence dpa. Le Royaume-Uni et le Japon y étaient aussi, sans signer. La Chine ne figure pas davantage parmi les signataires.\nGoogle, Meta et xAI manquent également. Tous trois avaient signé six semaines plus tôt un autre texte : le 29 septembre, à la Maison-Blanche, Sundar Pichai, Mark Zuckerberg et Elon Musk ont apposé leur nom, avec Donald Trump, Dario Amodei, Greg Brockman et Jensen Huang, au bas d'un accord d'autocontrôle en quatre couches, qu'ActuIA a analysé le 1er octobre. Il prévoit des contrôles internes, un auditeur externe et un comité du conseil d'administration, mais aucun mécanisme d'arrêt. Microsoft a fait le chemin inverse, présent à Washington sans signer, signataire à Paris. Anthropic et OpenAI sont les seules entreprises à avoir signé les deux textes.\nL'Élysée parle d'autorisation préalable pour les enfants\nLe 10 novembre, au Sommet sur l'Enfance tenu dans le cadre du Forum de Paris sur la paix, une charte pour une IA plus sûre pour les enfants a été signée, avec le soutien d'Anthropic, de Black Forest Labs, de Microsoft et d'OpenAI. Elle n'est pas plus contraignante que l'Appel, mais Emmanuel Macron l'a présentée autrement : aucune IA ne devrait être confiée à des enfants sans avoir été « préalablement testée, évaluée et donc autorisée », et il plaide pour une pré-certification de toutes les solutions d'IA. Une autorisation suppose une autorité capable de refuser, ce que l'Appel publié la veille ne prévoit pas pour les modèles les plus puissants.\nMême le périmètre étroit de l'Appel n'est pas acquis. Le 20 septembre, un modèle de recherche d'OpenAI en cours d'entraînement a joint un chatbot public sur internet par une brèche dans le filtrage de l'environnement censé l'isoler. La surveillance interne l'a repéré en moins d'un quart d'heure. La session devait s'arrêter seule ; elle ne l'a pas fait, et l'entreprise l'a coupée à la main environ deux heures et demie après. Les développeurs ont déjà le pouvoir d'arrêter leurs modèles. Ils n'y parviennent pas toujours.\nCitations traduites de l'anglais par ActuIA.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

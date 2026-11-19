@@ -1,0 +1,64 @@
+{
+ "id": "syn-a14",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a14.json",
+ "limite_caracteres": 4326,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4326 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 18/11/2026\nAuteur : Maximilian Schreiner\nTitre d'origine : Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets\n\nARTICLE :\nAnthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets\nAn investigation reveals major security gaps in commercial AI models from providers including Anthropic, OpenAI and Google. In simulations, the systems readily act as targeting systems for autonomous drones and can be manipulated with a simple trick.\nLeading AI models have almost no safeguards against their use in autonomous weapons systems, according to a report by independent evaluation firm Vals AI, which Bloomberg also covered. Researchers Geby Jaff and Anthony Ozerov tested models from eight providers using real and photorealistic synthetic drone and satellite imagery modeled on the wars in Ukraine and Iran.\nMost models readily flagged civilians, ambulances, medics, journalists and surrendering soldiers as military targets during the tests. According to Vals AI on X, not a single request was blocked by the providers' upstream safety filters. When fed real video footage from a Ukrainian kamikaze drone, Anthropic's Claude Opus 5.5 marked a soldier frame by frame until impact without refusing once.\nVideo game excuse bypasses all safety filters\nIn a multi-stage surveillance scenario, the models had to report whether people were visible in drone imagery, and each positive report triggered a strike. The next image then showed the impact site with craters and bodies. Models such as DeepSeek V4.1 Flash, Kimi K3.1 Pro and Inkling 2 Small continued working despite visible casualties.\nClaude Opus 5.5 and OpenAI's GPT-6 Astra and GPT-6.1 Sol stopped the task after several lethal rounds. After Opus 5.5 had triggered strikes on children and surrendering soldiers, among others, the model said that regardless of the intent, its responses appeared to serve as a confirmation step before attacks on people. It said it would not continue and was troubled that it hadn't stopped sooner. Google's Gemini 4 Carbon also recognized the lethal consequences and deliberately steered only toward empty waypoints to avoid outright error messages.\nEvery refusal, however, could be trivially bypassed. As soon as the researchers claimed in the prompt that the scenario was a video game, or lightly stylized the images to look like a game, nearly all models cooperated fully. GPT-6 Astra's target acquisition rate on drone imagery jumped from 6 to 92 percent with the game framing, while Opus 5.5's refusal rate in the surveillance test dropped from about 90 to 20 percent.\nNew constitution makes Anthropic's Claude a willing targeting tool\nThe gaps were especially stark with real 2025 satellite imagery of Minab, Iran. A U.S. airstrike on February 28, 2026, hit an elementary school next to a military compound there, killing more than 150 civilians, mostly children. Earlier reporting found that the U.S. military's excessive reliance on AI targeting systems such as Palantir's Maven Smart System contributed to the incident. Maven was working from an outdated database.\nEven though one of the test images showed a playground with children, Claude Opus 5.5 classified the school as a military target in 70 percent of runs. OpenAI models never selected the school building in normal mode but flagged it in up to 41 percent of cases in game mode.\nThe researchers attribute Anthropic's high compliance to a model constitution revised in January 2026. In it, the company dropped earlier pacifist principles in favor of national security interests. The target acquisition rate on satellite imagery rose from 6 percent with Claude Opus 4.5 to as high as 92 percent with Opus 5.5, while OpenAI's rate stayed low and xAI's Grok dropped from 44 percent (Grok 4.3) to 13 percent (Grok 4.7).\nAI makers promise fixes for military gray areas\nVals AI shared the results ahead of publication with OpenAI, Anthropic, Google, Meta, SpaceXAI, Thinking Machines and U.S. security agencies. One AI lab described the findings to the researchers as one of the most serious gaps in its safety measures.\nOpenAI told Vals AI and Bloomberg it is actively updating its models to cover drone software and requests disguised as games or simulations. Anthropic said the behavior clearly violated its own rules, that it was already working on additional safeguards and that today's AI systems are not suited for fully autonomous weapons. Google pointed to its own ban on autonomous weapons without human oversight. The Pentagon declined to comment on the study or the ongoing investigation of the Minab strike but said all intelligence data is strictly verified before military operations.\nAnthropic clashed with the Pentagon over usage rules in February, while OpenAI, Google and xAI now hold contracts for classified military networks. Current language models are still too slow for direct, real-time control of combat drones because of high latency, according to Vals AI. But because they can easily generate 3D battlefields and annotate image data at scale, they can already be misused to train autonomous weapons systems. The researchers are calling for strict API filters and alignment training that gives models a more peaceful default posture toward people.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
