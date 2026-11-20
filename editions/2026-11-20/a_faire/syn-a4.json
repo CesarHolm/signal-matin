@@ -1,0 +1,64 @@
+{
+ "id": "syn-a4",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a4.json",
+ "limite_caracteres": 3710,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3710 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : ActuIA\nRubrique : IA\nDate du flux : 19/11/2026\nAuteur : Stephane Nachez\nTitre d'origine : Anthropic fixe son prix d'introduction à 83 dollars et grossit son offre\n\nARTICLE :\nAnthropic a vendu mercredi 18 novembre au soir 155 millions d'actions de plus qu'elle n'en proposait depuis le 10 novembre, à un prix supérieur de cinq dollars seulement au haut de sa fourchette. Les 980 millions de titres de classe A, cédés à 83 dollars, valent 81,3 milliards de dollars avant frais, d'après le prix et le nombre d'actions inscrits dans le communiqué de la société. Anthropic en encaisse 79,4 milliards. Le reste revient aux sept cofondateurs, vendeurs de 23,6 millions d'actions. Les banques, menées par Goldman Sachs et Morgan Stanley, ont trente jours pour acheter 147 millions de titres de plus, et le règlement est prévu vendredi 20 novembre.\nLa gouvernance de la société et ses liens avec Nvidia ont été détaillés dans notre article du 16 novembre, ses 900,9 milliards d'engagements de calcul dans celui du 17.\nLa valorisation varie de 400 milliards selon les actions comptées\nForbes chiffre la valorisation à environ 1 500 milliards de dollars. Ce montant correspond à une base entièrement diluée, qui ajoute aux titres existants les options et les actions promises aux salariés : Bloomberg l'estimait le 17 novembre à 1 400 milliards à 78 dollars, et le passage à 83 dollars, avec les titres ajoutés, donne bien 1 500 milliards. Les seules actions en circulation pèsent moins. Le prospectus amendé du 17 novembre en recensait 13,09 milliards au prix médian ; en ajoutant les 155 millions de titres nouveaux et en retirant les 38 millions que le placement privé, vendu à sept industriels en marge de l'offre, n'achète plus à 83 dollars, on obtient environ 13,2 milliards d'actions, soit 1 100 milliards de dollars hors option des banques.\nEn mai, le dernier tour privé valorisait Anthropic 965 milliards. Rapportée aux 35,3 milliards de revenus des douze mois clos fin septembre, la valeur des actions en circulation représente 31 fois le chiffre d'affaires, la valeur diluée 42 fois.\nL'offre grossit de 19 %, le prix dépasse de 6 % le haut de la fourchette, alors que Bloomberg, citant des personnes au fait de l'opération, décrit un carnet d'ordres couvert près de sept fois. Au regard de cette demande, 83 dollars est un prix prudent.\nLe montant dépasse celui de SpaceX sans l'option de surallocation\nForbes présente l'opération comme la plus grosse introduction en Bourse jamais réalisée. SpaceX avait levé 75 milliards de dollars en juin, plus du double de Saudi Aramco en 2019, d'après le recensement de Reuters. Ce chiffre exclut l'option des banques. Une fois exercée, elle avait porté le total de SpaceX à 86 milliards, a rappelé l'AFP. Anthropic ne le dépasse sur cette base que si ses banques exercent la leur : les 147 millions d'actions supplémentaires ajouteraient 12,2 milliards, pour 93,5 milliards au total. Avec les 26 milliards du placement privé, la société lève plus de 105 milliards de dollars avant frais.\nUne partie des salariés peut vendre dès le premier jour\nLe prospectus bloque la plupart des actions existantes jusqu'à 180 jours, et jusqu'à un an pour les cofondateurs et certains grands actionnaires, avec des libérations par étapes. Administrateurs non fondateurs, dirigeants, salariés et consultants peuvent toutefois céder une fraction de leurs titres dès jeudi : jusqu'à 315 millions d'actions, d'après le décompte du site financier StockTitan. Le document prévoyait aussi jusqu'à 20 % de l'offre pour les particuliers, aux États-Unis et ailleurs. La répartition finale n'est pas publiée. Bloomberg rapporte que les banques ont servi en priorité les actionnaires existants.\nSelon le prospectus, l'argent ira aux besoins généraux de l'entreprise, dont le calcul, et en partie au paiement des impôts dus sur les actions attribuées aux salariés.\nLe prospectus réserve 10 milliards du placement privé à Nvidia\nLe communiqué du 18 novembre ne dit rien du placement privé. Le prospectus amendé le 10 novembre en fixait les montants en dollars, d'après le relevé de Leverage Shares : 10 milliards pour Google, 10 milliards pour Nvidia, 2,5 milliards pour AMD, un milliard chacun pour Broadcom, Micron et Microsoft, 500 millions pour TSMC. Seul le nombre d'actions, sans droit de vote, dépend du prix. Aucun retrait de Nvidia n'a été annoncé depuis la démission de Jensen Huang, le 12 novembre. Le prospectus définitif fixera la liste.\nÀ 83 dollars, les 26 milliards achètent environ 313 millions d'actions, 38 millions de moins qu'au milieu de la fourchette. Nvidia en reçoit 120 millions. Les sept industriels, actionnaires ou fournisseurs de calcul d'Anthropic, paient le même montant pour une part plus petite de la société.\nCet article ne constitue pas un conseil en investissement.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

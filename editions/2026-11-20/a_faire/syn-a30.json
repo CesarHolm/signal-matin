@@ -1,0 +1,64 @@
+{
+ "id": "syn-a30",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a30.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Le Monde\nRubrique : France\nDate du flux : 19/11/2026\nAuteur : Le Monde; Arthur Carpentier; Lorraine de Foucher; Clément Guillou; Corentin Lesueur; Laura Motet; Jérémie Pham-Lê\nTitre d'origine : Une enquête ouverte sur des fuites en provenance du ministère de l’intérieur vers le RN\n\nARTICLE :\nSOURCE 1 (Le Monde) :\nLe siège du Rassemblement national (RN) a encore été perquisitionné le lundi 9 novembre. Cette fois-ci, non pas par un service d’enquête financière, comme en juillet 2025 et en juin 2026, mais par l’inspection générale de la police nationale (IGPN), la police des polices. Selon les informations du Monde, les enquêteurs ont mené cette opération de perquisition dans le cadre d’une information judiciaire ouverte le 27 juillet par le parquet de Paris, dont les chefs sont « violation du secret professionnel », « violation du secret de l’enquête » et « recel » de ces délits.\nAu cœur des soupçons : des fuites d’informations confidentielles dont aurait bénéficié le RN et transmises par l’intermédiaire d’au moins un haut fonctionnaire du ministère de l’intérieur. Les enquêteurs de l’IGPN s’interrogent ainsi sur le rôle joué par Hugues Moutouh, secrétaire général du ministère de l’intérieur au moment des faits, dans la transmission de ces renseignements sensibles, qui portent sur des enquêtes judiciaires visant le parti d’extrême droite. Agé de 58 ans, Hugues Moutouh est l’actuel préfet de la région Centre-Val de Loire. Sollicité, le haut fonctionnaire, présumé innocent, n’était pas joignable au moment de la rédaction de cet article.\nIl vous reste 85.43% de cet article à lire. La suite est réservée aux abonnés.\n\nSOURCE 2 (RFI) :\nFrance: enquête ouverte sur des fuites du ministère de l'Intérieur en faveur du Rassemblement national\nSelon des révélations du journal Le Monde ce jeudi 19 novembre 2026, un ex-secrétaire général du ministère de l'Intérieur est soupçonné d'avoir fait fuiter des informations au profit du Rassemblement national. Actuel préfet de la région Centre-Val de Loire, Hugues Moutouh est convoqué par le ministre de l'Intérieur Laurent Nunez ce vendredi. Une enquête est en cours et des persuisitions ont été effectuées au siège du RN et place Beauvau ces derniers mois.\nPublié le :\nUne nouvelle enquête judiciaire vise le Rassemblement national (RN), parti d'extrême droite, à quelques mois de l'élection présidentielle de 2027 en France. Des perquisitions ont eu lieu au parti et au ministère de l'Intérieur, en raison de soupçons de fuites d'informations vers le RN impliquant un haut fonctionnaire.\nCes perquisitions, révélées par le quotidien Le Monde, ont été confirmées à l'AFP de source proche du dossier concernant le ministère de l'Intérieur, et par le parquet concernant le Rassemblement national.\nUn préfet et ex-secrétaire général de Beauvau soupçonné\nLe haut fonctionnaire soupçonné est l'ancien secrétaire général du ministère, Hugues Moutouh, actuellement préfet de la région Centre-Val de Loire, selon une source proche du dossier. Le parquet de Paris a indiqué avoir « ouvert le 27 juillet 2026 une information judiciaire portant sur des faits de violation du secret professionnel, violation du secret de l'enquête et recel de ces délits ». Après ces révélations, Laurent Nuñez a décidé de convoquer vendredi 20 novembre 2026 Hugues Moutouh, a appris jeudi l'AFP auprès de l'entourage du ministre de l'Intérieur.\nL'instruction avait été ouverte « à la suite de soupçons de fuites d'éléments liés à des enquêtes en cours concernant le parti d'extrême droite », a affirmé Le Monde.\nLe ministère de l'Intérieur et le siège du RN perquisitionnés\nLe ministère de l'Intérieur a été perquisitionné fin juillet, a indiqué une source proche du dossier à l'AFP. Le siège du RN a lui été perquisitionné le 9 novembre, selon le parquet de Paris. Le parti d'extrême droite, sollicité par l'AFP, a refusé de commenter « cette affaire en cours » et « rappelle le principe du secret de l'instruction ».\nSelon le parquet de Paris, cette nouvelle information judiciaire a été ouverte à la suite de la découverte d'éléments dans une autre perquisition dans le cadre d'une enquête menée par le parquet européen.\nDes éléments ont émergé, « laissant penser que le RN bénéficiait d'informations confidentielles sur des enquêtes judiciaires visant le parti en provenance d'au moins un cadre du ministère de l'Intérieur », explique Le Monde. Selon le quotidien, lors de la perquisition au siège du RN, les enquêteurs sont en outre tombés « nez à nez avec un procureur adjoint du parquet de Paris ».\nLe parquet a assuré à l'AFP que la présence de ce magistrat apparaissait « sans lien avec le dossier » ainsi qu'avec ses fonctions. Le magistrat a affirmé de son côté à l'AFP s'être « rendu là-bas pour prendre un café avec une connaissance ».\nLe RN au cœur d'une enquête du parquet européen\nL'enquête du parquet européen se poursuit par ailleurs sur de possibles détournements de fonds par Identité et Démocratie (ID), l'ex-groupe politique où siégeait le Rassemblement national de Jordan Bardella. Ce parquet européen, qui soupçonne un détournement d'argent par le groupe ID durant la législature 2019-2024, avait déjà ordonné une série de perquisitions le 30 juin dernier dans plusieurs pays, dont la France. Des perquisitions ont également eu lieu au Parlement européen mi-octobre.\nJordan Bardella lui-même est concerné par un volet de l'enquête du parquet européen. Il s'agit de soupçons de fraude aux fonds de l'UE pour des formations aux médias dont il aurait notamment bénéficié pendant la campagne présidentielle française de 2022.\nPar ailleurs, en France, il fait l'objet d'une plainte de l'association anticorruption Anticor, qui accuse l'actuel président du RN d'avoir occupé un emploi fictif d'assistant parlementaire européen en 2015 et participé à la production de faux. Le RN a vivement réfuté, dénonçant une « manipulation ».\nLa candidate du RN à l'élection présidentielle, Marine Le Pen, a par ailleurs été condamnée le 30 mars 2025, en première instance, pour détournement de fonds publics au préjudice du Parlement européen à cinq ans d'inéligibilité avec « exécution provisoire », c'est-à-dire immédiate. Sa peine a été réduite en appel à 15 mois d'inéligibilité, soit une durée déjà purgée, les magistrats faisant valoir « la préservation de la liberté de l'électeur » dans leur décision rendue le 7 juillet dernier.\nLa triple candidate à l'Élysée a dans la foulée formé un pourvoi en cassation, en cours d'examen, qui suspend sa peine principale d'un an de port d'un bracelet électronique.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

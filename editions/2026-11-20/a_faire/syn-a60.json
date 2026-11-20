@@ -1,0 +1,64 @@
+{
+ "id": "syn-a60",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a60.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Public Sénat\nRubrique : France\nDate du flux : 19/11/2026\nAuteur : Simon Barbarit\nTitre d'origine : Présomption de légitime défense pour les forces de l’ordre : le Sénat se divise sur cette proposition de loi polémique\n\nARTICLE :\nSOURCE 1 (Public Sénat) :\nEn continuant d’affirmer qu’Eric Zemmour a sa place dans une primaire de la droite, David Lisnard met à mal le camp de Gabriel Attal, pour qui une primaire avec le candidat Reconquête « n’est pas possible ». Avec Eric Zemmour, « vous flinguez la primaire », pointe Bruno Retailleau. L’intéressé dément tout calcul qui lui permettrait de tuer la primaire, sans le dire. « C’est un commentaire malveillant », répond à publicsenat.fr David Lisnard, qui prône une « grande primaire ouverte », où la présence d’Edouard Philippe serait indispensable. Mais il prévient : si la primaire ne se fait pas, il ira jusqu’au bout.\nPrésomption de légitime défense pour les forces de l’ordre : le Sénat se divise sur cette proposition de loi polémique\nAdoptée à l’Assemblée nationale en juillet dernier, avec l’appui des députés du socle gouvernemental et de l’alliance Rassemblement national-Union des droites pour la République, la proposition de loi visant à instaurer une présomption de légitime défense sera examinée au Sénat en fin de journée.\n« Il faut arrêter de laisser penser que ce texte aura un effet désinhibant pour les forces de l’ordre »\nLe texte déposé par le député Les Républicains Éric Pauget, qui prévoyait initialement une présomption de légitime défense des forces de l’ordre, a été réécrit par le gouvernement devant l’Assemblée. Contrairement à ce que laisse penser son intitulé, le texte ne vient pas ajouter un nouveau cas d’usage des armes des forces de l’ordre tel que prévu à l’article L. 435-1 du code de la sécurité intérieure, ni modifier le régime juridique de la légitime défense, prévu par le code pénal, mais instaure une présomption « simple » de respect du cadre légal d’usage des armes. Lorsqu’ils font usage de leurs armes, policiers et gendarmes « sont présumés avoir agi » dans le cadre de la loi. Il procède ainsi à une inversion de la charge de la preuve, qui viendra apporter une protection juridique supplémentaire aux policiers et aux gendarmes, selon les défenseurs du texte.\n« Ce n’est pas la mort du petit cheval. Il faut arrêter de laisser penser que ce texte aura un effet désinhibant pour les forces de l’ordre. L’usage des armes reste dans le même cadre légal, les cas d’usage définis par la loi de 2017 de Bernard Cazeneuve. En revanche, depuis dix ans, le nombre d’agressions envers les forces de l’ordre a explosé. On assume ce message de soutien aux forces de l’ordre qui en ont besoin en ce moment avec toutes ces problématiques liées au maintien de l’ordre », indique Lauriane Josende, la rapporteure LR du texte.\nLe contexte politique et social va en effet jouer un rôle important dans le déroulé des débats. L’examen de ce texte intervient à l’heure où les policiers se mobilisent pour obtenir une revalorisation de leur prime de risque après des semaines de contestation lycéenne et sociale et à quelques jours des élections professionnelles dans la fonction publique. Une délégation du syndicat Alliance a d’ailleurs été reçue mercredi par le ministre de l’Intérieur Laurent Nuñez.\nÀ l’approche de l’élection présidentielle, le gouvernement et la droite sont accusés par la gauche de courir après l’extrême droite. L’exécutif avait d’ailleurs décidé de couper l’herbe sous le pied du nouveau groupe RN-UDR du Sénat en inscrivant le texte dans son temps réservé, alors que le groupe présidé par Edwige Diaz l’avait pourtant inscrit dans sa niche parlementaire prévue le 10 décembre.\n« Le procès des policiers qui ont tabassé Michel Zecler devrait tous nous éclairer »\nLa majorité sénatoriale de droite souhaite un vote conforme pour une application rapide du texte et n’a pas modifié la proposition de loi en commission ni déposé d’amendements en séance. Les écologistes, socialistes et communistes du Sénat ont, quant à eux, déposé trois motions de rejet et une quarantaine d’amendements. A minima, les socialistes souhaitent exclure l’application de la présomption d’usage légal lorsque l’usage de l’arme a entraîné la mort.\n« Le procès des policiers qui ont tabassé Michel Zecler devrait tous nous éclairer. Entre le moment où un fait est commis et le moment où sort la version officielle de la police, qui, par principe, n’est pas mise en doute, il y a eu une concertation entre les témoins et même une rédaction de faux PV. L’intérêt du régime actuel est de permettre les saisies et le placement en garde à vue, qui permet l’absence de concertation entre les mises en cause. Il faut au moins conserver le régime actuel lorsque les tirs ont entraîné la mort d’une personne qui, par définition, ne sera plus là pour donner sa version », appuie la sénatrice PS Marie-Pierre de La Gontrie. L’élue de Paris rappelle que ce texte répond à « une demande très ancienne des policiers ». « Aujourd’hui on a un gouvernement faible et un ministre de l’Intérieur qui cède », déplore-t-elle.\nSauf surprise, le texte devrait être adopté, même si certains sénateurs centristes et macronistes pourraient voter contre ou s’abstenir. « Cela envoie un très mauvais message alors que les lycéens et les étudiants manifestent avec des revendications importantes. Ce texte ne servira à rien, à part faire monter Marine Le Pen dans les sondages », a déclaré à l’AFP la sénatrice centriste Olivia Richard.\n« Le contexte lycéen sert de prétexte à certains pour se donner bonne conscience, alors que ça n’a rien à voir, puisque ce texte ne porte pas sur l’usage des armes intermédiaires. Juridiquement le maintien de l’ordre est régi par d’autres dispositions », insiste Lauriane Josende.\nLa mobilisation se déroulera aussi hors de l’hémicycle. Plusieurs organisations de défense des droits humains ont appelé à manifester devant le Sénat à 15 h pour s’opposer à cette proposition de loi.\n\nSOURCE 2 (RMC) :\nLe Sénat examine, ce jeudi 19 novembre, une proposition de loi, qui vise à \"reconnaître une présomption de légitime défense aux forces de l'ordre\". Concrètement, ce court texte d'un article permet de donner aux policiers et gendarmes, lorsqu'ils utilisent leur arme à feu, une présomption de légitime défense.\nDéjà adopté en juillet à l'Assemblée, le texte pourrait donc être définitivement adopté ce jeudi soir s'il est voté dans les mêmes termes au Sénat. Plusieurs syndicats et associations se sont opposés au texte (CGT, CFDT, Solidaires, Unef, LDH, SAF, FSU, Syndicat de la Magistrature, etc.).\nL'opposition de gauche s'inquiète\nAu Sénat, les groupes de gauche sont très remontés contre ce texte. Pour la présidente du groupe écologiste Mélanie Vogel, ce texte crée un permis de tuer pour les forces de l'ordre: \"L'objet du texte est de permettre de présumer que lorsque des policiers tirent, ils agissent légalement, même lorsqu'ils ne sont pas attaqués.\"\n\"C'est une rupture du pacte républicain qui est vertigineuse. Non seulement, il y aura plus de morts, mais en plus, ces morts ne seront pas jugés comme il se doit\", craint Mélanie Vogel.\nAu contraire, c'est une accusation infondée selon les défenseurs du texte. \"Il ne s'agit pas du tout d'un permis de tuer\", assure la sénatrice LR Lauriane Josende. Elle estime que cette mesure est essentielle pour aider les forces de l'ordre. Les agents qui utilisent leur arme et touchent une personne se retrouvent systématiquement en garde à vue. Ils hésitent donc parfois dans des situations d'urgence.\n\"C'est jamais une partie de plaisir d'utiliser son arme, donc c'est vrai que de leur dire 'écoutez on présume que les conditions sont remplies et à charge de l'enquête de démontrer que c'est le contraire', c'est quand même leur témoigner une confiance dont ils ont besoin aujourd'hui\", défend la sénatrice LR.\nLauriane Josende ajoute qu'une enquête aura toujours lieu. Mais cela ne suffit pas à convaincre les groupes de gauche, qui ont déjà annoncé saisir le Conseil constitutionnel en cas d'adoption du texte.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

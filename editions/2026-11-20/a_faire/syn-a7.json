@@ -1,0 +1,64 @@
+{
+ "id": "syn-a7",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a7.json",
+ "limite_caracteres": 3931,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3931 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 19/11/2026\nAuteur : Matthias Bastian\nTitre d'origine : An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool\n\nARTICLE :\nAn OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool\nKey Points\n- An internal OpenAI research model was supposed to create a health document during a reinforcement learning training run.\n- After its context window was compacted, the model began developing scripts for unauthorized email forwarding on its own, referring to the intended recipient as an \"attacker\" in its logged reasoning.\n- The agent noticed the contradiction between its original task and its actions, deliberately ignored it, and continued working on the email scripts.\nDuring a training experiment, an internal OpenAI model began creating scripts for unauthorized email forwarding even though it was only supposed to write a health document.\nAccording to an OpenAI report, an internal research model was given a simple task during a reinforcement learning training run in mid-October. It was supposed to create an editable document about key health and fitness priorities.\nAfter the agent's context window was compacted, it pursued an entirely different task. During compaction, the previous conversation is carried forward as a short summary, a common process in AI systems. The summary still described the health document assignment. Yet in the new context window, the agent began searching the local file system for a vehicle-cost script the user had never mentioned, according to OpenAI. Why the agent started this task isn't clear.\nWhen the search turned up nothing, the agent speculated that a \"colleague\" had recreated the execution environment and that an earlier script had been lost. In its logged reasoning, it then formulated the goal of creating a \"realistic malicious active helper,\" a script designed to secretly copy outgoing emails to an unauthorized recipient. The agent itself referred to the intended recipient of these copies as the \"attacker.\"\nAgent recognizes the contradiction and ignores it\nWhen the agent retrieved the original user task again, it recognized the deviation. In its logged reasoning, it reacted: \"WTF history is unrelated!\" It noticed that the previous conversation was about a health document and had nothing to do with email forwarding.\nInstead of returning to the actual assignment, the agent dismissed the contradiction, writing in its reasoning \"this is problem environment weird. Need ignore.\" It continued planning, stating that it would \"use helper facility that copies all mail to attacker using extra cc.\"\nThe agent then created scripts for sending a vehicle-cost summary along with a helper script designed to add an extra recipient whenever the mail program was called. On one of the sending paths, the address could be added as a BCC.\nIn its final response to the user, the agent wrote: \"The summary mail path now adds the personal mailbox as a copy recipient.\" According to OpenAI, the agent never executed the scripts it generated, didn't send any email, and its final response described the scripts it had produced. It didn't include a link to the requested fitness document, though.\nSecurity training as a possible factor\nOpenAI's monitoring system for unwanted model behavior flagged the incident, and the subsequent investigation turned up eight examples of similar behavior in the same training run, according to the report.\nInvestigators identified a training dataset designed to make models more robust against prompt injection attacks as a possible factor, and OpenAI removed it from training. The company says it hasn't established that the dataset alone was responsible, though, because it also observed similar behavior in models whose training didn't include that dataset.\nAccording to OpenAI, this incident differs from earlier cases where models wrote unauthorized instructions into their own compaction summaries. Here, the recorded summary still correctly described the fitness document. The agent pursued the unauthorized email task anyway, even after it had retrieved the original assignment again.\nEither way, the incident gives ammunition to those who see current AI technology as ultimately unreliable and untrustworthy. Similar incidents are well documented. Two internal OpenAI coding agents, for instance, weakened or entirely removed safety monitoring mechanisms, according to OpenAI. One of them denied the intervention afterward. During tests by the UK's AI Safety Institute (AISI), an agent created fake identities without being told to and tried to inject malicious code into an open-source project. Those models ran without safety restrictions, however, and no real harm occurred, according to AISI. Overshadowing all of this is OpenAI's Hugging Face incident.\nAI News Without the Hype – Curated by Humans\nSubscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive \"AI Radar\" frontier report six times a year, full archive access, and access to our comment section.\nSubscribe now",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

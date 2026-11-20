@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a98\", \"source\": \"South China Morning Post\", \"titre\": \"Nuclear arms, energy supplies - but no Kim: the main takeaways from a historic Apec summit\", \"resume\": \"Thursday’s Asia-Pacific Economic Cooperation (Apec) summit in Shenzhen saw unprecedented three-way talks between Xi Jinping, Donald Trump and Vladimir Putin as well as separate bilateral meetings between the presidents. Here are some of the key events from this important day of China diplomacy. Nuclear pledge In a peace declaration after the three-way summit, the three heads of state reaffirmed that a nuclear war “cannot be won and must never be fought”. They also pledged to hold further talks...\"}, {\"id\": \"a88\", \"source\": \"Politico Europe\", \"titre\": \"EU-UK summit — live updates\", \"resume\": \"The British PM is in Brussels to ink a host of post-Brexit agreements — and start talking about what comes next.\"}, {\"id\": \"a172\", \"source\": \"Sciences et Avenir\", \"titre\": \"Mesurer le temps : une révolution se prépare\", \"resume\": \"La Conférence générale des poids et mesures a décidé d’engager une redéfinition de la seconde et adopté deux autres résolutions qui modifieront notre rapport au temps, sur Terre comme dans l’espace.\"}, {\"id\": \"a176\", \"source\": \"Sciences et Avenir\", \"titre\": \"Un rare squelette de dinosaure entre aux collections nationales\", \"resume\": \"Dubreuillosaurus valesdunensis, un dinosaure carnivore vieux de 167 millions d'années découvert en 1994 en France va finalement faire partie des collections nationales. Il avait été craint un temps que ce fossile exceptionnel soit vendu à des collectionneurs privés.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

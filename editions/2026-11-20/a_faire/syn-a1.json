@@ -1,0 +1,64 @@
+{
+ "id": "syn-a1",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a1.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : ActuIA\nRubrique : IA\nDate du flux : 19/11/2026\nAuteur : Stephane Nachez\nTitre d'origine : Microsoft lance une initiative pour rendre les agents d'IA vérifiables\n\nARTICLE :\n« Ce que le modèle nous dit de lui-même n'est pas une preuve indépendante. » Satya Nadella a prononcé cette phrase le 17 novembre 2026 à San Francisco, en ouvrant Ignite, la conférence de Microsoft pour les entreprises, selon la version éditée de son discours publiée sur le blog officiel du groupe. Le PDG a annoncé dans la foulée l'AI Transparency Initiative. Le communiqué parle de plus de 40 organisations associées et en nomme cinq : Accenture, Adobe, KPMG, Mastercard et Volvo Cars. ActuIA l'a signalée le 18 novembre dans une brève.\nL'annonce clôt un automne pendant lequel Microsoft a vendu aux directions informatiques l'idée qu'un agent d'IA se surveille comme un salarié à risque. Les contrôles livrés jusqu'ici observent ce qui entoure le modèle, et l'éditeur écrit lui-même qu'ils ne suffisent pas.\nL'initiative compte trois volets et aucun livrable daté\nLe premier volet passe par Washington. Microsoft dit vouloir élargir sa participation à l'initiative du NIST, l'institut américain des standards et de la technologie, sur les standards d'agents. Ce programme a été lancé le 17 février 2026 par le CAISI, le centre du NIST chargé des standards d'IA. Il vise des lignes directrices volontaires et des protocoles portés par l'industrie. Au 19 novembre, sa page, mise à jour le 9 novembre, n'affiche que trois modalités de participation dont les échéances, les 9 mars, 20 mars et 2 avril, sont passées.\nLe deuxième volet réunit les partenaires autour de standards ouverts pour des systèmes d'IA responsables, vérifiables de manière indépendante et sûrs par conception, quel que soit le modèle ou le fournisseur. Le troisième engage les produits maison. Microsoft intégrera ces travaux à Microsoft AI, à Foundry et à Copilot, pour que les clients exploitent les preuves produites avec leurs outils de sécurité et de conformité, de Microsoft ou d'autres fournisseurs.\nLe communiqué ne fixe aucun calendrier et ne publie ni projet de spécification ni format de journal. Les organisations intéressées sont renvoyées vers un formulaire d'inscription. Ni OpenAI ni Anthropic, dont Microsoft distribue les modèles, ne figurent parmi les cinq noms cités.\nMicrosoft propose de confronter le récit du modèle à d'autres enregistrements\nLe communiqué s'organise autour de trois verbes, voir, vérifier et contrôler. « Les agents ne peuvent pas être la seule source de vérité sur leur propre comportement », écrit Microsoft, pour qui l'on ne peut pas non plus compter sur les modèles de pointe pour se gouverner eux-mêmes. Chaque élément de preuve sur l'identité de l'agent, l'intention qui lui a été déléguée et ses actions devrait indiquer d'où il vient : du modèle, de l'environnement d'exécution qui l'entoure, ou de systèmes indépendants comme ceux qui gèrent l'identité et les règles. Ce que le modèle déclare pourrait alors être confronté à des enregistrements observés ailleurs. L'entreprise devrait pouvoir mener cette vérification avec ses propres outils, sans s'en remettre uniquement au récit que le fournisseur du modèle fait de son comportement.\nLe mécanisme, lui, est décrit au conditionnel. Le texte ne dit pas qui exploite les systèmes indépendants, ni si un tiers audite l'ensemble. Le 10 octobre, dans un texte personnel, Satya Nadella demandait que chaque action significative d'un modèle laisse une preuve « infalsifiable et lisible par un humain ». Le mot ne figure pas dans le communiqué du 17 novembre.\nDans l'offre de Microsoft, l'identité des agents et l'accès conditionnel relèvent d'Entra, un produit de l'éditeur. Dans Microsoft 365, les enregistrements indépendants viendraient donc du même fournisseur que Copilot. L'indépendance décrite est celle du système de contrôle vis-à-vis du modèle. Elle ne s'étend à l'éditeur que si le format des preuves est ouvert et lisible par des outils concurrents, ce que le communiqué promet sans en avoir publié le format.\nUne partie seulement des contrôles d'octobre passe en disponibilité générale\nLe 19 octobre, l'éditeur détaillait sa doctrine : une identité et un registre pour chaque agent, un niveau de risque recalculé en continu, des droits qui se resserrent. ActuIA relevait alors que le billet ne donnait ni statut ni date pour ces nouveautés, et que le rendez-vous était fixé à Ignite.\nLe 17 novembre, ce qui passe en disponibilité générale tient à des briques voisines ou plus anciennes. Project Perception, ouvert en octobre sur invitation à un petit nombre de clients, devient Microsoft Perception et passe en disponibilité générale, d'après le Book of News de la conférence. ActuIA en a rendu compte dans une brève. La protection à l'exécution des agents installés sur les postes Windows, en préversion un mois plus tôt, est en disponibilité générale pour une liste d'agents nommés, dont Claude Code et GitHub Copilot CLI. Elle est destinée aux clients de Defender for Endpoint P2. La gestion automatisée du cycle de vie des identités d'agents est elle aussi en disponibilité générale : elle vérifie que chaque agent a un parrain humain, et une règle fournie d'origine désactive les identités inactives depuis 60 jours, détaille le blog d'Entra.\nLe cœur du dispositif d'octobre n'est qu'en préversion. Dynamic Agent Risk, le score de risque, est en préversion dans Agent 365, selon le Book of News. Les nouveaux agents et playbooks de Perception chargés de confiner les agents d'IA restent en préversion limitée, écrit le blog Microsoft Security. Il en va de même des permissions dynamiques d'Entra ID Governance, qui accordent des accès limités à une tâche et à une durée, et des contrôles dynamiques de l'accès conditionnel, qui ajustent les protections quand le risque change. Microsoft ne publie pas les seuils de risque qui déclenchent une restriction. Le déploiement de Copilot Autopilot et de son identité d'agent, encore en préversion, a été détaillé par ActuIA le 18 novembre.\nLe même billet de sécurité fixe la limite de ces outils. Ils permettent de sécuriser et de confiner les agents, mais ils « ne donneront pas [aux clients] de visibilité sur la façon dont se comporte le modèle derrière un agent ». Sans cette visibilité, il est selon Microsoft difficile de dire, après une action lourde de conséquences, ce qui a été demandé et autorisé à l'IA, ce qui s'est passé entre la demande et le résultat, et si cela peut être vérifié de manière indépendante. Un mois plus tôt, le billet du 19 octobre annonçait que des signaux tirés du modèle, dont son raisonnement intermédiaire, alimenteraient Dynamic Agent Risk. Satya Nadella écrivait dès le 10 octobre que la transparence du raisonnement d'un modèle n'est, à elle seule, ni suffisante ni fiable.\nLe communiqué laisse la responsabilité au client\nLa responsabilité reste celle de l'organisation, écrit le communiqué, qui ajoute que blâmer l'IA n'est pas une réponse et que faire confiance au modèle n'est pas un contrôle. Le texte ne mentionne ni l'Union européenne ni l'AI Act. Pour mémoire, le règlement européen impose, au paragraphe 6 de son article 26, aux déployeurs de systèmes d'IA à haut risque de tenir les journaux générés automatiquement, dans la mesure où ils se trouvent sous leur contrôle, pendant une période adaptée à la destination du système et d'au moins six mois, sauf disposition contraire du droit de l'Union ou du droit national. L'obligation ne vise que les usages classés à haut risque, et Microsoft ne revendique aucune conformité.\nÀ ce stade, l'initiative est un constat et une méthode, sans produit associé. Ses trois sources de preuve permettent déjà d'interroger tout fournisseur d'agents, Microsoft compris, sur le composant qui a produit chaque enregistrement d'audit, sur celui qui l'exploite et sur la possibilité d'exporter ces enregistrements sans perte vers un outil de sécurité tiers.\nAu 19 novembre, veille de la clôture d'Ignite, ActuIA n'avait trouvé chez Microsoft, sur l'initiative, que le communiqué, le discours et ses reprises, un passage du blog de sécurité et un formulaire d'inscription.\nCitations traduites de l'anglais par ActuIA.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

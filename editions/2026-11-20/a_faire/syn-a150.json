@@ -1,0 +1,64 @@
+{
+ "id": "syn-a150",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a150.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : safety4sea\nRubrique : Sanctions et export\nDate du flux : 19/11/2026\nAuteur : The Editorial Team\nTitre d'origine : European Commission establishes new EU Sanctions Office to strengthen enforcement\n\nARTICLE :\nSOURCE 1 (safety4sea) :\nThe European Commission has established a new EU Sanctions Office to improve sanctions implementation, strengthen enforcement and prevent circumvention across the bloc.\nnnounced on 18 November 2026, the new office will bring together expertise covering the entire sanctions process, from policy development to implementation, enforcement and cooperation with third countries. The changes will take effect on 16 January 2027.\nAccording to the Commission, the office will support EU Member States through faster compliance guidance, improved data sharing, and economic and technical analysis to ensure more consistent implementation of sanctions.\nIts responsibilities will cover all EU sanctions regimes, particularly those concerning Russia, Belarus, Iran, North Korea and Syria, as well as measures related to hybrid threats and organized crime.\nThe initiative follows the expansion of EU sanctions in response to Russia’s invasion of Ukraine. Since the beginning of the war, the EU has adopted 21 sanctions packages, increasing the need for stronger coordination and enforcement.\nAs previously highlighted, the EU’s 21st sanctions package introduced additional compliance requirements for shipping, including restrictions targeting Russia’s energy revenues and sanctions-circumvention networks.\nMore recently, the EU expanded sanctions against Russia’s shadow fleet support network, building on measures covering vessels providing operational support to sanctioned tankers, including bunkering and ship-to-ship transfer services.\nThe office will operate within the Commission’s Secretariat-General under the political responsibility of Commissioner Maria Luís Albuquerque. It will bring together expertise from several Commission departments, including those responsible for financial services, trade, taxation and customs, and anti-fraud activities.\nWorking closely with Member States and international partners, we will reinforce implementation, close loopholes and prevent circumvention. A stronger, more coordinated European approach will make our sanctions more effective and our external action more credible.\n… said Maria Luís Albuquerque, Commissioner for Financial Services and the Savings and Investments Union.\nA key responsibility will be supporting the EU Sanctions Envoy in preventing sanctions circumvention, particularly through alternative trade routes, financial channels and procurement networks. This work will involve cooperation with third countries to address potential loopholes.\nThe Commission has also appointed Lars Danielsson as the new International Special Envoy for the Implementation of EU Sanctions. He will assume the position on 6 February 2027, succeeding David O’Sullivan.\nCommenting on the initiative, European Commission President Ursula von der Leyen emphasized the importance of effective implementation and enforcement.\nTo be effective, they must be fully implemented, rigorously enforced and protected against circumvention\n… she stated, referring to EU sanctions.\nThe new structure is intended to strengthen coordination between EU institutions, Member States and international partners, while supporting more consistent enforcement across existing sanctions regimes.\n\nSOURCE 2 (EU NEIGHBOURS east) :\nOn 18 November, the European Commission created a new EU Sanctions Office to bring together the Commission’s expertise on the entire sanctions lifecycle, from policy design to implementation, enforcement, and anti-circumvention, including outreach to and engagement with third countries. This approach will ensure the role of sanctions coordination for the EU vis-à-vis Member States and third countries, and is relevant for all sanctions regimes, in particular Russia and Belarus but also Iran, North Korea, Syria, and hybrid and organised crime.\nThe EU Sanctions Office will support Member States with faster compliance guidance, data sharing, and economic and technical analysis to ensure harmonised implementation and enforcement of our sanctions.\nSince the start of Russia’s war of aggression against Ukraine, the EU has adopted 21 packages of sanctions. “As the demands on designing and implementing sanctions evolve, strengthening the Commission’s capacities and structures is essential,” the Commission said in a press release.\n“EU sanctions are a central part of our response to Russia’s war of aggression against Ukraine. With each package we are eroding the foundations of Russia’s war economy,” said European Commission President Ursula von der Leyen. “But to be effective, they must be fully implemented, rigorously enforced and protected against circumvention. And that is why we are creating the EU Sanctions Office, to strengthen our capacity and ensure the impact of all our sanctions regimes.”\nThe EU Sanctions Office will be established within the Secretariat-General and will be under the political responsibility of Commissioner Maria Luís Albuquerque.\nA central part of the new Office’s work will be to support the EU Sanctions Envoy, whose role will be key to the EU’s efforts to prevent circumvention and work with partner countries. The Envoy engages with third countries to reduce the risk that EU sanctions are bypassed notably through alternative trade routes, financial channels, or procurement networks.\nThe Commission has appointed Lars Danielsson as International Special Envoy for the Implementation of EU Sanctions. Danielsson will take up the position on 6 February 2027, when the mandate of the current Envoy, David O’Sullivan, ends.\nDanielsson, a career Swedish diplomat with extensive diplomatic and EU experience, held senior positions in the Swedish Prime Minister’s Office, including as State Secretary for International and EU Affairs, and most recently served as Sweden’s Ambassador and Permanent Representative to the EU from 2016 to 2023.\nAs part of the creation of the new EU Sanctions Office, the Envoy will be attached to the Secretary-General and will keep a direct reporting line to Commissioner Albuquerque.\nThese changes will take effect on 16 January 2027.\nFind out more\nMore campaign pages:\nThis website is managed by the EU-funded Regional Communication Programme for the Eastern Neighbourhood ('EU NEIGHBOURS east’), which complements and supports the communication of the Delegations of the European Union in the Eastern partner countries, and works under the guidance of the European Commission’s Directorate-General for Enlargement and Eastern Neighbourhood, and the European External Action Service. EU NEIGHBOURS east is implemented by a GOPA PACE-led consortium..",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
