@@ -1,25 +1,7 @@
 {
- "tour": 2,
- "code": 3,
- "a_faire": [
-  "breves",
-  "syn-a1",
-  "syn-a113",
-  "syn-a124",
-  "syn-a139",
-  "syn-a150",
-  "syn-a165",
-  "syn-a197",
-  "syn-a203",
-  "syn-a30",
-  "syn-a39",
-  "syn-a4",
-  "syn-a60",
-  "syn-a66",
-  "syn-a67",
-  "syn-a7",
-  "syn-a8"
- ],
- "termine": false,
- "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  213 articles candidats, 2 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 27 candidats → 6 à développer, 4 brèves\n  france : 34 candidats → 5 à développer, 3 brèves\n  monde : 60 candidats → 5 à développer, 3 brèves\n  recherche : 19 candidats → 3 à développer, 3 brèves\n  veille : 28 candidats → 2 à développer, 2 brèves\n  curiosites : 45 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a30 complété par : RFI\n  a39 complété par : franceinfo\n  a60 complété par : RMC\n  a98 écarté des développés : texte trop court (501 car.)\n  a88 écarté des développés : texte trop court (709 car.)\n  a66 complété par : Lakeshore Public Media\n  a113 complété par : Al Jazeera\n  a124 : papier lu en PDF (40007 car.)\n  a150 complété par : EU NEIGHBOURS east\n  a165 complété par : Euromaidan Press, Euromaidan Press\n  a172 écarté des développés : texte trop court (198 car.)\n  a176 écarté des développés : texte trop court (266 car.)\n  plan : sans pages, 16 articles (16 longs)\n· Lot 2 : synthèses (Sonnet)\n… 17 demande(s) en attente : breves, syn-a4, syn-a7, syn-a1, syn-a8, syn-a30, syn-a39, syn-a60, syn-a67, syn-a66, syn-a113, syn-a124, syn-a139, syn-a150, syn-a165, syn-a197, syn-a203\nA_FAIRE 17 : a_faire/breves.json a_faire/syn-a4.json a_faire/syn-a7.json a_faire/syn-a1.json a_faire/syn-a8.json a_faire/syn-a30.json a_faire/syn-a39.json a_faire/syn-a60.json a_faire/syn-a67.json a_faire/syn-a66.json a_faire/syn-a113.json a_faire/syn-a124.json a_faire/syn-a139.json a_faire/syn-a150.json a_faire/syn-a165.json a_faire/syn-a197.json a_faire/syn-a203.json\n"
+ "tour": 3,
+ "code": 0,
+ "a_faire": [],
+ "termine": true,
+ "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  213 articles candidats, 2 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 27 candidats → 6 à développer, 4 brèves\n  france : 34 candidats → 5 à développer, 3 brèves\n  monde : 60 candidats → 5 à développer, 3 brèves\n  recherche : 19 candidats → 3 à développer, 3 brèves\n  veille : 28 candidats → 2 à développer, 2 brèves\n  curiosites : 45 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a98 écarté des développés : texte trop court (501 car.)\n  a88 écarté des développés : texte trop court (709 car.)\n  a172 écarté des développés : texte trop court (198 car.)\n  a176 écarté des développés : texte trop court (266 car.)\n  plan : sans pages, 16 articles (16 longs)\n· Lot 2 : synthèses (Sonnet)\n! Flux indisponibles : EDPB, ESA\n✓ Édition prête : 16 articles, 19 brèves\n=== agent ===\n✓ Version numérique : /home/runner/work/signal-matin/signal-matin/output/mobile/2026-11-20-signal-matin.html\n· Envoi via Resend (HTTPS)\n✓ E-mail envoyé (1 destinataire(s))\n"
 }
