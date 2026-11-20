@@ -1,0 +1,29 @@
+{
+ "titre": "Voyager 1 atteint une journée-lumière de la Terre",
+ "chapo": "La sonde Voyager 1, l'engin spatial le plus lointain de l'humanité, a franchi le 18 novembre une distance d'une journée-lumière après plus de 49 ans de voyage.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "La sonde Voyager 1 de la NASA a atteint une journée-lumière de la Terre le 18 novembre à 2 h 16 du matin, heure du Pacifique (5 h 16, heure de l'Est), après plus de 49 ans de voyage ininterrompu. Une journée-lumière est la distance parcourue par la lumière en 24 heures, soit environ 25,9 milliards de kilomètres (16,1 milliards de miles). Les membres de l'équipe du Jet Propulsion Laboratory (JPL), en Californie du Sud, géré par Caltech, ont reçu un signal de la sonde 24 heures plus tard, le temps que son signal radio, qui se propage à la vitesse de la lumière, parvienne à la Terre, tôt le jeudi."
+  },
+  {
+   "intertitre": "Mesurer l'espace avec la lumière",
+   "texte": "Les scientifiques mesurent les grandes distances de l'espace avec la lumière, qui se déplace à environ 299 000 kilomètres par seconde dans le vide. Un rayon de soleil met environ 1,3 seconde pour atteindre la Lune, environ quatre heures pour Neptune, puis encore 20 heures pour rejoindre Voyager 1. À titre de comparaison, une année-lumière représente 9,46 billions de kilomètres (5,88 billions de miles). L'équipe ne reçoit plus de données scientifiques ni techniques de Voyager 1 depuis le 14 novembre, mais la sonde émet toujours un signal porteur, qui sert d'ordinaire à acheminer ces données. Les ingénieurs ont confirmé le jalon grâce à ce signal et à des calculs de trajectoire, et continuent d'analyser le problème."
+  },
+  {
+   "intertitre": "Deux sondes dans l'espace interstellaire",
+   "texte": "Voyager 1 et sa jumelle Voyager 2, lancées en 1977 pour profiter d'un alignement planétaire rare, sont les seules sondes de l'humanité dans l'espace interstellaire. Gérées par le JPL, elles ont été les troisième et quatrième engins à visiter Jupiter et Saturne et les premières à en rapporter des images en haute résolution. Voyager 2 a ensuite étudié les géantes de glace, Neptune et Uranus. Voyager 1, qui se déplace à environ 61 155 km/h, est devenue en 2012 le premier engin à quitter l'héliosphère, la bulle de particules et de champs magnétiques créée par le Soleil, qui dévie le rayonnement cosmique ; Voyager 2, sur une autre trajectoire, a franchi cette limite en 2018. Les deux sondes mesurent encore les variations du champ magnétique du Soleil à très grande distance et portent un Disque d'or, un disque de cuivre doré rassemblant images et sons de la Terre, message destiné à une éventuelle civilisation avancée."
+  },
+  {
+   "intertitre": "Les défis techniques",
+   "texte": "Des solutions d'ingénierie ont permis aux sondes d'économiser l'énergie et de surmonter les problèmes d'un matériel vieillissant, dont des propulseurs obstrués et un ordinateur défaillant. Cette année, les ingénieurs ont éteint trois dispositifs de Voyager 1 pour les remplacer par trois équivalents moins gourmands, une manœuvre non dénuée de risque, afin d'exploiter au mieux le générateur thermoélectrique à radioisotope vieux de 50 ans, sorte de pile nucléaire qui convertit en électricité la chaleur issue de la désintégration du plutonium. Les deux sondes perdent environ 4 watts par an. Cette dernière économie devrait leur permettre de maintenir leurs instruments scientifiques actuels en service jusqu'au moins leur 50e anniversaire de lancement, l'été prochain. Les communications passent par le Deep Space Network de la NASA, de grandes antennes réparties sur trois sites dans le monde."
+  },
+  {
+   "intertitre": "Ce que disent les responsables",
+   "texte": "Linda Spilker, scientifique du projet au JPL, relève une surprise : le Soleil continue d'influencer l'espace interstellaire jusqu'à Voyager 1, et la sonde pourrait tenir assez longtemps pour dire où cette influence s'arrête. Suzanne Dodd, directrice du projet, explique que l'équipe écoute Voyager 1 chaque jour et lui envoie des commandes chaque semaine ; les signaux mettent désormais 24 heures à l'atteindre et 24 heures à revenir. Un jour, quand elle ne pourra plus communiquer, la sonde deviendra l'ambassadrice silencieuse de l'humanité auprès des étoiles."
+  }
+ ],
+ "synthese": "En franchissant une journée-lumière, Voyager 1 marque un nouveau jalon, alors que la perte de données scientifiques depuis le 14 novembre est en cours d'analyse. Les économies d'énergie doivent maintenir ses instruments actifs jusqu'au moins l'été prochain.",
+ "republication": "",
+ "sources_ecartees": []
+}
