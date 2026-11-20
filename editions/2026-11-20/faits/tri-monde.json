@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a98",
+      "score": 9,
+      "raison": "Sommet trilatéral Xi–Trump–Putin à Shenzhen, en marge de l'APEC : déclaration sur le nucléaire et l'énergie, absence de Kim Jong-un."
+    },
+    {
+      "id": "a67",
+      "score": 8,
+      "raison": "Arrêt de la Cour internationale de justice : les forces birmanes ont agi avec une intention génocidaire contre les Rohingya."
+    },
+    {
+      "id": "a88",
+      "score": 7,
+      "raison": "Sommet UE–Royaume-Uni à Bruxelles : signature de plusieurs accords post-Brexit et ouverture de la suite des relations."
+    },
+    {
+      "id": "a66",
+      "score": 6,
+      "raison": "Réserve : élections de mi-mandat américaines, avec un écart de 14 points en faveur des démocrates à la Chambre, le plus large depuis 50 ans."
+    },
+    {
+      "id": "a113",
+      "score": 6,
+      "raison": "Réserve : escalade des tirs de missiles houthis sur Riyad, dans le contexte de la guerre en Iran."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a97",
+      "titre": "La FCC interdit aux opérateurs télécoms chinois l'accès direct aux numéros américains",
+      "texte": "La Commission fédérale des communications (FCC) a voté l'interdiction, pour China Mobile, China Telecom, China Unicom et d'autres fournisseurs de services IP, d'accéder directement aux numéros de téléphone américains. Elle invoque la sécurité nationale, quelques heures après l'entretien entre Donald Trump et Xi Jinping à Shenzhen."
+    },
+    {
+      "id": "a119",
+      "titre": "Poutine déploie son plus important dispositif aérien en Asie du Sud-Est depuis dix ans",
+      "texte": "En marge de l'APEC, la Russie a procédé au plus important déploiement de forces aériennes en Asie du Sud-Est depuis une décennie. Deux bombardiers nucléaires russes ont violé l'espace aérien japonais et se sont approchés de Taïwan."
+    },
+    {
+      "id": "a110",
+      "titre": "Haïti : la police affirme avoir tué 34 membres de gangs lors d'un raid à Port-au-Prince",
+      "texte": "Selon la police haïtienne, au moins 34 membres de gangs ont été tués lors d'une opération menée dans la capitale, Port-au-Prince. Le bilan provient des autorités policières."
+    }
+  ]
+}

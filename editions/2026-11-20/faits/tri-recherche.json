@@ -1,0 +1,36 @@
+{
+  "developpes": [
+    {
+      "id": "a124",
+      "score": 8,
+      "raison": "Essai randomisé sur des entreprises sociales indiennes : les firmes qui mesurent leur impact ont presque deux fois plus de croissance de revenus et lèvent presque deux fois plus de capitaux."
+    },
+    {
+      "id": "a139",
+      "score": 7,
+      "raison": "Méta-analyse de données individuelles de patients : l'atteinte rénale aiguë est associée à la mortalité dans le paludisme grave à Plasmodium falciparum."
+    },
+    {
+      "id": "a126",
+      "score": 6,
+      "raison": "Réserve : lien économétrique entre lois de scolarité obligatoire et écart de vote entre hommes et femmes aux États-Unis."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a134",
+      "titre": "Pew : une large majorité d'électeurs confiants dans les élections de mi-mandat 2026",
+      "texte": "Selon le Pew Research Center, 83 % des électeurs ayant voté aux élections de mi-mandat 2026 se disent globalement satisfaits de leur organisation à l'échelle nationale. Ils font davantage confiance au vote en personne qu'au vote par correspondance."
+    },
+    {
+      "id": "a131",
+      "titre": "Pew : des majorités défavorables à Donald Trump et à JD Vance",
+      "texte": "Selon une enquête du Pew Research Center menée du 9 au 15 novembre 2026 auprès de 10 247 adultes, la majorité des Américains ont une opinion défavorable de Donald Trump et de JD Vance. Les principaux membres de l'administration et les dirigeants démocrates du Congrès sont aussi jugés plus défavorablement que favorablement."
+    },
+    {
+      "id": "a130",
+      "titre": "Pew : l'optimisme des démocrates rebondit, celui des républicains tombe à un plus bas",
+      "texte": "Selon le Pew Research Center, l'optimisme des démocrates sur l'avenir de leur parti rebondit. Chez les républicains, il tombe à son niveau le plus bas depuis une décennie."
+    }
+  ]
+}

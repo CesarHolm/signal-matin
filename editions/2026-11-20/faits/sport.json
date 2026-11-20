@@ -1,0 +1,22 @@
+{
+  "resultats": [
+    {
+      "sport": "Tennis",
+      "affiche": "Zverev – Fils",
+      "score": "6-4 7-6 [6]",
+      "competition": "Finales ATP de Turin (circuit ATP), phase de groupes",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/Fin-de-parcours-aux-finales-atp-de-turin-pour-arthur-fils-battu-par-alexander-zverev/1744763#at_medium=RSS_feeds"
+    }
+  ],
+  "a_suivre": [
+    {
+      "sport": "Football",
+      "affiche": "Bayern – Cologne",
+      "competition": "Bundesliga (championnat d'Allemagne)",
+      "heure": "20 h 30",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401884736/fc-cologne-bayern-munich"
+    }
+  ]
+}

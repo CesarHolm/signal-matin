@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a172",
+      "score": 8,
+      "raison": "La Conférence générale des poids et mesures engage la redéfinition de la seconde et adopte deux autres résolutions sur notre rapport au temps."
+    },
+    {
+      "id": "a197",
+      "score": 7,
+      "raison": "La sonde Voyager 1 a atteint une distance d'une journée-lumière de la Terre, après plus de 49 ans de voyage."
+    },
+    {
+      "id": "a176",
+      "score": 6,
+      "raison": "Réserve : un dinosaure carnivore vieux de 167 millions d'années, découvert en 1994, entre dans les collections nationales."
+    },
+    {
+      "id": "a203",
+      "score": 5,
+      "raison": "Réserve : à la COP31 d'Antalya, Panama menace de bloquer l'adoption d'un texte final sur les énergies fossiles."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a188",
+      "titre": "Lézards : comment survivre à la chaleur sans transpirer",
+      "texte": "Les lézards, ectothermes, ne transpirent pas à proprement parler mais perdent de l'eau de façon passive, par évaporation à travers la peau. Selon The Conversation, ceux des milieux tropicaux perdent généralement davantage d'eau que ceux des milieux désertiques, leurs résistances étant adaptées à leur milieu."
+    },
+    {
+      "id": "a187",
+      "titre": "Pourquoi des continents entiers ont perdu des centaines de millions d'années de roches",
+      "texte": "Au Grand Canyon, la « Grande Discordance » sépare deux ensembles de couches d'âges très différents, comme si des chapitres entiers avaient été arrachés au livre de la Terre. Selon The Conversation, cette surface d'érosion aurait été préservée par un affaissement."
+    },
+    {
+      "id": "a194",
+      "titre": "Données Fermi : une méthode trouve les pulsars un million de fois plus vite",
+      "texte": "Des données ouvertes de la mission Fermi de la NASA ont permis à une équipe scientifique internationale de mettre au point une méthode de recherche de pulsars environ un million de fois plus rapide qu'auparavant. Ces objets, difficiles à repérer, pourront ainsi être découverts bien plus vite."
+    },
+    {
+      "id": "a216",
+      "titre": "Peres Jepchirchir suspendue trois ans pour dopage à l'EPO",
+      "texte": "L'Unité d'intégrité de l'athlétisme (AIU) a annoncé jeudi la suspension de trois ans de la Kényane, championne du monde de marathon et championne olympique à Tokyo en 2021. Elle a reconnu les faits."
+    }
+  ]
+}

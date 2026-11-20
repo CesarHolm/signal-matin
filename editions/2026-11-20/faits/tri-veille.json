@@ -1,0 +1,26 @@
+{
+  "developpes": [
+    {
+      "id": "a150",
+      "score": 8,
+      "raison": "La Commission européenne crée un Bureau des sanctions de l'UE et nomme un envoyé, pour renforcer l'application des sanctions."
+    },
+    {
+      "id": "a165",
+      "score": 6,
+      "raison": "Chine : durcissement des contrôles à l'exportation de composants de drones utilisés par la Russie, les pièces clés restant exemptées."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a142",
+      "titre": "HHS : règle finale modifiant la confidentialité HIPAA",
+      "texte": "Le 19 novembre 2026, le ministère américain de la santé (HHS) a publié une règle finale modifiant la règle de confidentialité HIPAA. Elle vise à faciliter l'accès des personnes à leurs informations de santé protégées et la coordination des soins, en reprenant de nombreux changements proposés en janvier 2021."
+    },
+    {
+      "id": "a161",
+      "titre": "Matériel de défense : nouvel assouplissement des contrôles à l'exportation",
+      "texte": "Selon une note du cabinet Sandler, Travis & Rosenberg, les contrôles à l'exportation de matériel de défense doivent être encore assouplis aux États-Unis. Ce changement touche directement la conformité des échanges internationaux de matériel militaire."
+    }
+  ]
+}

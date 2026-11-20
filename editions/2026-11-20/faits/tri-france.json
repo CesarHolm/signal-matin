@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a30",
+      "score": 9,
+      "raison": "Information judiciaire pour fuites de l'enquête vers le RN : perquisitions au siège du parti et au ministère de l'Intérieur, un ancien haut cadre soupçonné."
+    },
+    {
+      "id": "a39",
+      "score": 8,
+      "raison": "Gérard Larcher demande à Sébastien Lecornu d'avancer la présidentielle, dont le second tour est prévu le 2 mai, au lendemain du 1er-Mai."
+    },
+    {
+      "id": "a60",
+      "score": 7,
+      "raison": "Présomption de légitime défense pour les forces de l'ordre : le Sénat examine une proposition de loi contestée, sur fond de mobilisation policière."
+    },
+    {
+      "id": "a56",
+      "score": 6,
+      "raison": "Réserve : commission d'enquête sénatoriale sur l'affaire Lyhanna ; les plaintes pour violences sexuelles sur mineurs représentent un contentieux de masse."
+    },
+    {
+      "id": "a32",
+      "score": 6,
+      "raison": "Réserve : réquisitions de quatre à six ans de prison ferme contre trois policiers au procès des violences faites à Michel Zecler."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a36",
+      "titre": "Encadrement des loyers : la prolongation adoptée à l'Assemblée malgré l'obstruction du RN",
+      "texte": "Les députés ont adopté la prolongation de l'encadrement des loyers, malgré les amendements déposés en série par le RN pour bloquer la proposition de loi portée par le député socialiste Iñaki Echaniz. Le ministre du logement a finalement eu recours à l'article 44, alinéa 2 de la Constitution pour mettre fin à cette obstruction."
+    },
+    {
+      "id": "a48",
+      "titre": "Somme : 17 communes sinistrées après des pluies très abondantes",
+      "texte": "Dans la Somme, il est tombé l'équivalent d'un mois et demi de pluie en trois jours, selon le directeur de Météo Climat Pro. La préfecture comptait jeudi soir 17 communes sinistrées, avec des inondations et des routes submergées."
+    },
+    {
+      "id": "a54",
+      "titre": "Le Sénat veut pérenniser l'usage des titres-restaurant pour les produits alimentaires",
+      "texte": "Les sénateurs ont adopté une proposition de loi pour reconduire puis pérenniser l'achat de produits alimentaires non directement consommables avec des titres-restaurant, autorisé depuis 2022 à titre temporaire. Le texte introduit un double plafond pour favoriser certains produits et s'oppose à la généralisation du dimanche."
+    }
+  ]
+}
