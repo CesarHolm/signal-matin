@@ -1,0 +1,64 @@
+{
+ "id": "syn-a70",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a70.json",
+ "limite_caracteres": 3616,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 3616 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Politico Europe\nRubrique : Europe\nDate du flux : 20/11/2026\nAuteur : Johanna Treeck; Bjarke Smith-Meyer\nTitre d'origine : France and Germany complete political deal for ECB leadership\n\nARTICLE :\nSOURCE 1 (Politico Europe) :\nFRANKFURT — France and Germany on Friday submitted their candidates to fill two looming vacancies on the European Central Bank’s Executive Board, completing a political package that’ll decide the institution’s leadership for years to come.\nBerlin presented Markus Brunnermeier, a professor at Princeton University, as the ECB’s next chief economist, after the Irish incumbent Philip Lane concludes his eight-year term on May 31.\nParis put forward Laurence Boone — a former minister of Europe and political ally of President Emmanuel Macron — who is now head of corporate and investment banking at Santander, to take over the ECB’s markets portfolio. That post will become available on Jan. 4, when Isabel Schnabel leaves the ECB for a job at the International Monetary Fund.\n\nSOURCE 2 (Mezha.net) :\nFrance and Germany complete political deal on ECB leadership\nPhoto source: Politico\nThe nominations would give France the ECB’s markets portfolio and Germany the chief economist post, while clearing the way for Spain’s Pablo Hernández de Cos to become president.\nFrance and Germany submitted candidates on Friday for two upcoming vacancies on the European Central Bank’s Executive Board, completing a political package that will shape the institution’s leadership for years to come.\nThis is reported by Politico.\nGermany presented Princeton University professor Markus Brunnermeier as the ECB’s next chief economist. The role becomes vacant when incumbent Philip Lane’s eight-year term ends on May 31.\nFrance put forward Laurence Boone, a former Europe minister and political ally of President Emmanuel Macron who now heads corporate and investment banking at Santander, for the ECB’s markets portfolio. The post will become vacant on Jan. 4, when Isabel Schnabel leaves the ECB for a job at the International Monetary Fund.\nThe arrangement paves the way for former Spanish central bank governor Pablo Hernández de Cos to become ECB president once Christine Lagarde steps down on Feb. 7.\nThe Netherlands had hoped to secure the top job. Analysts said having Dutch and German monetary hawks in what are typically the ECB’s two most influential positions would have been unacceptable to the dovish south.\nIf approved, Boone would take on a pivotal role if strains in French and other European debt markets continue to worsen. The European Commission’s new forecasts show budget deficits widening next year in many eurozone members.\nIn an October interview with POLITICO, former ECB Chief Economist Peter Praet said the markets role matters most when market tensions increase pressure on the ECB to intervene in bond markets.\n“I think this would be a very strong board, combining deep economic expertise, extensive policymaking experience and strong international networks,” EFG Chief Economist Stefan Gerlach said. “These are all important qualities, particularly at a time when the ECB faces considerable economic and political uncertainty.”\n- Stefan Gerlach\nA board with extensive economic expertise would mark a break from the previous lineup, when former politicians Lagarde and Luis de Guindos held the presidency and vice-presidency. De Cos, Vice-President Boris Vujčić and payments chief Piero Cipollone are seasoned central bankers. Before entering politics, Boone was chief economist at the Organisation for Economic Co-operation and Development.\nING’s head of macro, Carsten Brzeski, said the reshuffle would make the six-member board look more apolitical, but that the process of filling its posts had been anything but.\n“It looks like another masterpiece of French diplomacy and strategic personnel policy,” he said. “With the move to opt for the markets operation, France gave the impression of passing the more important job of chief economist to Germany.”\n- Carsten Brzeski\n“However, with a Spanish president and France holding the markets operation, the risk of a more dovish ECB has clearly increased,” Brzeski said.\n- Carsten Brzeski\nOther topics you might like:\n- The European Central Bank launched Pontes, a blockchain settlement service, and will invest part of its funds in high-rated digital securities.\n- France's demand to remove Russian billionaire Alisher Usmanov from the EU sanctions list could jeopardize the renewal of restrictions targeting about 3,000 Russian entities and individuals.\n- The Netherlands and Germany reaffirmed support for the International Criminal Court and are exploring safeguards to keep it operating if the United States imposes sanctions.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

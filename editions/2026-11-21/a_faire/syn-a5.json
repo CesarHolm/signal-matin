@@ -1,0 +1,64 @@
+{
+ "id": "syn-a5",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a5.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : The Decoder\nRubrique : IA\nDate du flux : 20/11/2026\nAuteur : Manuel Uth\nTitre d'origine : Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats\n\nARTICLE :\nSOURCE 1 (The Decoder) :\nSignal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats\nSignal is restricting screenshots to stop AI agents from reading private chats. The app blocks screenshots on iOS 27 and triggers protection on supported Android versions when an AI assistant tries to access the screen. Signal warned Reuters of an \"existential threat\" to privacy.\nOS-level AI like Apple's Siri AI and Google's Gemini Intelligence can capture screen content to complete user tasks. That undermines end-to-end encryption by letting agents pull decrypted messages straight from the display and process them externally.\nMeta's AI agent Muse recently captured Signal content on Android and macOS through broad setup permissions, including accessibility tools and screenshots on macOS. Meta says this happened only with explicit user permission.\nSignal already blocked Microsoft's Recall on Windows but calls its defenses incomplete: macOS screenshots can't be reliably blocked, and AI access to file systems and notifications remains a risk. Signal says Apple, Google, and Microsoft should make it easy to block AI agents from apps entirely.\nTHE DECODER+\nAI News Without the Hype – Curated by Humans\n- Every Plus article and the full archive\n- No ad banners\n- Frontier Radar: 6 deep dives a year\nWhat is included\nAlready a subscriber? Sign in\n\nSOURCE 2 (Superpower Daily) :\nSignal adds screenshot restrictions to keep AI assistants out of private chats\nThe protections cover iOS 27 and supported Android devices. Signal says stopping screenshots is not enough—and wants operating-system makers to offer a broader way to exclude AI.\nSignal is adding phone-level barriers to AI assistants reading messages after they have been decrypted for display: screenshot blocking by default on iOS 27 and automatic Screen Security on supported Android devices. The measures do not cover every Android phone, and Signal says it cannot reliably block screenshots on macOS or prevent every route to data stored on a device. The company is asking operating-system makers for broader controls over agents’ access to app data, highlighting a privacy gap that encryption alone cannot close.\n01\nUsers can disable Signal’s screenshot restrictions in settings, but the company warns that doing so could expose chats.\n02\nSignal introduced similar protections against Microsoft Recall capturing messages on Windows 11 last year.\n03\nThe Decoder, citing Reuters, reported that Meta’s Muse agent captured Signal content after receiving broad permissions; Meta said access required explicit user permission.\nPrivate messages can become readable to an AI assistant once they appear on a screen, even when the conversation uses end-to-end encryption. Signal is adding a barrier at that point: screenshot restrictions on iOS 27 and automatic screen protection on supported Android devices when an assistant tries to read the display.\nSignal President Meredith Whittaker announced the measures in a November 20 blog post, according to Gizmodo. The changes target assistants’ ability to capture what users can see, rather than an attack on the encryption protecting a conversation. Signal is also asking operating-system makers for stronger controls over AI access to app data.\nDifferent defenses on different phones\niOS 27: Signal says screenshots will be blocked by default. The restriction is intended to stop AI assistants from capturing private messages through the screen.\nAndroid: On supported devices, Signal will automatically enable its existing Screen Security feature when it detects an AI assistant attempting to read the screen. Signal cautions that the protection will not work on every Android device.\nUsers can turn off the screenshot restrictions in Signal’s settings. The company warns that doing so could expose private conversations and break its privacy guarantees. The default therefore comes with an override, but Signal is explicitly discouraging users from treating that choice as having no effect on the privacy of their chats.\nThis extends a defense Signal has already used against another screen-capture system. Last year, it introduced similar restrictions to prevent Microsoft’s Recall from capturing messages on Windows 11. The new phone measures address the same point of exposure: message content visible on a device, rather than the encrypted conversation in transit.\nThe screen becomes another route into a conversation\nThe concern is not that an assistant must defeat Signal’s encryption to read a message. As The Decoder explains, operating-system AI can capture content after the app has decrypted it for display, then process it externally. That creates a route to readable messages outside the protection offered by encrypting the conversation.\nScreen access is also part of the usefulness promised for these assistants. In its September 14 announcement, Apple described Siri AI’s onscreen awareness as a way to answer questions or act on content a user is viewing. Apple also said the assistant could surface relevant information from messages, emails and photos.\nWhittaker’s warning concerns what happens after that access. She wrote that sensitive data could be captured, stored and made accessible to whichever local database or remote server an operating-system AI agent uses. Her objection extends beyond the person operating the assistant to the other people whose messages appear in the conversation.\nAll of this is outside of Signal’s control once the data has been captured, and imperils the privacy of all the participants in a conversation.\nMeredith Whittaker, Signal president, in a blog post quoted by Gizmodo\nA recent example involves Meta’s Muse agent. The Decoder, citing Reuters, reported that Muse captured Signal content on Android and macOS through broad permissions granted during setup, including accessibility tools and screenshots on macOS. Meta said the access happened only with explicit user permission. That response makes permission central to the dispute, rather than denying the access occurred.\nScreenshot blocking leaves other doors open\nSignal says it currently has no reliable way to prevent AI assistants from capturing screenshots on macOS. Even where screenshot restrictions work, the company acknowledges that they cannot prevent every possible method of access. An agent could potentially retrieve content already stored on a device through its filesystem—the files and folders accessible to software.\nSignal is asking operating-system makers for a broader exclusion tool: a straightforward way for developers to stop AI agents accessing app data through screen reading, files, notifications and other system features, without breaking the app’s core functions. It also wants stronger protections against third-party agents such as Muse, not just assistants built into the operating system.\nThe company also wants clearer explanations of how agents access and process data. Whittaker said Signal had spent considerable developer time investigating AI access across Android and iOS. For Signal, the request is both for a way to refuse access and a clearer view of what these systems are doing.\nSources\napple.comSiri AI, a profoundly more capable and personal assistant, is here\nthe-decoder.comSignal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats\ngizmodo.comSignal Is Fighting to Keep AI Agents Out of Your Private Messages",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

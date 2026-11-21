@@ -1,15 +1,24 @@
 {
- "tour": 1,
+ "tour": 2,
  "code": 3,
  "a_faire": [
-  "sport",
-  "tri-curiosites",
-  "tri-france",
-  "tri-ia",
-  "tri-monde",
-  "tri-recherche",
-  "tri-veille"
+  "breves",
+  "syn-a1",
+  "syn-a103",
+  "syn-a109",
+  "syn-a132",
+  "syn-a133",
+  "syn-a151",
+  "syn-a181",
+  "syn-a198",
+  "syn-a21",
+  "syn-a23",
+  "syn-a3",
+  "syn-a45",
+  "syn-a5",
+  "syn-a70",
+  "syn-a95"
  ],
  "termine": false,
- "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Collecte des flux\n· Sport\n  sport : 8 résultats, 33 matchs au programme, 127 dépêches\n  204 articles candidats, 3 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n… 7 demande(s) en attente : tri-ia, tri-france, tri-monde, tri-recherche, tri-veille, tri-curiosites, sport\nA_FAIRE 7 : a_faire/tri-ia.json a_faire/tri-france.json a_faire/tri-monde.json a_faire/tri-recherche.json a_faire/tri-veille.json a_faire/tri-curiosites.json a_faire/sport.json\n"
+ "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  204 articles candidats, 3 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 20 candidats → 6 à développer, 4 brèves\n  france : 33 candidats → 5 à développer, 3 brèves\n  monde : 52 candidats → 5 à développer, 3 brèves\n  recherche : 25 candidats → 4 à développer, 4 brèves\n  veille : 43 candidats → 4 à développer, 2 brèves\n  curiosites : 31 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a4 écarté des développés : texte trop court (1470 car.)\n  a5 complété par : Superpower Daily\n  a20 écarté des développés : texte trop court (1704 car.)\n  a7 écarté des développés : texte trop court (918 car.)\n  a45 complété par : Le Monde\n  a21 complété par : franceinfo\n  a23 complété par : lejdd.fr\n  a85 écarté des développés : texte trop court (500 car.)\n  a95 complété par : Al Jazeera\n  a70 complété par : Mezha.net\n  a132 : papier lu en PDF (40007 car.)\n  a151 complété par : The European Sting\n  a175 écarté des développés : texte trop court (1218 car.)\n  a133 complété par : CNIL\n  a179 écarté des développés : texte trop court (913 car.)\n  a181 complété par : Sciences et Avenir\n  plan : sans pages, 15 articles (15 longs)\n· Lot 2 : synthèses (Sonnet)\n… 16 demande(s) en attente : breves, syn-a1, syn-a3, syn-a5, syn-a45, syn-a21, syn-a23, syn-a95, syn-a103, syn-a70, syn-a132, syn-a109, syn-a151, syn-a133, syn-a181, syn-a198\nA_FAIRE 16 : a_faire/breves.json a_faire/syn-a1.json a_faire/syn-a3.json a_faire/syn-a5.json a_faire/syn-a45.json a_faire/syn-a21.json a_faire/syn-a23.json a_faire/syn-a95.json a_faire/syn-a103.json a_faire/syn-a70.json a_faire/syn-a132.json a_faire/syn-a109.json a_faire/syn-a151.json a_faire/syn-a133.json a_faire/syn-a181.json a_faire/syn-a198.json\n"
 }

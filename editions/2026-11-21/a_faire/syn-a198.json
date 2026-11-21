@@ -1,0 +1,64 @@
+{
+ "id": "syn-a198",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a198.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Inside Climate News\nRubrique : Climat\nDate du flux : 20/11/2026\nAuteur : Teresa Tomassoni; Derek Harrison\nTitre d'origine : Trump Administration Awards First-Ever Deep-Sea Mining Exploration Leases\n\nARTICLE :\nIn a historic first, the Department of Interior has leased more than 31 million acres of Pacific waters to a deep-sea mining company seeking to exploit mineral-rich deposits from the ocean floor off American Samoa.\n“This is the first time that a lease has been issued for deep-sea mining in U.S. waters,” said Arlo Hemphill, U.S. project lead against deep-sea mining for Greenpeace USA.\nDeep-sea mining is a highly contested, emerging industry that aims to extract rock-like deposits on the seabed called polymetallic nodules, formed over millions of years. They contain cobalt, copper, manganese and nickel—so-called “critical minerals” used in batteries, electronics and other devices that have historically been mined on land. To date, no commercial deep-sea mining operations have begun anywhere in the world.\nScientists, environmentalists and Indigenous peoples with strong cultural connections to the ocean aim to stop the industry from moving forward at all.\n“Once mining strips away habitat that took millions of years to form, no amount of money can bring it back,” said Hemphill in a statement. “Congress should press the administration to suspend these leases before work begins.”\nThe lease sale took place Thursday, during a live auction held at the Ventura County Fire Department in Thousand Oaks, California, as Hemphill and dozens of other activists from American Samoa and across the Pacific rallied, prayed and sang outside in protest.\n“This is not just seabed on a map. This is our home, our livelihoods, our identity, and our responsibility to protect,” said Sabrina Suluai-Mahuka, founder of Finafinau, American Samoa’s youth and environment nonprofit, who traveled from American Samoa to protest the auction. “Ocean rights are human rights, and our home is not for sale,” she said in a statement.\nRepresentatives from just two companies attended the auction, including Adepth Minerals Inc., from Norway, and Wetstone U.S. Ventures, a New York-based offshore critical minerals exploration and deep-sea mining company.\nUltimately, Wetstone bid $6 million on two areas marked for mineral exploration that lie adjacent to the Rose Atoll Marine National Monument, a marine protected area established by President George W. Bush in 2009 to protect more than 10,000 square miles of ocean from commercial fishing and other forms of extraction.\nThe bid made Wetstone the provisional winner of the auction, according to a spokesperson from the Marine Minerals Administration. The new office was established earlier this year within the Department of Interior to help promote the Trump administration’s agenda to secure critical minerals.\n“A dependable critical minerals supply chain is essential to American manufacturing and the technologies that power our economy and national defense,” said Secretary of the Interior Doug Burgum, in a statement about Thursday’s auction. “Today’s sale opens a path to learn more about the resources off the coast of American Samoa and assess whether they could contribute to a more reliable domestic supply.”\nThe areas offered for leasing will be open for exploration activities, which include mapping and surveying the seabed to locate mineral rich deposits. Actual mining would require further federal approvals. But Hemphill and others warn that exploration in itself is a dangerous step towards paving the way for an industry that could threaten ocean ecosystems and the people that depend on them.\n“The industry will push to move from surveys to exploration to extraction, putting profits ahead of marine life and trampling the culture, livelihood and objections of communities that have said no again and again,” Hemphill said.\nEver since the proposed lease sale was announced earlier this year, many American Samoan leaders and communities have voiced their concerns. Several lawsuits were filed against the Trump Administration to stop it from happening.\nJust a few days before the lease sale, a federal judge in Hawaiʻi ruled the Marine Minerals Administration had violated the Endangered Species Act by approving the lease sale without taking into account the potential impacts of exploration and mining on endangered species.\nThe areas leased are home to several dozen endangered species including the blue whale, fin whale, sei whale and sperm whale, as well as the leatherback sea turtle, oceanic whitetip shark and giant manta ray.\nMany of these species are already threatened by climate change, which is altering their sources of prey and migration patterns. More than 1000 marine science and policy experts from 75 countries say deep-sea mining could further add to the stress these marine animals are facing.\n“In deciding to move forward with today’s scheduled sale, the Trump administration has performed a renegade, unlawful act,” said Chris Eaton, attorney at Earthjustice, an environmental nonprofit that represented American Samoan and Hawaiian plaintiffs in the lawsuit. “We will use the full extent of the law to vigorously push for the leases to be voided,” he said in a statement Thursday.\nAbout This Story\nPerhaps you noticed: This story, like all the news we publish, is free to read. That’s because Inside Climate News is a 501c3 nonprofit organization. We do not charge a subscription fee, lock our news behind a paywall, or clutter our website with ads. We make our news on climate and the environment freely available to you and anyone who wants it.\nThat’s not all. We also share our news for free with scores of other media organizations around the country. Many of them can’t afford to do environmental journalism of their own. We’ve built bureaus from coast to coast to report local stories, collaborate with local newsrooms and co-publish articles so that this vital work is shared as widely as possible.\nTwo of us launched ICN in 2007. Six years later we earned a Pulitzer Prize for National Reporting, and now we run the oldest and largest dedicated climate newsroom in the nation. We tell the story in all its complexity. We hold polluters accountable. We expose environmental injustice. We debunk misinformation. We scrutinize solutions and inspire action.\nDonations from readers like you fund every aspect of what we do. If you don’t already, will you support our ongoing work, our reporting on the biggest crisis facing our planet, and help us reach even more readers in more places?\nPlease take a moment to make a tax-deductible donation. Every one of them makes a difference.\nThank you,",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

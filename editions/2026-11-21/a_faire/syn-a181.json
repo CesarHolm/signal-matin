@@ -1,0 +1,64 @@
+{
+ "id": "syn-a181",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a181.json",
+ "limite_caracteres": 4465,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4465 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Sciences et Avenir\nRubrique : Science\nDate du flux : 20/11/2026\nAuteur : Sciences et Avenir avec AFP\nTitre d'origine : Une peau artificielle prête à greffer : la promesse d'une innovation française\n\nARTICLE :\nSOURCE 1 (Sciences et Avenir) :\nPlusieurs acteurs publics et privés français, dont le spécialiste du pansement Urgo, ont annoncé vendredi 20 novembre avoir réussi à créer en laboratoire de la peau artificielle conçue pour être \"prête à greffer\", une expérimentation qui doit encore faire ses preuves en essais cliniques.\n\"Pour la première fois au monde, on a réussi, en laboratoire, à créer de la peau artificielle prête à greffer\", s'enthousiasme auprès de l'AFP Guirec Le Lous, président du groupe Urgo, spécialiste de la cicatrisation.\n\"Un exploit technologique\" réalisé aux côtés de ses partenaires réunis en consortium (le CNRS, Lyon 1 Université, le Centre d'Étude des Cellules souches, l'Établissement français du sang et Dassault Systèmes) qui pourrait, selon lui, ouvrir la voie à \"une révolution médicale\".\nLire aussi Une machine produit de la peau sur mesure\nDisposer de greffons prêts à l'emploi pour traiter rapidement les plaies des grands brûlés.\nL'ambition, à terme, est de mettre à la disposition des chirurgiens une peau artificielle produite à l'avance, sans prélèvement de cellules du patient, conservée à -150°C et une fois décongelée, disponible immédiatement au bloc opératoire pour des patients qui ont des plaies sévères comme les grands brûlés.\n\"Après décongélation, ses cellules restent vivantes et fonctionnelles\", explique le consortium dans un communiqué.\nLire aussi Une peau artificielle aussi sensible qu'une vraie\nActuellement, l'autogreffe est la technique chirurgicale la plus souvent utilisée. Elle consiste à prélever de la peau saine du patient pour ensuite la poser sur des zones brûlées.\nLa technologie retenue consiste \"à partir de cellules universelles pour les entraîner à avoir chacune le rôle qu'on attend d'elles dans une peau, comme dans la vraie vie\" puis \"d'organiser\" ces cellules en trois dimensions pour \"reproduire la structure d'une vraie peau\", détaille M. Le Lous.\nÀ ce stade, les équipes sont capables de fabriquer à \"une centaine d'exemplaires\" cette peau, fruit de cinq années de recherche, ajoute-t-il.\n\"Cette avancée 100% française\" prépare la voie à une étude clinique prévue \"dès 2030\" dans les installations pharmaceutiques de l'EFS et à un \"passage à l'échelle industrielle pour une commercialisation à l'horizon 2040\", selon le communiqué.\nUrgo, qui \"fait désormais partie de la dizaine d'entreprises dans le monde\" à disposer de sa propre \"banque de cellules\" pour la peau artificielle, prévoit de se doter des moyens industriels pour produire à grande échelle, \"à l'issue de cette première étude clinique à l'horizon 2032\".\nDes modèles de peaux artificielles sont par ailleurs déjà utilisés dans le monde pour la recherche, comme alternative à certains essais sur animaux, pour tester par exemple des produits cosmétiques.\n\nSOURCE 2 (Sciences et Avenir) :\nPlusieurs acteurs publics et privés français, dont le spécialiste du pansement Urgo, ont annoncé vendredi 20 novembre avoir réussi à créer en laboratoire de la peau artificielle conçue pour être \"prête à greffer\", une expérimentation qui doit encore faire ses preuves en essais cliniques.\n\"Pour la première fois au monde, on a réussi, en laboratoire, à créer de la peau artificielle prête à greffer\", s'enthousiasme auprès de l'AFP Guirec Le Lous, président du groupe Urgo, spécialiste de la cicatrisation.\n\"Un exploit technologique\" réalisé aux côtés de ses partenaires réunis en consortium (le CNRS, Lyon 1 Université, le Centre d'Étude des Cellules souches, l'Établissement français du sang et Dassault Systèmes) qui pourrait, selon lui, ouvrir la voie à \"une révolution médicale\".\nLire aussi Une machine produit de la peau sur mesure\nDisposer de greffons prêts à l'emploi pour traiter rapidement les plaies des grands brûlés.\nL'ambition, à terme, est de mettre à la disposition des chirurgiens une peau artificielle produite à l'avance, sans prélèvement de cellules du patient, conservée à -150°C et une fois décongelée, disponible immédiatement au bloc opératoire pour des patients qui ont des plaies sévères comme les grands brûlés.\n\"Après décongélation, ses cellules restent vivantes et fonctionnelles\", explique le consortium dans un communiqué.\nLire aussi Une peau artificielle aussi sensible qu'une vraie\nActuellement, l'autogreffe est la technique chirurgicale la plus souvent utilisée. Elle consiste à prélever de la peau saine du patient pour ensuite la poser sur des zones brûlées.\nLa technologie retenue consiste \"à partir de cellules universelles pour les entraîner à avoir chacune le rôle qu'on attend d'elles dans une peau, comme dans la vraie vie\" puis \"d'organiser\" ces cellules en trois dimensions pour \"reproduire la structure d'une vraie peau\", détaille M. Le Lous.\nÀ ce stade, les équipes sont capables de fabriquer à \"une centaine d'exemplaires\" cette peau, fruit de cinq années de recherche, ajoute-t-il.\n\"Cette avancée 100% française\" prépare la voie à une étude clinique prévue \"dès 2030\" dans les installations pharmaceutiques de l'EFS et à un \"passage à l'échelle industrielle pour une commercialisation à l'horizon 2040\", selon le communiqué.\nUrgo, qui \"fait désormais partie de la dizaine d'entreprises dans le monde\" à disposer de sa propre \"banque de cellules\" pour la peau artificielle, prévoit de se doter des moyens industriels pour produire à grande échelle, \"à l'issue de cette première étude clinique à l'horizon 2032\".\nDes modèles de peaux artificielles sont par ailleurs déjà utilisés dans le monde pour la recherche, comme alternative à certains essais sur animaux, pour tester par exemple des produits cosmétiques.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

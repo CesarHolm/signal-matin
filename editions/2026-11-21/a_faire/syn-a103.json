@@ -1,0 +1,64 @@
+{
+ "id": "syn-a103",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a103.json",
+ "limite_caracteres": 3101,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3101 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Le Grand Continent\nRubrique : Géopolitique\nDate du flux : 20/11/2026\nAuteur : Marin Saillofest\nTitre d'origine : Missiles russes en Pologne : les actions hostiles contre l’Europe ont plus que doublé depuis octobre\n\nARTICLE :\nDu 14 au 20 novembre à 14h, la revue a recensé 22 actions hostiles visant l’Europe, survenues récemment ou rendues publiques ces derniers jours. Dix sont attribuées à la Russie ou soupçonnées de l’être, et aucun auteur n’a encore été désigné pour les douze autres. On compte cinq frappes contre des navires commerciaux (sept navires touchés au total), cinq incidents aériens, dont trois impliquant des drones ou des missiles russes, trois opérations d’ingérence, une tentative d’incendie, un sabotage, une opération d’espionnage, quatre cyberattaques, un brouillage GPS et une vague de fausses alertes à la bombe.\nC’est plus du double de la moyenne d’octobre (10,5 actions par période de sept jours).\n- L’Est du continent est le plus touché : 14 des 22 actions recensées concernent la Roumanie (4), la Pologne (3), la Bulgarie (3), la Hongrie (2), la Moldavie et l’Estonie (une chacune).\n- Entre le 13 et le 17 novembre, six navires commerciaux ont été touchés par des drones au large de la Roumanie et de la Bulgarie, dont au moins deux dans les eaux territoriales roumaines. Lundi 16 novembre, un cargo chargé de blé a chaviré au large du cap Kaliakra après une frappe de drones marins, et le lendemain, un pétrolier transportant du propane a coulé au large de Byala.\n- Un septième navire, le cargo Mariam M, frappé en septembre par un drone russe dans le secteur ukrainien du delta du Danube, s’est échoué le 16 novembre sur la plage de Vadu, en Roumanie.\nLes huit autres actions ont touché l’Europe de l’Ouest et du Nord : la France (2), le Royaume-Uni, l’Espagne, les Pays-Bas, la Belgique, la Norvège, ainsi que l’Allemagne et la France, conjointement visées par les campagnes de désinformation de la Social Design Agency, une officine liée au Kremlin.\n- Il s’agit surtout d’attaques informatiques et de tentatives d’intimidation, comme la cyberattaque assistée par l’IA contre la Commission, celle qui a visé le groupe énergétique norvégien Equinor, le brouillage GPS qui a perturbé des dizaines d’avions au-dessus de la mer du Nord, ou la vague de fausses alertes à la bombe en Espagne, lorsque les secours madrilènes ont reçu 30 avis de bombes en 36 heures.\n- Aucune des quatre cyberattaques relevées sur la période n’a été attribuée, ces enquêtes sont longues et leurs conclusions ne sont pas toujours rendues publiques. En Bulgarie, une intrusion restée inaperçue pendant cinq ans n’a pu être reliée à aucun gouvernement étranger.\n- L’usage d’outils d’IA accessibles au public, comme celui que les pirates auraient employé contre la Commission selon un responsable européen, pourrait compliquer davantage l’attribution 1.\nDans la nuit du 19 au 20 novembre, deux missiles, dont un Kh-101, et un drone, très probablement à réaction selon le ministre polonais de la Défense, sont tombés en Pologne au cours d’une attaque aérienne majeure contre l’Ukraine. La veille, jeudi 19, les ambassades des Pays-Bas et d’Autriche à Kiev ont été endommagées lors de frappes russes sur la capitale ukrainienne.\nAprès ces frappes, l’Union a annoncé la convocation du représentant russe à Bruxelles, et la France a demandé une réunion du Conseil de sécurité de l’ONU.\n- Il ne s’agit pas de la première fois que des missiles russes tombent en Pologne, comme en juillet dernier dans la région de Lublin, mais Varsovie y voit cette fois un geste délibéré.\n- Le Premier ministre Tusk a en effet parlé de « provocation intentionnelle », et le ministre de la Défense estime que Moscou « continue de franchir de nouvelles limites ».\n- Pour la première fois depuis le début de l’invasion à grande échelle, la tour de contrôle de l’aéroport de Rzeszów-Jasionka, point de transit majeur de l’aide militaire à l’Ukraine, a été évacuée 2.\nPour suivre au jour le jour la guerre politique russe contre l’Europe, notre Observatoire est mis à jour quotidiennement à partir des dernières informations.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

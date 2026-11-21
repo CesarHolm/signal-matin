@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a4\", \"source\": \"The Decoder\", \"titre\": \"OpenAI makes it much harder for attackers to extract how its latest AI models think\", \"resume\": \"OpenAI has significantly strengthened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol. In adaptive red-teaming tests, the success rate for extracting protected reasoning fell from 54 percent to 0.2 percent. The company is also suspending thousands to tens of thousands of accounts each week over coordinated distillation campaigns. The article OpenAI makes it much harder for attackers to extract how its latest AI models think appeared first on The Decoder .\"}, {\"id\": \"a20\", \"source\": \"Ars Technica\", \"titre\": \"Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.\", \"resume\": \"Test using prompts with unique, trackable secrets proves that data doesn't stay private.\"}, {\"id\": \"a7\", \"source\": \"The Decoder\", \"titre\": \"Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others\", \"resume\": \"A Bloomberg News analysis of 10 million job postings suggests AI is compounding China's already weak labor market. Entry-level workers and the creative industry are feeling the shift most, with more than 90% of Chinese micro-dramas now produced using AI. Former central bank adviser Cai Fang warns that a larger AI shock is still ahead. The article Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others appeared first on The Decoder .\"}, {\"id\": \"a85\", \"source\": \"South China Morning Post\", \"titre\": \"Concrete aims or just symbolism? Trump, Xi and Putin talk nuclear risk but controls stall\", \"resume\": \"The joint pledge to reduce nuclear risk by the United States, China and Russia during their unprecedented three-way summit this week sends a positive signal on stability, analysts say, although they warn that there is little room for optimism without concrete measures. Nuclear arms control among the world’s three major nuclear powers – long sought by US President Donald Trump – failed to make it into the joint declaration after his talks with Chinese President Xi Jinping and Russian President...\"}, {\"id\": \"a175\", \"source\": \"AEF info\", \"titre\": \"TotalEnergies de nouveau devant le tribunal judiciaire de Paris, pour son devoir de vigilance envers sa filiale au Yémen\", \"resume\": \"TotalEnergies de nouveau devant le tribunal judiciaire de Paris, pour son devoir de vigilance envers sa filiale au Yémen AEF info\"}, {\"id\": \"a179\", \"source\": \"Sciences et Avenir\", \"titre\": \"Mélanome : des résultats positifs pour un vaccin anticancer sur mesure\", \"resume\": \"Après des résultats encourageants en phase II, un vaccin personnalisé à ARN messager franchit une nouvelle étape dans le traitement du mélanome. Associé à une immunothérapie, il réduit significativement le risque de récidive et de métastases chez les patients opérés présentant un risque élevé.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

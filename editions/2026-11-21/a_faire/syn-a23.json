@@ -1,0 +1,64 @@
+{
+ "id": "syn-a23",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a23.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Le Monde\nRubrique : France\nDate du flux : 20/11/2026\nAuteur : Alexandre Pedro\nTitre d'origine : Présidentielle 2027 : Dominique de Villepin officialise sa candidature, entre geste gaullien et référence révolutionnaire\n\nARTICLE :\nSOURCE 1 (Le Monde) :\nQui imagine Dominique de Villepin à l’Elysée en 2027 ? Pas grand monde pour l’instant. Mais l’histoire du gaullisme ne serait-elle pas de forcer le destin ? De croire autant à la France qu’à sa bonne étoile ? Pour annoncer sa candidature à l’élection présidentielle, l’ancien premier ministre (2005-2007) s’est mis dans les traces du Général de Gaulle, vendredi 20 novembre. Ou plutôt derrière son bureau. En effet, la scénographie rappelle les fameuses conférences de presse « à la de Gaulle » dans les années 1960. Seul derrière un bureau depuis un salon de la Maison de l’Amérique latine, à Paris, Dominique de Villepin se pose en majesté devant les journalistes pendant presque deux heures.\nLe suspense vaut moins que la mise en scène. Sa candidature n’était qu’une affaire de semaines. Son équipe guettait juste la bonne fenêtre de tir. « L’idée c’était qu’il soit dans les discussions à Noël entre la dinde et la bûche », confiait lundi un de ses proches. La petite phrase attendue tombe au bout de trente minutes après un discours introductif (sans notes) sous forme d’état des lieux implacable sur une France en proie « au pourrissement social, économique et politique ». « Je suis candidat à l’élection présidentielle de 2027. Tout cela ne va pas sans doute, sans inquiétude », déclare l’ancien ministre des affaires étrangères.\nIl vous reste 81.48% de cet article à lire. La suite est réservée aux abonnés.\n\nSOURCE 2 (lejdd.fr) :\nCela ne faisait plus aucun doute. Mais c’est désormais officiel. « Je suis candidat à l'élection présidentielle » a annoncé sous les applaudissements l'ancien Premier ministre de Jacques Chirac, vendredi 20 novembre, lors d' une conférence de presse à la Maison de l'Amérique latine à Paris. « Ce pourrissement de la France, cet instinct de défaite, cet esprit de mort qui nous gagne, voilà autant de raisons qui me conduisent aujourd’hui devant vous », a déclaré Dominique de Villepin. Pour justifier sa candidature, l’ancien chef du gouvernement a dressé un tableau particulièrement sombre de la situation du pays. « Nous sommes dans un temps de circonstances exceptionnelles marquées par le pourrissement social », a-t-il estimé, évoquant les mobilisations lycéennes, les Gilets jaunes ou encore les mouvements contre la vie chère. Face à cette crise, il a dénoncé « un gouvernement fantôme et aux abois qui ne sait pas où donner de la tête ». « Il y a une situation qui pèse lourd dans la vie des Français », a-t-il poursuivi, en évoquant également « les dangers du monde », notamment la guerre en Ukraine.\nL’ancien Premier ministre a aussi vivement critiqué le bilan d’Emmanuel Macron. « Le macronisme, qui a monté les Français les uns contre les autres, termine ce dernier mandat comme un pouvoir zombie, incapable d’apporter des réponses à nos compatriotes », a-t-il lancé.\nDominique de Villepin a également consacré une partie de son intervention aux deux principales forces d’opposition que sont, selon lui, le Rassemblement national et La France insoumise. Il a tenu à distinguer les deux formations. « Je ne mets pas le Rassemblement national et La France insoumise sur le même plan. Le RN porte un triste héritage de xénophobie, racisme, antisémitisme et les quelques postures des dernières années ne changent rien à cela », a-t-il affirmé. Concernant les Insoumis, l’ancien Premier ministre leur reproche leur stratégie de confrontation. « Du côté de LFI, il y a ce goût formidable pour cliver en permanence eux et nous, une France contre une autre avec cette idée que la révolution finira par tout balayer », a-t-il ajouté. Avant de mettre en garde contre ce qu’il considère comme une même dynamique dangereuse : « Derrière » le RN et LFI, « il y a une triste et dangereuse mécanique de la guerre civile ».\nSur le terrain social, Dominique de Villepin souhaite faire de la négociation l’un des premiers chantiers du prochain quinquennat. « L’un des premiers actes du nouveau quinquennat devrait être d’élargir le champ de la négociation et le périmètre des partenaires sociaux », a-t-il défendu, en appelant à « plus de syndicats ». L’ancien Premier ministre a notamment évoqué le dossier des retraites, pour lequel il plaide pour « une nouvelle méthode ». « Il n’y aura pas de réforme des retraites qui sorte tout cru du chapeau d’un candidat. Il faut une nouvelle méthode qui doit suivre un processus », a-t-il insisté. Il s’est enfin prononcé en faveur d’un recours plus fréquent au référendum.\nPrésidentielle 2027 : l’Arcom va surveiller jusqu’aux miniatures des créateurs de contenu\nSURVEILLANCE. À l’approche de la présidentielle de 2027, l’Arcom entend soumettre certains créateurs de contenu aux règles d’équité puis d’égalité entre les candidats. Le régulateur pourrait examiner jusqu’aux titres, miniatures et modes de promotion de leurs vidéos en ligne.\nPrésidentielle 2027 : Hollande n’ira pas au meeting de Glucksmann... et entretient le doute sur sa candidature\nFrançois Hollande n’assistera pas au meeting de Raphaël Glucksmann le 6 décembre. Invité jeudi soir sur LCI, l’ancien président a expliqué vouloir le laisser « s’affirmer » et repoussé à fin janvier ou début février sa décision sur 2027, sans exclure une nouvelle candidature.\nPrésidentielle 2027 : Tondelier demande à Mélenchon de sortir de son «couloir de natation»\nEn déplacement à Lyon ce vendredi 20 novembre, Marine Tondelier a demandé des gestes à Jean-Luc Mélenchon après son offre de coalition. La cheffe des Écologistes rappelle que les militants devront encore choisir entre sa candidature et un soutien à Mélenchon ou à Raphaël Glucksmann.\n«Prêts à lutter» pour l’Europe : le message de Christine Lagarde avant son départ de la BCE\nDans un discours prononcé ce vendredi 20 novembre à Francfort, Christine Lagarde a plaidé pour des dirigeants capables de défendre l’Europe et d’agir avant que leurs décisions fassent consensus. La présidente de la BCE n’a fait aucune annonce sur ses intentions politiques personnelles.\nPrésidentielle 2027 : pouvoir d’achat en tête, sécurité et immigration dominent à droite\nÀ l’approche de la présidentielle de 2027, le pouvoir d’achat reste la priorité des Français selon un sondage Ifop. Mais à droite, surtout chez les sympathisants du RN et de Reconquête, la sécurité et l’immigration s’imposent très largement parmi leurs principales préoccupations.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
