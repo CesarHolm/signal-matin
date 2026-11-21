@@ -1,0 +1,359 @@
+{
+ "date": "2026-11-21",
+ "nouveaux_mots": [
+  {
+   "mot": "Exhaustif",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui traite un sujet dans sa totalité.",
+   "exemple": "Une liste exhaustive des risques."
+  },
+  {
+   "mot": "Inéluctable",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qu'on ne peut empêcher ni éviter.",
+   "exemple": "Le déclin de cette technologie semble inéluctable."
+  },
+  {
+   "mot": "Asymétrie d'information",
+   "nature": "n. f.",
+   "niveau": "intermediaire",
+   "domaine": "pro",
+   "definition": "Situation où une partie dispose de plus d'informations que l'autre.",
+   "exemple": "L'asymétrie d'information entre assureur et assuré."
+  },
+  {
+   "mot": "Cuistre",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Pédant vaniteux qui étale un savoir mal assimilé.",
+   "exemple": "Un cuistre qui cite Kant à tout propos."
+  },
+  {
+   "mot": "Logorrhée",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Flot de paroles abondant et désordonné.",
+   "exemple": "Une logorrhée de promesses."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Palimpseste",
+   "definition": "Manuscrit dont on a effacé le premier texte pour en écrire un nouveau ; par extension, ce qui garde la trace de couches successives."
+  },
+  {
+   "mot": "Désinvolte",
+   "definition": "Qui fait preuve d'une liberté d'allure excessive, d'un manque de sérieux ou d'égards."
+  },
+  {
+   "mot": "Lustral",
+   "definition": "Qui sert à purifier, notamment par l'eau dans les rites."
+  },
+  {
+   "mot": "Vindicatif",
+   "definition": "Porté à la vengeance."
+  },
+  {
+   "mot": "Inférence",
+   "definition": "Opération qui tire une conclusion à partir de données ; en IA, production d'un résultat par un modèle."
+  }
+ ],
+ "articles": [
+  "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+  "https://www.actuia.com/actualite/styliser-son-raisonnement-rend-un-modele-dia-moins-surveillable/",
+  "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+  "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
+  "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+  "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
+  "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+  "https://www.publicsenat.fr/actualites/politique/la-proposition-de-loi-instaurant-une-presomption-de-legitime-defense-pour-les-forces-de-lordre-definitivement-adoptee-par-le-parlement-apres-le-vote-du-senat",
+  "https://www.lemonde.fr/societe/article/2026/11/21/au-proces-de-l-interpellation-de-michel-zecler-le-caractere-raciste-des-violences-retenu-trois-policiers-condamnes-a-des-peines-de-prison-ferme-et-l-espoir-d-une-jurisprudence_6813718_3224.html",
+  "https://www.lemonde.fr/election-presidentielle-2027/article/2026/11/20/presidentielle-2027-dominique-de-villepin-officialise-sa-candidature-entre-geste-gaullien-et-reference-revolutionnaire_6813715_6205049.html",
+  "https://www.franceinfo.fr/economie/greve/organisations-presentes-dispositif-de-securite-a-quoi-faut-il-s-attendre-pour-les-manifestations-du-samedi-21-novembre_8292461.html#xtor=RSS-3-[lestitres]",
+  "https://www.publicsenat.fr/actualites/institutions/justice-malgre-un-budget-en-hausse-le-senat-alerte-sur-laugmentation-alarmante-de-la-surpopulation-carcerale",
+  "https://www.publicsenat.fr/actualites/politique/apres-la-main-tendue-de-tondelier-a-melenchon-yannick-jadot-annonce-quitter-les-ecologistes",
+  "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper?traffic_source=rss",
+  "https://legrandcontinent.eu/fr/2026/11/20/missiles-russes-en-pologne-les-actions-hostiles-contre-leurope-ont-plus-que-double-depuis-octobre/",
+  "https://www.politico.eu/article/france-germany-complete-political-deal-for-ecb-leadership/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.scmp.com/news/china/military/article/3375268/concrete-aims-or-just-symbolism-trump-xi-and-putin-talk-nuclear-risk-controls-stall",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
+  "https://www.scmp.com/news/china/diplomacy/article/3375301/princeton-phd-student-china-detained-ice-after-academic-conference",
+  "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+  "https://www.federalreserve.gov/econres/notes/feds-notes/europes-natural-gas-outlook-for-the-upcoming-winter-2026-2027-20261120.html",
+  "https://www.nber.org/papers/w36015#fromrss",
+  "https://www.pewresearch.org/short-reads/2026/11/20/2024-elections-show-more-partisan-splits-between-states-presidential-and-senate-votes-than-in-recent-past/",
+  "https://www.pewresearch.org/short-reads/2026/11/20/how-the-2026-midterms-played-out-on-kalshi-and-polymarket/",
+  "https://verfassungsblog.de/bsw-wahlprufung-bverfg-delegitimierung/",
+  "https://safety4sea.com/european-commission-establishes-new-eu-sanctions-office-to-strengthen-enforcement/",
+  "https://www.cnil.fr/fr/gpa-ia-education",
+  "https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience",
+  "https://eulawlive.com/ag-richard-de-la-tour-proposes-that-the-anti-money-laundering-directive-does-not-preclude-dutch-registration-checks-on-crypto-asset-providers/",
+  "https://www.sciencesetavenir.fr/sante/une-peau-artificielle-creee-en-laboratoire-par-des-acteurs-francais_196313?xtor=RSS-16",
+  "https://insideclimatenews.org/news/20112026/trump-deep-sea-mining-federal-waters/",
+  "https://www.sciencesetavenir.fr/sante/melanome-la-promesse-des-vaccins-anticancer-personnalises-se-concretise_195871?xtor=RSS-16",
+  "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/",
+  "https://www.sciencesetavenir.fr/archeo-paleo/les-enfants-incas-sacrifies-lors-de-la-capacocha-etaient-drogues_196220?xtor=RSS-4",
+  "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/"
+ ],
+ "titres": [
+  "METR : l'IA progresse vite sur le code, moins sur les tâches de jugement",
+  "Styliser son raisonnement rend un modèle d'IA moins surveillable",
+  "Signal bloque les captures d'écran pour écarter les agents d'IA",
+  "Armes des forces de l'ordre : le Parlement adopte la présomption d'usage légal",
+  "Zecler : trois policiers condamnés, le caractère raciste des violences retenu",
+  "Présidentielle 2027 : Dominique de Villepin annonce sa candidature",
+  "Le Danemark expulse un diplomate russe après un complot contre un rappeur",
+  "Missiles russes en Pologne : les actions hostiles contre l'Europe ont doublé",
+  "BCE : Paris et Berlin déposent leurs candidats pour le directoire",
+  "Équations d'Euler 3D : une singularité en temps fini sans force extérieure",
+  "Gaz en Europe : l'hiver 2026-27 passera sans pénurie, sauf baisse du GNL",
+  "L'UE crée un Bureau des sanctions pour renforcer leur application",
+  "IA et éducation : une résolution mondiale pour protéger les données des élèves",
+  "Peau artificielle prête à greffer : l'annonce d'un consortium français",
+  "Premiers baux d'exploration minière en eaux profondes au large des Samoa américaines"
+ ],
+ "solutions": {
+  "sudoku": [
+   6,
+   5,
+   9,
+   4,
+   2,
+   1,
+   3,
+   7,
+   8,
+   8,
+   3,
+   7,
+   9,
+   6,
+   5,
+   4,
+   1,
+   2,
+   1,
+   2,
+   4,
+   3,
+   8,
+   7,
+   6,
+   5,
+   9,
+   9,
+   8,
+   1,
+   2,
+   4,
+   6,
+   5,
+   3,
+   7,
+   7,
+   4,
+   2,
+   5,
+   9,
+   3,
+   8,
+   6,
+   1,
+   5,
+   6,
+   3,
+   7,
+   1,
+   8,
+   9,
+   2,
+   4,
+   4,
+   9,
+   6,
+   1,
+   5,
+   2,
+   7,
+   8,
+   3,
+   3,
+   1,
+   5,
+   8,
+   7,
+   9,
+   2,
+   4,
+   6,
+   2,
+   7,
+   8,
+   6,
+   3,
+   4,
+   1,
+   9,
+   5
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     10,
+     1
+    ],
+    [
+     0,
+     1,
+     3,
+     4
+    ],
+    [
+     0,
+     5,
+     5,
+     2
+    ],
+    [
+     0,
+     7,
+     6,
+     2
+    ],
+    [
+     0,
+     9,
+     3,
+     1
+    ],
+    [
+     3,
+     1,
+     4,
+     3
+    ],
+    [
+     3,
+     4,
+     7,
+     1
+    ],
+    [
+     3,
+     9,
+     4,
+     1
+    ],
+    [
+     5,
+     5,
+     4,
+     2
+    ],
+    [
+     6,
+     7,
+     3,
+     2
+    ],
+    [
+     7,
+     1,
+     3,
+     2
+    ],
+    [
+     7,
+     3,
+     2,
+     1
+    ],
+    [
+     7,
+     9,
+     3,
+     1
+    ],
+    [
+     9,
+     3,
+     1,
+     1
+    ],
+    [
+     9,
+     5,
+     1,
+     4
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    5,
+    4,
+    6,
+    2,
+    1,
+    3
+   ],
+   [
+    2,
+    5,
+    1,
+    4,
+    3,
+    6
+   ],
+   [
+    6,
+    3,
+    4,
+    1,
+    5,
+    2
+   ],
+   [
+    4,
+    2,
+    3,
+    5,
+    6,
+    1
+   ],
+   [
+    1,
+    6,
+    5,
+    3,
+    2,
+    4
+   ],
+   [
+    3,
+    1,
+    2,
+    6,
+    4,
+    5
+   ]
+  ],
+  "compte": [
+   "9 + 1 = 10",
+   "10 × 100 = 1000",
+   "1000 − 2 = 998",
+   "998 + 1 = 999"
+  ]
+ },
+ "reponses_quiz": []
+}
