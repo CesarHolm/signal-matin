@@ -1,0 +1,36 @@
+{
+  "developpes": [
+    {
+      "id": "a151",
+      "score": 8,
+      "raison": "La Commission européenne crée un nouveau bureau des sanctions de l'UE pour renforcer l'application des mesures restrictives."
+    },
+    {
+      "id": "a175",
+      "score": 7,
+      "raison": "TotalEnergies de nouveau devant le tribunal judiciaire de Paris au titre du devoir de vigilance envers sa filiale au Yémen."
+    },
+    {
+      "id": "a133",
+      "score": 6,
+      "raison": "Assemblée mondiale pour la protection de la vie privée : une résolution sur l'IA dans l'éducation, avec onze principes clés et des engagements (CNIL)."
+    },
+    {
+      "id": "a171",
+      "score": 6,
+      "raison": "Revolut dans le viseur des régulateurs : le Financial Times évoque des blanchisseurs russes et des mafieux italiens."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a135",
+      "titre": "Pixels de suivi dans les courriels : la CNIL attend des retours jusqu'au 3 décembre",
+      "texte": "Le 14 avril 2026, la CNIL a publié sa recommandation sur les pixels de suivi dans les courriels. Elle sollicite désormais un premier retour d'expérience des expéditeurs de messages et des fournisseurs de solutions, jusqu'au 3 décembre 2026."
+    },
+    {
+      "id": "a169",
+      "titre": "LCB-FT : pas d'obstacle de la directive aux contrôles néerlandais sur les cryptoactifs",
+      "texte": "L'avocat général Richard de la Tour propose que la directive anti-blanchiment ne fasse pas obstacle à des contrôles d'enregistrement néerlandais des prestataires de crypto-actifs, selon EU Law Live."
+    }
+  ]
+}

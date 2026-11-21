@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a179",
+      "score": 8,
+      "raison": "Résultats positifs en phase II d'un vaccin anticancer personnalisé à ARN messager contre le mélanome, qui réduit le risque de récidive chez les patients à risque élevé."
+    },
+    {
+      "id": "a181",
+      "score": 7,
+      "raison": "Peau artificielle prête à greffer, fabriquée par un consortium français, pour les grands brûlés ; essais cliniques envisagés à partir de 2030."
+    },
+    {
+      "id": "a198",
+      "score": 7,
+      "raison": "Premier bail d'exploration minière en eaux profondes accordé dans les eaux américaines, au large des Samoa américaines (plus de 31 millions d'acres)."
+    },
+    {
+      "id": "a184",
+      "score": 6,
+      "raison": "Étude publiée par The Conversation : la plupart des engagements climatiques des entreprises ne sont pas associés à une meilleure valorisation boursière."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a176",
+      "titre": "Réseaux : quatre structures simples expliquent les boucles de routage",
+      "texte": "Quand des liens d'un réseau de communication tombent, les messages peuvent être acheminés en boucle. Selon Quanta Magazine, des informaticiens savent désormais que quatre structures de réseau simples en sont responsables."
+    },
+    {
+      "id": "a182",
+      "titre": "Rituel inca de la capacocha : des enfants sacrifiés et drogués",
+      "texte": "Les substances psychotropes administrées aux enfants sacrifiés sur les sommets andins les mettaient de toute façon en danger. Sciences et Avenir s'interroge : s'agissait-il de médecines ou de drogues destinées à susciter un état second ?"
+    },
+    {
+      "id": "a190",
+      "titre": "Curiosity photographie des nuages crépusculaires sur Mars",
+      "texte": "Le rover a capté ces nuages dérivants le 31 octobre 2026, à son 5 061e sol de mission, au-dessus du cratère Gale. Ces nuages dits crépusculaires n'apparaissent que brièvement chaque automne, après le coucher du soleil."
+    },
+    {
+      "id": "a201",
+      "titre": "L'hydroptère, trimaran d'Éric Tabarly, va reprendre son vol",
+      "texte": "L'un des bateaux les plus rapides du monde, imaginé par le navigateur Éric Tabarly, a été sauvé de la destruction par un ingénieur. Un chantier débuté à Nantes, en Loire-Atlantique, lui redonne une seconde vie."
+    }
+  ]
+}

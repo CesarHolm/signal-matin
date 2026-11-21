@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a132",
+      "score": 8,
+      "raison": "Une preuve lisible de l'explosion en temps fini des équations d'Euler incompressibles non forcées en dimension trois, rédigée avec une forte assistance de l'IA (Alpöge, Buckmaster, Coiculescu)."
+    },
+    {
+      "id": "a109",
+      "score": 7,
+      "raison": "Note FEDS : fin septembre 2026, les stocks de gaz de l'UE étaient remplis à environ 72 %, le niveau le plus bas pour ce mois depuis 2011."
+    },
+    {
+      "id": "a121",
+      "score": 7,
+      "raison": "Entretien avec Michael A. Becker sur l'arrêt de la CIJ : c'est la première fois que la Cour tient un État directement responsable d'un génocide, dans l'affaire du Myanmar."
+    },
+    {
+      "id": "a112",
+      "score": 6,
+      "raison": "Essai randomisé en Inde : les entreprises sociales qui mesurent leur impact connaissent une croissance de revenus près de deux fois plus forte et lèvent près de deux fois plus de capitaux."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a114",
+      "titre": "Scolarité obligatoire et écart de vote entre hommes et femmes",
+      "texte": "Les auteurs de l'étude NBER relient les lois de scolarité obligatoire à l'écart de 10 à 15 points entre femmes et hommes dans la préférence pour le parti démocrate aux États-Unis. Ils l'expliquent par le lien entre ces lois, le niveau d'études et des préférences politiques divergentes."
+    },
+    {
+      "id": "a117",
+      "titre": "Les démocrates ont gagné des sénats dans dix États que Trump avait remportés",
+      "texte": "Des électeurs de dix États ayant voté pour Donald Trump en 2024 ont élu des sénateurs démocrates cette année. Pew Research Center analyse la rareté de ce cas de figure."
+    },
+    {
+      "id": "a118",
+      "titre": "Midterms 2026 : 2,7 milliards de dollars échangés sur les marchés de prédiction",
+      "texte": "Le volume des transactions sur les élections de 2026 a atteint 2,7 milliards de dollars, contre 8,5 milliards pour 2024, selon Pew Research Center. Il reste inférieur aux quelque 3 milliards déjà échangés sur 2028."
+    },
+    {
+      "id": "a124",
+      "titre": "Législatives allemandes : le BSW débouté devant la Cour constitutionnelle",
+      "texte": "La Cour constitutionnelle fédérale a rejeté, faute de motivation suffisante, une contestation du résultat déposée par le BSW, qui a manqué de peu le Bundestag. Elle a néanmoins examiné les arguments et les a réfutés, selon une analyse publiée par Verfassungsblog."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a45",
+      "score": 8,
+      "raison": "Le Parlement adopte définitivement la présomption de légitime défense pour les forces de l'ordre ; la gauche sénatoriale annonce qu'elle saisira le Conseil constitutionnel."
+    },
+    {
+      "id": "a21",
+      "score": 8,
+      "raison": "Procès de l'interpellation de Michel Zecler : le caractère raciste des violences est retenu et trois policiers sont condamnés à des peines de prison ferme."
+    },
+    {
+      "id": "a23",
+      "score": 7,
+      "raison": "Dominique de Villepin officialise sa candidature à la présidentielle de 2027 et dévoile ses premières propositions."
+    },
+    {
+      "id": "a43",
+      "score": 7,
+      "raison": "Soupçons de fuites d'informations couvertes par le secret de l'enquête au profit du Rassemblement national ; le rôle d'un préfet est étudié selon plusieurs médias."
+    },
+    {
+      "id": "a41",
+      "score": 6,
+      "raison": "Étude AMF-Cevipof : 48,3 % des maires refuseraient aujourd'hui de parrainer un candidat à la présidentielle 2027."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a34",
+      "titre": "Manifestations du samedi 21 novembre : vigilance demandée aux préfets",
+      "texte": "Le ministre de l'Intérieur a demandé aux préfets d'être « particulièrement vigilants » pour la journée de mobilisation sociale de ce samedi, qui coïncide avec le huitième anniversaire du mouvement des gilets jaunes. Franceinfo détaille les organisations présentes et le dispositif de sécurité."
+    },
+    {
+      "id": "a52",
+      "titre": "Justice : le Sénat alerte sur la surpopulation carcérale",
+      "texte": "Dans le projet de budget 2027, les crédits de la justice augmentent de 4 %. Un rapport du Sénat juge cette hausse insuffisante, en raison de l'écart entre l'augmentation du nombre de personnes incarcérées et celui des places de prison nouvelles."
+    },
+    {
+      "id": "a51",
+      "titre": "Yannick Jadot quitte Les Écologistes après la main tendue à Mélenchon",
+      "texte": "Le sénateur, rallié à Raphaël Glucksmann, a annoncé jeudi sur BFMTV son départ du parti. Ce départ intervient après que Marine Tondelier s'est dite prête à une coalition autour de la candidature de Jean-Luc Mélenchon (LFI)."
+    }
+  ]
+}

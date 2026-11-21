@@ -1,0 +1,56 @@
+{
+  "developpes": [
+    {
+      "id": "a4",
+      "score": 9,
+      "raison": "OpenAI renforce les protections contre l'extraction du raisonnement de GPT-6.2 Astra et Sol (taux de réussite des tests tombé de 54 % à 0,2 %) et suspend des comptes engagés dans des campagnes de distillation."
+    },
+    {
+      "id": "a1",
+      "score": 8,
+      "raison": "Mise à jour du graphique METR : certaines capacités de l'IA progressent de façon exponentielle, mais les modèles sont moins bons sur les tâches de jugement que sur le code."
+    },
+    {
+      "id": "a3",
+      "score": 8,
+      "raison": "Prépublication arXiv : un modèle ouvert réécrivant son raisonnement dans la voix de personnages devient moins lisible pour un moniteur automatique, sans avoir été entraîné à dissimuler."
+    },
+    {
+      "id": "a5",
+      "score": 7,
+      "raison": "Signal bloque les captures d'écran sur iOS 27 et Android pour empêcher les agents d'IA de lire les conversations privées."
+    },
+    {
+      "id": "a20",
+      "score": 7,
+      "raison": "Test de 2 millions de « canaris » introduits dans la chaîne d'approvisionnement de l'IA : les données ne restent pas privées."
+    },
+    {
+      "id": "a7",
+      "score": 6,
+      "raison": "Analyse Bloomberg de 10 millions d'offres d'emploi : en Chine, les métiers exposés à l'IA ont reculé plus vite que les autres."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a16",
+      "titre": "Nvidia : la crise après l'éviction de Jensen Huang se poursuit",
+      "texte": "Nvidia a publié des résultats trimestriels en croissance et promis que les bonnes années continueraient. Le groupe a aussi annoncé qu'il cesserait de vendre ses puces H200 en Chine."
+    },
+    {
+      "id": "a2",
+      "titre": "Mistral installe son siège Asie-Pacifique à Singapour",
+      "texte": "Mistral AI vise 200 personnes dans la région d'ici 2027, en science, ingénierie, IA appliquée et robotique. Le bureau s'appuie sur ses partenariats avec DSO National Laboratories, pour la défense, et HTX, pour la sécurité intérieure."
+    },
+    {
+      "id": "a14",
+      "titre": "Hypothèse de Riemann : une IA revendique une solution, un humain aussi",
+      "texte": "Des mathématiciens sont impressionnés par le dernier résultat obtenu grâce à l'IA, qui revendique une solution d'une conjecture vieille de 167 ans. Une solution humaine concurrente existe également."
+    },
+    {
+      "id": "a19",
+      "titre": "Meta réévalue son objectif net zéro 2030 face aux émissions des data centers",
+      "texte": "Meta « réévalue » ses objectifs de durabilité pour 2030 alors que ses centres de données dédiés à l'IA affichent des émissions record. L'article se demande si d'autres entreprises suivront."
+    }
+  ]
+}

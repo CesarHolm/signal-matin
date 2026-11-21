@@ -1,0 +1,70 @@
+{
+  "resultats": [
+    {
+      "sport": "Tennis",
+      "affiche": "Alcaraz – Cobolli",
+      "score": "6-4 6-1",
+      "competition": "Finales ATP de Turin (circuit ATP), phase de groupes",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/Expeditif-devant-flavio-cobolli-carlos-alcaraz-se-rassure-et-termine-invaincu-en-poules-des-finales-atp/1744880#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Tennis",
+      "affiche": "Medvedev – Tiafoe",
+      "score": "6-3 6-4",
+      "competition": "Finales ATP de Turin (circuit ATP), phase de groupes",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/Daniil-medvedev-rejoint-alexander-zverev-dans-le-dernier-carre-des-finales-atp-de-turin/1745003#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Basket",
+      "affiche": "Anadolu Efes – ASVEL",
+      "score": "107-81",
+      "competition": "Euroligue (coupe d'Europe des clubs)",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Basket/Actualites/L-asvel-coule-pour-la-deuxieme-fois-en-trois-jours-a-istanbul-face-a-anadolu-efes/1744978#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Troyes – Le Havre AC",
+      "score": "3-1",
+      "competition": "Ligue 1 (championnat de France), 11e journée",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401876395/le-havre-ac-troyes"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Bayern Munich – FC Cologne",
+      "score": "1-1",
+      "competition": "Bundesliga (championnat d'Allemagne), 10e journée",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401884736/fc-cologne-bayern-munich"
+    }
+  ],
+  "a_suivre": [
+    {
+      "sport": "Rugby",
+      "affiche": "France – Argentine",
+      "competition": "Championnat des nations (rugby à XV)",
+      "heure": "21 h 10",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Rugby/Actualites/Antoine-dupont-avant-france-argentine-je-n-ai-pas-souvenir-d-un-match-simple-contre-l-argentine/1744903#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Nice – Paris Saint-Germain",
+      "competition": "Ligue 1 (championnat de France)",
+      "heure": "17 h 15",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401876398/paris-saint-germain-nice"
+    },
+    {
+      "sport": "Tennis",
+      "affiche": "Medvedev – Zverev",
+      "competition": "Finales ATP de Turin (circuit ATP), demi-finale",
+      "heure": "20 h 30",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/Daniil-medvedev-rejoint-alexander-zverev-dans-le-dernier-carre-des-finales-atp-de-turin/1745003#at_medium=RSS_feeds"
+    }
+  ]
+}

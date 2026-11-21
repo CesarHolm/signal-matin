@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a85",
+      "score": 8,
+      "raison": "Trump, Xi et Poutine s'engagent à réduire le risque nucléaire, mais le contrôle des armements n'a pas figuré dans la déclaration commune ; les analystes restent sceptiques."
+    },
+    {
+      "id": "a95",
+      "score": 8,
+      "raison": "Le Danemark accuse Moscou d'avoir planifié l'assassinat d'un rappeur ukrainien avec un gang local et expulse l'attaché militaire russe ; la Russie conteste une accusation qu'elle juge sans preuve."
+    },
+    {
+      "id": "a103",
+      "score": 8,
+      "raison": "Du 14 au 20 novembre, 22 actions hostiles contre l'Europe ont été recensées, dont 10 attribuées à la Russie ou soupçonnées de l'être, après des missiles tombés en Pologne."
+    },
+    {
+      "id": "a70",
+      "score": 7,
+      "raison": "La France et l'Allemagne concluent un accord politique sur la direction de la BCE ; le nouveau portefeuille français pourrait peser en cas de crise de la dette française."
+    },
+    {
+      "id": "a54",
+      "score": 7,
+      "raison": "Wall Street : le S&P 500 chute de 3,7 % et le Nasdaq passe dans le rouge depuis le début de l'année, les valeurs liées à l'IA pesant lourd."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a91",
+      "titre": "Gen Z : des milliers de manifestants dans 25 pays européens",
+      "texte": "Des milliers de jeunes ont manifesté dans 25 pays européens. Les cortèges dénoncent le coût de la vie, les dépenses militaires et le climat."
+    },
+    {
+      "id": "a80",
+      "titre": "Une doctorante chinoise de Princeton détenue par l'ICE après un congrès",
+      "texte": "Eva Yi Xie, doctorante en troisième année de neurosciences à Princeton, a été arrêtée jeudi par l'ICE à l'aéroport Reagan de Washington. Elle rentrait d'un congrès où elle avait présenté ses recherches, selon la SCMP."
+    },
+    {
+      "id": "a60",
+      "titre": "Midterms : moins de la moitié des républicains jugent le scrutin équitable",
+      "texte": "Selon un sondage récent, moins de la moitié des républicains à l'échelle nationale considèrent les élections de mi-mandat comme « libres et équitables ». Trump avait pourtant d'abord accepté les résultats."
+    }
+  ]
+}
