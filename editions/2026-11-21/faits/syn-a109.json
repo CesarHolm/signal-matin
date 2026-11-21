@@ -1,0 +1,29 @@
+{
+ "titre": "Gaz en Europe : l'hiver 2026-27 passera sans pénurie, sauf baisse du GNL",
+ "chapo": "Une note de la Réserve fédérale projette les stocks de gaz de l'UE jusqu'en juin 2027 : un hiver moyen ou rigoureux reste gérable, mais une forte baisse du GNL importé viderait presque les réserves.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "L'Europe aborde l'hiver 2026-27 avec des stocks de gaz très bas. Fin septembre 2026, le stockage de l'UE était rempli à environ 72 %, le niveau le plus faible pour ce mois depuis le début des données à l'échelle de l'UE (2011) et environ 11 points de moins qu'un an plus tôt ; l'Allemagne n'était qu'à 58 %. Ces stocks bas coïncident avec un marché mondial du gaz naturel liquéfié (GNL) plus tendu, le conflit au Moyen-Orient ayant perturbé les livraisons du Qatar par le détroit d'Ormuz, et les prix de gros européens ont plus que doublé depuis février. D'où la question : dans quelles conditions l'Europe pourrait-elle connaître des pénuries cet hiver ?"
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Dans le scénario de référence, les stocks atteignent un pic d'environ 84 milliards de mètres cubes (bcm) en octobre, contre environ 99 bcm sur la trajectoire des taux de remplissage moyens 2022-2025, puis tombent à 32 bcm fin mars 2027, soit 30 % de la capacité : sous les creux des deux derniers hivers, mais au-dessus des 20 % que les pays de l'UE ont historiquement tolérés. Dans le scénario d'hiver rigoureux, ils descendent à 16 bcm (15 %) et restent sous 20 % de février à avril. Dans le scénario de pénurie d'importations, ils chutent à environ 6 % en avril 2027, très en dessous de tout niveau vu depuis 2011, et restent sous 20 % jusqu'en juin. Avec un GNL à 80 % du niveau de l'an dernier, les stocks se rapprochent de la trajectoire d'hiver rigoureux ; à 70 %, ils tombent à environ 9 bcm ; à 60 %, le stockage est presque vide en avril. Dans les trois cas, le remplissage pour 2027-28 partirait d'un niveau plus bas que cette année."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "L'auteur projette mois par mois les stocks d'octobre 2026 à juin 2027, depuis environ 80 bcm fin septembre, en tenant compte de la production, des importations nettes et de la consommation. Le scénario de référence reprend les flux d'offre du même mois un an plus tôt et une consommation égale à la moyenne des quatre hivers depuis l'invasion de l'Ukraine. L'hiver rigoureux retient le maximum de consommation observé ces hivers ; la pénurie d'importations réduit d'un tiers les importations de GNL, hypothèse pessimiste qui équivaut à partager proportionnellement la perte d'un cinquième du GNL mondial. Ces hypothèses s'appuient sur l'évolution des flux depuis 2021 et sur une consommation corrigée de la météo, estimée pays par pays."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Le gaz russe a largement disparu : 158 bcm d'importations en 2021, 40 bcm en 2025, soit de 44 % à 13 % des importations hors UE. La Norvège est devenue le premier fournisseur et le GNL a comblé environ la moitié du manque, de 80 bcm à 146 bcm, dont environ trois quarts viennent des États-Unis. Cette dépendance expose l'Europe au marché mondial : les acheteurs asiatiques privés de gaz qatari concurrencent l'Europe pour les cargaisons de l'Atlantique. Le Qatar ne fournissait toutefois qu'environ 6 % du GNL de l'UE sur les sept premiers mois de 2026, contre environ 50 % pour les États-Unis. Côté demande, la consommation a baissé d'environ 20 % entre 2021 et 2024, et reste, corrigée de la météo, environ 13 % sous son niveau d'avant la crise en 2026. Enfin, un très fort El Niño est en cours : lors des cinq hivers de fort El Niño depuis 1980, le chauffage nécessaire a été en moyenne environ 6 % sous la tendance. L'auteur en conclut que cela améliore les chances que l'offre de gaz tienne tout l'hiver, sans écarter les coups de froid qui comptent le plus quand les stocks sont bas."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "L'effet protecteur attendu d'El Niño est incertain : il repose sur cinq hivers seulement, l'événement attendu serait plus fort que tous, et un réchauffement soudain de la stratosphère, source de froid tardif, ne peut être exclu. Le scénario de référence intègre déjà quatre hivers doux, si bien que l'économie de gaz liée à un hiver plus doux tombe à environ 2,5 bcm. Enfin, les stocks retenus incluent du gaz détenu hors de l'UE et dépassent de 3 à 5 points les chiffres du stockage souterrain de GIE."
+  }
+ ],
+ "synthese": "Selon cette note, l'Europe peut traverser un hiver moyen ou rigoureux sans épuiser son gaz, mais avec des stocks plus bas qu'à l'accoutumée. Seule une baisse marquée des importations de GNL les ferait tomber près de zéro au printemps.",
+ "republication": "",
+ "reference": "Johannes Fleck, Board of Governors of the Federal Reserve System, « Europe's Natural Gas Outlook for the Upcoming Winter 2026/2027 », FEDS Notes, 20 novembre 2026 ; note de chercheur (les FEDS Notes présentent les vues du personnel du Board, non celles du Board lui-même)."
+}

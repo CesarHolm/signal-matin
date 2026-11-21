@@ -1,0 +1,24 @@
+{
+ "titre": "METR : l'IA progresse vite sur le code, moins sur les tâches de jugement",
+ "chapo": "L'organisme METR actualise son graphique d'horizon temporel : la progression exponentielle se poursuit, mais les modèles restent en retrait sur les tâches qui exigent du jugement.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Un rapport de METR, organisation à but non lucratif d'évaluation de l'IA, conclut que certaines capacités des modèles continuent de croître selon une trajectoire exponentielle. Il indique aussi que les modèles sont un peu moins bons sur les tâches de jugement que sur le codage. Il met à jour le graphique d'« horizon temporel » de l'organisation, très partagé mais mal compris à cause de la complexité de ses mesures. METR avait soumis les modèles à une vaste série de tâches, toutes également réalisées par des humains. La difficulté de chaque tâche était évaluée par le temps qu'il fallait aux testeurs humains pour la terminer, puis les modèles étaient notés selon la longueur des tâches qu'ils parvenaient à accomplir. Le graphique montrait une amélioration rapide : tous les quatre mois, la longueur des tâches que les modèles de pointe réussissaient à accomplir doublait."
+  },
+  {
+   "intertitre": "Le contexte",
+   "texte": "La version actualisée ajoute des tâches, certaines dont la durée estimée pour un humain dépasse largement celle des tâches initiales, d'autres plus ouvertes. Une grande question est de savoir si les progrès sur les tâches « vérifiables », dont on peut contrôler automatiquement la réussite, se transmettent à celles où le succès est plus difficile à mesurer. On sait entraîner les réseaux de neurones aux premières : le système tente la tâche de nombreuses fois, les connexions qui contribuent à la réussite sont renforcées et celles qui mènent à l'échec sont affaiblies. D'où leurs performances en code et en mathématiques. Cette technique, l'apprentissage par renforcement, s'applique mal aux tâches au succès mal défini ou long à établir, comme le choix d'une nouvelle direction de recherche, et ces tâches sont aussi difficiles à évaluer : le graphique d'origine n'en contenait aucune. Elles seront pourtant essentielles à l'automatisation de la recherche et le développement (R&D) en IA, sujet brûlant. Un autre rapport de METR, très caviardé et publié plus tôt ce mois-ci, affirmait que l'IA pourrait doubler le rythme des progrès chez Anthropic, entreprise qui vient de réaliser une introduction en Bourse retentissante. Il a fait craindre une auto-amélioration récursive : des IA concevant seules leurs successeurs."
+  },
+  {
+   "intertitre": "Ce que ça change",
+   "texte": "La nouvelle série comprend des tâches plus floues, qui font appel au jugement. Dans l'une, les modèles doivent concevoir de nouvelles évaluations d'IA que METR pourrait utiliser, et des employés de METR notent le résultat : bien que les modèles les plus avancés surpassent désormais presque tous les humains en génie logiciel, aucune des évaluations conçues par une IA n'a été jugée assez bonne pour servir à leurs travaux. Dans une autre, les modèles notent des arguments philosophiques, pour mesurer leur capacité de jugement ; METR précise que ses employés ne s'accordent pas sur la pertinence de cette tâche pour l'automatisation de la R&D en IA. Là encore, ils restent sous le niveau humain. Toutefois, certains des modèles les plus récents, comme Opus 5.5, atteignent en général un niveau « borderline above the bar » sur la conception d'évaluations, pas encore exploitable mais prometteur, alors qu'il y a un an tous les modèles étaient « clearly below the bar »."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Ces tâches sont difficiles à concevoir et à noter, si bien que METR en inclut peu, ce qui complique les prévisions. Les durées de réalisation sont surtout estimées, car payer des personnes pour des tâches de centaines d'heures, ou que peu d'experts savent mener, coûte trop cher. Pour les arguments philosophiques, une seule personne a noté la plupart d'entre eux : les modèles sont jugés selon leur accord avec elle. Pour Najoung Kim (Boston University), l'amélioration observée renseigne sur le moment présent, mais on ignore comment l'extrapoler. Matt Putz, de METR, doute qu'on établisse un jour des tendances aussi nettes que pour les tâches faciles à spécifier. Sayash Kapoor, informaticien et futur professeur à UC Berkeley, salue ce virage mais juge qu'il reste beaucoup à faire."
+  }
+ ],
+ "synthese": "METR confirme une croissance exponentielle sur les tâches vérifiables ; sur les tâches de jugement, les modèles restent sous le niveau humain mais semblent progresser. Les experts jugent qu'on est encore loin de savoir si, et à quelle vitesse, l'automatisation de la R&D en IA approche.",
+ "republication": ""
+}

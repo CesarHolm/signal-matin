@@ -1,0 +1,25 @@
+{
+ "titre": "Équations d'Euler 3D : une singularité en temps fini sans force extérieure",
+ "chapo": "Alpöge, Buckmaster et Coiculescu construisent une donnée initiale lisse et périodique dont la solution des équations d'Euler tridimensionnelles explose en temps fini.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Les équations d'Euler incompressibles comptent parmi les plus anciennes équations aux dérivées partielles de la physique mathématique : Euler les a présentées en 1755. En dimension deux, la vorticité est transportée, donc sa norme L∞ est conservée et les solutions lisses existent pour tout temps. En dimension trois, la description du problème du millénaire sur Navier–Stokes par Fefferman précisait que la question de la régularité globale restait ouverte aussi pour Euler, sur R3 et sur le tore T3. Les recherches d'explosion ont d'abord été numériques (Morf, Orszag et Frisch ; Kerr ; Hou et Li ; Luo et Hou), puis analytiques : Elgindi sur R3 à partir de données C1,α0, Chen et Hou à partir de données lisses axisymétriques dans un cylindre périodique à bord, avec des estimations assistées par ordinateur, et Córdoba, Martínez-Zoroa et Zheng, sans force, sur R3 à partir de données C1,α lisses hors de l'origine, grâce à une cascade de couches de vorticité. Les auteurs visent ici des données initiales lisses sur le tore, avec une solution non forcée."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Le théorème 1.1 affirme l'existence d'une donnée initiale impaire, à divergence nulle et de classe C∞ sur T3, dont la solution classique maximale est lisse sur un intervalle [0, T*) avec T* fini. Les intégrales en temps des normes L∞ du gradient de vitesse et du rotationnel valent l'infini. La vitesse reste bornée, tandis que la vorticité à l'origine tend vers l'infini. Loin de l'origine, la vitesse et sa dérivée en temps convergent en tout ordre de régularité sur chaque compact lorsque t tend vers T*. D'après la remarque 1.2, la solution peut être choisie de sorte qu'elle se prolonge de façon lisse en espace et en temps au-delà de T* hors de l'origine, ce qu'une note annexe démontre. Selon le critère de Beale–Kato–Majda, une solution lisse se prolonge au-delà de T si l'intégrale en temps de la norme L∞ du rotationnel est finie : ici elle ne l'est pas."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Les auteurs construisent une suite de solutions approchées lisses dont les résidus tendent vers zéro, et qui converge vers une solution des équations d'Euler. À chaque étape, on ajoute une oscillation de fréquence plus élevée, localisée près de l'origine et d'abord petite en vitesse : le gradient de vitesse des échelles précédentes l'amplifie, et son propre gradient entraîne la croissance de l'onde suivante, sur des intervalles de durée totale finie. Les briques sont les ondes de Craik–Criminale, qui résolvent exactement les équations dans un écoulement linéaire. Le gain d'amplitude de chaque onde vaut au moins un multiple fixe de exp(ε^(−1/2)), où ε est un petit rapport entre deux coefficients du gradient. Le point de départ est l'écoulement de cisaillement stationnaire U0(x) = sin(2πx2)(e1 + ρe3), avec ρ petit. Pour corriger les erreurs sans exciter de modes croissants, ils fixent les positions finales des particules et choisissent la vitesse initiale en conséquence, par un problème linéaire aux deux bouts. Une troncature en fréquence termine chaque étape. L'approche prolonge celle de Córdoba et Martínez-Zoroa."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Les articles compagnons des auteurs, sur l'IPM forcé, Boussinesq forcé et Euler forcé, obtiennent l'explosion avec des forces lisses en espace et en temps jusqu'à l'instant singulier. Ici, grâce aux ondes de Craik–Criminale, la vitesse initiale est choisie à chaque étape de façon que la solution limite ne subisse aucune force : l'explosion concerne bien les équations d'Euler non forcées, à partir d'une donnée lisse et périodique. Les auteurs comparent aussi leur travail aux constructions de non-unicité par intégration convexe, qui utilisent elles aussi des oscillations à des fréquences successives."
+  }
+ ],
+ "synthese": "Ce travail construit une donnée lisse et périodique dont la solution non forcée des équations d'Euler 3D voit sa vorticité exploser en temps fini à l'origine, alors que la vitesse reste bornée. Il repose sur une cascade d'ondes de fréquences croissantes, amplifiées chacune par le cisaillement des précédentes.",
+ "republication": "",
+ "reference": "Levent Alpöge, Tristan Buckmaster et Matei P. Coiculescu, « Finite-time singularity formation for the three-dimensional Euler equations » ; Coiculescu est rattaché à New York University (Simons Society of Fellows) d'après les remerciements ; date et revue non indiquées dans le texte fourni, qui ne mentionne aucune relecture par les pairs (article de recherche)."
+}
