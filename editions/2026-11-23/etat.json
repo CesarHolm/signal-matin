@@ -1,23 +1,7 @@
 {
- "tour": 2,
- "code": 3,
- "a_faire": [
-  "breves",
-  "syn-a107",
-  "syn-a128",
-  "syn-a146",
-  "syn-a151",
-  "syn-a18",
-  "syn-a32",
-  "syn-a36",
-  "syn-a4",
-  "syn-a5",
-  "syn-a50",
-  "syn-a67",
-  "syn-a90",
-  "syn-a94",
-  "syn-a95"
- ],
- "termine": false,
- "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  163 articles candidats, 2 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 17 candidats → 3 à développer, 3 brèves\n  france : 26 candidats → 4 à développer, 3 brèves\n  monde : 49 candidats → 5 à développer, 3 brèves\n  recherche : 8 candidats → 2 à développer, 1 brèves\n  veille : 34 candidats → 4 à développer, 2 brèves\n  curiosites : 29 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a5 complété par : Scientific American, shattered.io\n  a3 écarté des développés : texte trop court (1524 car.)\n  a18 complété par : Economie Matin\n  a36 complété par : franceinfo, Yahoo Actualités\n  a32 complété par : franceinfo\n  a87 écarté des développés : texte trop court (422 car.)\n  a67 complété par : CBS News\n  a71 écarté des développés : texte trop court (502 car.)\n  a95 : papier lu en PDF (40007 car.)\n  a94 : papier lu en PDF (40007 car.)\n  a107 complété par : L'Essentiel de l'Éco\n  a109 écarté des développés : texte trop court (133 car.)\n  a136 écarté des développés : texte trop court (252 car.)\n  a137 écarté des développés : texte trop court (304 car.)\n  plan : sans pages, 14 articles (14 longs)\n· Lot 2 : synthèses (Sonnet)\n… 15 demande(s) en attente : breves, syn-a5, syn-a4, syn-a18, syn-a36, syn-a32, syn-a67, syn-a90, syn-a50, syn-a95, syn-a94, syn-a107, syn-a128, syn-a151, syn-a146\nA_FAIRE 15 : a_faire/breves.json a_faire/syn-a5.json a_faire/syn-a4.json a_faire/syn-a18.json a_faire/syn-a36.json a_faire/syn-a32.json a_faire/syn-a67.json a_faire/syn-a90.json a_faire/syn-a50.json a_faire/syn-a95.json a_faire/syn-a94.json a_faire/syn-a107.json a_faire/syn-a128.json a_faire/syn-a151.json a_faire/syn-a146.json\n"
+ "tour": 3,
+ "code": 0,
+ "a_faire": [],
+ "termine": true,
+ "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  163 articles candidats, 2 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 17 candidats → 3 à développer, 3 brèves\n  france : 26 candidats → 4 à développer, 3 brèves\n  monde : 49 candidats → 5 à développer, 3 brèves\n  recherche : 8 candidats → 2 à développer, 1 brèves\n  veille : 34 candidats → 4 à développer, 2 brèves\n  curiosites : 29 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a3 écarté des développés : texte trop court (1524 car.)\n  a87 écarté des développés : texte trop court (422 car.)\n  a71 écarté des développés : texte trop court (502 car.)\n  a109 écarté des développés : texte trop court (133 car.)\n  a136 écarté des développés : texte trop court (252 car.)\n  a137 écarté des développés : texte trop court (304 car.)\n  plan : sans pages, 14 articles (14 longs)\n· Lot 2 : synthèses (Sonnet)\n! Flux indisponibles : EDPB, ESA\n✓ Édition prête : 14 articles, 17 brèves\n=== agent ===\n✓ Version numérique : /home/runner/work/signal-matin/signal-matin/output/mobile/2026-11-23-signal-matin.html\n· Envoi via Resend (HTTPS)\n✓ E-mail envoyé (1 destinataire(s))\n"
 }

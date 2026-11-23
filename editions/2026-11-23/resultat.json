@@ -1,0 +1,2904 @@
+{
+ "edition": {
+  "date": "2026-11-23",
+  "numero": 23,
+  "secours": false,
+  "numerique": true,
+  "meteo": null,
+  "nouveaux_mots": [
+   {
+    "mot": "Pallier",
+    "nature": "v. tr.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Remédier provisoirement à un manque (se construit sans « à »).",
+    "exemple": "Pallier l'absence d'un collègue."
+   },
+   {
+    "mot": "Juguler",
+    "nature": "v. tr.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Arrêter le développement de quelque chose.",
+    "exemple": "Juguler l'inflation."
+   },
+   {
+    "mot": "Délétère",
+    "nature": "adj.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Nuisible, qui détruit peu à peu.",
+    "exemple": "Un climat de travail délétère."
+   },
+   {
+    "mot": "Pseudonymisation",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "pro",
+    "definition": "Traitement rendant des données non attribuables à une personne sans informations supplémentaires conservées à part.",
+    "exemple": "La pseudonymisation ne fait pas sortir les données du RGPD."
+   },
+   {
+    "mot": "Parangon",
+    "nature": "n. m.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Modèle, type accompli.",
+    "exemple": "Un parangon de vertu."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Sinécure"
+   },
+   {
+    "mot": "Volubile"
+   },
+   {
+    "mot": "Cacochyme"
+   },
+   {
+    "mot": "Algorithme"
+   },
+   {
+    "mot": "Éphémère"
+   }
+  ],
+  "sport": {
+   "resultats": [
+    {
+     "sport": "Tennis",
+     "affiche": "Alcaraz – Zverev",
+     "score": "6-2 7-6 [7]",
+     "competition": "Finales ATP de Turin (circuit ATP), finale",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-s-offre-un-premier-titre-aux-finales-atp-de-turin-en-dominant-alexander-zverev/1745452"
+    },
+    {
+     "sport": "Rugby",
+     "affiche": "France – Argentine",
+     "score": "45-17",
+     "competition": "Championnat des nations (rugby à XV), phase de poules",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Rugby/Actualites/Le-xv-de-france-domine-l-argentine-et-defiera-l-afrique-du-sud-en-finale-du-championnat-des-nations/1745260"
+    },
+    {
+     "sport": "F1",
+     "affiche": "Grand Prix de Las Vegas",
+     "score": "1. Verstappen",
+     "competition": "Championnat du monde de Formule 1, 21e manche",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Formule-1/Actualites/Max-verstappen-remporte-le-grand-prix-de-las-vegas-au-terme-d-une-course-completement-folle/1745311"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Liverpool – Manchester United",
+     "score": "4-0",
+     "competition": "Premier League (championnat d'Angleterre), 11e journée",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401878755/manchester-united-liverpool"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Barcelone – Villarreal",
+     "score": "3-2",
+     "competition": "Liga (championnat d'Espagne), 13e journée",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401882804/villarreal-barcelona"
+    }
+   ],
+   "a_suivre": [],
+   "periode": [
+    "2026-11-21",
+    "2026-11-22"
+   ]
+  },
+  "reponses_hier": [
+   {
+    "mot": "Palimpseste",
+    "definition": "Manuscrit dont on a effacé le premier texte pour en écrire un nouveau ; par extension, ce qui garde la trace de couches successives."
+   },
+   {
+    "mot": "Désinvolte",
+    "definition": "Qui fait preuve d'une liberté d'allure excessive, d'un manque de sérieux ou d'égards."
+   },
+   {
+    "mot": "Lustral",
+    "definition": "Qui sert à purifier, notamment par l'eau dans les rites."
+   },
+   {
+    "mot": "Vindicatif",
+    "definition": "Porté à la vengeance."
+   },
+   {
+    "mot": "Inférence",
+    "definition": "Opération qui tire une conclusion à partir de données ; en IA, production d'un résultat par un modèle."
+   }
+  ],
+  "blocs": [
+   {
+    "id": "ia",
+    "titre": "IA",
+    "developpes": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-22",
+      "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+      "auteur": "Matthias Bastian",
+      "titre": "Hypothèse de Riemann : la preuve d'Alpöge certifiée par la communauté Lean",
+      "chapo": "Les communautés Lean et Mathlib affirment que la preuve de l'hypothèse de Riemann publiée par Levent Alpöge le 20 novembre 2026 est correcte.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Levent Alpöge a publié le 20 novembre 2026 une preuve de l'hypothèse de Riemann sous la forme d'environ 17 millions de lignes de code écrites en Lean, un outil qui vérifie les démonstrations mathématiques. Le 21 novembre, la Lean Focused Research Organization (Lean FRO) et la Mathlib Initiative ont publié un communiqué commun : « Nous avons pleinement confiance dans la justesse de la preuve d'Alpöge » et « nous certifions que l'énoncé comme la preuve de l'hypothèse de Riemann sont corrects ». Formulée en 1859 par Bernhard Riemann, cette hypothèse décrit un motif caché dans la répartition des nombres premiers, ceux qui ne sont divisibles que par eux-mêmes et par 1. Elle comptait parmi les problèmes ouverts les plus célèbres des mathématiques. Le verdict est tombé en un jour, là où l'examen d'une démonstration célèbre prend souvent des mois, voire des années. Le Lean FRO travaille sur l'assistant de preuve Lean lui-même, et la Mathlib Initiative soutient la bibliothèque de mathématiques formalisées où figure la définition de l'énoncé. Les sources divergent sur l'affiliation d'Alpöge : The Decoder le présente comme mathématicien à Stanford, tandis que Scientific American et shattered.io le disent mathématicien chez Anthropic, qui aurait travaillé avec le modèle Claude."
+       },
+       {
+        "intertitre": "Les vérifications menées",
+        "texte": "Selon Scientific American, la compilation sans erreur du code Lean vaut d'ordinaire confirmation de la logique de chaque étape, mais deux questions restaient posées. La première, formulée par Kevin Buzzard (Imperial College London), est de savoir si le théorème écrit dans le code correspond bien à l'énoncé réel. La seconde est de savoir si le code se compile chez d'autres mathématiciens. Des dizaines de personnes l'ont exécuté indépendamment avec le même résultat, et Andrew Sutherland, du MIT, qui recense ces contrôles sur son site, indique que la preuve a été revérifiée par le noyau de Lean avec les seuls trois axiomes standard : « la probabilité que quelque chose cloche est à peu près nulle ». Il fallait en outre écarter tout détour, comme un changement du sens de l'hypothèse initiale. Une « comparator run », qui prend en général quelques heures, devait donc établir que le code ne redéfinit aucun symbole de l'énoncé et, en mode « paranoïaque », qu'il passe sur plusieurs noyaux indépendants, afin qu'il n'exploite pas un bogue encore inconnu du noyau officiel de Lean ; Scientific American indique qu'elle est désormais terminée. Selon shattered.io, deux outils de comparaison indépendants ont confirmé que l'énoncé correspond à RiemannHypothesis, la définition de la bibliothèque Mathlib."
+       },
+       {
+        "intertitre": "Ce que garantit une preuve formelle",
+        "texte": "Selon shattered.io, personne ne peut relire 17 millions de lignes : la confiance repose sur le petit programme central, le noyau de Lean, qui contrôle chaque étape. Si le noyau accepte l'ensemble et que l'énoncé est le bon, la conclusion s'ensuit ; The Decoder précise que ces programmes de vérification sont conçus pour ne pouvoir accepter, de façon démontrable, aucune preuve erronée. La vérification formelle garantit que la conclusion découle des fondements posés, sans pouvoir les rendre philosophiquement incontestables. L'ordre habituel est inversé : l'objet vérifiable par machine existe d'abord, et le récit lisible par des humains reste à écrire. La rapidité de la solution a surpris : selon Ethan Mollick, cité par The Decoder, les prévisionnistes de Metaculus attendaient la résolution en mai 2035, et Terence Tao disait le mois dernier s'attendre à une réussite « humains et IA » vers 2050."
+       },
+       {
+        "intertitre": "Les réserves",
+        "texte": "Selon shattered.io, le certificat porte sur la vérification formelle de Lean et Mathlib : personne n'a confirmé que la preuve soit validée comme démonstration mathématique classique hors de ce cadre. Le même article précise que les éléments vérifiés ne disent rien de la part exacte de Claude, du modèle employé ni du travail humain, et qu'aucun montant de prix ni produit commercial n'est lié à l'annonce."
+       }
+      ],
+      "synthese": "La preuve d'Alpöge, vérifiée de manière indépendante par plusieurs systèmes, est certifiée correcte par les communautés Lean et Mathlib. Reste à savoir comment elle sera reçue par la communauté mathématique au sens classique.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Scientific American",
+        "url": "https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/"
+       },
+       {
+        "source": "shattered.io",
+        "url": "https://shattered.io/lean-mathlib-certify-ai-riemann-hypothesis-proof-17-million-lines/"
+       }
+      ],
+      "format": "long",
+      "id": "a5"
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-22",
+      "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+      "auteur": "Matthias Bastian",
+      "titre": "IA : des fournisseurs bon marché volent des clés et espionnent les utilisateurs",
+      "chapo": "Des chercheurs de Dragos ont envoyé environ 2 millions de requêtes piégées à des fournisseurs d'IA et ont découvert trois fournisseurs compromis, où des attaquants volaient des données.",
+      "sections": [
+       {
+        "intertitre": "Le test et ses résultats",
+        "texte": "Les chercheurs en sécurité de Dragos ont envoyé environ 2 millions de requêtes contenant de faux identifiants à des fournisseurs d'IA, de juillet à novembre 2026. Ils ont identifié au moins trois fournisseurs compromis, où des attaquants volaient activement des données d'utilisateurs ; aucun ne le savait avant d'être prévenu par Dragos. Dans l'incident le plus important, les attaquants ont récolté des centaines de clés AWS, y compris à partir de requêtes que le fournisseur avait rejetées avant traitement. Parfois, ils testaient les clés volées en quelques heures, fouillaient le stockage S3 et tentaient d'établir un accès durable ; l'un d'eux a aussi utilisé ARTEX, un outil d'attaque reposant sur l'IA."
+       },
+       {
+        "intertitre": "Des paramètres de confidentialité ignorés",
+        "texte": "Les revendeurs des places de marché lisent eux aussi les requêtes de leurs clients. Selon Dragos, ils n'ont pas besoin d'exploiter une faille : proposer un modèle au prix le plus bas et activer la journalisation suffit. Dans un cas, une personne connectée depuis un accès internet résidentiel en France a tenté de se connecter en SSH avec des mots de passe extraits de requêtes interceptées. Les réglages comme « Zero Data Retention » (ZDR) étaient souvent ignorés : un laboratoire chinois d'IA a consulté les adresses secrètes de test dans plus de la moitié des requêtes, même lorsqu'elles passaient par des fournisseurs américains. Même de grands fournisseurs américains ont enfreint leurs propres règles : l'un explorait encore une adresse de test plus de deux mois après une seule requête. Dans un autre cas, un lien secret est apparu dans une messagerie interne Feishu (Lark hors de Chine) 24 jours après la requête, et a été ouvert en deux minutes sur trois ordinateurs et trois téléphones à Pékin et à Shanghai."
+       },
+       {
+        "intertitre": "Les intermédiaires, maillon faible",
+        "texte": "Les routeurs d'IA comme OpenRouter offrent une API unique donnant accès à des modèles de différentes entreprises. Les requêtes sont réparties entre des fournisseurs, parfois en plusieurs étapes, et chacune peut lire la requête et la réponse en entier, selon Dragos. Certains routeurs fonctionnent en places de marché ouvertes où le fournisseur le moins cher reçoit le trafic : ici, Novita, AtlasCloud et StreamLake se trouvaient entre OpenRouter et MiniMax, développeur du modèle. OpenRouter a retiré trois fournisseurs de sa plateforme et révoqué l'agrément ZDR de 125 points d'accès, en partie à cause de l'étude, en partie par précaution. Novita, Phala et Together ont publié des rapports préliminaires."
+       },
+       {
+        "intertitre": "Les recommandations",
+        "texte": "Dragos déconseille d'envoyer des requêtes contenant des identifiants à des intermédiaires et recommande de maîtriser le routage, de vérifier les réglages de confidentialité et de placer ses propres « canary tokens », de faux identifiants qui se signalent dès qu'on les utilise. « Cela ne signifie pas qu'il faille cesser d'utiliser les services d'IA. Mais la destination de vos requêtes est une décision, et si vous ne la prenez pas, le prix le plus bas la prendra pour vous », écrit HD Moore, directeur de la recherche."
+       }
+      ],
+      "synthese": "L'étude de Dragos montre que des intermédiaires et des places de marché d'IA peuvent lire, voire exploiter, les requêtes des utilisateurs malgré leurs promesses de confidentialité. Elle invite les organisations à choisir elles-mêmes le chemin de leurs requêtes.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a4"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-22",
+      "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+      "auteur": "Matthias Bastian",
+      "id": "a3",
+      "titre": "L'IA progresse plus vite que les tests capables d'en vérifier la sécurité, alerte METR",
+      "texte": "METR indique que des modèles d'IA de pointe, comme Opus 5.5 et GPT-6 Astra, progressent rapidement sur les tâches de recherche, mais deviennent de plus en plus difficiles à mesurer. Les données actuelles ne permettent pas d'exclure une accélération dangereuse du développement de l'IA, avertit l'organisation. Elle estime aussi que les tests courants pourraient surestimer ce que ces modèles savent réellement faire."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-21",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "auteur": "",
+      "id": "a14",
+      "titre": "Signal restreint les captures d'écran sur mobile",
+      "texte": "Signal limite la possibilité de réaliser des captures d'écran dans ses applications Android et iOS, face à ce qu'elle présente comme une « menace existentielle » de la surveillance par l'IA."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-21",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "auteur": "",
+      "id": "a17",
+      "titre": "Un acteur loue son visage généré par IA à une start-up de microséries",
+      "texte": "Un acteur a cédé la licence de son visage généré par IA à une start-up de microséries, une pratique déjà répandue en Chine. Des experts s'interrogent sur ses conséquences à long terme si elle s'étend à Hollywood."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-21",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "auteur": "",
+      "id": "a16",
+      "titre": "Les agents IA qui peuvent vivre dans vos messages texte",
+      "texte": "Une sélection des agents IA les plus notables pouvant vivre dans vos messages texte, des assistants généralistes à ceux conçus pour la famille, les voyages ou le travail."
+     }
+    ]
+   },
+   {
+    "id": "france",
+    "titre": "Actualité France",
+    "developpes": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-22",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/22/emmanuel-macron-envisage-de-reunir-le-congres-a-versailles-pour-faire-adopter-une-regle-d-or-budgetaire-une-procedure-inedite-a-plus-d-un-titre_6814241_823448.html",
+      "auteur": "",
+      "titre": "Règle d'or budgétaire : Macron envisage un Congrès à Versailles",
+      "chapo": "Selon La Tribune Dimanche, Emmanuel Macron envisage de réunir le Congrès, peut-être en janvier 2027, pour faire adopter la « règle d'or » budgétaire votée en 2011.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est envisagé",
+        "texte": "Selon les informations de La Tribune Dimanche du 22 novembre, Emmanuel Macron projette, avant de quitter l'Élysée, de graver dans la Constitution une « règle d'or » budgétaire, mesure emblématique du sérieux budgétaire, mise en œuvre en Allemagne depuis le début des années 2010 mais controversée en France. Il s'agirait d'exhumer un projet de révision constitutionnelle voté dans les mêmes termes en 2011 par l'Assemblée nationale et par le Sénat, à l'initiative du gouvernement de François Fillon. Le Parlement serait réuni en Congrès à Versailles ; le vote pourrait avoir lieu dès janvier, précise Le Monde, et Economie Matin, qui cite Reuters, parle de janvier 2027. Selon ce récit, le président aurait demandé au Premier ministre Sébastien Lecornu de sonder les soutiens possibles, dans la perspective de la fin de l'examen des textes budgétaires. Les deux sources divergent sur la position de l'Élysée : Le Monde écrit que l'information est confirmée par le palais présidentiel, tandis qu'Economie Matin indique qu'il n'a pas commenté."
+       },
+       {
+        "intertitre": "Ce que prévoyait le texte de 2011",
+        "texte": "Le projet de loi constitutionnelle adopté le 13 juillet 2011 prévoyait des « lois-cadres d'équilibre des finances publiques » couvrant au moins trois années. Ces textes devaient fixer des orientations pluriannuelles et, pour chaque année, un plafond de dépenses ainsi qu'un minimum de mesures nouvelles portant sur les recettes. Ces paramètres auraient été opposables, dans leur ensemble, aux lois de finances et aux lois de financement de la Sécurité sociale. Il ne s'agissait donc pas d'exiger que chaque budget soit à l'équilibre, mais de rendre contraignante une trajectoire pluriannuelle. Les articles 5 et 6 interdisaient l'adoption définitive d'un budget de l'État ou de la Sécurité sociale sans loi-cadre applicable à l'exercice concerné, et le Conseil constitutionnel aurait dû examiner la conformité des deux textes budgétaires annuels à la loi-cadre avant leur promulgation. Les modalités de compensation des écarts constatés en exécution devaient être précisées par une loi organique."
+       },
+       {
+        "intertitre": "Pourquoi le vote de 2011 n'a pas suffi",
+        "texte": "La réforme préparée sous le gouvernement Fillon avait franchi les lectures parlementaires : le Sénat l'a votée le 11 juillet 2011, puis l'Assemblée nationale l'a adoptée sans modification le 13 juillet. Le texte précisait toutefois qu'il ne deviendrait définitif qu'après approbation par référendum ou par le Parlement réuni en Congrès, étape qui n'a pas eu lieu. Le président Nicolas Sarkozy, guère assuré de réunir les trois cinquièmes des suffrages exprimés sur un texte contesté par la gauche, à moins d'un an de l'élection présidentielle de 2012, avait renoncé à convoquer le Congrès. Le Monde rappelle que la réforme constitutionnelle de 2008 n'avait été adoptée qu'à une voix près. Le projet est resté lettre morte."
+       },
+       {
+        "intertitre": "Une procédure inédite",
+        "texte": "L'article 89 de la Constitution, qui fixe les conditions de révision, ne prévoit aucune limite dans le temps entre l'adoption d'un projet par les deux chambres et la convocation du Congrès. Selon la procédure décrite par le Sénat, le président peut soumettre le projet au Congrès après son adoption identique dans les deux assemblées, et il faut alors recueillir les trois cinquièmes des suffrages exprimés ; la voie du référendum reste également prévue. Si Emmanuel Macron franchissait le pas, le vote clôturerait un processus entamé trois législatures en amont, ce qui serait inédit depuis la naissance de la République, souligne Le Monde."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Economie Matin insiste sur le caractère hypothétique de l'information : aucune convocation du Congrès ni nouvelle règle constitutionnelle n'est annoncée à ce stade. Que certains partis se disent favorables au principe d'une règle d'or ne garantit pas l'approbation d'un texte précis : le contenu des obligations, leurs exceptions éventuelles et le calendrier compteraient autant que l'accord de principe. Le texte de 2011 ne dit rien des seuils ou du rythme de redressement que retiendrait une initiative en 2027."
+       }
+      ],
+      "synthese": "Emmanuel Macron envisagerait de relancer le projet de règle d'or de 2011, resté inachevé faute de Congrès, en s'appuyant sur une procédure sans limite de délai. Rien n'est décidé : la réunion du Congrès reste une hypothèse politique, et l'issue d'un vote dépendrait du contenu et du soutien recueilli.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Economie Matin",
+        "url": "https://www.economiematin.fr/macron-regle-or-budgetaire-texte-2011-congres-22-novembre-2026-1233"
+       }
+      ],
+      "format": "long",
+      "id": "a18"
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-22",
+      "url": "https://www.franceinfo.fr/politique/front-national/un-mail-du-service-du-prefet-hugues-moutouh-soupconne-d-avoir-renseigne-le-rn-decouvert-lors-d-une-perquisition-chez-un-proche-de-marine-le-pen_8294915.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "titre": "Fuites au profit du RN : un mail du ministère de l'Intérieur retrouvé à Rome",
+      "chapo": "Un mail du secrétariat général de l'Intérieur, alors dirigé par Hugues Moutouh, a été découvert chez Frédéric Chatillon, proche de Marine Le Pen, et a déclenché une enquête sur des fuites.",
+      "sections": [
+       {
+        "intertitre": "Ce qui a été découvert",
+        "texte": "Un mail provenant du secrétariat général du ministère de l'Intérieur, alors dirigé par Hugues Moutouh, a été découvert lors d'une perquisition chez un proche de Marine Le Pen. Franceinfo l'a appris dimanche 22 novembre de source proche du dossier, confirmant une information du Monde, et l'AFP a obtenu la même confirmation. La perquisition a eu lieu à Rome, au domicile de Frédéric Chatillon, ex-président du GUD et ami de longue date de Marine Le Pen, dans le cadre d'une enquête du parquet européen portant sur des soupçons d'usage frauduleux de fonds du Parlement européen. Le mail concernait des enquêtes judiciaires visant le Rassemblement national. Cette découverte a conduit à l'ouverture de l'enquête sur des fuites provenant de Beauvau, l'adresse parisienne du ministère de l'Intérieur, et incriminant Hugues Moutouh."
+       },
+       {
+        "intertitre": "Le contenu du courriel",
+        "texte": "Selon la source proche du dossier citée par l'AFP, les enquêteurs européens ont trouvé la copie d'un courriel d'une fonctionnaire du secrétariat général adressé à sa hiérarchie. Elle y relatait son audition par la brigade financière anticorruption de la police judiciaire de Paris, dans une enquête sur des soupçons de financement illégal de campagnes électorales du RN. D'après Le Monde, elle y raconte les questions des enquêteurs, ses réponses sur les financements des partis politiques et des points de droit ou de réglementation en matière de prêts. Trois personnes, dont le préfet Moutouh, avaient accès à ce courriel confidentiel, ce que la source a confirmé à l'AFP."
+       },
+       {
+        "intertitre": "Une enquête et des perquisitions",
+        "texte": "Hugues Moutouh, secrétaire général du ministère de l'Intérieur entre avril 2025 et mai 2026 et aujourd'hui préfet de la région Centre-Val de Loire, est soupçonné d'avoir transmis au RN des informations confidentielles sur des enquêtes visant le parti. Le parquet de Paris a ouvert fin juillet « une information judiciaire portant sur des faits de violation du secret professionnel, violation du secret de l'enquête et recel de ces délits ». Des perquisitions ont été menées fin juillet au secrétariat général de Beauvau, selon l'AFP, puis au domicile d'Hugues Moutouh, et le 9 novembre au siège du RN, dans le 16e arrondissement de Paris. Après les révélations du Monde, Hugues Moutouh a annoncé samedi soir avoir demandé à être relevé de ses fonctions face à ce qu'il qualifie de « campagne de déstabilisation »."
+       },
+       {
+        "intertitre": "La réponse de Marine Le Pen",
+        "texte": "Candidate à l'élection présidentielle, Marine Le Pen a pris ses distances avec l'affaire sur France 2 et France Inter : « Je n'ai jamais reçu d'informations confidentielles et je n'ai jamais demandé d'ailleurs d'informations confidentielles. » Interrogée sur d'éventuels bénéficiaires au RN et dans son entourage, elle a répondu : « Je suis incapable de vous dire cela puisque l'enquête est en cours. » Elle dit ignorer comment le mail a pu se retrouver chez « un de nos anciens prestataires », mais assure que « ce n'est pas passé par moi ». Selon elle, si elle en croit Le Monde, le document « n'est pas une violation du secret de l'enquête ou de l'instruction »."
+       },
+       {
+        "intertitre": "Ce que l'on ignore encore",
+        "texte": "Les sources ne disent pas comment le courriel est parvenu au domicile romain de Frédéric Chatillon, que Marine Le Pen qualifie d'ancien prestataire. Hugues Moutouh est soupçonné, mais l'information judiciaire est en cours, et Marine Le Pen répond qu'elle ne peut rien dire sur d'éventuels bénéficiaires au RN tant que l'enquête dure. Du côté du RN, l'eurodéputé Aleksandar Nikolic a réagi en ces termes : « J'espère que ce n'est pas une pression pour tous ceux qui oseraient discuter avec nous. »"
+       }
+      ],
+      "synthese": "Un courriel interne du ministère de l'Intérieur retrouvé chez Frédéric Chatillon a conduit à l'ouverture d'une information judiciaire visant Hugues Moutouh, qui a demandé à être relevé de ses fonctions. Marine Le Pen affirme n'avoir jamais reçu d'informations confidentielles, et l'enquête se poursuit.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/politique/front-national/un-mail-du-service-du-prefet-hugues-moutouh-soupconne-d-avoir-renseigne-le-rn-decouvert-lors-d-une-perquisition-chez-un-proche-de-marine-le-pen_8294915.html"
+       },
+       {
+        "source": "Yahoo Actualités",
+        "url": "https://fr.news.yahoo.com/scandale-rn-mail-service-pr%C3%A9fet-131818782.html"
+       }
+      ],
+      "format": "long",
+      "id": "a36"
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-22",
+      "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/ca-devient-lassant-avec-la-repetition-des-inondations-dans-le-pas-de-calais-des-quartiers-vont-ils-bientot-etre-desertes_8295173.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "titre": "Inondations dans le Pas-de-Calais : des habitants envisagent de partir",
+      "chapo": "Alors que 850 logements ont été inondés, des habitants du Pas-de-Calais, las des crues à répétition, se demandent s'ils devront un jour quitter leurs maisons.",
+      "sections": [
+       {
+        "intertitre": "Une situation encore instable",
+        "texte": "Dimanche 22 novembre, la situation du Pas-de-Calais n'était toujours pas stabilisée : des villages restaient sous les eaux et des quartiers entiers ont de nouveau été submergés au cours des derniers jours. Au total, 850 logements ont été inondés. Ailleurs, de nouvelles alertes inondations ont été émises pour l'Ain et le Jura, et la Corse reste sur ses gardes en raison de vents violents accompagnés de fortes précipitations. Elle est placée en vigilance orange aux vents violents à partir de dimanche minuit, tandis que le Jura et l'Ain restent en alerte pour pluie-inondation, comme le Pas-de-Calais pour un risque de crues. Le préfet du Pas-de-Calais affirme toutefois que la décrue est très nette sur l'amont de la Canche. À Montreuil-sur-Mer, un vaste élan de solidarité s'est mis en place, et des hélitreuillages à haut risque ont eu lieu durant les inondations."
+       },
+       {
+        "intertitre": "La question que posent les crues répétées",
+        "texte": "La répétition de ces épisodes pousse les habitants à s'interroger : seront-ils un jour forcés de quitter leurs habitations ? Pour de nombreux locaux, la question est désormais de rester ou de partir pour ne plus subir. « Ça devient lassant. On ne va pas vivre ça tous les deux ans », lance une habitante. Certains pensaient pourtant avoir pris les devants : avec leurs batardeaux devant les portes et trois pompes installées, ils croyaient pouvoir éviter l'inondation, mais la crue l'a emporté. Le reportage de France 2, dont ce texte reprend une partie de la retranscription, donne la parole à ces habitants confrontés à des inondations qui reviennent d'un épisode à l'autre."
+       },
+       {
+        "intertitre": "Des habitants à bout de forces",
+        "texte": "« C'est passé par-dessus notre batardeau de la cave, je ne sais pas si vous vous rendez compte », glisse Isabelle Grenier, habitante sinistrée de la commune d'Attin. Dans ce village, des retraités qui vivent au bord de la Canche viennent de connaître leur vingtième inondation, celle de trop. « Là, ça recommence encore. Moi, je pense que c'est la dernière fois », ajoute Isabelle, qui livre sa détresse et précise ne plus avoir la force. Son mari, Raymond, en tire la conséquence : « On va mettre en vente et puis changer de secteur. »"
+       },
+       {
+        "intertitre": "Rester, faute de pouvoir partir",
+        "texte": "Il y a ceux qui se résolvent à partir, et d'autres qui sont obligés de rester. En 2023, Geoffroy Quéant, habitant de Montreuil-sur-Mer, a eu 1,50 mètre d'eau dans sa maison. Depuis, il s'est adapté pour mieux se protéger : une pompe de relevage rejette l'eau, et un système de batardeau clampé fait barrière pour éviter de remplir le sol en contrebas. S'y ajoutent une terrasse surélevée, des bouches et des trappes d'aération, autant d'aménagements devenus indispensables pour continuer à vivre chez lui, car déménager est désormais impossible. « La maison a perdu trop de valeur. Pour acheter un autre bien équivalent, il y a beaucoup de zones sinistrées, donc les terrains restants sont beaucoup plus chers », explique-t-il. Pour lui, adapter sa maison est donc la seule option, là où d'autres envisagent de vendre."
+       },
+       {
+        "intertitre": "Les rachats par l'État, un recours limité",
+        "texte": "La maison de Geoffroy Quéant n'est pas éligible à un rachat par l'État. Dans son village, seules quatre habitations ont été rachetées pour être démolies. À Blendecques, autre village du Pas-de-Calais très touché en 2023, la destruction d'une quinzaine de maisons a commencé il y a quelques semaines. Le reportage met ainsi en regard deux situations : celle des habitants qui envisagent de vendre et de quitter le secteur, et celle des propriétaires que la perte de valeur de leur bien retient sur place, sans solution de rachat."
+       }
+      ],
+      "synthese": "Face aux crues répétées, certains habitants du Pas-de-Calais veulent partir, tandis que d'autres restent faute de pouvoir racheter ailleurs à un prix équivalent. Les rachats par l'État, encore peu nombreux, ne concernent qu'une partie des maisons sinistrées, comme le montre le reportage de France 2.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/ca-devient-lassant-avec-la-repetition-des-inondations-dans-le-pas-de-calais-des-quartiers-vont-ils-bientot-etre-desertes_8295173.html"
+       }
+      ],
+      "format": "long",
+      "id": "a32"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-22",
+      "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/22/choose-france-273-projets-industriels-seront-presentes-lors-de-ce-sommet-devolu-aux-entreprises-tricolores_6814240_1656968.html",
+      "auteur": "",
+      "id": "a26",
+      "titre": "Choose France : 273 projets industriels présentés, 14,9 milliards d'euros",
+      "texte": "Le sommet Choose France, réservé aux entreprises françaises qui investissent dans le pays, présente 273 projets industriels. Il décompte 14,9 milliards d'euros d'investissements nouveaux, dont 81 projets inédits, notamment dans la santé, la cosmétique ou les biocarburants."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-22",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/22/fuites-vers-le-rn-marine-le-pen-dit-n-avoir-jamais-recu-d-informations-confidentielles-du-prefet-hugues-moutouh_6814216_3224.html",
+      "auteur": "",
+      "id": "a25",
+      "titre": "Fuites vers le RN : Marine Le Pen nie avoir reçu des informations confidentielles",
+      "texte": "La candidate du RN à la présidentielle 2027 assure n'avoir « jamais reçu d'informations confidentielles » du préfet Hugues Moutouh, qui a annoncé samedi avoir demandé à être relevé de ses fonctions. Elle dit ne pas le connaître personnellement."
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-22",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/direct-campagne-presidentielle-la-secretaire-generale-de-la-cfdt-marylise-leon-appelle-a-changer-la-date-pour-eviter-un-second-tour-le-2-mai_8294528.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "id": "a33",
+      "titre": "Glucksmann propose d'avancer la présidentielle aux 11 et 25 avril",
+      "texte": "Le candidat PS-Place publique Raphaël Glucksmann estime qu'un second tour au lendemain d'un 1er mai est une erreur. Il propose d'organiser les deux tours les 11 et 25 avril, pour ne pas « prendre de risques » avec cette élection."
+     }
+    ]
+   },
+   {
+    "id": "monde",
+    "titre": "Actualité Monde",
+    "developpes": [
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-22",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
+      "auteur": "",
+      "titre": "Nvidia : Washington réclame des réponses sur les ventes de puces à la Chine",
+      "chapo": "Le secrétaire au Trésor Scott Bessent affirme que les États-Unis ont besoin de réponses de Nvidia sur le respect des restrictions à l'exportation vers la Chine.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est demandé",
+        "texte": "Invité dimanche de l'émission « Face the Nation » de CBS, Scott Bessent a déclaré que l'administration américaine veut des réponses de Nvidia sur ses ventes de puces à la Chine. Washington cherche aussi à savoir qui dirigeait la conformité chez le fabricant, dont Jensen Huang a démissionné après des révélations sur une liaison avec une espionne présumée chinoise, selon le South China Morning Post ; CBS évoque des liaisons extraconjugales, dont l'une avec une espionne présumée. « Nous avons été en contact avec la direction provisoire, avec les administrateurs référents, avec leurs avocats, et nous avons besoin de réponses », a dit Bessent, pour qui il est dans l'intérêt de Nvidia d'agir vite, car l'administration veut savoir quelle était la culture de l'entreprise."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "Bessent a précisé qu'une telle culture n'est qu'une possibilité et que le conseil d'administration agit très vite pour établir si elle existait ou non. Les États-Unis enquêtent sur la façon dont Nvidia aurait pu donner à la Chine accès à des puces d'intelligence artificielle avancées, malgré les restrictions du gouvernement. La semaine dernière, Bessent avait évoqué une possible « culture de non-conformité » et demandé si l'entreprise poussait ces ventes apparemment illicites pour gonfler son chiffre d'affaires et ses bénéfices. Sur Fox News, il avait exigé des réponses sous dix jours ; dimanche, il a indiqué ne pas les avoir encore reçues. La directrice financière, Colette Kress, dirige désormais l'entreprise, mais Bessent a invité Nvidia à faire venir quelqu'un de l'extérieur."
+       },
+       {
+        "intertitre": "Les enjeux et les suites",
+        "texte": "Interrogé sur l'approche de Nvidia fondée sur la « poignée de main », Bessent a répondu que pour des accords de cette taille, il n'existe pas d'accord invérifiable : il y a des factures et des mouvements d'argent, et il sera possible de comprendre ce qui s'est passé. Il veut savoir à quel niveau l'entreprise était au courant, des échelons inférieurs ou intermédiaires jusqu'au sommet, et si des acteurs malveillants en bas de l'entreprise sont responsables. Il distingue cette éventuelle culture de la liaison présumée de Jensen Huang, qu'il qualifie de « sorte de canard », et se demande s'il s'agit d'une culture de conformité ou des travers d'un seul homme. Le président Trump a demandé le retour de Jensen Huang à la tête de Nvidia ; Bessent dit qu'il faut d'abord voir « où s'arrête la responsabilité ». Jensen Huang doit témoigner devant la commission bancaire du Sénat et sera entendu par des commissions de la Chambre début décembre."
+       }
+      ],
+      "synthese": "Le Trésor américain attend de Nvidia des explications rapides sur ses ventes de puces à la Chine et sur la responsabilité de sa direction. L'enquête se poursuit avant l'audition de Jensen Huang au Sénat.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "CBS News",
+        "url": "https://www.cbsnews.com/news/bessent-nvidia-china-ai-chips-alice-huang-canard/"
+       }
+      ],
+      "format": "long",
+      "id": "a67"
+     },
+     {
+      "rubrique": "Géopolitique",
+      "source": "Le Grand Continent",
+      "date": "2026-11-22",
+      "url": "https://legrandcontinent.eu/fr/2026/11/22/en-espagne-vox-est-aux-portes-du-pouvoir/",
+      "auteur": "Ramona Bloj",
+      "titre": "Espagne : un sondage place Vox en position de faiseur de majorité",
+      "chapo": "Avant les élections générales du 29 novembre 2026, un sondage Cluster 17 donne le PP et le PSOE au coude-à-coude, avec Vox en forte hausse.",
+      "sections": [
+       {
+        "intertitre": "Ce que dit le sondage",
+        "texte": "Selon un sondage exclusif Cluster 17 réalisé avant les élections générales du 29 novembre 2026, le Parti populaire (PP) d'Alberto Núñez Feijóo recueille 30,4 % des intentions de vote, contre 29,9 % pour le PSOE de Pedro Sánchez. Vox, d'extrême droite, mené par Santiago Abascal, obtient 18,4 %, suivi par Frente Amplio (5,8 %). C'est une percée pour Vox, qui avait réuni 12,38 % des voix en 2023 et semble avoir capté une partie de l'électorat du PP. La gauche recule aussi : Sumar, le parti de Yolanda Díaz, désormais intégré au Front large, fait moins bien qu'au précédent scrutin (12,33 %). Si ces intentions de vote se confirmaient le jour du scrutin, avec une participation estimée à 69 %, le PP aurait 125 sièges, le PSOE 120 et Vox 65. PP et Vox atteindraient ensemble 190 députés, soit la majorité absolue, alors que le PSOE et ses alliés de gauche plafonneraient à 150. Une enquête Cluster 17 de fin octobre jugeait toutefois une coalition PP-Vox inacceptable pour 54 % des personnes interrogées."
+       },
+       {
+        "intertitre": "Le contexte et les enjeux",
+        "texte": "Le PSOE recule légèrement (31,68 % en 2023), semblant profiter de l'affaiblissement de la gauche radicale, mais, faute de coalition viable, Pedro Sánchez, Premier ministre depuis 2018 et candidat pour la quatrième fois, pourrait perdre le pouvoir. Il se distingue par plusieurs positions qui tranchent avec le consensus des partis au pouvoir sur le continent. Son gouvernement est l'un des derniers clairement de gauche en Europe : politique migratoire ouverte, opposition à la hausse des dépenses de défense, ouverture à la Chine, forte croissance des renouvelables (60 % de la production électrique). Il se maintient sans budget adopté depuis 2022. Le scrutin intervient après deux accidents ferroviaires majeurs cette année et des affaires de corruption dans l'entourage de Sánchez. Parmi les préoccupations des électeurs figurent le coût de la vie (47 %), la santé (43 %), le logement (38 %) et la corruption (37 %), avec un clivage net : corruption et immigration à droite, santé et logement à gauche."
+       }
+      ],
+      "synthese": "Le PP devance de peu le PSOE, mais la majorité absolue dépendrait d'une alliance avec Vox, que plus de la moitié des sondés rejettent. Sánchez pourrait perdre le pouvoir faute de coalition viable.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a90"
+     },
+     {
+      "rubrique": "États-Unis",
+      "source": "NPR",
+      "date": "2026-11-22",
+      "url": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment",
+      "auteur": "Lauren Sommer",
+      "titre": "COP31 à Antalya : échec des négociations climatiques sur les énergies fossiles",
+      "chapo": "Les délégués de près de 200 pays ont échoué dimanche à s'accorder sur un texte final, après des prolongations qui ont fait de COP31 la plus longue conférence climatique.",
+      "sections": [
+       {
+        "intertitre": "Ce qui s'est passé",
+        "texte": "À Antalya, en Turquie, les négociations climatiques internationales se sont rompues pendant les heures de prolongation, sur la manière d'aborder les énergies fossiles, principale cause du réchauffement. Dimanche, les délégués de près de 200 pays n'ont pas trouvé d'accord d'ensemble couvrant les objectifs d'électrification, le financement destiné à aider les pays en développement à s'adapter, et la réponse à apporter au franchissement prochain d'un seuil de réchauffement clé. La conférence a duré deux jours de plus que prévu, ce qui en fait la plus longue de l'histoire de ces sommets. Les énergies fossiles (pétrole, gaz et charbon) représentent environ 73 % des émissions mondiales."
+       },
+       {
+        "intertitre": "Le blocage sur les fossiles",
+        "texte": "Les représentants de l'Union européenne ont refusé tout résultat final qui n'appelle pas explicitement à une transition hors des énergies fossiles, formule combattue par certains pays producteurs de pétrole comme l'Arabie saoudite. Darragh O'Brien, ministre irlandais du Climat, de l'Énergie et de l'Environnement, qui parlait au nom de l'UE, a quitté la salle avec le commissaire européen Wopke Hoekstra. D'autres pays ont aussi contesté le texte, dont le Panama, le Belize et des petits États insulaires comme le Vanuatu et les îles Marshall. « Ce n'est pas acceptable », a déclaré Hoekstra, pour qui le monde va vers un dépassement de 1,5 °C. Une correction de NPR précise que seuls les représentants de l'UE ont quitté la salle, les autres pays se bornant à contester le texte. Le processus des COP fonctionne au consensus : près de 200 pays doivent approuver le texte final. La Norvège et le Mexique ont récemment voulu y inscrire la transition hors des fossiles, que l'Arabie saoudite et la Russie ont bloquée. La COP de Dubaï, en 2023, a été la première à la mentionner dans son accord final, après 28 ans de conférences. Plus de 50 pays, frustrés, ont organisé en avril en Colombie une conférence distincte ; Irlande et Tuvalu accueilleront la deuxième en 2027."
+       },
+       {
+        "intertitre": "Électrification et seuil de 1,5 °C",
+        "texte": "C'est le premier sommet de l'ONU sur le climat qui reconnaît officiellement que le monde dépassera le seuil de 1,5 °C fixé en 2015, déjà quasiment atteint. Selon l'ONU, un scénario optimiste à 1,7 ou 1,8 °C exigerait de réduire les émissions de 45 % d'ici 2035, donc de réduire fortement l'usage des fossiles. La guerre américano-israélienne contre l'Iran et la fermeture inédite du détroit d'Ormuz ont pesé sur les débats ; depuis son début, des pays d'Asie et d'Afrique accélèrent le solaire, les batteries et les véhicules électriques. COP31 devait être la « COP de l'électrification », avec l'objectif de passer de 23 % à 35 % d'électrification d'ici 2035 (« 35 d'ici 35 »). Cet engagement, signé par des dizaines de pays, n'a finalement pas été adopté : « l'électrification a été un dommage collatéral », selon Alden Meyer, du groupe de réflexion E3G. Pour le ministre australien Chris Bowen, qui présidait les négociations, la transition hors des fossiles est « inévitable », « rapide et irréversible »."
+       },
+       {
+        "intertitre": "Le financement, toujours insuffisant",
+        "texte": "En 2024, les pays ont promis de fournir à terme 1 300 milliards de dollars par an aux pays en développement, mais l'OCDE n'a recensé que 136,7 milliards versés cette année-là. L'ONU estime à 305 milliards par an d'ici 2035 les besoins d'adaptation des pays à faible revenu. Les mesures pour tripler le financement de l'adaptation d'ici 2035 figuraient dans la décision globale rejetée, selon Meyer, et les pays vulnérables d'Afrique et d'ailleurs en sont « assez en colère ». Cette année, 2,8 milliards de dollars ont été demandés pour les dommages, pour 342 millions disponibles ; à COP31, 142 millions supplémentaires seulement ont été promis. L'administration Trump n'a envoyé aucune délégation pour la deuxième année de suite ; des élus démocrates venus à titre informel ont assuré que le climat reviendrait à l'agenda lorsque les démocrates contrôleraient les deux chambres du Congrès l'an prochain."
+       }
+      ],
+      "synthese": "COP31 s'achève sans décision d'ensemble : le désaccord sur la mention des énergies fossiles a emporté aussi l'électrification et les engagements de financement. Le ministre panaméen Juan Carlos Navarro voit dans les initiatives parallèles le meilleur espoir d'action tant que le processus des COP ne change pas.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a50"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-22",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3375166/no-grand-bargain-xi-trump-putin-meeting-was-never-point",
+      "auteur": "",
+      "id": "a71",
+      "titre": "Sommet Xi-Trump-Poutine : pas de grand accord, et ce n'était pas l'objectif",
+      "texte": "Le 19 novembre, à Shenzhen, Xi Jinping a reçu Donald Trump et Vladimir Poutine. Les trois dirigeants ont publié une déclaration en quatre points sur la réforme de l'ONU, la sécurité énergétique, les abus de compétence de la Cour pénale internationale et la réduction des risques nucléaires. Le sommet n'a toutefois produit rien de comparable à un grand accord sur les dossiers géopolitiques et de sécurité."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-23",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
+      "auteur": "Kristina Harazim; Enes Abuomer",
+      "id": "a87",
+      "titre": "Iran : la marine affirme avoir incendié des pétroliers dans le détroit d'Ormuz",
+      "texte": "La marine iranienne affirme avoir incendié des pétroliers qui contrevenaient à ses règles. De son côté, l'IRGC déclare que des « ennemis » cherchent à attiser les troubles."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-23",
+      "url": "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region?traffic_source=rss",
+      "auteur": "",
+      "id": "a84",
+      "titre": "Ebola : les combats près d'un hôpital en RDC menacent la riposte, selon l'OMS",
+      "texte": "Le directeur de l'OMS appelle à la paix alors que de violents combats ont lieu près d'un hôpital de la région touchée par Ebola en RDC. Selon l'OMS, patients et personnels sont exposés à un « grave risque »."
+     }
+    ]
+   },
+   {
+    "id": "recherche",
+    "titre": "Recherche & travaux d'experts",
+    "developpes": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w36009#fromrss",
+      "auteur": "Emanuele Colonnelli; Timothy McQuade; Natalia Rigol; Benjamin N Roth",
+      "titre": "Mesurer l'impact social double la croissance de jeunes entreprises en Inde",
+      "chapo": "Un essai randomisé auprès de 163 entreprises sociales indiennes montre que mesurer son impact favorise la croissance et la levée de fonds, et que les investisseurs réagissent aux chiffres.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "L'investissement d'impact contrôlerait plus de 1 500 milliards de dollars d'actifs, et les entreprises sociales généreraient plus de 2 000 milliards de dollars de revenus annuels dans le monde. Mais, contrairement aux profits, que la comptabilité et la fiscalité imposent de mesurer, l'impact social est coûteux à quantifier, difficile à comparer et souvent présenté sous forme de récits. Emanuele Colonnelli, Timothy McQuade, Natalia Rigol et Benjamin Roth se demandent donc si mesurer l'impact rapporte des gains privés à l'entreprise elle-même. Ils affirment mener le premier essai randomisé sur la mise en oeuvre de cette mesure, auprès d'entreprises à forte croissance, et le complètent par une seconde expérience, menée auprès d'investisseurs."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "Les entreprises traitées ont connu environ 20 000 dollars de croissance de revenus supplémentaire, soit près du double de celle des entreprises témoins. Elles ont aussi levé 43 000 dollars de financement externe de plus, ce qui double le montant des témoins. L'effet n'est pas dû à quelques cas extrêmes : la distribution se décale et la médiane augmente de façon significative. Dans l'expérience auprès des investisseurs, passer d'un profil sous la médiane à un profil au-dessus de la médiane pour le surplus client accroît l'intérêt autant que passer d'une entreprise non rentable à une entreprise rentable. Un énoncé qualitatif générique a un effet faible et non significatif. Les profils présentaient soit les seuls revenus moyens des clients, soit un énoncé qualitatif, soit le surplus client."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "Avec Villgro, premier incubateur d'entreprises sociales en Inde, les 163 entreprises ont suivi le même cours de mesure et de gestion de l'impact, à raison de sept séances en ligne de deux heures, d'avril à juin 2023. Le hasard a décidé lesquelles recevaient en plus un accompagnement individuel (quatre à cinq rencontres), des enquêtes auprès de leurs clients, salariés et fournisseurs, et un rapport personnalisé : 80 entreprises traitées, 83 témoins. Les résultats viennent d'une enquête de départ (septembre 2022) et d'une enquête finale (juillet 2024), analysées par différence de différences. Au départ, les entreprises employaient en moyenne 12,6 personnes, avaient environ 60 000 dollars de revenus annuels et 84 000 dollars de capital externe levé. Les données finales manquent pour 21 entreprises dans chaque groupe. Le second essai a réuni 223 investisseurs, qui ont noté des profils fictifs de start-up tirés au hasard ; leurs notes étaient incitées par la promesse d'être mis en relation avec de vraies start-up."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Selon les auteurs, ces résultats documentent des rendements privés de la mesure d'impact. Pour des entreprises sociales, une croissance plus rapide peut aussi élargir la portée de produits destinés aux clients et aux autres parties prenantes. Deux mécanismes sont avancés : en interne, collecter des données aide à repérer les clients et usages qui créent le plus de valeur ; en externe, des indicateurs chiffrés rendent les affirmations d'impact plus crédibles aux yeux des investisseurs. Les investisseurs ne récompensent pas le langage d'impact en soi, mais les preuves chiffrées : la forme de la mesure compte pour l'allocation du capital d'impact."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Le dispositif réunit plusieurs composantes, ce qui empêche d'isoler la contribution de chacune ou les mécanismes précis. L'échantillon reflète une auto-sélection : les résultats valent surtout pour des entreprises sociales orientées vers la croissance et intéressées par ces pratiques. Enfin, les mesures de surplus ne sont pas des mesures complètes de l'impact social, car elles omettent d'autres effets et externalités."
+       }
+      ],
+      "synthese": "Mesurer concrètement son impact auprès des parties prenantes a presque doublé croissance et capitaux levés dans cet essai. Les investisseurs, eux, réagissent aux indicateurs chiffrés plutôt qu'aux déclarations générales.",
+      "republication": "",
+      "reference": "Emanuele Colonnelli (Chicago Booth, NBER), Timothy McQuade (UC Berkeley, NBER), Natalia Rigol (Harvard Business School, NBER) et Benjamin N. Roth (Harvard Business School), NBER Working Paper n° 36009, novembre 2026. Document de travail non relu par des pairs.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a95"
+     },
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w36006#fromrss",
+      "auteur": "Charles J Courtemanche",
+      "titre": "Programme pilote 340B : jusqu'à 1,5 milliard de dollars de pertes annuelles",
+      "chapo": "Un document de travail du NBER chiffre l'effet du pilote de remboursement a posteriori du programme 340B sur les revenus nets des hôpitaux et centres de santé qui en bénéficient.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "Le programme 340B oblige les laboratoires à vendre des médicaments à prix réduit aux établissements « couverts », hôpitaux et centres de santé qui accueillent des patients défavorisés. Il est passé d'environ 8 milliards de dollars en 2010 (en dollars de 2025) à 100 milliards en 2025. Les laboratoires dénoncent des « doubles remises » et ont obtenu de l'agence fédérale HRSA un pilote de remboursement a posteriori, publié en août 2026 : l'établissement achète au prix catalogue (WAC), puis demande un remboursement au fabricant. Charles Courtemanche (université du Kentucky) cherche à estimer ce que ce pilote coûtera aux établissements, et ce que coûterait son extension à tout le programme."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "Avec ses valeurs de référence, l'auteur projette une perte annuelle de revenus nets de 1,5 milliard de dollars pour le pilote, dans une fourchette de 702 millions à 2,37 milliards. Étendu à tout le programme 340B, le modèle ferait perdre 22,77 milliards par an (de 10,04 à 37,59 milliards), soit 32 % des revenus nets tirés du programme et 24 % de ceux de l'ensemble des hôpitaux américains. Selon les cas, 70 à 76 % des pertes viennent des coûts administratifs et de personnel. Or les laboratoires ne profitent pas de ces coûts : leur gain est donc inférieur à la perte des établissements, ce qui donne un effet net négatif."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "L'étude procède par calibrage, toutes choses égales par ailleurs, sur une base 2025. Elle distingue cinq sources de pertes : doubles remises évitées, refus de demandes valides, usage des données de remboursement par les fabricants (influence, lobbying, ciblage de pharmacies), coûts de trésorerie, coûts administratifs. Le pilote ne concerne que les 22 médicaments des cohortes 2026 et 2027 du programme de négociation des prix de Medicare, soit 5,5 % des achats 340B ; pour l'extension, l'auteur tient compte d'économies d'échelle probables sur les coûts administratifs. La HRSA évalue les coûts administratifs à 523,34 millions de dollars par an pour 15 249 établissements, ceux-ci avancent 1,75 milliard ; l'auteur retient la moyenne, 1,14 milliard. Le coût de trésorerie du pilote est estimé à 13,4 millions."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "D'après l'auteur, la prévalence des doubles remises au sens de la loi est nettement plus faible que ne l'affirment les laboratoires : 1,9 milliard de dollars d'achats (2,3 % du total), contre 9,33 milliards par an de valeur que les fabricants tireraient d'un usage complet des plateformes de données. L'écart tient à une définition plus large, qui inclut les remises négociées avec les gestionnaires de prestations pharmaceutiques. Des pertes de 22,77 milliards menaceraient selon lui l'accès aux soins, avec des fermetures de services, voire d'hôpitaux. Les estimations de l'industrie, qui atteignent 34 à 37,5 milliards de dollars par an, seraient environ treize fois plus élevées en proportion du programme. Il recommande de faire respecter les restrictions imposées aux fabricants et d'envisager une compensation des coûts."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "L'auteur note que l'analyse est faite toutes choses égales par ailleurs et qu'aucun modèle global ne peut intégrer les autres pressions, comme la baisse de remboursement proposée pour 2027, qui ferait passer les médicaments de la partie B de 6 % au-dessus du prix moyen de vente à 33,4 % en dessous. Les pertes augmenteraient si les restrictions imposées aux fabricants étaient ignorées ou mal appliquées, et il craint que le respect soit bon pendant le pilote puis se dégrade. L'étude a été financée par la Kentucky Hospital Association et un cabinet d'avocats représentant des hôpitaux."
+       }
+      ],
+      "synthese": "Le pilote coûterait environ 1,5 milliard de dollars par an aux établissements 340B, surtout en frais administratifs et de personnel, sans bénéfice équivalent pour les fabricants. L'extension au programme entier porterait les pertes à 22,77 milliards, selon cette étude non relue par des pairs.",
+      "republication": "",
+      "reference": "Charles J. Courtemanche (université du Kentucky, Institute for the Study of Free Enterprise, IZA, NBER), NBER Working Paper n° 36006, novembre 2026. Document de travail non relu par des pairs ; recherche financée par la Kentucky Hospital Association et un contrat de conseil avec le cabinet Hall, Render, Killian, Heath & Lyman, P.C.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a94"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w36017#fromrss",
+      "auteur": "",
+      "id": "a98",
+      "titre": "Deux commandes Stata pour des régressions à effets fixes de grande dimension",
+      "texte": "Un article de Johannes F. Schmieder, publié par le NBER, présente fereg et feppml. Ces commandes Stata ajustent des régressions à effets fixes de grande dimension et choisissent entre plusieurs solveurs (projection, Krylov, multigrid) selon le problème."
+     }
+    ]
+   },
+   {
+    "id": "veille",
+    "titre": "Veille réglementaire",
+    "developpes": [
+     {
+      "rubrique": "Anti-corruption",
+      "source": "Linternaute.com",
+      "date": "2026-11-21",
+      "url": "https://www.linternaute.com/actualite/societe/11315653-thomas-saunier-vise-par-une-enquete-pour-corruption-le-patron-de-malakoff-humanis-licencie/",
+      "auteur": "Baptiste Marin",
+      "titre": "Malakoff Humanis met fin au mandat de son directeur général, Thomas Saunier",
+      "chapo": "Le conseil d'administration a révoqué à l'unanimité, le 20 novembre, le dirigeant visé par une enquête du Parquet national financier pour corruption privée.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Réuni vendredi 20 novembre, le conseil d'administration de l'association sommitale, l'instance paritaire qui coiffe Malakoff Humanis, a « décidé à l'unanimité de mettre fin au mandat » de Thomas Saunier, 59 ans, directeur général depuis dix ans. Le communiqué du groupe ne donne aucun motif. Le message interne, signé du président du conseil, Yves Laqueille (Medef), et du vice-président, Alain Gautron (FO), reconnaît que « les derniers mois ont pu être éprouvants et générer des interrogations, parfois de l'inquiétude ». Éric Vaudaine, directeur général délégué, assure l'intérim ; aucun successeur n'est désigné."
+       },
+       {
+        "intertitre": "L'enquête du PNF",
+        "texte": "Le Parquet national financier a ouvert au printemps une enquête préliminaire pour « corruption active et passive privée commise en bande organisée ». Elle porte sur la rémunération d'intermédiaires lors d'investissements dans des actifs cotés et non cotés, pour des prestations « suspectées d'être fictives ayant donné lieu à rétrocommissions ». Au centre figure Thomas Vendôme Investment, société de conseil de l'ancien député Jean-Pierre Thomas, qui aurait obtenu plus de 22 millions d'euros de commissions auprès des gérants retenus par le groupe, selon des documents publiés par Mediapart. Le 16 juin, la Brigade financière anticorruption a perquisitionné le siège de Malakoff Humanis et les bureaux de la société, puis entendu les deux hommes. Aucune mise en cause formelle n'a été rendue publique et toutes les personnes citées sont présumées innocentes."
+       },
+       {
+        "intertitre": "Le grief des administrateurs",
+        "texte": "Selon les enquêtes internes, des dizaines de contacts ont eu lieu ces dernières années entre Thomas Saunier et Jean-Pierre Thomas. Les administrateurs reprochent au dirigeant d'avoir minimisé ces liens devant eux, un reproche de loyauté envers le conseil. Interrogé par Mediapart, Thomas Saunier parlait d'échanges « occasionnels » et affirme n'avoir rien su des relations entre son groupe et l'intermédiaire. Le groupe s'est par ailleurs porté plaignant le 24 juin et assure récuser « fermement l'existence de toute rétrocommission » ; Jean-Pierre Thomas conteste lui aussi tout versement de ce type. Des missions confiées à PwC et DLA Piper doivent rendre leurs conclusions d'ici la fin de l'année."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "L'affaire est partie de questions de l'Autorité de contrôle prudentiel et de résolution (ACPR), qui ont conduit le groupe à lancer en avril une enquête interne. Fin juillet, les conseils adoptent à l'unanimité un plan de remédiation en six points, avec notamment une clause de transparence sur les intermédiaires rémunérés par les sociétés de gestion. Alain Gautron a aussi indiqué que Malakoff Humanis exigerait le remboursement de 6 millions d'euros de commissions versés par Sienna Gestion à la société de conseil. Le soutien au dirigeant s'est défait en quelques semaines : le 15 octobre, le conseil constatait que la confiance était « ébranlée »."
+       },
+       {
+        "intertitre": "Ce que ça change",
+        "texte": "Malakoff Humanis, qui compte plus de 10 000 salariés (10 500 selon L'Essentiel de l'Éco) et reste un acteur majeur de la complémentaire santé et de la prévoyance, change donc de direction. Thomas Saunier, arrivé en 2016 à la tête de Malakoff Médéric, avait conduit la fusion avec Humanis, effective le 1er janvier 2019. D'après Mediapart, il est licencié pour faute grave, ce que le communiqué ne mentionne pas, et il conteste ce renvoi : il a déjà saisi les prud'hommes contre le groupe. Selon L'Essentiel de l'Éco, le groupe a réalisé 8,37 milliards d'euros de chiffre d'affaires en assurance en 2025 et versé 45 milliards d'euros d'allocations de retraite complémentaire à 6,3 millions de retraités. Éric Vaudaine, 48 ans, directeur général délégué depuis 2021, a été nommé à l'unanimité."
+       }
+      ],
+      "synthese": "Le conseil d'administration a tranché avant toute décision de justice, en reprochant à Thomas Saunier d'avoir minimisé ses liens avec l'intermédiaire visé par l'enquête. Éric Vaudaine assure l'intérim, tandis que le litige se poursuit devant les prud'hommes.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "L'Essentiel de l'Éco",
+        "url": "https://lessentieldeleco.fr/9700-corruption-presumee-malakoff-humanis-lache-son-patron/"
+       }
+      ],
+      "format": "long",
+      "id": "a107"
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "CASRAI",
+      "date": "2026-11-21",
+      "url": "https://casrai.org/news/china-mofcom-most-40-technologies-export-control-catalogue-interim-registration-2026",
+      "auteur": "Gabriel Nieves Castro",
+      "titre": "Chine : un enregistrement provisoire avant export pour 40 technologies sensibles",
+      "chapo": "Depuis le 16 novembre 2026, Pékin impose un enregistrement préalable à l'export pour 40 technologies d'IA, de solaire et de biofabrication, ce qui touche universités et instituts conjoints.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Après la clôture, le 15 novembre 2026, de la consultation publique sur l'annonce [2026] n° 48, le ministère du Commerce (MOFCOM) et le ministère des Sciences et des Technologies (MOST) appliquent depuis le 16 novembre un enregistrement provisoire préalable à l'export. Il concerne 40 technologies dont l'ajout au catalogue national de contrôle des exportations est proposé. L'obligation de dépôt est entrée en vigueur dès la publication, avant même l'adoption formelle du catalogue, dont la promulgation est attendue début 2027. Elle oblige universités, instituts conjoints et bureaux de transfert de technologie à auditer leurs transferts de données et leurs accords de propriété intellectuelle."
+       },
+       {
+        "intertitre": "Les 40 technologies et leurs seuils",
+        "texte": "Quatorze technologies sont interdites à l'export et vingt-six sont restreintes, donc soumises à licence. L'intelligence artificielle en compte 23 (poids de modèles, agents autonomes, grappes de calcul, outils de découverte de vulnérabilités), le photovoltaïque 12 (polysilicium, découpe des plaquettes, cellules à haut rendement) et la biofabrication 5 (thérapies cellulaires et géniques, plateformes d'acides nucléiques, modification de pathogènes). Un grand modèle de langage devient restreint s'il atteint l'un de ces trois seuils : 10²⁶ opérations en virgule flottante à l'entraînement, 2 000 milliards de paramètres, ou un rang mondial dans les dix premiers sur des tests publics reconnus. Les technologies tombées dans le domaine public, par des dépôts open source ou des publications évaluées par les pairs, sont exclues."
+       },
+       {
+        "intertitre": "Les précisions du MOFCOM",
+        "texte": "Le MOFCOM précise que l'accès distant à un modèle hébergé sur des serveurs chinois, par API, portail SaaS, application mobile ou exécution légère sur appareil, n'est pas un export. Il n'y a export que si poids, code ou infrastructure sont transférés ou déployés à l'étranger. En biofabrication, l'interdiction vise seulement la cession de la propriété de plateformes réutilisables ; la concession de licences sur des candidats médicaments précis reste éligible à un examen simplifié, tant que la propriété intellectuelle de la plateforme reste en Chine. Un changement de contrôle d'une entité chinoise détenant ces technologies au profit d'un acteur étranger est aussi un export, à enregistrer avant la clôture auprès des services provinciaux du commerce."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "Selon l'article, c'est la révision la plus importante du régime chinois depuis août 2020. Deux cadres coexistent : le régime des biens à double usage, fondé sur la loi de 2020 sur le contrôle des exportations, et celui du commerce de technologies, fondé sur la loi sur le commerce extérieur. Le catalogue date de 2001 et a été révisé en 2008 et 2020 ; la version de 2020 avait ajouté les algorithmes de recommandation personnalisée et la synthèse vocale. Pékin agit alors que les pays occidentaux étendent leurs propres contrôles à l'export."
+       },
+       {
+        "intertitre": "Ce que ça change pour les établissements",
+        "texte": "Quatre situations imposent un enregistrement sur le portail du MOFCOM : la cession de propriété intellectuelle, la concession d'une technologie chinoise exploitée à l'étranger, le passage du contrôle d'une propriété intellectuelle chinoise à une entité étrangère, et toute directive des autorités. Les travaux de laboratoire partageant des points de contrôle de modèles non publiés, des jeux de données d'entraînement ou des essais biologiques propriétaires entrent dans le champ ; la publication ouverte reste exemptée. Les transactions engagées avant le 16 octobre 2026 et non conclues doivent être enregistrées avant leur clôture. Le dépôt n'est pas une autorisation, et son omission expose à des sanctions administratives, selon des juristes cités par l'article."
+       }
+      ],
+      "synthese": "Le dispositif transitoire est applicable avant la promulgation du catalogue révisé, attendue début 2027. L'article recommande aux établissements de recenser leurs projets transfrontaliers, de comparer leurs paramètres aux seuils et d'adapter leurs contrats.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a128"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Anti-corruption",
+      "source": "Frontières",
+      "date": "2026-11-21",
+      "url": "https://www.frontieresmedia.fr/politique/detournement-de-fonds-publics-le-pnf-ouvre-officiellement-une-enquete-contre-bally-bagayoko-le-ma---19380",
+      "auteur": "",
+      "id": "a109",
+      "titre": "Le PNF ouvre une enquête pour détournement de fonds publics contre Bally Bagayoko",
+      "texte": "Le PNF a officiellement ouvert une enquête pour détournement de fonds publics visant Bally Bagayoko, maire LFI de Saint-Denis."
+     },
+     {
+      "rubrique": "LCB-FT",
+      "source": "The Portugal News",
+      "date": "2026-11-21",
+      "url": "https://www.theportugalnews.com/news/2026-11-21/european-union-to-ban-cash-payments-above-10000/1024357",
+      "auteur": "",
+      "id": "a134",
+      "titre": "L'UE prévoit d'interdire les paiements en espèces au-delà de 10 000 euros",
+      "texte": "L'Union européenne prévoit d'interdire les paiements en espèces supérieurs à 10 000 euros. Le résumé ne précise ni le calendrier ni les exceptions."
+     }
+    ]
+   },
+   {
+    "id": "curiosites",
+    "titre": "Curiosités",
+    "developpes": [
+     {
+      "rubrique": "Climat",
+      "source": "Inside Climate News",
+      "date": "2026-11-22",
+      "url": "https://insideclimatenews.org/news/22112026/uns-cop31-climate-conference-fizzles-out-as-global-policy-divides-deepen/",
+      "auteur": "Bob Berwyn; Corey Mitchell",
+      "titre": "COP31 : Antalya s'achève sans décision de couverture, une première depuis 2009",
+      "chapo": "Les négociations climatiques de l'ONU ont pris fin à Antalya sans consensus sur le texte final, faute d'accord sur les énergies fossiles, le captage du carbone et le financement.",
+      "sections": [
+       {
+        "intertitre": "Ce qui s'est passé",
+        "texte": "Les négociations de la COP31, à Antalya, en Turquie, se sont achevées dimanche après-midi, deux jours après la date prévue, sans accord large sur les prochaines étapes. Pour la première fois depuis 2009, la conférence se termine sans consensus sur la décision de couverture, le texte final qui signale d'ordinaire la solidarité mondiale face à la crise climatique. Des décisions ont toutefois été adoptées, dont un programme d'aide aux travailleurs et aux communautés pour sortir des énergies fossiles et un plan d'évaluation des progrès de l'adaptation. Le président de la conférence, Murat Kurum, ministre turc de l'environnement, de l'urbanisation et du changement climatique, a tenté de rassembler les éléments disparates du projet d'accord sous le signe du multilatéralisme, en vain pour beaucoup de pays. Plus de 100 000 personnes avaient participé à la conférence."
+       },
+       {
+        "intertitre": "Les points de blocage",
+        "texte": "Les désaccords, profonds, portent sur la mention des énergies fossiles et du captage du carbone, et sur l'ampleur du financement climatique que les pays développés doivent fournir aux pays en développement frappés par des catastrophes coûteuses. L'un des objectifs était de fixer des buts mondiaux chiffrés mais volontaires pour l'électrification des économies et d'accroître l'aide à l'adaptation. L'Union européenne, plusieurs pays d'Amérique latine et des États insulaires du Pacifique ont refusé le texte des dirigeants de la conférence. L'Égypte et le Brésil, hôtes de précédentes conférences, l'ont aussi critiqué. Liliam Beatris Chagas de Moura, du ministère brésilien des Affaires étrangères, a regretté que l'élan de l'an dernier n'ait pas été maintenu. Aux yeux de l'article, la fracture est plus profonde qu'à Dubaï en 2023, où un texte avait été adopté malgré l'objection de 39 petits États insulaires en développement, restés hors de la plénière pour coordonner leur position."
+       },
+       {
+        "intertitre": "Les positions en présence",
+        "texte": "Au nom de l'Union, le ministre irlandais Darragh O'Brien a déclaré que l'Europe n'approuverait pas une décision qui ne mentionne même pas les énergies fossiles, ni une COP qui les blanchit. Kathy Jetn̄il-Kijiner, envoyée climat des Îles Marshall, a jugé que le pacte d'Antalya, tel qu'il est rédigé, menace la sécurité de son pays et que l'accepter serait une trahison envers le peuple marshallais, car les mers montent et les écosystèmes s'effondrent. Mohammad Ayoub, négociateur saoudien, a au contraire indiqué que la Ligue des États arabes, qui compte 22 membres, soutenait le pacte d'Antalya. Il a critiqué les pays développés, qui ont consommé l'essentiel du budget carbone, et jugé non scientifique l'opposition au captage et à l'élimination du dioxyde de carbone, estimant que toutes les solutions doivent être sur la table, chaque pays choisissant selon sa situation nationale. Selon lui, le captage et le stockage ne se déploient pas assez vite pour maintenir l'objectif de 1,5 degré à portée."
+       },
+       {
+        "intertitre": "Le contexte et les réactions",
+        "texte": "Le fonds pour les pertes et préjudices avait été créé en 2022, et un an plus tard à Dubaï, des délégués de plus de 190 pays avaient reconnu pour la première fois la nécessité d'une transition « juste et ordonnée » hors des énergies fossiles. Depuis, la collaboration internationale sur le climat a reculé, sous l'effet des conflits, de la hausse des prix du pétrole et du gaz et de l'insécurité économique. Le secrétaire général de l'ONU, António Guterres, s'est dit « profondément déçu », jugeant que ce revers ne change pas les faits : les énergies fossiles alimentent la crise climatique et l'on ne peut éteindre l'incendie en y versant du carburant. L'article juge cet échec grave sans qu'il mette fin à l'effort mondial."
+       }
+      ],
+      "synthese": "La COP31 s'achève sur des décisions partielles mais sans texte d'ensemble, signe de divisions profondes sur les énergies fossiles, le captage du carbone et le financement. Le revers est jugé sérieux, sans enterrer l'action collective.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a151"
+     },
+     {
+      "rubrique": "Idées",
+      "source": "The Conversation",
+      "date": "2026-11-21",
+      "url": "https://theconversation.com/gaz-leurope-sest-eloignee-de-la-russie-mais-accroit-sa-vulnerabilite-aux-crises-mondiales-296886",
+      "auteur": "Carl Grekou; Lionel Ragot; Valérie Mignon",
+      "titre": "Gaz : l'Europe a quitté la Russie mais reste exposée aux chocs mondiaux",
+      "chapo": "Selon trois économistes, le tournant vers le GNL a réduit le risque de rupture physique, mais lie davantage les prix européens à ceux de l'Asie, comme l'a montré la crise d'Ormuz.",
+      "sections": [
+       {
+        "intertitre": "Le paradoxe d'Ormuz",
+        "texte": "Au printemps 2026, la crise du détroit d'Ormuz a fait flamber les prix du gaz en Europe, alors que moins de 10 % du gaz naturel liquéfié (GNL) importé par l'Union européenne y transitait en 2025. Environ un cinquième du commerce mondial de GNL passait par ce détroit, surtout vers l'Asie. En mars 2026, le prix européen TTF a dépassé 60 euros par mégawattheure, contre environ 30 avant le choc, et s'établissait à un peu plus de 90 euros en moyenne la première semaine de novembre. Privés de cargaisons du Golfe, les acheteurs asiatiques se reportent sur d'autres fournisseurs et concurrencent les Européens."
+       },
+       {
+        "intertitre": "Une recomposition des approvisionnements",
+        "texte": "Entre 2021 et 2025, les livraisons russes par gazoduc à l'UE ont chuté de 87 %, de 1 535 à 206 TWh, sans rupture majeure. La part du GNL dans les entrées de gaz est passée de 20 % à 46 %, et le centre de gravité de ces entrées s'est déplacé de 329 kilomètres vers le sud-ouest entre 2020 et 2025. La part de la Russie, GNL compris, est tombée de 48 % à 16 %, celle des États-Unis a monté de 5 % à 27 %, et la Norvège fournit environ un quart des entrées. La France est devenue la deuxième porte d'entrée après l'Italie, avec 15,4 % du gaz entrant en 2025 contre 9,8 % en 2021, et un solde de transit passé de – 97 à + 145 TWh. Elle reçoit encore 20 % de son gaz de Russie, sous forme de GNL, dont l'interdiction européenne doit s'étendre aux contrats de long terme au 1er janvier 2027. Ce basculement n'a pas été improvisé : dès janvier 2009, un différend russo-ukrainien avait interrompu près de deux semaines le transit de quelque 80 % des importations de gaz russe, ce qui avait conduit à renforcer les interconnexions. Contrairement au gaz de gazoduc, une cargaison de GNL peut être réorientée d'un marché à l'autre selon les prix."
+       },
+       {
+        "intertitre": "Des capacités mal réparties",
+        "texte": "Entre 2019 et 2025, les capacités européennes de regazéification ont progressé de 48 %, mais leur taux d'utilisation n'était que de 42 % en 2024 et 51 % en 2025. Les auteurs parlent d'une « assurance stratégique », dimensionnée pour les pointes d'hiver et les crises. L'Espagne, dotée des plus grandes capacités, n'en utilisait que 28 % : ses terminaux ont été construits pour son seul marché, et les interconnexions pyrénéennes restent étroites. Au creux de mars 2026, les réserves européennes n'étaient remplies qu'à 28 % : environ 22 % en France et en Allemagne, moins de 5 % aux Pays-Bas, près de 57 % en Espagne, des stocks pas toujours accessibles aux voisins. Obliger à remplir les stocks renforce la sécurité mais peut renchérir les achats ; l'assouplissement des objectifs en 2025 reflète cet arbitrage. Quant à la surcapacité de regazéification, elle tient à des terminaux construits là où le gaz manquait, entrés en service quand la consommation reculait."
+       },
+       {
+        "intertitre": "Des prix plus liés à l'Asie",
+        "texte": "Les auteurs ont étudié les liens entre les prix TTF européen, JKM asiatique et Henry Hub états-unien de 2015 à 2026. Après février 2022, la corrélation moyenne entre les variations quotidiennes du TTF et du JKM est passée de 0,110 à 0,185, soit 69 % de plus, et la part des fluctuations imprévues du marché européen expliquée par les chocs asiatiques de 5,9 % à 15,7 %. Le Henry Hub reste relativement déconnecté : la corrélation avec l'Europe n'a augmenté que d'environ 6 %, car les installations américaines de liquéfaction tournent à 93 à 98 % de leur capacité."
+       },
+       {
+        "intertitre": "Les limites de la diversification",
+        "texte": "Selon les auteurs, la diversification reste un progrès réel, mais disposer de terminaux ne suffit pas si les cargaisons sont rares ou chères. En 2024, les achats au comptant représentaient un peu plus du quart du GNL importé. Ils appellent à une meilleure coordination européenne sur les fournisseurs, les stocks et les interconnexions, et à renforcer la résilience des industries gazo-intensives comme la chimie."
+       }
+      ],
+      "synthese": "La sortie du gaz russe a réduit le risque de rupture physique, mais l'Europe subit désormais, par les prix, les tensions du marché mondial. La sécurité énergétique se mesure aussi à la capacité d'en limiter les conséquences économiques.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a146"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-22",
+      "url": "https://www.sciencesetavenir.fr/archeo-paleo/homo-naledi-l-enigme-des-femmes-fossiles_196287?xtor=RSS-4",
+      "auteur": "",
+      "id": "a137",
+      "titre": "Homo naledi : les individus retrouvés seraient tous féminins, selon l'émail dentaire",
+      "texte": "Dans les grottes de Rising Star, en Afrique du Sud, les squelettes d'Homo naledi livrent une surprise. L'analyse des protéines de leur émail dentaire suggère que tous les individus retrouvés seraient de sexe féminin, un résultat inattendu qui intrigue les spécialistes de cette ancienne espèce humaine."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-22",
+      "url": "https://www.sciencesetavenir.fr/fondamental/mathematiques/comment-l-ia-fait-elle-des-maths_196275?xtor=RSS-10",
+      "auteur": "",
+      "id": "a136",
+      "titre": "Comment l'IA fait-elle des mathématiques ?",
+      "texte": "Cette année, l'IA est devenue capable de démontrer des théorèmes qui résistaient aux mathématiciens. Derrière ces prouesses, des milliers d'agents intelligents travaillent ensemble pour défricher des pistes, élaborer des preuves et vérifier leur validité."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-21",
+      "url": "https://www.sciencesetavenir.fr/animaux/colombie-les-hippopotames-de-pablo-escobar-une-invasion-devenue-incontrolable_196279?xtor=RSS-26",
+      "auteur": "",
+      "id": "a139",
+      "titre": "200 hippopotames en Colombie, héritage de Pablo Escobar",
+      "texte": "Près de 200 hippopotames, descendants de quatre spécimens importés par Pablo Escobar, peuplent aujourd'hui le bassin du fleuve Magdalena. Leur prolifération bouleverse les écosystèmes locaux et pousse le gouvernement colombien à prendre des mesures radicales."
+     },
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-22",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+      "auteur": "",
+      "id": "a148",
+      "titre": "Le centre Johnson de la NASA fête ses 65 ans de vols habités",
+      "texte": "Depuis 65 ans, le Johnson Space Center de Houston contribue aux vols spatiaux habités, des missions Gemini qui ont mis au point les techniques de rendez-vous nécessaires à Apollo jusqu'à la recherche menée à bord de l'ISS."
+     }
+    ]
+   }
+  ],
+  "titres_blocs": {
+   "ia": "IA",
+   "france": "Actualité France",
+   "monde": "Actualité Monde",
+   "recherche": "Recherche & travaux d'experts",
+   "veille": "Veille réglementaire",
+   "curiosites": "Curiosités"
+  },
+  "pages": 0,
+  "sequence": [
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-22",
+     "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+     "auteur": "Matthias Bastian",
+     "titre": "Hypothèse de Riemann : la preuve d'Alpöge certifiée par la communauté Lean",
+     "chapo": "Les communautés Lean et Mathlib affirment que la preuve de l'hypothèse de Riemann publiée par Levent Alpöge le 20 novembre 2026 est correcte.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Levent Alpöge a publié le 20 novembre 2026 une preuve de l'hypothèse de Riemann sous la forme d'environ 17 millions de lignes de code écrites en Lean, un outil qui vérifie les démonstrations mathématiques. Le 21 novembre, la Lean Focused Research Organization (Lean FRO) et la Mathlib Initiative ont publié un communiqué commun : « Nous avons pleinement confiance dans la justesse de la preuve d'Alpöge » et « nous certifions que l'énoncé comme la preuve de l'hypothèse de Riemann sont corrects ». Formulée en 1859 par Bernhard Riemann, cette hypothèse décrit un motif caché dans la répartition des nombres premiers, ceux qui ne sont divisibles que par eux-mêmes et par 1. Elle comptait parmi les problèmes ouverts les plus célèbres des mathématiques. Le verdict est tombé en un jour, là où l'examen d'une démonstration célèbre prend souvent des mois, voire des années. Le Lean FRO travaille sur l'assistant de preuve Lean lui-même, et la Mathlib Initiative soutient la bibliothèque de mathématiques formalisées où figure la définition de l'énoncé. Les sources divergent sur l'affiliation d'Alpöge : The Decoder le présente comme mathématicien à Stanford, tandis que Scientific American et shattered.io le disent mathématicien chez Anthropic, qui aurait travaillé avec le modèle Claude."
+      },
+      {
+       "intertitre": "Les vérifications menées",
+       "texte": "Selon Scientific American, la compilation sans erreur du code Lean vaut d'ordinaire confirmation de la logique de chaque étape, mais deux questions restaient posées. La première, formulée par Kevin Buzzard (Imperial College London), est de savoir si le théorème écrit dans le code correspond bien à l'énoncé réel. La seconde est de savoir si le code se compile chez d'autres mathématiciens. Des dizaines de personnes l'ont exécuté indépendamment avec le même résultat, et Andrew Sutherland, du MIT, qui recense ces contrôles sur son site, indique que la preuve a été revérifiée par le noyau de Lean avec les seuls trois axiomes standard : « la probabilité que quelque chose cloche est à peu près nulle ». Il fallait en outre écarter tout détour, comme un changement du sens de l'hypothèse initiale. Une « comparator run », qui prend en général quelques heures, devait donc établir que le code ne redéfinit aucun symbole de l'énoncé et, en mode « paranoïaque », qu'il passe sur plusieurs noyaux indépendants, afin qu'il n'exploite pas un bogue encore inconnu du noyau officiel de Lean ; Scientific American indique qu'elle est désormais terminée. Selon shattered.io, deux outils de comparaison indépendants ont confirmé que l'énoncé correspond à RiemannHypothesis, la définition de la bibliothèque Mathlib."
+      },
+      {
+       "intertitre": "Ce que garantit une preuve formelle",
+       "texte": "Selon shattered.io, personne ne peut relire 17 millions de lignes : la confiance repose sur le petit programme central, le noyau de Lean, qui contrôle chaque étape. Si le noyau accepte l'ensemble et que l'énoncé est le bon, la conclusion s'ensuit ; The Decoder précise que ces programmes de vérification sont conçus pour ne pouvoir accepter, de façon démontrable, aucune preuve erronée. La vérification formelle garantit que la conclusion découle des fondements posés, sans pouvoir les rendre philosophiquement incontestables. L'ordre habituel est inversé : l'objet vérifiable par machine existe d'abord, et le récit lisible par des humains reste à écrire. La rapidité de la solution a surpris : selon Ethan Mollick, cité par The Decoder, les prévisionnistes de Metaculus attendaient la résolution en mai 2035, et Terence Tao disait le mois dernier s'attendre à une réussite « humains et IA » vers 2050."
+      },
+      {
+       "intertitre": "Les réserves",
+       "texte": "Selon shattered.io, le certificat porte sur la vérification formelle de Lean et Mathlib : personne n'a confirmé que la preuve soit validée comme démonstration mathématique classique hors de ce cadre. Le même article précise que les éléments vérifiés ne disent rien de la part exacte de Claude, du modèle employé ni du travail humain, et qu'aucun montant de prix ni produit commercial n'est lié à l'annonce."
+      }
+     ],
+     "synthese": "La preuve d'Alpöge, vérifiée de manière indépendante par plusieurs systèmes, est certifiée correcte par les communautés Lean et Mathlib. Reste à savoir comment elle sera reçue par la communauté mathématique au sens classique.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Scientific American",
+       "url": "https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/"
+      },
+      {
+       "source": "shattered.io",
+       "url": "https://shattered.io/lean-mathlib-certify-ai-riemann-hypothesis-proof-17-million-lines/"
+      }
+     ],
+     "format": "long",
+     "id": "a5"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-22",
+     "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+     "auteur": "Matthias Bastian",
+     "titre": "IA : des fournisseurs bon marché volent des clés et espionnent les utilisateurs",
+     "chapo": "Des chercheurs de Dragos ont envoyé environ 2 millions de requêtes piégées à des fournisseurs d'IA et ont découvert trois fournisseurs compromis, où des attaquants volaient des données.",
+     "sections": [
+      {
+       "intertitre": "Le test et ses résultats",
+       "texte": "Les chercheurs en sécurité de Dragos ont envoyé environ 2 millions de requêtes contenant de faux identifiants à des fournisseurs d'IA, de juillet à novembre 2026. Ils ont identifié au moins trois fournisseurs compromis, où des attaquants volaient activement des données d'utilisateurs ; aucun ne le savait avant d'être prévenu par Dragos. Dans l'incident le plus important, les attaquants ont récolté des centaines de clés AWS, y compris à partir de requêtes que le fournisseur avait rejetées avant traitement. Parfois, ils testaient les clés volées en quelques heures, fouillaient le stockage S3 et tentaient d'établir un accès durable ; l'un d'eux a aussi utilisé ARTEX, un outil d'attaque reposant sur l'IA."
+      },
+      {
+       "intertitre": "Des paramètres de confidentialité ignorés",
+       "texte": "Les revendeurs des places de marché lisent eux aussi les requêtes de leurs clients. Selon Dragos, ils n'ont pas besoin d'exploiter une faille : proposer un modèle au prix le plus bas et activer la journalisation suffit. Dans un cas, une personne connectée depuis un accès internet résidentiel en France a tenté de se connecter en SSH avec des mots de passe extraits de requêtes interceptées. Les réglages comme « Zero Data Retention » (ZDR) étaient souvent ignorés : un laboratoire chinois d'IA a consulté les adresses secrètes de test dans plus de la moitié des requêtes, même lorsqu'elles passaient par des fournisseurs américains. Même de grands fournisseurs américains ont enfreint leurs propres règles : l'un explorait encore une adresse de test plus de deux mois après une seule requête. Dans un autre cas, un lien secret est apparu dans une messagerie interne Feishu (Lark hors de Chine) 24 jours après la requête, et a été ouvert en deux minutes sur trois ordinateurs et trois téléphones à Pékin et à Shanghai."
+      },
+      {
+       "intertitre": "Les intermédiaires, maillon faible",
+       "texte": "Les routeurs d'IA comme OpenRouter offrent une API unique donnant accès à des modèles de différentes entreprises. Les requêtes sont réparties entre des fournisseurs, parfois en plusieurs étapes, et chacune peut lire la requête et la réponse en entier, selon Dragos. Certains routeurs fonctionnent en places de marché ouvertes où le fournisseur le moins cher reçoit le trafic : ici, Novita, AtlasCloud et StreamLake se trouvaient entre OpenRouter et MiniMax, développeur du modèle. OpenRouter a retiré trois fournisseurs de sa plateforme et révoqué l'agrément ZDR de 125 points d'accès, en partie à cause de l'étude, en partie par précaution. Novita, Phala et Together ont publié des rapports préliminaires."
+      },
+      {
+       "intertitre": "Les recommandations",
+       "texte": "Dragos déconseille d'envoyer des requêtes contenant des identifiants à des intermédiaires et recommande de maîtriser le routage, de vérifier les réglages de confidentialité et de placer ses propres « canary tokens », de faux identifiants qui se signalent dès qu'on les utilise. « Cela ne signifie pas qu'il faille cesser d'utiliser les services d'IA. Mais la destination de vos requêtes est une décision, et si vous ne la prenez pas, le prix le plus bas la prendra pour vous », écrit HD Moore, directeur de la recherche."
+      }
+     ],
+     "synthese": "L'étude de Dragos montre que des intermédiaires et des places de marché d'IA peuvent lire, voire exploiter, les requêtes des utilisateurs malgré leurs promesses de confidentialité. Elle invite les organisations à choisir elles-mêmes le chemin de leurs requêtes.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a4"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-22",
+      "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+      "auteur": "Matthias Bastian",
+      "id": "a3",
+      "titre": "L'IA progresse plus vite que les tests capables d'en vérifier la sécurité, alerte METR",
+      "texte": "METR indique que des modèles d'IA de pointe, comme Opus 5.5 et GPT-6 Astra, progressent rapidement sur les tâches de recherche, mais deviennent de plus en plus difficiles à mesurer. Les données actuelles ne permettent pas d'exclure une accélération dangereuse du développement de l'IA, avertit l'organisation. Elle estime aussi que les tests courants pourraient surestimer ce que ces modèles savent réellement faire."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-21",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "auteur": "",
+      "id": "a14",
+      "titre": "Signal restreint les captures d'écran sur mobile",
+      "texte": "Signal limite la possibilité de réaliser des captures d'écran dans ses applications Android et iOS, face à ce qu'elle présente comme une « menace existentielle » de la surveillance par l'IA."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-21",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "auteur": "",
+      "id": "a17",
+      "titre": "Un acteur loue son visage généré par IA à une start-up de microséries",
+      "texte": "Un acteur a cédé la licence de son visage généré par IA à une start-up de microséries, une pratique déjà répandue en Chine. Des experts s'interrogent sur ses conséquences à long terme si elle s'étend à Hollywood."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-21",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "auteur": "",
+      "id": "a16",
+      "titre": "Les agents IA qui peuvent vivre dans vos messages texte",
+      "texte": "Une sélection des agents IA les plus notables pouvant vivre dans vos messages texte, des assistants généralistes à ceux conçus pour la famille, les voyages ou le travail."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "Le Monde",
+     "date": "2026-11-22",
+     "url": "https://www.lemonde.fr/politique/article/2026/11/22/emmanuel-macron-envisage-de-reunir-le-congres-a-versailles-pour-faire-adopter-une-regle-d-or-budgetaire-une-procedure-inedite-a-plus-d-un-titre_6814241_823448.html",
+     "auteur": "",
+     "titre": "Règle d'or budgétaire : Macron envisage un Congrès à Versailles",
+     "chapo": "Selon La Tribune Dimanche, Emmanuel Macron envisage de réunir le Congrès, peut-être en janvier 2027, pour faire adopter la « règle d'or » budgétaire votée en 2011.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est envisagé",
+       "texte": "Selon les informations de La Tribune Dimanche du 22 novembre, Emmanuel Macron projette, avant de quitter l'Élysée, de graver dans la Constitution une « règle d'or » budgétaire, mesure emblématique du sérieux budgétaire, mise en œuvre en Allemagne depuis le début des années 2010 mais controversée en France. Il s'agirait d'exhumer un projet de révision constitutionnelle voté dans les mêmes termes en 2011 par l'Assemblée nationale et par le Sénat, à l'initiative du gouvernement de François Fillon. Le Parlement serait réuni en Congrès à Versailles ; le vote pourrait avoir lieu dès janvier, précise Le Monde, et Economie Matin, qui cite Reuters, parle de janvier 2027. Selon ce récit, le président aurait demandé au Premier ministre Sébastien Lecornu de sonder les soutiens possibles, dans la perspective de la fin de l'examen des textes budgétaires. Les deux sources divergent sur la position de l'Élysée : Le Monde écrit que l'information est confirmée par le palais présidentiel, tandis qu'Economie Matin indique qu'il n'a pas commenté."
+      },
+      {
+       "intertitre": "Ce que prévoyait le texte de 2011",
+       "texte": "Le projet de loi constitutionnelle adopté le 13 juillet 2011 prévoyait des « lois-cadres d'équilibre des finances publiques » couvrant au moins trois années. Ces textes devaient fixer des orientations pluriannuelles et, pour chaque année, un plafond de dépenses ainsi qu'un minimum de mesures nouvelles portant sur les recettes. Ces paramètres auraient été opposables, dans leur ensemble, aux lois de finances et aux lois de financement de la Sécurité sociale. Il ne s'agissait donc pas d'exiger que chaque budget soit à l'équilibre, mais de rendre contraignante une trajectoire pluriannuelle. Les articles 5 et 6 interdisaient l'adoption définitive d'un budget de l'État ou de la Sécurité sociale sans loi-cadre applicable à l'exercice concerné, et le Conseil constitutionnel aurait dû examiner la conformité des deux textes budgétaires annuels à la loi-cadre avant leur promulgation. Les modalités de compensation des écarts constatés en exécution devaient être précisées par une loi organique."
+      },
+      {
+       "intertitre": "Pourquoi le vote de 2011 n'a pas suffi",
+       "texte": "La réforme préparée sous le gouvernement Fillon avait franchi les lectures parlementaires : le Sénat l'a votée le 11 juillet 2011, puis l'Assemblée nationale l'a adoptée sans modification le 13 juillet. Le texte précisait toutefois qu'il ne deviendrait définitif qu'après approbation par référendum ou par le Parlement réuni en Congrès, étape qui n'a pas eu lieu. Le président Nicolas Sarkozy, guère assuré de réunir les trois cinquièmes des suffrages exprimés sur un texte contesté par la gauche, à moins d'un an de l'élection présidentielle de 2012, avait renoncé à convoquer le Congrès. Le Monde rappelle que la réforme constitutionnelle de 2008 n'avait été adoptée qu'à une voix près. Le projet est resté lettre morte."
+      },
+      {
+       "intertitre": "Une procédure inédite",
+       "texte": "L'article 89 de la Constitution, qui fixe les conditions de révision, ne prévoit aucune limite dans le temps entre l'adoption d'un projet par les deux chambres et la convocation du Congrès. Selon la procédure décrite par le Sénat, le président peut soumettre le projet au Congrès après son adoption identique dans les deux assemblées, et il faut alors recueillir les trois cinquièmes des suffrages exprimés ; la voie du référendum reste également prévue. Si Emmanuel Macron franchissait le pas, le vote clôturerait un processus entamé trois législatures en amont, ce qui serait inédit depuis la naissance de la République, souligne Le Monde."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Economie Matin insiste sur le caractère hypothétique de l'information : aucune convocation du Congrès ni nouvelle règle constitutionnelle n'est annoncée à ce stade. Que certains partis se disent favorables au principe d'une règle d'or ne garantit pas l'approbation d'un texte précis : le contenu des obligations, leurs exceptions éventuelles et le calendrier compteraient autant que l'accord de principe. Le texte de 2011 ne dit rien des seuils ou du rythme de redressement que retiendrait une initiative en 2027."
+      }
+     ],
+     "synthese": "Emmanuel Macron envisagerait de relancer le projet de règle d'or de 2011, resté inachevé faute de Congrès, en s'appuyant sur une procédure sans limite de délai. Rien n'est décidé : la réunion du Congrès reste une hypothèse politique, et l'issue d'un vote dépendrait du contenu et du soutien recueilli.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Economie Matin",
+       "url": "https://www.economiematin.fr/macron-regle-or-budgetaire-texte-2011-congres-22-novembre-2026-1233"
+      }
+     ],
+     "format": "long",
+     "id": "a18"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-22",
+     "url": "https://www.franceinfo.fr/politique/front-national/un-mail-du-service-du-prefet-hugues-moutouh-soupconne-d-avoir-renseigne-le-rn-decouvert-lors-d-une-perquisition-chez-un-proche-de-marine-le-pen_8294915.html#xtor=RSS-3-[lestitres]",
+     "auteur": "",
+     "titre": "Fuites au profit du RN : un mail du ministère de l'Intérieur retrouvé à Rome",
+     "chapo": "Un mail du secrétariat général de l'Intérieur, alors dirigé par Hugues Moutouh, a été découvert chez Frédéric Chatillon, proche de Marine Le Pen, et a déclenché une enquête sur des fuites.",
+     "sections": [
+      {
+       "intertitre": "Ce qui a été découvert",
+       "texte": "Un mail provenant du secrétariat général du ministère de l'Intérieur, alors dirigé par Hugues Moutouh, a été découvert lors d'une perquisition chez un proche de Marine Le Pen. Franceinfo l'a appris dimanche 22 novembre de source proche du dossier, confirmant une information du Monde, et l'AFP a obtenu la même confirmation. La perquisition a eu lieu à Rome, au domicile de Frédéric Chatillon, ex-président du GUD et ami de longue date de Marine Le Pen, dans le cadre d'une enquête du parquet européen portant sur des soupçons d'usage frauduleux de fonds du Parlement européen. Le mail concernait des enquêtes judiciaires visant le Rassemblement national. Cette découverte a conduit à l'ouverture de l'enquête sur des fuites provenant de Beauvau, l'adresse parisienne du ministère de l'Intérieur, et incriminant Hugues Moutouh."
+      },
+      {
+       "intertitre": "Le contenu du courriel",
+       "texte": "Selon la source proche du dossier citée par l'AFP, les enquêteurs européens ont trouvé la copie d'un courriel d'une fonctionnaire du secrétariat général adressé à sa hiérarchie. Elle y relatait son audition par la brigade financière anticorruption de la police judiciaire de Paris, dans une enquête sur des soupçons de financement illégal de campagnes électorales du RN. D'après Le Monde, elle y raconte les questions des enquêteurs, ses réponses sur les financements des partis politiques et des points de droit ou de réglementation en matière de prêts. Trois personnes, dont le préfet Moutouh, avaient accès à ce courriel confidentiel, ce que la source a confirmé à l'AFP."
+      },
+      {
+       "intertitre": "Une enquête et des perquisitions",
+       "texte": "Hugues Moutouh, secrétaire général du ministère de l'Intérieur entre avril 2025 et mai 2026 et aujourd'hui préfet de la région Centre-Val de Loire, est soupçonné d'avoir transmis au RN des informations confidentielles sur des enquêtes visant le parti. Le parquet de Paris a ouvert fin juillet « une information judiciaire portant sur des faits de violation du secret professionnel, violation du secret de l'enquête et recel de ces délits ». Des perquisitions ont été menées fin juillet au secrétariat général de Beauvau, selon l'AFP, puis au domicile d'Hugues Moutouh, et le 9 novembre au siège du RN, dans le 16e arrondissement de Paris. Après les révélations du Monde, Hugues Moutouh a annoncé samedi soir avoir demandé à être relevé de ses fonctions face à ce qu'il qualifie de « campagne de déstabilisation »."
+      },
+      {
+       "intertitre": "La réponse de Marine Le Pen",
+       "texte": "Candidate à l'élection présidentielle, Marine Le Pen a pris ses distances avec l'affaire sur France 2 et France Inter : « Je n'ai jamais reçu d'informations confidentielles et je n'ai jamais demandé d'ailleurs d'informations confidentielles. » Interrogée sur d'éventuels bénéficiaires au RN et dans son entourage, elle a répondu : « Je suis incapable de vous dire cela puisque l'enquête est en cours. » Elle dit ignorer comment le mail a pu se retrouver chez « un de nos anciens prestataires », mais assure que « ce n'est pas passé par moi ». Selon elle, si elle en croit Le Monde, le document « n'est pas une violation du secret de l'enquête ou de l'instruction »."
+      },
+      {
+       "intertitre": "Ce que l'on ignore encore",
+       "texte": "Les sources ne disent pas comment le courriel est parvenu au domicile romain de Frédéric Chatillon, que Marine Le Pen qualifie d'ancien prestataire. Hugues Moutouh est soupçonné, mais l'information judiciaire est en cours, et Marine Le Pen répond qu'elle ne peut rien dire sur d'éventuels bénéficiaires au RN tant que l'enquête dure. Du côté du RN, l'eurodéputé Aleksandar Nikolic a réagi en ces termes : « J'espère que ce n'est pas une pression pour tous ceux qui oseraient discuter avec nous. »"
+      }
+     ],
+     "synthese": "Un courriel interne du ministère de l'Intérieur retrouvé chez Frédéric Chatillon a conduit à l'ouverture d'une information judiciaire visant Hugues Moutouh, qui a demandé à être relevé de ses fonctions. Marine Le Pen affirme n'avoir jamais reçu d'informations confidentielles, et l'enquête se poursuit.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "franceinfo",
+       "url": "https://www.franceinfo.fr/politique/front-national/un-mail-du-service-du-prefet-hugues-moutouh-soupconne-d-avoir-renseigne-le-rn-decouvert-lors-d-une-perquisition-chez-un-proche-de-marine-le-pen_8294915.html"
+      },
+      {
+       "source": "Yahoo Actualités",
+       "url": "https://fr.news.yahoo.com/scandale-rn-mail-service-pr%C3%A9fet-131818782.html"
+      }
+     ],
+     "format": "long",
+     "id": "a36"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-22",
+     "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/ca-devient-lassant-avec-la-repetition-des-inondations-dans-le-pas-de-calais-des-quartiers-vont-ils-bientot-etre-desertes_8295173.html#xtor=RSS-3-[lestitres]",
+     "auteur": "",
+     "titre": "Inondations dans le Pas-de-Calais : des habitants envisagent de partir",
+     "chapo": "Alors que 850 logements ont été inondés, des habitants du Pas-de-Calais, las des crues à répétition, se demandent s'ils devront un jour quitter leurs maisons.",
+     "sections": [
+      {
+       "intertitre": "Une situation encore instable",
+       "texte": "Dimanche 22 novembre, la situation du Pas-de-Calais n'était toujours pas stabilisée : des villages restaient sous les eaux et des quartiers entiers ont de nouveau été submergés au cours des derniers jours. Au total, 850 logements ont été inondés. Ailleurs, de nouvelles alertes inondations ont été émises pour l'Ain et le Jura, et la Corse reste sur ses gardes en raison de vents violents accompagnés de fortes précipitations. Elle est placée en vigilance orange aux vents violents à partir de dimanche minuit, tandis que le Jura et l'Ain restent en alerte pour pluie-inondation, comme le Pas-de-Calais pour un risque de crues. Le préfet du Pas-de-Calais affirme toutefois que la décrue est très nette sur l'amont de la Canche. À Montreuil-sur-Mer, un vaste élan de solidarité s'est mis en place, et des hélitreuillages à haut risque ont eu lieu durant les inondations."
+      },
+      {
+       "intertitre": "La question que posent les crues répétées",
+       "texte": "La répétition de ces épisodes pousse les habitants à s'interroger : seront-ils un jour forcés de quitter leurs habitations ? Pour de nombreux locaux, la question est désormais de rester ou de partir pour ne plus subir. « Ça devient lassant. On ne va pas vivre ça tous les deux ans », lance une habitante. Certains pensaient pourtant avoir pris les devants : avec leurs batardeaux devant les portes et trois pompes installées, ils croyaient pouvoir éviter l'inondation, mais la crue l'a emporté. Le reportage de France 2, dont ce texte reprend une partie de la retranscription, donne la parole à ces habitants confrontés à des inondations qui reviennent d'un épisode à l'autre."
+      },
+      {
+       "intertitre": "Des habitants à bout de forces",
+       "texte": "« C'est passé par-dessus notre batardeau de la cave, je ne sais pas si vous vous rendez compte », glisse Isabelle Grenier, habitante sinistrée de la commune d'Attin. Dans ce village, des retraités qui vivent au bord de la Canche viennent de connaître leur vingtième inondation, celle de trop. « Là, ça recommence encore. Moi, je pense que c'est la dernière fois », ajoute Isabelle, qui livre sa détresse et précise ne plus avoir la force. Son mari, Raymond, en tire la conséquence : « On va mettre en vente et puis changer de secteur. »"
+      },
+      {
+       "intertitre": "Rester, faute de pouvoir partir",
+       "texte": "Il y a ceux qui se résolvent à partir, et d'autres qui sont obligés de rester. En 2023, Geoffroy Quéant, habitant de Montreuil-sur-Mer, a eu 1,50 mètre d'eau dans sa maison. Depuis, il s'est adapté pour mieux se protéger : une pompe de relevage rejette l'eau, et un système de batardeau clampé fait barrière pour éviter de remplir le sol en contrebas. S'y ajoutent une terrasse surélevée, des bouches et des trappes d'aération, autant d'aménagements devenus indispensables pour continuer à vivre chez lui, car déménager est désormais impossible. « La maison a perdu trop de valeur. Pour acheter un autre bien équivalent, il y a beaucoup de zones sinistrées, donc les terrains restants sont beaucoup plus chers », explique-t-il. Pour lui, adapter sa maison est donc la seule option, là où d'autres envisagent de vendre."
+      },
+      {
+       "intertitre": "Les rachats par l'État, un recours limité",
+       "texte": "La maison de Geoffroy Quéant n'est pas éligible à un rachat par l'État. Dans son village, seules quatre habitations ont été rachetées pour être démolies. À Blendecques, autre village du Pas-de-Calais très touché en 2023, la destruction d'une quinzaine de maisons a commencé il y a quelques semaines. Le reportage met ainsi en regard deux situations : celle des habitants qui envisagent de vendre et de quitter le secteur, et celle des propriétaires que la perte de valeur de leur bien retient sur place, sans solution de rachat."
+      }
+     ],
+     "synthese": "Face aux crues répétées, certains habitants du Pas-de-Calais veulent partir, tandis que d'autres restent faute de pouvoir racheter ailleurs à un prix équivalent. Les rachats par l'État, encore peu nombreux, ne concernent qu'une partie des maisons sinistrées, comme le montre le reportage de France 2.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "franceinfo",
+       "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/ca-devient-lassant-avec-la-repetition-des-inondations-dans-le-pas-de-calais-des-quartiers-vont-ils-bientot-etre-desertes_8295173.html"
+      }
+     ],
+     "format": "long",
+     "id": "a32"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "france",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-22",
+      "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/22/choose-france-273-projets-industriels-seront-presentes-lors-de-ce-sommet-devolu-aux-entreprises-tricolores_6814240_1656968.html",
+      "auteur": "",
+      "id": "a26",
+      "titre": "Choose France : 273 projets industriels présentés, 14,9 milliards d'euros",
+      "texte": "Le sommet Choose France, réservé aux entreprises françaises qui investissent dans le pays, présente 273 projets industriels. Il décompte 14,9 milliards d'euros d'investissements nouveaux, dont 81 projets inédits, notamment dans la santé, la cosmétique ou les biocarburants."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-22",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/22/fuites-vers-le-rn-marine-le-pen-dit-n-avoir-jamais-recu-d-informations-confidentielles-du-prefet-hugues-moutouh_6814216_3224.html",
+      "auteur": "",
+      "id": "a25",
+      "titre": "Fuites vers le RN : Marine Le Pen nie avoir reçu des informations confidentielles",
+      "texte": "La candidate du RN à la présidentielle 2027 assure n'avoir « jamais reçu d'informations confidentielles » du préfet Hugues Moutouh, qui a annoncé samedi avoir demandé à être relevé de ses fonctions. Elle dit ne pas le connaître personnellement."
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-22",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/direct-campagne-presidentielle-la-secretaire-generale-de-la-cfdt-marylise-leon-appelle-a-changer-la-date-pour-eviter-un-second-tour-le-2-mai_8294528.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "id": "a33",
+      "titre": "Glucksmann propose d'avancer la présidentielle aux 11 et 25 avril",
+      "texte": "Le candidat PS-Place publique Raphaël Glucksmann estime qu'un second tour au lendemain d'un 1er mai est une erreur. Il propose d'organiser les deux tours les 11 et 25 avril, pour ne pas « prendre de risques » avec cette élection."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "Chine",
+     "source": "South China Morning Post",
+     "date": "2026-11-22",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
+     "auteur": "",
+     "titre": "Nvidia : Washington réclame des réponses sur les ventes de puces à la Chine",
+     "chapo": "Le secrétaire au Trésor Scott Bessent affirme que les États-Unis ont besoin de réponses de Nvidia sur le respect des restrictions à l'exportation vers la Chine.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est demandé",
+       "texte": "Invité dimanche de l'émission « Face the Nation » de CBS, Scott Bessent a déclaré que l'administration américaine veut des réponses de Nvidia sur ses ventes de puces à la Chine. Washington cherche aussi à savoir qui dirigeait la conformité chez le fabricant, dont Jensen Huang a démissionné après des révélations sur une liaison avec une espionne présumée chinoise, selon le South China Morning Post ; CBS évoque des liaisons extraconjugales, dont l'une avec une espionne présumée. « Nous avons été en contact avec la direction provisoire, avec les administrateurs référents, avec leurs avocats, et nous avons besoin de réponses », a dit Bessent, pour qui il est dans l'intérêt de Nvidia d'agir vite, car l'administration veut savoir quelle était la culture de l'entreprise."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "Bessent a précisé qu'une telle culture n'est qu'une possibilité et que le conseil d'administration agit très vite pour établir si elle existait ou non. Les États-Unis enquêtent sur la façon dont Nvidia aurait pu donner à la Chine accès à des puces d'intelligence artificielle avancées, malgré les restrictions du gouvernement. La semaine dernière, Bessent avait évoqué une possible « culture de non-conformité » et demandé si l'entreprise poussait ces ventes apparemment illicites pour gonfler son chiffre d'affaires et ses bénéfices. Sur Fox News, il avait exigé des réponses sous dix jours ; dimanche, il a indiqué ne pas les avoir encore reçues. La directrice financière, Colette Kress, dirige désormais l'entreprise, mais Bessent a invité Nvidia à faire venir quelqu'un de l'extérieur."
+      },
+      {
+       "intertitre": "Les enjeux et les suites",
+       "texte": "Interrogé sur l'approche de Nvidia fondée sur la « poignée de main », Bessent a répondu que pour des accords de cette taille, il n'existe pas d'accord invérifiable : il y a des factures et des mouvements d'argent, et il sera possible de comprendre ce qui s'est passé. Il veut savoir à quel niveau l'entreprise était au courant, des échelons inférieurs ou intermédiaires jusqu'au sommet, et si des acteurs malveillants en bas de l'entreprise sont responsables. Il distingue cette éventuelle culture de la liaison présumée de Jensen Huang, qu'il qualifie de « sorte de canard », et se demande s'il s'agit d'une culture de conformité ou des travers d'un seul homme. Le président Trump a demandé le retour de Jensen Huang à la tête de Nvidia ; Bessent dit qu'il faut d'abord voir « où s'arrête la responsabilité ». Jensen Huang doit témoigner devant la commission bancaire du Sénat et sera entendu par des commissions de la Chambre début décembre."
+      }
+     ],
+     "synthese": "Le Trésor américain attend de Nvidia des explications rapides sur ses ventes de puces à la Chine et sur la responsabilité de sa direction. L'enquête se poursuit avant l'audition de Jensen Huang au Sénat.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "CBS News",
+       "url": "https://www.cbsnews.com/news/bessent-nvidia-china-ai-chips-alice-huang-canard/"
+      }
+     ],
+     "format": "long",
+     "id": "a67"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "Géopolitique",
+     "source": "Le Grand Continent",
+     "date": "2026-11-22",
+     "url": "https://legrandcontinent.eu/fr/2026/11/22/en-espagne-vox-est-aux-portes-du-pouvoir/",
+     "auteur": "Ramona Bloj",
+     "titre": "Espagne : un sondage place Vox en position de faiseur de majorité",
+     "chapo": "Avant les élections générales du 29 novembre 2026, un sondage Cluster 17 donne le PP et le PSOE au coude-à-coude, avec Vox en forte hausse.",
+     "sections": [
+      {
+       "intertitre": "Ce que dit le sondage",
+       "texte": "Selon un sondage exclusif Cluster 17 réalisé avant les élections générales du 29 novembre 2026, le Parti populaire (PP) d'Alberto Núñez Feijóo recueille 30,4 % des intentions de vote, contre 29,9 % pour le PSOE de Pedro Sánchez. Vox, d'extrême droite, mené par Santiago Abascal, obtient 18,4 %, suivi par Frente Amplio (5,8 %). C'est une percée pour Vox, qui avait réuni 12,38 % des voix en 2023 et semble avoir capté une partie de l'électorat du PP. La gauche recule aussi : Sumar, le parti de Yolanda Díaz, désormais intégré au Front large, fait moins bien qu'au précédent scrutin (12,33 %). Si ces intentions de vote se confirmaient le jour du scrutin, avec une participation estimée à 69 %, le PP aurait 125 sièges, le PSOE 120 et Vox 65. PP et Vox atteindraient ensemble 190 députés, soit la majorité absolue, alors que le PSOE et ses alliés de gauche plafonneraient à 150. Une enquête Cluster 17 de fin octobre jugeait toutefois une coalition PP-Vox inacceptable pour 54 % des personnes interrogées."
+      },
+      {
+       "intertitre": "Le contexte et les enjeux",
+       "texte": "Le PSOE recule légèrement (31,68 % en 2023), semblant profiter de l'affaiblissement de la gauche radicale, mais, faute de coalition viable, Pedro Sánchez, Premier ministre depuis 2018 et candidat pour la quatrième fois, pourrait perdre le pouvoir. Il se distingue par plusieurs positions qui tranchent avec le consensus des partis au pouvoir sur le continent. Son gouvernement est l'un des derniers clairement de gauche en Europe : politique migratoire ouverte, opposition à la hausse des dépenses de défense, ouverture à la Chine, forte croissance des renouvelables (60 % de la production électrique). Il se maintient sans budget adopté depuis 2022. Le scrutin intervient après deux accidents ferroviaires majeurs cette année et des affaires de corruption dans l'entourage de Sánchez. Parmi les préoccupations des électeurs figurent le coût de la vie (47 %), la santé (43 %), le logement (38 %) et la corruption (37 %), avec un clivage net : corruption et immigration à droite, santé et logement à gauche."
+      }
+     ],
+     "synthese": "Le PP devance de peu le PSOE, mais la majorité absolue dépendrait d'une alliance avec Vox, que plus de la moitié des sondés rejettent. Sánchez pourrait perdre le pouvoir faute de coalition viable.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a90"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "États-Unis",
+     "source": "NPR",
+     "date": "2026-11-22",
+     "url": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment",
+     "auteur": "Lauren Sommer",
+     "titre": "COP31 à Antalya : échec des négociations climatiques sur les énergies fossiles",
+     "chapo": "Les délégués de près de 200 pays ont échoué dimanche à s'accorder sur un texte final, après des prolongations qui ont fait de COP31 la plus longue conférence climatique.",
+     "sections": [
+      {
+       "intertitre": "Ce qui s'est passé",
+       "texte": "À Antalya, en Turquie, les négociations climatiques internationales se sont rompues pendant les heures de prolongation, sur la manière d'aborder les énergies fossiles, principale cause du réchauffement. Dimanche, les délégués de près de 200 pays n'ont pas trouvé d'accord d'ensemble couvrant les objectifs d'électrification, le financement destiné à aider les pays en développement à s'adapter, et la réponse à apporter au franchissement prochain d'un seuil de réchauffement clé. La conférence a duré deux jours de plus que prévu, ce qui en fait la plus longue de l'histoire de ces sommets. Les énergies fossiles (pétrole, gaz et charbon) représentent environ 73 % des émissions mondiales."
+      },
+      {
+       "intertitre": "Le blocage sur les fossiles",
+       "texte": "Les représentants de l'Union européenne ont refusé tout résultat final qui n'appelle pas explicitement à une transition hors des énergies fossiles, formule combattue par certains pays producteurs de pétrole comme l'Arabie saoudite. Darragh O'Brien, ministre irlandais du Climat, de l'Énergie et de l'Environnement, qui parlait au nom de l'UE, a quitté la salle avec le commissaire européen Wopke Hoekstra. D'autres pays ont aussi contesté le texte, dont le Panama, le Belize et des petits États insulaires comme le Vanuatu et les îles Marshall. « Ce n'est pas acceptable », a déclaré Hoekstra, pour qui le monde va vers un dépassement de 1,5 °C. Une correction de NPR précise que seuls les représentants de l'UE ont quitté la salle, les autres pays se bornant à contester le texte. Le processus des COP fonctionne au consensus : près de 200 pays doivent approuver le texte final. La Norvège et le Mexique ont récemment voulu y inscrire la transition hors des fossiles, que l'Arabie saoudite et la Russie ont bloquée. La COP de Dubaï, en 2023, a été la première à la mentionner dans son accord final, après 28 ans de conférences. Plus de 50 pays, frustrés, ont organisé en avril en Colombie une conférence distincte ; Irlande et Tuvalu accueilleront la deuxième en 2027."
+      },
+      {
+       "intertitre": "Électrification et seuil de 1,5 °C",
+       "texte": "C'est le premier sommet de l'ONU sur le climat qui reconnaît officiellement que le monde dépassera le seuil de 1,5 °C fixé en 2015, déjà quasiment atteint. Selon l'ONU, un scénario optimiste à 1,7 ou 1,8 °C exigerait de réduire les émissions de 45 % d'ici 2035, donc de réduire fortement l'usage des fossiles. La guerre américano-israélienne contre l'Iran et la fermeture inédite du détroit d'Ormuz ont pesé sur les débats ; depuis son début, des pays d'Asie et d'Afrique accélèrent le solaire, les batteries et les véhicules électriques. COP31 devait être la « COP de l'électrification », avec l'objectif de passer de 23 % à 35 % d'électrification d'ici 2035 (« 35 d'ici 35 »). Cet engagement, signé par des dizaines de pays, n'a finalement pas été adopté : « l'électrification a été un dommage collatéral », selon Alden Meyer, du groupe de réflexion E3G. Pour le ministre australien Chris Bowen, qui présidait les négociations, la transition hors des fossiles est « inévitable », « rapide et irréversible »."
+      },
+      {
+       "intertitre": "Le financement, toujours insuffisant",
+       "texte": "En 2024, les pays ont promis de fournir à terme 1 300 milliards de dollars par an aux pays en développement, mais l'OCDE n'a recensé que 136,7 milliards versés cette année-là. L'ONU estime à 305 milliards par an d'ici 2035 les besoins d'adaptation des pays à faible revenu. Les mesures pour tripler le financement de l'adaptation d'ici 2035 figuraient dans la décision globale rejetée, selon Meyer, et les pays vulnérables d'Afrique et d'ailleurs en sont « assez en colère ». Cette année, 2,8 milliards de dollars ont été demandés pour les dommages, pour 342 millions disponibles ; à COP31, 142 millions supplémentaires seulement ont été promis. L'administration Trump n'a envoyé aucune délégation pour la deuxième année de suite ; des élus démocrates venus à titre informel ont assuré que le climat reviendrait à l'agenda lorsque les démocrates contrôleraient les deux chambres du Congrès l'an prochain."
+      }
+     ],
+     "synthese": "COP31 s'achève sans décision d'ensemble : le désaccord sur la mention des énergies fossiles a emporté aussi l'électrification et les engagements de financement. Le ministre panaméen Juan Carlos Navarro voit dans les initiatives parallèles le meilleur espoir d'action tant que le processus des COP ne change pas.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a50"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "monde",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-22",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3375166/no-grand-bargain-xi-trump-putin-meeting-was-never-point",
+      "auteur": "",
+      "id": "a71",
+      "titre": "Sommet Xi-Trump-Poutine : pas de grand accord, et ce n'était pas l'objectif",
+      "texte": "Le 19 novembre, à Shenzhen, Xi Jinping a reçu Donald Trump et Vladimir Poutine. Les trois dirigeants ont publié une déclaration en quatre points sur la réforme de l'ONU, la sécurité énergétique, les abus de compétence de la Cour pénale internationale et la réduction des risques nucléaires. Le sommet n'a toutefois produit rien de comparable à un grand accord sur les dossiers géopolitiques et de sécurité."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-23",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
+      "auteur": "Kristina Harazim; Enes Abuomer",
+      "id": "a87",
+      "titre": "Iran : la marine affirme avoir incendié des pétroliers dans le détroit d'Ormuz",
+      "texte": "La marine iranienne affirme avoir incendié des pétroliers qui contrevenaient à ses règles. De son côté, l'IRGC déclare que des « ennemis » cherchent à attiser les troubles."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-23",
+      "url": "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region?traffic_source=rss",
+      "auteur": "",
+      "id": "a84",
+      "titre": "Ebola : les combats près d'un hôpital en RDC menacent la riposte, selon l'OMS",
+      "texte": "Le directeur de l'OMS appelle à la paix alors que de violents combats ont lieu près d'un hôpital de la région touchée par Ebola en RDC. Selon l'OMS, patients et personnels sont exposés à un « grave risque »."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Économie et social",
+     "source": "NBER",
+     "date": null,
+     "url": "https://www.nber.org/papers/w36009#fromrss",
+     "auteur": "Emanuele Colonnelli; Timothy McQuade; Natalia Rigol; Benjamin N Roth",
+     "titre": "Mesurer l'impact social double la croissance de jeunes entreprises en Inde",
+     "chapo": "Un essai randomisé auprès de 163 entreprises sociales indiennes montre que mesurer son impact favorise la croissance et la levée de fonds, et que les investisseurs réagissent aux chiffres.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "L'investissement d'impact contrôlerait plus de 1 500 milliards de dollars d'actifs, et les entreprises sociales généreraient plus de 2 000 milliards de dollars de revenus annuels dans le monde. Mais, contrairement aux profits, que la comptabilité et la fiscalité imposent de mesurer, l'impact social est coûteux à quantifier, difficile à comparer et souvent présenté sous forme de récits. Emanuele Colonnelli, Timothy McQuade, Natalia Rigol et Benjamin Roth se demandent donc si mesurer l'impact rapporte des gains privés à l'entreprise elle-même. Ils affirment mener le premier essai randomisé sur la mise en oeuvre de cette mesure, auprès d'entreprises à forte croissance, et le complètent par une seconde expérience, menée auprès d'investisseurs."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "Les entreprises traitées ont connu environ 20 000 dollars de croissance de revenus supplémentaire, soit près du double de celle des entreprises témoins. Elles ont aussi levé 43 000 dollars de financement externe de plus, ce qui double le montant des témoins. L'effet n'est pas dû à quelques cas extrêmes : la distribution se décale et la médiane augmente de façon significative. Dans l'expérience auprès des investisseurs, passer d'un profil sous la médiane à un profil au-dessus de la médiane pour le surplus client accroît l'intérêt autant que passer d'une entreprise non rentable à une entreprise rentable. Un énoncé qualitatif générique a un effet faible et non significatif. Les profils présentaient soit les seuls revenus moyens des clients, soit un énoncé qualitatif, soit le surplus client."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "Avec Villgro, premier incubateur d'entreprises sociales en Inde, les 163 entreprises ont suivi le même cours de mesure et de gestion de l'impact, à raison de sept séances en ligne de deux heures, d'avril à juin 2023. Le hasard a décidé lesquelles recevaient en plus un accompagnement individuel (quatre à cinq rencontres), des enquêtes auprès de leurs clients, salariés et fournisseurs, et un rapport personnalisé : 80 entreprises traitées, 83 témoins. Les résultats viennent d'une enquête de départ (septembre 2022) et d'une enquête finale (juillet 2024), analysées par différence de différences. Au départ, les entreprises employaient en moyenne 12,6 personnes, avaient environ 60 000 dollars de revenus annuels et 84 000 dollars de capital externe levé. Les données finales manquent pour 21 entreprises dans chaque groupe. Le second essai a réuni 223 investisseurs, qui ont noté des profils fictifs de start-up tirés au hasard ; leurs notes étaient incitées par la promesse d'être mis en relation avec de vraies start-up."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Selon les auteurs, ces résultats documentent des rendements privés de la mesure d'impact. Pour des entreprises sociales, une croissance plus rapide peut aussi élargir la portée de produits destinés aux clients et aux autres parties prenantes. Deux mécanismes sont avancés : en interne, collecter des données aide à repérer les clients et usages qui créent le plus de valeur ; en externe, des indicateurs chiffrés rendent les affirmations d'impact plus crédibles aux yeux des investisseurs. Les investisseurs ne récompensent pas le langage d'impact en soi, mais les preuves chiffrées : la forme de la mesure compte pour l'allocation du capital d'impact."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Le dispositif réunit plusieurs composantes, ce qui empêche d'isoler la contribution de chacune ou les mécanismes précis. L'échantillon reflète une auto-sélection : les résultats valent surtout pour des entreprises sociales orientées vers la croissance et intéressées par ces pratiques. Enfin, les mesures de surplus ne sont pas des mesures complètes de l'impact social, car elles omettent d'autres effets et externalités."
+      }
+     ],
+     "synthese": "Mesurer concrètement son impact auprès des parties prenantes a presque doublé croissance et capitaux levés dans cet essai. Les investisseurs, eux, réagissent aux indicateurs chiffrés plutôt qu'aux déclarations générales.",
+     "republication": "",
+     "reference": "Emanuele Colonnelli (Chicago Booth, NBER), Timothy McQuade (UC Berkeley, NBER), Natalia Rigol (Harvard Business School, NBER) et Benjamin N. Roth (Harvard Business School), NBER Working Paper n° 36009, novembre 2026. Document de travail non relu par des pairs.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a95"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Économie et social",
+     "source": "NBER",
+     "date": null,
+     "url": "https://www.nber.org/papers/w36006#fromrss",
+     "auteur": "Charles J Courtemanche",
+     "titre": "Programme pilote 340B : jusqu'à 1,5 milliard de dollars de pertes annuelles",
+     "chapo": "Un document de travail du NBER chiffre l'effet du pilote de remboursement a posteriori du programme 340B sur les revenus nets des hôpitaux et centres de santé qui en bénéficient.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "Le programme 340B oblige les laboratoires à vendre des médicaments à prix réduit aux établissements « couverts », hôpitaux et centres de santé qui accueillent des patients défavorisés. Il est passé d'environ 8 milliards de dollars en 2010 (en dollars de 2025) à 100 milliards en 2025. Les laboratoires dénoncent des « doubles remises » et ont obtenu de l'agence fédérale HRSA un pilote de remboursement a posteriori, publié en août 2026 : l'établissement achète au prix catalogue (WAC), puis demande un remboursement au fabricant. Charles Courtemanche (université du Kentucky) cherche à estimer ce que ce pilote coûtera aux établissements, et ce que coûterait son extension à tout le programme."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "Avec ses valeurs de référence, l'auteur projette une perte annuelle de revenus nets de 1,5 milliard de dollars pour le pilote, dans une fourchette de 702 millions à 2,37 milliards. Étendu à tout le programme 340B, le modèle ferait perdre 22,77 milliards par an (de 10,04 à 37,59 milliards), soit 32 % des revenus nets tirés du programme et 24 % de ceux de l'ensemble des hôpitaux américains. Selon les cas, 70 à 76 % des pertes viennent des coûts administratifs et de personnel. Or les laboratoires ne profitent pas de ces coûts : leur gain est donc inférieur à la perte des établissements, ce qui donne un effet net négatif."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "L'étude procède par calibrage, toutes choses égales par ailleurs, sur une base 2025. Elle distingue cinq sources de pertes : doubles remises évitées, refus de demandes valides, usage des données de remboursement par les fabricants (influence, lobbying, ciblage de pharmacies), coûts de trésorerie, coûts administratifs. Le pilote ne concerne que les 22 médicaments des cohortes 2026 et 2027 du programme de négociation des prix de Medicare, soit 5,5 % des achats 340B ; pour l'extension, l'auteur tient compte d'économies d'échelle probables sur les coûts administratifs. La HRSA évalue les coûts administratifs à 523,34 millions de dollars par an pour 15 249 établissements, ceux-ci avancent 1,75 milliard ; l'auteur retient la moyenne, 1,14 milliard. Le coût de trésorerie du pilote est estimé à 13,4 millions."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "D'après l'auteur, la prévalence des doubles remises au sens de la loi est nettement plus faible que ne l'affirment les laboratoires : 1,9 milliard de dollars d'achats (2,3 % du total), contre 9,33 milliards par an de valeur que les fabricants tireraient d'un usage complet des plateformes de données. L'écart tient à une définition plus large, qui inclut les remises négociées avec les gestionnaires de prestations pharmaceutiques. Des pertes de 22,77 milliards menaceraient selon lui l'accès aux soins, avec des fermetures de services, voire d'hôpitaux. Les estimations de l'industrie, qui atteignent 34 à 37,5 milliards de dollars par an, seraient environ treize fois plus élevées en proportion du programme. Il recommande de faire respecter les restrictions imposées aux fabricants et d'envisager une compensation des coûts."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "L'auteur note que l'analyse est faite toutes choses égales par ailleurs et qu'aucun modèle global ne peut intégrer les autres pressions, comme la baisse de remboursement proposée pour 2027, qui ferait passer les médicaments de la partie B de 6 % au-dessus du prix moyen de vente à 33,4 % en dessous. Les pertes augmenteraient si les restrictions imposées aux fabricants étaient ignorées ou mal appliquées, et il craint que le respect soit bon pendant le pilote puis se dégrade. L'étude a été financée par la Kentucky Hospital Association et un cabinet d'avocats représentant des hôpitaux."
+      }
+     ],
+     "synthese": "Le pilote coûterait environ 1,5 milliard de dollars par an aux établissements 340B, surtout en frais administratifs et de personnel, sans bénéfice équivalent pour les fabricants. L'extension au programme entier porterait les pertes à 22,77 milliards, selon cette étude non relue par des pairs.",
+     "republication": "",
+     "reference": "Charles J. Courtemanche (université du Kentucky, Institute for the Study of Free Enterprise, IZA, NBER), NBER Working Paper n° 36006, novembre 2026. Document de travail non relu par des pairs ; recherche financée par la Kentucky Hospital Association et un contrat de conseil avec le cabinet Hall, Render, Killian, Heath & Lyman, P.C.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a94"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "recherche",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w36017#fromrss",
+      "auteur": "",
+      "id": "a98",
+      "titre": "Deux commandes Stata pour des régressions à effets fixes de grande dimension",
+      "texte": "Un article de Johannes F. Schmieder, publié par le NBER, présente fereg et feppml. Ces commandes Stata ajustent des régressions à effets fixes de grande dimension et choisissent entre plusieurs solveurs (projection, Krylov, multigrid) selon le problème."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Anti-corruption",
+     "source": "Linternaute.com",
+     "date": "2026-11-21",
+     "url": "https://www.linternaute.com/actualite/societe/11315653-thomas-saunier-vise-par-une-enquete-pour-corruption-le-patron-de-malakoff-humanis-licencie/",
+     "auteur": "Baptiste Marin",
+     "titre": "Malakoff Humanis met fin au mandat de son directeur général, Thomas Saunier",
+     "chapo": "Le conseil d'administration a révoqué à l'unanimité, le 20 novembre, le dirigeant visé par une enquête du Parquet national financier pour corruption privée.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Réuni vendredi 20 novembre, le conseil d'administration de l'association sommitale, l'instance paritaire qui coiffe Malakoff Humanis, a « décidé à l'unanimité de mettre fin au mandat » de Thomas Saunier, 59 ans, directeur général depuis dix ans. Le communiqué du groupe ne donne aucun motif. Le message interne, signé du président du conseil, Yves Laqueille (Medef), et du vice-président, Alain Gautron (FO), reconnaît que « les derniers mois ont pu être éprouvants et générer des interrogations, parfois de l'inquiétude ». Éric Vaudaine, directeur général délégué, assure l'intérim ; aucun successeur n'est désigné."
+      },
+      {
+       "intertitre": "L'enquête du PNF",
+       "texte": "Le Parquet national financier a ouvert au printemps une enquête préliminaire pour « corruption active et passive privée commise en bande organisée ». Elle porte sur la rémunération d'intermédiaires lors d'investissements dans des actifs cotés et non cotés, pour des prestations « suspectées d'être fictives ayant donné lieu à rétrocommissions ». Au centre figure Thomas Vendôme Investment, société de conseil de l'ancien député Jean-Pierre Thomas, qui aurait obtenu plus de 22 millions d'euros de commissions auprès des gérants retenus par le groupe, selon des documents publiés par Mediapart. Le 16 juin, la Brigade financière anticorruption a perquisitionné le siège de Malakoff Humanis et les bureaux de la société, puis entendu les deux hommes. Aucune mise en cause formelle n'a été rendue publique et toutes les personnes citées sont présumées innocentes."
+      },
+      {
+       "intertitre": "Le grief des administrateurs",
+       "texte": "Selon les enquêtes internes, des dizaines de contacts ont eu lieu ces dernières années entre Thomas Saunier et Jean-Pierre Thomas. Les administrateurs reprochent au dirigeant d'avoir minimisé ces liens devant eux, un reproche de loyauté envers le conseil. Interrogé par Mediapart, Thomas Saunier parlait d'échanges « occasionnels » et affirme n'avoir rien su des relations entre son groupe et l'intermédiaire. Le groupe s'est par ailleurs porté plaignant le 24 juin et assure récuser « fermement l'existence de toute rétrocommission » ; Jean-Pierre Thomas conteste lui aussi tout versement de ce type. Des missions confiées à PwC et DLA Piper doivent rendre leurs conclusions d'ici la fin de l'année."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "L'affaire est partie de questions de l'Autorité de contrôle prudentiel et de résolution (ACPR), qui ont conduit le groupe à lancer en avril une enquête interne. Fin juillet, les conseils adoptent à l'unanimité un plan de remédiation en six points, avec notamment une clause de transparence sur les intermédiaires rémunérés par les sociétés de gestion. Alain Gautron a aussi indiqué que Malakoff Humanis exigerait le remboursement de 6 millions d'euros de commissions versés par Sienna Gestion à la société de conseil. Le soutien au dirigeant s'est défait en quelques semaines : le 15 octobre, le conseil constatait que la confiance était « ébranlée »."
+      },
+      {
+       "intertitre": "Ce que ça change",
+       "texte": "Malakoff Humanis, qui compte plus de 10 000 salariés (10 500 selon L'Essentiel de l'Éco) et reste un acteur majeur de la complémentaire santé et de la prévoyance, change donc de direction. Thomas Saunier, arrivé en 2016 à la tête de Malakoff Médéric, avait conduit la fusion avec Humanis, effective le 1er janvier 2019. D'après Mediapart, il est licencié pour faute grave, ce que le communiqué ne mentionne pas, et il conteste ce renvoi : il a déjà saisi les prud'hommes contre le groupe. Selon L'Essentiel de l'Éco, le groupe a réalisé 8,37 milliards d'euros de chiffre d'affaires en assurance en 2025 et versé 45 milliards d'euros d'allocations de retraite complémentaire à 6,3 millions de retraités. Éric Vaudaine, 48 ans, directeur général délégué depuis 2021, a été nommé à l'unanimité."
+      }
+     ],
+     "synthese": "Le conseil d'administration a tranché avant toute décision de justice, en reprochant à Thomas Saunier d'avoir minimisé ses liens avec l'intermédiaire visé par l'enquête. Éric Vaudaine assure l'intérim, tandis que le litige se poursuit devant les prud'hommes.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "L'Essentiel de l'Éco",
+       "url": "https://lessentieldeleco.fr/9700-corruption-presumee-malakoff-humanis-lache-son-patron/"
+      }
+     ],
+     "format": "long",
+     "id": "a107"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Sanctions et export",
+     "source": "CASRAI",
+     "date": "2026-11-21",
+     "url": "https://casrai.org/news/china-mofcom-most-40-technologies-export-control-catalogue-interim-registration-2026",
+     "auteur": "Gabriel Nieves Castro",
+     "titre": "Chine : un enregistrement provisoire avant export pour 40 technologies sensibles",
+     "chapo": "Depuis le 16 novembre 2026, Pékin impose un enregistrement préalable à l'export pour 40 technologies d'IA, de solaire et de biofabrication, ce qui touche universités et instituts conjoints.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Après la clôture, le 15 novembre 2026, de la consultation publique sur l'annonce [2026] n° 48, le ministère du Commerce (MOFCOM) et le ministère des Sciences et des Technologies (MOST) appliquent depuis le 16 novembre un enregistrement provisoire préalable à l'export. Il concerne 40 technologies dont l'ajout au catalogue national de contrôle des exportations est proposé. L'obligation de dépôt est entrée en vigueur dès la publication, avant même l'adoption formelle du catalogue, dont la promulgation est attendue début 2027. Elle oblige universités, instituts conjoints et bureaux de transfert de technologie à auditer leurs transferts de données et leurs accords de propriété intellectuelle."
+      },
+      {
+       "intertitre": "Les 40 technologies et leurs seuils",
+       "texte": "Quatorze technologies sont interdites à l'export et vingt-six sont restreintes, donc soumises à licence. L'intelligence artificielle en compte 23 (poids de modèles, agents autonomes, grappes de calcul, outils de découverte de vulnérabilités), le photovoltaïque 12 (polysilicium, découpe des plaquettes, cellules à haut rendement) et la biofabrication 5 (thérapies cellulaires et géniques, plateformes d'acides nucléiques, modification de pathogènes). Un grand modèle de langage devient restreint s'il atteint l'un de ces trois seuils : 10²⁶ opérations en virgule flottante à l'entraînement, 2 000 milliards de paramètres, ou un rang mondial dans les dix premiers sur des tests publics reconnus. Les technologies tombées dans le domaine public, par des dépôts open source ou des publications évaluées par les pairs, sont exclues."
+      },
+      {
+       "intertitre": "Les précisions du MOFCOM",
+       "texte": "Le MOFCOM précise que l'accès distant à un modèle hébergé sur des serveurs chinois, par API, portail SaaS, application mobile ou exécution légère sur appareil, n'est pas un export. Il n'y a export que si poids, code ou infrastructure sont transférés ou déployés à l'étranger. En biofabrication, l'interdiction vise seulement la cession de la propriété de plateformes réutilisables ; la concession de licences sur des candidats médicaments précis reste éligible à un examen simplifié, tant que la propriété intellectuelle de la plateforme reste en Chine. Un changement de contrôle d'une entité chinoise détenant ces technologies au profit d'un acteur étranger est aussi un export, à enregistrer avant la clôture auprès des services provinciaux du commerce."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "Selon l'article, c'est la révision la plus importante du régime chinois depuis août 2020. Deux cadres coexistent : le régime des biens à double usage, fondé sur la loi de 2020 sur le contrôle des exportations, et celui du commerce de technologies, fondé sur la loi sur le commerce extérieur. Le catalogue date de 2001 et a été révisé en 2008 et 2020 ; la version de 2020 avait ajouté les algorithmes de recommandation personnalisée et la synthèse vocale. Pékin agit alors que les pays occidentaux étendent leurs propres contrôles à l'export."
+      },
+      {
+       "intertitre": "Ce que ça change pour les établissements",
+       "texte": "Quatre situations imposent un enregistrement sur le portail du MOFCOM : la cession de propriété intellectuelle, la concession d'une technologie chinoise exploitée à l'étranger, le passage du contrôle d'une propriété intellectuelle chinoise à une entité étrangère, et toute directive des autorités. Les travaux de laboratoire partageant des points de contrôle de modèles non publiés, des jeux de données d'entraînement ou des essais biologiques propriétaires entrent dans le champ ; la publication ouverte reste exemptée. Les transactions engagées avant le 16 octobre 2026 et non conclues doivent être enregistrées avant leur clôture. Le dépôt n'est pas une autorisation, et son omission expose à des sanctions administratives, selon des juristes cités par l'article."
+      }
+     ],
+     "synthese": "Le dispositif transitoire est applicable avant la promulgation du catalogue révisé, attendue début 2027. L'article recommande aux établissements de recenser leurs projets transfrontaliers, de comparer leurs paramètres aux seuils et d'adapter leurs contrats.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a128"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "veille",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Anti-corruption",
+      "source": "Frontières",
+      "date": "2026-11-21",
+      "url": "https://www.frontieresmedia.fr/politique/detournement-de-fonds-publics-le-pnf-ouvre-officiellement-une-enquete-contre-bally-bagayoko-le-ma---19380",
+      "auteur": "",
+      "id": "a109",
+      "titre": "Le PNF ouvre une enquête pour détournement de fonds publics contre Bally Bagayoko",
+      "texte": "Le PNF a officiellement ouvert une enquête pour détournement de fonds publics visant Bally Bagayoko, maire LFI de Saint-Denis."
+     },
+     {
+      "rubrique": "LCB-FT",
+      "source": "The Portugal News",
+      "date": "2026-11-21",
+      "url": "https://www.theportugalnews.com/news/2026-11-21/european-union-to-ban-cash-payments-above-10000/1024357",
+      "auteur": "",
+      "id": "a134",
+      "titre": "L'UE prévoit d'interdire les paiements en espèces au-delà de 10 000 euros",
+      "texte": "L'Union européenne prévoit d'interdire les paiements en espèces supérieurs à 10 000 euros. Le résumé ne précise ni le calendrier ni les exceptions."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Climat",
+     "source": "Inside Climate News",
+     "date": "2026-11-22",
+     "url": "https://insideclimatenews.org/news/22112026/uns-cop31-climate-conference-fizzles-out-as-global-policy-divides-deepen/",
+     "auteur": "Bob Berwyn; Corey Mitchell",
+     "titre": "COP31 : Antalya s'achève sans décision de couverture, une première depuis 2009",
+     "chapo": "Les négociations climatiques de l'ONU ont pris fin à Antalya sans consensus sur le texte final, faute d'accord sur les énergies fossiles, le captage du carbone et le financement.",
+     "sections": [
+      {
+       "intertitre": "Ce qui s'est passé",
+       "texte": "Les négociations de la COP31, à Antalya, en Turquie, se sont achevées dimanche après-midi, deux jours après la date prévue, sans accord large sur les prochaines étapes. Pour la première fois depuis 2009, la conférence se termine sans consensus sur la décision de couverture, le texte final qui signale d'ordinaire la solidarité mondiale face à la crise climatique. Des décisions ont toutefois été adoptées, dont un programme d'aide aux travailleurs et aux communautés pour sortir des énergies fossiles et un plan d'évaluation des progrès de l'adaptation. Le président de la conférence, Murat Kurum, ministre turc de l'environnement, de l'urbanisation et du changement climatique, a tenté de rassembler les éléments disparates du projet d'accord sous le signe du multilatéralisme, en vain pour beaucoup de pays. Plus de 100 000 personnes avaient participé à la conférence."
+      },
+      {
+       "intertitre": "Les points de blocage",
+       "texte": "Les désaccords, profonds, portent sur la mention des énergies fossiles et du captage du carbone, et sur l'ampleur du financement climatique que les pays développés doivent fournir aux pays en développement frappés par des catastrophes coûteuses. L'un des objectifs était de fixer des buts mondiaux chiffrés mais volontaires pour l'électrification des économies et d'accroître l'aide à l'adaptation. L'Union européenne, plusieurs pays d'Amérique latine et des États insulaires du Pacifique ont refusé le texte des dirigeants de la conférence. L'Égypte et le Brésil, hôtes de précédentes conférences, l'ont aussi critiqué. Liliam Beatris Chagas de Moura, du ministère brésilien des Affaires étrangères, a regretté que l'élan de l'an dernier n'ait pas été maintenu. Aux yeux de l'article, la fracture est plus profonde qu'à Dubaï en 2023, où un texte avait été adopté malgré l'objection de 39 petits États insulaires en développement, restés hors de la plénière pour coordonner leur position."
+      },
+      {
+       "intertitre": "Les positions en présence",
+       "texte": "Au nom de l'Union, le ministre irlandais Darragh O'Brien a déclaré que l'Europe n'approuverait pas une décision qui ne mentionne même pas les énergies fossiles, ni une COP qui les blanchit. Kathy Jetn̄il-Kijiner, envoyée climat des Îles Marshall, a jugé que le pacte d'Antalya, tel qu'il est rédigé, menace la sécurité de son pays et que l'accepter serait une trahison envers le peuple marshallais, car les mers montent et les écosystèmes s'effondrent. Mohammad Ayoub, négociateur saoudien, a au contraire indiqué que la Ligue des États arabes, qui compte 22 membres, soutenait le pacte d'Antalya. Il a critiqué les pays développés, qui ont consommé l'essentiel du budget carbone, et jugé non scientifique l'opposition au captage et à l'élimination du dioxyde de carbone, estimant que toutes les solutions doivent être sur la table, chaque pays choisissant selon sa situation nationale. Selon lui, le captage et le stockage ne se déploient pas assez vite pour maintenir l'objectif de 1,5 degré à portée."
+      },
+      {
+       "intertitre": "Le contexte et les réactions",
+       "texte": "Le fonds pour les pertes et préjudices avait été créé en 2022, et un an plus tard à Dubaï, des délégués de plus de 190 pays avaient reconnu pour la première fois la nécessité d'une transition « juste et ordonnée » hors des énergies fossiles. Depuis, la collaboration internationale sur le climat a reculé, sous l'effet des conflits, de la hausse des prix du pétrole et du gaz et de l'insécurité économique. Le secrétaire général de l'ONU, António Guterres, s'est dit « profondément déçu », jugeant que ce revers ne change pas les faits : les énergies fossiles alimentent la crise climatique et l'on ne peut éteindre l'incendie en y versant du carburant. L'article juge cet échec grave sans qu'il mette fin à l'effort mondial."
+      }
+     ],
+     "synthese": "La COP31 s'achève sur des décisions partielles mais sans texte d'ensemble, signe de divisions profondes sur les énergies fossiles, le captage du carbone et le financement. Le revers est jugé sérieux, sans enterrer l'action collective.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a151"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Idées",
+     "source": "The Conversation",
+     "date": "2026-11-21",
+     "url": "https://theconversation.com/gaz-leurope-sest-eloignee-de-la-russie-mais-accroit-sa-vulnerabilite-aux-crises-mondiales-296886",
+     "auteur": "Carl Grekou; Lionel Ragot; Valérie Mignon",
+     "titre": "Gaz : l'Europe a quitté la Russie mais reste exposée aux chocs mondiaux",
+     "chapo": "Selon trois économistes, le tournant vers le GNL a réduit le risque de rupture physique, mais lie davantage les prix européens à ceux de l'Asie, comme l'a montré la crise d'Ormuz.",
+     "sections": [
+      {
+       "intertitre": "Le paradoxe d'Ormuz",
+       "texte": "Au printemps 2026, la crise du détroit d'Ormuz a fait flamber les prix du gaz en Europe, alors que moins de 10 % du gaz naturel liquéfié (GNL) importé par l'Union européenne y transitait en 2025. Environ un cinquième du commerce mondial de GNL passait par ce détroit, surtout vers l'Asie. En mars 2026, le prix européen TTF a dépassé 60 euros par mégawattheure, contre environ 30 avant le choc, et s'établissait à un peu plus de 90 euros en moyenne la première semaine de novembre. Privés de cargaisons du Golfe, les acheteurs asiatiques se reportent sur d'autres fournisseurs et concurrencent les Européens."
+      },
+      {
+       "intertitre": "Une recomposition des approvisionnements",
+       "texte": "Entre 2021 et 2025, les livraisons russes par gazoduc à l'UE ont chuté de 87 %, de 1 535 à 206 TWh, sans rupture majeure. La part du GNL dans les entrées de gaz est passée de 20 % à 46 %, et le centre de gravité de ces entrées s'est déplacé de 329 kilomètres vers le sud-ouest entre 2020 et 2025. La part de la Russie, GNL compris, est tombée de 48 % à 16 %, celle des États-Unis a monté de 5 % à 27 %, et la Norvège fournit environ un quart des entrées. La France est devenue la deuxième porte d'entrée après l'Italie, avec 15,4 % du gaz entrant en 2025 contre 9,8 % en 2021, et un solde de transit passé de – 97 à + 145 TWh. Elle reçoit encore 20 % de son gaz de Russie, sous forme de GNL, dont l'interdiction européenne doit s'étendre aux contrats de long terme au 1er janvier 2027. Ce basculement n'a pas été improvisé : dès janvier 2009, un différend russo-ukrainien avait interrompu près de deux semaines le transit de quelque 80 % des importations de gaz russe, ce qui avait conduit à renforcer les interconnexions. Contrairement au gaz de gazoduc, une cargaison de GNL peut être réorientée d'un marché à l'autre selon les prix."
+      },
+      {
+       "intertitre": "Des capacités mal réparties",
+       "texte": "Entre 2019 et 2025, les capacités européennes de regazéification ont progressé de 48 %, mais leur taux d'utilisation n'était que de 42 % en 2024 et 51 % en 2025. Les auteurs parlent d'une « assurance stratégique », dimensionnée pour les pointes d'hiver et les crises. L'Espagne, dotée des plus grandes capacités, n'en utilisait que 28 % : ses terminaux ont été construits pour son seul marché, et les interconnexions pyrénéennes restent étroites. Au creux de mars 2026, les réserves européennes n'étaient remplies qu'à 28 % : environ 22 % en France et en Allemagne, moins de 5 % aux Pays-Bas, près de 57 % en Espagne, des stocks pas toujours accessibles aux voisins. Obliger à remplir les stocks renforce la sécurité mais peut renchérir les achats ; l'assouplissement des objectifs en 2025 reflète cet arbitrage. Quant à la surcapacité de regazéification, elle tient à des terminaux construits là où le gaz manquait, entrés en service quand la consommation reculait."
+      },
+      {
+       "intertitre": "Des prix plus liés à l'Asie",
+       "texte": "Les auteurs ont étudié les liens entre les prix TTF européen, JKM asiatique et Henry Hub états-unien de 2015 à 2026. Après février 2022, la corrélation moyenne entre les variations quotidiennes du TTF et du JKM est passée de 0,110 à 0,185, soit 69 % de plus, et la part des fluctuations imprévues du marché européen expliquée par les chocs asiatiques de 5,9 % à 15,7 %. Le Henry Hub reste relativement déconnecté : la corrélation avec l'Europe n'a augmenté que d'environ 6 %, car les installations américaines de liquéfaction tournent à 93 à 98 % de leur capacité."
+      },
+      {
+       "intertitre": "Les limites de la diversification",
+       "texte": "Selon les auteurs, la diversification reste un progrès réel, mais disposer de terminaux ne suffit pas si les cargaisons sont rares ou chères. En 2024, les achats au comptant représentaient un peu plus du quart du GNL importé. Ils appellent à une meilleure coordination européenne sur les fournisseurs, les stocks et les interconnexions, et à renforcer la résilience des industries gazo-intensives comme la chimie."
+      }
+     ],
+     "synthese": "La sortie du gaz russe a réduit le risque de rupture physique, mais l'Europe subit désormais, par les prix, les tensions du marché mondial. La sécurité énergétique se mesure aussi à la capacité d'en limiter les conséquences économiques.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a146"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-22",
+      "url": "https://www.sciencesetavenir.fr/archeo-paleo/homo-naledi-l-enigme-des-femmes-fossiles_196287?xtor=RSS-4",
+      "auteur": "",
+      "id": "a137",
+      "titre": "Homo naledi : les individus retrouvés seraient tous féminins, selon l'émail dentaire",
+      "texte": "Dans les grottes de Rising Star, en Afrique du Sud, les squelettes d'Homo naledi livrent une surprise. L'analyse des protéines de leur émail dentaire suggère que tous les individus retrouvés seraient de sexe féminin, un résultat inattendu qui intrigue les spécialistes de cette ancienne espèce humaine."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-22",
+      "url": "https://www.sciencesetavenir.fr/fondamental/mathematiques/comment-l-ia-fait-elle-des-maths_196275?xtor=RSS-10",
+      "auteur": "",
+      "id": "a136",
+      "titre": "Comment l'IA fait-elle des mathématiques ?",
+      "texte": "Cette année, l'IA est devenue capable de démontrer des théorèmes qui résistaient aux mathématiciens. Derrière ces prouesses, des milliers d'agents intelligents travaillent ensemble pour défricher des pistes, élaborer des preuves et vérifier leur validité."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-21",
+      "url": "https://www.sciencesetavenir.fr/animaux/colombie-les-hippopotames-de-pablo-escobar-une-invasion-devenue-incontrolable_196279?xtor=RSS-26",
+      "auteur": "",
+      "id": "a139",
+      "titre": "200 hippopotames en Colombie, héritage de Pablo Escobar",
+      "texte": "Près de 200 hippopotames, descendants de quatre spécimens importés par Pablo Escobar, peuplent aujourd'hui le bassin du fleuve Magdalena. Leur prolifération bouleverse les écosystèmes locaux et pousse le gouvernement colombien à prendre des mesures radicales."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-22",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+      "auteur": "",
+      "id": "a148",
+      "titre": "Le centre Johnson de la NASA fête ses 65 ans de vols habités",
+      "texte": "Depuis 65 ans, le Johnson Space Center de Houston contribue aux vols spatiaux habités, des missions Gemini qui ont mis au point les techniques de rendez-vous nécessaires à Apollo jusqu'à la recherche menée à bord de l'ISS."
+     }
+    ]
+   },
+   {
+    "type": "solutions",
+    "bloc": "",
+    "taille": 1
+   }
+  ],
+  "jeux": {
+   "sudoku": {
+    "grille": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     7,
+     0,
+     0,
+     0,
+     6,
+     3,
+     0,
+     9,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     8,
+     9,
+     2,
+     3,
+     0,
+     2,
+     0,
+     0,
+     5,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5,
+     1,
+     0,
+     0,
+     0,
+     0,
+     9,
+     0,
+     0,
+     0,
+     0,
+     7,
+     0,
+     7,
+     5,
+     0,
+     8,
+     0,
+     1,
+     0,
+     0,
+     2,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     9,
+     8,
+     0,
+     6,
+     0,
+     3,
+     5,
+     0
+    ],
+    "solution": [
+     9,
+     8,
+     2,
+     4,
+     1,
+     3,
+     7,
+     6,
+     5,
+     7,
+     6,
+     3,
+     5,
+     9,
+     2,
+     4,
+     8,
+     1,
+     5,
+     1,
+     4,
+     6,
+     7,
+     8,
+     9,
+     2,
+     3,
+     4,
+     2,
+     7,
+     3,
+     5,
+     1,
+     6,
+     9,
+     8,
+     6,
+     3,
+     9,
+     8,
+     2,
+     7,
+     5,
+     1,
+     4,
+     8,
+     5,
+     1,
+     9,
+     4,
+     6,
+     2,
+     3,
+     7,
+     3,
+     7,
+     5,
+     2,
+     8,
+     9,
+     1,
+     4,
+     6,
+     2,
+     4,
+     6,
+     1,
+     3,
+     5,
+     8,
+     7,
+     9,
+     1,
+     9,
+     8,
+     7,
+     6,
+     4,
+     3,
+     5,
+     2
+    ]
+   },
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "indices": [
+     [
+      1,
+      3,
+      12
+     ],
+     [
+      0,
+      7,
+      10
+     ],
+     [
+      0,
+      8,
+      7
+     ],
+     [
+      3,
+      9,
+      5
+     ],
+     [
+      2,
+      1,
+      12
+     ],
+     [
+      3,
+      3,
+      12
+     ],
+     [
+      3,
+      4,
+      6
+     ],
+     [
+      5,
+      7,
+      8
+     ],
+     [
+      7,
+      9,
+      5
+     ],
+     [
+      8,
+      5,
+      6
+     ],
+     [
+      8,
+      7,
+      4
+     ],
+     [
+      9,
+      8,
+      3
+     ],
+     [
+      8,
+      0,
+      4
+     ],
+     [
+      8,
+      2,
+      4
+     ],
+     [
+      9,
+      6,
+      2
+     ]
+    ],
+    "rectangles": [
+     [
+      0,
+      0,
+      2,
+      6
+     ],
+     [
+      0,
+      6,
+      5,
+      2
+     ],
+     [
+      0,
+      8,
+      7,
+      1
+     ],
+     [
+      0,
+      9,
+      5,
+      1
+     ],
+     [
+      2,
+      0,
+      6,
+      2
+     ],
+     [
+      2,
+      2,
+      6,
+      2
+     ],
+     [
+      2,
+      4,
+      3,
+      2
+     ],
+     [
+      5,
+      4,
+      2,
+      4
+     ],
+     [
+      5,
+      9,
+      5,
+      1
+     ],
+     [
+      7,
+      4,
+      3,
+      2
+     ],
+     [
+      7,
+      6,
+      2,
+      2
+     ],
+     [
+      7,
+      8,
+      3,
+      1
+     ],
+     [
+      8,
+      0,
+      2,
+      2
+     ],
+     [
+      8,
+      2,
+      2,
+      2
+     ],
+     [
+      9,
+      6,
+      1,
+      2
+     ]
+    ]
+   },
+   "futoshiki": {
+    "n": 6,
+    "donnes": [
+     [
+      5,
+      5,
+      6
+     ],
+     [
+      0,
+      5,
+      1
+     ],
+     [
+      4,
+      3,
+      5
+     ]
+    ],
+    "signes": [
+     [
+      [
+       3,
+       1
+      ],
+      [
+       3,
+       0
+      ]
+     ],
+     [
+      [
+       1,
+       3
+      ],
+      [
+       0,
+       3
+      ]
+     ],
+     [
+      [
+       3,
+       1
+      ],
+      [
+       4,
+       1
+      ]
+     ],
+     [
+      [
+       4,
+       4
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     [
+      [
+       1,
+       1
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     [
+      [
+       5,
+       2
+      ],
+      [
+       5,
+       1
+      ]
+     ],
+     [
+      [
+       4,
+       0
+      ],
+      [
+       4,
+       1
+      ]
+     ],
+     [
+      [
+       5,
+       2
+      ],
+      [
+       5,
+       3
+      ]
+     ],
+     [
+      [
+       3,
+       3
+      ],
+      [
+       2,
+       3
+      ]
+     ],
+     [
+      [
+       2,
+       5
+      ],
+      [
+       1,
+       5
+      ]
+     ],
+     [
+      [
+       2,
+       3
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     [
+      [
+       4,
+       3
+      ],
+      [
+       4,
+       2
+      ]
+     ],
+     [
+      [
+       5,
+       0
+      ],
+      [
+       5,
+       1
+      ]
+     ],
+     [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       1
+      ]
+     ],
+     [
+      [
+       5,
+       1
+      ],
+      [
+       4,
+       1
+      ]
+     ],
+     [
+      [
+       5,
+       3
+      ],
+      [
+       5,
+       4
+      ]
+     ]
+    ],
+    "solution": [
+     [
+      4,
+      2,
+      5,
+      6,
+      3,
+      1
+     ],
+     [
+      6,
+      5,
+      3,
+      1,
+      2,
+      4
+     ],
+     [
+      5,
+      6,
+      1,
+      3,
+      4,
+      2
+     ],
+     [
+      3,
+      1,
+      4,
+      2,
+      6,
+      5
+     ],
+     [
+      2,
+      4,
+      6,
+      5,
+      1,
+      3
+     ],
+     [
+      1,
+      3,
+      2,
+      4,
+      5,
+      6
+     ]
+    ]
+   },
+   "compte": {
+    "plaques": [
+     6,
+     5,
+     2,
+     10,
+     3,
+     10
+    ],
+    "cible": 880,
+    "solution": [
+     "10 + 3 = 13",
+     "13 × 6 = 78",
+     "78 + 10 = 88",
+     "88 × 5 = 440",
+     "440 × 2 = 880"
+    ]
+   }
+  },
+  "quiz": [],
+  "solutions_hier": {
+   "sudoku": [
+    6,
+    5,
+    9,
+    4,
+    2,
+    1,
+    3,
+    7,
+    8,
+    8,
+    3,
+    7,
+    9,
+    6,
+    5,
+    4,
+    1,
+    2,
+    1,
+    2,
+    4,
+    3,
+    8,
+    7,
+    6,
+    5,
+    9,
+    9,
+    8,
+    1,
+    2,
+    4,
+    6,
+    5,
+    3,
+    7,
+    7,
+    4,
+    2,
+    5,
+    9,
+    3,
+    8,
+    6,
+    1,
+    5,
+    6,
+    3,
+    7,
+    1,
+    8,
+    9,
+    2,
+    4,
+    4,
+    9,
+    6,
+    1,
+    5,
+    2,
+    7,
+    8,
+    3,
+    3,
+    1,
+    5,
+    8,
+    7,
+    9,
+    2,
+    4,
+    6,
+    2,
+    7,
+    8,
+    6,
+    3,
+    4,
+    1,
+    9,
+    5
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      10,
+      1
+     ],
+     [
+      0,
+      1,
+      3,
+      4
+     ],
+     [
+      0,
+      5,
+      5,
+      2
+     ],
+     [
+      0,
+      7,
+      6,
+      2
+     ],
+     [
+      0,
+      9,
+      3,
+      1
+     ],
+     [
+      3,
+      1,
+      4,
+      3
+     ],
+     [
+      3,
+      4,
+      7,
+      1
+     ],
+     [
+      3,
+      9,
+      4,
+      1
+     ],
+     [
+      5,
+      5,
+      4,
+      2
+     ],
+     [
+      6,
+      7,
+      3,
+      2
+     ],
+     [
+      7,
+      1,
+      3,
+      2
+     ],
+     [
+      7,
+      3,
+      2,
+      1
+     ],
+     [
+      7,
+      9,
+      3,
+      1
+     ],
+     [
+      9,
+      3,
+      1,
+      1
+     ],
+     [
+      9,
+      5,
+      1,
+      4
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     5,
+     4,
+     6,
+     2,
+     1,
+     3
+    ],
+    [
+     2,
+     5,
+     1,
+     4,
+     3,
+     6
+    ],
+    [
+     6,
+     3,
+     4,
+     1,
+     5,
+     2
+    ],
+    [
+     4,
+     2,
+     3,
+     5,
+     6,
+     1
+    ],
+    [
+     1,
+     6,
+     5,
+     3,
+     2,
+     4
+    ],
+    [
+     3,
+     1,
+     2,
+     6,
+     4,
+     5
+    ]
+   ],
+   "compte": [
+    "9 + 1 = 10",
+    "10 × 100 = 1000",
+    "1000 − 2 = 998",
+    "998 + 1 = 999"
+   ],
+   "quiz": []
+  },
+  "avertissements": [
+   "Flux indisponibles : EDPB, ESA"
+  ],
+  "indisponibles": [],
+  "non_rediges": {}
+ },
+ "memoire": {
+  "date": "2026-11-23",
+  "nouveaux_mots": [
+   {
+    "mot": "Pallier",
+    "nature": "v. tr.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Remédier provisoirement à un manque (se construit sans « à »).",
+    "exemple": "Pallier l'absence d'un collègue."
+   },
+   {
+    "mot": "Juguler",
+    "nature": "v. tr.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Arrêter le développement de quelque chose.",
+    "exemple": "Juguler l'inflation."
+   },
+   {
+    "mot": "Délétère",
+    "nature": "adj.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Nuisible, qui détruit peu à peu.",
+    "exemple": "Un climat de travail délétère."
+   },
+   {
+    "mot": "Pseudonymisation",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "pro",
+    "definition": "Traitement rendant des données non attribuables à une personne sans informations supplémentaires conservées à part.",
+    "exemple": "La pseudonymisation ne fait pas sortir les données du RGPD."
+   },
+   {
+    "mot": "Parangon",
+    "nature": "n. m.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Modèle, type accompli.",
+    "exemple": "Un parangon de vertu."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Sinécure",
+    "definition": "Emploi rémunéré qui demande peu ou pas de travail."
+   },
+   {
+    "mot": "Volubile",
+    "definition": "Qui parle avec abondance et rapidité."
+   },
+   {
+    "mot": "Cacochyme",
+    "definition": "D'une santé faible et chancelante ; décrépit (souvent ironique)."
+   },
+   {
+    "mot": "Algorithme",
+    "definition": "Suite finie d'instructions permettant de résoudre un problème."
+   },
+   {
+    "mot": "Éphémère",
+    "definition": "Qui ne dure que très peu de temps."
+   }
+  ],
+  "articles": [
+   "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+   "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+   "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+   "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+   "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+   "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+   "https://www.lemonde.fr/politique/article/2026/11/22/emmanuel-macron-envisage-de-reunir-le-congres-a-versailles-pour-faire-adopter-une-regle-d-or-budgetaire-une-procedure-inedite-a-plus-d-un-titre_6814241_823448.html",
+   "https://www.franceinfo.fr/politique/front-national/un-mail-du-service-du-prefet-hugues-moutouh-soupconne-d-avoir-renseigne-le-rn-decouvert-lors-d-une-perquisition-chez-un-proche-de-marine-le-pen_8294915.html#xtor=RSS-3-[lestitres]",
+   "https://www.franceinfo.fr/replay-jt/france-2/20-heures/ca-devient-lassant-avec-la-repetition-des-inondations-dans-le-pas-de-calais-des-quartiers-vont-ils-bientot-etre-desertes_8295173.html#xtor=RSS-3-[lestitres]",
+   "https://www.lemonde.fr/economie-francaise/article/2026/11/22/choose-france-273-projets-industriels-seront-presentes-lors-de-ce-sommet-devolu-aux-entreprises-tricolores_6814240_1656968.html",
+   "https://www.lemonde.fr/societe/article/2026/11/22/fuites-vers-le-rn-marine-le-pen-dit-n-avoir-jamais-recu-d-informations-confidentielles-du-prefet-hugues-moutouh_6814216_3224.html",
+   "https://www.franceinfo.fr/elections/presidentielle/direct-campagne-presidentielle-la-secretaire-generale-de-la-cfdt-marylise-leon-appelle-a-changer-la-date-pour-eviter-un-second-tour-le-2-mai_8294528.html#xtor=RSS-3-[lestitres]",
+   "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
+   "https://legrandcontinent.eu/fr/2026/11/22/en-espagne-vox-est-aux-portes-du-pouvoir/",
+   "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment",
+   "https://www.scmp.com/opinion/china-opinion/article/3375166/no-grand-bargain-xi-trump-putin-meeting-was-never-point",
+   "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
+   "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region?traffic_source=rss",
+   "https://www.nber.org/papers/w36009#fromrss",
+   "https://www.nber.org/papers/w36006#fromrss",
+   "https://www.nber.org/papers/w36017#fromrss",
+   "https://www.linternaute.com/actualite/societe/11315653-thomas-saunier-vise-par-une-enquete-pour-corruption-le-patron-de-malakoff-humanis-licencie/",
+   "https://casrai.org/news/china-mofcom-most-40-technologies-export-control-catalogue-interim-registration-2026",
+   "https://www.frontieresmedia.fr/politique/detournement-de-fonds-publics-le-pnf-ouvre-officiellement-une-enquete-contre-bally-bagayoko-le-ma---19380",
+   "https://www.theportugalnews.com/news/2026-11-21/european-union-to-ban-cash-payments-above-10000/1024357",
+   "https://insideclimatenews.org/news/22112026/uns-cop31-climate-conference-fizzles-out-as-global-policy-divides-deepen/",
+   "https://theconversation.com/gaz-leurope-sest-eloignee-de-la-russie-mais-accroit-sa-vulnerabilite-aux-crises-mondiales-296886",
+   "https://www.sciencesetavenir.fr/archeo-paleo/homo-naledi-l-enigme-des-femmes-fossiles_196287?xtor=RSS-4",
+   "https://www.sciencesetavenir.fr/fondamental/mathematiques/comment-l-ia-fait-elle-des-maths_196275?xtor=RSS-10",
+   "https://www.sciencesetavenir.fr/animaux/colombie-les-hippopotames-de-pablo-escobar-une-invasion-devenue-incontrolable_196279?xtor=RSS-26",
+   "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/"
+  ],
+  "titres": [
+   "Hypothèse de Riemann : la preuve d'Alpöge certifiée par la communauté Lean",
+   "IA : des fournisseurs bon marché volent des clés et espionnent les utilisateurs",
+   "Règle d'or budgétaire : Macron envisage un Congrès à Versailles",
+   "Fuites au profit du RN : un mail du ministère de l'Intérieur retrouvé à Rome",
+   "Inondations dans le Pas-de-Calais : des habitants envisagent de partir",
+   "Nvidia : Washington réclame des réponses sur les ventes de puces à la Chine",
+   "Espagne : un sondage place Vox en position de faiseur de majorité",
+   "COP31 à Antalya : échec des négociations climatiques sur les énergies fossiles",
+   "Mesurer l'impact social double la croissance de jeunes entreprises en Inde",
+   "Programme pilote 340B : jusqu'à 1,5 milliard de dollars de pertes annuelles",
+   "Malakoff Humanis met fin au mandat de son directeur général, Thomas Saunier",
+   "Chine : un enregistrement provisoire avant export pour 40 technologies sensibles",
+   "COP31 : Antalya s'achève sans décision de couverture, une première depuis 2009",
+   "Gaz : l'Europe a quitté la Russie mais reste exposée aux chocs mondiaux"
+  ],
+  "solutions": {
+   "sudoku": [
+    9,
+    8,
+    2,
+    4,
+    1,
+    3,
+    7,
+    6,
+    5,
+    7,
+    6,
+    3,
+    5,
+    9,
+    2,
+    4,
+    8,
+    1,
+    5,
+    1,
+    4,
+    6,
+    7,
+    8,
+    9,
+    2,
+    3,
+    4,
+    2,
+    7,
+    3,
+    5,
+    1,
+    6,
+    9,
+    8,
+    6,
+    3,
+    9,
+    8,
+    2,
+    7,
+    5,
+    1,
+    4,
+    8,
+    5,
+    1,
+    9,
+    4,
+    6,
+    2,
+    3,
+    7,
+    3,
+    7,
+    5,
+    2,
+    8,
+    9,
+    1,
+    4,
+    6,
+    2,
+    4,
+    6,
+    1,
+    3,
+    5,
+    8,
+    7,
+    9,
+    1,
+    9,
+    8,
+    7,
+    6,
+    4,
+    3,
+    5,
+    2
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      2,
+      6
+     ],
+     [
+      0,
+      6,
+      5,
+      2
+     ],
+     [
+      0,
+      8,
+      7,
+      1
+     ],
+     [
+      0,
+      9,
+      5,
+      1
+     ],
+     [
+      2,
+      0,
+      6,
+      2
+     ],
+     [
+      2,
+      2,
+      6,
+      2
+     ],
+     [
+      2,
+      4,
+      3,
+      2
+     ],
+     [
+      5,
+      4,
+      2,
+      4
+     ],
+     [
+      5,
+      9,
+      5,
+      1
+     ],
+     [
+      7,
+      4,
+      3,
+      2
+     ],
+     [
+      7,
+      6,
+      2,
+      2
+     ],
+     [
+      7,
+      8,
+      3,
+      1
+     ],
+     [
+      8,
+      0,
+      2,
+      2
+     ],
+     [
+      8,
+      2,
+      2,
+      2
+     ],
+     [
+      9,
+      6,
+      1,
+      2
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     4,
+     2,
+     5,
+     6,
+     3,
+     1
+    ],
+    [
+     6,
+     5,
+     3,
+     1,
+     2,
+     4
+    ],
+    [
+     5,
+     6,
+     1,
+     3,
+     4,
+     2
+    ],
+    [
+     3,
+     1,
+     4,
+     2,
+     6,
+     5
+    ],
+    [
+     2,
+     4,
+     6,
+     5,
+     1,
+     3
+    ],
+    [
+     1,
+     3,
+     2,
+     4,
+     5,
+     6
+    ]
+   ],
+   "compte": [
+    "10 + 3 = 13",
+    "13 × 6 = 78",
+    "78 + 10 = 88",
+    "88 × 5 = 440",
+    "440 × 2 = 880"
+   ]
+  },
+  "reponses_quiz": []
+ },
+ "essai": false
+}
