@@ -1,0 +1,29 @@
+{
+ "titre": "Mesurer l'impact social double la croissance de jeunes entreprises en Inde",
+ "chapo": "Un essai randomisé auprès de 163 entreprises sociales indiennes montre que mesurer son impact favorise la croissance et la levée de fonds, et que les investisseurs réagissent aux chiffres.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "L'investissement d'impact contrôlerait plus de 1 500 milliards de dollars d'actifs, et les entreprises sociales généreraient plus de 2 000 milliards de dollars de revenus annuels dans le monde. Mais, contrairement aux profits, que la comptabilité et la fiscalité imposent de mesurer, l'impact social est coûteux à quantifier, difficile à comparer et souvent présenté sous forme de récits. Emanuele Colonnelli, Timothy McQuade, Natalia Rigol et Benjamin Roth se demandent donc si mesurer l'impact rapporte des gains privés à l'entreprise elle-même. Ils affirment mener le premier essai randomisé sur la mise en oeuvre de cette mesure, auprès d'entreprises à forte croissance, et le complètent par une seconde expérience, menée auprès d'investisseurs."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Les entreprises traitées ont connu environ 20 000 dollars de croissance de revenus supplémentaire, soit près du double de celle des entreprises témoins. Elles ont aussi levé 43 000 dollars de financement externe de plus, ce qui double le montant des témoins. L'effet n'est pas dû à quelques cas extrêmes : la distribution se décale et la médiane augmente de façon significative. Dans l'expérience auprès des investisseurs, passer d'un profil sous la médiane à un profil au-dessus de la médiane pour le surplus client accroît l'intérêt autant que passer d'une entreprise non rentable à une entreprise rentable. Un énoncé qualitatif générique a un effet faible et non significatif. Les profils présentaient soit les seuls revenus moyens des clients, soit un énoncé qualitatif, soit le surplus client."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Avec Villgro, premier incubateur d'entreprises sociales en Inde, les 163 entreprises ont suivi le même cours de mesure et de gestion de l'impact, à raison de sept séances en ligne de deux heures, d'avril à juin 2023. Le hasard a décidé lesquelles recevaient en plus un accompagnement individuel (quatre à cinq rencontres), des enquêtes auprès de leurs clients, salariés et fournisseurs, et un rapport personnalisé : 80 entreprises traitées, 83 témoins. Les résultats viennent d'une enquête de départ (septembre 2022) et d'une enquête finale (juillet 2024), analysées par différence de différences. Au départ, les entreprises employaient en moyenne 12,6 personnes, avaient environ 60 000 dollars de revenus annuels et 84 000 dollars de capital externe levé. Les données finales manquent pour 21 entreprises dans chaque groupe. Le second essai a réuni 223 investisseurs, qui ont noté des profils fictifs de start-up tirés au hasard ; leurs notes étaient incitées par la promesse d'être mis en relation avec de vraies start-up."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Selon les auteurs, ces résultats documentent des rendements privés de la mesure d'impact. Pour des entreprises sociales, une croissance plus rapide peut aussi élargir la portée de produits destinés aux clients et aux autres parties prenantes. Deux mécanismes sont avancés : en interne, collecter des données aide à repérer les clients et usages qui créent le plus de valeur ; en externe, des indicateurs chiffrés rendent les affirmations d'impact plus crédibles aux yeux des investisseurs. Les investisseurs ne récompensent pas le langage d'impact en soi, mais les preuves chiffrées : la forme de la mesure compte pour l'allocation du capital d'impact."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Le dispositif réunit plusieurs composantes, ce qui empêche d'isoler la contribution de chacune ou les mécanismes précis. L'échantillon reflète une auto-sélection : les résultats valent surtout pour des entreprises sociales orientées vers la croissance et intéressées par ces pratiques. Enfin, les mesures de surplus ne sont pas des mesures complètes de l'impact social, car elles omettent d'autres effets et externalités."
+  }
+ ],
+ "synthese": "Mesurer concrètement son impact auprès des parties prenantes a presque doublé croissance et capitaux levés dans cet essai. Les investisseurs, eux, réagissent aux indicateurs chiffrés plutôt qu'aux déclarations générales.",
+ "republication": "",
+ "reference": "Emanuele Colonnelli (Chicago Booth, NBER), Timothy McQuade (UC Berkeley, NBER), Natalia Rigol (Harvard Business School, NBER) et Benjamin N. Roth (Harvard Business School), NBER Working Paper n° 36009, novembre 2026. Document de travail non relu par des pairs."
+}

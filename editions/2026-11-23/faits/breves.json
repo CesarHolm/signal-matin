@@ -1,0 +1,34 @@
+{
+  "breves": [
+    {
+      "id": "a3",
+      "titre": "L'IA progresse plus vite que les tests capables d'en vérifier la sécurité, alerte METR",
+      "texte": "METR indique que des modèles d'IA de pointe, comme Opus 5.5 et GPT-6 Astra, progressent rapidement sur les tâches de recherche, mais deviennent de plus en plus difficiles à mesurer. Les données actuelles ne permettent pas d'exclure une accélération dangereuse du développement de l'IA, avertit l'organisation. Elle estime aussi que les tests courants pourraient surestimer ce que ces modèles savent réellement faire."
+    },
+    {
+      "id": "a87",
+      "titre": "Iran : la marine affirme avoir incendié des pétroliers dans le détroit d'Ormuz",
+      "texte": "La marine iranienne affirme avoir incendié des pétroliers qui contrevenaient à ses règles. De son côté, l'IRGC déclare que des « ennemis » cherchent à attiser les troubles."
+    },
+    {
+      "id": "a71",
+      "titre": "Sommet Xi-Trump-Poutine : pas de grand accord, et ce n'était pas l'objectif",
+      "texte": "Le 19 novembre, à Shenzhen, Xi Jinping a reçu Donald Trump et Vladimir Poutine. Les trois dirigeants ont publié une déclaration en quatre points sur la réforme de l'ONU, la sécurité énergétique, les abus de compétence de la Cour pénale internationale et la réduction des risques nucléaires. Le sommet n'a toutefois produit rien de comparable à un grand accord sur les dossiers géopolitiques et de sécurité."
+    },
+    {
+      "id": "a109",
+      "titre": "Le PNF ouvre une enquête pour détournement de fonds publics contre Bally Bagayoko",
+      "texte": "Le PNF a officiellement ouvert une enquête pour détournement de fonds publics visant Bally Bagayoko, maire LFI de Saint-Denis."
+    },
+    {
+      "id": "a136",
+      "titre": "Comment l'IA fait-elle des mathématiques ?",
+      "texte": "Cette année, l'IA est devenue capable de démontrer des théorèmes qui résistaient aux mathématiciens. Derrière ces prouesses, des milliers d'agents intelligents travaillent ensemble pour défricher des pistes, élaborer des preuves et vérifier leur validité."
+    },
+    {
+      "id": "a137",
+      "titre": "Homo naledi : les individus retrouvés seraient tous féminins, selon l'émail dentaire",
+      "texte": "Dans les grottes de Rising Star, en Afrique du Sud, les squelettes d'Homo naledi livrent une surprise. L'analyse des protéines de leur émail dentaire suggère que tous les individus retrouvés seraient de sexe féminin, un résultat inattendu qui intrigue les spécialistes de cette ancienne espèce humaine."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+ "titre": "IA : des fournisseurs bon marché volent des clés et espionnent les utilisateurs",
+ "chapo": "Des chercheurs de Dragos ont envoyé environ 2 millions de requêtes piégées à des fournisseurs d'IA et ont découvert trois fournisseurs compromis, où des attaquants volaient des données.",
+ "sections": [
+  {
+   "intertitre": "Le test et ses résultats",
+   "texte": "Les chercheurs en sécurité de Dragos ont envoyé environ 2 millions de requêtes contenant de faux identifiants à des fournisseurs d'IA, de juillet à novembre 2026. Ils ont identifié au moins trois fournisseurs compromis, où des attaquants volaient activement des données d'utilisateurs ; aucun ne le savait avant d'être prévenu par Dragos. Dans l'incident le plus important, les attaquants ont récolté des centaines de clés AWS, y compris à partir de requêtes que le fournisseur avait rejetées avant traitement. Parfois, ils testaient les clés volées en quelques heures, fouillaient le stockage S3 et tentaient d'établir un accès durable ; l'un d'eux a aussi utilisé ARTEX, un outil d'attaque reposant sur l'IA."
+  },
+  {
+   "intertitre": "Des paramètres de confidentialité ignorés",
+   "texte": "Les revendeurs des places de marché lisent eux aussi les requêtes de leurs clients. Selon Dragos, ils n'ont pas besoin d'exploiter une faille : proposer un modèle au prix le plus bas et activer la journalisation suffit. Dans un cas, une personne connectée depuis un accès internet résidentiel en France a tenté de se connecter en SSH avec des mots de passe extraits de requêtes interceptées. Les réglages comme « Zero Data Retention » (ZDR) étaient souvent ignorés : un laboratoire chinois d'IA a consulté les adresses secrètes de test dans plus de la moitié des requêtes, même lorsqu'elles passaient par des fournisseurs américains. Même de grands fournisseurs américains ont enfreint leurs propres règles : l'un explorait encore une adresse de test plus de deux mois après une seule requête. Dans un autre cas, un lien secret est apparu dans une messagerie interne Feishu (Lark hors de Chine) 24 jours après la requête, et a été ouvert en deux minutes sur trois ordinateurs et trois téléphones à Pékin et à Shanghai."
+  },
+  {
+   "intertitre": "Les intermédiaires, maillon faible",
+   "texte": "Les routeurs d'IA comme OpenRouter offrent une API unique donnant accès à des modèles de différentes entreprises. Les requêtes sont réparties entre des fournisseurs, parfois en plusieurs étapes, et chacune peut lire la requête et la réponse en entier, selon Dragos. Certains routeurs fonctionnent en places de marché ouvertes où le fournisseur le moins cher reçoit le trafic : ici, Novita, AtlasCloud et StreamLake se trouvaient entre OpenRouter et MiniMax, développeur du modèle. OpenRouter a retiré trois fournisseurs de sa plateforme et révoqué l'agrément ZDR de 125 points d'accès, en partie à cause de l'étude, en partie par précaution. Novita, Phala et Together ont publié des rapports préliminaires."
+  },
+  {
+   "intertitre": "Les recommandations",
+   "texte": "Dragos déconseille d'envoyer des requêtes contenant des identifiants à des intermédiaires et recommande de maîtriser le routage, de vérifier les réglages de confidentialité et de placer ses propres « canary tokens », de faux identifiants qui se signalent dès qu'on les utilise. « Cela ne signifie pas qu'il faille cesser d'utiliser les services d'IA. Mais la destination de vos requêtes est une décision, et si vous ne la prenez pas, le prix le plus bas la prendra pour vous », écrit HD Moore, directeur de la recherche."
+  }
+ ],
+ "synthese": "L'étude de Dragos montre que des intermédiaires et des places de marché d'IA peuvent lire, voire exploiter, les requêtes des utilisateurs malgré leurs promesses de confidentialité. Elle invite les organisations à choisir elles-mêmes le chemin de leurs requêtes.",
+ "republication": "",
+ "sources_ecartees": []
+}

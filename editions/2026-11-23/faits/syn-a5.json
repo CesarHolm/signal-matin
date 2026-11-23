@@ -1,0 +1,25 @@
+{
+ "titre": "Hypothèse de Riemann : la preuve d'Alpöge certifiée par la communauté Lean",
+ "chapo": "Les communautés Lean et Mathlib affirment que la preuve de l'hypothèse de Riemann publiée par Levent Alpöge le 20 novembre 2026 est correcte.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Levent Alpöge a publié le 20 novembre 2026 une preuve de l'hypothèse de Riemann sous la forme d'environ 17 millions de lignes de code écrites en Lean, un outil qui vérifie les démonstrations mathématiques. Le 21 novembre, la Lean Focused Research Organization (Lean FRO) et la Mathlib Initiative ont publié un communiqué commun : « Nous avons pleinement confiance dans la justesse de la preuve d'Alpöge » et « nous certifions que l'énoncé comme la preuve de l'hypothèse de Riemann sont corrects ». Formulée en 1859 par Bernhard Riemann, cette hypothèse décrit un motif caché dans la répartition des nombres premiers, ceux qui ne sont divisibles que par eux-mêmes et par 1. Elle comptait parmi les problèmes ouverts les plus célèbres des mathématiques. Le verdict est tombé en un jour, là où l'examen d'une démonstration célèbre prend souvent des mois, voire des années. Le Lean FRO travaille sur l'assistant de preuve Lean lui-même, et la Mathlib Initiative soutient la bibliothèque de mathématiques formalisées où figure la définition de l'énoncé. Les sources divergent sur l'affiliation d'Alpöge : The Decoder le présente comme mathématicien à Stanford, tandis que Scientific American et shattered.io le disent mathématicien chez Anthropic, qui aurait travaillé avec le modèle Claude."
+  },
+  {
+   "intertitre": "Les vérifications menées",
+   "texte": "Selon Scientific American, la compilation sans erreur du code Lean vaut d'ordinaire confirmation de la logique de chaque étape, mais deux questions restaient posées. La première, formulée par Kevin Buzzard (Imperial College London), est de savoir si le théorème écrit dans le code correspond bien à l'énoncé réel. La seconde est de savoir si le code se compile chez d'autres mathématiciens. Des dizaines de personnes l'ont exécuté indépendamment avec le même résultat, et Andrew Sutherland, du MIT, qui recense ces contrôles sur son site, indique que la preuve a été revérifiée par le noyau de Lean avec les seuls trois axiomes standard : « la probabilité que quelque chose cloche est à peu près nulle ». Il fallait en outre écarter tout détour, comme un changement du sens de l'hypothèse initiale. Une « comparator run », qui prend en général quelques heures, devait donc établir que le code ne redéfinit aucun symbole de l'énoncé et, en mode « paranoïaque », qu'il passe sur plusieurs noyaux indépendants, afin qu'il n'exploite pas un bogue encore inconnu du noyau officiel de Lean ; Scientific American indique qu'elle est désormais terminée. Selon shattered.io, deux outils de comparaison indépendants ont confirmé que l'énoncé correspond à RiemannHypothesis, la définition de la bibliothèque Mathlib."
+  },
+  {
+   "intertitre": "Ce que garantit une preuve formelle",
+   "texte": "Selon shattered.io, personne ne peut relire 17 millions de lignes : la confiance repose sur le petit programme central, le noyau de Lean, qui contrôle chaque étape. Si le noyau accepte l'ensemble et que l'énoncé est le bon, la conclusion s'ensuit ; The Decoder précise que ces programmes de vérification sont conçus pour ne pouvoir accepter, de façon démontrable, aucune preuve erronée. La vérification formelle garantit que la conclusion découle des fondements posés, sans pouvoir les rendre philosophiquement incontestables. L'ordre habituel est inversé : l'objet vérifiable par machine existe d'abord, et le récit lisible par des humains reste à écrire. La rapidité de la solution a surpris : selon Ethan Mollick, cité par The Decoder, les prévisionnistes de Metaculus attendaient la résolution en mai 2035, et Terence Tao disait le mois dernier s'attendre à une réussite « humains et IA » vers 2050."
+  },
+  {
+   "intertitre": "Les réserves",
+   "texte": "Selon shattered.io, le certificat porte sur la vérification formelle de Lean et Mathlib : personne n'a confirmé que la preuve soit validée comme démonstration mathématique classique hors de ce cadre. Le même article précise que les éléments vérifiés ne disent rien de la part exacte de Claude, du modèle employé ni du travail humain, et qu'aucun montant de prix ni produit commercial n'est lié à l'annonce."
+  }
+ ],
+ "synthese": "La preuve d'Alpöge, vérifiée de manière indépendante par plusieurs systèmes, est certifiée correcte par les communautés Lean et Mathlib. Reste à savoir comment elle sera reçue par la communauté mathématique au sens classique.",
+ "republication": "",
+ "sources_ecartees": []
+}

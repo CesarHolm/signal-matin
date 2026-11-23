@@ -1,0 +1,29 @@
+{
+ "titre": "Programme pilote 340B : jusqu'à 1,5 milliard de dollars de pertes annuelles",
+ "chapo": "Un document de travail du NBER chiffre l'effet du pilote de remboursement a posteriori du programme 340B sur les revenus nets des hôpitaux et centres de santé qui en bénéficient.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Le programme 340B oblige les laboratoires à vendre des médicaments à prix réduit aux établissements « couverts », hôpitaux et centres de santé qui accueillent des patients défavorisés. Il est passé d'environ 8 milliards de dollars en 2010 (en dollars de 2025) à 100 milliards en 2025. Les laboratoires dénoncent des « doubles remises » et ont obtenu de l'agence fédérale HRSA un pilote de remboursement a posteriori, publié en août 2026 : l'établissement achète au prix catalogue (WAC), puis demande un remboursement au fabricant. Charles Courtemanche (université du Kentucky) cherche à estimer ce que ce pilote coûtera aux établissements, et ce que coûterait son extension à tout le programme."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Avec ses valeurs de référence, l'auteur projette une perte annuelle de revenus nets de 1,5 milliard de dollars pour le pilote, dans une fourchette de 702 millions à 2,37 milliards. Étendu à tout le programme 340B, le modèle ferait perdre 22,77 milliards par an (de 10,04 à 37,59 milliards), soit 32 % des revenus nets tirés du programme et 24 % de ceux de l'ensemble des hôpitaux américains. Selon les cas, 70 à 76 % des pertes viennent des coûts administratifs et de personnel. Or les laboratoires ne profitent pas de ces coûts : leur gain est donc inférieur à la perte des établissements, ce qui donne un effet net négatif."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "L'étude procède par calibrage, toutes choses égales par ailleurs, sur une base 2025. Elle distingue cinq sources de pertes : doubles remises évitées, refus de demandes valides, usage des données de remboursement par les fabricants (influence, lobbying, ciblage de pharmacies), coûts de trésorerie, coûts administratifs. Le pilote ne concerne que les 22 médicaments des cohortes 2026 et 2027 du programme de négociation des prix de Medicare, soit 5,5 % des achats 340B ; pour l'extension, l'auteur tient compte d'économies d'échelle probables sur les coûts administratifs. La HRSA évalue les coûts administratifs à 523,34 millions de dollars par an pour 15 249 établissements, ceux-ci avancent 1,75 milliard ; l'auteur retient la moyenne, 1,14 milliard. Le coût de trésorerie du pilote est estimé à 13,4 millions."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "D'après l'auteur, la prévalence des doubles remises au sens de la loi est nettement plus faible que ne l'affirment les laboratoires : 1,9 milliard de dollars d'achats (2,3 % du total), contre 9,33 milliards par an de valeur que les fabricants tireraient d'un usage complet des plateformes de données. L'écart tient à une définition plus large, qui inclut les remises négociées avec les gestionnaires de prestations pharmaceutiques. Des pertes de 22,77 milliards menaceraient selon lui l'accès aux soins, avec des fermetures de services, voire d'hôpitaux. Les estimations de l'industrie, qui atteignent 34 à 37,5 milliards de dollars par an, seraient environ treize fois plus élevées en proportion du programme. Il recommande de faire respecter les restrictions imposées aux fabricants et d'envisager une compensation des coûts."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "L'auteur note que l'analyse est faite toutes choses égales par ailleurs et qu'aucun modèle global ne peut intégrer les autres pressions, comme la baisse de remboursement proposée pour 2027, qui ferait passer les médicaments de la partie B de 6 % au-dessus du prix moyen de vente à 33,4 % en dessous. Les pertes augmenteraient si les restrictions imposées aux fabricants étaient ignorées ou mal appliquées, et il craint que le respect soit bon pendant le pilote puis se dégrade. L'étude a été financée par la Kentucky Hospital Association et un cabinet d'avocats représentant des hôpitaux."
+  }
+ ],
+ "synthese": "Le pilote coûterait environ 1,5 milliard de dollars par an aux établissements 340B, surtout en frais administratifs et de personnel, sans bénéfice équivalent pour les fabricants. L'extension au programme entier porterait les pertes à 22,77 milliards, selon cette étude non relue par des pairs.",
+ "republication": "",
+ "reference": "Charles J. Courtemanche (université du Kentucky, Institute for the Study of Free Enterprise, IZA, NBER), NBER Working Paper n° 36006, novembre 2026. Document de travail non relu par des pairs ; recherche financée par la Kentucky Hospital Association et un contrat de conseil avec le cabinet Hall, Render, Killian, Heath & Lyman, P.C."
+}
