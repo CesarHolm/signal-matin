@@ -1,0 +1,355 @@
+{
+ "date": "2026-11-23",
+ "nouveaux_mots": [
+  {
+   "mot": "Pallier",
+   "nature": "v. tr.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Remédier provisoirement à un manque (se construit sans « à »).",
+   "exemple": "Pallier l'absence d'un collègue."
+  },
+  {
+   "mot": "Juguler",
+   "nature": "v. tr.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Arrêter le développement de quelque chose.",
+   "exemple": "Juguler l'inflation."
+  },
+  {
+   "mot": "Délétère",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Nuisible, qui détruit peu à peu.",
+   "exemple": "Un climat de travail délétère."
+  },
+  {
+   "mot": "Pseudonymisation",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Traitement rendant des données non attribuables à une personne sans informations supplémentaires conservées à part.",
+   "exemple": "La pseudonymisation ne fait pas sortir les données du RGPD."
+  },
+  {
+   "mot": "Parangon",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Modèle, type accompli.",
+   "exemple": "Un parangon de vertu."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Sinécure",
+   "definition": "Emploi rémunéré qui demande peu ou pas de travail."
+  },
+  {
+   "mot": "Volubile",
+   "definition": "Qui parle avec abondance et rapidité."
+  },
+  {
+   "mot": "Cacochyme",
+   "definition": "D'une santé faible et chancelante ; décrépit (souvent ironique)."
+  },
+  {
+   "mot": "Algorithme",
+   "definition": "Suite finie d'instructions permettant de résoudre un problème."
+  },
+  {
+   "mot": "Éphémère",
+   "definition": "Qui ne dure que très peu de temps."
+  }
+ ],
+ "articles": [
+  "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+  "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+  "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+  "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+  "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+  "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+  "https://www.lemonde.fr/politique/article/2026/11/22/emmanuel-macron-envisage-de-reunir-le-congres-a-versailles-pour-faire-adopter-une-regle-d-or-budgetaire-une-procedure-inedite-a-plus-d-un-titre_6814241_823448.html",
+  "https://www.franceinfo.fr/politique/front-national/un-mail-du-service-du-prefet-hugues-moutouh-soupconne-d-avoir-renseigne-le-rn-decouvert-lors-d-une-perquisition-chez-un-proche-de-marine-le-pen_8294915.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/replay-jt/france-2/20-heures/ca-devient-lassant-avec-la-repetition-des-inondations-dans-le-pas-de-calais-des-quartiers-vont-ils-bientot-etre-desertes_8295173.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/economie-francaise/article/2026/11/22/choose-france-273-projets-industriels-seront-presentes-lors-de-ce-sommet-devolu-aux-entreprises-tricolores_6814240_1656968.html",
+  "https://www.lemonde.fr/societe/article/2026/11/22/fuites-vers-le-rn-marine-le-pen-dit-n-avoir-jamais-recu-d-informations-confidentielles-du-prefet-hugues-moutouh_6814216_3224.html",
+  "https://www.franceinfo.fr/elections/presidentielle/direct-campagne-presidentielle-la-secretaire-generale-de-la-cfdt-marylise-leon-appelle-a-changer-la-date-pour-eviter-un-second-tour-le-2-mai_8294528.html#xtor=RSS-3-[lestitres]",
+  "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says",
+  "https://legrandcontinent.eu/fr/2026/11/22/en-espagne-vox-est-aux-portes-du-pouvoir/",
+  "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment",
+  "https://www.scmp.com/opinion/china-opinion/article/3375166/no-grand-bargain-xi-trump-putin-meeting-was-never-point",
+  "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region?traffic_source=rss",
+  "https://www.nber.org/papers/w36009#fromrss",
+  "https://www.nber.org/papers/w36006#fromrss",
+  "https://www.nber.org/papers/w36017#fromrss",
+  "https://www.linternaute.com/actualite/societe/11315653-thomas-saunier-vise-par-une-enquete-pour-corruption-le-patron-de-malakoff-humanis-licencie/",
+  "https://casrai.org/news/china-mofcom-most-40-technologies-export-control-catalogue-interim-registration-2026",
+  "https://www.frontieresmedia.fr/politique/detournement-de-fonds-publics-le-pnf-ouvre-officiellement-une-enquete-contre-bally-bagayoko-le-ma---19380",
+  "https://www.theportugalnews.com/news/2026-11-21/european-union-to-ban-cash-payments-above-10000/1024357",
+  "https://insideclimatenews.org/news/22112026/uns-cop31-climate-conference-fizzles-out-as-global-policy-divides-deepen/",
+  "https://theconversation.com/gaz-leurope-sest-eloignee-de-la-russie-mais-accroit-sa-vulnerabilite-aux-crises-mondiales-296886",
+  "https://www.sciencesetavenir.fr/archeo-paleo/homo-naledi-l-enigme-des-femmes-fossiles_196287?xtor=RSS-4",
+  "https://www.sciencesetavenir.fr/fondamental/mathematiques/comment-l-ia-fait-elle-des-maths_196275?xtor=RSS-10",
+  "https://www.sciencesetavenir.fr/animaux/colombie-les-hippopotames-de-pablo-escobar-une-invasion-devenue-incontrolable_196279?xtor=RSS-26",
+  "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/"
+ ],
+ "titres": [
+  "Hypothèse de Riemann : la preuve d'Alpöge certifiée par la communauté Lean",
+  "IA : des fournisseurs bon marché volent des clés et espionnent les utilisateurs",
+  "Règle d'or budgétaire : Macron envisage un Congrès à Versailles",
+  "Fuites au profit du RN : un mail du ministère de l'Intérieur retrouvé à Rome",
+  "Inondations dans le Pas-de-Calais : des habitants envisagent de partir",
+  "Nvidia : Washington réclame des réponses sur les ventes de puces à la Chine",
+  "Espagne : un sondage place Vox en position de faiseur de majorité",
+  "COP31 à Antalya : échec des négociations climatiques sur les énergies fossiles",
+  "Mesurer l'impact social double la croissance de jeunes entreprises en Inde",
+  "Programme pilote 340B : jusqu'à 1,5 milliard de dollars de pertes annuelles",
+  "Malakoff Humanis met fin au mandat de son directeur général, Thomas Saunier",
+  "Chine : un enregistrement provisoire avant export pour 40 technologies sensibles",
+  "COP31 : Antalya s'achève sans décision de couverture, une première depuis 2009",
+  "Gaz : l'Europe a quitté la Russie mais reste exposée aux chocs mondiaux"
+ ],
+ "solutions": {
+  "sudoku": [
+   9,
+   8,
+   2,
+   4,
+   1,
+   3,
+   7,
+   6,
+   5,
+   7,
+   6,
+   3,
+   5,
+   9,
+   2,
+   4,
+   8,
+   1,
+   5,
+   1,
+   4,
+   6,
+   7,
+   8,
+   9,
+   2,
+   3,
+   4,
+   2,
+   7,
+   3,
+   5,
+   1,
+   6,
+   9,
+   8,
+   6,
+   3,
+   9,
+   8,
+   2,
+   7,
+   5,
+   1,
+   4,
+   8,
+   5,
+   1,
+   9,
+   4,
+   6,
+   2,
+   3,
+   7,
+   3,
+   7,
+   5,
+   2,
+   8,
+   9,
+   1,
+   4,
+   6,
+   2,
+   4,
+   6,
+   1,
+   3,
+   5,
+   8,
+   7,
+   9,
+   1,
+   9,
+   8,
+   7,
+   6,
+   4,
+   3,
+   5,
+   2
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     2,
+     6
+    ],
+    [
+     0,
+     6,
+     5,
+     2
+    ],
+    [
+     0,
+     8,
+     7,
+     1
+    ],
+    [
+     0,
+     9,
+     5,
+     1
+    ],
+    [
+     2,
+     0,
+     6,
+     2
+    ],
+    [
+     2,
+     2,
+     6,
+     2
+    ],
+    [
+     2,
+     4,
+     3,
+     2
+    ],
+    [
+     5,
+     4,
+     2,
+     4
+    ],
+    [
+     5,
+     9,
+     5,
+     1
+    ],
+    [
+     7,
+     4,
+     3,
+     2
+    ],
+    [
+     7,
+     6,
+     2,
+     2
+    ],
+    [
+     7,
+     8,
+     3,
+     1
+    ],
+    [
+     8,
+     0,
+     2,
+     2
+    ],
+    [
+     8,
+     2,
+     2,
+     2
+    ],
+    [
+     9,
+     6,
+     1,
+     2
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    4,
+    2,
+    5,
+    6,
+    3,
+    1
+   ],
+   [
+    6,
+    5,
+    3,
+    1,
+    2,
+    4
+   ],
+   [
+    5,
+    6,
+    1,
+    3,
+    4,
+    2
+   ],
+   [
+    3,
+    1,
+    4,
+    2,
+    6,
+    5
+   ],
+   [
+    2,
+    4,
+    6,
+    5,
+    1,
+    3
+   ],
+   [
+    1,
+    3,
+    2,
+    4,
+    5,
+    6
+   ]
+  ],
+  "compte": [
+   "10 + 3 = 13",
+   "13 × 6 = 78",
+   "78 + 10 = 88",
+   "88 × 5 = 440",
+   "440 × 2 = 880"
+  ]
+ },
+ "reponses_quiz": []
+}
