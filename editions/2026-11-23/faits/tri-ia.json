@@ -1,0 +1,36 @@
+{
+ "developpes": [
+  {
+   "id": "a5",
+   "score": 9,
+   "raison": "Confirmation par la communauté Lean/Mathlib d'une preuve de l'hypothèse de Riemann, problème ouvert depuis 167 ans, vérifiée par des dizaines de relecteurs : fait majeur pour les mathématiques et l'IA."
+  },
+  {
+   "id": "a4",
+   "score": 8,
+   "raison": "Failles de la chaîne d'approvisionnement de l'IA : fournisseurs compromis, clés AWS volées et requêtes clients lues. Enjeu direct de sécurité et de conformité."
+  },
+  {
+   "id": "a3",
+   "score": 7,
+   "raison": "Les tests de sécurité des modèles d'IA peinent à suivre leur progression, ce qui limite la capacité à évaluer les risques."
+  }
+ ],
+ "breves": [
+  {
+   "id": "a14",
+   "titre": "Signal restreint les captures d'écran sur mobile",
+   "texte": "Signal limite la possibilité de réaliser des captures d'écran dans ses applications Android et iOS, face à ce qu'elle présente comme une « menace existentielle » de la surveillance par l'IA."
+  },
+  {
+   "id": "a17",
+   "titre": "Un acteur loue son visage généré par IA à une start-up de microséries",
+   "texte": "Un acteur a cédé la licence de son visage généré par IA à une start-up de microséries, une pratique déjà répandue en Chine. Des experts s'interrogent sur ses conséquences à long terme si elle s'étend à Hollywood."
+  },
+  {
+   "id": "a16",
+   "titre": "Les agents IA qui peuvent vivre dans vos messages texte",
+   "texte": "Une sélection des agents IA les plus notables pouvant vivre dans vos messages texte, des assistants généralistes à ceux conçus pour la famille, les voyages ou le travail."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "developpes": [
+  {
+   "id": "a18",
+   "score": 8,
+   "raison": "Règle d'or budgétaire envisagée dans la Constitution, avec une procédure inédite (Congrès à Versailles) : fait politique majeur et durable."
+  },
+  {
+   "id": "a36",
+   "score": 7,
+   "raison": "Soupçon de fuite vers le RN : un mail du ministère de l'Intérieur découvert lors d'une perquisition, affaire politique et judiciaire."
+  },
+  {
+   "id": "a32",
+   "score": 7,
+   "raison": "Inondations répétées dans le Pas-de-Calais, 850 logements touchés : conséquences concrètes pour les habitants."
+  },
+  {
+   "id": "a37",
+   "score": 6,
+   "raison": "Cyberattaque du CHU de Guadeloupe : plan blanc, déprogrammations et continuité des soins perturbée."
+  }
+ ],
+ "breves": [
+  {
+   "id": "a26",
+   "titre": "Choose France : 273 projets industriels présentés, 14,9 milliards d'euros",
+   "texte": "Le sommet Choose France, réservé aux entreprises françaises qui investissent dans le pays, présente 273 projets industriels. Il décompte 14,9 milliards d'euros d'investissements nouveaux, dont 81 projets inédits, notamment dans la santé, la cosmétique ou les biocarburants."
+  },
+  {
+   "id": "a25",
+   "titre": "Fuites vers le RN : Marine Le Pen nie avoir reçu des informations confidentielles",
+   "texte": "La candidate du RN à la présidentielle 2027 assure n'avoir « jamais reçu d'informations confidentielles » du préfet Hugues Moutouh, qui a annoncé samedi avoir demandé à être relevé de ses fonctions. Elle dit ne pas le connaître personnellement."
+  },
+  {
+   "id": "a33",
+   "titre": "Glucksmann propose d'avancer la présidentielle aux 11 et 25 avril",
+   "texte": "Le candidat PS-Place publique Raphaël Glucksmann estime qu'un second tour au lendemain d'un 1er mai est une erreur. Il propose d'organiser les deux tours les 11 et 25 avril, pour ne pas « prendre de risques » avec cette élection."
+  }
+ ]
+}

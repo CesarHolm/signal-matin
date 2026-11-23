@@ -1,0 +1,46 @@
+{
+ "developpes": [
+  {
+   "id": "a87",
+   "score": 9,
+   "raison": "Incendie de pétroliers dans le détroit d'Ormuz, selon la marine iranienne, en pleine guerre en Iran : enjeu majeur pour l'énergie et la sécurité maritime."
+  },
+  {
+   "id": "a67",
+   "score": 8,
+   "raison": "Washington exige des réponses de Nvidia sur ses ventes de puces à la Chine, dans un contexte de départ de son dirigeant et de soupçons d'espionnage : enjeu direct de conformité."
+  },
+  {
+   "id": "a71",
+   "score": 7,
+   "raison": "Sommet Xi-Trump-Poutine à Shenzhen : une déclaration en quatre points, mais un résultat de fond bien en deçà d'un grand compromis."
+  },
+  {
+   "id": "a90",
+   "score": 7,
+   "raison": "Élections législatives anticipées en Espagne le 29 novembre : un sondage annonce une majorité absolue pour la droite et l'extrême droite."
+  },
+  {
+   "id": "a50",
+   "score": 6,
+   "raison": "Échec de la COP31 à Antalya sur les énergies fossiles et le financement climatique, sans accord final entre quelque 200 pays."
+  }
+ ],
+ "breves": [
+  {
+   "id": "a84",
+   "titre": "Ebola : les combats près d'un hôpital en RDC menacent la riposte, selon l'OMS",
+   "texte": "Le directeur de l'OMS appelle à la paix alors que de violents combats ont lieu près d'un hôpital de la région touchée par Ebola en RDC. Selon l'OMS, patients et personnels sont exposés à un « grave risque »."
+  },
+  {
+   "id": "a54",
+   "titre": "Trump impose aux sous-traitants fédéraux de consulter la Maison Blanche",
+   "texte": "Le président Trump demande aux prestataires de l'État fédéral de consulter la Maison Blanche avant de répondre aux demandes du Congrès, et de retenir toute communication que son administration juge protégée par le privilège."
+  },
+  {
+   "id": "a81",
+   "titre": "Pologne : la Russie aurait tenté deux fois d'assassiner un rappeur ukrainien",
+   "texte": "La Pologne confirme que la Russie a tenté à deux reprises d'assassiner un rappeur ukrainien, après la révélation par Copenhague d'un complot présumé visant un citoyen américano-ukrainien sur sol danois."
+  }
+ ]
+}

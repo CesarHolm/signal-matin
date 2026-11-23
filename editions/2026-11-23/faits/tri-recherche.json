@@ -1,0 +1,21 @@
+{
+ "developpes": [
+  {
+   "id": "a95",
+   "score": 7,
+   "raison": "Premier essai randomisé sur la mesure d'impact : en Inde, les entreprises sociales traitées croissent près de deux fois plus et lèvent près de deux fois plus de capitaux."
+  },
+  {
+   "id": "a94",
+   "score": 6,
+   "raison": "Étude de simulation de l'effet d'un modèle de remise (rebate) du programme 340B sur les recettes nettes des établissements de santé : enjeu de politique publique."
+  }
+ ],
+ "breves": [
+  {
+   "id": "a98",
+   "titre": "Deux commandes Stata pour des régressions à effets fixes de grande dimension",
+   "texte": "Un article de Johannes F. Schmieder, publié par le NBER, présente fereg et feppml. Ces commandes Stata ajustent des régressions à effets fixes de grande dimension et choisissent entre plusieurs solveurs (projection, Krylov, multigrid) selon le problème."
+  }
+ ]
+}

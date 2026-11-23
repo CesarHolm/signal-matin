@@ -1,0 +1,36 @@
+{
+ "developpes": [
+  {
+   "id": "a107",
+   "score": 8,
+   "raison": "Enquête pour corruption visant le dirigeant de Malakoff Humanis, licencié : cas concret pour les dispositifs anticorruption et la gouvernance."
+  },
+  {
+   "id": "a109",
+   "score": 7,
+   "raison": "Le PNF ouvre une enquête pour détournement de fonds publics visant le maire de Saint-Denis : contrôle des deniers publics et lutte contre la corruption."
+  },
+  {
+   "id": "a128",
+   "score": 6,
+   "raison": "Enregistrement intérimaire obligatoire de 40 technologies soumises au contrôle des exportations en Chine (IA, solaire, biotechnologies) : évolution réglementaire."
+  },
+  {
+   "id": "a126",
+   "score": 5,
+   "raison": "Pause des livraisons de TSMC vers des concepteurs chinois après de nouveaux contrôles du BIS : impact concret sur les chaînes d'approvisionnement."
+  }
+ ],
+ "breves": [
+  {
+   "id": "a134",
+   "titre": "L'UE prévoit d'interdire les paiements en espèces au-delà de 10 000 euros",
+   "texte": "L'Union européenne prévoit d'interdire les paiements en espèces supérieurs à 10 000 euros. Le résumé ne précise ni le calendrier ni les exceptions."
+  },
+  {
+   "id": "a119",
+   "titre": "Sanctions américaines sur des adresses blockchain : contrôles accrus pour les plateformes",
+   "texte": "Des sanctions américaines visant des adresses blockchain accroissent les contrôles pesant sur les plateformes d'échange de cryptoactifs. Le résumé ne donne pas davantage de détails."
+  }
+ ]
+}

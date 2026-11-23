@@ -1,0 +1,46 @@
+{
+ "developpes": [
+  {
+   "id": "a136",
+   "score": 8,
+   "raison": "Sujet scientifique nouveau et de portée durable : l'IA démontre désormais des théorèmes qui résistaient aux mathématiciens."
+  },
+  {
+   "id": "a151",
+   "score": 7,
+   "raison": "Fait d'actualité climatique : la COP31 s'achève sur un bilan d'essoufflement et de divisions croissantes."
+  },
+  {
+   "id": "a137",
+   "score": 6,
+   "raison": "Découverte paléoanthropologique inattendue, à forte portée de curiosité scientifique."
+  },
+  {
+   "id": "a146",
+   "score": 5,
+   "raison": "Enjeu concret pour le lecteur : la vulnérabilité énergétique de l'Europe aux crises mondiales, malgré la baisse de sa dépendance au gaz russe."
+  }
+ ],
+ "breves": [
+  {
+   "id": "a139",
+   "titre": "200 hippopotames en Colombie, héritage de Pablo Escobar",
+   "texte": "Près de 200 hippopotames, descendants de quatre spécimens importés par Pablo Escobar, peuplent aujourd'hui le bassin du fleuve Magdalena. Leur prolifération bouleverse les écosystèmes locaux et pousse le gouvernement colombien à prendre des mesures radicales."
+  },
+  {
+   "id": "a148",
+   "titre": "Le centre Johnson de la NASA fête ses 65 ans de vols habités",
+   "texte": "Depuis 65 ans, le Johnson Space Center de Houston contribue aux vols spatiaux habités, des missions Gemini qui ont mis au point les techniques de rendez-vous nécessaires à Apollo jusqu'à la recherche menée à bord de l'ISS."
+  },
+  {
+   "id": "a156",
+   "titre": "Carlos Alcaraz remporte son premier Masters, à Turin",
+   "texte": "Carlos Alcaraz a battu le n°1 mondial Alexander Zverev en deux manches (6-2, 7-6), dimanche à Turin. Il remporte ainsi les Finales ATP, le tournoi des maîtres, pour la première fois de sa carrière."
+  },
+  {
+   "id": "a164",
+   "titre": "Le XV de France bat l'Argentine 45-17 et file en finale",
+   "texte": "Samedi 21 novembre, les Bleus ont battu l'Argentine 45 à 17 et décroché leur première finale du Championnat des nations. Ils affronteront l'Afrique du Sud à Twickenham la semaine prochaine."
+  }
+ ]
+}

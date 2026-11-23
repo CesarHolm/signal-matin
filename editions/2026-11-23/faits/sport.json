@@ -1,0 +1,45 @@
+{
+ "resultats": [
+  {
+   "sport": "Tennis",
+   "affiche": "Alcaraz – Zverev",
+   "score": "6-2 7-6 [7]",
+   "competition": "Finales ATP de Turin (circuit ATP), finale",
+   "source": "L'Équipe",
+   "url": "https://www.lequipe.fr/Tennis/Actualites/Carlos-alcaraz-s-offre-un-premier-titre-aux-finales-atp-de-turin-en-dominant-alexander-zverev/1745452"
+  },
+  {
+   "sport": "Rugby",
+   "affiche": "France – Argentine",
+   "score": "45-17",
+   "competition": "Championnat des nations (rugby à XV), phase de poules",
+   "source": "L'Équipe",
+   "url": "https://www.lequipe.fr/Rugby/Actualites/Le-xv-de-france-domine-l-argentine-et-defiera-l-afrique-du-sud-en-finale-du-championnat-des-nations/1745260"
+  },
+  {
+   "sport": "F1",
+   "affiche": "Grand Prix de Las Vegas",
+   "score": "1. Verstappen",
+   "competition": "Championnat du monde de Formule 1, 21e manche",
+   "source": "L'Équipe",
+   "url": "https://www.lequipe.fr/Formule-1/Actualites/Max-verstappen-remporte-le-grand-prix-de-las-vegas-au-terme-d-une-course-completement-folle/1745311"
+  },
+  {
+   "sport": "Football",
+   "affiche": "Liverpool – Manchester United",
+   "score": "4-0",
+   "competition": "Premier League (championnat d'Angleterre), 11e journée",
+   "source": "ESPN",
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878755/manchester-united-liverpool"
+  },
+  {
+   "sport": "Football",
+   "affiche": "Barcelone – Villarreal",
+   "score": "3-2",
+   "competition": "Liga (championnat d'Espagne), 13e journée",
+   "source": "ESPN",
+   "url": "https://www.espn.com/soccer/match/_/gameId/401882804/villarreal-barcelona"
+  }
+ ],
+ "a_suivre": []
+}
