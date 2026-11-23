@@ -1,0 +1,64 @@
+{
+ "id": "syn-a50",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a50.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : NPR\nRubrique : États-Unis\nDate du flux : 22/11/2026\nAuteur : Lauren Sommer\nTitre d'origine : Climate change talks fall apart in final hours over fossil fuels\n\nARTICLE :\nClimate change talks fall apart in final hours over fossil fuels\nANTALYA, Turkey – International climate talks in Antalya, Turkey, broke down in overtime hours with a disagreement over how to address fossil fuels, the main cause of global warming.\nOn Sunday, delegates from nearly 200 countries failed to reach an overall agreement covering targets for electrification, finance to help developing countries adapt to the impacts of climate change, and how to respond to the fact that the planet will soon breach a key warming threshold.\nThe talks ran two days longer than expected, becoming the longest climate conference in the history of these summits. And it ended in a dramatic fashion, with delegates from the European Union rejecting any final outcome that did not explicitly call for a transition away from fossil fuels. Some oil-producing countries like Saudi Arabia opposed such language. Burning fossil fuels like oil, gas and coal makes up roughly 73% of global emissions.\nIreland's Minister for Climate, Energy and the Environment Darragh O'Brien, who spoke for the EU, soon left the room, along with EU Commissioner for Climate, Net Zero and Clean Growth Wopke Hoekstra.\nOther countries also objected to the text, including Panama, Belize, and small island states such as Vanuatu and the Marshall Islands.\nHoekstra said that with the world heading for an overshoot of 1.5 degrees, the EU could not tolerate an agreement that does not mention fossil fuels. \"That is not acceptable,\" Hoekstra told reporters after walking out of the talks. \"We do that with a heavy heart with many other countries, but we simply cannot accept this.\"\nThis is the first U.N. climate summit where there's been formal acknowledgment that the world will surpass a key global warming threshold. Countries agreed in 2015 to try to limit climate change to 1.5 degrees Celsius (2.7 degrees Fahrenheit), but the planet has essentially reached that limit already.\nPassing that threshold means more severe climate impacts, like more intense hurricanes and heat waves. The United Nations found that a best-case scenario of 1.7 or 1.8 degrees Celsius would require cutting emissions immediately, reducing them by 45% by 2035. That, scientists say, would require dramatically cutting fossil fuel use.\nMeanwhile, the transition away from fossil fuels is happening regardless of what the U.N. agreements say, says Chris Bowen, the Australian minister who ran the negotiations.\n\"The transition away from fossil fuels in the real world is inevitable,\" Bowen told the press after the agreement failed. \"It's happening at speed and it's irreversible.\"\nDisagreements on fossil fuels\nThe disagreements over mentioning fossil fuels in climate conferences have a long, fractured history.\nThe COP process works by consensus, so nearly 200 countries must agree to a final text at the end of the negotiations. Some fossil fuel producers like Norway and Mexico have recently wanted to include transitioning away from fossil fuels in the text. Other large oil-producing countries like Saudi Arabia and Russia have blocked adding fossil fuels to the final agreement.\nAt the climate talks in Dubai in 2023, countries agreed for the first time in 28 years of conferences to mention transitioning away from fossil fuels in the final agreement.\nDeeply frustrated with this U.N. process, more than 50 countries have created their own separate conference dedicated to phasing out fossil fuels. In April, they held the \"First International Conference for the Transition Away from Fossil Fuels\" in Colombia. In 2027, Ireland and the Pacific Island nation of Tuvalu will co-host the second conference.\nThese side efforts are the best hope for climate action until something changes in the COP process, says Juan Carlos Navarro, environment minister of Panama.\n\"I am an optimist by nature,\" he tells NPR, \"but I am not an idiot.\"\nIncreasing electrification\nThis year, the ongoing U.S.-Israeli war with Iran and the unprecedented closure of the Strait of Hormuz loomed over the negotiations.\nSince the war began, countries across Asia and Africa have accelerated their transitions to solar energy, batteries and electric vehicles, and reduced their reliance on fossil fuels like oil and natural gas.\nCOP31 organizers promised that this would be the \"electrification COP.\" Climate technologies like renewable energy, super-efficient heat pumps and electric vehicles are also called electrification technologies. Many of these technologies are being manufactured in China, the main exporter of climate solutions.\nThe conference's initial goal was to increase global electrification from its current level of around 23% to 35% by 2035. \"So 35 by '35 is the mantra,\" Kingsmill Bond, an analyst at the energy think tank Ember, told NPR when COP31 began.\nThe 35 by 35 electrification pledge was signed on to by dozens of countries. However, that pledge did not ultimately pass, says Alden Meyer, a senior associate at the climate change think tank E3G. \"Electrification was collateral damage when the whole decision cratered,\" he said.\nLack of U.S. Presence\nThe Trump administration did not send a delegation to COP31 for a second year in a row. President Trump announced he would withdraw the U.S. from the Paris Agreement on his first day back in office in 2025. Trump has called climate change a hoax, and his administration has rolled back regulations on climate pollution and funding for wind and solar power and electric vehicles.\nAn informal delegation of congressional Democrats did come to Turkey. They told delegates at COP31 that when Democrats control both chambers of Congress next year, climate change will return to the main agenda.\nBillions of dollars still needed\nWhile the debate over fossil fuels stole the spotlight at this year's COP, a major focus of the negotiations has been on money. Countries debated new goals for funding to assist nations hardest hit by climate change.\nOver the years at climate summits, lower-income countries have made the case that while they're responsible for only a small share of the emissions causing climate change, they're experiencing some of the worst disasters.\n\"We're not a nation that has the luxury of debating whether climate change is real for us,\" says Matthew Samuda, Jamaica's minister of water, environment and climate change. \"The reality is, over the last five years, we have had a category 4 hurricane, a tropical storm and a category 5 hurricane. So climate change for us is indeed real and we are experiencing economic losses from a problem that we didn't create.\"\nIn 2024, nations agreed to eventually provide $1.3 trillion per year to developing nations, what's known as climate finance. Only about $136.7 billion was delivered in 2024, according to a report from the Organization for Economic Co-operation and Development. The majority of that goes to projects that reduce emissions, including renewable energy like solar and wind.\nAs climate disasters become costlier, lower-income countries have been pushing for more funding to adapt to climate impacts, such as protecting coastal communities from sea level rise and strengthening infrastructure against storms. The United Nations estimates that those nations' needs will reach $305 billion annually by 2035.\nDuring the talks in Turkey, developing nations pushed for more concrete commitments to deliver adaptation funding. But those elements to deliver on tripling adaptation funding by 2035 were in the larger decision that was ultimately rejected, Meyer says.\n\"Vulnerable countries from Africa and elsewhere are quite angry about that outcome,\" he says.\nEarlier this year, countries requested $2.8 billion to help with damages, but only $342 million in funding was available.\nAt the COP31 summit, only $142 million in additional funding was pledged, far less than in other recent COP summits.\nNPR correspondent Michael Copley contributed to this story. This story was edited by Sadie Babits.\nCorrection Nov. 22, 2026\nA previous version of this story incorrectly said the European Union walked out along with other countries. In fact, EU representatives walked out while other countries objected.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

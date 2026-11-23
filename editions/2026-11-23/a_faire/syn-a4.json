@@ -1,0 +1,64 @@
+{
+ "id": "syn-a4",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a4.json",
+ "limite_caracteres": 3555,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3555 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 22/11/2026\nAuteur : Matthias Bastian\nTitre d'origine : Security researchers show how cheap AI inference providers steal keys and snoop on users\n\nARTICLE :\nSecurity researchers show how cheap AI inference providers steal keys and snoop on users\nKey Points\n- Security researchers at Dragos exposed major security flaws in AI services using roughly two million test requests.\n- Attackers were able to steal credentials and keys undetected for several months.\n- Intermediaries and model marketplaces that routed the requests emerged as a major risk.\nSecurity researchers at Dragos sent roughly 2 million AI requests containing fake credentials to AI providers and uncovered major security flaws.\nThe researchers ran the tests from July through November 2026 and identified at least three compromised providers where attackers were actively stealing user data. None of the three knew they had been compromised until Dragos notified them.\nAttackers in the largest incident harvested hundreds of AWS keys, including some from requests the provider had rejected before processing. In some cases, they tested the stolen keys within hours, searched S3 storage, and tried to establish persistent access. One attacker also used ARTEX, an AI-powered attack tool.\nMarketplace resellers read customer requests too. They didn't need to exploit a vulnerability, Dragos says, because listing a model at the lowest price and turning on logging was enough. In one case, someone on a residential internet connection in France tried to log in over SSH using passwords pulled from intercepted requests.\nPrivacy settings like \"Zero Data Retention\" (ZDR) were frequently ignored. Dragos says a Chinese AI lab accessed the secret test URLs in more than half of all requests, even when those requests went through US providers.\nEven major US providers broke their own policies. One was still crawling a test URL more than two months after a single request. In another case, a secret test link showed up in an internal chat on Feishu (known outside China as Lark) 24 days after the request. The link was opened within two minutes on three computers and three phones in Beijing and Shanghai.\nOpenRouter responded by removing three providers from its platform and revoking ZDR approval for 125 endpoints, partly because of the research findings and partly as a precaution. The company also emailed affected users, warning that third parties may have read requests sent to MiniMax models.\nAffected providers, including Novita, Phala, and Together, have published preliminary security reports on the incident, though not all have done so yet.\nIntermediaries are the weak link\nAI routers like OpenRouter give users a single API for models from different companies. Requests are routed to a pool of providers, sometimes across several hops, and Dragos says each hop can read the entire request and response.\nSome of these routers operate as open marketplaces where the cheapest provider gets the traffic. In this case, providers including Novita, AtlasCloud, and StreamLake sat between OpenRouter and model developer MiniMax. Together runs its own infrastructure, and Phala has its roots in Web3.\nDragos warns companies against sending requests containing credentials to intermediaries. The researchers recommend that organizations control how their AI requests are routed, check their privacy settings, and plant their own canary tokens, fake credentials that give themselves away as soon as someone uses them.\n\"None of this means that you should stop using AI services. It does mean that where your prompts go is a decision, and if you don’t make it, the lowest price will make it for you\", Chief Research Officer HD Moore writes.\nA recent analysis by the Oxford China Policy Lab showed how Chinese proxy services route requests to Western AI models like Claude through servers abroad. According to the analysis, those services can also read the requests in transit. It's still not clear whether the providers Dragos examined share any personnel with the Chinese proxy networks.\nBut the methods follow the same basic pattern. In both cases, intermediaries sit between users and the model developer, can view requests, and pass data on to third parties, often without users knowing. Data ends up with Chinese actors either way, even though users never meant to send it there, and privacy promises break down along the supply chain.\nTHE DECODER+\nAI News Without the Hype – Curated by Humans\n- Every Plus article and the full archive\n- No ad banners\n- Frontier Radar: 6 deep dives a year\nWhat is included\nAlready a subscriber? Sign in",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

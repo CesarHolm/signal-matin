@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a3\", \"source\": \"The Decoder\", \"titre\": \"AI is getting better faster than experts can reliably test whether new systems are safe, METR warns\", \"resume\": \"METR reports that leading AI models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks but getting harder to measure. Current data can't rule out a dangerous acceleration in AI development, the organization warns, though it also says common tests may overestimate what the models can actually do. The article AI is getting better faster than experts can reliably test whether new systems are safe, METR warns appeared first on The Decoder .\"}, {\"id\": \"a87\", \"source\": \"Al Jazeera\", \"titre\": \"Iran war live: Tankers set ablaze in Hormuz as IRGC warns of unrest threat\", \"resume\": \"Iran's navy claims tankers contravening its rules were set ablaze, while the IRGC said 'enemies' sought to stoke unrest.\"}, {\"id\": \"a71\", \"source\": \"South China Morning Post\", \"titre\": \"No grand bargain at Xi-Trump-Putin meeting? That was never the point\", \"resume\": \"When Chinese President Xi Jinping hosted US President Donald Trump and Russian President Vladimir Putin in Shenzhen on November 19, the images were historic. The three leaders issued a four-point declaration towards peace, addressing UN reform, energy security, concerns over abuses of jurisdiction by the International Criminal Court, and nuclear risk reduction. Yet the meeting produced considerably less than a grand bargain on substantive geopolitical or security issues. As a result, some media...\"}, {\"id\": \"a109\", \"source\": \"Frontières\", \"titre\": \"Détournement de fonds publics : le PNF ouvre officiellement une enquête contre Bally Bagayoko, le maire LFI de Saint-Denis\", \"resume\": \"Détournement de fonds publics : le PNF ouvre officiellement une enquête contre Bally Bagayoko, le maire LFI de Saint-Denis Frontières\"}, {\"id\": \"a136\", \"source\": \"Sciences et Avenir\", \"titre\": \"Comment l’IA fait-elle des maths ?\", \"resume\": \"Cette année l'IA est devenue capable de démontrer des théorèmes qui résistaient aux mathématiciens. Derrière ces prouesses des milliers d'agents intelligents travaillent ensemble pour défricher des pistes élaborer des preuves et vérifier leur validité.\"}, {\"id\": \"a137\", \"source\": \"Sciences et Avenir\", \"titre\": \"Pourquoi ne retrouve-t-on que des femmes parmi les fossiles d’Homo naledi ?\", \"resume\": \"Dans les grottes de Rising Star, en Afrique du Sud, les squelettes d’Homo naledi réservent une surprise. L’analyse des protéines de leur émail dentaire suggère que les individus retrouvés seraient tous de sexe féminin. Un résultat inattendu qui intrigue les spécialistes de cette ancienne espèce humaine.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

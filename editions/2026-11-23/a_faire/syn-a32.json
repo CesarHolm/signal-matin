@@ -1,0 +1,64 @@
+{
+ "id": "syn-a32",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a32.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : franceinfo\nRubrique : France\nDate du flux : 22/11/2026\nAuteur : France 2\nTitre d'origine : \"Ça devient lassant\" : avec la répétition des inondations dans le Pas-de-Calais, des quartiers vont-ils bientôt être désertés ?\n\nARTICLE :\nSOURCE 1 (franceinfo) :\n\"Ça devient lassant\" : avec la répétition des inondations dans le Pas-de-Calais, des quartiers vont-ils bientôt être désertés ?\nEn semaine\n- Présenté par Jean-Baptiste Marteau\n- Rédacteurs en chef Elsa-Pallot\n- Rédacteurs en chef adjoints Julien Gasparutto, Margaux Manière, Caroline Thébaud\nLe week-end\n- Présenté par Laurent Delahousse\n- Rédacteurs en chef Elsa Pallot\n- Rédacteurs en chef adjoints Arnaud Comte, Margaux Manière, Julien Gasparutto\nDe nouvelles alertes inondations ont été émises pour l'Ain et le Jura, tandis que la Corse est également sur ses gardes en raison de vents violents accompagnés de fortes précipitations. Du côté du Pas-de-Calais, la situation n'est toujours pas stabilisée, dimanche 22 novembre, alors que 850 logements ont été inondés. La répétition de ces épisodes pousse les habitants à s'interroger : seront-ils un jour forcés de quitter leurs habitations ?\nCe texte correspond à une partie de la retranscription du reportage ci-dessus. Cliquez sur la vidéo pour la regarder dans son intégralité.\nDes villages du Pas-de-Calais sont toujours sous les eaux, dimanche 22 novembre. Des quartiers entiers ont une nouvelle fois été submergés au cours des derniers jours. \"Ça devient lassant. On ne va pas vivre ça tous les deux ans\", lance une habitante. Avec les crues qui se répètent, pour de nombreux locaux, une question se pose : celle de rester, ou partir pour ne plus subir. Avec leurs batardeaux devant les portes et trois pompes installées, certains pensaient pouvoir éviter l'inondation, mais la crue l'a emporté. \"C'est passé par-dessus notre batardeau de la cave, je ne sais pas si vous vous rendez compte\", glisse Isabelle Grenier, une habitante sinistrée de la commune d'Attin.\nDes habitants à bout de forces\nDans le village, des retraités qui vivent au bord du fleuve de la Canche viennent de connaître leur vingtième inondation, celle de trop. \"Là, ça recommence encore. Moi, je pense que c'est la dernière fois\", ajoute Isabelle, livrant sa détresse et précisant ne plus avoir la force. \"On va mettre en vente et puis changer de secteur\", explique Raymond, son mari.\nIl y a ceux condamnés à partir, et d'autres obligés de rester. En 2023, Geoffroy Quéant a eu 1,50 mètre d'eau dans sa maison. Depuis, il s'est adapté pour mieux se protéger. \"Là, il y a une pompe de relevage qui rejette de l'eau. [...] Et ici, il y a le système de batardeau qui est clampé, qui fait une barrière pour ne pas remplir le sol en contrebas\", montre l'habitant de Montreuil-sur-Mer. Terrasse surélevée, bouches, trappes d'aération... Autant d'aménagements devenus indispensables pour rester vivre dans sa maison, car déménager est désormais impossible. \"La maison a perdu trop de valeur. Pour acheter un autre bien équivalent, il y a beaucoup de zones sinistrées, donc les terrains restants sont beaucoup plus chers\", explique Geoffroy.\nSa maison n'est pas éligible à un rachat par l'État. Seules quatre habitations du village ont été rachetées pour être démolies. Comme à Blendecques, un autre village du Pas-de-Calais très touché en 2023, où la destruction d'une quinzaine de maisons a commencé il y a quelques semaines.\n- \n        \nvidéo \"Les communications doivent se faire assez rapidement\" : des hélitreuillages à haut risque durant les inondations\n- \n        \nvidéo Inondations dans le Pas-de-Calais : un vaste élan de solidarité à Montreuil-sur-Mer\n- \"On tient le bon bout\" après les inondations, la décrue \"est très nette sur l'amont de La Canche, affirme le préfet du Pas-de-Calais\n- Un randonneur de 22 ans retrouvé mort dans le vallon de Bérard, en Haute-Savoie, le préfet appelle à la prudence en montagne\n- La Corse en vigilance orange aux vents violents à partir de dimanche minuit, le Jura et l'Ain restent en alerte pour pluie-inondation et le Pas-de-Calais pour un risque de crues\n\nSOURCE 2 (franceinfo) :\n\"Ça devient lassant\" : avec la répétition des inondations dans le Pas-de-Calais, des quartiers vont-ils bientôt être désertés ?\nEn semaine\n- Présenté par Jean-Baptiste Marteau\n- Rédacteurs en chef Elsa-Pallot\n- Rédacteurs en chef adjoints Julien Gasparutto, Margaux Manière, Caroline Thébaud\nLe week-end\n- Présenté par Laurent Delahousse\n- Rédacteurs en chef Elsa Pallot\n- Rédacteurs en chef adjoints Arnaud Comte, Margaux Manière, Julien Gasparutto\nDe nouvelles alertes inondations ont été émises pour l'Ain et le Jura, tandis que la Corse est également sur ses gardes en raison de vents violents accompagnés de fortes précipitations. Du côté du Pas-de-Calais, la situation n'est toujours pas stabilisée, dimanche 22 novembre, alors que 850 logements ont été inondés. La répétition de ces épisodes pousse les habitants à s'interroger : seront-ils un jour forcés de quitter leurs habitations ?\nCe texte correspond à une partie de la retranscription du reportage ci-dessus. Cliquez sur la vidéo pour la regarder dans son intégralité.\nDes villages du Pas-de-Calais sont toujours sous les eaux, dimanche 22 novembre. Des quartiers entiers ont une nouvelle fois été submergés au cours des derniers jours. \"Ça devient lassant. On ne va pas vivre ça tous les deux ans\", lance une habitante. Avec les crues qui se répètent, pour de nombreux locaux, une question se pose : celle de rester, ou partir pour ne plus subir. Avec leurs batardeaux devant les portes et trois pompes installées, certains pensaient pouvoir éviter l'inondation, mais la crue l'a emporté. \"C'est passé par-dessus notre batardeau de la cave, je ne sais pas si vous vous rendez compte\", glisse Isabelle Grenier, une habitante sinistrée de la commune d'Attin.\nDes habitants à bout de forces\nDans le village, des retraités qui vivent au bord du fleuve de la Canche viennent de connaître leur vingtième inondation, celle de trop. \"Là, ça recommence encore. Moi, je pense que c'est la dernière fois\", ajoute Isabelle, livrant sa détresse et précisant ne plus avoir la force. \"On va mettre en vente et puis changer de secteur\", explique Raymond, son mari.\nIl y a ceux condamnés à partir, et d'autres obligés de rester. En 2023, Geoffroy Quéant a eu 1,50 mètre d'eau dans sa maison. Depuis, il s'est adapté pour mieux se protéger. \"Là, il y a une pompe de relevage qui rejette de l'eau. [...] Et ici, il y a le système de batardeau qui est clampé, qui fait une barrière pour ne pas remplir le sol en contrebas\", montre l'habitant de Montreuil-sur-Mer. Terrasse surélevée, bouches, trappes d'aération... Autant d'aménagements devenus indispensables pour rester vivre dans sa maison, car déménager est désormais impossible. \"La maison a perdu trop de valeur. Pour acheter un autre bien équivalent, il y a beaucoup de zones sinistrées, donc les terrains restants sont beaucoup plus chers\", explique Geoffroy.\nSa maison n'est pas éligible à un rachat par l'État. Seules quatre habitations du village ont été rachetées pour être démolies. Comme à Blendecques, un autre village du Pas-de-Calais très touché en 2023, où la destruction d'une quinzaine de maisons a commencé il y a quelques semaines.\n- \n        \nvidéo \"Les communications doivent se faire assez rapidement\" : des hélitreuillages à haut risque durant les inondations\n- \n        \nvidéo Inondations dans le Pas-de-Calais : un vaste élan de solidarité à Montreuil-sur-Mer\n- \"On tient le bon bout\" après les inondations, la décrue \"est très nette sur l'amont de La Canche, affirme le préfet du Pas-de-Calais\n- Un randonneur de 22 ans retrouvé mort dans le vallon de Bérard, en Haute-Savoie, le préfet appelle à la prudence en montagne\n- La Corse en vigilance orange aux vents violents à partir de dimanche minuit, le Jura et l'Ain restent en alerte pour pluie-inondation et le Pas-de-Calais pour un risque de crues",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

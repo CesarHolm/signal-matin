@@ -1,0 +1,64 @@
+{
+ "id": "syn-a67",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a67.json",
+ "limite_caracteres": 3072,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 3072 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : South China Morning Post\nRubrique : Chine\nDate du flux : 22/11/2026\nTitre d'origine : US seeks answers on Nvidia’s sale of chips to China, Bessent says\n\nARTICLE :\nSOURCE 1 (South China Morning Post) :\nThe US ⁠is seeking answers from Nvidia on ⁠its chip sales to China and will find out who was in charge of compliance at the company formerly led by Jensen Huang, who resigned following an affair with a suspected Chinese spy, US Treasury Secretary ‌Scott Bessent said on Sunday. “We’ve been in touch with the temporary management, with the lead directors, with their lawyers, and we do need answers … It behoves Nvidia to move quickly on this because we want to know what the culture was,” Bessent...\n\nSOURCE 2 (CBS News) :\nWashington — Treasury Secretary Scott Bessent said Sunday that the administration needs answers from Nvidia as questions swirl about whether it has complied with export restrictions, after revelations surrounding its sent the chipmaker into crisis.\n\"We do need answers,\" Bessent said on \"Face the Nation with Margaret Brennan.\"\nAfter Jensen Huang as Nvidia's CEO amid revelations about extramarital affairs, including one with an alleged spy, the U.S. is investigating how Nvidia may have given China access to advanced AI computer chips, despite government restrictions.\nLast week, Bessent referenced a possible \"culture of noncompliance\" at Nvidia, questioning whether the company was \"pressing these seemingly illicit sales to goose their revenues and their earnings.\" In an interview on Fox News, Bessent said he needed answers from Nvidia on its compliance with export restrictions within 10 days. On Sunday, he told Brennan the administration has not yet received those answers.\n\"We've been in touch with the temporary management, with the lead directors, with their lawyers,\" Bessent said. \"It behooves Nvidia to move quickly on this because we want to know what the culture was.\"\nNvidia's CFO, Colette Kress, has taken the helm after Huang's departure. But Bessent has urged the company to bring someone in from the outside to run the company. The treasury secretary said Sunday, \"We do need to see who was in charge of compliance there.\"\nAsked how challenging it could be to get to the bottom of what Jensen Huang was doing, given reporting about Nvidia's \"handshake\" business approach, Bessent said, \"For deals that size, there's no such thing as an untraceable handshake deal.\"\n\"There are bills ablating that movement, there are money movements,\" he said. \"They may not be the 100-page documents, but it will be possible to understand what has gone on here.\"\nOn his call for an inquiry into whether Nvidia had a culture of noncompliance, Bessent said that it's simply a possibility that the dynamic was at play.\n\"We will see, and that's why I think the board is moving very quickly to establish whether this did or did not exist,\" Bessent said.\nThe comments come as President Trump has called for Jensen Huang to return as CEO of Nvidia. Asked whether the president understands the risks that Bessent has pointed to, Bessent replied that it remained to be seen \"which level of the business knew about this.\"\n\"Was it at the lower levels? Was it at the middle levels? Did it go all the way to the top? And I have confidence that the Nvidia committees are moving very quickly on this and will come up with some very fulsome and robust answers,\" he said.\nWhen pressed on whether he thinks it would be a good idea for Jensen Huang to return, Bessent said, \"I think we have to see where the buck stops — Were these malicious actors down at the bottom of the company who were responsible for the noncompliance?\" He also drew a distinction between this possible dynamic, and Jensen Huang's alleged affair with suspected Chinese spy .\n\"I think that is kind of a canard,\" Bessent said. \"Was there a culture of compliance versus one person's foibles?\"\nJensen Huang has to testify before the Senate Banking Committee and will also be interviewed by House panels in early December.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a18",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a18.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Le Monde\nRubrique : France\nDate du flux : 22/11/2026\nAuteur : Le Monde; Nathalie Segaunes\nTitre d'origine : Emmanuel Macron envisage de réunir le Congrès à Versailles pour faire adopter une « règle d’or » budgétaire, une procédure inédite à plus d’un titre\n\nARTICLE :\nSOURCE 1 (Le Monde) :\nUn Congrès à Versailles pour conjurer la dette… Avant de quitter l’Elysée, Emmanuel Macron envisage de graver dans le marbre de la Constitution une « règle d’or » budgétaire, mesure emblématique du sérieux budgétaire, mise en œuvre en Allemagne depuis le début des années 2010, mais controversée en France.\nSelon les informations de La Tribune Dimanche du 22 novembre, confirmées par l’Elysée, le chef de l’Etat a pour projet d’exhumer un projet de révision constitutionnelle instaurant une « règle d’or », voté dans les mêmes termes en 2011 par l’Assemblée nationale et par le Sénat, à l’initiative du gouvernement de François Fillon. A l’époque, le processus de réforme constitutionnelle n’était pas allé à son terme : le président Nicolas Sarkozy, guère assuré de réunir les trois cinquièmes des suffrages exprimés sur ce texte contesté par la gauche, à moins d’un an de l’élection présidentielle de 2012 – la réforme constitutionnelle de 2008 n’avait été adoptée qu’à une voix près – avait renoncé à réunir le Congrès, laissant ce projet lettre morte.\nOr, l’article 89 de la Constitution, qui fixe les conditions de révision de la Constitution, ne prévoit aucune limite dans le temps entre l’adoption par les deux chambres d’un projet de révision et la convocation du Congrès. Si Emmanuel Macron décidait de franchir le pas, le vote des parlementaires – qui pourrait avoir lieu dès janvier – clôturerait un processus entamé trois législatures en amont, ce qui serait inédit depuis la naissance de la République.\nIl vous reste 78.25% de cet article à lire. La suite est réservée aux abonnés.\n\nSOURCE 2 (Economie Matin) :\nEmmanuel Macron envisagerait un Congrès en janvier 2027 pour inscrire une règle d’or dans la Constitution. Le texte voté en 2011 révèle les contraintes possibles sur les budgets, sans réforme décidée à ce stade.\nRègle d’or budgétaire : le texte de 2011 que Macron pourrait relancer\nEmmanuel Macron envisagerait de réunir le Parlement en Congrès à Versailles en janvier 2027 pour inscrire une règle d’or budgétaire dans la Constitution. Cette piste, révélée le dimanche 22 novembre 2026 par La Tribune Dimanche et rapportée par Reuters, renvoie à un projet déjà voté par les deux chambres en 2011, sans avoir jamais été définitivement adopté. L’Élysée n’a pas commenté ces informations : aucune convocation du Congrès ni nouvelle règle constitutionnelle n’est annoncée à ce stade.\nSelon le récit publié ce dimanche, le président aurait demandé au Premier ministre Sébastien Lecornu de sonder les soutiens possibles, dans la perspective de la fin de l’examen des textes budgétaires. Le sujet est plus précis qu’une promesse générale de réduire le déficit : le dispositif imaginé il y a quinze ans liait les budgets annuels de l’État et de la Sécurité sociale à des orientations financières définies sur plusieurs années.\nCe que prévoyait exactement la réforme budgétaire de 2011\nLe projet de loi constitutionnelle adopté le 13 juillet 2011 prévoyait des « lois-cadres d’équilibre des finances publiques » couvrant au moins trois années. Ces textes devaient fixer des orientations pluriannuelles, mais aussi, pour chaque année, un plafond de dépenses et un minimum de mesures nouvelles portant sur les recettes. Ces paramètres auraient été opposables, dans leur ensemble, aux lois de finances et aux lois de financement de la Sécurité sociale.\nLe mécanisme envisagé ne consistait donc pas à exiger, d’un coup, que chaque budget soit à l’équilibre. Il cherchait à rendre contraignante une trajectoire pluriannuelle. Le projet prévoyait également des modalités de compensation des écarts constatés en exécution, à préciser par une loi organique. Ses articles 5 et 6 interdisaient l’adoption définitive d’un budget de l’État ou de la Sécurité sociale sans loi-cadre applicable à l’exercice concerné.\nAutre verrou envisagé : le Conseil constitutionnel aurait dû examiner la conformité des deux textes budgétaires annuels à la loi-cadre avant leur promulgation. Cette articulation entre programmation, plafonds et contrôle juridictionnel explique la portée du texte ancien. Elle ne permet toutefois pas de connaître les seuils, le rythme de redressement ou les modalités que retiendrait une éventuelle initiative en 2027.\nPourquoi le vote de 2011 n’a pas suffi\nLa réforme préparée sous le gouvernement de François Fillon avait franchi les lectures parlementaires. Le dossier législatif du Sénat retrace notamment son vote du 11 juillet 2011, suivi de l’adoption sans modification par l’Assemblée nationale le 13 juillet. La version finale précise expressément qu’elle ne deviendrait définitive qu’après approbation par référendum ou par le Parlement réuni en Congrès. Cette dernière étape n’a pas eu lieu.\nLa distinction demeure essentielle aujourd’hui : un texte adopté dans les mêmes termes par les députés et les sénateurs n’est pas, à lui seul, une révision de la Constitution. Selon la procédure décrite par le Sénat au titre de l’article 89, un projet de révision peut être soumis par le président au Congrès après son adoption identique dans les deux assemblées. Il faut alors recueillir les trois cinquièmes des suffrages exprimés. La voie du référendum reste également prévue.\nLe fait que certains partis se disent favorables au principe d’une règle d’or ne garantit pas l’approbation d’un texte précis. Le contenu des obligations, leurs exceptions éventuelles et le calendrier compteraient autant que l’accord de principe pour apprécier la possibilité d’un vote.\nUne hypothèse de janvier 2027, pas une nouvelle contrainte en vigueur\nLe débat sur les finances publiques intervient pendant l’examen des budgets. Mais le projet de Congrès évoqué par la presse le 22 novembre reste une hypothèse politique. L’absence de commentaire de l’Élysée ne constitue ni une confirmation ni une décision formelle.\nPour les ménages et les entreprises, aucun nouveau prélèvement ni aucune réduction immédiate de dépense ne découle de cette seule information. Les effets concrets dépendraient d’une éventuelle révision adoptée, puis des textes fixant ses conditions d’application et des choix budgétaires ultérieurs. À ce jour, le document le plus précis demeure celui de juillet 2011 : il éclaire le mécanisme envisagé, sans préjuger du contenu d’une réforme à venir.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a90",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a90.json",
+ "limite_caracteres": 2500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 2500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Le Grand Continent\nRubrique : Géopolitique\nDate du flux : 22/11/2026\nAuteur : Ramona Bloj\nTitre d'origine : En Espagne, Vox est aux portes du pouvoir\n\nARTICLE :\nSelon un sondage exclusif Cluster 17 réalisé en amont des élections générales espagnoles du 29 novembre 2026, le Parti populaire (PP), mené par Alberto Núñez Feijóo (30,4 %) est au coude-à-coude avec le Parti socialiste ouvrier espagnol (PSOE) de Pedro Sánchez (29,9 %).\n- Suit Vox (extrême droite), mené par Santiago Abascal avec 18,4 % d’intention de vote et Frente Amplio (5,8 %).\n- Il s’agit d’une percée extraordinaire pour Vox, qui avait obtenu 12,38 % des voix lors du scrutin de 2023, et qui semble avoir réussi à capter une partie de l’électorat du PP. La gauche recule également : Sumar, le parti de Yolanda Díaz, désormais fondu dans le Front large, obtient moins de voix que lors du précédent scrutin (12,33 %).\n- La participation est estimée à 69 %.\n- Si ces intentions de vote se confirmaient le jour du scrutin, le PP obtiendrait 125 sièges, le PSOE 120 et Vox 65.\n- Avec 190 députés, le PP et Vox atteignent la majorité absolue, alors que le PSOE et ses alliés de gauche plafonnent à 150.\n- Dans une enquête Cluster-17 de fin octobre, une coalition PP-Vox était toutefois jugée inacceptable par 54 % des personnes interrogées.\nLe parti de Pedro Sánchez recule légèrement dans les intentions de vote (il avait obtenu 31,68 % des suffrages en 2023 et semble désormais bénéficier de l’affaiblissement de la gauche radicale), et faute de coalition viable, le Premier ministre en poste depuis 2018 pourrait toutefois perdre le pouvoir.\n- Il s’agit de la quatrième élection générale pour Pedro Sánchez en tant que Premier ministre.\n- L’un des derniers gouvernements clairement de gauche en Europe, il se distingue par plusieurs positions qui tranchent avec le consensus des partis au pouvoir sur le continent : une politique migratoire ouverte, une opposition à la hausse des dépenses de défense, une politique d’ouverture envers la Chine ainsi qu’un projet de croissance verte qui a vu un déploiement massif des renouvelables, qui atteignent 60 % de la production électrique.\n- Sanchez est également parvenu à se maintenir au pouvoir sans parvenir à faire adopter de budget depuis 2022.\nL’élection a lieu alors que l’Espagne a connu deux accidents ferroviaires majeurs cette année et que l’entourage de Sánchez est éclaboussé par des affaires de corruption.\n- Selon le sondage Cluster 17 réalisé fin octobre, parmi les principales préoccupations des électeurs figurent le coût de la vie (47 %), la santé (43 %), le logement (38 %) et la corruption (37 %).\n- La demande électorale est cependant extrêmement clivée. Les priorités divergent nettement selon les préférences politiques, la corruption et l’immigration dominent chez les électeurs de droite, la santé et le logement chez ceux de gauche.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a151",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a151.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Inside Climate News\nRubrique : Climat\nDate du flux : 22/11/2026\nAuteur : Bob Berwyn; Corey Mitchell\nTitre d'origine : UN’s COP31 Climate Conference Fizzles Out as Global Policy Divides Deepen\n\nARTICLE :\nANTALYA, Turkey—By the time the United Nations COP31 climate talks ended Sunday afternoon, the conference center resembled a going-out-of-business sale at a pawnshop for broken dreams.\nAs cleaning crews cleared away the debris left by more than 100,000 participants, Murat Kurum, president of the Conference of the Parties and Turkey’s minister of environment, urbanization and climate change, tried to tie together disparate parts of a draft climate deal with a shiny ribbon of multilateralism.\nMany countries were not buying it.\nFor the first time since 2009, the conference ended without consensus on a cover decision, the concluding statement that typically signals global solidarity on how to confront the worsening climate crisis. Countries did adopt several decisions, including a program to help workers and communities transition away from fossil fuels, and a plan to assess progress on climate adaptation.\nThe failure to agree on an overarching conference statement reflected deep divisions over whether the agreement should mention fossil fuels and carbon capture, as well as how much climate financing developed countries should provide to developing nations hit by costly climate disasters.\nThe European Union, as well as several Latin American countries and Pacific Island states, said they would not accept the proposed text from the conference leaders.\nCover decisions at the annual conferences usually focus on new steps or language that could reinforce international efforts to slow global warming. A central aim at this meeting was to set quantifiable but voluntary global goals for the widespread electrification of economies, and to increase funding from developed countries to help developing countries adapt to climate impacts.\nIn 2022, the U.N. conference in Egypt agreed to establish a loss and damage fund to help vulnerable countries pay for irreversible climate impacts. A year later in Dubai, delegates from more than 190 countries agreed, for the first time, that a “just and orderly” transition away from fossil fuels in energy systems is needed to slow global warming.\nSince then, international collaboration on climate issues has declined amid increased conflict, rising oil and gas prices and economic insecurity. The talks in Turkey ran two days beyond the scheduled end without reaching broad agreement on potential next steps, an outcome that won’t kill the global effort but is widely viewed as a serious setback.\nBut compromise for the sake of consensus is not enough, said Kathy Jetn̄il-Kijiner, a climate envoy for the Marshall Islands Ministry of the Environment.\n“We will not be forced to accept false solutions,” she said. “We will not compromise our future to benefit fossil fuel interests.” As written, she added, the Antalya Pact undermines her country’s security and threatens its future.\n“People are dying, seas are rising and ecosystems are collapsing,” Jetn̄il-Kijiner said. “Are we so divorced from reality that we take backward steps, even as overshoot threatens to overtake us? To accept this deal would be a betrayal to the Marshallese people.”\nIt’s not the first time Pacific Island nations threatened by rising seas have objected to the outcome at one of the United Nations’ annual conferences. During the 2023 U.N. talks in Dubai, a final text was adopted even though a delegation representing 39 small island developing states objected because they were still outside the plenary meeting, trying to coordinate their position.\nBut in Antalya, the divide ran much deeper. The economically powerful and politically influential European Union, representing 28 member countries, also rejected the proposed agreement.\nIreland’s climate, energy and environment minister, Darragh O’Brien, said the European countries formally objected to the cover decision because it fell short of what the global climate crisis demands.\n“We will not endorse a decision that does not even mention fossil fuels, the key driver of climate change, and not accept a COP that greenwashes fossil fuels,” said O’Brien, speaking on behalf of the EU during Ireland’s rotating presidency.\nEgypt and Brazil, hosts of the U.N. climate talks in 2023 and 2025, also criticized the text proposed by COP31 president Kurum of Turkey and Chris Bowen of Australia, president of the conference negotiations.\nThis story is funded by readers like you.\nOur nonprofit newsroom provides award-winning climate coverage free of charge and advertising. We rely on donations from readers like you to keep going. Please donate now to support our work.\nDonate Now\nLiliam Beatris Chagas de Moura, director for climate at Brazil’s Ministry of Foreign Affairs, said she was disappointed that this year’s conference did not sustain the momentum from last year’s talks in her country.\nMohammad Ayoub, a climate negotiator with the Saudi Arabian energy ministry, said the 22-member League of Arab States supported the proposed Antalya Pact. He criticized developed countries for using up most of the global carbon budget, the amount of fossil fuels that can be burned without overheating the planet, and then asking developing countries to give up the very energy sources that fueled their own growth.\nAyoub condemned some countries’ opposition to including references to carbon dioxide removal and carbon capture and storage in the pact, calling their resistance to those technologies unscientific.\nCarbon capture and storage are not close to being deployed fast enough “to keep 1.5 degrees within reach,” he said, referring to the long-term goal of limiting the average global temperature increase established by the 2015 Paris climate agreement.\n“We believe that climate change requires all solutions on the table, and that countries select from these solutions depending on their national circumstances.”\nU.N. Secretary-General António Guterres said he was “deeply disappointed” that the talks ended without consensus on an overarching agreement.\n“But this setback does not change the facts,” he said. “Fossil fuels are driving the climate crisis. We can’t put out the fire while pouring fuel on it.”\nAbout This Story\nPerhaps you noticed: This story, like all the news we publish, is free to read. That’s because Inside Climate News is a 501c3 nonprofit organization. We do not charge a subscription fee, lock our news behind a paywall, or clutter our website with ads. We make our news on climate and the environment freely available to you and anyone who wants it.\nThat’s not all. We also share our news for free with scores of other media organizations around the country. Many of them can’t afford to do environmental journalism of their own. We’ve built bureaus from coast to coast to report local stories, collaborate with local newsrooms and co-publish articles so that this vital work is shared as widely as possible.\nTwo of us launched ICN in 2007. Six years later we earned a Pulitzer Prize for National Reporting, and now we run the oldest and largest dedicated climate newsroom in the nation. We tell the story in all its complexity. We hold polluters accountable. We expose environmental injustice. We debunk misinformation. We scrutinize solutions and inspire action.\nDonations from readers like you fund every aspect of what we do. If you don’t already, will you support our ongoing work, our reporting on the biggest crisis facing our planet, and help us reach even more readers in more places?\nPlease take a moment to make a tax-deductible donation. Every one of them makes a difference.\nThank you,",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
