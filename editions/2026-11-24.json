@@ -1,0 +1,360 @@
+{
+ "date": "2026-11-24",
+ "nouveaux_mots": [
+  {
+   "mot": "Levier",
+   "nature": "n. m.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Moyen d'action permettant d'obtenir un effet important.",
+   "exemple": "La formation est un levier de performance."
+  },
+  {
+   "mot": "Entériner",
+   "nature": "v. tr.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Rendre définitif en approuvant officiellement.",
+   "exemple": "Le conseil a entériné la décision."
+  },
+  {
+   "mot": "Obséquieux",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Poli et empressé à l'excès, servile.",
+   "exemple": "Un serveur obséquieux."
+  },
+  {
+   "mot": "Contumace",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Situation d'un accusé qui ne se présente pas à son procès.",
+   "exemple": "Condamné par contumace."
+  },
+  {
+   "mot": "Antienne",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Propos répété sans cesse ; refrain.",
+   "exemple": "La même antienne sur la baisse des coûts."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Ostentatoire",
+   "definition": "Qui est fait avec ostentation, pour être remarqué."
+  },
+  {
+   "mot": "Titrisation",
+   "definition": "Technique financière qui transforme des créances peu liquides en titres négociables sur un marché."
+  },
+  {
+   "mot": "Résilience",
+   "definition": "Capacité à résister à un choc et à s'en remettre."
+  },
+  {
+   "mot": "Morose",
+   "definition": "Triste et maussade ; sans entrain."
+  },
+  {
+   "mot": "Clause léonine",
+   "definition": "Clause qui attribue à une partie la totalité des profits ou l'exonère de toute perte, réputée non écrite en droit des sociétés."
+  }
+ ],
+ "articles": [
+  "https://www.actuia.com/actualite/openrouter-durcit-son-option-zero-data-retention-apres-lenquete-de-dragos/",
+  "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
+  "https://www.actuia.com/actualite/la-cedh-ecarte-pour-deux-ans-une-avocate-qui-citait-une-jurisprudence-inventee-par-lia/",
+  "https://www.actuia.com/actualite/la-resolution-mondiale-sur-lia-a-lecole-vise-dabord-les-editeurs/",
+  "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+  "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+  "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+  "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+  "https://www.lemonde.fr/politique/article/2026/11/23/budget-2027-sebastien-lecornu-appelle-au-compromis-dans-une-lettre-aux-parlementaires-et-liste-les-priorites-du-gouvernement_6814451_823448.html",
+  "https://www.lemonde.fr/politique/article/2026/11/23/retraites-la-cour-des-comptes-plaide-pour-une-limitation-des-possibilites-de-departs-anticipes_6814442_823448.html",
+  "https://www.franceinfo.fr/economie/industrie/la-france-va-se-doter-de-stocks-strategiques-de-terres-rares-et-metaux-prioritaires-annonce-l-elysee_8296749.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/economie/crise/crise-de-la-dette/la-regle-d-or-budgetaire-envisagee-par-emmanuel-macron-un-dispositif-pense-pour-calmer-les-marches-financiers-et-garantir-l-equilibre-des-comptes-publics_8295920.html#xtor=RSS-3-[lestitres]",
+  "https://www.publicsenat.fr/actualites/politique/incendie-de-la-mairie-de-limoges-le-senat-vote-la-defiscalisation-majoree-des-dons-des-particuliers",
+  "https://www.franceinfo.fr/politique/front-national/jordan-bardella-affirme-qu-a-sa-connaissance-personne-au-rn-n-a-beneficie-de-fuites-et-juge-etrange-le-timing-de-la-perquisition-du-siege-de-son-parti_8296713.html#xtor=RSS-3-[lestitres]",
+  "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31",
+  "https://legrandcontinent.eu/fr/2026/11/23/larmee-russe-a-t-elle-assez-dhommes-pour-continuer-la-guerre/",
+  "https://www.scmp.com/news/china/politics/article/3375455/whats-stake-and-battlegrounds-watch-taiwan-heads-polls",
+  "https://www.politico.eu/article/estonia-foreign-minister-margus-tsahkna-close-border-russia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines?traffic_source=rss",
+  "https://www.federalreserve.gov/econres/feds/the-welfare-effects-of-bank-liquidity-and-capital-requirements.htm",
+  "https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0001098",
+  "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3312~6f0e0bfceb.en.pdf",
+  "https://www.federalreserve.gov/econres/feds/wheres-the-bank-banking-access-in-the-era-of-branch-consolidation.htm",
+  "https://www.nber.org/papers/w36044#fromrss",
+  "https://www.pewresearch.org/short-reads/2026/11/23/74-of-us-latinos-say-theyve-seen-or-heard-about-ice-activity-in-their-local-area/",
+  "https://united24media.com/war-in-ukraine/eu-targets-60-russian-banks-shadow-fleet-and-ex-combatants-in-new-sanctions-package-24645",
+  "https://www.regulationtomorrow.com/2026/11/amla-consults-on-draft-rts-for-aml-cft-supervisory-colleges-in-the-financial-and-non-financial-sectors/",
+  "https://www.consilium.europa.eu/en/press/press-releases/2026/11/23/eu-sanctions-against-terrorism-council-lists-the-founder-of-the-base/",
+  "https://harici.com.tr/en/authorities-in-sweden-and-italy-scrutinize-revolut-over-illicit-flows/",
+  "https://aeon.co/essays/what-can-we-learn-from-the-past-experience-of-el-nino",
+  "https://lejournal.cnrs.fr/articles/la-kakistocratie-ou-pourquoi-elit-les-moins-competents",
+  "https://www.sciencesetavenir.fr/espace/exploration/la-mission-bepicolombo-est-entree-dans-l-orbite-de-mercure-apres-huit-ans-de-voyage_196351?xtor=RSS-9",
+  "https://www.sciencesetavenir.fr/animaux/les-babouins-males-adultes-victimes-des-rapaces_196308?xtor=RSS-26",
+  "https://theconversation.com/ces-abeilles-sauvages-possedent-un-pouvoir-etonnant-qui-pourrait-contribuer-a-lutter-contre-la-resistance-aux-antibiotiques-296847",
+  "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/"
+ ],
+ "titres": [
+  "OpenRouter durcit son option Zero Data Retention après l'enquête de Dragos",
+  "OpenAI : la perplexité comme mesure commune et des limites à fixer entre labos",
+  "La CEDH exclut pour deux ans une avocate qui citait une jurisprudence inventée",
+  "IA à l'école : la résolution mondiale de la GPA vise d'abord les éditeurs",
+  "Budget 2027 : Lecornu appelle au compromis et fixe cinq priorités",
+  "Retraites : la Cour des comptes veut limiter les départs anticipés",
+  "La France va constituer des stocks stratégiques de terres rares et de métaux",
+  "Revue du matin de NPR : large victoire démocrate, Bourse, Pologne et COP31",
+  "Russie : les pertes de l'armée dépassent les recrutements depuis six mois",
+  "Banques : exiger des liquidités coûte bien moins cher que du capital",
+  "Chaleur et fumées d'incendie : des hôpitaux de San Francisco mal préparés",
+  "UE : 22e paquet de sanctions visant banques, flotte fantôme et ex-combattants",
+  "LCB-FT : l'AMLA consulte sur les collèges de superviseurs, financiers ou non",
+  "El Niño 2026 : ce que l'histoire dit d'un phénomène aussi humain que naturel",
+  "Kakistocratie : pourquoi élit-on des responsables peu compétents ?"
+ ],
+ "solutions": {
+  "sudoku": [
+   9,
+   6,
+   5,
+   7,
+   1,
+   8,
+   2,
+   3,
+   4,
+   3,
+   7,
+   2,
+   4,
+   5,
+   9,
+   1,
+   8,
+   6,
+   4,
+   8,
+   1,
+   3,
+   6,
+   2,
+   7,
+   5,
+   9,
+   8,
+   1,
+   3,
+   9,
+   4,
+   7,
+   5,
+   6,
+   2,
+   6,
+   9,
+   7,
+   8,
+   2,
+   5,
+   3,
+   4,
+   1,
+   5,
+   2,
+   4,
+   1,
+   3,
+   6,
+   9,
+   7,
+   8,
+   1,
+   3,
+   9,
+   6,
+   7,
+   4,
+   8,
+   2,
+   5,
+   2,
+   4,
+   8,
+   5,
+   9,
+   3,
+   6,
+   1,
+   7,
+   7,
+   5,
+   6,
+   2,
+   8,
+   1,
+   4,
+   9,
+   3
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     2,
+     4
+    ],
+    [
+     0,
+     4,
+     6,
+     1
+    ],
+    [
+     0,
+     5,
+     4,
+     3
+    ],
+    [
+     0,
+     8,
+     6,
+     2
+    ],
+    [
+     2,
+     0,
+     3,
+     2
+    ],
+    [
+     2,
+     2,
+     5,
+     2
+    ],
+    [
+     4,
+     5,
+     6,
+     2
+    ],
+    [
+     4,
+     7,
+     6,
+     1
+    ],
+    [
+     5,
+     0,
+     4,
+     1
+    ],
+    [
+     5,
+     1,
+     5,
+     1
+    ],
+    [
+     6,
+     4,
+     4,
+     1
+    ],
+    [
+     6,
+     8,
+     4,
+     2
+    ],
+    [
+     7,
+     2,
+     1,
+     2
+    ],
+    [
+     8,
+     2,
+     2,
+     2
+    ],
+    [
+     9,
+     0,
+     1,
+     1
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    3,
+    6,
+    4,
+    1,
+    5,
+    2
+   ],
+   [
+    5,
+    1,
+    3,
+    2,
+    4,
+    6
+   ],
+   [
+    1,
+    5,
+    6,
+    4,
+    2,
+    3
+   ],
+   [
+    4,
+    2,
+    5,
+    6,
+    3,
+    1
+   ],
+   [
+    2,
+    4,
+    1,
+    3,
+    6,
+    5
+   ],
+   [
+    6,
+    3,
+    2,
+    5,
+    1,
+    4
+   ]
+  ],
+  "compte": [
+   "9 × 2 = 18",
+   "18 + 7 = 25",
+   "25 × 6 = 150",
+   "150 + 100 = 250",
+   "250 − 5 = 245"
+  ]
+ },
+ "reponses_quiz": []
+}
