@@ -1,0 +1,28 @@
+{
+ "titre": "OpenRouter durcit son option Zero Data Retention après l'enquête de Dragos",
+ "chapo": "Après les tests de Dragos, OpenRouter a exclu trois fournisseurs et retiré 125 endpoints de l'éligibilité ZDR, promesse de non-conservation des requêtes.",
+ "sections": [
+  {
+   "intertitre": "Le déclencheur : un lien secret ouvert à Pékin et à Shanghai",
+   "texte": "Plus de trois semaines après l'avoir glissé dans une requête marquée Zero Data Retention (ZDR), l'équipe de Dragos a vu l'un de ses liens secrets apparaître dans un canal de la messagerie Feishu. En deux minutes, il a été ouvert depuis trois ordinateurs et trois téléphones, à Pékin et à Shanghai. Ce marquage réserve en principe une requête aux hébergeurs qui déclarent ne conserver ni le prompt ni la réponse après traitement. L'épisode figure dans l'expérience que HD Moore, directeur de la recherche de Dragos, a publiée le 19 novembre 2026. De juillet à novembre, son équipe a envoyé environ deux millions de prompts à des services d'IA, chacun avec une clé AWS et une URL uniques, puis a surveillé qui s'en servait."
+  },
+  {
+   "intertitre": "Ce qu'OpenRouter a décidé",
+   "texte": "Le 22 novembre, OpenRouter, qui achemine les requêtes de ses clients vers les hébergeurs de modèles, a exclu trois fournisseurs d'inférence et retiré de l'éligibilité ZDR 125 endpoints, chacun correspondant à un modèle servi par un hébergeur. Les chercheurs avaient signalé des fournisseurs dont les données avaient été compromises ou qui montraient des signes de non-respect de leurs politiques de données. Leurs travaux n'ont montré aucune brèche dans les systèmes d'OpenRouter. Les 125 endpoints comprennent ceux des fournisseurs signalés et d'autres, écartés par précaution. Tous les clients potentiellement concernés ont été prévenus. Le billet ne nomme pas les trois exclus et renvoie aux communiqués de quatre fournisseurs."
+  },
+  {
+   "intertitre": "Quatre hébergeurs, quatre incidents",
+   "texte": "Phala décrit une intrusion : un attaquant a pris le contrôle de la machine virtuelle d'inférence d'un serveur GPU servant DeepSeek V4 Flash 0731. Les requêtes acheminées entre le 21 octobre et le 8 novembre sont à considérer comme exposées. Chez Novita AI, une erreur de configuration a étendu un chemin de réexpédition : du 28 mai au 11 novembre, des requêtes destinées aux modèles MiniMax ont été transmises à l'API officielle de MiniMax au lieu d'être traitées sur l'infrastructure de Novita. Atlas Cloud indique que des liens contenus dans des prompts envoyés à cette API, par son intermédiaire, ont été ouverts par un tiers ; l'accès n'a pas eu lieu sur son infrastructure, et il a retiré ses modèles d'OpenRouter le temps de les tester. Chez Together AI, des échantillons de prompts de juin et juillet ont fuité après qu'un agent de codage IA a publié sur GitHub l'identifiant d'accès au dépôt Hugging Face privé où ils étaient stockés ; le ZDR devient le réglage par défaut des nouveaux comptes. Phala, Novita et Atlas Cloud demandent de révoquer ou de renouveler les clés d'API et autres secrets transmis."
+  },
+  {
+   "intertitre": "Des vérifications au lieu de la parole des fournisseurs",
+   "texte": "L'accord de traitement des données d'OpenRouter, mis à jour le 26 août 2026, précise que l'inscription sur la liste ZDR reflète la politique déclarée par le fournisseur et « ne constitue pas une garantie d'OpenRouter ». Avant le 22 novembre, l'éligibilité reposait donc sur la parole des fournisseurs. OpenRouter annonce désormais qu'il adapte la méthode des chercheurs pour la répéter en continu, qu'il contrôle les chemins réseau pour repérer les requêtes transmises à des tiers, et qu'il exigera des garanties et une validation avant de rendre l'éligibilité à un endpoint retiré."
+  },
+  {
+   "intertitre": "Les limites d'un réglage de confidentialité",
+   "texte": "Selon Dragos, un réglage de confidentialité n'engage que le premier intermédiaire, comme le montrent les requêtes transmises à MiniMax. L'entreprise conseille de choisir soi-même les hébergeurs autorisés, de vérifier que les réglages changent réellement la destination des requêtes, ou de passer directement par un fournisseur de premier rang. Dragos dit travailler désormais avec une douzaine de fournisseurs et ne serait pas surpris que ce nombre augmente. Tous les fournisseurs touchés ne se sont pas exprimés : les quatre communiqués ne décrivent qu'une partie des incidents."
+  }
+ ],
+ "synthese": "Le marquage ZDR reposait sur les déclarations des hébergeurs, et l'expérience de Dragos a montré des écarts réels. OpenRouter promet désormais des contrôles continus, mais le risque demeure au-delà du premier intermédiaire.",
+ "republication": ""
+}

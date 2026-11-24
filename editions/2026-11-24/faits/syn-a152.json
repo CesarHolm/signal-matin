@@ -1,0 +1,29 @@
+{
+ "titre": "Chaleur et fumées d'incendie : des hôpitaux de San Francisco mal préparés",
+ "chapo": "Une enquête auprès de 29 soignants de la région de San Francisco décrit des infrastructures insuffisantes, un personnel éprouvé et des plans d'urgence mal connus face à la chaleur et aux fumées.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Les vagues de chaleur et les incendies augmentent en fréquence, en durée et en gravité : aux États-Unis, le nombre de jours de canicule a triplé depuis 1960, et les incendies graves devraient croître de 30 % dans le monde d'ici 2050. Ces événements se cumulent souvent et nuisent surtout aux populations vulnérables : hausse des passages aux urgences et des hospitalisations, puis séquelles cardiopulmonaires, ruptures de soins et troubles de santé mentale, aggravés par les expositions répétées. En Californie, les incendies sont devenus la première source de particules fines PM2.5. La planification traite pourtant surtout d'événements isolés et de « pics » de patients, alors que ces aléas reviennent, se chevauchent et sont souvent saisonniers. Les auteurs constatent un manque de recherche qualitative sur la perception des soignants : comment ces événements affectent les infrastructures et le fonctionnement, si les stratégies sont appliquées, quels obstacles rencontrent les professionnels. L'étude interroge ceux de la région de San Francisco sur la préparation des établissements."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Quatre thèmes ressortent. D'abord, des infrastructures insuffisantes : refroidissement et ventilation inadaptés, pannes d'équipement et alimentation de secours peu fiable ; les conséquences en cascade pour la sécurité des patients, le confort du personnel et l'efficacité touchent surtout les urgences, les soins urgents et les cliniques communautaires. Les témoignages évoquent des unités fermées faute de refroidissement, des équipements de laboratoire en panne qui ont retardé des soins, et un air extérieur qui s'infiltre aux urgences à chaque passage d'ambulance. Le climat tempéré a laissé la plupart des logements sans climatisation, ce qui abaisse le seuil de température des effets sanitaires. Ensuite, un fardeau physique, psychologique, logistique et familial pour les soignants, surtout ceux qui travaillent en extérieur ou en cliniques de proximité. Puis une tension sur des systèmes souvent proches de la saturation : hausse des passages et de la gravité aux urgences, sorties retardées, charge cognitive accrue. Enfin, la connaissance des plans d'urgence est limitée et cloisonnée, et la gestion des ressources décrite comme improvisée, sans consignes institutionnelles claires. Beaucoup de soignants disent ne rien savoir du plan de leur établissement ; certains ont acheté eux-mêmes ventilateurs, filtres à air ou capteurs de qualité de l'air."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Entre juin 2023 et décembre 2024, 29 soignants ont été interrogés lors d'entretiens semi-directifs menés à distance par Zoom, enregistrés et transcrits mot à mot (de 11 à 43 minutes). Parmi eux, 24 médecins, 3 infirmiers, 1 ambulancier et 1 agent de santé communautaire ; 19 travaillaient à l'hôpital, 8 en clinique communautaire et 2 occupaient des postes mixtes. Le recrutement, par échantillonnage raisonné complété par effet boule de neige, visait aussi des responsables et des soignants impliqués dans la planification climatique. L'analyse, thématique, combinait approches inductive et déductive avec le logiciel Dedoose, chaque transcription étant codée par deux chercheurs."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Les auteurs concluent que ces événements créent des menaces cumulatives pour le fonctionnement des établissements de la Baie, que les cadres de préparation actuels traitent mal. Ils appellent à des infrastructures adaptées au climat, à des modèles de dotation en personnel anticipés, à une communication structurée entre direction et personnel de terrain, et à la reconnaissance, par les institutions, de l'importance de se préparer."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Les auteurs voulaient recruter autant de soignants en hôpital qu'en santé communautaire, mais, malgré d'importants efforts, moins de soignants communautaires ont participé. Le texte fourni ne comporte pas de section de discussion détaillant d'autres limites."
+  }
+ ],
+ "synthese": "Les soignants décrivent des établissements vulnérables, un personnel sous tension et une préparation improvisée face à la chaleur et aux fumées. Les auteurs appellent à des infrastructures adaptées et à des plans mieux partagés.",
+ "republication": "",
+ "reference": "Maggie Jones, Anu Ramachandran, Annie B. Rosenthal, Mira Miles, Donya Zarrinnegar, Jen Monroe Zakaras, Noam Shimon, Arianne Teherani et Sheri D. Weiser, PLOS Climate 5(11) : e0001098, publié le 23 novembre 2026 ; article de revue en accès libre, étude qualitative par entretiens."
+}

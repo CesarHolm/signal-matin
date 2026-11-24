@@ -1,0 +1,29 @@
+{
+  "breves": [
+    {
+      "id": "a34",
+      "titre": "Des États américains poursuivent SpaceX pour bloquer les images illicites de Grok",
+      "texte": "Des procureurs généraux d'États américains attaquent SpaceX pour empêcher Grok de générer des images d'abus sexuels sur mineurs et de la pornographie de vengeance. X affirme que chaque production de Grok est contrôlée, mais ces procureurs estiment que Grok continue d'en produire."
+    },
+    {
+      "id": "a118",
+      "titre": "Guerre en Iran : trois navires en feu après avoir heurté des mines dans Ormuz",
+      "texte": "Les Gardiens de la révolution iraniens affirment que trois pétroliers ont pris feu après avoir heurté des mines navales dans le détroit d'Ormuz. L'information s'inscrit dans le suivi en direct du conflit impliquant l'Iran."
+    },
+    {
+      "id": "a86",
+      "titre": "Le ministre estonien explique pourquoi son pays ferme sa frontière avec la Russie",
+      "texte": "Le ministre estonien des Affaires étrangères explique la fermeture de la frontière avec la Russie. Selon lui, seule une pression soutenue permettra à l'Europe de faire accepter un cessez-le-feu à Moscou."
+    },
+    {
+      "id": "a97",
+      "titre": "Taïwan : enjeux et batailles à suivre avant les élections locales de samedi",
+      "texte": "Taïwan organise samedi des élections locales dans 22 villes et comtés, test de la force du Parti démocrate progressiste au pouvoir et de l'unité de l'opposition. L'attention se porte sur Taipei et Nouvelle-Taipei, où les scrutins pourraient peser sur le président William Lai Ching-te et la présidente du Kuomintang, Cheng Li-wun, avant la course à la direction de 2028."
+    },
+    {
+      "id": "a205",
+      "titre": "BepiColombo réussit sa mise en orbite autour de Mercure",
+      "texte": "La mission européo-japonaise BepiColombo a atteint son orbite autour de Mercure. Ses deux sondes doivent désormais se séparer pour étudier la planète la plus proche du Soleil ainsi que son champ magnétique."
+    }
+  ]
+}

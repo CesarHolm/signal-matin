@@ -1,0 +1,24 @@
+{
+ "titre": "IA à l'école : la résolution mondiale de la GPA vise d'abord les éditeurs",
+ "chapo": "Adoptée à Bruxelles les 16 et 17 novembre 2026, la résolution de la Global Privacy Assembly sur l'IA dans l'éducation demande surtout aux concepteurs d'outils d'exclure certaines fonctionnalités.",
+ "sections": [
+  {
+   "intertitre": "Ce qui a été adopté",
+   "texte": "La 48e Assemblée mondiale pour la protection de la vie privée (GPA) a adopté cette résolution lors de sa séance à huis clos des 16 et 17 novembre 2026 à Bruxelles. Elle a été préparée par le groupe de travail sur l'éducation numérique que préside et anime la CNIL, qui l'a présentée le 20 novembre. Parrainé par sept autorités dont la CNIL et l'ICO britannique et coparrainé par huit autres, le texte porte sur les élèves de moins de 18 ans du primaire et du secondaire. La Federal Trade Commission américaine s'est abstenue. La résolution ne crée d'obligation pour personne : ses six engagements sont ceux de l'assemblée, qui rassemble selon la CNIL plus de 130 autorités de plus de 80 pays. Un modèle de charte joint prévoit douze engagements pour les établissements, dont la plupart reprennent ce que le RGPD impose déjà : limiter la collecte de données à ce qu'exige la mission éducative, évaluer les risques d'un outil avant de l'adopter, régler la confidentialité au niveau le plus protecteur par défaut et prévenir vite élèves et parents d'une atteinte importante à leur vie privée. Parmi les six engagements, il s'agit d'informer, de diffuser le texte, de coopérer et d'inviter les membres à en tirer des lignes directrices complémentaires. La CNIL présente le cinquième comme un appel à élaborer un cadre légal ; dans le texte adopté, il met l'expertise de l'assemblée au service de futurs instruments d'orientation et de politiques mondiales."
+  },
+  {
+   "intertitre": "Les éditeurs : six fonctionnalités à écarter",
+   "texte": "Le principe 5 demande aux développeurs et fournisseurs d'écarter toute fonctionnalité contraire aux droits de l'enfant. Il en nomme six : anthropomorphisation, obséquiosité, manipulation subliminale, notation sociale, surveillance biométrique et reconnaissance des émotions. Les données des élèves sont exclues du profilage commercial, de la publicité et de l'entraînement de modèles commerciaux d'IA à usage général. Les fonctions conçues pour prolonger l'engagement doivent être désactivées par défaut. Le principe 10 énumère ce qu'un contrat avec le fournisseur devrait régler, du lieu de stockage aux transferts internationaux, et exclut l'entraînement du modèle sur les saisies des enfants sauf quatre conditions réunies. Selon le principe 6, les données sont rendues ou supprimées à la fin du contrat."
+  },
+  {
+   "intertitre": "Les écoles : renoncer aux outils trop risqués",
+   "texte": "Les responsables d'établissement doivent s'abstenir d'utiliser un outil dont les risques ne peuvent être atténués de façon adéquate. Le principe 3 constate que le consentement est souvent inapplicable à l'école, en raison du déséquilibre entre l'élève et l'institution. Le principe 9 relève que certains détecteurs de plagiat fondés sur l'IA peuvent abîmer la confiance entre élèves et enseignants ; le cadre d'usage publié par l'Éducation nationale en juin 2025 conseille déjà d'éviter ces logiciels. La résolution ne fixe aucun âge pour l'usage de l'IA : le cadre français l'autorise à partir de la 4e, et un rapport parlementaire a proposé le 1er juillet 2026 d'avancer le seuil à la 6e. L'annexe sur la littératie en IA recommande des exercices fondés sur les conditions d'utilisation réelles des outils employés à l'école, et d'autres qui simulent le dépôt d'une plainte. Former les élèves ne dispense pas l'établissement de choisir des services adaptés, sûrs et conformes au droit."
+  },
+  {
+   "intertitre": "Ce que le droit européen couvre déjà",
+   "texte": "Le règlement européen sur l'IA couvre une partie de ces exclusions, avec des sanctions que la résolution n'a pas. Son article 5 interdit depuis le 2 février 2025 les systèmes qui infèrent les émotions dans les établissements d'enseignement, sauf raisons médicales ou de sécurité. Son annexe III classe à haut risque quatre usages éducatifs ; depuis l'omnibus numérique adopté en 2026, les obligations correspondantes s'appliquent à partir du 2 décembre 2027. L'article 5 ne dit rien de l'anthropomorphisation ni de l'obséquiosité : sur ces deux points, les autorités de protection des données vont plus loin que le législateur européen."
+  }
+ ],
+ "synthese": "Sans valeur contraignante, la résolution fixe surtout des exigences aux concepteurs d'outils d'IA éducatifs. Elle complète le droit européen sur l'anthropomorphisation et l'obséquiosité.",
+ "republication": ""
+}

@@ -1,0 +1,29 @@
+{
+ "titre": "Banques : exiger des liquidités coûte bien moins cher que du capital",
+ "chapo": "Deux économistes de la Réserve fédérale chiffrent le coût social des exigences de liquidité et de fonds propres des banques et trouvent des niveaux optimaux proches de ceux de Bâle III.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Après la crise financière mondiale, Bâle III a renforcé les exigences de fonds propres et introduit de nouvelles exigences de liquidité, mais le débat persiste sur leur juste niveau, qui reste à l'agenda des régulateurs. Les auteurs relèvent que ce débat tient surtout à des vues divergentes sur le coût, pour la société, des contraintes imposées aux bilans bancaires. Si ce coût est assez bien étudié pour le capital, celui de la régulation de liquidité et son interaction avec le capital le sont beaucoup moins. Certains plaident pour une banque étroite, où les dépôts seraient couverts exclusivement par des actifs sûrs et liquides, ce qui reviendrait à une exigence de liquidité de 100 %. Pour fixer des niveaux optimaux, il faut donc en mesurer le coût social."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Pour les États-Unis, le coût d'une exigence de liquidité de 10 % équivaut à une perte permanente de consommation d'environ 0,02 %, un effet modeste. Même avec une méthode prudente, l'augmentation de même taille de l'exigence de capital coûte environ dix fois plus. Un passage complet à la banque étroite coûterait un ordre de grandeur de plus, environ 2,4 % de la consommation. Les réformes d'après-crise auraient apporté un gain net de bien-être d'environ 0,21 % de la consommation. Les niveaux qui maximisent le bien-être sont, dans la calibration de base, 13 % des actifs pondérés des risques pour le capital et 18 % des dépôts pour la liquidité, proches de Bâle III (ratio tier 1 moyen d'environ 13 %, ratio de liquidité observé d'environ 17 %). Selon les variantes, les fourchettes vont de 12 à 16 % pour le capital et de 17 à 24 % pour la liquidité."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Les auteurs bâtissent un modèle d'équilibre général où les banques créent de la liquidité en transformant des prêts peu liquides en dépôts liquides, et où les titres publics sont une autre source de liquidité. Les rendements d'équilibre révèlent la force de la préférence pour la liquidité : le coût marginal de l'exigence de liquidité dépend de l'écart entre dépôts et bons du Trésor, celui de l'exigence de capital du rendement de commodité des dépôts, deux formules reposant sur des variables observables. Ils les appliquent aux données américaines, puis calibrent le modèle complet, qui intègre l'aléa moral lié à l'assurance des dépôts, pour chiffrer bénéfices et niveaux optimaux. La modélisation de l'exigence de liquidité suit le ratio de couverture de liquidité (LCR) de Bâle III."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "L'exigence de liquidité coûte peu parce qu'elle transforme en pratique des titres publics en dépôts, deux actifs prisés pour leur liquidité : seul l'écart entre eux compte, et il est faible. L'exigence de capital remplace des dépôts par des fonds propres peu liquides, donc son coût suit la valeur de la liquidité des dépôts. Les deux régulations atténuent l'aléa moral créé par l'assurance des dépôts, avec une division du travail : la liquidité contre le risque de liquidité, le capital contre le risque de crédit. Elles peuvent aussi déplacer des activités vers des acteurs non bancaires comme les banques de l'ombre, surtout si les actifs liquides de qualité sont rares, et modifier l'investissement des entreprises. Les auteurs ajoutent que les approximations fondées sur leurs formules restent à 1 à 3 points de base des valeurs exactes pour des variations allant jusqu'à 10 points de pourcentage."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Le modèle ne comporte pas de prêteur en dernier ressort pouvant secourir des banques solvables en difficulté de liquidité, ce qui peut conduire à surestimer l'utilité de la régulation de liquidité, sans effet sur le calcul du coût. Les niveaux optimaux dépendent de la calibration, dont les cibles ne sont pas toutes aussi simples à choisir. Le second ratio de liquidité de Bâle III, le NSFR, est hors du champ de l'étude."
+  }
+ ],
+ "synthese": "Les auteurs concluent que la liquidité coûte peu et le capital beaucoup plus, mais que les deux restent utiles contre l'aléa moral de l'assurance des dépôts. Les niveaux optimaux estimés sont proches de ceux de Bâle III.",
+ "republication": "",
+ "reference": "Skander J. Van den Heuvel et Sergio Villalvazo, Réserve fédérale (Board of Governors, Washington), « The Welfare Effects of Bank Liquidity and Capital Requirements », Finance and Economics Discussion Series 2022-072r1, version révisée d'octobre 2026 ; document de travail préliminaire, diffusé pour susciter la discussion, qui n'engage pas le Board."
+}
