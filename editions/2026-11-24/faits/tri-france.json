@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a43", "score": 9, "raison": "Budget 2027 : rejet des projets de loi de finances à l'Assemblée et appel de Sébastien Lecornu au compromis."},
+    {"id": "a41", "score": 8, "raison": "Cour des comptes : recommandation de limiter les départs anticipés à la retraite pour garantir la soutenabilité du système."},
+    {"id": "a56", "score": 7, "raison": "Stocks stratégiques de terres rares et de métaux prioritaires annoncés par l'Élysée pour réduire la dépendance à la Chine."},
+    {"id": "a48", "score": 7, "raison": "Ligne 18 du Grand Paris Express compromise : enjeu d'infrastructure et de fiabilité du système d'automatisation."},
+    {"id": "a64", "score": 7, "raison": "Régulation par l'Arcom des créateurs de contenus politiques avant la présidentielle : une décision inédite."}
+  ],
+  "breves": [
+    {"id": "a50", "titre": "Règle d'or budgétaire : un dispositif pensé pour « calmer les marchés »", "texte": "Emmanuel Macron envisage une règle d'or budgétaire pour garantir l'équilibre des comptes publics. Si elle était votée par le Congrès, elle obligerait le gouvernement à faire adopter par le Parlement une loi-cadre d'au moins trois ans de retour vers l'équilibre."},
+    {"id": "a61", "titre": "Limoges : les dons pour l'hôtel de ville défiscalisés à 75 %", "texte": "Le Sénat a adopté lundi soir, lors de l'examen du budget, un amendement du gouvernement portant à 75 % la défiscalisation des dons pour la rénovation de l'hôtel de ville de Limoges. Le bâtiment historique avait été partiellement détruit par un incendie lors d'exactions commises en marge de la mobilisation du 17 octobre."},
+    {"id": "a57", "titre": "Bardella : « à sa connaissance » personne au RN n'a bénéficié de fuites", "texte": "Le président du RN juge « étrange » le timing de la perquisition du siège de son parti, menée le 9 novembre. Interrogé sur BFMTV lundi soir, il espère que cette opération n'avait pas d'autre but que celui mentionné dans l'affaire."}
+  ]
+}

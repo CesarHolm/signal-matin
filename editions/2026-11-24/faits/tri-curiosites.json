@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a205", "score": 8, "raison": "Mise en orbite de BepiColombo autour de Mercure, mission européo-japonaise : jalon spatial du jour."},
+    {"id": "a221", "score": 7, "raison": "Essai long sur El Niño et l'histoire des sociétés : sujet de fond, idée durable."},
+    {"id": "a198", "score": 6, "raison": "Étude d'économistes sur les mécanismes qui permettent d'élire des responsables peu compétents : science sociale grand public."},
+    {"id": "a197", "score": 6, "raison": "Mécanisme de réparation de l'ADN à la base de l'édition génétique : science grand public, en réserve."}
+  ],
+  "breves": [
+    {"id": "a201", "titre": "Au Tchad, des crânes de babouins portent les traces d'attaques d'aigles", "texte": "Des crânes de babouins retrouvés dans le désert tchadien portent les traces d'attaques d'aigles de Verreaux. Cette découverte suggère que nos ancêtres préhistoriques ont pu eux aussi être la cible de grands rapaces, avec de possibles conséquences sur l'évolution humaine."},
+    {"id": "a218", "titre": "Le miel d'une abeille australienne freine 16 types de bactéries et de champignons", "texte": "Le miel de Tetragonula carbonaria, une minuscule abeille sans dard de la côte est de l'Australie, arrête 16 types de bactéries et de champignons, dont des espèces redoutées à l'hôpital. De nombreuses études restent à mener avant de savoir si ce miel peut combattre des infections chez l'humain."},
+    {"id": "a224", "titre": "La NASA cherche des partenaires pour concevoir le premier réacteur nucléaire lunaire", "texte": "La NASA recherche des industriels pour concevoir et tester Lunar Reactor-1 (LR-1), premier réacteur nucléaire destiné à fournir de l'électricité sur la Lune. Ce petit système à fission doit produire 20 kilowatts, une étape vers une présence humaine durable à la surface lunaire."},
+    {"id": "a233", "titre": "Un recycleur américain de magnésium renonce au gaz à effet de serre le plus puissant", "texte": "À Anderson (Indiana), Advanced Magnesium Alloys Corp. était jusqu'à récemment le premier émetteur américain d'hexafluorure de soufre, le gaz à effet de serre le plus puissant de la planète. L'entreprise y a renoncé ; reste à savoir si d'autres industriels suivront."}
+  ]
+}

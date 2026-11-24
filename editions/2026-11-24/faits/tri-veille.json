@@ -1,0 +1,12 @@
+{
+  "developpes": [
+    {"id": "a171", "score": 9, "raison": "22e paquet de sanctions de l'UE contre la Russie : 60 banques russes, la flotte fantôme et d'anciens combattants visés."},
+    {"id": "a193", "score": 8, "raison": "MBDA poursuivi en justice pour manquement à son devoir de vigilance, après TotalEnergies : enjeu direct pour les entreprises."},
+    {"id": "a181", "score": 8, "raison": "La Chine propose d'élargir ses contrôles d'exportation à l'IA, à la biomédecine et au photovoltaïque : évolution réglementaire."},
+    {"id": "a185", "score": 7, "raison": "L'AMLA consulte sur un projet de normes techniques pour les collèges de superviseurs LCB-FT : évolution réglementaire européenne (en réserve)."}
+  ],
+  "breves": [
+    {"id": "a167", "titre": "Le Conseil de l'UE inscrit le fondateur de « The Base » sur sa liste de sanctions", "texte": "Le Conseil de l'Union européenne a inscrit le fondateur de « The Base » sur la liste des sanctions contre le terrorisme. Le flux ne précise pas les motifs détaillés de cette décision."},
+    {"id": "a189", "titre": "La Suède et l'Italie examinent Revolut au regard de flux illicites", "texte": "Les autorités suédoises et italiennes scrutent Revolut au sujet de flux financiers illicites. Le flux ne détaille ni la nature des soupçons ni l'état des procédures."}
+  ]
+}

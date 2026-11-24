@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a118", "score": 9, "raison": "Trois pétroliers ont pris feu après avoir heurté des mines dans le détroit d'Ormuz, selon les Gardiens de la révolution iraniens : escalade régionale."},
+    {"id": "a79", "score": 8, "raison": "Les démocrates remportent la Chambre avec la plus large marge depuis 50 ans, à la faveur des élections de mi-mandat américaines."},
+    {"id": "a86", "score": 8, "raison": "L'Estonie ferme sa frontière avec la Russie : la décision est expliquée par son ministre des affaires étrangères."},
+    {"id": "a120", "score": 7, "raison": "Analyse des capacités de recrutement russes : Moscou perdrait chaque mois plus d'hommes qu'elle n'en recrute (en réserve)."},
+    {"id": "a97", "score": 7, "raison": "Élections locales à Taïwan samedi : enjeu pour le Parti démocrate progressiste et l'opposition avant la course de 2028 (en réserve)."}
+  ],
+  "breves": [
+    {"id": "a80", "titre": "Zelensky revendique une attaque contre un navire de guerre russe en Libye", "texte": "Volodymyr Zelensky revendique une attaque contre un navire de guerre russe amarré à une base navale en Libye. Selon lui, des drones maritimes ont coulé le bâtiment lors d'un assaut surprise."},
+    {"id": "a113", "titre": "Megaspeed, au cœur du scandale Nvidia, ajoutée à la liste d'exportation américaine", "texte": "Le Bureau de la sécurité et de l'industrie américain ajoute la société basée à Singapour et six autres entités à sa liste de contrôle des exportations. Megaspeed est au centre du scandale impliquant Nvidia."},
+    {"id": "a85", "titre": "En Espagne, la guerre civile resurgit dans la campagne électorale", "texte": "À l'approche des élections, des responsables politiques rouvrent les plaies de la guerre civile commencée il y a 90 ans. L'extrême droite est en position de rejoindre le gouvernement."}
+  ]
+}

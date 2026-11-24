@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a125", "score": 8, "raison": "Coût social des exigences de liquidité et de fonds propres bancaires, chiffré sur données américaines : référence pour la régulation bancaire."},
+    {"id": "a152", "score": 7, "raison": "Vulnérabilités opérationnelles des établissements de santé californiens face à la chaleur extrême et aux fumées d'incendie (PLOS Climate)."},
+    {"id": "a131", "score": 7, "raison": "Traitement de l'addiction aux opioïdes et situation économique des patients : effets sur la survie et le crédit (en réserve)."},
+    {"id": "a154", "score": 6, "raison": "Formation de singularités en temps fini pour les équations d'Euler en dimension 3, exposée dans un billet de Terence Tao (en réserve)."}
+  ],
+  "breves": [
+    {"id": "a124", "titre": "Les frictions financières varient fortement d'une région européenne à l'autre", "texte": "Selon un document de travail de la BCE, l'accès au financement externe des entreprises présente une forte hétérogénéité régionale, persistante dans le temps. Les pays les plus contraints réagissent moins aux chocs monétaires, ce qui compte pour la politique monétaire."},
+    {"id": "a126", "titre": "Réserve fédérale : les agences bancaires américaines ont fortement reculé entre 2014 et 2024", "texte": "Le nombre d'agences bancaires américaines a baissé de plus de 19 points logarithmiques entre 2014 et 2024. Un modèle de concurrence spatiale publié par la Réserve fédérale prédit une densité d'agences proportionnelle à la densité de clientèle locale."},
+    {"id": "a134", "titre": "Économie : seuls 42 % des hypothèses préenregistrées ont des résultats publics", "texte": "Cette étude porte sur 5 057 hypothèses préenregistrées dans 317 études du registre de l'AEA entre 2015 et 2017. Huit à neuf ans après, seuls 42 % ont des résultats publics, dont 64 % sont nuls, sans sous-représentation nette de ces résultats."},
+    {"id": "a145", "titre": "74 % des Latinos américains disent avoir vu ou entendu parler d'opérations de l'ICE", "texte": "Selon une enquête du Pew Research Center, près de trois quarts des Latinos américains déclarent avoir vu ou entendu des arrestations ou raids de l'ICE dans leur quartier au cours des six derniers mois."}
+  ]
+}

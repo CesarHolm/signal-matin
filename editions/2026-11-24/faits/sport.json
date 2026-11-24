@@ -1,0 +1,38 @@
+{
+  "resultats": [
+    {
+      "sport": "Football",
+      "affiche": "Brentford – Everton",
+      "score": "4-0",
+      "competition": "Premier League (championnat d'Angleterre)",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401879237/everton-brentford"
+    }
+  ],
+  "a_suivre": [
+    {
+      "sport": "Football",
+      "affiche": "Arsenal – Borussia Dortmund",
+      "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue",
+      "heure": "21 h 00",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915295/borussia-dortmund-arsenal"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Manchester City – Napoli",
+      "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue",
+      "heure": "21 h 00",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915379/napoli-manchester-city"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Real Madrid – PSV",
+      "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue",
+      "heure": "21 h 00",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915298/psv-eindhoven-real-madrid"
+    }
+  ]
+}

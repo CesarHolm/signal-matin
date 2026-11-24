@@ -1,0 +1,16 @@
+{
+  "developpes": [
+    {"id": "a34", "score": 8, "raison": "Des États poursuivent SpaceX pour empêcher Grok de générer des images d'abus sexuels d'enfants et de revenge porn : enjeu juridique et de conformité."},
+    {"id": "a4", "score": 8, "raison": "OpenRouter retire 125 endpoints de l'éligibilité Zero Data Retention après une fuite de secrets dans des prompts : risque pour les données des clients."},
+    {"id": "a13", "score": 7, "raison": "OpenAI alerte sur des systèmes qui pourraient dépasser les contrôles de sécurité et appelle à des limites partagées entre acteurs."},
+    {"id": "a8", "score": 7, "raison": "La CEDH exclut pour deux ans une avocate ayant cité une jurisprudence inventée par l'IA : décision valable pour toutes les requêtes."},
+    {"id": "a5", "score": 6, "raison": "Résolution mondiale sur l'IA à l'école : fonctionnalités à exclure dès la conception et encadrement contractuel des données des élèves."},
+    {"id": "a19", "score": 6, "raison": "Preuve formelle vérifiable par machine d'un théorème mathématique produite par GPT-6.2 Astra : jalon technique (en réserve)."}
+  ],
+  "breves": [
+    {"id": "a1", "titre": "Un philosophe de renom conteste l'argument d'Anthropic sur la conscience de l'IA", "texte": "Selon MIT Technology Review, un philosophe de renom ne suit pas Anthropic sur la possibilité que l'IA soit consciente. Avant son entrée en Bourse, l'entreprise avait cité cette possibilité comme facteur de risque pour les investisseurs."},
+    {"id": "a22", "titre": "Anthropic lance Claude Ship, des agents qui examinent et valident le code", "texte": "Les nouveaux outils pour développeurs d'Anthropic permettent à des agents d'IA de traiter les approbations de routine des modifications de code. L'objectif est de lever un goulot d'étranglement, alors que le code généré par l'IA s'accumule."},
+    {"id": "a29", "titre": "Amazon rachète la technologie d'optimisation IA de Decart pour 7,5 milliards", "texte": "Amazon acquiert la technologie d'optimisation IA et l'équipe de recherche de Decart, dans une opération rapportée à 7,5 milliards de dollars. Le groupe se prépare à commercialiser ses puces Trainium."},
+    {"id": "a12", "titre": "xAI loue sa puissance de calcul plutôt que de la construire", "texte": "Depuis mai, SpaceXSI loue du calcul à des concurrents comme Anthropic et Google, tout en réduisant ses propres projets d'IA. Selon le New York Times, Anthropic paierait environ 3,1 milliards de dollars par mois, et Google 800 millions."}
+  ]
+}
