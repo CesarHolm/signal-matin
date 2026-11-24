@@ -1,0 +1,64 @@
+{
+ "id": "syn-a5",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a5.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : ActuIA\nRubrique : IA\nDate du flux : 23/11/2026\nAuteur : Stephane Nachez\nTitre d'origine : La résolution mondiale sur l'IA à l'école vise d'abord les éditeurs\n\nARTICLE :\nLe modèle de charte joint à la résolution commence par un blanc. L'établissement y inscrit son nom, puis prend douze engagements. Il promet notamment de limiter la collecte de données à ce qu'exige sa mission éducative, d'évaluer les risques d'un outil d'IA avant de l'adopter, de régler les paramètres de confidentialité au niveau le plus protecteur par défaut et de prévenir vite élèves et parents d'une atteinte importante à leur vie privée. La plupart de ces promesses reprennent ce que le RGPD impose déjà à une école. Les exigences les plus fermes du texte visent les concepteurs des outils.\nLa 48e Assemblée mondiale pour la protection de la vie privée (Global Privacy Assembly, GPA) a adopté cette résolution sur l'IA dans l'éducation lors de sa séance à huis clos des 16 et 17 novembre 2026 à Bruxelles. Elle a été préparée par le groupe de travail sur l'éducation numérique que préside et anime la CNIL, qui l'a présentée le 20 novembre, comme ActuIA l'a signalé dans une brève. Le texte, parrainé par sept autorités dont la CNIL et l'ICO britannique et coparrainé par huit autres, porte sur les élèves de moins de 18 ans du primaire et du secondaire. La Federal Trade Commission américaine s'est abstenue.\nLa résolution ne crée d'obligation pour personne. Ses six engagements sont ceux de l'assemblée, qui rassemble selon la CNIL plus de 130 autorités de plus de 80 pays : informer, diffuser le texte, coopérer, inviter ses membres à en tirer des lignes directrices complémentaires. La CNIL présente le cinquième comme un appel à élaborer un cadre légal. Dans le texte adopté, ce point met l'expertise de l'assemblée au service de futurs instruments d'orientation et de politiques mondiales sur l'IA en éducation.\nLa résolution demande aux éditeurs d'exclure six fonctionnalités dès la conception\nLe principe 5, consacré à la protection de la vie privée dès la conception et par défaut, demande aux développeurs et aux fournisseurs d'écarter toute fonctionnalité contraire aux droits de l'enfant. Il en nomme six. L'anthropomorphisation et l'obséquiosité y côtoient la manipulation subliminale, la notation sociale, la surveillance biométrique et la reconnaissance des émotions. Les données des élèves sont exclues du profilage commercial, de la publicité, de l'amélioration de produits sans lien avec le service éducatif et de l'entraînement de modèles commerciaux d'IA à usage général. Le principe veut aussi que les fonctions conçues pour prolonger l'engagement de l'élève soient désactivées par défaut.\nLes principes 10 et 6 se lisent comme des clauses de contrat. Le premier énumère ce qu'un accord entre l'établissement et son fournisseur devrait régler, du lieu de stockage des données aux sous-traitants ultérieurs, en passant par les accès, la durée de conservation et les transferts internationaux. Il exclut que les saisies des enfants, les réponses produites, l'historique des conversations ou les données d'analyse de l'apprentissage servent à entraîner ou à améliorer le modèle du fournisseur, sauf si quatre conditions sont réunies, dont un fondement juridique et une justification claire. Le principe 6 veut qu'à la fin du contrat les données soient rendues à l'établissement ou supprimées définitivement.\nLes écoles sont invitées à renoncer aux outils dont les risques persistent\nAux responsables d'établissement, la résolution rappelle leurs obligations de responsables de traitement. Elle leur demande de s'abstenir d'utiliser un outil quand ses risques ne peuvent pas être atténués de façon adéquate. Le principe 3 constate qu'à l'école le consentement peut souvent être inapplicable, à cause du déséquilibre entre l'élève et l'institution ou de restrictions légales. La CNIL tient la même ligne depuis le 20 juin 2025 : sa fiche destinée aux responsables de traitement fonde ces traitements sur la mission d'intérêt public et désigne le chef d'établissement comme responsable, dans le second degré, d'un outil choisi par un enseignant ou une équipe pédagogique.\nLe principe 9 relève que certains détecteurs de plagiat fondés sur l'IA peuvent abîmer la confiance entre élèves et enseignants. Le cadre d'usage de l'IA en éducation publié par le ministère de l'Éducation nationale en juin 2025 conseille déjà d'éviter les logiciels de détection de contenus générés. Il autorise l'usage de l'IA générative en classe à partir de la 4e. La résolution ne fixe aucun âge. Un considérant demande seulement de tenir compte de l'évolution des capacités des enfants pour décider « si, quand et comment » introduire ces outils, alors qu'en France un rapport parlementaire a proposé le 1er juillet 2026 d'avancer le seuil à la 6e.\nL'annexe consacrée à la littératie en IA recommande des exercices en classe fondés sur les conditions d'utilisation réelles d'outils employés à l'école, et d'autres qui simulent le dépôt d'une plainte. Elle fixe aussi une limite. Former les élèves ne dispense pas l'établissement de choisir des services adaptés, sûrs et conformes au droit.\nLe droit européen interdit déjà la reconnaissance des émotions à l'école\nLe règlement européen sur l'IA couvre une partie des exclusions du principe 5, avec des sanctions que la résolution n'a pas. Son article 5 interdit depuis le 2 février 2025 les systèmes qui infèrent les émotions dans les établissements d'enseignement, sauf raisons médicales ou de sécurité, et proscrit sous conditions les techniques subliminales et la notation sociale. Son annexe III classe à haut risque quatre usages éducatifs, de l'admission des élèves à la détection des comportements interdits pendant les examens. Depuis l'omnibus numérique adopté en 2026, les obligations correspondantes s'appliquent à partir du 2 décembre 2027 (voir notre calendrier de l'AI Act).\nL'article 5 ne dit rien de l'anthropomorphisation ni de l'obséquiosité. Sur ces deux points, les autorités de protection des données vont plus loin que le législateur européen.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

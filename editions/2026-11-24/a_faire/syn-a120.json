@@ -1,0 +1,64 @@
+{
+ "id": "syn-a120",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a120.json",
+ "limite_caracteres": 2500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 2500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Le Grand Continent\nRubrique : Géopolitique\nDate du flux : 23/11/2026\nAuteur : Marin Saillofest\nTitre d'origine : L’armée russe a-t-elle assez d’hommes pour continuer la guerre ?\n\nARTICLE :\nSelon les estimations du chercheur allemand Janis Kluge, à partir des données budgétaires du ministère des Finances russe, l’armée russe a signé environ 34 000 nouveaux contrats le mois dernier, et 297 000 depuis le début de l’année – contre 335 000 à la même période en 2025, soit une baisse de 11,3 % 1.\n- Ce chiffre, mis en perspective avec les communiqués de l’État-major des forces armées ukrainiennes, qui recensent jour par jour les pertes russes (tués et blessés), indique que Moscou a perdu plus d’hommes qu’elle n’en a recruté en octobre.\n- Il s’agit du sixième mois consécutif où les pertes dépassent les recrutements, et l’écart n’a cessé de se creuser depuis juillet : en octobre, il a atteint environ 20 000 hommes, son plus haut niveau depuis janvier 2025.\nLe déficit d’hommes dont souffre Moscou doit être lu à la lumière des chiffres compilés par les services statistiques russes, auxquels les groupes de hackers biélorusse Cyber Partisans et ukrainien Silent Crow ont eu accès. Ces données, dont une analyse des médias indépendants Mediazona et Meduza a été publiée aujourd’hui, lundi 23 novembre, montrent en effet que les pertes subies par l’armée russe en Ukraine ont dépassé la barre des 490 000 morts entre février 2022 et fin septembre 2026.\n- Les fichiers, jugés authentiques par Mediazona au terme de deux semaines d’analyse, proviennent de l’agence de statistiques russe Rosstat, et contiennent des enregistrements de décès anonymisés accompagnés de détails tels que le lieu et la cause du décès.\nSelon une estimation de Meduza, qui tient compte des décès non encore enregistrés, le nombre total de morts s’élèverait à 700 000 hommes, ce qui suggère des pertes totales d’environ 2 millions de combattants 2.\n- Ce dernier chiffre est supérieur au bilan de l’État-major des forces armées ukrainiennes, qui estime qu’environ 1,6 million de combattants russes ont été tués ou blessés depuis février 2022.\n- Il tombe également au-dessus des estimations produites par des chercheurs indépendants, comme celles du CSIS (environ 1,4 million de tués, blessés et disparus à la fin juin) ou de The Economist (entre 1,1 et 1,5 million en mai).\nLes données de Rosstat montrent que la guerre est la principale cause de mortalité chez les hommes en âge de travailler à l’échelle du pays depuis 2025. Elles permettent également d’estimer qu’au moins 0,9 % des hommes russes âgés de moins de 60 ans au début de la guerre ont été tués en Ukraine depuis 2022.\n- Rapportées à la population, ces pertes frappent surtout la Sibérie et l’Extrême-Orient : en Transbaïkalie, près d’un habitant sur 80 serait mort à la guerre depuis 2022, soit 18 fois plus qu’à Moscou.\nSources\n- Russian recruitment in late 2026 », Russianomics, 22 novembre 2026.\n- Данные Росстата раскрыли гибель на войне 500 тысяч человек — и эти данные настоящие. С учетом пропавших цифра на сегодня — около 700 тысяч », Mediazona, 23 novembre 2026.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

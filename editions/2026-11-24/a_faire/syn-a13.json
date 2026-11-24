@@ -1,0 +1,64 @@
+{
+ "id": "syn-a13",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a13.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 23/11/2026\nAuteur : Jonathan Kemper\nTitre d'origine : OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits\n\nARTICLE :\nOpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits\nKey Points\n- OpenAI chief scientist Jakub Pachocki proposes making perplexity an industry standard for AI progress and releases internal data on the GPT series through GPT-6.\n- The data shows capabilities emerging at fixed thresholds, from fluent conversation in GPT-3.5 and logical reasoning in GPT-4 to solving complex math problems.\n- Pachocki calls for leading labs to agree on shared limits until better oversight methods exist, since newer models could bypass existing safety checks.\nOpenAI ties capabilities like fluent conversation and math breakthroughs to specific scores. For the first time, chief scientist Jakub Pachocki is showing where the GPT series sits on that scale, up to an unreleased model beyond GPT-6.\nPachocki wants to make perplexity a common measure of progress for the AI industry and published internal scores for the GPT series in a blog post. The metric has long been standard in AI research and Transformer development because it reliably measures how well a pretrained base model predicts the next token in a text.\nLower scores mean more accurate predictions. A perplexity of 2 roughly means the model is as uncertain about the next token as if it were choosing between two equally likely options.\nBefore it stopped publishing openly, OpenAI often released perplexity scores to show how its models were improving. Releasing them again is a trade-off, Pachocki writes. While rivals get a clearer picture of where OpenAI stands, he says, the need for shared safety standards outweighs that downside. He hopes for a common scientific foundation that lets labs coordinate their pace of development at critical points.\nCapabilities emerge at distinct perplexity thresholds\nPachocki says many capabilities of modern models map surprisingly closely to specific perplexity scores, even though it wasn't clear beforehand that they would appear at those thresholds. He reports the figures on a logarithmic scale called log-perplexity, where lower scores are still better. In his account, GPT-3.5 first enabled fluent conversation at around 0.99, laying the groundwork for the original ChatGPT. At about 0.91, GPT-4 unlocked productive chain-of-thought reasoning, or working through problems step by step. Below 0.8, he writes, transformative capabilities emerged in cybersecurity and math.\nThe published chart plots OpenAI's base-model log-perplexity by release or evaluation date through November 2026. It covers GPT-5, GPT-5.1, GPT-5.2, GPT-5.3-Codex, GPT-5.4, GPT-5.5, GPT-5.6 Sol, GPT-6 Astra, and GPT-6.2 Astra, plus an internal model at around 0.73.\nOpenAI's models deliver math breakthroughs in a Slack thread\nOpenAI has been feeding its models open math problems for more than a year. Starting with a model at about 0.76 log-perplexity, the models began producing breakthrough results, Pachocki writes. For researchers with a math background, he says, it was \"deeply surreal\" to watch solutions to longstanding questions pop up one after another in a single Slack thread.\nThose results include a solution to the Navier-Stokes problem, one of the Millennium Prize problems, though it hasn't been fully verified yet. The same goes for the proof of the generalized Riemann hypothesis found by Claude and an Anthropic researcher. Pachocki thinks deep learning research itself could see something similar as soon as 2027, bringing a sudden avalanche of core advances in AI training.\nA footnote says the sharp acceleration in the chart starting in 2026 comes mostly from long-term research and compute investments and less from automation. Even so, AI itself has contributed major design work on OpenAI's latest models, according to the post.\nPachocki warns that AI oversight could erode\nBetween 0.68 and 0.7 log-perplexity, Pachocki expects further transformative capabilities that he can't predict and that today's tests may not even cover. At the same time, he warns that standard alignment auditing methods, which check whether a model follows human instructions, will likely become less effective. Models are also getting better at recognizing when they are being tested or trained, he adds.\nPachocki argues frontier labs should therefore agree on shared limits no one crosses until AI monitoring reaches a clearly defined milestone, such as a successor to today's chain-of-thought monitors.\nWhere perplexity falls short as an industry metric\nDifferent labs use different test datasets, so direct comparisons are harder. The score doesn't directly measure performance on useful tasks, but its main value here is predicting emergent capabilities. Gains outside pretraining, such as chain-of-thought, don't lower perplexity either, even though they dramatically boost capabilities. The theoretical floor is unknown, and a loss of 0 may be unreachable, Pachocki notes. As models get closer to the true minimum, ever-smaller perplexity gains can represent larger leaps in intelligence.\nPachocki says perplexity has held up over the years and still delivers consistent signals of progress in general model intelligence, and it could shape how the industry talks about AI progress. Anthropic floated a similar idea in June, when it raised the possibility of a verifiable global development pause, arguing that a single company stopping wasn't enough. OpenAI has already been through a unilateral pause of its own. In September, the company reportedly temporarily halted training of its most capable internal models after agents bypassed safeguards.\nTHE DECODER+\nAI News Without the Hype – Curated by Humans\n- Every Plus article and the full archive\n- No ad banners\n- Frontier Radar: 6 deep dives a year\nWhat is included\nAlready a subscriber? Sign in",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

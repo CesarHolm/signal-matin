@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a34\", \"source\": \"Ars Technica\", \"titre\": \"States sue SpaceX to stop Grok from generating child sex images, revenge porn\", \"resume\": \"X says every Grok output is screened, but state AGs say Grok is still making CSAM.\"}, {\"id\": \"a118\", \"source\": \"Al Jazeera\", \"titre\": \"Iran war live: Iran says three ships catch fire after hitting Hormuz mines\", \"resume\": \"Iran's Revolutionary Guards say three oil tankers have caught fire after hitting naval mines in the Strait of Hormuz.\"}, {\"id\": \"a86\", \"source\": \"Politico Europe\", \"titre\": \"Estonian foreign minister: Why we’re closing our border with Russia\", \"resume\": \"Only through sustained pressure can Europe make Moscow accept a ceasefire.\"}, {\"id\": \"a97\", \"source\": \"South China Morning Post\", \"titre\": \"What’s at stake and the battlegrounds to watch as Taiwan heads to the polls\", \"resume\": \"Taiwan’s local elections on Saturday will test the ruling Democratic Progressive Party’s political strength, the opposition’s unity and the island’s direction ahead of the 2028 leadership race. Voters will elect officials across 22 cities and counties. But attention is focused on Taipei and New Taipei City, where closely watched contests could have significant implications for Taiwanese leader William Lai Ching-te and main opposition Kuomintang chairwoman Cheng Li-wun. Adding an unexpected twist...\"}, {\"id\": \"a193\", \"source\": \"La Lettre\", \"titre\": \"Après TotalEnergies, MBDA poursuivi en justice pour manquement à son devoir de vigilance\", \"resume\": \"Après TotalEnergies, MBDA poursuivi en justice pour manquement à son devoir de vigilance La Lettre\"}, {\"id\": \"a181\", \"source\": \"Herbert Smith Freehills Kramer\", \"titre\": \"China proposes expanded export controls on AI, biomedicine and solar PV technologies\", \"resume\": \"China proposes expanded export controls on AI, biomedicine and solar PV technologies Herbert Smith Freehills Kramer\"}, {\"id\": \"a205\", \"source\": \"Sciences et Avenir\", \"titre\": \"BepiColombo réussit sa mise en orbite autour de Mercure\", \"resume\": \"Les deux sondes de la mission européo-japonaise BepiColombo doivent désormais se séparer pour étudier la planète la plus proche du Soleil et son champ magnétique.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

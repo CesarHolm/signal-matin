@@ -1,15 +1,24 @@
 {
- "tour": 1,
+ "tour": 2,
  "code": 3,
  "a_faire": [
-  "sport",
-  "tri-curiosites",
-  "tri-france",
-  "tri-ia",
-  "tri-monde",
-  "tri-recherche",
-  "tri-veille"
+  "breves",
+  "syn-a120",
+  "syn-a125",
+  "syn-a13",
+  "syn-a152",
+  "syn-a171",
+  "syn-a185",
+  "syn-a198",
+  "syn-a221",
+  "syn-a4",
+  "syn-a41",
+  "syn-a43",
+  "syn-a5",
+  "syn-a56",
+  "syn-a79",
+  "syn-a8"
  ],
  "termine": false,
- "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Collecte des flux\n· Sport\n  sport : 8 résultats, 13 matchs au programme, 116 dépêches\n  244 articles candidats, 3 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n… 7 demande(s) en attente : tri-ia, tri-france, tri-monde, tri-recherche, tri-veille, tri-curiosites, sport\nA_FAIRE 7 : a_faire/tri-ia.json a_faire/tri-france.json a_faire/tri-monde.json a_faire/tri-recherche.json a_faire/tri-veille.json a_faire/tri-curiosites.json a_faire/sport.json\n"
+ "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  244 articles candidats, 3 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 36 candidats → 6 à développer, 4 brèves\n  france : 36 candidats → 5 à développer, 3 brèves\n  monde : 51 candidats → 5 à développer, 3 brèves\n  recherche : 31 candidats → 4 à développer, 4 brèves\n  veille : 42 candidats → 4 à développer, 2 brèves\n  curiosites : 48 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a34 écarté des développés : texte trop court (1996 car.)\n  a8 complété par : Hassan KOHEN\n  a43 complété par : Les Echos\n  a41 complété par : BFM\n  a56 complété par : Le Monde, Franceinfo\n  a118 écarté des développés : texte trop court (117 car.)\n  a86 écarté des développés : texte trop court (1029 car.)\n  a97 écarté des développés : texte trop court (503 car.)\n  a125 : papier lu en PDF (40007 car.)\n  a171 complété par : INSIGHT EU MONITORING\n  a193 écarté des développés : texte trop court (98 car.)\n  a181 écarté des développés : texte trop court (115 car.)\n  a205 écarté des développés : texte trop court (162 car.)\n  plan : sans pages, 15 articles (15 longs)\n· Lot 2 : synthèses (Sonnet)\n… 16 demande(s) en attente : breves, syn-a4, syn-a13, syn-a8, syn-a5, syn-a43, syn-a41, syn-a56, syn-a79, syn-a120, syn-a125, syn-a152, syn-a171, syn-a185, syn-a221, syn-a198\nA_FAIRE 16 : a_faire/breves.json a_faire/syn-a4.json a_faire/syn-a13.json a_faire/syn-a8.json a_faire/syn-a5.json a_faire/syn-a43.json a_faire/syn-a41.json a_faire/syn-a56.json a_faire/syn-a79.json a_faire/syn-a120.json a_faire/syn-a125.json a_faire/syn-a152.json a_faire/syn-a171.json a_faire/syn-a185.json a_faire/syn-a221.json a_faire/syn-a198.json\n"
 }

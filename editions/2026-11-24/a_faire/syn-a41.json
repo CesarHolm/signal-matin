@@ -1,0 +1,64 @@
+{
+ "id": "syn-a41",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a41.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Le Monde\nRubrique : France\nDate du flux : 23/11/2026\nAuteur : Bertrand Bissuel\nTitre d'origine : Retraites : la Cour des comptes plaide pour une limitation des possibilités de départs anticipés\n\nARTICLE :\nSOURCE 1 (Le Monde) :\nIl faut réduire la voilure des dérogations permettant de partir à la retraite avant l’âge légal. C’est l’un des principaux messages lancés par la Cour des comptes dans une note rendue publique lundi 23 novembre.\nCette préconisation fait partie des pistes suggérées par les magistrats de la rue Cambon, à Paris, pour rétablir l’équilibre financier de notre système par répartition, dont le déficit pourrait se creuser, atteignant 1,2 % du produit intérieur brut (PIB) en 2050, contre 0,2 % en 2025 en l’absence de mesure nouvelle. Ces solutions, visant à prolonger les carrières professionnelles, sont mises en avant alors que les programmes de plusieurs candidats à l’élection présidentielle défendent l’orientation inverse, comme celui présenté le 17 novembre par Marine Le Pen.\nLes termes de l’équation sont connus. Depuis un peu plus de trente ans, des réformes ont été engagées dans le but de relever l’âge à partir duquel les assurés peuvent réclamer le versement de leur pension. Malgré ces transformations, le ratio entre le nombre de cotisants et le nombre de retraités ne cesse de diminuer : il passerait de 1,77 en 2025 à 1,54 en 2050, sous l’effet de l’allongement de l’espérance de vie et du déclin de la natalité. Déjà dans le rouge à l’heure actuelle, le système verrait ses difficultés budgétaires s’accroître, les problèmes se concentrant sur le régime de base du privé ainsi que sur celui des agents des collectivités locales et des hôpitaux publics : ces deux caisses « accumuleraient une dette qui deviendrait insoutenable », selon la synthèse diffusée lundi (« 604 milliards d’euros en 2050 » pour la première et « 96 milliards » s’agissant de la seconde).\nIl vous reste 68.39% de cet article à lire. La suite est réservée aux abonnés.\n\nSOURCE 2 (BFM) :\nÀ cinq mois de l'élection présidentielle, la Cour des comptes apporte une nouvelle contribution au brûlant débat sur les retraites. Dans un rapport publié ce lundi, les Sages alertent une fois de plus sur la situation financière du système par répartition dont le déficit, estimé à 5,1 milliards d'euros l'an passé, atteindrait 12,8 milliards d'euros en 2035 et 44,6 milliards d'euros en 2050 (en euros de 2025) si rien n'est fait d'ici là.\nPrincipale raison: la crise démographique qui va faire passer le nombre de cotisants par retraité de 1,77 en 2025 à 1,54 en 2050. À cet horizon, compte tenu des déficits croissants accumulés, la Caisse nationale d'Assurance vieillesse (Cnav) et la Caisse nationale de retraites des agents des collectivités locales (CNRACL) feraient face à \"une dette qui deviendrait insoutenable\", à respectivement 604 milliards et 96 milliards d'euros, prévient la Cour. Dans le même temps, le niveau de vie moyen des retraités rapporté à celui de l'ensemble de la population baissera, passant d'environ 100% aujourd'hui à 95%.\nPour les magistrats de la rue Cambon, il est donc impératif de réformer un système de retraite à bout de souffle. D'autant que \"la France se distingue de la plupart des pays européens par un niveau important des dépenses de retraite. Celles-ci représentent un quart de la dépense publique totale et 14,1 points de PIB en 2025, soit davantage que dans la plupart des pays européens\", souligne-t-elle.\nEt d'ajouter qu'\"en comparaison internationale, la France se caractérise par un âge de départ à la retraite plus précoce et par un niveau de vie des retraités en moyenne plus élevé\".\nAugmenter l'âge de départ et sous-indexer les pensions\nSi les précédentes réformes ont atteint leur but en relevant l'âge effectif de départ à la retraite (de 60,5 ans en 2010 à 63,1 ans en 2025), elles ne suffisent pas à compenser le déclin démographique. Il convient dès lors de prendre de nouvelles mesures pour résorber les déficits et cela \"passe par une maîtrise des dépenses de retraite\", prévient encore la Cour des comptes.\nL'institution évoque comme premier levier une hausse de l'âge de départ. \"Un relèvement progressif à 65 ans, entre les générations 1968 et 1972, améliorerait le solde du système de retraite exprimé en euros de 2026 d’un peu moins de 5 milliards d'euros en 2035, cet effet étant porté à 10 milliards d'euros pour l’ensemble des administrations publiques en intégrant le gain, en cotisations et impôts, induit par le surcroît d’activité\", précise-t-elle.\nMais pour être pleinement efficace, la mesure devrait s'accompagner d'autres dispositifs en faveur de l'emploi des seniors. La Cour préconise aussi de limiter les multiples \"dispositions dérogatoires\", rappelant \"qu'en 2025, un assuré sur deux est parti à la retraite de façon anticipée\". \"Une limitation de ces possibilités de départs anticipés à la retraite doit être recherchée\", martèle-t-elle.\nAutre option envisagée: l'allongement de la durée d'assurance requise pour partir à taux plein, sachant qu'un relèvement d’un an de cette durée \"produirait en 2035 des effets financiers comparables à un relèvement de l’âge d’ouverture mais ces effets seraient plus progressifs\". La Cour mentionne aussi le niveau des pensions qui pourrait être modulé, affirmant qu'une sous-indexation d'un point sous l'inflation \"permettrait une économie d'environ 3 milliards d'euros\". Elle appelle toutefois à tenir compte des retraités aux pensions les plus faibles. Dans son projet de budget initial pour 2027, le gouvernement prévoyait, lui, la désindexation des pensions supérieures à 1.260 euros.\nLes Sages se montrent en revanche plus réservés sur une augmentation de l'âge d'annulation de la décote actuellement fixé à 67 ans. Ils déconseillent aussi d'augmenter les cotisations \"compte tenu du niveau déjà élevé des prélèvements obligatoires\" et de ses effets récessifs sur l’économie que cela impliquerait.\nTenir compte des évolutions démographiques pour déterminer l'âge et le niveau des pensions\nLa Cour de comptes ne s'arrête pas là et suggère de s'inspirer de certains pays en intégrant \"les évolutions démographiques et économiques dans le pilotage du système\". Pour contenir les dépenses, plusieurs de nos voisins font par exemple évoluer leur âge de départ en fonction de l'espérance de vie et le niveau de pensions en fonction d'indicateurs économiques.\nÀ cet égard, \"une indexation des pensions tenant compte de l’évolution des salaires d’une part et de l’évolution du rapport entre le nombre de retraités et le nombre de cotisants d’autre part présente l’avantage de stabiliser le système de retraite s’il est équilibré\", indiquent les Sages. Et même si une revalorisation des pensions sur les salaires plutôt que sur les prix est plus coûteuse, cela permet \"de lier croissance des dépenses et croissance des ressources du système de retraite\" mais aussi \"d’exposer actifs et retraités de la même façon à la conjoncture économique\".\nLes magistrats financiers s'attaquent enfin à la \"complexité\" du système de retraite français qui est \"constitué de nombreux régimes particuliers avec des règles disparates\". Eux préconisent de \"faire converger les règles des différents régimes, en particulier en matière de droits familiaux de retraite, de pension de réversion ou encore de minima de pension\". Notamment car les nombreuses règles différentes \"accentuent les difficultés de gestion pour les caisses de retraite et aggrave les risques d'erreurs ou de fraudes\" qui ont représenté l'an dernier un préjudice de 337 millions d'euros pour la Cnav (dont 76 millions pour la fraude).",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

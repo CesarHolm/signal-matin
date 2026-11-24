@@ -1,0 +1,64 @@
+{
+ "id": "syn-a43",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a43.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Le Monde\nRubrique : France\nDate du flux : 23/11/2026\nAuteur : Le Monde\nTitre d'origine : Budget 2027 : Sébastien Lecornu appelle au « compromis » dans une lettre aux parlementaires et liste les priorités du gouvernement\n\nARTICLE :\nSOURCE 1 (Le Monde) :\nLe gouvernement parviendra-t-il à faire adopter le budget pour l’année 2027 d’ici au 31 décembre ? Alors que l’Assemblée nationale a rejeté en première lecture les projets de loi de finances et de financement de la Sécurité sociale, le premier ministre, Sébastien Lecornu, a écrit aux parlementaires une lettre que Le Monde a pu consulter, lundi 23 novembre, pour les enjoindre à trouver un « compromis ».\nPour le chef du gouvernement, si le rejet des deux textes par les députés « marque des désaccords », cela « ne clôture pas la discussion ». Le Sénat a de son côté adopté le budget de la Sécurité sociale en première lecture et examine en ce moment le projet de loi de finances.\nDans cette missive, M. Lecornu reconnaît aussi que « le texte initial doit évoluer pour rendre un accord possible, et le gouvernement prendra sa part », alors que les débats au Parlement sont aussi percutés par la campagne présidentielle.\n« Respecter l’élection présidentielle, c’est permettre à celles et ceux que les Français choisiront de gouverner dès leur arrivée : un budget voté pourra être corrigé ou réorienté ; au contraire, une loi spéciale prolongée retarderait des investissements, des aides et des projets qui ne peuvent attendre », prévient Sébastien Lecornu, estimant que ce second scénario « risquerait de faire perdre plusieurs mois d’action, si ce n’est davantage, au prochain gouvernement ».\nCinq priorités listées par Sébastien Lecornu\nEn vue de ces discussions entre le gouvernement et les parlementaires, Sébastien Lecornu liste plusieurs priorités, « lesquelles répondent aux urgences du pays » selon lui : l’agriculture, l’éducation, le pouvoir d’achat, les collectivités territoriales et le logement. « Nous prendrons le temps nécessaire, dans le respect des échéances constitutionnelles, sans préjuger de l’issue du débat », promet également Sébastien Lecornu dans cette lettre.\nLe projet de budget du gouvernement vise dans sa version initiale un déficit public à 5 % du PIB en 2027, contre 5,4 % escomptés en 2026, au prix de quelque 43 milliards d’euros d’économies. Mais vendredi 20 novembre, le ministre des comptes publics, David Amiel, a fait savoir qu’il faudrait au moins 6 milliards d’euros d’économies supplémentaires pour 2027. Ces efforts budgétaires sont nécessaires en raison des « risques qui pèsent sur la croissance, sur l’activité économique » et de la nécessité de « financer les urgences », car « depuis le mois de septembre, depuis que le texte initial du gouvernement a été proposé, [ce dernier] a eu besoin de répondre à des urgences sociales », a expliqué David Amiel, sur fond des mobilisations lycéennes et sociales.\n« Les pistes d’économies supplémentaires, comme les propositions des groupes politiques pour améliorer le solde budgétaire, doivent elles aussi faire l’objet d’un compromis. Nous devons réduire le déficit – lequel doit impérativement être fixé à 5 % du PIB –, protéger la croissance et rechercher des économies durables par des réformes, en préservant les dépenses qui préparent notre souveraineté », a prévenu M. Lecornu dans sa lettre aux parlementaires.\nSi le gouvernement ne parvient pas à trouver de compromis avec les groupes parlementaires sur le budget, il pourrait recourir à l’article 49.3 de la Constitution, qui permet de faire passer un texte sans vote sur celui-ci – avec le risque d’être soumis à une motion de censure des députés –, ou à une ordonnance qui contraindrait l’exécutif à reprendre tel quel le budget présenté initialement.\n\nSOURCE 2 (Les Echos) :\nPar Adrien Lelièvre\nSébastien Lecornu tend la main aux parlementaires. Dans un courrier envoyé lundi aux élus, le locataire de Matignon propose cinq thèmes de compromis sur le budget 2027, à condition de ne pas dépasser la cible gouvernementale d'un déficit de 5 %. Le gouvernement « veut ce compromis et s'y engagera pleinement », promet le Premier ministre, pour qui l'absence de majorité au Parlement « nous oblige à trouver une voie de passage ».\nRejeté début novembre à l'unanimité par les députés, le projet de budget de l'Etat est actuellement examiné par le Sénat. Le gouvernement devra probablement ensuite choisir entre le 49.3, qui suppose une non-censure, et une ordonnance budgétaire, un dispositif inédit, qui évite tout vote au Parlement.\nL'agriculture et les lycées au coeur des priorités\nOr les ordonnances empêcheraient a priori d'ajouter au texte initial les mesures promises depuis la rentrée aux agriculteurs ou aux lycéens, que Sébastien Lecornu veut voir figurer « dans le budget adopté ».\nLire aussi :\nIl n'y a « pas de scénario dans lequel le budget ne serait pas amendé » pour y intégrer et financer le plan de relance agricole de 725 millions d'euros présenté en novembre, avertit-il, évoquant « la survie de milliers d'exploitations agricoles ». Viennent ensuite les lycéens et les étudiants, à qui ont été promis, pour tenter d'éteindre leur contestation, des classes moins chargées et des bourses indexées sur les prix.\nLa liste comprend aussi la question du pouvoir d'achat, au-delà de la hausse du SMIC de 1,6 % au 1er décembre, les collectivités locales, appelées à « prendre leur part au redressement des finances publiques », et le logement, avec une prolongation « dès à présent » du prêt à taux zéro, qui aide des ménages modestes et intermédiaires à devenir propriétaires.\nLe Premier ministre appelle aussi au compromis sur les économies supplémentaires par rapport au projet initial : au moins 6 milliards d'euros en plus des 43 milliards prévus, a reconnu vendredi le ministre des Comptes publics David Amiel, du fait des risques sur la croissance et de la nécessité de « financer les urgences » sociales.\nLe PS attentif\nL'an dernier, Sébastien Lecornu avait eu recours au 49.3 pour faire passer le budget de l'Etat, après un compromis de non-censure avec le PS, au prix d'une suspension de la réforme des retraites.\nMercredi dernier, le chef des députés socialistes Boris Vallaud avait indiqué que si « certaines vraies revendications des lycéens, des organisations syndicales, des agriculteurs se trouvent satisfaites » dans le budget, « ça se regarde ». Le Sénat doit voter sur le budget de l'Etat le 9 décembre, et, à défaut d'une adoption par le Parlement, le gouvernement pourra recourir aux ordonnances à partir du 17 décembre.\nAdrien Lelièvre",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

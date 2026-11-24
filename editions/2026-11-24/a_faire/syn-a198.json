@@ -1,0 +1,64 @@
+{
+ "id": "syn-a198",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a198.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : CNRS Le journal\nRubrique : Science\nDate du flux : 23/11/2026\nTitre d'origine : La kakistocratie, ou pourquoi élit-on les moins compétents ?\n\nARTICLE :\nVous êtes ici\nLa kakistocratie, ou pourquoi élit-on les moins compétents ?\nTemps de lecture : 7 minutes\nCet article est publié en partenariat avec la revue Dialogues économiques, éditée par Aix-Marseille School of Economics.\nEn 2018, l’ex-directeur de la CIA, John O. Brennan, adressait un tweet acerbe au Président Donald Trump, qualifiant sa gouvernance de « kakistocratie ». Du grec kakistos (« le pire ») et kratos (« le pouvoir »), le terme désigne un gouvernement dirigé par des incompétents.\nDepuis ce tweet, le mot a fait le tour des moteurs de recherche et a été repris de nombreuses fois pour qualifier nos systèmes politiques. Aux États-Unis ou ailleurs, la classe politique ne cesse d’être pointée du doigt pour ses mauvaises décisions.\nAlors, sommes-nous gouvernés par des incompétents ? La question est décisive, il en va de la prospérité d’une nation et du bien-être de sa population. Des économistes ont analysé le parcours de 1000 dirigeants politiques de 1875 à 2004 à travers le monde. Leur étude1 montre que le départ d’un dirigeant diplômé conduit à une baisse de 0,713 point de pourcentage de la croissance annuelle, contre seulement 0,05 point de pourcentage lorsque cette personne n’a pas ce niveau d’études.\nComment l’incompétence entre en politique\nComment expliquer qu’une scène politique soit investie par des candidats aux compétences parfois limitées ? Les économistes Francesco Caselli et Massimo Morelli avaient avancé une explication2 : si l’argent pèse dans la décision de se présenter, les profils les plus qualifiés risquent de rester à l’écart de la politique. Lorsque les salaires dans le secteur privé sont plus élevés que ceux espérés dans la fonction élective, les membres compétents du personnel politique privilégient le privé. Ils laissent la place libre pour celles et ceux qui, ne pouvant prétendre à un tel salaire dans le monde privé, se reportent sur la sphère politique.\nMais l’incompétence en politique n’est pas seulement une affaire de porte-monnaie. C’est ce que développent les économistes Susana Peralta et Tanguy van Ypersele dans leur étude3.\nLeur modèle économique détaille les circonstances qui conduisent à réélire des responsables politiques pourtant incompétents. Ils montrent aussi, à l’inverse, celles qui améliorent la qualité des candidatures. Reste à comprendre ce qu’est la compétence et comment la mesurer ?\nCe que le mandat dit de la compétence des élus\nLes chercheurs laissent de côté les clivages partisans. Ils s’intéressent à une autre dimension : la valence. En science politique, ce terme désigne ce que tous les électeurs apprécient chez un élu, quelle que soit leur couleur politique.\nCette valence peut être liée aux caractéristiques avant l’élection, comme le charisme ou les compétences oratoires. Mais les chercheurs se concentrent ici sur les compétences qui se révèlent pendant leur mandat, à travers les résultats obtenus par les responsables politiques dans l’exercice de leurs fonctions.\nAu terme du mandat, l’électorat juge la personne élue sur son bilan. Il la reconduit si elle lui paraît probablement plus compétente qu’un nouveau venu, pris au hasard parmi les candidats déclarés.\nCe tri et le choix de se présenter s’entraînent l’un l’autre. Plus les candidatures sont solides, plus l’électorat devient exigeant envers la personne sortante. En retour, cette attitude rend le marché politique attractif et renforce l’intérêt des personnes performantes à entrer en politique, car elles savent qu’elles auront de meilleures chances d’être élues, puis réélues. La politique leur rapporte donc davantage, et elles sont plus nombreuses à se lancer.\nÀ l’inverse, si les électeurs disposent de peu de moyens pour distinguer les responsables compétents des incompétents, le système peut rester bloqué dans une situation où la qualité politique est faible.\nRendre la tâche politique complexe\nEncore faut-il que le bilan du mandat permette de distinguer les individus compétents des incompétents. C’est ce que les deux chercheurs appellent « la force du signal ». Ce signal dépend non seulement des qualités intrinsèques des candidats, mais aussi de la difficulté de la tâche politique qui leur est assignée. Plus les personnes élues se trouvent confrontées à des tâches difficiles, plus les électeurs sont en mesure de distinguer les personnes efficaces de celles qui ne le sont pas.\nD’après les deux chercheurs, confier aux personnes élues davantage de responsabilités pourrait donc améliorer la qualité du personnel politique. L’idée a de quoi surprendre. Là où les candidats peu compétents dominent, on aurait plutôt tendance à leur retirer certaines responsabilités politiques. Le modèle suggère l’inverse.\nUn mandat plus exigeant rend l’incompétence visible. Les personnes qui n’ont pas su répondre efficacement à ce qui leur incombe sont plus souvent écartées lors du scrutin suivant, ce qui les dissuade de se présenter. Le bénéfice revient aux personnes compétentes, pour qui les chances de réélection augmentent, et l’attractivité que leur procure l’arène politique s’en trouve accrue.\nUne décentralisation à prendre au sérieux\nCes résultats découlent d’un modèle théorique. Toutefois, la vie politique est un jeu aux forces contraires où les médias, les réseaux sociaux, les relations diplomatiques et les affaires judiciaires pèsent aussi sur le choix des urnes. Le modèle aide néanmoins à comprendre comment une démocratie peut se retrouver dominée par des responsables peu compétents, sans que l’électorat y soit aveugle pour autant.\nLà où elle s’installe, la kakistocratie déçoit les citoyens et les citoyennes, et détourne de la politique les personnes compétentes. Elle n’a pourtant rien d’une fatalité.\nPour Tanguy van Ypersele, ce constat éclaire notamment le débat sur la délégation de compétences qu’impose la décentralisation. Selon lui, décentraliser suppose de véritables responsabilités à chaque niveau de pouvoir. Un échelon doté de compétences limitées ou chargé de tâches peu exigeantes ne permet pas à l’électorat de juger ses élus. Il risque alors d’attirer des candidats peu compétents, qui pourront y faire carrière simplement parce que leur performance reste difficile à évaluer.\nLorsque les attributions d’une collectivité ne suffisent pas à distinguer les élus compétents des autres, deux voies s’ouvrent : soit lui confier des responsabilités plus importantes, soit repenser le partage des compétences entre les différents échelons. On défend d’ordinaire une répartition cohérente des compétences au nom de l’efficacité administrative. Le modèle des deux économistes lui trouve une autre vertu, celle d’attirer en politique des profils plus compétents.\nConsultez aussi\nCahiers de doléances : ce que les Français ont dit\nLes dividendes de la justice (Dialogues économiques)\nLe (vrai) Monopoly, un outil pour la solidarité nationale  ? (Dialogues économiques)\n- 1. T. Besley, J. G. Montalvo, M. Reynal-Querol, « Do Educated Leaders Matter? », The Economic Journal, 2011 : https://doi.org/10.1111/j.1468-0297.2011.02448.x\n- 2. F. Caselli, M. Morelli, « Bad politicians », Journal of Public Economics, 2004 : https://personal.lse.ac.uk/casellif/papers/bad.pdf\n- 3. S. Peralta et T. van Ypersele, « The determinants of political selection: a citizen-candidate model with valence signaling and incumbency advantage », International Tax and Public Finance, 2024 : https://doi.org/10.1007/s10797-024-09831-2",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a4",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a4.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : ActuIA\nRubrique : IA\nDate du flux : 23/11/2026\nAuteur : Stephane Nachez\nTitre d'origine : OpenRouter durcit son option Zero Data Retention après l'enquête de Dragos\n\nARTICLE :\nPlus de trois semaines après l'avoir glissé dans une requête marquée Zero Data Retention (ZDR), l'équipe de Dragos a vu l'un de ses liens secrets apparaître dans un canal de la messagerie Feishu. En deux minutes, il a été ouvert depuis trois ordinateurs et trois téléphones, à Pékin et à Shanghai. Ce marquage réserve en principe une requête aux hébergeurs qui déclarent ne conserver ni le prompt ni la réponse après traitement.\nL'épisode figure dans l'expérience que HD Moore, directeur de la recherche de Dragos, a publiée le 19 novembre 2026 et que notre brève résume. De juillet à novembre, son équipe a envoyé environ deux millions de prompts à des services d'IA, chacun avec une clé AWS et une URL uniques, puis a surveillé qui s'en servait. Le 22 novembre, OpenRouter, qui achemine les requêtes de ses clients vers les hébergeurs de modèles, a exclu trois fournisseurs d'inférence et retiré de l'éligibilité ZDR 125 endpoints, chacun correspondant à un modèle servi par un hébergeur. Trois des hébergeurs dont il relaie les explications, Phala, Novita et Atlas Cloud, demandent à leurs clients de révoquer ou de renouveler les clés d'API et autres secrets passés dans leurs requêtes.\nOpenRouter exclut trois fournisseurs sans les nommer\nLes chercheurs avaient signalé à OpenRouter des fournisseurs dont les données avaient été compromises ou qui montraient des signes de non-respect de leurs politiques de données, écrit le routeur dans son billet. Leurs travaux n'ont montré aucune brèche ni aucun accès non autorisé dans ses propres systèmes. Les trois exclusions découlent de ses investigations. Les 125 endpoints retirés comprennent ceux des fournisseurs signalés et d'autres, écartés par précaution. Tous les clients potentiellement concernés ont été prévenus, assure OpenRouter. Le billet ne nomme pas les trois exclus. Il renvoie aux communiqués de quatre fournisseurs, qui décrivent des incidents de nature différente.\nQuatre hébergeurs détaillent comment les prompts ont été exposés\nPhala décrit une intrusion dans un rapport préliminaire daté du 10 novembre. Un attaquant a pris le contrôle de la machine virtuelle d'inférence d'un serveur GPU qui servait le modèle DeepSeek V4 Flash 0731. Les requêtes de ce modèle qu'OpenRouter a acheminées vers Phala entre le 21 octobre et le 8 novembre sont à considérer comme exposées. Seuls les appâts envoyés les 21 et 22 octobre ont été utilisés ensuite, mais Phala retient la fenêtre large par précaution.\nChez Novita AI, les requêtes sont allées plus loin que prévu. Un chemin de réexpédition destiné à certains clients s'est appliqué plus largement à la suite d'une erreur de configuration. Entre le 28 mai et le 11 novembre, des requêtes adressées aux modèles MiniMax, y compris celles arrivées par OpenRouter, ont été transmises à l'API officielle de MiniMax au lieu d'être traitées sur l'infrastructure de Novita. Leur contenu a pu être consulté ou conservé par un tiers, écrit l'hébergeur dans un avis du 22 novembre. Il dit vérifier avec MiniMax si un examen automatisé des contenus est en cause.\nAtlas Cloud, dans un avis du 23 novembre, s'appuie sur les tests de HD Moore. Un tiers a ouvert des liens contenus dans des prompts envoyés à l'API officielle de MiniMax, dont des prompts adressés aux modèles MiniMax M3 et M2.7 par l'intermédiaire d'Atlas Cloud au troisième trimestre et au début du quatrième. L'accès n'a pas eu lieu sur son infrastructure, précise l'hébergeur. Il a cessé d'envoyer des requêtes à l'API de MiniMax et retiré tous ses modèles d'OpenRouter le temps de les tester, une décision qu'il dit avoir prise lui-même. Atlas Cloud demande de tenir pour exposé tout secret envoyé à ces modèles.\nTogether AI a vu fuiter des échantillons de prompts de juin et juillet après qu'un agent de codage IA a publié sur GitHub l'identifiant d'accès au dépôt Hugging Face privé où ils étaient stockés. L'entreprise l'a expliqué le 21 novembre dans un communiqué que résume notre brève. Elle fait désormais du ZDR le réglage par défaut des nouveaux comptes.\nOpenRouter va tester les engagements des fournisseurs\nL'accord de traitement des données d'OpenRouter, mis à jour le 26 août 2026, précise que l'inscription d'un fournisseur sur la liste ZDR reflète la politique de non-conservation et de non-entraînement qu'il a publiée ou déclarée. Elle « ne constitue pas une garantie d'OpenRouter » qu'il s'y conforme. La documentation ZDR ajoute que le routeur suit la politique de chaque endpoint avec les fournisseurs et conclut, dans certains cas, des accords plus protecteurs que leurs conditions par défaut.\nAvant le 22 novembre, l'éligibilité ZDR reposait donc sur la parole des fournisseurs, parfois consignée dans un accord particulier. OpenRouter annonce désormais des vérifications. Il adapte la méthode des chercheurs pour la répéter en continu, contrôle les chemins réseau afin de repérer les requêtes transmises à des tiers, et exigera des garanties et une validation avant de rendre son éligibilité à un endpoint retiré.\nLe billet de Dragos prévient qu'un réglage de confidentialité n'engage que le premier intermédiaire. Les requêtes que Novita et Atlas Cloud ont transmises à l'API de MiniMax en donnent deux exemples. Dragos conseille de choisir soi-même les hébergeurs autorisés sur un routeur plutôt que d'accepter le lot par défaut, de vérifier que les réglages de confidentialité changent réellement la destination des requêtes, ou de passer directement par un fournisseur de premier rang.\nDragos dit travailler désormais avec une douzaine de fournisseurs et ne serait pas surpris que ce nombre augmente. Selon OpenRouter, tous les fournisseurs touchés ne se sont pas exprimés publiquement. Les quatre communiqués ne décrivent donc qu'une partie des incidents.\nCitations traduites de l'anglais par ActuIA.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
