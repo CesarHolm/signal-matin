@@ -1,0 +1,3012 @@
+{
+ "edition": {
+  "date": "2026-11-25",
+  "numero": 25,
+  "secours": false,
+  "numerique": true,
+  "meteo": null,
+  "nouveaux_mots": [
+   {
+    "mot": "Sagace",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Doué d'une grande finesse d'esprit.",
+    "exemple": "Une observatrice sagace des comportements."
+   },
+   {
+    "mot": "Véhément",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui s'exprime avec force et passion.",
+    "exemple": "Une protestation véhémente."
+   },
+   {
+    "mot": "Subodorer",
+    "nature": "v. tr.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Pressentir, deviner quelque chose.",
+    "exemple": "Il subodorait un piège."
+   },
+   {
+    "mot": "Vaticiner",
+    "nature": "v. intr.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Prophétiser, prédire l'avenir de façon pompeuse.",
+    "exemple": "Les experts vaticinent sur la fin du travail."
+   },
+   {
+    "mot": "Procyclicité",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "pro",
+    "definition": "Tendance d'un mécanisme à amplifier les fluctuations du cycle économique.",
+    "exemple": "La procyclicité des règles comptables."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Saugrenu"
+   },
+   {
+    "mot": "Acrimonie"
+   },
+   {
+    "mot": "Stochastique"
+   },
+   {
+    "mot": "Usufruit"
+   },
+   {
+    "mot": "Loquace"
+   }
+  ],
+  "sport": {
+   "resultats": [
+    {
+     "sport": "Football",
+     "affiche": "Real Madrid – PSV Eindhoven",
+     "score": "5-1",
+     "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue, 5e journée",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401915298/psv-eindhoven-real-madrid"
+    },
+    {
+     "sport": "Football",
+     "affiche": "RB Leipzig – Lens",
+     "score": "3-1",
+     "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue, 5e journée",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401915299/lens-rb-leipzig"
+    },
+    {
+     "sport": "Tennis",
+     "affiche": "Tchéquie – Canada",
+     "score": "2-0",
+     "competition": "Coupe Davis (compétition par équipes), quart de finale",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Tennis/Actualites/La-tchequie-domine-le-canada-et-file-en-demi-finales-de-la-coupe-davis/1745924#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Basket",
+     "affiche": "Besiktas – Paris Basketball",
+     "score": "76-88",
+     "competition": "Euroligue (coupe d'Europe des clubs)",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Basket/Actualites/Septieme-succes-de-suite-en-euroligue-pour-paris-vainqueur-sans-trembler-de-besiktas/1745907#at_medium=RSS_feeds"
+    }
+   ],
+   "a_suivre": [
+    {
+     "sport": "Football",
+     "affiche": "Sabah – Barcelone",
+     "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue",
+     "heure": "18 h 45",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401915378/barcelona-sabah-fk"
+    },
+    {
+     "sport": "Football",
+     "affiche": "PSG – AS Rome",
+     "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue",
+     "heure": "21 h",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401915374/as-roma-paris-saint-germain"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Lille – Bayern Munich",
+     "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue",
+     "heure": "21 h",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401915377/bayern-munich-lille"
+    }
+   ],
+   "periode": [
+    "2026-11-24"
+   ]
+  },
+  "reponses_hier": [
+   {
+    "mot": "Ostentatoire",
+    "definition": "Qui est fait avec ostentation, pour être remarqué."
+   },
+   {
+    "mot": "Titrisation",
+    "definition": "Technique financière qui transforme des créances peu liquides en titres négociables sur un marché."
+   },
+   {
+    "mot": "Résilience",
+    "definition": "Capacité à résister à un choc et à s'en remettre."
+   },
+   {
+    "mot": "Morose",
+    "definition": "Triste et maussade ; sans entrain."
+   },
+   {
+    "mot": "Clause léonine",
+    "definition": "Clause qui attribue à une partie la totalité des profits ou l'exonère de toute perte, réputée non écrite en droit des sociétés."
+   }
+  ],
+  "blocs": [
+   {
+    "id": "ia",
+    "titre": "IA",
+    "developpes": [
+     {
+      "rubrique": "IA",
+      "source": "Ars Technica",
+      "date": "2026-11-24",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "auteur": "Dan Goodin",
+      "titre": "Amazon : des agents d'IA ont exploité seuls une faille inconnue",
+      "chapo": "Selon Amazon, des agents d'IA lancés par des pirates ont trouvé puis exploité une faille « zero-day » sur un serveur universitaire d'Asie de l'Est, avec pour seule consigne d'obtenir un accès shell.",
+      "sections": [
+       {
+        "intertitre": "Ce que rapporte Amazon",
+        "texte": "Amazon Threat Intelligence a publié le 20 novembre 2026 un rapport décrivant une opération où des agents d'IA autonomes ont découvert et exploité une vulnérabilité jusque-là inconnue. Les opérateurs humains ont fourni une liste d'adresses IP et un objectif d'une ligne, « obtenir un accès shell » ; ils avaient rédigé leurs consignes en chinois simplifié et réglé le modèle sur le fuseau horaire de la Chine (China Standard Time). La victime était un serveur d'une université d'Asie de l'Est. Pour Amazon, ces opérations offensives menées par des agents sont déjà une réalité : les défenseurs doivent se préparer à leur vitesse et à leur persistance. Amazon attribue l'activité à un acteur lié à la Chine, sur la foi de ces deux indices ; selon Crypto Briefing, ce sont des signaux suggestifs et non une preuve, d'où la formule de « lien » plutôt que d'opération étatique confirmée."
+       },
+       {
+        "intertitre": "Le déroulement de l'attaque",
+        "texte": "Les agents tournaient sur Cairn, un cadre open source de test d'intrusion par IA. La campagne a eu lieu du 8 au 10 septembre 2026 contre des serveurs universitaires d'Asie de l'Est, hors de Chine continentale. Sur l'un d'eux, les agents ont repéré MONAI Label, une application open source d'IA pour l'imagerie médicale. Ils l'ont cartographiée et ont ciblé un défaut dans la gestion du paramètre de nom de fichier d'un point d'envoi de fichiers, ce qui permettait d'écrire des fichiers arbitraires sur le serveur, en 11 minutes environ, selon Crypto Briefing. Ils ont ensuite déployé une charge de « reverse shell » en Python et obtenu un accès root, soit le contrôle complet du système. Amazon a repéré l'opération le 10 septembre 2026 grâce à un serveur Cairn laissé exposé publiquement."
+       },
+       {
+        "intertitre": "Une faille désormais référencée",
+        "texte": "Il n'existait ni avis ni correctif pour cette faille avant le 18 novembre 2026 : c'est bien un « zero-day ». Amazon a alerté les mainteneurs de MONAI Label, qui ont publié un avis de sécurité critique sur GitHub le 18 novembre. La vulnérabilité porte l'identifiant CVE-2026-133968 et un score CVSS de 9,8 sur une échelle plafonnée à 10. L'agence américaine CISA l'a ensuite ajoutée à son catalogue des vulnérabilités connues comme exploitées. Selon Crypto Briefing, les utilisateurs de MONAI Label n'ont donc plus le choix : il faut corriger, ce type de logiciel se trouvant souvent dans des hôpitaux de recherche et des universités."
+       },
+       {
+        "intertitre": "Cairn, un outil conçu pour les défenseurs",
+        "texte": "Cairn est un moteur open source de résolution de problèmes dont le premier domaine validé est le test d'intrusion autonome. L'utilisateur donne une tâche ou un objectif, et éventuellement des indices ; un serveur tient un graphe partagé de faits et d'indices, et un répartiteur confie les tâches à des conteneurs de travail. Cairn fonctionne avec plusieurs modèles, dont Claude Code, Codex et Pi ; Palo Alto Networks l'a aussi vu utilisé avec GLM 5.2, DeepSeek V4 Flash et DeepSeek V4 Pro. Conçu pour les défenseurs, il profite aussi aux attaquants : ce mois-ci, Palo Alto Networks a indiqué que des pirates l'avaient employé contre des organisations des semi-conducteurs, de la défense et de la société civile, avec 25 opérations autonomes visant au moins 19 organisations, dont au moins 10 ont été compromises."
+       },
+       {
+        "intertitre": "Les limites des agents",
+        "texte": "Le rapport ne décrit pas une conquête sans faille. Face à des systèmes mieux protégés, notamment des bases de données Redis, les agents ont peiné : plus de 16 heures d'essais infructueux et des dizaines de milliers de tentatives d'identifiants. Ils se sont donc montrés efficaces pour repérer un défaut inédit dans une application de niche, bien moins contre des systèmes correctement configurés. Selon Crypto Briefing, des pratiques de base comme des identifiants robustes et des configurations verrouillées ont encore freiné une campagne pilotée par IA, mais la vitesse comprime les délais auxquels les défenseurs sont habitués, et les petits projets open source deviennent des cibles plus attractives."
+       }
+      ],
+      "synthese": "Amazon affirme qu'une campagne attribuée à un acteur lié à la Chine a laissé des agents d'IA découvrir et exploiter seuls une faille critique d'une application d'imagerie médicale. Les mêmes agents ont échoué face à des systèmes bien protégés, ce qui rappelle l'utilité des bases de la sécurité.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/amazon-ai-agents-exploit-zero-day/"
+       }
+      ],
+      "format": "long",
+      "id": "a29"
+     },
+     {
+      "rubrique": "IA",
+      "source": "Ars Technica",
+      "date": "2026-11-24",
+      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "auteur": "Ryan Whitwam",
+      "titre": "Tidal bannit la musique entièrement générée par IA dès le 9 décembre",
+      "chapo": "Le service de streaming Tidal a annoncé le 24 novembre qu'il retirera de son catalogue, à partir du 9 décembre, tous les morceaux entièrement créés par intelligence artificielle.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Tidal, qui labellisait jusqu'ici les contenus générés par IA comme la plupart des plateformes, change de position et bannit la musique entièrement créée par IA, au nom du tort causé aux artistes humains. Selon Revolt TV, l'annonce date du mardi 24 novembre ; les suppressions commenceront le 9 décembre. Robert Anderson, qui dirige Tidal au sein de sa maison mère, Block, a expliqué sur X que ces morceaux auraient totalement disparu du catalogue au début de l'année. Selon lui, 43 % des morceaux reçus en 90 jours étaient détectés comme générés par IA et « quelque chose de plus radical doit être fait ». Il présente Tidal comme la première plateforme de ce type à agir et encourage ses concurrents à suivre. La plateforme précise que seule la musique entièrement produite par IA est visée : les artistes peuvent continuer à utiliser des outils d'IA tant que le résultat final comporte des éléments humains."
+       },
+       {
+        "intertitre": "Les chiffres de Tidal",
+        "texte": "Sur les 90 derniers jours, 43 % des nouveaux dépôts étaient entièrement générés par IA, et Ars Technica rapporte que ce taux a atteint 60 % le 6 novembre. Tidal héberge environ 27 millions de titres labellisés IA, soit 6,3 % de son catalogue, dont 96 % n'ont eu aucune écoute au cours des 90 derniers jours : la suppression n'aurait donc pratiquement aucun effet négatif. Les sources divergent sur le volume : Ars Technica parle de 27 millions de morceaux supprimés, tandis que TechCrunch et Robert Anderson évoquent plus de 29 millions d'ici la fin de l'année. Avec les nouvelles règles, Tidal prévoit de refuser environ 80 000 à 85 000 titres par jour."
+       },
+       {
+        "intertitre": "Les raisons invoquées",
+        "texte": "La politique initiale de Tidal, qui prévoyait l'étiquetage et la démonétisation des morceaux entièrement créés par IA, n'a pas suffi : Ars Technica la date de juillet 2026, TechCrunch et Revolt TV de juin. Selon Ars Technica, les modèles d'IA produisent du bruit plus vite que les humains ne créent de la valeur, ce qui peut tromper les auditeurs et détourner des redevances. Tidal évoque aussi des déposants qui cherchent à capter ces redevances : environ 66 000 titres ont déjà été retirés pour usurpation d'identité d'artistes (« plus de 65 000 » selon Revolt TV). Tidal reconnaît que tous les morceaux ne trouvent pas leur public tout de suite et que les artistes ont besoin de temps pour se constituer des fans, mais, à cette échelle, la situation est différente : la musique authentique que recherchent les abonnés se retrouve enfouie. La plateforme veut que ceux qui font de la musique puissent la publier sans qu'elle soit noyée sous des titres que personne n'a demandés, ni copiée par quelqu'un qui se fait passer pour eux."
+       },
+       {
+        "intertitre": "Le dispositif et le contexte du secteur",
+        "texte": "Tidal interdit aussi aux services de distribution de livrer des morceaux 100 % IA et rejettera les envois dont les métadonnées indiquent une création entièrement par IA. D'après TechCrunch, Tidal est l'une des premières grandes plateformes à interdire ainsi cette musique, après Bandcamp. Deezer, qui fournit aussi des outils de détection, introduira un réglage permettant aux utilisateurs de filtrer la musique IA. Spotify et YouTube Music, plus modérés, se contentent d'étiqueter ; Apple Music prévoit d'étiqueter les contenus générés ou assistés par IA, et Spotify dit avoir retiré 75 millions de titres de « spam » de son catalogue, puis écarté 50 millions de titres des recommandations cette année. Les maisons de disques, elles, s'associent à des plateformes et à des concepteurs de modèles pour vendre leurs catalogues à des fins d'entraînement ou de remix ; selon TechCrunch, Goldman Sachs estime que d'ici 2035 ces licences et nouvelles sources de revenus pourraient accroître de 10 % les recettes des labels."
+       }
+      ],
+      "synthese": "Tidal passe de l'étiquetage à l'interdiction de la musique entièrement générée par IA, qu'elle jugeait trop nombreuse et nuisible aux artistes. Les sources divergent sur le nombre de titres supprimés (27 ou 29 millions), mais s'accordent sur la date du 9 décembre.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+       },
+       {
+        "source": "Revolt TV",
+        "url": "https://www.revolt.tv/article/tidal-ai-generated-music-ban"
+       }
+      ],
+      "format": "long",
+      "id": "a27"
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-24",
+      "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
+      "auteur": "Matthias Bastian",
+      "titre": "Anthropic : MCP dépasse 700 millions de téléchargements mensuels de SDK",
+      "chapo": "Deux ans après son lancement, le standard MCP d'Anthropic dépasse 700 millions de téléchargements mensuels et s'enrichit pour permettre aux agents d'IA d'agir plus seuls.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Anthropic indique que son standard MCP (Model Context Protocol) dépasse 700 millions de téléchargements mensuels de ses outils de développement (SDK) et compte plus de 10 000 connecteurs MCP pour Claude. L'entreprise élargit le protocole pour que les agents d'IA communiquent entre eux et coordonnent leurs tâches plus facilement. Parmi les ajouts majeurs figurent « Tasks » et « Elicitation », désormais en disponibilité générale après un test public en octobre."
+       },
+       {
+        "intertitre": "Les nouvelles fonctions",
+        "texte": "Avec Tasks, un serveur peut exécuter une tâche longue en arrière-plan et ne signaler le résultat que lorsqu'il est prêt. Elicitation permet à un processus en cours de se mettre en pause pour demander à l'utilisateur des informations manquantes. Skills over MCP, en bêta publique, permet aux serveurs d'associer à leurs outils des « skills » qui guident Claude dans de longues tâches en plusieurs étapes : bonnes pratiques, procédures pas à pas, consignes adaptées à un compte ou à une organisation. L'envoi de fichiers (PDF, tableurs, images) vers les serveurs MCP arrive bientôt dans Claude et Claude Code, pour les abonnés Pro, Max et Ultra et les clients Team et Enterprise éligibles."
+       },
+       {
+        "intertitre": "Les changements techniques",
+        "texte": "Ces fonctions s'appuient sur des changements de l'année écoulée. Tool Search ne charge les descriptions d'outils qu'au moment du besoin, ce qui peut réduire l'usage du contexte de plus de 85 % avec plusieurs serveurs. La spécification actuelle est sans état, c'est-à-dire sans stockage permanent des données de session, et fonctionne dans tous les produits Claude, pour faciliter la création et la fiabilité des serveurs. Enterprise Managed Auth permet aux administrateurs d'approuver une fois un serveur pour que les employés s'y connectent automatiquement, et MCP Apps intègre des interfaces complètes dans Claude."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "Anthropic a présenté MCP en novembre 2024 comme un standard ouvert donnant aux assistants d'IA un accès uniforme aux outils d'entreprise et aux environnements de développement. Sam Altman, patron d'OpenAI, a annoncé en mars 2025 l'adoption du standard par son entreprise ; en mai 2025, OpenAI a ajouté des serveurs MCP distants à son API Responses. Des chercheurs du Shanghai Artificial Intelligence Laboratory s'en sont inspirés pour leur Science Context Protocol, présenté en janvier 2026."
+       }
+      ],
+      "synthese": "MCP a gagné en ampleur et s'ouvre à des agents plus autonomes. Les nouveautés visent à faire travailler Claude plus indépendamment.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a5"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-24",
+      "url": "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/",
+      "auteur": "Manuel Uth",
+      "id": "a8",
+      "titre": "Un chercheur d'Anthropic maintient sa preuve assistée par IA de l'hypothèse de Riemann",
+      "texte": "Le chercheur d'Anthropic Levent Alpöge revient sur certains points de son annonce d'une preuve de l'hypothèse de Riemann généralisée assistée par IA. Il qualifie de plaisanterie l'affirmation selon laquelle la preuve comptait plus de 250 000 pages et juge le code Lean publié « plein de déchets ». Il maintient toutefois la validité des mathématiques et reconnaît des « choses stupides » dans le déroulement de l'annonce."
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-24",
+      "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+      "auteur": "Maximilian Schreiner",
+      "id": "a9",
+      "titre": "Des initiés jugent les modèles non publiés d'OpenAI et Anthropic difficiles à maîtriser",
+      "texte": "Selon un rapport d'Axios, de nombreux employés d'OpenAI et d'Anthropic estiment que les modèles d'avant-garde non publiés de leurs entreprises ne peuvent plus être contrôlés en toute sécurité. Les deux sociétés débattraient en interne de la suspension des sorties, voire de l'arrêt de l'entraînement, alors que la confiance envers la direction s'érode."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-24",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "auteur": "",
+      "id": "a20",
+      "titre": "Royaume-Uni : les cyberattaques assistées par IA exposent des années de failles",
+      "texte": "L'agence britannique de cybersécurité constate que les outils de piratage fondés sur l'IA exploitent surtout des failles simples. Elle insiste sur la nécessité de bases de sécurité solides."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-24",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "auteur": "",
+      "id": "a16",
+      "titre": "Les meilleurs agents IA peinent encore sur les tâches du quotidien",
+      "texte": "Un nouveau benchmark montre que les modèles les plus avancés ont du mal à accomplir de façon fiable et sûre des tâches courantes, sans introduire de nouveaux problèmes."
+     }
+    ]
+   },
+   {
+    "id": "france",
+    "titre": "Actualité France",
+    "developpes": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-24",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/24/budget-un-premier-texte-adopte-par-le-parlement-sebastien-lecornu-reve-desormais-d-un-compromis-pour-2027_6814842_823448.html",
+      "auteur": "Denis Cosnard et Olivier Pérou",
+      "titre": "Budget : loi de fin de gestion 2026 adoptée, le compromis 2027 reste à trouver",
+      "chapo": "Le Parlement a définitivement adopté le projet de loi de fin de gestion pour 2026, une première étape avant le budget 2027, pour lequel Sébastien Lecornu cherche un compromis.",
+      "sections": [
+       {
+        "intertitre": "Ce qui a été voté",
+        "texte": "Mardi 24 novembre, l'Assemblée nationale et le Sénat ont voté dans les mêmes termes le projet de loi de fin de gestion (PLFG) pour 2026, un texte qui procède aux derniers ajustements budgétaires de l'année. Le compromis trouvé en commission mixte paritaire a été validé à une large majorité : 231 voix pour et 111 contre au Sénat, 135 voix pour et 64 contre à l'Assemblée. La loi devrait être promulguée rapidement, notamment pour financer des dépenses non prévues au budget initial, à commencer par le surcoût de la guerre en Ukraine et des intérêts plus élevés qu'attendu à verser aux créanciers de la France."
+       },
+       {
+        "intertitre": "Un vote sans 49.3",
+        "texte": "Selon Yahoo Actualités, ce texte technique, moins abrasif pour les oppositions que les projets de budget examinés en parallèle, a été adopté sans recours au 49.3 pour la quatrième année consécutive. Il l'a été notamment grâce à l'abstention des députés socialistes et du Rassemblement national. Le groupe écologiste a en revanche voté contre, avec La France insoumise et les communistes. Le Monde rappelle que, la veille, Sébastien Lecornu avait jugé ce texte « essentiel » pour mettre la pression sur les députés tentés de le bloquer : son rejet aurait empêché le gouvernement de tenir certaines promesses récentes, par exemple en faveur des lycéens ou des agriculteurs."
+       },
+       {
+        "intertitre": "La méthode du Premier ministre",
+        "texte": "Sur le réseau social X, le Premier ministre s'est aussitôt félicité : « La méthode de dialogue et de recherche du compromis choisie par le gouvernement a permis d'aboutir à un accord ». Il a ajouté que « le calendrier budgétaire est respecté » et que le gouvernement poursuivrait le travail avec les parlementaires pour doter la France d'un budget pour 2027. Il a annoncé qu'il recevrait la semaine suivante chacun des présidents de groupe parlementaire, pour la première fois cet automne, alors qu'aucun compromis n'est en vue sur les projets de loi de finances pour 2027."
+       },
+       {
+        "intertitre": "Les cinq thèmes de compromis pour 2027",
+        "texte": "Dans un courrier envoyé lundi aux élus, relaté par Les Echos, Sébastien Lecornu propose cinq thèmes de compromis, à condition de ne pas dépasser la cible gouvernementale d'un déficit de 5 %. Il y cite l'agriculture, avec un plan de relance de 725 millions d'euros, et les lycéens et étudiants, à qui l'on a promis des classes moins chargées et des bourses indexées sur les prix. Viennent aussi le pouvoir d'achat, au-delà de la hausse du SMIC de 1,6 % au 1er décembre, les collectivités locales, appelées à prendre leur part au redressement des finances publiques, et le logement, avec une prolongation du prêt à taux zéro. Il appelle aussi à un compromis sur des économies supplémentaires : au moins 6 milliards d'euros en plus des 43 milliards prévus, selon le ministre des Comptes publics David Amiel."
+       },
+       {
+        "intertitre": "Les échéances et les inconnues",
+        "texte": "Rejeté début novembre à l'unanimité par les députés, le projet de budget de l'État est examiné par le Sénat, qui doit voter le 9 décembre. À défaut d'adoption par le Parlement, le gouvernement pourra recourir aux ordonnances à partir du 17 décembre, ou au 49.3, qui suppose une non-censure. Or les ordonnances empêcheraient a priori d'intégrer les mesures promises. L'an dernier, le Premier ministre avait fait adopter le budget par le 49.3, après un compromis de non-censure avec le PS, au prix d'une suspension de la réforme des retraites. Cette fois, il n'a pas mis en scène de grandes négociations avec le PS, qui semble s'orienter vers une censure en cas de 49.3 ; son chef de file à l'Assemblée, Boris Vallaud, a toutefois dit que si de vraies revendications des lycéens, des syndicats ou des agriculteurs étaient satisfaites, « ça se regarde ». Le Rassemblement national a laissé entendre qu'il pourrait ne pas censurer, pour doter le pays d'un budget qu'il promet de modifier en cas de victoire de Marine Le Pen à la présidentielle du printemps ; son président de groupe, Sébastien Chenu, n'exclut aucune hypothèse."
+       }
+      ],
+      "synthese": "Le Parlement a adopté sans 49.3 le texte de fin de gestion 2026, qui finance des dépenses imprévues. Reste le budget 2027, sans majorité, dont l'issue dépendra du compromis recherché ou d'un recours au 49.3 ou aux ordonnances.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Les Echos",
+        "url": "https://www.lesechos.fr/politique-societe/politique/budget-la-lettre-de-sebastien-lecornu-aux-parlementaires-2264195"
+       },
+       {
+        "source": "Yahoo Actualités",
+        "url": "https://fr.news.yahoo.com/budget-2027-s%C3%A9bastien-lecornu-va-190225467.html"
+       }
+      ],
+      "format": "long",
+      "id": "a31"
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-24",
+      "url": "https://www.franceinfo.fr/economie/automobile/l-usine-stellantis-de-sochaux-arrete-l-activite-de-son-equipe-de-nuit-a-partir-de-janvier-2027-500-emplois-sont-concernes_8298177.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "titre": "Stellantis Sochaux supprime son équipe de nuit en janvier 2027 : 500 emplois touchés",
+      "chapo": "L'usine Peugeot de Sochaux, dans le Doubs, arrêtera son équipe de nuit en janvier et ramènera sa production à 850 véhicules par jour.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "L'usine Stellantis de Sochaux (Doubs), berceau de la marque Peugeot, va arrêter l'activité de son équipe de nuit à partir de janvier 2027. La direction du site l'a annoncé aux représentants du personnel mardi 24 novembre. Elle explique dans un communiqué : « Dans le contexte économique actuel et considérant l'état prévisionnel des marchés, nous adaptons notre organisation ». Cinq cents personnes sont concernées par cet arrêt d'activité nocturne. Franceinfo y voit un coup dur pour l'industrie automobile. Les trois sources, qui reprennent le même communiqué et les mêmes propos recueillis par l'AFP, concordent sur les chiffres : 500 personnes, 850 véhicules par jour au lieu de 1 050."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "L'équipe de nuit avait été mise en place en novembre 2024, lors du lancement des nouveaux véhicules Peugeot 3008 et 5008, dont le prix de vente dépasse 40 000 euros. Une porte-parole de l'usine a rappelé à l'AFP que le contexte est difficile pour les constructeurs automobiles, qui font face à une concurrence « agressive ». Fin octobre, Stellantis avait publié une perte nette de 453 millions d'euros pour le troisième trimestre, contre une perte de 4,5 milliards sur la même période un an plus tôt, lestée par de lourdes charges exceptionnelles. La maison mère de Peugeot, Fiat et Chrysler avait fait état d'une « amélioration de tous les indicateurs financiers »."
+       },
+       {
+        "intertitre": "Ce que ça change",
+        "texte": "L'usine s'appuiera désormais seulement sur deux équipes complètes en journée. Elle produira 850 véhicules par jour, contre 1 050 actuellement. « Cela reste une activité soutenue », a relevé la porte-parole. Des séances de production sont par ailleurs annulées : les vacances de Noël seront notamment allongées et devraient durer deux semaines et demie. Le site compte 3 000 collaborateurs en production, sur un total de 5 500 salariés, ce qui signifie que les 500 personnes de l'équipe de nuit en représentent une part notable. La baisse de cadence est de 200 véhicules par jour, auxquels s'ajoute l'allongement des vacances de Noël."
+       },
+       {
+        "intertitre": "Ce que les sources ne disent pas",
+        "texte": "Les textes ne précisent ni le nombre de salariés en contrat à durée indéterminée parmi les 500 personnes concernées, ni le sort que la direction leur réserve au-delà des entretiens individuels prévus avec leur hiérarchie d'ici à la fin du mois de novembre. Ils ne chiffrent pas non plus le nombre de séances de production annulées, hormis l'allongement des vacances de Noël à deux semaines et demie. La direction parle seulement d'une adaptation de son organisation au contexte économique et à l'état prévisionnel des marchés."
+       },
+       {
+        "intertitre": "Le sort des salariés",
+        "texte": "« Chaque salarié de nuit sera reçu par sa hiérarchie d'ici à la fin du mois de novembre », précise l'entreprise. L'entreprise ajoute que « les personnes en contrat d'intérim iront au terme de leur mission dans les conditions habituelles qui sont définies dans leur contrat ». Le syndicat Force ouvrière (FO) estime que les intérimaires sont « sacrifiés » : « Ce sont 500 familles qui restent sur le carreau », a-t-il déploré. Pour FO, ce sont donc les travailleurs en contrat d'intérim qui paient le prix de la décision de la direction."
+       },
+       {
+        "intertitre": "Les réactions syndicales",
+        "texte": "Jean-Luc Ternet, de la CFTC, s'est emporté : « Cette fois, ce n'est plus un problème d'approvisionnement ». Inquiet des conséquences économiques de cette baisse d'activité, il a averti : « Quand l'industrie recule, c'est tout un territoire qui vacille ». La CFE-CGC a dénoncé de son côté « une décision brutale », qui vient « fragiliser un site pourtant reconnu pour sa capacité de production et la qualité de son outil industriel »."
+       }
+      ],
+      "synthese": "Stellantis arrête à Sochaux l'équipe de nuit créée en novembre 2024, ce qui touche 500 personnes et ramène la production de 1 050 à 850 véhicules par jour. La direction invoque le contexte économique et l'état prévisionnel des marchés, tandis que FO, la CFTC et la CFE-CGC dénoncent un coup porté aux intérimaires et au territoire.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Franceinfo",
+        "url": "https://www.franceinfo.fr/economie/automobile/l-usine-stellantis-de-sochaux-arrete-l-activite-de-son-equipe-de-nuit-a-partir-de-janvier-2027-500-emplois-sont-concernes_8298177.html"
+       },
+       {
+        "source": "TradingView",
+        "url": "https://www.tradingview.com/news/afp:837c7ac30128b:0/"
+       }
+      ],
+      "format": "long",
+      "id": "a47"
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-24",
+      "url": "https://www.franceinfo.fr/politique/affaire/financement-de-la-campagne-de-sarkozy/nicolas-sarkozy-carla-bruni-mimi-marchand-qui-sont-les-principaux-protagonistes-de-l-affaire-de-la-fausse-retractation-de-ziad-takieddine_8297730.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "titre": "Fausse rétractation de Takieddine : onze renvois dont Sarkozy et Carla Bruni",
+      "chapo": "Le parquet national financier renvoie onze personnes devant le tribunal correctionnel dans l'affaire de la fausse rétractation de Ziad Takieddine, dont Nicolas Sarkozy et Carla Bruni-Sarkozy.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est reproché",
+        "texte": "Mardi 24 novembre, le parquet national financier (PNF) a décidé de renvoyer Nicolas Sarkozy devant le tribunal correctionnel pour « association de malfaiteurs en vue de préparer une escroquerie en bande organisée » et « recel de subornation de témoin ». Onze personnes sont renvoyées pour leur implication dans l'opération que les enquêteurs appellent « Sauver Sarko ». Le procès doit se tenir en novembre 2027. Les mis en cause sont soupçonnés d'avoir voulu tromper la justice par des moyens frauduleux pour innocenter l'ancien président dans le dossier du financement libyen de sa campagne de 2007, sur lequel la cour d'appel de Paris doit rendre son arrêt le 30 novembre."
+       },
+       {
+        "intertitre": "Ziad Takieddine, à l'origine de l'affaire",
+        "texte": "L'intermédiaire franco-libanais, mort en septembre 2025, était à l'origine des accusations de financement libyen. Lors d'un interrogatoire fin 2012, dans le volet financier de l'affaire Karachi, où il a été condamné en appel à cinq ans de prison ferme, il a évoqué un financement de 50 millions d'euros par le régime du colonel Kadhafi. Selon lui, les versements ont commencé fin 2006 pour atteindre 5 millions d'euros début 2007. Après huit ans, il est revenu sur ce témoignage en novembre 2020, dans un entretien à BFMTV et Paris Match, puis l'a repris deux mois plus tard, assurant qu'on lui avait proposé « des millions d'euros » pour cette opération."
+       },
+       {
+        "intertitre": "Le couple Sarkozy",
+        "texte": "Nicolas Sarkozy et son épouse sont poursuivis pour les mêmes motifs. Devant les juges en octobre 2023, l'ancien président s'est dit impliqué à tort à cause d'une « petite bande » de « pieds nickelés » avides d'argent, ni « organisateur », ni « bénéficiaire », ni « valideur », ni même « au courant ». Carla Bruni-Sarkozy, mise en examen en juillet 2024 dans une enquête fondée surtout sur des écoutes, est soupçonnée d'avoir demandé fin 2019 une ligne téléphonique occulte pour échanger avec Mimi Marchand. Après l'avoir contesté, elle a reconnu à l'été 2024 posséder ce téléphone, tout en contestant être l'autrice ou la destinataire des SMS. Le couple s'estime victime des manœuvres de Mimi Marchand."
+       },
+       {
+        "intertitre": "Les autres protagonistes",
+        "texte": "Michèle Marchand, dite Mimi, 79 ans, dirigeante de l'agence Bestimage, doit répondre de subornation et d'association de malfaiteurs ; elle s'est rendue à Beyrouth en octobre 2020 pour l'interview de Takieddine. Communicante pour des stars comme pour des politiques et proche de Brigitte Macron, elle a été mise en examen et placée sous contrôle judiciaire en 2021. Paris Match appartenait alors au groupe Lagardère, dont Nicolas Sarkozy était membre du conseil d'administration. Sa défense, Me Caroline Toby, affirme qu'elle conteste fermement les faits et qu'elle a agi comme journaliste, ayant eu l'exclusivité de l'interview, en se contentant d'organiser les photos et l'entretien dans le cadre de son métier. L'homme d'affaires David Layani, patron de la société de transformation numérique Onepoint, est renvoyé pour complicité de subornation. Il est soupçonné d'avoir versé des sommes à la société de Mimi Marchand pour des prestations de relations publiques jamais réalisées. Par la voix de son avocat, Me Mathias Chichportich, il dément toute implication : une convention avec Bestimage, signée en 2020, listait parfaitement les prestations, mais son exécution a été « différée » en raison de la crise sanitaire. Noël Dubus, ancien employé des postes condamné à douze reprises depuis 1996 selon Marianne en 2021, est soupçonné d'être l'homme-orchestre de l'opération et poursuivi pour subornation et association de malfaiteurs, y compris en vue de faits de corruption de personnels judiciaires étrangers. Il s'est rendu deux fois à Beyrouth avant la rétractation. Interrogé en mai 2022 par franceinfo sur un revirement prévu de Takieddine, il répondait : « Non, ce n'était pas le but ». L'enquête a révélé une possible tentative de corruption de magistrats libanais pour faire libérer Hannibal Kadhafi, l'un des fils de Mouammar Kadhafi détenu au Liban, et obtenir l'incarcération de Ziad Takieddine."
+       }
+      ],
+      "synthese": "Un nouveau procès, prévu en novembre 2027, attend Nicolas Sarkozy et dix autres personnes dans l'affaire de la fausse rétractation de Ziad Takieddine. Les mis en cause contestent tout ou partie des faits.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a42"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-24",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/24/aux-assises-a-lyon-la-serie-criminelle-qui-fait-basculer-le-banditisme-dans-la-cartellisation_6814867_3224.html",
+      "auteur": "Richard Schittly",
+      "id": "a37",
+      "titre": "Aux assises de Lyon, une série criminelle illustre la « cartellisation » du banditisme",
+      "texte": "Dix accusés sont jugés à Lyon pour une série de fusillades et de représailles sur fond de narcotrafic. Selon les enquêteurs de la police judiciaire, la stratégie de terreur entre clans rivaux s'inspire des cartels sud-américains."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-24",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/24/presidentielle-2027-les-maires-s-inquietent-du-ras-le-bol-general-des-electeurs_6814869_823448.html",
+      "auteur": "Benoît Floc’h",
+      "id": "a34",
+      "titre": "Présidentielle 2027 : les maires redoutent le « ras-le-bol général » des électeurs",
+      "texte": "Le congrès de l'Association des maires de France s'est ouvert mardi 24 novembre à Paris. Beaucoup d'élus s'inquiètent de la situation sociale et craignent que la détresse d'une partie de la population profite au Rassemblement national."
+     },
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-24",
+      "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-coup-de-theatre-le-senat-renonce-a-supprimer-labattement-de-10-des-retraites",
+      "auteur": "",
+      "id": "a59",
+      "titre": "Budget 2027 : le Sénat renonce à supprimer l'abattement de 10 % des retraités",
+      "texte": "Contre toute attente, l'amendement visant à supprimer l'abattement fiscal de 10 % sur les pensions a été rejeté le 24 novembre. Le Sénat a finalement abaissé le plafond de cet abattement à 1 000 euros."
+     }
+    ]
+   },
+   {
+    "id": "monde",
+    "titre": "Actualité Monde",
+    "developpes": [
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-24",
+      "url": "https://www.scmp.com/news/china/politics/article/3375640/shanghai-party-chief-faces-corruption-probe",
+      "auteur": "",
+      "titre": "Chine : Chen Jining, chef du Parti à Shanghai, visé par une enquête",
+      "chapo": "Chen Jining, secrétaire du Parti communiste à Shanghai et membre du Bureau politique, fait l'objet d'une enquête pour de graves violations de la discipline et de la loi.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "L'annonce a été faite mardi. Selon le South China Morning Post, la télévision d'État CCTV a indiqué que Chen Jining, également membre du puissant Bureau politique, était visé par la Commission centrale d'inspection de la discipline et la Commission nationale de supervision, pour de « graves violations de la discipline et de la loi », formule souvent employée comme euphémisme pour désigner la corruption. CNN cite l'agence Xinhua, qui parle d'une accusation de corruption et de « graves violations de la discipline ». Chen, 62 ans, dirigeait depuis octobre 2022 la plus grande ville et le centre financier de la Chine. Sa dernière apparition publique semble remonter au jeudi 19 novembre, lors d'une inspection du siège d'un groupe chinois de transport maritime ; les plateformes officielles de Shanghai ont vite retiré les publications qui le mentionnent."
+       },
+       {
+        "intertitre": "Un parcours ascendant",
+        "texte": "Formé comme spécialiste de l'environnement, Chen est décrit par CNN comme un protégé de Xi Jinping, urbain et anglophone, que des observateurs de la Chine citaient parmi les successeurs possibles du dirigeant. Titulaire d'une maîtrise en génie civil et environnemental de l'université Tsinghua, il a obtenu un doctorat à l'Imperial College de Londres. Il a passé plus de dix ans au ministère de l'Environnement et de l'Écologie, présidé Tsinghua, puis été maire de Pékin et organisé les Jeux olympiques d'hiver de 2022. Le poste de Shanghai ouvre habituellement la voie au Comité permanent du Bureau politique, sommet de la hiérarchie du pouvoir, voie suivie par Xi Jinping et par l'ancien dirigeant Jiang Zemin."
+       },
+       {
+        "intertitre": "Une purge qui s'intensifie",
+        "texte": "Chen est le quatrième des 24 membres du Bureau politique à tomber depuis le dernier congrès du Parti, en 2022. Selon CNN, Xi, 73 ans, quasi certain d'obtenir l'an prochain un quatrième mandat, sans précédent, mène depuis plus de dix ans une campagne anticorruption qui a atteint des sommets ces derniers mois. En deux mois, elle a frappé le maire adjoint de Pékin et un ancien maire de Chongqing retraité. La Commission militaire centrale, habituellement forte de sept membres, n'en compte plus que deux, dont Xi. Entre 2012 et 2022, plus de 500 responsables de rang ministériel ont été condamnés, destitués et exclus du Parti pour corruption, d'après les données officielles, dont plus de 410 au cours des trois dernières années."
+       }
+      ],
+      "synthese": "L'enquête visant Chen Jining, figure montante du Parti et dirigeant de Shanghai, marque une nouvelle étape de la campagne anticorruption de Xi Jinping. Elle touche un quatrième membre du Bureau politique depuis 2022.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "CNN",
+        "url": "https://www.cnn.com/2026/11/24/china/china-chen-jining-investigated-purge-intl-hnk"
+       }
+      ],
+      "format": "long",
+      "id": "a96"
+     },
+     {
+      "rubrique": "États-Unis",
+      "source": "NPR",
+      "date": "2026-11-24",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-6052994/hack-commercial-vessels-iran",
+      "auteur": "Jenna McLaughlin",
+      "titre": "Navires marchands piratés : Washington enquête sur des liens avec l'Iran",
+      "chapo": "Le gouvernement américain dispose d'informations selon lesquelles jusqu'à 50 navires de commerce auraient été piratés, et examine un possible lien avec l'Iran.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Selon des renseignements dont dispose le gouvernement américain, jusqu'à 50 navires de commerce ont été récemment compromis par des cyberattaques, dont des responsables fédéraux examinent un lien éventuel avec l'Iran. L'information vient d'un responsable américain informé du dossier, qui n'était pas autorisé à s'exprimer officiellement, d'un ancien opérateur cyber de l'armée et d'un dirigeant du secteur mis au courant des attaques. Cette série d'intrusions a d'abord été rapportée par le Wall Street Journal. Les garde-côtes et le FBI indiquent n'avoir connaissance d'aucune perturbation opérationnelle, d'aucune instabilité des navires, d'aucun danger physique pour les équipages ni d'aucun effet sur l'environnement."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "Si les soupçons des autorités se confirment, ces attaques contre le secteur maritime s'ajouteraient à d'autres visant des infrastructures critiques dans le monde, pendant la guerre en cours entre l'Iran et les États-Unis. NPR a rapporté que des experts en cybersécurité et des responsables américains attribuent à des pirates iraniens des attaques contre des systèmes de traitement de l'eau aux États-Unis en août, ainsi qu'une série d'attaques contre des systèmes de réfrigération, qui ont fait perdre des denrées dans des supermarchés de bases militaires américaines et dans toute l'Europe, jusqu'au début de novembre. Dès août, les garde-côtes et le FBI ont envoyé une équipe très spécialisée à bord de deux navires étrangers qui faisaient route vers des ports américains dans le « golfe d'Amérique »."
+       },
+       {
+        "intertitre": "La faille exploitée",
+        "texte": "D'après le responsable américain, les pirates ont tiré parti de vulnérabilités connues des équipements Fortinet FortiGate, très répandus dans le transport maritime, qui servent à gérer les pare-feu et les réseaux privés virtuels. Garde-côtes et FBI avaient publié en septembre un bulletin d'alerte : les pirates « recherchent régulièrement des failles précises, non corrigées, pour s'introduire ». À bord, des employés ont soupçonné un problème en constatant des perturbations de messagerie, des échecs de connexion ou, dans au moins un cas, une longue coupure des communications. Les pirates auraient pu passer des systèmes informatiques des navires aux appareils qui commandent les processus physiques, la technologie opérationnelle. Le responsable cite un possible effet sur la propulsion, la direction, la navigation et la gestion de la cargaison, sans donner d'exemple d'une telle action. Un méthanier figurait parmi les navires touchés."
+       },
+       {
+        "intertitre": "Ce que ça change",
+        "texte": "Les navires qui entrent aux États-Unis sont habitués aux contrôles de sécurité physique depuis les attentats du 11 septembre, mais les menaces numériques deviennent plus importantes à suivre, car des adversaires peuvent frapper de loin. « C'est un paradigme totalement nouveau que ces pétroliers soient ainsi mis en réseau », dit le responsable. Un ancien responsable de la marine, resté anonyme, affirme que l'on suivait depuis longtemps la possibilité de prendre le contrôle de ces systèmes sur les navires de la marine et de commerce, et que « cela se concrétise maintenant ». Les garde-côtes rappellent qu'une cyberattaque comporte des risques de collision, d'échouement, de marée noire, voire d'explosion."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Le lien avec l'Iran reste à l'état de piste : les autorités l'examinent sans l'avoir établi. Le responsable américain a refusé d'expliquer comment le gouvernement connaît l'étendue des intrusions. Il juge ces attaques « pas sophistiquées » : la faille est connue et une hygiène informatique de base suffirait à la réduire. À l'approche de l'hiver et de la période de fêtes, chargée pour le transport maritime, les autorités se préparent à enquêter sur tout navire compromis qui entrerait dans un port américain."
+       }
+      ],
+      "synthese": "Jusqu'à 50 navires de commerce auraient été compromis par l'exploitation d'une faille connue, et les autorités américaines étudient un lien avec l'Iran sans avoir fait état de perturbation. L'enjeu tient à la mise en réseau croissante des navires, dont les systèmes de commande pourraient être atteints.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a67"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-25",
+      "url": "https://www.politico.eu/article/ukraine-strikes-russian-ships-libya-giorgia-meloni-italy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Jacopo Barigazzi; Veronika Melkozerova",
+      "id": "a77",
+      "titre": "Rome craint que les frappes sur des navires russes ne déstabilisent la Libye",
+      "texte": "Le chef du gouvernement italien soutient fermement Kyiv, mais Rome redoute que les frappes ukrainiennes contre des navires russes en Méditerranée ne déstabilisent la Libye. Selon l'article, « tout ce qui concerne la Libye concerne l'Italie »."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-25",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order?traffic_source=rss",
+      "auteur": "Adam Hancock; Kristina Harazim",
+      "id": "a107",
+      "titre": "Yémen : la coalition menée par l'Arabie saoudite frappe le port de Hodeïda",
+      "texte": "La coalition menée par l'Arabie saoudite a frappé le port de Hodeïda, au Yémen, après avoir émis un ordre d'évacuation. Les Houthis menacent en retour de viser Djeddah et d'autres ports saoudiens si Hodeïda est de nouveau frappée."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-24",
+      "url": "https://www.scmp.com/news/us/article/3375673/huawei-guilty-10-12-counts-after-2-month-battle-us-courtroom",
+      "auteur": "",
+      "id": "a91",
+      "titre": "Huawei reconnu coupable de 10 chefs d'accusation sur 12 après un procès aux États-Unis",
+      "texte": "Après près de sept ans de procédure pénale, un jury de Brooklyn a déclaré Huawei Technologies et trois filiales coupables de 10 des 12 chefs retenus, dont fraude bancaire et électronique, complot de vol de secrets commerciaux et contournement des sanctions. Le jury les a en revanche acquittés du complot d'entrave à la justice et du complot relevant de la loi RICO, les plus graves."
+     }
+    ]
+   },
+   {
+    "id": "recherche",
+    "titre": "Recherche & travaux d'experts",
+    "developpes": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w36038#fromrss",
+      "auteur": "Lin William Cong; Gordon Y Liao; Eswar S Prasad; Tony Zhang",
+      "titre": "Stablecoins : cinq faits montrent un usage de monnaie tokenisée",
+      "chapo": "Quatre économistes analysent cinq ans de données de portefeuilles et concluent que les stablecoins fonctionnent comme de la monnaie tokenisée.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "Les stablecoins sont des monnaies numériques inscrites sur des blockchains, qui gardent une valeur stable par rapport à une unité de compte, le plus souvent le dollar. Les deux principaux, USDT (Tether) et USDC (Circle), pesaient ensemble plus de 260 milliards de dollars en décembre 2025. Les auteurs veulent d'abord savoir si ces actifs servent à autre chose qu'à la spéculation sur les cryptomonnaies, puis si l'argent qui passe sur les blockchains réduit les dépôts bancaires et le crédit qu'ils financent. Ils présentent leur travail comme la première analyse complète de l'usage des stablecoins fondée sur des données de portefeuilles."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "Premier fait : les stablecoins servent de monnaie de transaction. Leur volume en chaîne dépasse celui du Bitcoin malgré une offre bien plus faible, leur vitesse de circulation a nettement augmenté alors que celle du Bitcoin se situe près de un, et 43 % des transactions de 2025 portaient sur moins d'un dollar. Deuxième fait : l'activité se répartit entre les Amériques, l'Asie-Pacifique et l'Europe, Moyen-Orient et Afrique, chaque région pesant entre 25 et 42 % du volume de 2022 à 2025 ; la méthode usuelle surestime la part des flux interrégionaux de 5 à 21 points. Troisième fait : un portefeuille type détient environ dix jours de sorties et se réapprovisionne une dizaine de fois par an, comme dans une gestion de trésorerie. Quatrième fait : les prêts garantis en chaîne ont à peu près quadruplé en deux ans, sans destruction de crédit. Cinquième fait : en 2025, un contrat intelligent intervenait dans 35 % des transactions de stablecoins sur Ethereum et 69 % du volume."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "L'analyse porte sur tous les transferts d'USDC et d'USDT sur Ethereum et sur les soldes quotidiens de chaque portefeuille qui en détient, de janvier 2020 à décembre 2025. Ces deux stablecoins représentaient en décembre 2025 environ 85 % de la circulation des stablecoins en dollars et plus de 99 % de leur volume en chaîne. Les données viennent surtout d'Allium, complétées par Circle, DeFiLlama, rwa.xyz, des données de la Réserve fédérale et Dune Analytics. Les auteurs écartent les contrats intelligents et les adresses liées aux plateformes d'échange ou aux émetteurs, puis appliquent des règles d'activité. Ils localisent les portefeuilles par une méthode bayésienne qui ajoute l'heure des transactions à l'attribution par plateforme, et estiment un modèle de gestion de trésorerie d'Alvarez et Lippi (2009)."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Pour les auteurs, ces faits décrivent un actif qui fonctionne comme de la monnaie tokenisée. Entre 40 et 70 % du volume circule à l'intérieur d'une même région, ce qui évoque des paiements domestiques et de l'épargne autant que des transferts transfrontaliers. Les coûts d'accès aux portefeuilles ont baissé depuis 2023. Un bilan comptable montre que l'émission déplace les dépôts sans les détruire, sauf quand les émetteurs achètent des bons du Trésor dans les portefeuilles de titres des banques : les effets sur les dépôts sont jugés négligeables et, en lecture centrale, légèrement positifs. Le crédit en chaîne est fondé sur le marché et sur des règles, ce qui réduit l'aléa moral mais déplace le risque vers la gouvernance des protocoles, les oracles de prix et les mécanismes de liquidation. Les auteurs relient enfin ces constats aux marchés financiers et à la régulation, dont le GENIUS Act américain et le règlement européen MiCA."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Les adresses de blockchain sont pseudonymes : les auteurs ne peuvent pas identifier les utilisateurs finaux et classent les adresses selon leur comportement et les étiquettes d'Allium. Les contrats intelligents sont surtout financiers : ceux liés aux paiements et au commerce ne pèsent que 0,1 % du volume, donc la couche programmable a automatisé la finance plutôt que le commerce. Quant au protocole x402, dont les transactions ont culminé en décembre 2025, chuté puis repris depuis février 2026, il prouve que le commerce par agents est faisable, pas qu'il soit durable à grande échelle."
+       }
+      ],
+      "synthese": "Selon ce document de travail, les stablecoins servent désormais de monnaie de paiement répartie sur plusieurs régions, et leur croissance déplace dépôts et crédit plutôt qu'elle ne les détruit. Reste à voir si les usages programmables, encore dominés par la finance, s'étendront au commerce.",
+      "republication": "",
+      "reference": "Lin William Cong (Nanyang Technological University et NBER), Gordon Y. Liao (Circle), Eswar S. Prasad (Cornell University et NBER), Tony Zhang (Arizona State University), « Five Facts About Stablecoins », NBER Working Paper 36038, novembre 2026 ; document de travail non relu par des pairs. Gordon Liao est économiste en chef de Circle, émetteur de l'USDC.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a119"
+     },
+     {
+      "rubrique": "Économie",
+      "source": "Réserve fédérale (FEDS Notes)",
+      "date": "2026-11-24",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/why-has-global-trade-remained-resilient-despite-high-trade-policy-uncertainty-20261124.html",
+      "auteur": "Juan M Londono; Sai Ma; Sophia Qin",
+      "titre": "Pourquoi le commerce mondial résiste malgré l'incertitude commerciale",
+      "chapo": "Trois économistes de la Réserve fédérale expliquent pourquoi le commerce mondial a résisté malgré une incertitude record sur la politique commerciale.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "L'incertitude sur la politique commerciale a atteint des sommets historiques en 2025 et est restée élevée au premier semestre 2026, la presse se concentrant sur les droits de douane, les perturbations du transport maritime et les changements de règles. Pourtant, le commerce mondial a continué de croître, sans signe d'une dégradation générale des flux. Les auteurs veulent comprendre pourquoi, dans quels cas cette incertitude réduit les échanges, et quels ajustements ont permis à certains pays d'éviter de fortes perturbations. Leur point de départ est de distinguer deux mesures : une incertitude fondée sur la presse (TNU), qui compte les termes liés au commerce dans des rapports par pays, et une incertitude fondée sur les données (TFU), qui indique à quel point les flux commerciaux sous-jacents sont difficiles à prévoir."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "La TNU n'est pas redondante une fois la TFU prise en compte : une TNU plus forte est associée à des flux plus faibles surtout lorsque la TFU est déjà élevée. Quand la TFU est basse, les réponses du commerce, des exportations, des importations et de la production industrielle mondiales sont faibles et statistiquement indiscernables de zéro. Quand elle est haute, elles sont négatives et significatives : une hausse d'un écart-type de la TNU est suivie d'un recul de 1,5 % du commerce mondial à douze mois. En mai 2026, la TNU restait élevée pour tous les pays, mais la TFU ne l'était que pour quelques-uns, dont la Chine, la Suisse et le Royaume-Uni. Au Japon, aux Pays-Bas, en Espagne et au Chili, la TNU était extrêmement forte et la TFU inférieure à sa moyenne historique. Au premier trimestre 2026, les pays à double incertitude élevée ont vu leurs flux reculer de 5,7 % sur un an et les dépenses d'investissement médianes des entreprises baisser de plus de 16 %, contre une hausse de 1,0 % des flux et un investissement en légère hausse là où seule la TNU était forte. La croissance des ventes était comparable."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "L'échantillon couvre 26 pays, soit 77,3 % du PIB mondial selon les projections d'avril 2026 du FMI, avec des observations mensuelles de juillet 1960 à mai 2026. La TNU provient de l'indice mondial d'incertitude commerciale d'Ahir, Bloom et Furceri (2022), fondé sur les rapports pays de l'Economist Intelligence Unit. La TFU prolonge une mesure conçue pour les États-Unis, qui s'appuie sur la volatilité conditionnelle des erreurs de prévision des exportations nettes. Une projection locale mensuelle, estimée sur des indices mondiaux, compare l'effet d'un choc de TNU selon que la TFU de la veille est supérieure ou non à sa moyenne d'avant 2025. Pour expliquer les écarts entre pays, les auteurs restreignent l'analyse aux pays à TNU élevée et étudient deux épisodes : l'avance des expéditions avant les annonces tarifaires d'avril 2025, d'après les importations de UN Comtrade, et les changements de ports après la perturbation du détroit d'Ormuz de mars 2026, d'après les visites de porte-conteneurs."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "La TNU signale quand le risque de politique commerciale est très présent, la TFU si ce risque se traduit dans les flux. Lorsque la TFU est basse, comme dans l'épisode actuel, le lien historique entre incertitude médiatique et activité réelle est bien plus faible. Les écarts entre pays s'expliquent en partie par l'adaptation des entreprises : parmi les pays à TNU élevée, ceux à TFU basse ont davantage anticipé leurs expéditions, avec une croissance des importations de biens supérieure de 10,5 points de pourcentage au premier trimestre 2025, et ont davantage modifié leurs routes maritimes, l'indicateur d'ajustement progressant de 1,3 écart-type de plus. Le classement des pays selon l'exposition tarifaire ne coïncide pas avec celui de la TFU. Pour les auteurs, l'écart entre ventes et investissement suggère que l'incertitude pèse davantage sur les décisions d'investissement que sur la demande courante."
+       }
+      ],
+      "synthese": "L'incertitude sur la politique commerciale ne freine les échanges que si elle se traduit par une incertitude sur les flux eux-mêmes, ce qui n'est ni automatique ni uniforme. En avançant leurs expéditions ou en changeant de routes, des entreprises ont absorbé une partie du choc et limité les perturbations.",
+      "republication": "",
+      "reference": "Juan M. Londono, Sai Ma et Sophia Qin, « Why Has Global Trade Remained Resilient Despite High Trade Policy Uncertainty? », FEDS Notes, Board of Governors of the Federal Reserve System, 24 novembre 2026 ; note d'analyse de membres du personnel du Board, qui n'engage pas les autres chercheurs ni le Board.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a116"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Économie",
+      "source": "Réserve fédérale (documents de travail)",
+      "date": "2026-11-24",
+      "url": "https://www.federalreserve.gov/econres/feds/collateral-mobility-and-the-lender-of-last-resort.htm",
+      "auteur": "",
+      "id": "a117",
+      "titre": "Fed : l'expérience bancaire accélère la remise de garanties au guichet d'escompte",
+      "texte": "Les banques ayant déjà emprunté remettent leurs garanties deux jours plus vite que les novices, selon une étude sur des données confidentielles de mars 2023. Lorsque les garanties sont données aux FHLB, leur redéploiement vers la Fed ralentit de trois à quatre jours."
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-24",
+      "url": "https://verfassungsblog.de/only-reasonable-inference-gambia-v-myanmar/",
+      "auteur": "",
+      "id": "a133",
+      "titre": "Gambie c. Myanmar : l'intention génocidaire doit être la seule inférence raisonnable",
+      "texte": "Dans cette affaire, une analyse juridique soutient que l'intention génocidaire doit être la seule inférence raisonnable, sans exclure d'autres intentions comme le déplacement forcé. Les tribunaux ont besoin d'une méthode pour tester les explications alternatives."
+     },
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w36047#fromrss",
+      "auteur": "",
+      "id": "a127",
+      "titre": "Retraite : informer sur les regrets d'autrui accroît les recommandations de rente",
+      "texte": "Dans une expérience sur questionnaire, informer les participants des regrets liés à l'absence de rente viagère augmente de 16,9 points (environ 38 %) leurs recommandations d'annuitisation. L'effet concerne ceux qui sous-estiment leur espérance de vie."
+     }
+    ]
+   },
+   {
+    "id": "veille",
+    "titre": "Veille réglementaire",
+    "developpes": [
+     {
+      "rubrique": "Sanctions et export",
+      "source": "PubAffairs Bruxelles",
+      "date": "2026-11-24",
+      "url": "https://www.pubaffairsbruxelles.eu/eu-in-the-media/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package/",
+      "auteur": "",
+      "titre": "Russie : Bruxelles propose un 22e paquet visant banques, soldats et sportifs",
+      "chapo": "La Commission européenne a proposé lundi un 22e train de sanctions contre la Russie, qui touche aussi bien le secteur bancaire et les cryptoplateformes que les soldats et les sportifs.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est proposé",
+        "texte": "Présenté lundi après-midi, le paquet vise à exclure du système SWIFT 60 banques russes supplémentaires, à sévir contre les plateformes de cryptomonnaies que Moscou utilise pour contourner les restrictions et à interdire aux entreprises européennes de réparer les installations énergétiques russes, en particulier les raffineries de pétrole, que les frappes ukrainiennes à longue portée ont fortement endommagées. Il cible aussi plus de 70 navires de la « flotte fantôme » employée pour échapper au plafonnement du prix du pétrole, aujourd'hui fixé à 44 dollars le baril. Plus de 670 de ces bâtiments se sont déjà vu refuser l'accès aux ports et aux services de l'Union. Ces navires vétustes, sans assurance standard et souvent sous faux pavillon, sont jugés dangereux pour la sécurité et l'environnement."
+       },
+       {
+        "intertitre": "Soldats et sportifs",
+        "texte": "Ursula von der Leyen relance une mesure laissée en suspens dans le paquet précédent : l'interdiction d'entrée dans l'Union des soldats russes ayant combattu en Ukraine. Une première tentative, en juillet, avait échoué, la France et l'Italie ayant soulevé la charge administrative et la responsabilité juridique pour les services consulaires. La hausse récente des attaques hybrides, souvent attribuées aux services russes, a redonné de l'élan au dossier ; le Danemark a demandé des règles de visa plus strictes après avoir déjoué un complot russe visant un rappeur américano-ukrainien. « Les anciens combattants russes présentent un risque pour la sécurité de l'Europe. Ils ne peuvent pas circuler librement dans nos pays », a déclaré la présidente de la Commission. Le paquet ouvre aussi un volet sport et culture : exclusion des équipes et athlètes concourant sous drapeau russe et des symboles officiels russes de toutes les compétitions dans l'Union, et interdiction pour des Russes de faire des dons à des fédérations sportives européennes ou d'y siéger dans leurs instances dirigeantes. En juillet, le Comité international olympique avait levé sa suspension des athlètes russes avant les Jeux de Los Angeles de 2028, ce qui avait provoqué un tollé en Europe."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "La proposition intervient alors que la Russie ignore les appels à un cessez-le-feu énergétique et poursuit ses attaques pour rendre l'hiver ukrainien insupportable, et que des efforts s'intensifient pour amener les négociations de paix vers un format multilatéral réunissant Ukrainiens, Russes, Européens et Américains, sans que Moscou ait encore accepté d'y participer. « Nous continuerons à proposer de nouvelles sanctions tant que la Russie ne montrera pas une volonté réelle de paix durable », a dit Mme von der Leyen. C'est le premier paquet depuis la création, au sein du Secrétariat général de la Commission, d'un bureau des sanctions réunissant des agents de plusieurs services. Le diplomate suédois Lars Danielsson y remplace David O'Sullivan comme envoyé de l'UE pour les sanctions. La Chine reste un casse-tête : elle est devenue le principal point de passage du contournement et un soutien essentiel à l'effort de guerre russe. Avant la présentation, Volodymyr Zelensky a demandé de durcir les sanctions sur les composants des drones à réaction russes."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Les sanctions exigent l'unanimité des pays de l'Union. Bruxelles vise un accord en décembre, avant la pause des fêtes. L'alumine, matière première clé de l'aluminium, est absente de la proposition : l'enquête du gouvernement irlandais sur Aughinish Alumina, raffinerie de l'ouest de l'Irlande liée selon des médias au complexe militaro-industriel russe, n'a pas permis de confirmer ni d'écarter un lien direct avec des armes russes. Dublin affirme ne pas vouloir « choisir » parmi les sanctions européennes, mais Bruxelles n'a pas senti assez de soutien irlandais pour avancer."
+       }
+      ],
+      "synthese": "Le 22e paquet, qui doit encore être adopté à l'unanimité, élargit les sanctions à la finance, aux cryptoplateformes, aux soldats et au sport russes. Bruxelles espère un accord en décembre, mais l'alumine reste hors du texte.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Euronews.com",
+        "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package"
+       },
+       {
+        "source": "Saudi Gazette",
+        "url": "https://saudigazette.com.sa/article/666487/world/eu-targets-russias-banks-soldiers-and-athletes-in-new-sanctions-package"
+       }
+      ],
+      "format": "long",
+      "id": "a154"
+     },
+     {
+      "rubrique": "CSRD et CSDDD",
+      "source": "ici.fr",
+      "date": "2026-11-24",
+      "url": "https://www.ici.fr/centre-val-de-loire/cher-18/bourges/mbda-le-fabricant-de-missile-a-bourges-assigne-en-justice-pour-ses-liens-avec-des-bombardements-a-gaza-2163507",
+      "auteur": "Emma Dehoey; AFP",
+      "titre": "MBDA assigné en justice pour manquement au devoir de vigilance à propos de Gaza",
+      "chapo": "Trois associations et la société Cogeres, actionnaire d'Airbus, poursuivent le fabricant de missiles MBDA devant le tribunal judiciaire de Paris.",
+      "sections": [
+       {
+        "intertitre": "Ce qui est annoncé",
+        "texte": "Le fabricant français de missiles MBDA, qui possède un site industriel à Bourges, dans le Cher, est assigné en justice pour des manquements présumés à son « devoir de vigilance ». L'assignation a été envoyée le 2 novembre en vue d'un procès devant la 34e chambre civile du tribunal judiciaire de Paris. Le média ici.fr, qui relaie l'AFP, précise que la procédure vise des manquements présumés et non établis. L'AFP l'a appris lundi 24 novembre auprès des associations à l'origine de la procédure, et le média La Lettre l'a révélée. Le groupe est accusé d'avoir fourni des pièces qui auraient servi à bombarder Gaza."
+       },
+       {
+        "intertitre": "Qui poursuit, et sur quel fondement",
+        "texte": "L'action est intentée par trois associations : Action sécurité éthique républicaines (Aser), Juristes pour le respect du droit international (Jurdi) et Association France-Palestine solidarité (AFPS). Les deux sources s'accordent sur ce point. Elles sont rejointes par la société Conseil gestion & résilience (Cogeres), actionnaire d'Airbus, lui-même actionnaire de MBDA à hauteur de 37,5 %. Les plaignants estiment que le groupe était censé anticiper les risques liés à l'utilisation de composants fournis à Boeing et susceptibles d'être employés dans des bombardements à Gaza."
+       },
+       {
+        "intertitre": "Les pièces en cause",
+        "texte": "Les requérants visent la fourniture de voilures déployables, commercialisées sous le nom de DiamondBlack, au constructeur américain Boeing. Boeing fabrique la bombe de modèle GBU-39, que les associations disent « massivement employée par l'armée de l'Air israélienne ». Selon la source 2, ils dénoncent la négligence du risque que la filiale américaine, MBDA Inc., en vendant ce produit à Boeing, « contribue à des atteintes graves au droit international humanitaire et au droit international des droits de l'Homme ». Selon la source 1, ils reprochent à MBDA de ne pas avoir suffisamment pris en compte le risque que ces pièces contribuent à des violations du droit international humanitaire."
+       },
+       {
+        "intertitre": "Une enquête déjà publiée en 2025",
+        "texte": "En juillet 2025, une enquête des médias Disclose, The Guardian et Follow The Money avait montré que des composants fabriqués par MBDA équipent des bombes larguées sur des civils dans la bande de Gaza. Elle dénonçait au moins 24 frappes aériennes, entre novembre 2023 et mai 2025, qui auraient causé la mort de plus de 500 personnes, dont plus d'une centaine d'enfants. Des écoles, des camps et une mosquée figuraient parmi les lieux visés."
+       },
+       {
+        "intertitre": "L'ancrage à Bourges",
+        "texte": "Selon la page d'ici.fr, qui rappelle que MBDA possède un site industriel à Bourges, le Cher se revendique « capitale régionale de l'industrie de la défense » en Centre-Val de Loire, avec 5 000 salariés, autour de MBDA, KNDS et Safran. Le média relève aussi que la ministre des Armées Catherine Vautrin s'est rendue début novembre dans l'usine de production de missiles MBDA, l'une des plus importantes du secteur de la défense, et que des manifestants se réunissent chaque samedi à Bourges pour « réclamer une paix juste et durable au Proche-Orient »."
+       },
+       {
+        "intertitre": "La position de MBDA",
+        "texte": "Dans sa réponse à une mise en demeure datant du mois d'avril, MBDA a estimé, comme le révèle l'assignation, que son devoir de vigilance se limitait à sa chaîne de valeur amont, et non à l'utilisation de ses produits par ses clients. Aucun porte-parole du groupe n'était joignable lundi pour réagir à l'assignation, ni l'AFP ni ici.fr n'ayant pu recueillir sa réaction. La 34e chambre civile, appelée « chambre de la régulation sociale, économique et environnementale » et spécialisée dans le devoir de vigilance, a condamné en juin TotalEnergies à compléter son plan de réduction des émissions de gaz à effet de serre pour y inclure celles qui sont indirectement générées."
+       }
+      ],
+      "synthese": "MBDA est poursuivi par trois associations et l'actionnaire d'Airbus Cogeres pour avoir fourni à Boeing des voilures de bombes GBU-39 sans mesurer le risque d'atteintes au droit humanitaire. Le groupe soutient que son devoir de vigilance ne porte que sur sa chaîne de valeur amont, point que la 34e chambre civile de Paris devra trancher.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "Boursorama",
+        "url": "https://www.boursorama.com/actualite-economique/actualites-amp/mbda-assigne-en-justice-pour-defaut-de-vigilance-quant-a-gaza-61605d5ea63fa3f4580b213eb82b6052"
+       }
+      ],
+      "format": "long",
+      "id": "a180"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "RGPD",
+      "source": "CNIL",
+      "date": "2026-11-24",
+      "url": "https://www.cnil.fr/fr/acteurs-secteur-livraison-responsabilites",
+      "auteur": "",
+      "id": "a141",
+      "titre": "CNIL : qui est responsable de traitement dans la livraison ?",
+      "texte": "La CNIL considère que le transporteur est en général responsable de traitement, mais ce n'est pas systématique. Le rôle de chaque acteur de la livraison doit être clarifié au regard du RGPD."
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "IGIHE News",
+      "date": "2026-11-24",
+      "url": "https://en.igihe.com/news-40/article/u-s-imposes-sanctions-on-shadow-banking-networks-linked-to-iran",
+      "auteur": "",
+      "id": "a164",
+      "titre": "Sanctions américaines contre des réseaux de banque parallèle liés à l'Iran",
+      "texte": "Les États-Unis ont sanctionné des réseaux de banque parallèle, dits « shadow banking », liés à l'Iran. L'information a été publiée le 24 novembre 2026."
+     }
+    ]
+   },
+   {
+    "id": "curiosites",
+    "titre": "Curiosités",
+    "developpes": [
+     {
+      "rubrique": "Idées",
+      "source": "The Conversation",
+      "date": "2026-11-24",
+      "url": "https://theconversation.com/leurope-reporte-le-controle-des-emissions-de-methane-de-ses-importations-au-risque-de-ne-pas-tenir-ses-promesses-climatiques-296607",
+      "auteur": "Jean-Daniel Paris",
+      "titre": "Méthane : l'UE reporte de deux ans le contrôle de ses importations d'énergie",
+      "chapo": "Le 19 novembre 2026, l'Union européenne a repoussé à 2029 le volet « importations » de son règlement sur le méthane, au risque de manquer son engagement du Pacte mondial sur le méthane.",
+      "sections": [
+       {
+        "intertitre": "Ce qui a été décidé",
+        "texte": "Le 22 octobre 2026, le Parlement européen a voté pour repousser de trois ans une partie du premier règlement européen sur le méthane du secteur de l'énergie, entré en vigueur en 2024. Le 19 novembre, l'Union européenne a finalement adopté un report de deux ans : la mise en œuvre est désormais prévue pour 2029, alors que le volet importations devait s'appliquer au 1er janvier 2027. Issu de la loi climat européenne, c'est le premier texte contraignant sur le méthane. La France avait demandé un report d'un an de ce volet, face à la crise énergétique née du blocage du détroit d'Ormuz. L'auteur, Jean-Daniel Paris, y voit pourtant un effort proportionné et nécessaire pour tenir les engagements pris à la COP26 en 2021."
+       },
+       {
+        "intertitre": "Pourquoi le méthane compte",
+        "texte": "Le méthane (CH₄) est le deuxième gaz à effet de serre d'origine humaine après le CO₂ et il est responsable d'un tiers du réchauffement observé. Sur cent ans, une tonne de CH₄ contribue 28 fois plus au réchauffement qu'une tonne de CO₂. Sa durée de vie est toutefois courte, environ douze ans, alors que le CO₂ peut rester plus d'un siècle dans l'atmosphère. Précurseur de l'ozone troposphérique, il rend sa réduction d'autant plus utile. Chaque année, l'exploitation du pétrole, du gaz et du charbon en rejette environ 120 millions de tonnes (Mt) : environ 50 Mt pour le pétrole, 30 Mt pour le gaz naturel et environ 40 Mt pour le charbon, dont la majorité vient de la ventilation des mines souterraines."
+       },
+       {
+        "intertitre": "Des émissions surtout importées",
+        "texte": "L'énergie utilisée en Europe est à plus de 70 % d'origine fossile. L'UE consomme 11 % du pétrole mondial et 8 % du gaz naturel mondial. Elle dépend des importations à 97 % pour le pétrole, à 90 % pour le gaz et à 38 % pour le charbon. Selon l'auteur, les émissions imputables à la consommation européenne atteignent environ 9 Mt par an, dont plus de 7 sont émises hors du territoire européen : environ 80 % des émissions visées par le règlement sont donc « importées ». Avec le report, l'Europe renoncerait à son principal levier pour réduire ses émissions de méthane fossile, alors que les engagements nationaux restent loin de l'objectif de 30 %."
+       },
+       {
+        "intertitre": "Ce que prévoit le règlement",
+        "texte": "Le texte impose un cadre de surveillance, de déclaration et de vérification (MRV) selon la méthodologie OGMP2.0 du Programme des Nations unies pour l'environnement, sur toute la chaîne de valeur, de l'extraction à la distribution. Son niveau de vérification le plus élevé recourt à des mesures du méthane émis dans l'atmosphère. Il renforce la recherche et la réparation des fuites, interdit la mise à l'évent et limite le torchage de routine. Il prévoit enfin une « intensité d'émission », plafond restant à déterminer : à 0,2 %, une fuite de 2 m³ serait permise pour 1 000 m³ de gaz consommés. Or les taux de fuite sont mal connus : aux États-Unis, ils varient de 0,75 % à 10 % de la production selon les bassins, et les statistiques de l'EPA sous-estiment fortement les émissions. En Roumanie, les chiffres officiels devraient être multipliés par plus de 2,5."
+       },
+       {
+        "intertitre": "Les arguments du report et leurs réponses",
+        "texte": "Trois arguments appuient le report : le règlement gênerait l'approvisionnement et renchérirait l'énergie, le gouvernement américain y voyant une barrière commerciale non tarifaire et demandant d'en exempter son gaz ; il favoriserait une production mondiale à deux vitesses ; son manque de précision, notamment sur les sanctions, créerait un risque juridique. L'auteur répond que la réduction des émissions est moins coûteuse dans l'énergie que dans d'autres secteurs, que le volet importations pourrait étendre des pratiques moins émettrices chez les fournisseurs, et que les clauses de protection existantes maîtrisent le risque d'approvisionnement. Une étude estime que le coût de conformité est largement compensé par les bénéfices à long terme, dont la qualité de l'air. Les difficultés de mesure justifient selon lui un effort de recherche, non une suspension."
+       }
+      ],
+      "synthese": "L'UE a reporté à 2029 le volet importations de son règlement sur le méthane, soit un an avant l'échéance de 2030 du Pacte mondial, qui vise une baisse d'au moins 30 % par rapport à 2020. Pour l'auteur, ce report prive l'Europe de son principal levier sur des émissions largement importées.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a197"
+     },
+     {
+      "rubrique": "Climat",
+      "source": "Carbon Brief",
+      "date": "2026-11-24",
+      "url": "https://www.carbonbrief.org/cop31-key-outcomes-for-food-forests-oceans-and-nature-at-the-un-climate-talks-in-antalya",
+      "auteur": "",
+      "titre": "COP31 à Antalya : alimentation, forêts, océans et nature, un bilan mitigé",
+      "chapo": "La COP31 d'Antalya, en Turquie, s'est achevée sans le « pacte d'Antalya », rejeté en plénière finale, et sans résultat substantiel sur plusieurs sujets clés, selon l'analyse de Carbon Brief.",
+      "sections": [
+       {
+        "intertitre": "Un pacte rejeté",
+        "texte": "Le « pacte d'Antalya », décision de couverture qui a occupé l'essentiel des deux semaines de négociation, a été rejeté en plénière finale par au moins 32 pays, dont l'UE, le Royaume-Uni et plusieurs pays vulnérables au climat. Il ne faisait pourtant aucune référence claire aux énergies fossiles ni au financement de l'adaptation, mais contenait des signaux forts pour les océans : 19 mentions, contre 21 dans le premier projet du 16 novembre. La COP a dépassé son horaire de près de 50 heures. Plusieurs pays ont regretté que le travail sur l'action océan-climat soit perdu ; la Fidji a demandé d'en faire une décision océan autonome. Les forêts, la biodiversité (ni la COP17 en Arménie ni le cadre de Kunming-Montréal n'étaient cités) et l'alimentation y figuraient peu."
+       },
+       {
+        "intertitre": "Agriculture : un échec de plus",
+        "texte": "Pour la deuxième année de suite, les négociations sur l'agriculture et la sécurité alimentaire ont échoué. Le groupe arabe a soulevé dès le 10 novembre le mécanisme d'ajustement carbone aux frontières de l'UE (CBAM), ce que Teresa Anderson, d'ActionAid, a qualifié de « surprise totale » qui a, selon elle, ruiné les chances de l'agroécologie. Autres blocages : l'Inde s'opposait à l'agroécologie, l'UE au CBAM et le G77 au langage sur les « systèmes alimentaires ». Pour des observateurs, le fond du problème est le manque de financement. Le texte final, purement procédural, renvoie le dossier aux sessions de Bonn, puis à la COP32 en Éthiopie. En revanche, le mot « agroécologie » figure explicitement dans la décision du programme de travail sur la transition juste."
+       },
+       {
+        "intertitre": "Carbone, transition juste et adaptation",
+        "texte": "Un accord est intervenu sur l'article 6 de l'Accord de Paris. Pour l'article 6.2 (échanges bilatéraux), les revues techniques de 16 rapports nationaux ont relevé 543 « incohérences », dont 115 significatives, mais le texte final a supprimé le paragraphe qui s'en inquiétait. Pour l'article 6.4, la demande d'évaluer l'« impact cumulé » des règles a été remplacée par une formule plus souple. Pour le mécanisme de transition juste, une approche progressive a été retenue, son adoption étant visée à la COP32 en Éthiopie, en novembre 2027. Sur l'adaptation, le chiffre de 120 milliards de dollars d'ici 2035, issu de l'objectif de tripler le financement, a disparu des textes finaux. Le Fonds d'adaptation, en revanche, est un « point positif » selon Joe Thwaites (NRDC) : son conseil aura des sièges par région de l'ONU. Le commerce est absent des résultats."
+       },
+       {
+        "intertitre": "Océans : de l'élan, peu d'engagements",
+        "texte": "Les défenseurs des océans ont relevé une attention accrue aux liens océan-climat, mais jugé que la COP31 n'a pas tenu sa promesse de « COP bleue ». Le 17 novembre, la France et le Brésil ont lancé une équipe de mise en œuvre du « Blue NDC Challenge », qui compte dix nouveaux membres, et la présidence a publié le « pacte océans et mers d'Antalya », plateforme d'ambition sans objectifs ni financement. Le Royaume-Uni a annoncé 20 millions de livres (26,2 millions de dollars) pour la protection marine, l'Australie 10 millions de dollars, et six pays ont rejoint l'engagement sur les récifs coralliens. Tom Pickerell, du WRI, résume : « peut-être rien par écrit », mais un véritable élan."
+       },
+       {
+        "intertitre": "Forêts et nature : peu de moyens",
+        "texte": "La COP31 a été discrète sur les forêts. Lors du sommet des leaders forestiers du 11 novembre, seuls 88 millions de dollars de philanthropes sont venus abonder le Tropical Forest Forever Facility, brésilien, alors que de grosses promesses étaient espérées. La feuille de route brésilienne sur la déforestation n'a pas été retenue dans le texte final. Quarante-cinq scientifiques ont signé une lettre jugeant que les règles de l'article 6 « restent insuffisantes » sur l'intégrité environnementale. Côté nature, la discussion sur les synergies entre les conventions de Rio s'est conclue par un texte d'une ligne : un groupe avait invoqué la règle 16 dès la première consultation, selon la Fidji."
+       }
+      ],
+      "synthese": "La COP31 n'a produit ni pacte final ni avancée substantielle sur l'alimentation, les forêts et la nature, avec peu de financements nouveaux. Quelques signaux demeurent, comme l'agroécologie dans la transition juste, l'élan pour les océans et le Fonds d'adaptation.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a212"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Climat",
+      "source": "Inside Climate News",
+      "date": "2026-11-24",
+      "url": "https://insideclimatenews.org/news/24112026/montana-wildfire-insurance-costs/",
+      "auteur": "",
+      "id": "a217",
+      "titre": "Montana : les incendies renchérissent l'assurance habitation",
+      "texte": "Dans le Montana, le risque croissant d'incendies de forêt fait grimper les primes d'assurance habitation. Certains acquéreurs ne parviennent plus à obtenir de couverture."
+     },
+     {
+      "rubrique": "Sport",
+      "source": "franceinfo Sports",
+      "date": "2026-11-24",
+      "url": "https://www.franceinfo.fr/replay-radio/le-brief-eco/stellantis-quitte-la-competition-sportive_8275340.html#xtor=RSS-3-%5Bsports%5D",
+      "auteur": "",
+      "id": "a226",
+      "titre": "Stellantis se retire de la compétition sportive internationale",
+      "texte": "Peugeot abandonne les 24 Heures du Mans et le constructeur quitte toutes les compétitions sportives internationales, en pleine crise du secteur automobile."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-24",
+      "url": "https://www.sciencesetavenir.fr/fondamental/particules/les-physiciens-ouvrent-la-voie-a-la-decouverte-de-nouvelles-particules-avec-l-experience-lhcb_196088?xtor=RSS-10",
+      "auteur": "",
+      "id": "a183",
+      "titre": "LHCb : des indices de la désintégration rarissime du méson B0",
+      "texte": "Le détecteur LHCb a dévoilé des indices probants de cette désintégration, traquée depuis plus de quarante ans. Une confirmation expérimentale pourrait étendre la compréhension des limites du modèle standard."
+     },
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-24",
+      "url": "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/",
+      "auteur": "",
+      "id": "a206",
+      "titre": "Webb révèle de nouveaux détails sur le reste de supernova Cassiopeia A",
+      "texte": "Le télescope spatial James Webb montre la poussière chaude qui compose Cassiopeia A, vestige d'une étoile massive explosée, sur une image infrarouge publiée le 23 novembre."
+     }
+    ]
+   }
+  ],
+  "titres_blocs": {
+   "ia": "IA",
+   "france": "Actualité France",
+   "monde": "Actualité Monde",
+   "recherche": "Recherche & travaux d'experts",
+   "veille": "Veille réglementaire",
+   "curiosites": "Curiosités"
+  },
+  "pages": 0,
+  "sequence": [
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "Ars Technica",
+     "date": "2026-11-24",
+     "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+     "auteur": "Dan Goodin",
+     "titre": "Amazon : des agents d'IA ont exploité seuls une faille inconnue",
+     "chapo": "Selon Amazon, des agents d'IA lancés par des pirates ont trouvé puis exploité une faille « zero-day » sur un serveur universitaire d'Asie de l'Est, avec pour seule consigne d'obtenir un accès shell.",
+     "sections": [
+      {
+       "intertitre": "Ce que rapporte Amazon",
+       "texte": "Amazon Threat Intelligence a publié le 20 novembre 2026 un rapport décrivant une opération où des agents d'IA autonomes ont découvert et exploité une vulnérabilité jusque-là inconnue. Les opérateurs humains ont fourni une liste d'adresses IP et un objectif d'une ligne, « obtenir un accès shell » ; ils avaient rédigé leurs consignes en chinois simplifié et réglé le modèle sur le fuseau horaire de la Chine (China Standard Time). La victime était un serveur d'une université d'Asie de l'Est. Pour Amazon, ces opérations offensives menées par des agents sont déjà une réalité : les défenseurs doivent se préparer à leur vitesse et à leur persistance. Amazon attribue l'activité à un acteur lié à la Chine, sur la foi de ces deux indices ; selon Crypto Briefing, ce sont des signaux suggestifs et non une preuve, d'où la formule de « lien » plutôt que d'opération étatique confirmée."
+      },
+      {
+       "intertitre": "Le déroulement de l'attaque",
+       "texte": "Les agents tournaient sur Cairn, un cadre open source de test d'intrusion par IA. La campagne a eu lieu du 8 au 10 septembre 2026 contre des serveurs universitaires d'Asie de l'Est, hors de Chine continentale. Sur l'un d'eux, les agents ont repéré MONAI Label, une application open source d'IA pour l'imagerie médicale. Ils l'ont cartographiée et ont ciblé un défaut dans la gestion du paramètre de nom de fichier d'un point d'envoi de fichiers, ce qui permettait d'écrire des fichiers arbitraires sur le serveur, en 11 minutes environ, selon Crypto Briefing. Ils ont ensuite déployé une charge de « reverse shell » en Python et obtenu un accès root, soit le contrôle complet du système. Amazon a repéré l'opération le 10 septembre 2026 grâce à un serveur Cairn laissé exposé publiquement."
+      },
+      {
+       "intertitre": "Une faille désormais référencée",
+       "texte": "Il n'existait ni avis ni correctif pour cette faille avant le 18 novembre 2026 : c'est bien un « zero-day ». Amazon a alerté les mainteneurs de MONAI Label, qui ont publié un avis de sécurité critique sur GitHub le 18 novembre. La vulnérabilité porte l'identifiant CVE-2026-133968 et un score CVSS de 9,8 sur une échelle plafonnée à 10. L'agence américaine CISA l'a ensuite ajoutée à son catalogue des vulnérabilités connues comme exploitées. Selon Crypto Briefing, les utilisateurs de MONAI Label n'ont donc plus le choix : il faut corriger, ce type de logiciel se trouvant souvent dans des hôpitaux de recherche et des universités."
+      },
+      {
+       "intertitre": "Cairn, un outil conçu pour les défenseurs",
+       "texte": "Cairn est un moteur open source de résolution de problèmes dont le premier domaine validé est le test d'intrusion autonome. L'utilisateur donne une tâche ou un objectif, et éventuellement des indices ; un serveur tient un graphe partagé de faits et d'indices, et un répartiteur confie les tâches à des conteneurs de travail. Cairn fonctionne avec plusieurs modèles, dont Claude Code, Codex et Pi ; Palo Alto Networks l'a aussi vu utilisé avec GLM 5.2, DeepSeek V4 Flash et DeepSeek V4 Pro. Conçu pour les défenseurs, il profite aussi aux attaquants : ce mois-ci, Palo Alto Networks a indiqué que des pirates l'avaient employé contre des organisations des semi-conducteurs, de la défense et de la société civile, avec 25 opérations autonomes visant au moins 19 organisations, dont au moins 10 ont été compromises."
+      },
+      {
+       "intertitre": "Les limites des agents",
+       "texte": "Le rapport ne décrit pas une conquête sans faille. Face à des systèmes mieux protégés, notamment des bases de données Redis, les agents ont peiné : plus de 16 heures d'essais infructueux et des dizaines de milliers de tentatives d'identifiants. Ils se sont donc montrés efficaces pour repérer un défaut inédit dans une application de niche, bien moins contre des systèmes correctement configurés. Selon Crypto Briefing, des pratiques de base comme des identifiants robustes et des configurations verrouillées ont encore freiné une campagne pilotée par IA, mais la vitesse comprime les délais auxquels les défenseurs sont habitués, et les petits projets open source deviennent des cibles plus attractives."
+      }
+     ],
+     "synthese": "Amazon affirme qu'une campagne attribuée à un acteur lié à la Chine a laissé des agents d'IA découvrir et exploiter seuls une faille critique d'une application d'imagerie médicale. Les mêmes agents ont échoué face à des systèmes bien protégés, ce qui rappelle l'utilité des bases de la sécurité.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Crypto Briefing",
+       "url": "https://cryptobriefing.com/amazon-ai-agents-exploit-zero-day/"
+      }
+     ],
+     "format": "long",
+     "id": "a29"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "Ars Technica",
+     "date": "2026-11-24",
+     "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+     "auteur": "Ryan Whitwam",
+     "titre": "Tidal bannit la musique entièrement générée par IA dès le 9 décembre",
+     "chapo": "Le service de streaming Tidal a annoncé le 24 novembre qu'il retirera de son catalogue, à partir du 9 décembre, tous les morceaux entièrement créés par intelligence artificielle.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Tidal, qui labellisait jusqu'ici les contenus générés par IA comme la plupart des plateformes, change de position et bannit la musique entièrement créée par IA, au nom du tort causé aux artistes humains. Selon Revolt TV, l'annonce date du mardi 24 novembre ; les suppressions commenceront le 9 décembre. Robert Anderson, qui dirige Tidal au sein de sa maison mère, Block, a expliqué sur X que ces morceaux auraient totalement disparu du catalogue au début de l'année. Selon lui, 43 % des morceaux reçus en 90 jours étaient détectés comme générés par IA et « quelque chose de plus radical doit être fait ». Il présente Tidal comme la première plateforme de ce type à agir et encourage ses concurrents à suivre. La plateforme précise que seule la musique entièrement produite par IA est visée : les artistes peuvent continuer à utiliser des outils d'IA tant que le résultat final comporte des éléments humains."
+      },
+      {
+       "intertitre": "Les chiffres de Tidal",
+       "texte": "Sur les 90 derniers jours, 43 % des nouveaux dépôts étaient entièrement générés par IA, et Ars Technica rapporte que ce taux a atteint 60 % le 6 novembre. Tidal héberge environ 27 millions de titres labellisés IA, soit 6,3 % de son catalogue, dont 96 % n'ont eu aucune écoute au cours des 90 derniers jours : la suppression n'aurait donc pratiquement aucun effet négatif. Les sources divergent sur le volume : Ars Technica parle de 27 millions de morceaux supprimés, tandis que TechCrunch et Robert Anderson évoquent plus de 29 millions d'ici la fin de l'année. Avec les nouvelles règles, Tidal prévoit de refuser environ 80 000 à 85 000 titres par jour."
+      },
+      {
+       "intertitre": "Les raisons invoquées",
+       "texte": "La politique initiale de Tidal, qui prévoyait l'étiquetage et la démonétisation des morceaux entièrement créés par IA, n'a pas suffi : Ars Technica la date de juillet 2026, TechCrunch et Revolt TV de juin. Selon Ars Technica, les modèles d'IA produisent du bruit plus vite que les humains ne créent de la valeur, ce qui peut tromper les auditeurs et détourner des redevances. Tidal évoque aussi des déposants qui cherchent à capter ces redevances : environ 66 000 titres ont déjà été retirés pour usurpation d'identité d'artistes (« plus de 65 000 » selon Revolt TV). Tidal reconnaît que tous les morceaux ne trouvent pas leur public tout de suite et que les artistes ont besoin de temps pour se constituer des fans, mais, à cette échelle, la situation est différente : la musique authentique que recherchent les abonnés se retrouve enfouie. La plateforme veut que ceux qui font de la musique puissent la publier sans qu'elle soit noyée sous des titres que personne n'a demandés, ni copiée par quelqu'un qui se fait passer pour eux."
+      },
+      {
+       "intertitre": "Le dispositif et le contexte du secteur",
+       "texte": "Tidal interdit aussi aux services de distribution de livrer des morceaux 100 % IA et rejettera les envois dont les métadonnées indiquent une création entièrement par IA. D'après TechCrunch, Tidal est l'une des premières grandes plateformes à interdire ainsi cette musique, après Bandcamp. Deezer, qui fournit aussi des outils de détection, introduira un réglage permettant aux utilisateurs de filtrer la musique IA. Spotify et YouTube Music, plus modérés, se contentent d'étiqueter ; Apple Music prévoit d'étiqueter les contenus générés ou assistés par IA, et Spotify dit avoir retiré 75 millions de titres de « spam » de son catalogue, puis écarté 50 millions de titres des recommandations cette année. Les maisons de disques, elles, s'associent à des plateformes et à des concepteurs de modèles pour vendre leurs catalogues à des fins d'entraînement ou de remix ; selon TechCrunch, Goldman Sachs estime que d'ici 2035 ces licences et nouvelles sources de revenus pourraient accroître de 10 % les recettes des labels."
+      }
+     ],
+     "synthese": "Tidal passe de l'étiquetage à l'interdiction de la musique entièrement générée par IA, qu'elle jugeait trop nombreuse et nuisible aux artistes. Les sources divergent sur le nombre de titres supprimés (27 ou 29 millions), mais s'accordent sur la date du 9 décembre.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+      },
+      {
+       "source": "Revolt TV",
+       "url": "https://www.revolt.tv/article/tidal-ai-generated-music-ban"
+      }
+     ],
+     "format": "long",
+     "id": "a27"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "ia",
+    "taille": 2,
+    "article": {
+     "rubrique": "IA",
+     "source": "The Decoder",
+     "date": "2026-11-24",
+     "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
+     "auteur": "Matthias Bastian",
+     "titre": "Anthropic : MCP dépasse 700 millions de téléchargements mensuels de SDK",
+     "chapo": "Deux ans après son lancement, le standard MCP d'Anthropic dépasse 700 millions de téléchargements mensuels et s'enrichit pour permettre aux agents d'IA d'agir plus seuls.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Anthropic indique que son standard MCP (Model Context Protocol) dépasse 700 millions de téléchargements mensuels de ses outils de développement (SDK) et compte plus de 10 000 connecteurs MCP pour Claude. L'entreprise élargit le protocole pour que les agents d'IA communiquent entre eux et coordonnent leurs tâches plus facilement. Parmi les ajouts majeurs figurent « Tasks » et « Elicitation », désormais en disponibilité générale après un test public en octobre."
+      },
+      {
+       "intertitre": "Les nouvelles fonctions",
+       "texte": "Avec Tasks, un serveur peut exécuter une tâche longue en arrière-plan et ne signaler le résultat que lorsqu'il est prêt. Elicitation permet à un processus en cours de se mettre en pause pour demander à l'utilisateur des informations manquantes. Skills over MCP, en bêta publique, permet aux serveurs d'associer à leurs outils des « skills » qui guident Claude dans de longues tâches en plusieurs étapes : bonnes pratiques, procédures pas à pas, consignes adaptées à un compte ou à une organisation. L'envoi de fichiers (PDF, tableurs, images) vers les serveurs MCP arrive bientôt dans Claude et Claude Code, pour les abonnés Pro, Max et Ultra et les clients Team et Enterprise éligibles."
+      },
+      {
+       "intertitre": "Les changements techniques",
+       "texte": "Ces fonctions s'appuient sur des changements de l'année écoulée. Tool Search ne charge les descriptions d'outils qu'au moment du besoin, ce qui peut réduire l'usage du contexte de plus de 85 % avec plusieurs serveurs. La spécification actuelle est sans état, c'est-à-dire sans stockage permanent des données de session, et fonctionne dans tous les produits Claude, pour faciliter la création et la fiabilité des serveurs. Enterprise Managed Auth permet aux administrateurs d'approuver une fois un serveur pour que les employés s'y connectent automatiquement, et MCP Apps intègre des interfaces complètes dans Claude."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "Anthropic a présenté MCP en novembre 2024 comme un standard ouvert donnant aux assistants d'IA un accès uniforme aux outils d'entreprise et aux environnements de développement. Sam Altman, patron d'OpenAI, a annoncé en mars 2025 l'adoption du standard par son entreprise ; en mai 2025, OpenAI a ajouté des serveurs MCP distants à son API Responses. Des chercheurs du Shanghai Artificial Intelligence Laboratory s'en sont inspirés pour leur Science Context Protocol, présenté en janvier 2026."
+      }
+     ],
+     "synthese": "MCP a gagné en ampleur et s'ouvre à des agents plus autonomes. Les nouveautés visent à faire travailler Claude plus indépendamment.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a5"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-24",
+      "url": "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/",
+      "auteur": "Manuel Uth",
+      "id": "a8",
+      "titre": "Un chercheur d'Anthropic maintient sa preuve assistée par IA de l'hypothèse de Riemann",
+      "texte": "Le chercheur d'Anthropic Levent Alpöge revient sur certains points de son annonce d'une preuve de l'hypothèse de Riemann généralisée assistée par IA. Il qualifie de plaisanterie l'affirmation selon laquelle la preuve comptait plus de 250 000 pages et juge le code Lean publié « plein de déchets ». Il maintient toutefois la validité des mathématiques et reconnaît des « choses stupides » dans le déroulement de l'annonce."
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-24",
+      "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+      "auteur": "Maximilian Schreiner",
+      "id": "a9",
+      "titre": "Des initiés jugent les modèles non publiés d'OpenAI et Anthropic difficiles à maîtriser",
+      "texte": "Selon un rapport d'Axios, de nombreux employés d'OpenAI et d'Anthropic estiment que les modèles d'avant-garde non publiés de leurs entreprises ne peuvent plus être contrôlés en toute sécurité. Les deux sociétés débattraient en interne de la suspension des sorties, voire de l'arrêt de l'entraînement, alors que la confiance envers la direction s'érode."
+     },
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-24",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "auteur": "",
+      "id": "a20",
+      "titre": "Royaume-Uni : les cyberattaques assistées par IA exposent des années de failles",
+      "texte": "L'agence britannique de cybersécurité constate que les outils de piratage fondés sur l'IA exploitent surtout des failles simples. Elle insiste sur la nécessité de bases de sécurité solides."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "TechCrunch",
+      "date": "2026-11-24",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "auteur": "",
+      "id": "a16",
+      "titre": "Les meilleurs agents IA peinent encore sur les tâches du quotidien",
+      "texte": "Un nouveau benchmark montre que les modèles les plus avancés ont du mal à accomplir de façon fiable et sûre des tâches courantes, sans introduire de nouveaux problèmes."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "Le Monde",
+     "date": "2026-11-24",
+     "url": "https://www.lemonde.fr/politique/article/2026/11/24/budget-un-premier-texte-adopte-par-le-parlement-sebastien-lecornu-reve-desormais-d-un-compromis-pour-2027_6814842_823448.html",
+     "auteur": "Denis Cosnard et Olivier Pérou",
+     "titre": "Budget : loi de fin de gestion 2026 adoptée, le compromis 2027 reste à trouver",
+     "chapo": "Le Parlement a définitivement adopté le projet de loi de fin de gestion pour 2026, une première étape avant le budget 2027, pour lequel Sébastien Lecornu cherche un compromis.",
+     "sections": [
+      {
+       "intertitre": "Ce qui a été voté",
+       "texte": "Mardi 24 novembre, l'Assemblée nationale et le Sénat ont voté dans les mêmes termes le projet de loi de fin de gestion (PLFG) pour 2026, un texte qui procède aux derniers ajustements budgétaires de l'année. Le compromis trouvé en commission mixte paritaire a été validé à une large majorité : 231 voix pour et 111 contre au Sénat, 135 voix pour et 64 contre à l'Assemblée. La loi devrait être promulguée rapidement, notamment pour financer des dépenses non prévues au budget initial, à commencer par le surcoût de la guerre en Ukraine et des intérêts plus élevés qu'attendu à verser aux créanciers de la France."
+      },
+      {
+       "intertitre": "Un vote sans 49.3",
+       "texte": "Selon Yahoo Actualités, ce texte technique, moins abrasif pour les oppositions que les projets de budget examinés en parallèle, a été adopté sans recours au 49.3 pour la quatrième année consécutive. Il l'a été notamment grâce à l'abstention des députés socialistes et du Rassemblement national. Le groupe écologiste a en revanche voté contre, avec La France insoumise et les communistes. Le Monde rappelle que, la veille, Sébastien Lecornu avait jugé ce texte « essentiel » pour mettre la pression sur les députés tentés de le bloquer : son rejet aurait empêché le gouvernement de tenir certaines promesses récentes, par exemple en faveur des lycéens ou des agriculteurs."
+      },
+      {
+       "intertitre": "La méthode du Premier ministre",
+       "texte": "Sur le réseau social X, le Premier ministre s'est aussitôt félicité : « La méthode de dialogue et de recherche du compromis choisie par le gouvernement a permis d'aboutir à un accord ». Il a ajouté que « le calendrier budgétaire est respecté » et que le gouvernement poursuivrait le travail avec les parlementaires pour doter la France d'un budget pour 2027. Il a annoncé qu'il recevrait la semaine suivante chacun des présidents de groupe parlementaire, pour la première fois cet automne, alors qu'aucun compromis n'est en vue sur les projets de loi de finances pour 2027."
+      },
+      {
+       "intertitre": "Les cinq thèmes de compromis pour 2027",
+       "texte": "Dans un courrier envoyé lundi aux élus, relaté par Les Echos, Sébastien Lecornu propose cinq thèmes de compromis, à condition de ne pas dépasser la cible gouvernementale d'un déficit de 5 %. Il y cite l'agriculture, avec un plan de relance de 725 millions d'euros, et les lycéens et étudiants, à qui l'on a promis des classes moins chargées et des bourses indexées sur les prix. Viennent aussi le pouvoir d'achat, au-delà de la hausse du SMIC de 1,6 % au 1er décembre, les collectivités locales, appelées à prendre leur part au redressement des finances publiques, et le logement, avec une prolongation du prêt à taux zéro. Il appelle aussi à un compromis sur des économies supplémentaires : au moins 6 milliards d'euros en plus des 43 milliards prévus, selon le ministre des Comptes publics David Amiel."
+      },
+      {
+       "intertitre": "Les échéances et les inconnues",
+       "texte": "Rejeté début novembre à l'unanimité par les députés, le projet de budget de l'État est examiné par le Sénat, qui doit voter le 9 décembre. À défaut d'adoption par le Parlement, le gouvernement pourra recourir aux ordonnances à partir du 17 décembre, ou au 49.3, qui suppose une non-censure. Or les ordonnances empêcheraient a priori d'intégrer les mesures promises. L'an dernier, le Premier ministre avait fait adopter le budget par le 49.3, après un compromis de non-censure avec le PS, au prix d'une suspension de la réforme des retraites. Cette fois, il n'a pas mis en scène de grandes négociations avec le PS, qui semble s'orienter vers une censure en cas de 49.3 ; son chef de file à l'Assemblée, Boris Vallaud, a toutefois dit que si de vraies revendications des lycéens, des syndicats ou des agriculteurs étaient satisfaites, « ça se regarde ». Le Rassemblement national a laissé entendre qu'il pourrait ne pas censurer, pour doter le pays d'un budget qu'il promet de modifier en cas de victoire de Marine Le Pen à la présidentielle du printemps ; son président de groupe, Sébastien Chenu, n'exclut aucune hypothèse."
+      }
+     ],
+     "synthese": "Le Parlement a adopté sans 49.3 le texte de fin de gestion 2026, qui finance des dépenses imprévues. Reste le budget 2027, sans majorité, dont l'issue dépendra du compromis recherché ou d'un recours au 49.3 ou aux ordonnances.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Les Echos",
+       "url": "https://www.lesechos.fr/politique-societe/politique/budget-la-lettre-de-sebastien-lecornu-aux-parlementaires-2264195"
+      },
+      {
+       "source": "Yahoo Actualités",
+       "url": "https://fr.news.yahoo.com/budget-2027-s%C3%A9bastien-lecornu-va-190225467.html"
+      }
+     ],
+     "format": "long",
+     "id": "a31"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-24",
+     "url": "https://www.franceinfo.fr/economie/automobile/l-usine-stellantis-de-sochaux-arrete-l-activite-de-son-equipe-de-nuit-a-partir-de-janvier-2027-500-emplois-sont-concernes_8298177.html#xtor=RSS-3-[lestitres]",
+     "auteur": "",
+     "titre": "Stellantis Sochaux supprime son équipe de nuit en janvier 2027 : 500 emplois touchés",
+     "chapo": "L'usine Peugeot de Sochaux, dans le Doubs, arrêtera son équipe de nuit en janvier et ramènera sa production à 850 véhicules par jour.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "L'usine Stellantis de Sochaux (Doubs), berceau de la marque Peugeot, va arrêter l'activité de son équipe de nuit à partir de janvier 2027. La direction du site l'a annoncé aux représentants du personnel mardi 24 novembre. Elle explique dans un communiqué : « Dans le contexte économique actuel et considérant l'état prévisionnel des marchés, nous adaptons notre organisation ». Cinq cents personnes sont concernées par cet arrêt d'activité nocturne. Franceinfo y voit un coup dur pour l'industrie automobile. Les trois sources, qui reprennent le même communiqué et les mêmes propos recueillis par l'AFP, concordent sur les chiffres : 500 personnes, 850 véhicules par jour au lieu de 1 050."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "L'équipe de nuit avait été mise en place en novembre 2024, lors du lancement des nouveaux véhicules Peugeot 3008 et 5008, dont le prix de vente dépasse 40 000 euros. Une porte-parole de l'usine a rappelé à l'AFP que le contexte est difficile pour les constructeurs automobiles, qui font face à une concurrence « agressive ». Fin octobre, Stellantis avait publié une perte nette de 453 millions d'euros pour le troisième trimestre, contre une perte de 4,5 milliards sur la même période un an plus tôt, lestée par de lourdes charges exceptionnelles. La maison mère de Peugeot, Fiat et Chrysler avait fait état d'une « amélioration de tous les indicateurs financiers »."
+      },
+      {
+       "intertitre": "Ce que ça change",
+       "texte": "L'usine s'appuiera désormais seulement sur deux équipes complètes en journée. Elle produira 850 véhicules par jour, contre 1 050 actuellement. « Cela reste une activité soutenue », a relevé la porte-parole. Des séances de production sont par ailleurs annulées : les vacances de Noël seront notamment allongées et devraient durer deux semaines et demie. Le site compte 3 000 collaborateurs en production, sur un total de 5 500 salariés, ce qui signifie que les 500 personnes de l'équipe de nuit en représentent une part notable. La baisse de cadence est de 200 véhicules par jour, auxquels s'ajoute l'allongement des vacances de Noël."
+      },
+      {
+       "intertitre": "Ce que les sources ne disent pas",
+       "texte": "Les textes ne précisent ni le nombre de salariés en contrat à durée indéterminée parmi les 500 personnes concernées, ni le sort que la direction leur réserve au-delà des entretiens individuels prévus avec leur hiérarchie d'ici à la fin du mois de novembre. Ils ne chiffrent pas non plus le nombre de séances de production annulées, hormis l'allongement des vacances de Noël à deux semaines et demie. La direction parle seulement d'une adaptation de son organisation au contexte économique et à l'état prévisionnel des marchés."
+      },
+      {
+       "intertitre": "Le sort des salariés",
+       "texte": "« Chaque salarié de nuit sera reçu par sa hiérarchie d'ici à la fin du mois de novembre », précise l'entreprise. L'entreprise ajoute que « les personnes en contrat d'intérim iront au terme de leur mission dans les conditions habituelles qui sont définies dans leur contrat ». Le syndicat Force ouvrière (FO) estime que les intérimaires sont « sacrifiés » : « Ce sont 500 familles qui restent sur le carreau », a-t-il déploré. Pour FO, ce sont donc les travailleurs en contrat d'intérim qui paient le prix de la décision de la direction."
+      },
+      {
+       "intertitre": "Les réactions syndicales",
+       "texte": "Jean-Luc Ternet, de la CFTC, s'est emporté : « Cette fois, ce n'est plus un problème d'approvisionnement ». Inquiet des conséquences économiques de cette baisse d'activité, il a averti : « Quand l'industrie recule, c'est tout un territoire qui vacille ». La CFE-CGC a dénoncé de son côté « une décision brutale », qui vient « fragiliser un site pourtant reconnu pour sa capacité de production et la qualité de son outil industriel »."
+      }
+     ],
+     "synthese": "Stellantis arrête à Sochaux l'équipe de nuit créée en novembre 2024, ce qui touche 500 personnes et ramène la production de 1 050 à 850 véhicules par jour. La direction invoque le contexte économique et l'état prévisionnel des marchés, tandis que FO, la CFTC et la CFE-CGC dénoncent un coup porté aux intérimaires et au territoire.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Franceinfo",
+       "url": "https://www.franceinfo.fr/economie/automobile/l-usine-stellantis-de-sochaux-arrete-l-activite-de-son-equipe-de-nuit-a-partir-de-janvier-2027-500-emplois-sont-concernes_8298177.html"
+      },
+      {
+       "source": "TradingView",
+       "url": "https://www.tradingview.com/news/afp:837c7ac30128b:0/"
+      }
+     ],
+     "format": "long",
+     "id": "a47"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "franceinfo",
+     "date": "2026-11-24",
+     "url": "https://www.franceinfo.fr/politique/affaire/financement-de-la-campagne-de-sarkozy/nicolas-sarkozy-carla-bruni-mimi-marchand-qui-sont-les-principaux-protagonistes-de-l-affaire-de-la-fausse-retractation-de-ziad-takieddine_8297730.html#xtor=RSS-3-[lestitres]",
+     "auteur": "",
+     "titre": "Fausse rétractation de Takieddine : onze renvois dont Sarkozy et Carla Bruni",
+     "chapo": "Le parquet national financier renvoie onze personnes devant le tribunal correctionnel dans l'affaire de la fausse rétractation de Ziad Takieddine, dont Nicolas Sarkozy et Carla Bruni-Sarkozy.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est reproché",
+       "texte": "Mardi 24 novembre, le parquet national financier (PNF) a décidé de renvoyer Nicolas Sarkozy devant le tribunal correctionnel pour « association de malfaiteurs en vue de préparer une escroquerie en bande organisée » et « recel de subornation de témoin ». Onze personnes sont renvoyées pour leur implication dans l'opération que les enquêteurs appellent « Sauver Sarko ». Le procès doit se tenir en novembre 2027. Les mis en cause sont soupçonnés d'avoir voulu tromper la justice par des moyens frauduleux pour innocenter l'ancien président dans le dossier du financement libyen de sa campagne de 2007, sur lequel la cour d'appel de Paris doit rendre son arrêt le 30 novembre."
+      },
+      {
+       "intertitre": "Ziad Takieddine, à l'origine de l'affaire",
+       "texte": "L'intermédiaire franco-libanais, mort en septembre 2025, était à l'origine des accusations de financement libyen. Lors d'un interrogatoire fin 2012, dans le volet financier de l'affaire Karachi, où il a été condamné en appel à cinq ans de prison ferme, il a évoqué un financement de 50 millions d'euros par le régime du colonel Kadhafi. Selon lui, les versements ont commencé fin 2006 pour atteindre 5 millions d'euros début 2007. Après huit ans, il est revenu sur ce témoignage en novembre 2020, dans un entretien à BFMTV et Paris Match, puis l'a repris deux mois plus tard, assurant qu'on lui avait proposé « des millions d'euros » pour cette opération."
+      },
+      {
+       "intertitre": "Le couple Sarkozy",
+       "texte": "Nicolas Sarkozy et son épouse sont poursuivis pour les mêmes motifs. Devant les juges en octobre 2023, l'ancien président s'est dit impliqué à tort à cause d'une « petite bande » de « pieds nickelés » avides d'argent, ni « organisateur », ni « bénéficiaire », ni « valideur », ni même « au courant ». Carla Bruni-Sarkozy, mise en examen en juillet 2024 dans une enquête fondée surtout sur des écoutes, est soupçonnée d'avoir demandé fin 2019 une ligne téléphonique occulte pour échanger avec Mimi Marchand. Après l'avoir contesté, elle a reconnu à l'été 2024 posséder ce téléphone, tout en contestant être l'autrice ou la destinataire des SMS. Le couple s'estime victime des manœuvres de Mimi Marchand."
+      },
+      {
+       "intertitre": "Les autres protagonistes",
+       "texte": "Michèle Marchand, dite Mimi, 79 ans, dirigeante de l'agence Bestimage, doit répondre de subornation et d'association de malfaiteurs ; elle s'est rendue à Beyrouth en octobre 2020 pour l'interview de Takieddine. Communicante pour des stars comme pour des politiques et proche de Brigitte Macron, elle a été mise en examen et placée sous contrôle judiciaire en 2021. Paris Match appartenait alors au groupe Lagardère, dont Nicolas Sarkozy était membre du conseil d'administration. Sa défense, Me Caroline Toby, affirme qu'elle conteste fermement les faits et qu'elle a agi comme journaliste, ayant eu l'exclusivité de l'interview, en se contentant d'organiser les photos et l'entretien dans le cadre de son métier. L'homme d'affaires David Layani, patron de la société de transformation numérique Onepoint, est renvoyé pour complicité de subornation. Il est soupçonné d'avoir versé des sommes à la société de Mimi Marchand pour des prestations de relations publiques jamais réalisées. Par la voix de son avocat, Me Mathias Chichportich, il dément toute implication : une convention avec Bestimage, signée en 2020, listait parfaitement les prestations, mais son exécution a été « différée » en raison de la crise sanitaire. Noël Dubus, ancien employé des postes condamné à douze reprises depuis 1996 selon Marianne en 2021, est soupçonné d'être l'homme-orchestre de l'opération et poursuivi pour subornation et association de malfaiteurs, y compris en vue de faits de corruption de personnels judiciaires étrangers. Il s'est rendu deux fois à Beyrouth avant la rétractation. Interrogé en mai 2022 par franceinfo sur un revirement prévu de Takieddine, il répondait : « Non, ce n'était pas le but ». L'enquête a révélé une possible tentative de corruption de magistrats libanais pour faire libérer Hannibal Kadhafi, l'un des fils de Mouammar Kadhafi détenu au Liban, et obtenir l'incarcération de Ziad Takieddine."
+      }
+     ],
+     "synthese": "Un nouveau procès, prévu en novembre 2027, attend Nicolas Sarkozy et dix autres personnes dans l'affaire de la fausse rétractation de Ziad Takieddine. Les mis en cause contestent tout ou partie des faits.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a42"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "france",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-24",
+      "url": "https://www.lemonde.fr/societe/article/2026/11/24/aux-assises-a-lyon-la-serie-criminelle-qui-fait-basculer-le-banditisme-dans-la-cartellisation_6814867_3224.html",
+      "auteur": "Richard Schittly",
+      "id": "a37",
+      "titre": "Aux assises de Lyon, une série criminelle illustre la « cartellisation » du banditisme",
+      "texte": "Dix accusés sont jugés à Lyon pour une série de fusillades et de représailles sur fond de narcotrafic. Selon les enquêteurs de la police judiciaire, la stratégie de terreur entre clans rivaux s'inspire des cartels sud-américains."
+     },
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-24",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/24/presidentielle-2027-les-maires-s-inquietent-du-ras-le-bol-general-des-electeurs_6814869_823448.html",
+      "auteur": "Benoît Floc’h",
+      "id": "a34",
+      "titre": "Présidentielle 2027 : les maires redoutent le « ras-le-bol général » des électeurs",
+      "texte": "Le congrès de l'Association des maires de France s'est ouvert mardi 24 novembre à Paris. Beaucoup d'élus s'inquiètent de la situation sociale et craignent que la détresse d'une partie de la population profite au Rassemblement national."
+     },
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-24",
+      "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-coup-de-theatre-le-senat-renonce-a-supprimer-labattement-de-10-des-retraites",
+      "auteur": "",
+      "id": "a59",
+      "titre": "Budget 2027 : le Sénat renonce à supprimer l'abattement de 10 % des retraités",
+      "texte": "Contre toute attente, l'amendement visant à supprimer l'abattement fiscal de 10 % sur les pensions a été rejeté le 24 novembre. Le Sénat a finalement abaissé le plafond de cet abattement à 1 000 euros."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "Chine",
+     "source": "South China Morning Post",
+     "date": "2026-11-24",
+     "url": "https://www.scmp.com/news/china/politics/article/3375640/shanghai-party-chief-faces-corruption-probe",
+     "auteur": "",
+     "titre": "Chine : Chen Jining, chef du Parti à Shanghai, visé par une enquête",
+     "chapo": "Chen Jining, secrétaire du Parti communiste à Shanghai et membre du Bureau politique, fait l'objet d'une enquête pour de graves violations de la discipline et de la loi.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "L'annonce a été faite mardi. Selon le South China Morning Post, la télévision d'État CCTV a indiqué que Chen Jining, également membre du puissant Bureau politique, était visé par la Commission centrale d'inspection de la discipline et la Commission nationale de supervision, pour de « graves violations de la discipline et de la loi », formule souvent employée comme euphémisme pour désigner la corruption. CNN cite l'agence Xinhua, qui parle d'une accusation de corruption et de « graves violations de la discipline ». Chen, 62 ans, dirigeait depuis octobre 2022 la plus grande ville et le centre financier de la Chine. Sa dernière apparition publique semble remonter au jeudi 19 novembre, lors d'une inspection du siège d'un groupe chinois de transport maritime ; les plateformes officielles de Shanghai ont vite retiré les publications qui le mentionnent."
+      },
+      {
+       "intertitre": "Un parcours ascendant",
+       "texte": "Formé comme spécialiste de l'environnement, Chen est décrit par CNN comme un protégé de Xi Jinping, urbain et anglophone, que des observateurs de la Chine citaient parmi les successeurs possibles du dirigeant. Titulaire d'une maîtrise en génie civil et environnemental de l'université Tsinghua, il a obtenu un doctorat à l'Imperial College de Londres. Il a passé plus de dix ans au ministère de l'Environnement et de l'Écologie, présidé Tsinghua, puis été maire de Pékin et organisé les Jeux olympiques d'hiver de 2022. Le poste de Shanghai ouvre habituellement la voie au Comité permanent du Bureau politique, sommet de la hiérarchie du pouvoir, voie suivie par Xi Jinping et par l'ancien dirigeant Jiang Zemin."
+      },
+      {
+       "intertitre": "Une purge qui s'intensifie",
+       "texte": "Chen est le quatrième des 24 membres du Bureau politique à tomber depuis le dernier congrès du Parti, en 2022. Selon CNN, Xi, 73 ans, quasi certain d'obtenir l'an prochain un quatrième mandat, sans précédent, mène depuis plus de dix ans une campagne anticorruption qui a atteint des sommets ces derniers mois. En deux mois, elle a frappé le maire adjoint de Pékin et un ancien maire de Chongqing retraité. La Commission militaire centrale, habituellement forte de sept membres, n'en compte plus que deux, dont Xi. Entre 2012 et 2022, plus de 500 responsables de rang ministériel ont été condamnés, destitués et exclus du Parti pour corruption, d'après les données officielles, dont plus de 410 au cours des trois dernières années."
+      }
+     ],
+     "synthese": "L'enquête visant Chen Jining, figure montante du Parti et dirigeant de Shanghai, marque une nouvelle étape de la campagne anticorruption de Xi Jinping. Elle touche un quatrième membre du Bureau politique depuis 2022.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "CNN",
+       "url": "https://www.cnn.com/2026/11/24/china/china-chen-jining-investigated-purge-intl-hnk"
+      }
+     ],
+     "format": "long",
+     "id": "a96"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "États-Unis",
+     "source": "NPR",
+     "date": "2026-11-24",
+     "url": "https://www.npr.org/2026/11/24/nx-s1-6052994/hack-commercial-vessels-iran",
+     "auteur": "Jenna McLaughlin",
+     "titre": "Navires marchands piratés : Washington enquête sur des liens avec l'Iran",
+     "chapo": "Le gouvernement américain dispose d'informations selon lesquelles jusqu'à 50 navires de commerce auraient été piratés, et examine un possible lien avec l'Iran.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Selon des renseignements dont dispose le gouvernement américain, jusqu'à 50 navires de commerce ont été récemment compromis par des cyberattaques, dont des responsables fédéraux examinent un lien éventuel avec l'Iran. L'information vient d'un responsable américain informé du dossier, qui n'était pas autorisé à s'exprimer officiellement, d'un ancien opérateur cyber de l'armée et d'un dirigeant du secteur mis au courant des attaques. Cette série d'intrusions a d'abord été rapportée par le Wall Street Journal. Les garde-côtes et le FBI indiquent n'avoir connaissance d'aucune perturbation opérationnelle, d'aucune instabilité des navires, d'aucun danger physique pour les équipages ni d'aucun effet sur l'environnement."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "Si les soupçons des autorités se confirment, ces attaques contre le secteur maritime s'ajouteraient à d'autres visant des infrastructures critiques dans le monde, pendant la guerre en cours entre l'Iran et les États-Unis. NPR a rapporté que des experts en cybersécurité et des responsables américains attribuent à des pirates iraniens des attaques contre des systèmes de traitement de l'eau aux États-Unis en août, ainsi qu'une série d'attaques contre des systèmes de réfrigération, qui ont fait perdre des denrées dans des supermarchés de bases militaires américaines et dans toute l'Europe, jusqu'au début de novembre. Dès août, les garde-côtes et le FBI ont envoyé une équipe très spécialisée à bord de deux navires étrangers qui faisaient route vers des ports américains dans le « golfe d'Amérique »."
+      },
+      {
+       "intertitre": "La faille exploitée",
+       "texte": "D'après le responsable américain, les pirates ont tiré parti de vulnérabilités connues des équipements Fortinet FortiGate, très répandus dans le transport maritime, qui servent à gérer les pare-feu et les réseaux privés virtuels. Garde-côtes et FBI avaient publié en septembre un bulletin d'alerte : les pirates « recherchent régulièrement des failles précises, non corrigées, pour s'introduire ». À bord, des employés ont soupçonné un problème en constatant des perturbations de messagerie, des échecs de connexion ou, dans au moins un cas, une longue coupure des communications. Les pirates auraient pu passer des systèmes informatiques des navires aux appareils qui commandent les processus physiques, la technologie opérationnelle. Le responsable cite un possible effet sur la propulsion, la direction, la navigation et la gestion de la cargaison, sans donner d'exemple d'une telle action. Un méthanier figurait parmi les navires touchés."
+      },
+      {
+       "intertitre": "Ce que ça change",
+       "texte": "Les navires qui entrent aux États-Unis sont habitués aux contrôles de sécurité physique depuis les attentats du 11 septembre, mais les menaces numériques deviennent plus importantes à suivre, car des adversaires peuvent frapper de loin. « C'est un paradigme totalement nouveau que ces pétroliers soient ainsi mis en réseau », dit le responsable. Un ancien responsable de la marine, resté anonyme, affirme que l'on suivait depuis longtemps la possibilité de prendre le contrôle de ces systèmes sur les navires de la marine et de commerce, et que « cela se concrétise maintenant ». Les garde-côtes rappellent qu'une cyberattaque comporte des risques de collision, d'échouement, de marée noire, voire d'explosion."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Le lien avec l'Iran reste à l'état de piste : les autorités l'examinent sans l'avoir établi. Le responsable américain a refusé d'expliquer comment le gouvernement connaît l'étendue des intrusions. Il juge ces attaques « pas sophistiquées » : la faille est connue et une hygiène informatique de base suffirait à la réduire. À l'approche de l'hiver et de la période de fêtes, chargée pour le transport maritime, les autorités se préparent à enquêter sur tout navire compromis qui entrerait dans un port américain."
+      }
+     ],
+     "synthese": "Jusqu'à 50 navires de commerce auraient été compromis par l'exploitation d'une faille connue, et les autorités américaines étudient un lien avec l'Iran sans avoir fait état de perturbation. L'enjeu tient à la mise en réseau croissante des navires, dont les systèmes de commande pourraient être atteints.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a67"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "monde",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Europe",
+      "source": "Politico Europe",
+      "date": "2026-11-25",
+      "url": "https://www.politico.eu/article/ukraine-strikes-russian-ships-libya-giorgia-meloni-italy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "auteur": "Jacopo Barigazzi; Veronika Melkozerova",
+      "id": "a77",
+      "titre": "Rome craint que les frappes sur des navires russes ne déstabilisent la Libye",
+      "texte": "Le chef du gouvernement italien soutient fermement Kyiv, mais Rome redoute que les frappes ukrainiennes contre des navires russes en Méditerranée ne déstabilisent la Libye. Selon l'article, « tout ce qui concerne la Libye concerne l'Italie »."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-25",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order?traffic_source=rss",
+      "auteur": "Adam Hancock; Kristina Harazim",
+      "id": "a107",
+      "titre": "Yémen : la coalition menée par l'Arabie saoudite frappe le port de Hodeïda",
+      "texte": "La coalition menée par l'Arabie saoudite a frappé le port de Hodeïda, au Yémen, après avoir émis un ordre d'évacuation. Les Houthis menacent en retour de viser Djeddah et d'autres ports saoudiens si Hodeïda est de nouveau frappée."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-24",
+      "url": "https://www.scmp.com/news/us/article/3375673/huawei-guilty-10-12-counts-after-2-month-battle-us-courtroom",
+      "auteur": "",
+      "id": "a91",
+      "titre": "Huawei reconnu coupable de 10 chefs d'accusation sur 12 après un procès aux États-Unis",
+      "texte": "Après près de sept ans de procédure pénale, un jury de Brooklyn a déclaré Huawei Technologies et trois filiales coupables de 10 des 12 chefs retenus, dont fraude bancaire et électronique, complot de vol de secrets commerciaux et contournement des sanctions. Le jury les a en revanche acquittés du complot d'entrave à la justice et du complot relevant de la loi RICO, les plus graves."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Économie et social",
+     "source": "NBER",
+     "date": null,
+     "url": "https://www.nber.org/papers/w36038#fromrss",
+     "auteur": "Lin William Cong; Gordon Y Liao; Eswar S Prasad; Tony Zhang",
+     "titre": "Stablecoins : cinq faits montrent un usage de monnaie tokenisée",
+     "chapo": "Quatre économistes analysent cinq ans de données de portefeuilles et concluent que les stablecoins fonctionnent comme de la monnaie tokenisée.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "Les stablecoins sont des monnaies numériques inscrites sur des blockchains, qui gardent une valeur stable par rapport à une unité de compte, le plus souvent le dollar. Les deux principaux, USDT (Tether) et USDC (Circle), pesaient ensemble plus de 260 milliards de dollars en décembre 2025. Les auteurs veulent d'abord savoir si ces actifs servent à autre chose qu'à la spéculation sur les cryptomonnaies, puis si l'argent qui passe sur les blockchains réduit les dépôts bancaires et le crédit qu'ils financent. Ils présentent leur travail comme la première analyse complète de l'usage des stablecoins fondée sur des données de portefeuilles."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "Premier fait : les stablecoins servent de monnaie de transaction. Leur volume en chaîne dépasse celui du Bitcoin malgré une offre bien plus faible, leur vitesse de circulation a nettement augmenté alors que celle du Bitcoin se situe près de un, et 43 % des transactions de 2025 portaient sur moins d'un dollar. Deuxième fait : l'activité se répartit entre les Amériques, l'Asie-Pacifique et l'Europe, Moyen-Orient et Afrique, chaque région pesant entre 25 et 42 % du volume de 2022 à 2025 ; la méthode usuelle surestime la part des flux interrégionaux de 5 à 21 points. Troisième fait : un portefeuille type détient environ dix jours de sorties et se réapprovisionne une dizaine de fois par an, comme dans une gestion de trésorerie. Quatrième fait : les prêts garantis en chaîne ont à peu près quadruplé en deux ans, sans destruction de crédit. Cinquième fait : en 2025, un contrat intelligent intervenait dans 35 % des transactions de stablecoins sur Ethereum et 69 % du volume."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "L'analyse porte sur tous les transferts d'USDC et d'USDT sur Ethereum et sur les soldes quotidiens de chaque portefeuille qui en détient, de janvier 2020 à décembre 2025. Ces deux stablecoins représentaient en décembre 2025 environ 85 % de la circulation des stablecoins en dollars et plus de 99 % de leur volume en chaîne. Les données viennent surtout d'Allium, complétées par Circle, DeFiLlama, rwa.xyz, des données de la Réserve fédérale et Dune Analytics. Les auteurs écartent les contrats intelligents et les adresses liées aux plateformes d'échange ou aux émetteurs, puis appliquent des règles d'activité. Ils localisent les portefeuilles par une méthode bayésienne qui ajoute l'heure des transactions à l'attribution par plateforme, et estiment un modèle de gestion de trésorerie d'Alvarez et Lippi (2009)."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Pour les auteurs, ces faits décrivent un actif qui fonctionne comme de la monnaie tokenisée. Entre 40 et 70 % du volume circule à l'intérieur d'une même région, ce qui évoque des paiements domestiques et de l'épargne autant que des transferts transfrontaliers. Les coûts d'accès aux portefeuilles ont baissé depuis 2023. Un bilan comptable montre que l'émission déplace les dépôts sans les détruire, sauf quand les émetteurs achètent des bons du Trésor dans les portefeuilles de titres des banques : les effets sur les dépôts sont jugés négligeables et, en lecture centrale, légèrement positifs. Le crédit en chaîne est fondé sur le marché et sur des règles, ce qui réduit l'aléa moral mais déplace le risque vers la gouvernance des protocoles, les oracles de prix et les mécanismes de liquidation. Les auteurs relient enfin ces constats aux marchés financiers et à la régulation, dont le GENIUS Act américain et le règlement européen MiCA."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Les adresses de blockchain sont pseudonymes : les auteurs ne peuvent pas identifier les utilisateurs finaux et classent les adresses selon leur comportement et les étiquettes d'Allium. Les contrats intelligents sont surtout financiers : ceux liés aux paiements et au commerce ne pèsent que 0,1 % du volume, donc la couche programmable a automatisé la finance plutôt que le commerce. Quant au protocole x402, dont les transactions ont culminé en décembre 2025, chuté puis repris depuis février 2026, il prouve que le commerce par agents est faisable, pas qu'il soit durable à grande échelle."
+      }
+     ],
+     "synthese": "Selon ce document de travail, les stablecoins servent désormais de monnaie de paiement répartie sur plusieurs régions, et leur croissance déplace dépôts et crédit plutôt qu'elle ne les détruit. Reste à voir si les usages programmables, encore dominés par la finance, s'étendront au commerce.",
+     "republication": "",
+     "reference": "Lin William Cong (Nanyang Technological University et NBER), Gordon Y. Liao (Circle), Eswar S. Prasad (Cornell University et NBER), Tony Zhang (Arizona State University), « Five Facts About Stablecoins », NBER Working Paper 36038, novembre 2026 ; document de travail non relu par des pairs. Gordon Liao est économiste en chef de Circle, émetteur de l'USDC.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a119"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Économie",
+     "source": "Réserve fédérale (FEDS Notes)",
+     "date": "2026-11-24",
+     "url": "https://www.federalreserve.gov/econres/notes/feds-notes/why-has-global-trade-remained-resilient-despite-high-trade-policy-uncertainty-20261124.html",
+     "auteur": "Juan M Londono; Sai Ma; Sophia Qin",
+     "titre": "Pourquoi le commerce mondial résiste malgré l'incertitude commerciale",
+     "chapo": "Trois économistes de la Réserve fédérale expliquent pourquoi le commerce mondial a résisté malgré une incertitude record sur la politique commerciale.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "L'incertitude sur la politique commerciale a atteint des sommets historiques en 2025 et est restée élevée au premier semestre 2026, la presse se concentrant sur les droits de douane, les perturbations du transport maritime et les changements de règles. Pourtant, le commerce mondial a continué de croître, sans signe d'une dégradation générale des flux. Les auteurs veulent comprendre pourquoi, dans quels cas cette incertitude réduit les échanges, et quels ajustements ont permis à certains pays d'éviter de fortes perturbations. Leur point de départ est de distinguer deux mesures : une incertitude fondée sur la presse (TNU), qui compte les termes liés au commerce dans des rapports par pays, et une incertitude fondée sur les données (TFU), qui indique à quel point les flux commerciaux sous-jacents sont difficiles à prévoir."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "La TNU n'est pas redondante une fois la TFU prise en compte : une TNU plus forte est associée à des flux plus faibles surtout lorsque la TFU est déjà élevée. Quand la TFU est basse, les réponses du commerce, des exportations, des importations et de la production industrielle mondiales sont faibles et statistiquement indiscernables de zéro. Quand elle est haute, elles sont négatives et significatives : une hausse d'un écart-type de la TNU est suivie d'un recul de 1,5 % du commerce mondial à douze mois. En mai 2026, la TNU restait élevée pour tous les pays, mais la TFU ne l'était que pour quelques-uns, dont la Chine, la Suisse et le Royaume-Uni. Au Japon, aux Pays-Bas, en Espagne et au Chili, la TNU était extrêmement forte et la TFU inférieure à sa moyenne historique. Au premier trimestre 2026, les pays à double incertitude élevée ont vu leurs flux reculer de 5,7 % sur un an et les dépenses d'investissement médianes des entreprises baisser de plus de 16 %, contre une hausse de 1,0 % des flux et un investissement en légère hausse là où seule la TNU était forte. La croissance des ventes était comparable."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "L'échantillon couvre 26 pays, soit 77,3 % du PIB mondial selon les projections d'avril 2026 du FMI, avec des observations mensuelles de juillet 1960 à mai 2026. La TNU provient de l'indice mondial d'incertitude commerciale d'Ahir, Bloom et Furceri (2022), fondé sur les rapports pays de l'Economist Intelligence Unit. La TFU prolonge une mesure conçue pour les États-Unis, qui s'appuie sur la volatilité conditionnelle des erreurs de prévision des exportations nettes. Une projection locale mensuelle, estimée sur des indices mondiaux, compare l'effet d'un choc de TNU selon que la TFU de la veille est supérieure ou non à sa moyenne d'avant 2025. Pour expliquer les écarts entre pays, les auteurs restreignent l'analyse aux pays à TNU élevée et étudient deux épisodes : l'avance des expéditions avant les annonces tarifaires d'avril 2025, d'après les importations de UN Comtrade, et les changements de ports après la perturbation du détroit d'Ormuz de mars 2026, d'après les visites de porte-conteneurs."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "La TNU signale quand le risque de politique commerciale est très présent, la TFU si ce risque se traduit dans les flux. Lorsque la TFU est basse, comme dans l'épisode actuel, le lien historique entre incertitude médiatique et activité réelle est bien plus faible. Les écarts entre pays s'expliquent en partie par l'adaptation des entreprises : parmi les pays à TNU élevée, ceux à TFU basse ont davantage anticipé leurs expéditions, avec une croissance des importations de biens supérieure de 10,5 points de pourcentage au premier trimestre 2025, et ont davantage modifié leurs routes maritimes, l'indicateur d'ajustement progressant de 1,3 écart-type de plus. Le classement des pays selon l'exposition tarifaire ne coïncide pas avec celui de la TFU. Pour les auteurs, l'écart entre ventes et investissement suggère que l'incertitude pèse davantage sur les décisions d'investissement que sur la demande courante."
+      }
+     ],
+     "synthese": "L'incertitude sur la politique commerciale ne freine les échanges que si elle se traduit par une incertitude sur les flux eux-mêmes, ce qui n'est ni automatique ni uniforme. En avançant leurs expéditions ou en changeant de routes, des entreprises ont absorbé une partie du choc et limité les perturbations.",
+     "republication": "",
+     "reference": "Juan M. Londono, Sai Ma et Sophia Qin, « Why Has Global Trade Remained Resilient Despite High Trade Policy Uncertainty? », FEDS Notes, Board of Governors of the Federal Reserve System, 24 novembre 2026 ; note d'analyse de membres du personnel du Board, qui n'engage pas les autres chercheurs ni le Board.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a116"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "recherche",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Économie",
+      "source": "Réserve fédérale (documents de travail)",
+      "date": "2026-11-24",
+      "url": "https://www.federalreserve.gov/econres/feds/collateral-mobility-and-the-lender-of-last-resort.htm",
+      "auteur": "",
+      "id": "a117",
+      "titre": "Fed : l'expérience bancaire accélère la remise de garanties au guichet d'escompte",
+      "texte": "Les banques ayant déjà emprunté remettent leurs garanties deux jours plus vite que les novices, selon une étude sur des données confidentielles de mars 2023. Lorsque les garanties sont données aux FHLB, leur redéploiement vers la Fed ralentit de trois à quatre jours."
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-24",
+      "url": "https://verfassungsblog.de/only-reasonable-inference-gambia-v-myanmar/",
+      "auteur": "",
+      "id": "a133",
+      "titre": "Gambie c. Myanmar : l'intention génocidaire doit être la seule inférence raisonnable",
+      "texte": "Dans cette affaire, une analyse juridique soutient que l'intention génocidaire doit être la seule inférence raisonnable, sans exclure d'autres intentions comme le déplacement forcé. Les tribunaux ont besoin d'une méthode pour tester les explications alternatives."
+     },
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w36047#fromrss",
+      "auteur": "",
+      "id": "a127",
+      "titre": "Retraite : informer sur les regrets d'autrui accroît les recommandations de rente",
+      "texte": "Dans une expérience sur questionnaire, informer les participants des regrets liés à l'absence de rente viagère augmente de 16,9 points (environ 38 %) leurs recommandations d'annuitisation. L'effet concerne ceux qui sous-estiment leur espérance de vie."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "Sanctions et export",
+     "source": "PubAffairs Bruxelles",
+     "date": "2026-11-24",
+     "url": "https://www.pubaffairsbruxelles.eu/eu-in-the-media/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package/",
+     "auteur": "",
+     "titre": "Russie : Bruxelles propose un 22e paquet visant banques, soldats et sportifs",
+     "chapo": "La Commission européenne a proposé lundi un 22e train de sanctions contre la Russie, qui touche aussi bien le secteur bancaire et les cryptoplateformes que les soldats et les sportifs.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est proposé",
+       "texte": "Présenté lundi après-midi, le paquet vise à exclure du système SWIFT 60 banques russes supplémentaires, à sévir contre les plateformes de cryptomonnaies que Moscou utilise pour contourner les restrictions et à interdire aux entreprises européennes de réparer les installations énergétiques russes, en particulier les raffineries de pétrole, que les frappes ukrainiennes à longue portée ont fortement endommagées. Il cible aussi plus de 70 navires de la « flotte fantôme » employée pour échapper au plafonnement du prix du pétrole, aujourd'hui fixé à 44 dollars le baril. Plus de 670 de ces bâtiments se sont déjà vu refuser l'accès aux ports et aux services de l'Union. Ces navires vétustes, sans assurance standard et souvent sous faux pavillon, sont jugés dangereux pour la sécurité et l'environnement."
+      },
+      {
+       "intertitre": "Soldats et sportifs",
+       "texte": "Ursula von der Leyen relance une mesure laissée en suspens dans le paquet précédent : l'interdiction d'entrée dans l'Union des soldats russes ayant combattu en Ukraine. Une première tentative, en juillet, avait échoué, la France et l'Italie ayant soulevé la charge administrative et la responsabilité juridique pour les services consulaires. La hausse récente des attaques hybrides, souvent attribuées aux services russes, a redonné de l'élan au dossier ; le Danemark a demandé des règles de visa plus strictes après avoir déjoué un complot russe visant un rappeur américano-ukrainien. « Les anciens combattants russes présentent un risque pour la sécurité de l'Europe. Ils ne peuvent pas circuler librement dans nos pays », a déclaré la présidente de la Commission. Le paquet ouvre aussi un volet sport et culture : exclusion des équipes et athlètes concourant sous drapeau russe et des symboles officiels russes de toutes les compétitions dans l'Union, et interdiction pour des Russes de faire des dons à des fédérations sportives européennes ou d'y siéger dans leurs instances dirigeantes. En juillet, le Comité international olympique avait levé sa suspension des athlètes russes avant les Jeux de Los Angeles de 2028, ce qui avait provoqué un tollé en Europe."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "La proposition intervient alors que la Russie ignore les appels à un cessez-le-feu énergétique et poursuit ses attaques pour rendre l'hiver ukrainien insupportable, et que des efforts s'intensifient pour amener les négociations de paix vers un format multilatéral réunissant Ukrainiens, Russes, Européens et Américains, sans que Moscou ait encore accepté d'y participer. « Nous continuerons à proposer de nouvelles sanctions tant que la Russie ne montrera pas une volonté réelle de paix durable », a dit Mme von der Leyen. C'est le premier paquet depuis la création, au sein du Secrétariat général de la Commission, d'un bureau des sanctions réunissant des agents de plusieurs services. Le diplomate suédois Lars Danielsson y remplace David O'Sullivan comme envoyé de l'UE pour les sanctions. La Chine reste un casse-tête : elle est devenue le principal point de passage du contournement et un soutien essentiel à l'effort de guerre russe. Avant la présentation, Volodymyr Zelensky a demandé de durcir les sanctions sur les composants des drones à réaction russes."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Les sanctions exigent l'unanimité des pays de l'Union. Bruxelles vise un accord en décembre, avant la pause des fêtes. L'alumine, matière première clé de l'aluminium, est absente de la proposition : l'enquête du gouvernement irlandais sur Aughinish Alumina, raffinerie de l'ouest de l'Irlande liée selon des médias au complexe militaro-industriel russe, n'a pas permis de confirmer ni d'écarter un lien direct avec des armes russes. Dublin affirme ne pas vouloir « choisir » parmi les sanctions européennes, mais Bruxelles n'a pas senti assez de soutien irlandais pour avancer."
+      }
+     ],
+     "synthese": "Le 22e paquet, qui doit encore être adopté à l'unanimité, élargit les sanctions à la finance, aux cryptoplateformes, aux soldats et au sport russes. Bruxelles espère un accord en décembre, mais l'alumine reste hors du texte.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Euronews.com",
+       "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package"
+      },
+      {
+       "source": "Saudi Gazette",
+       "url": "https://saudigazette.com.sa/article/666487/world/eu-targets-russias-banks-soldiers-and-athletes-in-new-sanctions-package"
+      }
+     ],
+     "format": "long",
+     "id": "a154"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "CSRD et CSDDD",
+     "source": "ici.fr",
+     "date": "2026-11-24",
+     "url": "https://www.ici.fr/centre-val-de-loire/cher-18/bourges/mbda-le-fabricant-de-missile-a-bourges-assigne-en-justice-pour-ses-liens-avec-des-bombardements-a-gaza-2163507",
+     "auteur": "Emma Dehoey; AFP",
+     "titre": "MBDA assigné en justice pour manquement au devoir de vigilance à propos de Gaza",
+     "chapo": "Trois associations et la société Cogeres, actionnaire d'Airbus, poursuivent le fabricant de missiles MBDA devant le tribunal judiciaire de Paris.",
+     "sections": [
+      {
+       "intertitre": "Ce qui est annoncé",
+       "texte": "Le fabricant français de missiles MBDA, qui possède un site industriel à Bourges, dans le Cher, est assigné en justice pour des manquements présumés à son « devoir de vigilance ». L'assignation a été envoyée le 2 novembre en vue d'un procès devant la 34e chambre civile du tribunal judiciaire de Paris. Le média ici.fr, qui relaie l'AFP, précise que la procédure vise des manquements présumés et non établis. L'AFP l'a appris lundi 24 novembre auprès des associations à l'origine de la procédure, et le média La Lettre l'a révélée. Le groupe est accusé d'avoir fourni des pièces qui auraient servi à bombarder Gaza."
+      },
+      {
+       "intertitre": "Qui poursuit, et sur quel fondement",
+       "texte": "L'action est intentée par trois associations : Action sécurité éthique républicaines (Aser), Juristes pour le respect du droit international (Jurdi) et Association France-Palestine solidarité (AFPS). Les deux sources s'accordent sur ce point. Elles sont rejointes par la société Conseil gestion & résilience (Cogeres), actionnaire d'Airbus, lui-même actionnaire de MBDA à hauteur de 37,5 %. Les plaignants estiment que le groupe était censé anticiper les risques liés à l'utilisation de composants fournis à Boeing et susceptibles d'être employés dans des bombardements à Gaza."
+      },
+      {
+       "intertitre": "Les pièces en cause",
+       "texte": "Les requérants visent la fourniture de voilures déployables, commercialisées sous le nom de DiamondBlack, au constructeur américain Boeing. Boeing fabrique la bombe de modèle GBU-39, que les associations disent « massivement employée par l'armée de l'Air israélienne ». Selon la source 2, ils dénoncent la négligence du risque que la filiale américaine, MBDA Inc., en vendant ce produit à Boeing, « contribue à des atteintes graves au droit international humanitaire et au droit international des droits de l'Homme ». Selon la source 1, ils reprochent à MBDA de ne pas avoir suffisamment pris en compte le risque que ces pièces contribuent à des violations du droit international humanitaire."
+      },
+      {
+       "intertitre": "Une enquête déjà publiée en 2025",
+       "texte": "En juillet 2025, une enquête des médias Disclose, The Guardian et Follow The Money avait montré que des composants fabriqués par MBDA équipent des bombes larguées sur des civils dans la bande de Gaza. Elle dénonçait au moins 24 frappes aériennes, entre novembre 2023 et mai 2025, qui auraient causé la mort de plus de 500 personnes, dont plus d'une centaine d'enfants. Des écoles, des camps et une mosquée figuraient parmi les lieux visés."
+      },
+      {
+       "intertitre": "L'ancrage à Bourges",
+       "texte": "Selon la page d'ici.fr, qui rappelle que MBDA possède un site industriel à Bourges, le Cher se revendique « capitale régionale de l'industrie de la défense » en Centre-Val de Loire, avec 5 000 salariés, autour de MBDA, KNDS et Safran. Le média relève aussi que la ministre des Armées Catherine Vautrin s'est rendue début novembre dans l'usine de production de missiles MBDA, l'une des plus importantes du secteur de la défense, et que des manifestants se réunissent chaque samedi à Bourges pour « réclamer une paix juste et durable au Proche-Orient »."
+      },
+      {
+       "intertitre": "La position de MBDA",
+       "texte": "Dans sa réponse à une mise en demeure datant du mois d'avril, MBDA a estimé, comme le révèle l'assignation, que son devoir de vigilance se limitait à sa chaîne de valeur amont, et non à l'utilisation de ses produits par ses clients. Aucun porte-parole du groupe n'était joignable lundi pour réagir à l'assignation, ni l'AFP ni ici.fr n'ayant pu recueillir sa réaction. La 34e chambre civile, appelée « chambre de la régulation sociale, économique et environnementale » et spécialisée dans le devoir de vigilance, a condamné en juin TotalEnergies à compléter son plan de réduction des émissions de gaz à effet de serre pour y inclure celles qui sont indirectement générées."
+      }
+     ],
+     "synthese": "MBDA est poursuivi par trois associations et l'actionnaire d'Airbus Cogeres pour avoir fourni à Boeing des voilures de bombes GBU-39 sans mesurer le risque d'atteintes au droit humanitaire. Le groupe soutient que son devoir de vigilance ne porte que sur sa chaîne de valeur amont, point que la 34e chambre civile de Paris devra trancher.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "Boursorama",
+       "url": "https://www.boursorama.com/actualite-economique/actualites-amp/mbda-assigne-en-justice-pour-defaut-de-vigilance-quant-a-gaza-61605d5ea63fa3f4580b213eb82b6052"
+      }
+     ],
+     "format": "long",
+     "id": "a180"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "veille",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "RGPD",
+      "source": "CNIL",
+      "date": "2026-11-24",
+      "url": "https://www.cnil.fr/fr/acteurs-secteur-livraison-responsabilites",
+      "auteur": "",
+      "id": "a141",
+      "titre": "CNIL : qui est responsable de traitement dans la livraison ?",
+      "texte": "La CNIL considère que le transporteur est en général responsable de traitement, mais ce n'est pas systématique. Le rôle de chaque acteur de la livraison doit être clarifié au regard du RGPD."
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "IGIHE News",
+      "date": "2026-11-24",
+      "url": "https://en.igihe.com/news-40/article/u-s-imposes-sanctions-on-shadow-banking-networks-linked-to-iran",
+      "auteur": "",
+      "id": "a164",
+      "titre": "Sanctions américaines contre des réseaux de banque parallèle liés à l'Iran",
+      "texte": "Les États-Unis ont sanctionné des réseaux de banque parallèle, dits « shadow banking », liés à l'Iran. L'information a été publiée le 24 novembre 2026."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Idées",
+     "source": "The Conversation",
+     "date": "2026-11-24",
+     "url": "https://theconversation.com/leurope-reporte-le-controle-des-emissions-de-methane-de-ses-importations-au-risque-de-ne-pas-tenir-ses-promesses-climatiques-296607",
+     "auteur": "Jean-Daniel Paris",
+     "titre": "Méthane : l'UE reporte de deux ans le contrôle de ses importations d'énergie",
+     "chapo": "Le 19 novembre 2026, l'Union européenne a repoussé à 2029 le volet « importations » de son règlement sur le méthane, au risque de manquer son engagement du Pacte mondial sur le méthane.",
+     "sections": [
+      {
+       "intertitre": "Ce qui a été décidé",
+       "texte": "Le 22 octobre 2026, le Parlement européen a voté pour repousser de trois ans une partie du premier règlement européen sur le méthane du secteur de l'énergie, entré en vigueur en 2024. Le 19 novembre, l'Union européenne a finalement adopté un report de deux ans : la mise en œuvre est désormais prévue pour 2029, alors que le volet importations devait s'appliquer au 1er janvier 2027. Issu de la loi climat européenne, c'est le premier texte contraignant sur le méthane. La France avait demandé un report d'un an de ce volet, face à la crise énergétique née du blocage du détroit d'Ormuz. L'auteur, Jean-Daniel Paris, y voit pourtant un effort proportionné et nécessaire pour tenir les engagements pris à la COP26 en 2021."
+      },
+      {
+       "intertitre": "Pourquoi le méthane compte",
+       "texte": "Le méthane (CH₄) est le deuxième gaz à effet de serre d'origine humaine après le CO₂ et il est responsable d'un tiers du réchauffement observé. Sur cent ans, une tonne de CH₄ contribue 28 fois plus au réchauffement qu'une tonne de CO₂. Sa durée de vie est toutefois courte, environ douze ans, alors que le CO₂ peut rester plus d'un siècle dans l'atmosphère. Précurseur de l'ozone troposphérique, il rend sa réduction d'autant plus utile. Chaque année, l'exploitation du pétrole, du gaz et du charbon en rejette environ 120 millions de tonnes (Mt) : environ 50 Mt pour le pétrole, 30 Mt pour le gaz naturel et environ 40 Mt pour le charbon, dont la majorité vient de la ventilation des mines souterraines."
+      },
+      {
+       "intertitre": "Des émissions surtout importées",
+       "texte": "L'énergie utilisée en Europe est à plus de 70 % d'origine fossile. L'UE consomme 11 % du pétrole mondial et 8 % du gaz naturel mondial. Elle dépend des importations à 97 % pour le pétrole, à 90 % pour le gaz et à 38 % pour le charbon. Selon l'auteur, les émissions imputables à la consommation européenne atteignent environ 9 Mt par an, dont plus de 7 sont émises hors du territoire européen : environ 80 % des émissions visées par le règlement sont donc « importées ». Avec le report, l'Europe renoncerait à son principal levier pour réduire ses émissions de méthane fossile, alors que les engagements nationaux restent loin de l'objectif de 30 %."
+      },
+      {
+       "intertitre": "Ce que prévoit le règlement",
+       "texte": "Le texte impose un cadre de surveillance, de déclaration et de vérification (MRV) selon la méthodologie OGMP2.0 du Programme des Nations unies pour l'environnement, sur toute la chaîne de valeur, de l'extraction à la distribution. Son niveau de vérification le plus élevé recourt à des mesures du méthane émis dans l'atmosphère. Il renforce la recherche et la réparation des fuites, interdit la mise à l'évent et limite le torchage de routine. Il prévoit enfin une « intensité d'émission », plafond restant à déterminer : à 0,2 %, une fuite de 2 m³ serait permise pour 1 000 m³ de gaz consommés. Or les taux de fuite sont mal connus : aux États-Unis, ils varient de 0,75 % à 10 % de la production selon les bassins, et les statistiques de l'EPA sous-estiment fortement les émissions. En Roumanie, les chiffres officiels devraient être multipliés par plus de 2,5."
+      },
+      {
+       "intertitre": "Les arguments du report et leurs réponses",
+       "texte": "Trois arguments appuient le report : le règlement gênerait l'approvisionnement et renchérirait l'énergie, le gouvernement américain y voyant une barrière commerciale non tarifaire et demandant d'en exempter son gaz ; il favoriserait une production mondiale à deux vitesses ; son manque de précision, notamment sur les sanctions, créerait un risque juridique. L'auteur répond que la réduction des émissions est moins coûteuse dans l'énergie que dans d'autres secteurs, que le volet importations pourrait étendre des pratiques moins émettrices chez les fournisseurs, et que les clauses de protection existantes maîtrisent le risque d'approvisionnement. Une étude estime que le coût de conformité est largement compensé par les bénéfices à long terme, dont la qualité de l'air. Les difficultés de mesure justifient selon lui un effort de recherche, non une suspension."
+      }
+     ],
+     "synthese": "L'UE a reporté à 2029 le volet importations de son règlement sur le méthane, soit un an avant l'échéance de 2030 du Pacte mondial, qui vise une baisse d'au moins 30 % par rapport à 2020. Pour l'auteur, ce report prive l'Europe de son principal levier sur des émissions largement importées.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a197"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Climat",
+     "source": "Carbon Brief",
+     "date": "2026-11-24",
+     "url": "https://www.carbonbrief.org/cop31-key-outcomes-for-food-forests-oceans-and-nature-at-the-un-climate-talks-in-antalya",
+     "auteur": "",
+     "titre": "COP31 à Antalya : alimentation, forêts, océans et nature, un bilan mitigé",
+     "chapo": "La COP31 d'Antalya, en Turquie, s'est achevée sans le « pacte d'Antalya », rejeté en plénière finale, et sans résultat substantiel sur plusieurs sujets clés, selon l'analyse de Carbon Brief.",
+     "sections": [
+      {
+       "intertitre": "Un pacte rejeté",
+       "texte": "Le « pacte d'Antalya », décision de couverture qui a occupé l'essentiel des deux semaines de négociation, a été rejeté en plénière finale par au moins 32 pays, dont l'UE, le Royaume-Uni et plusieurs pays vulnérables au climat. Il ne faisait pourtant aucune référence claire aux énergies fossiles ni au financement de l'adaptation, mais contenait des signaux forts pour les océans : 19 mentions, contre 21 dans le premier projet du 16 novembre. La COP a dépassé son horaire de près de 50 heures. Plusieurs pays ont regretté que le travail sur l'action océan-climat soit perdu ; la Fidji a demandé d'en faire une décision océan autonome. Les forêts, la biodiversité (ni la COP17 en Arménie ni le cadre de Kunming-Montréal n'étaient cités) et l'alimentation y figuraient peu."
+      },
+      {
+       "intertitre": "Agriculture : un échec de plus",
+       "texte": "Pour la deuxième année de suite, les négociations sur l'agriculture et la sécurité alimentaire ont échoué. Le groupe arabe a soulevé dès le 10 novembre le mécanisme d'ajustement carbone aux frontières de l'UE (CBAM), ce que Teresa Anderson, d'ActionAid, a qualifié de « surprise totale » qui a, selon elle, ruiné les chances de l'agroécologie. Autres blocages : l'Inde s'opposait à l'agroécologie, l'UE au CBAM et le G77 au langage sur les « systèmes alimentaires ». Pour des observateurs, le fond du problème est le manque de financement. Le texte final, purement procédural, renvoie le dossier aux sessions de Bonn, puis à la COP32 en Éthiopie. En revanche, le mot « agroécologie » figure explicitement dans la décision du programme de travail sur la transition juste."
+      },
+      {
+       "intertitre": "Carbone, transition juste et adaptation",
+       "texte": "Un accord est intervenu sur l'article 6 de l'Accord de Paris. Pour l'article 6.2 (échanges bilatéraux), les revues techniques de 16 rapports nationaux ont relevé 543 « incohérences », dont 115 significatives, mais le texte final a supprimé le paragraphe qui s'en inquiétait. Pour l'article 6.4, la demande d'évaluer l'« impact cumulé » des règles a été remplacée par une formule plus souple. Pour le mécanisme de transition juste, une approche progressive a été retenue, son adoption étant visée à la COP32 en Éthiopie, en novembre 2027. Sur l'adaptation, le chiffre de 120 milliards de dollars d'ici 2035, issu de l'objectif de tripler le financement, a disparu des textes finaux. Le Fonds d'adaptation, en revanche, est un « point positif » selon Joe Thwaites (NRDC) : son conseil aura des sièges par région de l'ONU. Le commerce est absent des résultats."
+      },
+      {
+       "intertitre": "Océans : de l'élan, peu d'engagements",
+       "texte": "Les défenseurs des océans ont relevé une attention accrue aux liens océan-climat, mais jugé que la COP31 n'a pas tenu sa promesse de « COP bleue ». Le 17 novembre, la France et le Brésil ont lancé une équipe de mise en œuvre du « Blue NDC Challenge », qui compte dix nouveaux membres, et la présidence a publié le « pacte océans et mers d'Antalya », plateforme d'ambition sans objectifs ni financement. Le Royaume-Uni a annoncé 20 millions de livres (26,2 millions de dollars) pour la protection marine, l'Australie 10 millions de dollars, et six pays ont rejoint l'engagement sur les récifs coralliens. Tom Pickerell, du WRI, résume : « peut-être rien par écrit », mais un véritable élan."
+      },
+      {
+       "intertitre": "Forêts et nature : peu de moyens",
+       "texte": "La COP31 a été discrète sur les forêts. Lors du sommet des leaders forestiers du 11 novembre, seuls 88 millions de dollars de philanthropes sont venus abonder le Tropical Forest Forever Facility, brésilien, alors que de grosses promesses étaient espérées. La feuille de route brésilienne sur la déforestation n'a pas été retenue dans le texte final. Quarante-cinq scientifiques ont signé une lettre jugeant que les règles de l'article 6 « restent insuffisantes » sur l'intégrité environnementale. Côté nature, la discussion sur les synergies entre les conventions de Rio s'est conclue par un texte d'une ligne : un groupe avait invoqué la règle 16 dès la première consultation, selon la Fidji."
+      }
+     ],
+     "synthese": "La COP31 n'a produit ni pacte final ni avancée substantielle sur l'alimentation, les forêts et la nature, avec peu de financements nouveaux. Quelques signaux demeurent, comme l'agroécologie dans la transition juste, l'élan pour les océans et le Fonds d'adaptation.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a212"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Climat",
+      "source": "Inside Climate News",
+      "date": "2026-11-24",
+      "url": "https://insideclimatenews.org/news/24112026/montana-wildfire-insurance-costs/",
+      "auteur": "",
+      "id": "a217",
+      "titre": "Montana : les incendies renchérissent l'assurance habitation",
+      "texte": "Dans le Montana, le risque croissant d'incendies de forêt fait grimper les primes d'assurance habitation. Certains acquéreurs ne parviennent plus à obtenir de couverture."
+     },
+     {
+      "rubrique": "Sport",
+      "source": "franceinfo Sports",
+      "date": "2026-11-24",
+      "url": "https://www.franceinfo.fr/replay-radio/le-brief-eco/stellantis-quitte-la-competition-sportive_8275340.html#xtor=RSS-3-%5Bsports%5D",
+      "auteur": "",
+      "id": "a226",
+      "titre": "Stellantis se retire de la compétition sportive internationale",
+      "texte": "Peugeot abandonne les 24 Heures du Mans et le constructeur quitte toutes les compétitions sportives internationales, en pleine crise du secteur automobile."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-24",
+      "url": "https://www.sciencesetavenir.fr/fondamental/particules/les-physiciens-ouvrent-la-voie-a-la-decouverte-de-nouvelles-particules-avec-l-experience-lhcb_196088?xtor=RSS-10",
+      "auteur": "",
+      "id": "a183",
+      "titre": "LHCb : des indices de la désintégration rarissime du méson B0",
+      "texte": "Le détecteur LHCb a dévoilé des indices probants de cette désintégration, traquée depuis plus de quarante ans. Une confirmation expérimentale pourrait étendre la compréhension des limites du modèle standard."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-24",
+      "url": "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/",
+      "auteur": "",
+      "id": "a206",
+      "titre": "Webb révèle de nouveaux détails sur le reste de supernova Cassiopeia A",
+      "texte": "Le télescope spatial James Webb montre la poussière chaude qui compose Cassiopeia A, vestige d'une étoile massive explosée, sur une image infrarouge publiée le 23 novembre."
+     }
+    ]
+   },
+   {
+    "type": "solutions",
+    "bloc": "",
+    "taille": 1
+   }
+  ],
+  "jeux": {
+   "sudoku": {
+    "grille": [
+     0,
+     5,
+     4,
+     0,
+     0,
+     3,
+     2,
+     0,
+     9,
+     2,
+     0,
+     1,
+     6,
+     0,
+     0,
+     4,
+     5,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     4,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     1,
+     9,
+     0,
+     7,
+     9,
+     0,
+     2,
+     3,
+     0,
+     0,
+     0,
+     0,
+     4,
+     0,
+     4,
+     0,
+     0,
+     0,
+     5,
+     8,
+     0,
+     0,
+     0,
+     0,
+     0,
+     8,
+     1,
+     0,
+     6,
+     0,
+     0
+    ],
+    "solution": [
+     7,
+     5,
+     4,
+     1,
+     8,
+     3,
+     2,
+     6,
+     9,
+     2,
+     3,
+     1,
+     6,
+     7,
+     9,
+     4,
+     5,
+     8,
+     6,
+     9,
+     8,
+     5,
+     4,
+     2,
+     7,
+     3,
+     1,
+     4,
+     2,
+     9,
+     7,
+     3,
+     6,
+     1,
+     8,
+     5,
+     5,
+     1,
+     7,
+     4,
+     9,
+     8,
+     3,
+     2,
+     6,
+     8,
+     6,
+     3,
+     2,
+     5,
+     1,
+     9,
+     4,
+     7,
+     9,
+     8,
+     2,
+     3,
+     6,
+     7,
+     5,
+     1,
+     4,
+     1,
+     4,
+     6,
+     9,
+     2,
+     5,
+     8,
+     7,
+     3,
+     3,
+     7,
+     5,
+     8,
+     1,
+     4,
+     6,
+     9,
+     2
+    ]
+   },
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "indices": [
+     [
+      1,
+      2,
+      9
+     ],
+     [
+      0,
+      5,
+      4
+     ],
+     [
+      1,
+      8,
+      12
+     ],
+     [
+      0,
+      9,
+      4
+     ],
+     [
+      3,
+      3,
+      9
+     ],
+     [
+      6,
+      6,
+      8
+     ],
+     [
+      5,
+      1,
+      10
+     ],
+     [
+      5,
+      2,
+      5
+     ],
+     [
+      7,
+      4,
+      8
+     ],
+     [
+      4,
+      5,
+      4
+     ],
+     [
+      7,
+      9,
+      6
+     ],
+     [
+      6,
+      7,
+      6
+     ],
+     [
+      8,
+      1,
+      12
+     ],
+     [
+      9,
+      7,
+      3
+     ]
+    ],
+    "rectangles": [
+     [
+      0,
+      0,
+      3,
+      3
+     ],
+     [
+      0,
+      3,
+      1,
+      4
+     ],
+     [
+      0,
+      7,
+      6,
+      2
+     ],
+     [
+      0,
+      9,
+      4,
+      1
+     ],
+     [
+      1,
+      3,
+      3,
+      3
+     ],
+     [
+      1,
+      6,
+      8,
+      1
+     ],
+     [
+      3,
+      0,
+      5,
+      2
+     ],
+     [
+      3,
+      2,
+      5,
+      1
+     ],
+     [
+      4,
+      3,
+      4,
+      2
+     ],
+     [
+      4,
+      5,
+      4,
+      1
+     ],
+     [
+      4,
+      9,
+      6,
+      1
+     ],
+     [
+      6,
+      7,
+      3,
+      2
+     ],
+     [
+      8,
+      0,
+      2,
+      6
+     ],
+     [
+      9,
+      6,
+      1,
+      3
+     ]
+    ]
+   },
+   "futoshiki": {
+    "n": 6,
+    "donnes": [
+     [
+      0,
+      2,
+      1
+     ],
+     [
+      3,
+      0,
+      4
+     ],
+     [
+      4,
+      2,
+      3
+     ],
+     [
+      0,
+      3,
+      4
+     ],
+     [
+      1,
+      4,
+      5
+     ]
+    ],
+    "signes": [
+     [
+      [
+       3,
+       4
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     [
+      [
+       0,
+       2
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     [
+      [
+       1,
+       1
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     [
+      [
+       4,
+       1
+      ],
+      [
+       5,
+       1
+      ]
+     ],
+     [
+      [
+       2,
+       2
+      ],
+      [
+       3,
+       2
+      ]
+     ],
+     [
+      [
+       4,
+       1
+      ],
+      [
+       4,
+       2
+      ]
+     ],
+     [
+      [
+       0,
+       0
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     [
+      [
+       5,
+       2
+      ],
+      [
+       5,
+       3
+      ]
+     ],
+     [
+      [
+       2,
+       1
+      ],
+      [
+       2,
+       0
+      ]
+     ],
+     [
+      [
+       2,
+       1
+      ],
+      [
+       3,
+       1
+      ]
+     ],
+     [
+      [
+       5,
+       0
+      ],
+      [
+       5,
+       1
+      ]
+     ],
+     [
+      [
+       3,
+       3
+      ],
+      [
+       4,
+       3
+      ]
+     ],
+     [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       4
+      ]
+     ],
+     [
+      [
+       1,
+       3
+      ],
+      [
+       2,
+       3
+      ]
+     ],
+     [
+      [
+       4,
+       4
+      ],
+      [
+       3,
+       4
+      ]
+     ],
+     [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       1
+      ]
+     ]
+    ],
+    "solution": [
+     [
+      2,
+      6,
+      1,
+      4,
+      3,
+      5
+     ],
+     [
+      3,
+      1,
+      4,
+      2,
+      5,
+      6
+     ],
+     [
+      5,
+      4,
+      2,
+      3,
+      6,
+      1
+     ],
+     [
+      4,
+      5,
+      6,
+      1,
+      2,
+      3
+     ],
+     [
+      6,
+      2,
+      3,
+      5,
+      1,
+      4
+     ],
+     [
+      1,
+      3,
+      5,
+      6,
+      4,
+      2
+     ]
+    ]
+   },
+   "compte": {
+    "plaques": [
+     9,
+     2,
+     10,
+     2,
+     7,
+     4
+    ],
+    "cible": 138,
+    "solution": [
+     "9 + 10 = 19",
+     "19 × 4 = 76",
+     "76 − 7 = 69",
+     "69 × 2 = 138"
+    ]
+   }
+  },
+  "quiz": [],
+  "solutions_hier": {
+   "sudoku": [
+    9,
+    6,
+    5,
+    7,
+    1,
+    8,
+    2,
+    3,
+    4,
+    3,
+    7,
+    2,
+    4,
+    5,
+    9,
+    1,
+    8,
+    6,
+    4,
+    8,
+    1,
+    3,
+    6,
+    2,
+    7,
+    5,
+    9,
+    8,
+    1,
+    3,
+    9,
+    4,
+    7,
+    5,
+    6,
+    2,
+    6,
+    9,
+    7,
+    8,
+    2,
+    5,
+    3,
+    4,
+    1,
+    5,
+    2,
+    4,
+    1,
+    3,
+    6,
+    9,
+    7,
+    8,
+    1,
+    3,
+    9,
+    6,
+    7,
+    4,
+    8,
+    2,
+    5,
+    2,
+    4,
+    8,
+    5,
+    9,
+    3,
+    6,
+    1,
+    7,
+    7,
+    5,
+    6,
+    2,
+    8,
+    1,
+    4,
+    9,
+    3
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      2,
+      4
+     ],
+     [
+      0,
+      4,
+      6,
+      1
+     ],
+     [
+      0,
+      5,
+      4,
+      3
+     ],
+     [
+      0,
+      8,
+      6,
+      2
+     ],
+     [
+      2,
+      0,
+      3,
+      2
+     ],
+     [
+      2,
+      2,
+      5,
+      2
+     ],
+     [
+      4,
+      5,
+      6,
+      2
+     ],
+     [
+      4,
+      7,
+      6,
+      1
+     ],
+     [
+      5,
+      0,
+      4,
+      1
+     ],
+     [
+      5,
+      1,
+      5,
+      1
+     ],
+     [
+      6,
+      4,
+      4,
+      1
+     ],
+     [
+      6,
+      8,
+      4,
+      2
+     ],
+     [
+      7,
+      2,
+      1,
+      2
+     ],
+     [
+      8,
+      2,
+      2,
+      2
+     ],
+     [
+      9,
+      0,
+      1,
+      1
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     3,
+     6,
+     4,
+     1,
+     5,
+     2
+    ],
+    [
+     5,
+     1,
+     3,
+     2,
+     4,
+     6
+    ],
+    [
+     1,
+     5,
+     6,
+     4,
+     2,
+     3
+    ],
+    [
+     4,
+     2,
+     5,
+     6,
+     3,
+     1
+    ],
+    [
+     2,
+     4,
+     1,
+     3,
+     6,
+     5
+    ],
+    [
+     6,
+     3,
+     2,
+     5,
+     1,
+     4
+    ]
+   ],
+   "compte": [
+    "9 × 2 = 18",
+    "18 + 7 = 25",
+    "25 × 6 = 150",
+    "150 + 100 = 250",
+    "250 − 5 = 245"
+   ],
+   "quiz": []
+  },
+  "avertissements": [
+   "Flux indisponibles : ESA"
+  ],
+  "indisponibles": [],
+  "non_rediges": {}
+ },
+ "memoire": {
+  "date": "2026-11-25",
+  "nouveaux_mots": [
+   {
+    "mot": "Sagace",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Doué d'une grande finesse d'esprit.",
+    "exemple": "Une observatrice sagace des comportements."
+   },
+   {
+    "mot": "Véhément",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "Qui s'exprime avec force et passion.",
+    "exemple": "Une protestation véhémente."
+   },
+   {
+    "mot": "Subodorer",
+    "nature": "v. tr.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Pressentir, deviner quelque chose.",
+    "exemple": "Il subodorait un piège."
+   },
+   {
+    "mot": "Vaticiner",
+    "nature": "v. intr.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Prophétiser, prédire l'avenir de façon pompeuse.",
+    "exemple": "Les experts vaticinent sur la fin du travail."
+   },
+   {
+    "mot": "Procyclicité",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "pro",
+    "definition": "Tendance d'un mécanisme à amplifier les fluctuations du cycle économique.",
+    "exemple": "La procyclicité des règles comptables."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Saugrenu",
+    "definition": "Inattendu au point d'en être absurde ou bizarre."
+   },
+   {
+    "mot": "Acrimonie",
+    "definition": "Mauvaise humeur qui s'exprime avec aigreur."
+   },
+   {
+    "mot": "Stochastique",
+    "definition": "Qui relève du hasard, des probabilités."
+   },
+   {
+    "mot": "Usufruit",
+    "definition": "Droit d'utiliser un bien et d'en percevoir les revenus sans en être propriétaire."
+   },
+   {
+    "mot": "Loquace",
+    "definition": "Qui parle volontiers et beaucoup."
+   }
+  ],
+  "articles": [
+   "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+   "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+   "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
+   "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/",
+   "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+   "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+   "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+   "https://www.lemonde.fr/politique/article/2026/11/24/budget-un-premier-texte-adopte-par-le-parlement-sebastien-lecornu-reve-desormais-d-un-compromis-pour-2027_6814842_823448.html",
+   "https://www.franceinfo.fr/economie/automobile/l-usine-stellantis-de-sochaux-arrete-l-activite-de-son-equipe-de-nuit-a-partir-de-janvier-2027-500-emplois-sont-concernes_8298177.html#xtor=RSS-3-[lestitres]",
+   "https://www.franceinfo.fr/politique/affaire/financement-de-la-campagne-de-sarkozy/nicolas-sarkozy-carla-bruni-mimi-marchand-qui-sont-les-principaux-protagonistes-de-l-affaire-de-la-fausse-retractation-de-ziad-takieddine_8297730.html#xtor=RSS-3-[lestitres]",
+   "https://www.lemonde.fr/societe/article/2026/11/24/aux-assises-a-lyon-la-serie-criminelle-qui-fait-basculer-le-banditisme-dans-la-cartellisation_6814867_3224.html",
+   "https://www.lemonde.fr/politique/article/2026/11/24/presidentielle-2027-les-maires-s-inquietent-du-ras-le-bol-general-des-electeurs_6814869_823448.html",
+   "https://www.publicsenat.fr/actualites/politique/budget-2027-coup-de-theatre-le-senat-renonce-a-supprimer-labattement-de-10-des-retraites",
+   "https://www.scmp.com/news/china/politics/article/3375640/shanghai-party-chief-faces-corruption-probe",
+   "https://www.npr.org/2026/11/24/nx-s1-6052994/hack-commercial-vessels-iran",
+   "https://www.politico.eu/article/ukraine-strikes-russian-ships-libya-giorgia-meloni-italy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order?traffic_source=rss",
+   "https://www.scmp.com/news/us/article/3375673/huawei-guilty-10-12-counts-after-2-month-battle-us-courtroom",
+   "https://www.nber.org/papers/w36038#fromrss",
+   "https://www.federalreserve.gov/econres/notes/feds-notes/why-has-global-trade-remained-resilient-despite-high-trade-policy-uncertainty-20261124.html",
+   "https://www.federalreserve.gov/econres/feds/collateral-mobility-and-the-lender-of-last-resort.htm",
+   "https://verfassungsblog.de/only-reasonable-inference-gambia-v-myanmar/",
+   "https://www.nber.org/papers/w36047#fromrss",
+   "https://www.pubaffairsbruxelles.eu/eu-in-the-media/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package/",
+   "https://www.ici.fr/centre-val-de-loire/cher-18/bourges/mbda-le-fabricant-de-missile-a-bourges-assigne-en-justice-pour-ses-liens-avec-des-bombardements-a-gaza-2163507",
+   "https://www.cnil.fr/fr/acteurs-secteur-livraison-responsabilites",
+   "https://en.igihe.com/news-40/article/u-s-imposes-sanctions-on-shadow-banking-networks-linked-to-iran",
+   "https://theconversation.com/leurope-reporte-le-controle-des-emissions-de-methane-de-ses-importations-au-risque-de-ne-pas-tenir-ses-promesses-climatiques-296607",
+   "https://www.carbonbrief.org/cop31-key-outcomes-for-food-forests-oceans-and-nature-at-the-un-climate-talks-in-antalya",
+   "https://insideclimatenews.org/news/24112026/montana-wildfire-insurance-costs/",
+   "https://www.franceinfo.fr/replay-radio/le-brief-eco/stellantis-quitte-la-competition-sportive_8275340.html#xtor=RSS-3-%5Bsports%5D",
+   "https://www.sciencesetavenir.fr/fondamental/particules/les-physiciens-ouvrent-la-voie-a-la-decouverte-de-nouvelles-particules-avec-l-experience-lhcb_196088?xtor=RSS-10",
+   "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/"
+  ],
+  "titres": [
+   "Amazon : des agents d'IA ont exploité seuls une faille inconnue",
+   "Tidal bannit la musique entièrement générée par IA dès le 9 décembre",
+   "Anthropic : MCP dépasse 700 millions de téléchargements mensuels de SDK",
+   "Budget : loi de fin de gestion 2026 adoptée, le compromis 2027 reste à trouver",
+   "Stellantis Sochaux supprime son équipe de nuit en janvier 2027 : 500 emplois touchés",
+   "Fausse rétractation de Takieddine : onze renvois dont Sarkozy et Carla Bruni",
+   "Chine : Chen Jining, chef du Parti à Shanghai, visé par une enquête",
+   "Navires marchands piratés : Washington enquête sur des liens avec l'Iran",
+   "Stablecoins : cinq faits montrent un usage de monnaie tokenisée",
+   "Pourquoi le commerce mondial résiste malgré l'incertitude commerciale",
+   "Russie : Bruxelles propose un 22e paquet visant banques, soldats et sportifs",
+   "MBDA assigné en justice pour manquement au devoir de vigilance à propos de Gaza",
+   "Méthane : l'UE reporte de deux ans le contrôle de ses importations d'énergie",
+   "COP31 à Antalya : alimentation, forêts, océans et nature, un bilan mitigé"
+  ],
+  "solutions": {
+   "sudoku": [
+    7,
+    5,
+    4,
+    1,
+    8,
+    3,
+    2,
+    6,
+    9,
+    2,
+    3,
+    1,
+    6,
+    7,
+    9,
+    4,
+    5,
+    8,
+    6,
+    9,
+    8,
+    5,
+    4,
+    2,
+    7,
+    3,
+    1,
+    4,
+    2,
+    9,
+    7,
+    3,
+    6,
+    1,
+    8,
+    5,
+    5,
+    1,
+    7,
+    4,
+    9,
+    8,
+    3,
+    2,
+    6,
+    8,
+    6,
+    3,
+    2,
+    5,
+    1,
+    9,
+    4,
+    7,
+    9,
+    8,
+    2,
+    3,
+    6,
+    7,
+    5,
+    1,
+    4,
+    1,
+    4,
+    6,
+    9,
+    2,
+    5,
+    8,
+    7,
+    3,
+    3,
+    7,
+    5,
+    8,
+    1,
+    4,
+    6,
+    9,
+    2
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      3,
+      3
+     ],
+     [
+      0,
+      3,
+      1,
+      4
+     ],
+     [
+      0,
+      7,
+      6,
+      2
+     ],
+     [
+      0,
+      9,
+      4,
+      1
+     ],
+     [
+      1,
+      3,
+      3,
+      3
+     ],
+     [
+      1,
+      6,
+      8,
+      1
+     ],
+     [
+      3,
+      0,
+      5,
+      2
+     ],
+     [
+      3,
+      2,
+      5,
+      1
+     ],
+     [
+      4,
+      3,
+      4,
+      2
+     ],
+     [
+      4,
+      5,
+      4,
+      1
+     ],
+     [
+      4,
+      9,
+      6,
+      1
+     ],
+     [
+      6,
+      7,
+      3,
+      2
+     ],
+     [
+      8,
+      0,
+      2,
+      6
+     ],
+     [
+      9,
+      6,
+      1,
+      3
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     2,
+     6,
+     1,
+     4,
+     3,
+     5
+    ],
+    [
+     3,
+     1,
+     4,
+     2,
+     5,
+     6
+    ],
+    [
+     5,
+     4,
+     2,
+     3,
+     6,
+     1
+    ],
+    [
+     4,
+     5,
+     6,
+     1,
+     2,
+     3
+    ],
+    [
+     6,
+     2,
+     3,
+     5,
+     1,
+     4
+    ],
+    [
+     1,
+     3,
+     5,
+     6,
+     4,
+     2
+    ]
+   ],
+   "compte": [
+    "9 + 10 = 19",
+    "19 × 4 = 76",
+    "76 − 7 = 69",
+    "69 × 2 = 138"
+   ]
+  },
+  "reponses_quiz": []
+ },
+ "essai": false
+}
