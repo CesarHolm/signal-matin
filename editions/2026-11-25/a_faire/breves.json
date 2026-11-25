@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a9\", \"source\": \"The Decoder\", \"titre\": \"Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures\", \"resume\": \"According to an Axios report, many employees at OpenAI and Anthropic believe the companies' own unreleased frontier models can no longer be safely controlled. Both companies are internally debating whether to halt releases or even stop training altogether, while employee trust in leadership is eroding. The article Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures appeared first on The Decoder .\"}, {\"id\": \"a8\", \"source\": \"The Decoder\", \"titre\": \"Anthropic researcher stands by his AI-assisted Riemann proof but owns up to \\\"stupid things\\\" in the rollout\", \"resume\": \"Anthropic researcher Levent Alpöge is walking back parts of his announcement of an AI-assisted proof of the generalized Riemann hypothesis. The claim that it ran to more than 250,000 pages was a joke, he says, and the published Lean code is \\\"full of garbage.\\\" He still stands by the math. The article Anthropic researcher stands by his AI-assisted Riemann proof but owns up to \\\"stupid things\\\" in the rollout appeared first on The Decoder .\"}, {\"id\": \"a34\", \"source\": \"Le Monde\", \"titre\": \"Présidentielle 2027 : les maires s’inquiètent du « ras-le-bol général » des électeurs\", \"resume\": \"Le congrès de l’Association des maires de France s’est ouvert à Paris, mardi 24 novembre. Beaucoup de maires s’émeuvent de la situation sociale et redoutent que la détresse d’une partie de la population profite au Rassemblement national.\"}, {\"id\": \"a37\", \"source\": \"Le Monde\", \"titre\": \"Aux assises à Lyon, la série criminelle qui fait basculer le banditisme dans la « cartellisation »\", \"resume\": \"Au procès de dix accusés, jugés pour une série de fusillades et de représailles sur fond de narcotrafic, les enquêteurs de la police judiciaire expliquent que la stratégie de terreur entre clans rivaux s’inspire des cartels sud-américains.\"}, {\"id\": \"a91\", \"source\": \"South China Morning Post\", \"titre\": \"Huawei guilty on 10 of 12 counts after months-long battle in US courtroom\", \"resume\": \"The nearly seven-year US criminal case against Huawei Technologies and three subsidiaries finally ended on Tuesday when a jury in Brooklyn found that the company was guilty on 10 of 12 counts, including bank and wire fraud, conspiracy to steal trade secrets and evading sanctions. But the jury found the technology company not guilty of conspiracy to obstruct justice or conspiracy under the Racketeer Influenced and Corrupt Organisations Act, or Rico, the most serious and potentially consequential...\"}, {\"id\": \"a107\", \"source\": \"Al Jazeera\", \"titre\": \"Iran war live: Saudi-led coalition strikes Yemen’s Hodeidah port\", \"resume\": \"Houthis vow to target Jeddah and other Saudi ports if Hodeidah is hit, after the coalition issues an evacuation order.\"}, {\"id\": \"a77\", \"source\": \"Politico Europe\", \"titre\": \"‘Everything that concerns Libya concerns Italy’: Why Ukraine’s Med strike is a problem for Meloni\", \"resume\": \"The Italian prime minister is a strong backer of Kyiv, but there is worry in Rome that the strikes on Russian ships could destabilize Libya.\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

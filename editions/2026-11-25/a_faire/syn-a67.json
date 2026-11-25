@@ -1,0 +1,64 @@
+{
+ "id": "syn-a67",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a67.json",
+ "limite_caracteres": 4464,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4464 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : NPR\nRubrique : États-Unis\nDate du flux : 24/11/2026\nAuteur : Jenna McLaughlin\nTitre d'origine : The U.S. government is investigating Iranian ties to as many as 50 hacked commercial vessels\n\nARTICLE :\nThe U.S. government is investigating Iranian ties to as many as 50 hacked commercial vessels\nThe U.S. government has intelligence suggesting that up to 50 commercial shipping vessels were recently compromised by cyberattacks, activity federal officials are investigating as potentially linked to Iran.\nThat's according to a U.S. official familiar with the matter who was not authorized to speak on the record, a former military cyber operator and an industry executive briefed on the attacks. The series of breaches was first reported by the The Wall Street Journal.\nThe attacks against the maritime sector, if officials' suspicions are correct, may be the latest example of Iranian cyberattacks against global critical infrastructure during the ongoing war with the United States.\nNPR has reported that cybersecurity experts and U.S. officials believe Iranian hackers were responsible for a series of digital attacks against U.S. water treatment systems across the country in August as well as a pattern of attacks targeting refrigeration cooling systems that led to spoiled food at grocery stores on U.S. military bases and all across Europe as recently as early November.\nThe Coast Guard and the FBI first partnered in August to send a \"highly specialized team\" to board two different foreign commercial vessels \"in the Gulf of America\" heading to U.S. ports, according to a statement provided by the FBI and the Coast Guard. \"The captain, crew, and shore-side corporate staff were critical partners in helping to ensure the threats were mitigated,\" according to the statement.\nThe FBI and Coast Guard press offices also told NPR that there are no current \"reports of operational disruptions, vessel instability, physical danger to crews, or environmental impacts.\"\nHowever, there are dozens more ships in international waters that the U.S. government believes have been compromised by hackers and many others who might be vulnerable to similar attacks.\nAccording to the U.S. official familiar with the investigation, bad actors took advantage of known vulnerabilities in Fortinet FortiGate devices, which are frequently used in the maritime industry. The Coast Guard and FBI released a cyber bulletin in September warning the industry that bad actors were breaking into these devices, which help manage firewalls and virtual private networks. \"Threat actors routinely scan for specific, unpatched vulnerabilities to gain a foothold,\" the bulletin read.\nAccording to the U.S. official, in some cases, employees aboard the ships suspected something nefarious was going on when they noticed email disruptions or couldn't log in to their accounts, or, in at least one case, an extended communications blackout. The U.S. official declined to comment on how the U.S. government knows about the extent of breaches across the sector.\nHowever, according to the U.S. official, hackers were able to break in using the Fortinet vulnerability and then pivot from the ships' IT systems over to their network of devices controlling physical processes on the ships, what's called operational technology.\nThe U.S. official said the bad actors \"could have impacted the systems on board that control propulsion, steering, navigation, and cargo management,\" though they did not share any examples of that kind of activity occurring. In at least one case, one of the ships affected was an LNG tanker designed to transport liquified natural gas. It's important to keep systems at a certain temperature to prevent dangerous accidents if a ship's cargo includes explosive materials –from chemicals to fuel.\nWhile commercial vessels are accustomed to physical security reviews entering the United States following the Sept. 11 terrorist attacks, digital threats are becoming all the more important to track as adversaries can break in and cause damage from afar. \"It's a totally new paradigm that these tankers are networked in this way,\" the U.S. official said.\nEven so, national security officials have feared something like this might happen for years. A former Navy official who requested anonymity to discuss internal operations tells NPR that \"we had been tracking the possibility to exploit and take control of [operational technology] systems on Navy ships and Merchant [Marine] ships for a long time, and now this is coming to fruition.\"\nWhile the U.S. government is wary of advertising Iranian hacking efforts during the war, officials also want to spread awareness of the vulnerability of internet connected devices, particularly those that are linked to the technology that controls critical processes. \"These are not sophisticated attacks,\" the official said. \"This is a known vulnerability that could be mitigated with some pretty basic cyber hygiene.\"\n\"Modern ships are highly integrated systems. A cyberattack presents significant risks, including the potential for a collision, grounding, oil spill, or even an explosion. The Coast Guard regularly publishes bulletins on cyber vulnerabilities and actions vessel owners and operators can take to secure their networks,\" according to a statement from the Coast Guard.\nAhead of the winter and a busy holiday season for commercial shipping, officials are bracing themselves to investigate any ship entering U.S. ports that could be compromised.\n\"People never think about what a modern blessing electricity is until it goes out. People take the marine transportation system for granted until there's a problem and their stuff doesn't get there by Christmas,\" the U.S. official said. \"I wish more Americans knew how complex this system is.\"",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

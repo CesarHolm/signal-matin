@@ -1,0 +1,64 @@
+{
+ "id": "syn-a96",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a96.json",
+ "limite_caracteres": 3004,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 3004 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : South China Morning Post\nRubrique : Chine\nDate du flux : 24/11/2026\nTitre d'origine : Shanghai Communist Party chief Chen Jining placed under investigation\n\nARTICLE :\nSOURCE 1 (South China Morning Post) :\nShanghai Communist Party chief Chen Jining has been placed under investigation, state broadcaster CCTV reported on Tuesday. Chen, who is also a member of the powerful Politburo, is being investigated by the Central Commission for Discipline Inspection and the National Commission of Supervision for suspected “serious breaches of discipline and law”, often used as a euphemism for corruption. He is the fourth member of the ruling party’s elite decision-making body to be placed under investigation...\n\nSOURCE 2 (CNN) :\nThe Communist Party chief of Shanghai, considered a protege of Chinese leader Xi Jinping, has suddenly been placed under investigation –– marking an escalation of an anti-corruption purge that’s already ensnared a large swath of the country’s top talent.\nChen Jining, 62, who has run China’s largest city and financial center since October 2022, is facing a corruption charge and is suspected of “serious violations of discipline,” state media Xinhua said on Tuesday evening.\nIt is a stunning downfall for Chen, who was seen as a rising political star and even being mentioned among potential heirs to longtime leader Xi by China watchers.\nXi, who is all but certain to assume a precedent-breaking fourth term in office next year, has executed an unrelenting anti-corruption drive for well over a decade that has brought down senior political, military and judicial figures once thought untouchable. The speed and scale of that effort has reached unseen levels in recent months.\nChen becomes the fourth person from the 24-member politburo –– the top echelon of power in China –– to fall since the last party congress in 2022.\nThe investigation is being conducted by China’s main anti-corruption body, the Central Commission for Discipline Inspection (CCDI).\nChen’s last public appearance seems to have been on Thursday, November 19, when he inspected the headquarters of a Chinese shipping conglomerate.\nUnsurprisingly, government platforms in Shanghai have quickly taken down posts mentioning Chen.\nRising star\nTrained as an environmental scientist, the urbane and English-speaking Chen rose through the party ranks in the past two decades. Before moving to Shanghai, he was mayor of Beijing and orchestrated the 2022 Winter Olympics in the capital.\nHis appointment to the top party job in Shanghai marked a quick elevation. The post usually paves the way for further promotion to the Politburo Standing Committee – the pinnacle of the party’s power structure. Both Xi and China’s former leader Jiang Zemin have followed this path.\nPrior to his Beijing mayoralty, Chen spent over a decade at the Ministry of Environment and Ecology. He also served as the president of Tsinghua University in Beijing, one of China’s most prestigious academic institutions.\nAfter earning a master’s degree in civil and environmental engineering from Tsinghua in the 1980s, Chen went on to study at London’s Imperial College, where he earned a doctorate.\nIntensifying purge\nJust in the past two months, Xi’s clampdown on top officials brought the downfall of Beijing’s deputy mayor and a retired former mayor of Chongqing who had withstood several prior political storms.\nThe party’s top military decision-making body, the usually seven-member Central Military Commission, is now down to only two members with one of those being Xi himself.\nSince Xi, 73, came to power over 14 years ago, millions of rank-and-file officials have also been caught in his dragnet.\nBetween 2012 and 2022, over 500 ministerial-level officials were convicted, removed from their posts, and expelled from the party for corruption, according to official data from the CCDI – with more than 410 officials purged in the last three years alone.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

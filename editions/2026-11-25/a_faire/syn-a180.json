@@ -1,0 +1,64 @@
+{
+ "id": "syn-a180",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a180.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : ici.fr\nRubrique : CSRD et CSDDD\nDate du flux : 24/11/2026\nAuteur : Emma Dehoey; AFP\nTitre d'origine : MBDA, le fabricant de missiles à Bourges assigné en justice pour ses liens avec des bombardements à Gaza\n\nARTICLE :\nSOURCE 1 (ici.fr) :\nPublié le\nMBDA, l'entreprise qui fabrique des missiles à Bourges est assigné en justice pour des manquements à son \"devoir de vigilance\". Trois associations et une société actionnaire d’Airbus l’accusent d’avoir fourni des composants des bombes employées par l’armée israélienne dans la bande de Gaza.\nLe fabricant français de missiles MBDA, qui possède un site industriel à Bourges, dans le Cher, est **assigné en justice pour des manquements présumés à son *\"devoir de vigilance\". ***La procédure a été engagée le 2 novembre devant le tribunal judiciaire de Paris par trois associations et la société Cogeres, actionnaire d’Airbus, a appris l'AFP auprès des associations en question. Ces dernières estiment que le groupe était censé anticiper les risques liés à l'utilisation de composants fournis à Boeing et susceptibles d'être employés dans des bombardements à Gaza.\nDes pièces destinées à des bombes\nLes associations pointent la fourniture de voilures déployables, commercialisées sous le nom de DiamondBlack, au constructeur américain Boeing par MBDA. Selon elles, ces voilures équipent les bombes GBU-39, utilisées par l'armée de l'Air israélienne. Les plaignants reprochent notamment à MBDA de ne pas avoir suffisamment pris en compte le risque que ces pièces contribuent à des violations du droit international humanitaire.\nUne enquête avait déjà mis en cause le groupe\nEn juillet 2025, une enquête menée par plusieurs médias (Disclose, The Guardian et Follow The Money) avait révélé la présence de composants fabriqués par MBDA dans des bombes larguées sur Gaza. Selon cette enquête, au moins 24 frappes aériennes entre novembre 2023 et mai 2025 avaient causé la mort de plus de 500 personnes, dont plus d'une centaine d'enfants. Des écoles, des camps et une mosquée figuraient parmi les lieux visés.\nMBDA conteste l'étendue de son devoir de vigilance\nDans sa réponse à une mise en demeure qui date du mois d'avril, MBDA estime que son devoir de vigilance concernait uniquement sa chaîne de valeur en amont, et non l'utilisation de ses produits par ses clients. Le groupe n'a pas pu être joint pour réagir à cette assignation ce lundi soir par nos confrères de l'AFP. Le dossier doit être examiné par la 34e chambre civile du tribunal judiciaire de Paris, spécialisée dans les questions de devoir de vigilance.\nVous avez apprécié cet article ? Partagez‑le\nGrande consultation « Ma commune, mon maire et moi »\nVOTRE AVIS - En vue de l’élection présidentielle de 2027, ICI lance un grand cycle de consultations et propose tous les mois un questionnaire thématique afin de connaître les attentes des citoyens pour le ou la futur(e) président(e) de la République.\n- La ministre des Armées Catherine Vautrin est en déplacement à Bourges ce mardi 4 novembre. Elle s'est rendue dans l'usine de production de missiles MBDA, l'une des plus importantes du secteur de la défense.\n- Comme chaque samedi bientôt deux ans, des manifestants se sont réunis à Bourges pour \"réclamer une paix juste et durable au Proche-Orient\". Ce samedi, ils étaient une cinquantaine à participer.\n- MBDA, KNDS, Safran... Le Cher se revendique à juste titre \"capitale régionale de l'industrie de la défense\" en Centre-Val de Loire, avec 5.000 salariés. Plus largement, le Cher est une place forte de la défense française, mise à l'honneur ce vendredi avec la venue de François Bayrou.\n- La mise en place d'une trêve entre Israël et le Hamas est synonyme d'espoir dans la région du Proche-Orient, marquée par le conflit depuis plus d'un an. L'association berruyère Médina accompagne la population civile dans la bande de Gaza.\n\nSOURCE 2 (Boursorama) :\nMBDA assigné en justice pour défaut de \"vigilance\" quant à Gaza information fournie par Boursorama avec AFP 24/11/2026 à 09:13\nLe fabricant français de missiles MBDA est assigné en justice pour des manquements à son \"devoir de vigilance\", accusé d'avoir fourni des pièces ayant servi à bombarder Gaza, a-t-on appris lundi auprès des associations ayant lancé la procédure.\nL'assignation, révélée par le média La Lettre, a été envoyée le 2 novembre, en vue d'un procès devant la 34e chambre civile du tribunal judiciaire de Paris.\nL'action est intentée par les associations Action sécurité éthique républicaines (Aser), Juristes pour le respect du droit international (Jurdi) et Association France-Palestine solidarité (AFPS), ainsi que par la société Conseil gestion & résilience (Cogeres), actionnaire d'Airbus, lui-même actionnaire de MBDA à hauteur de 37,5 %.\nCelles-ci reprochent à MBDA d'avoir fourni des voilures déployables (sous le nom commercial DiamondBlack) à l'américain Boeing, le fabricant de la bombe de modèle GBU-39, \"massivement employée par l'armée de l'Air israélienne\".\nElles dénoncent la négligence du \"risque\" que la filiale américaine (MBDA Inc.), en vendant ce produit à Boeing, \"contribue à des atteintes graves au droit international humanitaire et au droit international des droits de l'Homme\".\nEn juillet 2025, une enquête des médias Disclose, The Guardian et Follow The Money avait montré que \"des composants fabriqués par le groupe MBDA équipent des bombes larguées sur des civils dans la bande de Gaza\".\nL'enquête dénonçait \"au moins 24 frappes\" aériennes, entre novembre 2023 et mai 2025, ayant \"causé la mort de plus de 500 personnes, dont plus d'une centaine d'enfants\", en visant des écoles, des camps et une mosquée.\nAucun porte-parole de MBDA n'était joignable lundi.\nMBDA, révèle l'assignation, a répondu en avril à une mise en demeure que son devoir de vigilance se limitait \"à sa chaîne de valeur amont\", et non à l'utilisation de ses produits par ses clients.\nLa 34e chambre civile (\"chambre de la régulation sociale, économique et environnementale\"), spécialisée dans le devoir de vigilance, a condamné en juin TotalEnergies à compléter son plan de réduction des émissions de gaz à effet de serre, pour y inclure celles indirectement générées.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

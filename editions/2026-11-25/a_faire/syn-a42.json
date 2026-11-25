@@ -1,0 +1,64 @@
+{
+ "id": "syn-a42",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a42.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : franceinfo\nRubrique : France\nDate du flux : 24/11/2026\nAuteur : Article rédigé par franceinfo France Télévisions\nTitre d'origine : Nicolas Sarkozy, Carla Bruni, Mimi Marchand… Qui sont les principaux protagonistes de l'affaire de la fausse rétractation de Ziad Takieddine ?\n\nARTICLE :\nNicolas Sarkozy, Carla Bruni, Mimi Marchand… Qui sont les principaux protagonistes de l'affaire de la fausse rétractation de Ziad Takieddine ?\nOnze personnes sont renvoyées devant le tribunal correctionnel pour leur implication dans l'opération \"Sauver Sarko\". L'ancien chef de l'Etat et son épouse sont poursuivis pour \"association de malfaiteurs en vue de commettre une escroquerie en bande organisée\" et \"recel de subornation de témoin\".\nNouveau procès en vue pour Nicolas Sarkozy, cette fois dans l'affaire de la fausse rétractation de l'intermédiaire Ziad Takieddine. Le parquet national financier (PNF) a décidé de renvoyer l'ancien président devant le tribunal correctionnel pour \"association de malfaiteurs en vue de préparer une escroquerie en bande organisée\", ainsi que \"recel de subornation de témoin\", a appris France Télévisions de source proche du dossier, mardi 24 novembre, confirmant une information de RTL. Le procès doit se tenir en novembre 2027, a précisé le PNF dans un communiqué.\nL'ancien chef de l'Etat ne sera pas le seul à retrouver le chemin des tribunaux. Son épouse, Carla Bruni, est aussi renvoyée pour les mêmes motifs, ainsi que Michèle Marchand, dite \"Mimi\", une proche du couple, et l'homme d'affaires David Layani. Tous sont soupçonnés d'avoir voulu tromper la justice en utilisant des moyens frauduleux pour innocenter Nicolas Sarkozy dans le dossier du financement libyen de la campagne présidentielle de 2007, sur lequel la cour d'appel de Paris doit – hasard du calendrier – rendre son arrêt le 30 novembre. Franceinfo revient sur les principaux protagonistes de cette affaire.\nZiad Takieddine\nLe sulfureux intermédiaire franco-libanais, mort en septembre 2025, a été à l'origine des accusations de financement libyen de la campagne de 2007 de Nicolas Sarkozy. C'est notamment lors d'un interrogatoire, fin 2012, dans le cadre du volet financier de l'affaire Karachi – dans laquelle il a été condamné en appel à cinq ans de prison ferme –, qu'il a évoqué le financement de la campagne de l'ancien président, à hauteur de 50 millions d'euros, par le régime du colonel Kadhafi. Selon cet homme d'affaires, les versements par son entremise ont commencé fin 2006, pour atteindre 5 millions d'euros début 2007.\nUne version qu'il a maintenue pendant huit ans, jusqu'à un jour de novembre 2020 où, contre toute attente, il est revenu sur son témoignage. Dans un entretien à BFMTV et Paris Match, ainsi qu'avec un photographe de Bestimage, l’agence de presse de Mimi Marchand, il dédouanait Nicolas Sarkozy dans ce dossier. Avant, deux mois plus tard, de revenir à son témoignage initial, assurant s'être vu proposer \"des millions d'euros\" en échange de cette opération de sauvetage avortée de Nicolas Sarkozy.\nNicolas Sarkozy\nLe PNF a demandé le renvoi de l'ancien président pour \"association de malfaiteurs en vue de préparer des escroqueries en bande organisée\" et \"recel de subornation\", dans cette affaire appelée \"Sauver Sarko\" par les enquêteurs. Lors de son interrogatoire en octobre 2023 devant deux juges d'instruction, Nicolas Sarkozy s'est présenté comme impliqué à tort dans cette affaire à cause d'une \"petite bande\" de \"pieds nickelés\" avides d'argent. Il n'était, a-t-il affirmé, pas \"organisateur\", \"bénéficiaire\", \"valideur\" ou même \"au courant\". Nicolas Sarkozy a constamment vilipendé Ziad Takieddine, le qualifiant de \"grand manipulateur\".\nCarla Bruni-Sarkozy\nDans cette affaire, Carla Bruni-Sarkozy est poursuivie pour les mêmes motifs que son mari : \"association de malfaiteurs en vue de préparer des escroqueries en bande organisée\" et \"recel de subornation\". Elle a été mise en examen en juillet 2024 pour ces deux chefs d'accusation, dans le cadre de cette enquête principalement basée sur des écoutes téléphoniques. Le couple s'estime victime des manœuvres de Mimi Marchand, la papesse de la presse people en France.\nCarla Bruni est soupçonnée d'avoir demandé, fin 2019, une ligne téléphonique occulte, qui aurait servi à échanger avec Mimi Marchand sur le déroulement de l'opération Takieddine. Après l'avoir contesté, l'ex-mannequin a finalement reconnu à l'été 2024 posséder le téléphone au cœur de l'enquête, selon une source proche du dossier. Elle a expliqué avoir \"utilisé ce téléphone par ellipse\", tout en continuant à contester être l'autrice et la destinataire des SMS échangés avec Mimi Marchand.\nMimi Marchand\nMichèle Marchand devra répondre de \"subornation\", \"association de malfaiteurs en vue de commettre des escroqueries en bande organisée\" et \"association de malfaiteurs en vue de préparer des faits de corruption de personnels judiciaires étrangers\". Dirigeante de l'agence photo Bestimage, communicante pour des stars comme des politiques, cette proche de Brigitte Macron était une femme de l'ombre avant ses péripéties judiciaires.\nMimi Marchand, 79 ans, s'est rendue à Beyrouth à la mi-octobre 2020 pour la fameuse interview de Ziad Takieddine à BFMTV et Paris Match. Le magazine était alors la propriété du groupe Lagardère, dont Nicolas Sarkozy était membre du conseil d'administration.\nLes magistrats ont ordonné sa mise en examen et son placement sous contrôle judiciaire en 2021. \"Elle conteste fermement les faits reprochés\", avait affirmé son avocate, Caroline Toby, au moment de sa garde à vue. Mimi Marchand dit avoir agi \"en qualité de journaliste qui a eu l'exclusivité de cette interview de M. Takieddine\", a assuré son conseil, ajoutant qu'\"elle n'a fait qu'organiser les photos et l'interview, dans le périmètre de son métier\".\nDavid Layani\nLe PNF a également requis le renvoi de l'homme d'affaires David Layani pour \"complicité de subornation\" et \"association de malfaiteurs en vue de préparer des escroqueries en bande organisée\". Le patron de Onepoint, société spécialisée dans la transformation numérique, est soupçonné d'avoir joué un rôle dans l'opération avec Noël Dubus.\nLes enquêteurs soupçonnent l'entrepreneur d'avoir effectué des versements à la société de Mimi Marchand pour des prestations de relations publiques qui n'ont jamais eu lieu. David Layani, via son avocat Mathias Chichportich, a démenti toute implication dans cette affaire. Il a aussi expliqué avoir signé une convention avec Bestimage en 2020, avec des prestations \"parfaitement listées\", mais que son exécution a été \"différée\" sur fond de crise sanitaire.\nNoël Dubus\nIl est soupçonné d'être l'homme-orchestre de l'opération. Ancien employé des postes au passé judiciaire chargé (il a été condamné à douze reprises depuis 1996, comptabilisait Marianne en 2021), Noël Dubus est poursuivi pour \"subornation\", \"association de malfaiteurs en vue de préparer des escroqueries en bande organisée\" et \"association de malfaiteurs en vue de préparer des faits de corruption de personnels judiciaires étrangers\".\nIl s'est rendu à deux reprises à Beyrouth pour y rencontrer Ziad Takieddine avant sa rétractation. Etait-il alors prévu que ce dernier opère un revirement dans l’affaire libyenne, pour innocenter Nicolas Sarkozy ? \"Non, ce n’était pas le but\", assurait en mai 2022 Noël Dubus à franceinfo. L'enquête sur ces soupçons de subornation de témoin a mis au jour une possible tentative de corruption de magistrats libanais visant à faire libérer l'un des fils de Mouammar Kadhafi, Hannibal, détenu au Liban, et d'obtenir l'incarcération de Ziad Takieddine.\n- Nicolas Sarkozy et Carla Bruni renvoyés en procès dans l'affaire de la fausse rétractation de Ziad Takieddine, notamment pour association de malfaiteurs\n- Expulsés fin octobre, Patrick et Isabelle Balkany vont finalement pouvoir réintégrer leur moulin de Giverny, après un accord avec l'Etat\n- Patrick et Isabelle Balkany expulsés de leur moulin de Giverny, dans l'Eure, deux ans après leur condamnation définitive pour blanchiment de fraude fiscale\n- Patrick et Isabelle Balkany expulsés de leur moulin de Giverny, dans l'Eure\n- Affaire Alexis Kohler : le parquet requiert un non-lieu en faveur de l'ex-secrétaire général de l'Elysée, mis en examen pour prise illégale d'intérêts",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

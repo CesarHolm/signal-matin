@@ -1,0 +1,64 @@
+{
+ "id": "syn-a29",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a29.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Ars Technica\nRubrique : IA\nDate du flux : 24/11/2026\nAuteur : Dan Goodin\nTitre d'origine : Amazon says hackers' AI agents found and exploited 0-day with little human input\n\nARTICLE :\nSOURCE 1 (Ars Technica) :\nAmazon said AI agents recently found and exploited a zero-day vulnerability with no human oversight beyond a simple instruction to get root access on an East Asian university server.\nThe agents were running on Cairn, an open source AI penetration-testing framework. The hackers, who provided prompts in simplified Chinese and configured the model to the Chinese Standard Time zone, gave the agents a list of IP addresses and the goal: “obtain shell access.” In short order, the agents discovered a zero-day in an open source medical imaging AI application running on one of the target servers. The agents then exploited the vulnerability and gained full control of the system.\n“These findings show that agentic offensive operations are already happening, and defenders should prepare for the speed and persistence these tools enable,” Amazon said.\nMade for defenders, but attackers like it too\nCairn is an open source AI problem-solving engine whose first validated domain is autonomous penetration testing. Users give it a task or goal and, optionally, hints for achieving it. A server maintains a shared graph containing facts and hints. A dispatcher reads the graph, schedules tasks, manages containers, and writes the protocol. The dispatcher can then assign each project to a dedicated worker container, each of which runs multiple agents concurrently. Cairn is model-agnostic and can be used on worker back ends, including Claude Code, Codex, and Pi. Researchers from security firm Palo Alto Networks have also observed Cairn being used with GLM 5.2, DeepSeek V4 Flash, and DeepSeek V4 Pro.\nAlthough Cairn was built for defenders, the framework is also benefiting offensive hackers. Earlier this month, Palo Alto Networks said hackers used the framework to target organizations in the semiconductor, defense, and civil society sectors. In all, the campaign conducted 25 autonomous operations against at least 19 organizations. At least 10 of the organizations were successfully breached when Cairn agents performed actions that:\n\nSOURCE 2 (Crypto Briefing) :\nA China-nexus actor reportedly pointed open source Cairn agents at university servers, and they broke into a medical imaging tool in about 11 minutes\nFor years, the scariest hacking scenario involving AI was mostly hypothetical. A team of models gets a target, a goal, and nothing else, then figures out the rest on its own.\nAccording to Amazon, that scenario now has a case file.\nAmazon Threat Intelligence released a report on November 20, 2026, describing an operation in which autonomous AI agents discovered and exploited a previously unknown vulnerability. The human operators did very little. They supplied a list of IP addresses and a one-line objective: “obtain shell access.”\nThe agents handled the reconnaissance, the bug hunting, and the break-in. The victim was a server at a university in East Asia.\nHow the attack unfolded\nThe agents ran on Cairn, an open source framework built for AI-driven penetration testing. Penetration testing is the legitimate practice of hiring someone to attack your own systems so you can find weaknesses before criminals do. Cairn automates that work with AI agents.\nIn this case, the tool was pointed outward rather than inward.\nAmazon attributes the activity to a China-nexus threat actor. That assessment rests on two clues: the operators wrote their prompts in Simplified Chinese, and they set the model to China Standard Time. Those are suggestive signals rather than a signed confession, which is why Amazon frames it as a nexus and not a confirmed state operation.\nThe campaign ran from September 8 to 10, 2026. It went after university servers across East Asia, outside mainland China.\nOn one of those servers, the agents found MONAI Label, an open source AI application used for medical imaging. They mapped the application and zeroed in on a flaw in how an upload endpoint handled its filename parameter.\nThat flaw let them write arbitrary files to the server. The agents reached that point in approximately 11 minutes.\nThe news moving money, markets, and the world—before your day starts.\nDaily. Free. Join 34,000+ readers across crypto, finance, and policy.\nFrom there, they deployed a Python reverse shell payload and obtained a root shell. A reverse shell makes the compromised machine call out to the attacker, handing over a command line. Root is the highest privilege level on the system. Put together, the attackers had full control of the box.\nA genuine zero-day, now with a CVE\nThe word “zero-day” gets thrown around loosely, but it fits here. There were no advisories or patches for the MONAI Label flaw before November 18, 2026. The defenders had zero days of warning.\nAmazon alerted the MONAI Label maintainers, who published a critical GitHub Security Advisory on November 18. The vulnerability was assigned CVE-2026-133968 and carries a CVSS score of 9.8.\nCVSS is the industry’s standard severity scale, topping out at 10. A 9.8 is about as close to the ceiling as bugs get without a siren attached.\nThe US Cybersecurity and Infrastructure Security Agency, known as CISA, later added the flaw to its Known Exploited Vulnerabilities catalog. That list exists to flag bugs that attackers are actively using in the wild, not just ones that look bad on paper.\nAmazon spotted the operation on September 10, 2026, through a Cairn server that had been left publicly exposed.\nThe agents were not unstoppable\nThe report is not a story of flawless machine conquest. The same campaign hit a wall when it met better-defended systems.\nAgainst hardened targets, including Redis databases, the agents struggled badly. They spent over 16 hours trying to get in without success. They burned through tens of thousands of credential attempts and still came up empty.\nThat contrast matters. The agents excelled at spotting a novel coding flaw in a niche application. They were far less effective against systems that had been properly configured and secured.\nWhere Cairn came from\nCairn is not an obscure underground tool. It drew notable attention in 2026 after performing well in a Tencent Cloud hackathon focused on AI penetration testing.\nOpen source security tools have always carried this tension. What changes with AI agents is the skill floor. The operators here did not need to hand-craft an exploit for an unknown bug. They needed a target list and a sentence.\nWhat this means for defenders and the security industry\nThe most immediate takeaway is for anyone running MONAI Label. With a critical advisory published and the flaw on CISA’s exploited list, patching is no longer optional. Medical imaging software tends to sit in research hospitals and universities, environments that often juggle sensitive data and stretched IT teams.\nThe bigger shift is about speed. A window of approximately 11 minutes, from mapping an application to arbitrary file write, compresses the timeline defenders are used to.\nThe failed attempts offer a quieter but equally important lesson. The agents stalled for over 16 hours against hardened systems. Basic security practices, like strong credentials and locked-down configurations, still blunted an AI-driven campaign.\nThe bigger exposure is the long tail of open source software. Specialized tools like MONAI Label often get less security scrutiny than major platforms. If agents can cheaply comb through that long tail for bugs, small projects with small maintainer teams become far more attractive targets.\nDisclosure: This article was edited by John Chen. For more information on how we create and review content, see our Editorial Policy.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

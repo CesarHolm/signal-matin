@@ -1,0 +1,64 @@
+{
+ "id": "syn-a47",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a47.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : franceinfo\nRubrique : France\nDate du flux : 24/11/2026\nAuteur : Franceinfo Avec Afp\nTitre d'origine : L'usine Stellantis de Sochaux arrête l'activité de son équipe de nuit à partir de janvier 2027, 500 emplois sont concernés\n\nARTICLE :\nSOURCE 1 (franceinfo) :\nL'usine Stellantis de Sochaux arrête l'activité de son équipe de nuit à partir de janvier 2027, 500 emplois sont concernés\n\"Chaque salarié de nuit sera reçu par sa hiérarchie d'ici à la fin du mois de novembre\", précise l'entreprise dans son communiqué. Les syndicats estiment que les intérimaires sont \"sacrifiés\" par cette décision.\nUn coup dur pour l'industrie automobile. L'usine Stellantis de Sochaux (Doubs), berceau de la marque Peugeot, va arrêter l'activité de son équipe de nuit à partir du mois de janvier, a annoncé la direction du site aux représentants du personnel, mardi 24 novembre. \"Dans le contexte économique actuel et considérant l'état prévisionnel des marchés, nous adaptons notre organisation\", a précisé la direction dans un communiqué.\nL'usine s'appuiera désormais seulement sur deux équipes complètes en journée. Elle produira 850 véhicules par jour, contre 1 050 actuellement. \"Cela reste une activité soutenue\", a relevé pour l'AFP une porte-parole de l'usine. Le contexte est difficile pour les constructeurs automobiles, qui font face à une concurrence \"agressive\", a-t-elle ajouté. L'équipe de nuit avait été mise en place en novembre 2024, lors du lancement des nouveaux véhicules Peugeot 3008 et 5008, dont le prix de vente est de plus de 40 000 euros.\n\"Tout un territoire qui vacille\"\nCinq cents personnes sont concernées par cet arrêt d'activité nocturne. \"Chaque salarié de nuit sera reçu par sa hiérarchie d'ici à la fin du mois de novembre\", précise l'entreprise dans son communiqué. \"Les personnes en contrat d'intérim iront au terme de leur mission dans les conditions habituelles qui sont définies dans leur contrat\", détaille-t-elle. Le syndicat Force ouvrière (FO) estime que les intérimaires sont \"sacrifiés\". \"Ce sont 500 familles qui restent sur le carreau\", a déploré le syndicat.\n\"Cette fois, ce n'est plus un problème d'approvisionnement\", s'est emporté Jean-Luc Ternet, de la CFTC, inquiet des conséquences économiques de cette baisse d'activité. \"Quand l'industrie recule, c'est tout un territoire qui vacille\", a-t-il averti. La CFE-CGC a dénoncé de son côté \"une décision brutale\", qui vient \"fragiliser un site pourtant reconnu pour sa capacité de production et la qualité de son outil industriel\". L'usine a également annoncé l'annulation de séances de production. Les vacances de Noël seront notamment allongées et devraient durer deux semaines et demie. L'usine Stellantis de Sochaux compte 3 000 collaborateurs en production, sur un total de 5 500 salariés.\n\nSOURCE 2 (Franceinfo) :\nL'usine Stellantis de Sochaux arrête l'activité de son équipe de nuit à partir de janvier 2027, 500 emplois sont concernés\n\"Chaque salarié de nuit sera reçu par sa hiérarchie d'ici à la fin du mois de novembre\", précise l'entreprise dans son communiqué. Les syndicats estiment que les intérimaires sont \"sacrifiés\" par cette décision.\nUn coup dur pour l'industrie automobile. L'usine Stellantis de Sochaux (Doubs), berceau de la marque Peugeot, va arrêter l'activité de son équipe de nuit à partir du mois de janvier, a annoncé la direction du site aux représentants du personnel, mardi 24 novembre. \"Dans le contexte économique actuel et considérant l'état prévisionnel des marchés, nous adaptons notre organisation\", a précisé la direction dans un communiqué.\nL'usine s'appuiera désormais seulement sur deux équipes complètes en journée. Elle produira 850 véhicules par jour, contre 1 050 actuellement. \"Cela reste une activité soutenue\", a relevé pour l'AFP une porte-parole de l'usine. Le contexte est difficile pour les constructeurs automobiles, qui font face à une concurrence \"agressive\", a-t-elle ajouté. L'équipe de nuit avait été mise en place en novembre 2024, lors du lancement des nouveaux véhicules Peugeot 3008 et 5008, dont le prix de vente est de plus de 40 000 euros.\n\"Tout un territoire qui vacille\"\nCinq cents personnes sont concernées par cet arrêt d'activité nocturne. \"Chaque salarié de nuit sera reçu par sa hiérarchie d'ici à la fin du mois de novembre\", précise l'entreprise dans son communiqué. \"Les personnes en contrat d'intérim iront au terme de leur mission dans les conditions habituelles qui sont définies dans leur contrat\", détaille-t-elle. Le syndicat Force ouvrière (FO) estime que les intérimaires sont \"sacrifiés\". \"Ce sont 500 familles qui restent sur le carreau\", a déploré le syndicat.\n\"Cette fois, ce n'est plus un problème d'approvisionnement\", s'est emporté Jean-Luc Ternet, de la CFTC, inquiet des conséquences économiques de cette baisse d'activité. \"Quand l'industrie recule, c'est tout un territoire qui vacille\", a-t-il averti. La CFE-CGC a dénoncé de son côté \"une décision brutale\", qui vient \"fragiliser un site pourtant reconnu pour sa capacité de production et la qualité de son outil industriel\". L'usine a également annoncé l'annulation de séances de production. Les vacances de Noël seront notamment allongées et devraient durer deux semaines et demie. L'usine Stellantis de Sochaux compte 3 000 collaborateurs en production, sur un total de 5 500 salariés.\n\nSOURCE 3 (TradingView) :\nStellantis stoppe l'équipe de nuit à Sochaux, 500 emplois concernés\nL'usine Stellantis de Sochaux (Doubs), berceau de la marque Peugeot, va arrêter l'activité de son équipe de nuit à partir du mois de janvier, privant de travail quelque 500 personnes, a annoncé la direction du site mardi aux représentants du personnel.\n\"Dans le contexte économique actuel et considérant l'état prévisionnel des marchés, nous adaptons notre organisation\", a précisé la direction dans un communiqué.\nL'usine s'appuiera désormais seulement sur deux équipes complètes en journée. Elle produira 850 véhicules par jour, contre 1.050 actuellement.\n\"Cela reste une activité soutenue\", a relevé pour l'AFP une porte-parole de l'usine. Le contexte est difficile pour les constructeurs automobiles, qui font face à une concurrence \"agressive\", a-t-elle ajouté.\nL'équipe de nuit avait été mise en place en novembre 2024, lors du lancement des nouveaux véhicules Peugeot 3008 et 5008, dont le prix de vente est de plus de 40.000 euros.\nCinq cents personnes sont concernées par cet arrêt d'activité nocturne. \"Chaque salarié de nuit sera reçu par sa hiérarchie d'ici à la fin du mois de novembre\", précise l'entreprise dans son communiqué. \"Les personnes en contrat d'intérim iront au terme de leur mission dans les conditions habituelles qui sont définies dans leur contrat\", détaille-t-elle.\nLe syndicat Force ouvrière (FO) estime que les intérimaires sont \"sacrifiés\". \"Ce sont 500 familles qui restent sur le carreau\", a déploré le syndicat.\n\"Cette fois, ce n'est plus un problème d'approvisionnement\", s'est emporté Jean-Luc Ternet, de la CFTC, inquiet des conséquences économiques de cette baisse d'activité. \"Quand l'industrie recule, c'est tout un territoire qui vacille\", a-t-il averti.\nLa CFE-CGC a dénoncé de son côté \"une décision brutale\", qui vient \"fragiliser un site pourtant reconnu pour sa capacité de production et la qualité de son outil industriel\".\nL'usine a également annoncé l'annulation de séances de production. Les vacances de Noël seront notamment allongées et devraient durer deux semaines et demie.\nL'usine Stellantis de Sochaux compte 3.000 collaborateurs en production, sur un total de 5.500 salariés.\nFin octobre, Stellantis avait publié une perte nette de 453 millions d'euros pour le troisième trimestre, contre une perte de 4,5 milliards sur la même période un an plus tôt, lestée par de lourdes charges exceptionnelles. La maison mère de Peugeot, Fiat et Chrysler avait fait état d'une \"amélioration de tous les indicateurs financiers\".",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a5",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a5.json",
+ "limite_caracteres": 2676,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 2676 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 24/11/2026\nAuteur : Matthias Bastian\nTitre d'origine : Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents\n\nARTICLE :\nAnthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents\nAnthropic reports more than 700 million monthly downloads for its MCP standard two years after launch. New features such as background tasks, follow-up questions for users, and file uploads are designed to let Claude work more independently.\nThe company says the standard now tops 700 million monthly downloads of its developer tools (SDK) and more than 10,000 MCP connectors for Claude. Anthropic is expanding the protocol so AI agents can communicate with each other and coordinate workflows more smoothly.\n\"Tasks\" and \"Elicitation\" rank among the biggest additions, reaching general availability after a public test in October. With Tasks, a server can run a longer job in the background and report back only when the result is ready. Elicitation lets a running process pause and ask the user for specific missing details. Both features are meant to let MCP servers operate more independently.\nAI agents could soon pass files directly to external services\nSkills over MCP is also new and in public beta for now. The feature lets servers pair their tools with skills that guide Claude through long, multistep tasks. Anthropic says these skills cover best practices, step-by-step workflows, and instructions tailored to a specific user account or organization.\nThe company also announced that file upload support is coming soon. Once it ships, Claude will be able to pass files such as PDFs, spreadsheets, and images directly to MCP servers. Anthropic plans to roll the feature out shortly in Claude and Claude Code for Pro, Max, and Ultra subscribers, and for eligible Team and Enterprise customers.\nTechnical changes lay the groundwork for larger MCP deployments\nThese new agent features build on several technical changes Anthropic made over the past year. To cut memory demands during active conversations, Tool Search waits to load individual tool descriptions until they're needed. Anthropic says this can reduce context usage by more than 85 percent in multi-server setups.\nThe current MCP specification is stateless, meaning it doesn't have to store session data permanently. It works across all Claude products. The goal is to make servers easier for developers to build and more reliable to run as usage grows.\nAnthropic has also rolled out Enterprise Managed Auth for business customers. Admins can approve supported servers once so employees connect automatically. MCP Apps lets developers embed full user interfaces inside Claude, either beside the active chat or in full-screen mode.\nIn November 2024, Anthropic introduced the Model Context Protocol as an open standard that gives AI assistants uniform access to business tools, development environments, and other data sources. OpenAI CEO Sam Altman announced in March 2025 that his company would adopt its rival's standard across its own products. In May 2025, OpenAI upgraded its Responses API with remote MCP servers. Researchers at the Shanghai Artificial Intelligence Laboratory used MCP as a model for the Science Context Protocol (SCP), introduced in January 2026.\nTHE DECODER+\nAI News Without the Hype – Curated by Humans\n- Every Plus article and the full archive\n- No ad banners\n- Frontier Radar: 6 deep dives a year\nWhat is included\nAlready a subscriber? Sign in",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

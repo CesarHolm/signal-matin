@@ -1,0 +1,64 @@
+{
+ "id": "syn-a27",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a27.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Ars Technica\nRubrique : IA\nDate du flux : 24/11/2026\nAuteur : Ryan Whitwam\nTitre d'origine : Tidal announces ban on AI-generated music; 27 million tracks will be deleted\n\nARTICLE :\nSOURCE 1 (Ars Technica) :\nMost streaming music providers have opted to label AI-generated content on their platforms, and until now, Tidal was one of them. However, the company is about to take a harder stance. Tidal announced that in the coming weeks, it will fully ban AI music because of the harm it does to human artists.\nTidal debuted its initial AI policy in July 2026, which included labeling and demonetizing all songs created entirely with AI. That wasn’t enough to stem the tide of AI slop, though. Over the past 90 days, Tidal reports that 43 percent of new uploads were completely AI-generated. On November 6, new uploads to Tidal hit a whopping 60 percent AI-generated.\nAs things stand, Tidal hosts 27 million tracks labeled as AI, all of which were obviously added in the past couple of years. That accounts for 6.3 percent of Tidal’s total catalog. On December 9, Tidal will delete all those songs. The streamer notes this will have essentially no negative impact, because 96 percent of AI-labeled tracks got zero plays in the past 90 days. Throughout its announcement, Tidal is careful to stipulate that it’s only talking about music that has been fully created by AI. Artists can still use AI tools as long as the final product contains human elements.\nSome people don’t particularly mind AI music, but the team at Tidal has come to believe the harm to artists is too great. AI models can pump out random noises faster than humans can create things of real value, which can mislead listeners and siphon royalty payments away from creators. There’s also an issue with AI uploaders who are actively attempting to steal royalty payments. Tidal says it has already removed about 66,000 tracks from its service for impersonating artists, which was against its AI policy even before this update.\n\nSOURCE 2 (TechCrunch) :\nMusic streaming service Tidal said on Tuesday that it will start banning and removing songs generated fully with AI in a bid to stem the flood of submissions to its platform. The company said that over the past 90 days, more than 43% of tracks uploaded to its platform were generated by AI, and that was a major reason driving this decision.\nTidal said it will start removing fully AI-generated music on December 9, and the process will result in more than 29 million songs being deleted from the platform by the end of the year. With the new rules in place, the platform said it will be rejecting roughly 80,000-85,000 tracks per day.\nTidal is also banning distribution services from delivering 100% AI-generated tracks, and will reject submissions if songs’ metadata says they are made fully using AI.\nThe company said it will still accept songs that were made with AI assistance, but not fully generated.\nThe move comes as AI-generated music inundates streaming services across the board. Tidal is one of the first major platforms after Bandcamp to ban AI music outright. Deezer, which also provides detection tools to other streaming services, said that it will introduce a toggle to let users filter out AI music. Larger platforms like Spotify and YouTube Music have adopted a milder approach to this issue, choosing to label AI-generated music instead of offering filters or taking stronger measures.\nTidal started de-monetizing songs made using AI in June, but that did not prove enough of a deterrent, Tidal Music’s lead, Robert Anderson, said on X.\nThe company said that 27 million, or 6.3% of tracks on the platform, are fully AI-generated, but 96% of those have no streams.\n“It’s true that not all songs catch on immediately, and artists should have time to build their fanbases. But this situation is different – at this scale, the authentic music and artists that Tidal subscribers are looking to listen to and discover get buried,” the company said in a post.\nMeanwhile, music labels are trying to make money by partnering with platforms and AI model makers to sell their catalog for training or remixing features. Goldman Sachs estimates that by 2035, AI-related licensing tools and new monetization opportunities have the potential to improve record labels’ revenue by 10%.\n\nSOURCE 3 (Revolt TV) :\nKey Takeaways\n- TIDAL says 43% of tracks submitted over the past 90 days were identified as AI-generated.\n- The ban also includes \"fraudulent\" AI songs made to impersonate existing artists, over 65,000 of which have already been removed from the platform.\n- Musicians who use AI as a creative tool can still distribute their work under its updated guidelines.\nMaking music and getting people to actually listen to it are two different things, especially in the age of artificial intelligence (AI).\nOn Tuesday (Nov. 24), TIDAL announced that it will begin removing music created entirely by AI on Dec. 9. The decision builds on measures introduced back in June to protect artists’ earnings and prevent their work from getting lost among millions of computer-generated recordings.\nRobert Anderson, who leads TIDAL at its parent company, Block, explained the reasoning behind the move in a series of posts on X. He began, \"43% of tracks distributed to us in the last 90 days have been detected as AI-generated. Something more drastic needs to be done.\" The executive continued, “On Dec. 9, we’ll begin removing all wholly AI-generated tracks from our catalog, and you’ll see them completely gone by the beginning of the year. This will result in the deletion of 29 million songs, and the estimated rejection of 80-85,000 songs per day.”\nAnderson also pointed to the lack of listener interest, revealing that 96% of AI-generated songs receive no plays. “We are the first DSP to do so, and we encourage our peers to follow suit,” he added. “@Tidal will continue to make decisions that support real artists first.”\nWhat does TIDAL’s AI-generated music ban mean for artists?\nIn its latest post on X, TIDAL disclosed that it had already taken down more than 65,000 tracks flagged for suspected artist-name impersonation. The service also noted that approximately 27 million titles currently carry its AI label, accounting for 6.3% of its available music.\nHowever, musicians can still incorporate AI tools into their creative process as long as their work isn't entirely produced by the technology. “If you make music, you should be able to put it on TIDAL knowing it won’t be buried under tracks no one asked for, or copied by someone pretending to be you,” the company stated.\nHow are Spotify and Apple Music addressing AI-generated music?\nOther digital streaming platforms are navigating similar challenges. Apple Music has announced plans to label AI-generated or AI-assisted material, while Spotify has rolled out measures to identify artificial artists.\nSpotify also revealed last month that it had cleared 50 million \"slop and spam\" tracks from users’ recommendations this year, following the removal of 75 million such songs from its catalog.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
