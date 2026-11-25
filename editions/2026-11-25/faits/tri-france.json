@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a31",
+      "score": 9,
+      "raison": "La loi de fin de gestion 2026 a été validée mardi, mais l'accord sur le budget 2027 paraît aléatoire, après un couac sur les retraites au Sénat."
+    },
+    {
+      "id": "a47",
+      "score": 8,
+      "raison": "Fermeture de l'équipe de nuit de l'usine Stellantis de Sochaux à partir de janvier 2027 : 500 emplois concernés, les intérimaires étant selon les syndicats « sacrifiés »."
+    },
+    {
+      "id": "a34",
+      "score": 7,
+      "raison": "Congrès de l'Association des maires de France : inquiétude face au « ras-le-bol général » des électeurs et au risque qu'il profite au Rassemblement national."
+    },
+    {
+      "id": "a37",
+      "score": 6,
+      "raison": "Procès à Lyon de dix accusés pour une série de fusillades liées au narcotrafic, illustrant une « cartellisation » du banditisme."
+    },
+    {
+      "id": "a42",
+      "score": 6,
+      "raison": "Onze personnes renvoyées devant le tribunal correctionnel, dont Nicolas Sarkozy et Carla Bruni, dans l'affaire de la fausse rétractation de Ziad Takieddine."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a59",
+      "titre": "Budget 2027 : le Sénat renonce à supprimer l'abattement de 10 % des retraités",
+      "texte": "Contre toute attente, l'amendement visant à supprimer l'abattement fiscal de 10 % sur les pensions a été rejeté le 24 novembre. Le Sénat a finalement abaissé le plafond de cet abattement à 1 000 euros."
+    },
+    {
+      "id": "a44",
+      "titre": "Livret A : 9,5 milliards d'euros de retraits nets entre janvier et octobre",
+      "texte": "Entre janvier et octobre, les Français ont retiré 9,5 milliards d'euros de plus sur leurs livrets A qu'ils n'en ont déposé. Baisse du pouvoir d'achat, concurrence de l'assurance-vie et inflation sont évoquées."
+    },
+    {
+      "id": "a45",
+      "titre": "Mayotte : 20 policiers supplémentaires et un escadron de gendarmerie annoncés",
+      "texte": "La députée Estelle Youssouffa a interpellé le ministre de l'Intérieur, Laurent Nuñez, sur le manque de renforts permanents à Mayotte. Il a annoncé l'arrivée de 20 policiers supplémentaires et d'un escadron de gendarmerie mobile."
+    }
+  ]
+}

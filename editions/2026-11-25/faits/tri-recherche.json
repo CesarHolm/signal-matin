@@ -1,0 +1,36 @@
+{
+  "developpes": [
+    {
+      "id": "a119",
+      "score": 8,
+      "raison": "Cinq constats sur les stablecoins à partir de données de portefeuilles sur blockchain (2020-2025) : le volume on-chain dépasse celui du bitcoin malgré une offre bien plus faible, et la vélocité a fortement augmenté (NBER)."
+    },
+    {
+      "id": "a116",
+      "score": 8,
+      "raison": "Malgré une incertitude sur la politique commerciale historiquement élevée en 2025 et restée forte au premier semestre 2026, le commerce mondial a continué de croître, sans signe net de détérioration des flux (Réserve fédérale, FEDS Notes)."
+    },
+    {
+      "id": "a122",
+      "score": 7,
+      "raison": "Une hausse de 5 points de la part de cliniciens expérimentés en prescription de buprénorphine double l'usage prolongé du traitement chez les survivants d'overdose et réduit la mortalité à deux ans d'environ 3,7 points (NBER, données du Veterans Health Administration)."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a117",
+      "titre": "Fed : l'expérience bancaire accélère la remise de garanties au guichet d'escompte",
+      "texte": "Les banques ayant déjà emprunté remettent leurs garanties deux jours plus vite que les novices, selon une étude sur des données confidentielles de mars 2023. Lorsque les garanties sont données aux FHLB, leur redéploiement vers la Fed ralentit de trois à quatre jours."
+    },
+    {
+      "id": "a133",
+      "titre": "Gambie c. Myanmar : l'intention génocidaire doit être la seule inférence raisonnable",
+      "texte": "Dans cette affaire, une analyse juridique soutient que l'intention génocidaire doit être la seule inférence raisonnable, sans exclure d'autres intentions comme le déplacement forcé. Les tribunaux ont besoin d'une méthode pour tester les explications alternatives."
+    },
+    {
+      "id": "a127",
+      "titre": "Retraite : informer sur les regrets d'autrui accroît les recommandations de rente",
+      "texte": "Dans une expérience sur questionnaire, informer les participants des regrets liés à l'absence de rente viagère augmente de 16,9 points (environ 38 %) leurs recommandations d'annuitisation. L'effet concerne ceux qui sous-estiment leur espérance de vie."
+    }
+  ]
+}

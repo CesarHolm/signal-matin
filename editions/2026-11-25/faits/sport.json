@@ -1,0 +1,62 @@
+{
+  "resultats": [
+    {
+      "sport": "Football",
+      "affiche": "Real Madrid – PSV Eindhoven",
+      "score": "5-1",
+      "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue, 5e journée",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915298/psv-eindhoven-real-madrid"
+    },
+    {
+      "sport": "Football",
+      "affiche": "RB Leipzig – Lens",
+      "score": "3-1",
+      "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue, 5e journée",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915299/lens-rb-leipzig"
+    },
+    {
+      "sport": "Tennis",
+      "affiche": "Tchéquie – Canada",
+      "score": "2-0",
+      "competition": "Coupe Davis (compétition par équipes), quart de finale",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/La-tchequie-domine-le-canada-et-file-en-demi-finales-de-la-coupe-davis/1745924#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Basket",
+      "affiche": "Besiktas – Paris Basketball",
+      "score": "76-88",
+      "competition": "Euroligue (coupe d'Europe des clubs)",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Basket/Actualites/Septieme-succes-de-suite-en-euroligue-pour-paris-vainqueur-sans-trembler-de-besiktas/1745907#at_medium=RSS_feeds"
+    }
+  ],
+  "a_suivre": [
+    {
+      "sport": "Football",
+      "affiche": "Sabah – Barcelone",
+      "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue",
+      "heure": "18 h 45",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915378/barcelona-sabah-fk"
+    },
+    {
+      "sport": "Football",
+      "affiche": "PSG – AS Rome",
+      "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue",
+      "heure": "21 h",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915374/as-roma-paris-saint-germain"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Lille – Bayern Munich",
+      "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue",
+      "heure": "21 h",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915377/bayern-munich-lille"
+    }
+  ]
+}

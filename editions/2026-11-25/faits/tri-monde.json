@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a91",
+      "score": 8,
+      "raison": "Huawei reconnu coupable sur 10 des 12 chefs d'accusation à Brooklyn (fraude bancaire et électronique, complot de vol de secrets industriels, contournement de sanctions) ; le jury l'a acquitté des accusations de complot d'entrave à la justice et de RICO."
+    },
+    {
+      "id": "a107",
+      "score": 8,
+      "raison": "Frappe de la coalition menée par l'Arabie saoudite sur le port de Hodeidah, au Yémen, dans le contexte de la guerre impliquant l'Iran ; les Houthis menacent Jeddah et d'autres ports saoudiens."
+    },
+    {
+      "id": "a96",
+      "score": 7,
+      "raison": "Chen Jining, secrétaire du Parti communiste à Shanghai et membre du Politburo, est placé sous enquête pour « graves violations de la discipline et de la loi » ; il est le quatrième membre de cet organe visé."
+    },
+    {
+      "id": "a67",
+      "score": 7,
+      "raison": "Enquête américaine sur des liens iraniens avec jusqu'à 50 navires commerciaux piratés, selon des responsables cités par NPR."
+    },
+    {
+      "id": "a77",
+      "score": 6,
+      "raison": "Frappes ukrainiennes contre des navires russes en Méditerranée : Rome craint qu'elles déstabilisent la Libye."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a82",
+      "titre": "L'UE dévoile son Quantum Act face au risque pour le chiffrement",
+      "texte": "Selon cet article, le risque de sécurité lié au quantique pourrait dépasser celui de l'IA. Avec le Quantum Act, l'UE doit répondre à la possible remise en cause du chiffrement."
+    },
+    {
+      "id": "a100",
+      "titre": "Cuba : le chef de l'OMS demande la fin du blocus pétrolier américain",
+      "texte": "Le chef de l'OMS appelle à mettre fin au blocus pétrolier américain, alors que le système de santé cubain connaît de graves pénuries. L'ONU alloue 2 millions de dollars pour la vaccination et le matériel médical."
+    },
+    {
+      "id": "a114",
+      "titre": "Chine : les offres d'emploi de développeurs s'effondrent face à l'IA",
+      "texte": "Les offres d'emploi pour développeurs de logiciels se sont effondrées de 71 % depuis le lancement de ChatGPT. Le marché du travail chinois subit ainsi les effets de l'IA."
+    }
+  ]
+}

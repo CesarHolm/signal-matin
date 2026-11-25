@@ -1,0 +1,36 @@
+{
+  "developpes": [
+    {
+      "id": "a154",
+      "score": 8,
+      "raison": "Le nouveau paquet de sanctions de l'UE contre la Russie cible des banques, des militaires et des athlètes ; il est au stade de proposition, selon PubAffairs Bruxelles."
+    },
+    {
+      "id": "a180",
+      "score": 8,
+      "raison": "MBDA, fabricant de missiles à Bourges, est assigné en justice pour défaut de vigilance lié à des bombardements à Gaza ; l'entreprise refuse de commenter, selon La Montagne."
+    },
+    {
+      "id": "a173",
+      "score": 7,
+      "raison": "L'UE introduit une limite de 10 000 euros pour les paiements en espèces à partir de juillet 2027."
+    },
+    {
+      "id": "a149",
+      "score": 6,
+      "raison": "L'agglomération du Havre, présidée par Édouard Philippe, fait l'objet d'une nouvelle enquête pour détournement de fonds publics."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a141",
+      "titre": "CNIL : qui est responsable de traitement dans la livraison ?",
+      "texte": "La CNIL considère que le transporteur est en général responsable de traitement, mais ce n'est pas systématique. Le rôle de chaque acteur de la livraison doit être clarifié au regard du RGPD."
+    },
+    {
+      "id": "a164",
+      "titre": "Sanctions américaines contre des réseaux de banque parallèle liés à l'Iran",
+      "texte": "Les États-Unis ont sanctionné des réseaux de banque parallèle, dits « shadow banking », liés à l'Iran. L'information a été publiée le 24 novembre 2026."
+    }
+  ]
+}

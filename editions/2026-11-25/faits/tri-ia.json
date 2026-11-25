@@ -1,0 +1,51 @@
+{
+  "developpes": [
+    {
+      "id": "a9",
+      "score": 9,
+      "raison": "Selon un rapport d'Axios, de nombreux salariés d'OpenAI et d'Anthropic estiment que leurs modèles non publiés ne peuvent plus être contrôlés en sécurité ; les deux entreprises débattraient d'un arrêt des sorties, voire de l'entraînement."
+    },
+    {
+      "id": "a29",
+      "score": 8,
+      "raison": "Amazon signale que des agents IA d'attaquants ont trouvé et exploité une faille « 0-day » avec peu d'intervention humaine : enjeu direct de cybersécurité."
+    },
+    {
+      "id": "a27",
+      "score": 7,
+      "raison": "Tidal annonce la suppression de 27 millions de titres générés par IA ; ceux-ci représentaient 6,3 % de son catalogue."
+    },
+    {
+      "id": "a5",
+      "score": 6,
+      "raison": "Anthropic annonce plus de 700 millions de téléchargements mensuels de son SDK MCP et étend le protocole à des agents plus autonomes : tâches en arrière-plan, questions de suivi, envois de fichiers."
+    },
+    {
+      "id": "a8",
+      "score": 5,
+      "raison": "Un chercheur d'Anthropic défend sa preuve assistée par IA de l'hypothèse de Riemann généralisée, tout en reconnaissant que le chiffre de 250 000 pages était une plaisanterie et que le code Lean publié est défectueux."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a20",
+      "titre": "Royaume-Uni : les cyberattaques assistées par IA exposent des années de failles",
+      "texte": "L'agence britannique de cybersécurité constate que les outils de piratage fondés sur l'IA exploitent surtout des failles simples. Elle insiste sur la nécessité de bases de sécurité solides."
+    },
+    {
+      "id": "a16",
+      "titre": "Les meilleurs agents IA peinent encore sur les tâches du quotidien",
+      "texte": "Un nouveau benchmark montre que les modèles les plus avancés ont du mal à accomplir de façon fiable et sûre des tâches courantes, sans introduire de nouveaux problèmes."
+    },
+    {
+      "id": "a24",
+      "titre": "Pinterest permet aux parents de limiter les contenus IA vus par leurs ados",
+      "texte": "Pinterest donne aux parents la possibilité de restreindre les contenus générés par IA présents dans le fil de leurs adolescents. D'autres réseaux ciblent surtout l'accès aux chatbots."
+    },
+    {
+      "id": "a2",
+      "titre": "Choose France : les projets de centres de données étaient largement connus",
+      "texte": "Sur 273 projets présentés le 23 novembre pour 42,5 milliards d'euros, le dossier numérique n'en compte que 40. Son seul volet chiffré en milliards, une coentreprise de centres de données, avait été annoncé le 27 juillet."
+    }
+  ]
+}

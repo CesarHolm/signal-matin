@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a197",
+      "score": 9,
+      "raison": "Report de deux ans, décidé le 19 novembre 2026, de l'application du règlement européen sur les émissions de méthane du secteur énergie, en raison de la crise du marché des hydrocarbures : impact direct sur les obligations de conformité."
+    },
+    {
+      "id": "a212",
+      "score": 8,
+      "raison": "Issue de la COP31 à Antalya : aucun « pacte » trouvé, avec des résultats limités pour l'alimentation, les forêts, les océans et la nature."
+    },
+    {
+      "id": "a189",
+      "score": 7,
+      "raison": "Arrivée de la sonde Hera à Dimorphos, lieu du test de déviation d'astéroïde de 2022 : les observations doivent mesurer les effets réels de l'impact."
+    },
+    {
+      "id": "a186",
+      "score": 7,
+      "raison": "Sécheresse : 37 départements restent en situation de crise pour l'accès à l'eau potable, malgré les pluies d'automne."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a217",
+      "titre": "Montana : les incendies renchérissent l'assurance habitation",
+      "texte": "Dans le Montana, le risque croissant d'incendies de forêt fait grimper les primes d'assurance habitation. Certains acquéreurs ne parviennent plus à obtenir de couverture."
+    },
+    {
+      "id": "a226",
+      "titre": "Stellantis se retire de la compétition sportive internationale",
+      "texte": "Peugeot abandonne les 24 Heures du Mans et le constructeur quitte toutes les compétitions sportives internationales, en pleine crise du secteur automobile."
+    },
+    {
+      "id": "a183",
+      "titre": "LHCb : des indices de la désintégration rarissime du méson B0",
+      "texte": "Le détecteur LHCb a dévoilé des indices probants de cette désintégration, traquée depuis plus de quarante ans. Une confirmation expérimentale pourrait étendre la compréhension des limites du modèle standard."
+    },
+    {
+      "id": "a206",
+      "titre": "Webb révèle de nouveaux détails sur le reste de supernova Cassiopeia A",
+      "texte": "Le télescope spatial James Webb montre la poussière chaude qui compose Cassiopeia A, vestige d'une étoile massive explosée, sur une image infrarouge publiée le 23 novembre."
+    }
+  ]
+}
