@@ -1,0 +1,39 @@
+{
+ "breves": [
+  {
+   "id": "a9",
+   "titre": "Des initiés jugent les modèles non publiés d'OpenAI et Anthropic difficiles à maîtriser",
+   "texte": "Selon un rapport d'Axios, de nombreux employés d'OpenAI et d'Anthropic estiment que les modèles d'avant-garde non publiés de leurs entreprises ne peuvent plus être contrôlés en toute sécurité. Les deux sociétés débattraient en interne de la suspension des sorties, voire de l'arrêt de l'entraînement, alors que la confiance envers la direction s'érode."
+  },
+  {
+   "id": "a8",
+   "titre": "Un chercheur d'Anthropic maintient sa preuve assistée par IA de l'hypothèse de Riemann",
+   "texte": "Le chercheur d'Anthropic Levent Alpöge revient sur certains points de son annonce d'une preuve de l'hypothèse de Riemann généralisée assistée par IA. Il qualifie de plaisanterie l'affirmation selon laquelle la preuve comptait plus de 250 000 pages et juge le code Lean publié « plein de déchets ». Il maintient toutefois la validité des mathématiques et reconnaît des « choses stupides » dans le déroulement de l'annonce."
+  },
+  {
+   "id": "a34",
+   "titre": "Présidentielle 2027 : les maires redoutent le « ras-le-bol général » des électeurs",
+   "texte": "Le congrès de l'Association des maires de France s'est ouvert mardi 24 novembre à Paris. Beaucoup d'élus s'inquiètent de la situation sociale et craignent que la détresse d'une partie de la population profite au Rassemblement national."
+  },
+  {
+   "id": "a37",
+   "titre": "Aux assises de Lyon, une série criminelle illustre la « cartellisation » du banditisme",
+   "texte": "Dix accusés sont jugés à Lyon pour une série de fusillades et de représailles sur fond de narcotrafic. Selon les enquêteurs de la police judiciaire, la stratégie de terreur entre clans rivaux s'inspire des cartels sud-américains."
+  },
+  {
+   "id": "a91",
+   "titre": "Huawei reconnu coupable de 10 chefs d'accusation sur 12 après un procès aux États-Unis",
+   "texte": "Après près de sept ans de procédure pénale, un jury de Brooklyn a déclaré Huawei Technologies et trois filiales coupables de 10 des 12 chefs retenus, dont fraude bancaire et électronique, complot de vol de secrets commerciaux et contournement des sanctions. Le jury les a en revanche acquittés du complot d'entrave à la justice et du complot relevant de la loi RICO, les plus graves."
+  },
+  {
+   "id": "a107",
+   "titre": "Yémen : la coalition menée par l'Arabie saoudite frappe le port de Hodeïda",
+   "texte": "La coalition menée par l'Arabie saoudite a frappé le port de Hodeïda, au Yémen, après avoir émis un ordre d'évacuation. Les Houthis menacent en retour de viser Djeddah et d'autres ports saoudiens si Hodeïda est de nouveau frappée."
+  },
+  {
+   "id": "a77",
+   "titre": "Rome craint que les frappes sur des navires russes ne déstabilisent la Libye",
+   "texte": "Le chef du gouvernement italien soutient fermement Kyiv, mais Rome redoute que les frappes ukrainiennes contre des navires russes en Méditerranée ne déstabilisent la Libye. Selon l'article, « tout ce qui concerne la Libye concerne l'Italie »."
+  }
+ ]
+}
