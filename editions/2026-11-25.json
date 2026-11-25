@@ -1,0 +1,350 @@
+{
+ "date": "2026-11-25",
+ "nouveaux_mots": [
+  {
+   "mot": "Sagace",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Doué d'une grande finesse d'esprit.",
+   "exemple": "Une observatrice sagace des comportements."
+  },
+  {
+   "mot": "Véhément",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui s'exprime avec force et passion.",
+   "exemple": "Une protestation véhémente."
+  },
+  {
+   "mot": "Subodorer",
+   "nature": "v. tr.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Pressentir, deviner quelque chose.",
+   "exemple": "Il subodorait un piège."
+  },
+  {
+   "mot": "Vaticiner",
+   "nature": "v. intr.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Prophétiser, prédire l'avenir de façon pompeuse.",
+   "exemple": "Les experts vaticinent sur la fin du travail."
+  },
+  {
+   "mot": "Procyclicité",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Tendance d'un mécanisme à amplifier les fluctuations du cycle économique.",
+   "exemple": "La procyclicité des règles comptables."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Saugrenu",
+   "definition": "Inattendu au point d'en être absurde ou bizarre."
+  },
+  {
+   "mot": "Acrimonie",
+   "definition": "Mauvaise humeur qui s'exprime avec aigreur."
+  },
+  {
+   "mot": "Stochastique",
+   "definition": "Qui relève du hasard, des probabilités."
+  },
+  {
+   "mot": "Usufruit",
+   "definition": "Droit d'utiliser un bien et d'en percevoir les revenus sans en être propriétaire."
+  },
+  {
+   "mot": "Loquace",
+   "definition": "Qui parle volontiers et beaucoup."
+  }
+ ],
+ "articles": [
+  "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+  "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+  "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
+  "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/",
+  "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+  "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+  "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+  "https://www.lemonde.fr/politique/article/2026/11/24/budget-un-premier-texte-adopte-par-le-parlement-sebastien-lecornu-reve-desormais-d-un-compromis-pour-2027_6814842_823448.html",
+  "https://www.franceinfo.fr/economie/automobile/l-usine-stellantis-de-sochaux-arrete-l-activite-de-son-equipe-de-nuit-a-partir-de-janvier-2027-500-emplois-sont-concernes_8298177.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/politique/affaire/financement-de-la-campagne-de-sarkozy/nicolas-sarkozy-carla-bruni-mimi-marchand-qui-sont-les-principaux-protagonistes-de-l-affaire-de-la-fausse-retractation-de-ziad-takieddine_8297730.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/societe/article/2026/11/24/aux-assises-a-lyon-la-serie-criminelle-qui-fait-basculer-le-banditisme-dans-la-cartellisation_6814867_3224.html",
+  "https://www.lemonde.fr/politique/article/2026/11/24/presidentielle-2027-les-maires-s-inquietent-du-ras-le-bol-general-des-electeurs_6814869_823448.html",
+  "https://www.publicsenat.fr/actualites/politique/budget-2027-coup-de-theatre-le-senat-renonce-a-supprimer-labattement-de-10-des-retraites",
+  "https://www.scmp.com/news/china/politics/article/3375640/shanghai-party-chief-faces-corruption-probe",
+  "https://www.npr.org/2026/11/24/nx-s1-6052994/hack-commercial-vessels-iran",
+  "https://www.politico.eu/article/ukraine-strikes-russian-ships-libya-giorgia-meloni-italy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order?traffic_source=rss",
+  "https://www.scmp.com/news/us/article/3375673/huawei-guilty-10-12-counts-after-2-month-battle-us-courtroom",
+  "https://www.nber.org/papers/w36038#fromrss",
+  "https://www.federalreserve.gov/econres/notes/feds-notes/why-has-global-trade-remained-resilient-despite-high-trade-policy-uncertainty-20261124.html",
+  "https://www.federalreserve.gov/econres/feds/collateral-mobility-and-the-lender-of-last-resort.htm",
+  "https://verfassungsblog.de/only-reasonable-inference-gambia-v-myanmar/",
+  "https://www.nber.org/papers/w36047#fromrss",
+  "https://www.pubaffairsbruxelles.eu/eu-in-the-media/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package/",
+  "https://www.ici.fr/centre-val-de-loire/cher-18/bourges/mbda-le-fabricant-de-missile-a-bourges-assigne-en-justice-pour-ses-liens-avec-des-bombardements-a-gaza-2163507",
+  "https://www.cnil.fr/fr/acteurs-secteur-livraison-responsabilites",
+  "https://en.igihe.com/news-40/article/u-s-imposes-sanctions-on-shadow-banking-networks-linked-to-iran",
+  "https://theconversation.com/leurope-reporte-le-controle-des-emissions-de-methane-de-ses-importations-au-risque-de-ne-pas-tenir-ses-promesses-climatiques-296607",
+  "https://www.carbonbrief.org/cop31-key-outcomes-for-food-forests-oceans-and-nature-at-the-un-climate-talks-in-antalya",
+  "https://insideclimatenews.org/news/24112026/montana-wildfire-insurance-costs/",
+  "https://www.franceinfo.fr/replay-radio/le-brief-eco/stellantis-quitte-la-competition-sportive_8275340.html#xtor=RSS-3-%5Bsports%5D",
+  "https://www.sciencesetavenir.fr/fondamental/particules/les-physiciens-ouvrent-la-voie-a-la-decouverte-de-nouvelles-particules-avec-l-experience-lhcb_196088?xtor=RSS-10",
+  "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/"
+ ],
+ "titres": [
+  "Amazon : des agents d'IA ont exploité seuls une faille inconnue",
+  "Tidal bannit la musique entièrement générée par IA dès le 9 décembre",
+  "Anthropic : MCP dépasse 700 millions de téléchargements mensuels de SDK",
+  "Budget : loi de fin de gestion 2026 adoptée, le compromis 2027 reste à trouver",
+  "Stellantis Sochaux supprime son équipe de nuit en janvier 2027 : 500 emplois touchés",
+  "Fausse rétractation de Takieddine : onze renvois dont Sarkozy et Carla Bruni",
+  "Chine : Chen Jining, chef du Parti à Shanghai, visé par une enquête",
+  "Navires marchands piratés : Washington enquête sur des liens avec l'Iran",
+  "Stablecoins : cinq faits montrent un usage de monnaie tokenisée",
+  "Pourquoi le commerce mondial résiste malgré l'incertitude commerciale",
+  "Russie : Bruxelles propose un 22e paquet visant banques, soldats et sportifs",
+  "MBDA assigné en justice pour manquement au devoir de vigilance à propos de Gaza",
+  "Méthane : l'UE reporte de deux ans le contrôle de ses importations d'énergie",
+  "COP31 à Antalya : alimentation, forêts, océans et nature, un bilan mitigé"
+ ],
+ "solutions": {
+  "sudoku": [
+   7,
+   5,
+   4,
+   1,
+   8,
+   3,
+   2,
+   6,
+   9,
+   2,
+   3,
+   1,
+   6,
+   7,
+   9,
+   4,
+   5,
+   8,
+   6,
+   9,
+   8,
+   5,
+   4,
+   2,
+   7,
+   3,
+   1,
+   4,
+   2,
+   9,
+   7,
+   3,
+   6,
+   1,
+   8,
+   5,
+   5,
+   1,
+   7,
+   4,
+   9,
+   8,
+   3,
+   2,
+   6,
+   8,
+   6,
+   3,
+   2,
+   5,
+   1,
+   9,
+   4,
+   7,
+   9,
+   8,
+   2,
+   3,
+   6,
+   7,
+   5,
+   1,
+   4,
+   1,
+   4,
+   6,
+   9,
+   2,
+   5,
+   8,
+   7,
+   3,
+   3,
+   7,
+   5,
+   8,
+   1,
+   4,
+   6,
+   9,
+   2
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     3,
+     3
+    ],
+    [
+     0,
+     3,
+     1,
+     4
+    ],
+    [
+     0,
+     7,
+     6,
+     2
+    ],
+    [
+     0,
+     9,
+     4,
+     1
+    ],
+    [
+     1,
+     3,
+     3,
+     3
+    ],
+    [
+     1,
+     6,
+     8,
+     1
+    ],
+    [
+     3,
+     0,
+     5,
+     2
+    ],
+    [
+     3,
+     2,
+     5,
+     1
+    ],
+    [
+     4,
+     3,
+     4,
+     2
+    ],
+    [
+     4,
+     5,
+     4,
+     1
+    ],
+    [
+     4,
+     9,
+     6,
+     1
+    ],
+    [
+     6,
+     7,
+     3,
+     2
+    ],
+    [
+     8,
+     0,
+     2,
+     6
+    ],
+    [
+     9,
+     6,
+     1,
+     3
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    2,
+    6,
+    1,
+    4,
+    3,
+    5
+   ],
+   [
+    3,
+    1,
+    4,
+    2,
+    5,
+    6
+   ],
+   [
+    5,
+    4,
+    2,
+    3,
+    6,
+    1
+   ],
+   [
+    4,
+    5,
+    6,
+    1,
+    2,
+    3
+   ],
+   [
+    6,
+    2,
+    3,
+    5,
+    1,
+    4
+   ],
+   [
+    1,
+    3,
+    5,
+    6,
+    4,
+    2
+   ]
+  ],
+  "compte": [
+   "9 + 10 = 19",
+   "19 × 4 = 76",
+   "76 − 7 = 69",
+   "69 × 2 = 138"
+  ]
+ },
+ "reponses_quiz": []
+}
