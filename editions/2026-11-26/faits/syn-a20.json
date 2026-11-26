@@ -1,0 +1,29 @@
+{
+ "titre": "Character.AI : 42 procureurs contre la vente aux enchères de conversations",
+ "chapo": "En faillite, l'éditeur de robots conversationnels veut mettre aux enchères les échanges privés de ses utilisateurs, ce que 42 procureurs généraux d'États américains cherchent à empêcher.",
+ "sections": [
+  {
+   "intertitre": "Ce qui serait vendu",
+   "texte": "Character.AI s'est placé en octobre sous la protection du chapitre 11 de la loi américaine sur les faillites. La vente aux enchères, prévue le 1er décembre, porte sur la plateforme et sur les historiques de discussion de plus de 21 millions de comptes américains, dont plus de 2,1 millions appartenant à des mineurs. S'y ajoutent des adresses IP, des données de localisation et d'autres informations sensibles. Selon le procureur général du Colorado, on y trouve des échanges sexuellement explicites entre des personnages d'IA et des enfants ou des adultes, ainsi que des confidences sur l'automutilation, les troubles alimentaires et les idées suicidaires, faites à des robots se présentant comme thérapeutes ou médecins. Ces conversations sont reliées aux profils et à des données identifiantes."
+  },
+  {
+   "intertitre": "Cinq griefs",
+   "texte": "La coalition, bipartisane, soulève cinq problèmes. L'acheteur ne serait tenu ni de respecter la politique de confidentialité de l'entreprise, ni de satisfaire les demandes de suppression, ni de limiter l'usage des données. Il pourrait les transférer ou les revendre sans prévenir les utilisateurs, les États ou le tribunal. Les enchérisseurs auraient reçu sur les défaillances de sécurité et les risques juridiques des informations que ni la justice, ni les États, ni les utilisateurs n'ont obtenues. La vente pourrait enfreindre le droit de la consommation. Enfin, le premier enchérisseur reste largement inconnu. Pour le procureur général du Colorado, Phil Weiser, les difficultés financières d'une entreprise ne l'autorisent pas à ignorer son devoir de protéger les consommateurs, en particulier les enfants."
+  },
+  {
+   "intertitre": "Un acheteur mystérieux",
+   "texte": "Une seule offre a été rendue publique, celle de Smirks and Pangs Acquisition LLC. Cette société a été créée dans le Delaware le 13 novembre 2026, et Character.AI l'a retenue dès le lendemain comme offre de départ. Ses investisseurs ne sont pas dévoilés ; d'éventuels investisseurs étrangers ne seraient identifiés qu'auprès de Character.AI. L'accord l'obligerait à n'embaucher qu'un seul salarié, le principal juriste de l'entreprise, alors que celle-ci affirme que l'enchérisseur n'a aucun lien avec elle. Smirks toucherait aussi une indemnité de rupture de 350 000 dollars si un autre acheteur l'emportait. Ses projets pour les conversations ne sont pas connus."
+  },
+  {
+   "intertitre": "Ce que demandent les États",
+   "texte": "Les procureurs demandent au tribunal de rejeter les conditions de vente, d'écarter Smirks comme premier enchérisseur et de refuser l'indemnité. Au minimum, toute cession devrait exclure les conversations d'enfants et les données sensibles, et comporter des protections de la vie privée juridiquement contraignantes. La politique de confidentialité indiquait pourtant que l'entreprise ne vendait pas d'informations personnelles contre paiement. « La faillite ne devrait pas servir à contourner ces protections », estime en substance le procureur général de Californie, Rob Bonta. Des lois sur la sécurité des robots conversationnels entrent en outre en vigueur le 1er janvier 2027, notamment en Californie, au Colorado, au Connecticut et dans l'État de New York. Son homologue du Connecticut, William Tong, accuse l'entreprise de vouloir détourner la procédure de faillite pour vendre ces dossiers à un acheteur douteux."
+  },
+  {
+   "intertitre": "Le contexte",
+   "texte": "Les difficultés de Character.AI ont suivi le retour chez Google de ses cofondateurs, Noam Shazeer et Daniel De Freitas, dans le cadre d'une licence non exclusive sur sa technologie. L'entreprise a aussi été poursuivie sur la sécurité des enfants, notamment après le suicide d'un garçon de 14 ans en Floride. Un autre projet, une licence de 20 millions de dollars donnant à Disney accès à la propriété intellectuelle mais pas aux conversations, a été contesté et attend l'approbation définitive du tribunal."
+  }
+ ],
+ "synthese": "Les procureurs refusent qu'une faillite permette de céder à un acheteur opaque les confidences de millions d'utilisateurs, dont des mineurs. L'enchère est fixée au 1er décembre et le sort de ces données dépend désormais du tribunal.",
+ "republication": "",
+ "sources_ecartees": []
+}

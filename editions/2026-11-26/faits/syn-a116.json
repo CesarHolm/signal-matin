@@ -1,0 +1,29 @@
+{
+ "titre": "Addiction aux opioïdes : la buprénorphine aide aussi à redresser les finances",
+ "chapo": "Une étude sur plus de 140 000 anciens combattants américains examine si traiter la dépendance aux opioïdes améliore la situation économique des patients autant que leur santé.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Les auteurs se demandent si des traitements efficaces améliorent aussi la vie économique. L’addiction est un cas exigeant : en soins courants, l’observance imparfaite et les maladies associées peuvent réduire les bénéfices observés en essais cliniques, tandis que pauvreté, troubles mentaux et isolement peuvent continuer de peser sur l’emploi et les finances. L’enjeu est lourd : plus de 800 000 personnes sont mortes d’une overdose d’opioïdes aux États-Unis entre 1999 et 2023. Savoir si le médicament améliore la situation économique malgré ces obstacles détermine jusqu’où vont les bénéfices d’un traitement élargi et éclaire le rôle d’aides complémentaires."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Une hausse de 5 points de la part des cliniciens ayant déjà prescrit de la buprénorphine augmente son usage de 10 points le mois suivant une overdose et double à peu près, sur deux ans, le taux antérieur. Elle réduit la mortalité à deux ans d’environ 3,7 points, soit 23 %, et relève de 1,3 point (+65 %) l’inscription aux programmes de réadaptation professionnelle et d’emploi. Chez les patients suivis par les données de crédit, un médecin urgentiste plus enclin à initier le traitement (+5 points) fait gagner environ 5,5 points de score de crédit et 4 points de chances d’atteindre un « bon » niveau. Pour les patients dont le traitement dépend de cette affectation, le gain estimé est de 135 points (intervalle de confiance à 95 % : environ 18 à 253). Les scores de dépression baissent de 11 %, sans hausse détectable des passages aux urgences ni des nouvelles overdoses. L’usage de la méthadone ne recule pas de façon significative."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "La buprénorphine est un opioïde semi-synthétique approuvé en 2002 pour le traitement de maintien de cette dépendance. L’étude exploite les dossiers de l’administration de santé des anciens combattants (VA) de 2003 à 2025, liés notamment aux registres de décès et, pour un sous-échantillon, aux données de crédit de TransUnion. Elle combine deux approches quasi expérimentales : la diffusion échelonnée de la prescription selon les établissements, étudiée après une première overdose traitée aux urgences, et l’affectation quasi aléatoire des patients à des urgentistes plus ou moins enclins à initier le traitement. La première éclaire le choix des décideurs, la seconde celui des cliniciens."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Selon les auteurs, un traitement médical peut contribuer au rétablissement économique, et les désavantages liés à l’addiction n’empêchent pas ces gains. L’engagement dans les soins réagit en un mois, la survie et l’emploi plus progressivement. Les plus fortes améliorations de survie concernent les patients en mauvaise santé physique ; les plus fortes hausses du recours aux soins, ceux atteints de troubles mentaux graves. Pour 5 points d’adoption en plus, le surcoût sur trois ans est de 8 087 dollars par patient, contre environ 10 400 dollars de gains de survie, à 300 000 dollars l’année de vie. Le bilan reste négatif à un et deux ans. Les auteurs jugent que formation, soutien institutionnel et remboursement pourraient utilement compléter les réformes réglementaires."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "La population étudiée est âgée, majoritairement masculine et soignée dans un système intégré. L’emploi et les revenus ne sont pas observés : seuls le sont le crédit et la participation aux programmes. Les estimations liées aux médecins concernent des patients plus à risque que la moyenne. Les effets sur les proches ne sont pas mesurés. Les deux estimations de mortalité sont imprécises (significatives au seuil de 10 %). Le calcul coûts-bénéfices exclut notamment la formation des cliniciens et ne fournit pas d’intervalle de confiance."
+  }
+ ],
+ "synthese": "D’après les auteurs, élargir l’accès à la buprénorphine réduit la mortalité, accroît la participation aux programmes d’emploi et s’accompagne d’une meilleure santé financière. À trois ans, les seuls gains de survie estimés dépassent les dépenses médicales ajoutées.",
+ "republication": "",
+ "reference": "Sarah Eichmeyer (Université Bocconi), Aljoscha Janssen (Singapore Management University) et Jonathan Zhang (Duke University, Département des anciens combattants, NBER), « Does Treating Addiction Rebuild Lives? Evidence from Buprenorphine », NBER Working Paper n° 36041, novembre 2026. Document de travail non relu par des pairs."
+}

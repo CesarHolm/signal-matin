@@ -1,0 +1,32 @@
+{
+ "titre": "Dans les gazoducs, une bactérie inconnue voyage sur des centaines de kilomètres",
+ "chapo": "Une équipe de recherche a découvert Azotospora prudensviator, une bactérie non pathogène qui circule avec le gaz naturel et se nourrit d'hydrogène.",
+ "sections": [
+  {
+   "intertitre": "Un réseau habité",
+   "texte": "Extrait de gisements du monde entier puis acheminé par gazoducs ou méthaniers, le gaz naturel ne rejoint pas toujours directement les foyers. En France, il peut séjourner dans des stockages souterrains, constitués pour sécuriser l'approvisionnement face aux pics de consommation et aux crises géopolitiques : environ un tiers de la consommation annuelle française en provient, estime-t-on. L'Europe compte quelque 158 sites : 83 dans d'anciens gisements d'hydrocarbures, 53 dans des cavités salines et 22 dans des aquifères profonds. Ils sont reliés à plus de 200 000 km de gazoducs de transport, sous 40 à 80 fois la pression atmosphérique, et à près de 2 millions de km de distribution, qui ont acheminé 340 milliards de m³ en 2025. Ces stockages sans oxygène abritent bactéries, archées et bactériophages, d'origine locale ou importés par l'activité humaine."
+  },
+  {
+   "intertitre": "La question de l'hydrogène",
+   "texte": "La composition du gaz évolue : il contient une part croissante de gaz renouvelables, comme le biométhane, et de l'hydrogène pourrait demain être stocké massivement. Or cette molécule est l'une des plus anciennes ressources énergétiques des bactéries et des archées, et le carburant de base d'une grande partie d'entre elles. Certains microorganismes pourraient corroder les gazoducs ou altérer le gaz stocké, par exemple en consommant l'hydrogène. Pour les microbiologistes, un vaste état des lieux s'imposait donc avant d'introduire de l'hydrogène dans les grands réservoirs."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Jusqu'ici, les rares études imposaient de démonter des canalisations ou de prélever l'eau des points bas, avec des risques de contamination extérieure. L'équipe d'Anthony Ranchou-Peyruse, au laboratoire commun SenGA, a donc conçu un dispositif qui échantillonne le gaz à très haute pression, en sécurité et en conditions stériles. En sortie d'un stockage, elle a détecté, isolé et ranimé des endospores d'une seule espèce, de la famille des Peptococcaceae, nouvelle jusqu'au niveau du genre, l'échelon placé juste au-dessus de l'espèce."
+  },
+  {
+   "intertitre": "Un « voyageur discret »",
+   "texte": "Avant son transport, le gaz est déshydraté au triéthylène glycol puis comprimé, des traitements agressifs pour les cellules. La bactérie y résiste en formant des endospores, structures dormantes capables d'attendre des années, voire des siècles, à l'abri des chocs de pression, des traitements chimiques et de chaleurs allant parfois jusqu'à 100 °C. Dans son nom, « azoto » renvoie à son usage du diazote pour fabriquer protéines et ADN, « spora » à ses endospores, et « prudensviator » signifie en latin « le voyageur discret ». Elle a été retrouvée dans des aquifères profonds, dans un gazoduc à plus de 100 km du stockage initial, dans d'autres stockages à l'autre bout de la France et même en Italie. Les gazoducs serviraient d'autoroutes reliant des écosystèmes isolés depuis des centaines de millions d'années, et une partie des spores serait réinjectée dans les stockages avec le gaz."
+  },
+  {
+   "intertitre": "Ce qu'elle sait faire",
+   "texte": "Le séquençage du génome et les cultures montrent qu'elle vit et se multiplie grâce à l'hydrogène et au dioxyde de carbone. Elle produit des molécules organiques qui peuvent favoriser ou freiner d'autres microbes. Elle semblerait faire partie des rares organismes capables de vivre de façon totalement autonome, sans dépendre de vitamines ou d'acides aminés fabriqués par d'autres espèces."
+  },
+  {
+   "intertitre": "Les enjeux",
+   "texte": "D'autres endospores circulent dans le réseau et les chercheurs ont commencé à les identifier. Aucun élément ne laisse penser, à ce jour, que ces bactéries détériorent les équipements ou présentent un risque. Mais avec le stockage d'hydrogène, elles pourraient peser sur le devenir du gaz entreposé. Les étudier doit permettre d'anticiper leur comportement et de garantir la fiabilité et la sécurité des infrastructures. Le projet ORHYON est soutenu par l'Agence nationale de la recherche."
+  }
+ ],
+ "synthese": "Une nouvelle bactérie capable de se mettre en dormance voyage par les gazoducs et a été retrouvée jusqu'en Italie. Aucun risque n'est établi, mais son appétit pour l'hydrogène justifie de l'étudier avant d'en stocker massivement.",
+ "republication": ""
+}

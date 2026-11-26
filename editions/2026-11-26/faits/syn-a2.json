@@ -1,0 +1,28 @@
+{
+ "titre": "Bulle de l'IA : qui paierait la note en cas d'éclatement ?",
+ "chapo": "Les géants du numérique investissent presque toute la trésorerie de leur activité et empruntent, alors que les revenus de l'IA restent très inférieurs à ces dépenses.",
+ "sections": [
+  {
+   "intertitre": "Un investissement hors norme",
+   "texte": "De janvier à septembre 2026, Microsoft, Alphabet, Amazon et Meta ont dépensé 496,7 milliards de dollars en bâtiments, serveurs et puces, soit 99,7 % des 498 milliards de trésorerie dégagés par leur activité, contre 64,1 % un an plus tôt, dépenses sans lien avec l'IA comprises. Les prévisions d'octobre situent le total annuel entre 720 et 740 milliards. Pour continuer, ces groupes empruntent, louent des centres de données et vendent de nouvelles actions. Leur investissement a augmenté de 93 % sur un an sur ces neuf mois, la trésorerie de leur activité de 24 % seulement."
+  },
+  {
+   "intertitre": "Des revenus encore trop faibles",
+   "texte": "L'institut Epoch AI estimait fin août les revenus d'OpenAI et d'Anthropic à environ 105 milliards de dollars en rythme annuel, contre 30 milliards en début d'année ; Menlo Ventures, actionnaire d'Anthropic, chiffre la dépense des entreprises à 176,8 milliards par an en septembre. Même la plus large de ces estimations reste loin de l'investissement de l'année. En 2025, selon des comptes vérifiés par le Financial Times, OpenAI a encaissé 13,07 milliards pour 34 milliards de dépenses. Anthropic affiche sur neuf mois une marge brute de 85,5 %, mais son exploitation est passée au troisième trimestre à une perte de 567 millions. Les profits se concentrent en amont, chez les fabricants de composants. Nvidia porte toutefois le risque de ses clients : il se porte garant jusqu'à 118 milliards et détient 65,5 milliards de participations non cotées, souvent chez eux. Ses engagements d'approvisionnement ont plus que triplé en deux trimestres, à 390 milliards."
+  },
+  {
+   "intertitre": "La dette comble l'écart",
+   "texte": "Les quatre géants et Oracle émettaient 28 milliards de dollars d'obligations par an de 2020 à 2024, selon Bank of America ; ils en ont émis 222 milliards en 2026 jusqu'au 22 septembre, d'après la Banque des règlements internationaux (BRI). Une partie de la dette échappe aux bilans : des fonds empruntent pour construire des centres de données qu'ils louent aux géants. Moody's chiffre à 1 200 milliards les loyers promis par les grands clouds à la mi-2026. L'argent coûte aussi plus cher : la Réserve fédérale (Fed) a relevé son taux directeur le 16 septembre, et Oracle a emprunté à 8,65 % le 2 novembre. Les épargnants sont exposés : les ménages de la zone euro détiennent environ 440 milliards d'euros de titres technologiques américains, selon Christine Lagarde."
+  },
+  {
+   "intertitre": "Des contrepoids réels",
+   "texte": "Plusieurs indicateurs plaident contre un éclatement proche. Les géants restent peu endettés : en mai, la dette nette des cinq grands du cloud valait 0,3 fois leur résultat annuel avant amortissements, selon Goldman Sachs. Nvidia valait le 21 octobre environ 17 fois ses bénéfices attendus, contre environ 132 fois pour Cisco au sommet de 2000. La demande de calcul tient : l'heure d'une puce H100 est passée d'un plus bas de 1,86 dollar en février 2025 à 3,06 dollars le 10 novembre 2026. Les carnets de commandes atteignent entre 561 et 677 milliards chacun chez Microsoft, Google Cloud, AWS et Oracle, même si deux laboratoires déficitaires en portent une part."
+  },
+  {
+   "intertitre": "Qui paierait d'abord",
+   "texte": "En cas de correction, les premiers touchés seraient les emprunteurs fragiles : loueurs de puces, fonds hors bilan et laboratoires. CoreWeave, loueur le plus connu, a payé au troisième trimestre 23 cents d'intérêts par dollar facturé et perdu 19,4 dollars pour 100 de revenus ; sa dette hors loyers atteint 46,9 milliards. Viendraient ensuite les épargnants, puis les entreprises clientes, par les prix. OpenAI prévoit de dépenser 278 milliards de plus qu'il n'encaissera de 2026 à 2030, selon le Financial Times : sans investisseurs pour combler les pertes, les tarifs remonteraient. Celles-ci peuvent mesurer le coût de chaque tâche accomplie, réserver les modèles chers aux besoins qui l'exigent et garder des données permettant de changer de modèle."
+  }
+ ],
+ "synthese": "Les comptes décrivent un surinvestissement probable et un financement fragile, sans permettre de dater un éclatement. Pour une entreprise cliente, le risque le plus probable est une hausse de sa facture.",
+ "republication": ""
+}

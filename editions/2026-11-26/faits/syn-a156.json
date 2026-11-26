@@ -1,0 +1,28 @@
+{
+ "titre": "CSRD : ce que les entreprises doivent préparer après la réforme Omnibus",
+ "chapo": "L'AMF résume les obligations de reporting de durabilité issues de la directive CSRD, révisée et simplifiée en 2026, et indique comment s'y préparer.",
+ "sections": [
+  {
+   "intertitre": "Le cadre",
+   "texte": "La directive CSRD, ou directive (UE) 2022/2464, a remplacé en 2023 la directive de 2014 sur le reporting non financier (NFRD) et est entrée en application le 1er janvier 2024. Elle vise à améliorer la disponibilité et la qualité des données environnementales, sociales et de gouvernance (ESG). Les informations doivent figurer dans une section dédiée du rapport de gestion, publié au format électronique européen xHTML avec des balises numériques. Elles sont vérifiées, avec une assurance limitée, par un commissaire aux comptes ou un organisme tiers indépendant, accrédité en France par le Cofrac. La CSRD modifie les directives Comptable, Transparence et Audit ainsi que le règlement Audit."
+  },
+  {
+   "intertitre": "Ce que change l'Omnibus",
+   "texte": "La directive Omnibus (UE) 2026/470, de février 2026, a réduit de plus de 80 % le champ initial, qui devait à terme couvrir les sociétés cotées sur un marché réglementé, les grandes entreprises européennes non cotées et certains grands groupes de pays tiers. Elle renforce les exemptions : filiales incluses dans le reporting consolidé d'un grand groupe, sous réserve de publier des informations minimales (nom et siège de la société mère, liens vers son rapport consolidé, déclaration d'exemption), et, nouveauté, certaines sociétés de participation financière dont les filiales ont des activités indépendantes les unes des autres. La France avait transposé la CSRD dès décembre 2023 et introduit certains allègements en avril 2025. La transposition de l'Omnibus est en cours : la date d'application du nouveau champ et des exemptions en dépendra."
+  },
+  {
+   "intertitre": "Les normes ESRS",
+   "texte": "L'état de durabilité suit les normes européennes ESRS, fondées sur la « double matérialité » et portant sur les risques, opportunités et impacts matériels. Elles comptent 12 textes : ESRS 1 pour les principes généraux, ESRS 2 pour les informations générales (gouvernance, stratégie, identification des enjeux, règles de publication) et 10 normes thématiques. Après un « Quick-fix » en 2025, des normes simplifiées (Set 2), adoptées en juillet 2026, deviendront obligatoires à compter de l'exercice 2027, publié en 2028. Pour 2026, les entreprises peuvent garder le Set 1 allégé, passer au Set 2 ou opter pour une formule hybride, avec une liste limitative d'allègements anticipés. Le choix retenu doit être indiqué. Des normes volontaires pour les entreprises hors champ ont aussi été adoptées. Celles visant les grands groupes non européens ne le sont pas encore."
+  },
+  {
+   "intertitre": "Comment se préparer",
+   "texte": "L'AMF recommande d'abord d'analyser de près les textes révisés et de développer l'expertise interne sur chaque thème, par exemple la biodiversité. Le travail doit être mené en mode projet, avec la direction et toutes les fonctions : finance, juridique, opérations, ressources humaines ou communication. Les systèmes de collecte peuvent devoir être renforcés pour compléter ou fiabiliser des données, notamment celles dépourvues de piste d'audit ou limitées à un périmètre partiel. Des changements d'outils, de canaux de reporting ou d'organisation, plus ou moins importants, sont donc à anticiper. L'Autorité souligne que le cadre continue d'évoluer, avec la revue en cours du reporting Taxonomie au titre de l'article 8 : un suivi attentif aide à anticiper."
+  },
+  {
+   "intertitre": "Contrôle et vigilance",
+   "texte": "Les organes de gouvernance veillent collectivement à la conformité du reporting et le comité d'audit, ou un autre organe spécialisé, contribue à l'intégrité de l'information de durabilité. Cette responsabilité des instances couvre aussi les normes ESRS et l'article 8 du règlement Taxonomie. Un contrôle interne solide et un dialogue précoce avec le vérificateur sont des atouts. Les mesures transitoires doivent s'inscrire dans une logique de progrès. Le principe des informations disponibles « sans coûts ou efforts excessifs » n'est pas une simple dispense. Les entreprises doivent être transparentes sur leurs difficultés. L'AMF prend aussi en compte dans ses contrôles les priorités annuelles de supervision de l'ESMA."
+  }
+ ],
+ "synthese": "La CSRD reste un cadre de reporting normalisé et vérifié, mais l'Omnibus réduit fortement son champ et simplifie les normes. L'AMF invite les entreprises à anticiper l'expertise, l'organisation, les données et le contrôle interne.",
+ "republication": ""
+}

@@ -1,0 +1,29 @@
+{
+ "titre": "Médicaments : l'ANSM alerte sur les conseils dangereux de l'IA",
+ "chapo": "L'Agence nationale de sécurité du médicament (ANSM) prévient que les conseils de l'intelligence artificielle sur la prise de médicaments « peuvent être dangereux » pour la santé des patients.",
+ "sections": [
+  {
+   "intertitre": "Ce que l'agence a constaté",
+   "texte": "De plus en plus de personnes se tournent vers l'intelligence artificielle pour obtenir un avis médical, en particulier sur la prise de médicaments. Cette pratique n'est pas sans risque pour la santé. En deux ans, entre 2024 et 2026, l'ANSM a recensé au moins huit cas de surdosage médicamenteux liés à des conseils donnés par une IA. Les personnes concernées avaient de 17 à 89 ans, et la moitié d'entre elles entre 17 et 19 ans. L'une d'elles a dû être hospitalisée. L'alerte est datée du jeudi 26 novembre par franceinfo, tandis qu'ici.fr la situe « ce mercredi »."
+  },
+  {
+   "intertitre": "Les médicaments en cause",
+   "texte": "Parmi les exemples cités par l'agence figurent deux cas de surdosage de paracétamol, un excès qui peut provoquer des lésions irréversibles au foie. L'ANSM mentionne aussi le cas d'une femme enceinte qui, après avoir suivi les indications de son IA, a pris une quantité trop importante d'antimigraineux. Elle évoque également des surdosages d'antiallergiques, d'antibiotiques, de sédatifs ou d'anxiolytiques."
+  },
+  {
+   "intertitre": "Au-delà de l'automédication",
+   "texte": "Ces patients recourent à l'IA pour se soigner eux-mêmes, mais le risque ne s'arrête pas là. Selon Alexandre de la Volpilière, directeur adjoint de l'ANSM, ils peuvent aussi parfois suivre « un conseil sur un médicament qu'on a sur ordonnance ». Il donne cet exemple : « Le patient peut se dire \"Je vais mieux, j'arrête mon traitement\" ou augmenter ses doses. »"
+  },
+  {
+   "intertitre": "Un risque appelé à grandir",
+   "texte": "Le nombre de cas recensés paraît peu élevé. Mais « il est probable qu'il y ait une sous-estimation de la déclaration de ces types de cas », explique sur franceinfo le directeur adjoint de l'agence. Il estime en outre que le phénomène pourrait prendre de l'ampleur : « On a un risque de voir se multiplier ce genre de situation », prévient-il."
+  },
+  {
+   "intertitre": "La consigne à retenir",
+   "texte": "Pour Alexandre de la Volpilière, la règle est claire : « On n'augmente pas ses doses tout seul, ni en demandant à une IA. On demande à un professionnel de santé. » Dans son communiqué, l'ANSM souligne de son côté les limites de ces logiciels : « Les outils d'IA peuvent fournir des informations inexactes, contradictoires ou inadaptées à une situation individuelle et vous mettre en danger. »"
+  }
+ ],
+ "synthese": "L'ANSM relève au moins huit surdosages liés à des conseils d'IA en deux ans, un chiffre probablement sous-estimé. Face aux informations parfois inexactes ou inadaptées de ces outils, elle rappelle qu'il faut s'adresser à un professionnel de santé avant de modifier ses doses.",
+ "republication": "",
+ "sources_ecartees": []
+}

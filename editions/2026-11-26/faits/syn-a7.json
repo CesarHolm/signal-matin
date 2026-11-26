@@ -1,0 +1,29 @@
+{
+ "titre": "Gemini : des agents d'IA pilotent une partie du calcul chez Google DeepMind",
+ "chapo": "Des agents d'IA mènent des expériences pour le prochain modèle Gemini, mais Google DeepMind se dit encore loin d'une IA capable de s'améliorer entièrement par elle-même.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est annoncé",
+   "texte": "Koray Kavukcuoglu, vice-président de la recherche et responsable du développement de Gemini, l'a expliqué à Hannah Fry dans l'épisode 35 du podcast de Google DeepMind, publié le 19 novembre 2026. Une partie de la puissance de calcul utilisée pour Gemini est désormais sous le contrôle d'agents, des programmes d'IA qui y lancent eux-mêmes des expériences. Il souligne que Gemini compte parmi les outils essentiels sur lesquels son équipe s'appuie pour construire sa version suivante. La part de calcul concernée n'est pas chiffrée : selon le site explainx.ai, qui n'a pas pu la vérifier, elle n'a été évoquée que de façon qualitative."
+  },
+  {
+   "intertitre": "Loin d'une boucle autonome",
+   "texte": "L'auto-amélioration récursive désignerait un système capable d'explorer des données, de proposer des architectures, de mener les expériences de vérification, d'entraîner des modèles candidats et de choisir la génération suivante, le tout sans sortir de la boucle. « Nous en sommes encore un peu loin », répond en substance Kavukcuoglu. Il écarte l'image d'un bouton que l'on presserait pour obtenir Gemini 13, 14 puis 15 sans que des humains fixent les objectifs. D'après explainx.ai, l'automatisation reste partielle : les agents explorent des hypothèses, entraînent à petite échelle et lisent les mesures, dans le cadre d'objectifs définis par des humains. Avant d'automatiser la boucle complète, les modèles devraient comprendre les objectifs, les données, la méthode de recherche, la conception des expériences et les critères de sélection. Kavukcuoglu reconnaît que tous les laboratoires de pointe investissent dans ce type d'automatisation, chacun mesurant les progrès à sa manière."
+  },
+  {
+   "intertitre": "Un raisonnement laissé lisible",
+   "texte": "Par mesure de sécurité, DeepMind ne récompense pas pendant l'entraînement le fil de pensée interne des agents, appelé « chain of thought ». Selon Kavukcuoglu, leurs intentions restent ainsi non filtrées et peuvent être examinées en langage courant avant qu'ils n'agissent. Explainx.ai y voit une leçon de gouvernance pour les équipes qui déploient des agents : pouvoir lire leurs plans, tenir un journal de leurs actions, plafonner leur budget et prévoir qui les approuve ou les arrête. Le site conseille aussi d'exiger une validation humaine avant qu'une modification suggérée par un agent ne touche aux mélanges de données ou aux filtres de sécurité."
+  },
+  {
+   "intertitre": "Un seul algorithme général",
+   "texte": "Kavukcuoglu présente ce choix comme un tournant stratégique du laboratoire. Au lieu d'équipes séparées pour des projets spécialisés, comme AlphaFold ou la fusion nucléaire, DeepMind s'appuie désormais sur un seul algorithme généraliste, au service de la science comme des produits. Chaque génération de Gemini reste toutefois une construction unique, faite à la main, et non une architecture fixe, tandis que des équipes parallèles travaillent déjà aux suivantes. Explainx.ai relève que ce point disparaît souvent quand on imagine un squelette unique et figé de Gemini."
+  },
+  {
+   "intertitre": "Les limites et l'IA générale",
+   "texte": "Le responsable reconnaît des lacunes. Les modèles actuels représentent de façon visuellement convaincante des phénomènes physiques, comme l'écoulement des fluides ou des collisions, sans les comprendre précisément. Selon lui, aucun test ne permet de dire quand ces manques seront comblés ni quand l'intelligence artificielle générale (AGI) sera atteinte, car aucun banc d'essai ne saisit le cœur de l'intelligence. L'AGI ne commencerait que lorsque des produits utiles au quotidien auront gagné assez de confiance pour qu'on leur délègue des décisions, comme à des collègues. Explainx.ai souligne que cet écart compte pour les travaux scientifiques et les simulateurs de robotique : de belles images ne garantissent pas des prédictions fiables. Il recommande de compléter la recherche automatisée par des tests capables de réfuter les résultats dans chaque domaine."
+  }
+ ],
+ "synthese": "Google DeepMind confie à des agents une part des expériences menées pour le futur Gemini, tout en gardant les humains aux commandes des objectifs. L'auto-amélioration complète reste, de l'aveu même de son responsable, encore éloignée.",
+ "republication": "",
+ "sources_ecartees": []
+}
