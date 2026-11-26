@@ -1,25 +1,7 @@
 {
- "tour": 2,
- "code": 3,
- "a_faire": [
-  "breves",
-  "syn-a105",
-  "syn-a116",
-  "syn-a125",
-  "syn-a138",
-  "syn-a156",
-  "syn-a163",
-  "syn-a182",
-  "syn-a19",
-  "syn-a2",
-  "syn-a20",
-  "syn-a36",
-  "syn-a43",
-  "syn-a51",
-  "syn-a7",
-  "syn-a84",
-  "syn-a94"
- ],
- "termine": false,
- "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  198 articles candidats, 1 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 25 candidats → 5 à développer, 4 brèves\n  france : 30 candidats → 5 à développer, 3 brèves\n  monde : 52 candidats → 5 à développer, 3 brèves\n  recherche : 19 candidats → 4 à développer, 4 brèves\n  veille : 31 candidats → 4 à développer, 2 brèves\n  curiosites : 41 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a7 complété par : explainx.ai\n  a20 complété par : Colorado Attorney General (.gov)\n  a43 complété par : franceinfo, ici.fr\n  a105 complété par : Al Jazeera\n  a94 complété par : Al Jazeera\n  a81 écarté des développés : texte trop court (659 car.)\n  a84 complété par : Asian Law Caucus, ABC7 Bay Area\n  a116 : papier lu en PDF (40007 car.)\n  a138 complété par : safety4sea\n  a157 écarté des développés : texte trop court (2102 car.)\n  plan : sans pages, 16 articles (16 longs)\n· Lot 2 : synthèses (Sonnet)\n… 17 demande(s) en attente : breves, syn-a2, syn-a7, syn-a20, syn-a19, syn-a36, syn-a51, syn-a43, syn-a105, syn-a94, syn-a84, syn-a116, syn-a125, syn-a138, syn-a156, syn-a182, syn-a163\nA_FAIRE 17 : a_faire/breves.json a_faire/syn-a2.json a_faire/syn-a7.json a_faire/syn-a20.json a_faire/syn-a19.json a_faire/syn-a36.json a_faire/syn-a51.json a_faire/syn-a43.json a_faire/syn-a105.json a_faire/syn-a94.json a_faire/syn-a84.json a_faire/syn-a116.json a_faire/syn-a125.json a_faire/syn-a138.json a_faire/syn-a156.json a_faire/syn-a182.json a_faire/syn-a163.json\n"
+ "tour": 3,
+ "code": 0,
+ "a_faire": [],
+ "termine": true,
+ "journal": "=== agent ===\n· Mots du jour\n· Jeux\n· Candidats repris du cache\n  198 articles candidats, 1 flux en erreur\n· Lot 1 : tri des blocs (Haiku)\n  ia : 25 candidats → 5 à développer, 4 brèves\n  france : 30 candidats → 5 à développer, 3 brèves\n  monde : 52 candidats → 5 à développer, 3 brèves\n  recherche : 19 candidats → 4 à développer, 4 brèves\n  veille : 31 candidats → 4 à développer, 2 brèves\n  curiosites : 41 candidats → 4 à développer, 4 brèves\n· Récupération des articles complets\n  a81 écarté des développés : texte trop court (659 car.)\n  a157 écarté des développés : texte trop court (2102 car.)\n  plan : sans pages, 16 articles (16 longs)\n· Lot 2 : synthèses (Sonnet)\n! Flux indisponibles : ESA\n✓ Édition prête : 16 articles, 20 brèves\n=== agent ===\n✓ Version numérique : /home/runner/work/signal-matin/signal-matin/output/mobile/2026-11-26-signal-matin.html\n· Envoi via Resend (HTTPS)\n✓ E-mail envoyé (1 destinataire(s))\n"
 }
