@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a36",
+      "score": 8,
+      "raison": "Budget 2027 : le Sénat approuve un effort de cinq milliards d'euros demandé aux grandes entreprises, malgré la frilosité habituelle de la droite sur la fiscalité des entreprises."
+    },
+    {
+      "id": "a51",
+      "score": 7,
+      "raison": "Présidentielle 2027 : près d'un maire sur deux envisage de ne parrainer aucun candidat, par crainte de l'étiquette politique et lassitude."
+    },
+    {
+      "id": "a43",
+      "score": 7,
+      "raison": "L'Agence du médicament met en garde contre les conseils médicaux donnés par l'IA, qui peuvent provoquer des surdosages aux conséquences irréversibles."
+    },
+    {
+      "id": "a31",
+      "score": 6,
+      "raison": "Sécheresse des sols en recul, mais réserves en eau des bassins et recharge des nappes encore très faibles."
+    },
+    {
+      "id": "a50",
+      "score": 5,
+      "raison": "Le ministre de l'Éducation annonce une baisse du nombre d'élèves par classe à la rentrée, de la maternelle au lycée."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a45",
+      "titre": "À Mayotte, un élève de 16 ans meurt après des affrontements dans un lycée",
+      "texte": "Des affrontements entre jeunes de Combani, Ouangani et Barakani ont éclaté pendant la récréation au lycée professionnel de Kahani. Trois élèves ont été blessés, dont l'un, âgé de 16 ans, est décédé après avoir été frappé avec des ciseaux."
+    },
+    {
+      "id": "a34",
+      "titre": "La moitié des chèques du Trésor public bloquée depuis quarante jours",
+      "texte": "La grève de quatre agents du centre de Rennes, dernier centre d'encaissement des chèques du Trésor public, bloque près de 150 millions d'euros selon les syndicats. Le personnel réclame une prime."
+    },
+    {
+      "id": "a38",
+      "titre": "Jeudi : grève étudiante et enseignante du supérieur, fonctionnaires le 1er décembre",
+      "texte": "Seules les organisations étudiantes et de l'enseignement supérieur ont appelé à la grève et aux manifestations jeudi. Les fonctionnaires se mobiliseront le 1er décembre."
+    }
+  ]
+}

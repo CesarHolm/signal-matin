@@ -1,0 +1,36 @@
+{
+  "developpes": [
+    {
+      "id": "a138",
+      "score": 8,
+      "raison": "Le dernier paquet de sanctions de l'UE contre la Russie prévoit une interdiction des pétroliers assurés en Russie."
+    },
+    {
+      "id": "a157",
+      "score": 7,
+      "raison": "Transposition du devoir de vigilance européen : Sherpa analyse les marges de manœuvre laissées à la France."
+    },
+    {
+      "id": "a156",
+      "score": 7,
+      "raison": "Nouvelle directive CSRD : l'AMF explique comment s'y préparer."
+    },
+    {
+      "id": "a158",
+      "score": 6,
+      "raison": "MBDA, groupe lié à Airbus, poursuivi pour manquement à son devoir de vigilance, dans un dossier lié à Gaza."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a152",
+      "titre": "L'autorité européenne anti-blanchiment fixe des règles pour harmoniser les amendes",
+      "texte": "Selon MLex, l'AMLA a fixé des règles destinées à harmoniser le calcul des amendes en matière de lutte contre le blanchiment."
+    },
+    {
+      "id": "a142",
+      "titre": "Le Trésor américain sanctionne plus de deux douzaines de banques parallèles iraniennes",
+      "texte": "Le Trésor américain a sanctionné plus de deux douzaines de banques parallèles iraniennes. Dans le même temps, FinCEN signale 14,7 milliards de dollars de flux suspects."
+    }
+  ]
+}

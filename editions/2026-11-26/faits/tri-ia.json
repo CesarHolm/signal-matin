@@ -1,0 +1,51 @@
+{
+  "developpes": [
+    {
+      "id": "a2",
+      "score": 9,
+      "raison": "Bulle de l'IA : 720 à 740 milliards de dollars d'investissements annuels face à des revenus de l'IA bien plus faibles, comblés par la dette et la Bourse."
+    },
+    {
+      "id": "a7",
+      "score": 8,
+      "raison": "DeepMind confie à des agents IA une partie des expériences de ses modèles Gemini, sans que l'auto-amélioration récursive soit proche selon son responsable."
+    },
+    {
+      "id": "a20",
+      "score": 8,
+      "raison": "Faillite de Character.AI : des procureurs d'États américains contestent la vente aux enchères de conversations privées de 21 millions de comptes."
+    },
+    {
+      "id": "a19",
+      "score": 7,
+      "raison": "New York interdit pour cinq ans les jouets à chatbot IA, après des recherches sur des défaillances de sécurité."
+    },
+    {
+      "id": "a1",
+      "score": 5,
+      "raison": "Les systèmes américains de documents publics sont saturés par les demandes, y compris dans de petites communes."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a5",
+      "titre": "OpenAI teste un « Private Inference » pour traiter des données sensibles",
+      "texte": "OpenAI expérimente une fonction permettant aux entreprises d'exécuter des requêtes sur ses modèles les plus puissants, sans qu'OpenAI puisse accéder aux données."
+    },
+    {
+      "id": "a11",
+      "titre": "Des scénarios irréalistes rendent les prévisions climatiques par IA plus fiables",
+      "texte": "Une méthode du MIT permet aux modèles climatiques fondés sur l'IA de se contenter d'un seul entraînement, au lieu de six à huit. Un algorithme génère volontairement des scénarios extrêmes de CO2 ou de méthane pour renforcer le modèle."
+    },
+    {
+      "id": "a22",
+      "titre": "Amazon et Meta discutent de la levée du blocage de l'agent d'achat Muse",
+      "texte": "Les deux groupes négocient un accord qui mettrait fin à un blocage de deux mois de Muse, l'agent d'achat IA de Meta, sur la boutique en ligne d'Amazon."
+    },
+    {
+      "id": "a25",
+      "titre": "L'IA pourrait changer le métier de physicien théoricien",
+      "texte": "Des modèles d'IA de pointe résolvent déjà des problèmes qui prenaient auparavant une journée entière à des physiciens de premier plan."
+    }
+  ]
+}

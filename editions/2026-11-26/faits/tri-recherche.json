@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a116",
+      "score": 8,
+      "raison": "Sur 140 000 patients souffrant de troubles liés aux opioïdes, un meilleur accès à la buprénorphine double l'usage long terme du traitement et réduit de 3,7 points la mortalité à deux ans."
+    },
+    {
+      "id": "a125",
+      "score": 7,
+      "raison": "Affaire Gambie c. Myanmar : la CIJ reconnaît le viol et les violences reproductives comme partie intégrante de la destruction des Rohingyas."
+    },
+    {
+      "id": "a113",
+      "score": 6,
+      "raison": "Zones à faibles émissions : l'étude théorique et empirique conclut que leur taille optimale est soit maximale, soit nulle."
+    },
+    {
+      "id": "a111",
+      "score": 5,
+      "raison": "Recherche d'emploi en cours d'activité : analyse comparative de 11 pays de la zone euro et des États-Unis, à partir d'enquêtes de la BCE et de la Fed de New York."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a128",
+      "titre": "Prééclampsie : miser sur la mise en œuvre des solutions connues",
+      "texte": "Selon une perspective publiée dans PLOS Medicine, la mortalité maternelle stagne depuis cinq ans et la prééclampsie reste une cause majeure de décès. Les auteurs plaident pour des soins prénatals de qualité et des accouchements précoces planifiés."
+    },
+    {
+      "id": "a112",
+      "titre": "Les décotes des pensions adossées à des hedge funds restent étonnamment stables",
+      "texte": "Selon une note de la Réserve fédérale, les décotes (haircuts) appliquées aux prêts de pensions des hedge funds restent étonnamment stables. Les décotes nulles y sont fréquentes dans la relation entre dealers et clients."
+    },
+    {
+      "id": "a115",
+      "titre": "Les assureurs-vie américains ont unifié leur marché de capitaux entre 1880 et 1890",
+      "texte": "Selon une étude du NBER, la distance moyenne des obligations détenues par les assureurs-vie a plus que doublé entre 1880 et 1890, et leur part dans leur État d'origine est tombée sous un quart. L'intégration était largement achevée en 1890."
+    },
+    {
+      "id": "a126",
+      "titre": "Violences sexuelles sur les campus : une disposition de la loi VAWA reste à appliquer",
+      "texte": "Selon Verfassungsblog, une disposition de la réautorisation de la loi VAWA en 2022 pourrait changer la donne, à condition que le gouvernement fédéral la mette en pratique."
+    }
+  ]
+}

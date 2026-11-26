@@ -1,0 +1,62 @@
+{
+  "resultats": [
+    {
+      "sport": "Football",
+      "affiche": "Paris Saint-Germain – AS Roma",
+      "score": "2-2",
+      "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915374/as-roma-paris-saint-germain"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Lille – Bayern Munich",
+      "score": "2-1",
+      "competition": "Ligue des champions (coupe d'Europe des clubs), phase de ligue",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915377/bayern-munich-lille"
+    },
+    {
+      "sport": "Tennis",
+      "affiche": "Italie – Corée du Sud",
+      "score": "2-1",
+      "competition": "Coupe Davis (sélections nationales), quarts de finale",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Tennis/Actualites/L-italie-se-sort-du-piege-tendu-par-la-coree-du-sud-en-quarts-de-finale-de-la-coupe-davis-un-choc-a-venir-en-demi-finales-contre-la-tchequie/1746242#at_medium=RSS_feeds"
+    },
+    {
+      "sport": "Basket",
+      "affiche": "Olympiakos – Hapoël Tel-Aviv",
+      "score": "104-79",
+      "competition": "Euroligue (coupe d'Europe des clubs)",
+      "source": "L'Équipe",
+      "url": "https://www.lequipe.fr/Basket/Actualites/L-olympiakos-prend-seul-la-tete-de-l-euroligue-evan-fournier-en-double-double-dans-la-victoire-contre-l-hapoel-tel-aviv/1746228#at_medium=RSS_feeds"
+    }
+  ],
+  "a_suivre": [
+    {
+      "sport": "Football",
+      "affiche": "Marseille – Levski Sofia",
+      "competition": "Ligue Europa (coupe d'Europe des clubs)",
+      "heure": "18 h 45",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915507/levski-sofia-marseille"
+    },
+    {
+      "sport": "Football",
+      "affiche": "Lyon – Lillestrom",
+      "competition": "Ligue Europa (coupe d'Europe des clubs)",
+      "heure": "21 h 00",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915501/lillestrom-lyon"
+    },
+    {
+      "sport": "Football",
+      "affiche": "NEC Nijmegen – Stade Rennais",
+      "competition": "Ligue Europa (coupe d'Europe des clubs)",
+      "heure": "21 h 00",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401915505/stade-rennais-nec-nijmegen"
+    }
+  ]
+}

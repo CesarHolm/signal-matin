@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a105",
+      "score": 9,
+      "raison": "Escalade au Moyen-Orient : les Houthis visent les ports saoudiens de la mer Rouge, Riyad intercepte des missiles et une explosion est signalée à Sanaa."
+    },
+    {
+      "id": "a94",
+      "score": 8,
+      "raison": "Kim Jong Un affirme que la Corée du Nord doit élargir le déploiement de ses armes nucléaires tactiques et considère toute contestation de son statut nucléaire comme une déclaration de guerre."
+    },
+    {
+      "id": "a81",
+      "score": 7,
+      "raison": "L'UE rejette l'argumentaire américain justifiant de nouveaux droits de douane, alors que Washington propose un prélèvement de 15 %."
+    },
+    {
+      "id": "a84",
+      "score": 7,
+      "raison": "Un juge fédéral bloque le dernier décret de Donald Trump restreignant le droit du sol."
+    },
+    {
+      "id": "a73",
+      "score": 6,
+      "raison": "La Cour européenne reprend les procédures contre la Pologne : le gouvernement Tusk risque des millions d'euros d'indemnités liées à la réforme judiciaire précédente."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a107",
+      "titre": "L'Australie et les Îles Salomon signent un accord qui écarte une base chinoise",
+      "texte": "Le texte interdit à Pékin d'installer une base militaire aux Îles Salomon, selon Le Grand Continent, qui y voit un revers pour la Chine dans le Pacifique."
+    },
+    {
+      "id": "a98",
+      "titre": "Israël : des juges recommandent l'abandon de la procédure pour corruption visant Netanyahu",
+      "texte": "Selon les juges israéliens, les chances de condamnation de Benjamin Netanyahu pour corruption sont faibles. Ils recommandent aux procureurs de mettre fin à l'affaire."
+    },
+    {
+      "id": "a92",
+      "titre": "Taïwan : des élections locales samedi, test pour le parti au pouvoir",
+      "texte": "Les élections locales se tiennent samedi dans 22 villes et comtés de Taïwan. Le scrutin est un test pour le Parti démocrate progressiste, au pouvoir, et pour l'unité de l'opposition."
+    }
+  ]
+}

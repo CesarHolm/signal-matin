@@ -1,0 +1,46 @@
+{
+  "developpes": [
+    {
+      "id": "a182",
+      "score": 8,
+      "raison": "Bactérie non pathogène capable de voyager dans les gazoducs : enjeu direct pour l'injection d'hydrogène dans les réseaux."
+    },
+    {
+      "id": "a163",
+      "score": 7,
+      "raison": "Risque majeur d'inondations à San Francisco, aggravé par El Niño : vulnérabilité d'infrastructures urbaines."
+    },
+    {
+      "id": "a173",
+      "score": 6,
+      "raison": "Enquête sur la confiance des Français dans la science, avec six chantiers identifiés."
+    },
+    {
+      "id": "a177",
+      "score": 5,
+      "raison": "Analyse de la culture nationale comme facteur de réussite de la transition énergétique."
+    }
+  ],
+  "breves": [
+    {
+      "id": "a170",
+      "titre": "Au large de la Turquie, la plus vieille épave jamais découverte",
+      "texte": "Une cargaison du début de l'âge du bronze a été identifiée au large de la Turquie, après 4 000 ans passés sous la mer. Il s'agirait de la plus vieille épave jamais découverte."
+    },
+    {
+      "id": "a204",
+      "titre": "Maya Cloetens, biathlète, vit avec le Red-s syndrome",
+      "texte": "La biathlète franco-belge de 24 ans a découvert ce syndrome, qui touche les sportifs de haut niveau dont l'apport énergétique est insuffisant. Sa première alerte fut une fracture de fatigue au pied, dix jours avant les JO de Milan-Cortina."
+    },
+    {
+      "id": "a185",
+      "titre": "La NASA étudie des cultures pour nourrir les astronautes",
+      "texte": "Des chercheurs examinent des plantes capables d'apporter fraîcheur et variété aux astronautes lors de missions vers la Lune et Mars. Des tests récents désignent notamment les fraises."
+    },
+    {
+      "id": "a196",
+      "titre": "Un nouvel article conteste les exemptions de cruauté pour les animaux d'élevage",
+      "texte": "Des pratiques jugées courantes dans l'élevage américain, comme l'épointage des becs de poulets sans anesthésie, sont exemptées de règles de cruauté. Un nouvel article critique ces exemptions."
+    }
+  ]
+}
