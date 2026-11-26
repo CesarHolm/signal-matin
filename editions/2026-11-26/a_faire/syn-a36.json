@@ -1,0 +1,64 @@
+{
+ "id": "syn-a36",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a36.json",
+ "limite_caracteres": 2500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 2500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Le Monde\nRubrique : France\nDate du flux : 26/11/2026\nAuteur : Le Monde avec AFP\nTitre d'origine : Budget 2027 : le Sénat approuve l’effort de cinq milliards d’euros demandé aux grandes entreprises\n\nARTICLE :\nLe Sénat a approuvé, mercredi 25 novembre dans la soirée, l’effort demandé aux grandes entreprises dans le projet de budget pour l’année 2027, soit environ 5 milliards d’euros demandés au titre du rétablissement des finances publiques, une décision appuyée par le ministre de l’économie, Roland Lescure.\nLa prolongation en 2027 de la surtaxe sur les bénéfices des grandes entreprises, à un taux réduit par rapport à 2026, a été adoptée par la chambre haute à main levée. La droite sénatoriale, qui domine l’hémicycle et se montre souvent frileuse sur la taxation des entreprises, a consenti à cette mesure, qu’elle a jugée nécessaire au rétablissement des comptes, en vue de contenir le déficit à 5 % du PIB en 2027.\n« Regardons l’état de notre déficit. Il faut que tout le monde fasse un effort, sinon on n’y arrivera jamais », a concédé la rapporteure générale, Christine Lavarde (Les Républicains, Hauts-de-Seine), assurant que les firmes ne contribueraient « pas de gaieté de cœur » mais qu’elles ont « conscience de l’environnement » économique actuel. Cette surtaxe, instaurée dans le budget 2025 puis reconduite en 2026, doit rapporter à l’Etat environ 5 milliards d’euros en 2027, contre plus de 7 milliards en 2026.\nElle s’accompagne d’un effort demandé aux entreprises du fret maritime – essentiellement l’armateur CMA CGM – pour 300 millions d’euros, également approuvé par le Sénat, qui a souhaité plafonner cette surtaxe afin qu’elle ne dépasse pas ce montant.\nUn signal adressé aux agences de notation\nRoland Lescure a soutenu le maintien de ces mesures, assurant qu’elles permettraient d’adresser « un signal très important » alors que l’agence de notation américaine S&P publiera vendredi son appréciation semestrielle sur la dette de la France. « Notre capacité collective va leur montrer qu’on est capable de redresser les comptes de manière ambitieuse », a-t-il affirmé aux sénateurs.\nLa gauche s’est abstenue, car elle regrettait la diminution de cet effort par rapport à 2026, certains sénateurs appelant le gouvernement à revoir sa copie sur cet article s’il souhaite avoir une chance d’aboutir à un « compromis », à la fin du marathon budgétaire.\nL’alliance Rassemblement national-Union des droites pour la République (UDR) et le groupe des Indépendants à majorité Horizons en ont, eux, demandé la suppression, sans plus de réussite. « Si chaque impôt temporaire peut être reconduit au budget suivant, alors la parole de l’Etat ne vaut plus », a regretté la sénatrice UDR Gaëlle Frontoni.\nLe Sénat poursuit jusqu’à la fin de la semaine l’examen de la partie recettes du projet de budget de l’Etat. La chambre haute a notamment approuvé, mercredi, divers articles comme le « pacte Papin », du nom du ministre du commerce, Serge Papin, censé faciliter les transmissions d’entreprises. Le gouvernement a souhaité y intégrer, par le biais d’amendements qui ont été adoptés, un coup de pouce fiscal en faveur des agriculteurs touchés par la sécheresse de l’été.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

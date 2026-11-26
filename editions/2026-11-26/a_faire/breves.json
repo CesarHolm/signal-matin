@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a81\", \"source\": \"Politico Europe\", \"titre\": \"EU rejects Trump’s case for new tariffs\", \"resume\": \"Brussels disputes Washington’s finding that Europe is fueling global industrial overcapacity as the U.S. proposes a 15% levy.\"}, {\"id\": \"a157\", \"source\": \"Sherpa\", \"titre\": \"Transposition de la directive européenne sur le devoir de vigilance : quelle marge de manœuvre pour la France ?\", \"resume\": \"Transposition de la directive européenne sur le devoir de vigilance : quelle marge de manœuvre pour la France ? Sherpa\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

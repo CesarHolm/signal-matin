@@ -1,0 +1,64 @@
+{
+ "id": "syn-a19",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a19.json",
+ "limite_caracteres": 3230,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3230 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : TechCrunch\nRubrique : IA\nDate du flux : 25/11/2026\nAuteur : Rebecca Bellan\nTitre d'origine : Want to buy your kid an AI toy this Christmas? Not in New York\n\nARTICLE :\nSanta won’t be delivering any AI chatbot toys to New York kids this Christmas.\nGov. Kathy Hochul this week signed a bill banning the manufacture, distribution, and sale of such toys in New York for the next five years. The bill explicitly targets toys with embedded or integrated AI chatbots, like talking stuffed animals, dolls, and robots that rely on the internet to keep kids yapping.\nThe bill makes New York the second state after California to institute a ban on AI toys.\nTechnically, the new law takes effect 90 days after signing, so some parents could try to fulfill their kids’ wish lists for a creepy toy like a jumped-up Furby in time for the holidays, but the governor urges them not to, given the risks. Apparently, about a quarter of American parents with kids under eight either own an AI toy or are considering giving their child one this holiday season, according to a new study released this week by Common Sense Media.\n“Parents shopping for gifts for the holidays or any other occasion should not have to worry that dangerous chatbots disguised as toys could expose their children to inappropriate conversations, manipulate their feelings or put their privacy at risk,” Hochul said, calling the toys “unregulated artificial intelligence.”\nWhen asked how New York will enforce the ban given the pervasiveness of e-commerce platforms, a spokesperson directed TechCrunch to a statement from Albert Pulido, deputy secretary for finance and technology: “We’re partnering closely with the attorney general on this and the fees are very steep — they’re $15,000 a day. So working closely with the attorney general will make sure these toys are banned in New York State.”\nWhen asked how Amazon intends to help enforce the ban, including for third-party sellers, a spokesperson from the company said it will take steps to restrict the sale of AI-enabled toys in prohibited jurisdictions, without going into specifics.\nThe Common Sense Media study found that AI toys can undermine children’s human relationships and expose them to inappropriate content. The researchers tested five popular AI toys marketed for learning and companionship, including Grem, Lovi, Meemo Bear, BubblePal Panda, and Tavlshero‘s AI Puppy.\nThe study found that the toys failed to meet numerous safety practices, undermining human relationships in part by claiming they loved their users, promising to keep secrets, suggesting they were more fun than real relationships or school, and helping children break parents’ bedtime rules.\nWhile most of the toys in the study refused direct requests involving sex and violence, BubblePal Panda role-played a mass shooting in detail when asked. Most were willing to explain how to use or help locate dangerous items like matches, knives, and pills, according to the study.\nCommon Sense Media also found that the toys didn’t provide parents with reliable ways to monitor their young children’s interactions with the chatbots. Either they didn’t produce transcripts of chats at all, or the transcripts they did produce were riddled with errors.\nIt’s worth noting that Common Sense Media conducted a similar test of AI toys in January, finding that they pose an unacceptable risk for young children. Grem was included in that study, which suggests the industry hasn’t adequately addressed previously documented concerns.\nWhile a November study conducted by the group found that parents are wising up to the potential dangers of AI toys and starting to steer clear, parents from lower-income households and those experiencing symptoms of burnout are more willing to consider them.\n“These toys are promising relief to burned-out parents but simply miss the mark when it comes to basic safety measures,” Dr. Jenny Radesky, associate professor of pediatrics at the University of Michigan Medical School, said in a statement. “Caregivers should steer clear of these products that do not support the development of imagination or early human relationships.”\nTechCrunch has reached out to the toy manufacturers for comment.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

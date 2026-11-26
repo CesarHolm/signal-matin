@@ -1,0 +1,64 @@
+{
+ "id": "syn-a138",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a138.json",
+ "limite_caracteres": 4482,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4482 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Baird Maritime\nRubrique : Sanctions et export\nDate du flux : 26/11/2026\nAuteur : Will Xavier\nTitre d'origine : EU's latest sanctions package includes ban on tankers insured in Russia\n\nARTICLE :\nSOURCE 1 (Baird Maritime) :\nEuropean Commission President Ursula von der Leyen said earlier this week that the European Union's proposed 22nd sanctions package against Russia would ban tankers insured in Russia and add more than 70 vessels to the bloc's list of designated “shadow fleet” ships.\nThe package would also prohibit European companies from helping construct, operate or repair Russian energy facilities, refineries included, and would apply energy services restrictions to electricity services for the first time.\nThe package requires the approval of all 27 EU member states.\n\"The aim is to keep pressure on Russia to end their war of aggression in Ukraine,” von der Leyen said. “And we will continue to propose new sanctions until Russia shows genuine intent for a lasting peace in Ukraine.”\nThe announcement did not define \"insured in Russia\". Possible tests include the direct insurer's domicile, the place where the policy is placed, ownership, or Russian participation in co-insurance or reinsurance.\nThe announcement also did not say whether the test extends beyond P&I cover, whether transits of the Danish straits would be covered, or when the ban would apply.\nAccording to Platts, an S&P Global analysis found no oil or chemical tankers insured by Russian firms among vessels that had discharged cargo in the Netherlands in November up to the time of its analysis. Lloyd's List reported that Russian or Russia-linked cover was declared for roughly one in three tanker transits in the Baltic.\nAmong the 166 shadow fleet tankers it tracked carrying Russian oil in August, KSE Institute identified Russian insurance for 52. At least one of the six jurisdictions it monitors had sanctioned 48 of the ships, and 15 flew the Russian flag.\nUnder existing rules, vessels listed in Annex XLII of Council Regulation (EU) No 833/2014 are generally barred from EU ports and specified services. If the insurance ban is applied to port calls, it could exclude an unlisted tanker carrying non-Russian cargo on insurance grounds alone.\nMaritime claims certificates required under Directive 2009/20/EC already name the insurer and its principal place of business. A genuine certificate confirms that cover exists but does not establish whether the insurer would pass a separate sanctions test.\nNorway's financial regulator ordered Norway-registered Romarine to stop unauthorised activities on March 4, 2025, and later publicly warned that the firm was not registered as an insurance provider.\nRomarine said it operated in line with applicable regulations.\nGermany began asking passing tankers about their oil pollution liability cover in July 2025.\nTanya Stepanova of S&P Global Energy CERA told Platts that European firms had withdrawn from Russia's refining sector almost immediately after the war began.\n\"For that reason, I do not expect the immediate impact of this sanction package to be material,\" she said.\nThe EU's 21st package, adopted in July, added 41 vessels to the designated list.\n\nSOURCE 2 (safety4sea) :\nThe European Commission has proposed banning tankers insured in Russia and sanctioning more than 70 additional vessels linked to Russia’s shadow fleet.\nn November 23, European Commission President Ursula von der Leyen unveiled the EU’s proposed 22nd package of sanctions against Russia, introducing further restrictions targeting the country’s energy and financial sectors while strengthening efforts to prevent sanctions circumvention.\nOf particular relevance to shipping, the package proposes a ban on all tanker vessels insured in Russia, alongside the expansion of the EU’s list of sanctioned vessels associated with Russia’s shadow fleet.\nThe Commission also plans to broaden existing restrictions on energy services, preventing European companies from participating in the construction, operation or repair of Russian energy infrastructure, particularly oil refineries. For the first time, these restrictions would also extend to electricity services.\nThe proposed measures could have further implications for Russian oil and petroleum product trades, as well as for marine insurance providers and shipping companies involved in transporting Russian energy commodities.\nBeyond the energy and shipping sectors, the proposed sanctions package includes:\n- Extending transaction restrictions to approximately 60 Russian banks and removing them from the SWIFT system.\n- Tightening restrictions on cryptocurrency platforms and payment networks, including those in third countries facilitating sanctions circumvention.\n- Establishing a Crypto Sanctions Task Force to strengthen enforcement and international cooperation.\n- Prohibiting EU nationals from holding positions on the governing bodies of Russian companies.\n- Introducing additional visa, sporting and cultural restrictions.\nAccording to the European Commission, the latest package seeks to maintain economic pressure on Russia, restrict its ability to finance the war in Ukraine and strengthen the enforcement of existing sanctions.\nThe proposed measures remain subject to unanimous approval by all 27 EU member states. Further details regarding the scope, implementation and potential exemptions of the tanker insurance ban have yet to be announced.\nThe measures build on the EU’s 21st sanctions package against Russia, adopted on July 23, 2026, which added 41 vessels to the sanctions list, bringing the total to 673. The package also extended restrictions to vessels providing operational support to Russia’s shadow fleet, including bunkering services, and introduced further measures targeting Russian oil refineries.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
