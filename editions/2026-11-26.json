@@ -1,0 +1,373 @@
+{
+ "date": "2026-11-26",
+ "nouveaux_mots": [
+  {
+   "mot": "Laconique",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui s'exprime en peu de mots.",
+   "exemple": "Il répondit d'un ton laconique : « Non. »"
+  },
+  {
+   "mot": "Intrépide",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Qui ne craint pas le danger ; audacieux.",
+   "exemple": "Une alpiniste intrépide."
+  },
+  {
+   "mot": "Circonspect",
+   "nature": "adj.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Qui agit avec prudence et réserve.",
+   "exemple": "La direction reste circonspecte sur ce projet."
+  },
+  {
+   "mot": "Thuriféraire",
+   "nature": "n. m.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Flatteur zélé, admirateur inconditionnel ; au propre, porte-encensoir.",
+   "exemple": "Les thuriféraires du dirigeant ont applaudi."
+  },
+  {
+   "mot": "Idempotent",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Se dit d'une opération qui donne le même résultat qu'on l'applique une ou plusieurs fois.",
+   "exemple": "Une requête d'API idempotente."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Opposabilité",
+   "definition": "Qualité d'un acte qui peut être invoqué à l'égard des tiers."
+  },
+  {
+   "mot": "Clause léonine",
+   "definition": "Clause qui attribue à une partie la totalité des profits ou l'exonère de toute perte, réputée non écrite en droit des sociétés."
+  },
+  {
+   "mot": "Acédie",
+   "definition": "Torpeur de l'âme, dégoût mélancolique pour l'effort et la vie spirituelle."
+  },
+  {
+   "mot": "Désinvolte",
+   "definition": "Qui fait preuve d'une liberté d'allure excessive, d'un manque de sérieux ou d'égards."
+  },
+  {
+   "mot": "Dirimant",
+   "definition": "Qui fait obstacle de façon absolue, qui annule."
+  }
+ ],
+ "articles": [
+  "https://www.actuia.com/actualite/bulle-de-lia-qui-paiera-la-note-si-elle-eclate/",
+  "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+  "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+  "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+  "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+  "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
+  "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+  "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+  "https://www.lemonde.fr/politique/article/2026/11/26/budget-2027-le-senat-approuve-l-effort-de-cinq-milliards-d-euros-demande-aux-grandes-entreprises_6815197_823448.html",
+  "https://www.publicsenat.fr/actualites/politique/je-ne-veux-pas-detiquette-pourquoi-certains-maires-rechignent-a-parrainer-les-candidats-de-2027",
+  "https://www.franceinfo.fr/sante/medicament/l-agence-du-medicament-met-en-garde-contre-les-conseils-de-l-ia-qui-peuvent-etre-dangereux-pour-la-sante-des-patients_8300325.html#xtor=RSS-3-[lestitres]",
+  "https://la1ere.franceinfo.fr/mayotte/un-adolescent-de-16-ans-meurt-apres-des-violences-au-lycee-de-kahani-1761575.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/politique/article/2026/11/25/la-moitie-des-cheques-au-tresor-public-bloquee-depuis-quarante-jours-en-raison-de-la-greve-de-quatre-agents_6815142_823448.html",
+  "https://www.franceinfo.fr/societe/education/blocage-des-lycees/etudiants-enseignants-du-superieur-policiers-a-quoi-faut-il-s-attendre-pour-la-mobilisation-de-jeudi_8299044.html#xtor=RSS-3-[lestitres]",
+  "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate?traffic_source=rss",
+  "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
+  "https://www.scmp.com/news/us/politics/article/3375818/us-federal-court-blocks-new-trump-birthright-citizenship-executive-order",
+  "https://www.politico.eu/article/eu-rejects-donald-trump-case-for-new-tariffs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+  "https://legrandcontinent.eu/fr/2026/11/25/laccord-signe-entre-laustralie-et-les-iles-salomon-marque-un-revers-pour-pekin/",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/26/judges-recommend-prosecutors-end-corruption-case-against-netanyahu?traffic_source=rss",
+  "https://www.nber.org/papers/w36041#fromrss",
+  "https://verfassungsblog.de/sexual-gender-based-violence-gambia-myanmar/",
+  "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005306",
+  "https://www.federalreserve.gov/econres/notes/feds-notes/the-surprising-stability-of-hedge-fund-repo-haircuts-20261125.html",
+  "https://www.nber.org/papers/w36040#fromrss",
+  "https://verfassungsblog.de/cornell-seven-title-ix/",
+  "https://www.bairdmaritime.com/security/incidents/piracy/eu-proposes-tanker-insurance-ban",
+  "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/le-reporting-de-durabilite-csrd-se-preparer-aux-nouvelles-obligations",
+  "https://www.mlex.com/mlex/amp/articles/2559706",
+  "https://thenationaltelegraph.com/news/treasury-sanctions-iran-shadow-banking-fincen-14-7-billion/",
+  "https://theconversation.com/le-voyageur-clandestin-a-la-decouverte-de-cette-bacterie-qui-circule-dans-les-reseaux-de-gaz-296325",
+  "https://www.sciencesetavenir.fr/nature-environnement/la-californie-redoute-de-fortes-inondations-sous-l-effet-des-grandes-marees-d-el-nino-et-de-l-ocean-surchauffe_196376?xtor=RSS-15",
+  "https://www.sciencesetavenir.fr/archeo-paleo/une-decouverte-exceptionnelle-une-epave-vieille-de-plus-de-4-000-ans-retrouvee-en-mer_196263?xtor=RSS-4",
+  "https://www.franceinfo.fr/sports/sports-d-hiver/biathlon/j-ai-les-os-d-une-femme-de-60-ans-comment-la-biathlete-maya-cloetens-vit-avec-le-red-s-syndrome_8299710.html#xtor=RSS-3-%5Bsports%5D",
+  "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
+  "https://insideclimatenews.org/news/25112026/agriculture-animal-cruelty-exemptions/"
+ ],
+ "titres": [
+  "Bulle de l'IA : qui paierait la note en cas d'éclatement ?",
+  "Gemini : des agents d'IA pilotent une partie du calcul chez Google DeepMind",
+  "Character.AI : 42 procureurs contre la vente aux enchères de conversations",
+  "New York interdit pour cinq ans les jouets dotés d'un robot conversationnel",
+  "Budget 2027 : le Sénat valide 5 milliards d'effort des grandes entreprises",
+  "Présidentielle 2027 : des maires rechignent à parrainer les candidats",
+  "Médicaments : l'ANSM alerte sur les conseils dangereux de l'IA",
+  "Les Houthis visent les ports saoudiens de la mer Rouge, l'escalade s'accentue",
+  "Corée du Nord : Kim Jong Un veut élargir le déploiement du nucléaire tactique",
+  "Droit du sol : un juge fédéral bloque le nouveau décret de Donald Trump",
+  "Addiction aux opioïdes : la buprénorphine aide aussi à redresser les finances",
+  "Rohingya : les violences sexuelles au cœur du génocide reconnu par la CIJ",
+  "Russie : Bruxelles veut interdire les pétroliers assurés dans le pays",
+  "CSRD : ce que les entreprises doivent préparer après la réforme Omnibus",
+  "Dans les gazoducs, une bactérie inconnue voyage sur des centaines de kilomètres",
+  "San Francisco sous la menace de graves inondations à la veille de Thanksgiving"
+ ],
+ "solutions": {
+  "sudoku": [
+   4,
+   1,
+   8,
+   9,
+   6,
+   7,
+   3,
+   2,
+   5,
+   6,
+   3,
+   9,
+   8,
+   5,
+   2,
+   7,
+   4,
+   1,
+   2,
+   5,
+   7,
+   3,
+   1,
+   4,
+   6,
+   9,
+   8,
+   9,
+   6,
+   5,
+   2,
+   4,
+   3,
+   1,
+   8,
+   7,
+   3,
+   4,
+   1,
+   6,
+   7,
+   8,
+   2,
+   5,
+   9,
+   7,
+   8,
+   2,
+   5,
+   9,
+   1,
+   4,
+   3,
+   6,
+   8,
+   9,
+   3,
+   7,
+   2,
+   6,
+   5,
+   1,
+   4,
+   1,
+   2,
+   6,
+   4,
+   8,
+   5,
+   9,
+   7,
+   3,
+   5,
+   7,
+   4,
+   1,
+   3,
+   9,
+   8,
+   6,
+   2
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     1,
+     5
+    ],
+    [
+     0,
+     5,
+     3,
+     2
+    ],
+    [
+     0,
+     7,
+     4,
+     2
+    ],
+    [
+     0,
+     9,
+     10,
+     1
+    ],
+    [
+     1,
+     0,
+     2,
+     4
+    ],
+    [
+     1,
+     4,
+     6,
+     1
+    ],
+    [
+     3,
+     0,
+     7,
+     1
+    ],
+    [
+     3,
+     1,
+     3,
+     3
+    ],
+    [
+     3,
+     5,
+     2,
+     2
+    ],
+    [
+     4,
+     7,
+     3,
+     2
+    ],
+    [
+     5,
+     5,
+     2,
+     1
+    ],
+    [
+     5,
+     6,
+     5,
+     1
+    ],
+    [
+     6,
+     1,
+     4,
+     2
+    ],
+    [
+     6,
+     3,
+     2,
+     1
+    ],
+    [
+     7,
+     4,
+     3,
+     2
+    ],
+    [
+     7,
+     7,
+     3,
+     2
+    ],
+    [
+     8,
+     3,
+     2,
+     1
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    3,
+    5,
+    2,
+    1,
+    4,
+    6
+   ],
+   [
+    4,
+    3,
+    6,
+    2,
+    5,
+    1
+   ],
+   [
+    1,
+    6,
+    3,
+    5,
+    2,
+    4
+   ],
+   [
+    6,
+    2,
+    5,
+    4,
+    1,
+    3
+   ],
+   [
+    2,
+    1,
+    4,
+    3,
+    6,
+    5
+   ],
+   [
+    5,
+    4,
+    1,
+    6,
+    3,
+    2
+   ]
+  ],
+  "compte": [
+   "75 + 7 = 82",
+   "82 − 3 = 79",
+   "79 × 3 = 237",
+   "237 − 1 = 236"
+  ]
+ },
+ "reponses_quiz": []
+}
