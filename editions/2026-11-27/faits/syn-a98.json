@@ -1,0 +1,29 @@
+{
+ "titre": "Zones à faibles émissions : à Madrid, un coût supérieur au gain environnemental",
+ "chapo": "Quatre économistes étudient comment concevoir les zones à faibles émissions et concluent que celle de Madrid a coûté plus aux acheteurs qu'elle n'a rapporté en émissions évitées.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Les zones à faibles émissions (ZFE), qui interdisent à certains véhicules polluants l'accès à une partie de la ville, se multiplient, mais leurs effets sur le bien-être collectif restent mal compris. Leur conception varie fortement : à Berlin, la zone couvre 88 km² et ne vise qu'une partie des voitures à essence et diesel ; à Madrid, elle ne couvre qu'environ 5 km² mais les vise toutes. Les auteurs cherchent la taille optimale et se demandent si certaines motorisations, comme les hybrides, doivent être restreintes autrement ou plus tard. Madrid Central, annoncée en mai 2018 et appliquée à partir de novembre, visait surtout les émissions de dioxyde d'azote, la ville dépassant durablement les limites européennes."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "En théorie, la logique est celle du tout ou rien : une ZFE devrait être aussi grande que politiquement possible, ou ne pas exister. Les hybrides peuvent servir de technologie de transition, d'abord exemptés puis restreints, à condition que le décideur puisse tenir son engagement. À Madrid, la zone a orienté les acheteurs vers des voitures plus propres : la part des acheteurs potentiels choisissant l'essence ou le diesel passe de 73,4 % sans zone à 60,7 %, celle des hybrides de 7,4 % à 14,1 %. Mais le surplus des consommateurs recule de 3 680 euros par acheteur potentiel de voiture neuve, contre 480 euros de coûts environnementaux évités, soit une perte nette de 3 200 euros. Restreindre aussi le GPL/GNC, puis les hybrides, aggraverait la perte (3 410 puis 4 110 euros), alors qu'une taxe sur les émissions apporterait un gain de 430 euros."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "L'article associe un modèle dynamique à trois types de voitures (essence, hybrides, électriques) et une étude empirique. Les ventes de voitures neuves à Madrid sont comparées à celles d'autres villes espagnoles (différences de différences synthétiques). La demande est ensuite estimée à partir des immatriculations de voitures neuves en Espagne de 2015 à 2019, avec leurs prix et caractéristiques, puis plusieurs scénarios sont simulés. Le bilan additionne les coûts privés de ceux qui changent de véhicule, la gêne de ceux qui gardent un modèle restreint et les dommages environnementaux sur la durée de vie des voitures choisies."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Contrairement à une taxe, qui agit sur les conducteurs prêts à changer, une ZFE impose aussi un coût à tous ceux qui conservent un véhicule restreint : changer de mode de transport, contourner la zone ou renoncer au trajet. À Madrid, ils restent nombreux, et chaque euro de coût privé n'achète que 16 centimes d'émissions évitées : ils représentent 60,7 % des acheteurs potentiels et seraient prêts à payer en moyenne 5 305 euros pour éviter la restriction. Les rares reports vont surtout vers les hybrides et le GPL/GNC, à peine moins coûteux pour l'environnement. Élargir ou durcir la zone n'aurait donc rien arrangé. Pour que la zone devienne bénéfique, il faudrait restreindre aussi GPL/GNC et hybrides, avec des dommages environnementaux bien plus élevés ou un report plus fort vers des véhicules propres. Même en quadruplant ces dommages ou la sensibilité aux prix, la zone actuelle reste déficitaire (1 770 et 710 euros de perte). Des taxes pourraient aider à réunir les conditions requises, par exemple en rendant les voitures polluantes moins attrayantes."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Les auteurs précisent que leur bilan ignore les bénéfices locaux pour les riverains et commerçants, comme des rues plus sûres ou un meilleur espace public ; une collectivité locale pourrait juger favorablement une petite zone. Le calcul ne porte que sur le marché du neuf, ce qui en fait selon eux une borne basse de la perte totale. L'analyse laisse aussi de côté les raisons politiques qui conduisent les villes à préférer les ZFE à des instruments plus efficaces."
+  }
+ ],
+ "synthese": "La zone madrilène a bien accéléré l'adoption de véhicules plus propres, mais à un coût très supérieur aux émissions évitées selon ces estimations. Une ZFE n'améliore le bien-être que si elle provoque assez de changements tout en laissant peu de conducteurs pénalisés.",
+ "reference": "Nano Barahona (université de Californie à Berkeley et NBER), Natalia Fabra (CEMFI), Imelda (Geneva Graduate Institute), Juan-Pablo Montero (Université pontificale catholique du Chili et université Aalto), « Designing Low Emission Zones: Theory and Evidence », NBER Working Paper n° 36037, novembre 2026. Document de travail non relu par des pairs.",
+ "republication": ""
+}

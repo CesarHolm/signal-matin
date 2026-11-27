@@ -1,0 +1,29 @@
+{
+ "titre": "SpaceX autorisé à déployer jusqu'à un million de satellites centres de données",
+ "chapo": "Le régulateur américain des communications a validé Starmind, une constellation destinée à traiter des données d'IA en orbite, malgré le scepticisme et les inquiétudes de scientifiques.",
+ "sections": [
+  {
+   "intertitre": "Le feu vert",
+   "texte": "Mercredi, la Commission fédérale des communications (FCC) a autorisé SpaceX à lancer jusqu'à un million de « modules de calcul orbitaux ». La puissance ainsi installée doit répondre à une partie de la demande de calcul pour l'IA, qui croît rapidement sur Terre, et les données traitées en orbite y seraient utilisées. La FCC y voit la première autorisation de l'histoire des États-Unis pour une constellation de centres de données dans l'espace. Son président, Brendan Carr, nommé par Donald Trump, salue l'ouverture d'« une nouvelle frontière audacieuse » pour l'infrastructure de calcul du pays, qu'il juge nécessaire au rang de premier plan des États-Unis et à leur croissance. Pour lui, SpaceX et ses nombreux concurrents sont « à la hauteur du moment ». Elon Musk, patron de SpaceX, l'a remercié sur X. L'agence a aussi approuvé des liaisons radio permettant de surveiller et de piloter les satellites si leurs liaisons optiques tombent en panne. Elle estime que Starmind rapproche l'humanité d'une civilisation de type II sur l'échelle de Kardashev, capable d'exploiter toute la puissance du Soleil. GeekWire relève que le soutien de l'administration Trump à l'essor des centres de données se maintient malgré une opposition croissante, qui a pesé dans les élections de mi-mandat de ce mois."
+  },
+  {
+   "intertitre": "Conditions et calendrier",
+   "texte": "Les satellites pourront évoluer entre 500 et 1 002 kilomètres d'altitude. Le premier doit être mis en service au plus tard en 2033, et la FCC demande que la constellation complète fonctionne d'ici 2040. Elle impose notamment des communications de secours, des points d'étape réguliers et un plan détaillé de réduction des débris. SpaceX avait annoncé en août concevoir avec Nvidia la charge de calcul du satellite Starmind AI1, avec des GPU Rubin et des processeurs Vera. Selon un document lié à son introduction en Bourse cette année, la production des satellites de calcul reviendrait à son site de Bastrop, au Texas."
+  },
+  {
+   "intertitre": "Promesses et doutes techniques",
+   "texte": "Les partisans avancent que l'énergie solaire captée en orbite soulagerait les réseaux électriques et limiterait les besoins en terrains et en eau de refroidissement des entrepôts de calcul au sol. Mais le vide spatial retient la chaleur, comme un thermos. L'astrophysicien et auteur Adam Becker invoque des « limites physiques de base » à son évacuation et juge le projet d'un million de satellites « fantaisiste » : « Cela n'arrivera pas. » Selon lui, de nombreux petits satellites pourraient emporter à eux tous le matériel nécessaire pour rayonner cette chaleur, mais ce serait coûteux et difficile. Des experts soulignent aussi d'énormes obstacles financiers et la gestion du trafic spatial."
+  },
+  {
+   "intertitre": "Les oppositions",
+   "texte": "La FCC a écarté les demandes de rejet de la Société américaine d'astronomie (AAS), de Viasat et de Kuiper Systems, filiale d'Amazon. L'AAS se dit « découragée et consternée » : ces satellites plus grands, plus nombreux et très brillants nuiraient à l'observation du ciel et à des décennies d'investissements fédéraux dans les installations astronomiques, ainsi qu'à la capacité du public à profiter du ciel nocturne. Adam Becker redoute des collisions en cascade créant un nuage de débris en orbite basse, où se trouvent de nombreux satellites météo et de télécommunications, ainsi qu'une pollution due aux lancements et aux rentrées. La FCC estime le projet conforme à ses règles sur les débris et d'intérêt public, et écarte les sujets hors de sa compétence, comme l'environnement."
+  },
+  {
+   "intertitre": "Une course à plusieurs",
+   "texte": "D'autres projets existent, et la FCC poursuit l'examen de propositions, qu'elle tranchera une à une. Selon GeekWire, Blue Origin propose 51 600 satellites, Starcloud en demande 88 000, Cowboy Space (ex-Aetherflux) 20 000 et Sophia Space en prévoit 10. Google teste des satellites pour son projet Suncatcher, dont les premiers seraient lancés par la fusée New Glenn de Blue Origin au plus tôt en 2029."
+  }
+ ],
+ "synthese": "La FCC ouvre la voie réglementaire aux centres de données orbitaux de SpaceX, avec des échéances en 2033 et 2040. La faisabilité technique et financière, comme les effets sur le ciel et l'orbite basse, restent vivement contestés.",
+ "republication": "",
+ "sources_ecartees": []
+}

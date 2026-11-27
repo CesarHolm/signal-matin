@@ -1,0 +1,29 @@
+{
+ "titre": "Puces d'IA : Nvidia suspend ses livraisons dans quatre pays d'Asie du Sud-Est",
+ "chapo": "Face au durcissement des contrôles américains à l'exportation, Nvidia bloque les serveurs destinés à la Malaisie, à Singapour, à la Thaïlande et à l'Indonésie, selon le Financial Times.",
+ "sections": [
+  {
+   "intertitre": "Ce qui est décidé",
+   "texte": "Nvidia a demandé à ses partenaires fabricants, dont Dell et Supermicro, de ne plus expédier de serveurs vers ces quatre pays, rapporte le Financial Times en citant trois personnes proches du dossier. Ces partenaires ont prévenu leurs clients que le concepteur de puces ne laisserait pas partir leurs commandes. On ignore si la pause sera temporaire, le temps que Nvidia et ses partenaires voient comment se conformer aux nouvelles règles. D'après The Next Web, Nvidia, Dell et Supermicro n'avaient pas répondu dans l'immédiat aux demandes de Reuters."
+  },
+  {
+   "intertitre": "La règle américaine",
+   "texte": "Le Bureau de l'industrie et de la sécurité du département du Commerce a durci les contrôles pour empêcher les entreprises chinoises de contourner les interdictions de vente en louant de la puissance de calcul à des fournisseurs cloud étrangers. Washington veut ainsi fermer les voies que les entreprises chinoises sont soupçonnées d'emprunter pour obtenir des puces soumises à restrictions : le transit de matériel par la région et la location de capacités dans ses centres de données. L'Asie du Sud-Est est devenue un marché important pour les infrastructures cloud, où des développeurs d'IA chinois se sont assuré d'importantes capacités auprès d'opérateurs régionaux, relève Yahoo Finance. Selon The Next Web, la règle, provisoire, est en vigueur depuis le 19 novembre et impose une licence américaine pour expédier des puces d'IA avancées en Indonésie, en Malaisie, à Singapour, en Thaïlande et au Brésil. Le représentant américain au commerce, Jamieson Greer, a dit à CNBC vouloir bloquer les accès indirects, dont la contrebande via l'Asie du Sud-Est et l'accès à distance par des centres de données de pays tiers. La douane malaisienne a déjà saisi cette année des serveurs d'IA à l'aéroport principal de Kuala Lumpur."
+  },
+  {
+   "intertitre": "Chaos et projets bloqués",
+   "texte": "Les fournisseurs cloud ont 90 jours pour demander une licence et prouver qu'aucune entreprise visée ne figure parmi leurs utilisateurs finaux. Un dirigeant du secteur a décrit au Financial Times un « chaos » dans la région, faute d'indications sur la manière de déposer la demande. Des banques ont suspendu environ 500 millions de dollars de prêts à Aolani, un fournisseur de Singapour qui comptait louer de la puissance de calcul à ByteDance, maison mère de TikTok ; ce dernier pourrait désormais se retirer de l'accord. Singapour dit vouloir une voie de confiance pour que ses entreprises continuent d'acheter des puces avancées, tandis que le ministre malaisien du Commerce a demandé aux opérateurs de centres de données de respecter la règle."
+  },
+  {
+   "intertitre": "Des puces à revendre",
+   "texte": "Selon CNBC, des revendeurs ont mis en vente un nombre inhabituellement élevé de processeurs graphiques Nvidia depuis l'annonce. Jack Duhamel, président de la place de marché GPU Mart, et deux autres initiés confirment que cet afflux découle directement de la règle. Il comprend des milliers de B300, l'un des modèles les plus avancés de Nvidia, initialement destinés à des centres de données ayant des locataires chinois. Les vendeurs cherchent désormais de nouveaux acquéreurs pour ce matériel."
+  },
+  {
+   "intertitre": "Un contexte agité chez Nvidia",
+   "texte": "La règle est tombée en pleine crise interne. Selon The Next Web, le directeur général Jensen Huang a démissionné le 12 novembre après des informations sur une liaison avec Alice Huang, ancienne dirigeante de Megaspeed, société cloud de Singapour, que des responsables américains soupçonnent d'espionnage pour la Chine. Pékin dément, et Megaspeed, visée par une enquête pénale américaine sur un possible détournement de puces vers la Chine, nie tout acte répréhensible. Le conseil d'administration a rétabli Jensen Huang le 23 novembre. L'enjeu commercial est lourd : les revenus enregistrés via la filiale singapourienne de Nvidia ont atteint 104 milliards de dollars en 2025, en hausse de 72 % sur un an. Pour Yahoo Finance, la suspension illustre les difficultés de conformité des fabricants de semi-conducteurs et de leurs distributeurs à mesure que les restrictions s'étendent."
+  }
+ ],
+ "synthese": "En visant l'accès indirect de la Chine aux puces avancées, la nouvelle règle américaine gèle des livraisons et des financements en Asie du Sud-Est. La durée de la suspension décidée par Nvidia reste inconnue.",
+ "republication": "",
+ "sources_ecartees": []
+}

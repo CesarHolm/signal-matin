@@ -1,0 +1,28 @@
+{
+ "titre": "Mathématiques : les percées de l'IA inquiètent de grands chercheurs",
+ "chapo": "En 2026, des IA d'OpenAI et d'Anthropic ont été créditées d'avancées sur des centaines de problèmes ouverts, et pour beaucoup, explique Neil Saunders, l'année restera celle d'une crise identitaire.",
+ "sections": [
+  {
+   "intertitre": "Une série d'annonces",
+   "texte": "Depuis avril, les résultats se succèdent. OpenAI a d'abord percé sur la conjecture d'Erdős sur les distances unités et sur la conjecture jacobienne, irrésolues depuis des décennies. En septembre et en octobre, l'entreprise a annoncé une solution au problème de Navier-Stokes, l'un des sept « problèmes du millénaire » de l'Institut Clay, puis publié plus de 700 articles revendiquant des solutions, démonstrations ou contre-exemples pour 372 problèmes ouverts. Enfin, Levent Alpöge, chercheur chez Anthropic, a annoncé une démonstration, assistée par le modèle Claude, de l'hypothèse de Riemann, sans doute le problème le plus célèbre de la discipline."
+  },
+  {
+   "intertitre": "Des essaims d'agents",
+   "texte": "Les grands modèles de langage sont entraînés notamment sur l'ensemble de la littérature mathématique. Autour d'eux, des agents logiciels raisonnent, exécutent du code, observent les résultats et recommencent au besoin. Pour Navier-Stokes, 10 000 agents ont travaillé 88 heures, puis 17 heures de plus ont servi à vérifier la solution avec Lean, un logiciel de formalisation. La preuve de Riemann dépasse 250 000 pages et plus de 17 millions de lignes de code Lean ; des chercheurs indépendants ont depuis vérifié la preuve en Lean. L'auteur compare ces essaims à des termites cathédrales : chacun accomplit une tâche locale, mais l'ensemble bâtit des édifices impressionnants. Contrairement à la conjecture de Poincaré, résolue par Grigori Perelman au début des années 2000, Navier-Stokes et les quelque 300 autres problèmes du déversement ont été résolus presque sans intervention humaine."
+  },
+  {
+   "intertitre": "L'alarme des médaillés",
+   "texte": "Le « déversement » d'octobre a créé une onde de choc. Hugo Duminil-Copin, professeur à l'IHES et médaillé Fields, estime qu'il a « anéanti son domaine de recherche » et pourrait « démanteler » la discipline. Terence Tao (UCLA, médaille Fields 2006) juge que la vitesse de production nuit aux mathématiques et compare la démarche à jeter des carcasses de viande crue sur une table en prétendant avoir réglé le problème de la nourriture. Le 11 septembre 2026, lui et 25 autres médaillés Fields ont déclaré les objectifs des entreprises d'IA « profondément en décalage » avec ceux de la communauté, avertissant que la production en masse d'énoncés « vrai/faux » pourrait détruire un terreau fertile. Le texte compte plus de 8 000 signatures. L'Association for Human Mathematics, dont les membres s'engagent à chercher sans IA, en réunit plus de 1 000."
+  },
+  {
+   "intertitre": "Calcul brut et coûts",
+   "texte": "L'auteur invoque le paradoxe de Moravec : « les problèmes difficiles sont faciles et les problèmes faciles sont difficiles ». Des machines surpassent les humains aux échecs ou en programmation, mais peinent à ranger un lave-vaisselle sans casser d'assiettes. Univers d'information relativement clos, comme les échecs ou la programmation, les mathématiques se prêtent à l'intervention de l'IA : puissance de calcul brute et abondance de données suffisent à obtenir des résultats hors de portée de nombreux mathématiciens sur plusieurs vies. Mais OpenAI évalue à 15 millions de dollars (environ 13,7 millions d'euros) le coût de la solution de Navier-Stokes, soit une perte nette de 14 millions si l'Institut Clay lui attribuait le prix. Les géants de la tech pourraient donc se détourner de ce domaine faute d'intérêt financier."
+  },
+  {
+   "intertitre": "Un écosystème menacé",
+   "texte": "Traditionnellement, les mathématiciens bâtissent des théories de manière ascendante, relient des sous-disciplines et partagent résultats partiels dans des revues et des ateliers, ce qui forme doctorants et jeunes chercheurs. Beaucoup d'étudiants rejoignent ensuite l'administration, la science des données, l'éducation, le développement durable, la finance ou la cybersécurité. Une approche descendante, en boîte noire et fondée sur la rétro-ingénierie, pourrait menacer cet ensemble."
+  }
+ ],
+ "synthese": "L'IA ouvre des perspectives stimulantes, et Neil Saunders juge qu'il n'y a jamais eu de meilleur moment pour étudier les mathématiques. Ces possibilités doivent toutefois être soigneusement mises en balance avec les intérêts de la discipline et de la société.",
+ "republication": ""
+}

@@ -1,0 +1,29 @@
+{
+ "titre": "Centres de données en orbite : SpaceX autorisé à lancer un million de satellites",
+ "chapo": "Le régulateur américain des communications, la FCC, donne son feu vert à Starmind, une constellation destinée à héberger dans l'espace des calculs d'intelligence artificielle.",
+ "sections": [
+  {
+   "intertitre": "Le feu vert",
+   "texte": "Sciences et Avenir présente la décision comme le feu vert de l'administration Trump à un projet gigantesque. La Commission fédérale des communications (FCC) autorise SpaceX, l'entreprise d'Elon Musk, à déployer jusqu'à un million de satellites formant des centres de données alimentés par l'énergie solaire. La décision date du mercredi 25 novembre selon Le Grand Continent, tandis que Courrier international la situe jeudi. Selon Bloomberg, c'est la première autorisation de ce genre délivrée par l'agence, et un obstacle réglementaire de taille qui tombe. Courrier international, citant le média économique, évoque « près d'un million de satellites » pour effectuer de complexes calculs d'IA. Musk avait présenté le projet aux investisseurs en juin, lors de l'introduction en Bourse de SpaceX. La FCC dit que cette autorisation « promet de rapprocher l'humanité d'une civilisation de type Kardashev II », capable d'exploiter toute la puissance du Soleil. L'agence explique aussi, d'après la BBC, que Starmind permettra de « soutenir l'économie américaine, en plein essor dans le domaine de la superintelligence »."
+  },
+  {
+   "intertitre": "Le projet et le calendrier",
+   "texte": "Selon les explications de SpaceX, les satellites, communiquant entre eux par liaisons laser, seraient lancés entre 500 et 2 000 km d'altitude, sur une orbite assurant un ensoleillement quasi constant. Le premier doit être mis en service d'ici 2033 (novembre au plus tard, précise la BBC), 10 % de la flotte d'ici 2035, la moitié d'ici 2038 et la totalité d'ici 2040. Le déploiement en orbite vise à contourner deux difficultés du secteur de l'IA : les besoins massifs d'électricité des centres de données et l'opposition de la population à leur construction. Les promoteurs invoquent aussi le froid spatial pour refroidir les composants."
+  },
+  {
+   "intertitre": "Des ambitions démesurées",
+   "texte": "Selon le groupe financier Evercore, SpaceX pourrait disposer de 8 GW de capacité de calcul orbitale d'ici 2029, puis près de dix fois plus d'ici 2031. Une telle capacité correspond à la puissance des centres de données placés en orbite. D'après Bernstein, l'entreprise viserait alors près de quatre fois plus de capacité en orbite (77 GW) qu'au sol (20 GW). Evercore estime qu'il faudrait environ 909 lancements de la fusée Starship en 2029, 2 121 en 2030 et 5 657 en 2031. SpaceX a réalisé 165 lancements orbitaux l'an dernier, et Musk en vise 10 000 par an d'ici 2030. Pour y parvenir, elle a annoncé fin août un projet de méga-spatioport en Louisiane, qui devrait compter dix pas de tir."
+  },
+  {
+   "intertitre": "Les critiques",
+   "texte": "La faisabilité suscite de nombreux doutes. En mars, Amazon, concurrent de SpaceX dans le spatial, demandait à la FCC de rejeter le dossier. Selon le groupe, il faudrait « des siècles » pour construire la constellation, et très peu de détails étaient fournis sur la manière de tenir ces « promesses grandiloquentes ». L'astrophysicien américain Adam Becker parle d'une « chimère » : « Cela n'arrivera pas. » Il évoque une pollution accrue du ciel nocturne et un risque sérieux de collisions en chaîne entre débris spatiaux, qui serait « une catastrophe pour l'humanité tout entière ». Plus largement, les astronomes redoutent, selon Sciences et Avenir, une dégradation sans précédent du ciel nocturne."
+  },
+  {
+   "intertitre": "La prudence des prêteurs",
+   "texte": "Les financiers restent eux aussi prudents. Lors d'un récent emprunt de 43 milliards de dollars garanti par des puces Nvidia, les prêteurs ont tenté d'imposer une clause interdisant à SpaceX d'envoyer ces puces en orbite : elles deviendraient impossibles à saisir et à revendre en cas de défaut de paiement. On ignore si cette clause figure dans la version finale du contrat."
+  }
+ ],
+ "synthese": "La FCC autorise SpaceX à bâtir en orbite une gigantesque infrastructure de calcul, avec des échéances de déploiement échelonnées jusqu'en 2040. Sa faisabilité reste toutefois contestée par Amazon et par l'astrophysicien Adam Becker, et le projet inquiète pour l'état du ciel nocturne comme pour le risque lié aux débris spatiaux.",
+ "republication": "",
+ "sources_ecartees": []
+}

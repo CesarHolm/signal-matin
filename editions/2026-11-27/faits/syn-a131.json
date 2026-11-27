@@ -1,0 +1,29 @@
+{
+ "titre": "Nvidia suspend ses livraisons de serveurs vers quatre pays d'Asie du Sud-Est",
+ "chapo": "Après le durcissement des contrôles américains à l'exportation, Nvidia a demandé à ses partenaires de ne plus expédier de serveurs en Malaisie, à Singapour, en Thaïlande et en Indonésie.",
+ "sections": [
+  {
+   "intertitre": "La suspension",
+   "texte": "Selon le Financial Times, qui cite trois personnes proches du dossier, Nvidia a donné cette consigne à des fabricants comme Dell et Supermicro, qui intègrent ses puces dans des serveurs. Ceux-ci ont prévenu des clients des quatre pays que leurs commandes ne seraient pas expédiées. On ignore si la pause est temporaire, le temps que Nvidia et ses partenaires déterminent comment se conformer aux règles. D'après The Next Web, Nvidia, Dell et Supermicro n'ont pas répondu dans l'immédiat aux demandes de commentaire de Reuters."
+  },
+  {
+   "intertitre": "La nouvelle règle",
+   "texte": "Le Bureau de l'industrie et de la sécurité du département du Commerce a instauré une règle provisoire, entrée en vigueur le 19 novembre selon The Next Web. Une licence est requise pour expédier des puces d'IA avancées vers l'Indonésie, la Malaisie, Singapour, la Thaïlande et aussi le Brésil. Il s'agit d'empêcher les entreprises chinoises de contourner les interdictions de vente en louant de la puissance de calcul auprès de fournisseurs de cloud étrangers, alors que la vente directe des puces les plus avancées aux développeurs chinois est déjà restreinte. Le représentant américain au Commerce, Jamieson Greer, a indiqué à CNBC que l'objectif était de bloquer les accès indirects, dont la contrebande via l'Asie du Sud-Est et l'accès à distance par des centres de données de pays tiers. Selon Yahoo Finance, l'Asie du Sud-Est est devenue un marché important pour les infrastructures de cloud, des développeurs chinois d'IA y ayant obtenu d'importantes capacités de calcul par des contrats avec des exploitants locaux de centres de données. Les douanes malaisiennes ont déjà saisi cette année des serveurs d'IA à l'aéroport principal de Kuala Lumpur."
+  },
+  {
+   "intertitre": "Le « chaos » du cloud",
+   "texte": "Les fournisseurs de cloud ont 90 jours pour demander une licence et prouver qu'aucune entreprise visée par des restrictions ne figure parmi leurs utilisateurs finaux. Un dirigeant du secteur a décrit au Financial Times un « chaos » dans la région, faute d'indications sur la procédure de demande. Des banques ont suspendu environ 500 millions de dollars de prêts à Aolani, fournisseur basé à Singapour, qui prévoyait de louer de la puissance de calcul à ByteDance, maison mère de TikTok. Ce dernier pourrait se retirer de l'accord."
+  },
+  {
+   "intertitre": "Des puces à revendre",
+   "texte": "CNBC rapporte que des revendeurs mettent en vente un nombre inhabituellement élevé de GPU Nvidia. Jack Duhamel, président de la place de marché GPU Mart, et deux autres initiés attribuent directement cet afflux à la nouvelle règle. L'offre comprend des milliers de B300, l'une des puces les plus avancées de Nvidia, initialement destinées à des centres de données dont les clients locataires étaient chinois. L'enjeu commercial est notable : la région est, sur le papier, un grand marché pour Nvidia, dont la filiale de Singapour a enregistré 104 milliards de dollars de revenus en 2025, en hausse de 72 % sur un an."
+  },
+  {
+   "intertitre": "Un contexte agité",
+   "texte": "La règle est survenue pendant une crise chez Nvidia. Selon The Next Web, son directeur général Jensen Huang a démissionné le 12 novembre après des informations sur une liaison avec Alice Huang, ancienne dirigeante de la société de cloud singapourienne Megaspeed, que des responsables américains soupçonnent d'espionnage pour la Chine. Pékin dément ; Megaspeed, visée par une enquête pénale américaine sur un possible détournement de puces vers la Chine, nie tout acte répréhensible. Le conseil d'administration a rétabli Jensen Huang le 23 novembre. Dans la région, Singapour dit vouloir une voie de confiance pour que ses entreprises continuent d'acheter des puces avancées, tandis que le ministre malaisien du Commerce a demandé aux opérateurs de centres de données de respecter la règle."
+  }
+ ],
+ "synthese": "Nvidia aurait suspendu ses expéditions de serveurs vers quatre pays, le temps incertain de s'adapter à un régime de licences destiné à fermer à la Chine l'accès indirect à ses puces. Les effets se font déjà sentir sur les fournisseurs de cloud, le financement de projets et le marché de revente des GPU.",
+ "republication": "",
+ "sources_ecartees": []
+}

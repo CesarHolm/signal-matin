@@ -1,0 +1,28 @@
+{
+ "titre": "Calcul de l'IA : OpenAI revendique une limite de vitesse infranchissable",
+ "chapo": "Un manuscrit mis en ligne le 24 novembre affirme qu'on ne pourra jamais multiplier des matrices, opération centrale de l'IA, en dessous d'un certain coût.",
+ "sections": [
+  {
+   "intertitre": "De quoi parle-t-on",
+   "texte": "Multiplier deux matrices, des tableaux de nombres, occupe l'essentiel du calcul de l'IA : un modèle de langage le répète sur des dizaines de couches pour produire un seul mot, en multipliant à chaque fois des matrices de paramètres par la représentation numérique du texte. Nvidia grave dans ses puces des circuits dédiés, les Tensor Cores, et la météo, les images de synthèse ou la simulation de molécules reposent sur la même opération. La méthode scolaire exige n³ opérations pour des matrices de n lignes et n colonnes. Depuis 1969, des chercheurs veulent connaître l'exposant minimal, noté ω, qui remplacerait ce 3 ; il ne peut descendre sous 2. Cette année-là, Volker Strassen l'avait ramené à 2,807, en multipliant deux matrices de 2 lignes avec 7 multiplications au lieu de 8. Avec 2,807, doubler la taille multiplie le travail par 7 et non par 8 ; avec 9/4, par 4,76."
+  },
+  {
+   "intertitre": "Un plafond déjà vérifié",
+   "texte": "Le 17 août, une équipe associant AlphaEvolve, de Google DeepMind, à Josh Alman et Virginia Vassilevska Williams atteignait 2,371177. OpenAI est passé sous 2,258 (manuscrit du 24 septembre), puis à 9/4, soit 2,25, sur les nombres complexes (manuscrit du 2 octobre, mis en ligne le 6). Cet algorithme a été refait à l'extérieur, notamment par Rafael Pass, qui a déposé le 21 octobre sur arXiv une preuve indépendante avec un algorithme explicite ; Houxi Lü, puis Alimzhan Amanov, Maxim van den Berg et Jeroen Zuiddam ont étendu la borne à tous les systèmes de nombres."
+  },
+  {
+   "intertitre": "La nouveauté : un plancher",
+   "texte": "Le nouveau texte, signé « OpenAI » et attribué à un modèle interne non publié, affirme qu'aucun circuit de calcul exact ne fait mieux que la moitié de n^2,25 multiplications ou divisions, pour tout n d'au moins 2, même avec des additions gratuites. La preuve procède par l'absurde, à partir d'un test vérifiant que tous les mots d'une liste sont différents. Beaucoup pensaient qu'on finirait par approcher n² : les planchers connus, dus notamment à Markus Bläser et Joseph Landsberg, restaient de l'ordre de n² à un facteur constant près. C'est ce plancher qui fait l'événement, car une impossibilité ne s'exécute pas comme un algorithme : il faut suivre toute la démonstration. Scott Aaronson, de l'université du Texas à Austin, juge que le plus grand choc est qu'une IA ait pu prouver une borne supérieure à 2 ; il ne dit pas avoir vérifié la démonstration."
+  },
+  {
+   "intertitre": "Pas de GPU plus rapide",
+   "texte": "Sur le papier, pour n = 1 000, on passe d'un milliard de multiplications à 5,6 millions, 178 fois moins. Face à Strassen, le rapport tombe à 47, et face au record d'août à 2,3. Pour n = 4 096, la dimension interne de Mistral 7B, le gain sur la méthode scolaire atteint 512. Il ne se traduit pas en secondes : le manuscrit ne mesure aucun temps, les surcoûts des méthodes rapides sont lourds et un GPU dépend surtout des déplacements de données et d'un calcul à précision réduite. ActuIA n'y voit aucune raison d'attendre une baisse du coût du token. La borne ne vise d'ailleurs que les matrices quelconques, pas celles dont la structure est connue d'avance. L'effet immédiat est académique : de nombreux résultats sur les graphes ou la programmation linéaire, écrits en fonction de ω, peuvent être réécrits avec 2,25."
+  },
+  {
+   "intertitre": "Les réserves",
+   "texte": "Les 111 pages n'ont pas été évaluées par des pairs et aucune relecture extérieure n'a été publiée. La formalisation en Lean, qui contrôle mécaniquement les démonstrations, porte selon la page du manuscrit sur les circuits sans division, non sur ceux qui divisent. Le dépôt d'OpenAI présente ses textes comme des données de recherche brutes pouvant contenir des erreurs dans les résultats non formalisés ; le 7 octobre, l'entreprise avait retiré trois manuscrits de géométrie algébrique pour une erreur de signe."
+  }
+ ],
+ "synthese": "Le plafond de 2,25 a été contrôlé hors d'OpenAI, mais le plancher reste pour l'instant une annonce. S'il se confirme, les gains de vitesse de l'IA devront venir surtout de la mémoire, de la précision des calculs et de l'architecture des modèles.",
+ "republication": ""
+}

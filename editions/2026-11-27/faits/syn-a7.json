@@ -1,0 +1,28 @@
+{
+ "titre": "ARTEX : des pirates automatisent leurs cyberattaques avec des agents d'IA",
+ "chapo": "Microsoft détaille comment des groupes étatiques et des cybercriminels utilisent le framework ARTEX pour attaquer à la vitesse des machines, et comment les défenseurs peuvent réagir.",
+ "sections": [
+  {
+   "intertitre": "L'essor d'un outil",
+   "texte": "Publié en juillet 2026, ARTEX est un framework de tests d'intrusion piloté par IA devenu un outil de prédilection pour les cyberattaques. Il a récemment été soupçonné d'avoir servi à une intrusion dans un système d'analyse géré par la CIA, la NGA et l'ODNI. Cette brèche a été révélée peu avant que le FinCEN, l'agence américaine contre la criminalité financière, ne signale un incident de sécurité ; le FBI et le ministère de l'Agriculture en avaient déclaré auparavant. L'utilisateur GitHub « Autumn-27 » a publié le code source en juillet puis l'a supprimé en octobre, mais d'autres développeurs en diffusent encore des copies, et la société chinoise ThreatBook vend une version Pro. Selon Microsoft Threat Intelligence, des groupes étatiques chinois et nord-coréens l'ont intégré à leurs opérations, dont Salt Typhoon, Crystal Typhoon, Onyx Sleet et Storm-0940. Des criminels motivés par l'argent s'en servent aussi, notamment pour des attaques sur la chaîne d'approvisionnement."
+  },
+  {
+   "intertitre": "Une architecture à plusieurs agents",
+   "texte": "Microsoft souligne qu'ARTEX n'invente aucune technique : il fait fonctionner, presque sans intervention humaine, des outils existants comme Nmap, Sqlmap, Metasploit ou des navigateurs sans interface. L'attaquant peut y brancher n'importe quel grand modèle de langage, y compris des versions modifiées sans garde-fous, et le système change de modèle ou de clé d'API en cas d'erreur ou de quota atteint, ce qui complique le suivi par un fournisseur d'IA. Un agent d'objectif découpe les instructions en sous-objectifs vérifiables. Un planificateur consulte en continu une carte des systèmes et failles découverts, puis confie de courtes tâches à des agents exécutants : installer des web shells, lire des fichiers de mots de passe ou détourner des comptes cloud. Chaque découverte enrichit la carte, et un dernier agent documente les failles exploitées."
+  },
+  {
+   "intertitre": "Quelques minutes pour réagir",
+   "texte": "L'automatisation ne laisse parfois aux défenseurs que quelques minutes. Dans un cas, un agent n'a mis que cinq minutes pour chercher sur GitHub des identifiants exposés par erreur et extraire des données d'Azure Key Vault, un coffre de clés dans le cloud. Lors d'une campagne de Storm-0940, Microsoft a relevé plus de 151 000 échecs de connexion dus au test automatisé de mots de passe, avec un pic de 2 900 par minute, et vu des applications compromises s'octroyer les privilèges d'administrateur les plus élevés. Les filtres à règles fixes (adresses IP connues, identifiants de navigateur comme « artex-enrich » et « norma ») échouent souvent, car agents et opérateurs changent ces marqueurs et passent par des VPN rotatifs, des proxys ou Tor. Isoler une brèche ne suffit pas toujours : ARTEX mène d'ordinaire deux ou trois chaînes d'attaque à la fois."
+  },
+  {
+   "intertitre": "La riposte par le leurre",
+   "texte": "ARTEX se trahit toutefois par d'énormes pics de trafic. Microsoft recommande des contrôles d'accès stricts, des limitations de débit, l'isolement automatique en temps réel des machines compromises et des techniques de tromperie. Des systèmes leurres sans valeur détournent le trafic des vraies cibles, des boucles de ralentissement épuisent le budget de temps et de calcul des agents, et de faux identifiants alertent tôt quand des agents tentent de détourner la puissance de calcul IA d'autrui. Les « fausses victoires » seraient particulièrement efficaces : croyant tenir la preuve de l'intrusion, l'IA juge sa tâche accomplie et arrête l'attaque d'elle-même."
+  },
+  {
+   "intertitre": "Des défenses à la durée incertaine",
+   "texte": "Les tests de Microsoft montrent que ces leurres réduisent fortement le trafic d'attaque atteignant les vrais systèmes et fournissent des données très précises pour identifier les attaquants. Mais leur efficacité dépend largement du caractère bruyant d'ARTEX : des attaquants espaçant leurs requêtes, ou des modèles puissants capables de reconnaître seuls les environnements de test et les pièges, comme observé lors de récents tests de sécurité,, pourraient en marquer les limites."
+  }
+ ],
+ "synthese": "ARTEX n'apporte pas de nouvelles techniques, mais enchaîne des outils existants à une vitesse qui déborde les défenses classiques. Microsoft mise sur le leurre des agents, sans savoir combien de temps cette parade tiendra.",
+ "republication": ""
+}
