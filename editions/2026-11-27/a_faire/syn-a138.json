@@ -1,0 +1,64 @@
+{
+ "id": "syn-a138",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a138.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : BLOOM Association\nRubrique : CSRD et CSDDD\nDate du flux : 26/11/2026\nAuteur : Amaya Uhalde\nTitre d'origine : Devoir de vigilance : une analyse exclut tout recul du droit français dans le cadre de la transposition de la CSDDD\n\nARTICLE :\n25 novembre 2026\nCe 25 novembre, BLOOM avec le FCJE publient une analyse juridique inédite concluant à l’impossibilité pour le législateur de réduire la protection des droits humains, de l’environnement et du climat, à l’occasion de la transposition de la directive européenne sur le devoir de vigilance.\nAlors que les travaux sur la transposition ne semblent pas avoir commencé, cette analyse donne un éclairage aux institutions en charge de ce processus.\nCette dernière renforce également l’importance des décisions de justice rendues et à venir sur le fondement de la loi sur le devoir de vigilance.\nEn 2024, l’Union européenne adoptait une directive historique sur le devoir de vigilance des entreprises (CSDDD). Pilier du Green Deal lancé lors de la première mandature d’Ursula Von der Leyen en tant que présidente de la Commission européenne, ce texte visait à responsabiliser les entreprises au titre des incidences négatives de leur chaîne de valeur sur l’environnement et les droits humains.\nDeux ans plus tard, et avant même qu’elle ne puisse être transposée par les États Membres de l’Union dans leur droit national, cette directive a été considérablement affaiblie par le processus « Omnibus I ». Malgré le combat acharné de BLOOM et de nombreuses autres organisations contre ce détricotage du droit européen, l’Omnibus I a été adopté en décembre 2025, porté par une alliance inédite de la droite et de l’extrême droite au Parlement européen.\nLa directive CSDDD ainsi modifiée par l’Omnibus I doit être transposée en France d’ici juillet 2028.\nEntrée en vigueur il y a près de dix ans, la loi française sur le devoir de vigilance1 impose aux grandes entreprises d’identifier, de prévenir et de faire cesser les atteintes graves aux droits humains et à l’environnement résultant de leurs activités, et de celles de leurs filiales et de leurs partenaires commerciaux.\nAdoptée en réaction au drame du Rana Plaza, elle a fait de la France le premier pays européen à se doter d’un tel cadre législatif. Elle permet à toute personne ayant un intérêt à agir de saisir le tribunal judiciaire de Paris pour enjoindre à une entreprise de respecter ses obligations, ou pour engager sa responsabilité en cas de manquement.\nLes juridictions françaises ont déjà prononcé plusieurs décisions sur le fondement de ce texte, dont une récente relative à la vigilance climatique du groupe TotalÉnergies2.\nD’autres actions sont en cours, notamment celle engagée par BLOOM aux côtés de foodwatch contre le géant de l’agro-alimentaire Carrefour pour manquement à ses obligations de vigilance sur sa filière thonière.\nSi l’Union européenne s’est inspirée de la France pour élaborer la CSDDD, des divergences existent entre les deux textes posant la question de l’évolution des acquis français dans le cadre de la transposition.\nAlors que la France va devoir transposer la CSDDD modifiée par l’Omnibus I, le Forum citoyen pour la justice économique (FCJE) – dont BLOOM est membre – a sollicité Sophie Robin-Olivier, professeure à l’École de droit de l’université Paris 1 Panthéon-Sorbonne afin d’analyser ce que cette directive impose au législateur français.\nSa conclusion à l’issue d’une analyse juridique approfondie est sans ambiguïté : la transposition ne peut pas servir de motif pour réduire la protection des droits humains, des droits sociaux, de l’environnement et du climat garantie à ce jour par la loi de 2017 et les décisions rendues sur son fondement.\nPartout où le droit français est plus protecteur, il doit être préservé.\nCette consultation que le FCJE rend aujourd’hui publique doit guider les institutions chargées de la transposition.\nLe message est clair : la transposition de la CSDDD ne peut pas servir d’excuse pour faire reculer la loi française sur le devoir de vigilance.\n20 novembre 2026\nLa nomination de Jean-Philippe André, ancien président du lobby agroalimentaire ANIA et dirigeant de Haribo jusqu’à fin 2025, à la coprésidence du comité de suivi de la Stratégie nationale pour l’alimentation, la nutrition et le climat (SNANC), constitue une situation manifeste de conflit d’intérêts. Elle remet en question la capacité de l’État à conduire des politiques publiques indépendantes des intérêts industriels et à protéger la santé de la population.\n28 septembre 2026\nCe lundi 28 septembre 2026, une coalition de 24 organisations issues de 10 pays européens, coordonnée par BLOOM, a interpellé la Commission européenne pour l’alerter sur l’orientation de la consultation publique organisée cet été pour préparer les futures lignes directrices relatives au devoir de vigilance des entreprises.\nNos organisations dénoncent une approche qui fait de la minimisation des coûts et de la compétitivité l’alpha et l’oméga de cette consultation, au détriment de l’objectif central de la directive : prévenir les atteintes aux droits humains et à l’environnement. Alors que l’administration Trump poursuit ses pressions contre cette législation malgré les affaiblissements déjà entérinés par l’Omnibus I en décembre 2025, la coalition demande à la Commission de préserver l’ambition de la directive, d’associer pleinement les détenteurs de droits à sa mise en œuvre et de publier l’intégralité des contributions reçues dans le cadre de la consultation qui vient de se clore.\n19 janvier 2026\nEn décembre dernier, Intermarché nous faisait miroiter le « mieux manger » avec sa publicité du « loup mal aimé », dans laquelle le loup renonce à manger des animaux au profit de fruits et légumes, sans toutefois exclure le poisson. Un message vertueux en totale contradiction avec l’offre des produits alimentaires et les orientations stratégiques de l’enseigne. Face à cette publicité mensongère, problématique à bien des égards, et loin d’être la première tentative d’induire les consommateurs en erreur (1), BLOOM décidait de saisir le Jury de déontologie publicitaire (2) de l’Autorité de régulation professionnelle de la publicité.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

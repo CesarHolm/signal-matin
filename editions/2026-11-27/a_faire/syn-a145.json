@@ -1,0 +1,64 @@
+{
+ "id": "syn-a145",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a145.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Sciences et Avenir\nRubrique : Science\nDate du flux : 26/11/2026\nTitre d'origine : Centres de données dans l'espace : SpaceX autorisé à lancer un million de satellites\n\nARTICLE :\nSOURCE 1 (Sciences et Avenir) :\nL'administration Trump a donné son feu vert au gigantesque projet de centres de données dans l'espace de SpaceX. Baptisée Starmind, cette constellation pourrait compter jusqu'à un million de satellites, au grand dam des astronomes, qui redoutent une dégradation sans précédent du ciel nocturne.\n\nSOURCE 2 (Le Grand Continent) :\nHier, mercredi 25 novembre, SpaceX a reçu de la Commission fédérale des communications (FCC) l’autorisation de déployer jusqu’à un million de satellites dans l’espace afin d’y construire des centres de données, alimentés par l’énergie solaire, destinés à l’intelligence artificielle. La décision impose à l’entreprise de mettre en service un premier satellite d’ici 2033, 10 % de la constellation d’ici 2035, la moitié d’ici 2038 et la totalité d’ici 2040 1.\nDans un communiqué, la FCC a affirmé que cette autorisation « promet de rapprocher l’humanité d’une civilisation de type Kardashev II, capable d’exploiter toute la puissance du Soleil ».\n- Selon une note du groupe financier américain Evercore, SpaceX pourrait disposer d’une capacité de calcul orbitale – soit la puissance des centres de données en orbite – de 8 GW d’ici 2029, qui serait multipliée par près de 10 d’ici 2031. 2\n- L’entreprise viserait alors près de quatre fois plus de capacité de calcul en orbite (77 GW) qu’au sol (20 GW), selon Bernstein.\nPour y parvenir, Evercore estime que l’entreprise de Musk devrait mener environ 909 lancements de Starship en 2029, 2 121 en 2030 et 5 657 en 2031.\n- L’entreprise a mené 165 lancements orbitaux l’an dernier, mais Musk vise 10 000 lancements par an d’ici 2030.\n- Afin d’atteindre cet objectif, SpaceX a annoncé fin août un projet de méga-spatioport en Louisiane qui devrait compter 10 pas de tir.\nDe nombreux doutes subsistent quant à la faisabilité de l’opération.\n- Amazon, une entreprise concurrente de SpaceX dans le domaine spatial, a déclaré en mars, dans sa demande de rejet adressée à la FCC, qu’il faudrait « des siècles » à SpaceX pour construire cette constellation. L’entreprise a ajouté que très peu de détails avaient été donnés par SpaceX quant à la manière dont elle comptait « tenir ces promesses grandiloquentes » 3.\n- L’astrophysicien américain Adam Becker a quant à lui affirmé mercredi 25 que la perspective de lancer un million de satellites dans l’espace pour créer des centres de données était une « chimère », ajoutant : « Cela n’arrivera pas » 4.\n- Becker mentionne notamment une pollution accrue du ciel nocturne, ainsi qu’un risque sérieux de réaction en chaîne de collisions entre débris spatiaux, « ce qui serait une catastrophe pour l’humanité tout entière ».\nLe déploiement de centres de données en orbite vise à répondre à deux problèmes auxquels fait face le secteur de l’intelligence artificielle : les besoins massifs en électricité pour alimenter les centres de données, et l’opposition de la population à leur construction. Ses promoteurs mettent également en avant le froid de l’espace pour le refroidissement des composants.\n- Les financiers restent toutefois prudents face aux projets de SpaceX. Lors d’un récent emprunt de 43 milliards de dollars garanti par des puces Nvidia, les prêteurs ont tenté d’imposer une clause interdisant à l’entreprise d’envoyer ces puces en orbite, ce qui les empêcherait de les saisir et de les revendre en cas de défaut de paiement 5.\n- On ignore si cette clause figure dans la version finale du contrat.\nSources\n- In the Matter of Space Exploration Holdings LLC Application for Launch and Operating Authority for the SpaceX Orbital Data Center System, MEMORANDUM OPINION AND ORDER AND AUTHORIZATION, Federal Communications Commission, 25 novembre 2026.\n- Could SpaceX’s Orbital Compute Plan Solve a Data Center Problem ? », TipRanks, 27 août 2026.\n- SpaceX wins FCC approval to deploy 1 million orbital data center satellites », CNBC, 25 novembre 2026.\n- SpaceX wins FCC approval to deploy 1 million orbital data center satellites », CNBC, 25 novembre 2026.\n- Lenders aim to bar SpaceX from launching $40bn of chips into orbit », Financial Times, 20 novembre 2026.\n\nSOURCE 3 (Courrier international) :\nC’est un “obstacle réglementaire” de taille qui vient d’être levé ce jeudi aux États-Unis, rapporte Bloomberg. “La Commission fédérale des communications américaine [FCC] a accepté la demande de SpaceX de lancer près d’un million de satellites, afin de créer un réseau de centres de données en orbite, destinés à de complexes calculs d’intelligence artificielle (IA).”\nC’est la première autorisation de ce genre délivrée par l’agence américaine, poursuit le média économique. Elle vient concrétiser le projet qu’Elon Musk avait présenté aux investisseurs en juin, lors de l’introduction en Bourse de SpaceX. La FCC explique que le projet “Starmind” permettra de “soutenir l’économie américaine, en plein essor dans le domaine de la superintelligence”, écrit la BBC.\nLe média public britannique précise que, “conformément à la licence délivrée par la FCC, le déploiement des satellites doit commencer au plus tard en novembre 2033. SpaceX devra avoir déployé 10 % de la flotte d’ici à novembre 2035, puis 50 % d’ici à novembre 2038.”\nConcrètement, l’entreprise spatiale d’Elon Musk explique que “ces satellites, qui communiqueront entre eux par liaisons laser, seront lancés à une altitude comprise entre 500 et 2 000 km, sur une orbite qui leur assurera un ensoleillement quasi constant”, détaille B\nAbonnez-vous et accédez à :\ntous nos articles, l’hebdo numérique, l’application, le Réveil Courrier et nos newsletters\nDès 1 €/mois\nSans engagement • Résiliable en ligne\nAu Québec, l’expérience tourne court pour des milliers de Français\nL’intervention de Trump en faveur du patron de Nvidia est une erreur qui reviendra le hanter\nUn élève chinois sanctionné après avoir parlé le dialecte sichuanais pendant la récréation\n“L’étau se resserre sur Bardella” après les nouvelles révélations de “Mediapart” et du “Monde”",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

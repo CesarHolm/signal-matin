@@ -1,0 +1,38 @@
+{
+ "id": "breves",
+ "modele": "haiku",
+ "sortie": "faits/breves.json",
+ "limite_caracteres": null,
+ "systeme": "Tu rédiges des brèves en français pour un journal personnel lu sur téléphone.\n\nPour chaque article fourni (identifiant, source, titre, résumé du flux, éventuellement en anglais) :\n- « titre » : en français, factuel, 90 caractères maximum ;\n- « texte » : 2 à 3 phrases en français, environ 400 caractères, UNIQUEMENT d'après le titre et le résumé fournis, sans aucune information extérieure ; plus court si le résumé est pauvre.\nIgnore un article dont le résumé est vide ou inexploitable.\n\nRéponds uniquement en JSON : {\"breves\": [{\"id\": \"a7\", \"titre\": \"…\", \"texte\": \"…\"}]}",
+ "contenu": "[{\"id\": \"a23\", \"source\": \"Le Monde\", \"titre\": \"Budget de la « Sécu » pour 2027 : un compromis à ce stade introuvable\", \"resume\": \"Alors que les députés et les sénateurs, réunis en commission mixte paritaire, n’ont pas réussi à s’entendre, jeudi, sur une version commune du texte, le premier ministre, Sébastien Lecornu, a déclaré que le « travail » se poursuivait pour essayer de rapprocher les positions.\"}, {\"id\": \"a117\", \"source\": \"Yeni Safak English\", \"titre\": \"EU agrees on new sanctions package against Russia\", \"resume\": \"EU agrees on new sanctions package against Russia Yeni Safak English\"}]",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "breves": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "id": {
+       "type": "string"
+      },
+      "titre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "id",
+      "titre",
+      "texte"
+     ]
+    }
+   }
+  },
+  "required": [
+   "breves"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a7",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a7.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : The Decoder\nRubrique : IA\nDate du flux : 26/11/2026\nAuteur : Maximilian Schreiner\nTitre d'origine : Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks\n\nARTICLE :\nMicrosoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks\nKey Points\n- According to a Microsoft analysis, state-backed hackers and criminal groups are increasingly using the AI framework ARTEX to run fully automated cyberattacks through autonomous agents and existing tools like Metasploit.\n- The system distributes attack tasks on its own, switches between language models when something fails, and operates at machine speed, often leaving defenders with just minutes to respond.\n- To counter these adaptive agents, Microsoft recommends targeted deception tactics like decoy systems and faked success signals (\"fake wins\") that trick the AI into calling off attacks on its own.\nThe AI framework ARTEX automates cyberattacks from reconnaissance to data theft. A Microsoft analysis shows how state-backed groups and cybercriminals use its specialized agents at machine speed, and how defenders can respond.\nSince its release in July 2026, the AI-powered penetration-testing framework ARTEX has become a go-to tool for cyberattacks. The software was recently suspected of being used in an intrusion into an analytics system run by the CIA, NGA, and ODNI (Link nicht geprüft). That breach surfaced shortly before US financial crimes agency FinCEN reported a security incident. The FBI and the US Department of Agriculture had reported incidents earlier.\nA report from Microsoft Threat Intelligence now details how ARTEX works and how widely it has spread. GitHub user \"Autumn-27\" published the source code in July and deleted it in October, though other developers still distribute copies. Chinese security firm ThreatBook also sells a commercial Pro version. Microsoft says state-backed groups from China and North Korea have integrated ARTEX into their operations, including Salt Typhoon, Crystal Typhoon, Onyx Sleet, and Storm-0940. Financially motivated cybercriminals also use the system, the company says, with both state-backed and criminal groups deploying it in operations such as supply chain attacks.\nSpecialized AI agents run existing security tools with minimal oversight\nMicrosoft points out that ARTEX doesn't invent new attack techniques. Instead, the framework operates existing security software with almost no human intervention, including tools such as Nmap, Sqlmap, Metasploit, and automated headless browsers. Attackers can connect any large language model, including modified versions without safety guardrails. A built-in pooling feature automatically switches models or API keys on errors or usage limits, making attacks hard for any single AI provider to track.\nAccording to Microsoft, the system is built on a multi-agent architecture. A goal model breaks an attacker's instructions into verifiable subgoals. From there, a planning agent continuously reviews a knowledge graph, a dynamic map of discovered systems and vulnerabilities, to assign short attack tasks. Worker agents carry out those tasks via system commands, including deploying web shells on web servers, reading password files, or hijacking cloud accounts. Each new finding feeds back into the map and prompts the planning agent for the next step until a reporting agent documents all exploited flaws.\nMachine-speed attacks push Microsoft to recommend active deception\nAutomation cuts defender response times to just a few minutes, the company found. In one case, an AI agent took just five minutes to search for accidentally exposed credentials on GitHub and pull data from Azure Key Vault, a cloud key store. During a Storm-0940 campaign, the company logged more than 151,000 failed login attempts from automated password guessing, peaking at 2,900 per minute. In that same campaign, Microsoft observed some compromised apps granting themselves top administrator privileges.\nConventional rule-based filters often fail against ARTEX because they rely on fixed markers like known IP addresses or the browser identifiers \"artex-enrich\" and \"norma.\" Agents and their human operators constantly change those markers and reroute blocked traffic through rotating VPNs, proxy servers, or Tor. Even when security teams spot and isolate a breach, that is often not enough. Because ARTEX usually runs two to three attack chains simultaneously, its agents adapt immediately and shift to new network paths at machine speed.\nARTEX still gives itself away with huge bursts of traffic, because the framework doesn't hide its activity by default. Microsoft recommends deception technologies tailored to how AI agents operate, alongside strict access controls, rate limits, and automated real-time isolation for compromised devices.\nHoneypots present autonomous agents with attractive but worthless decoy systems to pull traffic away from real targets. Artificial delay loops, known as tarpits, slow down requests and drain an agent's built-in time and compute budget. Fake wins, Microsoft says, are especially effective because ARTEX's goal model looks for verifiable proof of a breach. When a trap returns convincing fake success messages, the AI considers its task complete and stops the attack by itself.\nDecoy credentials, called honeytokens, trigger early alerts when agents try to hijack someone else's AI compute. Microsoft's own tests show these deception tactics sharply reduce successful attack traffic against real systems and deliver high-precision data for identifying the attackers behind them.\nHow long these defenses will hold up remains open in Microsoft's analysis. The recommended safeguards depend heavily on ARTEX remaining noisy and unmasked. Threshold filters and decoys are likely to reach their limits once attackers space out their requests. Powerful language models that independently recognize artificial test environments and deception attempts, as seen in recent safety tests, pose a similar risk.\nTHE DECODER+\nAI News Without the Hype – Curated by Humans\n- Every Plus article and the full archive\n- No ad banners\n- Frontier Radar: 6 deep dives a year\nWhat is included\nAlready a subscriber? Sign in",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a13",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a13.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : Le Monde\nRubrique : France\nDate du flux : 26/11/2026\nAuteur : Clément Guillou\nTitre d'origine : Messages antisémites de Jordan Bardella : les 19 preuves que le président du RN est bien l’auteur des propos incriminés sur Messenger\n\nARTICLE :\nSOURCE 1 (Le Monde) :\nDepuis la révélation de ses propos antisémites par Mediapart, le 28 septembre, Jordan Bardella a d’abord évoqué « une barbouzerie », dont le site d’information aurait été soit l’auteur, soit la victime. Avant d’être beaucoup plus flou dans ses démentis, après la publication des preuves par Mediapart trois jours plus tard.\nC’est que la conversation Messenger incriminée contient une foule d’éléments qui permettent d’affirmer avec certitude que le président du Rassemblement national (RN) est bien l’auteur de ces nombreuses phrases antisémites et complotistes. Certaines ont déjà été égrénées par Mediapart, d’autres peuvent désormais être ajoutées. Par différents recoupements, Le Monde a listé pas moins de 19 éléments concordants entre les messages de Jordan Bardella dans cette conversation et ses déclarations publiques faites depuis dans la presse, sur Twitter (X) et dans ses ouvrages.\nTous ces éléments ne font que conforter ce qui constitue l’objet principal de la preuve : avec la source propriétaire du compte Messenger, Le Monde s’est rendu dans une étude d’huissier, le 19 novembre, pour procéder à l’extraction de ses conversations de l’année 2013. Sacha (son prénom a été changé) a fourni à l’huissier sa carte d’identité et rentré devant lui ses identifiants Facebook. Vingt-quatre heures plus tard, Sacha a reçu la notification par Meta, maison mère de Facebook et Messenger, de l’arrivée de ses conversations de 2013 sur son compte. Parmi elles, un document nommé « jordanbardella10207596331484581 » recelant l’ensemble de la conversation, qui correspond en tous points à celle encore visible sur le téléphone de la source.\nSollicité par Le Monde, Jordan Bardella a toutefois fait répondre par son avocat, Pascal Garbarini, qu’il n’était pas l’auteur des propos incriminés, sans répondre aux questions sur ces nombreuses correspondances.\nIl vous reste 28.91% de cet article à lire. La suite est réservée aux abonnés.\n\nSOURCE 2 (Public Sénat) :\nEn ce dernier jour du Congrès des maires de la Porte de Versailles à Paris, Sébastien Lecornu, David Lisnard et Gérard Larcher ont débattu pendant deux heures sur les enjeux actuels des collectivités territoriales. Alors que David Lisnard considère que la France est un pays aujourd’hui trop normé, Sébastien Lecornu lui répond en imitant Jacques Chirac.\nEcrits antisémites : Jordan Bardella mis en cause par de nouvelles preuves révélées par Le Monde et Mediapart\nLe RN pensait avoir tourné la page, à force de dénégations et de contre-attaques judiciaires. Mais les accusations d’antisémitisme contre Jordan Bardella sont aujourd’hui relancées, à la lumière des informations dévoilées par Le Monde et Médiapart. Les deux médias publient 19 preuves que le président du RN est bien l’auteur des propos incriminés.\n« Ce sont les sionistes qui sont à la tête des banques »\nLe Monde a en effet eu accès à une conversation Facebook, déjà authentifiée par Mediapart et que le quotidien a obtenue auprès de la même source, en faisant également certifier ce document « complet et non altéré » par un huissier.\nUne base identique donc, où l’on trouvait déjà – fautes d’orthographe incluses – des assertions comme : « Le juif doit dominé les autres peuples, les écraser et les voler, un sioniste est forcément juif, et en profondeur ».\nMais cette fois-ci d’autres extraits viennent alourdir la barque. Notamment : « Ce sont les sionistes qui sont à la tête des banques, c’est pas pour rien que mister Attali est favorable à un nouvel ordre mondiale avec comme capitale Jérusalem par exemple, tout est lié ».\nOu encore : « Je suis anti-sionniste, cad à la fois contre la main mise du sionnisme en France, et à la fois contre les politiques inter/exter d’Israël » – le sionisme étant ici décrit comme « l’avènement du peuple juif, son extension en Israël et la haine du peuple arabe ».\nL’auteur de ces messages, qui se réfère à plusieurs reprises à l’idéologue antisémite et négationniste Alain Soral, affirme en outre que les ministères « les plus importants reviennent à des personnes pour qui Israël et l’intérêt bancaire priment sur les intérêts Français » – citant les socialistes alors au pouvoir Laurent Fabius, Pierre Moscovici et Manuel Valls.\nJordan Bardella continue de « réfuter catégoriquement être l’auteur des propos »\nOr, plusieurs détails permettent de relier ces propos à l’actuel président du RN. Des messages jusqu’ici non divulgués pour protéger l’identité de la source de Mediapart (et désormais du Monde), un ancien camarade de lycée de Jordan Bardella qui a accepté l’utilisation de ces éléments pour ne « pas le laisser mentir à la France entière ».\nCertains échanges portent ainsi sur leurs enseignants de l’époque au sein de l’établissement privé Jean-Baptiste de La Salle à Saint-Denis. D’autres font mention de sa date d’anniversaire, de l’origine de ses parents, ou encore de son engagement passé dans une association d’aide à l’apprentissage du français pour des travailleurs étrangers : tout concorde avec la biographie du jeune homme alors âgé de 17 ans.\nDe même que l’évocation d’une adhésion au Front national en 2012, et ce message à l’été 2013 : « Je suis chez Marine Le Pen ». Sans oublier ces publications identiques, à quelques heures d’intervalle sur ce compte Facebook privé et son compte Twitter public, au sujet des « socialistes qui ont voté les pleins pouvoirs à Pétain » ou d’Emmanuel Macron « employé de la banque Rotschild » – toujours fautes incluses.\nUne accumulation d’indices balayée du revers de la main par l’avocat Pascal-Pierre Garbarini, qui a fait savoir au Monde et à Mediapart que son client Jordan Bardella « réfute catégoriquement être l’auteur des propos » qui lui sont attribués et « se réserve le droit d’engager toutes actions judiciaires qu’il jugera nécessaire ».\nA ce jour, deux plaintes ont déjà été déposées contre Mediapart, pour diffamation et pour « faux et usage de faux ».\nMais selon les deux médias, le président du RN détient bien la clé de cette affaire : en effet, le compte Facebook incriminé est « désactivé », et Jordan Bardella disposerait lui-même d’un compte associé à une adresse mail dont il se servait il y a quinze ans – comme l’avait signalé Libération.\nUne preuve cruciale à portée de clic, sauf que l’intéressé affirme au contraire qu’il n’a « plus accès à (son) compte Facebook » car celui-ci « a été supprimé ».\nAFP",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

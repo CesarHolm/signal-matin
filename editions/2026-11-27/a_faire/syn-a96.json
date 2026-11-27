@@ -1,0 +1,64 @@
+{
+ "id": "syn-a96",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a96.json",
+ "limite_caracteres": 3039,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3039 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Le Grand Continent\nRubrique : Géopolitique\nDate du flux : 26/11/2026\nAuteur : Ramona Bloj\nTitre d'origine : Le blocus maritime américain étouffe l’économie iranienne\n\nARTICLE :\nLa stratégie de pression économique maximale imposée par les États-Unis sur l’Iran met le régime en grande difficulté. Les ports iraniens sont soumis depuis avril à un blocus maritime – suspendu en juin puis de nouveau imposé le 14 juillet – qui entrave l’essentiel du commerce entrant et sortant du pays, ce qui a conduit à une pénurie de carburant et à une hausse considérable du prix des biens de consommation.\nDepuis 2020, le prix de l’huile de cuisson a été multiplié par 41 en Iran.\n- Le 11 novembre, un conseiller du président du Parlement iranien, Mohammad Bagher Ghalibaf, a déclaré que les États-Unis pourraient chercher à déclencher des troubles internes en combinant un durcissement du blocus, des « opérations cognitives » et des frappes limitées contre les infrastructures économiques.\n- Il a ajouté : « La levée du blocus vaut la peine qu’une guerre militaire totale soit déclenchée par l’Iran. Les hommes courageux qui dirigent la guerre en Iran ont réfléchi à des idées très créatives à ce sujet ».\nPlusieurs manifestations ont été organisées dans le pays ces derniers jours face à la hausse des prix, notamment par des routiers dans le sud, qui protestent depuis le 22 novembre contre l’augmentation des coûts d’entretien des camions. Le 17 novembre, des manifestants s’étaient également rassemblés dans la province d’Ilam, à l’ouest, pour dénoncer l’incompétence du gouvernement et sa mauvaise gestion de l’économie 1.\n- Le vice-ministre des Affaires étrangères, Kazem Gharibabadi, a déclaré samedi 21 novembre que Téhéran considérait le blocus comme un acte de guerre, et a annoncé que le régime allait prendre « toutes les mesures nécessaires pour briser ce siège économique ».\n- Le même jour, les Gardiens de la révolution islamique ont ciblé avec des missiles et des drones les radars de deux bases militaires américaines à Bahreïn. Il s’agissait de la troisième attaque en cinq jours contre le pays, après plusieurs semaines d’accalmie.\nLe régime dispose de peu d’instruments pour contourner le blocus américain de ses ports. Le trafic routier et ferroviaire a bondi ces derniers mois pour compenser la chute du commerce maritime, mais les infrastructures des corridors terrestres ne sont pas en mesure d’absorber la hausse du trafic.\n- Au poste-frontière de Gürbulak-Bazargan, la principale entrée terrestre des marchandises européennes et turques, les routiers attendent ainsi jusqu’à 24 jours pour passer. Sur la route d’Asie centrale, les volumes de fret quotidiens ont presque triplé par rapport à l’avant-guerre 2.\n- Des goulots d’étranglement se forment également plus en amont, comme au poste-frontière de Yallama, entre le Kazakhstan et l’Ouzbékistan, où une file de plus de 40 kilomètres de camions s’est formée avant le dédouanement.\nL’Iran et les États-Unis poursuivent des discussions indirectes, par l’intermédiaire du Qatar et du Pakistan, pour rétablir un cessez-le-feu et rouvrir le détroit d’Ormuz.\n- Jeudi 19 novembre, les émissaires de Trump, Jared Kushner et Steve Witkoff, ont rencontré à Berlin de hauts responsables qataris, dont le Premier ministre Mohammed ben Abderrahmane Al Thani, afin de relancer les discussions 3.\n- Trump a quant à lui publiquement accusé dimanche 22 novembre les responsables iraniens d’être des « danseurs de claquettes professionnels », et de faire traîner en longueur les négociations 4.\nSources\n- Iran Update, November 23, 2026, Institute for the Study of War.\n- Huge 26-mile lorry jam forms on Iranian border as US naval blockade chokes off imports », The Independent, 24 novembre 2026\n- Witkoff and Kushner meet Qatari mediators to discuss Iran negotiations », Axios, 20 novembre 2026.\n- Trump warns of new strikes against Iran after new year, calls negotiators ‘professional tap dancers’ », Fox News, 22 novembre 2026.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

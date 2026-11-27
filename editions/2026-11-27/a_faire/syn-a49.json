@@ -1,0 +1,64 @@
+{
+ "id": "syn-a49",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a49.json",
+ "limite_caracteres": 3860,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 3860 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : NPR\nRubrique : États-Unis\nDate du flux : 26/11/2026\nAuteur : The Associated Press\nTitre d'origine : Congo Ebola outbreak reaches 12,000 cases as some responders evacuate\n\nARTICLE :\nSOURCE 1 (NPR) :\nCongo Ebola outbreak reaches 12,000 cases as some responders evacuate\nBUNIA, Congo — The fast-moving Ebola outbreak in eastern Congo has topped 12,000 confirmed cases, government data showed Thursday, as fighting between rebels and the army disrupts efforts to contain the spread of the disease.\nIt is the fastest-growing Ebola outbreak in history and nearly half the 12,021 people confirmed to have the virus have died, according to data from Congo's Ministry of Health. It is also the deadliest of Congo's 17 outbreaks and is on track to surpass the death toll from the West African outbreak that killed 11,000 people between 2014 and 2016.\nThe outbreak declared in May is caused by the rare Bundibugyo virus, for which there is no approved vaccine or treatment. Response teams are battling armed conflict, poor roads and violence from residents fueled by mistrust and misinformation.\nEbola spreads through direct contact with the blood or other bodily fluids of people who are sick or have died from the disease. Containing the disease requires quickly identifying and treating patients in isolation, monitoring people who may have been exposed and safely burying the dead.\nFighting between the army and the Convention pour la révolution populaire rebels resumed Thursday morning in Iga-Barrière, a mining town about 25 kilometers (15 miles) north of Bunia in eastern Congo, sending new waves of displaced people toward the city. Bunia is the capital of northeastern Ituri province and a major hub for the Ebola response.\nCRP is one of more than 100 armed groups in eastern Congo, where conflict has created one of the world's most severe humanitarian crises. The group was founded last year by former warlord Thomas Lubanga, who was convicted by the International Criminal Court in 2012 of recruiting children under 15 and using them in fighting.\nFighting between the army and the rebels earlier this week had already prevented teams from reaching some communities, disrupted monitoring of people exposed to the virus and left some treatment centers with fewer staff, Dr. Catherine Smallwood, the World Health Organization's Ebola incident manager, said Wednesday.\nSmallwood said that about a dozen people, including two WHO personnel and Congolese health officials, were evacuated to Bunia on Tuesday after three full days trapped in a hospital in Akwe, northeast of the provincial capital, amid intense crossfire.\n\nSOURCE 2 (WVTF) :\nBUNIA, Congo — The fast-moving Ebola outbreak in eastern Congo has topped 12,000 confirmed cases, government data showed Thursday, as fighting between rebels and the army disrupts efforts to contain the spread of the disease.\nIt is the fastest-growing Ebola outbreak in history and nearly half the 12,021 people confirmed to have the virus have died, according to data from Congo's Ministry of Health. It is also the deadliest of Congo's 17 outbreaks and is on track to surpass the death toll from the West African outbreak that killed 11,000 people between 2014 and 2016.\nThe outbreak declared in May is caused by the rare Bundibugyo virus, for which there is no approved vaccine or treatment. Response teams are battling armed conflict, poor roads and violence from residents fueled by mistrust and misinformation.\nEbola spreads through direct contact with the blood or other bodily fluids of people who are sick or have died from the disease. Containing the disease requires quickly identifying and treating patients in isolation, monitoring people who may have been exposed and safely burying the dead.\nFighting between the army and the Convention pour la révolution populaire rebels resumed Thursday morning in Iga-Barrière, a mining town about 25 kilometers (15 miles) north of Bunia in eastern Congo, sending new waves of displaced people toward the city. Bunia is the capital of northeastern Ituri province and a major hub for the Ebola response.\nCRP is one of more than 100 armed groups in eastern Congo, where conflict has created one of the world's most severe humanitarian crises. The group was founded last year by former warlord Thomas Lubanga, who was convicted by the International Criminal Court in 2012 of recruiting children under 15 and using them in fighting.\nFighting between the army and the rebels earlier this week had already prevented teams from reaching some communities, disrupted monitoring of people exposed to the virus and left some treatment centers with fewer staff, Dr. Catherine Smallwood, the World Health Organization's Ebola incident manager, said Wednesday.\nSmallwood said that about a dozen people, including two WHO personnel and Congolese health officials, were evacuated to Bunia on Tuesday after three full days trapped in a hospital in Akwe, northeast of the provincial capital, amid intense crossfire. \nCopyright 2026 NPR",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "syn-a8",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a8.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Vérification des sources complémentaires : avant de rédiger, vérifie que chaque SOURCE numérotée à partir de 2 traite bien du MÊME fait que la SOURCE 1 (même événement, mêmes acteurs). Ignore entièrement celles qui n'en traitent pas et donne leurs numéros dans « sources_ecartees ». Si, sans elles, la matière ne suffit pas pour un article fiable, réponds seulement {\"insuffisant\": true, \"titre\": \"…\", \"texte\": \"…\"} : une brève en français (titre de 90 caractères au plus, 2 à 3 phrases d'environ 450 caractères), uniquement d'après la SOURCE 1.\nFormat : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nLe texte réunit plusieurs sources sur le même sujet (SOURCE 1, SOURCE 2…). Croise-les sans rien ajouter ; si elles divergent, dis-le en nommant la source.\nSource : The Decoder\nRubrique : IA\nDate du flux : 26/11/2026\nAuteur : Maximilian Schreiner\nTitre d'origine : Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls\n\nARTICLE :\nSOURCE 1 (The Decoder) :\nNvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls\nKey Points\n- The Financial Times reported that Nvidia told partners including Dell and Supermicro to halt server shipments to Malaysia, Singapore, Thailand, and Indonesia. New US export controls are designed to stop Chinese companies from bypassing sales bans through foreign cloud providers.\n- Dealers have listed an unusually large number of Nvidia GPUs for sale as a result of the rules, CNBC reported. The supply includes thousands of B300 chips originally intended for data centers with Chinese rental customers.\n- Cloud providers in Southeast Asia now have 90 days to apply for a license, a requirement one executive said has led to \"chaos.\" Banks have already halted about $500 million in loans to Singapore-based provider Aolani for a planned deal with ByteDance, the Financial Times reported.\nThe US is closing cloud loopholes that give Chinese companies access to AI chips. Nvidia is responding by halting shipments to four countries, while thousands of high-performance processors are looking for new buyers on the secondary market.\nNvidia has told manufacturing partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia. The Financial Times reported the halt, citing three people familiar with the matter. It isn't clear whether the pause is only temporary, according to the report.\nThe move follows tighter US export controls from the Commerce Department's Bureau of Industry and Security. The rules aim to stop Chinese companies from getting around existing sales bans by renting computing power from foreign cloud providers. US Trade Representative Jamieson Greer told CNBC the goal was to block indirect access, including smuggling through Southeast Asia and remote access via data centers in third countries.\nThousands of B300 chips hit the market as cloud providers face chaos\nThe controls are already affecting the hardware market, CNBC reported. Since the announcement, dealers have listed an unusually large number of Nvidia GPUs for sale. Jack Duhamel, president of the AI infrastructure marketplace GPU Mart, and two other insiders confirmed to CNBC that the surge is a direct result of the new rule. According to the report, sellers are looking for new buyers for hardware, including thousands of B300 chips, one of Nvidia's most advanced models. Those chips were originally intended for data centers with Chinese rental customers.\nThe rollout has created significant uncertainty in Southeast Asia, the Financial Times reported. Cloud providers have 90 days to apply for a license and prove that no restricted companies are among their end users. One cloud provider executive described the situation to the paper as chaos, saying there was no guidance on how to apply.\nThe fallout is also hitting major infrastructure projects. Banks have halted about $500 million in loans to Singapore-based cloud provider Aolani, which planned to rent computing power to TikTok parent ByteDance, the Financial Times reported. ByteDance could now pull out of the deal.\nTHE DECODER+\nAI News Without the Hype – Curated by Humans\n- Every Plus article and the full archive\n- No ad banners\n- Frontier Radar: 6 deep dives a year\nWhat is included\nAlready a subscriber? Sign in\n\nSOURCE 2 (Yahoo Finance) :\nNvidia Reportedly Halts AI Server Shipments to Four Southeast Asian Countries Amid Tighter US Export Controls\nNvidia (NASDAQ:NVDA) has instructed its manufacturing partners to suspend shipments of servers containing its advanced artificial intelligence processors to four Southeast Asian countries following the introduction of tighter US export restrictions, the Financial Times reported on Thursday.\nCiting three people familiar with the matter, the newspaper said manufacturing partners, including Dell and Supermicro, had informed customers in Malaysia, Singapore, Thailand and Indonesia that Nvidia would not permit their orders to be shipped.\nUS Tightens Restrictions on Chinese Access to Advanced AI Chips\nThe reported shipment suspension comes as Washington intensifies efforts to prevent Chinese technology companies from accessing Nvidia's most advanced AI processors, which are subject to restrictions on direct sales to Chinese developers.\nSoutheast Asia has become an important market for cloud computing infrastructure, with Chinese AI developers securing substantial computing capacity through contracts with regional data centre operators.\nThe US Commerce Department introduced new regulations last week aimed at restricting indirect access to advanced American semiconductor technology through overseas cloud computing services.\nCloud service providers in Asia now face a 90-day deadline to demonstrate that their services do not provide restricted entities with access to controlled technology.\nNvidia Faces Increased Scrutiny Over Regional Distribution\nThe issue has attracted greater attention following the recent leadership disruption at Nvidia involving Chief Executive Officer Jensen Huang.\nMedia reports concerning Huang's personal relationships included allegations involving an executive at a Singapore-based cloud computing provider accused of leasing advanced processors to Chinese developers.\nThe reported suspension of server shipments highlights the compliance challenges facing semiconductor manufacturers and their distribution partners as US authorities expand restrictions on access to advanced AI computing infrastructure.\nNvidia stock price\n\nSOURCE 3 (The Next Web) :\nThe Financial Times reported on Thursday that Nvidia has told its manufacturing partners to stop shipping servers built with its chips to Malaysia, Singapore, Thailand, and Indonesia, citing three people familiar with the matter.\nPartners including Dell and Supermicro, which build Nvidia’s chips into servers, told buyers in the four countries that the chipmaker would not let their orders ship, according to the FT.\nNvidia, Dell, and Supermicro did not immediately respond to requests for comment from Reuters.\nThe paper said it was unclear whether the halt would be temporary while Nvidia and its partners work out how to comply with new US export controls. Those controls took effect on 19 November, and they require a US licence to ship advanced AI chips to Indonesia, Malaysia, Singapore, Thailand, and Brazil.\nWashington wants to close the routes Chinese companies are believed to use to reach restricted chips. Those include moving hardware through the region and renting computing power in its data centres. Malaysian customs have already seized AI servers at Kuala Lumpur’s main airport this year.\nThe Commerce Department issued the interim licence rule during weeks of turmoil at Nvidia itself. Jensen Huang resigned as chief executive on 12 November, after reports of an affair with Alice Huang. She is a former executive at Singapore cloud company Megaspeed, and US officials suspect her of being a Chinese spy.\nChina has denied she is a spy, and Megaspeed, which is under US criminal investigation over the possible diversion of chips to China, denies any wrongdoing. Nvidia’s board then reinstated Huang on 23 November, saying it was satisfied with his candour and ability to lead the company.\nSoutheast Asia is a large market for Nvidia on paper, and the revenue booked through its Singapore subsidiary reached $104bn in 2025, up 72% on the year before.\n“It’s causing sheer chaos in the region,” a cloud provider executive told the FT.\nGovernments in the region have started to adjust, as Singapore has said it wants a trusted route for its companies to keep buying advanced chips. And Malaysia’s trade minister has told the country’s data centre operators to comply with the US rule.\nGet the TNW newsletter\nGet the most important tech news in your inbox each week.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
