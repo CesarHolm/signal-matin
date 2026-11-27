@@ -1,0 +1,363 @@
+{
+ "date": "2026-11-27",
+ "nouveaux_mots": [
+  {
+   "mot": "Galvauder",
+   "nature": "v. tr.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Dégrader en faisant un mauvais usage.",
+   "exemple": "Un mot galvaudé à force d'être répété."
+  },
+  {
+   "mot": "Corroborer",
+   "nature": "v. tr.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "Confirmer par de nouveaux éléments.",
+   "exemple": "Les témoignages corroborent sa version."
+  },
+  {
+   "mot": "Ostracisme",
+   "nature": "n. m.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Exclusion d'une personne par un groupe.",
+   "exemple": "Il a subi l'ostracisme de ses collègues."
+  },
+  {
+   "mot": "Uchronie",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Récit imaginant ce qui serait advenu si l'histoire avait pris un autre cours.",
+   "exemple": "Une uchronie où Napoléon gagne Waterloo."
+  },
+  {
+   "mot": "Novation",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "pro",
+   "definition": "Remplacement d'une obligation par une nouvelle, qui éteint la première.",
+   "exemple": "La novation par changement de débiteur."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Stochastique",
+   "definition": "Qui relève du hasard, des probabilités."
+  },
+  {
+   "mot": "Frugal",
+   "definition": "Qui se contente de peu, notamment pour la nourriture ; simple et peu abondant."
+  },
+  {
+   "mot": "Préemption",
+   "definition": "Droit d'acquérir un bien par priorité sur tout autre acheteur."
+  },
+  {
+   "mot": "Philippique",
+   "definition": "Discours violent et polémique dirigé contre quelqu'un."
+  },
+  {
+   "mot": "Équivoque",
+   "definition": "Qui peut s'interpréter de plusieurs façons ; ambigu, douteux."
+  }
+ ],
+ "articles": [
+  "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+  "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+  "https://www.actuia.com/actualite/openai-revendique-une-limite-de-vitesse-pour-le-calcul-qui-fait-tourner-lia/",
+  "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
+  "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+  "https://www.lemonde.fr/politique/article/2026/11/26/messages-antisemites-de-jordan-bardella-les-19-preuves-que-le-president-du-rn-est-bien-l-auteur-des-propos-incrimines-sur-messenger_6815482_823448.html",
+  "https://www.franceinfo.fr/culture/cinema/depardieu/apres-sa-condamnation-dans-l-affaire-des-volets-verts-on-fait-le-point-sur-les-plaintes-et-accusations-de-violences-sexistes-et-sexuelles-qui-visent-gerard-depardieu_8284541.html#xtor=RSS-3-[lestitres]",
+  "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/secheresse/c-est-pas-le-psy-qui-va-faire-pousser-de-l-herbe-apres-le-suicide-d-un-agriculteur-sa-famille-temoigne_8302056.html#xtor=RSS-3-[lestitres]",
+  "https://www.lemonde.fr/politique/article/2026/11/26/budget-de-la-secu-pour-2027-un-compromis-a-ce-stade-introuvable_6815592_823448.html",
+  "https://www.publicsenat.fr/actualites/politique/youtube-tiktok-facebook-le-senat-supprime-labattement-fiscal-dont-beneficient-les-plateformes",
+  "https://www.publicsenat.fr/actualites/culture/on-nest-pas-dans-la-critique-on-est-dans-la-transformation-et-ladaptation-les-senateurs-lr-presentent-leurs-pistes-de-reforme-de-laudiovisuel-public",
+  "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
+  "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+  "https://legrandcontinent.eu/fr/2026/11/26/le-blocus-maritime-americain-etouffe-leconomie-iranienne/",
+  "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
+  "https://legrandcontinent.eu/fr/2026/11/26/lukraine-a-detruit-pour-la-premiere-fois-un-drone-a-reaction-avec-une-arme-laser/",
+  "https://www.aljazeera.com/news/2026/11/27/argentina-bars-central-bank-from-printing-money-to-fund-government-spending?traffic_source=rss",
+  "https://www.nber.org/papers/w36037#fromrss",
+  "https://verfassungsblog.de/north-sea-fields-case/",
+  "https://www.nber.org/papers/w36043#fromrss",
+  "https://www.nber.org/papers/w36039#fromrss",
+  "https://verfassungsblog.de/egmr-refoulement/",
+  "https://bloomassociation.org/devoir-de-vigilance-une-analyse-exclut-tout-recul-du-droit-francais-dans-le-cadre-de-la-transposition-de-la-csddd/",
+  "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+  "https://table.media/en/china/news/asml-the-netherlands-and-china-plan-to-coordinate-export-controls",
+  "https://fintech.global/2026/11/26/amlas-eid-first-rule-puts-selfie-kyc-on-borrowed-time/",
+  "https://www.sciencesetavenir.fr/high-tech/intelligence-artificielle/centres-de-donnees-dans-l-espace-spacex-autorise-a-lancer-un-million-de-satellites_196546?xtor=RSS-12",
+  "https://theconversation.com/des-centaines-de-problemes-resolus-par-lia-une-menace-pour-lavenir-des-mathematiques-297425",
+  "https://www.sciencesetavenir.fr/high-tech/les-data-centers-consomment-beaucoup-plus-d-electricite-que-prevu_196534?xtor=RSS-12",
+  "https://www.franceinfo.fr/sports/rugby/top-14/le-meilleur-marqueur-de-l-histoire-du-top-14-benjamin-urdapilleta-annonce-sa-retraite-apres-un-dernier-match-ce-samedi-28-novembre_8301966.html#xtor=RSS-3-%5Bsports%5D",
+  "https://www.franceinfo.fr/sports/sports-d-hiver/biathlon/l-americain-campbell-wright-vainqueur-surprise-de-la-premiere-course-de-la-saison-l-individuel-de-kontiolahti-les-bleus-hors-du-coup_8301633.html#xtor=RSS-3-%5Bsports%5D",
+  "https://theconversation.com/en-europe-des-arbres-millenaires-subsistent-a-flanc-de-falaise-295710"
+ ],
+ "titres": [
+  "ARTEX : des pirates automatisent leurs cyberattaques avec des agents d'IA",
+  "Puces d'IA : Nvidia suspend ses livraisons dans quatre pays d'Asie du Sud-Est",
+  "Calcul de l'IA : OpenAI revendique une limite de vitesse infranchissable",
+  "SpaceX autorisé à déployer jusqu'à un million de satellites centres de données",
+  "Messages antisémites : de nouveaux éléments mettent Jordan Bardella en cause",
+  "Gérard Depardieu sera jugé pour viol : le point sur les accusations",
+  "Après le suicide d'un éleveur, sa famille alerte sur la détresse agricole",
+  "Ebola au Congo : plus de 12 000 cas, des soignants évacués sous les combats",
+  "Zelensky redoute une frappe russe massive, Trump dit avoir pressé Poutine",
+  "Le blocus maritime américain étouffe l'économie iranienne",
+  "Zones à faibles émissions : à Madrid, un coût supérieur au gain environnemental",
+  "Pétrole norvégien et climat : un arrêt entre avancées et reculs",
+  "Devoir de vigilance : une analyse exclut tout recul de la loi française",
+  "Nvidia suspend ses livraisons de serveurs vers quatre pays d'Asie du Sud-Est",
+  "Centres de données en orbite : SpaceX autorisé à lancer un million de satellites",
+  "Mathématiques : les percées de l'IA inquiètent de grands chercheurs"
+ ],
+ "solutions": {
+  "sudoku": [
+   6,
+   5,
+   7,
+   4,
+   8,
+   9,
+   1,
+   3,
+   2,
+   9,
+   4,
+   3,
+   6,
+   2,
+   1,
+   5,
+   8,
+   7,
+   2,
+   8,
+   1,
+   3,
+   5,
+   7,
+   6,
+   9,
+   4,
+   7,
+   6,
+   8,
+   2,
+   4,
+   3,
+   9,
+   1,
+   5,
+   3,
+   2,
+   5,
+   1,
+   9,
+   6,
+   4,
+   7,
+   8,
+   4,
+   1,
+   9,
+   8,
+   7,
+   5,
+   3,
+   2,
+   6,
+   8,
+   7,
+   6,
+   9,
+   3,
+   4,
+   2,
+   5,
+   1,
+   1,
+   9,
+   2,
+   5,
+   6,
+   8,
+   7,
+   4,
+   3,
+   5,
+   3,
+   4,
+   7,
+   1,
+   2,
+   8,
+   6,
+   9
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     8,
+     1
+    ],
+    [
+     0,
+     1,
+     1,
+     7
+    ],
+    [
+     0,
+     8,
+     3,
+     2
+    ],
+    [
+     1,
+     1,
+     2,
+     6
+    ],
+    [
+     1,
+     7,
+     8,
+     1
+    ],
+    [
+     3,
+     1,
+     1,
+     2
+    ],
+    [
+     3,
+     3,
+     6,
+     2
+    ],
+    [
+     3,
+     5,
+     1,
+     2
+    ],
+    [
+     3,
+     8,
+     4,
+     2
+    ],
+    [
+     4,
+     1,
+     4,
+     2
+    ],
+    [
+     4,
+     5,
+     5,
+     2
+    ],
+    [
+     7,
+     8,
+     2,
+     2
+    ],
+    [
+     8,
+     0,
+     2,
+     1
+    ],
+    [
+     8,
+     1,
+     2,
+     2
+    ],
+    [
+     9,
+     3,
+     1,
+     2
+    ],
+    [
+     9,
+     5,
+     1,
+     5
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    2,
+    4,
+    3,
+    5,
+    6,
+    1
+   ],
+   [
+    4,
+    2,
+    6,
+    1,
+    3,
+    5
+   ],
+   [
+    3,
+    6,
+    1,
+    2,
+    5,
+    4
+   ],
+   [
+    5,
+    1,
+    2,
+    6,
+    4,
+    3
+   ],
+   [
+    1,
+    5,
+    4,
+    3,
+    2,
+    6
+   ],
+   [
+    6,
+    3,
+    5,
+    4,
+    1,
+    2
+   ]
+  ],
+  "compte": [
+   "5 × 75 = 375",
+   "375 − 10 = 365",
+   "365 + 6 = 371",
+   "371 + 3 = 374"
+  ]
+ },
+ "reponses_quiz": []
+}
