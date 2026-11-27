@@ -1,0 +1,12 @@
+{
+  "developpes": [
+    {"id": "a117", "score": 9, "raison": "Accord sur un nouveau paquet de sanctions de l'UE contre la Russie"},
+    {"id": "a138", "score": 8, "raison": "Devoir de vigilance : une analyse exclut tout recul du droit français lors de la transposition de la CSDDD"},
+    {"id": "a131", "score": 7, "raison": "Nvidia suspend les expéditions de serveurs vers l'Asie du Sud-Est après des contrôles export américains"},
+    {"id": "a137", "score": 6, "raison": "Espagne : décret permettant le gel temporaire de comptes crypto"}
+  ],
+  "breves": [
+    {"id": "a129", "titre": "Les Pays-Bas et la Chine veulent coordonner leurs contrôles d'exportation", "texte": "Selon Table.Briefings, les Pays-Bas et la Chine prévoient de coordonner leurs contrôles à l'exportation, dans le dossier ASML."},
+    {"id": "a132", "titre": "La règle de l'AMLA privilégiant l'eID fragilise le selfie pour l'identification", "texte": "Selon FinTech Global, la règle de l'AMLA qui privilégie l'identité électronique (eID) met en sursis la vérification d'identité par selfie dans les procédures KYC."}
+  ]
+}

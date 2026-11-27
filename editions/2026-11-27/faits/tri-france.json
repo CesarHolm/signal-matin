@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a13", "score": 9, "raison": "Révélations documentées de messages antisémites attribués au président du Rassemblement national"},
+    {"id": "a31", "score": 7, "raison": "Renvoi de Gérard Depardieu en procès pour une partie des viols dénoncés"},
+    {"id": "a23", "score": 7, "raison": "Échec de la commission mixte paritaire sur le budget de la Sécurité sociale pour 2027"},
+    {"id": "a32", "score": 6, "raison": "Suicide d'un agriculteur ; difficultés du monde agricole face à la sécheresse"},
+    {"id": "a15", "score": 5, "raison": "Polémique Macron – Le Pen sur le budget européen et la présidentielle"}
+  ],
+  "breves": [
+    {"id": "a46", "titre": "Le Sénat supprime l'abattement fiscal des plateformes de vidéo", "texte": "Dans le cadre du budget 2027, le Sénat a supprimé l'abattement fiscal dont bénéficient les plateformes gratuites de partage de vidéos, comme YouTube, TikTok ou Facebook, en raison de l'évolution de leur modèle économique."},
+    {"id": "a41", "titre": "Audiovisuel public : les sénateurs LR proposent une réforme sans démantèlement", "texte": "Les sénateurs LR Cédric Vial et Max Brisson présentent des pistes de réforme : réorganisation de certaines chaînes et rationalisation des programmes, sans démantèlement."},
+    {"id": "a29", "titre": "Procès d'Emilie König, ex-figure du jihad en Syrie, devant la cour d'assises spéciale", "texte": "Cette ex-figure française du jihad en Syrie est jugée pour association de malfaiteurs terroriste devant la cour d'assises spéciale de Paris. Elle encourt trente ans de réclusion criminelle."}
+  ]
+}

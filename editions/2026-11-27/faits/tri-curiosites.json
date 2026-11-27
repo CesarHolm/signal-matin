@@ -1,0 +1,13 @@
+{
+  "developpes": [
+    {"id": "a145", "score": 8, "raison": "Autorisation d'un projet d'un million de satellites ; enjeu pour l'astronomie et le ciel nocturne"},
+    {"id": "a151", "score": 7, "raison": "Des modèles d'IA résolvent des problèmes mathématiques restés ouverts ; inquiétudes de médaillés Fields"},
+    {"id": "a143", "score": 6, "raison": "Premier astronaute étranger à bord de la station Tiangong"}
+  ],
+  "breves": [
+    {"id": "a146", "titre": "Les data centers consomment près de trois fois plus d'électricité que prévu", "texte": "Une nouvelle estimation de chercheurs de Harvard conclut que les centres de données actuels nécessitent près de trois fois plus d'électricité que les estimations précédentes."},
+    {"id": "a163", "titre": "Benjamin Urdapilleta, meilleur marqueur du Top 14, annonce sa retraite", "texte": "Le joueur de Perpignan a annoncé qu'il arrêtera sa carrière après le match contre La Rochelle, samedi 28 novembre. Il est le meilleur marqueur de l'histoire du Top 14."},
+    {"id": "a165", "titre": "Campbell Wright gagne l'individuel de biathlon de Kontiolahti", "texte": "L'Américain Campbell Wright remporte la surprise de la première course de la saison de Coupe du monde. Chez les Français, seul Emilien Claude figure dans le Top 8."},
+    {"id": "a152", "titre": "En Europe, des arbres millénaires survivent à flanc de falaise", "texte": "Il reste peu d'arbres millénaires en Europe, mais certains, comme des genévriers de Phénicie dans les gorges de l'Ardèche, poussent à flanc de falaise. Ils pourraient aussi aider à mieux comprendre des séismes passés."}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "developpes": [
+    {"id": "a98", "score": 8, "raison": "Document de travail du NBER : conception des zones à faibles émissions, théorie du bien-être et données de Madrid"},
+    {"id": "a105", "score": 7, "raison": "Analyse de Verfassungsblog de l'arrêt de la Cour suprême norvégienne annulant les autorisations de trois champs pétroliers"}
+  ],
+  "breves": [
+    {"id": "a101", "titre": "Anticipations budgétaires : des modèles mentaux qui divergent", "texte": "Selon un document de travail du NBER fondé sur plus de 27 000 répondants dans 13 pays, des personnes confrontées à une situation budgétaire similaire forment des anticipations d'ajustement très différentes. Les explications fondées sur des modèles économiques vont de pair avec des anticipations plus marquées."},
+    {"id": "a99", "titre": "Une réforme fiscale américaine élargit l'investissement en capital-risque", "texte": "Un document de travail du NBER étudie la réforme du QSBS de 2009-2010, qui a supprimé l'impôt fédéral sur les plus-values de startups éligibles. Elle rend plus attractifs les placements risqués, y compris dans des marchés inconnus, surtout pour les fonds de capital-risque."},
+    {"id": "a106", "titre": "CEDH : la protection des migrants aux frontières reste exceptionnelle", "texte": "Selon Verfassungsblog, les arrêts de la CEDH du 24 novembre 2026 sur l'instrumentalisation de migrants confirment l'application de la Convention, mais restreignent le non-refoulement : une protection suppose une vulnérabilité manifeste ou un accompagnement juridique."}
+  ]
+}

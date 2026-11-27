@@ -1,0 +1,13 @@
+{
+  "resultats": [
+    {"sport": "Football", "affiche": "Marseille – Levski Sofia", "score": "1-0", "competition": "Ligue Europa (coupe d'Europe des clubs)", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401915507/levski-sofia-marseille"},
+    {"sport": "Football", "affiche": "NEC Nijmegen – Stade Rennais", "score": "3-1", "competition": "Ligue Europa (coupe d'Europe des clubs)", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401915505/stade-rennais-nec-nijmegen"},
+    {"sport": "Football", "affiche": "Lyon – Lillestrom", "score": "0-0", "competition": "Ligue Europa (coupe d'Europe des clubs)", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401915501/lillestrom-lyon"},
+    {"sport": "Football", "affiche": "Olympiacos – AC Milan", "score": "2-4", "competition": "Ligue Europa (coupe d'Europe des clubs)", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401915521/ac-milan-olympiacos"},
+    {"sport": "Football", "affiche": "Crystal Palace – Real Sociedad", "score": "2-1", "competition": "Ligue Europa (coupe d'Europe des clubs)", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401915504/real-sociedad-crystal-palace"}
+  ],
+  "a_suivre": [
+    {"sport": "Formule 1", "affiche": "Week-end du Grand Prix du Qatar", "competition": "Championnat du monde de Formule 1", "source": "ESPN", "url": "https://www.espn.com/f1/race/_/id/600057450"},
+    {"sport": "Football", "affiche": "Chelsea – Nottingham Forest", "competition": "Premier League (championnat d'Angleterre)", "heure": "21 h", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401879225/chelsea-nottingham-forest"}
+  ]
+}

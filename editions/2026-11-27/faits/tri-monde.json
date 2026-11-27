@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a49", "score": 8, "raison": "Épidémie d'Ebola dans l'est du Congo : 12 000 cas, combats entre rebelles et armée qui entravent l'endiguement"},
+    {"id": "a83", "score": 7, "raison": "Zelensky alerte sur une attaque russe majeure pendant que Trump demande à Poutine de reculer"},
+    {"id": "a96", "score": 7, "raison": "Le blocus maritime américain étouffe l'économie iranienne"},
+    {"id": "a81", "score": 7, "raison": "Mise en cause de Chen Jining, chef du Parti communiste à Shanghai, dans la lutte anticorruption"},
+    {"id": "a64", "score": 6, "raison": "Échec du sommet budgétaire de l'UE : il reste un mois pour sauver l'accord"}
+  ],
+  "breves": [
+    {"id": "a50", "titre": "Kim Jong Un appelle à produire davantage d'armes nucléaires", "texte": "Après avoir ignoré l'offre de Donald Trump, le dirigeant nord-coréen aurait visité des installations produisant des matières nucléaires et appelé à construire davantage d'armes face aux menaces américaines et sud-coréennes."},
+    {"id": "a94", "titre": "L'Ukraine détruit pour la première fois un drone à réaction au laser", "texte": "Pour la première fois, l'Ukraine a détruit un drone à réaction avec une arme laser, le Blysk, dont la puissance équivaut à celle de deux bouilloires électriques."},
+    {"id": "a89", "titre": "L'Argentine interdit à la banque centrale de financer les dépenses publiques", "texte": "L'Argentine interdit à sa banque centrale d'imprimer de la monnaie pour financer l'État. Le Sénat fait aussi avancer une proposition de suspension des primaires avant la présidentielle de 2027."}
+  ]
+}

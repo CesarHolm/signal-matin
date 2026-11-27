@@ -1,0 +1,12 @@
+{
+  "developpes": [
+    {"id": "a7", "score": 8, "raison": "Architecture d'ARTEX, cadre d'IA utilisé pour automatiser des cyberattaques par des groupes étatiques et criminels"},
+    {"id": "a8", "score": 8, "raison": "Nvidia suspend les expéditions de serveurs vers quatre pays d'Asie du Sud-Est après de nouveaux contrôles américains"},
+    {"id": "a2", "score": 7, "raison": "Revendication d'OpenAI sur l'exposant de la multiplication de matrices, avec des réserves sur la borne inférieure"},
+    {"id": "a6", "score": 6, "raison": "Autorisation de la FCC pour le projet Starmind de SpaceX, centres de données IA en orbite"},
+    {"id": "a1", "score": 5, "raison": "Analyse économique : l'IA moins chère peut-elle appauvrir ?"}
+  ],
+  "breves": [
+    {"id": "a11", "titre": "Nvidia suspend les expéditions de serveurs en Asie du Sud-Est", "texte": "Nvidia a demandé à ses partenaires de suspendre les expéditions de serveurs vers la Malaisie, Singapour, la Thaïlande et l'Indonésie, alors que Washington durcit ses efforts pour écarter les puces d'IA de la Chine."}
+  ]
+}
