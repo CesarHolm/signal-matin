@@ -1,0 +1,64 @@
+{
+ "id": "syn-a132",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a132.json",
+ "limite_caracteres": 4500,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 4500 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Daf-Mag.fr\nRubrique : CSRD et CSDDD\nDate du flux : 27/11/2026\nAuteur : Christina DIEGO\nTitre d'origine : CSRD : les nouvelles normes ESRS simplifiées entrent en vigueur avec moins de données obligatoires\n\nARTICLE :\nLes nouvelles normes européennes de reporting de durabilité (ESRS) sont entrées en vigueur le 10 novembre 2026. Elles réduisent de près de 60 % le nombre de points de données obligatoires et assouplissent les exigences de publication. Pour les directions financières, cette évolution implique de revoir les méthodes de collecte, l’analyse de matérialité et la préparation de l’état de durabilité.\nNouvelles normes ESRS\nPubliées fin septembre 2026, les normes ESRS révisées, également appelées « Set 2 », remplacent progressivement le premier jeu de normes adopté en juillet 2023 (« Set 1 »).\nCette révision s’inscrit dans le cadre du paquet Omnibus présenté par la Commission européenne début 2025. L’objectif était d’alléger les obligations de reporting imposées aux entreprises par la directive CSRD du 14 décembre 2022.\nLa réforme s’est déroulée en plusieurs étapes. Un premier ajustement ciblé, le « Quick-fix », a été adopté en juillet 2025. La directive Omnibus I de février 2026 a ensuite prévu une réduction du champ d’application de la CSRD. La publication des nouvelles normes ESRS constitue le troisième volet de cette simplification.\nPrès de 60 % de données obligatoires en moins\nLe principal changement concerne le volume des informations à publier. Les nouvelles normes réduisent de près de 60 % le nombre de points de données obligatoires. Elles allègent également les exigences d’application et clarifient plusieurs dispositions. La simplification porte aussi sur la présentation. Les normes regroupent certaines obligations de publication et leurs exigences associées, suppriment les doublons ainsi que les points de données volontaires et réduisent le volume des instructions d’application.\nL’architecture de l’état de durabilité devient également plus souple. Les entreprises peuvent désormais ajouter des annexes ou un résumé exécutif. Elles peuvent aussi s’écarter, sous certaines conditions, de la structure habituelle en quatre chapitres : informations générales, environnement, social et gouvernance. La présentation fidèle devient par ailleurs le principe directeur de la préparation de l’état de durabilité. L’objectif est de mieux tenir compte des caractéristiques propres à chaque entreprise et de la matérialité des informations publiées.\nLes fondamentaux du dispositif restent toutefois inchangés. Les entreprises doivent toujours présenter les informations nécessaires à la compréhension de leurs impacts, risques et opportunités (IRO), conformément au principe de double matérialité. L’analyse de matérialité, la stratégie, la gouvernance, les politiques, les actions, les objectifs et les indicateurs restent au cœur du reporting.\nDes allègements pour renforcer la proportionnalité\nLes nouvelles ESRS introduisent plusieurs mécanismes destinés à adapter les obligations aux capacités et aux circonstances des entreprises. Un principe général autorise désormais le recours aux informations disponibles sans coût ou effort excessif. Cette disposition concerne l’ensemble des indicateurs, les informations relatives à la chaîne de valeur ainsi que l’analyse de matérialité. Des allègements ciblés sont également prévus. Les entreprises peuvent notamment exclure certaines cessions et acquisitions récentes, publier des indicateurs sur un périmètre partiel ou écarter des activités qui ne génèrent pas d’impacts, risques et opportunités matériels.\nLes exigences relatives à la chaîne de valeur sont elles aussi assouplies, avec des limitations sur les données à collecter. Les mesures transitoires sont renforcées pour certaines informations complexes, notamment le calcul des effets financiers attendus et les substances préoccupantes. Autre évolution : les possibilités d'omission d'informations sensibles sont élargies, conformément à la directive Omnibus.\nUne analyse de matérialité plus souple\nLa méthode d'analyse de matérialité évolue également. Les entreprises peuvent notamment adopter une approche descendante, dite « top-down ». Elles ne sont donc plus obligées d'analyser individuellement et de manière détaillée chacun de leurs impacts, risques et opportunités pour déterminer leur matérialité. Le principe de matérialité de l'information s'applique désormais à l'ensemble des normes ESRS, y compris ESRS 2.\nLes nouvelles normes renforcent aussi leur interopérabilité avec les standards internationaux de l'ISSB. L'harmonisation concerne notamment la terminologie, le principe de présentation fidèle et certaines obligations de la norme climatique ESRS E1. Des divergences subsistent toutefois, en particulier sur le principe du coût ou de l'effort raisonnable et les allègements concernant les acquisitions et cessions récentes.\nDes évolutions sur les volets ESG\nSur le volet environnemental, les modifications de la norme climatique ESRS E1 relèvent davantage de clarifications que d'une refonte. Les nouvelles dispositions précisent notamment le périmètre des émissions de gaz à effet de serre, le contenu minimal du plan de transition climatique et la déclaration de compatibilité avec une trajectoire de 1,5 °C.\nLa norme ESRS E4 consacrée à la biodiversité et aux écosystèmes évolue également. Une entreprise doit publier son plan de transition en matière de biodiversité lorsqu'elle en a déjà rendu un public. La publication des indicateurs bénéficie par ailleurs de davantage de souplesse. Sur le volet social, le périmètre de certains indicateurs est révisé. Cela concerne notamment les incidents liés aux droits humains et le calcul du salaire décent. Enfin, la norme consacrée à la gouvernance adopte une nouvelle architecture, davantage alignée sur les autres normes thématiques. Les informations relatives aux pratiques de paiement sont simplifiées. Les nouvelles normes simplifiées sont applicables sur une base volontaire dès l'exercice 2026, pour les états de durabilité publiés en 2027. Elles deviendront obligatoires pour le premier exercice ouvert à compter du 1er janvier 2027, avec des publications à partir de 2028.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

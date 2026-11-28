@@ -1,0 +1,64 @@
+{
+ "id": "syn-a87",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a87.json",
+ "limite_caracteres": 3301,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3301 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Le Grand Continent\nRubrique : Géopolitique\nDate du flux : 27/11/2026\nAuteur : Marin Saillofest\nTitre d'origine : L’Europe fait face à une vague d’affaires d’espionnage russe\n\nARTICLE :\nDu 21 au 27 novembre à 14h, la revue a recensé 32 actions hostiles visant l’Europe, survenues récemment ou rendues publiques ces derniers jours. Dix-huit sont attribuées à la Russie ou soupçonnées de l’être, et aucun auteur n’a encore été désigné pour les quatorze autres.\nIl s’agit de la semaine la plus chargée depuis le début du recensement, fin septembre : c’est trois fois la moyenne d’octobre, et 10 de plus que la semaine précédente (22).\n- On compte ainsi douze incidents aériens, dix opérations d’espionnage, deux campagnes de désinformation, une vague de fausses alertes à la bombe, un projet d’assassinat, un drone marin chargé d’explosifs, l’implantation d’une cellule hacktiviste prorusse, deux affaires d’incendies criminels visant l’industrie de défense, une cyberattaque et un brouillage GPS.\n- L’Est du continent a été le plus touché : 23 des 32 actions visent des pays de la frontière orientale, de la Baltique à la mer Noire. La Pologne figure en tête (6), devant la Roumanie (5). Les trois pays baltes en comptent 8 à eux trois.\n- À l’inverse, aucune action n’a visé le Royaume-Uni ni les Pays-Bas cette semaine.\nLa majeure partie de ces événements (20 sur 32) correspondent à des actions ou à des affaires survenues au cours des semaines, des mois, voire des années précédentes, mais qui ont été révélées ou recensées ces derniers jours, souvent à l’occasion d’une arrestation, d’un procès ou d’une enquête. Douze actions se sont produites pendant la période, soit à peu près autant que les deux semaines précédentes (11 et 12).\nAinsi, en Pologne, deux affaires antérieures ont émergé cette semaine.\n- Jeudi 26 novembre, le tribunal de Bydgoszcz a condamné à trois ans de prison un pianiste, arrêté en juin 2025, qui s’était proposé au renseignement russe et avait transmis des informations sur des sites militaires à un contact qu’il croyait du FSB. Celui-ci s’est révélé être un agent du contre-espionnage polonais.\n- Le 24 novembre, deux ressortissants serbes ont été identifiés comme suspects de l’incendie criminel qui avait visé fin août l’usine du fabricant de drones militaires WB Electronics, à Skarżysko-Kamienna. Ils ont quitté la Pologne et font l’objet d’un mandat d’arrêt européen. Donald Tusk avait qualifié l’incendie « d’acte de sabotage ».\nLes affaires d’espionnage ont atteint un niveau inédit cette semaine, avec dix actions recensées, dont neuf attribuées à la Russie ou soupçonnées de l’être, contre trois au maximum les semaines précédentes.\n- En Estonie, le Service de sécurité intérieure (Kaitsepolitseiamet, ou KAPO) a fait expulser deux ressortissants russes dont il dit les liens avec le renseignement russe établis. Il s’agit d’un ancien professeur et journaliste, qui renseignait les services de Moscou sur la population russophone, et d’un employé de l’usine d’huile de schiste d’Enefit, à Auvere, expulsé le 24 novembre.\n- En Lituanie, le parquet a annoncé le 25 novembre l’interpellation de cinq personnes soupçonnées de collecter des informations contre rémunération, depuis l’automne 2024, pour la télévision d’État russe VGTRK. Des institutions lituaniennes disent avoir reçu de plusieurs d’entre eux des centaines de questions, notamment sur la défense aérienne et l’OTAN.\n- En Allemagne, deux procès pour espionnage au profit de la Russie se sont ouverts le 26 novembre : à Düsseldorf, l’accusé a avoué avoir espionné pour le FSB un homme lié à l’armée ukrainienne, tandis qu’à Berlin, une Germano-Ukrainienne est accusée d’avoir signalé des réunions politiques de haut niveau à un agent russe en poste à l’ambassade.\nLes pays de l’Est du continent ont désigné la Russie plus souvent que les autres cette semaine.\n- Une autorité de ces pays l’a fait pour plus de la moitié des actions qui les visent (12 sur 23), contre seulement 2 sur 9 à l’Ouest.\n- L’écart tient surtout à la Pologne, aux pays baltes et à la Finlande, où gouvernements, services de sécurité et parquets mettent régulièrement en cause Moscou.\nPour suivre au jour le jour la guerre politique russe contre l’Europe, notre Observatoire est mis à jour quotidiennement à partir des dernières informations.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

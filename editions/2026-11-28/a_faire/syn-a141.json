@@ -1,0 +1,64 @@
+{
+ "id": "syn-a141",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a141.json",
+ "limite_caracteres": 3824,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3824 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Sciences et Avenir\nRubrique : Science\nDate du flux : 27/11/2026\nAuteur : Sciences et Avenir avec AFP\nTitre d'origine : La Nasa a percuté un astéroïde : les premières images dévoilent un résultat inattendu !\n\nARTICLE :\nAprès deux ans de voyage, la sonde Hera est arrivée à proximité de l'astéroïde Dimorphos, dévié de sa trajectoire lors d'un test inédit de défense planétaire, et les premières images dévoilées mercredi par l'Agence spatiale européenne (ESA) réservent déjà leur lot de surprises.\n\"La première fois que j'ai vu les images, j'ai fait 'waouh !', s'enthousiasme auprès de l'AFP Patrick Michel, chercheur de la mission, en évoquant un \"scénario pas du tout prévu\".\nEn le percutant, \"nous avons changé l'apparence de Dimorphos, nous avons changé la façon dont il se déplace, et nous avons observé pour la première fois une multitude de nouveaux compagnons dans ce système auxquels nous ne nous attendions pas\", résume à la presse Naomi Murdoch, planétologue à l'ISAE-SUPAERO (Toulouse).\nPetit retour en arrière dans cette histoire digne d'Hollywood: il y a quatre ans, un vaisseau de la Nasa, DART, est allé délibérément s'écraser à la surface de Dimorphos, un petit corps de seulement 160 mètres de diamètre qui est la Lune d'un astéroïde plus grand, Didymos.\nLire aussiVIDEO. Revivez la collision entre la sonde DART et l'astéroïde Dimorphos\nSitué à 11 millions de kilomètres de la Terre, il ne représentait aucun danger. L'objectif était d'évaluer s'il était possible de dévier sa trajectoire et d'utiliser cette technique au cas où, à l'avenir, un tel objet menacerait de frapper notre planète.\nL'appareil de la Nasa est parvenu à déplacer Dimorphos en réduisant son orbite de 33 minutes.\nMais pour \"comprendre parfaitement ce qui s'est passé et valider les modélisations d'impact de telle sorte qu'on puisse ensuite les utiliser pour d'autres scénarios\", il fallait retourner étudier ce qui était advenu de l'astéroïde, explique M. Michel.\nL'impact de la sonde DART a créé un cratère et déformé l'astéroïde\nC'est l'objectif de la mission Hera, lancée en octobre 2024. Celle-ci est arrivée il y a trois semaines à une trentaine de kilomètres de Dimorphos et a envoyé de premiers clichés.\nSur l'un d'entre eux, l'impact semble avoir aplati un côté de Dimorphos, laissant un cratère aussi large que toute la face de l'astéroïde touchée par DART. À l'intérieur du cratère, on distingue plusieurs structures inhabituelles, dont une en forme de cigare.\nUn \"tonneau que vous lancez dans un escalier et qui se déplace dans tous les sens\"\nEn fonction de la structure interne de Dimorphos - roche solide ou amas de débris - encore inconnue, les scientifiques pensaient que DART allait provoquer la formation d'un cratère ou déformer l'astéroïde.\n\"En fait, c'est les deux. On ne comprend pas encore bien comment c'est possible\", raconte l'astrophysicien.\nAutre surprise, ce n'est pas simplement l'orbite de Dimorphos qui a changé mais aussi sa dynamique.\n\"Avant l'impact, Dimorphos ressemblait à notre propre Lune. Il montrait toujours la même face à Didymos et il se comportait de manière assez régulière. Maintenant, il est très chaotique\", comme un \"tonneau que vous lancez dans un escalier et qui se déplace dans tous les sens\", décrit Sabina Raducan, planétologue à l'Institut international des sciences spatiales (ISSI, Berne).\nPrésence inattendue de blocs rocheux\nL'équipe d'Hera a aussi découvert que Didymos et Dimorphos n'étaient pas seuls. Des centaines de blocs rocheux allant de la taille d'un ballon de football à celle d'une machine à laver sont en mouvement autour d'eux.\nLes scientifiques ne savent pas encore si ces objets sont une conséquence de l'impact, mais leur présence inattendue est un \"cauchemar\" pour les ingénieurs de la mission, témoigne Margherita Cardi, cheffe de projet du CubeSat Milani, chez Tyvak International.\nLire aussiAstéroïde percuté par la NASA : Hera va révéler les cicatrices d’un crash historique\nDeux nanosatellites bientôt déployés\nCe nanosatellite, ainsi qu'un autre CubeSat baptisé Juventas, doivent normalement être déployés en janvier pour orbiter autour de Dimorphos, une fois qu'Hera s'en sera approché à entre 20 et 10 km.\nLes équipes au sol seront en mesure d'ajuster son orbite ou de modifier sa trajectoire pour éviter une collision, mais Milani ne pourra pas \"détecter lui-même un bloc rocheux et l'éviter automatiquement\", avertit-elle.\nOr, pendant six mois, Juventas et Milani doivent apporter des informations cruciales aux scientifiques.\nLe premier, censé atterrir sur Dimorphos, transporte un radar basse fréquence pour sonder sa structure interne, ainsi que des instruments destinés à mesurer son champ de gravité extrêmement faible.\nLe deuxième doit étudier la composition de l'astéroïde à l'aide d'une caméra multispectrale et d'un détecteur de poussières.\n\"C'est une aventure à la Indiana Jones, mais en mieux !\", conclut Patrick Michel. \"Parce que c'est la réalité et que le scénario est de moins en moins écrit à l'avance\".",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

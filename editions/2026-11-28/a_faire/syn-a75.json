@@ -1,0 +1,64 @@
+{
+ "id": "syn-a75",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a75.json",
+ "limite_caracteres": 2646,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 2646 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Al Jazeera\nRubrique : Monde\nDate du flux : 28/11/2026\nAuteur : Al Jazeera Staff\nTitre d'origine : Taiwan votes in local elections to choose mayors, other leaders\n\nARTICLE :\nTaiwan is choosing mayors, council members and other local leaders across its 22 cities and counties in an election that has been unusually competitive in some of the island’s biggest cities.\nPolls opened at 8am (00:00 GMT) on Saturday and will close at 4pm (08:00 GMT), with results expected early in the evening.\nVoters are casting ballots at schools, temples and community centres.\nAbout 11,000 positions are at stake in the “nine-in-one” elections, named for the nine categories of local government posts being contested.\nTaipei mayoral race\nA key contest is for the mayor of the capital, Taipei, a traditional stronghold of the opposition Kuomintang (KMT).\nMayor Chiang Wan-an of the KMT, who won by a double-digit margin in the last election and is seen as a possible future presidential candidate, faces a strong challenge from Puma Shen of the governing Democratic Progressive Party (DPP).\nShen is an academic-turned-lawmaker and an expert on China’s information warfare. China has denounced him, and Chinese police say he is wanted for “separatism”. He entered the race as the underdog, but has drawn huge crowds at his rallies.\nShen’s victory in the KMT’s heartland could be seen as “quite shameful” in Beijing, said Austin Wang, a political scientist at the University of Nevada.\nChiang told supporters the race was “very close”.\nShen cancelled a final rally over traffic concerns and held an online event instead, which drew more than 500,000 viewers on YouTube. President William Lai Ching-te of the DPP also urged voters at a rally in neighbouring New Taipei City to back the party’s candidates there.\nOther notable races are in New Taipei City, Taiwan’s most populous city, and Kaohsiung, in the south. New Taipei City’s incumbent mayor is from the KMT, while Kaohsiung’s mayoral office is held by the DPP.\nChina’s pressure\nThe vote will not directly change Taiwan’s China policy, and campaigns have focused on local issues such as transport, childcare and the environment.\nBeijing, which claims Taiwan as its own territory, has repeatedly weighed in, and the vote is being closely watched there.\nTaiwan’s Ministry of National Defense counted some 33 sorties from China’s People’s Liberation Army warplanes between Friday and Saturday flying toward Taiwan, including bombers and fighter jets.\nTaiwan’s Mainland Affairs Council has warned that Beijing is trying to influence the outcome through “cognitive warfare” and “transnational repression”.\nChina’s Defence Ministry said this week that “reunification” is an unstoppable trend.\nIn the last local elections four years ago, the KMT won 14 cities and counties, the DPP five and other parties or independents three. The KMT traditionally favours closer ties with Beijing, while the DPP rejects China’s sovereignty claims.\nAnalysts say local results are an unreliable guide to the outcome of the next presidential election, due in early 2028. Lai is expected to seek a second term.\nThe KMT could begin debating its presidential ticket soon after the vote. The likely candidates include outgoing Taichung Mayor Lu Shiow-yen and parliamentary speaker Han Kuo-yu.\nKMT chairwoman Cheng Li-wun, who met Chinese President Xi Jinping in April, is also seen as a possible challenger, though she could face pressure to step down if the party does badly.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

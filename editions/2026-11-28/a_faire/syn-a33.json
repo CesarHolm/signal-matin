@@ -1,0 +1,64 @@
+{
+ "id": "syn-a33",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a33.json",
+ "limite_caracteres": 3468,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3468 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Public Sénat\nRubrique : France\nDate du flux : 27/11/2026\nAuteur : Romain David\nTitre d'origine : Budget 2027 : après quelques couacs, le Sénat s’apprête à revoter sur la fiscalisation des ALD et la suppression de la demi-part fiscale des mères célibataires\n\nARTICLE :\nLe Sénat a voté jeudi 26 novembre au soir une baisse de TVA pour l'acquisition de logements dans le cadre du dispositif mis en place par le gouvernement pour relancer l'investissement locatif et la construction.\nBudget 2027 : après quelques couacs, le Sénat s’apprête à revoter sur la fiscalisation des ALD et la suppression de la demi-part fiscale des mères célibataires\nLes sénateurs vont jouer les prolongations, ce week-end, sur la première partie du budget 2027. La Chambre haute, qui débat depuis une semaine du volet « recettes » du projet de loi de finances pour 2027 (PLF), devrait arriver au bout de la discussion en séance publique dimanche. Mais avant le vote sur cette partie du texte, les élus ont prévu de remettre aux voix deux dispositions polémiques, adoptées cette semaine avec l’article 2 du PLF : l’imposition des indemnités liées à une affection de longue durée (ALD) et la suppression d’une niche fiscale en faveur des mères célibataires.\nLe groupe Les Républicains a annoncé demander cette deuxième délibération afin de voter à nouveau deux mesures qui, en l’état, « impacteraient injustement deux catégories de personnes en situation de fragilité ». La première concerne les affections longue durées. Mercredi, le Sénat, à l’initiative de la rapporteure générale du budget, la sénatrice LR Christine Lavarde, a adopté une taxation totale des indemnités liées à une ALD, quand le gouvernement souhaitait une imposition sur la moitié de leur montant.\nAutre mesure polémique qui doit faire l’objet d’un second débat : la suppression de la demi-part fiscale supplémentaire pour les mères célibataires. Là encore à l’initiative de la rapporteure, les élus ont fait sauter lundi la demi-part de quotient accordée à vie aux mères qui ont élevé seules, pendant au moins cinq ans, un ou plusieurs enfants, une disposition instaurée en 1945 pour soutenir les veuves de guerre.\n« Les LR se sont renduscompte qu’ils ont fait une bêtise »\nL’article 43 du règlement de la Haute Assemblée permet de remettre aux voix certains articles d’un projet ou d’une proposition de loi, juste avant le vote sur l’ensemble du texte. À condition que cette seconde délibération ait été demandée, ou acceptée, soit par le gouvernement, soit par la commission saisie du texte.\nLe vote de ces deux mesures, grâce aux voix de la majorité sénatoriale de droite et du centre, contre l’avis du gouvernement, a été motivé par un contexte de forte disette budgétaire. En début de semaine, le Premier ministre a adressé un courrier aux parlementaires pour leur demander de dégager six milliards d’euros d’économies supplémentaires, en plus des 43 milliards d’euros déjà compris dans le projet de loi initiale, du fait des révisions à la baisse des prévisions de croissance pour l’année prochaine.\n« Les LR se sont rendu compte qu’ils ont fait une bêtise. Les gens concernés sont montés au créneau. J’avais moi-même indiqué en séance que ces mesures étaient disproportionnées et néfastes », explique le sénateur Les Indépendants Emmanuel Capus. Ce proche d’Edouard Philippe réclame notamment la défiscalisation totale des ALD. « Nous avons une situation financière compliquée, mais sur ces sujets, notre regard doit être humain plutôt que budgétaire », défend-il. « Et puis, ce sont des augmentations déguisées d’impôts, ce à quoi nous sommes fermement opposés. »\nLes niches fiscales dans le viseur de la commission\nLa taxation des ALD et la suppression de la demi-part fiscale des mères célibataires a également soulevé un véritable tollé dans les rangs des oppositions de gauche. En séance, Patrick Kanner, le président du groupe socialiste, est allé jusqu’à qualifier de « dégueulasse » l’amendement de la rapporteure sur les affections longue durée. Dans un post sur son compte X, l’élu du Nord, a également raillé « la cacophonie » au sein de la majorité sénatoriale, puisque ce sont les LR qui demandent cette seconde délibération, après avoir voté ces articles, modifiés par la rapporteure, qui est elle-même issue des rangs de la droite.\n« Elle s’est lancée dans une sorte d’inventaire de toutes les sources d’économies possibles, et cherche à faire supprimer les dispositions dérogatoires, parfois sans distinction. Or, il faut garder à l’esprit que, souvent, ces niches sont là pour compenser certaines situations », commente Emmanuel Capus.",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

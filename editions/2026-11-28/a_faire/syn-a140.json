@@ -1,0 +1,64 @@
+{
+ "id": "syn-a140",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a140.json",
+ "limite_caracteres": 3619,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3619 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Sciences et Avenir\nRubrique : Science\nDate du flux : 27/11/2026\nAuteur : Sciences et Avenir avec AFP\nTitre d'origine : Un million de satellites dans l'espace : est-ce possible ?\n\nARTICLE :\nEst-ce réaliste ? Quels sont les risques ? L'autorisation donnée mercredi par les autorités américaines au déploiement par SpaceX d'un million de satellites pour des centres de données dans l'espace soulève de nombreuses questions.\nCombien y a-t-il de satellites dans l'espace?\nDepuis 2019, le nombre de satellites en orbite autour de la Terre a augmenté rapidement, pour atteindre aujourd'hui plus de 16.000 éléments, dont 11.000 appartiennent à la constellation de télécommunications Starlink de SpaceX.\nAvec le projet de centre de données de la société d'Elon Musk et tous les autres engagés aux États-Unis, en Russie ou en Chine (les trois principales puissances spatiales), \"les prévisions se montent à 2,3 M de satellites à très brève échéance\", explique à l'AFP Christophe Bonnal, de l'Académie de l'air et de l'espace (AAE).\n1 million de satellites jusqu'en 2040, est-ce réaliste?\n\"Chaque fois qu'Elon Musk a lancé un projet, il a eu raison à la fin, mais jamais dans les temps\", rappelle Christophe Bonnal.\nA l'heure actuelle, SpaceX effectue des mises en orbite en moyenne tous les trois jours. En 2025, près de 3.200 satellites sont ainsi venus compléter la constellation Starlink. Pour atteindre le million en 2040, il faudrait en envoyer plus de 70.000 par an.\nSpaceX veut augmenter la cadence de lancement de son vaisseau le plus grand, Starship, pour \"au final en faire 30 par jour\", rappelle Christophe Bonnal.\nMais \"il n'y a actuellement pas assez d'usine de méthane liquide pouvant fournir le carburant nécessaire à cet objectif\", explique M. Bonnal. Il faut aussi une nouvelle base de lancement, qui ne sera probablement pas opérationnelle avant 2029.\nDes risques de collision accrus?\nLes centres de données de Musk graviteront en orbite basse, entre 700 et 1.000 km. \"C'est ce qui m'a le plus choqué\", confie Christophe Bonnal. Car, dans cette zone, \"les débris sont là pour 1.000 ans. C'est jouer à l'apprenti sorcier\".\n\"Rien que l'an dernier, le Centre national d'études spatiales français (CNES) a déclenché 28 millions de procédures d'alerte de collisions, pour les 285 satellites dont il a la charge, soit une alerte toutes les 20 secondes\", chiffre M. Bonnal.\nAvec 1 million de centres de données, l'entreprise de Musk devrait donc encore élever son réseau de surveillance. \"Sans compter que les débris de moins de 10 cm ne sont pas repérés, alors qu'1 cm suffit à détruire un satellite\", et que toutes les constellations ne partagent pas leurs positions entre elles, note M. Bonnal.\nDes cibles potentielles?\nL'espace est devenu un territoire où les enjeux de défense sont primordiaux, notamment à travers le contrôle des télécommunications ou le positionnement d'armes en orbite. Le rôle et l'utilisation de Starlink est notamment apparu à l'occasion du conflit en Ukraine. Pour Etienne Marcuz, chercheur associé à la Fondation pour la recherche stratégique, \"il est possible de faire un rapprochement entre ce projet américain et le programme russe Spoutnik-S qui montre que la Russie travaille sur de multiples moyens de neutraliser des objets dans l’espace\".\n\"Les Russes savent très bien qu’il y aura une dépendance croissante des Etats-Unis dans ce domaine, avec de plus en plus d’infrastructures cruciales pour leur économie, les opérations financières, la santé, etc, qui y seront déployés. Au final, une part non négligeable de leur potentiel économique se situera dans l’espace et sera de fait une cible tentante.\"\nLe programme russe Spoutnik-S, comporte un volet \"projet de détonations nucléaires dans l’espace, permettant de détruire en masse les satellites et autres centres de données\", rappelle le chercheur.\nQuelles conséquences scientifiques?\nDans une étude publiée début juillet dans la revue Astronomy & Astrophysics, l'Observatoire européen austral a estimé qu'au-delà de 100.000 satellites, notre capacité à observer le ciel serait impactée.\n\"Lorsqu'un satellite passe devant ce que nous observons, il laisse une traînée lumineuse sur notre image, masquant tout ce qui se trouve derrière lui\", témoignait Olivier Hainaut, astronome à l'ESO et auteur de l'étude. Si on passe à plus d'un million \"on va vraiment avoir des problèmes\", ajoutait-il.\nLe projet de SpaceX \"transformerait fondamentalement le ciel nocturne pour toutes les personnes sur la planète\", a regretté le directeur général de l'ESO Andreas Kaufer dans un communiqué, soulignant le \"besoin urgent de mécanismes internationaux capables d'évaluer les activités\" dont les effets \"touchent à un bien commun mondial\".",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}

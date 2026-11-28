@@ -1,0 +1,64 @@
+{
+ "id": "syn-a37",
+ "modele": "sonnet",
+ "sortie": "faits/syn-a37.json",
+ "limite_caracteres": 3388,
+ "systeme": "Tu rédiges les articles développés d'un journal personnel imprimé, en français, à partir d'un article source complet (souvent en anglais).\n\nObjectif : que le lecteur comprenne le sujet, ses tenants et ses aboutissants, sans lire l'article d'origine.\n\nRègles impératives :\n- Fidélité absolue à l'article : n'ajoute AUCUNE information extérieure, ne prête à personne une position qu'il n'a pas exprimée, conserve exactement les chiffres, les noms et les affiliations.\n- Longueur : le total des caractères (chapô + intertitres + paragraphes + synthèse) ne doit PAS dépasser la limite indiquée. Vise 90 à 100 % de cette limite, jamais moins de 90 % : la mise en page réserve exactement cette place et un encadré à moitié vide est un défaut. Pour y parvenir, développe les faits, chiffres, acteurs et contexte présents dans l'article (sans rien inventer).\n- Format indiqué dans la demande :\n  • « long » (demi-page) : 3 à 5 sections, synthèse de 2 phrases ;\n  • « court » (quart de page) : 1 ou 2 sections qui donnent les informations clés (faits, chiffres, acteurs, enjeu), puis une synthèse d'une ou deux phrases au maximum.\n- Structure :\n  • « titre » : titre français informatif, 80 caractères maximum.\n  • « chapo » : une phrase qui pose le sujet, 200 caractères maximum.\n  • « sections » : selon le format, chacune avec un « intertitre » court et un « texte » d'un paragraphe. Adapte les intertitres au type d'article, par exemple :\n      débat ou controverse : Le déclencheur · De quoi parle-t-on · Les arguments pour · Les risques · Les contre-arguments\n      annonce ou fait d'actualité : Ce qui est annoncé · Le contexte · Ce que ça change · Les limites\n      étude ou recherche : La question · La méthode · Les résultats · Les réserves\n      méthode d'entraînement : Le principe · Ce que dit la science · Comment l'appliquer · Les précautions\n      réglementation : Ce qui change · Qui est concerné · Le calendrier · Les points de vigilance\n  • « synthese » : 2 phrases (format long) ou 1 à 2 phrases (format court) qui résument l'ensemble.\n- Style : français soigné, clair, sans tournures calquées sur l'anglais, sans emphase.\n- « republication » : si l'article indique qu'il a été publié initialement à une date antérieure (republication), indique « paru initialement en <mois année> » ; sinon chaîne vide.\n\nRéponds uniquement en JSON, selon cette structure :\n{\"titre\": \"…\", \"chapo\": \"…\", \"sections\": [{\"intertitre\": \"…\", \"texte\": \"…\"}], \"synthese\": \"…\", \"republication\": \"\"}",
+ "contenu": "Format : long\nLimite de longueur : 3388 caractères au total.\nÉdition numérique, lue sur téléphone, sans contrainte de page : la limite suit la matière disponible dans la source. Adapte le nombre de sections à la longueur : 2 sections sous 2 000 caractères, 3 ou 4 jusqu'à 3 500, 4 à 6 au-delà ; même règle de longueur (90 à 100 % de la limite). N'étire jamais une source mince : mieux vaut un article court et exact.\nSource : Public Sénat\nRubrique : France\nDate du flux : 27/11/2026\nAuteur : Rédaction Public Sénat\nTitre d'origine : La proposition de loi mettant fin au devoir conjugal en passe d’être définitivement adoptée par le Parlement\n\nARTICLE :\nAuditionné sur le budget du ministère de la Justice, Gérald Darmanin se félicite de crédits en hausse de 420 millions d’euros pour 2027, pour atteindre quasiment 11 milliards d’euros. « Depuis 10 ans, les crédits du ministère de la Justice ont augmenté de 61 % », souligne le ministre. Concernant la loi intégrale, les « premiers crédits » sont prévus dans le budget, mais il faudra un projet de loi de finances rectificative pour aller au bout, prévient le garde des Sceaux.\nLa proposition de loi mettant fin au devoir conjugal en passe d’être définitivement adoptée par le Parlement\nLe 23 janvier dernier, une femme de 69 ans a ainsi été jugée fautive dans son divorce pour avoir refusé des rapports sexuels à son mari. Une « violation grave et renouvelée des devoirs du mariage, » avait tranché la justice. Si le devoir conjugal en tant que tel n’est donc pas inscrit dans la loi, il était encore au cœur d’une quinzaine d’arrêts d’appel en 2025. La même année, la France a été sanctionnée par la Cour européenne des droits de l’homme (CEDH) pour ce motif, lui imposant d’abandonner la jurisprudence.\nIl y a presque un an, la députée écologiste Marie-Charlotte Garin disait qu’il serait anormal « que le mariage soit le dernier lieu dans lequel le consentement n’aurait pas sa place », après la condamnation de la France par l’instance européenne. Dans le Code civil, quatre devoirs liés au mariage sont clairement établis : le secours, la fidélité, l’assistance, et la communauté de vie. Le devoir conjugal, lui, n’est pas mentionné. Mais, dans la jurisprudence, la rédaction de l’article 242 portant sur les motifs des divorces pour faute a pu conduire à considérer que la « communauté de vie » mentionnée impliquait une forme de « devoir conjugal ».\nLa proposition de loi, portée à l’Assemblée nationale par les députés Marie-Charlotte Garin (Ecologistes) et Paul Christophe (Horizons), est soutenue par le gouvernement. La ministre déléguée à l’égalité entre les femmes et les hommes Aurore Bergé a notamment exprimé en avril dernier qu’il fallait « mettre en cohérence » le droit français avec la condamnation européenne.\nUn vote unanime\nLe 9 avril, la proposition de loi avait été adoptée au Sénat, au terme de longues discussions sémantiques portant sur la rédaction de l’article 1er, modifié par rapport à la version initiale de l’Assemblée, et sur la suppression de l’article 2. L’article en question statuait que le divorce « ne peut être fondé sur l’absence ou le refus de relations sexuelles, » ce que les sénateurs avaient vu comme une redite avec l’objet même de la proposition de loi. Pour le rapporteur de la proposition au Sénat, Jean-Baptiste Blanc (Les Républicains), il n’y avait « pas d’utilité juridique » à adopter cette disposition. Le texte a ensuite été adopté à l’unanimité par la chambre haute, à 209 voix pour et 2 contre.\nLe désaccord persistant entre l’Assemblée nationale et le Sénat sur la rédaction de la proposition de loi, il appartenait à une commission mixte paritaire (CMP) de trancher sur le texte final qui sera soumis au vote du Parlement. Finalement, les sept représentants de chaque chambre se sont accordés à l’unanimité pour conserver l’article 1 dans la version initiale telle que votée par l’Assemblée nationale. En guise de compromis, l’article 2 de la proposition de loi a été supprimé, conformément au vote du Sénat.\n« Même dans le mariage, le consentement n’est jamais acquis, » a tenu à rappeler à l’issue du vote la rapporteure Marie-Charlotte Garin. Le texte s’inscrit dans la continuité juridique de l’intégration du non-consentement dans la définition pénale du viol et des agressions sexuelles, une proposition de loi que la députée avait également portée, jusqu’à son adoption le 23 octobre 2025.\nAu terme de la réunion de la commission mixte paritaire conclusive, le texte abrogeant le devoir conjugal doit encore être voté par les deux chambres du Parlement. Une procédure accélérée a été enclenchée par le gouvernement sur ce texte, et le soutien transpartisan dont il fait l’objet doit permettre son vote rapide. Le texte fera d’abord son entrée au Palais Bourbon le 7 décembre. La date de l’examen du texte par le Sénat, n’a, elle, pas encore été définie.\nChloé Auffray",
+ "schema": {
+  "type": "object",
+  "properties": {
+   "titre": {
+    "type": "string"
+   },
+   "chapo": {
+    "type": "string"
+   },
+   "sections": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "properties": {
+      "intertitre": {
+       "type": "string"
+      },
+      "texte": {
+       "type": "string"
+      }
+     },
+     "required": [
+      "intertitre",
+      "texte"
+     ]
+    }
+   },
+   "synthese": {
+    "type": "string"
+   },
+   "republication": {
+    "type": "string"
+   },
+   "reference": {
+    "type": "string"
+   },
+   "sources_ecartees": {
+    "type": "array",
+    "items": {
+     "type": "integer"
+    }
+   },
+   "insuffisant": {
+    "type": "boolean"
+   },
+   "texte": {
+    "type": "string"
+   }
+  },
+  "required": [
+   "titre",
+   "chapo",
+   "sections",
+   "synthese"
+  ]
+ }
+}
