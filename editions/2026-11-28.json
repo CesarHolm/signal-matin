@@ -1,0 +1,358 @@
+{
+ "date": "2026-11-28",
+ "nouveaux_mots": [
+  {
+   "mot": "Limpide",
+   "nature": "adj.",
+   "niveau": "facile",
+   "domaine": "soutenu",
+   "definition": "D'une clarté parfaite, sans ambiguïté.",
+   "exemple": "Son raisonnement était limpide."
+  },
+  {
+   "mot": "Arbitrage",
+   "nature": "n. m.",
+   "niveau": "facile",
+   "domaine": "pro",
+   "definition": "Choix entre plusieurs options concurrentes après comparaison.",
+   "exemple": "Un arbitrage entre coût et délai."
+  },
+  {
+   "mot": "Atavisme",
+   "nature": "n. m.",
+   "niveau": "intermediaire",
+   "domaine": "soutenu",
+   "definition": "Réapparition de caractères hérités d'ancêtres lointains.",
+   "exemple": "Un goût de la terre qui relevait presque de l'atavisme."
+  },
+  {
+   "mot": "Déliquescence",
+   "nature": "n. f.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "Décadence complète, décomposition.",
+   "exemple": "Un parti en pleine déliquescence."
+  },
+  {
+   "mot": "Atrabilaire",
+   "nature": "adj.",
+   "niveau": "difficile",
+   "domaine": "soutenu",
+   "definition": "D'humeur sombre et irritable.",
+   "exemple": "Un vieil oncle atrabilaire."
+  }
+ ],
+ "revisions": [
+  {
+   "mot": "Placide",
+   "definition": "Calme, paisible, que rien ne semble troubler."
+  },
+  {
+   "mot": "Coruscant",
+   "definition": "Qui brille d'un vif éclat ; au figuré, brillant, éclatant."
+  },
+  {
+   "mot": "Solvabilité",
+   "definition": "Capacité d'une personne ou d'une entreprise à honorer ses dettes."
+  },
+  {
+   "mot": "Hapax",
+   "definition": "Mot ou forme dont on ne connaît qu'une seule occurrence."
+  },
+  {
+   "mot": "Ineffable",
+   "definition": "Qui ne peut être exprimé par des mots, tant il est intense ou subtil."
+  }
+ ],
+ "articles": [
+  "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+  "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+  "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+  "https://www.lemonde.fr/politique/article/2026/11/27/l-agence-s-p-menace-de-degrader-encore-la-note-de-la-france-entree-en-recession_6815934_823448.html",
+  "https://www.publicsenat.fr/actualites/parlementaire/budget-2027-apres-quelques-couacs-le-senat-sapprete-a-revoter-sur-la-fiscalisation-des-ald-et-la-suppression-de-la-demi-part-fiscale-des-meres-celibataires",
+  "https://www.publicsenat.fr/actualites/societe/la-proposition-de-loi-mettant-fin-au-devoir-conjugal-en-passe-detre-definitivement-adoptee-par-le-parlement",
+  "https://www.lemonde.fr/politique/article/2026/11/27/ecrits-antisemites-la-defense-de-jordan-bardella-patine-marine-le-pen-maintient-timidement-sa-confiance_6815931_823448.html",
+  "https://www.publicsenat.fr/actualites/economie/seniors-le-gouvernement-modifie-le-mode-de-calcul-de-lallocation-personnalisee-dautonomie",
+  "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/l-hommage-national-aux-victimes-de-l-attentat-raciste-de-trappes-et-de-la-verriere-aura-lieu-le-4-decembre-aux-invalides_8303391.html#xtor=RSS-3-[lestitres]",
+  "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
+  "https://legrandcontinent.eu/fr/2026/11/27/leurope-fait-face-a-une-vague-daffaires-despionnage-russe/",
+  "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+  "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+  "https://www.aljazeera.com/video/newsfeed/2026/11/28/israel-kills-two-msf-staff-in-targeted-strike-on-gaza-clinic?traffic_source=rss",
+  "https://www.scmp.com/news/china/military/article/3376007/china-cambodia-drills-type-071-warship-offloads-tanks-overseas-first-time",
+  "https://www.nber.org/papers/w36045#fromrss",
+  "https://www.nber.org/papers/w36042#fromrss",
+  "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3313~bef94fc3fa.en.pdf",
+  "https://verfassungsblog.de/gambia-v-myanmar-responsibility/",
+  "https://www.nber.org/papers/w36048#fromrss",
+  "https://www.daf-mag.fr/finance-durable-1342/csrd-les-nouvelles-normes-esrs-simplifiees-entrent-en-vigueur-avec-moins-de-donnees-obligatoires-28405",
+  "https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil",
+  "https://www.regulationtomorrow.com/2026/11/amla-consults-on-draft-guidelines-on-outsourcing-reliance-on-cdd-performed-by-another-obliged-entity-and-other-third-party-arrangements/",
+  "https://www.ft.com/content/a8ecccda-f986-4ae9-9f45-9470d2be8c65?syn-25a6b1a6=1",
+  "https://www.sciencesetavenir.fr/sciences/un-million-de-satellites-dans-l-espace-est-ce-possible_196586?xtor=RSS-18",
+  "https://www.sciencesetavenir.fr/espace/dimorphos-apres-le-choc-les-images-qui-surprennent-les-scientifiques_196590?xtor=RSS-9",
+  "https://theconversation.com/comment-une-astuce-utilisee-en-marketing-incite-les-rats-a-entrer-dans-les-pieges-297752",
+  "https://theconversation.com/fausses-images-scientifiques-et-ia-quand-la-mefiance-gagne-jusquaux-revues-academiques-297662",
+  "https://www.sciencesetavenir.fr/nutrition/un-yaourt-perime-une-limace-dans-la-salade-l-ia-affole-les-francais-et-sature-les-centres-antipoison_196588?xtor=RSS-28",
+  "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
+ ],
+ "titres": [
+  "S&P menace d'abaisser la note de la France, désormais en récession",
+  "Budget 2027 : le Sénat va revoter sur les ALD et les mères célibataires",
+  "Devoir conjugal : la loi qui y met fin proche de l'adoption définitive",
+  "Taïwan : des élections locales très disputées, suivies de près par Pékin",
+  "Espionnage russe : l'Europe face à une semaine d'une ampleur inédite",
+  "Asile aux États-Unis : les défenseurs des migrants misent sur la Cour suprême",
+  "Avec AlphaFold2, la recherche creuse le connu plus qu'elle n'explore",
+  "Medicare Advantage : les inscriptions suivent les subventions aux assureurs",
+  "CSRD : les normes ESRS simplifiées allègent les données obligatoires",
+  "IA dans les soins : la CNIL et la HAS publient un guide de bon usage",
+  "SpaceX : un million de satellites en orbite, est-ce possible ?",
+  "Astéroïde percuté par la Nasa : les premières images d’Hera surprennent"
+ ],
+ "solutions": {
+  "sudoku": [
+   5,
+   4,
+   2,
+   6,
+   3,
+   1,
+   9,
+   8,
+   7,
+   8,
+   3,
+   9,
+   5,
+   7,
+   4,
+   1,
+   6,
+   2,
+   7,
+   1,
+   6,
+   2,
+   9,
+   8,
+   3,
+   4,
+   5,
+   4,
+   7,
+   5,
+   9,
+   1,
+   6,
+   8,
+   2,
+   3,
+   2,
+   6,
+   3,
+   8,
+   5,
+   7,
+   4,
+   9,
+   1,
+   9,
+   8,
+   1,
+   4,
+   2,
+   3,
+   7,
+   5,
+   6,
+   6,
+   5,
+   7,
+   1,
+   8,
+   9,
+   2,
+   3,
+   4,
+   3,
+   9,
+   4,
+   7,
+   6,
+   2,
+   5,
+   1,
+   8,
+   1,
+   2,
+   8,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "shikaku": {
+   "largeur": 10,
+   "hauteur": 10,
+   "rectangles": [
+    [
+     0,
+     0,
+     2,
+     3
+    ],
+    [
+     0,
+     3,
+     1,
+     3
+    ],
+    [
+     0,
+     6,
+     9,
+     1
+    ],
+    [
+     0,
+     7,
+     2,
+     2
+    ],
+    [
+     0,
+     9,
+     9,
+     1
+    ],
+    [
+     1,
+     3,
+     5,
+     2
+    ],
+    [
+     1,
+     5,
+     5,
+     1
+    ],
+    [
+     2,
+     0,
+     5,
+     1
+    ],
+    [
+     2,
+     1,
+     8,
+     1
+    ],
+    [
+     2,
+     2,
+     7,
+     1
+    ],
+    [
+     2,
+     7,
+     5,
+     2
+    ],
+    [
+     6,
+     3,
+     3,
+     3
+    ],
+    [
+     7,
+     0,
+     3,
+     1
+    ],
+    [
+     7,
+     7,
+     2,
+     2
+    ],
+    [
+     9,
+     2,
+     1,
+     7
+    ],
+    [
+     9,
+     9,
+     1,
+     1
+    ]
+   ]
+  },
+  "futoshiki": [
+   [
+    5,
+    6,
+    1,
+    3,
+    2,
+    4
+   ],
+   [
+    2,
+    5,
+    4,
+    1,
+    6,
+    3
+   ],
+   [
+    6,
+    2,
+    3,
+    4,
+    5,
+    1
+   ],
+   [
+    4,
+    1,
+    5,
+    6,
+    3,
+    2
+   ],
+   [
+    3,
+    4,
+    2,
+    5,
+    1,
+    6
+   ],
+   [
+    1,
+    3,
+    6,
+    2,
+    4,
+    5
+   ]
+  ],
+  "compte": [
+   "4 + 6 = 10",
+   "10 × 7 = 70",
+   "70 − 6 = 64",
+   "64 − 8 = 56",
+   "56 × 9 = 504"
+  ]
+ },
+ "reponses_quiz": []
+}
