@@ -1,0 +1,28 @@
+{
+ "titre": "SpaceX : un million de satellites en orbite, est-ce possible ?",
+ "chapo": "Les autorités américaines ont autorisé mercredi SpaceX à déployer un million de satellites pour des centres de données spatiaux, un projet qui soulève de nombreuses questions.",
+ "sections": [
+  {
+   "intertitre": "Un ciel déjà encombré",
+   "texte": "Depuis 2019, le nombre de satellites autour de la Terre a rapidement augmenté : plus de 16 000 aujourd’hui, dont 11 000 pour Starlink, la constellation de télécommunications de SpaceX. Avec le projet d’Elon Musk et tous ceux engagés aux États-Unis, en Russie ou en Chine, les trois principales puissances spatiales, « les prévisions se montent à 2,3 M de satellites à très brève échéance », selon Christophe Bonnal, de l’Académie de l’air et de l’espace."
+  },
+  {
+   "intertitre": "Un rythme à démultiplier",
+   "texte": "« Chaque fois qu’Elon Musk a lancé un projet, il a eu raison à la fin, mais jamais dans les temps », rappelle Christophe Bonnal. SpaceX met en orbite tous les trois jours en moyenne et a ajouté près de 3 200 satellites à Starlink en 2025. Atteindre le million en 2040 exigerait plus de 70 000 envois par an. L’entreprise veut accélérer les tirs de Starship, son plus grand vaisseau, pour « au final en faire 30 par jour ». Mais les usines de méthane liquide ne suffisent pas à fournir ce carburant, et la nouvelle base de lancement nécessaire ne sera probablement pas opérationnelle avant 2029."
+  },
+  {
+   "intertitre": "Le risque de collision",
+   "texte": "Les satellites évolueront en orbite basse, entre 700 et 1 000 km, où « les débris sont là pour 1 000 ans ». « C’est jouer à l’apprenti sorcier », juge M. Bonnal. L’an dernier, le CNES a déclenché 28 millions de procédures d’alerte pour les 285 satellites dont il a la charge, soit une toutes les 20 secondes. SpaceX devrait donc renforcer son réseau de surveillance. Or les débris de moins de 10 cm ne sont pas repérés, alors qu’1 cm suffit à détruire un satellite, et toutes les constellations ne partagent pas leurs positions."
+  },
+  {
+   "intertitre": "Des cibles potentielles",
+   "texte": "L’espace est devenu un territoire où les enjeux de défense sont primordiaux, du contrôle des télécommunications au positionnement d’armes en orbite, et le rôle de Starlink est apparu lors du conflit en Ukraine. Étienne Marcuz, chercheur associé à la Fondation pour la recherche stratégique, rapproche le projet américain du programme russe Spoutnik-S, qui comporte un volet de détonations nucléaires dans l’espace permettant de détruire en masse satellites et centres de données. Ce programme montre, dit-il, que la Russie travaille sur de multiples moyens de neutraliser des objets dans l’espace. Selon lui, les Russes savent que les États-Unis dépendront de plus en plus d’infrastructures spatiales cruciales (économie, finance, santé) : une part non négligeable du potentiel économique américain se situera dans l’espace et sera une « cible tentante »."
+  },
+  {
+   "intertitre": "L’astronomie menacée",
+   "texte": "Dans une étude publiée début juillet dans Astronomy & Astrophysics, l’Observatoire européen austral (ESO) estime qu’au-delà de 100 000 satellites, l’observation du ciel serait affectée. Chaque passage laisse une traînée lumineuse qui masque ce qui se trouve derrière, explique son auteur, l’astronome Olivier Hainaut : au-delà d’un million, « on va vraiment avoir des problèmes ». Pour Andreas Kaufer, directeur général de l’ESO, le projet « transformerait fondamentalement le ciel nocturne » pour tous ; il réclame d’urgence des mécanismes internationaux d’évaluation."
+  }
+ ],
+ "synthese": "Le projet de SpaceX supposerait une cadence de lancement sans commune mesure avec l’actuelle. Il pose aussi des questions de débris, de vulnérabilité militaire et d’observation du ciel.",
+ "republication": ""
+}

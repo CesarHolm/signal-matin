@@ -1,0 +1,29 @@
+{
+ "breves": [
+  {
+   "id": "a7",
+   "titre": "SAP prévoit de supprimer au moins 10 000 postes dans sa réorientation vers l’IA",
+   "texte": "Le groupe SAP se prépare à supprimer au moins 10 000 postes dans le cadre d’une vaste restructuration liée à l’intelligence artificielle, selon Bloomberg qui cite des personnes proches du dossier."
+  },
+  {
+   "id": "a1",
+   "titre": "OpenAI poursuit Apple pour vol de secrets industriels et pressions sur ses fournisseurs",
+   "texte": "OpenAI attaque Apple devant un tribunal de Californie, l’accusant de vol de secrets industriels et de contraindre des fournisseurs communs. Cette contre-attaque fait suite à la plainte déposée par Apple à l’été précédent. Les deux groupes avaient uni leurs efforts il y a deux ans pour intégrer ChatGPT à l’iPhone, alors qu’OpenAI développe désormais ses propres appareils pour concurrencer Apple."
+  },
+  {
+   "id": "a12",
+   "titre": "Écrits antisémites : la défense de Jordan Bardella patine",
+   "texte": "Interrogé sur le contenu de la plainte déposée par le président du RN contre Mediapart pour faux et usage de faux, son avocat a évoqué des courriels périphériques aux échanges incriminés. Marine Le Pen maintient timidement sa confiance."
+  },
+  {
+   "id": "a76",
+   "titre": "Une frappe israélienne sur une clinique de MSF à Gaza tue deux gardiens",
+   "texte": "Une frappe israélienne a visé une clinique gérée par Médecins sans frontières (MSF) à Gaza. Elle a tué deux gardiens."
+  },
+  {
+   "id": "a79",
+   "titre": "L’Italie affirme que le drone de l’attaque meurtrière au Koweït a été fabriqué en Iran",
+   "texte": "Le ministre italien des Affaires étrangères, Antonio Tajani, affirme que le drone responsable de la frappe meurtrière au Koweït a été fabriqué en Iran."
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "titre": "Astéroïde percuté par la Nasa : les premières images d’Hera surprennent",
+ "chapo": "Après deux ans de voyage, la sonde Hera a rejoint Dimorphos, astéroïde dévié lors d’un test de défense planétaire, et ses premières images, dévoilées mercredi par l’ESA, réservent des surprises.",
+ "sections": [
+  {
+   "intertitre": "Retour sur le test",
+   "texte": "Il y a quatre ans, le vaisseau DART de la Nasa s’est délibérément écrasé sur Dimorphos, un corps de 160 mètres de diamètre, lune d’un astéroïde plus grand, Didymos. Situé à 11 millions de kilomètres de la Terre, il ne présentait aucun danger. Il s’agissait de savoir si l’on pouvait dévier un tel objet, au cas où l’un d’eux menacerait la planète. L’orbite de Dimorphos a été réduite de 33 minutes. Pour comprendre ce qui s’est passé et valider les modèles d’impact, il fallait y retourner : c’est la mission d’Hera, lancée en octobre 2024 et arrivée il y a trois semaines à une trentaine de kilomètres."
+  },
+  {
+   "intertitre": "Un cratère et une déformation",
+   "texte": "« La première fois que j’ai vu les images, j’ai fait “waouh !” », raconte à l’AFP Patrick Michel, chercheur de la mission. Sur un cliché, l’impact semble avoir aplati un côté de Dimorphos, laissant un cratère aussi large que toute la face touchée, avec des structures inhabituelles à l’intérieur, dont une en forme de cigare. La structure interne, roche solide ou amas de débris, reste inconnue. Les scientifiques attendaient soit un cratère, soit une déformation. « En fait, c’est les deux. On ne comprend pas encore bien comment c’est possible », indique-t-il, évoquant un « scénario pas du tout prévu »."
+  },
+  {
+   "intertitre": "Un mouvement devenu chaotique",
+   "texte": "L’orbite n’est pas seule à avoir changé : la dynamique aussi. Avant l’impact, Dimorphos montrait toujours la même face à Didymos, comme notre Lune, et se comportait de façon assez régulière. « Maintenant, il est très chaotique », tel un « tonneau que vous lancez dans un escalier et qui se déplace dans tous les sens », décrit Sabina Raducan, planétologue à l’Institut international des sciences spatiales (ISSI, Berne). Naomi Murdoch, planétologue à l’ISAE-SUPAERO (Toulouse), résume : « nous avons changé l’apparence de Dimorphos, nous avons changé la façon dont il se déplace », et observé pour la première fois dans ce système une multitude de nouveaux compagnons inattendus."
+  },
+  {
+   "intertitre": "Des blocs inattendus",
+   "texte": "Des centaines de blocs rocheux, de la taille d’un ballon de football à celle d’une machine à laver, se déplacent autour des deux astéroïdes. On ignore encore s’ils résultent de l’impact. Leur présence est un « cauchemar » pour les ingénieurs, témoigne Margherita Cardi, cheffe de projet du nanosatellite Milani chez Tyvak International. Les équipes au sol pourront ajuster son orbite ou sa trajectoire, mais Milani ne saura pas détecter et éviter seul un bloc."
+  },
+  {
+   "intertitre": "La suite : deux nanosatellites",
+   "texte": "Milani et un autre CubeSat, Juventas, doivent normalement être déployés en janvier pour orbiter autour de Dimorphos, quand Hera s’en sera approchée à entre 20 et 10 km. Pendant six mois, ils doivent fournir des données cruciales. Juventas, censé atterrir sur l’astéroïde, emporte un radar basse fréquence pour sonder sa structure interne et des instruments mesurant son très faible champ de gravité. Milani étudiera sa composition avec une caméra multispectrale et un détecteur de poussières. « C’est une aventure à la Indiana Jones, mais en mieux ! », conclut Patrick Michel, car « c’est la réalité et que le scénario est de moins en moins écrit à l’avance »."
+  }
+ ],
+ "synthese": "L’impact de DART a modifié la forme et le mouvement de Dimorphos au-delà de ce qu’attendaient les scientifiques. Les deux nanosatellites d’Hera doivent désormais aider à comprendre ce qui s’est produit.",
+ "republication": ""
+}

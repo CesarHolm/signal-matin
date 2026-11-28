@@ -1,0 +1,29 @@
+{
+ "titre": "Avec AlphaFold2, la recherche creuse le connu plus qu'elle n'explore",
+ "chapo": "En biologie structurale, les prédictions les plus sûres de l'IA AlphaFold2 s'accompagnent d'un déplacement des expériences vers des protéines déjà étudiées.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Face à l'IA, les scientifiques peuvent repousser la frontière du savoir ou approfondir des questions déjà étudiées. Comme la science est cumulative, ce choix compte. Les auteurs l'examinent en biologie structurale, où l'on détermine la forme en trois dimensions des protéines, clé de leur fonction et de la recherche sur les médicaments. Sorti en 2021, AlphaFold2 (AF2), de DeepMind, prédit la structure de presque toutes les protéines connues, avec une confiance inégale. Il n'exige plus de protéine apparentée déjà résolue : les expériences auraient donc pu gagner les terres inexplorées. Or la plupart des travaux sur l'IA en science s'intéressent à la vitesse des découvertes, non au choix des sujets."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "C'est l'inverse qui apparaît. En passant du quart des protéines les moins bien prédites au quart les mieux prédites, la probabilité annuelle d'une première expérience, pour une protéine éloignée de toute structure connue, baisse d'environ 0,16 point, près de la moitié du taux initial (0,35 %). Les expériences livrant la première structure d'un groupe de protéines similaires reculent de 24 %. À l'inverse, les expériences de suivi montent de 19 %, dont 26 % pour les complexes (la protéine liée à un partenaire) et 11 % pour les améliorations de structures. Le total augmente de 13 %. La hausse proportionnelle des suivis est la plus forte là où l'industrie participe. Les laboratoires universitaires, principaux auteurs des suivis, n'en changent pas significativement le nombre en moyenne, ni leur total d'expériences, mais leurs premières expériences reculent. La hausse des essais est la plus marquée pour les protéines entourées de structures connues."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "L'étude suit 530 471 protéines de 2017 à 2025, reliées aux expériences de la Protein Data Bank, archive publique des structures. Chacune est située sur un arbre évolutif par rapport aux structures connues. La confiance d'AF2 est mesurée par la part des acides aminés prédits avec assurance. Une méthode de différences de différences compare l'évolution après 2021 selon cette part. Des tests placebo ne montrent pas de réaction comparable pour le total ni les suivis. Elle classe chaque expérience selon ce qu'elle révèle : structure inédite, première d'un groupe, petite molécule liée, complexe ou structure améliorée."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Un modèle théorique oppose deux forces. La substitution : la prédiction réduit la valeur d'une expérience qui établirait la structure. La complémentarité : elle abaisse le coût des expériences, dont celles qui s'appuient sur cette structure. Pour déterminer une structure, la perte l'emporte sur l'économie ; étudier le fonctionnement profite seulement du second effet. Enjeu supplémentaire : les futurs modèles d'IA apprennent aussi des expériences que les chercheurs choisissent pour leurs propres travaux. Or celles qui étendraient ces modèles à des protéines inexplorées sont précisément celles qui ont reculé, relativement, là où AF2 est le plus sûr. Une prédiction assez sûre pour être utilisée seule rend en outre la structure exploitable sans expérience, tandis qu'une prédiction moins sûre peut rendre une première expérience plus intéressante, loin de toute structure connue."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "Les auteurs précisent que leurs estimations mesurent des écarts de réaction entre protéines, et non un effet commun d'AF2 sur toutes. La confiance du modèle n'est pas répartie au hasard : les protéines mal prédites tendent à être plus longues, situées dans les membranes et mieux étudiées, et auraient pu évoluer différemment pour d'autres raisons. Des effets fixes et des tendances propres aux caractéristiques antérieures servent à en tenir compte. Les auteurs notent aussi que les prédictions utilisées ne couvrent que la forme de base d'une protéine isolée, alors qu'une expérience peut en révéler davantage."
+  }
+ ],
+ "synthese": "Là où AlphaFold2 est le plus sûr de lui, les premières expériences reculent tandis que les suivis, plus nombreux, font monter le total. L'IA approfondit ainsi le savoir existant davantage qu'elle ne l'étend.",
+ "republication": "",
+ "reference": "Myra Mohnen (Université d'Ottawa) et Joshua S. Gans (Université de Toronto, Rotman School of Management, et NBER), « How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2 », NBER Working Paper n° 36045, novembre 2026 ; document de travail non relu par des pairs."
+}

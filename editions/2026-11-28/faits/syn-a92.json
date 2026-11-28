@@ -1,0 +1,29 @@
+{
+ "titre": "Medicare Advantage : les inscriptions suivent les subventions aux assureurs",
+ "chapo": "Deux chercheurs mesurent combien d'Américains rejoignent les assurances privées de Medicare quand l'État relève ou abaisse son paiement maximal par assuré.",
+ "sections": [
+  {
+   "intertitre": "La question",
+   "texte": "Aux Etats-Unis, les bénéficiaires de Medicare choisissent entre le régime public et des plans privés, dits Medicare Advantage (MA). L'Etat fixe par comté un « benchmark », paiement maximal par assuré, qui agit comme un bon d'achat. La part de MA est passée de 19 % en 2007 à 55 % en 2026, et ces plans représentaient 462 milliards de dollars, soit 54 % des dépenses fédérales de Medicare, en 2024. Pourtant, on sait très peu si la générosité des paiements a porté cet essor, ce qui complique le chiffrage des réformes. Rien ne garantit en outre que les assurés réagissent : ils changent peu de plan, le marché est très concentré et les assureurs pourraient capter l'essentiel du surplus. Or cette sensibilité détermine le nombre de personnes qui basculent et le coût budgétaire net de toute modification."
+  },
+  {
+   "intertitre": "Les conclusions",
+   "texte": "Une hausse de 1 % du benchmark accroît les inscriptions en MA d'environ un demi-point au bout de trois ans, soit une élasticité d'environ 2 (2,1 dans la spécification privilégiée, intervalle de confiance à 95 % d'environ 1,6 à 2,6). Les effets sont à peu près symétriques à la hausse et à la baisse. Les rabais, qui financent des prestations supplémentaires, varient d'environ 5,50 dollars par mois et par assuré, surtout quand le benchmark monte. Le nombre de plans évolue d'environ deux, principalement par des retraits quand il baisse. Pour 100 dollars mensuels de plus par assuré, la part de MA gagne 5,9 points. La réaction est plus forte dans les comtés où le choc est le plus marqué : 1,7 point en moyenne contre 0,6 pour les hausses, et -2,1 contre -1,3 pour les baisses. Elle reste globalement semblable quelle que soit la concentration du marché. L'effet sur les primes mensuelles reste en revanche faible et imprécis."
+  },
+  {
+   "intertitre": "La méthode",
+   "texte": "Chaque année, les comtés sont classés en quartiles selon la dépense publique prévue par assuré ; le benchmark va de 115 % de celle-ci dans le quartile le moins coûteux à 95 % dans le plus coûteux. Un comté qui franchit un seuil subit un choc de paiement sans lien avec la demande locale. Les auteurs comparent ces comtés à ceux restés dans leur quartile : sur 2 370 comtés suivis de 2015 à 2019, 1 115 ont franchi un seuil. Des tests placebo ne montrent aucune réaction des inscriptions. Ces changements durent : 86,7 % des comtés franchissant un seuil après 2015 restent de l'autre côté au moins trois ans. L'étude emploie des différences de différences et des études d'événement, avec des contrôles, dont la dépense par assuré, le nombre de médecins et de lits ou le revenu médian. D'autres tests confirment les résultats."
+  },
+  {
+   "intertitre": "Ce que ça implique",
+   "texte": "Les auteurs simulent des benchmarks ramenés à 95 % de la dépense publique locale, sans bonus de qualité, contre 107 % en moyenne en 2019. Les inscriptions en MA reculeraient de 6,1 points, environ un quart, à partir d'une moyenne de 26,1 % dans l'échantillon : une contraction réelle, mais pas la disparition du programme. Selon eux, une partie du surplus des paiements revient aux nouveaux inscrits, et les coupes ne sont pas un « repas gratuit » : il faudra comparer les économies aux pertes subies par les assurés. Elles pourraient aussi passer par des retraits de plans, effet sans doute modeste, chaque bénéficiaire ayant accès à environ 32 plans en 2026. Ces résultats se distinguent d'études récentes qui ne trouvaient guère de réaction."
+  },
+  {
+   "intertitre": "Les limites",
+   "texte": "La réaction des offres des assureurs, d'environ 3 à 4 dollars après une hausse, est moins robuste que les résultats sur les rabais et les inscriptions : elle s'atténue ou n'est plus significative dans certaines spécifications. Pour les comtés en baisse, l'effet selon l'ampleur du choc ne peut être entièrement séparé des différences de croissance des dépenses publiques. Certaines estimations sur ces offres sont imprécises, avec des intervalles de confiance incluant zéro."
+  }
+ ],
+ "synthese": "Les inscriptions en Medicare Advantage réagissent nettement au benchmark, avec une élasticité d'environ 2. Réduire les paiements ferait donc reculer ces plans privés, au prix, selon les auteurs, d'une perte pour les assurés.",
+ "republication": "",
+ "reference": "Paul D. Jacobs (Johns Hopkins Bloomberg School of Public Health) et Timothy J. Layton (University of Virginia et NBER), « The Effects of Private Plan Subsidies on Enrollment: Evidence from Medicare Advantage », NBER Working Paper n° 36042, novembre 2026 ; document de travail non relu par des pairs."
+}

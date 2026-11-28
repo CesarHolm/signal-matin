@@ -1,0 +1,20 @@
+{
+ "titre": "IA dans les soins : la CNIL et la HAS publient un guide de bon usage",
+ "chapo": "La Haute Autorité de santé et la CNIL publient « IA en contexte de soins : accompagner le bon usage », un guide qui clarifie règles et bonnes pratiques pour les acteurs de la santé.",
+ "sections": [
+  {
+   "intertitre": "À qui il s'adresse",
+   "texte": "Le guide vise l'ensemble des déployeurs et utilisateurs de systèmes d'IA du secteur sanitaire, professionnels comme organisations. Il entend les accompagner vers un déploiement et un usage conformes, sûrs et responsables. Ces acteurs doivent en effet respecter le cadre réglementaire, notamment les droits fondamentaux des patients sur leurs données personnelles. Pour les deux institutions, ces systèmes doivent être mis au service de l'humain et répondre aux besoins réels des patients, des professionnels et des organisations de santé. Le cadre proposé s'adapte aux différents contextes d'exercice et niveaux de maturité. Avec cette publication, la HAS et la CNIL disent se mobiliser pour accompagner les acteurs de la santé en clarifiant les règles applicables et les bonnes pratiques à suivre."
+  },
+  {
+   "intertitre": "Ce qu'il contient",
+   "texte": "Issu d'un travail pluridisciplinaire et d'une consultation publique, le document clarifie les obligations légales et réglementaires, guide le déploiement des systèmes d'IA et favorise leur bon usage pour garantir la qualité et la sécurité des soins. Il aide aussi les établissements de santé dans leur certification, pour les critères liés à l'IA. Ses onze fiches couvrent tout le cycle de vie d'un système d'IA. Chacune comprend notamment une synthèse, une analyse du cadre légal et réglementaire et des principes à mettre en œuvre, dont certains sont signalés comme prioritaires."
+  },
+  {
+   "intertitre": "Le cadre commun",
+   "texte": "Le guide découle de la convention de partenariat conclue en mars 2026 entre la CNIL et la HAS. Il s'inscrit dans le projet stratégique 2025-2030 de la HAS, en particulier sa thématique « Numérique et IA en santé », et dans le plan stratégique 2025-2028 de la CNIL, notamment l'axe « Promouvoir une intelligence artificielle éthique et respectueuse des droits ». Reflet d'une position partagée, il doit permettre d'accompagner l'utilisation des systèmes d'IA dans le respect du droit et des bonnes pratiques."
+  }
+ ],
+ "synthese": "La CNIL et la HAS proposent en onze fiches un cadre commun pour déployer et utiliser l'IA dans les soins. Il vise à concilier respect du droit, protection des données des patients, qualité et sécurité des soins.",
+ "republication": ""
+}
