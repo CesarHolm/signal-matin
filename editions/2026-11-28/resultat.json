@@ -1,0 +1,2754 @@
+{
+ "edition": {
+  "date": "2026-11-28",
+  "numero": 28,
+  "secours": false,
+  "numerique": true,
+  "meteo": null,
+  "nouveaux_mots": [
+   {
+    "mot": "Limpide",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "D'une clarté parfaite, sans ambiguïté.",
+    "exemple": "Son raisonnement était limpide."
+   },
+   {
+    "mot": "Arbitrage",
+    "nature": "n. m.",
+    "niveau": "facile",
+    "domaine": "pro",
+    "definition": "Choix entre plusieurs options concurrentes après comparaison.",
+    "exemple": "Un arbitrage entre coût et délai."
+   },
+   {
+    "mot": "Atavisme",
+    "nature": "n. m.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Réapparition de caractères hérités d'ancêtres lointains.",
+    "exemple": "Un goût de la terre qui relevait presque de l'atavisme."
+   },
+   {
+    "mot": "Déliquescence",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Décadence complète, décomposition.",
+    "exemple": "Un parti en pleine déliquescence."
+   },
+   {
+    "mot": "Atrabilaire",
+    "nature": "adj.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "D'humeur sombre et irritable.",
+    "exemple": "Un vieil oncle atrabilaire."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Placide"
+   },
+   {
+    "mot": "Coruscant"
+   },
+   {
+    "mot": "Solvabilité"
+   },
+   {
+    "mot": "Hapax"
+   },
+   {
+    "mot": "Ineffable"
+   }
+  ],
+  "sport": {
+   "resultats": [
+    {
+     "sport": "Tennis",
+     "affiche": "Italie – Tchéquie",
+     "score": "2-1",
+     "competition": "Coupe Davis (qualification pour la finale)",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Tennis/Actualites/L-italie-triple-tenante-du-titre-signe-face-a-la-tchequie-une-seizieme-victoire-de-suite-et-se-qualifie-pour-la-finale-de-la-coupe-davis/1746798#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Basket",
+     "affiche": "France – Estonie",
+     "score": "81-73",
+     "competition": "Éliminatoires de la Coupe du monde 2027 (équipe de France)",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Basket/Actualites/-je-ne-lui-ai-jamais-dit-que-je-faisais-une-croix-sur-lui-frederic-fauthoux-repond-a-nadir-hifi-apres-estonie-france/1746818#at_medium=RSS_feeds"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Nottingham Forest – Chelsea",
+     "score": "3-2",
+     "competition": "Premier League (championnat d'Angleterre)",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401879225/chelsea-nottingham-forest"
+    },
+    {
+     "sport": "Biathlon",
+     "affiche": "Individuel femmes, Kontiolahti (Finlande)",
+     "score": "3e : Julia Simon",
+     "competition": "Coupe du monde de biathlon",
+     "source": "RMC Sport",
+     "url": "https://rmcsport.bfmtv.com/sports-d-hiver/biathlon/direct-coupe-du-monde-de-biathlon-kontiolahti-suivez-la-premiere-course-feminine-de-la-saison-2026-2027-avec-l-individuel-en-live_LN-202611270637.html"
+    },
+    {
+     "sport": "Rugby",
+     "affiche": "Irlande – Australie",
+     "score": "38-14",
+     "competition": "Championnat des nations (match pour la 5e place)",
+     "source": "L'Équipe",
+     "url": "https://www.lequipe.fr/Rugby/Actualites/L-irlande-maitrise-l-australie-et-termine-5e-du-championnat-des-nations/1746800#at_medium=RSS_feeds"
+    }
+   ],
+   "a_suivre": [
+    {
+     "sport": "Rugby",
+     "affiche": "Lyon – Stade toulousain",
+     "competition": "Top 14 (championnat de France), 10e journée",
+     "heure": "21 h",
+     "source": "ESPN",
+     "url": "https://www.espn.com/rugby/match/_/gameId/604428/league/270559"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Paris Saint-Germain – Lorient",
+     "competition": "Ligue 1 (championnat de France)",
+     "heure": "20 h 45",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401876387/lorient-paris-saint-germain"
+    },
+    {
+     "sport": "Football",
+     "affiche": "Real Madrid – Alavés",
+     "competition": "Liga (championnat d'Espagne)",
+     "heure": "21 h",
+     "source": "ESPN",
+     "url": "https://www.espn.com/soccer/match/_/gameId/401882789/alaves-real-madrid"
+    }
+   ],
+   "periode": [
+    "2026-11-27"
+   ]
+  },
+  "reponses_hier": [
+   {
+    "mot": "Stochastique",
+    "definition": "Qui relève du hasard, des probabilités."
+   },
+   {
+    "mot": "Frugal",
+    "definition": "Qui se contente de peu, notamment pour la nourriture ; simple et peu abondant."
+   },
+   {
+    "mot": "Préemption",
+    "definition": "Droit d'acquérir un bien par priorité sur tout autre acheteur."
+   },
+   {
+    "mot": "Philippique",
+    "definition": "Discours violent et polémique dirigé contre quelqu'un."
+   },
+   {
+    "mot": "Équivoque",
+    "definition": "Qui peut s'interpréter de plusieurs façons ; ambigu, douteux."
+   }
+  ],
+  "blocs": [
+   {
+    "id": "ia",
+    "titre": "IA",
+    "developpes": [],
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-27",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "auteur": "Matthias Bastian",
+      "id": "a1",
+      "titre": "OpenAI poursuit Apple pour vol de secrets industriels et pressions sur ses fournisseurs",
+      "texte": "OpenAI attaque Apple devant un tribunal de Californie, l’accusant de vol de secrets industriels et de contraindre des fournisseurs communs. Cette contre-attaque fait suite à la plainte déposée par Apple à l’été précédent. Les deux groupes avaient uni leurs efforts il y a deux ans pour intégrer ChatGPT à l’iPhone, alors qu’OpenAI développe désormais ses propres appareils pour concurrencer Apple."
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-27",
+      "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+      "auteur": "Maximilian Schreiner",
+      "id": "a7",
+      "titre": "SAP prévoit de supprimer au moins 10 000 postes dans sa réorientation vers l’IA",
+      "texte": "Le groupe SAP se prépare à supprimer au moins 10 000 postes dans le cadre d’une vaste restructuration liée à l’intelligence artificielle, selon Bloomberg qui cite des personnes proches du dossier."
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-27",
+      "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+      "auteur": "",
+      "id": "a3",
+      "titre": "Trois études de Meta et d'AMI Labs soutiennent le pari de LeCun sur JEPA",
+      "texte": "Trois études de Meta et d'AMI Labs illustrent les progrès de l'architecture JEPA, qui vise à doter les machines d'un modèle interne du monde. Elles portent sur la planification robotique, un entraînement plus efficace et la correction d'erreurs, mais les briques restent à assembler."
+     }
+    ]
+   },
+   {
+    "id": "france",
+    "titre": "Actualité France",
+    "developpes": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-27",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/27/l-agence-s-p-menace-de-degrader-encore-la-note-de-la-france-entree-en-recession_6815934_823448.html",
+      "auteur": "Denis Cosnard",
+      "titre": "S&P menace d'abaisser la note de la France, désormais en récession",
+      "chapo": "L'agence S&P Global Ratings a maintenu vendredi 27 novembre la note A+ de la France, mais a fait passer sa perspective de « stable » à « négative ».",
+      "sections": [
+       {
+        "intertitre": "La décision",
+        "texte": "S&P Global Ratings, présentée par Le Monde comme la principale agence mondiale de notation, évalue la capacité des entreprises et des pays à rembourser leurs emprunts. Elle conserve pour l'instant à la dette française la note A+, qui correspond à une qualité « moyenne supérieure », soit l'équivalent d'un 15,5 sur 20 pour une copie scolaire. La perspective devient toutefois négative, ce qui ouvre la voie à une dégradation si la situation ne s'améliore pas. Le prochain examen par l'agence doit en principe avoir lieu dans quelques mois. En mai, S&P avait maintenu cette même note avec une perspective stable. Selon franceinfo, la menace s'explique par les difficultés du pays à réduire son déficit, ainsi que par des perspectives de croissance en berne."
+       },
+       {
+        "intertitre": "Une journée noire",
+        "texte": "Pour Le Monde, ce 27 novembre, jour du « Black Friday », a été un vendredi très noir : récession, déficit accru et inquiétude sur la dette se sont accumulés, signe que le pays s'enfonce dans la crise au lieu de se redresser comme l'espérait le gouvernement. La croissance est loin des attentes : en octobre 2025, S&P tablait sur 1 % pour 2026. Ce scénario est désormais totalement hors d'atteinte selon franceinfo, le produit intérieur brut ayant reculé de 0,2 % au premier trimestre, stagné au deuxième, puis de nouveau reculé de 0,1 % au troisième."
+       },
+       {
+        "intertitre": "Une triple menace",
+        "texte": "La France se trouve désormais confrontée à une triple menace, venue des trois grandes agences. Moody's et Fitch, les deux concurrentes de S&P, avaient déjà assorti d'une perspective négative les notes qu'elles attribuent à la dette française. La décision de S&P intervient alors que les députés sont en plein débat budgétaire. Le ministre de l'Economie, Roland Lescure, a « pris acte » de cette évaluation. Elle vient selon lui « souligner l'absolue nécessité de doter le pays dans les meilleurs délais d'un budget responsable, qui redresse nos finances publiques en ramenant le déficit à 5 % au plus ». Le résultat de l'examen de S&P était très attendu."
+       },
+       {
+        "intertitre": "Des pronostics partagés",
+        "texte": "Avant l'annonce, les économistes ne s'accordaient pas sur le verdict à attendre : certains prédisaient un abaissement de la note. Eric Dor, directeur des études économiques à l'école de commerce Ieseg, jugeait que S&P disposait « des arguments pour » abaisser la note. Anthony Morlet-Lavidalie, de Rexecode, interrogé par l'AFP, estimait au contraire « assez violent » un recul d'un cran : le plus logique était à ses yeux un simple abaissement de la perspective, voire un statu quo en attendant de voir si le Parlement adopte un budget 2027. Stéphane Colliac, de BNP Paribas, rappelait que l'agence n'avait pas l'obligation de dégrader la note dès maintenant, la situation budgétaire restant « plus incertaine que négative »."
+       }
+      ],
+      "synthese": "S&P laisse la note française à A+ mais envisage de l'abaisser, sur fond de récession et de difficultés à réduire le déficit. Les trois grandes agences assortissent désormais leur note d'une perspective négative, tandis que les députés débattent encore du budget et que le gouvernement appelle à l'adopter au plus vite.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [
+       {
+        "source": "franceinfo",
+        "url": "https://www.franceinfo.fr/economie/budget/l-agende-de-notation-standard-poor-s-menace-de-degrader-prochainement-la-note-de-la-france_8302788.html#xtor=RSS-3-[lestitres]"
+       }
+      ],
+      "format": "long",
+      "id": "a9"
+     },
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-27",
+      "url": "https://www.publicsenat.fr/actualites/parlementaire/budget-2027-apres-quelques-couacs-le-senat-sapprete-a-revoter-sur-la-fiscalisation-des-ald-et-la-suppression-de-la-demi-part-fiscale-des-meres-celibataires",
+      "auteur": "Romain David",
+      "titre": "Budget 2027 : le Sénat va revoter sur les ALD et les mères célibataires",
+      "chapo": "Les Républicains demandent une seconde délibération sur deux mesures polémiques adoptées au Sénat : la taxation des indemnités liées à une ALD et la fin d’une demi-part pour des mères seules.",
+      "sections": [
+       {
+        "intertitre": "Un nouveau vote attendu",
+        "texte": "Les sénateurs prolongent ce week-end l’examen de la première partie du budget 2027. La Chambre haute, qui débat depuis une semaine du volet « recettes » du projet de loi de finances (PLF), devrait achever la discussion en séance publique dimanche. Avant de voter sur cette partie, elle doit se prononcer à nouveau sur deux dispositions adoptées cette semaine avec l’article 2. Le groupe Les Républicains (LR) estime qu’en l’état, elles « impacteraient injustement deux catégories de personnes en situation de fragilité ». L’article 43 du règlement permet de remettre aux voix certains articles avant le vote d’ensemble, si le gouvernement ou la commission saisie le demande ou l’accepte. Par ailleurs, jeudi 26 novembre au soir, le Sénat a voté une baisse de TVA pour l’acquisition de logements dans le dispositif gouvernemental de relance de l’investissement locatif et de la construction."
+       },
+       {
+        "intertitre": "Les deux mesures en cause",
+        "texte": "Mercredi, à l’initiative de la rapporteure générale du budget, la sénatrice LR Christine Lavarde, le Sénat a voté la taxation totale des indemnités liées à une affection de longue durée, quand le gouvernement voulait en imposer la moitié. Lundi, toujours sur sa proposition, il a supprimé la demi-part de quotient accordée à vie aux mères ayant élevé seules un ou plusieurs enfants pendant au moins cinq ans, une disposition créée en 1945 pour soutenir les veuves de guerre."
+       },
+       {
+        "intertitre": "La disette budgétaire",
+        "texte": "La majorité de droite et du centre a adopté ces mesures contre l’avis du gouvernement, dans un contexte de forte disette budgétaire. En début de semaine, le Premier ministre a demandé par courrier aux parlementaires de dégager six milliards d’euros d’économies supplémentaires, en plus des 43 milliards déjà prévus dans le projet initial, en raison de la révision à la baisse des prévisions de croissance pour l’an prochain."
+       },
+       {
+        "intertitre": "Critiques et divisions",
+        "texte": "« Les LR se sont rendu compte qu’ils ont fait une bêtise. Les gens concernés sont montés au créneau », juge le sénateur Les Indépendants Emmanuel Capus, proche d’Édouard Philippe, qui avait dit en séance ces mesures « disproportionnées et néfastes ». Il réclame notamment la défiscalisation totale des ALD, plaide pour un regard « humain plutôt que budgétaire » et refuse des « augmentations déguisées d’impôts ». Selon lui, la rapporteure cherche à supprimer les dispositions dérogatoires « parfois sans distinction », alors que ces niches compensent souvent certaines situations. À gauche, le tollé est vif : le président du groupe socialiste, Patrick Kanner, a qualifié de « dégueulasse » l’amendement sur les ALD et raillé sur X « la cacophonie » de la majorité sénatoriale, puisque les LR réclament un nouveau vote sur des articles qu’ils ont adoptés, modifiés par une rapporteure issue de la droite."
+       }
+      ],
+      "synthese": "Le Sénat doit revoter sur deux mesures fiscales contestées avant de se prononcer sur le volet recettes du budget. Elles avaient été adoptées sous la pression des économies à trouver et ont suscité des critiques à gauche comme chez Les Indépendants.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a33"
+     },
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-27",
+      "url": "https://www.publicsenat.fr/actualites/societe/la-proposition-de-loi-mettant-fin-au-devoir-conjugal-en-passe-detre-definitivement-adoptee-par-le-parlement",
+      "auteur": "",
+      "titre": "Devoir conjugal : la loi qui y met fin proche de l'adoption définitive",
+      "chapo": "Députés et sénateurs se sont accordés en commission mixte paritaire sur la proposition de loi abrogeant le devoir conjugal, qui doit encore être votée par les deux chambres.",
+      "sections": [
+       {
+        "intertitre": "Un devoir absent de la loi",
+        "texte": "Le Code civil établit clairement quatre devoirs liés au mariage : le secours, la fidélité, l'assistance et la communauté de vie. Le devoir conjugal n'y figure pas. Mais la rédaction de l'article 242, sur les motifs de divorce pour faute, a pu conduire la jurisprudence à considérer que la communauté de vie impliquait une forme de devoir conjugal. Une femme de 69 ans a ainsi été jugée fautive dans son divorce pour avoir refusé des rapports sexuels à son mari, la justice retenant une « violation grave et renouvelée des devoirs du mariage ». En 2025, ce devoir était encore au cœur d'une quinzaine d'arrêts d'appel."
+       },
+       {
+        "intertitre": "La condamnation européenne",
+        "texte": "La même année, la Cour européenne des droits de l'homme (CEDH) a sanctionné la France pour ce motif, lui imposant d'abandonner cette jurisprudence. Après cette condamnation, Marie-Charlotte Garin, députée écologiste, avait estimé anormal « que le mariage soit le dernier lieu dans lequel le consentement n'aurait pas sa place ». La proposition de loi est portée à l'Assemblée nationale par les députés Marie-Charlotte Garin (Écologistes) et Paul Christophe (Horizons), avec le soutien du gouvernement. En avril, Aurore Bergé, ministre déléguée à l'égalité entre les femmes et les hommes, jugeait qu'il fallait « mettre en cohérence » le droit français avec la décision européenne."
+       },
+       {
+        "intertitre": "Le désaccord entre les chambres",
+        "texte": "Le 9 avril, le Sénat a adopté le texte à l'unanimité, par 209 voix pour et 2 contre, après de longues discussions sémantiques. Il avait modifié la rédaction de l'article 1er venue de l'Assemblée et supprimé l'article 2. Celui-ci disposait que le divorce « ne peut être fondé sur l'absence ou le refus de relations sexuelles », ce que les sénateurs jugeaient redondant avec l'objet même du texte. Le rapporteur au Sénat, Jean-Baptiste Blanc (Les Républicains), n'y voyait « pas d'utilité juridique »."
+       },
+       {
+        "intertitre": "Le compromis et le calendrier",
+        "texte": "La commission mixte paritaire, réunissant sept représentants de chaque chambre, a trouvé un accord unanime : l'article 1er est conservé dans la version initiale votée par l'Assemblée, et l'article 2 est supprimé, comme le souhaitait le Sénat. « Même dans le mariage, le consentement n'est jamais acquis », a rappelé la rapporteure Marie-Charlotte Garin. L'accord doit désormais être validé par le Parlement. Le texte prolonge l'intégration du non-consentement dans la définition pénale du viol et des agressions sexuelles, que la députée avait aussi portée jusqu'à son adoption le 23 octobre 2025. Le gouvernement a enclenché la procédure accélérée et le soutien transpartisan doit permettre un vote rapide. L'Assemblée examinera le texte à partir du 7 décembre ; la date au Sénat n'est pas encore fixée."
+       }
+      ],
+      "synthese": "Après un accord unanime en commission mixte paritaire, la proposition de loi mettant fin au devoir conjugal n'a plus qu'à être votée par les deux chambres. Elle doit aligner le droit français sur la condamnation prononcée par la CEDH.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a37"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-27",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/27/ecrits-antisemites-la-defense-de-jordan-bardella-patine-marine-le-pen-maintient-timidement-sa-confiance_6815931_823448.html",
+      "auteur": "Clément Guillou",
+      "id": "a12",
+      "titre": "Écrits antisémites : la défense de Jordan Bardella patine",
+      "texte": "Interrogé sur le contenu de la plainte déposée par le président du RN contre Mediapart pour faux et usage de faux, son avocat a évoqué des courriels périphériques aux échanges incriminés. Marine Le Pen maintient timidement sa confiance."
+     },
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-27",
+      "url": "https://www.publicsenat.fr/actualites/economie/seniors-le-gouvernement-modifie-le-mode-de-calcul-de-lallocation-personnalisee-dautonomie",
+      "auteur": "",
+      "id": "a39",
+      "titre": "Seniors : le reste à charge de l'APA augmente en moyenne de 12 euros",
+      "texte": "À partir du 1er janvier, le reste à charge de certains bénéficiaires de l'allocation personnalisée d'autonomie pour un accompagnement à domicile augmentera en moyenne de 12 euros. Le gouvernement entend économiser 250 millions d'euros pour les départements."
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-27",
+      "url": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/l-hommage-national-aux-victimes-de-l-attentat-raciste-de-trappes-et-de-la-verriere-aura-lieu-le-4-decembre-aux-invalides_8303391.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "id": "a21",
+      "titre": "Hommage national aux victimes de l'attentat raciste de Trappes et La Verrière",
+      "texte": "L'hommage national se tiendra le 4 décembre aux Invalides, à Paris, plus d'un mois après la mort de Pengo Bossio Wangi. Il sera présidé par le Premier ministre, Sébastien Lecornu."
+     }
+    ]
+   },
+   {
+    "id": "monde",
+    "titre": "Actualité Monde",
+    "developpes": [
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-28",
+      "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
+      "auteur": "",
+      "titre": "Taïwan : des élections locales très disputées, suivies de près par Pékin",
+      "chapo": "Les Taïwanais élisent ce samedi maires, conseillers et autres élus locaux dans les 22 villes et comtés de l'île, avec une compétition inhabituelle dans certaines grandes villes.",
+      "sections": [
+       {
+        "intertitre": "Le scrutin",
+        "texte": "Environ 11 000 postes sont en jeu dans ces élections « neuf en un », nommées d'après les neuf catégories de mandats concernées. Les bureaux, installés dans des écoles, des temples et des centres communautaires, ouvrent de 8 heures à 16 heures, les résultats étant attendus en début de soirée. La campagne a porté sur les transports, la garde d'enfants ou l'environnement, et le vote ne changera pas directement la politique envers la Chine. Il y a quatre ans, le Kuomintang (KMT), parti d'opposition favorable à des liens plus étroits avec Pékin, avait remporté 14 villes et comtés, le Parti démocrate progressiste (DPP), au pouvoir, cinq, et d'autres partis ou indépendants trois."
+       },
+       {
+        "intertitre": "Taipei, duel à suivre",
+        "texte": "Dans la capitale, bastion traditionnel du KMT, le maire Chiang Wan-an, élu avec plus de dix points d'avance et vu comme un possible présidentiable, affronte Puma Shen, du DPP. Cet universitaire devenu député, expert de la guerre de l'information chinoise, est recherché pour « séparatisme » selon la police chinoise. Parti outsider, il a attiré des foules, et son meeting final en ligne a réuni plus de 500 000 spectateurs. Sa victoire serait « assez honteuse » pour Pékin, estime Austin Wang, politologue à l'université du Nevada. New Taipei, ville la plus peuplée, tenue par le KMT, et Kaohsiung, tenue par le DPP, sont aussi surveillées. Chiang a reconnu devant ses partisans que la course était « très serrée »."
+       },
+       {
+        "intertitre": "Pression chinoise et suites",
+        "texte": "Pékin, qui revendique l'île, est intervenu à plusieurs reprises. Le ministère taïwanais de la Défense a compté quelque 33 sorties d'avions militaires chinois, dont des bombardiers et des chasseurs, entre vendredi et samedi. Le Conseil des affaires continentales de Taïwan dénonce une « guerre cognitive » et une « répression transnationale » visant à peser sur le résultat. Selon les analystes, ces résultats préjugent mal de la présidentielle de début 2028, où le président Lai Ching-te devrait briguer un second mandat. Le KMT pourrait bientôt débattre de son candidat, parmi lesquels Lu Shiow-yen, maire sortante de Taichung, ou Han Kuo-yu, président du Parlement."
+       }
+      ],
+      "synthese": "Ce vote local, centré sur le quotidien, est observé comme un test, en particulier à Taipei, sous la pression de Pékin. La présidente du KMT, Cheng Li-wun, pourrait être poussée à démissionner en cas de mauvais résultat.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a75"
+     },
+     {
+      "rubrique": "Géopolitique",
+      "source": "Le Grand Continent",
+      "date": "2026-11-27",
+      "url": "https://legrandcontinent.eu/fr/2026/11/27/leurope-fait-face-a-une-vague-daffaires-despionnage-russe/",
+      "auteur": "Marin Saillofest",
+      "titre": "Espionnage russe : l'Europe face à une semaine d'une ampleur inédite",
+      "chapo": "Du 21 au 27 novembre à 14 h, Le Grand Continent a recensé 32 actions hostiles visant l'Europe, survenues récemment ou rendues publiques ces derniers jours.",
+      "sections": [
+       {
+        "intertitre": "Une semaine record",
+        "texte": "Dix-huit de ces actions sont attribuées à la Russie ou soupçonnées de l'être ; les quatorze autres n'ont pas d'auteur désigné. C'est la semaine la plus chargée depuis le début du recensement, fin septembre : trois fois la moyenne d'octobre et dix de plus que la précédente (22). On compte douze incidents aériens, dix opérations d'espionnage, deux campagnes de désinformation, une vague de fausses alertes à la bombe, un drone marin chargé d'explosifs, l'implantation d'une cellule hacktiviste prorusse, deux incendies criminels visant l'industrie de défense, une cyberattaque, un brouillage GPS ou encore un projet d'assassinat. Vingt faits sont anciens mais viennent d'être révélés, souvent à l'occasion d'une arrestation, d'un procès ou d'une enquête. Douze se sont produits pendant la période, à peu près comme les deux semaines précédentes (11 et 12)."
+       },
+       {
+        "intertitre": "L'Est en première ligne",
+        "texte": "Les pays de la frontière orientale, de la Baltique à la mer Noire, concentrent 23 actions : six en Pologne, cinq en Roumanie et huit dans les trois pays baltes. Aucune n'a visé le Royaume-Uni ni les Pays-Bas. À Bydgoszcz, un pianiste arrêté en juin 2025 a été condamné le 26 novembre à trois ans de prison : il avait transmis des informations sur des sites militaires à un prétendu agent du FSB, en réalité du contre-espionnage polonais. Deux Serbes, partis de Pologne et visés par un mandat d'arrêt européen, sont suspectés de l'incendie, fin août, de l'usine du fabricant de drones militaires WB Electronics, à Skarżysko-Kamienna, que Donald Tusk avait qualifié « d'acte de sabotage »."
+       },
+       {
+        "intertitre": "Espionnage : dix affaires",
+        "texte": "Avec dix cas, dont neuf liés ou soupçonnés d'être liés à la Russie, l'espionnage atteint un niveau inédit, contre trois au maximum auparavant. En Estonie, le service de sécurité KAPO a fait expulser deux Russes : un ancien professeur et journaliste et un employé de l'usine d'huile de schiste d'Enefit à Auvere, expulsé le 24 novembre. Le premier renseignait Moscou sur la population russophone. En Lituanie, cinq personnes sont soupçonnées d'avoir collecté, contre rémunération, des informations pour la télévision d'État russe VGTRK depuis l'automne 2024 ; des institutions disent avoir reçu de plusieurs d'entre elles des centaines de questions, notamment sur la défense aérienne et l'OTAN. En Allemagne, deux procès se sont ouverts le 26 novembre : à Düsseldorf, un accusé a avoué avoir espionné pour le FSB un homme lié à l'armée ukrainienne ; à Berlin, une Germano-Ukrainienne est accusée d'avoir signalé des réunions politiques à un agent russe en poste à l'ambassade."
+       },
+       {
+        "intertitre": "Désigner Moscou",
+        "texte": "Les autorités de l'Est ont mis en cause la Russie pour 12 des 23 actions les visant, contre 2 sur 9 à l'Ouest. L'écart tient surtout à la Pologne, aux pays baltes et à la Finlande, où gouvernements, services de sécurité et parquets accusent régulièrement Moscou."
+       }
+      ],
+      "synthese": "Cette semaine marque un pic des actions hostiles recensées en Europe, porté notamment par les affaires d'espionnage. L'Est du continent est le plus touché et désigne plus volontiers la Russie.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a87"
+     },
+     {
+      "rubrique": "États-Unis",
+      "source": "NPR",
+      "date": "2026-11-27",
+      "url": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+      "auteur": "Vanessa Romo",
+      "titre": "Asile aux États-Unis : les défenseurs des migrants misent sur la Cour suprême",
+      "chapo": "La Cour suprême doit bientôt dire si Donald Trump peut suspendre seul l'accès à l'asile, en contournant le Congrès et la loi sur l'immigration en vigueur.",
+      "sections": [
+       {
+        "intertitre": "Un accès à l'asile verrouillé",
+        "texte": "Depuis près de deux ans, l'administration Trump interdit les demandes d'asile à la frontière avec le Mexique, a annulé des milliers de dossiers en attente et remanié les tribunaux de l'immigration à coups de licenciements massifs. Pour ses détracteurs, ces mesures ont de fait fermé une voie jadis vitale aux personnes fuyant les persécutions. L'interdiction, entrée en vigueur quelques heures après le retour du président, a été rejetée par deux juridictions fédérales inférieures, mais reste largement appliquée pendant la procédure. Ses adversaires estiment aussi que les demandeurs ont été privés de garanties élémentaires et que les tribunaux sont devenus un bras de l'expulsion."
+       },
+       {
+        "intertitre": "Les arguments de l'exécutif",
+        "texte": "L'administration présente la proclamation comme une protection nécessaire contre une « invasion » et contre les abus de « faux » demandeurs d'asile. Les arrestations à la frontière sud-ouest sont tombées sous 99 000 sur l'exercice 2026, contre plus de 1,8 million par an sous Joe Biden, soit une baisse de 95 %, selon les douanes américaines. Simon Hankinson, de la Heritage Foundation, groupe de réflexion conservateur proche de Trump, juge qu'un revirement de la Cour serait « désastreux ». Selon lui, l'immense majorité des arrivants ne remplissent pas les critères, viennent chercher du travail et ont traversé le Mexique, pays tiers sûr où ils auraient pu demander l'asile."
+       },
+       {
+        "intertitre": "Trois batailles judiciaires",
+        "texte": "Outre l'interdiction, la Cour examinera en décembre les expulsions vers des pays tiers ayant accepté de statuer sur l'asile, même quand certains sont accusés de violations des droits humains et ne garantissent pas l'absence de renvoi vers le pays d'origine. Un troisième litige porte sur la détention illimitée de milliers de personnes visées par une expulsion. Le taux national de refus d'asile a atteint 94 % en juin, contre environ 50 % en 2024, selon TRAC, un projet de l'université de Syracuse. Lee Gelernt, de l'ACLU, l'une des organisations requérantes, estime que le président n'a pas le droit de passer outre les protections accordées par le Congrès."
+       },
+       {
+        "intertitre": "Le cas d'un Éthiopien",
+        "texte": "L'avocate Madhavi Narayanan, de Human Rights First, défend ZG, un trentenaire éthiopien arrivé par le Mexique en février 2025 après avoir été longuement torturé. Placé en détention, il a aussitôt demandé l'asile. Il appartient à un peuple autochtone impliqué dans un conflit armé en cours, et elle dit avoir produit documents et lettres à l'appui de ses dires. En temps normal, selon elle, son dossier aurait été très simple. Il a pourtant reçu ce mois-ci un ordre d'expulsion vers l'Ouganda, où il n'a jamais mis les pieds. Le juge aurait expliqué avoir les mains liées. Le gouvernement pousse les avocats de l'ICE, la police de l'immigration, à faire clore des demandes jugées incomplètes ou non étayées, ou à invoquer un pays tiers. Cette stratégie a permis au département de la Sécurité intérieure d'annuler des milliers de dossiers."
+       },
+       {
+        "intertitre": "Des tribunaux transformés",
+        "texte": "Près de 60 notes de politique ont été émises durant ce second mandat, contre 30 en quatre ans sous Biden. La première année, près de 40 % des juges de l'immigration ont été licenciés ou ont démissionné. Presque tous ont été remplacés par des « juges d'expulsion », selon le terme de l'administration, et plus de la moitié des juges ont désormais été nommés par Trump. Selon Geoffrey Heeren, professeur à l'université de l'Idaho, environ deux tiers des nouveaux viennent de la sécurité intérieure ou de la justice militaire, et onze seulement ont une expérience claire de la défense des immigrés. Jennifer Peyton, ancienne juge licenciée en juillet 2025, affirme que beaucoup connaissent mal le droit et ont appris des raccourcis privant les étrangers d'une procédure équitable."
+       }
+      ],
+      "synthese": "Les défenseurs des migrants espèrent que la Cour suprême, à majorité conservatrice, desserrera l'étau sur l'asile, dont les approbations sont au plus bas depuis des décennies. L'administration et ses soutiens défendent au contraire un dispositif qui a coïncidé avec une chute des passages à la frontière.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a46"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-28",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+      "auteur": "Mahmoud Sayed; Enes Abuomer",
+      "id": "a79",
+      "titre": "L’Italie affirme que le drone de l’attaque meurtrière au Koweït a été fabriqué en Iran",
+      "texte": "Le ministre italien des Affaires étrangères, Antonio Tajani, affirme que le drone responsable de la frappe meurtrière au Koweït a été fabriqué en Iran."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-28",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/israel-kills-two-msf-staff-in-targeted-strike-on-gaza-clinic?traffic_source=rss",
+      "auteur": "",
+      "id": "a76",
+      "titre": "Une frappe israélienne sur une clinique de MSF à Gaza tue deux gardiens",
+      "texte": "Une frappe israélienne a visé une clinique gérée par Médecins sans frontières (MSF) à Gaza. Elle a tué deux gardiens."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-27",
+      "url": "https://www.scmp.com/news/china/military/article/3376007/china-cambodia-drills-type-071-warship-offloads-tanks-overseas-first-time",
+      "auteur": "",
+      "id": "a69",
+      "titre": "Chine-Cambodge : des chars débarqués par un navire de transport amphibie, une première",
+      "texte": "Pour la première fois, la Chine a envoyé ses chars de bataille par un navire de transport amphibie vers l'Asie du Sud-Est, pour un exercice conjoint de 15 jours avec le Cambodge, commencé mercredi à Ream."
+     }
+    ]
+   },
+   {
+    "id": "recherche",
+    "titre": "Recherche & travaux d'experts",
+    "developpes": [
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w36045#fromrss",
+      "auteur": "Myra Mohnen; Joshua S Gans",
+      "titre": "Avec AlphaFold2, la recherche creuse le connu plus qu'elle n'explore",
+      "chapo": "En biologie structurale, les prédictions les plus sûres de l'IA AlphaFold2 s'accompagnent d'un déplacement des expériences vers des protéines déjà étudiées.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "Face à l'IA, les scientifiques peuvent repousser la frontière du savoir ou approfondir des questions déjà étudiées. Comme la science est cumulative, ce choix compte. Les auteurs l'examinent en biologie structurale, où l'on détermine la forme en trois dimensions des protéines, clé de leur fonction et de la recherche sur les médicaments. Sorti en 2021, AlphaFold2 (AF2), de DeepMind, prédit la structure de presque toutes les protéines connues, avec une confiance inégale. Il n'exige plus de protéine apparentée déjà résolue : les expériences auraient donc pu gagner les terres inexplorées. Or la plupart des travaux sur l'IA en science s'intéressent à la vitesse des découvertes, non au choix des sujets."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "C'est l'inverse qui apparaît. En passant du quart des protéines les moins bien prédites au quart les mieux prédites, la probabilité annuelle d'une première expérience, pour une protéine éloignée de toute structure connue, baisse d'environ 0,16 point, près de la moitié du taux initial (0,35 %). Les expériences livrant la première structure d'un groupe de protéines similaires reculent de 24 %. À l'inverse, les expériences de suivi montent de 19 %, dont 26 % pour les complexes (la protéine liée à un partenaire) et 11 % pour les améliorations de structures. Le total augmente de 13 %. La hausse proportionnelle des suivis est la plus forte là où l'industrie participe. Les laboratoires universitaires, principaux auteurs des suivis, n'en changent pas significativement le nombre en moyenne, ni leur total d'expériences, mais leurs premières expériences reculent. La hausse des essais est la plus marquée pour les protéines entourées de structures connues."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "L'étude suit 530 471 protéines de 2017 à 2025, reliées aux expériences de la Protein Data Bank, archive publique des structures. Chacune est située sur un arbre évolutif par rapport aux structures connues. La confiance d'AF2 est mesurée par la part des acides aminés prédits avec assurance. Une méthode de différences de différences compare l'évolution après 2021 selon cette part. Des tests placebo ne montrent pas de réaction comparable pour le total ni les suivis. Elle classe chaque expérience selon ce qu'elle révèle : structure inédite, première d'un groupe, petite molécule liée, complexe ou structure améliorée."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Un modèle théorique oppose deux forces. La substitution : la prédiction réduit la valeur d'une expérience qui établirait la structure. La complémentarité : elle abaisse le coût des expériences, dont celles qui s'appuient sur cette structure. Pour déterminer une structure, la perte l'emporte sur l'économie ; étudier le fonctionnement profite seulement du second effet. Enjeu supplémentaire : les futurs modèles d'IA apprennent aussi des expériences que les chercheurs choisissent pour leurs propres travaux. Or celles qui étendraient ces modèles à des protéines inexplorées sont précisément celles qui ont reculé, relativement, là où AF2 est le plus sûr. Une prédiction assez sûre pour être utilisée seule rend en outre la structure exploitable sans expérience, tandis qu'une prédiction moins sûre peut rendre une première expérience plus intéressante, loin de toute structure connue."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "Les auteurs précisent que leurs estimations mesurent des écarts de réaction entre protéines, et non un effet commun d'AF2 sur toutes. La confiance du modèle n'est pas répartie au hasard : les protéines mal prédites tendent à être plus longues, situées dans les membranes et mieux étudiées, et auraient pu évoluer différemment pour d'autres raisons. Des effets fixes et des tendances propres aux caractéristiques antérieures servent à en tenir compte. Les auteurs notent aussi que les prédictions utilisées ne couvrent que la forme de base d'une protéine isolée, alors qu'une expérience peut en révéler davantage."
+       }
+      ],
+      "synthese": "Là où AlphaFold2 est le plus sûr de lui, les premières expériences reculent tandis que les suivis, plus nombreux, font monter le total. L'IA approfondit ainsi le savoir existant davantage qu'elle ne l'étend.",
+      "republication": "",
+      "reference": "Myra Mohnen (Université d'Ottawa) et Joshua S. Gans (Université de Toronto, Rotman School of Management, et NBER), « How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2 », NBER Working Paper n° 36045, novembre 2026 ; document de travail non relu par des pairs.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a93"
+     },
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w36042#fromrss",
+      "auteur": "Paul D Jacobs; Timothy J Layton",
+      "titre": "Medicare Advantage : les inscriptions suivent les subventions aux assureurs",
+      "chapo": "Deux chercheurs mesurent combien d'Américains rejoignent les assurances privées de Medicare quand l'État relève ou abaisse son paiement maximal par assuré.",
+      "sections": [
+       {
+        "intertitre": "La question",
+        "texte": "Aux Etats-Unis, les bénéficiaires de Medicare choisissent entre le régime public et des plans privés, dits Medicare Advantage (MA). L'Etat fixe par comté un « benchmark », paiement maximal par assuré, qui agit comme un bon d'achat. La part de MA est passée de 19 % en 2007 à 55 % en 2026, et ces plans représentaient 462 milliards de dollars, soit 54 % des dépenses fédérales de Medicare, en 2024. Pourtant, on sait très peu si la générosité des paiements a porté cet essor, ce qui complique le chiffrage des réformes. Rien ne garantit en outre que les assurés réagissent : ils changent peu de plan, le marché est très concentré et les assureurs pourraient capter l'essentiel du surplus. Or cette sensibilité détermine le nombre de personnes qui basculent et le coût budgétaire net de toute modification."
+       },
+       {
+        "intertitre": "Les conclusions",
+        "texte": "Une hausse de 1 % du benchmark accroît les inscriptions en MA d'environ un demi-point au bout de trois ans, soit une élasticité d'environ 2 (2,1 dans la spécification privilégiée, intervalle de confiance à 95 % d'environ 1,6 à 2,6). Les effets sont à peu près symétriques à la hausse et à la baisse. Les rabais, qui financent des prestations supplémentaires, varient d'environ 5,50 dollars par mois et par assuré, surtout quand le benchmark monte. Le nombre de plans évolue d'environ deux, principalement par des retraits quand il baisse. Pour 100 dollars mensuels de plus par assuré, la part de MA gagne 5,9 points. La réaction est plus forte dans les comtés où le choc est le plus marqué : 1,7 point en moyenne contre 0,6 pour les hausses, et -2,1 contre -1,3 pour les baisses. Elle reste globalement semblable quelle que soit la concentration du marché. L'effet sur les primes mensuelles reste en revanche faible et imprécis."
+       },
+       {
+        "intertitre": "La méthode",
+        "texte": "Chaque année, les comtés sont classés en quartiles selon la dépense publique prévue par assuré ; le benchmark va de 115 % de celle-ci dans le quartile le moins coûteux à 95 % dans le plus coûteux. Un comté qui franchit un seuil subit un choc de paiement sans lien avec la demande locale. Les auteurs comparent ces comtés à ceux restés dans leur quartile : sur 2 370 comtés suivis de 2015 à 2019, 1 115 ont franchi un seuil. Des tests placebo ne montrent aucune réaction des inscriptions. Ces changements durent : 86,7 % des comtés franchissant un seuil après 2015 restent de l'autre côté au moins trois ans. L'étude emploie des différences de différences et des études d'événement, avec des contrôles, dont la dépense par assuré, le nombre de médecins et de lits ou le revenu médian. D'autres tests confirment les résultats."
+       },
+       {
+        "intertitre": "Ce que ça implique",
+        "texte": "Les auteurs simulent des benchmarks ramenés à 95 % de la dépense publique locale, sans bonus de qualité, contre 107 % en moyenne en 2019. Les inscriptions en MA reculeraient de 6,1 points, environ un quart, à partir d'une moyenne de 26,1 % dans l'échantillon : une contraction réelle, mais pas la disparition du programme. Selon eux, une partie du surplus des paiements revient aux nouveaux inscrits, et les coupes ne sont pas un « repas gratuit » : il faudra comparer les économies aux pertes subies par les assurés. Elles pourraient aussi passer par des retraits de plans, effet sans doute modeste, chaque bénéficiaire ayant accès à environ 32 plans en 2026. Ces résultats se distinguent d'études récentes qui ne trouvaient guère de réaction."
+       },
+       {
+        "intertitre": "Les limites",
+        "texte": "La réaction des offres des assureurs, d'environ 3 à 4 dollars après une hausse, est moins robuste que les résultats sur les rabais et les inscriptions : elle s'atténue ou n'est plus significative dans certaines spécifications. Pour les comtés en baisse, l'effet selon l'ampleur du choc ne peut être entièrement séparé des différences de croissance des dépenses publiques. Certaines estimations sur ces offres sont imprécises, avec des intervalles de confiance incluant zéro."
+       }
+      ],
+      "synthese": "Les inscriptions en Medicare Advantage réagissent nettement au benchmark, avec une élasticité d'environ 2. Réduire les paiements ferait donc reculer ces plans privés, au prix, selon les auteurs, d'une perte pour les assurés.",
+      "republication": "",
+      "reference": "Paul D. Jacobs (Johns Hopkins Bloomberg School of Public Health) et Timothy J. Layton (University of Virginia et NBER), « The Effects of Private Plan Subsidies on Enrollment: Evidence from Medicare Advantage », NBER Working Paper n° 36042, novembre 2026 ; document de travail non relu par des pairs.",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a92"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Économie",
+      "source": "BCE (documents de travail)",
+      "date": "2026-11-27",
+      "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3313~bef94fc3fa.en.pdf",
+      "auteur": "",
+      "id": "a91",
+      "titre": "Un cadre unifiant contrôles synthétiques et modèles DSGE",
+      "texte": "Un document de travail de la BCE intègre les contrôles synthétiques à un modèle DSGE micro-fondé. Il relie l'effet causal estimé aux mécanismes économiques et permet d'analyser des politiques."
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-27",
+      "url": "https://verfassungsblog.de/gambia-v-myanmar-responsibility/",
+      "auteur": "",
+      "id": "a98",
+      "titre": "CIJ : réparations ordonnées à la Birmanie pour les Rohingyas",
+      "texte": "Selon une analyse publiée sur le Verfassungsblog, les réparations ordonnées par la CIJ dépendent d'acteurs bien au-delà de l'État birman, car une partie du territoire lui échappe désormais."
+     },
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w36048#fromrss",
+      "auteur": "",
+      "id": "a95",
+      "titre": "Alignement de l'IA : les choix révélés du principal suffisent-ils ?",
+      "texte": "Gans et Holden, dans un document de travail du NBER, proposent un critère pour savoir quand les décisions d'un principal suffisent à guider une IA. Une capacité accrue peut toutefois transformer l'erreur en actions incorrectes."
+     }
+    ]
+   },
+   {
+    "id": "veille",
+    "titre": "Veille réglementaire",
+    "developpes": [
+     {
+      "rubrique": "CSRD et CSDDD",
+      "source": "Daf-Mag.fr",
+      "date": "2026-11-27",
+      "url": "https://www.daf-mag.fr/finance-durable-1342/csrd-les-nouvelles-normes-esrs-simplifiees-entrent-en-vigueur-avec-moins-de-donnees-obligatoires-28405",
+      "auteur": "Christina DIEGO",
+      "titre": "CSRD : les normes ESRS simplifiées allègent les données obligatoires",
+      "chapo": "Entrées en vigueur le 10 novembre 2026, les nouvelles normes européennes de reporting de durabilité réduisent les obligations et obligent les directions financières à revoir leurs méthodes.",
+      "sections": [
+       {
+        "intertitre": "Ce qui change",
+        "texte": "Publiées fin septembre 2026, les normes ESRS révisées, dites « Set 2 », remplacent progressivement le « Set 1 » adopté en juillet 2023. Elles réduisent de près de 60 % le nombre de points de données obligatoires, allègent les exigences d’application et clarifient plusieurs dispositions. Elles regroupent certaines obligations de publication, suppriment les doublons et les données volontaires et raccourcissent les instructions d’application. L’état de durabilité gagne en souplesse : annexes et résumé exécutif sont admis, et l’on peut, sous conditions, s’écarter des quatre chapitres habituels (informations générales, environnement, social, gouvernance). La présentation fidèle devient le principe directeur de sa préparation, afin de mieux tenir compte des caractéristiques propres à chaque entreprise et de la matérialité des informations publiées."
+       },
+       {
+        "intertitre": "Le contexte",
+        "texte": "La révision relève du paquet Omnibus, présenté par la Commission européenne début 2025 pour alléger le reporting imposé par la directive CSRD du 14 décembre 2022. Après un ajustement ciblé, le « Quick-fix », adopté en juillet 2025, la directive Omnibus I de février 2026 a prévu de réduire le champ d’application de la CSRD. Les nouvelles normes forment le troisième volet de cette simplification. Les fondamentaux demeurent : les entreprises doivent toujours fournir les informations nécessaires pour comprendre leurs impacts, risques et opportunités (IRO), selon la double matérialité. L’analyse de matérialité, la stratégie, la gouvernance, les politiques, les actions, les objectifs et indicateurs restent au cœur du reporting."
+       },
+       {
+        "intertitre": "Proportionnalité et matérialité",
+        "texte": "Plusieurs mécanismes adaptent les obligations aux capacités et à la situation des entreprises. Un principe général autorise le recours aux informations disponibles sans coût ou effort excessif, pour les indicateurs, la chaîne de valeur et l’analyse de matérialité. Les entreprises peuvent notamment exclure certaines cessions et acquisitions récentes, publier des indicateurs sur un périmètre partiel ou écarter des activités sans IRO matériels. Les données à collecter sur la chaîne de valeur sont limitées, les mesures transitoires renforcées (effets financiers attendus, substances préoccupantes) et l’omission d’informations sensibles élargie. Une approche descendante, « top-down », dispense d’analyser en détail chaque IRO. La matérialité de l’information s’applique désormais à toutes les normes, y compris ESRS 2."
+       },
+       {
+        "intertitre": "Les volets ESG et l’ISSB",
+        "texte": "La norme climat ESRS E1 est surtout clarifiée : périmètre des émissions de gaz à effet de serre, contenu minimal du plan de transition, déclaration de compatibilité avec une trajectoire de 1,5 °C. Pour la biodiversité (ESRS E4), une entreprise doit publier son plan de transition si elle en a déjà rendu un public, et les indicateurs sont plus souples. Le volet social révise le périmètre de certains indicateurs, dont les incidents liés aux droits humains et le salaire décent. La norme de gouvernance change d’architecture et simplifie les pratiques de paiement. L’interopérabilité avec les standards internationaux de l’ISSB progresse (terminologie, présentation fidèle, certaines obligations d’ESRS E1), malgré des divergences sur le coût ou l’effort raisonnable et sur les acquisitions et cessions récentes."
+       },
+       {
+        "intertitre": "Le calendrier",
+        "texte": "Les normes simplifiées sont applicables volontairement dès l’exercice 2026, pour les états de durabilité publiés en 2027. Elles deviendront obligatoires pour le premier exercice ouvert à compter du 1er janvier 2027, avec des publications à partir de 2028. Pour les directions financières, il faut revoir la collecte des données, l’analyse de matérialité et la préparation de l’état de durabilité."
+       }
+      ],
+      "synthese": "Les ESRS révisées réduisent fortement les données obligatoires et élargissent les allègements, sans remettre en cause la double matérialité. Facultatives pour l’exercice 2026, elles s’imposeront à partir de l’exercice 2027.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a132"
+     },
+     {
+      "rubrique": "RGPD",
+      "source": "CNIL",
+      "date": "2026-11-27",
+      "url": "https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil",
+      "auteur": "",
+      "titre": "IA dans les soins : la CNIL et la HAS publient un guide de bon usage",
+      "chapo": "La Haute Autorité de santé et la CNIL publient « IA en contexte de soins : accompagner le bon usage », un guide qui clarifie règles et bonnes pratiques pour les acteurs de la santé.",
+      "sections": [
+       {
+        "intertitre": "À qui il s'adresse",
+        "texte": "Le guide vise l'ensemble des déployeurs et utilisateurs de systèmes d'IA du secteur sanitaire, professionnels comme organisations. Il entend les accompagner vers un déploiement et un usage conformes, sûrs et responsables. Ces acteurs doivent en effet respecter le cadre réglementaire, notamment les droits fondamentaux des patients sur leurs données personnelles. Pour les deux institutions, ces systèmes doivent être mis au service de l'humain et répondre aux besoins réels des patients, des professionnels et des organisations de santé. Le cadre proposé s'adapte aux différents contextes d'exercice et niveaux de maturité. Avec cette publication, la HAS et la CNIL disent se mobiliser pour accompagner les acteurs de la santé en clarifiant les règles applicables et les bonnes pratiques à suivre."
+       },
+       {
+        "intertitre": "Ce qu'il contient",
+        "texte": "Issu d'un travail pluridisciplinaire et d'une consultation publique, le document clarifie les obligations légales et réglementaires, guide le déploiement des systèmes d'IA et favorise leur bon usage pour garantir la qualité et la sécurité des soins. Il aide aussi les établissements de santé dans leur certification, pour les critères liés à l'IA. Ses onze fiches couvrent tout le cycle de vie d'un système d'IA. Chacune comprend notamment une synthèse, une analyse du cadre légal et réglementaire et des principes à mettre en œuvre, dont certains sont signalés comme prioritaires."
+       },
+       {
+        "intertitre": "Le cadre commun",
+        "texte": "Le guide découle de la convention de partenariat conclue en mars 2026 entre la CNIL et la HAS. Il s'inscrit dans le projet stratégique 2025-2030 de la HAS, en particulier sa thématique « Numérique et IA en santé », et dans le plan stratégique 2025-2028 de la CNIL, notamment l'axe « Promouvoir une intelligence artificielle éthique et respectueuse des droits ». Reflet d'une position partagée, il doit permettre d'accompagner l'utilisation des systèmes d'IA dans le respect du droit et des bonnes pratiques."
+       }
+      ],
+      "synthese": "La CNIL et la HAS proposent en onze fiches un cadre commun pour déployer et utiliser l'IA dans les soins. Il vise à concilier respect du droit, protection des données des patients, qualité et sécurité des soins.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a99"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "LCB-FT",
+      "source": "Global Regulation Tomorrow",
+      "date": "2026-11-27",
+      "url": "https://www.regulationtomorrow.com/2026/11/amla-consults-on-draft-guidelines-on-outsourcing-reliance-on-cdd-performed-by-another-obliged-entity-and-other-third-party-arrangements/",
+      "auteur": "",
+      "id": "a127",
+      "titre": "AMLA : consultation sur la sous-traitance et le recours aux tiers en LCB-FT",
+      "texte": "L'autorité européenne de lutte contre le blanchiment (AMLA) soumet à consultation des projets de lignes directrices sur la sous-traitance, le recours à la vigilance client effectuée par un autre assujetti et d'autres dispositifs tiers."
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "Financial Times",
+      "date": "2026-11-27",
+      "url": "https://www.ft.com/content/a8ecccda-f986-4ae9-9f45-9470d2be8c65?syn-25a6b1a6=1",
+      "auteur": "",
+      "id": "a123",
+      "titre": "UE : contrôles d'exportation renforcés envisagés pour les déchets de batteries",
+      "texte": "L'Union européenne envisage des contrôles à l'exportation plus stricts pour empêcher que des déchets de batteries ne partent vers la Chine, selon le Financial Times."
+     }
+    ]
+   },
+   {
+    "id": "curiosites",
+    "titre": "Curiosités",
+    "developpes": [
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-27",
+      "url": "https://www.sciencesetavenir.fr/sciences/un-million-de-satellites-dans-l-espace-est-ce-possible_196586?xtor=RSS-18",
+      "auteur": "",
+      "titre": "SpaceX : un million de satellites en orbite, est-ce possible ?",
+      "chapo": "Les autorités américaines ont autorisé mercredi SpaceX à déployer un million de satellites pour des centres de données spatiaux, un projet qui soulève de nombreuses questions.",
+      "sections": [
+       {
+        "intertitre": "Un ciel déjà encombré",
+        "texte": "Depuis 2019, le nombre de satellites autour de la Terre a rapidement augmenté : plus de 16 000 aujourd’hui, dont 11 000 pour Starlink, la constellation de télécommunications de SpaceX. Avec le projet d’Elon Musk et tous ceux engagés aux États-Unis, en Russie ou en Chine, les trois principales puissances spatiales, « les prévisions se montent à 2,3 M de satellites à très brève échéance », selon Christophe Bonnal, de l’Académie de l’air et de l’espace."
+       },
+       {
+        "intertitre": "Un rythme à démultiplier",
+        "texte": "« Chaque fois qu’Elon Musk a lancé un projet, il a eu raison à la fin, mais jamais dans les temps », rappelle Christophe Bonnal. SpaceX met en orbite tous les trois jours en moyenne et a ajouté près de 3 200 satellites à Starlink en 2025. Atteindre le million en 2040 exigerait plus de 70 000 envois par an. L’entreprise veut accélérer les tirs de Starship, son plus grand vaisseau, pour « au final en faire 30 par jour ». Mais les usines de méthane liquide ne suffisent pas à fournir ce carburant, et la nouvelle base de lancement nécessaire ne sera probablement pas opérationnelle avant 2029."
+       },
+       {
+        "intertitre": "Le risque de collision",
+        "texte": "Les satellites évolueront en orbite basse, entre 700 et 1 000 km, où « les débris sont là pour 1 000 ans ». « C’est jouer à l’apprenti sorcier », juge M. Bonnal. L’an dernier, le CNES a déclenché 28 millions de procédures d’alerte pour les 285 satellites dont il a la charge, soit une toutes les 20 secondes. SpaceX devrait donc renforcer son réseau de surveillance. Or les débris de moins de 10 cm ne sont pas repérés, alors qu’1 cm suffit à détruire un satellite, et toutes les constellations ne partagent pas leurs positions."
+       },
+       {
+        "intertitre": "Des cibles potentielles",
+        "texte": "L’espace est devenu un territoire où les enjeux de défense sont primordiaux, du contrôle des télécommunications au positionnement d’armes en orbite, et le rôle de Starlink est apparu lors du conflit en Ukraine. Étienne Marcuz, chercheur associé à la Fondation pour la recherche stratégique, rapproche le projet américain du programme russe Spoutnik-S, qui comporte un volet de détonations nucléaires dans l’espace permettant de détruire en masse satellites et centres de données. Ce programme montre, dit-il, que la Russie travaille sur de multiples moyens de neutraliser des objets dans l’espace. Selon lui, les Russes savent que les États-Unis dépendront de plus en plus d’infrastructures spatiales cruciales (économie, finance, santé) : une part non négligeable du potentiel économique américain se situera dans l’espace et sera une « cible tentante »."
+       },
+       {
+        "intertitre": "L’astronomie menacée",
+        "texte": "Dans une étude publiée début juillet dans Astronomy & Astrophysics, l’Observatoire européen austral (ESO) estime qu’au-delà de 100 000 satellites, l’observation du ciel serait affectée. Chaque passage laisse une traînée lumineuse qui masque ce qui se trouve derrière, explique son auteur, l’astronome Olivier Hainaut : au-delà d’un million, « on va vraiment avoir des problèmes ». Pour Andreas Kaufer, directeur général de l’ESO, le projet « transformerait fondamentalement le ciel nocturne » pour tous ; il réclame d’urgence des mécanismes internationaux d’évaluation."
+       }
+      ],
+      "synthese": "Le projet de SpaceX supposerait une cadence de lancement sans commune mesure avec l’actuelle. Il pose aussi des questions de débris, de vulnérabilité militaire et d’observation du ciel.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a140"
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-27",
+      "url": "https://www.sciencesetavenir.fr/espace/dimorphos-apres-le-choc-les-images-qui-surprennent-les-scientifiques_196590?xtor=RSS-9",
+      "auteur": "",
+      "titre": "Astéroïde percuté par la Nasa : les premières images d’Hera surprennent",
+      "chapo": "Après deux ans de voyage, la sonde Hera a rejoint Dimorphos, astéroïde dévié lors d’un test de défense planétaire, et ses premières images, dévoilées mercredi par l’ESA, réservent des surprises.",
+      "sections": [
+       {
+        "intertitre": "Retour sur le test",
+        "texte": "Il y a quatre ans, le vaisseau DART de la Nasa s’est délibérément écrasé sur Dimorphos, un corps de 160 mètres de diamètre, lune d’un astéroïde plus grand, Didymos. Situé à 11 millions de kilomètres de la Terre, il ne présentait aucun danger. Il s’agissait de savoir si l’on pouvait dévier un tel objet, au cas où l’un d’eux menacerait la planète. L’orbite de Dimorphos a été réduite de 33 minutes. Pour comprendre ce qui s’est passé et valider les modèles d’impact, il fallait y retourner : c’est la mission d’Hera, lancée en octobre 2024 et arrivée il y a trois semaines à une trentaine de kilomètres."
+       },
+       {
+        "intertitre": "Un cratère et une déformation",
+        "texte": "« La première fois que j’ai vu les images, j’ai fait “waouh !” », raconte à l’AFP Patrick Michel, chercheur de la mission. Sur un cliché, l’impact semble avoir aplati un côté de Dimorphos, laissant un cratère aussi large que toute la face touchée, avec des structures inhabituelles à l’intérieur, dont une en forme de cigare. La structure interne, roche solide ou amas de débris, reste inconnue. Les scientifiques attendaient soit un cratère, soit une déformation. « En fait, c’est les deux. On ne comprend pas encore bien comment c’est possible », indique-t-il, évoquant un « scénario pas du tout prévu »."
+       },
+       {
+        "intertitre": "Un mouvement devenu chaotique",
+        "texte": "L’orbite n’est pas seule à avoir changé : la dynamique aussi. Avant l’impact, Dimorphos montrait toujours la même face à Didymos, comme notre Lune, et se comportait de façon assez régulière. « Maintenant, il est très chaotique », tel un « tonneau que vous lancez dans un escalier et qui se déplace dans tous les sens », décrit Sabina Raducan, planétologue à l’Institut international des sciences spatiales (ISSI, Berne). Naomi Murdoch, planétologue à l’ISAE-SUPAERO (Toulouse), résume : « nous avons changé l’apparence de Dimorphos, nous avons changé la façon dont il se déplace », et observé pour la première fois dans ce système une multitude de nouveaux compagnons inattendus."
+       },
+       {
+        "intertitre": "Des blocs inattendus",
+        "texte": "Des centaines de blocs rocheux, de la taille d’un ballon de football à celle d’une machine à laver, se déplacent autour des deux astéroïdes. On ignore encore s’ils résultent de l’impact. Leur présence est un « cauchemar » pour les ingénieurs, témoigne Margherita Cardi, cheffe de projet du nanosatellite Milani chez Tyvak International. Les équipes au sol pourront ajuster son orbite ou sa trajectoire, mais Milani ne saura pas détecter et éviter seul un bloc."
+       },
+       {
+        "intertitre": "La suite : deux nanosatellites",
+        "texte": "Milani et un autre CubeSat, Juventas, doivent normalement être déployés en janvier pour orbiter autour de Dimorphos, quand Hera s’en sera approchée à entre 20 et 10 km. Pendant six mois, ils doivent fournir des données cruciales. Juventas, censé atterrir sur l’astéroïde, emporte un radar basse fréquence pour sonder sa structure interne et des instruments mesurant son très faible champ de gravité. Milani étudiera sa composition avec une caméra multispectrale et un détecteur de poussières. « C’est une aventure à la Indiana Jones, mais en mieux ! », conclut Patrick Michel, car « c’est la réalité et que le scénario est de moins en moins écrit à l’avance »."
+       }
+      ],
+      "synthese": "L’impact de DART a modifié la forme et le mouvement de Dimorphos au-delà de ce qu’attendaient les scientifiques. Les deux nanosatellites d’Hera doivent désormais aider à comprendre ce qui s’est produit.",
+      "republication": "",
+      "reference": "",
+      "sources_complementaires": [],
+      "format": "long",
+      "id": "a141"
+     }
+    ],
+    "breves": [
+     {
+      "rubrique": "Idées",
+      "source": "The Conversation",
+      "date": "2026-11-27",
+      "url": "https://theconversation.com/comment-une-astuce-utilisee-en-marketing-incite-les-rats-a-entrer-dans-les-pieges-297752",
+      "auteur": "",
+      "id": "a145",
+      "titre": "Rats : un appât inaccessible augmente de 83 % les entrées",
+      "texte": "En Australie, un appât placé hors d'atteinte devant un tunnel a accru de 83 % les entrées de rats noirs. Cet effet de « leurre fantôme », emprunté au marketing, pourrait améliorer la dératisation à faible coût."
+     },
+     {
+      "rubrique": "Idées",
+      "source": "The Conversation",
+      "date": "2026-11-27",
+      "url": "https://theconversation.com/fausses-images-scientifiques-et-ia-quand-la-mefiance-gagne-jusquaux-revues-academiques-297662",
+      "auteur": "",
+      "id": "a149",
+      "titre": "Fausses images scientifiques : l'IA met à l'épreuve les revues académiques",
+      "texte": "En 2024, deux études ont été rétractées pour des figures générées par intelligence artificielle, avant un nouveau cas en avril 2026. Les détecteurs peinent à suivre les générateurs."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-27",
+      "url": "https://www.sciencesetavenir.fr/nutrition/un-yaourt-perime-une-limace-dans-la-salade-l-ia-affole-les-francais-et-sature-les-centres-antipoison_196588?xtor=RSS-28",
+      "auteur": "",
+      "id": "a143",
+      "titre": "L'IA submerge les centres antipoison français",
+      "texte": "Depuis l'été, les centres antipoison français sont submergés d'appels provoqués par des réponses parfois alarmistes de l'intelligence artificielle. Les équipes sont épuisées."
+     },
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-27",
+      "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+      "auteur": "",
+      "id": "a153",
+      "titre": "Cultures spatiales : une expérience de la NASA vers l'ISS",
+      "texte": "La 25e mission commerciale de ravitaillement de Northrop Grumman emportera vers la Station spatiale internationale un système inédit de production de cultures spatiales, dans le cadre d'expériences de la NASA."
+     }
+    ]
+   }
+  ],
+  "titres_blocs": {
+   "ia": "IA",
+   "france": "Actualité France",
+   "monde": "Actualité Monde",
+   "recherche": "Recherche & travaux d'experts",
+   "veille": "Veille réglementaire",
+   "curiosites": "Curiosités"
+  },
+  "pages": 0,
+  "sequence": [
+   {
+    "type": "breves",
+    "bloc": "ia",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-27",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "auteur": "Matthias Bastian",
+      "id": "a1",
+      "titre": "OpenAI poursuit Apple pour vol de secrets industriels et pressions sur ses fournisseurs",
+      "texte": "OpenAI attaque Apple devant un tribunal de Californie, l’accusant de vol de secrets industriels et de contraindre des fournisseurs communs. Cette contre-attaque fait suite à la plainte déposée par Apple à l’été précédent. Les deux groupes avaient uni leurs efforts il y a deux ans pour intégrer ChatGPT à l’iPhone, alors qu’OpenAI développe désormais ses propres appareils pour concurrencer Apple."
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-27",
+      "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+      "auteur": "Maximilian Schreiner",
+      "id": "a7",
+      "titre": "SAP prévoit de supprimer au moins 10 000 postes dans sa réorientation vers l’IA",
+      "texte": "Le groupe SAP se prépare à supprimer au moins 10 000 postes dans le cadre d’une vaste restructuration liée à l’intelligence artificielle, selon Bloomberg qui cite des personnes proches du dossier."
+     },
+     {
+      "rubrique": "IA",
+      "source": "The Decoder",
+      "date": "2026-11-27",
+      "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+      "auteur": "",
+      "id": "a3",
+      "titre": "Trois études de Meta et d'AMI Labs soutiennent le pari de LeCun sur JEPA",
+      "texte": "Trois études de Meta et d'AMI Labs illustrent les progrès de l'architecture JEPA, qui vise à doter les machines d'un modèle interne du monde. Elles portent sur la planification robotique, un entraînement plus efficace et la correction d'erreurs, mais les briques restent à assembler."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "Le Monde",
+     "date": "2026-11-27",
+     "url": "https://www.lemonde.fr/politique/article/2026/11/27/l-agence-s-p-menace-de-degrader-encore-la-note-de-la-france-entree-en-recession_6815934_823448.html",
+     "auteur": "Denis Cosnard",
+     "titre": "S&P menace d'abaisser la note de la France, désormais en récession",
+     "chapo": "L'agence S&P Global Ratings a maintenu vendredi 27 novembre la note A+ de la France, mais a fait passer sa perspective de « stable » à « négative ».",
+     "sections": [
+      {
+       "intertitre": "La décision",
+       "texte": "S&P Global Ratings, présentée par Le Monde comme la principale agence mondiale de notation, évalue la capacité des entreprises et des pays à rembourser leurs emprunts. Elle conserve pour l'instant à la dette française la note A+, qui correspond à une qualité « moyenne supérieure », soit l'équivalent d'un 15,5 sur 20 pour une copie scolaire. La perspective devient toutefois négative, ce qui ouvre la voie à une dégradation si la situation ne s'améliore pas. Le prochain examen par l'agence doit en principe avoir lieu dans quelques mois. En mai, S&P avait maintenu cette même note avec une perspective stable. Selon franceinfo, la menace s'explique par les difficultés du pays à réduire son déficit, ainsi que par des perspectives de croissance en berne."
+      },
+      {
+       "intertitre": "Une journée noire",
+       "texte": "Pour Le Monde, ce 27 novembre, jour du « Black Friday », a été un vendredi très noir : récession, déficit accru et inquiétude sur la dette se sont accumulés, signe que le pays s'enfonce dans la crise au lieu de se redresser comme l'espérait le gouvernement. La croissance est loin des attentes : en octobre 2025, S&P tablait sur 1 % pour 2026. Ce scénario est désormais totalement hors d'atteinte selon franceinfo, le produit intérieur brut ayant reculé de 0,2 % au premier trimestre, stagné au deuxième, puis de nouveau reculé de 0,1 % au troisième."
+      },
+      {
+       "intertitre": "Une triple menace",
+       "texte": "La France se trouve désormais confrontée à une triple menace, venue des trois grandes agences. Moody's et Fitch, les deux concurrentes de S&P, avaient déjà assorti d'une perspective négative les notes qu'elles attribuent à la dette française. La décision de S&P intervient alors que les députés sont en plein débat budgétaire. Le ministre de l'Economie, Roland Lescure, a « pris acte » de cette évaluation. Elle vient selon lui « souligner l'absolue nécessité de doter le pays dans les meilleurs délais d'un budget responsable, qui redresse nos finances publiques en ramenant le déficit à 5 % au plus ». Le résultat de l'examen de S&P était très attendu."
+      },
+      {
+       "intertitre": "Des pronostics partagés",
+       "texte": "Avant l'annonce, les économistes ne s'accordaient pas sur le verdict à attendre : certains prédisaient un abaissement de la note. Eric Dor, directeur des études économiques à l'école de commerce Ieseg, jugeait que S&P disposait « des arguments pour » abaisser la note. Anthony Morlet-Lavidalie, de Rexecode, interrogé par l'AFP, estimait au contraire « assez violent » un recul d'un cran : le plus logique était à ses yeux un simple abaissement de la perspective, voire un statu quo en attendant de voir si le Parlement adopte un budget 2027. Stéphane Colliac, de BNP Paribas, rappelait que l'agence n'avait pas l'obligation de dégrader la note dès maintenant, la situation budgétaire restant « plus incertaine que négative »."
+      }
+     ],
+     "synthese": "S&P laisse la note française à A+ mais envisage de l'abaisser, sur fond de récession et de difficultés à réduire le déficit. Les trois grandes agences assortissent désormais leur note d'une perspective négative, tandis que les députés débattent encore du budget et que le gouvernement appelle à l'adopter au plus vite.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [
+      {
+       "source": "franceinfo",
+       "url": "https://www.franceinfo.fr/economie/budget/l-agende-de-notation-standard-poor-s-menace-de-degrader-prochainement-la-note-de-la-france_8302788.html#xtor=RSS-3-[lestitres]"
+      }
+     ],
+     "format": "long",
+     "id": "a9"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "Public Sénat",
+     "date": "2026-11-27",
+     "url": "https://www.publicsenat.fr/actualites/parlementaire/budget-2027-apres-quelques-couacs-le-senat-sapprete-a-revoter-sur-la-fiscalisation-des-ald-et-la-suppression-de-la-demi-part-fiscale-des-meres-celibataires",
+     "auteur": "Romain David",
+     "titre": "Budget 2027 : le Sénat va revoter sur les ALD et les mères célibataires",
+     "chapo": "Les Républicains demandent une seconde délibération sur deux mesures polémiques adoptées au Sénat : la taxation des indemnités liées à une ALD et la fin d’une demi-part pour des mères seules.",
+     "sections": [
+      {
+       "intertitre": "Un nouveau vote attendu",
+       "texte": "Les sénateurs prolongent ce week-end l’examen de la première partie du budget 2027. La Chambre haute, qui débat depuis une semaine du volet « recettes » du projet de loi de finances (PLF), devrait achever la discussion en séance publique dimanche. Avant de voter sur cette partie, elle doit se prononcer à nouveau sur deux dispositions adoptées cette semaine avec l’article 2. Le groupe Les Républicains (LR) estime qu’en l’état, elles « impacteraient injustement deux catégories de personnes en situation de fragilité ». L’article 43 du règlement permet de remettre aux voix certains articles avant le vote d’ensemble, si le gouvernement ou la commission saisie le demande ou l’accepte. Par ailleurs, jeudi 26 novembre au soir, le Sénat a voté une baisse de TVA pour l’acquisition de logements dans le dispositif gouvernemental de relance de l’investissement locatif et de la construction."
+      },
+      {
+       "intertitre": "Les deux mesures en cause",
+       "texte": "Mercredi, à l’initiative de la rapporteure générale du budget, la sénatrice LR Christine Lavarde, le Sénat a voté la taxation totale des indemnités liées à une affection de longue durée, quand le gouvernement voulait en imposer la moitié. Lundi, toujours sur sa proposition, il a supprimé la demi-part de quotient accordée à vie aux mères ayant élevé seules un ou plusieurs enfants pendant au moins cinq ans, une disposition créée en 1945 pour soutenir les veuves de guerre."
+      },
+      {
+       "intertitre": "La disette budgétaire",
+       "texte": "La majorité de droite et du centre a adopté ces mesures contre l’avis du gouvernement, dans un contexte de forte disette budgétaire. En début de semaine, le Premier ministre a demandé par courrier aux parlementaires de dégager six milliards d’euros d’économies supplémentaires, en plus des 43 milliards déjà prévus dans le projet initial, en raison de la révision à la baisse des prévisions de croissance pour l’an prochain."
+      },
+      {
+       "intertitre": "Critiques et divisions",
+       "texte": "« Les LR se sont rendu compte qu’ils ont fait une bêtise. Les gens concernés sont montés au créneau », juge le sénateur Les Indépendants Emmanuel Capus, proche d’Édouard Philippe, qui avait dit en séance ces mesures « disproportionnées et néfastes ». Il réclame notamment la défiscalisation totale des ALD, plaide pour un regard « humain plutôt que budgétaire » et refuse des « augmentations déguisées d’impôts ». Selon lui, la rapporteure cherche à supprimer les dispositions dérogatoires « parfois sans distinction », alors que ces niches compensent souvent certaines situations. À gauche, le tollé est vif : le président du groupe socialiste, Patrick Kanner, a qualifié de « dégueulasse » l’amendement sur les ALD et raillé sur X « la cacophonie » de la majorité sénatoriale, puisque les LR réclament un nouveau vote sur des articles qu’ils ont adoptés, modifiés par une rapporteure issue de la droite."
+      }
+     ],
+     "synthese": "Le Sénat doit revoter sur deux mesures fiscales contestées avant de se prononcer sur le volet recettes du budget. Elles avaient été adoptées sous la pression des économies à trouver et ont suscité des critiques à gauche comme chez Les Indépendants.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a33"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "france",
+    "taille": 2,
+    "article": {
+     "rubrique": "France",
+     "source": "Public Sénat",
+     "date": "2026-11-27",
+     "url": "https://www.publicsenat.fr/actualites/societe/la-proposition-de-loi-mettant-fin-au-devoir-conjugal-en-passe-detre-definitivement-adoptee-par-le-parlement",
+     "auteur": "",
+     "titre": "Devoir conjugal : la loi qui y met fin proche de l'adoption définitive",
+     "chapo": "Députés et sénateurs se sont accordés en commission mixte paritaire sur la proposition de loi abrogeant le devoir conjugal, qui doit encore être votée par les deux chambres.",
+     "sections": [
+      {
+       "intertitre": "Un devoir absent de la loi",
+       "texte": "Le Code civil établit clairement quatre devoirs liés au mariage : le secours, la fidélité, l'assistance et la communauté de vie. Le devoir conjugal n'y figure pas. Mais la rédaction de l'article 242, sur les motifs de divorce pour faute, a pu conduire la jurisprudence à considérer que la communauté de vie impliquait une forme de devoir conjugal. Une femme de 69 ans a ainsi été jugée fautive dans son divorce pour avoir refusé des rapports sexuels à son mari, la justice retenant une « violation grave et renouvelée des devoirs du mariage ». En 2025, ce devoir était encore au cœur d'une quinzaine d'arrêts d'appel."
+      },
+      {
+       "intertitre": "La condamnation européenne",
+       "texte": "La même année, la Cour européenne des droits de l'homme (CEDH) a sanctionné la France pour ce motif, lui imposant d'abandonner cette jurisprudence. Après cette condamnation, Marie-Charlotte Garin, députée écologiste, avait estimé anormal « que le mariage soit le dernier lieu dans lequel le consentement n'aurait pas sa place ». La proposition de loi est portée à l'Assemblée nationale par les députés Marie-Charlotte Garin (Écologistes) et Paul Christophe (Horizons), avec le soutien du gouvernement. En avril, Aurore Bergé, ministre déléguée à l'égalité entre les femmes et les hommes, jugeait qu'il fallait « mettre en cohérence » le droit français avec la décision européenne."
+      },
+      {
+       "intertitre": "Le désaccord entre les chambres",
+       "texte": "Le 9 avril, le Sénat a adopté le texte à l'unanimité, par 209 voix pour et 2 contre, après de longues discussions sémantiques. Il avait modifié la rédaction de l'article 1er venue de l'Assemblée et supprimé l'article 2. Celui-ci disposait que le divorce « ne peut être fondé sur l'absence ou le refus de relations sexuelles », ce que les sénateurs jugeaient redondant avec l'objet même du texte. Le rapporteur au Sénat, Jean-Baptiste Blanc (Les Républicains), n'y voyait « pas d'utilité juridique »."
+      },
+      {
+       "intertitre": "Le compromis et le calendrier",
+       "texte": "La commission mixte paritaire, réunissant sept représentants de chaque chambre, a trouvé un accord unanime : l'article 1er est conservé dans la version initiale votée par l'Assemblée, et l'article 2 est supprimé, comme le souhaitait le Sénat. « Même dans le mariage, le consentement n'est jamais acquis », a rappelé la rapporteure Marie-Charlotte Garin. L'accord doit désormais être validé par le Parlement. Le texte prolonge l'intégration du non-consentement dans la définition pénale du viol et des agressions sexuelles, que la députée avait aussi portée jusqu'à son adoption le 23 octobre 2025. Le gouvernement a enclenché la procédure accélérée et le soutien transpartisan doit permettre un vote rapide. L'Assemblée examinera le texte à partir du 7 décembre ; la date au Sénat n'est pas encore fixée."
+      }
+     ],
+     "synthese": "Après un accord unanime en commission mixte paritaire, la proposition de loi mettant fin au devoir conjugal n'a plus qu'à être votée par les deux chambres. Elle doit aligner le droit français sur la condamnation prononcée par la CEDH.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a37"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "france",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "France",
+      "source": "Le Monde",
+      "date": "2026-11-27",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/27/ecrits-antisemites-la-defense-de-jordan-bardella-patine-marine-le-pen-maintient-timidement-sa-confiance_6815931_823448.html",
+      "auteur": "Clément Guillou",
+      "id": "a12",
+      "titre": "Écrits antisémites : la défense de Jordan Bardella patine",
+      "texte": "Interrogé sur le contenu de la plainte déposée par le président du RN contre Mediapart pour faux et usage de faux, son avocat a évoqué des courriels périphériques aux échanges incriminés. Marine Le Pen maintient timidement sa confiance."
+     },
+     {
+      "rubrique": "France",
+      "source": "Public Sénat",
+      "date": "2026-11-27",
+      "url": "https://www.publicsenat.fr/actualites/economie/seniors-le-gouvernement-modifie-le-mode-de-calcul-de-lallocation-personnalisee-dautonomie",
+      "auteur": "",
+      "id": "a39",
+      "titre": "Seniors : le reste à charge de l'APA augmente en moyenne de 12 euros",
+      "texte": "À partir du 1er janvier, le reste à charge de certains bénéficiaires de l'allocation personnalisée d'autonomie pour un accompagnement à domicile augmentera en moyenne de 12 euros. Le gouvernement entend économiser 250 millions d'euros pour les départements."
+     },
+     {
+      "rubrique": "France",
+      "source": "franceinfo",
+      "date": "2026-11-27",
+      "url": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/l-hommage-national-aux-victimes-de-l-attentat-raciste-de-trappes-et-de-la-verriere-aura-lieu-le-4-decembre-aux-invalides_8303391.html#xtor=RSS-3-[lestitres]",
+      "auteur": "",
+      "id": "a21",
+      "titre": "Hommage national aux victimes de l'attentat raciste de Trappes et La Verrière",
+      "texte": "L'hommage national se tiendra le 4 décembre aux Invalides, à Paris, plus d'un mois après la mort de Pengo Bossio Wangi. Il sera présidé par le Premier ministre, Sébastien Lecornu."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "Monde",
+     "source": "Al Jazeera",
+     "date": "2026-11-28",
+     "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
+     "auteur": "",
+     "titre": "Taïwan : des élections locales très disputées, suivies de près par Pékin",
+     "chapo": "Les Taïwanais élisent ce samedi maires, conseillers et autres élus locaux dans les 22 villes et comtés de l'île, avec une compétition inhabituelle dans certaines grandes villes.",
+     "sections": [
+      {
+       "intertitre": "Le scrutin",
+       "texte": "Environ 11 000 postes sont en jeu dans ces élections « neuf en un », nommées d'après les neuf catégories de mandats concernées. Les bureaux, installés dans des écoles, des temples et des centres communautaires, ouvrent de 8 heures à 16 heures, les résultats étant attendus en début de soirée. La campagne a porté sur les transports, la garde d'enfants ou l'environnement, et le vote ne changera pas directement la politique envers la Chine. Il y a quatre ans, le Kuomintang (KMT), parti d'opposition favorable à des liens plus étroits avec Pékin, avait remporté 14 villes et comtés, le Parti démocrate progressiste (DPP), au pouvoir, cinq, et d'autres partis ou indépendants trois."
+      },
+      {
+       "intertitre": "Taipei, duel à suivre",
+       "texte": "Dans la capitale, bastion traditionnel du KMT, le maire Chiang Wan-an, élu avec plus de dix points d'avance et vu comme un possible présidentiable, affronte Puma Shen, du DPP. Cet universitaire devenu député, expert de la guerre de l'information chinoise, est recherché pour « séparatisme » selon la police chinoise. Parti outsider, il a attiré des foules, et son meeting final en ligne a réuni plus de 500 000 spectateurs. Sa victoire serait « assez honteuse » pour Pékin, estime Austin Wang, politologue à l'université du Nevada. New Taipei, ville la plus peuplée, tenue par le KMT, et Kaohsiung, tenue par le DPP, sont aussi surveillées. Chiang a reconnu devant ses partisans que la course était « très serrée »."
+      },
+      {
+       "intertitre": "Pression chinoise et suites",
+       "texte": "Pékin, qui revendique l'île, est intervenu à plusieurs reprises. Le ministère taïwanais de la Défense a compté quelque 33 sorties d'avions militaires chinois, dont des bombardiers et des chasseurs, entre vendredi et samedi. Le Conseil des affaires continentales de Taïwan dénonce une « guerre cognitive » et une « répression transnationale » visant à peser sur le résultat. Selon les analystes, ces résultats préjugent mal de la présidentielle de début 2028, où le président Lai Ching-te devrait briguer un second mandat. Le KMT pourrait bientôt débattre de son candidat, parmi lesquels Lu Shiow-yen, maire sortante de Taichung, ou Han Kuo-yu, président du Parlement."
+      }
+     ],
+     "synthese": "Ce vote local, centré sur le quotidien, est observé comme un test, en particulier à Taipei, sous la pression de Pékin. La présidente du KMT, Cheng Li-wun, pourrait être poussée à démissionner en cas de mauvais résultat.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a75"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "Géopolitique",
+     "source": "Le Grand Continent",
+     "date": "2026-11-27",
+     "url": "https://legrandcontinent.eu/fr/2026/11/27/leurope-fait-face-a-une-vague-daffaires-despionnage-russe/",
+     "auteur": "Marin Saillofest",
+     "titre": "Espionnage russe : l'Europe face à une semaine d'une ampleur inédite",
+     "chapo": "Du 21 au 27 novembre à 14 h, Le Grand Continent a recensé 32 actions hostiles visant l'Europe, survenues récemment ou rendues publiques ces derniers jours.",
+     "sections": [
+      {
+       "intertitre": "Une semaine record",
+       "texte": "Dix-huit de ces actions sont attribuées à la Russie ou soupçonnées de l'être ; les quatorze autres n'ont pas d'auteur désigné. C'est la semaine la plus chargée depuis le début du recensement, fin septembre : trois fois la moyenne d'octobre et dix de plus que la précédente (22). On compte douze incidents aériens, dix opérations d'espionnage, deux campagnes de désinformation, une vague de fausses alertes à la bombe, un drone marin chargé d'explosifs, l'implantation d'une cellule hacktiviste prorusse, deux incendies criminels visant l'industrie de défense, une cyberattaque, un brouillage GPS ou encore un projet d'assassinat. Vingt faits sont anciens mais viennent d'être révélés, souvent à l'occasion d'une arrestation, d'un procès ou d'une enquête. Douze se sont produits pendant la période, à peu près comme les deux semaines précédentes (11 et 12)."
+      },
+      {
+       "intertitre": "L'Est en première ligne",
+       "texte": "Les pays de la frontière orientale, de la Baltique à la mer Noire, concentrent 23 actions : six en Pologne, cinq en Roumanie et huit dans les trois pays baltes. Aucune n'a visé le Royaume-Uni ni les Pays-Bas. À Bydgoszcz, un pianiste arrêté en juin 2025 a été condamné le 26 novembre à trois ans de prison : il avait transmis des informations sur des sites militaires à un prétendu agent du FSB, en réalité du contre-espionnage polonais. Deux Serbes, partis de Pologne et visés par un mandat d'arrêt européen, sont suspectés de l'incendie, fin août, de l'usine du fabricant de drones militaires WB Electronics, à Skarżysko-Kamienna, que Donald Tusk avait qualifié « d'acte de sabotage »."
+      },
+      {
+       "intertitre": "Espionnage : dix affaires",
+       "texte": "Avec dix cas, dont neuf liés ou soupçonnés d'être liés à la Russie, l'espionnage atteint un niveau inédit, contre trois au maximum auparavant. En Estonie, le service de sécurité KAPO a fait expulser deux Russes : un ancien professeur et journaliste et un employé de l'usine d'huile de schiste d'Enefit à Auvere, expulsé le 24 novembre. Le premier renseignait Moscou sur la population russophone. En Lituanie, cinq personnes sont soupçonnées d'avoir collecté, contre rémunération, des informations pour la télévision d'État russe VGTRK depuis l'automne 2024 ; des institutions disent avoir reçu de plusieurs d'entre elles des centaines de questions, notamment sur la défense aérienne et l'OTAN. En Allemagne, deux procès se sont ouverts le 26 novembre : à Düsseldorf, un accusé a avoué avoir espionné pour le FSB un homme lié à l'armée ukrainienne ; à Berlin, une Germano-Ukrainienne est accusée d'avoir signalé des réunions politiques à un agent russe en poste à l'ambassade."
+      },
+      {
+       "intertitre": "Désigner Moscou",
+       "texte": "Les autorités de l'Est ont mis en cause la Russie pour 12 des 23 actions les visant, contre 2 sur 9 à l'Ouest. L'écart tient surtout à la Pologne, aux pays baltes et à la Finlande, où gouvernements, services de sécurité et parquets accusent régulièrement Moscou."
+      }
+     ],
+     "synthese": "Cette semaine marque un pic des actions hostiles recensées en Europe, porté notamment par les affaires d'espionnage. L'Est du continent est le plus touché et désigne plus volontiers la Russie.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a87"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "monde",
+    "taille": 2,
+    "article": {
+     "rubrique": "États-Unis",
+     "source": "NPR",
+     "date": "2026-11-27",
+     "url": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+     "auteur": "Vanessa Romo",
+     "titre": "Asile aux États-Unis : les défenseurs des migrants misent sur la Cour suprême",
+     "chapo": "La Cour suprême doit bientôt dire si Donald Trump peut suspendre seul l'accès à l'asile, en contournant le Congrès et la loi sur l'immigration en vigueur.",
+     "sections": [
+      {
+       "intertitre": "Un accès à l'asile verrouillé",
+       "texte": "Depuis près de deux ans, l'administration Trump interdit les demandes d'asile à la frontière avec le Mexique, a annulé des milliers de dossiers en attente et remanié les tribunaux de l'immigration à coups de licenciements massifs. Pour ses détracteurs, ces mesures ont de fait fermé une voie jadis vitale aux personnes fuyant les persécutions. L'interdiction, entrée en vigueur quelques heures après le retour du président, a été rejetée par deux juridictions fédérales inférieures, mais reste largement appliquée pendant la procédure. Ses adversaires estiment aussi que les demandeurs ont été privés de garanties élémentaires et que les tribunaux sont devenus un bras de l'expulsion."
+      },
+      {
+       "intertitre": "Les arguments de l'exécutif",
+       "texte": "L'administration présente la proclamation comme une protection nécessaire contre une « invasion » et contre les abus de « faux » demandeurs d'asile. Les arrestations à la frontière sud-ouest sont tombées sous 99 000 sur l'exercice 2026, contre plus de 1,8 million par an sous Joe Biden, soit une baisse de 95 %, selon les douanes américaines. Simon Hankinson, de la Heritage Foundation, groupe de réflexion conservateur proche de Trump, juge qu'un revirement de la Cour serait « désastreux ». Selon lui, l'immense majorité des arrivants ne remplissent pas les critères, viennent chercher du travail et ont traversé le Mexique, pays tiers sûr où ils auraient pu demander l'asile."
+      },
+      {
+       "intertitre": "Trois batailles judiciaires",
+       "texte": "Outre l'interdiction, la Cour examinera en décembre les expulsions vers des pays tiers ayant accepté de statuer sur l'asile, même quand certains sont accusés de violations des droits humains et ne garantissent pas l'absence de renvoi vers le pays d'origine. Un troisième litige porte sur la détention illimitée de milliers de personnes visées par une expulsion. Le taux national de refus d'asile a atteint 94 % en juin, contre environ 50 % en 2024, selon TRAC, un projet de l'université de Syracuse. Lee Gelernt, de l'ACLU, l'une des organisations requérantes, estime que le président n'a pas le droit de passer outre les protections accordées par le Congrès."
+      },
+      {
+       "intertitre": "Le cas d'un Éthiopien",
+       "texte": "L'avocate Madhavi Narayanan, de Human Rights First, défend ZG, un trentenaire éthiopien arrivé par le Mexique en février 2025 après avoir été longuement torturé. Placé en détention, il a aussitôt demandé l'asile. Il appartient à un peuple autochtone impliqué dans un conflit armé en cours, et elle dit avoir produit documents et lettres à l'appui de ses dires. En temps normal, selon elle, son dossier aurait été très simple. Il a pourtant reçu ce mois-ci un ordre d'expulsion vers l'Ouganda, où il n'a jamais mis les pieds. Le juge aurait expliqué avoir les mains liées. Le gouvernement pousse les avocats de l'ICE, la police de l'immigration, à faire clore des demandes jugées incomplètes ou non étayées, ou à invoquer un pays tiers. Cette stratégie a permis au département de la Sécurité intérieure d'annuler des milliers de dossiers."
+      },
+      {
+       "intertitre": "Des tribunaux transformés",
+       "texte": "Près de 60 notes de politique ont été émises durant ce second mandat, contre 30 en quatre ans sous Biden. La première année, près de 40 % des juges de l'immigration ont été licenciés ou ont démissionné. Presque tous ont été remplacés par des « juges d'expulsion », selon le terme de l'administration, et plus de la moitié des juges ont désormais été nommés par Trump. Selon Geoffrey Heeren, professeur à l'université de l'Idaho, environ deux tiers des nouveaux viennent de la sécurité intérieure ou de la justice militaire, et onze seulement ont une expérience claire de la défense des immigrés. Jennifer Peyton, ancienne juge licenciée en juillet 2025, affirme que beaucoup connaissent mal le droit et ont appris des raccourcis privant les étrangers d'une procédure équitable."
+      }
+     ],
+     "synthese": "Les défenseurs des migrants espèrent que la Cour suprême, à majorité conservatrice, desserrera l'étau sur l'asile, dont les approbations sont au plus bas depuis des décennies. L'administration et ses soutiens défendent au contraire un dispositif qui a coïncidé avec une chute des passages à la frontière.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a46"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "monde",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-28",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+      "auteur": "Mahmoud Sayed; Enes Abuomer",
+      "id": "a79",
+      "titre": "L’Italie affirme que le drone de l’attaque meurtrière au Koweït a été fabriqué en Iran",
+      "texte": "Le ministre italien des Affaires étrangères, Antonio Tajani, affirme que le drone responsable de la frappe meurtrière au Koweït a été fabriqué en Iran."
+     },
+     {
+      "rubrique": "Monde",
+      "source": "Al Jazeera",
+      "date": "2026-11-28",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/israel-kills-two-msf-staff-in-targeted-strike-on-gaza-clinic?traffic_source=rss",
+      "auteur": "",
+      "id": "a76",
+      "titre": "Une frappe israélienne sur une clinique de MSF à Gaza tue deux gardiens",
+      "texte": "Une frappe israélienne a visé une clinique gérée par Médecins sans frontières (MSF) à Gaza. Elle a tué deux gardiens."
+     },
+     {
+      "rubrique": "Chine",
+      "source": "South China Morning Post",
+      "date": "2026-11-27",
+      "url": "https://www.scmp.com/news/china/military/article/3376007/china-cambodia-drills-type-071-warship-offloads-tanks-overseas-first-time",
+      "auteur": "",
+      "id": "a69",
+      "titre": "Chine-Cambodge : des chars débarqués par un navire de transport amphibie, une première",
+      "texte": "Pour la première fois, la Chine a envoyé ses chars de bataille par un navire de transport amphibie vers l'Asie du Sud-Est, pour un exercice conjoint de 15 jours avec le Cambodge, commencé mercredi à Ream."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Économie et social",
+     "source": "NBER",
+     "date": null,
+     "url": "https://www.nber.org/papers/w36045#fromrss",
+     "auteur": "Myra Mohnen; Joshua S Gans",
+     "titre": "Avec AlphaFold2, la recherche creuse le connu plus qu'elle n'explore",
+     "chapo": "En biologie structurale, les prédictions les plus sûres de l'IA AlphaFold2 s'accompagnent d'un déplacement des expériences vers des protéines déjà étudiées.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "Face à l'IA, les scientifiques peuvent repousser la frontière du savoir ou approfondir des questions déjà étudiées. Comme la science est cumulative, ce choix compte. Les auteurs l'examinent en biologie structurale, où l'on détermine la forme en trois dimensions des protéines, clé de leur fonction et de la recherche sur les médicaments. Sorti en 2021, AlphaFold2 (AF2), de DeepMind, prédit la structure de presque toutes les protéines connues, avec une confiance inégale. Il n'exige plus de protéine apparentée déjà résolue : les expériences auraient donc pu gagner les terres inexplorées. Or la plupart des travaux sur l'IA en science s'intéressent à la vitesse des découvertes, non au choix des sujets."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "C'est l'inverse qui apparaît. En passant du quart des protéines les moins bien prédites au quart les mieux prédites, la probabilité annuelle d'une première expérience, pour une protéine éloignée de toute structure connue, baisse d'environ 0,16 point, près de la moitié du taux initial (0,35 %). Les expériences livrant la première structure d'un groupe de protéines similaires reculent de 24 %. À l'inverse, les expériences de suivi montent de 19 %, dont 26 % pour les complexes (la protéine liée à un partenaire) et 11 % pour les améliorations de structures. Le total augmente de 13 %. La hausse proportionnelle des suivis est la plus forte là où l'industrie participe. Les laboratoires universitaires, principaux auteurs des suivis, n'en changent pas significativement le nombre en moyenne, ni leur total d'expériences, mais leurs premières expériences reculent. La hausse des essais est la plus marquée pour les protéines entourées de structures connues."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "L'étude suit 530 471 protéines de 2017 à 2025, reliées aux expériences de la Protein Data Bank, archive publique des structures. Chacune est située sur un arbre évolutif par rapport aux structures connues. La confiance d'AF2 est mesurée par la part des acides aminés prédits avec assurance. Une méthode de différences de différences compare l'évolution après 2021 selon cette part. Des tests placebo ne montrent pas de réaction comparable pour le total ni les suivis. Elle classe chaque expérience selon ce qu'elle révèle : structure inédite, première d'un groupe, petite molécule liée, complexe ou structure améliorée."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Un modèle théorique oppose deux forces. La substitution : la prédiction réduit la valeur d'une expérience qui établirait la structure. La complémentarité : elle abaisse le coût des expériences, dont celles qui s'appuient sur cette structure. Pour déterminer une structure, la perte l'emporte sur l'économie ; étudier le fonctionnement profite seulement du second effet. Enjeu supplémentaire : les futurs modèles d'IA apprennent aussi des expériences que les chercheurs choisissent pour leurs propres travaux. Or celles qui étendraient ces modèles à des protéines inexplorées sont précisément celles qui ont reculé, relativement, là où AF2 est le plus sûr. Une prédiction assez sûre pour être utilisée seule rend en outre la structure exploitable sans expérience, tandis qu'une prédiction moins sûre peut rendre une première expérience plus intéressante, loin de toute structure connue."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "Les auteurs précisent que leurs estimations mesurent des écarts de réaction entre protéines, et non un effet commun d'AF2 sur toutes. La confiance du modèle n'est pas répartie au hasard : les protéines mal prédites tendent à être plus longues, situées dans les membranes et mieux étudiées, et auraient pu évoluer différemment pour d'autres raisons. Des effets fixes et des tendances propres aux caractéristiques antérieures servent à en tenir compte. Les auteurs notent aussi que les prédictions utilisées ne couvrent que la forme de base d'une protéine isolée, alors qu'une expérience peut en révéler davantage."
+      }
+     ],
+     "synthese": "Là où AlphaFold2 est le plus sûr de lui, les premières expériences reculent tandis que les suivis, plus nombreux, font monter le total. L'IA approfondit ainsi le savoir existant davantage qu'elle ne l'étend.",
+     "republication": "",
+     "reference": "Myra Mohnen (Université d'Ottawa) et Joshua S. Gans (Université de Toronto, Rotman School of Management, et NBER), « How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2 », NBER Working Paper n° 36045, novembre 2026 ; document de travail non relu par des pairs.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a93"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "recherche",
+    "taille": 2,
+    "article": {
+     "rubrique": "Économie et social",
+     "source": "NBER",
+     "date": null,
+     "url": "https://www.nber.org/papers/w36042#fromrss",
+     "auteur": "Paul D Jacobs; Timothy J Layton",
+     "titre": "Medicare Advantage : les inscriptions suivent les subventions aux assureurs",
+     "chapo": "Deux chercheurs mesurent combien d'Américains rejoignent les assurances privées de Medicare quand l'État relève ou abaisse son paiement maximal par assuré.",
+     "sections": [
+      {
+       "intertitre": "La question",
+       "texte": "Aux Etats-Unis, les bénéficiaires de Medicare choisissent entre le régime public et des plans privés, dits Medicare Advantage (MA). L'Etat fixe par comté un « benchmark », paiement maximal par assuré, qui agit comme un bon d'achat. La part de MA est passée de 19 % en 2007 à 55 % en 2026, et ces plans représentaient 462 milliards de dollars, soit 54 % des dépenses fédérales de Medicare, en 2024. Pourtant, on sait très peu si la générosité des paiements a porté cet essor, ce qui complique le chiffrage des réformes. Rien ne garantit en outre que les assurés réagissent : ils changent peu de plan, le marché est très concentré et les assureurs pourraient capter l'essentiel du surplus. Or cette sensibilité détermine le nombre de personnes qui basculent et le coût budgétaire net de toute modification."
+      },
+      {
+       "intertitre": "Les conclusions",
+       "texte": "Une hausse de 1 % du benchmark accroît les inscriptions en MA d'environ un demi-point au bout de trois ans, soit une élasticité d'environ 2 (2,1 dans la spécification privilégiée, intervalle de confiance à 95 % d'environ 1,6 à 2,6). Les effets sont à peu près symétriques à la hausse et à la baisse. Les rabais, qui financent des prestations supplémentaires, varient d'environ 5,50 dollars par mois et par assuré, surtout quand le benchmark monte. Le nombre de plans évolue d'environ deux, principalement par des retraits quand il baisse. Pour 100 dollars mensuels de plus par assuré, la part de MA gagne 5,9 points. La réaction est plus forte dans les comtés où le choc est le plus marqué : 1,7 point en moyenne contre 0,6 pour les hausses, et -2,1 contre -1,3 pour les baisses. Elle reste globalement semblable quelle que soit la concentration du marché. L'effet sur les primes mensuelles reste en revanche faible et imprécis."
+      },
+      {
+       "intertitre": "La méthode",
+       "texte": "Chaque année, les comtés sont classés en quartiles selon la dépense publique prévue par assuré ; le benchmark va de 115 % de celle-ci dans le quartile le moins coûteux à 95 % dans le plus coûteux. Un comté qui franchit un seuil subit un choc de paiement sans lien avec la demande locale. Les auteurs comparent ces comtés à ceux restés dans leur quartile : sur 2 370 comtés suivis de 2015 à 2019, 1 115 ont franchi un seuil. Des tests placebo ne montrent aucune réaction des inscriptions. Ces changements durent : 86,7 % des comtés franchissant un seuil après 2015 restent de l'autre côté au moins trois ans. L'étude emploie des différences de différences et des études d'événement, avec des contrôles, dont la dépense par assuré, le nombre de médecins et de lits ou le revenu médian. D'autres tests confirment les résultats."
+      },
+      {
+       "intertitre": "Ce que ça implique",
+       "texte": "Les auteurs simulent des benchmarks ramenés à 95 % de la dépense publique locale, sans bonus de qualité, contre 107 % en moyenne en 2019. Les inscriptions en MA reculeraient de 6,1 points, environ un quart, à partir d'une moyenne de 26,1 % dans l'échantillon : une contraction réelle, mais pas la disparition du programme. Selon eux, une partie du surplus des paiements revient aux nouveaux inscrits, et les coupes ne sont pas un « repas gratuit » : il faudra comparer les économies aux pertes subies par les assurés. Elles pourraient aussi passer par des retraits de plans, effet sans doute modeste, chaque bénéficiaire ayant accès à environ 32 plans en 2026. Ces résultats se distinguent d'études récentes qui ne trouvaient guère de réaction."
+      },
+      {
+       "intertitre": "Les limites",
+       "texte": "La réaction des offres des assureurs, d'environ 3 à 4 dollars après une hausse, est moins robuste que les résultats sur les rabais et les inscriptions : elle s'atténue ou n'est plus significative dans certaines spécifications. Pour les comtés en baisse, l'effet selon l'ampleur du choc ne peut être entièrement séparé des différences de croissance des dépenses publiques. Certaines estimations sur ces offres sont imprécises, avec des intervalles de confiance incluant zéro."
+      }
+     ],
+     "synthese": "Les inscriptions en Medicare Advantage réagissent nettement au benchmark, avec une élasticité d'environ 2. Réduire les paiements ferait donc reculer ces plans privés, au prix, selon les auteurs, d'une perte pour les assurés.",
+     "republication": "",
+     "reference": "Paul D. Jacobs (Johns Hopkins Bloomberg School of Public Health) et Timothy J. Layton (University of Virginia et NBER), « The Effects of Private Plan Subsidies on Enrollment: Evidence from Medicare Advantage », NBER Working Paper n° 36042, novembre 2026 ; document de travail non relu par des pairs.",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a92"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "recherche",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Économie",
+      "source": "BCE (documents de travail)",
+      "date": "2026-11-27",
+      "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3313~bef94fc3fa.en.pdf",
+      "auteur": "",
+      "id": "a91",
+      "titre": "Un cadre unifiant contrôles synthétiques et modèles DSGE",
+      "texte": "Un document de travail de la BCE intègre les contrôles synthétiques à un modèle DSGE micro-fondé. Il relie l'effet causal estimé aux mécanismes économiques et permet d'analyser des politiques."
+     },
+     {
+      "rubrique": "Droit",
+      "source": "Verfassungsblog",
+      "date": "2026-11-27",
+      "url": "https://verfassungsblog.de/gambia-v-myanmar-responsibility/",
+      "auteur": "",
+      "id": "a98",
+      "titre": "CIJ : réparations ordonnées à la Birmanie pour les Rohingyas",
+      "texte": "Selon une analyse publiée sur le Verfassungsblog, les réparations ordonnées par la CIJ dépendent d'acteurs bien au-delà de l'État birman, car une partie du territoire lui échappe désormais."
+     },
+     {
+      "rubrique": "Économie et social",
+      "source": "NBER",
+      "date": null,
+      "url": "https://www.nber.org/papers/w36048#fromrss",
+      "auteur": "",
+      "id": "a95",
+      "titre": "Alignement de l'IA : les choix révélés du principal suffisent-ils ?",
+      "texte": "Gans et Holden, dans un document de travail du NBER, proposent un critère pour savoir quand les décisions d'un principal suffisent à guider une IA. Une capacité accrue peut toutefois transformer l'erreur en actions incorrectes."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "CSRD et CSDDD",
+     "source": "Daf-Mag.fr",
+     "date": "2026-11-27",
+     "url": "https://www.daf-mag.fr/finance-durable-1342/csrd-les-nouvelles-normes-esrs-simplifiees-entrent-en-vigueur-avec-moins-de-donnees-obligatoires-28405",
+     "auteur": "Christina DIEGO",
+     "titre": "CSRD : les normes ESRS simplifiées allègent les données obligatoires",
+     "chapo": "Entrées en vigueur le 10 novembre 2026, les nouvelles normes européennes de reporting de durabilité réduisent les obligations et obligent les directions financières à revoir leurs méthodes.",
+     "sections": [
+      {
+       "intertitre": "Ce qui change",
+       "texte": "Publiées fin septembre 2026, les normes ESRS révisées, dites « Set 2 », remplacent progressivement le « Set 1 » adopté en juillet 2023. Elles réduisent de près de 60 % le nombre de points de données obligatoires, allègent les exigences d’application et clarifient plusieurs dispositions. Elles regroupent certaines obligations de publication, suppriment les doublons et les données volontaires et raccourcissent les instructions d’application. L’état de durabilité gagne en souplesse : annexes et résumé exécutif sont admis, et l’on peut, sous conditions, s’écarter des quatre chapitres habituels (informations générales, environnement, social, gouvernance). La présentation fidèle devient le principe directeur de sa préparation, afin de mieux tenir compte des caractéristiques propres à chaque entreprise et de la matérialité des informations publiées."
+      },
+      {
+       "intertitre": "Le contexte",
+       "texte": "La révision relève du paquet Omnibus, présenté par la Commission européenne début 2025 pour alléger le reporting imposé par la directive CSRD du 14 décembre 2022. Après un ajustement ciblé, le « Quick-fix », adopté en juillet 2025, la directive Omnibus I de février 2026 a prévu de réduire le champ d’application de la CSRD. Les nouvelles normes forment le troisième volet de cette simplification. Les fondamentaux demeurent : les entreprises doivent toujours fournir les informations nécessaires pour comprendre leurs impacts, risques et opportunités (IRO), selon la double matérialité. L’analyse de matérialité, la stratégie, la gouvernance, les politiques, les actions, les objectifs et indicateurs restent au cœur du reporting."
+      },
+      {
+       "intertitre": "Proportionnalité et matérialité",
+       "texte": "Plusieurs mécanismes adaptent les obligations aux capacités et à la situation des entreprises. Un principe général autorise le recours aux informations disponibles sans coût ou effort excessif, pour les indicateurs, la chaîne de valeur et l’analyse de matérialité. Les entreprises peuvent notamment exclure certaines cessions et acquisitions récentes, publier des indicateurs sur un périmètre partiel ou écarter des activités sans IRO matériels. Les données à collecter sur la chaîne de valeur sont limitées, les mesures transitoires renforcées (effets financiers attendus, substances préoccupantes) et l’omission d’informations sensibles élargie. Une approche descendante, « top-down », dispense d’analyser en détail chaque IRO. La matérialité de l’information s’applique désormais à toutes les normes, y compris ESRS 2."
+      },
+      {
+       "intertitre": "Les volets ESG et l’ISSB",
+       "texte": "La norme climat ESRS E1 est surtout clarifiée : périmètre des émissions de gaz à effet de serre, contenu minimal du plan de transition, déclaration de compatibilité avec une trajectoire de 1,5 °C. Pour la biodiversité (ESRS E4), une entreprise doit publier son plan de transition si elle en a déjà rendu un public, et les indicateurs sont plus souples. Le volet social révise le périmètre de certains indicateurs, dont les incidents liés aux droits humains et le salaire décent. La norme de gouvernance change d’architecture et simplifie les pratiques de paiement. L’interopérabilité avec les standards internationaux de l’ISSB progresse (terminologie, présentation fidèle, certaines obligations d’ESRS E1), malgré des divergences sur le coût ou l’effort raisonnable et sur les acquisitions et cessions récentes."
+      },
+      {
+       "intertitre": "Le calendrier",
+       "texte": "Les normes simplifiées sont applicables volontairement dès l’exercice 2026, pour les états de durabilité publiés en 2027. Elles deviendront obligatoires pour le premier exercice ouvert à compter du 1er janvier 2027, avec des publications à partir de 2028. Pour les directions financières, il faut revoir la collecte des données, l’analyse de matérialité et la préparation de l’état de durabilité."
+      }
+     ],
+     "synthese": "Les ESRS révisées réduisent fortement les données obligatoires et élargissent les allègements, sans remettre en cause la double matérialité. Facultatives pour l’exercice 2026, elles s’imposeront à partir de l’exercice 2027.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a132"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "veille",
+    "taille": 2,
+    "article": {
+     "rubrique": "RGPD",
+     "source": "CNIL",
+     "date": "2026-11-27",
+     "url": "https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil",
+     "auteur": "",
+     "titre": "IA dans les soins : la CNIL et la HAS publient un guide de bon usage",
+     "chapo": "La Haute Autorité de santé et la CNIL publient « IA en contexte de soins : accompagner le bon usage », un guide qui clarifie règles et bonnes pratiques pour les acteurs de la santé.",
+     "sections": [
+      {
+       "intertitre": "À qui il s'adresse",
+       "texte": "Le guide vise l'ensemble des déployeurs et utilisateurs de systèmes d'IA du secteur sanitaire, professionnels comme organisations. Il entend les accompagner vers un déploiement et un usage conformes, sûrs et responsables. Ces acteurs doivent en effet respecter le cadre réglementaire, notamment les droits fondamentaux des patients sur leurs données personnelles. Pour les deux institutions, ces systèmes doivent être mis au service de l'humain et répondre aux besoins réels des patients, des professionnels et des organisations de santé. Le cadre proposé s'adapte aux différents contextes d'exercice et niveaux de maturité. Avec cette publication, la HAS et la CNIL disent se mobiliser pour accompagner les acteurs de la santé en clarifiant les règles applicables et les bonnes pratiques à suivre."
+      },
+      {
+       "intertitre": "Ce qu'il contient",
+       "texte": "Issu d'un travail pluridisciplinaire et d'une consultation publique, le document clarifie les obligations légales et réglementaires, guide le déploiement des systèmes d'IA et favorise leur bon usage pour garantir la qualité et la sécurité des soins. Il aide aussi les établissements de santé dans leur certification, pour les critères liés à l'IA. Ses onze fiches couvrent tout le cycle de vie d'un système d'IA. Chacune comprend notamment une synthèse, une analyse du cadre légal et réglementaire et des principes à mettre en œuvre, dont certains sont signalés comme prioritaires."
+      },
+      {
+       "intertitre": "Le cadre commun",
+       "texte": "Le guide découle de la convention de partenariat conclue en mars 2026 entre la CNIL et la HAS. Il s'inscrit dans le projet stratégique 2025-2030 de la HAS, en particulier sa thématique « Numérique et IA en santé », et dans le plan stratégique 2025-2028 de la CNIL, notamment l'axe « Promouvoir une intelligence artificielle éthique et respectueuse des droits ». Reflet d'une position partagée, il doit permettre d'accompagner l'utilisation des systèmes d'IA dans le respect du droit et des bonnes pratiques."
+      }
+     ],
+     "synthese": "La CNIL et la HAS proposent en onze fiches un cadre commun pour déployer et utiliser l'IA dans les soins. Il vise à concilier respect du droit, protection des données des patients, qualité et sécurité des soins.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a99"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "veille",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "LCB-FT",
+      "source": "Global Regulation Tomorrow",
+      "date": "2026-11-27",
+      "url": "https://www.regulationtomorrow.com/2026/11/amla-consults-on-draft-guidelines-on-outsourcing-reliance-on-cdd-performed-by-another-obliged-entity-and-other-third-party-arrangements/",
+      "auteur": "",
+      "id": "a127",
+      "titre": "AMLA : consultation sur la sous-traitance et le recours aux tiers en LCB-FT",
+      "texte": "L'autorité européenne de lutte contre le blanchiment (AMLA) soumet à consultation des projets de lignes directrices sur la sous-traitance, le recours à la vigilance client effectuée par un autre assujetti et d'autres dispositifs tiers."
+     },
+     {
+      "rubrique": "Sanctions et export",
+      "source": "Financial Times",
+      "date": "2026-11-27",
+      "url": "https://www.ft.com/content/a8ecccda-f986-4ae9-9f45-9470d2be8c65?syn-25a6b1a6=1",
+      "auteur": "",
+      "id": "a123",
+      "titre": "UE : contrôles d'exportation renforcés envisagés pour les déchets de batteries",
+      "texte": "L'Union européenne envisage des contrôles à l'exportation plus stricts pour empêcher que des déchets de batteries ne partent vers la Chine, selon le Financial Times."
+     }
+    ]
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Science",
+     "source": "Sciences et Avenir",
+     "date": "2026-11-27",
+     "url": "https://www.sciencesetavenir.fr/sciences/un-million-de-satellites-dans-l-espace-est-ce-possible_196586?xtor=RSS-18",
+     "auteur": "",
+     "titre": "SpaceX : un million de satellites en orbite, est-ce possible ?",
+     "chapo": "Les autorités américaines ont autorisé mercredi SpaceX à déployer un million de satellites pour des centres de données spatiaux, un projet qui soulève de nombreuses questions.",
+     "sections": [
+      {
+       "intertitre": "Un ciel déjà encombré",
+       "texte": "Depuis 2019, le nombre de satellites autour de la Terre a rapidement augmenté : plus de 16 000 aujourd’hui, dont 11 000 pour Starlink, la constellation de télécommunications de SpaceX. Avec le projet d’Elon Musk et tous ceux engagés aux États-Unis, en Russie ou en Chine, les trois principales puissances spatiales, « les prévisions se montent à 2,3 M de satellites à très brève échéance », selon Christophe Bonnal, de l’Académie de l’air et de l’espace."
+      },
+      {
+       "intertitre": "Un rythme à démultiplier",
+       "texte": "« Chaque fois qu’Elon Musk a lancé un projet, il a eu raison à la fin, mais jamais dans les temps », rappelle Christophe Bonnal. SpaceX met en orbite tous les trois jours en moyenne et a ajouté près de 3 200 satellites à Starlink en 2025. Atteindre le million en 2040 exigerait plus de 70 000 envois par an. L’entreprise veut accélérer les tirs de Starship, son plus grand vaisseau, pour « au final en faire 30 par jour ». Mais les usines de méthane liquide ne suffisent pas à fournir ce carburant, et la nouvelle base de lancement nécessaire ne sera probablement pas opérationnelle avant 2029."
+      },
+      {
+       "intertitre": "Le risque de collision",
+       "texte": "Les satellites évolueront en orbite basse, entre 700 et 1 000 km, où « les débris sont là pour 1 000 ans ». « C’est jouer à l’apprenti sorcier », juge M. Bonnal. L’an dernier, le CNES a déclenché 28 millions de procédures d’alerte pour les 285 satellites dont il a la charge, soit une toutes les 20 secondes. SpaceX devrait donc renforcer son réseau de surveillance. Or les débris de moins de 10 cm ne sont pas repérés, alors qu’1 cm suffit à détruire un satellite, et toutes les constellations ne partagent pas leurs positions."
+      },
+      {
+       "intertitre": "Des cibles potentielles",
+       "texte": "L’espace est devenu un territoire où les enjeux de défense sont primordiaux, du contrôle des télécommunications au positionnement d’armes en orbite, et le rôle de Starlink est apparu lors du conflit en Ukraine. Étienne Marcuz, chercheur associé à la Fondation pour la recherche stratégique, rapproche le projet américain du programme russe Spoutnik-S, qui comporte un volet de détonations nucléaires dans l’espace permettant de détruire en masse satellites et centres de données. Ce programme montre, dit-il, que la Russie travaille sur de multiples moyens de neutraliser des objets dans l’espace. Selon lui, les Russes savent que les États-Unis dépendront de plus en plus d’infrastructures spatiales cruciales (économie, finance, santé) : une part non négligeable du potentiel économique américain se situera dans l’espace et sera une « cible tentante »."
+      },
+      {
+       "intertitre": "L’astronomie menacée",
+       "texte": "Dans une étude publiée début juillet dans Astronomy & Astrophysics, l’Observatoire européen austral (ESO) estime qu’au-delà de 100 000 satellites, l’observation du ciel serait affectée. Chaque passage laisse une traînée lumineuse qui masque ce qui se trouve derrière, explique son auteur, l’astronome Olivier Hainaut : au-delà d’un million, « on va vraiment avoir des problèmes ». Pour Andreas Kaufer, directeur général de l’ESO, le projet « transformerait fondamentalement le ciel nocturne » pour tous ; il réclame d’urgence des mécanismes internationaux d’évaluation."
+      }
+     ],
+     "synthese": "Le projet de SpaceX supposerait une cadence de lancement sans commune mesure avec l’actuelle. Il pose aussi des questions de débris, de vulnérabilité militaire et d’observation du ciel.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a140"
+    }
+   },
+   {
+    "type": "article",
+    "bloc": "curiosites",
+    "taille": 2,
+    "article": {
+     "rubrique": "Science",
+     "source": "Sciences et Avenir",
+     "date": "2026-11-27",
+     "url": "https://www.sciencesetavenir.fr/espace/dimorphos-apres-le-choc-les-images-qui-surprennent-les-scientifiques_196590?xtor=RSS-9",
+     "auteur": "",
+     "titre": "Astéroïde percuté par la Nasa : les premières images d’Hera surprennent",
+     "chapo": "Après deux ans de voyage, la sonde Hera a rejoint Dimorphos, astéroïde dévié lors d’un test de défense planétaire, et ses premières images, dévoilées mercredi par l’ESA, réservent des surprises.",
+     "sections": [
+      {
+       "intertitre": "Retour sur le test",
+       "texte": "Il y a quatre ans, le vaisseau DART de la Nasa s’est délibérément écrasé sur Dimorphos, un corps de 160 mètres de diamètre, lune d’un astéroïde plus grand, Didymos. Situé à 11 millions de kilomètres de la Terre, il ne présentait aucun danger. Il s’agissait de savoir si l’on pouvait dévier un tel objet, au cas où l’un d’eux menacerait la planète. L’orbite de Dimorphos a été réduite de 33 minutes. Pour comprendre ce qui s’est passé et valider les modèles d’impact, il fallait y retourner : c’est la mission d’Hera, lancée en octobre 2024 et arrivée il y a trois semaines à une trentaine de kilomètres."
+      },
+      {
+       "intertitre": "Un cratère et une déformation",
+       "texte": "« La première fois que j’ai vu les images, j’ai fait “waouh !” », raconte à l’AFP Patrick Michel, chercheur de la mission. Sur un cliché, l’impact semble avoir aplati un côté de Dimorphos, laissant un cratère aussi large que toute la face touchée, avec des structures inhabituelles à l’intérieur, dont une en forme de cigare. La structure interne, roche solide ou amas de débris, reste inconnue. Les scientifiques attendaient soit un cratère, soit une déformation. « En fait, c’est les deux. On ne comprend pas encore bien comment c’est possible », indique-t-il, évoquant un « scénario pas du tout prévu »."
+      },
+      {
+       "intertitre": "Un mouvement devenu chaotique",
+       "texte": "L’orbite n’est pas seule à avoir changé : la dynamique aussi. Avant l’impact, Dimorphos montrait toujours la même face à Didymos, comme notre Lune, et se comportait de façon assez régulière. « Maintenant, il est très chaotique », tel un « tonneau que vous lancez dans un escalier et qui se déplace dans tous les sens », décrit Sabina Raducan, planétologue à l’Institut international des sciences spatiales (ISSI, Berne). Naomi Murdoch, planétologue à l’ISAE-SUPAERO (Toulouse), résume : « nous avons changé l’apparence de Dimorphos, nous avons changé la façon dont il se déplace », et observé pour la première fois dans ce système une multitude de nouveaux compagnons inattendus."
+      },
+      {
+       "intertitre": "Des blocs inattendus",
+       "texte": "Des centaines de blocs rocheux, de la taille d’un ballon de football à celle d’une machine à laver, se déplacent autour des deux astéroïdes. On ignore encore s’ils résultent de l’impact. Leur présence est un « cauchemar » pour les ingénieurs, témoigne Margherita Cardi, cheffe de projet du nanosatellite Milani chez Tyvak International. Les équipes au sol pourront ajuster son orbite ou sa trajectoire, mais Milani ne saura pas détecter et éviter seul un bloc."
+      },
+      {
+       "intertitre": "La suite : deux nanosatellites",
+       "texte": "Milani et un autre CubeSat, Juventas, doivent normalement être déployés en janvier pour orbiter autour de Dimorphos, quand Hera s’en sera approchée à entre 20 et 10 km. Pendant six mois, ils doivent fournir des données cruciales. Juventas, censé atterrir sur l’astéroïde, emporte un radar basse fréquence pour sonder sa structure interne et des instruments mesurant son très faible champ de gravité. Milani étudiera sa composition avec une caméra multispectrale et un détecteur de poussières. « C’est une aventure à la Indiana Jones, mais en mieux ! », conclut Patrick Michel, car « c’est la réalité et que le scénario est de moins en moins écrit à l’avance »."
+      }
+     ],
+     "synthese": "L’impact de DART a modifié la forme et le mouvement de Dimorphos au-delà de ce qu’attendaient les scientifiques. Les deux nanosatellites d’Hera doivent désormais aider à comprendre ce qui s’est produit.",
+     "republication": "",
+     "reference": "",
+     "sources_complementaires": [],
+     "format": "long",
+     "id": "a141"
+    }
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Idées",
+      "source": "The Conversation",
+      "date": "2026-11-27",
+      "url": "https://theconversation.com/comment-une-astuce-utilisee-en-marketing-incite-les-rats-a-entrer-dans-les-pieges-297752",
+      "auteur": "",
+      "id": "a145",
+      "titre": "Rats : un appât inaccessible augmente de 83 % les entrées",
+      "texte": "En Australie, un appât placé hors d'atteinte devant un tunnel a accru de 83 % les entrées de rats noirs. Cet effet de « leurre fantôme », emprunté au marketing, pourrait améliorer la dératisation à faible coût."
+     },
+     {
+      "rubrique": "Idées",
+      "source": "The Conversation",
+      "date": "2026-11-27",
+      "url": "https://theconversation.com/fausses-images-scientifiques-et-ia-quand-la-mefiance-gagne-jusquaux-revues-academiques-297662",
+      "auteur": "",
+      "id": "a149",
+      "titre": "Fausses images scientifiques : l'IA met à l'épreuve les revues académiques",
+      "texte": "En 2024, deux études ont été rétractées pour des figures générées par intelligence artificielle, avant un nouveau cas en avril 2026. Les détecteurs peinent à suivre les générateurs."
+     },
+     {
+      "rubrique": "Science",
+      "source": "Sciences et Avenir",
+      "date": "2026-11-27",
+      "url": "https://www.sciencesetavenir.fr/nutrition/un-yaourt-perime-une-limace-dans-la-salade-l-ia-affole-les-francais-et-sature-les-centres-antipoison_196588?xtor=RSS-28",
+      "auteur": "",
+      "id": "a143",
+      "titre": "L'IA submerge les centres antipoison français",
+      "texte": "Depuis l'été, les centres antipoison français sont submergés d'appels provoqués par des réponses parfois alarmistes de l'intelligence artificielle. Les équipes sont épuisées."
+     }
+    ]
+   },
+   {
+    "type": "breves",
+    "bloc": "curiosites",
+    "taille": 1,
+    "breves": [
+     {
+      "rubrique": "Espace",
+      "source": "NASA",
+      "date": "2026-11-27",
+      "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+      "auteur": "",
+      "id": "a153",
+      "titre": "Cultures spatiales : une expérience de la NASA vers l'ISS",
+      "texte": "La 25e mission commerciale de ravitaillement de Northrop Grumman emportera vers la Station spatiale internationale un système inédit de production de cultures spatiales, dans le cadre d'expériences de la NASA."
+     }
+    ]
+   },
+   {
+    "type": "solutions",
+    "bloc": "",
+    "taille": 1
+   }
+  ],
+  "jeux": {
+   "sudoku": {
+    "grille": [
+     5,
+     0,
+     0,
+     6,
+     0,
+     0,
+     9,
+     8,
+     0,
+     0,
+     0,
+     0,
+     5,
+     0,
+     0,
+     0,
+     6,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     8,
+     0,
+     4,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     6,
+     0,
+     8,
+     5,
+     0,
+     0,
+     0,
+     1,
+     9,
+     8,
+     0,
+     4,
+     0,
+     0,
+     0,
+     5,
+     6,
+     0,
+     0,
+     7,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     3,
+     0,
+     4,
+     7,
+     6,
+     2,
+     0,
+     0,
+     8,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "solution": [
+     5,
+     4,
+     2,
+     6,
+     3,
+     1,
+     9,
+     8,
+     7,
+     8,
+     3,
+     9,
+     5,
+     7,
+     4,
+     1,
+     6,
+     2,
+     7,
+     1,
+     6,
+     2,
+     9,
+     8,
+     3,
+     4,
+     5,
+     4,
+     7,
+     5,
+     9,
+     1,
+     6,
+     8,
+     2,
+     3,
+     2,
+     6,
+     3,
+     8,
+     5,
+     7,
+     4,
+     9,
+     1,
+     9,
+     8,
+     1,
+     4,
+     2,
+     3,
+     7,
+     5,
+     6,
+     6,
+     5,
+     7,
+     1,
+     8,
+     9,
+     2,
+     3,
+     4,
+     3,
+     9,
+     4,
+     7,
+     6,
+     2,
+     5,
+     1,
+     8,
+     1,
+     2,
+     8,
+     3,
+     4,
+     5,
+     6,
+     7,
+     9
+    ]
+   },
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "indices": [
+     [
+      1,
+      0,
+      6
+     ],
+     [
+      0,
+      3,
+      3
+     ],
+     [
+      5,
+      6,
+      9
+     ],
+     [
+      0,
+      7,
+      4
+     ],
+     [
+      7,
+      9,
+      9
+     ],
+     [
+      5,
+      4,
+      10
+     ],
+     [
+      2,
+      5,
+      5
+     ],
+     [
+      2,
+      0,
+      5
+     ],
+     [
+      9,
+      1,
+      8
+     ],
+     [
+      6,
+      2,
+      7
+     ],
+     [
+      3,
+      7,
+      10
+     ],
+     [
+      8,
+      4,
+      9
+     ],
+     [
+      9,
+      0,
+      3
+     ],
+     [
+      8,
+      7,
+      4
+     ],
+     [
+      9,
+      4,
+      7
+     ],
+     [
+      9,
+      9,
+      1
+     ]
+    ],
+    "rectangles": [
+     [
+      0,
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      3,
+      1,
+      3
+     ],
+     [
+      0,
+      6,
+      9,
+      1
+     ],
+     [
+      0,
+      7,
+      2,
+      2
+     ],
+     [
+      0,
+      9,
+      9,
+      1
+     ],
+     [
+      1,
+      3,
+      5,
+      2
+     ],
+     [
+      1,
+      5,
+      5,
+      1
+     ],
+     [
+      2,
+      0,
+      5,
+      1
+     ],
+     [
+      2,
+      1,
+      8,
+      1
+     ],
+     [
+      2,
+      2,
+      7,
+      1
+     ],
+     [
+      2,
+      7,
+      5,
+      2
+     ],
+     [
+      6,
+      3,
+      3,
+      3
+     ],
+     [
+      7,
+      0,
+      3,
+      1
+     ],
+     [
+      7,
+      7,
+      2,
+      2
+     ],
+     [
+      9,
+      2,
+      1,
+      7
+     ],
+     [
+      9,
+      9,
+      1,
+      1
+     ]
+    ]
+   },
+   "futoshiki": {
+    "n": 6,
+    "donnes": [
+     [
+      0,
+      1,
+      6
+     ],
+     [
+      1,
+      3,
+      1
+     ],
+     [
+      4,
+      2,
+      2
+     ],
+     [
+      4,
+      0,
+      3
+     ],
+     [
+      1,
+      5,
+      3
+     ]
+    ],
+    "signes": [
+     [
+      [
+       5,
+       3
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     [
+      [
+       3,
+       1
+      ],
+      [
+       3,
+       0
+      ]
+     ],
+     [
+      [
+       2,
+       5
+      ],
+      [
+       2,
+       4
+      ]
+     ],
+     [
+      [
+       3,
+       1
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     [
+      [
+       2,
+       2
+      ],
+      [
+       2,
+       3
+      ]
+     ],
+     [
+      [
+       2,
+       1
+      ],
+      [
+       1,
+       1
+      ]
+     ],
+     [
+      [
+       2,
+       3
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     [
+      [
+       5,
+       0
+      ],
+      [
+       4,
+       0
+      ]
+     ],
+     [
+      [
+       4,
+       2
+      ],
+      [
+       4,
+       1
+      ]
+     ],
+     [
+      [
+       1,
+       2
+      ],
+      [
+       1,
+       1
+      ]
+     ],
+     [
+      [
+       0,
+       2
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     [
+      [
+       3,
+       5
+      ],
+      [
+       4,
+       5
+      ]
+     ],
+     [
+      [
+       1,
+       3
+      ],
+      [
+       2,
+       3
+      ]
+     ],
+     [
+      [
+       3,
+       2
+      ],
+      [
+       3,
+       3
+      ]
+     ],
+     [
+      [
+       1,
+       5
+      ],
+      [
+       1,
+       4
+      ]
+     ],
+     [
+      [
+       2,
+       1
+      ],
+      [
+       2,
+       2
+      ]
+     ]
+    ],
+    "solution": [
+     [
+      5,
+      6,
+      1,
+      3,
+      2,
+      4
+     ],
+     [
+      2,
+      5,
+      4,
+      1,
+      6,
+      3
+     ],
+     [
+      6,
+      2,
+      3,
+      4,
+      5,
+      1
+     ],
+     [
+      4,
+      1,
+      5,
+      6,
+      3,
+      2
+     ],
+     [
+      3,
+      4,
+      2,
+      5,
+      1,
+      6
+     ],
+     [
+      1,
+      3,
+      6,
+      2,
+      4,
+      5
+     ]
+    ]
+   },
+   "compte": {
+    "plaques": [
+     4,
+     9,
+     6,
+     7,
+     8,
+     6
+    ],
+    "cible": 504,
+    "solution": [
+     "4 + 6 = 10",
+     "10 × 7 = 70",
+     "70 − 6 = 64",
+     "64 − 8 = 56",
+     "56 × 9 = 504"
+    ]
+   }
+  },
+  "quiz": [],
+  "solutions_hier": {
+   "sudoku": [
+    6,
+    5,
+    7,
+    4,
+    8,
+    9,
+    1,
+    3,
+    2,
+    9,
+    4,
+    3,
+    6,
+    2,
+    1,
+    5,
+    8,
+    7,
+    2,
+    8,
+    1,
+    3,
+    5,
+    7,
+    6,
+    9,
+    4,
+    7,
+    6,
+    8,
+    2,
+    4,
+    3,
+    9,
+    1,
+    5,
+    3,
+    2,
+    5,
+    1,
+    9,
+    6,
+    4,
+    7,
+    8,
+    4,
+    1,
+    9,
+    8,
+    7,
+    5,
+    3,
+    2,
+    6,
+    8,
+    7,
+    6,
+    9,
+    3,
+    4,
+    2,
+    5,
+    1,
+    1,
+    9,
+    2,
+    5,
+    6,
+    8,
+    7,
+    4,
+    3,
+    5,
+    3,
+    4,
+    7,
+    1,
+    2,
+    8,
+    6,
+    9
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      8,
+      1
+     ],
+     [
+      0,
+      1,
+      1,
+      7
+     ],
+     [
+      0,
+      8,
+      3,
+      2
+     ],
+     [
+      1,
+      1,
+      2,
+      6
+     ],
+     [
+      1,
+      7,
+      8,
+      1
+     ],
+     [
+      3,
+      1,
+      1,
+      2
+     ],
+     [
+      3,
+      3,
+      6,
+      2
+     ],
+     [
+      3,
+      5,
+      1,
+      2
+     ],
+     [
+      3,
+      8,
+      4,
+      2
+     ],
+     [
+      4,
+      1,
+      4,
+      2
+     ],
+     [
+      4,
+      5,
+      5,
+      2
+     ],
+     [
+      7,
+      8,
+      2,
+      2
+     ],
+     [
+      8,
+      0,
+      2,
+      1
+     ],
+     [
+      8,
+      1,
+      2,
+      2
+     ],
+     [
+      9,
+      3,
+      1,
+      2
+     ],
+     [
+      9,
+      5,
+      1,
+      5
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     2,
+     4,
+     3,
+     5,
+     6,
+     1
+    ],
+    [
+     4,
+     2,
+     6,
+     1,
+     3,
+     5
+    ],
+    [
+     3,
+     6,
+     1,
+     2,
+     5,
+     4
+    ],
+    [
+     5,
+     1,
+     2,
+     6,
+     4,
+     3
+    ],
+    [
+     1,
+     5,
+     4,
+     3,
+     2,
+     6
+    ],
+    [
+     6,
+     3,
+     5,
+     4,
+     1,
+     2
+    ]
+   ],
+   "compte": [
+    "5 × 75 = 375",
+    "375 − 10 = 365",
+    "365 + 6 = 371",
+    "371 + 3 = 374"
+   ],
+   "quiz": []
+  },
+  "avertissements": [
+   "Flux indisponibles : ESA"
+  ],
+  "indisponibles": [],
+  "non_rediges": {}
+ },
+ "memoire": {
+  "date": "2026-11-28",
+  "nouveaux_mots": [
+   {
+    "mot": "Limpide",
+    "nature": "adj.",
+    "niveau": "facile",
+    "domaine": "soutenu",
+    "definition": "D'une clarté parfaite, sans ambiguïté.",
+    "exemple": "Son raisonnement était limpide."
+   },
+   {
+    "mot": "Arbitrage",
+    "nature": "n. m.",
+    "niveau": "facile",
+    "domaine": "pro",
+    "definition": "Choix entre plusieurs options concurrentes après comparaison.",
+    "exemple": "Un arbitrage entre coût et délai."
+   },
+   {
+    "mot": "Atavisme",
+    "nature": "n. m.",
+    "niveau": "intermediaire",
+    "domaine": "soutenu",
+    "definition": "Réapparition de caractères hérités d'ancêtres lointains.",
+    "exemple": "Un goût de la terre qui relevait presque de l'atavisme."
+   },
+   {
+    "mot": "Déliquescence",
+    "nature": "n. f.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "Décadence complète, décomposition.",
+    "exemple": "Un parti en pleine déliquescence."
+   },
+   {
+    "mot": "Atrabilaire",
+    "nature": "adj.",
+    "niveau": "difficile",
+    "domaine": "soutenu",
+    "definition": "D'humeur sombre et irritable.",
+    "exemple": "Un vieil oncle atrabilaire."
+   }
+  ],
+  "revisions": [
+   {
+    "mot": "Placide",
+    "definition": "Calme, paisible, que rien ne semble troubler."
+   },
+   {
+    "mot": "Coruscant",
+    "definition": "Qui brille d'un vif éclat ; au figuré, brillant, éclatant."
+   },
+   {
+    "mot": "Solvabilité",
+    "definition": "Capacité d'une personne ou d'une entreprise à honorer ses dettes."
+   },
+   {
+    "mot": "Hapax",
+    "definition": "Mot ou forme dont on ne connaît qu'une seule occurrence."
+   },
+   {
+    "mot": "Ineffable",
+    "definition": "Qui ne peut être exprimé par des mots, tant il est intense ou subtil."
+   }
+  ],
+  "articles": [
+   "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+   "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+   "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+   "https://www.lemonde.fr/politique/article/2026/11/27/l-agence-s-p-menace-de-degrader-encore-la-note-de-la-france-entree-en-recession_6815934_823448.html",
+   "https://www.publicsenat.fr/actualites/parlementaire/budget-2027-apres-quelques-couacs-le-senat-sapprete-a-revoter-sur-la-fiscalisation-des-ald-et-la-suppression-de-la-demi-part-fiscale-des-meres-celibataires",
+   "https://www.publicsenat.fr/actualites/societe/la-proposition-de-loi-mettant-fin-au-devoir-conjugal-en-passe-detre-definitivement-adoptee-par-le-parlement",
+   "https://www.lemonde.fr/politique/article/2026/11/27/ecrits-antisemites-la-defense-de-jordan-bardella-patine-marine-le-pen-maintient-timidement-sa-confiance_6815931_823448.html",
+   "https://www.publicsenat.fr/actualites/economie/seniors-le-gouvernement-modifie-le-mode-de-calcul-de-lallocation-personnalisee-dautonomie",
+   "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/l-hommage-national-aux-victimes-de-l-attentat-raciste-de-trappes-et-de-la-verriere-aura-lieu-le-4-decembre-aux-invalides_8303391.html#xtor=RSS-3-[lestitres]",
+   "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
+   "https://legrandcontinent.eu/fr/2026/11/27/leurope-fait-face-a-une-vague-daffaires-despionnage-russe/",
+   "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+   "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+   "https://www.aljazeera.com/video/newsfeed/2026/11/28/israel-kills-two-msf-staff-in-targeted-strike-on-gaza-clinic?traffic_source=rss",
+   "https://www.scmp.com/news/china/military/article/3376007/china-cambodia-drills-type-071-warship-offloads-tanks-overseas-first-time",
+   "https://www.nber.org/papers/w36045#fromrss",
+   "https://www.nber.org/papers/w36042#fromrss",
+   "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3313~bef94fc3fa.en.pdf",
+   "https://verfassungsblog.de/gambia-v-myanmar-responsibility/",
+   "https://www.nber.org/papers/w36048#fromrss",
+   "https://www.daf-mag.fr/finance-durable-1342/csrd-les-nouvelles-normes-esrs-simplifiees-entrent-en-vigueur-avec-moins-de-donnees-obligatoires-28405",
+   "https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil",
+   "https://www.regulationtomorrow.com/2026/11/amla-consults-on-draft-guidelines-on-outsourcing-reliance-on-cdd-performed-by-another-obliged-entity-and-other-third-party-arrangements/",
+   "https://www.ft.com/content/a8ecccda-f986-4ae9-9f45-9470d2be8c65?syn-25a6b1a6=1",
+   "https://www.sciencesetavenir.fr/sciences/un-million-de-satellites-dans-l-espace-est-ce-possible_196586?xtor=RSS-18",
+   "https://www.sciencesetavenir.fr/espace/dimorphos-apres-le-choc-les-images-qui-surprennent-les-scientifiques_196590?xtor=RSS-9",
+   "https://theconversation.com/comment-une-astuce-utilisee-en-marketing-incite-les-rats-a-entrer-dans-les-pieges-297752",
+   "https://theconversation.com/fausses-images-scientifiques-et-ia-quand-la-mefiance-gagne-jusquaux-revues-academiques-297662",
+   "https://www.sciencesetavenir.fr/nutrition/un-yaourt-perime-une-limace-dans-la-salade-l-ia-affole-les-francais-et-sature-les-centres-antipoison_196588?xtor=RSS-28",
+   "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
+  ],
+  "titres": [
+   "S&P menace d'abaisser la note de la France, désormais en récession",
+   "Budget 2027 : le Sénat va revoter sur les ALD et les mères célibataires",
+   "Devoir conjugal : la loi qui y met fin proche de l'adoption définitive",
+   "Taïwan : des élections locales très disputées, suivies de près par Pékin",
+   "Espionnage russe : l'Europe face à une semaine d'une ampleur inédite",
+   "Asile aux États-Unis : les défenseurs des migrants misent sur la Cour suprême",
+   "Avec AlphaFold2, la recherche creuse le connu plus qu'elle n'explore",
+   "Medicare Advantage : les inscriptions suivent les subventions aux assureurs",
+   "CSRD : les normes ESRS simplifiées allègent les données obligatoires",
+   "IA dans les soins : la CNIL et la HAS publient un guide de bon usage",
+   "SpaceX : un million de satellites en orbite, est-ce possible ?",
+   "Astéroïde percuté par la Nasa : les premières images d’Hera surprennent"
+  ],
+  "solutions": {
+   "sudoku": [
+    5,
+    4,
+    2,
+    6,
+    3,
+    1,
+    9,
+    8,
+    7,
+    8,
+    3,
+    9,
+    5,
+    7,
+    4,
+    1,
+    6,
+    2,
+    7,
+    1,
+    6,
+    2,
+    9,
+    8,
+    3,
+    4,
+    5,
+    4,
+    7,
+    5,
+    9,
+    1,
+    6,
+    8,
+    2,
+    3,
+    2,
+    6,
+    3,
+    8,
+    5,
+    7,
+    4,
+    9,
+    1,
+    9,
+    8,
+    1,
+    4,
+    2,
+    3,
+    7,
+    5,
+    6,
+    6,
+    5,
+    7,
+    1,
+    8,
+    9,
+    2,
+    3,
+    4,
+    3,
+    9,
+    4,
+    7,
+    6,
+    2,
+    5,
+    1,
+    8,
+    1,
+    2,
+    8,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9
+   ],
+   "shikaku": {
+    "largeur": 10,
+    "hauteur": 10,
+    "rectangles": [
+     [
+      0,
+      0,
+      2,
+      3
+     ],
+     [
+      0,
+      3,
+      1,
+      3
+     ],
+     [
+      0,
+      6,
+      9,
+      1
+     ],
+     [
+      0,
+      7,
+      2,
+      2
+     ],
+     [
+      0,
+      9,
+      9,
+      1
+     ],
+     [
+      1,
+      3,
+      5,
+      2
+     ],
+     [
+      1,
+      5,
+      5,
+      1
+     ],
+     [
+      2,
+      0,
+      5,
+      1
+     ],
+     [
+      2,
+      1,
+      8,
+      1
+     ],
+     [
+      2,
+      2,
+      7,
+      1
+     ],
+     [
+      2,
+      7,
+      5,
+      2
+     ],
+     [
+      6,
+      3,
+      3,
+      3
+     ],
+     [
+      7,
+      0,
+      3,
+      1
+     ],
+     [
+      7,
+      7,
+      2,
+      2
+     ],
+     [
+      9,
+      2,
+      1,
+      7
+     ],
+     [
+      9,
+      9,
+      1,
+      1
+     ]
+    ]
+   },
+   "futoshiki": [
+    [
+     5,
+     6,
+     1,
+     3,
+     2,
+     4
+    ],
+    [
+     2,
+     5,
+     4,
+     1,
+     6,
+     3
+    ],
+    [
+     6,
+     2,
+     3,
+     4,
+     5,
+     1
+    ],
+    [
+     4,
+     1,
+     5,
+     6,
+     3,
+     2
+    ],
+    [
+     3,
+     4,
+     2,
+     5,
+     1,
+     6
+    ],
+    [
+     1,
+     3,
+     6,
+     2,
+     4,
+     5
+    ]
+   ],
+   "compte": [
+    "4 + 6 = 10",
+    "10 × 7 = 70",
+    "70 − 6 = 64",
+    "64 − 8 = 56",
+    "56 × 9 = 504"
+   ]
+  },
+  "reponses_quiz": []
+ },
+ "essai": false
+}
