@@ -1,0 +1,14 @@
+{
+  "resultats": [
+    {"sport": "Tennis", "affiche": "Italie – Tchéquie", "score": "2-1", "competition": "Coupe Davis (qualification pour la finale)", "source": "L'Équipe", "url": "https://www.lequipe.fr/Tennis/Actualites/L-italie-triple-tenante-du-titre-signe-face-a-la-tchequie-une-seizieme-victoire-de-suite-et-se-qualifie-pour-la-finale-de-la-coupe-davis/1746798#at_medium=RSS_feeds"},
+    {"sport": "Basket", "affiche": "France – Estonie", "score": "81-73", "competition": "Éliminatoires de la Coupe du monde 2027 (équipe de France)", "source": "L'Équipe", "url": "https://www.lequipe.fr/Basket/Actualites/-je-ne-lui-ai-jamais-dit-que-je-faisais-une-croix-sur-lui-frederic-fauthoux-repond-a-nadir-hifi-apres-estonie-france/1746818#at_medium=RSS_feeds"},
+    {"sport": "Football", "affiche": "Nottingham Forest – Chelsea", "score": "3-2", "competition": "Premier League (championnat d'Angleterre)", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401879225/chelsea-nottingham-forest"},
+    {"sport": "Biathlon", "affiche": "Individuel femmes, Kontiolahti (Finlande)", "score": "3e : Julia Simon", "competition": "Coupe du monde de biathlon", "source": "RMC Sport", "url": "https://rmcsport.bfmtv.com/sports-d-hiver/biathlon/direct-coupe-du-monde-de-biathlon-kontiolahti-suivez-la-premiere-course-feminine-de-la-saison-2026-2027-avec-l-individuel-en-live_LN-202611270637.html"},
+    {"sport": "Rugby", "affiche": "Irlande – Australie", "score": "38-14", "competition": "Championnat des nations (match pour la 5e place)", "source": "L'Équipe", "url": "https://www.lequipe.fr/Rugby/Actualites/L-irlande-maitrise-l-australie-et-termine-5e-du-championnat-des-nations/1746800#at_medium=RSS_feeds"}
+  ],
+  "a_suivre": [
+    {"sport": "Rugby", "affiche": "Lyon – Stade toulousain", "competition": "Top 14 (championnat de France), 10e journée", "heure": "21 h", "source": "ESPN", "url": "https://www.espn.com/rugby/match/_/gameId/604428/league/270559"},
+    {"sport": "Football", "affiche": "Paris Saint-Germain – Lorient", "competition": "Ligue 1 (championnat de France)", "heure": "20 h 45", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401876387/lorient-paris-saint-germain"},
+    {"sport": "Football", "affiche": "Real Madrid – Alavés", "competition": "Liga (championnat d'Espagne)", "heure": "21 h", "source": "ESPN", "url": "https://www.espn.com/soccer/match/_/gameId/401882789/alaves-real-madrid"}
+  ]
+}

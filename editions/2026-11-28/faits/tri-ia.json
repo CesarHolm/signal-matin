@@ -1,0 +1,9 @@
+{
+  "developpes": [
+    {"id": "a7", "score": 8, "raison": "Suppression d'au moins 10 000 postes chez SAP dans une restructuration centrée sur l'IA, selon Bloomberg : conséquences sociales majeures."},
+    {"id": "a1", "score": 7, "raison": "Contre-attaque judiciaire d'OpenAI contre Apple : accusations de vol de secrets industriels et de pressions sur des fournisseurs communs."}
+  ],
+  "breves": [
+    {"id": "a3", "titre": "Trois études de Meta et d'AMI Labs soutiennent le pari de LeCun sur JEPA", "texte": "Trois études de Meta et d'AMI Labs illustrent les progrès de l'architecture JEPA, qui vise à doter les machines d'un modèle interne du monde. Elles portent sur la planification robotique, un entraînement plus efficace et la correction d'erreurs, mais les briques restent à assembler."}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a9", "score": 9, "raison": "Perspective négative de S&P sur la note de la dette française, après l'entrée en récession : conséquences budgétaires et financières directes."},
+    {"id": "a12", "score": 8, "raison": "Plainte de Jordan Bardella contre Mediapart et défense fragilisée sur des écrits antisémites : affaire politique majeure du jour."},
+    {"id": "a33", "score": 8, "raison": "Budget 2027 : le Sénat revote deux mesures fiscales polémiques (fiscalisation des ALD, demi-part des mères célibataires)."},
+    {"id": "a37", "score": 7, "raison": "Proposition de loi mettant fin au devoir conjugal sur le point d'être définitivement adoptée après accord en CMP : changement juridique concret."},
+    {"id": "a17", "score": 6, "raison": "Procès de trois policiers de la BAC pour violences aggravées : enjeu judiciaire et de confiance envers la police."}
+  ],
+  "breves": [
+    {"id": "a39", "titre": "Seniors : le reste à charge de l'APA augmente en moyenne de 12 euros", "texte": "À partir du 1er janvier, le reste à charge de certains bénéficiaires de l'allocation personnalisée d'autonomie pour un accompagnement à domicile augmentera en moyenne de 12 euros. Le gouvernement entend économiser 250 millions d'euros pour les départements."},
+    {"id": "a21", "titre": "Hommage national aux victimes de l'attentat raciste de Trappes et La Verrière", "texte": "L'hommage national se tiendra le 4 décembre aux Invalides, à Paris, plus d'un mois après la mort de Pengo Bossio Wangi. Il sera présidé par le Premier ministre, Sébastien Lecornu."},
+    {"id": "a31", "titre": "Haute-Saône : le préfet suspend l'activité d'un abattoir visé par une enquête", "texte": "Après une plainte annoncée jeudi par l'association L214 contre la Société d'abattage des Vosges saônoises, le préfet a suspendu l'activité de l'abattoir mis en cause."}
+  ]
+}

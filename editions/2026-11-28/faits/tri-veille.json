@@ -1,0 +1,10 @@
+{
+  "developpes": [
+    {"id": "a132", "score": 8, "raison": "Entrée en vigueur des normes ESRS simplifiées de la CSRD, avec moins de données obligatoires : évolution réglementaire concrète."},
+    {"id": "a99", "score": 7, "raison": "Guide conjoint HAS-CNIL sur l'IA en contexte de soins : repères RGPD opérationnels pour les acteurs de santé."}
+  ],
+  "breves": [
+    {"id": "a127", "titre": "AMLA : consultation sur la sous-traitance et le recours aux tiers en LCB-FT", "texte": "L'autorité européenne de lutte contre le blanchiment (AMLA) soumet à consultation des projets de lignes directrices sur la sous-traitance, le recours à la vigilance client effectuée par un autre assujetti et d'autres dispositifs tiers."},
+    {"id": "a123", "titre": "UE : contrôles d'exportation renforcés envisagés pour les déchets de batteries", "texte": "L'Union européenne envisage des contrôles à l'exportation plus stricts pour empêcher que des déchets de batteries ne partent vers la Chine, selon le Financial Times."}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "developpes": [
+    {"id": "a93", "score": 8, "raison": "Étude NBER portant sur 530 471 protéines (2017-2025) : effet d'AlphaFold2 sur le choix entre nouvelles questions et approfondissement de la recherche."},
+    {"id": "a92", "score": 7, "raison": "Étude NBER sur l'élasticité des inscriptions à Medicare Advantage au montant du bon versé aux bénéficiaires qui choisissent le privé : enjeu direct de politique de santé."}
+  ],
+  "breves": [
+    {"id": "a91", "titre": "Un cadre unifiant contrôles synthétiques et modèles DSGE", "texte": "Un document de travail de la BCE intègre les contrôles synthétiques à un modèle DSGE micro-fondé. Il relie l'effet causal estimé aux mécanismes économiques et permet d'analyser des politiques."},
+    {"id": "a98", "titre": "CIJ : réparations ordonnées à la Birmanie pour les Rohingyas", "texte": "Selon une analyse publiée sur le Verfassungsblog, les réparations ordonnées par la CIJ dépendent d'acteurs bien au-delà de l'État birman, car une partie du territoire lui échappe désormais."},
+    {"id": "a95", "titre": "Alignement de l'IA : les choix révélés du principal suffisent-ils ?", "texte": "Gans et Holden, dans un document de travail du NBER, proposent un critère pour savoir quand les décisions d'un principal suffisent à guider une IA. Une capacité accrue peut toutefois transformer l'erreur en actions incorrectes."}
+  ]
+}

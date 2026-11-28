@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a76", "score": 8, "raison": "Frappe israélienne ayant tué deux employés de MSF dans une clinique de Gaza : fait grave, ONG humanitaire visée."},
+    {"id": "a79", "score": 8, "raison": "Attaque mortelle au Koweït : l'Italie affirme que le drone utilisé a été fabriqué en Iran, dans le contexte de la guerre."},
+    {"id": "a75", "score": 7, "raison": "Élections locales à Taïwan ce samedi : test pour le Parti démocrate progressiste et, à Taipei, pour le Kuomintang."},
+    {"id": "a87", "score": 6, "raison": "Du 21 au 27 novembre, 32 actions hostiles recensées contre l'Europe : vague d'affaires d'espionnage russe."},
+    {"id": "a46", "score": 6, "raison": "Asile quasi éteint aux États-Unis : la Cour suprême doit examiner si certaines évolutions privent des personnes de garanties de procédure."}
+  ],
+  "breves": [
+    {"id": "a69", "titre": "Chine-Cambodge : des chars débarqués par un navire de transport amphibie, une première", "texte": "Pour la première fois, la Chine a envoyé ses chars de bataille par un navire de transport amphibie vers l'Asie du Sud-Est, pour un exercice conjoint de 15 jours avec le Cambodge, commencé mercredi à Ream."},
+    {"id": "a61", "titre": "Australie : relance discrète d'un accord logistique antarctique avec la Chine", "texte": "L'Australie a discrètement relancé un accord bilatéral de logistique antarctique avec la Chine, révélé par un document du Sénat obtenu par l'ABC. Il couvre la saison antarctique 2026-2027."},
+    {"id": "a53", "titre": "Pologne : un contrat de 300 millions de dollars avec Palantir pour l'IA militaire", "texte": "Le ministre polonais de la Défense juge « une erreur » de ne pas utiliser ce logiciel, malgré les inquiétudes sur la dépendance aux technologies américaines."}
+  ]
+}

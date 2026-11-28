@@ -1,0 +1,14 @@
+{
+  "developpes": [
+    {"id": "a140", "score": 8, "raison": "Autorisation américaine d'une constellation pouvant compter un million de satellites : enjeux concrets pour l'espace et sa viabilité."},
+    {"id": "a141", "score": 7, "raison": "Premières images de Dimorphos par la sonde Hera : résultat inattendu, fait nouveau."},
+    {"id": "a156", "score": 7, "raison": "Affaissement des mégapoles côtières africaines : sept millions de personnes exposées aux inondations d'ici 2050."},
+    {"id": "a136", "score": 6, "raison": "Délivrance de matériel génétique dans les cellules : enjeu médical concret, reportage de fond."}
+  ],
+  "breves": [
+    {"id": "a145", "titre": "Rats : un appât inaccessible augmente de 83 % les entrées", "texte": "En Australie, un appât placé hors d'atteinte devant un tunnel a accru de 83 % les entrées de rats noirs. Cet effet de « leurre fantôme », emprunté au marketing, pourrait améliorer la dératisation à faible coût."},
+    {"id": "a149", "titre": "Fausses images scientifiques : l'IA met à l'épreuve les revues académiques", "texte": "En 2024, deux études ont été rétractées pour des figures générées par intelligence artificielle, avant un nouveau cas en avril 2026. Les détecteurs peinent à suivre les générateurs."},
+    {"id": "a143", "titre": "L'IA submerge les centres antipoison français", "texte": "Depuis l'été, les centres antipoison français sont submergés d'appels provoqués par des réponses parfois alarmistes de l'intelligence artificielle. Les équipes sont épuisées."},
+    {"id": "a153", "titre": "Cultures spatiales : une expérience de la NASA vers l'ISS", "texte": "La 25e mission commerciale de ravitaillement de Northrop Grumman emportera vers la Station spatiale internationale un système inédit de production de cultures spatiales, dans le cadre d'expériences de la NASA."}
+  ]
+}
